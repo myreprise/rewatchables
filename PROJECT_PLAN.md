@@ -1,7 +1,7 @@
 # Rewatchables Film Enrichment Pipeline - Project Plan & Status
 
-**Last Updated:** 2026-06-19  
-**Project Status:** Phase 3 Complete (TMDB Enrichment) - Ready for Manual Review & Curated Build
+**Last Updated:** 2026-06-20  
+**Project Status:** MVP Complete - 100% resolved, curated zone built with revisit tracking
 
 > **2026-06-20 update:** Source xlsx revised (corrected entries + `is_film`
 > column → 464 films / 7 non-films). Full pipeline re-run from a clean raw
@@ -43,7 +43,7 @@ A **working weekly pipeline** that:
 - [x] Revisits detected and sequenced correctly (**25 movies, 26 revisit links; integrity-checked**)
 - [x] No duplicate canonical movies (**430 canonical movies, 0 duplicates**)
 - [x] Secrets never committed to git (git initialized 2026-06-19; `.env`/`.db` ignored)
-- [ ] Manual review workflow operational (34 items queued; CSV workflow pending)
+- [x] Manual review workflow operational (**CSV export/apply; 8 items reviewed → 100% resolved**)
 
 ### Out of Scope for MVP
 
@@ -212,20 +212,27 @@ Post-enrichment validation:
 
 ---
 
-### Phase 4: Manual Review Workflow ⏳ PENDING
+### Phase 4: Manual Review Workflow ✅ COMPLETE
 
-**Duration:** 1-2 weeks  
-**Status:** Not started - depends on Phase 3 completion  
+**Duration:** 1-2 weeks (actual: <1 day)  
+**Status:** Complete (2026-06-20)  
 **Goal:** Human-in-the-loop for low-confidence matches
 
-#### Planned Tasks
+#### Completed Tasks
 
-1. ⏳ Export `manual_review_queue` to CSV
-2. ⏳ Create approval script (reads CSV with human selections)
-3. ⏳ Promote approved matches → `curated_movies`
-4. ⏳ Build `curated_episode_movies` fact table
-5. ⏳ Test revisit detection on approved movies
-6. ⏳ Verify revisit sequence numbers correct
+1. ✅ Export `manual_review_queue` to CSV (`07_export_review_queue.py`)
+2. ✅ Approval script reads CSV decisions (`08_apply_review.py`)
+3. ✅ Promote approved matches → `curated_movies` (fetches metadata for chosen ids)
+4. ✅ Build `curated_episode_movies` fact table (`06_build_curated.py`)
+5. ✅ Revisit detection runs on rebuild after approvals
+6. ✅ Revisit sequence numbers verified (integrity-checked, 0 violations)
+
+#### Result
+
+- 8 review items processed → **100% resolution, 0 pending**
+- Both paths exercised: accept top candidate, and pick a non-top candidate
+  (Ocean's 11 → *Ocean's Eleven* not the documentary; Victory → *Escape to Victory*)
+- Curated zone: **438 canonical movies, 464 episode links, 0 duplicates**
 
 #### Deliverables
 
@@ -276,11 +283,11 @@ Revisit detection runs (checks for same movie_id in prior episodes)
 
 #### MVP Complete When
 
-- [ ] 200+ episodes enriched successfully
-- [ ] <15% manual review rate
-- [ ] Zero duplicate canonical movies
-- [ ] Revisits correctly sequenced
-- [ ] Weekly pipeline runs unattended
+- [x] 200+ episodes enriched successfully (**464 films**)
+- [x] <15% manual review rate (**0% after review; 1.7% pre-review**)
+- [x] Zero duplicate canonical movies (**438, 0 dupes**)
+- [x] Revisits correctly sequenced (**integrity-checked**)
+- [ ] Weekly pipeline runs unattended (Phase 6, post-MVP)
 
 ---
 
@@ -518,9 +525,12 @@ rewatchables/
 │   ├── 01_sync_sheets.py              # ⚠️ Deferred (manual sync OK)
 │   ├── 02_load_raw.py                 # ✅ Working
 │   ├── 03_normalize_and_resolve.py    # ✅ Working
-│   ├── 04_enrich.py                   # ⏳ Needs TMDB API key
-│   ├── 05_validate.py                 # ✅ Working (baseline)
-│   └── orchestrate.py                 # ⏳ Ready (not tested)
+│   ├── 04_enrich.py                   # ✅ TMDB scoring + auto-resolution
+│   ├── 05_validate.py                 # ✅ Working (+ revisit metrics)
+│   ├── 06_build_curated.py            # ✅ Curated zone + revisit detection
+│   ├── 07_export_review_queue.py      # ✅ Manual-review CSV export
+│   ├── 08_apply_review.py             # ✅ Apply review decisions
+│   └── orchestrate.py                 # ⏳ Ready (not updated for 06-08)
 ├── config/
 │   ├── .env.template                  # ✅ Tracked
 │   └── .env                           # ✅ Created (needs TMDB key)
@@ -595,6 +605,16 @@ Status: ✅ Complete | ⏳ In Progress | ⚠️ Partial | 🔮 Future
 ---
 
 ## Change Log
+
+### 2026-06-20 (manual-review workflow — MVP complete)
+
+- ✅ New `07_export_review_queue.py`: queue low-confidence mentions → editable CSV
+- ✅ New `08_apply_review.py`: apply approve/reject decisions, fetch metadata for
+  chosen ids, rebuild curated zone (re-running revisit detection)
+- ✅ Processed 8 review items → **100% resolution, 0 pending**; queue all 'approved'
+- ✅ Final curated zone: 438 movies, 464 links, 0 duplicates
+- 🎉 **All MVP success criteria met** (enrichment, revisits, no dupes, secrets,
+  manual review). Remaining: unattended automation (Phase 6, post-MVP).
 
 ### 2026-06-20 (curated zone + revisit detection)
 
