@@ -39,9 +39,9 @@ A **working weekly pipeline** that:
 ### MVP Success Criteria
 
 - [x] 471 episodes processed without errors
-- [x] 70%+ high-confidence auto-matches from TMDB (**achieved: 97.2% of films**)
-- [ ] Revisits detected and sequenced correctly (code not yet written; ~15 in data)
-- [ ] No duplicate canonical movies (curated zone not yet built)
+- [x] 70%+ high-confidence auto-matches from TMDB (**achieved: 98.3% of films**)
+- [x] Revisits detected and sequenced correctly (**25 movies, 26 revisit links; integrity-checked**)
+- [x] No duplicate canonical movies (**430 canonical movies, 0 duplicates**)
 - [x] Secrets never committed to git (git initialized 2026-06-19; `.env`/`.db` ignored)
 - [ ] Manual review workflow operational (34 items queued; CSV workflow pending)
 
@@ -363,9 +363,9 @@ Podcast episodes often revisit movies (e.g., "Fight Club" discussed in Episode 1
 | `raw_episodes` | 471 | ✅ Complete |
 | `staging_episodes` | 471 | ✅ Complete |
 | `staging_movie_mentions` | 471 | ✅ Complete |
-| `curated_movies` | 0 | ⏳ Awaiting Phase 4 |
-| `curated_episode_movies` | 0 | ⏳ Awaiting Phase 4 |
-| `curated_audits` | 0 | ⏳ Awaiting Phase 4 |
+| `curated_movies` | 430 | ✅ Built (0 duplicates) |
+| `curated_episode_movies` | 456 | ✅ Built (26 revisit links) |
+| `curated_audits` | 430 | ✅ One provenance row per movie |
 | `api_call_log` | 0 | ⏳ Awaiting Phase 3 |
 | `manual_review_queue` | 0 | ⏳ Awaiting Phase 3 |
 | `data_quality_results` | 1 | ✅ Baseline captured |
@@ -595,6 +595,17 @@ Status: ✅ Complete | ⏳ In Progress | ⚠️ Partial | 🔮 Future
 ---
 
 ## Change Log
+
+### 2026-06-20 (curated zone + revisit detection)
+
+- ✅ New `06_build_curated.py`: promotes auto-resolved mentions into
+  `curated_movies` / `curated_episode_movies` / `curated_audits` (idempotent rebuild)
+- ✅ Revisit detection: episodes ordered by date → `revisit_sequence` + `is_revisit`
+- ✅ Built: **430 canonical movies, 456 episode links, 26 revisit links, 0 duplicates**
+- ✅ Sequence integrity verified (exactly one seq=1 per movie, contiguous sequencing)
+- ✅ `05_validate` now reports curated/revisit metrics (`new_movies`, `revisited_movies`)
+- 📋 Only auto-resolved (high-confidence) mentions promoted; the 8 manual-review
+  items still pending the approval workflow
 
 ### 2026-06-20 (xlsx revision re-run)
 

@@ -92,21 +92,29 @@ def generate_quality_report(db_path):
     manual_review = cursor.fetchone()[0]
     
     resolved = total_mentions - manual_review
-    
+
     quality_run_id = str(uuid.uuid4())
     resolution_rate_pct = (resolved / total_mentions * 100) if total_mentions > 0 else 0
-    
+
+    # Curated-zone metrics (present once Phase 4 build has run)
+    cursor.execute('SELECT COUNT(*) FROM curated_movies')
+    curated_movies = cursor.fetchone()[0]
+    cursor.execute('SELECT COUNT(*) FROM curated_movies WHERE revisit_count > 0')
+    revisited_movies = cursor.fetchone()[0]
+    new_movies = curated_movies - revisited_movies
+
     # Store quality results
     cursor.execute('''
         INSERT INTO data_quality_results
-            (quality_run_id, total_episodes_processed, total_movie_mentions, resolved_mentions, 
-             unresolved_mentions, resolution_rate_pct, run_status)
-        VALUES (?, ?, ?, ?, ?, ?, ?)
-    ''', (quality_run_id, total_episodes, total_mentions, resolved, manual_review, resolution_rate_pct, 'success'))
-    
+            (quality_run_id, total_episodes_processed, total_movie_mentions, resolved_mentions,
+             unresolved_mentions, resolution_rate_pct, new_movies, revisited_movies, run_status)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+    ''', (quality_run_id, total_episodes, total_mentions, resolved, manual_review,
+          resolution_rate_pct, new_movies, revisited_movies, 'success'))
+
     conn.commit()
     conn.close()
-    
+
     logger.info("=" * 60)
     logger.info("Data Quality Report")
     logger.info("=" * 60)
@@ -115,6 +123,7 @@ def generate_quality_report(db_path):
     logger.info(f"Resolved mentions: {resolved}")
     logger.info(f"Manual review queue: {manual_review}")
     logger.info(f"Resolution rate: {resolution_rate_pct:.1f}%")
+    logger.info(f"Curated movies: {curated_movies} ({revisited_movies} revisited, {new_movies} single-feature)")
     logger.info("=" * 60)
 
 def main():
