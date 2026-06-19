@@ -147,15 +147,16 @@ def search_tmdb(db_path, title, year=None):
                 return []
         except (requests.Timeout, requests.ConnectionError) as e:
             last_err = e
-            logger.warning(f"TMDB transient error for '{title}' (attempt {attempt+1}/3): {e}")
+            logger.warning(f"TMDB transient error for '{title}' "
+                           f"(attempt {attempt+1}/3): {_redact(str(e))}")
             time.sleep(2 * (attempt + 1))
         except Exception as e:
             log_api_call(db_path, 'tmdb', title, None, None, error=str(e))
-            logger.error(f"TMDB search error for '{title}': {e}")
+            logger.error(f"TMDB search error for '{title}': {_redact(str(e))}")
             return []
 
     log_api_call(db_path, 'tmdb', title, None, None, error=str(last_err))
-    logger.error(f"TMDB search gave up after retries for '{title}': {last_err}")
+    logger.error(f"TMDB search gave up after retries for '{title}': {_redact(str(last_err))}")
     return []
 
 

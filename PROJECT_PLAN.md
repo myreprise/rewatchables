@@ -3,13 +3,13 @@
 **Last Updated:** 2026-06-19  
 **Project Status:** Phase 3 Complete (TMDB Enrichment) - Ready for Manual Review & Curated Build
 
-> **2026-06-19 update:** TMDB enrichment implemented + hardened. Non-film
-> episodes (`is_film=0`) are filtered out, title annotations are stripped before
-> search, and the resolver retries transient failures with a no-year fallback.
-> **97.2% of films auto-resolved (452/465).** The 13 remaining are genuine
-> manual-review cases (subtitle near-misses, one wrong source year, live-show
-> specials). Project is under git version control. Next: Phase 4 (manual review
-> + curated/revisit build).
+> **2026-06-20 update:** Source xlsx revised (corrected entries + `is_film`
+> column → 464 films / 7 non-films). Full pipeline re-run from a clean raw
+> reload. **98.3% of films auto-resolved (456/464)**, manual-review rate 1.7%.
+> The 8 remaining are genuine manual-review near-misses (subtitle differences
+> like "Terminator 2" → *Judgment Day*; ambiguous "Ocean's 11"/"Victory").
+> Resolver hardened (retries, no-year fallback, API-key redaction in logs).
+> Next: Phase 4 (manual review + curated/revisit build).
 
 ---
 
@@ -542,8 +542,8 @@ Status: ✅ Complete | ⏳ In Progress | ⚠️ Partial | 🔮 Future
 | Episodes Ingested | 471 | 471 | ✅ 100% |
 | Episodes Normalized | 471 | 471 | ✅ 100% |
 | Episodes Enriched | 465 films | 465 films | ✅ 100% |
-| High-Confidence Matches | 97.2% | >70% | ✅ Pass |
-| Manual Review Rate | 2.8% | <30% | ✅ Pass |
+| High-Confidence Matches | 98.3% | >70% | ✅ Pass |
+| Manual Review Rate | 1.7% | <30% | ✅ Pass |
 | Duplicate Movies | 0 | 0 | ✅ Pass |
 | Secrets in Git | 0 | 0 | ✅ Pass |
 | Revisits Detected | N/A | TBD | ⏳ Pending (code not written) |
@@ -595,6 +595,16 @@ Status: ✅ Complete | ⏳ In Progress | ⚠️ Partial | 🔮 Future
 ---
 
 ## Change Log
+
+### 2026-06-20 (xlsx revision re-run)
+
+- ✅ Source xlsx revised by user (corrected entries + `is_film`: 464 films / 7 non-films)
+- ✅ Clean raw reload (cleared raw+staging — `02_load_raw` appends per run, so a
+  reload without clearing would duplicate) → full pipeline re-run
+- ✅ **98.3% of films auto-resolved (456/464)**, manual-review rate 1.7%
+- ✅ Hardened `04_enrich`: redact API key from logged messages (was leaking the
+  key into console/log output, not just the DB column)
+- 📋 8 remaining are genuine near-misses for Phase 4 manual review
 
 ### 2026-06-19 (data-cleanup pass)
 
