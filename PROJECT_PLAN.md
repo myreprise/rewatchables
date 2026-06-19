@@ -1,7 +1,13 @@
 # Rewatchables Film Enrichment Pipeline - Project Plan & Status
 
 **Last Updated:** 2026-06-19  
-**Project Status:** Phase 3 Complete (Normalization) - Ready for TMDB Enrichment
+**Project Status:** Phase 3 Complete (TMDB Enrichment) - Ready for Manual Review & Curated Build
+
+> **2026-06-19 update:** TMDB enrichment is implemented and has run on all 471
+> mentions. **92.8% auto-resolved** (94.0% of the 465 actual films), 0 API errors.
+> The 34 remaining are 6 non-film episodes (`is_film=0`, should be filtered) and
+> ~28 titles with annotations/near-misses for manual review. Project is now under
+> git version control. Next: Phase 4 (manual review + curated/revisit build).
 
 ---
 
@@ -31,11 +37,11 @@ A **working weekly pipeline** that:
 ### MVP Success Criteria
 
 - [x] 471 episodes processed without errors
-- [ ] 70%+ high-confidence auto-matches from TMDB
-- [ ] Revisits detected and sequenced correctly
-- [ ] No duplicate canonical movies
-- [x] Secrets never committed to git
-- [ ] Manual review workflow operational
+- [x] 70%+ high-confidence auto-matches from TMDB (**achieved: 92.8%**)
+- [ ] Revisits detected and sequenced correctly (code not yet written; ~15 in data)
+- [ ] No duplicate canonical movies (curated zone not yet built)
+- [x] Secrets never committed to git (git initialized 2026-06-19; `.env`/`.db` ignored)
+- [ ] Manual review workflow operational (34 items queued; CSV workflow pending)
 
 ### Out of Scope for MVP
 
@@ -149,20 +155,35 @@ Post-enrichment validation:
 
 ---
 
-### Phase 3: TMDB Enrichment ⏳ PENDING
+### Phase 3: TMDB Enrichment ✅ COMPLETE
 
-**Duration:** 2-3 weeks  
-**Status:** Ready to start - requires TMDB API key  
+**Duration:** 2-3 weeks (actual: <1 day)  
+**Status:** Complete (2026-06-19)  
 **Goal:** TMDB API matching + candidate ranking working
 
-#### Remaining Tasks
+#### Completed Tasks
 
-1. ⏳ Register TMDB API key (free tier at https://www.themoviedb.org/settings/api)
-2. ⏳ Add API key to `config/.env` as `TMDB_API_KEY=your_key_here`
-3. ⏳ Run `scripts/04_enrich.py` on full dataset (471 episodes)
-4. ⏳ Tune confidence thresholds based on results
-5. ⏳ Verify rate limits respected (40 req/10sec)
-6. ⏳ Review API call logging
+1. ✅ TMDB API key acquired and wired into `config/.env`
+2. ✅ Rewrote `04_enrich.py` with real candidate scoring + auto-resolution
+   (was retrieval-only; now `confidence = 0.75*title_sim + 0.25*year_score`)
+3. ✅ Ran on full dataset: 437 auto-resolved, 9 below-threshold, 25 no-hit
+4. ✅ Confidence threshold 0.85 with title-similarity guard (≥0.6)
+5. ✅ Rate limits respected (~4 req/sec vs 40/10s limit), 0 errors
+6. ✅ API call logging working (`api_call_log`: 472 rows)
+
+#### Results
+
+- **Auto-resolved: 437/471 = 92.8%** (94.0% of 465 actual films) — exceeds 70% target
+- API errors: 0
+- Of the 34 not auto-resolved: 6 are non-film episodes (`is_film=0`),
+  the rest are titles with annotations (e.g. "(Live from D.C.)", "(1989)")
+  or near-misses below threshold
+
+#### Known follow-up (improves resolution further)
+
+- Strip trailing parentheticals/annotations in normalization before search
+  (would resolve most of the ~19 annotated film titles, several of which are revisits)
+- Filter `is_film=0` rows out of the resolution pipeline
 
 #### Expected Deliverables
 
@@ -518,13 +539,13 @@ Status: ✅ Complete | ⏳ In Progress | ⚠️ Partial | 🔮 Future
 |--------|---------|------------|--------|
 | Episodes Ingested | 471 | 471 | ✅ 100% |
 | Episodes Normalized | 471 | 471 | ✅ 100% |
-| Episodes Enriched | 0 | 471 | ⏳ 0% |
-| High-Confidence Matches | N/A | >70% | ⏳ Blocked |
-| Manual Review Rate | 100% | <30% | ⏳ Blocked |
+| Episodes Enriched | 471 | 471 | ✅ 100% |
+| High-Confidence Matches | 92.8% | >70% | ✅ Pass |
+| Manual Review Rate | 7.2% | <30% | ✅ Pass |
 | Duplicate Movies | 0 | 0 | ✅ Pass |
 | Secrets in Git | 0 | 0 | ✅ Pass |
-| Revisits Detected | N/A | TBD | ⏳ Pending |
-| API Errors | 0 | <5% | ⏳ Not tested |
+| Revisits Detected | N/A | TBD | ⏳ Pending (code not written) |
+| API Errors | 0 | <5% | ✅ Pass (0/472 calls) |
 
 ---
 
@@ -572,6 +593,18 @@ Status: ✅ Complete | ⏳ In Progress | ⚠️ Partial | 🔮 Future
 ---
 
 ## Change Log
+
+### 2026-06-19 (later)
+
+- ✅ Fixed TMDB key wiring: key was in root `./.env` named `TMDB_API`; moved to
+  `config/.env` as `TMDB_API_KEY` (the path the scripts load). Verified live.
+- ✅ Rewrote `04_enrich.py`: added candidate scoring + auto-resolution
+  (previously retrieval-only — it queued 100% for manual review regardless of key)
+- ✅ Ran full enrichment: **92.8% auto-resolved, 0 API errors**
+- ✅ `git init` + initial commit; `.env` and `*.db` confirmed git-ignored
+- ✅ Deleted stray root `.env` (loose secret copy)
+- 📋 Identified follow-ups: strip title annotations in normalization;
+  filter `is_film=0`; build revisit detection (still unimplemented)
 
 ### 2026-06-19
 
