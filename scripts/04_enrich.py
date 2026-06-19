@@ -41,11 +41,23 @@ YEAR_WINDOW = int(os.getenv('MATCH_YEAR_WINDOW', '2'))
 RATE_LIMIT_SLEEP = 0.25  # ~4 req/sec, well under TMDB's 40 req / 10 sec
 
 
+def strip_annotations(title):
+    """Remove podcast annotations (parentheticals, bracketed/quoted asides)
+    that break TMDB search, e.g. 'Batman (1989)' -> 'Batman'."""
+    if not title:
+        return ''
+    t = str(title)
+    t = re.sub(r'\([^)]*\)', ' ', t)
+    t = re.sub(r'\[[^\]]*\]', ' ', t)
+    t = re.sub(r'[\"“”][^\"“”]*[\"“”]', ' ', t)
+    return re.sub(r'\s+', ' ', t).strip()
+
+
 def normalize_title(title):
     """Lowercase, drop a leading 'the', strip punctuation, collapse whitespace."""
     if not title:
         return ''
-    t = title.lower().strip()
+    t = strip_annotations(title).lower().strip()
     t = re.sub(r'^the\s+', '', t)
     t = re.sub(r'[^a-z0-9\s]', '', t)
     t = re.sub(r'\s+', ' ', t).strip()
@@ -72,9 +84,17 @@ def score_candidate(query_title, query_year, cand_title, cand_year):
     return round(confidence, 4), round(title_sim, 4), year_score
 
 
+def _redact(text):
+    """Never persist the API key (it leaks into requests' exception strings)."""
+    if text and TMDB_API_KEY:
+        return text.replace(TMDB_API_KEY, '***')
+    return text
+
+
 def log_api_call(db_path, api_source, query, status_code, response_time_ms,
                  rate_limit_remaining=None, error=None):
     """Log API call for monitoring."""
+    error = _redact(error)
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
     call_id = str(uuid.uuid4())
@@ -99,38 +119,44 @@ def search_tmdb(db_path, title, year=None):
     if year:
         params['year'] = year
 
-    try:
-        start_time = time.time()
-        response = requests.get(url, params=params, timeout=8)
-        elapsed_ms = int((time.time() - start_time) * 1000)
-        rate_limit_remaining = response.headers.get('x-ratelimit-remaining')
+    last_err = None
+    for attempt in range(3):  # retry transient network/timeouts with backoff
+        try:
+            start_time = time.time()
+            response = requests.get(url, params=params, timeout=10)
+            elapsed_ms = int((time.time() - start_time) * 1000)
+            rate_limit_remaining = response.headers.get('x-ratelimit-remaining')
 
-        if response.status_code == 200:
-            results = response.json().get('results', [])
-            log_api_call(db_path, 'tmdb', title, 200, elapsed_ms, rate_limit_remaining)
-            candidates = []
-            for r in results[:5]:
-                candidates.append({
-                    'id': r['id'],
-                    'title': r['title'],
-                    'year': r.get('release_date', '')[:4] if r.get('release_date') else None,
-                    'popularity': r.get('popularity', 0),
-                    'vote_average': r.get('vote_average', 0),
-                })
-            return candidates
-        else:
-            log_api_call(db_path, 'tmdb', title, response.status_code, elapsed_ms,
-                         error=f"HTTP {response.status_code}")
-            logger.warning(f"TMDB search failed: {response.status_code} for '{title}'")
+            if response.status_code == 200:
+                results = response.json().get('results', [])
+                log_api_call(db_path, 'tmdb', title, 200, elapsed_ms, rate_limit_remaining)
+                candidates = []
+                for r in results[:5]:
+                    candidates.append({
+                        'id': r['id'],
+                        'title': r['title'],
+                        'year': r.get('release_date', '')[:4] if r.get('release_date') else None,
+                        'popularity': r.get('popularity', 0),
+                        'vote_average': r.get('vote_average', 0),
+                    })
+                return candidates
+            else:
+                log_api_call(db_path, 'tmdb', title, response.status_code, elapsed_ms,
+                             error=f"HTTP {response.status_code}")
+                logger.warning(f"TMDB search failed: {response.status_code} for '{title}'")
+                return []
+        except (requests.Timeout, requests.ConnectionError) as e:
+            last_err = e
+            logger.warning(f"TMDB transient error for '{title}' (attempt {attempt+1}/3): {e}")
+            time.sleep(2 * (attempt + 1))
+        except Exception as e:
+            log_api_call(db_path, 'tmdb', title, None, None, error=str(e))
+            logger.error(f"TMDB search error for '{title}': {e}")
             return []
-    except requests.Timeout:
-        log_api_call(db_path, 'tmdb', title, None, None, error="timeout")
-        logger.warning(f"TMDB search timeout for '{title}'")
-        return []
-    except Exception as e:
-        log_api_call(db_path, 'tmdb', title, None, None, error=str(e))
-        logger.error(f"TMDB search error for '{title}': {e}")
-        return []
+
+    log_api_call(db_path, 'tmdb', title, None, None, error=str(last_err))
+    logger.error(f"TMDB search gave up after retries for '{title}': {last_err}")
+    return []
 
 
 def enrich_staging_mentions(db_path, limit=None):
@@ -153,8 +179,17 @@ def enrich_staging_mentions(db_path, limit=None):
     auto, manual, nohit = 0, 0, 0
 
     for mention_id, title_raw, title_norm, year in mentions:
-        search_title = (title_raw or title_norm or '').strip()
+        # Search on the de-annotated title; fall back to the stored normalized form
+        search_title = strip_annotations(title_raw) or title_norm or ''
+        search_title = search_title.strip()
         candidates = search_tmdb(db_path, search_title, year)
+
+        # Fallback: a wrong source year filters out all results — retry without it
+        # and let the scorer judge the title/year match.
+        if not candidates and year:
+            candidates = search_tmdb(db_path, search_title, None)
+            if candidates:
+                time.sleep(RATE_LIMIT_SLEEP)
 
         if not candidates:
             nohit += 1

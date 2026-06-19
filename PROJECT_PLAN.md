@@ -3,11 +3,13 @@
 **Last Updated:** 2026-06-19  
 **Project Status:** Phase 3 Complete (TMDB Enrichment) - Ready for Manual Review & Curated Build
 
-> **2026-06-19 update:** TMDB enrichment is implemented and has run on all 471
-> mentions. **92.8% auto-resolved** (94.0% of the 465 actual films), 0 API errors.
-> The 34 remaining are 6 non-film episodes (`is_film=0`, should be filtered) and
-> ~28 titles with annotations/near-misses for manual review. Project is now under
-> git version control. Next: Phase 4 (manual review + curated/revisit build).
+> **2026-06-19 update:** TMDB enrichment implemented + hardened. Non-film
+> episodes (`is_film=0`) are filtered out, title annotations are stripped before
+> search, and the resolver retries transient failures with a no-year fallback.
+> **97.2% of films auto-resolved (452/465).** The 13 remaining are genuine
+> manual-review cases (subtitle near-misses, one wrong source year, live-show
+> specials). Project is under git version control. Next: Phase 4 (manual review
+> + curated/revisit build).
 
 ---
 
@@ -37,7 +39,7 @@ A **working weekly pipeline** that:
 ### MVP Success Criteria
 
 - [x] 471 episodes processed without errors
-- [x] 70%+ high-confidence auto-matches from TMDB (**achieved: 92.8%**)
+- [x] 70%+ high-confidence auto-matches from TMDB (**achieved: 97.2% of films**)
 - [ ] Revisits detected and sequenced correctly (code not yet written; ~15 in data)
 - [ ] No duplicate canonical movies (curated zone not yet built)
 - [x] Secrets never committed to git (git initialized 2026-06-19; `.env`/`.db` ignored)
@@ -539,9 +541,9 @@ Status: ✅ Complete | ⏳ In Progress | ⚠️ Partial | 🔮 Future
 |--------|---------|------------|--------|
 | Episodes Ingested | 471 | 471 | ✅ 100% |
 | Episodes Normalized | 471 | 471 | ✅ 100% |
-| Episodes Enriched | 471 | 471 | ✅ 100% |
-| High-Confidence Matches | 92.8% | >70% | ✅ Pass |
-| Manual Review Rate | 7.2% | <30% | ✅ Pass |
+| Episodes Enriched | 465 films | 465 films | ✅ 100% |
+| High-Confidence Matches | 97.2% | >70% | ✅ Pass |
+| Manual Review Rate | 2.8% | <30% | ✅ Pass |
 | Duplicate Movies | 0 | 0 | ✅ Pass |
 | Secrets in Git | 0 | 0 | ✅ Pass |
 | Revisits Detected | N/A | TBD | ⏳ Pending (code not written) |
@@ -593,6 +595,16 @@ Status: ✅ Complete | ⏳ In Progress | ⚠️ Partial | 🔮 Future
 ---
 
 ## Change Log
+
+### 2026-06-19 (data-cleanup pass)
+
+- ✅ `03_normalize`: strip title annotations (parentheticals/quoted asides),
+  skip non-film episodes (`is_film=0`), made staging rebuild idempotent
+- ✅ `04_enrich`: retry transient network failures, no-year fallback search,
+  redact API key from logged error messages
+- ✅ Re-enriched: **97.2% of films auto-resolved (452/465)**, up from 92.8%
+- 📋 Remaining 13 are true manual-review cases (subtitle near-misses, 1 wrong
+  source year for "A Bronx Tale", live-show specials)
 
 ### 2026-06-19 (later)
 
