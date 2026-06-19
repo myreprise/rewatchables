@@ -1,0 +1,64 @@
+# Environment variables and secrets (never commit)
+.env
+.env.local
+.env.*.local
+
+# Database files
+*.db
+*.db-journal
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Data (raw exports, working files, not committed)
+data/raw/
+data/staging/
+data/*.csv
+data/*.xlsx.bak
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.tmp
+tmp/
+temp/
