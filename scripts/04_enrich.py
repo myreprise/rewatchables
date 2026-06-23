@@ -47,9 +47,11 @@ def strip_annotations(title):
     if not title:
         return ''
     t = str(title)
+    # Strip quoted asides first so nested cases like '("A Few Good (Re)Men")'
+    # are removed as a unit before the paren pass runs
+    t = re.sub(r'[\"""][^\"""]*[\"""]', ' ', t)
     t = re.sub(r'\([^)]*\)', ' ', t)
     t = re.sub(r'\[[^\]]*\]', ' ', t)
-    t = re.sub(r'[\"“”][^\"“”]*[\"“”]', ' ', t)
     return re.sub(r'\s+', ' ', t).strip()
 
 

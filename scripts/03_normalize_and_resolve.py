@@ -31,13 +31,14 @@ def strip_annotations(title):
       'Heat ("The Three-Heat")'       -> 'Heat'
     """
     if not title:
-        return title
+        return ''
     t = str(title)
-    # Drop parenthetical / bracketed asides (the bulk of the noise)
+    # Drop quoted asides first (before parens, so nested cases like
+    # '("A Few Good (Re)Men")' are removed as a unit)
+    t = re.sub(r'[\"""][^\"""]*[\"""]', ' ', t)
+    # Drop parenthetical / bracketed asides
     t = re.sub(r'\([^)]*\)', ' ', t)
     t = re.sub(r'\[[^\]]*\]', ' ', t)
-    # Drop quoted asides (straight and curly quotes)
-    t = re.sub(r'[\"“”][^\"“”]*[\"“”]', ' ', t)
     return re.sub(r'\s+', ' ', t).strip()
 
 def normalize_title(title):
