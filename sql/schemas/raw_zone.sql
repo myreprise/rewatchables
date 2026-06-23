@@ -33,6 +33,7 @@ CREATE TABLE IF NOT EXISTS raw_episodes (
     notes TEXT,
     rating TEXT,
     is_film TEXT,
+    ebert_stars TEXT,
     
     -- Metadata for change detection and auditability
     source_hash TEXT NOT NULL,

@@ -67,18 +67,33 @@ def parse_year(year_raw):
     """Extract year as integer."""
     if not year_raw:
         return None
-    
+
     year_str = str(year_raw).strip()
-    
-    # Try to extract 4-digit year
+
     match = re.search(r'\d{4}', year_str)
     if match:
         year = int(match.group())
-        # Sanity check
         if 1850 <= year <= 2100:
             return year
-    
+
     return None
+
+
+def normalize_date(date_raw):
+    """Return ISO YYYY-MM-DD regardless of input format (M/D/YYYY, YYYY-MM-DD, etc.)."""
+    if not date_raw:
+        return None
+    s = str(date_raw).strip()
+    # Already ISO or ISO with time component
+    iso = re.match(r'(\d{4}-\d{2}-\d{2})', s)
+    if iso:
+        return iso.group(1)
+    # M/D/YYYY or MM/DD/YYYY
+    mdy = re.match(r'(\d{1,2})/(\d{1,2})/(\d{4})', s)
+    if mdy:
+        m, d, y = mdy.groups()
+        return f"{y}-{int(m):02d}-{int(d):02d}"
+    return s  # return as-is if unrecognised
 
 def normalize_director(director_raw):
     """Normalize director name."""
@@ -116,15 +131,15 @@ def process_raw_to_staging(db_path, limit=None):
             staging_episode_id = str(uuid.uuid4())
             
             cursor.execute('''
-                INSERT INTO staging_episodes 
+                INSERT INTO staging_episodes
                     (staging_episode_id, raw_episode_id, episode_number, episode_title, episode_date, validation_status)
                 VALUES (?, ?, ?, ?, ?, ?)
             ''', (
                 staging_episode_id,
                 raw_episode_id,
-                ep,  # Assume 'ep' is episode number
+                ep,
                 ep_title,
-                date,
+                normalize_date(date),
                 'pending'
             ))
             

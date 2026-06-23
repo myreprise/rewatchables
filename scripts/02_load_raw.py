@@ -72,36 +72,49 @@ def load_xlsx_to_raw(xlsx_path, db_path):
         VALUES (?, ?, ?, ?, ?)
     ''', (ingest_run_id, 'data/master.xlsx', sync_timestamp, len(df), 'success'))
     
-    # Insert rows
+    # Validate xlsx columns against schema before inserting anything
+    schema_cols = {r[1] for r in cursor.execute('PRAGMA table_info(raw_episodes)')}
+    unknown = [c for c in df.columns if c not in schema_cols]
+    if unknown:
+        logger.error(f"xlsx has columns not in raw_episodes schema: {unknown}")
+        logger.error("Add them to sql/schemas/raw_zone.sql and run: "
+                     "ALTER TABLE raw_episodes ADD COLUMN <name> TEXT")
+        conn.close()
+        sys.exit(1)
+
+    # Only insert xlsx columns present in the schema (future-proof for partial adds)
+    insert_cols = [c for c in df.columns if c in schema_cols]
+
+    inserted = 0
     for idx, row in df.iterrows():
         raw_episode_id = str(uuid.uuid4())
         row_dict = row.to_dict()
-        
-        # Compute fingerprint
+
+        # Compute fingerprint over ALL source values (including any future cols)
         row_str = '|'.join([str(v) for v in row.values])
         source_hash = hashlib.md5(row_str.encode()).hexdigest()
-        
-        # Prepare values in column order
+
         values = [raw_episode_id, ingest_run_id]
-        for col in df.columns:
+        for col in insert_cols:
             values.append(row_dict.get(col))
         values.extend([source_hash, idx, sync_timestamp])
-        
+
+        cols = ['raw_episode_id', 'ingest_run_id'] + insert_cols + ['source_hash', 'gs_row_number', 'ingested_at']
         placeholders = ', '.join(['?'] * len(values))
-        cols = ['raw_episode_id', 'ingest_run_id'] + list(df.columns) + ['source_hash', 'gs_row_number', 'ingested_at']
-        
+
         try:
             cursor.execute(f'''
                 INSERT INTO raw_episodes ({', '.join(cols)})
                 VALUES ({placeholders})
             ''', values)
+            inserted += 1
         except sqlite3.IntegrityError as e:
             logger.warning(f"Row {idx}: {e} (likely duplicate, skipping)")
             continue
-    
+
     conn.commit()
     conn.close()
-    logger.info(f"✓ Loaded {len(df)} rows into raw_episodes")
+    logger.info(f"✓ Loaded {inserted}/{len(df)} rows into raw_episodes")
 
 def main():
     xlsx_path = 'data/master.xlsx'
