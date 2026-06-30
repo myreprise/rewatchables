@@ -114,8 +114,18 @@ def process_raw_to_staging(db_path, limit=None):
     cursor.execute('DELETE FROM staging_movie_mentions')
     cursor.execute('DELETE FROM staging_episodes')
 
-    # Fetch raw episodes
-    query = 'SELECT raw_episode_id, ep, date, title, year, director, is_film FROM raw_episodes'
+    # Fetch raw episodes from the LATEST ingest run only.
+    # raw_episodes accumulates one immutable snapshot per load_raw run, so
+    # selecting all rows would double-count episodes once more than one
+    # snapshot exists. Pin to the most recent ingest run for a clean rebuild.
+    query = '''
+        SELECT raw_episode_id, ep, date, title, year, director, is_film
+        FROM raw_episodes
+        WHERE ingest_run_id = (
+            SELECT ingest_run_id FROM raw_ingest_runs
+            ORDER BY sync_timestamp DESC LIMIT 1
+        )
+    '''
     if limit:
         query += f' LIMIT {limit}'
 
