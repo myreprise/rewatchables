@@ -247,3 +247,80 @@ class TestEnrichMetadata:
         ).fetchone()
         conn.close()
         assert before == after
+
+
+# ---------------------------------------------------------------------------
+# Persistent cache: avoid re-fetching metadata the db already has
+# ---------------------------------------------------------------------------
+
+def _null_out_curated_metadata(db_path, tmdb_id=None):
+    """Simulate 06_build_curated wiping + rebuilding curated_movies, which
+    clears the five enriched columns while the cache survives. Optionally
+    restrict to a single tmdb_id."""
+    conn = sqlite3.connect(db_path)
+    sql = ("UPDATE curated_movies SET genres=NULL, runtime_minutes=NULL, "
+           "cast_names=NULL, plot_summary=NULL, poster_url_tmdb=NULL")
+    params = ()
+    if tmdb_id is not None:
+        sql += " WHERE tmdb_id = ?"
+        params = (tmdb_id,)
+    conn.execute(sql, params)
+    conn.commit()
+    conn.close()
+
+
+class TestMetadataCache:
+    def test_fetch_writes_through_to_cache(self, tmp_db):
+        with patch("requests.get", return_value=_mock_response(SAMPLE_DETAIL)):
+            enrich_metadata(tmp_db)
+
+        conn = sqlite3.connect(tmp_db)
+        row = conn.execute(
+            "SELECT genres, runtime_minutes, cast_names, plot_summary, poster_url_tmdb "
+            "FROM tmdb_metadata_cache WHERE tmdb_id = 949"
+        ).fetchone()
+        conn.close()
+        assert row is not None
+        assert json.loads(row[0]) == ["Crime", "Drama", "Action"]
+        assert row[1] == 170
+
+    def test_rebuild_refills_from_cache_without_api(self, tmp_db):
+        # First run: cache miss → one real API call, metadata + cache populated.
+        with patch("requests.get", return_value=_mock_response(SAMPLE_DETAIL)) as g1:
+            enrich_metadata(tmp_db)
+        assert g1.call_count == 1
+
+        # Simulate a curated rebuild that clears Heat's enriched columns.
+        # (Heat is the movie that went through the cache on the first run.)
+        _null_out_curated_metadata(tmp_db, tmdb_id=949)
+
+        # Second run: curated_movies is missing Heat's metadata again, but the
+        # cache has it → zero API calls, columns refilled from local storage.
+        with patch("requests.get", return_value=_mock_response(SAMPLE_DETAIL)) as g2:
+            enriched, errors = enrich_metadata(tmp_db)
+        assert g2.call_count == 0
+        assert errors == 0
+        assert enriched == 1  # Heat refilled from cache
+
+        conn = sqlite3.connect(tmp_db)
+        row = conn.execute(
+            "SELECT genres, runtime_minutes FROM curated_movies WHERE tmdb_id = 949"
+        ).fetchone()
+        conn.close()
+        assert json.loads(row[0]) == ["Crime", "Drama", "Action"]
+        assert row[1] == 170
+
+    def test_404_miss_not_cached(self, tmp_db):
+        # A 404 yields no payload; nothing should be cached, so a later run
+        # is free to retry.
+        mock = MagicMock()
+        mock.status_code = 404
+        with patch("requests.get", return_value=mock):
+            enrich_metadata(tmp_db)
+
+        conn = sqlite3.connect(tmp_db)
+        cached = conn.execute(
+            "SELECT COUNT(*) FROM tmdb_metadata_cache WHERE tmdb_id = 949"
+        ).fetchone()[0]
+        conn.close()
+        assert cached == 0

@@ -47,6 +47,22 @@ CREATE INDEX IF NOT EXISTS idx_curated_movies_tmdb ON curated_movies(tmdb_id);
 CREATE INDEX IF NOT EXISTS idx_curated_movies_wikidata ON curated_movies(wikidata_qid);
 CREATE INDEX IF NOT EXISTS idx_curated_movies_title ON curated_movies(title);
 
+-- TMDB metadata cache: persistent, keyed by the stable tmdb_id.
+-- The curated zone is wiped and rebuilt from staging on every run, which clears
+-- the enriched metadata columns on curated_movies. This cache is NEVER cleared
+-- by the rebuild, so 09_enrich_metadata can refill those columns from here
+-- instead of re-calling TMDB. A row's existence = "already fetched"; individual
+-- columns may legitimately be NULL (e.g. a film with no poster).
+CREATE TABLE IF NOT EXISTS tmdb_metadata_cache (
+    tmdb_id INTEGER PRIMARY KEY,
+    genres TEXT,            -- JSON array of genre strings
+    runtime_minutes INTEGER,
+    cast_names TEXT,        -- JSON array of top 10 cast members
+    plot_summary TEXT,
+    poster_url_tmdb TEXT,
+    cached_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
 -- Episode-to-Movie facts: allows same movie across multiple episodes
 -- This is where revisits are explicitly modeled
 CREATE TABLE IF NOT EXISTS curated_episode_movies (

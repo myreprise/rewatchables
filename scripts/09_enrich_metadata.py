@@ -14,6 +14,13 @@ Fills five previously-null columns:
 
 Idempotent: skips movies where all five columns are already filled.
 Re-running after future xlsx reloads only costs calls for newly added movies.
+
+Persistent cache: every fetched payload is written through to the
+`tmdb_metadata_cache` table (keyed by tmdb_id). Because 06_build_curated wipes
+and rebuilds curated_movies on every run — clearing these five columns — the
+cache lets us refill from local storage instead of re-calling TMDB. A TMDB call
+is made only for a tmdb_id never seen before. So after adding one new film, a
+full pipeline re-run costs exactly one metadata call, not one per movie.
 """
 
 import json
@@ -90,6 +97,48 @@ def _parse(data):
     return genres, runtime, cast_names, plot_summary, poster_url
 
 
+def ensure_cache_table(cursor):
+    """Create the metadata cache if it does not yet exist.
+
+    The schema also defines this table, but existing databases predating the
+    cache won't have it (02_load_raw only runs the schema on a fresh db), so
+    create it here defensively.
+    """
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS tmdb_metadata_cache (
+            tmdb_id INTEGER PRIMARY KEY,
+            genres TEXT,
+            runtime_minutes INTEGER,
+            cast_names TEXT,
+            plot_summary TEXT,
+            poster_url_tmdb TEXT,
+            cached_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )
+    """)
+
+
+def cache_get(cursor, tmdb_id):
+    """Return the five cached columns for tmdb_id, or None on a cache miss.
+
+    A returned row (even with NULL members) means TMDB was already queried for
+    this id; None means it has never been fetched.
+    """
+    return cursor.execute(
+        "SELECT genres, runtime_minutes, cast_names, plot_summary, poster_url_tmdb "
+        "FROM tmdb_metadata_cache WHERE tmdb_id = ?", (tmdb_id,)
+    ).fetchone()
+
+
+def cache_put(cursor, tmdb_id, genres, runtime, cast_names, plot_summary, poster_url):
+    """Write-through the parsed metadata for tmdb_id into the cache."""
+    cursor.execute(
+        "INSERT OR REPLACE INTO tmdb_metadata_cache "
+        "(tmdb_id, genres, runtime_minutes, cast_names, plot_summary, "
+        " poster_url_tmdb, cached_at) "
+        "VALUES (?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)",
+        (tmdb_id, genres, runtime, cast_names, plot_summary, poster_url))
+
+
 def enrich_metadata(db_path):
     if not TMDB_API_KEY:
         logger.error("TMDB_API_KEY not set in config/.env")
@@ -97,6 +146,7 @@ def enrich_metadata(db_path):
 
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
+    ensure_cache_table(cursor)
 
     # Only fetch movies that are still missing metadata
     cursor.execute("""
@@ -114,15 +164,24 @@ def enrich_metadata(db_path):
     logger.info(f"Enriching metadata for {len(pending)}/{total} movies "
                 f"({total - len(pending)} already complete)")
 
-    enriched = errors = 0
+    enriched = from_cache = from_api = errors = 0
     for movie_id, tmdb_id, title in pending:
-        data = fetch_details(tmdb_id)
-        if data is None:
-            errors += 1
-            time.sleep(RATE_LIMIT_SLEEP)
-            continue
-
-        genres, runtime, cast_names, plot_summary, poster_url = _parse(data)
+        cached = cache_get(cursor, tmdb_id)
+        if cached is not None:
+            # Cache hit: refill curated_movies from local storage, no API call.
+            genres, runtime, cast_names, plot_summary, poster_url = cached
+            from_cache += 1
+        else:
+            # Cache miss: fetch once, then write through to the cache.
+            data = fetch_details(tmdb_id)
+            if data is None:
+                errors += 1
+                time.sleep(RATE_LIMIT_SLEEP)
+                continue
+            genres, runtime, cast_names, plot_summary, poster_url = _parse(data)
+            cache_put(cursor, tmdb_id, genres, runtime, cast_names,
+                      plot_summary, poster_url)
+            from_api += 1
 
         cursor.execute("""
             UPDATE curated_movies
@@ -139,10 +198,13 @@ def enrich_metadata(db_path):
         enriched += 1
         if enriched % 50 == 0:
             logger.info(f"  {enriched}/{len(pending)} enriched...")
-        time.sleep(RATE_LIMIT_SLEEP)
+        # Rate-limit only when we actually called the API; cache hits are free.
+        if cached is None:
+            time.sleep(RATE_LIMIT_SLEEP)
 
     conn.close()
-    logger.info(f"✓ Metadata enrichment complete: {enriched} enriched, {errors} errors")
+    logger.info(f"✓ Metadata enrichment complete: {enriched} enriched "
+                f"({from_cache} from cache, {from_api} from API), {errors} errors")
     return enriched, errors
 
 
