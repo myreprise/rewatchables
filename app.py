@@ -1519,6 +1519,17 @@ def keep(widget, *args, key, **kwargs):
     return value
 
 
+def kept(key, default=None):
+    """The value keep() last saw for `key`, on a run that does not draw it.
+
+    Movie Explorer needs its sort order above the dossier gate -- the step
+    arrows walk the sorted result set -- but draws the picker below it, so on a
+    dossier run there is no widget to read. The shadow is the only surviving
+    copy by then: Streamlit has already discarded the widget's own entry.
+    """
+    return st.session_state.get(key, st.session_state.get(f"_keep_{key}", default))
+
+
 def render_dossier(movie_id, siblings=None):
     """The per-film detail view: identity, episodes, the film, provenance.
 
@@ -2938,15 +2949,6 @@ elif section == "explorer":
         tmdb_range = keep(
             st.slider, "TMDB Rating", 0.0, 10.0, (0.0, 10.0), 0.1, key="flt_tmdb")
 
-        sort_by = keep(
-            st.selectbox,
-            "Sort by",
-            ["Episode date (newest)", "Episode date (oldest)", "Title",
-             "Year (newest)", "Year (oldest)",
-             "TMDB Rating", "RT Score", "Ebert Score", "Runtime"],
-            key="flt_sort",
-        )
-
         search = keep(st.text_input, "Search title", key="flt_search")
 
     # movies_rated is movies_df with the per-film episode ratings already joined;
@@ -2988,6 +2990,15 @@ elif section == "explorer":
     # across 373 films -- and sort_values is not stable, so a single-key sort
     # reshuffled hundreds of cards between runs. Every key but the date itself
     # breaks ties on first airing.
+    # The picker sits in the main pane beside the film count, which is below
+    # the dossier gate -- but the order is needed above it, because the step
+    # arrows walk this result set. So the value is read from state here and the
+    # widget that owns it is drawn later. On the run where the reader changes
+    # it, session_state already holds the new label, so the two never disagree.
+    sort_by = kept("flt_sort", next(iter(sort_map)))
+    if sort_by not in sort_map:
+        # A stored session value naming an option that no longer exists.
+        sort_by = next(iter(sort_map))
     col_s, asc_s = sort_map[sort_by]
     keys = [col_s] if col_s == "first_episode_date" else [col_s, "first_episode_date"]
     order = [asc_s] if len(keys) == 1 else [asc_s, False]
@@ -2998,7 +3009,19 @@ elif section == "explorer":
         st.stop()
 
     masthead("Movie Explorer", "Filter and search every film they have covered.")
-    st.caption(f"{len(view)} films match your filters")
+    # 7:3 rather than 3:1 -- measured, the select needs ~200px for its widest
+    # option ("Episode date (newest)", 147px of text plus padding and chevron)
+    # and 3:1 left it 187px, which truncated the default label to an ellipsis.
+    head, picker = st.columns([7, 3], vertical_alignment="center")
+    with head:
+        st.caption(f"{len(view)} films match your filters")
+    with picker:
+        # Same key the read above used. keep() re-seeds it from the shadow on
+        # the run after a dossier, which is exactly the run where Streamlit has
+        # dropped the widget's own state. The return value goes unused: the
+        # sort ran above, on the value this widget is about to display.
+        keep(st.selectbox, "Sort by", list(sort_map), key="flt_sort",
+             label_visibility="collapsed")
 
     # Poster grid
     COLS = 8
