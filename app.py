@@ -292,6 +292,52 @@ h3 { color:var(--tape) !important; font-size:1.02rem !important; font-weight:700
 [data-baseweb="tag"] { background:var(--mint) !important; color:var(--ink) !important; }
 [data-baseweb="tag"] span { color:var(--ink) !important; }
 
+/* Selects and multiselects. Stock BaseWeb ships them as #101211 on a #0B0D0C
+   page with a border the same colour as their own fill -- a control with no
+   edge, set in Source Sans, which is the one typeface the rest of the page
+   never uses. They read as gaps in the layout rather than as things to click.
+   Given the same treatment as .stButton so every control on the page is
+   recognisably the same family. !important throughout: BaseWeb sets these
+   inline, and an inline style beats a stylesheet regardless of specificity. */
+[data-baseweb="select"] > div {
+  background:var(--ink-3) !important; border:1px solid var(--line-2) !important;
+  border-radius:5px !important; transition:border-color .15s;
+}
+[data-baseweb="select"] > div:hover { border-color:var(--mint) !important; }
+[data-baseweb="select"] > div:focus-within {
+  border-color:var(--mint) !important;
+  box-shadow:0 0 0 3px rgba(43,232,160,.15) !important;
+}
+[data-baseweb="select"] input, [data-baseweb="select"] div[value] {
+  font-family:'IBM Plex Mono',ui-monospace,monospace !important;
+  font-size:12px !important; letter-spacing:.04em;
+}
+/* The chevron is the one saturated mark in an otherwise monochrome row, which
+   is what the eye lands on. Scoped to the control: the tag close crosses on a
+   multiselect are svgs too, and they sit on mint already. */
+[data-baseweb="select"] > div > div:last-child svg { color:var(--mint); }
+
+/* The menu, which otherwise floats edgeless over the poster grid. */
+[data-baseweb="popover"] ul {
+  background:var(--ink-2) !important; border:1px solid var(--line-2) !important;
+  border-radius:5px !important;
+}
+[data-baseweb="popover"] li {
+  font-family:'IBM Plex Mono',ui-monospace,monospace !important;
+  font-size:12px !important; color:var(--txt-2) !important;
+}
+[data-baseweb="popover"] li[aria-selected="true"] {
+  background:rgba(43,232,160,.13) !important; color:var(--mint) !important;
+}
+
+/* Widget labels, as the mono micro-caps every other piece of furniture uses.
+   Matches .rw-kw-eyebrow, so the sidebar filters and the sort picker announce
+   themselves the same way a section eyebrow does. */
+[data-testid="stWidgetLabel"] p {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:9.5px;
+  letter-spacing:.18em; text-transform:uppercase; color:var(--txt-3);
+}
+
 /* ── Tables ───────────────────────────────────────────────────────────── */
 .stDataFrame { background:var(--ink-2); border:1px solid var(--line); border-radius:7px; }
 [data-testid="stTable"] { background:var(--ink-2); }
@@ -3014,14 +3060,21 @@ elif section == "explorer":
     # and 3:1 left it 187px, which truncated the default label to an ellipsis.
     head, picker = st.columns([7, 3], vertical_alignment="center")
     with head:
-        st.caption(f"{len(view)} films match your filters")
+        # The same mono micro-caps every other poster grid puts over itself,
+        # rather than st.caption's Source Sans. It leaves the picker as the one
+        # bright thing in the row, which is the point: the count is the label
+        # and the picker is the control.
+        st.markdown(
+            f'<div class="rw-kw-gridnote"><span>{len(view)} films match your '
+            f"filters</span></div>",
+            unsafe_allow_html=True,
+        )
     with picker:
         # Same key the read above used. keep() re-seeds it from the shadow on
         # the run after a dossier, which is exactly the run where Streamlit has
         # dropped the widget's own state. The return value goes unused: the
         # sort ran above, on the value this widget is about to display.
-        keep(st.selectbox, "Sort by", list(sort_map), key="flt_sort",
-             label_visibility="collapsed")
+        keep(st.selectbox, "Sort by", list(sort_map), key="flt_sort")
 
     # Poster grid
     COLS = 8
