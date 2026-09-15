@@ -148,13 +148,21 @@ def test_films_without_box_office_exist(conn):
     assert 0 < with_box < total, "expected partial box-office coverage"
 
 
-def test_films_without_a_wiki_synopsis_exist(conn):
-    """The dossier hides the synopsis block for these rather than showing empty."""
-    missing = conn.execute(
+def test_every_wiki_synopsis_records_its_source(conn):
+    """Since step 12 began taking live Wikipedia (2026-09) all 456 films have a
+    synopsis, so the dossier's hide-when-missing path is now reached only by a
+    film whose article has no plot section. What the data must still promise
+    is that a synopsis on screen is never blank and always says which vintage
+    of Wikipedia it came from.
+    """
+    bad = conn.execute(
         "SELECT COUNT(*) FROM curated_movies "
-        "WHERE plot_summary_wiki IS NULL OR plot_summary_wiki = ''"
+        "WHERE plot_summary_wiki = '' "
+        "   OR (plot_summary_wiki IS NOT NULL "
+        "       AND (plot_summary_wiki_source IS NULL "
+        "            OR plot_summary_wiki_source NOT IN ('cmu_2012', 'wikipedia_live')))"
     ).fetchone()[0]
-    assert missing > 0
+    assert bad == 0
 
 
 # ── Markup flattening ─────────────────────────────────────────────────────────

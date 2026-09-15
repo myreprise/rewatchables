@@ -17,6 +17,7 @@ strip_annotations = mod.strip_annotations
 normalize_title   = mod.normalize_title
 parse_year        = mod.parse_year
 normalize_date    = mod.normalize_date
+parse_revisited   = mod.parse_revisited
 
 
 class TestStripAnnotations:
@@ -143,3 +144,38 @@ class TestNormalizeDate:
 
     def test_empty_returns_none(self):
         assert normalize_date("") is None
+
+
+class TestParseRevisited:
+    """The sheet's curated `revisited` column. The raw zone stores everything as
+    text, so a 1 arrives as '1', '1.0' or 'True' depending on pandas typing."""
+
+    @pytest.mark.parametrize("raw", ["1", "1.0", 1, 1.0, "True", "true", "yes"])
+    def test_truthy_values_parse_to_one(self, raw):
+        assert parse_revisited(raw) == 1
+
+    @pytest.mark.parametrize("raw", ["0", "0.0", 0, 0.0, "False", "false", "no"])
+    def test_falsy_values_parse_to_zero(self, raw):
+        assert parse_revisited(raw) == 0
+
+    def test_whitespace_is_tolerated(self):
+        assert parse_revisited(" 1 ") == 1
+
+    def test_none_returns_none(self):
+        assert parse_revisited(None) is None
+
+    def test_empty_cell_returns_none(self):
+        """An empty cell is 'unknown', not 'explicitly not a revisit' — the two
+        must stay distinguishable so a half-filled column is visible."""
+        assert parse_revisited("") is None
+
+    def test_pandas_nan_string_returns_none(self):
+        """02_load_raw does df.astype(str), so a blank becomes the text 'nan'."""
+        assert parse_revisited("nan") is None
+
+    def test_unrecognised_value_returns_none_not_zero(self):
+        assert parse_revisited("maybe") is None
+
+    def test_zero_is_not_confused_with_missing(self):
+        assert parse_revisited("0") == 0
+        assert parse_revisited("0") is not None

@@ -1,0 +1,19 @@
+# The episode list is the tracked source of truth and the whole reason it is a
+# CSV rather than the xlsx it replaced is that git can diff it line by line.
+# core.autocrlf is true on this machine, so without pinning the endings the file
+# is CRLF in the working tree and LF in the repo, while the pipeline's writers
+# (01_sync_sheets.py and convert_xlsx_to_csv.py) emit LF. Pinning eol=lf keeps
+# every path consistent, so adding an episode stays a one-line diff instead of
+# occasionally reading as "every line changed".
+data/episodes.csv text eol=lf
+
+# Same treatment for the upcoming list. Here the xlsx IS the source of truth and
+# the CSV is regenerated from it by 13_build_upcoming.py on every run -- which
+# makes the pinning matter more, not less: a derived file that re-diffs as "every
+# line changed" on a machine with a different autocrlf setting is worse than
+# useless.
+data/upcoming.csv text eol=lf
+
+# Spreadsheets are binary; never try to merge or diff them as text.
+*.xlsx binary
+*.xls  binary

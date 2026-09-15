@@ -1,0 +1,60 @@
+ep,date,title,column,sheet_value,episodes_csv_value
+10,2017-08-31,Youve Got Mail,title,You've Got Mail,Youve Got Mail
+34,2018-06-07,Ocean's 11,title,Oceans 11,Ocean's 11
+92,2019-08-20,Fatal Attraction,genre,Thriller;Drama;Erotic;,Thriller;Drama;
+95,2019-09-05,Eyes Wide Shut,genre,Mystery;Drama;Erotic;,Mystery;Drama;
+111,2019-12-16,The Godfather Part II,notes,"Raj originally gave it 3/4 stars, but re-assessed in 2008","Rog originally gave it 3/4 stars, but re-assessed in 2008"
+116,2020-01-24,Heat,title,"Heat (""The Re-Heat"")",Heat
+121,2020-03-05,Ocean's 12,title,Oceans 12,Ocean's 12
+131,2020-04-14,Basic Instinct,genre,Thriller;Mystery;Erotic;,Thriller;Mystery;
+138,2020-05-07,Groundhog Day,notes,"Raj originally gave it 3/4 stars, but re-assessed in 2005","Rog originally gave it 3/4 stars, but re-assessed in 2005"
+150,2020-07-16,25th Hour,notes,"Raj originally gave it 3.5/4 stars, but re-assessed in 2009","Rog originally gave it 3.5/4 stars, but re-assessed in 2009"
+163,2020-09-15,Unfaithful,genre,Romance;Thriller;Erotic;,Romance;Thriller;
+165,2020-09-22,Se7en,notes,"Raj originally gave it 3.5/4 stars, but re-assessed in 2011","Rog originally gave it 3.5/4 stars, but re-assessed in 2011"
+223,2021-10-05,The Departed,title,The Re-Departed,The Departed
+227,2021-11-02,Heat,title,"Heat (""The Three-Heat"")",Heat
+232,2021-12-07,Saturday Night Fever,notes,"Raj originally gave it 3.5/4 stars, but re-assessed in 1999","Rog originally gave it 3.5/4 stars, but re-assessed in 1999"
+266,2022-08-01,Unforgiven,notes,"Raj originally gave it 2.5/4 stars, but re-assessed in 2002","Rog originally gave it 2.5/4 stars, but re-assessed in 2002"
+280,2022-11-01,American Gigolo,genre,Crime;Drama;Erotic;,Crime;Drama;
+280,2022-11-01,American Gigolo,notes,Naughty November' month (contributed by u/Randy_Marsh55),
+281,2022-11-08,Cruising,notes,Naughty November' month,
+282,2022-11-15,Blow Out,notes,Naughty November' month,
+283,2022-11-22,Body Heat,genre,Noir;Drama;Erotic;,Noir;Drama;
+283,2022-11-22,Body Heat,notes,Naughty November' month,
+284,2022-11-29,"Planes, Trains and Automobiles",notes,"Raj originally gave it 3.5/4 stars, but reassessed in 2000","Rog originally gave it 3.5/4 stars, but reassessed in 2000"
+299,2023-03-14,Bad Boys,notes,"Raj originally gave it 3/4 stars, but reassessed in 1989","Rog originally gave it 3/4 stars, but reassessed in 1989"
+303,2023-04-11,Indecent Proposal,genre,Romance;Drama;Erotic;,Romance;Drama;
+320,2023-07-31,A Few Good Men,title,"A Few Good Men: Live from L.A. (""A Few Good (Re)Men"")",A Few Good Men
+95,2023-08-15,Eyes Wide Shut,genre,Drama;Mystery;Erotic;,Drama;Mystery;
+325,2023-09-19,A Bronx Tale,year,2003,1993
+328,2023-10-10,They Live,title,They Live (Live from L.A.),They Live
+343,2024-02-06,The Fugitive,title,The Fugitive (Live from Chicago),The Fugitive
+343,2024-02-06,The Fugitive,guest3,Craig Horlbeck*,Craig Horlbeck
+344,2024-02-13,Forrest Gump,title,Forrest Gump (Live from D.C.),Forrest Gump
+345,2024-02-20,Creed,title,Creed (Live from Philadelphia),Creed
+346,2024-02-27,Rounders,title,Rounders (Live from New York),Rounders
+349,2024-03-19,Internal Affairs,genre,Thriller;Crime;Erotic;,Thriller;Crime;
+80,2024-09-10,The Sixth Sense,host,Chris Ryan,Sean Fennessey
+80,2024-09-10,The Sixth Sense,guest1,Sean Fennessey,Chris Ryan
+377,2024-10-15,The Silence of the Lambs,title,The Silence of the Lambs (Live from New York),The Silence of the Lambs
+380,2024-11-04,Body Double,genre,Thriller;Erotic;Mystery;,Thriller;
+384,2024-12-09,Disclosure,genre,Thriller;Mystery;Erotic;,Thriller;Mystery;
+388,2025-01-06,Den of Thieves,title,Den of Thieves (Live from L.A.),Den of Thieves
+399,2025-03-31,Good Will Hunting,title,Good Will Hunting (Live from Boston),Good Will Hunting
+415,2025-07-21,Species,genre,Sci-fi;Horror;Erotic;,Sci-fi;Horror;
+420,2025-08-25,Witness,genre,Noir;Crime;Thriller;Romance;,Noir;Crime;Thriller;
+444,2026-01-26,Zodiac,title,"Zodiac (""The Re-Zodiac"")",Zodiac
+445,2026-02-02,Wild Things,genre,Thriller;Erotic;,Thriller;
+449,2026-03-02,Sicario,title,Sicario (Live),Sicario
+456,2026-04-13,Basic Instinct,title,Basic Instinct: Live from SF,Basic Instinct
+456,2026-04-13,Basic Instinct,genre,Thriller;Mystery;Erotic;,Thriller;Mystery;
+461,2026-05-18,Borat! Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan,guest1,Kyle Brandt,
+465,2026-06-08,Single White Female,ebert,3/4,4/4
+468,2026-06-25,The Good Son,guest1,Chris Ryan,
+468,2026-06-25,The Good Son,guest2,Sean Fennessey,
+473,2026-07-27,Obsession,year,2025,2026
+477,2026-08-17,Speed,title,"Speed (""The Re-Speed"")",Speed
+478,2026-08-24,Apollo 13,cruise_hanks,,Hanks
+479,2026-08-31,Aliens,cruise_hanks,,Hanks
+481,2026-09-14,Rambo: First Blood Part II,ebert,3/4,
+481,2026-09-14,Rambo: First Blood Part II,notes,,Raj did not write a review but gave it a thumbs up on TV

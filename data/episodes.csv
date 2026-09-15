@@ -1,0 +1,492 @@
+ep,ep_ex_1999,title,date,host,guest1,guest2,guest3,guest4,year,genre,director,ebert,tomatoes_score,cruise_hanks,notes,rating,is_film,ebert_stars,revisited
+1,,Heat,2015-12-22,Bill Simmons,Chris Ryan,,,,1995,Crime;Drama;,Michael Mann,3.5/4,0.83,,,0.83,1,3.5,1
+2,,Jerry Maguire,2016-12-23,Bill Simmons,Chris Ryan,Juliet Litman,,,1996,Romance;Sports;,Cameron Crowe,3/4,0.85,,,0.85,1,3,1
+3,,Moneyball,2016-12-29,Bill Simmons,Chris Ryan,,,,2011,Sports;Drama;,Bennett Miller,4/4,0.94,,,0.94,1,4,0
+4,,Any Given Sunday,2017-01-11,Bill Simmons,Chris Ryan,,,,1999,Legal;Drama;,Oliver Stone,3/4,0.52,,Bill says there will be a Re-Sunday during the F1 ep,0.52,1,3,0
+5,,White Men Can't Jump,2017-02-01,Bill Simmons,Chris Ryan,Rembert Browne,,,1992,Comedy;Sports;,Ron Shelton,3.5/4,0.75,,,0.75,1,3.5,0
+6,,Blue Chips,2017-03-21,Bill Simmons,Chris Ryan,Mark Titus,,,1994,Sports;Drama;,William Friedkin,3/4,0.4,,,0.4,1,3,1
+7,1,A Few Good Men,2017-08-10,Bill Simmons,Chris Ryan,Amanda Dobbins,,,1992,Legal;Drama;,Rob Reiner,2.5/4,0.84,,Bill says this is episode #1 at 00m:56s; CR confirms this during the Primal Fear episode,0.84,1,2.5,1
+8,2,The Departed,2017-08-17,Bill Simmons,Chris Ryan,,,,2006,Crime;Drama;,Martin Scorsese,4/4,0.91,,,0.91,1,4,0
+9,3,Point Break,2017-08-24,Bill Simmons,Shea Serrano,Jason Concepcion,Mark Titus,,1991,Action;Crime;,Kathryn Bigelow,3.5/4,0.7,,,0.7,1,3.5,0
+10,4,Youve Got Mail,2017-08-31,Juliet Litman,Amanda Dobbins,,,,1998,Romance;Comedy;,Nora Ephron,3/4,0.7,,,0.7,1,3,0
+11,5,The Silence of the Lambs,2017-09-14,Bill Simmons,Chris Ryan,,,,1991,Thriller;Horror;,Jonathan Demme,4/4,0.95,,,0.95,1,4,1
+12,6,Speed,2017-09-21,Bill Simmons,Jason Concepcion,Shea Serrano,Donnie Kwak,,1994,Action;Thriller;,Jan De Bont,4/4,0.95,,,0.95,1,4,1
+13,7,Titanic,2017-09-28,Juliet Litman,Amanda Dobbins,K. Austin Collins,,,1997,Romance;Drama;,James Cameron,4/4,0.88,,,0.88,1,4,1
+14,8,Clueless,2017-10-05,Juliet Litman,Amanda Dobbins,K. Austin Collins,,,1995,Romance;Comedy;,Amy Heckerling,3.5/4,0.81,,,0.81,1,3.5,0
+15,9,Scream,2017-10-12,Bill Simmons,Sean Fennessey,Shea Serrano,K. Austin Collins,Jason Concepcion,1996,Horror;Slasher;,Wes Craven,3/4,0.77,,,0.77,1,3,0
+16,10,Face/Off,2017-10-26,Bill Simmons,Chris Ryan,Jason Concepcion,Shea Serrano,,1997,Action;Sci-fi;,John Woo,3/4,0.93,,,0.93,1,3,0
+17,11,The Fugitive,2017-11-02,Bill Simmons,Chris Ryan,Andy Greenwald,,,1993,Action;Thriller;,Andrew Davis,4/4,0.96,,,0.96,1,4,1
+18,12,The Dark Knight,2017-11-16,Chris Ryan,Sean Fennessey,Jason Concepcion,,,2008,Action;Adventure;Superhero,Christopher Nolan,4/4,0.94,,,0.94,1,4,0
+19,13,Friday,2017-11-30,Donnie Kwak,Hannah Giorgis,Justin Charity,,,1995,Comedy;Drama;,F. Gary Gray,,0.77,,,0.77,1,,0
+20,14,48 Hrs.,2017-12-07,Bill Simmons,Chris Ryan,,,,1982,Buddy Cop;Action;Comedy;Crime;,Walter Hill,3.5/4,0.92,,,0.92,1,3.5,0
+21,15,Zodiac,2017-12-14,Chris Ryan,Sean Fennessey,Andy Greenwald,,,2007,Mystery;Thriller;,David Fincher,4/4,0.9,,Bill says there will be a Re-Zodiac during the Bill's 50 Most Rewatchable Movies of the 21st Century ep,0.9,1,4,1
+22,16,10 Things I Hate About You,2018-01-09,Juliet Litman,Amanda Dobbins,Andrew Gruttadaro,,,1999,Romance;Comedy;,Gil Junger,2.5/4,0.71,,,0.71,1,2.5,0
+23,17,Good Will Hunting,2018-01-25,Bill Simmons,Chris Ryan,Sean Fennessey,Shea Serrano,,1997,Drama;Romance;,Gus Van Sant,3/4,0.97,,,0.97,1,3,0
+24,18,Varsity Blues,2018-02-03,Bill Simmons,Shea Serrano,Jason Concepcion,Mallory Rubin,,1999,Sports;Drama;,Brian Robbins,2/4,0.45,,,0.45,1,2,0
+25,19,Miami Vice,2018-02-07,Bill Simmons,Chris Ryan,,,,2006,Buddy Cop;Action;Crime;,Michael Mann,,0.47,,,0.47,1,,0
+26,20,Get Out,2018-02-27,Bill Simmons,Sean Fennessey,K. Austin Collins,Wesley Morris,,2017,Horror;Thriller;,Jordan Peele,,0.98,,,0.98,1,,0
+27,21,The Big Lebowski,2018-03-09,Chris Ryan,Sean Fennessey,Jason Concepcion,David Shoemaker,,1998,Comedy;Crime;,Coen Brothers,3/4,0.8,,,0.8,1,3,0
+28,22,Creed,2018-03-14,Bill Simmons,Sean Fennessey,K. Austin Collins,Wesley Morris,,2015,Drama;Sports;,Ryan Coogler,,0.95,,,0.95,1,,0
+29,23,Inception,2018-03-22,Jason Concepcion,Sean Fennessey,Andrew Gruttadaro,Mallory Rubin,,2010,Action;Sci-fi;,Christopher Nolan,4/4,0.87,,,0.87,1,4,0
+30,24,Michael Clayton,2018-03-29,Chris Ryan,Justin Charity,Lindsay Zoladz,,,2007,Drama;Thriller;,Tony Gilroy,4/4,0.9,,,0.9,1,4,0
+31,25,The Princess Bride,2018-04-11,Juliet Litman,David Shoemaker,,,,1987,Romance;Adventure;,Rob Reiner,3.5/4,0.96,,,0.96,1,3.5,0
+32,26,The Social Network,2018-05-24,Bill Simmons,Chris Ryan,Sean Fennessey,,,2010,Drama;Biographical;,David Fincher,4/4,0.96,,,0.96,1,4,0
+33,27,Training Day,2018-05-31,Bill Simmons,Chris Ryan,Sean Fennessey,Shea Serrano,,2001,Crime;Thriller;,Antoine Fuqua,3/4,0.74,,,0.74,1,3,0
+34,28,Ocean's 11,2018-06-07,Chris Ryan,Sean Fennessey,Amanda Dobbins,Juliet Litman,,2001,Crime;Comedy;,Steven Soderbergh,3/4,0.83,,,0.83,1,3,0
+35,29,Jurassic Park,2018-06-14,Sean Fennessey,David Shoemaker,Bryan Curtis,,,1993,Sci-fi;Adventure;,Steven Spielberg,3/4,0.91,,,0.91,1,3,0
+36,30,Forrest Gump,2018-06-21,Bill Simmons,Sean Fennessey,,,,1994,Romance;Drama;,Robert Zemeckis,4/4,0.75,,,0.75,1,4,0
+37,31,The Devil Wears Prada,2018-06-28,Bill Simmons,Juliet Litman,Amanda Dobbins,,,2006,Comedy;Drama;,David Frankel,2/4,0.75,,,0.75,1,2,0
+38,32,Jaws,2018-07-04,Bill Simmons,Chris Ryan,Sean Fennessey,,,1975,Adventure;Thriller;,Steven Spielberg,4/4,0.97,,,0.97,1,4,0
+39,33,Step Brothers,2018-07-13,Bill Simmons,Chris Ryan,Sean Fennessey,,,2008,Comedy;,Adam McKay,1.5/4,0.54,,,0.54,1,1.5,0
+40,34,Midnight Run,2018-07-20,Bill Simmons,Chris Ryan,,,,1988,Action;Comedy;,Martin Brest,3.5/4,0.95,,,0.95,1,3.5,0
+41,35,Mission: Impossible,2018-07-26,Chris Ryan,Sean Fennessey,Jason Concepcion,,,1996,Action;Thriller;,Brian De Palma,3/4,0.65,,,0.65,1,3,0
+42,36,Die Hard,2018-08-01,Chris Ryan,Bill Simmons,Sean Fennessey,Jason Concepcion,,1988,Action;Thriller;,John McTiernan,2/4,0.94,,,0.94,1,2,0
+43,37,My Best Friends Wedding,2018-08-09,Bill Simmons,Juliet Litman,Amanda Dobbins,,,1997,Romance;Comedy;,P. J. Hogan,3/4,0.74,,,0.74,1,3,0
+44,38,Wedding Crashers,2018-08-16,Bill Simmons,Chris Ryan,Sean Fennessey,,,2005,Comedy;Romance;,David Dobkin,2/4,0.75,,,0.75,1,2,0
+45,39,Mad Max: Fury Road,2018-08-23,Chris Ryan,Sean Fennessey,Micah Peters,Jason Concepcion,,2015,Action;Adventure;,George Miller,,0.97,,,0.97,1,,0
+46,40,Taken,2018-09-03,Bill Simmons,Shea Serrano,,,,2008,Action;Thriller;,Pierre Morel,2.5/4,0.6,,,0.6,1,2.5,0
+47,41,Rounders,2018-09-11,Bill Simmons,Sean Fennessey,,,,1998,Drama;Indie;,John Dahl,3/4,0.64,,,0.64,1,3,0
+48,42,True Romance,2018-09-20,Bill Simmons,Chris Ryan,Sean Fennessey,,,1993,Romance;Crime;,Tony Scott,3/4,0.93,,,0.93,1,3,0
+49,43,Dazed and Confused,2018-10-02,Bill Simmons,Chris Ryan,Sean Fennessey,,,1993,Comedy;Teen;,Richard Linklater,3/4,0.93,,,0.93,1,3,0
+50,44,All the Presidents Men,2018-11-08,Bill Simmons,Chris Ryan,Sean Fennessey,,,1976,Drama;Mystery;,Alan J. Pakula,3.5/4,0.94,,,0.94,1,3.5,0
+51,45,The Firm,2018-12-11,Bill Simmons,Chris Ryan,Sean Fennessey,,,1993,Thriller;Drama;Legal,Sydney Pollack,3/4,0.76,,,0.76,1,3,0
+52,46,Con Air,2018-12-18,Bill Simmons,Chris Ryan,Shea Serrano,,,1997,Action;Thriller;,Simon West,3/4,0.58,,,0.58,1,3,0
+53,47,Tombstone,2018-12-24,Bill Simmons,Chris Ryan,Sean Fennessey,,,1993,Western;Drama;,George P. Cosmatos,,0.74,,,0.74,1,,0
+54,48,The Godfather,2019-01-07,Bill Simmons,Chris Ryan,Sean Fennessey,,,1972,Crime;Drama;,Francis Ford Coppola,4/4,0.97,,,0.97,1,4,0
+55,49,Old School,2019-01-14,Bill Simmons,Chris Ryan,Sean Fennessey,,,2003,Comedy;,Todd Phillips,1/4,0.6,,,0.6,1,1,0
+56,50,The Fast and the Furious,2019-01-21,Bill Simmons,Shea Serrano,,,,2001,Crime;Adventure;,Rob Cohen,3/4,0.55,,,0.55,1,3,0
+57,51,Proof of Life,2019-01-28,Bill Simmons,Chris Ryan,,,,2000,Thriller;Action;,Taylor Hackford,2.5/4,0.39,,,0.39,1,2.5,0
+58,52,The Warriors,2019-02-04,Bill Simmons,Sean Fennessey,Shea Serrano,,,1979,Action;Mystery;,Walter Hill,2/4,0.88,,,0.88,1,2,0
+59,53,A Star Is Born,2019-02-11,Bill Simmons,Sean Fennessey,Amanda Dobbins,,,2018,Romance;Drama;,Bradley Cooper,,0.9,,,0.9,1,,0
+60,54,Dave,2019-02-18,Bill Simmons,Sean Fennessey,Amanda Dobbins,,,1993,Comedy;Romance;,Ivan Reitman,3.5/4,0.95,,,0.95,1,3.5,0
+61,55,Reality Bites,2019-02-26,Bill Simmons,Chris Ryan,Chuck Klosterman,,,1994,Romance;Drama;,Ben Stiller,2/4,0.62,,,0.62,1,2,0
+62,56,Forgetting Sarah Marshall,2019-03-04,Bill Simmons,Chris Ryan,Sean Fennessey,,,2008,Comedy;Romance;,Nicholas Stoller,,0.84,,,0.84,1,,0
+63,57,Broadcast News,2019-03-11,Bill Simmons,Chris Ryan,Sean Fennessey,Chuck Klosterman,,1987,Romance;Comedy;Drama,James L. Brooks,4/4,0.98,,,0.98,1,4,0
+64,58,The Natural,2019-03-18,Bill Simmons,Mallory Rubin,,,,1984,Sports;Drama;,Barry Levinson,2/4,0.83,,,0.83,1,2,0
+65,59,Pretty Woman,2019-03-25,Bill Simmons,Juliet Litman,Amanda Dobbins,,,1990,Romance;Comedy;,Garry Marshall,3.5/4,0.64,,,0.64,1,3.5,0
+66,60,Major League,2019-04-10,Bill Simmons,Rembert Browne,,,,1989,Sports;Comedy;,David S. Ward,,0.83,,,0.83,1,,0
+67,61,Field of Dreams,2019-04-19,Bill Simmons,Chris Ryan,Mallory Rubin,,,1989,Drama;Fantasy;,Phil Alden Robinson,4/4,0.88,,,0.88,1,4,0
+68,316,American Pie,2019-04-23,Bill Simmons,Chris Ryan,Sean Fennessey,,,1999,Comedy;,Paul Weitz,3/4,0.62,,1999 series (Luminary); released on Spotify feed 11/28/2023,0.62,1,3,0
+68,316,American Pie,2023-11-28,Bill Simmons,Chris Ryan,Sean Fennessey,,,1999,Comedy;Romance;Teen;,Paul Weitz,3/4,0.62,,"Originally released April 23, 2019 on Luminary as part of 1999 Rewatchables series",0.62,1,3,0
+69,62,Mean Girls,2019-04-29,Bill Simmons,Juliet Litman,Amanda Dobbins,,,2004,Comedy;Teen;,Samantha Jayne; Arturo Perez Jr.,3/4,0.84,,,0.84,1,3,0
+70,302,Cruel Intentions,2019-05-02,Bill Simmons,Juliet Litman,Amanda Dobbins,,,1999,Romance;Drama;,Roger Kumble,3/4,0.54,,1999 series (Luminary); released on Spotify feed 8/22/2023,0.54,1,3,0
+70,302,Cruel Intentions,2023-08-22,Bill Simmons,Juliet Litman,Amanda Dobbins,,,1999,Romance;Drama;,Roger Kumble,3/4,0.54,,"Originally released May 2, 2019 on Luminary as part of 1999 Rewatchables series",0.54,1,3,0
+71,347,Big Daddy,2019-05-09,Bill Simmons,Joe House,Sean Fennessey,,,1999,Comedy;Drama;,Dennis Dugan,1.5/4,0.39,,1999 series (Luminary),0.39,1,1.5,0
+71,347,Big Daddy,2024-06-27,Bill Simmons,Sean Fennessey,Joe House,,,1999,Comedy;Drama;,Dennis Dugan,1.5/4,0.39,,"Originally released May 9, 2019 on Luminary as part of 1999 Rewatchables series",0.39,1,1.5,0
+72,63,John Wick: Chapter 2,2019-05-13,Bill Simmons,Chris Ryan,Sean Fennessey,,,2017,Action;Thriller;,Chad Stahelski,,0.89,,,0.89,1,,0
+73,353,Notting Hill,2019-05-16,Juliet Litman,Amanda Dobbins,,,,1999,Romance;Comedy;,Roger Michell,3/4,0.84,,1999 series (Luminary),0.84,1,3,0
+73,353,Notting Hill,2024-07-19,Juliet Litman,Amanda Dobbins,,,,1999,Romance;Comedy;,Roger Michell,3/4,0.84,,"Originally released May 16, 2019 on Luminary as part of 1999 Rewatchables series",0.84,1,3,0
+74,325,The Insider,2019-05-23,Bill Simmons,Chris Ryan,Sean Fennessey,,,1999,Drama;,Michael Mann,3.5/4,0.96,,1999 series (Luminary); released on Spotify feed 1/30/2024,0.96,1,3.5,0
+74,325,The Insider,2024-01-30,Bill Simmons,Chris Ryan,Sean Fennessey,,,1999,Drama;,Michael Mann,3.5/4,0.96,,"Originally released May 23, 2019 on Luminary as part of 1999 Rewatchables series",0.96,1,3.5,0
+75,64,The Hangover,2019-05-26,Bill Simmons,Chris Ryan,Sean Fennessey,,,2009,Comedy;,Todd Phillips,3.5/4,0.79,,,0.79,1,3.5,0
+76,349,Austin Powers: The Spy Who Shagged Me,2019-05-30,Bill Simmons,Sean Fennessey,,,,1999,Comedy;,Jay Roach,2.5/4,0.53,,1999 series (Luminary),0.53,1,2.5,0
+76,349,Austin Powers: The Spy Who Shagged Me,2024-07-04,Bill Simmons,Sean Fennessey,,,,1999,Comedy;Spy;,Jay Roach,2.5/4,0.53,,"Originally released May 30, 2019 on Luminary as part of 1999 Rewatchables series",0.53,1,2.5,0
+77,65,Fast Five,2019-05-31,Bill Simmons,Shea Serrano,,,,2011,Action;Adventure;,Justin Lin,3/4,0.78,,,0.78,1,3,0
+78,,Office Space,2019-06-06,Sean Fennessey,Andrew Gruttadaro,Jason Gallagher,,,1999,Comedy;,Mike Judge,3/4,0.81,,1999 series (Luminary),0.81,1,3,0
+79,66,Dead Poets Society,2019-06-11,Bill Simmons,Chris Ryan,Mallory Rubin,,,1989,Drama;Teen;,Peter Weir,2/4,0.85,,,0.85,1,2,0
+80,361,The Sixth Sense,2019-06-13,Sean Fennessey,Chris Ryan,Jason Concepcion,,,1999,Thriller;,M. Night Shyamalan,3/4,0.86,,1999 series (Luminary),0.86,1,3,0
+80,361,The Sixth Sense,2024-09-10,Sean Fennessey,Chris Ryan,Jason Concepcion,,,1999,Thriller;Horror;,M. Night Shyamalan,3/4,0.86,,Originally released 6/13/1999 on Luminary as part of 1999 Rewatchables series,0.86,1,3,0
+81,,The Matrix,2019-06-20,Chris Ryan,Sean Fennessey,Jason Concepcion,Shea Serrano,,1999,Sci-fi;Action;,Wachowskis,3/4,0.83,,1999 series (Luminary),0.83,1,3,0
+82,67,The Notebook,2019-06-24,Juliet Litman,Amanda Dobbins,Andrew Gruttadaro,,,2004,Romance;Drama;,Nick Cassavetes,3.5/4,0.54,,,0.54,1,3.5,0
+83,68,No Country for Old Men,2019-07-03,Bill Simmons,Bill Hader,Chris Ryan,,,2007,Crime;Drama;,Coen Brothers,4/4,0.93,,,0.93,1,4,0
+84,69,When Harry Met Sally...,2019-07-08,Bill Simmons,Juliet Litman,Amanda Dobbins,,,1989,Romance;Comedy;,Rob Reiner,3/4,0.89,,,0.89,1,3,0
+85,70,Inglourious Basterds,2019-07-15,Chris Ryan,Sean Fennessey,Mallory Rubin,,,2009,War;Action;,Quentin Tarantino,4/4,0.89,,,0.89,1,4,0
+86,71,Top Gun,2019-07-23,Bill Simmons,Chris Ryan,Jason Concepcion,Mallory Rubin,,1986,Action;Adventure;,Tony Scott,2.5/4,0.58,,,0.58,1,2.5,0
+87,72,Reservoir Dogs,2019-07-25,Bill Simmons,Chris Ryan,Sean Fennessey,,,1992,Crime;Drama;,Quentin Tarantino,2.5/4,0.9,,,0.9,1,2.5,0
+88,73,The Town,2019-08-01,Bill Simmons,Chris Ryan,Ryen Russillo,,,2010,Thriller;Drama;,Ben Affleck,3/4,0.92,,,0.92,1,3,0
+89,74,Collateral,2019-08-06,Bill Simmons,Chris Ryan,,,,2004,Thriller;Action;,Michael Mann,3.5/4,0.86,,,0.86,1,3.5,0
+90,75,Bloodsport,2019-08-08,Bill Simmons,Shea Serrano,Jason Concepcion,,,1988,Action;Martial arts;,Newt Arnold,,0.48,,,0.48,1,,0
+91,76,Gone Girl,2019-08-13,Bill Simmons,Shea Serrano,Sean Fennessey,Mallory Rubin,,2014,Thriller;Mystery;,David Fincher,,0.88,,,0.88,1,,0
+92,77,Fatal Attraction,2019-08-20,Bill Simmons,Mallory Rubin,Wesley Morris,,,1987,Thriller;Drama;,Adrian Lyne,2.5/4,0.74,,,0.74,1,2.5,0
+93,78,Do The Right Thing,2019-08-26,Sean Fennessey,Wesley Morris,,,,1989,Drama;Comedy;,Spike Lee,4/4,0.92,,,0.92,1,4,0
+94,79,Butch Cassidy and the Sundance Kid,2019-09-01,Bill Simmons,Sean Fennessey,Aaron Sorkin,,,1969,Western;Drama;,George Roy Hill,2.5/4,0.89,,,0.89,1,2.5,0
+95,301,Eyes Wide Shut,2019-09-05,Bill Simmons,Chris Ryan,Sean Fennessey,Mallory Rubin,,1999,Mystery;Drama;,Stanley Kubrick,3.5/4,0.76,,1999 series (Luminary); released on Spotify feed 8/15/2023,0.76,1,3.5,0
+95,301,Eyes Wide Shut,2023-08-15,Bill Simmons,Chris Ryan,Sean Fennessey,Mallory Rubin,,1999,Drama;Mystery;,Stanley Kubrick,3.5/4,0.76,,"Originally released Sep 5, 2019 on Luminary as part of 1999 Rewatchables series",0.76,1,3.5,0
+96,,Election,2019-09-12,Sean Fennessey,Amanda Dobbins,,,,1999,Comedy;Satire;,Alexander Payne,3.5/4,0.92,,1999 series (Luminary),0.92,1,3.5,0
+97,80,Beverly Hills Cop,2019-09-16,Bill Simmons,Chris Ryan,Sean Fennessey,Wesley Morris,,1984,Action;Comedy;,Martin Brest,2.5/4,0.82,,,0.82,1,2.5,0
+98,,Never Been Kissed,2019-09-19,Bill Simmons,Juliet Litman,Amanda Dobbins,,,1999,Romance;Comedy;,Raja Gosnell,3/4,0.55,,1999 series (Luminary),0.55,1,3,0
+99,81,The Shawshank Redemption,2019-09-25,Bill Simmons,Chris Ryan,Bill's Dad,,,1994,Drama;Crime;,Frank Darabont,4/4,0.89,,,0.89,1,4,0
+100,351,For Love of the Game,2019-09-26,Bill Simmons,Mallory Rubin,,,,1999,Sports;Drama;,Sam Raimi,1.5/4,0.47,,1999 series (Luminary),0.47,1,1.5,0
+100,351,For Love of the Game,2024-07-12,Bill Simmons,Mallory Rubin,,,,1999,Drama;Romance;Sports;,Sam Raimi,1.5/4,0.47,,"Originally released Sep 26, 2019 on Luminary as part of 1999 Rewatchables series",0.47,1,1.5,0
+101,,"Hodgepodge of 1999 films (including ‘The Blair Witch Project,’ ‘8MM,’ and ‘Being John Malkovich’)",2019-10-03,Bill Simmons,Chris Ryan,Sean Fennessey,,,1999,,,,,,1999 series (Luminary),,0,,0
+102,82,Remember The Titans,2019-10-07,Bill Simmons,Shea Serrano,Rembert Browne,,,2000,Sports;Drama;,Boaz Yakin,3/4,0.71,,,0.71,1,3,0
+103,336,Magnolia,2019-10-10,Bill Simmons,Chris Ryan,Sean Fennessey,,,1999,Drama;,Paul Thomas Anderson,4/4,0.82,,1999 series (Luminary); released on Spotify feed 4/16/2024,0.82,1,4,0
+103,336,Magnolia,2024-04-16,Bill Simmons,Chris Ryan,Sean Fennessey,,,1999,Drama;,Paul Thomas Anderson,4/4,0.82,,"Originally released Oct 10, 2019 on Luminary as part of 1999 Rewatchables series",0.82,1,4,0
+104,83,Mr. Mom,2019-10-11,Bill Simmons,Amanda Dobbins,,,,1983,Comedy;Satire;,Stan Dragoti,2/4,0.77,,,0.77,1,2,0
+105,84,Den of Thieves,2019-10-14,Bill Simmons,Chris Ryan,Shea Serrano,,,2018,Action;Crime;,Christian Gudegast,,0.41,,,0.41,1,,0
+106,85,The Shining,2019-10-30,Bill Simmons,Chris Ryan,Sean Fennessey,,,1980,Horror;Mystery;,Stanley Kubrick,4/4,0.83,,,0.83,1,4,0
+107,86,The Holiday,2019-11-13,Juliet Litman,Amanda Dobbins,Kari Simmons,,,2006,Romance;Comedy;Christmas,Nancy Meyers,,0.51,,,0.51,1,,0
+108,87,Skyfall,2019-11-20,Chris Ryan,Sean Fennessey,Amanda Dobbins,,,2012,Action;Thriller;,Sam Mendes,4/4,0.92,,,0.92,1,4,0
+109,88,The Wolf of Wall Street,2019-12-03,Chris Ryan,Sean Fennessey,Ryen Russillo,,,2013,Drama;Comedy;,Martin Scorsese,,0.79,,,0.79,1,,0
+110,89,Happy Gilmore,2019-12-10,Bill Simmons,Sean Fennessey,The Safdie Brothers,,,1996,Comedy;Romance;,Dennis Dugan,1.5/4,0.62,,,0.62,1,1.5,0
+111,90,The Godfather Part II,2019-12-16,Bill Simmons,Chris Ryan,Sean Fennessey,Brian Koppelman,,1974,Crime;Drama;,Francis Ford Coppola,4/4,0.96,,"Rog originally gave it 3/4 stars, but re-assessed in 2008",0.96,1,4,0
+112,91,Dunkirk,2019-12-20,Chris Ryan,Sean Fennessey,Quentin Tarantino,,,2017,War;Action;,Christopher Nolan,,0.92,,,0.92,1,,0
+113,92,The Talented Mr. Ripley,2019-12-23,Bill Simmons,Sean Fennessey,Amanda Dobbins,,,1999,Thriller;Drama;,Anthony Minghella,4/4,0.85,,,0.85,1,4,0
+114,93,Unstoppable,2020-01-09,Bill Simmons,Chris Ryan,Quentin Tarantino,,,2010,Action;Thriller;,Tony Scott,3.5/4,0.87,,,0.87,1,3.5,0
+115,94,King of New York,2020-01-16,Bill Simmons,Sean Fennessey,Quentin Tarantino,,,1990,Crime;Drama;,Abel Ferrara,2/4,0.73,,,0.73,1,2,0
+116,95,Heat,2020-01-24,Bill Simmons,Chris Ryan,,,,1995,Crime;Drama;,Michael Mann,3.5/4,0.83,,,0.83,1,3.5,1
+117,96,Once Upon a Time…in Hollywood,2020-02-06,Bill Simmons,Chris Ryan,Sean Fennessey,,,2019,Drama;Comedy;,Quentin Tarantino,,0.86,,,0.86,1,,0
+118,97,The Breakfast Club,2020-02-13,Bill Simmons,Chris Ryan,Wesley Morris,,,1985,Drama;Teen;,John Hughes,3/4,0.89,,,0.89,1,3,0
+119,98,Higher Learning,2020-02-19,Bill Simmons,Van Lathan,Wesley Morris,,,1995,Drama;Romance;,John Singleton,3/4,0.46,,Bill calls this the first ep of the 8-episode 'Flawed Rewatchables' (contributed by u/Randy_Marsh55),0.46,1,3,0
+120,99,Vision Quest,2020-02-27,Bill Simmons,Chris Ryan,Ryen Russillo,,,1985,Romance;Drama;,Harold Becker,3.5/4,0.6,,Bill calls this 'episode 2' of the 'Flawed Rewatchables' (contributed by u/Randy_Marsh55),0.6,1,3.5,0
+121,100,Ocean's 12,2020-03-05,Chris Ryan,Sean Fennessey,Amanda Dobbins,,,2004,Crime;Comedy;,Steven Soderbergh,3/4,0.55,,At the end of the Vision Quest ep Bill calls this 'episode 3' of the 'Flawed Rewatchables',0.55,1,3,0
+122,101,Contagion,2020-03-08,Bill Simmons,Chris Ryan,Sean Fennessey,,,2011,Drama;Thriller;,Steven Soderbergh,3/4,0.85,,,0.85,1,3,0
+123,102,The Godfather Part III,2020-03-17,Bill Simmons,Chris Ryan,Sean Fennessey,,,1990,Crime;Drama;,Francis Ford Coppola,3.5/4,0.66,,,0.66,1,3.5,0
+124,103,Cast Away,2020-03-19,Bill Simmons,,,,,2000,Adventure;Drama;,Robert Zemeckis,3/4,0.89,,,0.89,1,3,0
+125,104,Edge of Tomorrow,2020-03-23,Chris Ryan,Sean Fennessey,,,,2014,Sci-fi;Action;,Doug Liman,,0.91,,,0.91,1,,0
+126,105,The Karate Kid,2020-03-26,Bill Simmons,Ryen Russillo,,,,1984,Drama;Action;,John G. Avildsen,4/4,0.9,,,0.9,1,4,0
+127,106,Furious 7,2020-03-30,Bill Simmons,Shea Serrano,,,,2015,Action;Adventure;,James Wan,,0.82,,,0.82,1,,0
+128,107,Tommy Boy,2020-04-03,Bill Simmons,Sean Fennessey,Cousin Sal,,,1995,Comedy;Buddy;,Peter Segal,1/4,0.39,,,0.39,1,1,0
+129,108,Total Recall,2020-04-07,Bill Simmons,Shea Serrano,Jason Concepcion,,,1990,Sci-fi;,Paul Verhoeven,3.5/4,0.82,,,0.82,1,3.5,0
+130,109,Enemy of the State,2020-04-09,Bill Simmons,Chris Ryan,Sean Fennessey,,,1998,Action;Thriller;,Tony Scott,3/4,0.71,,,0.71,1,3,0
+131,110,Basic Instinct,2020-04-14,Bill Simmons,Chris Ryan,Mallory Rubin,,,1992,Thriller;Mystery;,Paul Verhoeven,2/4,0.55,,,0.55,1,2,0
+132,111,Love and Basketball,2020-04-16,Bill Simmons,Jemele Hill,,,,2000,Romance;Sports;,Gina Prince-Bythewood,3/4,0.85,,,0.85,1,3,0
+133,112,Ferris Bueller's Day Off,2020-04-21,Bill Simmons,Chris Ryan,Sean Fennessey,,,1986,Comedy;Romance;Teen,John Hughes,3/4,0.83,,,0.83,1,3,0
+134,113,Ronin,2020-04-23,Bill Simmons,Chris Ryan,,,,1998,Action;Thriller;,John Frankenheimer,3/4,0.7,,,0.7,1,3,0
+135,114,Escape From New York,2020-04-29,Bill Simmons,Chris Ryan,Shea Serrano,,,1981,Action;Sci-fi;,John Carpenter,,0.86,,,0.86,1,,0
+136,115,While You Were Sleeping,2020-05-01,Juliet Litman,Amanda Dobbins,,,,1995,Romance;Comedy;,Jon Turteltaub,3/4,0.81,,,0.81,1,3,0
+137,116,Gladiator,2020-05-05,Bill Simmons,Chris Ryan,Shea Serrano,Jason Concepcion,,2000,Adventure;Action;,Ridley Scott,2/4,0.8,,,0.8,1,2,0
+138,117,Groundhog Day,2020-05-07,Bill Simmons,Sean Fennessey,Issa Rae,,,1993,Comedy;Romance;Fantasy,Harold Ramis,4/4,0.94,,"Rog originally gave it 3/4 stars, but re-assessed in 2005",0.94,1,4,0
+139,118,Crimson Tide,2020-05-12,Bill Simmons,Chris Ryan,Sean Fennessey,,,1995,War;Action;,Tony Scott,3.5/4,0.89,,,0.89,1,3.5,0
+140,119,Draft Day,2020-05-14,Bill Simmons,Mallory Rubin,,,,2014,Sports;Drama;,Ivan Reitman,,0.6,,,0.6,1,,0
+141,120,Back to the Future,2020-05-19,Bill Simmons,Chris Ryan,Sean Fennessey,,,1985,Sci-fi;Comedy;,Robert Zemeckis,3.5/4,0.93,,,0.93,1,3.5,0
+142,121,Armageddon,2020-05-21,Bill Simmons,Chris Ryan,Shea Serrano,Jason Concepcion,,1998,Sci-fi;Action;,Michael Bay,1/4,0.43,,,0.43,1,1,0
+143,122,Boomerang,2020-05-26,Bill Simmons,Van Lathan,Wesley Morris,,,1992,Romance;Comedy;,Reginald Hudlin,3/4,0.49,,,0.49,1,3,0
+144,123,Say Anything,2020-06-10,Bill Simmons,Chris Ryan,Judd Apatow,,,1989,Romance;Comedy;,Cameron Crowe,4/4,0.98,,,0.98,1,4,0
+145,124,Fletch,2020-06-16,Bill Simmons,Chris Ryan,Sean Fennessey,,,1985,Comedy;Mystery;,Michael Ritchie,2.5/4,0.79,,,0.79,1,2.5,0
+146,125,The Perfect Storm,2020-07-02,Bill Simmons,Chris Ryan,,,,2000,Thriller;Drama;,Wolfgang Petersen,3.5/4,0.46,,,0.46,1,3.5,0
+147,126,St. Elmo's Fire,2020-07-07,Bill Simmons,Chris Ryan,,,,1985,Romance;Drama;,Joel Schumacher,,0.43,,,0.43,1,,0
+148,127,Swingers,2020-07-09,Bill Simmons,Chris Ryan,Sean Fennessey,,,1996,Comedy;Romance;,Doug Liman,3/4,0.88,,,0.88,1,3,0
+149,128,Stand By Me,2020-07-14,Bill Simmons,Chris Ryan,,,,1986,Adventure;Drama;,Rob Reiner,,0.92,,,0.92,1,,0
+150,129,25th Hour,2020-07-16,Bill Simmons,Wesley Morris,,,,2002,Drama;,Spike Lee,4/4,0.79,,"Rog originally gave it 3.5/4 stars, but re-assessed in 2009",0.79,1,4,0
+151,130,The Conjuring,2020-07-21,Bill Simmons,Chris Ryan,Sean Fennessey,,,2013,Horror;Thriller;,James Wan,,0.86,,,0.86,1,,0
+152,131,Ghost,2020-07-28,Bill Simmons,Chris Ryan,Amanda Dobbins,,,1990,Romance;Fantasy;,Jerry Zucker,2.5/4,0.75,,,0.75,1,2.5,0
+153,132,The Sandlot,2020-08-04,Bill Simmons,Mallory Rubin,Mina Kimes,,,1993,Sports;Family;Teen,David Mickey Evans,3/4,0.65,,,0.65,1,3,0
+154,133,Teen Wolf,2020-08-06,Bill Simmons,Kyle Brandt,,,,1985,Fantasy;Comedy;Sports,Rod Daniel,,0.46,,,0.46,1,,0
+155,134,The Last of the Mohicans,2020-08-11,Bill Simmons,Chris Ryan,,,,1992,War;Adventure;,Michael Mann,3/4,0.88,,,0.88,1,3,0
+156,135,Bad Boys,2020-08-13,Bill Simmons,Van Lathan,Logan Murdock,,,1995,Buddy Cop;Action;Comedy;,Michael Bay,2/4,0.43,,,0.43,1,2,0
+157,136,Caddyshack,2020-08-18,Bill Simmons,Sean Fennessey,,,,1980,Comedy;Sports;,Harold Ramis,2.5/4,0.73,,,0.73,1,2.5,0
+158,137,Pump Up the Volume,2020-08-20,Bill Simmons,Chris Ryan,Andy Greenwald,,,1990,Drama;Comedy;Teen,Allan Moyle,,0.82,,,0.82,1,,0
+159,138,The 40-Year-Old Virgin,2020-08-25,Bill Simmons,Chris Ryan,Sean Fennessey,,,2005,Comedy;Romance;,Judd Apatow,3.5/4,0.85,,,0.85,1,3.5,0
+160,139,Cocktail,2020-09-01,Bill Simmons,Chris Ryan,Sean Fennessey,,,1988,Romance;Drama;,Roger Donaldson,2/4,0.09,,,0.09,1,2,0
+161,140,Dangerous Minds,2020-09-03,Bill Simmons,Shea Serrano,Van Lathan,,,1995,Drama;Teen;,John N. Smith,1.5/4,0.34,,,0.34,1,1.5,0
+162,141,The Usual Suspects,2020-09-08,Bill Simmons,Chris Ryan,,,,1995,Crime;Thriller;,Bryan Singer,1.5/4,0.87,,,0.87,1,1.5,0
+163,142,Unfaithful,2020-09-15,Bill Simmons,Wesley Morris,,,,2002,Romance;Thriller;,Adrian Lyne,3/4,0.5,,,0.5,1,3,0
+164,143,Easy A,2020-09-17,Juliet Litman,Amanda Dobbins,Shea Serrano,,,2010,Romance;Comedy;,Will Gluck,3.5/4,0.85,,,0.85,1,3.5,0
+165,144,Se7en,2020-09-22,Bill Simmons,Chris Ryan,Sean Fennessey,,,1995,Crime;Mystery;,David Fincher,4/4,0.84,,"Rog originally gave it 3.5/4 stars, but re-assessed in 2011",0.84,1,4,0
+166,145,The Game,2020-09-29,Bill Simmons,Chris Ryan,Sean Fennessey,,,1997,Thriller;Mystery;,David Fincher,3.5/4,0.77,,,0.77,1,3.5,0
+167,146,Kicking and Screaming,2020-10-06,Bill Simmons,Chris Ryan,Andy Greenwald,,,1995,Romance;Drama;,Jesse Dylan,3/4,0.56,,,0.56,1,3,0
+168,147,The Martian,2020-10-13,Bill Simmons,Chris Ryan,Sean Fennessey,Van Lathan,,2015,Sci-fi;Adventure;,Ridley Scott,,0.91,,,0.91,1,,0
+169,148,Spotlight,2020-10-20,Bill Simmons,Chris Ryan,Ryen Russillo,,,2015,Drama;,Tom McCarthy,,0.97,,,0.97,1,,0
+170,149,Rocky IV,2020-10-27,Bill Simmons,Cousin Sal,Kyle Brandt,,,1985,Drama;Sports;,Sylvester Stallone,2/4,0.39,,,0.39,1,2,0
+171,150,The Exorcist,2020-10-29,Bill Simmons,Chris Ryan,Sean Fennessey,,,1973,Horror;Thriller;,William Friedkin,4/4,0.78,,"Bill says ""we've done 155 episodes"" at 1hr 7min",0.78,1,4,0
+172,151,The American President,2020-11-03,Bill Simmons,Amanda Dobbins,Van Lathan,,,1995,Romance;Drama;,Rob Reiner,4/4,0.91,,,0.91,1,4,0
+173,152,Toy Story,2020-11-10,Sean Fennessey,Mallory Rubin,Shea Serrano,,,1995,Family;Adventure;,John Lasseter,4/4,1,,,1,1,4,0
+174,153,Home Alone,2020-11-17,Chris Ryan,Sean Fennessey,Mina Kimes,,,1990,Comedy;Family;Christmas;,Chris Columbus,2.5/4,0.66,,,0.66,1,2.5,0
+175,154,8MM,2020-11-24,Bill Simmons,Chris Ryan,Van Lathan,,,1999,Thriller;Mystery;,Joel Schumacher,3/4,0.24,,,0.24,1,3,0
+176,155,Wall Street,2020-12-01,Bill Simmons,Brian Koppelman,,,,1987,Drama;Crime;,Oliver Stone,3.5/4,0.79,,,0.79,1,3.5,0
+177,156,The Program,2020-12-08,Bill Simmons,Ryen Russillo,Kyle Brandt,,,1993,Drama;Sports;,David S. Ward,3/4,0.43,,,0.43,1,3,0
+178,157,Country Strong,2020-12-15,Bill Simmons,Amanda Dobbins,Liz Kelly,,,2010,Music;Drama;,Shana Feste,2.5/4,0.22,,,0.22,1,2.5,0
+179,158,The Bourne Identity,2020-12-23,Bill Simmons,Chris Ryan,,,,2002,Action;Thriller;Spy,Doug Liman,3/4,0.84,,,0.84,1,3,0
+180,159,Mr. Holland's Opus,2020-12-29,Bill Simmons,Sean Fennessey,Van Lathan,,,1995,Drama;Music;,Stephen Herek,3.5/4,0.75,,,0.75,1,3.5,0
+181,160,Bridesmaids,2021-01-05,Bill Simmons,Mallory Rubin,Mina Kimes,,,2011,Comedy;Romance;,Paul Feig,3.5/4,0.89,,,0.89,1,3.5,0
+182,161,The Royal Tenenbaums,2021-01-12,Chris Ryan,Andy Greenwald,,,,2001,Comedy;Drama;,Wes Anderson,3.5/4,0.81,,,0.81,1,3.5,0
+183,162,First Blood,2021-01-19,Bill Simmons,Brian Koppelman,,,,1982,Action;Adventure;,Ted Kotcheff,3/4,0.86,,,0.86,1,3,0
+184,163,Terminator,2021-01-21,Bill Simmons,Chris Ryan,Shea Serrano,,,1984,Sci-fi;Action;,James Cameron,,1,,,1,1,,0
+185,164,Terminator 2,2021-01-26,Bill Simmons,Chris Ryan,Van Lathan,,,1991,Action;Sci-fi;,James Cameron,3.5/4,0.91,,,0.91,1,3.5,0
+186,165,Out Of Sight,2021-02-02,Bill Simmons,Ryen Russillo,Bill Lawrence,,,1998,Crime;Drama;,Steven Soderbergh,3.5/4,0.94,,,0.94,1,3.5,0
+187,166,Taxi Driver,2021-02-09,Bill Simmons,Sean Fennessey,Bill Hader,,,1976,Drama;Crime;,Martin Scorsese,4/4,0.89,,,0.89,1,4,0
+188,167,Sleeping With The Enemy,2021-02-16,Bill Simmons,Van Lathan,,,,1991,Thriller;Mystery;,Joseph Ruben,1.5/4,0.24,,,0.24,1,1.5,0
+189,168,Coming To America,2021-02-18,Bill Simmons,Van Lathan,Wesley Morris,,,1988,Comedy;Romance;,John Landis,,0.73,,,0.73,1,,0
+190,169,Neighbors,2021-02-23,Bill Simmons,Chris Ryan,Sean Fennessey,,,2014,Comedy;,Nicholas Stoller,,0.72,,,0.72,1,,0
+191,170,The Doors,2021-03-01,Bill Simmons,Chris Ryan,Chuck Klosterman,,,1991,Drama;Music;,Oliver Stone,2.5/4,0.56,,,0.56,1,2.5,0
+192,171,New Jack City,2021-03-08,Bill Simmons,Van Lathan,Logan Murdock,,,1991,Action;Crime;,Mario Van Peebles,3.5/4,0.81,,,0.81,1,3.5,0
+193,172,Inside Man,2021-03-14,Bill Simmons,Chris Ryan,Sean Fennessey,,,2006,Crime;Thriller;,Spike Lee,2.5/4,0.86,,,0.86,1,2.5,0
+194,173,Insidious,2021-03-22,Bill Simmons,Chris Ryan,Sean Fennessey,,,2010,Horror;Thriller;,James Wan,2.5/4,0.66,,,0.66,1,2.5,0
+195,174,Commando,2021-03-28,Bill Simmons,Shea Serrano,Kyle Brandt,,,1985,Action;Thriller;,Mark L. Lester,,0.68,,,0.68,1,,0
+196,175,Thief,2021-04-01,Bill Simmons,Chris Ryan,Sean Fennessey,,,1981,Action;Crime;,Michael Mann,3.5/4,0.8,,,0.8,1,3.5,0
+197,176,Lethal Weapon,2021-04-06,Bill Simmons,Chris Ryan,,,,1987,Buddy;Crime;Action;,Richard Donner,4/4,0.8,,,0.8,1,4,0
+198,177,Manhunter,2021-04-13,Bill Simmons,Chris Ryan,Sean Fennessey,,,1986,Thriller;Drama;,Michael Mann,,0.94,,,0.94,1,,0
+199,178,Mrs. Doubtfire,2021-04-20,Bill Simmons,Shea Serrano,Amanda Dobbins,,,1993,Family;Comedy;,Chris Columbus,2.5/4,0.71,,,0.71,1,2.5,0
+200,179,Predator,2021-04-27,Bill Simmons,Chris Ryan,Shea Serrano,Kyle Brandt,,1987,Action;Sci-fi;,John McTiernan,3/4,0.8,,,0.8,1,3,0
+201,180,What About Bob?,2021-05-04,Bill Simmons,Sean Fennessey,Van Lathan,,,1991,Comedy;,Frank Oz,,0.82,,,0.82,1,,0
+202,181,Lethal Weapon 2,2021-05-11,Bill Simmons,Chris Ryan,Van Lathan,,,1989,Buddy;Crime;Action;,Richard Donner,3.5/4,0.82,,,0.82,1,3.5,0
+203,182,Goodfellas,2021-05-18,Bill Simmons,Chris Ryan,Sean Fennessey,,,1990,Crime;Drama;,Martin Scorsese,4/4,0.94,,,0.94,1,4,0
+204,183,The Rock,2021-05-25,Bill Simmons,Chris Ryan,Mina Kimes,,,1996,Action;Thriller;,Michael Bay,3.5/4,0.67,,,0.67,1,3.5,0
+205,184,Memento,2021-06-01,Bill Simmons,Chris Ryan,,,,2000,Mystery;Thriller;,Christopher Nolan,3/4,0.94,,,0.94,1,3,0
+206,185,Raiders of the Lost Ark,2021-06-08,Bill Simmons,Chris Ryan,Sean Fennessey,,,1981,Adventure;Action;,Steven Spielberg,4/4,0.94,,,0.94,1,4,0
+207,186,City Slickers,2021-06-15,Bill Simmons,Chris Ryan,Sean Fennessey,,,1991,Comedy;Western;,Ron Underwood,3.5/4,0.87,,,0.87,1,3.5,0
+208,187,Stripes,2021-06-22,Bill Simmons,Brian Koppelman,,,,1981,Comedy;War;,Ivan Reitman,3.5/4,0.88,,,0.88,1,3.5,0
+209,188,Boyz n the Hood,2021-06-29,Bill Simmons,Sean Fennessey,Van Lathan,Logan Murdock,,1991,Drama;Crime;,John Singleton,4/4,0.96,,,0.96,1,4,0
+210,189,Independence Day,2021-07-05,Bill Simmons,Chris Ryan,Shea Serrano,,,1996,Sci-fi;Action;,Roland Emmerich,2.5/4,0.68,,,0.68,1,2.5,0
+211,190,Legally Blonde,2021-07-13,Bill Simmons,Juliet Litman,Amanda Dobbins,,,2001,Comedy;Romance;,Robert Luketic,3/4,0.72,,,0.72,1,3,0
+212,191,Fight Club,2021-07-20,Bill Simmons,Chris Ryan,,,,1999,Drama;Thriller;,David Fincher,2/4,0.81,,,0.81,1,2,0
+213,192,The Bodyguard,2021-07-27,Bill Simmons,Van Lathan,,,,1992,Romance;Drama;,Mick Jackson,3/4,0.38,,,0.38,1,3,0
+214,193,Victory,2021-08-03,Bill Simmons,Chris Ryan,,,,1981,War;Drama;,John Huston,,0.7,,,0.7,1,,0
+215,194,Superbad,2021-08-09,Bill Simmons,Chris Ryan,Sean Fennessey,,,2007,Comedy;Teen;,Greg Mottola,3.5/4,0.88,,,0.88,1,3.5,0
+216,195,Argo,2021-08-16,Bill Simmons,Chris Ryan,,,,2012,Thriller;Drama;,Ben Affleck,4/4,0.96,,,0.96,1,4,0
+217,196,Rain Man,2021-08-24,Bill Simmons,Chris Ryan,Sean Fennessey,,,1988,Drama;,Barry Levinson,3.5/4,0.88,,,0.88,1,3.5,0
+218,197,Hardball,2021-08-31,Bill Simmons,Van Lathan,,,,2001,Sports;Drama;,Brian Robbins,2.5/4,0.41,,,0.41,1,2.5,0
+219,198,The ‘Miami Vice’ Two-Part Episode “Calderone’s Return”,2021-09-07,Bill Simmons,Chris Ryan,,,,1984,Buddy Cop;Action;Crime;Drama,,,0.85,,RT score is for Season 1 as a whole,0.85,0,,0
+220,199,Warrior,2021-09-14,Bill Simmons,Ryen Russillo,,,,2011,Action;Drama;,Gavin O'Connor,3/4,0.84,,,0.84,1,3,0
+221,200,Dirty Work,2021-09-21,Bill Simmons,Sean Fennessey,,,,1998,Comedy;,Bob Saget,,0.14,,,0.14,1,,0
+222,201,Trainspotting,2021-09-28,Chris Ryan,Andy Greenwald,,,,1996,Crime;Drama;,Danny Boyle,3/4,0.9,,,0.9,1,3,0
+223,202,The Departed,2021-10-05,Bill Simmons,Chris Ryan,Sean Fennessey,,,2006,Crime;Drama;,Martin Scorsese,4/4,0.91,,,0.91,1,4,0
+224,203,Cobra,2021-10-12,Bill Simmons,Kyle Brandt,,,,1986,Action;Crime;,George P. Cosmatos,,0.17,,,0.17,1,,0
+225,204,The Color of Money,2021-10-19,Bill Simmons,Chris Ryan,Sean Fennessey,,,1986,Drama;Sports;,Martin Scorsese,2.5/4,0.87,,,0.87,1,2.5,0
+226,205,Halloween,2021-10-26,Bill Simmons,Chris Ryan,,,,1978,Horror;Thriller;Slasher;Indie;,John Carpenter,4/4,0.97,,,0.97,1,4,0
+227,206,Heat,2021-11-02,Bill Simmons,Chris Ryan,Michael Mann,,,1995,Crime;Drama;,Michael Mann,3.5/4,0.83,,,0.83,1,3.5,1
+228,207,Ransom,2021-11-09,Bill Simmons,Van Lathan,,,,1996,Thriller;Crime;,Ron Howard,3/4,0.74,,,0.74,1,3,0
+229,208,Focus,2021-11-16,Bill Simmons,Wesley Morris,,,,2015,Crime;Comedy;Drama,Glenn Ficarra; John Requa,,0.56,,,0.56,1,,0
+230,209,Hoosiers,2021-11-26,Bill Simmons,Ryen Russillo,,,,1986,Sports;Drama;,David Anspaugh,4/4,0.91,,,0.91,1,4,0
+231,210,JFK,2021-12-02,Bill Simmons,Chris Ryan,Sean Fennessey,Brian Koppelman,,1991,Thriller;Crime;,Oliver Stone,4/4,0.84,,,0.84,1,4,0
+232,211,Saturday Night Fever,2021-12-07,Bill Simmons,Jimmy Kimmel,,,,1977,Drama;Music;,John Badham,4/4,0.82,,"Rog originally gave it 3.5/4 stars, but re-assessed in 1999",0.82,1,4,0
+233,212,The Last Boy Scout,2021-12-14,Bill Simmons,Chris Ryan,,,,1991,Action;Comedy;,Tony Scott,3/4,0.46,,,0.46,1,3,0
+234,213,Father of the Bride,2021-12-22,Bill Simmons,Amanda Dobbins,,,,1991,Romance;Comedy;,Charles Shyer,3/4,0.7,,,0.7,1,3,0
+235,214,Limitless,2022-01-04,Bill Simmons,Chris Ryan,Shea Serrano,,,2011,Thriller;Action;,Neil Burger,2.5/4,0.68,,,0.68,1,2.5,0
+236,215,Juice,2022-01-11,Bill Simmons,Van Lathan,Wosny Lambre,,,1992,Crime;Drama;,Ernest Dickerson,3/4,0.81,,,0.81,1,3,0
+237,216,Miracle,2022-01-18,Bill Simmons,Chris Ryan,,,,2004,Sports;Drama;,Gavin O'Connor,2/4,0.81,,,0.81,1,2,0
+238,217,Casino,2022-01-25,Bill Simmons,Chris Ryan,Sean Fennessey,,,1995,Crime;Drama;,Martin Scorsese,4/4,0.79,,,0.79,1,4,0
+239,218,Ordinary People,2022-02-01,Bill Simmons,Sean Fennessey,Mallory Rubin,,,1980,Drama;,Robert Redford,4/4,0.89,,"""Fucked up Family February"" month",0.89,1,4,0
+240,219,Rachel Getting Married,2022-02-08,Bill Simmons,Amanda Dobbins,Wesley Morris,,,2008,Drama;,Jonathan Demme,4/4,0.85,,"""Fucked up Family February"" month",0.85,1,4,0
+241,220,Parenthood,2022-02-15,Bill Simmons,Chris Ryan,Van Lathan,,,1989,Comedy;Drama;,Ron Howard,4/4,0.92,,"""Fucked up Family February"" month",0.92,1,4,0
+242,221,Kramer vs. Kramer,2022-02-21,Bill Simmons,Sean Fennessey,Mallory Rubin,,,1979,Drama;Legal;,Robert Benton,4/4,0.9,,"""Fucked up Family February"" month",0.9,1,4,0
+243,222,The Ice Storm,2022-03-01,Bill Simmons,Chris Ryan,Sean Fennessey,,,1997,Drama;,Ang Lee,4/4,0.86,,"""Fucked up Family February"" month",0.86,1,4,0
+244,223,Batman (1989),2022-03-08,Bill Simmons,Chris Ryan,Sean Fennessey,,,1989,Action;Superhero;,Tim Burton,2/4,0.77,,Bill says this is episode #226 around 50:00min,0.77,1,2,0
+245,224,Titanic,2022-03-15,Bill Simmons,Van Lathan,,,,1997,Romance;Disaster;,James Cameron,4/4,0.88,,,0.88,1,4,1
+246,225,Shooter,2022-03-22,Bill Simmons,Chris Ryan,Shea Serrano,,,2007,Action;Thriller;,Antoine Fuqua,,0.47,,,0.47,1,,0
+247,226,Panic Room,2022-03-29,Bill Simmons,Chris Ryan,Sean Fennessey,,,2002,Thriller;,David Fincher,3/4,0.76,,,0.76,1,3,0
+248,227,Die Hard 2,2022-04-05,Bill Simmons,Chris Ryan,Sean Fennessey,,,1990,Action;Thriller;,Renny Harlin,3.5/4,0.69,,,0.69,1,3.5,0
+249,228,The Player,2022-04-12,Bill Simmons,Sean Fennessey,Wesley Morris,,,1992,Comedy;Crime;,Robert Altman,4/4,0.97,,,0.97,1,4,0
+250,229,Spider-Man (2002),2022-04-19,Van Lathan,Charles Holmes,,,,2002,Action;Fantasy;Superhero,Sam Raimi,2.5/4,0.9,,,0.9,1,2.5,0
+251,230,A League of their Own,2022-04-26,Bill Simmons,Mallory Rubin,,,,1992,Sports;Comedy;,Penny Marshall,3/4,0.82,,,0.82,1,3,0
+252,231,Austin Powers: International Man of Mystery,2022-05-03,Bill Simmons,Chris Ryan,Sean Fennessey,,,1997,Comedy;Spy;,Jay Roach,3/4,0.73,,,0.73,1,3,0
+253,232,Beverly Hills Cop 2,2022-05-10,Bill Simmons,Chris Ryan,,,,1987,Action;Comedy;,Tony Scott,1/4,0.49,,,0.49,1,1,0
+254,233,E.T. the Extra Terrestrial,2022-05-17,Bill Simmons,Chris Ryan,Sean Fennessey,Mallory Rubin,,1982,Sci-fi;Adventure;,Steven Spielberg,4/4,0.99,,,0.99,1,4,0
+255,234,Rocky III,2022-05-25,Bill Simmons,Cousin Sal,Gus Ramsey,,,1982,Drama;Sports;,Sylvester Stallone,,0.65,,,0.65,1,,0
+256,235,The New Categories Selection Show,2022-05-31,Bill Simmons,Chris Ryan,Sean Fennessey,,,,,,,,,,,0,,0
+257,236,Cop Land,2022-06-02,Bill Simmons,Chris Ryan,Sean Fennessey,,,1997,Crime;Drama;,James Mangold,2/4,0.75,,,0.75,1,2,0
+258,237,Knocked Up,2022-06-07,Bill Simmons,Juliet Litman,Craig Horlbeck,,,2007,Romance;Comedy;,Judd Apatow,,0.9,,,0.9,1,,0
+259,238,Hard to Kill,2022-06-15,Bill Simmons,Kyle Brandt,,,,1990,Action;Crime;Martial Arts;,Bruce Malmuth,,0.33,,,0.33,1,,0
+260,239,The Untouchables,2022-06-23,Bill Simmons,Chris Ryan,,,,1987,Crime;Drama;,Brian De Palma,2.5/4,0.83,,,0.83,1,2.5,0
+261,240,Project X,2022-06-28,Bill Simmons,David Jacoby,Craig Horlbeck,,,2012,Comedy;,Nima Nourizadeh,,0.28,,,0.28,1,,0
+262,241,Misery,2022-07-05,Bill Simmons,Brian Koppelman,,,,1990,Horror;Thriller;,Rob Reiner,3/4,0.91,,,0.91,1,3,0
+263,242,Top Gun: Maverick,2022-07-12,Bill Simmons,Chris Ryan,,,,2022,Action;Adventure;,Joseph Kosinski,,0.96,,,0.96,1,,0
+264,243,Above The Rim,2022-07-19,Bill Simmons,Van Lathan,Wosny Lambre,,,1994,Drama;Sports;,Jeff Pollack,3/4,0.5,,,0.5,1,3,0
+265,244,There Will Be Blood,2022-07-26,Bill Simmons,Chris Ryan,Sean Fennessey,,,2007,Drama;,Paul Thomas Anderson,3.5/4,0.91,,,0.91,1,3.5,0
+266,245,Unforgiven,2022-08-01,Bill Simmons,Chris Ryan,Sean Fennessey,,,1992,Western;Drama;,Clint Eastwood,4/4,0.96,,"Rog originally gave it 2.5/4 stars, but re-assessed in 2002",0.96,1,4,0
+267,246,Can't Buy Me Love,2022-08-04,Bill Simmons,Juliet Litman,,,,1987,Comedy;Romance;,Steve Rash,0.5/4,0.5,,,0.5,1,0.5,0
+268,247,School Ties,2022-08-08,Bill Simmons,Juliet Litman,Mallory Rubin,,,1992,Drama;Teen;,Robert Mandel,3/4,0.61,,,0.61,1,3,0
+269,248,Grease,2022-08-15,Bill Simmons,Juliet Litman,Amanda Dobbins,,,1978,Romance;Music;,Randal Kleiser,3/4,0.66,,,0.66,1,3,0
+270,249,Scent of a Woman,2022-08-22,Bill Simmons,Chris Ryan,,,,1992,Drama;,Martin Brest,3.5/4,0.85,,Bill says this is episode #250 at 1min 20 sec,0.85,1,3.5,0
+271,250,Tango and Cash,2022-08-30,Bill Simmons,Shea Serrano,,,,1989,Buddy Cop;Action;Comedy;,Andrei Konchalovsky; Albert Magnoli,,0.31,,During the Rocky ep Bill and CR say they could do a Re-Tango after learning it's one of Van's favorite movies,0.31,1,,0
+272,251,Saving Private Ryan,2022-09-06,Bill Simmons,Chris Ryan,Sean Fennessey,,,1998,War;Drama;,Steven Spielberg,4/4,0.94,,,0.94,1,4,0
+273,252,Singles,2022-09-13,Bill Simmons,Chris Ryan,Van Lathan,,,1992,Romance;Comedy;,Cameron Crowe,3/4,0.79,,,0.79,1,3,0
+274,253,Margin Call,2022-09-20,Bill Simmons,Ryen Russillo,Brian Koppelman,,,2011,Thriller;Drama;,J. C. Chandor,3.5/4,0.87,,,0.87,1,3.5,0
+275,254,Boogie Nights (Part 1 and 2),2022-09-27,Bill Simmons,Chris Ryan,Sean Fennessey,,,1997,Drama;Comedy;,Paul Thomas Anderson,4/4,0.94,,,0.94,1,4,0
+276,255,Pitch Perfect,2022-10-04,Juliet Litman,Jodi Walker,Kate Halliwell,,,2012,Comedy;Romance;,Jason Moore,2/4,0.81,,,0.81,1,2,0
+277,256,Glengarry Glen Ross,2022-10-11,Chris Ryan,Sean Fennessey,,,,1992,Drama;Crime;,James Foley,3.5/4,0.95,,,0.95,1,3.5,0
+278,257,Pineapple Express,2022-10-18,Craig Horlbeck,Danny Kelly,Danny Heifetz,,,2008,Comedy;Action;,David Gordon Green,3.5/4,0.68,,,0.68,1,3.5,0
+279,258,The Edge,2022-10-25,Bill Simmons,Van Lathan,,,,1997,Adventure;Drama;,Lee Tamahori,3/4,0.62,,,0.62,1,3,0
+280,259,American Gigolo,2022-11-01,Bill Simmons,Sean Fennessey,Mallory Rubin,,,1980,Crime;Drama;,Paul Schrader,3.5/4,0.73,,,0.73,1,3.5,0
+281,260,Cruising,2022-11-08,Bill Simmons,Chris Ryan,Wesley Morris,,,1980,Crime;Thriller;,William Friedkin,2.5/4,0.49,,,0.49,1,2.5,0
+282,261,Blow Out,2022-11-15,Bill Simmons,Chris Ryan,Sean Fennessey,Wesley Morris,,1981,Thriller;Mystery;,Brian De Palma,4/4,0.88,,,0.88,1,4,0
+283,262,Body Heat,2022-11-22,Bill Simmons,Mallory Rubin,Wesley Morris,,,1981,Noir;Drama;,Lawrence Kasdan,4/4,0.96,,,0.96,1,4,0
+284,263,"Planes, Trains and Automobiles",2022-11-29,Bill Simmons,Van Lathan,,,,1987,Comedy;Buddy;,John Hughes,4/4,0.93,,"Rog originally gave it 3.5/4 stars, but reassessed in 2000",0.93,1,4,0
+285,264,Man On Fire,2022-12-06,Bill Simmons,Chris Ryan,,,,2004,Action;Thriller;,Tony Scott,2.5/4,0.38,,,0.38,1,2.5,0
+286,265,The Verdict,2022-12-13,Bill Simmons,Chris Ryan,Sean Fennessey,,,1982,Drama;Legal;,Sidney Lumet,4/4,0.88,,,0.88,1,4,0
+287,266,I Am Legend,2022-12-20,Bill Simmons,Van Lathan,,,,2007,Sci-fi;Action;,Francis Lawrence,3/4,0.68,,,0.68,1,3,0
+288,267,Mission: Impossible - Fallout,2022-12-27,Bill Simmons,Chris Ryan,Craig Horlbeck,,,2018,Action;Thriller;,Christopher McQuarrie,,0.98,,,0.98,1,,0
+289,268,Cliffhanger,2023-01-03,Bill Simmons,Kyle Brandt,,,,1993,Action;Adventure;,Renny Harlin,3/4,0.68,,,0.68,1,3,0
+290,269,Sideways,2023-01-10,Bill Simmons,Chris Ryan,Sean Fennessey,,,2004,Comedy;Romance;Drama;,Alexander Payne,4/4,0.97,,,0.97,1,4,0
+291,270,Alive,2023-01-17,Bill Simmons,Chris Ryan,Craig Horlbeck,,,1993,Drama;Disaster;,Frank Marshall,2.5/4,0.63,,,0.63,1,2.5,0
+292,271,Big,2023-01-24,Bill Simmons,Mallory Rubin,Van Lathan,,,1988,Comedy;Drama;Fantasy;,Penny Marshall,3/4,0.98,,,0.98,1,3,0
+293,272,Deliverance,2023-01-31,Bill Simmons,Chris Ryan,Ryen Russillo,,,1972,Adventure;Drama;,John Boorman,2.5/4,0.89,,,0.89,1,2.5,0
+294,273,The Vanishing,2023-02-07,Bill Simmons,Chris Ryan,,,,1993,Thriller;Mystery;,George Sluizer,1/4,0.49,,,0.49,1,1,0
+295,274,Sleepless In Seattle,2023-02-14,Bill Simmons,Juliet Litman,Amanda Dobbins,,,1993,Romance;Comedy;,Nora Ephron,3/4,0.75,,Bill says this is episode #275 at 1hr 6min,0.75,1,3,0
+296,275,Whiplash,2023-02-21,Bill Simmons,Sean Fennessey,,,,2014,Drama;Music;,Damien Chazelle,,0.94,,,0.94,1,,0
+297,276,Catch Me If You Can,2023-02-28,Bill Simmons,Chris Ryan,Sean Fennessey,,,2002,Drama;Crime;,Steven Spielberg,3/4,0.96,,,0.96,1,3,0
+298,277,The Purge,2023-03-07,Bill Simmons,Chris Ryan,,,,2013,Horror;Thriller;,James DeMonaco,,0.41,,"Bill says ""277 movies we've done"" at 52m:00s",0.41,1,,0
+299,278,Bad Boys,2023-03-14,Bill Simmons,Chris Ryan,,,,1983,Drama;Crime;,Rick Rosenthal,3.5/4,0.89,,"Rog originally gave it 3/4 stars, but reassessed in 1989",0.89,1,3.5,0
+300,279,Adventureland,2023-03-21,Bill Simmons,Juliet Litman,,,,2009,Romance;Comedy;,Greg Mottola,3/4,0.89,,,0.89,1,3,0
+301,280,Cape Fear,2023-03-28,Bill Simmons,Chris Ryan,Sean Fennessey,,,1991,Thriller;Crime;,Martin Scorsese,3/4,0.75,,,0.75,1,3,0
+302,281,He Got Game,2023-04-04,Bill Simmons,Van Lathan,Logan Murdock,,,1998,Drama;Sports;,Spike Lee,3.5/4,0.8,,,0.8,1,3.5,0
+303,282,Indecent Proposal,2023-04-11,Bill Simmons,Mallory Rubin,,,,1993,Romance;Drama;,Adrian Lyne,3/4,0.34,,,0.34,1,3,0
+304,283,Alien,2023-04-18,Bill Simmons,Chris Ryan,Sean Fennessey,,,1979,Sci-fi;Horror;,Ridley Scott,4/4,0.93,,,0.93,1,4,0
+305,284,Sudden Death,2023-04-25,Bill Simmons,Kyle Brandt,,,,1995,Action;Thriller;Martial Arts;,Peter Hyams,2.5/4,0.51,,,0.51,1,2.5,0
+306,285,Iron Man,2023-05-02,Bill Simmons,Van Lathan,,,,2008,Action;Sci-fi;,Jon Favreau,4/4,0.94,,,0.94,1,4,0
+307,286,Chef,2023-05-09,Bill Simmons,David Chang,,,,2014,Drama;Comedy;,Jon Favreau,,0.87,,,0.87,1,,0
+308,287,Trading Places,2023-05-16,Bill Simmons,Chris Ryan,Van Lathan,,,1983,Comedy;,John Landis,3.5/4,0.89,,,0.89,1,3.5,0
+309,288,The Last Days of Disco,2023-05-23,Bill Simmons,Chris Ryan,Sean Fennessey,,,1998,Drama;Romance;,Whit Stillman,3.5/4,0.73,,,0.73,1,3.5,0
+310,289,Casino Royale,2023-06-02,Bill Simmons,Amanda Dobbins,Sean Fennessey,,,2006,Action;Adventure;Spy;,Martin Campbell,4/4,0.94,,,0.94,1,4,0
+311,290,Dumb and Dumber,2023-06-08,Bill Simmons,Jennifer Lawrence,,,,1994,Comedy;,Peter Farrelly,2/4,0.67,,,0.67,1,2,0
+312,291,Blood Diamond,2023-06-13,Bill Simmons,Chris Ryan,,,,2006,War;Drama;Thriller,Edward Zwick,,0.64,,,0.64,1,,0
+313,292,Indiana Jones and the Last Crusade,2023-06-20,Bill Simmons,Chris Ryan,Sean Fennessey,,,1989,Adventure;Action;,Steven Spielberg,3.5/4,0.84,,,0.84,1,3.5,0
+314,293,This Is The End,2023-06-27,Bill Simmons,Chris Ryan,Craig Horlbeck,,,2013,Comedy;Fantasy;,Seth Rogen; Evan Goldberg,,0.82,,,0.82,1,,0
+315,294,Primal Fear,2023-07-04,Bill Simmons,Chris Ryan,Sean Fennessey,,,1996,Thriller;Mystery;Legal;,Gregory Hoblit,3.5/4,0.77,,Courtroom Month; CR confirms A Few Good Men was Rewatchable no.1,0.77,1,3.5,0
+316,295,A Time To Kill,2023-07-11,Bill Simmons,Wesley Morris,,,,1996,Drama;Thriller;Legal;,Joel Schumacher,3/4,0.67,,Courtroom Month,0.67,1,3,0
+317,296,My Cousin Vinny,2023-07-18,Bill Simmons,Chris Ryan,Wesley Morris,,,1992,Comedy;Legal;,Jonathan Lynn,2.5/4,0.85,,Courtroom Month,0.85,1,2.5,0
+318,297,And Justice For All,2023-07-20,Bill Simmons,Sean Fennessey,Wesley Morris,,,1979,Drama;Mystery;,Norman Jewison,3/4,0.78,,Courtroom Month,0.78,1,3,0
+319,298,The Devil's Advocate,2023-07-25,Bill Simmons,Chris Ryan,Van Lathan,,,1997,Thriller;Horror;,Taylor Hackford,2.5/4,0.63,,Courtroom Month,0.63,1,2.5,0
+320,299,A Few Good Men,2023-07-31,Bill Simmons,Chris Ryan,Sean Fennessey,Mallory Rubin*,,1992,Legal;Drama;,Rob Reiner,2.5/4,0.84,,Courtroom Month; Bill says the next movie will be episode #300,0.84,1,2.5,1
+321,300,National Lampoon’s Vacation,2023-08-08,Bill Simmons,Chris Ryan,Van Lathan,,,1983,Comedy;Adventure;,Harold Ramis,,0.94,,,0.94,1,,0
+322,303,The Equalizer,2023-08-29,Bill Simmons,Chris Ryan,Bill's Dad,,,2014,Action;,Antoine Fuqua,,0.61,,,0.61,1,,0
+323,304,Lost In Translation,2023-09-05,Bill Simmons,Amanda Dobbins,,,,2003,Romance;Drama;,Sophia Coppola,4/4,0.95,,,0.95,1,4,0
+324,305,Blackhat,2023-09-12,Bill Simmons,Chris Ryan,,,,2015,Action;Thriller;,Michael Mann,,0.33,,,0.33,1,,0
+325,306,A Bronx Tale,2023-09-19,Bill Simmons,Chris Ryan,Sean Fennessey,Van Lathan,,1993,Crime;Drama;,Robert De Niro,4/4,0.97,,,0.97,1,4,0
+326,307,The Big Chill,2023-09-26,Bill Simmons,Chris Ryan,Sean Fennessey,,,1983,Drama;Comedy;,Lawrence Kasdan,2.5/4,0.69,,,0.69,1,2.5,0
+327,308,Toy Soldiers,2023-10-03,Bill Simmons,Kyle Brandt,,,,1991,Action;Adventure;,Daniel Petrie,1/4,0.41,,,0.41,1,1,0
+328,309,They Live,2023-10-10,Bill Simmons,Chris Ryan,Sean Fennessey,,,1988,Sci-fi;Action;,John Carpenter,,0.87,,,0.87,1,,0
+329,310,So I Married An Axe Murderer,2023-10-17,Bill Simmons,Chris Ryan,Sean Fennessey,,,1993,Comedy;,Thomas Schlamme,2.5/4,0.55,,,0.55,1,2.5,0
+330,311,In The Line of Fire,2023-10-24,Bill Simmons,Chris Ryan,,,,1993,Drama;Thriller;,Wolfgang Petersen,3.5/4,0.96,,,0.96,1,3.5,0
+331,312,The Omen,2023-10-31,Bill Simmons,Chris Ryan,,,,1976,Horror;,Richard Donner,2.5/4,0.85,,,0.85,1,2.5,0
+332,313,Robin Hood: Prince of Thieves,2023-11-07,Bill Simmons,Chris Ryan,Van Lathan,,,1991,Drama;Adventure;,Kevin Reynolds,2/4,0.51,,,0.51,1,2,0
+333,314,An Officer and a Gentleman,2023-11-14,Bill Simmons,Chris Ryan,Sean Fennessey,,,1982,Romance;Drama;,Taylor Hackford,4/4,0.79,,,0.79,1,4,0
+334,315,Mr. and Mrs. Smith,2023-11-21,Bill Simmons,Chris Ryan,Amanda Dobbins,,,2005,Action;Comedy;,Doug Liman,3/4,0.6,,,0.6,1,3,0
+335,317,Sea of Love,2023-12-05,Bill Simmons,Chris Ryan,Wosny Lambre,,,1989,Thriller;Mystery;,Harold Becker,3/4,0.75,,,0.75,1,3,0
+336,318,The Pelican Brief,2023-12-12,Bill Simmons,Chris Ryan,Sean Fennessey,Amanda Dobbins,,1993,Thriller;Crime;,Alan J. Pakula,3/4,0.54,,,0.54,1,3,0
+337,319,National Lampoon’s Christmas Vacation,2023-12-19,Bill Simmons,Chris Ryan,Sean Fennessey,Van Lathan,,1989,Comedy;Christmas;,Jeremiah S. Chechik,2/4,0.72,,,0.72,1,2,0
+338,320,Under Siege,2023-12-26,Bill Simmons,Kyle Brandt,,,,1992,Action;Thriller;Martial Arts;,Andrew Davis,3/4,0.83,,,0.83,1,3,0
+339,321,Searching for Bobby Fischer,2024-01-02,Bill Simmons,Van Lathan,Charles Holmes,,,1993,Sports;Drama;,Steven Zaillian,4/4,1,,,1,1,4,0
+340,322,Flight,2024-01-09,Bill Simmons,Chris Ryan,Van Lathan,,,2012,Drama;,Robert Zemeckis,4/4,0.77,,,0.77,1,4,0
+341,323,Silver Linings Playbook,2024-01-16,Chris Ryan,Andy Greenwald,Zach Baron,,,2012,Romance;Comedy;,David O. Russell,3.5/4,0.92,,,0.92,1,3.5,0
+342,324,Philadelphia,2024-01-23,Bill Simmons,Chris Ryan,Wesley Morris,,,1993,Thriller;Drama;,Jonathan Demme,3.5/4,0.81,,,0.81,1,3.5,0
+343,326,The Fugitive,2024-02-06,Bill Simmons,Chris Ryan,Mallory Rubin,Craig Horlbeck,,1993,Action;Thriller;,Andrew Davis,4/4,0.96,,Cold Weather Tour 2024,0.96,1,4,1
+344,327,Forrest Gump,2024-02-13,Bill Simmons,Chris Ryan,Sean Fennessey,Mallory Rubin,,1994,Romance;Drama;,Robert Zemeckis,4/4,0.75,,Cold Weather Tour 2024,0.75,1,4,0
+345,328,Creed,2024-02-20,Bill Simmons,Chris Ryan,Sean Fennessey,Van Lathan,,2015,Drama;Sports;,Ryan Coogler,,0.95,,Cold Weather Tour 2024,0.95,1,,0
+346,329,Rounders,2024-02-27,Bill Simmons,Chris Ryan,Sean Fennessey,Van Lathan,,1998,Crime;Sports;,John Dahl,3/4,0.64,,Cold Weather Tour 2024,0.64,1,3,0
+347,330,Road House,2024-03-05,Bill Simmons,Chris Ryan,Kyle Brandt,,,1989,Action;Thriller;,Rowdy Herrington,2.5/4,0.44,,,0.44,1,2.5,0
+348,331,Risky Business,2024-03-12,Bill Simmons,Chris Ryan,,,,1983,Comedy;Teen;,Paul Brickman,4/4,0.93,,,0.93,1,4,0
+349,332,Internal Affairs,2024-03-19,Bill Simmons,Chris Ryan,Van Lathan,,,1990,Thriller;Crime;,Mike Figgis,,0.79,,,0.79,1,,0
+350,333,Manchester By The Sea,2024-03-26,Bill Simmons,Chris Ryan,Sean Fennessey,,,2016,Drama;,Kenneth Lonergan,,0.96,Hanks,Rock Bottom' month; the first Cruise or Hanks,0.96,1,,0
+351,334,Shot Caller,2024-04-02,Bill Simmons,Chris Ryan,,,,2017,Crime;Thriller;,Ric Roman Waugh,,0.69,Cruise,Rock Bottom' month,0.69,1,,0
+352,335,The War of the Roses,2024-04-09,Bill Simmons,Mallory Rubin,Amanda Dobbins,,,1989,Comedy;Thriller;,Danny DeVito,3/4,0.83,Cruise,Rock Bottom' month,0.83,1,3,0
+353,337,Hardcore,2024-04-23,Bill Simmons,Chris Ryan,Sean Fennessey,,,1979,Crime;Noir;,Paul Schrader,4/4,0.8,Hanks,Rock Bottom' month,0.8,1,4,0
+354,338,The Running Man,2024-04-30,Bill Simmons,Kyle Brandt,,,,1987,Action;Sci-fi;,Paul Michael Glaser,2.5/4,0.66,Cruise,,0.66,1,2.5,0
+355,339,Along Came Polly,2024-05-07,Bill Simmons,Sean Fennessey,,,,2004,Comedy;Romance;,John Hamburg,2/4,0.27,Hanks,,0.27,1,2,0
+356,340,Jerry Maguire,2024-05-13,Bill Simmons,Chris Ryan,Sean Fennessey,Van Lathan,,1996,Romance;Sports;Comedy;,Cameron Crowe,3/4,0.85,Cruise,Youtube livestream,0.85,1,3,1
+357,341,Back to the Future Part II,2024-05-21,Bill Simmons,Chris Ryan,Cousin Sal,,,1989,Sci-fi;Adventure;,Robert Zemeckis,3/4,0.63,Hanks,,0.63,1,3,0
+358,342,Fast Times at Ridgemont High,2024-05-28,Bill Simmons,Chris Ryan,Mallory Rubin,,,1982,Comedy;Romance;,Amy Heckerling,1/4,0.78,Hanks,,0.78,1,1,0
+359,343,Slap Shot,2024-06-04,Bill Simmons,Chris Ryan,Sean Fennessey,,,1977,Comedy;Sports;,George Roy Hill,,0.87,Hanks,,0.87,1,,0
+360,344,Breaking Away,2024-06-11,Bill Simmons,Chris Ryan,Sean Fennessey,,,1979,Sports;Comedy;,Peter Yates,4/4,0.95,Hanks,,0.95,1,4,0
+361,345,The Longest Yard,2024-06-18,Bill Simmons,Chris Ryan,Van Lathan,,,1974,Comedy;Sports;,Robert Aldrich,,0.76,Cruise,,0.76,1,,0
+362,346,The Bad News Bears,2024-06-25,Bill Simmons,Van Lathan,,,,1976,Family;Comedy;,Michael Ritchie,3/4,0.96,Hanks,,0.96,1,3,0
+363,348,The Naked Gun,2024-07-02,Bill Simmons,Kyle Brandt,,,,1988,Comedy;Action;,David Zucker,3.5/4,0.86,Hanks,,0.86,1,3.5,0
+364,350,Twister,2024-07-09,Bill Simmons,Chris Ryan,Van Lathan,,,1996,Action;Adventure;,Jan de Bont,2.5/4,0.67,Hanks,,0.67,1,2.5,0
+365,352,True Lies,2024-07-15,Bill Simmons,Chris Ryan,Van Lathan,,,1994,Comedy;Action;,James Cameron,3/4,0.7,Cruise,,0.7,1,3,0
+366,354,No Way Out,2024-07-23,Bill Simmons,Chris Ryan,Sean Fennessey,,,1987,Thriller;Action;,Roger Donaldson,4/4,0.92,Cruise,,0.92,1,4,0
+367,355,Pulp Fiction (Part 1 and 2),2024-07-29,Bill Simmons,Chris Ryan,Sean Fennessey,,,1994,Crime;Thriller;,Quentin Tarantino,4/4,0.92,Cruise,,0.92,1,4,0
+368,356,Dodgeball,2024-08-06,Craig Horlbeck,Danny Heifetz,Danny Kelly,,,2004,Comedy;Sports;,Rawson Marshall Thurber,3/4,0.72,Hanks,,0.72,1,3,0
+369,357,The Grand Budapest Hotel,2024-08-13,Chris Ryan,Sean Fennessey,Andy Greenwald,,,2014,Comedy;Adventure;,Wes Anderson,,0.92,Hanks,,0.92,1,,0
+370,358,Rudy,2024-08-22,Bill Simmons,Kyle Brandt,,,,1993,Sports;Family;,David Anspaugh,3.5/4,0.78,Cruise,,0.78,1,3.5,0
+371,359,Purple Rain,2024-08-27,Bill Simmons,Wesley Morris,,,,1984,Musical;,Albert Magnoli,,0.72,Cruise,,0.72,1,,0
+372,360,Night Shift,2024-09-03,Bill Simmons,Chris Ryan,,,,1982,Comedy;,Ron Howard,,0.93,Hanks,,0.93,1,,0
+373,362,John Wick,2024-09-17,Bill Simmons,Chris Ryan,Shea Serrano,,,2014,Action;,Chad Stahelski,,0.86,Cruise,,0.86,1,,0
+374,363,Over The Top,2024-09-24,Bill Simmons,Kyle Brandt,,,,1987,Action;Sports;,Menahem Golan,,0.32,Cruise,,0.32,1,,0
+375,364,The Blair Witch Project,2024-10-01,Bill Simmons,Chris Ryan,,,,1999,Horror;,Eduardo Sánchez; Daniel Myrick,4/4,0.86,Hanks,,0.86,1,4,0
+376,365,Poltergeist,2024-10-07,Bill Simmons,Van Lathan,,,,1982,Horror;,Tobe Hooper,3/4,0.88,Hanks,,0.88,1,3,0
+377,366,The Silence of the Lambs,2024-10-15,Bill Simmons,Chris Ryan,Sean Fennessey,Mallory Rubin,,1991,Thriller;Horror;,Jonathan Demme,4/4,0.95,Cruise,,0.95,1,4,1
+378,367,Hereditary,2024-10-21,Bill Simmons,Chris Ryan,Sean Fennessey,,,2018,Horror;,Ari Aster,,0.9,Hanks,,0.9,1,,0
+379,368,Halloween 4,2024-10-28,Bill Simmons,Chris Ryan,Van Lathan,,,1988,Horror;,Dwight H. Little,,0.39,Cruise,,0.39,1,,0
+380,369,Body Double,2024-11-04,Bill Simmons,Chris Ryan,Sean Fennessey,,,1984,Thriller;,Brian de Palma,3.5/4,0.79,Hanks,,0.79,1,3.5,0
+381,370,Meet The Parents,2024-11-11,Bill Simmons,Kyle Brandt,,,,2000,Comedy;,Jay Roach,3/4,0.85,Hanks,,0.85,1,3,0
+382,371,The Replacements,2024-11-18,Bill Simmons,Van Lathan,,,,2000,Sports;Comedy;,Howard Deutch,2/4,0.41,Cruise,,0.41,1,2,0
+383,372,Running Scared,2024-11-25,Bill Simmons,Chris Ryan,,,,1986,Buddy Cop;Action;Comedy;,Peter Hyams,3/4,0.63,Hanks,,0.63,1,3,0
+384,373,Disclosure,2024-12-09,Bill Simmons,Van Lathan,Wosny Lambre,,,1994,Thriller;Mystery;,Barry Levinson,2/4,0.59,Cruise,,0.59,1,2,0
+385,374,The Gambler,2024-12-16,Bill Simmons,Chris Ryan,,,,2014,Thriller;Drama;Crime;,Rupert Wyatt,,0.43,Cruise,,0.43,1,,0
+386,375,Home Alone 2: Lost in New York,2024-12-23,Bill Simmons,Kyle Brandt,,,,1992,Comedy;Family;Christmas;,Chris Columbus,2/4,0.35,Hanks,,0.35,1,2,0
+387,376,Friday Night Lights,2024-12-30,Bill Simmons,Mallory Rubin,,,,2004,Sports;Drama;,Peter Berg,3.5/4,0.82,Hanks,,0.82,1,3.5,0
+388,377,Den of Thieves,2025-01-06,Bill Simmons,Chris Ryan,Van Lathan,,,2018,Action;Crime;,Christian Gudegast,,0.41,Hanks,,0.41,1,,0
+389,378,A 2025 Rewatchables Mailbag,2025-01-20,Bill Simmons,Chris Ryan,Craig Horlbeck,,,,,,,,,,,0,,0
+390,379,Before Sunrise,2025-01-27,Bill Simmons,Chris Ryan,Sean Fennessey,,,1995,Romance;Drama;,Richard Linklater,3/4,1,Cruise,,1,1,3,0
+391,380,Before Sunset,2025-02-03,Bill Simmons,Chris Ryan,Sean Fennessey,Mallory Rubin,,2004,Romance;Drama;,Richard Linklater,3.5/4,0.94,Cruise,,0.94,1,3.5,0
+392,381,The Blues Brothers,2025-02-10,Bill Simmons,Chris Ryan,Sean Fennessey,,,1980,Comedy;Musical;,John Landis,3/4,0.71,Hanks,,0.71,1,3,0
+393,382,Wayne's World,2025-02-17,Bill Simmons,Kyle Brandt,,,,1992,Comedy;,Penelope Spheeris,3/4,0.79,Hanks,,0.79,1,3,0
+394,383,Crash,2025-02-24,Bill Simmons,Van Lathan,Joanna Robinson,,,2004,Drama;Crime;,Paul Haggis,4/4,0.73,Cruise,,0.73,1,4,0
+395,384,Rocky,2025-03-03,Bill Simmons,Chris Ryan,Van Lathan,,,1976,Sports;Drama;,John G. Avildsen,4/4,0.93,Cruise,,0.93,1,4,0
+396,385,Best in Show,2025-03-10,Bill Simmons,Mallory Rubin,Joanna Robinson,,,2000,Comedy;,Christopher Guest,3.5/4,0.93,Hanks,,0.93,1,3.5,0
+397,386,Days of Thunder,2025-03-17,Bill Simmons,Chris Ryan,Kyle Brandt,,,1990,Sports;Action;Drama;,Tony Scott,3/4,0.38,Cruise,,0.38,1,3,0
+398,387,Blue Chips,2025-03-24,Bill Simmons,Chris Ryan,Van Lathan,,,1994,Sports;Drama;,William Friedkin,3/4,0.4,Hanks,The Re-Chips,0.4,1,3,1
+399,388,Good Will Hunting,2025-03-31,Bill Simmons,Chris Ryan,Sean Fennessey,Ryen Russillo,,1997,Drama;Romance;,Gus Van Sant,3/4,0.97,Cruise,,0.97,1,3,0
+400,389,The Saint,2025-04-04,Bill Simmons,Kyle Brandt,,,,1997,Action;Thriller;,Phillip Noyce,2/4,0.3,Cruise,,0.3,1,2,0
+401,390,Can't Hardly Wait,2025-04-14,Bill Simmons,Joanna Robinson,,,,1998,Teen;Romance;Comedy;,Deborah Kaplan; Harry Elfont,1.5/4,0.42,Hanks,,0.42,1,1.5,0
+402,391,Minority Report,2025-04-21,Bill Simmons,Chris Ryan,Van Lathan,,,2002,Action;Sci-fi;,Steven Spielberg,4/4,0.89,Cruise,,0.89,1,4,0
+403,392,Someone to Watch Over Me,2025-04-28,Bill Simmons,Chris Ryan,,,,1987,Noir;Romance;Thriller;,Ridley Scott,2/4,0.65,Hanks,,0.65,1,2,0
+404,393,Star Wars: A New Hope,2025-05-05,Bill Simmons,Chris Ryan,Sean Fennessey,Van Lathan,,1977,Fantasy;Sci-fi;,George Lucas,4/4,0.94,Cruise,70s month',0.94,1,4,0
+405,394,Death Wish,2025-05-12,Bill Simmons,Chris Ryan,,,,1974,Action;,Michael Winner,3/4,0.66,Hanks,70s month',0.66,1,3,0
+406,395,Close Encounters of the Third Kind,2025-05-19,Bill Simmons,Chris Ryan,Sean Fennessey,,,1977,Sci-fi;Drama;,Steven Spielberg,4/4,0.9,Hanks,70s month',0.9,1,4,0
+407,396,Heaven Can Wait,2025-05-26,Bill Simmons,Chris Ryan,Van Lathan,,,1978,Sports;Fantasy;Comedy;Drama,Warren Beatty; Buck Henry,3/4,0.86,Hanks,70s month',0.86,1,3,0
+408,397,Out for Justice,2025-06-02,Bill Simmons,Kyle Brandt,,,,1991,Action;Thriller;Martial Arts;,John Flynn,,0.23,Cruise,,0.23,1,,0
+409,398,Working Girl,2025-06-09,Bill Simmons,Amanda Dobbins,Joanna Robinson,,,1988,Romance;Comedy;Drama;,Mike Nichols,4/4,0.83,Hanks,,0.83,1,4,0
+410,399,Marathon Man,2025-06-17,Bill Simmons,Chris Ryan,,,,1976,Action;Thriller;,John Schlesinger,3/4,0.82,Cruise,"At the end of the ep, Bill mentions that the next ep is episode 400, the first time the pod's episode count has aligned with this sheet",0.82,1,3,0
+411,400,Die Hard with a Vengeance,2025-06-23,Bill Simmons,Chris Ryan,Van Lathan,,,1995,Action;Thriller;,John McTiernan,3/4,0.6,Cruise,,0.6,1,3,0
+412,401,After Hours,2025-06-30,Bill Simmons,Sean Fennessey,,,,1985,Noir;Comedy;,Martin Scorsese,4/4,0.9,Hanks,,0.9,1,4,0
+413,402,Jaws 2,2025-07-07,Bill Simmons,Chris Ryan,Sean Fennessey,,,1978,Horror;Thriller;,Jeannot Szwarc,,0.56,Cruise,,0.56,1,,0
+414,403,It's Complicated,2025-07-14,Bill Simmons,Amanda Dobbins,Mina Kimes,,,2009,Romance;Comedy;,Nancy Meyers,2.5/4,0.58,Hanks,,0.58,1,2.5,0
+415,404,Species,2025-07-21,Bill Simmons,Chris Ryan,Van Lathan,,,1995,Sci-fi;Horror;,Roger Donaldson,2/4,0.42,Cruise,,0.42,1,2,0
+416,405,Brokeback Mountain,2025-07-28,Bill Simmons,Wesley Morris,,,,2005,Western;Romance;Drama;,Ang Lee,4/4,0.88,Cruise,,0.88,1,4,0
+417,406,Robocop,2025-08-04,Bill Simmons,Kyle Brandt,,,,1987,Sci-fi;Action;,Paul Verhoeven,3/4,0.92,Cruise,One-word movie title month',0.92,1,3,0
+418,407,Rollerball,2025-08-11,Bill Simmons,Brian Koppelman,,,,1975,Sci-fi;Sports;,Norman Jewison,,0.57,Cruise,One-word movie title month',0.57,1,,0
+419,408,Sinners,2025-08-17,Bill Simmons,Van Lathan,Wesley Morris,,,2025,Horror;,Ryan Coogler,,0.97,Cruise,One-word movie title month',0.97,1,,0
+420,409,Witness,2025-08-25,Bill Simmons,Mallory Rubin,,,,1985,Noir;Crime;Thriller;,Peter Weir,4/4,0.94,Hanks,One-word movie title month',0.94,1,4,0
+421,410,American Gangster,2025-09-01,Bill Simmons,Chris Ryan,Van Lathan,,,2007,Crime;Drama;,Ridley Scott,4/4,0.81,Hanks,,0.81,1,4,0
+422,411,The Legend of Billie Jean,2025-09-08,Bill Simmons,Chris Ryan,,,,1985,Drama;,Matthew Robbins,,0.39,Cruise,,0.39,1,,0
+423,412,Tin Cup,2025-09-15,Bill Simmons,Joe House,Craig Horlbeck,,,1996,Romance;Comedy;Sports;,Ron Shelton,3/4,0.74,Hanks,,0.74,1,3,0
+424,413,Airplane!,2025-09-22,Bill Simmons,Bill Hader,,,,1980,Comedy;Disaster;Satire;,Jim Abrahams; David Zucker; Jerry Zucker,3/4,0.97,Cruise,,0.97,1,3,0
+425,414,The Sting,2025-09-29,Bill Simmons,Chris Ryan,Sean Fennessey,,,1973,Comedy;Crime;,George Roy Hill,4/4,0.93,Tie,Robert Redford month',0.93,1,4,0
+426,415,Jeremiah Johnson,2025-10-06,Bill Simmons,Chris Ryan,Bill's Dad,,,1972,Western;,Sydney Pollack,3/4,0.91,Cruise,Robert Redford month',0.91,1,3,0
+427,416,Sneakers,2025-10-13,Bill Simmons,Kyle Brandt,Joanna Robinson,,,1992,Thriller;Crime;,Phil Alden Robinson,2.5/4,0.8,Hanks,Robert Redford month',0.8,1,2.5,0
+428,417,Quiz Show,2025-10-20,Bill Simmons,Brian Koppelman,,,,1994,Mystery;Drama;,Robert Redford,3.5/4,0.97,Hanks,Robert Redford month',0.97,1,3.5,0
+429,418,Halloween II,2025-10-27,Bill Simmons,Chris Ryan,Van Lathan,,,1981,Horror;Slasher;,Rick Rosenthal,2/4,0.35,Hanks,,0.35,1,2,0
+430,419,The Truman Show,2025-11-03,Bill Simmons,Chris Ryan,Glen Powell,,,1998,Comedy;Drama;,Peter Weir,4/4,0.94,Hanks,,0.94,1,4,0
+431,420,Snake Eyes,2025-11-10,Bill Simmons,Sean Fennessey,Van Lathan,,,1998,Thriller;Crime;Mystery;,Brian de Palma,1/4,0.42,Tie,,0.42,1,1,0
+432,421,Weird Science,2025-11-17,Bill Simmons,Kyle Brandt,,,,1985,Comedy;Sci-fi;,John Hughes,3/4,0.6,Cruise,,0.6,1,3,0
+433,422,Two for the Money,2025-11-24,Bill Simmons,Chris Ryan,Cousin Sal,,,2005,Sports;Drama;Thriller,D.J. Caruso,3.5/4,0.22,Cruise,,0.22,1,3.5,0
+434,423,Rocky II,2025-12-01,Bill Simmons,Chris Ryan,Van Lathan,,,1979,Sports;Drama;,Sylvester Stallone,3/4,0.7,Cruise,,0.7,1,3,0
+435,424,Shampoo,2025-12-08,Bill Simmons,Sean Fennessey,Cameron Crowe,,,1975,Comedy;Romance;Satire;,Hal Ashby,2.5/4,0.75,Cruise,,0.75,1,2.5,0
+436,425,High Fidelity,2025-12-15,Bill Simmons,Chris Ryan,Joanna Robinson,Rob Mahoney,,2000,Comedy;Romance;Drama;,Stephen Frears,4/4,0.91,Hanks,,0.91,1,4,0
+437,426,The Sure Thing,2025-12-17,Bill Simmons,Chris Ryan,,,,1985,Comedy;Romance;Christmas;,Rob Reiner,3.5/4,0.83,Hanks,,0.83,1,3.5,0
+438,427,F1,2025-12-22,Bill Simmons,Chris Ryan,Van Lathan,,,2025,Sports;Drama;,Joseph Kosinski,,0.83,Cruise,,0.83,1,,0
+439,428,Bill’s 50 Most Rewatchable Movies of the 21st Century,2025-12-29,Bill Simmons,Chris Ryan,Sean Fennessey,,,,,,,,,,,0,,0
+440,429,A 2026 Rewatchables Mailbag,2026-01-05,Bill Simmons,Chris Ryan,Craig Horlbeck,,,,,,,,,,,0,,0
+441,430,What Lies Beneath,2026-01-13,Bill Simmons,Chris Ryan,Mallory Rubin,,,2000,Horror;Thriller;,Robert Zemeckis,2/4,0.49,Tie,,0.49,1,2,0
+442,431,Just One of the Guys,2026-01-19,Bill Simmons,Kyle Brandt,Joanna Robinson,,,1985,Comedy;Teen;,Lisa Gottlieb,,0.57,Cruise,,0.57,1,,0
+443,432,Another 48 Hrs.,2026-01-21,Bill Simmons,Chris Ryan,Van Lathan,,,1990,Comedy;Action;,Walter Hill,2/4,0.19,Hanks,,0.19,1,2,0
+444,433,Zodiac,2026-01-26,Bill Simmons,Chris Ryan,Sean Fennessey,,,2007,Mystery;Thriller;,David Fincher,4/4,0.9,Cruise,First new episode on Netflix,0.9,1,4,1
+445,434,Wild Things,2026-02-02,Bill Simmons,Van Lathan,Mallory Rubin,,,1998,Thriller;,John McNaughton,3/4,0.65,Tie,,0.65,1,3,0
+446,435,Ace Ventura: Pet Detective,2026-02-09,Bill Simmons,Zach Lowe,Craig Horlbeck,,,1994,Comedy;Mystery;,Tom Shadyac,1/4,0.47,Hanks,,0.47,1,1,0
+447,436,GoldenEye,2026-02-16,Bill Simmons,Chris Ryan,Sean Fennessey,,,1995,Action;Spy;,Martin Campbell,3/4,0.8,Cruise,,0.8,1,3,0
+448,437,"Crazy, Stupid, Love",2026-02-23,Bill Simmons,Van Lathan,Mina Kimes,,,2011,Romance;Comedy;Drama;,Glenn Ficarra; John Requa,3/4,0.8,Cruise,,0.8,1,3,0
+449,438,Sicario,2026-03-02,Bill Simmons,Chris Ryan,Sean Fennessey,,,2015,Action;Crime;Thriller;,Denis Villeneuve,,0.91,Cruise,,0.91,1,,0
+450,439,Fargo,2026-03-09,Bill Simmons,Chris Ryan,Kyle Brandt,,,1996,Comedy;Crime;,Joel Coen,4/4,0.94,Hanks,,0.94,1,4,0
+451,440,To Live And Die In L.A.,2026-03-16,Bill Simmons,Chris Ryan,Sean Fennessey,,,1985,Action;Crime;Thriller;Noir;,William Friedkin,4/4,0.89,Cruise,,0.89,1,4,0
+452,441,A CR Month Mailbag!,2026-03-18,Bill Simmons,Chris Ryan,Craig Horlbeck,,,,,,,,,,,0,,0
+453,442,The Nice Guys,2026-03-23,Bill Simmons,Chris Ryan,Rob Mahoney,,,2016,Comedy;Action;Noir;Buddy;,Shane Black,,0.91,Hanks,,0.91,1,,0
+454,443,L.A. Confidential,2026-03-30,Bill Simmons,Chris Ryan,Sean Fennessey,Andy Greenwald,,1997,Noir;Crime;Thriller;,Curtis Hanson,4/4,0.99,Cruise,,0.99,1,4,0
+455,444,Eddie and the Cruisers,2026-04-06,Bill Simmons,Chris Ryan,Van Lathan,,,1983,Music;Drama;Mystery;,Martin Davidson,2/4,0.38,Cruise,,0.38,1,2,0
+456,445,Basic Instinct,2026-04-13,Bill Simmons,Chris Ryan,Van Lathan,Mallory Rubin,,1992,Thriller;Mystery;,Paul Verhoeven,2/4,0.55,Cruise,,0.55,1,2,0
+457,446,Kindergarten Cop,2026-04-20,Bill Simmons,Kyle Brandt,,,,1990,Comedy;Action;,Ivan Reitman,3/4,0.54,Cruise,,0.54,1,3,0
+458,447,Ghostbusters,2026-04-27,Bill Simmons,Chris Ryan,Van Lathan,,,1984,Comedy;Action;,Ivan Reitman,3.5/4,0.95,Hanks,,0.95,1,3.5,0
+459,448,There's Something About Mary,2026-05-04,Bill Simmons,Chris Ryan,Sean Fennessey,,,1998,Romance;Comedy;,Bobby Farrelly; Peter Farrelly,3/4,0.84,Hanks,,0.84,1,3,0
+460,449,Tropic Thunder,2026-05-11,Bill Simmons,Chris Ryan,Van Lathan,Joel Anderson,,2008,Comedy;Action;War;,Ben Stiller,3.5/4,0.82,Cruise,,0.82,1,3.5,0
+461,450,Borat! Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan,2026-05-18,Bill Simmons,,,,,2006,Comedy;Satire;,Larry Charles,,0.9,Hanks,,0.9,1,,0
+462,451,Animal House,2026-05-25,Bill Simmons,Chris Ryan,,,,1978,Comedy;,John Landis,4/4,0.91,Hanks,,0.91,1,4,0
+463,452,2001: A Space Odyssey,2026-05-31,Bill Simmons,Sean Fennessey,Steven Spielberg,,,1968,Sci-fi;,Stanley Kubrick,4/4,0.9,Hanks,First episode of 'From Hell' month; Steven Spielberg says he'll return for the Re-Jaws,0.9,1,4,0
+464,453,A Rewatchables Summer Mailbag!,2026-06-04,Bill Simmons,Chris Ryan,Craig Horlbeck,,,,,,,,,,,0,,0
+465,454,Single White Female,2026-06-08,Bill Simmons,Van Lathan,Mallory Rubin,,,1992,Thriller;Erotic;Horror;,Barbet Schroeder,4/4,0.53,Cruise,From Hell' month,0.53,1,4,0
+466,455,The Hand That Rocks the Cradle,2026-06-14,Bill Simmons,Chris Ryan,Joanna Robinson,,,1992,Thriller;Horror;Mystery;,Curtis Hanson,,0.67,Hanks,"From Hell' month; despite what Bill says on the pod, Raj didn't write a review but gave it a thumbs up on TV",0.67,1,,0
+467,456,Domestic Disturbance,2026-06-22,Bill Simmons,Chris Ryan,Sean Fennessey,,,2001,Thriller;Crime;,Harold Becker,1.5/4,0.23,Tie,From Hell' month,0.23,1,1.5,0
+468,457,The Good Son,2026-06-25,Bill Simmons,,,,,1993,Thriller;Horror;Drama;,Joseph Ruben,0.5/4,0.26,Hanks,From Hell' month,0.26,1,0.5,0
+469,458,Pacific Heights,2026-06-29,Bill Simmons,Chris Ryan,Kyle Brandt,,,1990,Thriller;Horror;Drama;,John Schlesinger,2/4,0.52,Cruise,From Hell' month,0.52,1,2,0
+470,459,Ali,2026-07-06,Bill Simmons,Chris Ryan,Van Lathan,,,2001,Sports;Drama;,Michael Mann,2/4,0.69,Hanks,,0.69,1,2,0
+471,460,She's the One,2026-07-13,Bill Simmons,Sean Fennessey,Wesley Morris,,,1996,Romance;Comedy;,Edward Burns,2/4,0.63,Cruise,,0.63,1,2,0
+472,461,Hitch,2026-07-20,Bill Simmons,Van Lathan,Mina Kimes,,,2005,Romance;Comedy;,Andy Tennant,2.5/4,0.68,Cruise,,0.68,1,2.5,0
+473,462,Obsession,2026-07-27,Bill Simmons,Chris Ryan,Joanna Robinson,,,2026,Romance;Horror;,Curry Barker,Not reviewed,0.94,Hanks,,0.94,1,,0
+474,463,The Karate Kid Part II,2026-08-03,Bill Simmons,Kyle Brandt,,,,1986,Martial Arts;Drama;Action;Family;,John G. Avildsen,Not reviewed,0.49,Cruise,Raj did not write a review but gave it a thumbs up on TV,0.49,1,,0
+475,464,The Italian Job,2026-08-10,Bill Simmons,Chris Ryan,Van Lathan,,,2003,Action;Crime;,F. Gary Gray,3/4,0.72,Cruise,,0.72,1,3,0
+476,465,About Last Night,2026-08-13,Bill Simmons,Chris Ryan,Mallory Rubin,,,1986,Romance;Comedy;Drama;,Edward Zwick,4/4,0.65,Cruise,,0.65,1,4,0
+477,466,Speed,2026-08-17,Bill Simmons,Chris Ryan,Sean Fennessey,,,1994,Action;Thriller;,Jan De Bont,4/4,0.95,Cruise,,0.95,1,4,1
+478,467,Apollo 13,2026-08-24,Bill Simmons,Amanda Dobbins,Rob Mahoney,,,1995,Drama;,Ron Howard,4/4,0.92,Hanks,,0.92,1,4,0
+479,468,Aliens,2026-08-31,Bill Simmons,Chris Ryan,Sean Fennessey,,,1986,Sci-fi;Action;Horror;,James Cameron,3.5/4,0.93,Hanks,,0.93,1,3.5,0
+480,469,Talladega Nights: The Ballad of Ricky Bobby,2026-09-07,Craig Horlbeck,Danny Heifetz,Danny Kelly,,,2006,Comedy;Sports;,Adam McKay,3.5/4,0.71,,,0.71,1,3.5,0
+481,470,Rambo: First Blood Part II,2026-09-14,Bill Simmons,Kyle Brandt,,,,1985,Action;War;,George P. Cosmatos,,0.33,,Raj did not write a review but gave it a thumbs up on TV,0.33,1,,0

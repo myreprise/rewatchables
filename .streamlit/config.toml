@@ -1,0 +1,8 @@
+# Base theme for the Rewatchables Explorer. Colours are taken from the podcast
+# artwork: mint field, ring black, tape white. app.py layers the rest on top.
+[theme]
+base = "dark"
+primaryColor = "#2BE8A0"
+backgroundColor = "#0B0D0C"
+secondaryBackgroundColor = "#101211"
+textColor = "#F2EFE6"

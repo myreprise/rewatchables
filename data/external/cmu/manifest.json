@@ -1,0 +1,20 @@
+{
+  "source_url": "http://www.cs.cmu.edu/~ark/personas/data/MovieSummaries.tar.gz",
+  "tarball_sha256": "6c3bd3d42046c4b87e2267f2e2599ba6f651b8ad23a8998237c3d2bb338ac559",
+  "extracted_on": "2026-09-01",
+  "curated_films": 445,
+  "files": {
+    "movies.tsv": {
+      "bytes": 147463,
+      "sha256": "d29a896d19ab5782abbd8b4bd7be96b8de09d8328584720dc4ff0ff6295a3f21"
+    },
+    "plot_summaries.tsv": {
+      "bytes": 1645558,
+      "sha256": "45e2011175568c07085b59f4909c52bfdda2e662c410dd24f878e58bb026c18c"
+    },
+    "characters.tsv": {
+      "bytes": 682714,
+      "sha256": "e3b1a4a553d4d346906c1eec295042d042a1f539c342e3538886bd6a1d433bf5"
+    }
+  }
+}

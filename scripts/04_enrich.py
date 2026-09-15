@@ -12,8 +12,19 @@ Scoring:
       compare, 0.0 if outside window
 Auto-resolve when confidence >= MATCH_CONFIDENCE_THRESHOLD AND title_similarity >= 0.6
 (the title guard stops a good year from rescuing a wrong title).
+
+SEARCH RESULTS ARE CACHED. 03_normalize clears staging, which resets every
+mention to 'unresolved' and sends the whole catalogue back through here. The
+`tmdb_search_cache` table means that costs nothing: a full rebuild re-scores
+from local storage and only a genuinely new title reaches the network.
+
+What is cached is the raw candidate list, not the resolution. Scoring and the
+threshold are applied fresh on every run, so retuning MATCH_YEAR_WINDOW or
+MATCH_CONFIDENCE_THRESHOLD re-resolves the entire catalogue offline. Pass
+--refresh to bypass the cache and re-query TMDB.
 """
 
+import argparse
 import os
 import sys
 import re
@@ -110,11 +121,107 @@ def log_api_call(db_path, api_source, query, status_code, response_time_ms,
     conn.close()
 
 
+# ---------------------------------------------------------------------------
+# Search cache. See the tmdb_search_cache block in sql/schemas/staging_zone.sql
+# for why this stores raw candidates rather than resolutions.
+# ---------------------------------------------------------------------------
+
+def cache_key(title, year):
+    """Identity of a TMDB search: normalized title plus year, '' when unyeared.
+
+    Normalized because that is the form score_candidate compares, so two source
+    spellings that score identically share one cache entry. The year is folded
+    into the key rather than kept as a nullable column -- SQLite treats NULLs as
+    distinct in a unique index, so a NULL year would insert a fresh duplicate on
+    every run instead of hitting.
+    """
+    return f"{normalize_title(title)}|{year if year else ''}"
+
+
+def ensure_cache_table(cursor):
+    """Create the search cache if it does not exist.
+
+    Databases predating this table were built by an 02_load_raw run that
+    executed the schema files once, at creation; replaying the whole schema here
+    would be heavier than it needs to be, so just this table is created.
+    """
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS tmdb_search_cache (
+            cache_key TEXT PRIMARY KEY,
+            query_title TEXT NOT NULL,
+            query_year INTEGER,
+            candidates_json TEXT NOT NULL,
+            result_count INTEGER NOT NULL,
+            cached_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )
+    ''')
+
+
+def cache_get(cursor, title, year):
+    """Cached candidates for a search, or None on a miss.
+
+    A miss is None; a hit that found nothing is [] . Keeping those distinct is
+    the point -- a title TMDB has no match for must not be re-queried forever.
+    """
+    row = cursor.execute(
+        "SELECT candidates_json FROM tmdb_search_cache WHERE cache_key = ?",
+        (cache_key(title, year),)
+    ).fetchone()
+    if row is None:
+        return None
+    try:
+        return json.loads(row[0])
+    except (ValueError, TypeError):
+        return None   # corrupt entry: treat as a miss and re-fetch
+
+
+def cache_put(cursor, title, year, candidates):
+    """Write a search result through to the cache."""
+    cursor.execute(
+        "INSERT OR REPLACE INTO tmdb_search_cache "
+        "(cache_key, query_title, query_year, candidates_json, result_count, cached_at) "
+        "VALUES (?, ?, ?, ?, ?, CURRENT_TIMESTAMP)",
+        (cache_key(title, year), title, year,
+         json.dumps(candidates), len(candidates))
+    )
+
+
+def search_tmdb_cached(cursor, db_path, title, year=None, refresh=False):
+    """Search TMDB through the cache. Returns (candidates, hit_network).
+
+    `candidates` is a list on success (possibly empty) or None if the search
+    failed; the caller must keep those apart, because a failure should leave the
+    mention alone rather than record it as unmatchable.
+
+    `hit_network` tells the caller whether to pay the rate-limit sleep. Without
+    it a fully cached rebuild would still idle for two minutes doing nothing.
+    """
+    if not refresh:
+        cached = cache_get(cursor, title, year)
+        if cached is not None:
+            return cached, False
+
+    candidates = search_tmdb(db_path, title, year)
+    # Only a successful search is cacheable. Storing [] for an HTTP error or a
+    # missing API key would freeze a transient outage in as "no such film" and
+    # every later run would trust it.
+    if candidates is not None:
+        cache_put(cursor, title, year, candidates)
+    return candidates, True
+
+
 def search_tmdb(db_path, title, year=None):
-    """Search TMDB for a movie. Returns list of raw candidate dicts (top 5)."""
+    """Search TMDB for a movie. Returns the top 5 raw candidate dicts.
+
+    A successful search returns a list, which may be empty when TMDB genuinely
+    knows no such film. A FAILED search returns None. The distinction exists for
+    the cache: an empty list is a durable answer worth storing, while an HTTP
+    error or a missing API key is a transient condition that must not be frozen
+    in as "no such movie".
+    """
     if not TMDB_API_KEY:
         logger.warning("TMDB_API_KEY not set, skipping TMDB enrichment")
-        return []
+        return None
 
     url = f"{TMDB_BASE_URL}/search/movie"
     params = {'api_key': TMDB_API_KEY, 'query': title}
@@ -146,7 +253,7 @@ def search_tmdb(db_path, title, year=None):
                 log_api_call(db_path, 'tmdb', title, response.status_code, elapsed_ms,
                              error=f"HTTP {response.status_code}")
                 logger.warning(f"TMDB search failed: {response.status_code} for '{title}'")
-                return []
+                return None
         except (requests.Timeout, requests.ConnectionError) as e:
             last_err = e
             logger.warning(f"TMDB transient error for '{title}' "
@@ -155,17 +262,84 @@ def search_tmdb(db_path, title, year=None):
         except Exception as e:
             log_api_call(db_path, 'tmdb', title, None, None, error=str(e))
             logger.error(f"TMDB search error for '{title}': {_redact(str(e))}")
-            return []
+            return None
 
     log_api_call(db_path, 'tmdb', title, None, None, error=str(last_err))
     logger.error(f"TMDB search gave up after retries for '{title}': {_redact(str(last_err))}")
-    return []
+    return None
 
 
-def enrich_staging_mentions(db_path, limit=None):
-    """Search, score, and resolve unresolved staging mentions."""
+# Fields 04 adds to a candidate when scoring it. Stripped on the way back into
+# the cache, which holds the raw TMDB shape so scoring stays re-derivable.
+SCORED_FIELDS = ('confidence', 'title_similarity', 'year_score')
+
+
+def warm_cache_from_staging(db_path):
+    """Seed the search cache from candidates already stored on staging mentions.
+
+    Every resolved mention kept the candidate list its search returned, so a
+    database resolved before the cache existed can fill it from local storage
+    instead of re-querying all ~481 titles.
+
+    One caveat, deliberately accepted: when the yeared search came back empty,
+    04 retried without the year and stored THOSE candidates. The backfill cannot
+    tell the two apart afterwards, so it files them under the yeared key. The
+    effect is that a rebuild reproduces exactly the resolution the database
+    already has -- which is the point of the backfill -- but the entry is
+    labelled with a query that did not produce it. Use --refresh to re-fetch.
+    """
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
+    ensure_cache_table(cursor)
+
+    rows = cursor.execute('''
+        SELECT title_raw, title_normalized, year_parsed, candidate_json
+        FROM staging_movie_mentions
+        WHERE candidate_json IS NOT NULL AND candidate_json != ''
+    ''').fetchall()
+
+    seeded = skipped = 0
+    for title_raw, title_norm, year, candidate_json in rows:
+        search_title = (strip_annotations(title_raw) or title_norm or '').strip()
+        if not search_title:
+            skipped += 1
+            continue
+        try:
+            scored = json.loads(candidate_json)
+        except (ValueError, TypeError):
+            skipped += 1
+            continue
+        if not isinstance(scored, list) or not scored:
+            skipped += 1
+            continue
+
+        raw = [{k: v for k, v in c.items() if k not in SCORED_FIELDS}
+               for c in scored]
+        # Do not overwrite a real search result with a reconstructed one.
+        if cache_get(cursor, search_title, year) is None:
+            cache_put(cursor, search_title, year, raw)
+            seeded += 1
+        else:
+            skipped += 1
+
+    conn.commit()
+    total = cursor.execute("SELECT COUNT(*) FROM tmdb_search_cache").fetchone()[0]
+    conn.close()
+    logger.info(f"✓ Warmed cache from staging: {seeded} seeded, {skipped} skipped "
+                f"({total} entries total)")
+    return seeded, skipped
+
+
+def enrich_staging_mentions(db_path, limit=None, refresh=False):
+    """Search, score, and resolve unresolved staging mentions.
+
+    Searches go through the persistent cache unless `refresh` is set, so a
+    staging rebuild re-scores the whole catalogue without touching the network.
+    """
+    conn = sqlite3.connect(db_path)
+    cursor = conn.cursor()
+    ensure_cache_table(cursor)
+    conn.commit()
 
     query = '''
         SELECT staging_mention_id, title_raw, title_normalized, year_parsed
@@ -177,22 +351,41 @@ def enrich_staging_mentions(db_path, limit=None):
     cursor.execute(query)
     mentions = cursor.fetchall()
     logger.info(f"Enriching {len(mentions)} unresolved mentions "
-                f"(threshold={CONFIDENCE_THRESHOLD}, year_window=±{YEAR_WINDOW})")
+                f"(threshold={CONFIDENCE_THRESHOLD}, year_window=±{YEAR_WINDOW}, "
+                f"cache={'bypassed' if refresh else 'on'})")
 
-    auto, manual, nohit = 0, 0, 0
+    auto, manual, nohit, failed = 0, 0, 0, 0
+    from_cache, from_api = 0, 0
 
     for mention_id, title_raw, title_norm, year in mentions:
         # Search on the de-annotated title; fall back to the stored normalized form
         search_title = strip_annotations(title_raw) or title_norm or ''
         search_title = search_title.strip()
-        candidates = search_tmdb(db_path, search_title, year)
+        candidates, networked = search_tmdb_cached(
+            cursor, db_path, search_title, year, refresh)
+        if networked:
+            from_api += 1
+            time.sleep(RATE_LIMIT_SLEEP)
+        else:
+            from_cache += 1
 
         # Fallback: a wrong source year filters out all results — retry without it
         # and let the scorer judge the title/year match.
         if not candidates and year:
-            candidates = search_tmdb(db_path, search_title, None)
-            if candidates:
+            candidates, networked = search_tmdb_cached(
+                cursor, db_path, search_title, None, refresh)
+            if networked:
+                from_api += 1
                 time.sleep(RATE_LIMIT_SLEEP)
+            else:
+                from_cache += 1
+
+        if candidates is None:
+            # The search itself failed. Leave the mention untouched so a retry
+            # picks it up; recording it as unmatchable would bury a transient
+            # outage as a data problem.
+            failed += 1
+            continue
 
         if not candidates:
             nohit += 1
@@ -205,7 +398,6 @@ def enrich_staging_mentions(db_path, limit=None):
                 WHERE staging_mention_id = ?
             ''', ("No TMDB matches found", mention_id))
             conn.commit()
-            time.sleep(RATE_LIMIT_SLEEP)
             continue
 
         # Score every candidate, keep them sorted best-first for the review queue
@@ -256,29 +448,49 @@ def enrich_staging_mentions(db_path, limit=None):
                   mention_id))
 
         conn.commit()
-        time.sleep(RATE_LIMIT_SLEEP)
 
+    conn.commit()
     conn.close()
     logger.info(f"✓ Enrichment complete: {auto} auto-resolved, "
-                f"{manual} queued for review, {nohit} no TMDB hit")
+                f"{manual} queued for review, {nohit} no TMDB hit"
+                + (f", {failed} search failure(s) left for retry" if failed else ""))
+    logger.info(f"  Searches: {from_cache} from cache, {from_api} from TMDB")
     return auto, manual, nohit
 
 
 def main():
+    ap = argparse.ArgumentParser(description="Resolve staging mentions against TMDB.")
+    ap.add_argument("--refresh", action="store_true",
+                    help="bypass the search cache and re-query TMDB for every mention")
+    ap.add_argument("--limit", type=int, metavar="N",
+                    help="process at most N mentions")
+    ap.add_argument("--warm-cache", action="store_true",
+                    help="seed the search cache from candidates already stored "
+                         "on staging mentions, then exit (no API calls)")
+    args = ap.parse_args()
+
     db_path = os.getenv('DB_PATH', 'rewatchables.db')
 
     if not Path(db_path).exists():
         logger.error(f"{db_path} not found.")
         sys.exit(1)
-    if not TMDB_API_KEY:
-        logger.error("TMDB_API_KEY not set in config/.env — cannot enrich.")
+    # A missing key is fatal only when something might actually need fetching.
+    # With a warm cache a full rebuild resolves offline, and refusing to run
+    # would make the pipeline depend on a credential it never uses.
+    if not TMDB_API_KEY and args.refresh:
+        logger.error("TMDB_API_KEY not set in config/.env — cannot run --refresh.")
         sys.exit(1)
 
     logger.info("=" * 60)
     logger.info("Phase 3: Enrich from TMDB")
     logger.info("=" * 60)
 
-    enrich_staging_mentions(db_path)
+    if args.warm_cache:
+        warm_cache_from_staging(db_path)
+        logger.info("=" * 60)
+        return
+
+    enrich_staging_mentions(db_path, limit=args.limit, refresh=args.refresh)
 
     logger.info("=" * 60)
 

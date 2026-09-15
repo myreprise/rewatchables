@@ -54,6 +54,17 @@ data/staging/
 data/*.csv
 data/*.xlsx.bak
 
+# ...except the source of truth. episodes.csv is the episode list itself, and
+# the reason it is a CSV rather than the xlsx it replaced is so that git can
+# show which episode changed. It has to be tracked for that to mean anything.
+!data/episodes.csv
+
+# The same goes for the upcoming-films list, converted from
+# "remaining films.xlsx" by convert_xlsx_to_csv.py --source upcoming. It is a
+# source of truth in exactly the same sense: a hand-curated list whose changes
+# need to be reviewable as a diff.
+!data/upcoming.csv
+
 # OS
 .DS_Store
 Thumbs.db

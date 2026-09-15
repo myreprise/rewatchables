@@ -1,8 +1,26 @@
 #!/usr/bin/env python3
 """
 Phase 3: Normalize and resolve movie keys
-Parses episodes from raw zone into staging zone with title/year normalization 
+Parses episodes from raw zone into staging zone with title/year normalization
 and initial API matching attempts.
+
+STAGING IDS ARE DETERMINISTIC.
+
+Staging is cleared and rebuilt on every run. When these ids were uuid4 they
+changed on each rebuild, which silently detached everything keyed to them:
+manual resolutions in staging_movie_mentions, data/manual_review.csv, and the
+approved rows in manual_review_queue. A rebuild therefore discarded human work
+and let 04 re-derive the wrong match it had corrected.
+
+They are now uuid5 over a business key -- episode number, air date, and episode
+title -- so the same source row always yields the same id and manual decisions
+survive a rebuild.
+
+Why that key: `ep` alone is not unique (the podcast reuses an episode number
+when it revisits a film, e.g. American Pie is ep 68 in both 2019 and 2023), and
+source_hash is too brittle -- it covers every column, so editing an unrelated
+field like a Rotten Tomatoes score would break the link. ep+date+title is
+unique across all 479 rows and stable against edits elsewhere in the row.
 """
 
 import os
@@ -20,6 +38,17 @@ load_dotenv('config/.env')
 
 logging.basicConfig(level=os.getenv('LOG_LEVEL', 'INFO'))
 logger = logging.getLogger(__name__)
+
+# The business key and the deterministic ids derived from it are shared with
+# 02_load_raw, which upserts on the same key. Re-exported here so callers and
+# tests can keep importing them from this module.
+from _keys import (  # noqa: F401  (re-exported)
+    STAGING_NAMESPACE,
+    episode_business_key,
+    make_episode_id,
+    make_mention_id,
+    normalize_date,
+)
 
 def strip_annotations(title):
     """
@@ -80,21 +109,23 @@ def parse_year(year_raw):
     return None
 
 
-def normalize_date(date_raw):
-    """Return ISO YYYY-MM-DD regardless of input format (M/D/YYYY, YYYY-MM-DD, etc.)."""
-    if not date_raw:
+def parse_revisited(revisited_raw):
+    """Parse the sheet's `revisited` flag to 1/0, or None when absent.
+
+    The raw zone stores every value as text, so a 1 arrives as '1', '1.0' or
+    'True' depending on how pandas typed the column. Anything unrecognised
+    (including the literal 'nan' an empty cell becomes) is None rather than 0,
+    so "not flagged" stays distinguishable from "explicitly not a revisit".
+    """
+    if revisited_raw is None:
         return None
-    s = str(date_raw).strip()
-    # Already ISO or ISO with time component
-    iso = re.match(r'(\d{4}-\d{2}-\d{2})', s)
-    if iso:
-        return iso.group(1)
-    # M/D/YYYY or MM/DD/YYYY
-    mdy = re.match(r'(\d{1,2})/(\d{1,2})/(\d{4})', s)
-    if mdy:
-        m, d, y = mdy.groups()
-        return f"{y}-{int(m):02d}-{int(d):02d}"
-    return s  # return as-is if unrecognised
+    s = str(revisited_raw).strip().lower()
+    if s in ('1', '1.0', 'true', 'yes', 'y'):
+        return 1
+    if s in ('0', '0.0', 'false', 'no', 'n'):
+        return 0
+    return None
+
 
 def normalize_director(director_raw):
     """Normalize director name."""
@@ -109,22 +140,29 @@ def process_raw_to_staging(db_path, limit=None):
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
 
+    # Databases built before the curated `revisited` flag existed.
+    # CREATE TABLE IF NOT EXISTS cannot widen an existing table.
+    existing = {r[1] for r in cursor.execute('PRAGMA table_info(staging_movie_mentions)')}
+    if existing and 'revisited_flag' not in existing:
+        cursor.execute('ALTER TABLE staging_movie_mentions ADD COLUMN revisited_flag INTEGER')
+        logger.info('Migrated staging_movie_mentions: added revisited_flag column')
+
     # Idempotent rebuild: clear staging so re-runs don't duplicate.
     # Safe while the curated zone is empty (nothing references these rows yet).
     cursor.execute('DELETE FROM staging_movie_mentions')
     cursor.execute('DELETE FROM staging_episodes')
 
-    # Fetch raw episodes from the LATEST ingest run only.
-    # raw_episodes accumulates one immutable snapshot per load_raw run, so
-    # selecting all rows would double-count episodes once more than one
-    # snapshot exists. Pin to the most recent ingest run for a clean rebuild.
+    # Read the view, not the table. raw_episodes is append-only version history
+    # -- an edited airing keeps its old row alongside the new one -- so selecting
+    # from it directly would stage both versions as separate episodes.
+    #
+    # This used to re-derive the "which rows are current" filter here, with a
+    # comment on both copies warning that they had to be changed together. The
+    # view owns that definition now, so the raw and staging zones cannot drift.
     query = '''
-        SELECT raw_episode_id, ep, date, title, year, director, is_film
-        FROM raw_episodes
-        WHERE ingest_run_id = (
-            SELECT ingest_run_id FROM raw_ingest_runs
-            ORDER BY sync_timestamp DESC LIMIT 1
-        )
+        SELECT raw_episode_id, ep, date, title, year, director, is_film,
+               revisited
+        FROM raw_episodes_current
     '''
     if limit:
         query += f' LIMIT {limit}'
@@ -136,10 +174,12 @@ def process_raw_to_staging(db_path, limit=None):
     staged_count = 0
     mention_count = 0
     skipped_nonfilm = 0
-    for raw_episode_id, ep, date, ep_title, year_raw, director_raw, is_film in raw_rows:
+    for (raw_episode_id, ep, date, ep_title, year_raw, director_raw, is_film,
+         revisited_raw) in raw_rows:
         try:
-            # Create staging episode
-            staging_episode_id = str(uuid.uuid4())
+            # Deterministic: the same source row always yields the same id,
+            # so manual review decisions survive a staging rebuild.
+            staging_episode_id = make_episode_id(ep, date, ep_title)
             
             cursor.execute('''
                 INSERT INTO staging_episodes
@@ -162,8 +202,8 @@ def process_raw_to_staging(db_path, limit=None):
                 skipped_nonfilm += 1
                 continue
 
-            # Create staging movie mention
-            staging_mention_id = str(uuid.uuid4())
+            # Deterministic; see make_mention_id.
+            staging_mention_id = make_mention_id(ep, date, ep_title, 1)
             title_normalized = normalize_title(ep_title)  # Using episode title as movie title for now
             year_parsed = parse_year(year_raw)
             director_normalized = normalize_director(director_raw)
@@ -172,8 +212,8 @@ def process_raw_to_staging(db_path, limit=None):
                 INSERT INTO staging_movie_mentions
                     (staging_mention_id, staging_episode_id, raw_episode_id, mention_order,
                      title_raw, title_normalized, year_raw, year_parsed, director_raw, director_normalized,
-                     resolution_method, confidence_score, requires_manual_review)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                     revisited_flag, resolution_method, confidence_score, requires_manual_review)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             ''', (
                 staging_mention_id,
                 staging_episode_id,
@@ -185,6 +225,7 @@ def process_raw_to_staging(db_path, limit=None):
                 year_parsed,
                 director_raw,
                 director_normalized,
+                parse_revisited(revisited_raw),
                 'unresolved',
                 0.0,
                 1  # Mark all for manual review in this phase

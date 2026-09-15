@@ -47,6 +47,25 @@ def _readable_candidates(candidate_json):
     return '  ||  '.join(parts)
 
 
+def _existing_decisions(csv_path):
+    """Rows in the CSV that a human has already acted on.
+
+    Returned verbatim so a re-export preserves them; without this the file is
+    the only place some decisions live and an export would drop them.
+    """
+    path = Path(csv_path)
+    if not path.exists():
+        return []
+    try:
+        with open(path, newline='', encoding='utf-8') as f:
+            return [r for r in csv.DictReader(f)
+                    if (r.get('action') or '').strip()
+                    and (r.get('staging_mention_id') or '').strip()]
+    except (OSError, csv.Error) as e:
+        logger.warning(f"Could not read existing {path}: {e}")
+        return []
+
+
 def export_queue(db_path, csv_path=CSV_PATH):
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
@@ -98,13 +117,24 @@ def export_queue(db_path, csv_path=CSV_PATH):
     fieldnames = ['review_id', 'staging_mention_id', 'title_raw', 'year_parsed',
                   'best_confidence', 'candidates', 'action', 'chosen_tmdb_id',
                   'reviewer', 'notes']
+
+    # MERGE, never clobber. This file is the durable record of human decisions
+    # and 08_apply_review replays it after a staging rebuild. Overwriting it
+    # wholesale erased every prior decision whenever nothing was pending --
+    # which is the normal state once review is caught up.
+    kept = _existing_decisions(csv_path)
+    pending = [r for r in csv_rows
+               if r['staging_mention_id'] not in
+               {k['staging_mention_id'] for k in kept}]
+
     with open(csv_path, 'w', newline='', encoding='utf-8') as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
-        writer.writerows(csv_rows)
+        writer.writerows(kept + pending)
 
-    logger.info(f"✓ Exported {len(csv_rows)} items to {csv_path}")
-    return len(csv_rows)
+    logger.info(f"✓ Exported {len(pending)} new item(s) to {csv_path} "
+                f"({len(kept)} existing decision(s) preserved)")
+    return len(pending)
 
 
 def main():
