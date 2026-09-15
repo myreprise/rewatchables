@@ -21,20 +21,16 @@ deleted from the sheet, and a revisit that shares an episode number with its
 original.
 """
 
-import importlib.util
 import sqlite3
 from pathlib import Path
 
 import pytest
 
+from rewatchables.pipeline import s03_normalize_and_resolve as normalize
+
 SCHEMA_DIR = Path(__file__).parent.parent / "sql" / "schemas"
 SCHEMA = SCHEMA_DIR / "raw_zone.sql"
 
-spec = importlib.util.spec_from_file_location(
-    "normalize", Path(__file__).parent.parent / "scripts" / "03_normalize_and_resolve.py"
-)
-normalize = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(normalize)
 
 # Three loads. run-3 is the most recent, so "current" means last seen by run-3.
 RUNS = [

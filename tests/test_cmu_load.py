@@ -2,7 +2,6 @@
 Tests for 11_load_cmu.py — loading the vendored CMU subset into the raw zone.
 """
 
-import importlib.util
 import json
 import sqlite3
 import uuid
@@ -10,10 +9,7 @@ from pathlib import Path
 
 import pytest
 
-spec = importlib.util.spec_from_file_location(
-    "load_cmu", Path(__file__).parent.parent / "scripts" / "11_load_cmu.py")
-mod = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(mod)
+from rewatchables.pipeline import s11_load_cmu as mod
 
 load_cmu = mod.load_cmu
 

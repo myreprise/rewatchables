@@ -83,47 +83,39 @@ Usage:
 """
 
 import argparse
+import importlib.util
 import logging
-import os
 import sqlite3
 import subprocess
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
-log_dir = Path("logs")
-log_dir.mkdir(exist_ok=True)
-log_file = log_dir / f"orchestrate_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.log"
+from rewatchables import config
 
-logging.basicConfig(
-    level=os.getenv("LOG_LEVEL", "INFO"),
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-    handlers=[logging.FileHandler(log_file, encoding="utf-8"),
-              logging.StreamHandler()],
-)
 logger = logging.getLogger(__name__)
 
-SCRIPTS_DIR = Path(__file__).parent
-DB_PATH = os.getenv("DB_PATH", "rewatchables.db")
+PACKAGE = "rewatchables.pipeline"
+DB_PATH = str(config.db_path())
 
-# (number, script, description, stage, optional)
+# (number, module, description, stage, optional)
 # optional=True -> a failure is logged and the pipeline continues. Used for the
 # human-in-the-loop review steps, which fail by design when there is nothing
 # queued or no decisions CSV yet.
 STEPS = [
-    (1,  "01_render_source.py",         "Render episodes.xlsx → episodes.csv",   "source",  False),
-    (2,  "02_load_raw.py",              "Load raw zone from episodes.csv",       "source",  False),
-    (3,  "03_normalize_and_resolve.py", "Normalize + stage movie mentions",      "resolve", False),
-    (4,  "04_enrich.py",                "Resolve mentions against TMDB",         "resolve", False),
-    (5,  "05_validate.py",              "Validate data quality",                 "curated", False),
-    (6,  "06_build_curated.py",         "Build curated zone + revisit detection", "curated", False),
-    (7,  "07_export_review_queue.py",   "Export manual-review queue",            "curated", True),
-    (8,  "08_apply_review.py",          "Apply manual-review decisions",         "curated", True),
-    (9,  "09_enrich_metadata.py",       "Enrich metadata from TMDB",             "enrich",  False),
-    (10, "10_resolve_external_ids.py",  "Resolve external identifiers",          "enrich",  False),
-    (11, "11_load_cmu.py",              "Load CMU corpus subset",                "enrich",  False),
-    (12, "12_enrich_plot_summaries.py", "Plot summaries: CMU + live Wikipedia",  "enrich",  False),
-    (13, "13_build_upcoming.py",         "Build upcoming-films list",             "upcoming", False),
+    (1,  "s01_render_source",         "Render episodes.xlsx → episodes.csv",   "source",  False),
+    (2,  "s02_load_raw",              "Load raw zone from episodes.csv",       "source",  False),
+    (3,  "s03_normalize_and_resolve", "Normalize + stage movie mentions",      "resolve", False),
+    (4,  "s04_enrich",                "Resolve mentions against TMDB",         "resolve", False),
+    (5,  "s05_validate",              "Validate data quality",                 "curated", False),
+    (6,  "s06_build_curated",         "Build curated zone + revisit detection", "curated", False),
+    (7,  "s07_export_review_queue",   "Export manual-review queue",            "curated", True),
+    (8,  "s08_apply_review",          "Apply manual-review decisions",         "curated", True),
+    (9,  "s09_enrich_metadata",       "Enrich metadata from TMDB",             "enrich",  False),
+    (10, "s10_resolve_external_ids",  "Resolve external identifiers",          "enrich",  False),
+    (11, "s11_load_cmu",              "Load CMU corpus subset",                "enrich",  False),
+    (12, "s12_enrich_plot_summaries", "Plot summaries: CMU + live Wikipedia",  "enrich",  False),
+    (13, "s13_build_upcoming",        "Build upcoming-films list",             "upcoming", False),
 ]
 
 STAGES = ["source", "resolve", "curated", "enrich", "upcoming"]
@@ -132,10 +124,27 @@ REPLAY_STEP = 8        # replays manual_review.csv onto the rebuilt rows
 SAFE_DEFAULT_FROM = 5   # everything from validation down is re-runnable
 
 
-def run_step(step_num, script_name, description, position, total, optional):
-    script_path = SCRIPTS_DIR / script_name
-    if not script_path.exists():
-        logger.error(f"✗ Step {step_num}: {script_name} not found")
+def start_log():
+    """Log to the console and to a new file in logs/; return the file.
+
+    Called when a run starts from the command line, not at import, so that
+    importing this module -- as its tests do -- writes no log file.
+    """
+    config.LOG_DIR.mkdir(exist_ok=True)
+    stamp = datetime.now(timezone.utc).strftime('%Y%m%d_%H%M%S')
+    log_file = config.LOG_DIR / f"orchestrate_{stamp}.log"
+    config.setup_logging(
+        format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+        handlers=[logging.FileHandler(log_file, encoding="utf-8"),
+                  logging.StreamHandler()],
+    )
+    return log_file
+
+
+def run_step(step_num, module, description, position, total, optional):
+    name = f"{PACKAGE}.{module}"
+    if importlib.util.find_spec(name) is None:
+        logger.error(f"✗ Step {step_num}: {name} not found")
         return False
 
     logger.info("=" * 70)
@@ -143,8 +152,8 @@ def run_step(step_num, script_name, description, position, total, optional):
     logger.info("=" * 70)
 
     try:
-        result = subprocess.run([sys.executable, str(script_path)],
-                                cwd=str(SCRIPTS_DIR.parent), capture_output=False)
+        result = subprocess.run([sys.executable, "-m", name],
+                                cwd=str(config.ROOT), capture_output=False)
     except Exception as e:
         logger.error(f"✗ Step {step_num} error: {e}")
         return False
@@ -194,7 +203,7 @@ def select_steps(args):
     return [s for s in steps if lo <= s[0] <= hi]
 
 
-def main():
+def main(log_to_file=False):
     ap = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--all", action="store_true",
@@ -213,11 +222,14 @@ def main():
     args = ap.parse_args()
 
     if args.list:
-        print(f"{'#':>3}  {'stage':8s}  script")
+        print(f"{'#':>3}  {'stage':8s}  module")
         for num, script, desc, stage, optional in STEPS:
             print(f"{num:>3}  {stage:8s}  {script:32s} {desc}"
                   f"{'  [optional]' if optional else ''}")
         return 0
+
+    # --list only prints, so only a run -- dry or real -- gets a log file.
+    log_file = start_log() if log_to_file else None
 
     selected = select_steps(args)
     if not selected:
@@ -251,7 +263,7 @@ def main():
     total = len(selected)
     logger.info("=" * 70)
     logger.info("REWATCHABLES PIPELINE")
-    logger.info(f"Started: {datetime.utcnow().isoformat()}")
+    logger.info(f"Started: {datetime.now(timezone.utc).isoformat()}")
     logger.info(f"Steps: {', '.join(str(s[0]) for s in selected)}")
     logger.info("=" * 70)
 
@@ -281,15 +293,17 @@ def main():
     failed = [r for r in results if not r[2] and not r[3]]
     if failed or halted:
         logger.error(f"\n✗ PIPELINE FAILED ({len(failed)} required step(s))")
-        logger.info(f"Log file: {log_file}")
+        if log_file:
+            logger.info(f"Log file: {log_file}")
         return 1
 
     skipped = [r for r in results if not r[2]]
     logger.info(f"\n✓ PIPELINE COMPLETED"
                 f"{f' ({len(skipped)} optional step(s) skipped)' if skipped else ''}")
-    logger.info(f"Log file: {log_file}")
+    if log_file:
+        logger.info(f"Log file: {log_file}")
     return 0
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    sys.exit(main(log_to_file=True))

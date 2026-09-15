@@ -14,7 +14,6 @@ The reviewer fills two columns per row in the CSV:
 Then run 08_apply_review.py to apply the decisions.
 """
 
-import os
 import sys
 import csv
 import json
@@ -22,14 +21,12 @@ import logging
 import sqlite3
 import uuid
 from pathlib import Path
-from dotenv import load_dotenv
 
-load_dotenv('config/.env')
+from rewatchables import config
 
-logging.basicConfig(level=os.getenv('LOG_LEVEL', 'INFO'))
 logger = logging.getLogger(__name__)
 
-CSV_PATH = 'data/manual_review.csv'
+CSV_PATH = config.DATA_DIR / 'manual_review.csv'
 
 
 def _readable_candidates(candidate_json):
@@ -138,7 +135,7 @@ def export_queue(db_path, csv_path=CSV_PATH):
 
 
 def main():
-    db_path = os.getenv('DB_PATH', 'rewatchables.db')
+    db_path = str(config.db_path())
     if not Path(db_path).exists():
         logger.error(f"{db_path} not found.")
         sys.exit(1)
@@ -153,4 +150,5 @@ def main():
 
 
 if __name__ == '__main__':
+    config.setup_logging()
     main()

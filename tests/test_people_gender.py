@@ -8,7 +8,6 @@ The second covers app.py's gender_map/explode_cast, which are what the Actors
 section reads; those are pure functions over a frame and need no database.
 """
 
-import importlib.util
 import json
 import re
 import sqlite3
@@ -19,12 +18,9 @@ from unittest.mock import MagicMock, patch
 import pandas as pd
 import pytest
 
-ROOT = Path(__file__).parent.parent
+from rewatchables.pipeline import s09_enrich_metadata as mod
 
-spec = importlib.util.spec_from_file_location(
-    "enrich_metadata", ROOT / "scripts" / "09_enrich_metadata.py")
-mod = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(mod)
+ROOT = Path(__file__).parent.parent
 
 _parse             = mod._parse
 enrich_metadata    = mod.enrich_metadata

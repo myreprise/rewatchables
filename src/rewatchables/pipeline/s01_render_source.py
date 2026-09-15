@@ -41,24 +41,20 @@ keeps each column's type as you type:
 """
 
 import logging
-import os
 import shutil
 import sys
 from datetime import datetime
 from pathlib import Path
 
 import pandas as pd
-from dotenv import load_dotenv
 
-from _keys import episode_business_key
-from convert_xlsx_to_csv import (
+from rewatchables import config
+from rewatchables.keys import episode_business_key
+from rewatchables.pipeline.convert_xlsx_to_csv import (
     CSV_PATH, EPISODE_XLSX, excel_lock_file, render_episode_workbook,
     write_episode_csv,
 )
 
-load_dotenv('config/.env')
-
-logging.basicConfig(level=os.getenv('LOG_LEVEL', 'INFO'))
 logger = logging.getLogger(__name__)
 
 # Problems printed before the rest are summarised as a count.
@@ -88,7 +84,7 @@ def changes(before, after):
 
 
 def render_source(xlsx_path=EPISODE_XLSX, csv_path=CSV_PATH,
-                  backup_dir=Path('logs')):
+                  backup_dir=config.LOG_DIR):
     """Render the workbook into the CSV. Returns 0 when the run may continue."""
     xlsx_path, csv_path = Path(xlsx_path), Path(csv_path)
     backup_dir = Path(backup_dir)
@@ -160,8 +156,8 @@ def render_source(xlsx_path=EPISODE_XLSX, csv_path=CSV_PATH,
 
 
 def main():
-    xlsx_path = Path(os.getenv('SOURCE_XLSX', str(EPISODE_XLSX)))
-    csv_path = Path(os.getenv('SOURCE_CSV', str(CSV_PATH)))
+    xlsx_path = config.path_setting('SOURCE_XLSX', EPISODE_XLSX)
+    csv_path = config.path_setting('SOURCE_CSV', CSV_PATH)
 
     logger.info("=" * 60)
     logger.info(f"Phase 1: Render {xlsx_path} → {csv_path}")
@@ -170,4 +166,5 @@ def main():
 
 
 if __name__ == '__main__':
+    config.setup_logging()
     sys.exit(main())

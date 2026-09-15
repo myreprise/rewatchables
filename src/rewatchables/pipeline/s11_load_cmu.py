@@ -30,18 +30,18 @@ import argparse
 import csv
 import json
 import logging
-import os
 import sqlite3
 import sys
 import uuid
 from pathlib import Path
 
-logging.basicConfig(level=os.getenv("LOG_LEVEL", "INFO"))
+from rewatchables import config
+
 logger = logging.getLogger(__name__)
 
 csv.field_size_limit(min(sys.maxsize, 2**31 - 1))
 
-DEFAULT_SOURCE = Path("data/external/cmu")
+DEFAULT_SOURCE = config.DATA_DIR / "external" / "cmu"
 
 MOVIE_FIELDS = ["wikipedia_page_id", "freebase_id", "name", "release_date",
                 "box_office_revenue", "runtime", "languages", "countries", "genres"]
@@ -117,7 +117,7 @@ def load_cmu(db_path, source=DEFAULT_SOURCE):
     # CREATE ... IF NOT EXISTS, so re-applying them is a no-op. Note this does
     # not add columns to existing tables -- that is 10_resolve_external_ids's
     # _ensure_column job, and this loader depends on it having run.
-    schema_dir = Path(__file__).parent.parent / "sql" / "schemas"
+    schema_dir = config.SCHEMA_DIR
     for fname in ["raw_zone.sql", "curated_zone.sql"]:
         cursor.executescript((schema_dir / fname).read_text(encoding="utf-8"))
 
@@ -205,7 +205,7 @@ def load_cmu(db_path, source=DEFAULT_SOURCE):
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--source", default=str(DEFAULT_SOURCE))
-    ap.add_argument("--db", default=os.getenv("DB_PATH", "rewatchables.db"))
+    ap.add_argument("--db", default=str(config.db_path()))
     args = ap.parse_args()
 
     if not Path(args.db).exists():
@@ -220,4 +220,5 @@ def main():
 
 
 if __name__ == "__main__":
+    config.setup_logging()
     main()

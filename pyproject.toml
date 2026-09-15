@@ -31,9 +31,9 @@ where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-# The repo root holds app.py and views.py; src/ holds the package, so the tests
-# import it with or without the editable install; scripts/ holds the steps.
-pythonpath = [".", "src", "scripts"]
+# The repo root holds app.py and views.py; src/ holds the package, which the
+# tests then import with or without the editable install.
+pythonpath = [".", "src"]
 addopts = "--strict-markers"
 markers = [
     "app: drives app.py through Streamlit's AppTest; slow. Applied automatically in tests/conftest.py. Skip with -m \"not app\".",

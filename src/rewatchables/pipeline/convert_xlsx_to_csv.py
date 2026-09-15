@@ -62,16 +62,16 @@ from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.datavalidation import DataValidation
 from openpyxl.worksheet.table import Table, TableStyleInfo
 
-from _keys import episode_business_key
+from rewatchables import config
+from rewatchables.keys import episode_business_key
 
-logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 logger = logging.getLogger(__name__)
 
-XLSX_PATH = Path('data/master.xlsx')
-CSV_PATH = Path('data/episodes.csv')
+XLSX_PATH = config.DATA_DIR / 'master.xlsx'
+CSV_PATH = config.DATA_DIR / 'episodes.csv'
 
-UPCOMING_XLSX = Path('data/remaining films.xlsx')
-UPCOMING_CSV = Path('data/upcoming.csv')
+UPCOMING_XLSX = config.DATA_DIR / 'remaining films.xlsx'
+UPCOMING_CSV = config.DATA_DIR / 'upcoming.csv'
 
 
 def render(value):
@@ -233,7 +233,7 @@ def convert(xlsx_path=XLSX_PATH, csv_path=CSV_PATH, dry_run=False,
 # its column holds -- naming the row and the column -- rather than passing it
 # downstream.
 
-EPISODE_XLSX = Path('data/episodes.xlsx')
+EPISODE_XLSX = config.DATA_DIR / 'episodes.xlsx'
 
 # The CSV's columns in the CSV's order. It is also the order 02_load_raw
 # computes source_hash in, so reordering this would present every row as edited.
@@ -584,4 +584,5 @@ def main():
 
 
 if __name__ == '__main__':
+    config.setup_logging(level=logging.INFO, format='%(levelname)s: %(message)s')
     sys.exit(main())

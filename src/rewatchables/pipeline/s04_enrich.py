@@ -36,12 +36,9 @@ import time
 from difflib import SequenceMatcher
 import requests
 from pathlib import Path
-from dotenv import load_dotenv
 
-# Load environment variables
-load_dotenv('config/.env')
+from rewatchables import config
 
-logging.basicConfig(level=os.getenv('LOG_LEVEL', 'INFO'))
 logger = logging.getLogger(__name__)
 
 TMDB_API_KEY = os.getenv('TMDB_API_KEY')
@@ -469,7 +466,7 @@ def main():
                          "on staging mentions, then exit (no API calls)")
     args = ap.parse_args()
 
-    db_path = os.getenv('DB_PATH', 'rewatchables.db')
+    db_path = str(config.db_path())
 
     if not Path(db_path).exists():
         logger.error(f"{db_path} not found.")
@@ -496,4 +493,5 @@ def main():
 
 
 if __name__ == '__main__':
+    config.setup_logging()
     main()

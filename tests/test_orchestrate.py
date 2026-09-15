@@ -15,10 +15,7 @@ from unittest.mock import patch
 
 import pytest
 
-spec = importlib.util.spec_from_file_location(
-    "orchestrate", Path(__file__).parent.parent / "scripts" / "orchestrate.py")
-mod = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(mod)
+from rewatchables.pipeline import orchestrate as mod
 
 STEPS = mod.STEPS
 STAGES = mod.STAGES
@@ -48,19 +45,19 @@ LAST = STEPS[-1][0]
 # ---------------------------------------------------------------------------
 
 class TestStepTable:
-    def test_every_script_exists(self):
-        scripts_dir = Path(__file__).parent.parent / "scripts"
-        missing = [s[1] for s in STEPS if not (scripts_dir / s[1]).exists()]
-        assert missing == [], f"orchestrator references missing scripts: {missing}"
+    def test_every_step_module_exists(self):
+        missing = [s[1] for s in STEPS
+                   if importlib.util.find_spec(f"{mod.PACKAGE}.{s[1]}") is None]
+        assert missing == [], f"orchestrator references missing modules: {missing}"
 
     def test_numbers_are_contiguous_and_ordered(self):
         assert _nums(STEPS) == list(range(1, len(STEPS) + 1))
 
-    def test_all_pipeline_scripts_are_wired_in(self):
-        """A numbered script that exists but is not orchestrated is exactly the
+    def test_all_pipeline_steps_are_wired_in(self):
+        """A numbered step that exists but is not orchestrated is exactly the
         bug this file is meant to prevent recurring."""
-        scripts_dir = Path(__file__).parent.parent / "scripts"
-        on_disk = {p.name for p in scripts_dir.glob("[0-9][0-9]_*.py")}
+        pipeline_dir = Path(mod.__file__).parent
+        on_disk = {p.stem for p in pipeline_dir.glob("s[0-9][0-9]_*.py")}
         wired = {s[1] for s in STEPS}
         assert on_disk - wired == set(), f"not wired into orchestrate: {on_disk - wired}"
 

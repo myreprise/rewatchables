@@ -1,9 +1,9 @@
 """
 Shared pytest configuration.
 
-The repo root and scripts/ are put on the import path by `pythonpath` in
-pyproject.toml, so test files import views and the pipeline modules directly,
-under plain `pytest` as well as `python -m pytest`.
+The repo root and src/ are put on the import path by `pythonpath` in
+pyproject.toml, so test files import views and the rewatchables package
+directly, under plain `pytest` as well as `python -m pytest`.
 """
 
 import ast

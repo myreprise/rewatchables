@@ -91,11 +91,9 @@ import time
 from pathlib import Path
 
 import requests
-from dotenv import load_dotenv
 
-load_dotenv("config/.env")
+from rewatchables import config
 
-logging.basicConfig(level=os.getenv("LOG_LEVEL", "INFO"))
 logger = logging.getLogger(__name__)
 
 WIKIPEDIA_API = "https://en.wikipedia.org/w/api.php"
@@ -431,7 +429,7 @@ def ensure_schema(cursor):
     # free) -- without this, a database created before the raw/cleaned column
     # rename keeps serving the old column names. Both files are otherwise
     # CREATE ... IF NOT EXISTS, so re-applying them is a no-op.
-    schema_dir = Path(__file__).parent.parent / "sql" / "schemas"
+    schema_dir = config.SCHEMA_DIR
     for fname in ["raw_zone.sql", "curated_zone.sql"]:
         cursor.executescript((schema_dir / fname).read_text(encoding="utf-8"))
 
@@ -566,7 +564,7 @@ def main():
                     help="rewrite every film's plot columns, not just changed ones")
     ap.add_argument("--refresh", action="store_true",
                     help="re-fetch every live Wikipedia article")
-    ap.add_argument("--db", default=os.getenv("DB_PATH", "rewatchables.db"))
+    ap.add_argument("--db", default=str(config.db_path()))
     args = ap.parse_args()
 
     if not Path(args.db).exists():
@@ -581,4 +579,5 @@ def main():
 
 
 if __name__ == "__main__":
+    config.setup_logging()
     main()

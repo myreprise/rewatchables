@@ -15,9 +15,7 @@ have to hold for that to be worth anything:
     replay.
 """
 
-import importlib.util
 import os
-import sys
 from datetime import datetime
 from pathlib import Path
 
@@ -25,18 +23,12 @@ import openpyxl
 import pandas as pd
 import pytest
 
+from rewatchables import keys
+from rewatchables.pipeline import convert_xlsx_to_csv as convert_mod
+from rewatchables.pipeline import s01_render_source as step01
+from rewatchables.pipeline import s02_load_raw as load_raw
+from views import stale_notice
 
-def _load(name, filename):
-    spec = importlib.util.spec_from_file_location(
-        name, Path(__file__).parent.parent / "scripts" / filename)
-    mod = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(mod)
-    return mod
-
-
-load_raw = _load("load_raw", "02_load_raw.py")
-convert_mod = _load("convert_xlsx", "convert_xlsx_to_csv.py")
-keys = _load("keys", "_keys.py")
 
 read_source = load_raw.read_source
 render = convert_mod.render
@@ -224,10 +216,6 @@ render_workbook = convert_mod.render_episode_workbook
 write_episode_csv = convert_mod.write_episode_csv
 excel_lock_file = convert_mod.excel_lock_file
 EPISODE_COLUMNS = convert_mod.EPISODE_COLUMNS
-step01 = _load("render_source", "01_render_source.py")
-
-sys.path.insert(0, str(Path(__file__).parent.parent))
-from views import stale_notice  # noqa: E402
 
 REPO_XLSX = Path(__file__).parent.parent / "data" / "episodes.xlsx"
 

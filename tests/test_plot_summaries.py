@@ -8,7 +8,6 @@ wrong destroys real narrative text rather than markup. No test reaches
 Wikipedia; see the `offline` fixture.
 """
 
-import importlib.util
 import sqlite3
 import uuid
 from pathlib import Path
@@ -16,11 +15,7 @@ from pathlib import Path
 import pytest
 import requests
 
-spec = importlib.util.spec_from_file_location(
-    "enrich_plot_summaries",
-    Path(__file__).parent.parent / "scripts" / "12_enrich_plot_summaries.py")
-mod = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(mod)
+from rewatchables.pipeline import s12_enrich_plot_summaries as mod
 
 clean = mod.clean_wiki_markup
 enrich_plot_summaries = mod.enrich_plot_summaries

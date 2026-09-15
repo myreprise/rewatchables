@@ -3,7 +3,6 @@ Unit + integration tests for 09_enrich_metadata.py.
 All network calls are mocked — no real API calls.
 """
 
-import importlib.util
 import json
 import sqlite3
 import uuid
@@ -12,12 +11,7 @@ from unittest.mock import MagicMock, patch
 
 import pytest
 
-spec = importlib.util.spec_from_file_location(
-    "enrich_metadata",
-    Path(__file__).parent.parent / "scripts" / "09_enrich_metadata.py",
-)
-mod = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(mod)
+from rewatchables.pipeline import s09_enrich_metadata as mod
 
 enrich_metadata   = mod.enrich_metadata
 _parse            = mod._parse
@@ -396,7 +390,6 @@ class TestMetadataCache:
         ).fetchone()[0]
         conn.close()
         assert cached == 0
-
 
 
 # ---------------------------------------------------------------------------

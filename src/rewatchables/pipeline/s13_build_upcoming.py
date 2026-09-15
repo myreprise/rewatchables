@@ -74,10 +74,8 @@ for --skip-convert by running this script directly.
 
 import argparse
 import hashlib
-import importlib.util
 import json
 import logging
-import os
 import re
 import sqlite3
 import sys
@@ -87,37 +85,17 @@ from datetime import datetime
 from pathlib import Path
 
 import pandas as pd
-from dotenv import load_dotenv
 
-from _keys import make_upcoming_id, upcoming_business_key
+from rewatchables import config
+from rewatchables.keys import make_upcoming_id, upcoming_business_key
+from rewatchables.pipeline import convert_xlsx_to_csv as _convert
+from rewatchables.pipeline import s04_enrich as _enrich
+from rewatchables.pipeline import s09_enrich_metadata as _meta
 
-load_dotenv('config/.env')
-
-logging.basicConfig(level=os.getenv('LOG_LEVEL', 'INFO'))
 logger = logging.getLogger(__name__)
 
-SCRIPTS_DIR = Path(__file__).parent
-SOURCE_XLSX = Path(os.getenv('UPCOMING_XLSX', 'data/remaining films.xlsx'))
-SOURCE_CSV = Path(os.getenv('UPCOMING_CSV', 'data/upcoming.csv'))
-
-
-def _sibling(name, module_name):
-    """Import a numerically-named pipeline script as a module.
-
-    'from 04_enrich import ...' is not valid Python — the module name starts
-    with a digit — so the reuse has to go through the loader directly. This is
-    the same mechanism the test suite already uses to reach these functions.
-    """
-    spec = importlib.util.spec_from_file_location(
-        module_name, SCRIPTS_DIR / name)
-    module = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(module)
-    return module
-
-
-_enrich = _sibling('04_enrich.py', 'enrich_04')
-_meta = _sibling('09_enrich_metadata.py', 'enrich_09')
-_convert = _sibling('convert_xlsx_to_csv.py', 'convert_xlsx')
+SOURCE_XLSX = config.path_setting('UPCOMING_XLSX', 'data/remaining films.xlsx')
+SOURCE_CSV = config.path_setting('UPCOMING_CSV', 'data/upcoming.csv')
 
 # Resolution — 04_enrich's scorer and search cache, unchanged.
 strip_annotations = _enrich.strip_annotations
@@ -694,7 +672,7 @@ def main():
                          'regenerating it from the xlsx')
     args = ap.parse_args()
 
-    db_path = os.getenv('DB_PATH', 'rewatchables.db')
+    db_path = str(config.db_path())
     if not Path(db_path).exists():
         logger.error(f"{db_path} not found — run the main pipeline first.")
         return 1
@@ -704,4 +682,5 @@ def main():
 
 
 if __name__ == '__main__':
+    config.setup_logging()
     sys.exit(main())

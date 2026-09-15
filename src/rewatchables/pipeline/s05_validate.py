@@ -4,18 +4,14 @@ Phase 5: Validate data quality
 Runs pre/post-enrichment checks and produces a data quality report.
 """
 
-import os
 import sys
 import logging
 import sqlite3
 import uuid
 from pathlib import Path
-from dotenv import load_dotenv
 
-# Load environment variables
-load_dotenv('config/.env')
+from rewatchables import config
 
-logging.basicConfig(level=os.getenv('LOG_LEVEL', 'INFO'))
 logger = logging.getLogger(__name__)
 
 def validate_pre_enrichment(db_path):
@@ -126,7 +122,7 @@ def generate_quality_report(db_path):
     logger.info("=" * 60)
 
 def main():
-    db_path = os.getenv('DB_PATH', 'rewatchables.db')
+    db_path = str(config.db_path())
     
     if not Path(db_path).exists():
         logger.error(f"{db_path} not found.")
@@ -152,4 +148,5 @@ def main():
     generate_quality_report(db_path)
 
 if __name__ == '__main__':
+    config.setup_logging()
     main()

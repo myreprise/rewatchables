@@ -23,18 +23,17 @@ field like a Rotten Tomatoes score would break the link. ep+date+title is
 unique across all 479 rows and stable against edits elsewhere in the row.
 """
 
-import os
 import sys
 import logging
 import sqlite3
 import re
 from pathlib import Path
-from dotenv import load_dotenv
 
+from rewatchables import config
 # The business key and the deterministic ids derived from it are shared with
 # 02_load_raw, which upserts on the same key. Re-exported here so callers and
 # tests can keep importing them from this module.
-from _keys import (  # noqa: F401  (re-exported)
+from rewatchables.keys import (  # noqa: F401  (re-exported)
     STAGING_NAMESPACE,
     episode_business_key,
     make_episode_id,
@@ -42,10 +41,6 @@ from _keys import (  # noqa: F401  (re-exported)
     normalize_date,
 )
 
-# Load environment variables
-load_dotenv('config/.env')
-
-logging.basicConfig(level=os.getenv('LOG_LEVEL', 'INFO'))
 logger = logging.getLogger(__name__)
 
 def strip_annotations(title):
@@ -242,7 +237,7 @@ def process_raw_to_staging(db_path, limit=None):
     return staged_count
 
 def main():
-    db_path = os.getenv('DB_PATH', 'rewatchables.db')
+    db_path = str(config.db_path())
     
     if not Path(db_path).exists():
         logger.error(f"{db_path} not found. Run 02_load_raw.py first.")
@@ -257,4 +252,5 @@ def main():
     logger.info("=" * 60)
 
 if __name__ == '__main__':
+    config.setup_logging()
     main()

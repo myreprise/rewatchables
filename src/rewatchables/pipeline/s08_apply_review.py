@@ -25,14 +25,12 @@ import subprocess
 from datetime import datetime
 from pathlib import Path
 import requests
-from dotenv import load_dotenv
 
-load_dotenv('config/.env')
+from rewatchables import config
 
-logging.basicConfig(level=os.getenv('LOG_LEVEL', 'INFO'))
 logger = logging.getLogger(__name__)
 
-CSV_PATH = 'data/manual_review.csv'
+CSV_PATH = config.DATA_DIR / 'manual_review.csv'
 TMDB_API_KEY = os.getenv('TMDB_API_KEY')
 TMDB_BASE_URL = "https://api.themoviedb.org/3"
 
@@ -148,7 +146,7 @@ def apply_decisions(db_path, csv_path=CSV_PATH):
 
 
 def main():
-    db_path = os.getenv('DB_PATH', 'rewatchables.db')
+    db_path = str(config.db_path())
     if not Path(db_path).exists():
         logger.error(f"{db_path} not found.")
         sys.exit(1)
@@ -160,10 +158,12 @@ def main():
 
     if approved:
         logger.info("Rebuilding curated zone to include approvals...")
-        script = Path(__file__).parent / '06_build_curated.py'
-        subprocess.run([sys.executable, str(script)], check=True)
+        subprocess.run(
+            [sys.executable, '-m', 'rewatchables.pipeline.s06_build_curated'],
+            check=True, cwd=config.ROOT)
     logger.info("=" * 60)
 
 
 if __name__ == '__main__':
+    config.setup_logging()
     main()

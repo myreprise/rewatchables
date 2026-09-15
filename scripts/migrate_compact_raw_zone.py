@@ -42,17 +42,12 @@ import sqlite3
 import sys
 from pathlib import Path
 
-from dotenv import load_dotenv
+from rewatchables import config
+from rewatchables.keys import episode_business_key
 
-from _keys import episode_business_key
-
-load_dotenv('config/.env')
-
-logging.basicConfig(level=os.getenv('LOG_LEVEL', 'INFO'),
-                    format='%(levelname)s: %(message)s')
 logger = logging.getLogger(__name__)
 
-SCHEMA = Path(__file__).parent.parent / 'sql' / 'schemas' / 'raw_zone.sql'
+SCHEMA = config.SCHEMA_DIR / 'raw_zone.sql'
 
 
 def _ensure_column(cursor, table, column, decl="TEXT"):
@@ -258,4 +253,5 @@ def main():
 
 
 if __name__ == '__main__':
+    config.setup_logging(format='%(levelname)s: %(message)s')
     sys.exit(main())

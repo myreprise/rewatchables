@@ -4,14 +4,8 @@ No database, no API calls — pure function tests.
 """
 
 import pytest
-import importlib.util
-from pathlib import Path
 
-spec = importlib.util.spec_from_file_location(
-    "normalize", Path(__file__).parent.parent / "scripts" / "03_normalize_and_resolve.py"
-)
-mod = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(mod)
+from rewatchables.pipeline import s03_normalize_and_resolve as mod
 
 strip_annotations = mod.strip_annotations
 normalize_title   = mod.normalize_title

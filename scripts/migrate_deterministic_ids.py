@@ -30,7 +30,6 @@ Usage:
 
 import argparse
 import csv
-import importlib.util
 import logging
 import os
 import shutil
@@ -38,19 +37,13 @@ import sqlite3
 import sys
 from pathlib import Path
 
-logging.basicConfig(level=os.getenv("LOG_LEVEL", "INFO"))
+from rewatchables import config
+# The id functions step 03 uses, so the two can never drift apart.
+from rewatchables.keys import make_episode_id, make_mention_id
+
 logger = logging.getLogger(__name__)
 
-CSV_PATH = Path("data/manual_review.csv")
-
-# Reuse the id functions from 03 so the two can never drift apart.
-_spec = importlib.util.spec_from_file_location(
-    "normalize_and_resolve",
-    Path(__file__).parent / "03_normalize_and_resolve.py")
-_mod = importlib.util.module_from_spec(_spec)
-_spec.loader.exec_module(_mod)
-make_episode_id = _mod.make_episode_id
-make_mention_id = _mod.make_mention_id
+CSV_PATH = config.DATA_DIR / "manual_review.csv"
 
 
 def build_maps(conn):
@@ -235,4 +228,5 @@ def main():
 
 
 if __name__ == "__main__":
+    config.setup_logging()
     main()

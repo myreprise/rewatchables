@@ -13,7 +13,6 @@ No network. TMDB is reached only through the two caches, which are seeded
 directly in the fixtures.
 """
 
-import importlib.util
 import json
 import sqlite3
 import uuid
@@ -22,21 +21,11 @@ from pathlib import Path
 import pytest
 
 import views
+from rewatchables import keys
+from rewatchables.pipeline import convert_xlsx_to_csv as convert
+from rewatchables.pipeline import s13_build_upcoming as up
 
 ROOT = Path(__file__).parent.parent
-
-
-def _load(script, name):
-    spec = importlib.util.spec_from_file_location(
-        name, ROOT / "scripts" / script)
-    mod = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(mod)
-    return mod
-
-
-up = _load("13_build_upcoming.py", "build_upcoming")
-keys = _load("_keys.py", "keys_mod")
-convert = _load("convert_xlsx_to_csv.py", "convert_mod")
 
 
 # ---------------------------------------------------------------------------

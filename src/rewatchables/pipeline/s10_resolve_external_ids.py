@@ -39,11 +39,9 @@ from pathlib import Path
 from urllib.parse import quote
 
 import requests
-from dotenv import load_dotenv
 
-load_dotenv("config/.env")
+from rewatchables import config
 
-logging.basicConfig(level=os.getenv("LOG_LEVEL", "INFO"))
 logger = logging.getLogger(__name__)
 
 TMDB_API_KEY = os.getenv("TMDB_API_KEY")
@@ -333,7 +331,7 @@ def resolve_external_ids(db_path):
 
 
 def main():
-    db_path = os.getenv("DB_PATH", "rewatchables.db")
+    db_path = str(config.db_path())
     if not Path(db_path).exists():
         logger.error(f"{db_path} not found.")
         sys.exit(1)
@@ -346,4 +344,5 @@ def main():
 
 
 if __name__ == "__main__":
+    config.setup_logging()
     main()

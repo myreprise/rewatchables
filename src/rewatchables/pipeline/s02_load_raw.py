@@ -40,7 +40,6 @@ A row deleted from the sheet needs no special handling: nothing re-sees it, so
 its last_seen stays behind and raw_episodes_current stops returning it.
 """
 
-import os
 import sys
 import logging
 import hashlib
@@ -49,14 +48,10 @@ import uuid
 from datetime import datetime
 from pathlib import Path
 import pandas as pd
-from dotenv import load_dotenv
 
-from _keys import episode_business_key
+from rewatchables import config
+from rewatchables.keys import episode_business_key
 
-# Load environment variables
-load_dotenv('config/.env')
-
-logging.basicConfig(level=os.getenv('LOG_LEVEL', 'INFO'))
 logger = logging.getLogger(__name__)
 
 def init_database(db_path):
@@ -64,7 +59,7 @@ def init_database(db_path):
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
     
-    schema_dir = Path(__file__).parent.parent / 'sql' / 'schemas'
+    schema_dir = config.SCHEMA_DIR
     
     # Load and execute schema files in order
     for schema_file in ['raw_zone.sql', 'staging_zone.sql', 'curated_zone.sql']:
@@ -120,7 +115,7 @@ def replay_schema(cursor):
     zone with keys backfilled but duplicates still present would raise a bare
     IntegrityError instead of the actionable message assert_compacted gives.
     """
-    schema = Path(__file__).parent.parent / 'sql' / 'schemas' / 'raw_zone.sql'
+    schema = config.SCHEMA_DIR / 'raw_zone.sql'
     cursor.executescript(schema.read_text(encoding='utf-8'))
 
 
@@ -321,8 +316,8 @@ def load_source_to_raw(csv_path, db_path):
     logger.info(f"  raw_episodes: {total} version rows, {current} current airings")
 
 def main():
-    csv_path = Path(os.getenv('SOURCE_CSV', 'data/episodes.csv'))
-    db_path = os.getenv('DB_PATH', 'rewatchables.db')
+    csv_path = config.path_setting('SOURCE_CSV', 'data/episodes.csv')
+    db_path = str(config.db_path())
 
     if not csv_path.exists():
         logger.error(f"{csv_path} not found. Run scripts/01_render_source.py "
@@ -338,4 +333,5 @@ def main():
     logger.info("=" * 60)
 
 if __name__ == '__main__':
+    config.setup_logging()
     main()

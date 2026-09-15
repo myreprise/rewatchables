@@ -3,7 +3,6 @@ Unit + integration tests for 10_resolve_external_ids.py.
 All network calls are mocked — no real API calls.
 """
 
-import importlib.util
 import sqlite3
 import uuid
 from pathlib import Path
@@ -11,12 +10,7 @@ from unittest.mock import MagicMock, patch
 
 import pytest
 
-spec = importlib.util.spec_from_file_location(
-    "resolve_external_ids",
-    Path(__file__).parent.parent / "scripts" / "10_resolve_external_ids.py",
-)
-mod = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(mod)
+from rewatchables.pipeline import s10_resolve_external_ids as mod
 
 resolve_external_ids = mod.resolve_external_ids
 fetch_external_ids   = mod.fetch_external_ids

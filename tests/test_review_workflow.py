@@ -11,22 +11,13 @@ import csv
 import json
 import sqlite3
 import uuid
-import importlib.util
 import pytest
 from pathlib import Path
 from unittest.mock import patch
 
 
-def _load(name):
-    spec = importlib.util.spec_from_file_location(
-        name, Path(__file__).parent.parent / "scripts" / f"{name}.py"
-    )
-    m = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(m)
-    return m
-
-export_mod = _load("07_export_review_queue")
-apply_mod  = _load("08_apply_review")
+from rewatchables.pipeline import s07_export_review_queue as export_mod
+from rewatchables.pipeline import s08_apply_review as apply_mod
 
 
 # ---------------------------------------------------------------------------

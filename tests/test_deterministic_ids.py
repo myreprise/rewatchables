@@ -13,6 +13,9 @@ from pathlib import Path
 
 import pytest
 
+from rewatchables.pipeline import s03_normalize_and_resolve as norm
+from rewatchables.pipeline import s07_export_review_queue as export_mod
+
 SCRIPTS = Path(__file__).parent.parent / "scripts"
 SCHEMAS = Path(__file__).parent.parent / "sql" / "schemas"
 
@@ -24,9 +27,7 @@ def _load(name, path):
     return mod
 
 
-norm = _load("normalize_and_resolve", SCRIPTS / "03_normalize_and_resolve.py")
 migrate_mod = _load("migrate_ids", SCRIPTS / "migrate_deterministic_ids.py")
-export_mod = _load("export_queue", SCRIPTS / "07_export_review_queue.py")
 
 make_episode_id = norm.make_episode_id
 make_mention_id = norm.make_mention_id

@@ -16,7 +16,6 @@ Two invariants carry the design and are the bulk of what is tested here:
 All network calls are mocked — no real API calls.
 """
 
-import importlib.util
 import json
 import sqlite3
 from pathlib import Path
@@ -24,11 +23,7 @@ from unittest.mock import patch
 
 import pytest
 
-spec = importlib.util.spec_from_file_location(
-    "enrich", Path(__file__).parent.parent / "scripts" / "04_enrich.py"
-)
-mod = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(mod)
+from rewatchables.pipeline import s04_enrich as mod
 
 cache_key               = mod.cache_key
 cache_get               = mod.cache_get

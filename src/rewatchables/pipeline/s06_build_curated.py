@@ -28,7 +28,6 @@ rebuilt on every run. (Manual-review items are not promoted here — they enter 
 the Phase 4 approval workflow once reviewed.)
 """
 
-import os
 import sys
 import json
 import logging
@@ -37,11 +36,9 @@ import uuid
 from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
-from dotenv import load_dotenv
 
-load_dotenv('config/.env')
+from rewatchables import config
 
-logging.basicConfig(level=os.getenv('LOG_LEVEL', 'INFO'))
 logger = logging.getLogger(__name__)
 
 
@@ -253,7 +250,7 @@ def build_curated(db_path):
 
 
 def main():
-    db_path = os.getenv('DB_PATH', 'rewatchables.db')
+    db_path = str(config.db_path())
     if not Path(db_path).exists():
         logger.error(f"{db_path} not found.")
         sys.exit(1)
@@ -266,4 +263,5 @@ def main():
 
 
 if __name__ == '__main__':
+    config.setup_logging()
     main()

@@ -3,16 +3,10 @@ Unit tests for candidate scoring in 04_enrich.py.
 No database, no API calls.
 """
 
-import importlib.util
-from pathlib import Path
 
 import pytest
 
-spec = importlib.util.spec_from_file_location(
-    "enrich", Path(__file__).parent.parent / "scripts" / "04_enrich.py"
-)
-mod = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(mod)
+from rewatchables.pipeline import s04_enrich as mod
 
 score_candidate   = mod.score_candidate
 strip_annotations = mod.strip_annotations

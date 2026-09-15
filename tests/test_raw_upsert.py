@@ -17,18 +17,13 @@ The deletion case is the one that constrains the design. \"Current\" cannot mean
 unchanged row belongs to the run that first saw it, possibly months ago.
 """
 
-import importlib.util
 import sqlite3
 from pathlib import Path
 
 import pandas as pd
 import pytest
 
-spec = importlib.util.spec_from_file_location(
-    "load_raw", Path(__file__).parent.parent / "scripts" / "02_load_raw.py"
-)
-mod = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(mod)
+from rewatchables.pipeline import s02_load_raw as mod
 
 load_source_to_raw = mod.load_source_to_raw
 read_source        = mod.read_source

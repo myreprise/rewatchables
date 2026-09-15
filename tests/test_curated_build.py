@@ -6,15 +6,10 @@ Uses an in-memory SQLite DB seeded with hand-crafted staging rows — no real AP
 import json
 import sqlite3
 import uuid
-import importlib.util
 import pytest
 from pathlib import Path
 
-spec = importlib.util.spec_from_file_location(
-    "build_curated", Path(__file__).parent.parent / "scripts" / "06_build_curated.py"
-)
-mod = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(mod)
+from rewatchables.pipeline import s06_build_curated as mod
 
 build_curated = mod.build_curated
 
