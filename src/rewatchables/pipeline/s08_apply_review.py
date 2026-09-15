@@ -26,7 +26,7 @@ from datetime import datetime
 from pathlib import Path
 import requests
 
-from rewatchables import config
+from rewatchables import config, http
 
 logger = logging.getLogger(__name__)
 
@@ -40,8 +40,9 @@ def get_movie_details(tmdb_id):
     if not TMDB_API_KEY:
         return None
     try:
-        r = requests.get(f"{TMDB_BASE_URL}/movie/{tmdb_id}",
-                         params={'api_key': TMDB_API_KEY}, timeout=10)
+        r = http.get(f"{TMDB_BASE_URL}/movie/{tmdb_id}",
+                     params={'api_key': TMDB_API_KEY}, timeout=10,
+                     what=f"TMDB details for id {tmdb_id}", secret=TMDB_API_KEY)
         if r.status_code == 200:
             d = r.json()
             return {
@@ -55,7 +56,8 @@ def get_movie_details(tmdb_id):
                 'year_score': None,
             }
     except requests.RequestException as e:
-        logger.warning(f"Could not fetch TMDB details for id {tmdb_id}: {e}")
+        logger.warning(f"Could not fetch TMDB details for id {tmdb_id}: "
+                       f"{http.redact(str(e), TMDB_API_KEY)}")
     return None
 
 

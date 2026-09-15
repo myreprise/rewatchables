@@ -34,10 +34,9 @@ import uuid
 import json
 import time
 from difflib import SequenceMatcher
-import requests
 from pathlib import Path
 
-from rewatchables import config
+from rewatchables import config, http
 
 logger = logging.getLogger(__name__)
 
@@ -96,9 +95,7 @@ def score_candidate(query_title, query_year, cand_title, cand_year):
 
 def _redact(text):
     """Never persist the API key (it leaks into requests' exception strings)."""
-    if text and TMDB_API_KEY:
-        return text.replace(TMDB_API_KEY, '***')
-    return text
+    return http.redact(text, TMDB_API_KEY)
 
 
 def log_api_call(db_path, api_source, query, status_code, response_time_ms,
@@ -225,45 +222,46 @@ def search_tmdb(db_path, title, year=None):
     if year:
         params['year'] = year
 
-    last_err = None
-    for attempt in range(3):  # retry transient network/timeouts with backoff
-        try:
-            start_time = time.time()
-            response = requests.get(url, params=params, timeout=10)
-            elapsed_ms = int((time.time() - start_time) * 1000)
-            rate_limit_remaining = response.headers.get('x-ratelimit-remaining')
+    # Retries follow the shared policy in rewatchables.http. The elapsed time
+    # therefore covers every attempt, which is what the run actually waited.
+    start_time = time.time()
+    try:
+        response = http.get(url, params=params, timeout=10,
+                            what=f"TMDB search for '{title}'", secret=TMDB_API_KEY)
+    except http.TRANSIENT as e:
+        log_api_call(db_path, 'tmdb', title, None, None, error=str(e))
+        logger.error(f"TMDB search gave up after retries for '{title}': {_redact(str(e))}")
+        return None
+    except Exception as e:
+        log_api_call(db_path, 'tmdb', title, None, None, error=str(e))
+        logger.error(f"TMDB search error for '{title}': {_redact(str(e))}")
+        return None
+    elapsed_ms = int((time.time() - start_time) * 1000)
 
-            if response.status_code == 200:
-                results = response.json().get('results', [])
-                log_api_call(db_path, 'tmdb', title, 200, elapsed_ms, rate_limit_remaining)
-                candidates = []
-                for r in results[:5]:
-                    candidates.append({
-                        'id': r['id'],
-                        'title': r['title'],
-                        'year': r.get('release_date', '')[:4] if r.get('release_date') else None,
-                        'popularity': r.get('popularity', 0),
-                        'vote_average': r.get('vote_average', 0),
-                    })
-                return candidates
-            else:
-                log_api_call(db_path, 'tmdb', title, response.status_code, elapsed_ms,
-                             error=f"HTTP {response.status_code}")
-                logger.warning(f"TMDB search failed: {response.status_code} for '{title}'")
-                return None
-        except (requests.Timeout, requests.ConnectionError) as e:
-            last_err = e
-            logger.warning(f"TMDB transient error for '{title}' "
-                           f"(attempt {attempt+1}/3): {_redact(str(e))}")
-            time.sleep(2 * (attempt + 1))
-        except Exception as e:
-            log_api_call(db_path, 'tmdb', title, None, None, error=str(e))
-            logger.error(f"TMDB search error for '{title}': {_redact(str(e))}")
-            return None
+    if response.status_code != 200:
+        log_api_call(db_path, 'tmdb', title, response.status_code, elapsed_ms,
+                     error=f"HTTP {response.status_code}")
+        logger.warning(f"TMDB search failed: {response.status_code} for '{title}'")
+        return None
 
-    log_api_call(db_path, 'tmdb', title, None, None, error=str(last_err))
-    logger.error(f"TMDB search gave up after retries for '{title}': {_redact(str(last_err))}")
-    return None
+    try:
+        results = response.json().get('results', [])
+        candidates = []
+        for r in results[:5]:
+            candidates.append({
+                'id': r['id'],
+                'title': r['title'],
+                'year': r.get('release_date', '')[:4] if r.get('release_date') else None,
+                'popularity': r.get('popularity', 0),
+                'vote_average': r.get('vote_average', 0),
+            })
+    except Exception as e:
+        log_api_call(db_path, 'tmdb', title, None, None, error=str(e))
+        logger.error(f"TMDB search error for '{title}': {_redact(str(e))}")
+        return None
+    log_api_call(db_path, 'tmdb', title, 200, elapsed_ms,
+                 response.headers.get('x-ratelimit-remaining'))
+    return candidates
 
 
 # Fields 04 adds to a candidate when scoring it. Stripped on the way back into

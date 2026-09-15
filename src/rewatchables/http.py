@@ -49,10 +49,15 @@ def redact(text, secret):
 
 
 def _wait(error, attempt, backoff):
-    """Seconds to wait after `error` on attempt `attempt`, counted from 0."""
-    if isinstance(error, RetryableStatus) and error.response.status_code == 429:
+    """Seconds to wait after `error` on attempt `attempt`, counted from 0.
+
+    Any error carrying a 429 response counts: the RetryableStatus that get()
+    raises, or the HTTPError a caller's own raise_for_status() raised (step 12).
+    """
+    response = getattr(error, "response", None)
+    if getattr(response, "status_code", None) == 429:
         try:
-            asked = float(error.response.headers.get("Retry-After"))
+            asked = float(response.headers.get("Retry-After"))
             return min(max(asked, 0.0), MAX_RETRY_AFTER)
         except (TypeError, ValueError):
             pass  # absent, or given as an HTTP date: use the backoff

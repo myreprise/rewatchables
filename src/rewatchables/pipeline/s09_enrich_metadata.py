@@ -38,9 +38,7 @@ import sys
 import time
 from pathlib import Path
 
-import requests
-
-from rewatchables import config
+from rewatchables import config, http
 
 logger = logging.getLogger(__name__)
 
@@ -57,9 +55,7 @@ GENDER_CODES = {0: "unknown", 1: "F", 2: "M", 3: "NB"}
 
 
 def _redact(text):
-    if text and TMDB_API_KEY:
-        return str(text).replace(TMDB_API_KEY, "***")
-    return text
+    return http.redact(text, TMDB_API_KEY)
 
 
 def fetch_details(tmdb_id):
@@ -72,25 +68,23 @@ def fetch_details(tmdb_id):
     url = f"{TMDB_BASE_URL}/movie/{tmdb_id}"
     params = {"api_key": TMDB_API_KEY, "append_to_response": "credits,keywords"}
 
-    for attempt in range(3):
-        try:
-            r = requests.get(url, params=params, timeout=10)
-            if r.status_code == 200:
-                return r.json()
-            if r.status_code == 404:
-                logger.warning(f"tmdb_id {tmdb_id} returned 404 — skipping")
-                return None
-            logger.warning(f"tmdb_id {tmdb_id} HTTP {r.status_code} (attempt {attempt+1}/3)")
-            time.sleep(2 * (attempt + 1))
-        except (requests.Timeout, requests.ConnectionError) as e:
-            logger.warning(f"tmdb_id {tmdb_id} transient error (attempt {attempt+1}/3): "
-                           f"{_redact(str(e))}")
-            time.sleep(2 * (attempt + 1))
-        except Exception as e:
-            logger.error(f"tmdb_id {tmdb_id} unexpected error: {_redact(str(e))}")
-            return None
+    try:
+        r = http.get(url, params=params, timeout=10,
+                     what=f"tmdb_id {tmdb_id}", secret=TMDB_API_KEY)
+        if r.status_code == 200:
+            return r.json()
+    except http.TRANSIENT as e:
+        logger.error(f"tmdb_id {tmdb_id} gave up after {http.ATTEMPTS} attempts: "
+                     f"{_redact(str(e))}")
+        return None
+    except Exception as e:
+        logger.error(f"tmdb_id {tmdb_id} unexpected error: {_redact(str(e))}")
+        return None
 
-    logger.error(f"tmdb_id {tmdb_id} gave up after 3 attempts")
+    if r.status_code == 404:
+        logger.warning(f"tmdb_id {tmdb_id} returned 404 — skipping")
+    else:
+        logger.error(f"tmdb_id {tmdb_id} HTTP {r.status_code}")
     return None
 
 

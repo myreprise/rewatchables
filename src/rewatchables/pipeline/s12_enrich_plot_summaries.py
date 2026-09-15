@@ -92,7 +92,7 @@ from pathlib import Path
 
 import requests
 
-from rewatchables import config
+from rewatchables import config, http
 
 logger = logging.getLogger(__name__)
 
@@ -306,13 +306,13 @@ def _default_fetcher():
 
 
 def _fetch_with_retries(fetch, page_id):
-    for attempt in range(FETCH_ATTEMPTS):
-        try:
-            return fetch(page_id)
-        except Exception:
-            if attempt == FETCH_ATTEMPTS - 1:
-                raise
-            time.sleep(RETRY_SLEEP * (attempt + 1))
+    # Any failure is retried, not only a transport one: fetch_extract raises on
+    # an error the API reports inside a 200. The settings are read per call, so
+    # a test can shorten them.
+    return http.call_with_retries(
+        lambda: fetch(page_id), retry_on=(Exception,),
+        attempts=FETCH_ATTEMPTS, backoff=RETRY_SLEEP,
+        what=f"Wikipedia page {page_id}")
 
 
 def _words(text):

@@ -38,9 +38,7 @@ import time
 from pathlib import Path
 from urllib.parse import quote
 
-import requests
-
-from rewatchables import config
+from rewatchables import config, http
 
 logger = logging.getLogger(__name__)
 
@@ -63,9 +61,7 @@ HEADERS = {"User-Agent": USER_AGENT}
 
 
 def _redact(text):
-    if text and TMDB_API_KEY:
-        return str(text).replace(TMDB_API_KEY, "***")
-    return text
+    return http.redact(text, TMDB_API_KEY)
 
 
 # ---------------------------------------------------------------------------
@@ -77,28 +73,25 @@ def fetch_external_ids(tmdb_id):
     url = f"{TMDB_BASE_URL}/movie/{tmdb_id}/external_ids"
     params = {"api_key": TMDB_API_KEY}
 
-    for attempt in range(3):
-        try:
-            r = requests.get(url, params=params, timeout=15)
-            if r.status_code == 200:
-                d = r.json()
-                return {"wikidata_qid": d.get("wikidata_id") or None,
-                        "imdb_id": d.get("imdb_id") or None}
-            if r.status_code == 404:
-                logger.warning(f"tmdb_id {tmdb_id} returned 404 — skipping")
-                return None
-            logger.warning(f"tmdb_id {tmdb_id} HTTP {r.status_code} "
-                           f"(attempt {attempt+1}/3)")
-            time.sleep(2 * (attempt + 1))
-        except (requests.Timeout, requests.ConnectionError) as e:
-            logger.warning(f"tmdb_id {tmdb_id} transient error "
-                           f"(attempt {attempt+1}/3): {_redact(str(e))}")
-            time.sleep(2 * (attempt + 1))
-        except Exception as e:
-            logger.error(f"tmdb_id {tmdb_id} unexpected error: {_redact(str(e))}")
-            return None
+    try:
+        r = http.get(url, params=params, timeout=15,
+                     what=f"tmdb_id {tmdb_id}", secret=TMDB_API_KEY)
+        if r.status_code == 200:
+            d = r.json()
+            return {"wikidata_qid": d.get("wikidata_id") or None,
+                    "imdb_id": d.get("imdb_id") or None}
+    except http.TRANSIENT as e:
+        logger.error(f"tmdb_id {tmdb_id} gave up after {http.ATTEMPTS} attempts: "
+                     f"{_redact(str(e))}")
+        return None
+    except Exception as e:
+        logger.error(f"tmdb_id {tmdb_id} unexpected error: {_redact(str(e))}")
+        return None
 
-    logger.error(f"tmdb_id {tmdb_id} gave up after 3 attempts")
+    if r.status_code == 404:
+        logger.warning(f"tmdb_id {tmdb_id} returned 404 — skipping")
+    else:
+        logger.error(f"tmdb_id {tmdb_id} HTTP {r.status_code}")
     return None
 
 
@@ -120,11 +113,11 @@ def fetch_wikidata(qids):
     out = {}
     for batch in _chunks(list(qids)):
         try:
-            r = requests.get(WIKIDATA_API, headers=HEADERS, timeout=30, params={
+            r = http.get(WIKIDATA_API, headers=HEADERS, timeout=30, params={
                 "action": "wbgetentities", "ids": "|".join(batch),
                 "props": "sitelinks|claims", "sitefilter": "enwiki",
                 "format": "json",
-            })
+            }, what=f"Wikidata batch of {len(batch)} ids")
             entities = r.json().get("entities") or {}
         except Exception as e:
             logger.warning(f"Wikidata batch failed ({len(batch)} ids): {e}")
@@ -150,10 +143,10 @@ def fetch_page_ids(titles):
     out = {}
     for batch in _chunks(sorted(titles)):
         try:
-            r = requests.get(WIKIPEDIA_API, headers=HEADERS, timeout=30, params={
+            r = http.get(WIKIPEDIA_API, headers=HEADERS, timeout=30, params={
                 "action": "query", "titles": "|".join(batch),
                 "format": "json", "redirects": 1,
-            })
+            }, what=f"Wikipedia batch of {len(batch)} titles")
             q = r.json().get("query") or {}
         except Exception as e:
             logger.warning(f"Wikipedia batch failed ({len(batch)} titles): {e}")
