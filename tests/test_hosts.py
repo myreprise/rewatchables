@@ -11,7 +11,6 @@ driven through Streamlit's test harness.
 """
 
 import sqlite3
-import sys
 from pathlib import Path
 
 import numpy as np
@@ -19,9 +18,6 @@ import pandas as pd
 import pytest
 
 from conftest import goto
-
-sys.path.insert(0, str(Path(__file__).parent.parent))
-
 from views import (
     ANCHOR, appearances_by_year, bench, bh_adjust, co_appearances,
     lean_phrase, lean_value, lineups, permutation_diffs, person_name,

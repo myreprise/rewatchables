@@ -17,16 +17,12 @@ The rest cover the presentation rules that keep a click from disappointing.
 import json
 import re
 import sqlite3
-import sys
 from collections import Counter
 from pathlib import Path
 
 import pytest
 
 from conftest import goto
-
-sys.path.insert(0, str(Path(__file__).parent.parent))
-
 from views import (
     BROWSE_FLOOR, LINK_FLOOR, chip_band, decade_bars, keyword_chip, plain,
     rank_by_reach, region_of,
