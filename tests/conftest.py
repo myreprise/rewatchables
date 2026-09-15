@@ -1,14 +1,54 @@
 """
 Shared pytest configuration.
-Adds the scripts directory to sys.path so test files can import directly from
-the pipeline scripts without requiring a package restructure.
+
+The repo root and scripts/ are put on the import path by `pythonpath` in
+pyproject.toml, so test files import views and the pipeline modules directly,
+under plain `pytest` as well as `python -m pytest`.
 """
 
-import sys
+import ast
+import functools
+import inspect
+import re
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
+import pytest
 
+# ── The `app` marker ──────────────────────────────────────────────────────────
+# A test that drives app.py through Streamlit's AppTest costs seconds rather
+# than milliseconds: AppTest re-parses the whole script on every run. Those
+# tests are marked `app`, so `pytest -m "not app"` is a fast loop.
+#
+# The mark is derived rather than applied by hand, for the same reason
+# NAV_GROUPS is below: a new app test is covered the moment it is written. A
+# test counts if it, or any fixture it uses, mentions AppTest.
+
+
+@functools.cache
+def _mentions_apptest(obj):
+    try:
+        return "AppTest" in inspect.getsource(obj)
+    except (OSError, TypeError):
+        return False
+
+
+def _drives_the_app(item):
+    candidates = [getattr(item, "function", None)]
+    # _fixtureinfo is pytest-internal; pytest is pinned in pyproject.toml.
+    info = getattr(item, "_fixtureinfo", None)
+    if info is not None:
+        for name in item.fixturenames:
+            candidates += [d.func for d in info.name2fixturedefs.get(name, ())]
+    return any(c is not None and _mentions_apptest(c) for c in candidates)
+
+
+def pytest_collection_modifyitems(items):
+    for item in items:
+        if _drives_the_app(item):
+            item.add_marker(pytest.mark.app)
+
+
+# ── Driving the nav rail ──────────────────────────────────────────────────────
 # The nav rail is one radio per group (keys nav_g0..nav_gN), so a test cannot
 # address it by a single widget any more. Drive it by label.
 #
@@ -17,21 +57,17 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 # -- and the failure is an unhelpful StopIteration inside the helper rather
 # than anything about the section under test.
 
-import ast as _ast
-import re as _re
-from pathlib import Path as _Path
-
 
 def _nav_groups():
-    tree = _ast.parse(
-        (_Path(__file__).parent.parent / "app.py").read_text(encoding="utf-8"))
-    for node in _ast.walk(tree):
-        if not isinstance(node, _ast.Assign):
+    tree = ast.parse(
+        (Path(__file__).parent.parent / "app.py").read_text(encoding="utf-8"))
+    for node in ast.walk(tree):
+        if not isinstance(node, ast.Assign):
             continue
         if not any(getattr(t, "id", None) == "NAV" for t in node.targets):
             continue
         return [[label for _slug, label in
-                 (_ast.literal_eval(item) for item in group.elts[1].elts)]
+                 (ast.literal_eval(item) for item in group.elts[1].elts)]
                 for group in node.value.elts]
     raise RuntimeError("no NAV assignment found in app.py")
 
@@ -46,7 +82,7 @@ def goto(at, label):
     except StopIteration:
         raise AssertionError(
             f"{label!r} is not on the rail; it has "
-            f"{[l for g in NAV_GROUPS for l in g]}") from None
+            f"{[name for grp in NAV_GROUPS for name in grp]}") from None
     return at.radio(key=f"nav_g{group}").set_value(label).run()
 
 
@@ -60,4 +96,4 @@ def film_count(at):
     """
     block = next(m.value for m in at.markdown
                  if "films match your filters" in m.value)
-    return _re.search(r"<span>(.*?)</span>", block).group(1)
+    return re.search(r"<span>(.*?)</span>", block).group(1)

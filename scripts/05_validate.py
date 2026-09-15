@@ -9,7 +9,6 @@ import sys
 import logging
 import sqlite3
 import uuid
-from datetime import datetime
 from pathlib import Path
 from dotenv import load_dotenv
 

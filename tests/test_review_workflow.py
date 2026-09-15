@@ -14,7 +14,7 @@ import uuid
 import importlib.util
 import pytest
 from pathlib import Path
-from unittest.mock import patch, MagicMock
+from unittest.mock import patch
 
 
 def _load(name):
@@ -296,7 +296,8 @@ class TestApplyReview:
             ("Dodgeball",    2004, 9472),
         ])
         rows = self._export_and_get_rows(tmp_db, tmp_csv)
-        rows[0]["action"] = "approve"; rows[0]["chosen_tmdb_id"] = "280"
+        rows[0]["action"] = "approve"
+        rows[0]["chosen_tmdb_id"] = "280"
         rows[1]["action"] = "reject"
         rows[2]["action"] = ""  # skip
         _write_csv(tmp_csv, rows)

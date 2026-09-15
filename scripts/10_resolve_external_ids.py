@@ -30,7 +30,6 @@ the 2016 Freebase freeze) caches with NULL and is not retried; the `resolved`
 flag, not per-column nullness, marks a row as done.
 """
 
-import json
 import logging
 import os
 import sqlite3

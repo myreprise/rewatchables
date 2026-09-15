@@ -21,6 +21,8 @@ from pathlib import Path
 
 import pytest
 
+import views
+
 ROOT = Path(__file__).parent.parent
 
 
@@ -35,8 +37,6 @@ def _load(script, name):
 up = _load("13_build_upcoming.py", "build_upcoming")
 keys = _load("_keys.py", "keys_mod")
 convert = _load("convert_xlsx_to_csv.py", "convert_mod")
-
-import views
 
 
 # ---------------------------------------------------------------------------

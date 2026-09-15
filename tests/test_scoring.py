@@ -6,6 +6,8 @@ No database, no API calls.
 import importlib.util
 from pathlib import Path
 
+import pytest
+
 spec = importlib.util.spec_from_file_location(
     "enrich", Path(__file__).parent.parent / "scripts" / "04_enrich.py"
 )
@@ -71,6 +73,3 @@ class TestScoreCandidate:
         q_norm = normalize_title(strip_annotations(q_raw))
         c_norm = normalize_title("Batman")
         assert q_norm == c_norm
-
-
-import pytest

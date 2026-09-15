@@ -265,7 +265,9 @@ class TestMigration:
 
     def test_adds_bridge_columns(self, tmp_path):
         conn = self._legacy(tmp_path)
-        cols = lambda: {r[1] for r in conn.execute("PRAGMA table_info(curated_movies)")}
+        def cols():
+            return {r[1] for r in conn.execute("PRAGMA table_info(curated_movies)")}
+
         assert "freebase_id" not in cols()
         ensure_cache_table(conn.cursor())
         conn.commit()

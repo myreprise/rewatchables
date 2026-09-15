@@ -27,17 +27,9 @@ import os
 import sys
 import logging
 import sqlite3
-import uuid
 import re
-from datetime import datetime
 from pathlib import Path
 from dotenv import load_dotenv
-
-# Load environment variables
-load_dotenv('config/.env')
-
-logging.basicConfig(level=os.getenv('LOG_LEVEL', 'INFO'))
-logger = logging.getLogger(__name__)
 
 # The business key and the deterministic ids derived from it are shared with
 # 02_load_raw, which upserts on the same key. Re-exported here so callers and
@@ -49,6 +41,12 @@ from _keys import (  # noqa: F401  (re-exported)
     make_mention_id,
     normalize_date,
 )
+
+# Load environment variables
+load_dotenv('config/.env')
+
+logging.basicConfig(level=os.getenv('LOG_LEVEL', 'INFO'))
+logger = logging.getLogger(__name__)
 
 def strip_annotations(title):
     """

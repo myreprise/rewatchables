@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rewatchables"
+version = "0.1.0"
+description = "Episode and film data pipeline for The Rewatchables podcast, with a Streamlit explorer"
+readme = "README.md"
+requires-python = ">=3.11"
+# Exact pins: this is an application, and these are the versions the test
+# suite passes against. Upgrade one at a time, deliberately.
+dependencies = [
+    "streamlit==1.41.1",
+    "plotly==6.7.0",
+    "pandas==2.2.2",
+    "numpy==2.3.3",
+    "openpyxl==3.1.5",
+    "requests==2.34.2",
+    "python-dotenv==1.0.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==8.4.2",
+    "ruff==0.12.8",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# The repo root holds app.py and views.py; scripts/ holds the pipeline steps.
+pythonpath = [".", "scripts"]
+addopts = "--strict-markers"
+markers = [
+    "app: drives app.py through Streamlit's AppTest; slow. Applied automatically in tests/conftest.py. Skip with -m \"not app\".",
+]
+
+[tool.ruff]
+target-version = "py311"
+# .claude/ holds agent worktrees: whole copies of this repo.
+extend-exclude = [".claude"]

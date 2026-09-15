@@ -146,7 +146,7 @@ def main():
     logger.info("=" * 60)
     logger.info("Phase 4: Export manual-review queue")
     logger.info("=" * 60)
-    n = export_queue(db_path)
+    export_queue(db_path)
     logger.info(f"Edit {CSV_PATH} (set action + chosen_tmdb_id), "
                 f"then run 08_apply_review.py")
     logger.info("=" * 60)

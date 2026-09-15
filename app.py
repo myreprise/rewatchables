@@ -2791,7 +2791,7 @@ with st.sidebar:
 
     for _gi, (_group, _items) in enumerate(NAV):
         st.markdown(
-            f'<div class="rw-navgroup"'
+            '<div class="rw-navgroup"'
             + (' style="margin-top:0"' if _gi == 0 else "")
             + f">{_group}</div>",
             unsafe_allow_html=True,

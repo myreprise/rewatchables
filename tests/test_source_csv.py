@@ -16,8 +16,12 @@ have to hold for that to be worth anything:
 """
 
 import importlib.util
+import os
+import sys
+from datetime import datetime
 from pathlib import Path
 
+import openpyxl
 import pandas as pd
 import pytest
 
@@ -214,12 +218,6 @@ class TestRepoSourceFile:
 # it. The properties pinned here are the ones that make that safe: the render
 # is exact, a cell Excel has mangled is refused rather than passed on, and the
 # step never builds from a stale or half-saved file without saying so.
-
-import os
-import sys
-from datetime import datetime
-
-import openpyxl
 
 build_workbook = convert_mod.build_episode_workbook
 render_workbook = convert_mod.render_episode_workbook
