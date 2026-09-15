@@ -12,6 +12,7 @@ function that takes a frame and returns a frame is one a test can pin.
 
 import math
 from collections import Counter
+from datetime import timezone
 from itertools import combinations
 
 import numpy as np
@@ -348,6 +349,30 @@ RESOLUTION_NOTE = {
     "unresolved_low_confidence": "no confident TMDB match",
     "unresolved_error": "the TMDB lookup failed; it will retry",
 }
+
+
+def stale_notice(saved_utc, loaded_utc,
+                 command="python scripts/orchestrate.py --from 1"):
+    """The banner for an episode workbook saved after the data was loaded.
+
+    Both times are naive UTC: the workbook's modification time, and the newest
+    raw_ingest_runs.sync_timestamp, which step 02 writes. Returns '' when the
+    data is current or either time is unknown -- a banner that cannot say what
+    is out of date would only train people to ignore it.
+    """
+    if saved_utc is None or loaded_utc is None or saved_utc <= loaded_utc:
+        return ""
+
+    def local(t):
+        t = t.replace(tzinfo=timezone.utc).astimezone()
+        # %-d is glibc-only; build the unpadded day by hand so this runs on Windows.
+        return f"{t.day} {t:%b %H:%M}"
+
+    return (
+        '<div class="rw-stale"><b>episodes.xlsx has changes the app has not '
+        f"loaded.</b> Saved {local(saved_utc)}; data last loaded "
+        f"{local(loaded_utc)}. Run <code>{command}</code>, then reload.</div>"
+    )
 
 
 def pitch_chips(tags):

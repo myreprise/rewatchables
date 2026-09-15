@@ -205,3 +205,269 @@ class TestRepoSourceFile:
         offenders = [(c, v) for c in df.columns for v in df[c]
                      if v != v.strip()]
         assert offenders == []
+
+
+# ---------------------------------------------------------------------------
+# The workbook source: data/episodes.xlsx -> data/episodes.csv (step 01)
+# ---------------------------------------------------------------------------
+# Since 2026-09-15 the workbook is what gets edited and the CSV is rendered from
+# it. The properties pinned here are the ones that make that safe: the render
+# is exact, a cell Excel has mangled is refused rather than passed on, and the
+# step never builds from a stale or half-saved file without saying so.
+
+import os
+import sys
+from datetime import datetime
+
+import openpyxl
+
+build_workbook = convert_mod.build_episode_workbook
+render_workbook = convert_mod.render_episode_workbook
+write_episode_csv = convert_mod.write_episode_csv
+excel_lock_file = convert_mod.excel_lock_file
+EPISODE_COLUMNS = convert_mod.EPISODE_COLUMNS
+step01 = _load("render_source", "01_render_source.py")
+
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from views import stale_notice  # noqa: E402
+
+REPO_XLSX = Path(__file__).parent.parent / "data" / "episodes.xlsx"
+
+# Formatted rows in a test workbook. The real one has 3,000, which costs
+# seconds on every build and read; the behaviour is the same at 60.
+FEW = 60
+
+
+def _row(**values):
+    row = dict.fromkeys(EPISODE_COLUMNS, "")
+    row.update(ep="1", title="Heat", date="2015-12-22", host="Bill Simmons",
+               guest1="Chris Ryan", year="1995", genre="Crime;Drama;",
+               director="Michael Mann", ebert="3.5/4", tomatoes_score="0.83",
+               rating="0.83", is_film="1", ebert_stars="3.5", revisited="1")
+    row.update(values)
+    return row
+
+
+def _source(tmp_path):
+    """A two-episode CSV and the workbook built from it."""
+    rows = [
+        _row(),
+        _row(ep="7", ep_ex_1999="1", title="A Few Good Men", date="2017-08-10",
+             guest2="Amanda Dobbins", year="", ebert="Not reviewed",
+             ebert_stars="", tomatoes_score="", rating="", cruise_hanks="Cruise",
+             notes='Bill says "#1", then leaves', revisited="0"),
+    ]
+    csv = tmp_path / "episodes.csv"
+    pd.DataFrame(rows, columns=EPISODE_COLUMNS).to_csv(
+        csv, index=False, lineterminator="\n")
+    xlsx = tmp_path / "episodes.xlsx"
+    assert build_workbook(csv, xlsx, format_rows=FEW) == 0
+    return csv, xlsx
+
+
+def _edit(xlsx, excel_row, **cells):
+    wb = openpyxl.load_workbook(xlsx)
+    ws = wb["episodes"]
+    for column, value in cells.items():
+        ws.cell(row=excel_row, column=EPISODE_COLUMNS.index(column) + 1).value = value
+    wb.save(xlsx)
+
+
+class TestEpisodeWorkbook:
+    def test_renders_back_to_exactly_the_csv_it_was_built_from(self, tmp_path):
+        csv, xlsx = _source(tmp_path)
+        df, errors, _ = render_workbook(xlsx)
+        assert errors == []
+        assert df.equals(read_source(csv))
+        again = tmp_path / "again.csv"
+        assert write_episode_csv(df, again)
+        assert again.read_bytes() == csv.read_bytes()
+
+    def test_preformatted_blank_rows_are_not_episodes(self, tmp_path):
+        _, xlsx = _source(tmp_path)
+        assert openpyxl.load_workbook(xlsx)["episodes"].max_row == FEW
+        assert len(render_workbook(xlsx)[0]) == 2
+
+    def test_text_columns_are_text_below_the_data(self, tmp_path):
+        """What keeps Excel from turning a typed '3/4' into the fourth of March."""
+        _, xlsx = _source(tmp_path)
+        ws = openpyxl.load_workbook(xlsx)["episodes"]
+        ebert = EPISODE_COLUMNS.index("ebert") + 1
+        assert ws.cell(row=FEW, column=ebert).number_format == "@"
+
+    def test_a_row_typed_into_the_sheet_renders_like_the_rest(self, tmp_path):
+        _, xlsx = _source(tmp_path)
+        _edit(xlsx, 4, ep=481, title="Rambo: First Blood Part II",
+              date=datetime(2026, 9, 14), host="Bill Simmons", year=1985,
+              ebert="1.5/4", tomatoes_score=0.3, is_film=1, revisited=0)
+        df, errors, _ = render_workbook(xlsx)
+        assert errors == []
+        new = df.iloc[-1]
+        assert (new["ep"], new["date"], new["year"], new["tomatoes_score"]) == (
+            "481", "2026-09-14", "1985", "0.3")
+        # Left blank, and filled from the column each one copies.
+        assert (new["rating"], new["ebert_stars"]) == ("0.3", "1.5")
+
+    def test_a_rating_excel_turned_into_a_date_is_refused(self, tmp_path):
+        _, xlsx = _source(tmp_path)
+        _edit(xlsx, 2, ebert=datetime(2026, 3, 4))
+        _, errors, _ = render_workbook(xlsx)
+        assert len(errors) == 1
+        assert "row 2" in errors[0] and "ebert" in errors[0] and "date" in errors[0]
+
+    @pytest.mark.parametrize("column,value", [
+        ("date", "22/12/2015"),
+        ("tomatoes_score", 83),          # 83% is 0.83
+        ("cruise_hanks", "Hanks!"),
+        ("is_film", 2),
+        ("ep", None),
+        ("year", 95),
+    ])
+    def test_values_outside_the_column_rules_are_refused(self, tmp_path, column, value):
+        _, xlsx = _source(tmp_path)
+        _edit(xlsx, 2, **{column: value})
+        _, errors, _ = render_workbook(xlsx)
+        assert any(column in e and "row 2" in e for e in errors), errors
+
+    @pytest.mark.parametrize("cells,column", [
+        ({"tomatoes_score": 83}, "tomatoes_score"),
+        ({"rating": "=M2"}, "rating"),
+        ({"ebert": "3/5"}, "ebert"),
+    ])
+    def test_one_mistake_is_reported_once(self, tmp_path, cells, column):
+        """Not also as its copy disagreeing: that second message would send
+        you to clear the copy, which is the wrong cell."""
+        _, xlsx = _source(tmp_path)
+        _edit(xlsx, 2, **cells)
+        _, errors, _ = render_workbook(xlsx)
+        assert len(errors) == 1 and column in errors[0], errors
+
+    def test_iso_text_in_the_date_column_is_accepted(self, tmp_path):
+        _, xlsx = _source(tmp_path)
+        _edit(xlsx, 2, date="2015-12-22")
+        df, errors, _ = render_workbook(xlsx)
+        assert errors == [] and df["date"][0] == "2015-12-22"
+
+    def test_a_formula_with_no_saved_result_is_refused(self, tmp_path):
+        """openpyxl writes the formula but no cached value -- as any tool but
+        Excel would -- so reading it by value alone would see a blank."""
+        _, xlsx = _source(tmp_path)
+        _edit(xlsx, 2, rating="=N2")
+        _, errors, _ = render_workbook(xlsx)
+        assert any("formula" in e for e in errors), errors
+
+    def test_a_derived_column_that_disagrees_is_refused(self, tmp_path):
+        _, xlsx = _source(tmp_path)
+        _edit(xlsx, 2, ebert_stars=2.0)
+        _, errors, _ = render_workbook(xlsx)
+        assert any("ebert_stars" in e for e in errors), errors
+
+    def test_a_duplicate_airing_is_refused(self, tmp_path):
+        _, xlsx = _source(tmp_path)
+        _edit(xlsx, 3, ep=1, title="Heat", date=datetime(2015, 12, 22))
+        _, errors, _ = render_workbook(xlsx)
+        assert any("same episode number, date and title" in e for e in errors), errors
+
+    def test_a_renamed_column_is_refused(self, tmp_path):
+        _, xlsx = _source(tmp_path)
+        wb = openpyxl.load_workbook(xlsx)
+        wb["episodes"].cell(row=1, column=EPISODE_COLUMNS.index("notes") + 1).value = "comments"
+        wb.save(xlsx)
+        _, errors, _ = render_workbook(xlsx)
+        assert any("notes" in e for e in errors) and any("comments" in e for e in errors)
+
+    def test_a_future_air_date_is_a_warning_not_an_error(self, tmp_path):
+        _, xlsx = _source(tmp_path)
+        _edit(xlsx, 2, date=datetime(2999, 1, 1))
+        _, errors, warnings = render_workbook(xlsx)
+        assert errors == [] and any("future" in w for w in warnings)
+
+    def test_float_noise_is_rendered_away(self):
+        assert render(0.8300000000000001) == "0.83"
+
+    def test_building_never_overwrites_the_source(self, tmp_path):
+        csv, xlsx = _source(tmp_path)
+        assert build_workbook(csv, xlsx) == 1
+
+
+class TestExcelLock:
+    @pytest.mark.parametrize("owner", ["~$episodes.xlsx", "~$isodes.xlsx"])
+    def test_the_owner_file_is_found_under_either_name(self, tmp_path, owner):
+        (tmp_path / owner).write_text("")
+        assert excel_lock_file(tmp_path / "episodes.xlsx") == tmp_path / owner
+
+    def test_no_owner_file_means_not_open(self, tmp_path):
+        assert excel_lock_file(tmp_path / "episodes.xlsx") is None
+
+
+class TestRenderSourceStep:
+    def test_writes_the_csv_from_the_workbook(self, tmp_path):
+        csv, xlsx = _source(tmp_path)
+        _edit(xlsx, 2, guest3="Mallory Rubin")
+        assert step01.render_source(xlsx, csv, tmp_path / "logs") == 0
+        assert read_source(csv)["guest3"][0] == "Mallory Rubin"
+        assert not (tmp_path / "logs").exists()
+
+    def test_no_workbook_falls_back_to_the_tracked_csv(self, tmp_path):
+        csv, xlsx = _source(tmp_path)
+        xlsx.unlink()
+        before = csv.read_bytes()
+        assert step01.render_source(xlsx, csv, tmp_path / "logs") == 0
+        assert csv.read_bytes() == before
+
+    def test_a_workbook_open_in_excel_is_refused(self, tmp_path):
+        csv, xlsx = _source(tmp_path)
+        (tmp_path / "~$episodes.xlsx").write_text("")
+        before = csv.read_bytes()
+        assert step01.render_source(xlsx, csv, tmp_path / "logs") == 1
+        assert csv.read_bytes() == before
+
+    def test_a_bad_cell_leaves_the_csv_untouched(self, tmp_path):
+        csv, xlsx = _source(tmp_path)
+        _edit(xlsx, 2, ebert=datetime(2026, 3, 4))
+        before = csv.read_bytes()
+        assert step01.render_source(xlsx, csv, tmp_path / "logs") == 1
+        assert csv.read_bytes() == before
+
+    def test_a_csv_edited_after_the_workbook_is_kept_before_it_is_replaced(self, tmp_path):
+        csv, xlsx = _source(tmp_path)
+        csv.write_bytes(csv.read_bytes().replace(b"Michael Mann", b"Mike Mann"))
+        later = xlsx.stat().st_mtime + 60
+        os.utime(csv, (later, later))
+        logs = tmp_path / "logs"
+        assert step01.render_source(xlsx, csv, logs) == 0
+        kept = list(logs.glob("episodes.csv.replaced-*"))
+        assert len(kept) == 1 and b"Mike Mann" in kept[0].read_bytes()
+        assert b"Michael Mann" in csv.read_bytes()
+
+    def test_an_unchanged_csv_is_not_rewritten(self, tmp_path):
+        csv, xlsx = _source(tmp_path)
+        step01.render_source(xlsx, csv, tmp_path / "logs")
+        stamp = csv.stat().st_mtime_ns
+        assert step01.render_source(xlsx, csv, tmp_path / "logs") == 0
+        assert csv.stat().st_mtime_ns == stamp
+
+
+class TestStaleBanner:
+    def test_shown_when_the_workbook_was_saved_after_the_load(self):
+        notice = stale_notice(datetime(2026, 9, 15, 8, 0), datetime(2026, 9, 15, 7, 0))
+        assert "orchestrate.py --from 1" in notice
+
+    def test_hidden_once_the_load_is_newer(self):
+        assert stale_notice(datetime(2026, 9, 15, 7, 0), datetime(2026, 9, 15, 8, 0)) == ""
+
+    @pytest.mark.parametrize("saved,loaded", [
+        (None, datetime(2026, 9, 15)), (datetime(2026, 9, 15), None)])
+    def test_hidden_when_either_time_is_unknown(self, saved, loaded):
+        assert stale_notice(saved, loaded) == ""
+
+
+@pytest.mark.skipif(not REPO_XLSX.exists(), reason="data/episodes.xlsx not present")
+class TestRepoWorkbook:
+    def test_the_workbook_renders_to_exactly_the_tracked_csv(self):
+        """The two files move together: step 01 writes one from the other. If
+        this fails, the CSV was edited by hand, or the workbook was changed and
+        step 01 has not been run since -- commit the two together."""
+        df, errors, _ = render_workbook(REPO_XLSX)
+        assert errors == []
+        assert df.equals(read_source(REPO_CSV))

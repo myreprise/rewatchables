@@ -21,9 +21,9 @@ nothing about which film was added; the CSV beside it turns the same change into
 a one-line diff you can read and merge. It is a rendering of the source, not a
 second copy of it.
 
-WHICH MEANS EDITS TO THE CSV ARE DISCARDED. The same trap step 01 sets for
-episodes.csv, and it fails just as silently: the conversion simply writes the
-xlsx's version over the top and the load stores that. Edit the xlsx. If you have
+WHICH MEANS EDITS TO THE CSV ARE DISCARDED, and silently: the conversion simply
+writes the xlsx's version over the top and the load stores that. (Step 01 does
+the same for episodes.csv but keeps a copy of a hand-edited CSV in logs/ first.) Edit the xlsx. If you have
 genuinely hand-edited the CSV and want this run to keep it, pass --skip-convert.
 
 IF THE XLSX IS ABSENT the run falls back to the CSV and says so. A fresh

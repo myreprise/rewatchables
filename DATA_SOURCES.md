@@ -17,21 +17,68 @@ either is a reviewable one-line diff rather than `Bin 71028 -> 76009 bytes`.
 
 | Source of truth | Edited how | Derived CSV | Rows | Loaded by |
 | --- | --- | --- | ---: | --- |
-| Google Sheet | in the sheet | `data/episodes.csv` | 489 | `02_load_raw.py` (after `01_sync_sheets.py`) |
+| `data/episodes.xlsx` | in Excel | `data/episodes.csv` | 491 | `01_render_source.py`, then `02_load_raw.py` |
 | `data/remaining films.xlsx` | in Excel | `data/upcoming.csv` | 214 | `13_build_upcoming.py` |
 
 **Edit the source, never the CSV.** In both rows the CSV is a rendering, not a
 copy: the pipeline rewrites it from the source at the start of every run, so an
-edit made to the CSV is discarded silently. The CSVs are nonetheless tracked in
+edit made to the CSV is discarded (step 01 keeps a copy in `logs/` first; step
+13 does not). The CSVs are nonetheless tracked in
 git, and that is the point of them — an xlsx diffs as `Bin 71028 -> 76009 bytes`
 and cannot be merged, while the CSV beside it turns "one film was added" into a
 one-line diff. The xlsx should be committed too, so the thing you actually edit
 is not the one thing that only exists on one machine.
 
-Step 13 refuses to fall back to the CSV when the xlsx is present but unreadable
-— which on Windows means Excel is holding it open. Falling back there would
-quietly build the previous version of the list while your edits are on screen.
-Close the file and run it again.
+Steps 01 and 13 refuse to fall back to the CSV when the xlsx is present but
+unreadable — which on Windows means Excel is holding it open. Falling back there
+would quietly build the previous version of the list while your edits are on
+screen. Close the file and run it again.
+
+### The episode workbook
+
+`data/episodes.xlsx` has been the episode list's source of truth since
+2026-09-15. The Google Sheet that step 01 used to download is retired: it had
+drifted from the local file in 59 places (`reports/sheet_vs_episodes_20260915.csv`)
+and lacked four of its 20 columns.
+
+**Why a workbook.** Opening the CSV in Excel on this machine and saving it
+re-encodes it as GBK, rewrites ISO dates in the local format and reads Ebert
+ratings like `3/4` as dates. A workbook stores text as UTF-8 and dates as
+dates, so saving it can't do that.
+
+**How it's protected against typing.** Excel still converts values as you
+type, so the workbook was built with:
+- every text column formatted as Text for 3,000 rows, so a typed `3/4` stays
+  text;
+- `ebert` offered as a list of the eight ratings plus "Not reviewed", and
+  `cruise_hanks`, `is_film` and `revisited` limited to their values;
+- dates as real dates shown as `yyyy-mm-dd`, and scores as percentages.
+
+It was built by `convert_xlsx_to_csv.py --init-episodes-workbook`. That command
+refuses to overwrite an existing workbook.
+
+**What step 01 checks.** Every cell, against its column. Any of these stops the
+run with the row and column named, and the CSV is left alone:
+- a rating Excel has turned into a date;
+- a date typed as text;
+- a score over 100%;
+- a formula with no saved result;
+- two rows for the same airing.
+
+`rating` and `ebert_stars` copy `tomatoes_score` and the number in `ebert`
+(true of all 491 rows). Left blank they are filled; a disagreement stops the
+run. A future air date is only a warning.
+
+**What else step 01 does.**
+- It refuses to read the workbook while Excel has it open.
+- It falls back to the tracked CSV when there is no workbook.
+- It copies a CSV that was edited after the workbook to `logs/` before
+  replacing it.
+
+**After editing.** Save and close the workbook, then run
+`python scripts/orchestrate.py --from 1`. Until you do, the app shows a banner
+saying the workbook is newer than its data. Commit the workbook and the CSV
+together: `tests/test_source_csv.py` checks that one renders to the other.
 
 The two do not mix. `upcoming.csv` rows are not airings — no episode number, no
 date — so they get their own raw and curated tables and their own load ledger

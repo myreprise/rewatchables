@@ -70,6 +70,8 @@ data/*.xlsx.bak
 Thumbs.db
 
 # Temporary
+# Excel's owner file beside a workbook it has open (~$episodes.xlsx).
+~$*
 *.tmp
 tmp/
 temp/

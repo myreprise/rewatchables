@@ -4,19 +4,19 @@ Phase 2: Load raw zone from data/episodes.csv
 
 Ingests the episode list into raw_episodes as append-only version history.
 
-THE SOURCE FILE IS A CSV, READ VERBATIM.
+THE FILE THIS READS IS A CSV, READ VERBATIM -- AND GENERATED.
 
-It replaced data/master.xlsx, which git could only diff as
-"Bin 71028 -> 76009 bytes" — you could not see which episode had been added, and
-two edits could not merge. The CSV is tracked (see the !data/episodes.csv line
-in .gitignore, which overrides the data/*.csv rule) so adding an episode is a
-one-line diff.
+Step 01 renders it from data/episodes.xlsx, the workbook that gets edited, and
+checks every cell on the way. The CSV stays tracked (see the !data/episodes.csv
+line in .gitignore) because git can diff it: a workbook diffs as "Bin 71028 ->
+76009 bytes", the CSV beside it as the one row that changed. Do not edit it,
+and never open it in Excel -- on this machine a save re-encodes it as GBK and
+turns '3/4' into a date. Step 01 regenerates it on every run anyway.
 
 It is read with dtype=str and keep_default_na=False, so pandas infers nothing.
-The xlsx path typed each column by guessing and then stringified the result,
-which is how '1995.0' and the literal string 'nan' ended up in the raw zone. An
-empty field is now '' and every value is the text the file holds. Edit it in
-Excel if you like — just Save As CSV.
+pandas' xlsx path typed each column by guessing and then stringified the
+result, which is how '1995.0' and the literal string 'nan' once reached the raw
+zone. An empty field is '' and every value is the text the file holds.
 
 THE LOAD IS AN UPSERT, NOT A SNAPSHOT.
 
@@ -325,13 +325,8 @@ def main():
     db_path = os.getenv('DB_PATH', 'rewatchables.db')
 
     if not csv_path.exists():
-        logger.error(f"{csv_path} not found.")
-        if Path('data/master.xlsx').exists():
-            logger.error("data/master.xlsx is still here — the source file moved "
-                         "to CSV. Convert it once with: "
-                         "python scripts/convert_xlsx_to_csv.py")
-        else:
-            logger.error("Run 01_sync_sheets.py first.")
+        logger.error(f"{csv_path} not found. Run scripts/01_render_source.py "
+                     "first: it writes this file from data/episodes.xlsx.")
         sys.exit(1)
 
     logger.info("=" * 60)

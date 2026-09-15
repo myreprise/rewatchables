@@ -4,7 +4,7 @@ Orchestrate the rewatchables pipeline.
 
 Thirteen steps in five stages:
 
-  source   01 sync sheets, 02 load raw
+  source   01 render episodes.xlsx, 02 load raw
   resolve  03 normalize + stage mentions, 04 resolve against TMDB
   curated  05 validate, 06 build curated zone, 07 export review queue,
            08 apply review decisions
@@ -26,8 +26,9 @@ it in Excel, then:
 
 Unlike the episode path there is no --from to remember. Step 13 regenerates
 data/upcoming.csv from the xlsx itself, so the xlsx is the only file to edit --
-and edits made to the CSV instead are overwritten without warning, exactly as
-step 01 overwrites episodes.csv. Expect one TMDB search for the new film.
+and edits made to the CSV instead are overwritten without warning. (Step 01
+does the same for episodes.csv, but keeps a copy of a hand-edited CSV in logs/
+first.) Expect one TMDB search for the new film.
 
 REBUILDING FROM SOURCE -- read before running the whole thing.
 
@@ -54,18 +55,22 @@ therefore costs no API calls and runs in seconds; only a genuinely new title
 reaches the network. Pass --refresh to 04, 09, 10 or 12 individually to force a
 re-fetch.
 
-ADDING AN EPISODE. Append the row to data/episodes.csv, then:
+ADDING OR EDITING AN EPISODE. Edit data/episodes.xlsx, save, close it in Excel,
+then:
 
-    python scripts/orchestrate.py --from 2
+    python scripts/orchestrate.py --from 1
 
-Step 02 upserts, so only the new row is stored; 03 and 04 rebuild from the cache;
-08 replays the review decisions. Expect one TMDB search for the new film.
+Step 01 checks every cell and regenerates data/episodes.csv from the workbook;
+it stops with the row and column named if a cell is wrong, and refuses to read
+the workbook while Excel has it open. 02 upserts, so only changed rows are
+stored; 03 and 04 rebuild from the cache; 08 replays the review decisions.
+Expect one TMDB search per new film. Until this runs, the app shows a banner
+saying the workbook is newer than the data.
 
---from 2, NOT --all. Step 01 re-downloads the Google Sheet over
-data/episodes.csv. If the sheet is the source of truth that is what you want; if
-you edit the CSV directly, step 01 discards those edits and --all is the wrong
-command. Nothing warns you: the load that follows simply sees the sheet's
-version of the row.
+Edit the workbook, never the CSV: step 01 regenerates the CSV on every run. If
+it finds the CSV was changed after the workbook was saved, it copies the
+replaced file to logs/ and says so rather than discarding it silently. (The
+Google Sheet step 01 used to download is retired; see DATA_SOURCES.md.)
 
 Usage:
     python scripts/orchestrate.py                    # safe refresh (05-12)
@@ -106,7 +111,7 @@ DB_PATH = os.getenv("DB_PATH", "rewatchables.db")
 # human-in-the-loop review steps, which fail by design when there is nothing
 # queued or no decisions CSV yet.
 STEPS = [
-    (1,  "01_sync_sheets.py",           "Sync Google Sheets → episodes.csv",     "source",  False),
+    (1,  "01_render_source.py",         "Render episodes.xlsx → episodes.csv",   "source",  False),
     (2,  "02_load_raw.py",              "Load raw zone from episodes.csv",       "source",  False),
     (3,  "03_normalize_and_resolve.py", "Normalize + stage movie mentions",      "resolve", False),
     (4,  "04_enrich.py",                "Resolve mentions against TMDB",         "resolve", False),

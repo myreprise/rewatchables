@@ -5,6 +5,7 @@ Rewatchables Explorer — Streamlit EDA app
 import sqlite3
 import json
 import random
+from datetime import datetime, timezone
 from pathlib import Path
 from collections import Counter
 from itertools import combinations
@@ -23,7 +24,7 @@ from views import (
     lean_value, lineups, money, multiple, parse_tags, permutation_diffs,
     person_name,
     pitch_chips, plain, rank_by_reach, real_usd, region_of, room_long,
-    sort_title, stars, stat_tile,
+    sort_title, stale_notice, stars, stat_tile,
 )
 
 # ── Config ────────────────────────────────────────────────────────────────────
@@ -36,6 +37,13 @@ st.set_page_config(
 )
 
 DB_PATH = Path(__file__).parent / "rewatchables.db"
+# The loaders below are cached, and keyed on the database's modification time
+# as well as their ttl, so a pipeline run shows on the next rerun rather than up
+# to five minutes later.
+DB_STAMP = DB_PATH.stat().st_mtime if DB_PATH.exists() else 0.0
+# The episode list's source of truth, for the banner that says the data is
+# behind it. See 01_render_source.py.
+SOURCE_XLSX = Path(__file__).parent / "data" / "episodes.xlsx"
 TMDB_IMG = "https://image.tmdb.org/t/p/w500"
 TMDB_THUMB = "https://image.tmdb.org/t/p/w185"
 TMDB_PROFILE = "https://image.tmdb.org/t/p/w342"
@@ -1025,6 +1033,20 @@ div[data-testid="stVerticalBlock"]:has(> div > div > div > .rw-kwmark) div[data-
 .rw-lean .l { flex:1; min-width:0; display:flex; flex-wrap:wrap; align-items:center; }
 .rw-lean-none { font-size:12.5px; color:var(--txt-3); }
 
+/* ── Stale-data banner ────────────────────────────────────────────────── */
+/* Coral, the colour the app already uses for "look at this" (revisits, the
+   episode tile), and set above every page including an open dossier. */
+.rw-stale {
+  margin:0 0 16px; padding:10px 14px; border-radius:6px; font-size:13px;
+  line-height:1.55; color:var(--tape-2);
+  background:rgba(226,98,79,.12); border:1px solid rgba(226,98,79,.42);
+}
+.rw-stale b { color:var(--tape); font-weight:600; }
+.rw-stale code {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:12px;
+  color:var(--coral); background:rgba(0,0,0,.25); padding:1px 5px; border-radius:3px;
+}
+
 /* A note that sits under a block or beside a control on the same row. */
 .rw-ov-note { margin:6px 0 0; font-size:13px; color:var(--txt-2); line-height:1.6; max-width:74ch; }
 .rw-ov-note b { color:var(--tape-2); font-weight:600; }
@@ -1114,7 +1136,9 @@ div[data-testid="stVerticalBlock"]:has(> div > div > div > div > .rw-doormark):h
 # ── Data loading ──────────────────────────────────────────────────────────────
 
 @st.cache_data(ttl=300)
-def load_data():
+def load_data(db_stamp=None):
+    # db_stamp is never read: it is part of the cache key, so a rebuilt
+    # database is a cache miss. Callers pass DB_STAMP.
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
 
@@ -1310,11 +1334,11 @@ def load_data():
     return movies, episodes, links, merged, ch
 
 
-movies_df, episodes_df, links_df, merged_df, ch_df = load_data()
+movies_df, episodes_df, links_df, merged_df, ch_df = load_data(DB_STAMP)
 
 
 @st.cache_data(ttl=300)
-def load_people():
+def load_people(db_stamp=None):
     """The people dimension: one row per credited person, with their gender.
 
     Cached separately from load_data() for the same reason load_upcoming() is:
@@ -1367,11 +1391,11 @@ def gender_from_people(people):
             for name in agreed.index}
 
 
-GENDER_MAP = gender_from_people(load_people())
+GENDER_MAP = gender_from_people(load_people(DB_STAMP))
 
 
 @st.cache_data(ttl=300)
-def load_upcoming():
+def load_upcoming(db_stamp=None):
     """Films listeners have put forward for future episodes.
 
     Cached separately from load_data() rather than folded into it, for two
@@ -1432,7 +1456,7 @@ def load_upcoming():
     return pending, graduated
 
 
-upcoming_df, graduated_df = load_upcoming()
+upcoming_df, graduated_df = load_upcoming(DB_STAMP)
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -2782,6 +2806,34 @@ with st.sidebar:
     st.markdown(
         '<div class="rw-foot">SQLite &middot; TMDB</div>', unsafe_allow_html=True
     )
+
+
+# ── Source freshness ──────────────────────────────────────────────────────────
+# data/episodes.xlsx is the file that gets edited, but the app reads the
+# database, which only moves when the pipeline runs. Until it does, every page
+# says so, with the command that closes the gap. Read on every run rather than
+# cached: it is one stat() and one indexed MAX().
+
+def last_load_utc():
+    """When step 02 last loaded the episode list, as naive UTC, or None."""
+    if not DB_PATH.exists():
+        return None
+    conn = sqlite3.connect(DB_PATH)
+    try:
+        stamp = conn.execute(
+            "SELECT MAX(sync_timestamp) FROM raw_ingest_runs").fetchone()[0]
+    except sqlite3.Error:
+        stamp = None
+    finally:
+        conn.close()
+    return datetime.fromisoformat(stamp) if stamp else None
+
+
+_saved = (datetime.fromtimestamp(SOURCE_XLSX.stat().st_mtime, tz=timezone.utc)
+          .replace(tzinfo=None) if SOURCE_XLSX.exists() else None)
+_notice = stale_notice(_saved, last_load_utc())
+if _notice:
+    st.markdown(_notice, unsafe_allow_html=True)
 
 
 # ── Dossier overlay ───────────────────────────────────────────────────────────

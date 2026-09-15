@@ -1,8 +1,8 @@
-# The episode list is the tracked source of truth and the whole reason it is a
-# CSV rather than the xlsx it replaced is that git can diff it line by line.
+# The episode CSV is rendered from data/episodes.xlsx by step 01 and tracked so
+# that git can diff the episode list line by line, which the workbook cannot.
 # core.autocrlf is true on this machine, so without pinning the endings the file
 # is CRLF in the working tree and LF in the repo, while the pipeline's writers
-# (01_sync_sheets.py and convert_xlsx_to_csv.py) emit LF. Pinning eol=lf keeps
+# (01_render_source.py and convert_xlsx_to_csv.py) emit LF. Pinning eol=lf keeps
 # every path consistent, so adding an episode stays a one-line diff instead of
 # occasionally reading as "every line changed".
 data/episodes.csv text eol=lf

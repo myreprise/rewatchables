@@ -11,7 +11,6 @@ A secure, reproducible data pipeline for enriching podcast episode metadata with
 cp config/.env.template config/.env
 
 # Fill in required API keys in config/.env
-# - GOOGLE_SHEETS_WORKSHEET_ID (from your Google Sheet URL)
 # - TMDB_API_KEY (register at https://www.themoviedb.org/settings/api)
 ```
 
@@ -38,7 +37,7 @@ pip install -r requirements.txt
 python scripts/orchestrate.py
 
 # Or run individual steps
-python scripts/01_sync_sheets.py
+python scripts/01_render_source.py
 python scripts/02_load_raw.py
 python scripts/03_normalize_and_resolve.py
 python scripts/04_enrich.py
@@ -50,9 +49,9 @@ python scripts/05_validate.py
 ### Data Flow
 
 ```
-Google Sheets (source of truth)
+data/episodes.xlsx (source of truth, edited in Excel)
     ↓
-master.xlsx (local mirror)
+data/episodes.csv (rendered and checked by step 01; tracked for diffs)
     ↓
 SQLite raw_zone (immutable snapshots)
     ↓
@@ -66,7 +65,7 @@ Analysis/Export
 ### Database Zones
 
 #### Raw Zone
-- **Purpose**: Immutable snapshots from Google Sheets
+- **Purpose**: Versioned history of the episode list (one row per version of each airing)
 - **Tables**: `raw_episodes`, `raw_ingest_runs`
 - **Key Fields**: Source hash for change detection, ingestion timestamp
 
@@ -120,9 +119,6 @@ The system correctly handles movies the podcast revisited:
 Create `config/.env` (never commit):
 
 ```env
-# Google Sheets
-GOOGLE_SHEETS_WORKSHEET_ID=13KsNb1SxA7DYYQAzhaYxj_qKX0PXV1PXyKAZ7cEapRc
-GOOGLE_SHEET_GID=637738347
 
 # TMDB API (free tier sufficient for this use case)
 TMDB_API_KEY=your_api_key_here
@@ -138,10 +134,10 @@ API_RATE_LIMIT_BACKOFF_SECONDS=2
 
 ## Workflow
 
-### Weekly Sync Workflow
+### Updating the episode list
 
-1. **Sync**: Pull latest episodes from Google Sheet → `master.xlsx`
-2. **Ingest**: Load `master.xlsx` → SQLite raw zone
+1. **Edit**: Change `data/episodes.xlsx` in Excel, then save and close it
+2. **Render and ingest**: `python scripts/orchestrate.py --from 1`. Step 01 checks the workbook and writes `data/episodes.csv`, and step 02 loads it into the raw zone. Until this runs, the app shows a banner saying its data is behind the workbook.
 3. **Normalize**: Parse titles/years → staging zone
 4. **Enrich**: Search TMDB/Wiki → staging candidates
 5. **Validate**: Quality checks and reporting
@@ -152,7 +148,8 @@ API_RATE_LIMIT_BACKOFF_SECONDS=2
 ```
 rewatchables/
 ├── data/
-│   ├── master.xlsx           # Current working copy (synced from Google Sheets)
+│   ├── episodes.xlsx         # The episode list: the file you edit
+│   ├── episodes.csv          # Rendered from it by step 01; tracked for diffs
 │   ├── raw/                  # Historical snapshots (optional)
 │   └── staging/              # Working CSV exports (optional)
 ├── sql/
@@ -163,7 +160,7 @@ rewatchables/
 │   ├── migrations/           # Schema evolution scripts
 │   └── queries/              # Reusable analysis queries
 ├── scripts/
-│   ├── 01_sync_sheets.py
+│   ├── 01_render_source.py
 │   ├── 02_load_raw.py
 │   ├── 03_normalize_and_resolve.py
 │   ├── 04_enrich.py
