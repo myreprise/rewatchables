@@ -4,9 +4,18 @@ Presentation helpers for the views in app.py.
 These are the parts of the dossier and the keyword index that turn database
 values into markup, kept free of Streamlit so they can be tested directly.
 Everything here is pure: given the same input it returns the same string.
+
+The Hosts & Guests section's room statistics live here too, for the same
+reason: they are the part of that section that can be wrong quietly, and a
+function that takes a frame and returns a frame is one a test can pin.
 """
 
 import math
+from collections import Counter
+from itertools import combinations
+
+import numpy as np
+import pandas as pd
 
 
 def clean(value):
@@ -347,3 +356,192 @@ def pitch_chips(tags):
         return ""
     chips = "".join(f'<span class="rw-up-tag">{t}</span>' for t in tags)
     return f'<div class="rw-up-tags">{chips}</div>'
+
+
+# ── Hosts & guests ────────────────────────────────────────────────────────────
+# The sheet seats each episode in five chairs: host, then guest1..guest4. The
+# chair is layout, not role -- Bill Simmons fills the host chair on 437 of 483
+# film episodes -- so these helpers work on the room as a set of people and
+# carry the chair only so "times hosted" can still be counted.
+
+ROOM = ("host", "guest1", "guest2", "guest3", "guest4")
+
+# The show's anchor. He is on 438 of the 483 film episodes, so any grouping
+# that includes him is mostly a description of him; the section states his
+# share once and leaves him out of every panel after that. Matched on the full
+# name, never a substring: "Kari Simmons" is a different guest.
+ANCHOR = "Bill Simmons"
+
+
+def person_name(value):
+    """A room cell as a person's name, or None.
+
+    clean() plus the sheet's hand-typed markers: episode 320 lists "Mallory
+    Rubin*", which as-is is a second person with one appearance. A trailing
+    asterisk is annotation, never part of a name, so it is dropped here -- the
+    one place every section reads the room through.
+    """
+    text = clean(value)
+    if text is None:
+        return None
+    return text.rstrip("*").strip() or None
+
+
+def room_long(frame, key, keep=()):
+    """One row per (episode, person), with the chair they sat in.
+
+    `key` names the column that identifies an episode. It has to be unique per
+    airing, which the episode number is not: the sheet reuses a number when a
+    film is revisited (Notting Hill is episode 73 in 2019 and again in 2024).
+
+    A name entered in two chairs of one episode is one appearance, and keeps
+    the earlier chair, so the host chair wins.
+    """
+    long = frame.melt(
+        id_vars=[key, *keep], value_vars=list(ROOM),
+        var_name="chair", value_name="person",
+    )
+    long["person"] = long["person"].map(person_name)
+    long = long.dropna(subset=["person"])
+    long["seat"] = long["chair"].map(ROOM.index)
+    long = (long.sort_values([key, "seat"])
+                .drop_duplicates([key, "person"])
+                .drop(columns="seat"))
+    return long.reset_index(drop=True)
+
+
+def bench(long, key, date_col):
+    """Per person: episodes, times in the host chair, first and last airing."""
+    out = long.groupby("person").agg(
+        episodes=(key, "nunique"),
+        hosted=("chair", lambda c: int((c == "host").sum())),
+        first=(date_col, "min"),
+        last=(date_col, "max"),
+    )
+    return out.sort_values(["episodes", "last"], ascending=[False, False])
+
+
+def co_appearances(long, key):
+    """Episodes shared, per unordered pair of people. Keys are sorted tuples."""
+    pairs = Counter()
+    for _, names in long.groupby(key)["person"]:
+        pairs.update(combinations(sorted(set(names)), 2))
+    return pairs
+
+
+def lineups(long, key, sep=" + "):
+    """How often each exact panel sat together, as a count per lineup."""
+    return (long.groupby(key)["person"]
+                .agg(lambda names: sep.join(sorted(set(names))))
+                .value_counts())
+
+
+def appearances_by_year(long, episodes, key, date_col):
+    """(on, aired): person x year appearance counts, and episodes aired per year.
+
+    Charted as on / aired. A raw count reads the release schedule as much as
+    the person -- 18 film episodes aired in 2017 against 67 in 2020 -- so a
+    constant regular looks like they tripled their appearances.
+    """
+    aired = episodes.groupby(episodes[date_col].dt.year)[key].nunique()
+    on = (long.groupby(["person", long[date_col].dt.year])[key].nunique()
+              .unstack(fill_value=0)
+              .reindex(columns=aired.index, fill_value=0))
+    return on, aired
+
+
+def permutation_diffs(values, masks, n_perm=4000, seed=0):
+    """Two-sided permutation tests of mean(in group) - mean(out of group).
+
+    `values` maps a metric name to one float per episode (NaN where unknown);
+    `masks` maps a person to a boolean per episode, True where they were on.
+    Returns one row per (person, metric): n, the two means, their difference
+    and the p-value.
+
+    Every test draws its null from the same permutation matrix, so the result
+    is fixed by the seed and a rerun of the page never moves a p-value. The
+    +1 on both sides of the p-value keeps it off zero: 4,000 shuffles can
+    bound a p-value, not prove it is nil.
+    """
+    columns = ["person", "metric", "n", "mean_in", "mean_out", "diff", "p"]
+    if not masks or not values:
+        return pd.DataFrame(columns=columns)
+    n = len(next(iter(masks.values())))
+    rng = np.random.default_rng(seed)
+    perms = rng.permuted(np.tile(np.arange(n, dtype=np.int32), (n_perm, 1)), axis=1)
+
+    rows = []
+    for metric, raw in values.items():
+        vals = np.asarray(raw, dtype=float)
+        known = ~np.isnan(vals)
+        total, count = np.nansum(vals), known.sum()
+        for person, mask in masks.items():
+            mask = np.asarray(mask, dtype=bool)
+            k = int(mask.sum())
+            s_in, c_in = np.nansum(vals[mask]), (known & mask).sum()
+            if c_in == 0 or c_in == count:
+                continue
+            mean_in = s_in / c_in
+            mean_out = (total - s_in) / (count - c_in)
+
+            drawn = vals[perms[:, :k]]
+            s_null = np.nansum(drawn, axis=1)
+            c_null = (~np.isnan(drawn)).sum(axis=1)
+            with np.errstate(invalid="ignore", divide="ignore"):
+                null = s_null / c_null - (total - s_null) / (count - c_null)
+            observed = mean_in - mean_out
+            extreme = np.sum(np.abs(null) >= abs(observed) - 1e-12)
+            rows.append({
+                "person": person, "metric": metric, "n": k,
+                "mean_in": mean_in, "mean_out": mean_out, "diff": observed,
+                "p": (extreme + 1) / (n_perm + 1),
+            })
+    return pd.DataFrame(rows, columns=columns)
+
+
+def bh_adjust(pvalues):
+    """Benjamini-Hochberg q-values, in the order the p-values were given.
+
+    The section runs one test per regular per metric -- over a hundred -- and
+    at p < 0.05 about five of those would clear the bar by chance alone. The
+    q-value is what a lean has to beat before the page calls it one.
+    """
+    p = np.asarray(pvalues, dtype=float)
+    if p.size == 0:
+        return p
+    order = np.argsort(p)
+    ranked = p[order] * p.size / np.arange(1, p.size + 1)
+    q = np.minimum.accumulate(ranked[::-1])[::-1]
+    out = np.empty_like(p)
+    out[order] = np.minimum(q, 1.0)
+    return out
+
+
+def lean_phrase(metric, mean_in, mean_out, diff):
+    """A significant lean in words, e.g. 'Romance 79% vs 16%'.
+
+    Genre shares print both sides rather than the gap alone: "+63 points" says
+    how far, but not whether that is 79 against 16 or 99 against 36.
+    """
+    if metric == "rt":
+        return f"RT {diff * 100:+.0f} pts"
+    if metric == "age":
+        years = abs(diff)
+        return f"films {years:.0f} yr {'older' if diff > 0 else 'newer'}"
+    return f"{metric} {mean_in * 100:.0f}% vs {mean_out * 100:.0f}%"
+
+
+# The two measures that are not a genre share. Every other metric name is a
+# genre, and is labelled as that genre's share of episodes.
+MEASURE_LABEL = {"rt": "RT score", "age": "Film age at airing"}
+
+
+def lean_value(metric, value, signed=False):
+    """One side of a comparison, or the gap between them, in the metric's unit.
+
+    Age is in years; RT and genre shares are fractions shown as percentages,
+    and a gap between two percentages is in points, not percent.
+    """
+    if metric == "age":
+        return f"{value:+.1f} yr" if signed else f"{value:.1f} yr"
+    return f"{value * 100:+.0f} pts" if signed else f"{value * 100:.0f}%"

@@ -16,10 +16,14 @@ import plotly.graph_objects as go
 import streamlit as st
 
 from views import (
-    BREAK_EVEN_MULTIPLE, BROWSE_FLOOR, CPI_BASE_YEAR, CPI_PROVISIONAL_FROM,
-    LINK_FLOOR, RESOLUTION_NOTE, clean, contributor_link, decade_bars, html,
-    human_gap, keyword_chip, money, multiple, parse_tags, pitch_chips, plain,
-    rank_by_reach, real_usd, region_of, sort_title, stars, stat_tile,
+    ANCHOR, BREAK_EVEN_MULTIPLE, BROWSE_FLOOR, CPI_BASE_YEAR,
+    CPI_PROVISIONAL_FROM, LINK_FLOOR, MEASURE_LABEL, RESOLUTION_NOTE, ROOM,
+    appearances_by_year, bench, bh_adjust, clean, co_appearances,
+    contributor_link, decade_bars, html, human_gap, keyword_chip, lean_phrase,
+    lean_value, lineups, money, multiple, parse_tags, permutation_diffs,
+    person_name,
+    pitch_chips, plain, rank_by_reach, real_usd, region_of, room_long,
+    sort_title, stars, stat_tile,
 )
 
 # ── Config ────────────────────────────────────────────────────────────────────
@@ -274,6 +278,9 @@ img.poster-img { display:block; object-fit:cover; }
   overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
 .rw-rank .bar { flex:1; height:14px; background:var(--ink-3); border-radius:2px; overflow:hidden; }
 .rw-rank .bar i { display:block; height:14px; background:var(--mint-deep); }
+/* Three-name lineups ("Chris Ryan + Mallory Rubin + Sean Fennessey") ran to
+   an ellipsis at 64% in a two-fifths column; the bar only has to show rank. */
+.rw-rank.wide .n { width:74%; }
 .rw-rank .c {
   font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:11px;
   color:var(--txt-2); width:22px; flex:none; text-align:right;
@@ -973,8 +980,8 @@ div[data-testid="stVerticalBlock"]:has(> div > div > div > .rw-kwmark) div[data-
 /* ── Overview ─────────────────────────────────────────────────────────── */
 /* The regulars: one card per person, ranked by how often they were in the
    room across the host and guest columns together. There is no person image
-   cache, so an initials disc stands in for a portrait; the host's disc is
-   filled so the one chair that differs reads as different. */
+   cache, so an initials disc stands in for a portrait. Bill Simmons is left
+   out: he is on nine episodes in ten. */
 /* Six fixed columns rather than auto-fit: the row is exactly six people, and
    an auto-fit grid dropped the sixth onto a line of his own at 1400px. */
 .rw-reg-row { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:9px; }
@@ -990,7 +997,6 @@ div[data-testid="stVerticalBlock"]:has(> div > div > div > .rw-kwmark) div[data-
   font-family:'Archivo Black',Arial Black,sans-serif; font-size:12px;
   letter-spacing:.02em; color:var(--mint);
 }
-.rw-reg.is-host .d { background:var(--mint-dim); border-color:var(--mint-deep); color:var(--tape); }
 .rw-reg .b { min-width:0; flex:1; }
 .rw-reg .n { display:block; font-weight:600; color:var(--tape); font-size:13px; line-height:1.2; }
 .rw-reg .m {
@@ -1000,6 +1006,24 @@ div[data-testid="stVerticalBlock"]:has(> div > div > div > .rw-kwmark) div[data-
 .rw-reg .m b { color:var(--mint); font-weight:500; }
 .rw-reg .bar { height:3px; margin-top:7px; border-radius:2px; overflow:hidden; background:var(--ink-4); }
 .rw-reg .bar i { display:block; height:100%; background:var(--mint-deep); }
+
+/* ── Hosts & guests ───────────────────────────────────────────────────── */
+/* One row per regular: name and episode count, then the leans that survived
+   the correction as badges. A row with none says so rather than sitting
+   empty -- "no detectable lean" is a finding, not a gap. */
+.rw-lean {
+  display:flex; gap:16px; align-items:baseline; padding:9px 0;
+  border-top:1px solid var(--line);
+}
+.rw-lean:first-child { border-top:0; }
+.rw-lean .n { width:180px; flex:none; font-weight:600; color:var(--tape); font-size:13.5px; }
+.rw-lean .n span {
+  display:block; margin-top:2px; font-family:'IBM Plex Mono',ui-monospace,monospace;
+  font-size:9px; font-weight:400; letter-spacing:.1em; text-transform:uppercase;
+  color:var(--txt-3);
+}
+.rw-lean .l { flex:1; min-width:0; display:flex; flex-wrap:wrap; align-items:center; }
+.rw-lean-none { font-size:12.5px; color:var(--txt-3); }
 
 /* A note that sits under a block or beside a control on the same row. */
 .rw-ov-note { margin:6px 0 0; font-size:13px; color:var(--txt-2); line-height:1.6; max-width:74ch; }
@@ -1153,8 +1177,11 @@ def load_data():
 
     # Episode-movie links (for join). guest4 and notes are carried for the film
     # dossier, which shows the full room and the sheet's episode annotations.
+    # raw_episode_id is the only per-airing key: the sheet reuses an episode
+    # number when a film is revisited, so Hosts & Guests counts rooms by this.
     links = pd.read_sql("""
-        SELECT cem.movie_id, cem.episode_number, cem.episode_date,
+        SELECT re.raw_episode_id,
+               cem.movie_id, cem.episode_number, cem.episode_date,
                cem.is_revisit, cem.revisit_sequence, cem.revisit_type,
                re.host, re.guest1, re.guest2, re.guest3, re.guest4,
                re.ebert, re.tomatoes_score, re.cruise_hanks,
@@ -1271,6 +1298,14 @@ def load_data():
         )
     ch["tomatoes_num"] = pd.to_numeric(ch["tomatoes_score"], errors="coerce")
     ch["ebert_num"] = pd.to_numeric(ch["ebert_stars"], errors="coerce")
+
+    # Names are normalised once, here, so every section that reads the room --
+    # the dossier, the overview, Cruise vs. Hanks, Hosts & Guests -- counts
+    # the same people. The sheet is the source of truth and writes "Mallory
+    # Rubin*" on one episode; see person_name().
+    for frame in (episodes, links, merged, ch):
+        for chair in ROOM:
+            frame[chair] = frame[chair].map(person_name)
 
     return movies, episodes, links, merged, ch
 
@@ -1726,6 +1761,24 @@ def render_dossier(movie_id, siblings=None):
         </div>"""))
 
     st.markdown(f'<div class="rw-dt-spine">{"".join(spine)}</div>', unsafe_allow_html=True)
+
+    # Everyone in the room across this film's episodes, Bill aside, as a way
+    # into the Hosts & Guests lookup. Buttons rather than links on the chips
+    # above: a link reloads the session, and with it every filter behind the
+    # dossier.
+    seated = list(dict.fromkeys(
+        name for _, ep in episodes.iterrows() for name in (ep[c] for c in ROOM)
+        if isinstance(name, str) and name != ANCHOR))
+    if seated:
+        st.markdown(
+            '<div class="rw-kw-gridnote"><span>Look up who was in the room</span></div>',
+            unsafe_allow_html=True)
+        per_row = 6
+        for start in range(0, len(seated), per_row):
+            cols = st.columns(per_row)
+            for offset, (col, name) in enumerate(zip(cols, seated[start:start + per_row])):
+                col.button(name, key=f"btn_dt_person_{start + offset}",
+                           use_container_width=True, on_click=open_person, args=(name,))
 
     # ── The film ──
     tape("The film")
@@ -2329,15 +2382,17 @@ def person_stats(films):
     ]
 
 
-def ranked_list(pairs, empty_msg, note=""):
+def ranked_list(pairs, empty_msg, note="", wide=False):
     """A compact ranked name/count list — used where a bar chart would be
-    overkill for three or four rows."""
+    overkill for three or four rows. `wide` gives the name more of the row,
+    for labels that are several names long."""
     if not pairs:
         st.caption(empty_msg)
         return
     top = max(n for _, n in pairs)
+    cls = "rw-rank wide" if wide else "rw-rank"
     rows = "".join(
-        f'<div class="rw-rank"><span class="n">{name}</span>'
+        f'<div class="{cls}"><span class="n">{name}</span>'
         f'<span class="bar"><i style="width:{100*n/top}%"></i></span>'
         f'<span class="c">{n}</span></div>'
         for name, n in pairs
@@ -2345,6 +2400,73 @@ def ranked_list(pairs, empty_msg, note=""):
     st.markdown(rows, unsafe_allow_html=True)
     if note:
         st.caption(note)
+
+
+# ── Hosts & Guests ────────────────────────────────────────────────────────────
+
+# A regular, for the lean tests: anyone on at least this many episodes. Ten
+# people clear it; below it a person's episodes are too few for anything short
+# of a landslide to be told from chance.
+LEAN_FLOOR = 15
+# Genres tested for a lean: those on at least this many episodes (seven do).
+# Every extra test raises the bar the correction sets for all the others, and
+# a genre on a handful of episodes cannot move far enough to clear it.
+GENRE_FLOOR = 40
+LEAN_Q = 0.05
+N_PERM = 4000
+# The bench table stops here. The one- and two-timers are most of the names
+# and none of the pattern, and the lookup still has every one of them.
+BENCH_FLOOR = 3
+WHEN_TOP = 15
+RING_TOP = 12
+# Verdict episodes needed before a person's Cruise vs. Hanks split is read at
+# all. Shared with that section so the two never disagree.
+VERDICT_FLOOR = 8
+
+
+@st.cache_data(ttl=300)
+def room_leans(measures, members):
+    """Every regular against everyone else, on every measure, with q-values.
+
+    `measures` is one column per metric and `members` one boolean column per
+    regular, both one row per airing.
+    """
+    out = permutation_diffs(
+        {c: measures[c].to_numpy() for c in measures.columns},
+        {p: members[p].to_numpy() for p in members.columns},
+        n_perm=N_PERM,
+    )
+    out["q"] = bh_adjust(out["p"])
+    return out
+
+
+def lean_chips(rows):
+    """One person's leans that survived the correction, as badges.
+
+    Mint marks a measure above the rest of the show and grey one below. The
+    words carry the direction too, so colour is never the only cue.
+    """
+    if rows.empty:
+        return '<span class="rw-lean-none">No detectable lean</span>'
+    return "".join(
+        f'<span class="badge{" badge-mint" if r.diff > 0 else ""}">'
+        f"{lean_phrase(r.metric, r.mean_in, r.mean_out, r.diff)}</span>"
+        for r in rows.sort_values("q").itertuples()
+    )
+
+
+def person_shelf(name):
+    """Every airing a person was on, newest first.
+
+    One definition for two readers: the lookup draws its poster grid in this
+    order, and the dossier's step arrows walk it in the same order. Computed
+    from merged_df rather than read off the grid because the dossier gate runs
+    before the section, on a run where the grid is never drawn.
+    """
+    room = room_long(merged_df, "raw_episode_id",
+                     keep=("episode_number", "episode_date", "movie_id"))
+    return (room[room["person"] == name]
+            .sort_values(["episode_date", "episode_number"], ascending=False))
 
 
 def person_spotlight(films, key, collab_title, collab_pairs, collab_empty,
@@ -2583,11 +2705,25 @@ def go_section(slug):
             (lbl for s, lbl in items if s == slug), None)
     close_dossier()
 
+
+def open_person(name):
+    """Hand a name from a dossier's room to the Hosts & Guests lookup.
+
+    A callback, like go_section, because that is the one point in a run where
+    the lookup's widget key can still be written. The shadow is set as well:
+    the picker was not drawn under the dossier, so keep() would otherwise
+    restore the pick from before it.
+    """
+    st.session_state.flt_person = name
+    st.session_state["_keep_flt_person"] = name
+    go_section("hosts")
+
 # A dossier is addressed by ?movie=<movie_id>, so a film can be linked directly
 # and the browser Back button steps out of it. On a cold load the URL wins; from
 # then on the click handler keeps the two in step.
 _VALID_IDS = set(movies_df["movie_id"])
 _VALID_UPCOMING = set(upcoming_df["upcoming_film_id"]) if len(upcoming_df) else set()
+_VALID_PEOPLE = set(room_long(merged_df, "raw_episode_id")["person"]) - {ANCHOR}
 if "dt_movie" not in st.session_state:
     _qp = st.query_params.get("movie")
     _kw = st.query_params.get("keyword")
@@ -2602,6 +2738,12 @@ if "dt_movie" not in st.session_state:
         # ?from= to carry -- unlike a dossier, which can be opened from any of
         # nine and has to remember which.
         st.session_state.nav_section = "upcoming"
+    elif st.query_params.get("person") in _VALID_PEOPLE:
+        # A lookup is addressed by ?person=<name> and, like an upcoming film,
+        # belongs to one section. Seeded here, before the picker is drawn --
+        # the only point in the run at which its key may be written.
+        st.session_state.nav_section = "hosts"
+        st.session_state.flt_person = st.query_params.get("person")
 
 with st.sidebar:
     st.markdown(
@@ -2658,7 +2800,14 @@ if selected_keyword:
     st.stop()
 
 if selected_film and section != "explorer":
-    render_dossier(selected_film)
+    # A film opened from the Hosts & Guests lookup steps through that person's
+    # films. A revisit puts one film on a shelf twice; the arrows visit it
+    # once, at its newest airing. A film opened from elsewhere on the page --
+    # the Without Bill grid -- is usually not on the shelf and gets no arrows.
+    siblings = None
+    if section == "hosts" and kept("flt_person") in _VALID_PEOPLE:
+        siblings = list(dict.fromkeys(person_shelf(kept("flt_person"))["movie_id"]))
+    render_dossier(selected_film, siblings=siblings)
     st.stop()
 
 selected_prospect = st.session_state.get("up_film")
@@ -2735,27 +2884,28 @@ if section == "overview":
     st.markdown("---")
 
     # ── The regulars ──
-    # Counted across the host chair and all four guest chairs together, so a
-    # guest who occasionally hosts is credited for every episode they were in.
-    # Role is whichever chair they sat in more.
+    # Everyone but Bill Simmons, counted across all five chairs so a guest who
+    # sometimes hosts is credited for every episode they were in. He is on
+    # nine episodes in ten; a row led by him would say only that.
     tape("The regulars")
-    chairs = ["host", "guest1", "guest2", "guest3", "guest4"]
-    in_room = pd.concat([episodes_df[c] for c in chairs]).dropna().astype(str).str.strip()
-    in_room = in_room[~in_room.isin(["", "nan"])].value_counts()
-    hosted = episodes_df["host"].value_counts()
+    seats = room_long(episodes_df, "raw_episode_id")
     n_eps = len(episodes_df)
+    n_anchor = int((seats["person"] == ANCHOR).sum())
+    seats = seats[seats["person"] != ANCHOR]
+    in_room = seats["person"].value_counts()
+    hosted = seats.loc[seats["chair"] == "host", "person"].value_counts()
 
     reg_cards = []
     for name, n in in_room.head(6).items():
         h = int(hosted.get(name, 0))
-        is_host = h > n - h
+        hosted_txt = f" &middot; hosted {h}" if h else ""
         initials = "".join(w[0] for w in name.split()[:2]).upper()
         reg_cards.append(html(f'''
-            <div class="rw-reg{" is-host" if is_host else ""}">
+            <div class="rw-reg">
               <span class="d">{initials}</span>
               <div class="b">
                 <span class="n">{name}</span>
-                <span class="m"><b>{n}</b> of {n_eps} &middot; {"host" if is_host else "guest"}</span>
+                <span class="m"><b>{n}</b> of {n_eps}{hosted_txt}</span>
                 <div class="bar"><i style="width:{100 * n / n_eps:.0f}%"></i></div>
               </div>
             </div>'''))
@@ -2765,9 +2915,10 @@ if section == "overview":
     note_col, go_col = st.columns([4, 1], vertical_alignment="center")
     with note_col:
         st.markdown(
-            f'<p class="rw-ov-note"><b>{len(in_room)}</b> people have been in the '
-            f'room across {n_eps} episodes. The bar is the share of episodes each '
-            'was in; the filled disc is the host chair.</p>',
+            f'<p class="rw-ov-note"><b>{len(in_room)}</b> people besides Bill '
+            f"Simmons have been in the room. He is on {n_anchor} of {n_eps} "
+            "episodes, so he is left out of the ranking. The bar is the share of "
+            "episodes each was in.</p>",
             unsafe_allow_html=True,
         )
     with go_col:
@@ -2890,8 +3041,8 @@ if section == "overview":
          "Tomatometer, Ebert stars and TMDB scores, and where the critics and the audience split."),
         ("boxoffice", f"{int(movies_df['revenue_real'].notna().sum())}", "with a gross",
          "Budgets and grosses in today's dollars, and which films made their money back."),
-        ("hosts", f"{len(in_room)}", "in the room",
-         "Who hosts, who guests, who sits together, and what each of them gravitates toward."),
+        ("hosts", f"{len(in_room)}", "besides Bill",
+         "Look anyone up, see who sits together, and what each regular gets booked on."),
         ("timeline", f"{yr_min}&ndash;{yr_max}", "",
          "The show year by year, how old the films were when featured, and the revisits."),
         ("verdicts", f"{len(ch_df)}", "verdicts",
@@ -4101,7 +4252,7 @@ elif section == "verdicts":
         .reindex(columns=["Cruise", "Hanks", "Tie"], fill_value=0)
     )
     g_tab2["n"] = g_tab2.sum(axis=1)
-    g_tab2 = g_tab2[g_tab2["n"] >= 8].sort_values("n", ascending=False)
+    g_tab2 = g_tab2[g_tab2["n"] >= VERDICT_FLOOR].sort_values("n", ascending=False)
 
     for name, r in g_tab2.iterrows():
         c, h, t, n = int(r["Cruise"]), int(r["Hanks"]), int(r["Tie"]), int(r["n"])
@@ -4115,7 +4266,7 @@ elif section == "verdicts":
             unsafe_allow_html=True,
         )
     st.markdown(
-        '<p class="ch-note">Guests in 8+ verdict episodes. The leans are '
+        f'<p class="ch-note">Guests in {VERDICT_FLOOR}+ verdict episodes. The leans are '
         "<b>suggestive, not established</b> &mdash; at these sample sizes a couple "
         "of episodes moves any of these bars noticeably.</p>",
         unsafe_allow_html=True,
@@ -4400,140 +4551,338 @@ elif section == "timeline":
 elif section == "hosts":
     masthead(
         "Hosts &amp; Guests",
-        "Who hosts, who guests, and what each of them gravitates toward.",
+        "Everyone who sits in with Bill Simmons: look anyone up, see when they "
+        "were on, who they sit with, and which films they get booked on.",
     )
 
-    # Melt guests into long form
-    guest_cols = ["guest1", "guest2", "guest3", "guest4"]
-    ep_guests = episodes_df.melt(
-        id_vars=["raw_episode_id", "date", "host"],
-        value_vars=guest_cols,
-        value_name="guest",
+    # merged_df is one row per airing -- a revisit is its own row -- and it
+    # carries the film, which the lookup's posters need.
+    eps = merged_df
+    n_eps = len(eps)
+    room = room_long(eps, "raw_episode_id",
+                     keep=("episode_number", "episode_date", "movie_id"))
+    is_anchor = room["person"] == ANCHOR
+    with_anchor = set(room.loc[is_anchor, "raw_episode_id"])
+    anchor_hosted = int((is_anchor & (room["chair"] == "host")).sum())
+    others = room[~is_anchor]
+    board = bench(others, "raw_episode_id", "episode_date")
+    n_without = n_eps - len(with_anchor)
+
+    # The leans feed the lookup as well as their own panel, so they are worked
+    # out up front. Cached: the permutation tests take about a second.
+    regulars = board.index[board["episodes"] >= LEAN_FLOOR].tolist()
+    reach = Counter(g for gs in eps["genres"] if isinstance(gs, list) for g in gs)
+    tested = [g for g, n in reach.most_common() if n >= GENRE_FLOOR]
+    film_year = pd.to_numeric(eps["year"], errors="coerce")
+    measures = pd.DataFrame({
+        "rt": eps["tomatoes_num"].astype(float).to_numpy(),
+        "age": (eps["episode_date"].dt.year - film_year).astype(float).to_numpy(),
+    })
+    for g in tested:
+        measures[g] = eps["genres"].map(
+            lambda gs, g=g: isinstance(gs, list) and g in gs).astype(float).to_numpy()
+    on_ids = others.groupby("person")["raw_episode_id"].agg(set)
+    members = pd.DataFrame({
+        p: eps["raw_episode_id"].isin(on_ids[p]).to_numpy() for p in regulars})
+    leans = room_leans(measures, members)
+    held = leans[leans["q"] < LEAN_Q]
+
+    stat_tiles([
+        ("Film episodes", f"{n_eps}"),
+        ("With Bill Simmons", f"{len(with_anchor) / n_eps:.0%}"),
+        ("Without him", f"{n_without}"),
+        ("Everyone else", f"{len(board)}"),
+        ("On five or more", f"{int((board['episodes'] >= 5).sum())}"),
+    ])
+    st.markdown(
+        f'<p class="ch-note">Bill Simmons is on <b>{len(with_anchor)} of {n_eps}</b> '
+        f"film episodes and hosts {anchor_hosted} of them, so a chart that counts "
+        "him is mostly a chart of him. Every panel below leaves him out. The host "
+        f"chair only tells you something on the {n_without} episodes he is not on, "
+        "which close the page.</p>",
+        unsafe_allow_html=True,
     )
-    ep_guests = ep_guests[ep_guests["guest"].notna() & ~ep_guests["guest"].isin(["nan", ""])]
-    ep_guests["date"] = pd.to_datetime(ep_guests["date"])
-
-    # Host frequency
-    col_a, col_b = st.columns(2)
-    with col_a:
-        tape("Episodes by host")
-        host_counts = episodes_df["host"].value_counts().reset_index()
-        host_counts.columns = ["host", "episodes"]
-        fig = px.bar(
-            host_counts, x="episodes", y="host", orientation="h",
-            color_discrete_sequence=[MINT_DEEP],
-            text="episodes",
-        )
-        fig.update_traces(textposition="outside")
-        fig.update_layout(yaxis=dict(autorange="reversed"))
-        plotly_defaults(fig)
-        st.plotly_chart(fig, use_container_width=True)
-
-    with col_b:
-        tape("Top guests (all appearances)")
-        guest_freq = ep_guests["guest"].value_counts().head(20).reset_index()
-        guest_freq.columns = ["guest", "appearances"]
-        fig = px.bar(
-            guest_freq, x="appearances", y="guest", orientation="h",
-            color_discrete_sequence=[MINT_DEEP],
-            text="appearances",
-        )
-        fig.update_traces(textposition="outside")
-        fig.update_layout(yaxis=dict(autorange="reversed"))
-        plotly_defaults(fig)
-        st.plotly_chart(fig, use_container_width=True)
 
     st.markdown("---")
 
-    # Host genre preferences
-    tape("Genre preferences by host")
-    host_genre_long = []
-    for _, row in merged_df.dropna(subset=["host"]).iterrows():
-        genres = row["genres"] if isinstance(row["genres"], list) else []
-        for g in genres:
-            host_genre_long.append({"host": row["host"], "genre": g})
-    hg_df = pd.DataFrame(host_genre_long)
+    # ── Look someone up ──
+    tape("Look someone up")
+    names = board.index.tolist()
+    # A stored pick naming someone no longer in the room -- a guest renamed in
+    # the sheet, say -- would make the picker raise. Drop it; the top name wins.
+    for k in ("flt_person", "_keep_flt_person"):
+        if k in st.session_state and st.session_state[k] not in names:
+            del st.session_state[k]
+    pick_col, _ = st.columns([2, 3])
+    with pick_col:
+        who = keep(
+            st.selectbox, "Person", names, key="flt_person",
+            format_func=lambda n: f"{n} ({int(board.loc[n, 'episodes'])})",
+        )
+    # Mirrored into the URL, as a dossier is, so a lookup can be shared.
+    st.query_params["person"] = who
 
-    if len(hg_df) > 0:
-        hg_df["genre_cat"], cmap, order = fold_to_series(hg_df["genre"])
-        hg_pivot = (
-            hg_df.groupby(["host", "genre_cat"]).size().reset_index(name="count")
+    me = board.loc[who]
+    share = me["episodes"] / n_eps
+    stat_tiles([
+        ("Episodes", f"{int(me['episodes'])}"),
+        ("Of all episodes", f"{share:.0%}" if share >= 0.005 else "<1%"),
+        ("In the host chair", f"{int(me['hosted'])}"),
+        ("First on", f"{me['first']:%b %Y}"),
+        ("Latest", f"{me['last']:%b %Y}"),
+    ])
+    st.markdown("<div style='height:14px'></div>", unsafe_allow_html=True)
+
+    mine = person_shelf(who).merge(
+        movies_df[["movie_id", "title", "poster_url_tmdb"]], on="movie_id", how="left")
+    COLS = 8
+    for start in range(0, len(mine), COLS):
+        cols = st.columns(COLS)
+        for offset, (col, (_, m)) in enumerate(
+                zip(cols, mine.iloc[start:start + COLS].iterrows())):
+            with col:
+                # Keyed by position, not by film: a revisit can put one film on
+                # a person's shelf twice.
+                film_card(
+                    m, f"Ep {int(m['episode_number'])} · {m['episode_date']:%b %Y}",
+                    key=f"person{start + offset}")
+
+    ids = set(mine["raw_episode_id"])
+    c_company, c_record = st.columns(2)
+    with c_company:
+        st.markdown("###### Who they sit with")
+        company = others.loc[others["raw_episode_id"].isin(ids)
+                             & (others["person"] != who), "person"].value_counts()
+        ranked_list(
+            [(n, int(k)) for n, k in company.head(6).items()],
+            f"{who} has only ever been on with Bill.",
+            note="Episodes shared, Bill aside.",
         )
-        # Normalise within host — folding keeps every film, so shares still sum to 1.
-        hg_pivot["share"] = hg_pivot.groupby("host")["count"].transform(lambda x: x / x.sum())
-        fig = px.bar(
-            hg_pivot, x="host", y="share", color="genre_cat",
-            color_discrete_map=cmap, category_orders={"genre_cat": order},
-            barmode="stack",
-            labels={"share": "Genre share", "host": "", "genre_cat": "Genre"},
-        )
-        fig.update_layout(yaxis_tickformat=".0%")
-        plotly_defaults(fig, legend=True)
-        st.plotly_chart(fig, use_container_width=True)
+    with c_record:
+        st.markdown("###### What they get booked on")
+        if who in regulars:
+            st.markdown(
+                f'<div class="chip-row">{lean_chips(held[held["person"] == who])}</div>',
+                unsafe_allow_html=True)
+        else:
+            st.caption(f"Fewer than {LEAN_FLOOR} episodes: too few to compare with "
+                       "the rest of the show.")
+
+        st.markdown("###### Cruise vs. Hanks")
+        verdicts = eps.loc[eps["raw_episode_id"].isin(ids), "cruise_hanks"].map(clean)
+        tally = verdicts.dropna().value_counts()
+        n_v = int(tally.sum())
+        if n_v >= VERDICT_FLOOR:
+            ties = int(tally.get("Tie", 0))
+            tie_txt = f", {ties} tie{'s' if ties != 1 else ''}" if ties else ""
+            st.markdown(
+                f'<p class="ch-note"><b>Cruise {int(tally.get("Cruise", 0))} &ndash; '
+                f'Hanks {int(tally.get("Hanks", 0))}</b>{tie_txt}, across {n_v} '
+                "verdict episodes.</p>",
+                unsafe_allow_html=True)
+        else:
+            st.caption(f"{n_v} verdict episode{'s' if n_v != 1 else ''}; a record "
+                       f"is read from {VERDICT_FLOOR}.")
 
     st.markdown("---")
 
-    # Guest appearances over time
-    tape("Guest appearances over time")
-    top_guests = ep_guests["guest"].value_counts().head(len(SERIES)).index
-    ep_guests_top = ep_guests[ep_guests["guest"].isin(top_guests)].copy()
-    ep_guests_top["year"] = ep_guests_top["date"].dt.year
-    guest_year = ep_guests_top.groupby(["year", "guest"]).size().reset_index(name="count")
-
-    fig = px.line(
-        guest_year, x="year", y="count", color="guest",
-        markers=True,
-        color_discrete_sequence=SERIES,
-        labels={"year": "Year", "count": "Appearances", "guest": "Guest"},
+    # ── The bench ──
+    tape("The bench")
+    listed = board[board["episodes"] >= BENCH_FLOOR].reset_index()
+    st.dataframe(
+        pd.DataFrame({
+            "Person": listed["person"],
+            "Episodes": listed["episodes"],
+            "Share": listed["episodes"] / n_eps * 100,
+            "Hosted": listed["hosted"],
+            "First on": listed["first"],
+            "Latest": listed["last"],
+        }),
+        hide_index=True, use_container_width=True, height=420,
+        column_config={
+            "Episodes": st.column_config.ProgressColumn(
+                format="%d", min_value=0, max_value=int(board["episodes"].max())),
+            "Share": st.column_config.NumberColumn(format="%.1f%%"),
+            "First on": st.column_config.DateColumn(format="MMM YYYY"),
+            "Latest": st.column_config.DateColumn(format="MMM YYYY"),
+        },
     )
-    plotly_defaults(fig, legend=True)
-    st.plotly_chart(fig, use_container_width=True)
+    st.markdown(
+        f'<p class="ch-note">Everyone on {BENCH_FLOOR} or more episodes. The other '
+        f"{int((board['episodes'] < BENCH_FLOOR).sum())} have been on once or twice "
+        f"&mdash; {int((board['episodes'] == 1).sum())} of them just once &mdash; and "
+        "every one is in the lookup above.</p>",
+        unsafe_allow_html=True,
+    )
 
     st.markdown("---")
 
-    # Host-guest network (who appears together most)
-    tape("Host × Guest pairing frequency")
-    pairings = (
-        ep_guests[ep_guests["host"].notna()]
-        .groupby(["host", "guest"])
-        .size()
-        .reset_index(name="episodes")
-        .sort_values("episodes", ascending=False)
-    )
-    fig = px.density_heatmap(
-        pairings,
-        x="guest", y="host", z="episodes",
-        color_continuous_scale=SEQ,
-        text_auto=True,
-    )
+    # ── Who's on when ──
+    tape("Who&rsquo;s on when")
+    on, aired = appearances_by_year(others, eps, "raw_episode_id", "episode_date")
+    cast = board.head(WHEN_TOP).sort_values("first").index.tolist()
+    counts = on.reindex(cast).fillna(0)
+    years = [str(int(y)) for y in aired.index]
+    fig = go.Figure(go.Heatmap(
+        z=counts.to_numpy() / aired.to_numpy() * 100,
+        x=years, y=cast,
+        customdata=np.dstack([counts.to_numpy(),
+                              np.tile(aired.to_numpy(), (len(cast), 1))]),
+        hovertemplate="%{y}, %{x}<br>%{customdata[0]:.0f} of %{customdata[1]:.0f} "
+                      "episodes (%{z:.0f}%)<extra></extra>",
+        # Zero gets the surface colour and anything above it the first step,
+        # so "never on that year" and "on once" do not blur together.
+        colorscale=[[0, INK_3], [0.001, SEQ[0]], [0.2, SEQ[1]], [0.4, SEQ[2]],
+                    [0.6, SEQ[3]], [0.8, SEQ[4]], [1, SEQ[5]]],
+        zmin=0, zmax=80, xgap=2, ygap=2,
+        colorbar=dict(ticksuffix="%", outlinewidth=0, thickness=10,
+                      tickfont=dict(color=TXT_2)),
+    ))
+    plotly_defaults(fig)
     fig.update_layout(
-        paper_bgcolor=INK,
-        font_color=TAPE,
-        xaxis_tickangle=-40,
-        coloraxis_showscale=False,
+        height=30 * len(cast) + 120,
+        yaxis=dict(autorange="reversed", gridcolor=INK, title=""),
+        xaxis=dict(tickvals=years, gridcolor=INK, title="",
+                   ticktext=[f"{y}<br>{int(n)} eps" for y, n in zip(years, aired)]),
     )
     st.plotly_chart(fig, use_container_width=True)
+    st.markdown(
+        f'<p class="ch-note">The {len(cast)} people on the most episodes, in the order '
+        "they first appeared. A cell is the share of that year&rsquo;s film episodes "
+        "they were on, so a light year and a busy one read on the same scale; the "
+        "count under each year is how many aired. The colour tops out at 80%.</p>",
+        unsafe_allow_html=True,
+    )
 
     st.markdown("---")
 
-    # Decade preferences by host
-    tape("Film decade preferences by host")
-    host_decade = merged_df.dropna(subset=["host"]).copy()
-    host_decade["host_cat"], cmap, order = fold_to_series(host_decade["host"])
-    hd = (
-        host_decade.groupby(["host_cat", "decade"])
-        .size()
-        .reset_index(name="count")
+    # ── Who sits together ──
+    tape("Who sits together")
+    ring = board.head(RING_TOP).index.tolist()
+    pairs = co_appearances(others, "raw_episode_id")
+    shared = np.array([[np.nan if a == b else pairs.get(tuple(sorted((a, b))), 0)
+                        for b in ring] for a in ring], dtype=float)
+    c_grid, c_lineup = st.columns([3, 2])
+    with c_grid:
+        fig = go.Figure(go.Heatmap(
+            # Square-root colour: the top pair shares three times the episodes
+            # of the next, so a linear ramp lights one cell and leaves the rest
+            # near black.
+            z=np.sqrt(shared), x=ring, y=ring, customdata=shared,
+            text=[["" if not v or np.isnan(v) else f"{v:.0f}" for v in row]
+                  for row in shared],
+            texttemplate="%{text}", textfont=dict(color=TAPE, size=11),
+            hovertemplate="%{y} + %{x}<br>%{customdata:.0f} episodes together"
+                          "<extra></extra>",
+            hoverongaps=False,
+            colorscale=[[0, INK_3], [0.001, MINT_DIM], [1, SEQ[1]]],
+            showscale=False, xgap=2, ygap=2,
+        ))
+        plotly_defaults(fig)
+        fig.update_layout(
+            height=34 * len(ring) + 130,
+            yaxis=dict(autorange="reversed", gridcolor=INK, title=""),
+            xaxis=dict(tickangle=-40, gridcolor=INK, title=""),
+        )
+        st.plotly_chart(fig, use_container_width=True)
+    with c_lineup:
+        st.markdown("###### Most common lineups")
+        ranked_list(
+            [(n, int(k)) for n, k in lineups(others, "raw_episode_id").head(10).items()],
+            "No lineup has repeated.", wide=True,
+        )
+    st.markdown(
+        f'<p class="ch-note">The {len(ring)} people on the most episodes. A cell is the '
+        "number of episodes a pair shared; an empty one is a pair who have never been "
+        "in the room together. A lineup is everyone in the room except Bill, so a "
+        "single name is that person with Bill.</p>",
+        unsafe_allow_html=True,
     )
-    hd["decade_label"] = hd["decade"].apply(lambda x: f"{int(x)}s" if pd.notna(x) else "?")
-    fig = px.bar(
-        hd, x="decade_label", y="count", color="host_cat",
-        barmode="group",
-        color_discrete_map=cmap, category_orders={"host_cat": order},
-        labels={"decade_label": "Decade", "count": "Films", "host_cat": "Host"},
+
+    st.markdown("---")
+
+    # ── What each regular gets booked on ──
+    tape("What each regular gets booked on")
+    st.markdown(
+        "".join(
+            f'<div class="rw-lean"><div class="n">{p}'
+            f'<span>{int(board.loc[p, "episodes"])} episodes</span></div>'
+            f'<div class="l">{lean_chips(held[held["person"] == p])}</div></div>'
+            for p in regulars),
+        unsafe_allow_html=True,
     )
-    plotly_defaults(fig, legend=True)
-    st.plotly_chart(fig, use_container_width=True)
+    quiet = [p for p in regulars if p not in set(held["person"])]
+    if len(quiet) > 1:
+        quiet_txt = f"{', '.join(quiet[:-1])} and {quiet[-1]} show none. "
+    elif quiet:
+        quiet_txt = f"{quiet[0]} shows none. "
+    else:
+        quiet_txt = ""
+    st.markdown(
+        '<p class="ch-note">The sheet doesn&rsquo;t record who picked a film, so this is '
+        "what each person gets <b>booked on</b>, not what they like: a guest brought in "
+        "for a month of rom-coms shows a romance lean whether or not they chose the "
+        f"films. Each of the {len(regulars)} people on {LEAN_FLOOR}+ episodes is "
+        "compared with every episode they were not on &mdash; on Rotten Tomatoes "
+        "score, the film&rsquo;s age when it aired, and the share of episodes in each "
+        f"of the {len(tested)} genres on {GENRE_FLOOR}+ episodes. That is "
+        f"{len(leans)} comparisons, each a {N_PERM:,}-shuffle permutation test, and a "
+        "lean is shown only if it survives a Benjamini&ndash;Hochberg correction at "
+        f"q &lt; {LEAN_Q}: <b>{len(held)} of {len(leans)}</b> do. {quiet_txt}"
+        "Films carry several genres, so the genre comparisons overlap. Mint is above "
+        "the rest of the show, grey below.</p>",
+        unsafe_allow_html=True,
+    )
+    with st.expander(f"All {len(leans)} comparisons"):
+        ordered = leans.sort_values("p")
+        st.dataframe(
+            pd.DataFrame({
+                "Person": ordered["person"],
+                "Measure": ordered["metric"].map(
+                    lambda m: MEASURE_LABEL.get(m, f"{m} share")),
+                "Episodes": ordered["n"],
+                "Their episodes": [lean_value(m, v) for m, v
+                                   in zip(ordered["metric"], ordered["mean_in"])],
+                "Everyone else": [lean_value(m, v) for m, v
+                                  in zip(ordered["metric"], ordered["mean_out"])],
+                "Gap": [lean_value(m, v, signed=True) for m, v
+                        in zip(ordered["metric"], ordered["diff"])],
+                "p": ordered["p"],
+                "q": ordered["q"],
+                "Shown": ordered["q"] < LEAN_Q,
+            }),
+            hide_index=True, use_container_width=True, height=420,
+            column_config={
+                "p": st.column_config.NumberColumn(format="%.4f"),
+                "q": st.column_config.NumberColumn(format="%.4f"),
+            },
+        )
+
+    st.markdown("---")
+
+    # ── Without Bill ──
+    solo = eps[~eps["raw_episode_id"].isin(with_anchor)].sort_values("episode_date")
+    tape(f"Without Bill &mdash; {len(solo)} episodes")
+    st.markdown(
+        '<p class="ch-note">The only episodes where the host chair says something. '
+        "Grouped by who hosted, busiest first; oldest episode first within each.</p>",
+        unsafe_allow_html=True,
+    )
+    solo_host = solo["host"].fillna("No host listed")
+    for host, count in solo_host.value_counts().items():
+        group = solo[solo_host == host]
+        st.markdown(
+            f'<div class="rw-kw-gridnote"><span>{host} hosting &middot; {count} '
+            f'episode{"s" if count != 1 else ""}</span></div>',
+            unsafe_allow_html=True,
+        )
+        for start in range(0, len(group), COLS):
+            cols = st.columns(COLS)
+            for col, (_, m) in zip(cols, group.iloc[start:start + COLS].iterrows()):
+                with col:
+                    film_card(
+                        m, f"Ep {int(m['episode_number'])} · {m['episode_date']:%b %Y}",
+                        key=f"solo{m['raw_episode_id']}")
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
