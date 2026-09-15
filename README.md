@@ -20,7 +20,8 @@ pip install -e ".[dev]"
 ```
 
 Dependencies are pinned in `pyproject.toml`. The `dev` extra adds pytest and
-ruff.
+ruff. The install is required, not a convenience: the pipeline and the app
+both import the `rewatchables` package from `src/`.
 
 Copy the config template and add a TMDB API key (free at
 <https://www.themoviedb.org/settings/api>):
@@ -83,7 +84,10 @@ only on this machine.
 
 ## The pipeline
 
-`scripts/orchestrate.py` runs thirteen steps in five stages:
+`scripts/orchestrate.py` runs thirteen steps in five stages. Each step is a
+module in `src/rewatchables/pipeline/`, such as `s04_enrich.py` for step 04. A
+step can also be run on its own, with its own options, as
+`python scripts/04_enrich.py` or `python -m rewatchables.pipeline.s04_enrich`.
 
 | Step | Stage | What it does |
 | ---: | --- | --- |
@@ -215,8 +219,9 @@ Settings live in `config/.env`, copied from
 [`config/.env.template`](config/.env.template), which lists every variable and
 its default. Only `TMDB_API_KEY` is required.
 
-The pipeline scripts read `config/.env`. The app does not: it always reads
-`./rewatchables.db`, whatever `DB_PATH` says.
+The pipeline and the app both read `config/.env`, through
+`src/rewatchables/config.py`. A relative path in it is taken from the
+repository root, not from wherever a command happens to be run.
 
 ## Tests and linting
 
@@ -236,12 +241,14 @@ automatically (see `tests/conftest.py`). Most tests need a built
 rewatchables/
 ├── app.py                  Streamlit explorer
 ├── views.py                Presentation and statistics helpers for app.py, Streamlit-free
+├── src/rewatchables/
+│   ├── config.py           Paths and settings, anchored to the repo root
+│   ├── http.py             The API steps' shared retry policy
+│   ├── keys.py             Business keys and deterministic ids
+│   └── pipeline/           orchestrate.py, s01_…s13_*.py, convert_xlsx_to_csv.py
 ├── scripts/
-│   ├── orchestrate.py      Runs the pipeline
-│   ├── 01_…13_*.py         The pipeline steps
-│   ├── _keys.py            Business keys and deterministic ids
-│   └── migrate_*.py, vendor_cmu_subset.py, convert_xlsx_to_csv.py   one-off tools
-├── src/rewatchables/       The importable package (being populated)
+│   ├── orchestrate.py, 01_…13_*.py, convert_xlsx_to_csv.py   wrappers for the modules above
+│   └── migrate_*.py, vendor_cmu_subset.py   one-off tools
 ├── sql/
 │   ├── schemas/            raw_zone.sql, staging_zone.sql, curated_zone.sql
 │   └── queries/            analytics.sql
@@ -264,8 +271,16 @@ rewatchables/
 | Wikipedia | Plot summaries, page ids | Courtesy delay between requests, with a descriptive User-Agent |
 | Wikidata | Identifier reconciliation | Batched 50 ids per call, with a courtesy delay |
 
-Failed requests are retried up to three times with a growing delay. Calls to
-TMDB are recorded in `api_call_log`.
+All API calls share one retry policy, in `src/rewatchables/http.py`:
+
+- **Retried:** a timeout, a dropped connection, a 429 or a 5xx.
+- **Attempts:** up to three in all.
+- **Wait:** 2 s, then 4 s. After a 429, as long as its `Retry-After` asks, up
+  to a minute.
+- **Final:** any other status, so a rejected API key fails at once.
+
+Step 12 also retries an error that the Wikipedia API reports inside a
+successful response. Step 04's searches are recorded in `api_call_log`.
 
 ## Troubleshooting
 
