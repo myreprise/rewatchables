@@ -6,7 +6,6 @@ import sqlite3
 import json
 import random
 from datetime import datetime, timezone
-from pathlib import Path
 from collections import Counter
 from itertools import combinations
 
@@ -16,6 +15,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
+from rewatchables import config
 from views import (
     ANCHOR, BREAK_EVEN_MULTIPLE, BROWSE_FLOOR, CPI_BASE_YEAR,
     CPI_PROVISIONAL_FROM, LINK_FLOOR, MEASURE_LABEL, RESOLUTION_NOTE, ROOM,
@@ -36,14 +36,17 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-DB_PATH = Path(__file__).parent / "rewatchables.db"
+# DB_PATH from config/.env, as the pipeline reads it, so the app always shows
+# the database the pipeline last wrote.
+DB_PATH = config.db_path()
 # The loaders below are cached, and keyed on the database's modification time
 # as well as their ttl, so a pipeline run shows on the next rerun rather than up
 # to five minutes later.
 DB_STAMP = DB_PATH.stat().st_mtime if DB_PATH.exists() else 0.0
 # The episode list's source of truth, for the banner that says the data is
-# behind it. See 01_render_source.py.
-SOURCE_XLSX = Path(__file__).parent / "data" / "episodes.xlsx"
+# behind it. Read through the setting step 01 uses, so the banner watches the
+# workbook the pipeline actually renders.
+SOURCE_XLSX = config.path_setting("SOURCE_XLSX", "data/episodes.xlsx")
 TMDB_IMG = "https://image.tmdb.org/t/p/w500"
 TMDB_THUMB = "https://image.tmdb.org/t/p/w185"
 TMDB_PROFILE = "https://image.tmdb.org/t/p/w342"
