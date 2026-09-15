@@ -259,6 +259,14 @@ h3 { color:var(--tape) !important; font-size:1.02rem !important; font-weight:700
   font-size:11px; line-height:1.2; text-transform:uppercase; color:var(--tape-2);
 }
 .poster-plate svg { position:absolute; right:-16px; top:-16px; width:76px; height:76px; opacity:.14; }
+/* Every plate is a poster's own 2:3 at its column's width, so the cards in a
+   grid share one size and every card in the app shares one shape. A fixed
+   pixel height against a fluid column made the box whatever shape the viewport
+   produced -- near-square six across, a letterbox strip in a one-film shelf --
+   and cover cropped the poster to match. TMDB posters are 2:3 to within 1%
+   (644 of 661, the rest within 5%), so cover now trims a sliver off those few. */
+.poster-img { box-sizing:border-box; width:100%; aspect-ratio:2/3; }
+img.poster-img { display:block; object-fit:cover; }
 
 /* ── Ranked name/count rows (collaborator lists) ──────────────────────── */
 .rw-rank { display:flex; align-items:center; gap:10px; padding:5px 0; }
@@ -501,6 +509,18 @@ h3 { color:var(--tape) !important; font-size:1.02rem !important; font-weight:700
    so a grid of them still reads as a grid. Scoped by the marker span the card
    emits, so the sidebar and Surprise-me buttons keep their own styling. */
 .rw-cardmark { display:none; }
+/* Streamlit sizes a column's contents from a pixel width it measured itself --
+   on the inner block and each element container by class, and on the element
+   inside (stMarkdown, stButton) by inline style -- and after a section change
+   those can hold a width that is not the column's: seen at 742px inside a
+   103px column. Plates are sized by width, so a stale width shows as a 740x1111
+   poster spilling over its neighbours. Each level carries its own width, so
+   clamping the block alone is not enough; all three are held to the column. */
+div[data-testid="stVerticalBlock"]:has(> div > div > div > div > .rw-cardmark),
+div[data-testid="stVerticalBlock"]:has(> div > div > div > div > .rw-cardmark) > div[data-testid="stElementContainer"],
+div[data-testid="stVerticalBlock"]:has(> div > div > div > div > .rw-cardmark) > div[data-testid="stElementContainer"] > div {
+  width:100% !important; max-width:100%;
+}
 div[data-testid="stVerticalBlock"]:has(> div > div > div > div > .rw-cardmark) div[data-testid="stButton"] button {
   background:var(--ink-3); border:1px solid var(--line); border-top:0;
   border-radius:0 0 6px 6px; margin-top:-13px; margin-bottom:12px;
@@ -517,18 +537,24 @@ div[data-testid="stVerticalBlock"]:has(> div > div > div > div > .rw-cardmark) d
 /* The button's own box is only the title strip, but the whole card is one
    target: this reaches the hit area up over the plate so a click anywhere on
    the poster opens the dossier. The button stays a real button with its text
-   label, so keyboard and screen-reader behaviour is unchanged. The base offset
-   is the shortest card in use -- a height with no rule of its own below still
-   gets most of its plate, rather than none. */
+   label, so keyboard and screen-reader behaviour is unchanged.
+   How far up is one plate height, and a plate is 2:3 at its column's width --
+   which is the button's width too. A percentage margin resolves against the
+   containing block's width even when it is vertical, so -150% reaches exactly
+   one plate up at any column count. The 12px is the button's own -13px margin
+   less its border; it undershoots by a pixel deliberately, because a dead
+   hairline at the top of a plate is invisible where an overlay reaching into
+   the row above would steal that card's clicks. */
 div[data-testid="stVerticalBlock"]:has(> div > div > div > div > .rw-cardmark) div[data-testid="stButton"] button {
   position:relative;
 }
 div[data-testid="stVerticalBlock"]:has(> div > div > div > div > .rw-cardmark) div[data-testid="stButton"] button::after {
-  content:''; position:absolute; left:0; right:0; bottom:0; top:-138px; z-index:2;
+  content:''; position:absolute; left:0; right:0; top:0; bottom:0; z-index:2;
+  margin-top:calc(-150% + 12px);
 }
-/* A verdict band sits between the plate and the strip, so a toned card is
-   5px taller than its height class says. */
-div[data-testid="stVerticalBlock"]:has(> div > div > div > div > .rw-cardmark.toned) div[data-testid="stButton"] button::after { margin-top:-5px; }
+/* A verdict band sits between the plate and the strip, so a toned card
+   reaches 5px further. */
+div[data-testid="stVerticalBlock"]:has(> div > div > div > div > .rw-cardmark.toned) div[data-testid="stButton"] button::after { margin-top:calc(-150% + 7px); }
 /* With the plate covered, .poster-card:hover can no longer fire -- the pointer
    is over the button. Drive both halves off the button so the card and its
    strip light up and lift together instead of one at a time. */
@@ -1061,26 +1087,6 @@ div[data-testid="stVerticalBlock"]:has(> div > div > div > div > .rw-doormark):h
 </style>
 """, unsafe_allow_html=True)
 
-# Every plate height film_card()/prospect_card() puts on screen. Each one needs
-# its own `top` offset for the hit area that reaches from the title strip up
-# over the poster (see .rw-cardmark in the stylesheet above), and CSS has no way
-# to derive that distance from the markup -- so poster_html() stamps the height
-# onto the marker as a class and these rules match it. The 12px is the button's
-# own -13px margin less its border; it undershoots by a pixel deliberately,
-# because a dead hairline at the top of a plate is invisible where an overlay
-# reaching into the row above would steal that card's clicks.
-_CARD_HEIGHTS = (150, 180, 190, 195, 200)
-_CARD_BLOCK = ('div[data-testid="stVerticalBlock"]:has'
-               '(> div > div > div > div > .rw-cardmark')
-st.markdown(
-    "<style>" + " ".join(
-        f'{_CARD_BLOCK}.h{h}) div[data-testid="stButton"] button::after '
-        f'{{ top:-{h - 12}px; }}'
-        for h in _CARD_HEIGHTS
-    ) + "</style>",
-    unsafe_allow_html=True,
-)
-
 # ── Data loading ──────────────────────────────────────────────────────────────
 
 @st.cache_data(ttl=300)
@@ -1433,22 +1439,23 @@ def tape(text):
     )
 
 
-def poster_art(url, title, height=240):
-    """The plate itself — the TMDB thumbnail, or the rings fallback."""
+def poster_art(url, title):
+    """The plate itself — the TMDB thumbnail, or the rings fallback.
+
+    It takes no height: .poster-img sizes it at 2:3 to its column's width, so a
+    plate never carries a height of its own to disagree with the poster's shape.
+    """
     if url:
         # Use w185 thumbnail for grids
         thumb = url.replace("/w500/", "/w185/") if "/w500/" in url else url
-        return (
-            f'<img src="{thumb}" style="width:100%;height:{height}px;'
-            f'object-fit:cover;display:block;">'
-        )
+        return f'<img class="poster-img" src="{thumb}" alt="">'
     return (
-        f'<div class="poster-plate" style="height:{height}px;">'
+        f'<div class="poster-plate poster-img">'
         f'{rings_svg("")}<b>{title}</b></div>'
     )
 
 
-def poster_html(url, title, subtitle="", height=240, label=True, tone=""):
+def poster_html(url, title, subtitle="", label=True, tone=""):
     """A poster card. With label=False the caller supplies the strip instead —
     film_card() puts a button there so the whole card opens the dossier.
 
@@ -1466,21 +1473,19 @@ def poster_html(url, title, subtitle="", height=240, label=True, tone=""):
         style = ""
     else:
         # The marker lets the stylesheet find the button that follows this card
-        # without restyling every button in the app. The height rides along as a
-        # class because CSS cannot read a length out of the markup, and the rule
-        # that stretches the button's hit area over the plate needs to know how
-        # far up to reach. See _CARD_HEIGHTS below the stylesheet.
-        strip = ('<span class="rw-cardmark '
-                 f'h{height}{" toned" if tone else ""}"></span>')
+        # without restyling every button in the app. "toned" rides along because
+        # the verdict band makes the card 5px taller than its plate, and the rule
+        # that stretches the button's hit area over the plate has to reach past it.
+        strip = f'<span class="rw-cardmark{" toned" if tone else ""}"></span>'
         style = ' style="border-bottom:0;border-radius:6px 6px 0 0;margin-bottom:0;"'
     rule = f'<div class="poster-rule {tone}"></div>' if tone else ""
     return f"""
     <div class="poster-card"{style}>
-      {poster_art(url, title, height)}{rule}{strip}
+      {poster_art(url, title)}{rule}{strip}
     </div>"""
 
 
-def film_card(movie, subtitle="", height=190, key="", tone=""):
+def film_card(movie, subtitle="", key="", tone=""):
     """A poster card that opens that film's dossier when clicked anywhere.
 
     Every poster grid goes through here, so click-through is uniform across
@@ -1488,7 +1493,7 @@ def film_card(movie, subtitle="", height=190, key="", tone=""):
     to poster_html for grids that carry a verdict band.
     """
     st.markdown(
-        poster_html(movie["poster_url_tmdb"], movie["title"], height=height,
+        poster_html(movie["poster_url_tmdb"], movie["title"],
                     label=False, tone=tone),
         unsafe_allow_html=True,
     )
@@ -1851,7 +1856,7 @@ def prospect_card(row, key=""):
     of how it is built.
     """
     st.markdown(
-        poster_html(row["poster_url_tmdb"], row["title"], height=190, label=False),
+        poster_html(row["poster_url_tmdb"], row["title"], label=False),
         unsafe_allow_html=True,
     )
     # Same two-line caption film_card uses: the blank line is what makes the
@@ -1903,7 +1908,7 @@ def render_prospect(upcoming_film_id):
     <div class="rw-dt-hero">
       {rings_svg()}
       <div class="rw-dt-poster">
-        {poster_art(row["poster_url_tmdb"], row["title"], height=275)}
+        {poster_art(row["poster_url_tmdb"], row["title"])}
       </div>
       <div class="rw-dt-id">
         <p class="rw-dt-loose">Upcoming &middot; not yet an episode</p>
@@ -1955,12 +1960,17 @@ def render_prospect(upcoming_film_id):
     )
 
 
-def shelf(films, key, height=150):
-    """A short row of clickable posters, used for the dossier's related films."""
-    cols = st.columns(max(len(films), 1))
+def shelf(films, key):
+    """A short row of clickable posters, used for the dossier's related films.
+
+    Always four columns, however many films there are. A card takes its
+    column's width, so a column per film made a one-film shelf a single poster
+    the width of the whole panel.
+    """
+    cols = st.columns(4)
     for col, (_, film) in zip(cols, films.iterrows()):
         with col:
-            film_card(film, str(film["year"]), height=height, key=key)
+            film_card(film, str(film["year"]), key=key)
 
 
 # ── Keyword index ─────────────────────────────────────────────────────────────
@@ -2134,7 +2144,7 @@ def render_keyword(keyword):
         for col, (_, film) in zip(cols, films.iloc[start:start + COLS].iterrows()):
             with col:
                 rating = f"{film['rating_tmdb']:.1f}" if pd.notna(film["rating_tmdb"]) else ""
-                film_card(film, f"{film['year']} {rating}", height=180, key="kw")
+                film_card(film, f"{film['year']} {rating}", key="kw")
 
 
 def explode_genres(df):
@@ -2352,7 +2362,7 @@ def person_spotlight(films, key, collab_title, collab_pairs, collab_empty,
             with col:
                 rt = (f"RT {m['tomatoes_avg']*100:.0f}%"
                       if pd.notna(m["tomatoes_avg"]) else "")
-                film_card(m, f"{int(m['year'])} {rt}".strip(), height=190, key=key)
+                film_card(m, f"{int(m['year'])} {rt}".strip(), key=key)
 
     # Genre and decade are always populated; the collaborator column often is
     # not, because recurring pairings are genuinely rare in this catalogue.
@@ -2704,7 +2714,7 @@ if section == "overview":
     recent = (
         links_df.sort_values("episode_date", ascending=False)
         .drop_duplicates("movie_id")
-        .head(6)
+        .head(8)
         .merge(movies_df[["movie_id", "title", "year", "poster_url_tmdb"]], on="movie_id")
     )
     st.markdown(
@@ -2712,14 +2722,14 @@ if section == "overview":
         f'{latest_air.year}</span><span>click a poster for its episodes</span></div>',
         unsafe_allow_html=True,
     )
-    cols = st.columns(6)
+    cols = st.columns(8)
     for col, (_, row) in zip(cols, recent.iterrows()):
         with col:
             aired = row["episode_date"]
             film_card(
                 row,
                 f"Ep {int(row['episode_number'])} · {aired:%b} {aired.day}",
-                height=200, key="latest",
+                key="latest",
             )
 
     st.markdown("---")
@@ -2796,7 +2806,7 @@ if section == "overview":
                 film_card(
                     row,
                     f"{int(row['total_episodes_featured'])}× · {when}",
-                    height=180, key="again",
+                    key="again",
                 )
 
     st.markdown("---")
@@ -3097,7 +3107,7 @@ elif section == "explorer":
                 else:
                     note = (f"RT {m['tomatoes_avg']*100:.0f}%"
                             if pd.notna(m["tomatoes_avg"]) else "")
-                film_card(m, f"{m['year']} {note}".strip(), height=190, key="explore")
+                film_card(m, f"{m['year']} {note}".strip(), key="explore")
 
     st.markdown("---")
     tape("Data table")
@@ -3230,7 +3240,7 @@ elif section == "genres":
     cols = st.columns(10)
     for i, (_, m) in enumerate(genre_movies.head(30).iterrows()):
         with cols[i % 10]:
-            film_card(m, str(m["year"]), height=190, key="genre")
+            film_card(m, str(m["year"]), key="genre")
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -4154,7 +4164,6 @@ elif section == "verdicts":
                              if pd.notna(m["year"]) else f"ep {ep}")
                     film_card(
                         m, f"{stamp} · {m['verdict']}",
-                        height=190,
                         # Episode-grained: two airings of one film would collide
                         # on movie_id alone, so the episode number owns the key.
                         key=f"ledger{ep}",
@@ -4315,7 +4324,7 @@ elif section == "timeline":
             film_card(
                 m,
                 f"{m['year']} · {m['total_episodes_featured']}×",
-                height=195, key="revisit",
+                key="revisit",
             )
 
     st.markdown("---")
@@ -4738,9 +4747,9 @@ elif section == "upcoming":
     if not len(view):
         st.info("No requested film matches those filters.")
     else:
-        # Six across rather than the Overview grid's ten. These cards carry a
-        # year under the title and are meant to be read, not scanned past.
-        per_row = 6
+        # Eight across, like Movie Explorer. Plates are 2:3 at column width, so
+        # six across made each card nearly 300px tall.
+        per_row = 8
         rows = list(view.iterrows())
         for start in range(0, len(rows), per_row):
             cols = st.columns(per_row)
