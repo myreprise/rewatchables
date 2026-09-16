@@ -28,6 +28,9 @@ class Ctx:
     gender_map: dict
     keywords: dict
     reach: dict
+    # The database's modification time: the key for anything built once per
+    # database, such as the charts a widget does not affect.
+    stamp: float
 
 
 def _rated(movies, merged):
@@ -62,4 +65,5 @@ def build_context(db_stamp):
         gender_map=data.gender_from_people(data.load_people(db_stamp)),
         keywords=keywords,
         reach={word: len(ids) for word, ids in keywords.items()},
+        stamp=db_stamp,
     )

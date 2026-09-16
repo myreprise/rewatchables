@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 import streamlit as st
 
 from rewatchables.app.analysis import VERDICT_FLOOR
-from rewatchables.app.charts import plotly_defaults
+from rewatchables.app.charts import per_database, plotly_defaults
 from rewatchables.app.components import TMDB_PROFILE, film_card, tape
 from rewatchables.app.state import keep
 from rewatchables.app.theme import AMBER, BLUE, LINE_2, TAPE, TXT_3
@@ -121,33 +121,36 @@ def render(ctx):
     marg["margin"] = marg["step"].cumsum()
     lead_changes = int((np.sign(marg["margin"]).diff().fillna(0) != 0).sum())
 
-    # Expand to explicit step vertices so the fill can be split at zero. The
-    # series only ever crosses zero on a vertical segment (x is constant there),
-    # so clipping with maximum/minimum is exact -- no interpolation needed, and
-    # the area above the line reads amber for Cruise, below it blue for Hanks.
-    xs = np.repeat(marg["episode_number"].to_numpy(), 2)[1:]
-    ys = np.repeat(marg["margin"].to_numpy(), 2)[:-1]
+    def running_margin():
+        # Expand to explicit step vertices so the fill can be split at zero. The
+        # series only ever crosses zero on a vertical segment (x is constant there),
+        # so clipping with maximum/minimum is exact -- no interpolation needed, and
+        # the area above the line reads amber for Cruise, below it blue for Hanks.
+        xs = np.repeat(marg["episode_number"].to_numpy(), 2)[1:]
+        ys = np.repeat(marg["margin"].to_numpy(), 2)[:-1]
 
-    fig = go.Figure()
-    for clip, colour in ((np.maximum(ys, 0), "rgba(201,133,0,.28)"),
-                         (np.minimum(ys, 0), "rgba(74,143,224,.28)")):
+        fig = go.Figure()
+        for clip, colour in ((np.maximum(ys, 0), "rgba(201,133,0,.28)"),
+                             (np.minimum(ys, 0), "rgba(74,143,224,.28)")):
+            fig.add_trace(go.Scatter(
+                x=xs, y=clip, mode="lines", line=dict(width=0),
+                fill="tozeroy", fillcolor=colour, hoverinfo="skip", showlegend=False,
+            ))
         fig.add_trace(go.Scatter(
-            x=xs, y=clip, mode="lines", line=dict(width=0),
-            fill="tozeroy", fillcolor=colour, hoverinfo="skip", showlegend=False,
+            x=marg["episode_number"], y=marg["margin"],
+            line_shape="hv", mode="lines", line=dict(color=TAPE, width=1.6),
+            customdata=np.stack([marg["movie_title"], marg["verdict"]], axis=-1),
+            hovertemplate="<b>%{customdata[0]}</b><br>ep %{x} · %{customdata[1]}"
+                          "<br>margin %{y:+d}<extra></extra>",
+            showlegend=False, name="",
         ))
-    fig.add_trace(go.Scatter(
-        x=marg["episode_number"], y=marg["margin"],
-        line_shape="hv", mode="lines", line=dict(color=TAPE, width=1.6),
-        customdata=np.stack([marg["movie_title"], marg["verdict"]], axis=-1),
-        hovertemplate="<b>%{customdata[0]}</b><br>ep %{x} · %{customdata[1]}"
-                      "<br>margin %{y:+d}<extra></extra>",
-        showlegend=False, name="",
-    ))
-    fig.add_hline(y=0, line_color=LINE_2, line_width=1.4)
-    fig.update_yaxes(title_text="← Hanks     Cruise →", zeroline=False)
-    fig.update_xaxes(title_text="Episode")
-    plotly_defaults(fig)
-    st.plotly_chart(fig, use_container_width=True)
+        fig.add_hline(y=0, line_color=LINE_2, line_width=1.4)
+        fig.update_yaxes(title_text="← Hanks     Cruise →", zeroline=False)
+        fig.update_xaxes(title_text="Episode")
+        return plotly_defaults(fig)
+
+    st.plotly_chart(per_database("verdicts:running_margin", ctx.stamp, running_margin),
+                    use_container_width=True)
     excluded = (
         f" Excludes {n_early} earlier verdict"
         f"{'' if n_early == 1 else 's'} before ep {RUN_START}."
@@ -164,44 +167,47 @@ def render(ctx):
 
     # ── Genre lean — the one dimension that actually separates the camps ──────
     tape("What actually decides it: genre")
-    g_ch = ch_df.explode("genres").dropna(subset=["genres"])
-    g_tab = (
-        g_ch.pivot_table(index="genres", columns="verdict",
-                         aggfunc="size", fill_value=0)
-        .reindex(columns=["Cruise", "Hanks", "Tie"], fill_value=0)
-    )
-    g_tab["n"] = g_tab.sum(axis=1)
-    g_tab = g_tab[g_tab["n"] >= 8].copy()
-    g_tab["lean"] = (g_tab["Cruise"] - g_tab["Hanks"]) / g_tab["n"]
-    # Ascending lean puts the most Hanks-leaning genre first, and Plotly draws
-    # the first horizontal category at the BOTTOM -- so the chart runs Cruise at
-    # the top down to Hanks at the bottom.
-    g_tab = g_tab.sort_values("lean")
+    def genre_lean():
+        g_ch = ch_df.explode("genres").dropna(subset=["genres"])
+        g_tab = (
+            g_ch.pivot_table(index="genres", columns="verdict",
+                             aggfunc="size", fill_value=0)
+            .reindex(columns=["Cruise", "Hanks", "Tie"], fill_value=0)
+        )
+        g_tab["n"] = g_tab.sum(axis=1)
+        g_tab = g_tab[g_tab["n"] >= 8].copy()
+        g_tab["lean"] = (g_tab["Cruise"] - g_tab["Hanks"]) / g_tab["n"]
+        # Ascending lean puts the most Hanks-leaning genre first, and Plotly draws
+        # the first horizontal category at the BOTTOM -- so the chart runs Cruise at
+        # the top down to Hanks at the bottom.
+        g_tab = g_tab.sort_values("lean")
 
-    # Cruise reads left, Hanks right, matching the header portraits and the
-    # standing bar. Cruise therefore takes the negative half of the axis.
-    fig = go.Figure()
-    fig.add_trace(go.Bar(
-        y=g_tab.index, x=-g_tab["Cruise"], orientation="h",
-        marker_color=AMBER, name="Cruise",
-        text=g_tab["Cruise"], textposition="inside", insidetextanchor="start",
-        hovertemplate="%{y} · Cruise %{text}<extra></extra>",
-    ))
-    fig.add_trace(go.Bar(
-        y=g_tab.index, x=g_tab["Hanks"], orientation="h",
-        marker_color=BLUE, name="Hanks",
-        text=g_tab["Hanks"], textposition="inside", insidetextanchor="end",
-        hovertemplate="%{y} · Hanks %{text}<extra></extra>",
-    ))
-    fig.update_layout(barmode="relative", bargap=0.3, height=34 * len(g_tab) + 120)
-    fig.update_xaxes(
-        title_text="← CRUISE          HANKS →",
-        tickvals=[-30, -20, -10, 0, 10, 20, 30],
-        ticktext=["30", "20", "10", "0", "10", "20", "30"],
-    )
-    fig.update_yaxes(title_text="")
-    plotly_defaults(fig, legend=True)
-    st.plotly_chart(fig, use_container_width=True)
+        # Cruise reads left, Hanks right, matching the header portraits and the
+        # standing bar. Cruise therefore takes the negative half of the axis.
+        fig = go.Figure()
+        fig.add_trace(go.Bar(
+            y=g_tab.index, x=-g_tab["Cruise"], orientation="h",
+            marker_color=AMBER, name="Cruise",
+            text=g_tab["Cruise"], textposition="inside", insidetextanchor="start",
+            hovertemplate="%{y} · Cruise %{text}<extra></extra>",
+        ))
+        fig.add_trace(go.Bar(
+            y=g_tab.index, x=g_tab["Hanks"], orientation="h",
+            marker_color=BLUE, name="Hanks",
+            text=g_tab["Hanks"], textposition="inside", insidetextanchor="end",
+            hovertemplate="%{y} · Hanks %{text}<extra></extra>",
+        ))
+        fig.update_layout(barmode="relative", bargap=0.3, height=34 * len(g_tab) + 120)
+        fig.update_xaxes(
+            title_text="← CRUISE          HANKS →",
+            tickvals=[-30, -20, -10, 0, 10, 20, 30],
+            ticktext=["30", "20", "10", "0", "10", "20", "30"],
+        )
+        fig.update_yaxes(title_text="")
+        return plotly_defaults(fig, legend=True)
+
+    st.plotly_chart(per_database("verdicts:genre_lean", ctx.stamp, genre_lean),
+                    use_container_width=True)
     st.markdown(
         '<p class="ch-note">Genres with 8+ verdicts. <b>The pattern is '
         "typecasting:</b> Cruise takes the action and thriller slots, Hanks takes "

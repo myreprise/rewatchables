@@ -11,7 +11,7 @@ from rewatchables.app.analysis import (
     GENRE_FLOOR, LEAN_FLOOR, LEAN_Q, N_PERM, VERDICT_FLOOR, person_shelf,
     room_leans,
 )
-from rewatchables.app.charts import plotly_defaults
+from rewatchables.app.charts import per_database, plotly_defaults
 from rewatchables.app.components import (
     film_card, masthead, ranked_list, stat_tiles, tape,
 )
@@ -211,29 +211,33 @@ def render(ctx):
     cast = board.head(WHEN_TOP).sort_values("first").index.tolist()
     counts = on.reindex(cast).fillna(0)
     years = [str(int(y)) for y in aired.index]
-    fig = go.Figure(go.Heatmap(
-        z=counts.to_numpy() / aired.to_numpy() * 100,
-        x=years, y=cast,
-        customdata=np.dstack([counts.to_numpy(),
-                              np.tile(aired.to_numpy(), (len(cast), 1))]),
-        hovertemplate="%{y}, %{x}<br>%{customdata[0]:.0f} of %{customdata[1]:.0f} "
-                      "episodes (%{z:.0f}%)<extra></extra>",
-        # Zero gets the surface colour and anything above it the first step,
-        # so "never on that year" and "on once" do not blur together.
-        colorscale=[[0, INK_3], [0.001, SEQ[0]], [0.2, SEQ[1]], [0.4, SEQ[2]],
-                    [0.6, SEQ[3]], [0.8, SEQ[4]], [1, SEQ[5]]],
-        zmin=0, zmax=80, xgap=2, ygap=2,
-        colorbar=dict(ticksuffix="%", outlinewidth=0, thickness=10,
-                      tickfont=dict(color=TXT_2)),
-    ))
-    plotly_defaults(fig)
-    fig.update_layout(
-        height=30 * len(cast) + 120,
-        yaxis=dict(autorange="reversed", gridcolor=INK, title=""),
-        xaxis=dict(tickvals=years, gridcolor=INK, title="",
-                   ticktext=[f"{y}<br>{int(n)} eps" for y, n in zip(years, aired)]),
-    )
-    st.plotly_chart(fig, use_container_width=True)
+    def who_is_on_when():
+        fig = go.Figure(go.Heatmap(
+            z=counts.to_numpy() / aired.to_numpy() * 100,
+            x=years, y=cast,
+            customdata=np.dstack([counts.to_numpy(),
+                                  np.tile(aired.to_numpy(), (len(cast), 1))]),
+            hovertemplate="%{y}, %{x}<br>%{customdata[0]:.0f} of %{customdata[1]:.0f} "
+                          "episodes (%{z:.0f}%)<extra></extra>",
+            # Zero gets the surface colour and anything above it the first step,
+            # so "never on that year" and "on once" do not blur together.
+            colorscale=[[0, INK_3], [0.001, SEQ[0]], [0.2, SEQ[1]], [0.4, SEQ[2]],
+                        [0.6, SEQ[3]], [0.8, SEQ[4]], [1, SEQ[5]]],
+            zmin=0, zmax=80, xgap=2, ygap=2,
+            colorbar=dict(ticksuffix="%", outlinewidth=0, thickness=10,
+                          tickfont=dict(color=TXT_2)),
+        ))
+        plotly_defaults(fig)
+        fig.update_layout(
+            height=30 * len(cast) + 120,
+            yaxis=dict(autorange="reversed", gridcolor=INK, title=""),
+            xaxis=dict(tickvals=years, gridcolor=INK, title="",
+                       ticktext=[f"{y}<br>{int(n)} eps" for y, n in zip(years, aired)]),
+        )
+        return fig
+
+    st.plotly_chart(per_database("hosts:who_is_on_when", ctx.stamp, who_is_on_when),
+                    use_container_width=True)
     st.markdown(
         f'<p class="ch-note">The {len(cast)} people on the most episodes, in the order '
         "they first appeared. A cell is the share of that year&rsquo;s film episodes "
@@ -252,27 +256,31 @@ def render(ctx):
                         for b in ring] for a in ring], dtype=float)
     c_grid, c_lineup = st.columns([3, 2])
     with c_grid:
-        fig = go.Figure(go.Heatmap(
-            # Square-root colour: the top pair shares three times the episodes
-            # of the next, so a linear ramp lights one cell and leaves the rest
-            # near black.
-            z=np.sqrt(shared), x=ring, y=ring, customdata=shared,
-            text=[["" if not v or np.isnan(v) else f"{v:.0f}" for v in row]
-                  for row in shared],
-            texttemplate="%{text}", textfont=dict(color=TAPE, size=11),
-            hovertemplate="%{y} + %{x}<br>%{customdata:.0f} episodes together"
-                          "<extra></extra>",
-            hoverongaps=False,
-            colorscale=[[0, INK_3], [0.001, MINT_DIM], [1, SEQ[1]]],
-            showscale=False, xgap=2, ygap=2,
-        ))
-        plotly_defaults(fig)
-        fig.update_layout(
-            height=34 * len(ring) + 130,
-            yaxis=dict(autorange="reversed", gridcolor=INK, title=""),
-            xaxis=dict(tickangle=-40, gridcolor=INK, title=""),
-        )
-        st.plotly_chart(fig, use_container_width=True)
+        def who_sits_together():
+            fig = go.Figure(go.Heatmap(
+                # Square-root colour: the top pair shares three times the episodes
+                # of the next, so a linear ramp lights one cell and leaves the rest
+                # near black.
+                z=np.sqrt(shared), x=ring, y=ring, customdata=shared,
+                text=[["" if not v or np.isnan(v) else f"{v:.0f}" for v in row]
+                      for row in shared],
+                texttemplate="%{text}", textfont=dict(color=TAPE, size=11),
+                hovertemplate="%{y} + %{x}<br>%{customdata:.0f} episodes together"
+                              "<extra></extra>",
+                hoverongaps=False,
+                colorscale=[[0, INK_3], [0.001, MINT_DIM], [1, SEQ[1]]],
+                showscale=False, xgap=2, ygap=2,
+            ))
+            plotly_defaults(fig)
+            fig.update_layout(
+                height=34 * len(ring) + 130,
+                yaxis=dict(autorange="reversed", gridcolor=INK, title=""),
+                xaxis=dict(tickangle=-40, gridcolor=INK, title=""),
+            )
+            return fig
+
+        st.plotly_chart(per_database("hosts:who_sits_together", ctx.stamp, who_sits_together),
+                        use_container_width=True)
     with c_lineup:
         st.markdown("###### Most common lineups")
         ranked_list(

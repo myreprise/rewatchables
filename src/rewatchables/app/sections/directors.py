@@ -40,7 +40,8 @@ def render(ctx):
     top_dirs = dir_counts.head(20)
     top_dirs = pd.DataFrame(
         {"director": top_dirs.index, "films": top_dirs.to_numpy()})
-    people_leaderboard(top_dirs, "director", "Most-featured directors")
+    people_leaderboard(top_dirs, "director", "Most-featured directors",
+                       cache_key="directors:leaderboard", db_stamp=ctx.stamp)
     st.markdown(
         f'<p class="ch-note">{int((dir_counts >= 2).sum())} directors have more '
         f"than one film covered, out of {dir_counts.size:,}. The long tail is "
@@ -77,7 +78,8 @@ def render(ctx):
         .groupby("director_primary").agg(**PERSON_AGG).reset_index()
         .rename(columns={"director_primary": "director"})
     )
-    people_scatter(dir_stats[dir_stats["films"] >= 2], "director", "director")
+    people_scatter(dir_stats[dir_stats["films"] >= 2], "director", "director",
+                   cache_key="directors:scatter", db_stamp=ctx.stamp)
     st.markdown(
         '<p class="ch-note">Directors with two or more covered films; bubble size '
         "is average runtime. Only those with four or more are named &mdash; the rest "

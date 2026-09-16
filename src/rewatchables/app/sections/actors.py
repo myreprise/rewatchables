@@ -71,7 +71,8 @@ def render(ctx):
     st.markdown("---")
 
     top_actors = cast_all.head(20).rename(columns={"count": "films"})
-    people_leaderboard(top_actors, "actor", "Most-featured actors", colour=AMBER)
+    people_leaderboard(top_actors, "actor", "Most-featured actors", colour=AMBER,
+                       cache_key="actors:leaderboard", db_stamp=ctx.stamp)
     st.markdown(
         '<p class="ch-note">Every credited name TMDB lists, so a supporting turn '
         "counts the same as a lead. That widens the field considerably: "
@@ -85,7 +86,7 @@ def render(ctx):
 
         gender_split_leaderboards(
             movies_rated, "Most-featured actors, by gender", GENDER_MAP,
-            top_n=15)
+            top_n=15, cache_key="actors:by_gender", db_stamp=ctx.stamp)
 
         # The two figures the pair is for: where the first woman lands in the
         # combined ranking, and how far apart the two peaks are.
@@ -137,7 +138,8 @@ def render(ctx):
         billed_long(movies_rated).groupby("actor").agg(**PERSON_AGG).reset_index()
     )
     actor_stats = actor_stats[actor_stats["films"] >= 3]
-    people_scatter(actor_stats, "actor", "actor", name_from=8)
+    people_scatter(actor_stats, "actor", "actor", name_from=8,
+                   cache_key="actors:scatter", db_stamp=ctx.stamp)
     st.markdown(
         '<p class="ch-note">Actors with three or more covered films; bubble size '
         "is average runtime. Only those with eight or more are named &mdash; the "

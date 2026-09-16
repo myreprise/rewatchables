@@ -16,6 +16,26 @@ from rewatchables.app.theme import (
 )
 
 
+@st.cache_resource(max_entries=128, show_spinner=False)
+def _built_once(key, db_stamp, _build):
+    return _build()
+
+
+def per_database(key, db_stamp, build):
+    """build(), run once per database and then shared by every rerun.
+
+    For chart work that depends on nothing but the database. A widget change
+    reruns its whole section, and rebuilding the charts that widget does not
+    affect was most of what the rerun cost. Two rules keep it honest:
+
+      * `key` must name everything besides the database that the result
+        depends on, or a stale result is served;
+      * the result is one shared object, so nothing may change it once it is
+        returned. st.plotly_chart only reads a figure.
+    """
+    return _built_once(key, db_stamp, build)
+
+
 def _leaderboard_fig(counts, name_col, colour, xmax=None):
     """The ranked-bar figure itself, without the heading or the render.
 
@@ -42,30 +62,37 @@ def _leaderboard_fig(counts, name_col, colour, xmax=None):
 GENDER_COLOUR = {"M": BLUE, "F": AMBER, "NB": VIOLET, "unknown": TXT_3}
 
 
-def people_scatter(stats, name_col, label, name_from=4):
+def people_scatter(stats, name_col, label, name_from=4, cache_key=None,
+                   db_stamp=None):
     """Volume against reception, one bubble per person.
 
     Only the people at or past `name_from` films are labelled. The population is
     bottom-heavy -- most sit at the two- or three-film left edge -- and labelling
     every point there piles a few hundred names into an unreadable smear. The
     rest keep their identity on hover.
+
+    Pass `cache_key` and `db_stamp` when `stats` depends on nothing but the
+    database, to build the figure once; see per_database.
     """
-    plot = stats.copy()
-    plot["tag"] = plot[name_col].where(plot["films"] >= name_from, "")
-    fig = px.scatter(
-        plot, x="films", y="avg_tmdb", size="avg_runtime", text="tag",
-        color="avg_tmdb", color_continuous_scale=SEQ,
-        custom_data=[name_col, "films", "avg_runtime"],
-        labels={"films": "Films covered", "avg_tmdb": "Avg TMDB rating"},
-    )
-    fig.update_traces(
-        textposition="top center", textfont_size=9,
-        hovertemplate="<b>%{customdata[0]}</b><br>%{customdata[1]} films"
-                      "<br>avg TMDB %{y:.2f}<br>avg runtime %{customdata[2]:.0f} min"
-                      "<extra></extra>",
-    )
-    fig.update_layout(coloraxis_showscale=False)
-    plotly_defaults(fig)
+    def build():
+        plot = stats.copy()
+        plot["tag"] = plot[name_col].where(plot["films"] >= name_from, "")
+        fig = px.scatter(
+            plot, x="films", y="avg_tmdb", size="avg_runtime", text="tag",
+            color="avg_tmdb", color_continuous_scale=SEQ,
+            custom_data=[name_col, "films", "avg_runtime"],
+            labels={"films": "Films covered", "avg_tmdb": "Avg TMDB rating"},
+        )
+        fig.update_traces(
+            textposition="top center", textfont_size=9,
+            hovertemplate="<b>%{customdata[0]}</b><br>%{customdata[1]} films"
+                          "<br>avg TMDB %{y:.2f}<br>avg runtime %{customdata[2]:.0f} min"
+                          "<extra></extra>",
+        )
+        fig.update_layout(coloraxis_showscale=False)
+        return plotly_defaults(fig)
+
+    fig = per_database(cache_key, db_stamp, build) if cache_key else build()
     st.plotly_chart(fig, use_container_width=True)
 
 

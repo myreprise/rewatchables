@@ -12,7 +12,7 @@ import streamlit as st
 
 from rewatchables.app.analysis import explode_cast, explode_genres, person_stats
 from rewatchables.app.charts import (
-    GENDER_COLOUR, _leaderboard_fig, fold_counts, plotly_defaults,
+    GENDER_COLOUR, _leaderboard_fig, fold_counts, per_database, plotly_defaults,
 )
 from rewatchables.app.components import film_card, ranked_list, stat_tiles, tape
 from rewatchables.app.data import GENDER_LABEL
@@ -26,15 +26,24 @@ from views import lean_phrase
 # into two hand-maintained blocks is how the pair would drift apart.
 
 
-def people_leaderboard(counts, name_col, title, colour=MINT_DEEP):
-    """Ranked horizontal bars — who turns up most."""
+def people_leaderboard(counts, name_col, title, colour=MINT_DEEP, cache_key=None,
+                       db_stamp=None):
+    """Ranked horizontal bars — who turns up most.
+
+    Pass `cache_key` and `db_stamp` when `counts` depends on nothing but the
+    database, to build the figure once; see per_database.
+    """
     tape(title)
-    st.plotly_chart(_leaderboard_fig(counts, name_col, colour),
-                    use_container_width=True)
+
+    def build():
+        return _leaderboard_fig(counts, name_col, colour)
+
+    fig = per_database(cache_key, db_stamp, build) if cache_key else build()
+    st.plotly_chart(fig, use_container_width=True)
 
 
 def gender_split_leaderboards(df, title, gender_map, top_n=15,
-                              genders=("M", "F")):
+                              genders=("M", "F"), cache_key=None, db_stamp=None):
     """The same leaderboard once per gender, side by side on a shared axis.
 
     Why a pair and not one chart coloured by gender: the combined top 20 is 19
@@ -46,29 +55,39 @@ def gender_split_leaderboards(df, title, gender_map, top_n=15,
     Non-binary and unrecorded credits are counted in the tiles above rather
     than given a column of their own, which at these volumes would be a chart
     of two or three names.
+
+    Pass `cache_key` and `db_stamp` to build the pair once per database; see
+    per_database.
     """
     tape(title)
-    ranked = {g: explode_cast(df, top_n=top_n, gender=g, gender_map=gender_map).rename(
-        columns={"count": "films"}) for g in genders}
-    present = [g for g in genders if not ranked[g].empty]
-    if not present:
+
+    def build():
+        """{gender: (actors counted, figure)}, for the genders with anyone."""
+        ranked = {g: explode_cast(df, top_n=top_n, gender=g, gender_map=gender_map).rename(
+            columns={"count": "films"}) for g in genders}
+        present = [g for g in genders if not ranked[g].empty]
+        if not present:
+            return {}
+        xmax = max(ranked[g]["films"].max() for g in present)
+        return {g: (len(explode_cast(df, top_n=100_000, gender=g,
+                                     gender_map=gender_map)),
+                    _leaderboard_fig(ranked[g], "actor", GENDER_COLOUR[g], xmax=xmax))
+                for g in present}
+
+    columns = per_database(cache_key, db_stamp, build) if cache_key else build()
+    if not columns:
         st.caption("No gender is recorded for any credited actor — run "
                    "scripts/09_enrich_metadata.py to fill curated_people.")
         return
-    xmax = max(ranked[g]["films"].max() for g in present)
 
-    for col, g in zip(st.columns(len(present)), present):
+    for col, (g, (counted, fig)) in zip(st.columns(len(columns)), columns.items()):
         with col:
-            counted = len(explode_cast(df, top_n=100_000, gender=g,
-                                       gender_map=gender_map))
             st.markdown(
                 f'<p class="ch-note" style="margin:0 0 2px">'
                 f'<b>{GENDER_LABEL[g]}</b> &middot; '
                 f'{counted:,} actors'
                 f'</p>', unsafe_allow_html=True)
-            st.plotly_chart(
-                _leaderboard_fig(ranked[g], "actor", GENDER_COLOUR[g], xmax=xmax),
-                use_container_width=True, key=f"lb_gender_{g}")
+            st.plotly_chart(fig, use_container_width=True, key=f"lb_gender_{g}")
 
 
 def lean_chips(rows):
