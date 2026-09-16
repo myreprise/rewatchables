@@ -22,6 +22,11 @@ from rewatchables.app.state import (
     open_person, open_prospect, pick_section,
     resolve_section, seed_from_url,
 )
+from rewatchables.app.analysis import (
+    BILLED, GENRE_FLOOR, LEAN_FLOOR, LEAN_Q, N_PERM, PERSON_AGG, billed_long,
+    explode_cast, explode_genres, films_by_actor, films_by_director,
+    person_shelf, person_stats, room_leans,
+)
 from rewatchables.app.components import (
     TMDB_PROFILE, film_card, keyword_row, masthead,
     poster_art, poster_html, ranked_list, rings_svg, shelf, stat_tiles, tape,
@@ -37,10 +42,9 @@ from rewatchables.app.theme import (
 from views import (
     ANCHOR, BREAK_EVEN_MULTIPLE, BROWSE_FLOOR, CPI_BASE_YEAR,
     CPI_PROVISIONAL_FROM, MEASURE_LABEL, RESOLUTION_NOTE, ROOM,
-    appearances_by_year, bench, bh_adjust, clean, co_appearances,
+    appearances_by_year, bench, clean, co_appearances,
     contributor_link, decade_bars, html, human_gap, keyword_chip, lean_phrase,
-    lean_value, lineups, money, permutation_diffs,
-    pitch_chips, plain, region_of, room_long,
+    lean_value, lineups, money, pitch_chips, plain, region_of, room_long,
     stale_notice, stars, stat_tile,
 )
 
@@ -616,41 +620,6 @@ def render_keyword(keyword):
                 film_card(film, f"{film['year']} {rating}", key="kw")
 
 
-def explode_genres(df):
-    """Return long-form DataFrame with one genre per row."""
-    rows = []
-    for _, row in df.iterrows():
-        for g in (row["genres"] if isinstance(row["genres"], list) else []):
-            rows.append({**row.to_dict(), "genre": g})
-    return pd.DataFrame(rows)
-
-
-# "In this film" counts the whole cast list curated_movies stores, which TMDB
-# caps at ten (453 of 454 films carry exactly ten; one carries nine). The slice
-# is kept rather than dropped so a future deeper cast list cannot silently
-# redefine every actor statistic in the app.
-BILLED = 10
-
-
-def explode_cast(df, top_n=50, gender=None, gender_map=None):
-    """Ranked (actor, count) over the stored cast lists.
-
-    `gender` narrows the population to one of GENDERS before ranking, using
-    GENDER_MAP unless a map is passed in. A name with no person row counts as
-    'unknown', so the four genders partition the credits exactly -- any
-    headline share is then computed over the population it claims.
-    """
-    lookup = GENDER_MAP if gender_map is None else gender_map
-    counts = Counter()
-    for cast in df["cast_names"]:
-        if isinstance(cast, list):
-            for name in cast[:BILLED]:  # the full stored cast
-                if gender is not None and lookup.get(name, "unknown") != gender:
-                    continue
-                counts[name] += 1
-    return pd.DataFrame(counts.most_common(top_n), columns=["actor", "count"])
-
-
 # Per-film critic scores, averaged over a film's airings. Built once: the Movie
 # Explorer, Directors and Actors sections all need the same numbers, and
 # recomputing the groupby per section drifted the moment one of them changed.
@@ -660,39 +629,6 @@ EP_RATINGS = (
     .reset_index()
 )
 movies_rated = movies_df.merge(EP_RATINGS, on="movie_id", how="left")
-
-
-def films_by_director(name):
-    return movies_rated[movies_rated["director_primary"] == name]
-
-
-def films_by_actor(name):
-    return movies_rated[movies_rated["cast_names"].apply(
-        lambda c: isinstance(c, list) and name in c[:BILLED])]
-
-
-def billed_long(df):
-    """One row per (film, credited actor).
-
-    The actor-side analogue of director_primary: it turns cast into a plain
-    column so actor statistics are a single groupby, the same shape as the
-    director ones. Scanning the frame once per actor instead cost ~0.3s on
-    every rerun, which Streamlit pays on every widget change.
-    """
-    out = df.copy()
-    out["actor"] = out["cast_names"].apply(
-        lambda c: c[:BILLED] if isinstance(c, list) else [])
-    return out.explode("actor").dropna(subset=["actor"])
-
-
-PERSON_AGG = dict(
-    films=("movie_id", "count"),
-    avg_tmdb=("rating_tmdb", "mean"),
-    avg_runtime=("runtime_minutes", "mean"),
-    avg_rt=("tomatoes_avg", "mean"),
-    first_year=("year", "min"),
-    last_year=("year", "max"),
-)
 
 
 # ── Shared people-section components ──────────────────────────────────────────
@@ -747,7 +683,7 @@ def gender_split_leaderboards(df, title, top_n=15, genders=("M", "F")):
     of two or three names.
     """
     tape(title)
-    ranked = {g: explode_cast(df, top_n=top_n, gender=g).rename(
+    ranked = {g: explode_cast(df, top_n=top_n, gender=g, gender_map=GENDER_MAP).rename(
         columns={"count": "films"}) for g in genders}
     present = [g for g in genders if not ranked[g].empty]
     if not present:
@@ -758,47 +694,20 @@ def gender_split_leaderboards(df, title, top_n=15, genders=("M", "F")):
 
     for col, g in zip(st.columns(len(present)), present):
         with col:
+            counted = len(explode_cast(df, top_n=100_000, gender=g,
+                                       gender_map=GENDER_MAP))
             st.markdown(
                 f'<p class="ch-note" style="margin:0 0 2px">'
                 f'<b>{GENDER_LABEL[g]}</b> &middot; '
-                f'{len(explode_cast(df, top_n=100_000, gender=g)):,} actors'
+                f'{counted:,} actors'
                 f'</p>', unsafe_allow_html=True)
             st.plotly_chart(
                 _leaderboard_fig(ranked[g], "actor", GENDER_COLOUR[g], xmax=xmax),
                 use_container_width=True, key=f"lb_gender_{g}")
 
 
-def person_stats(films):
-    """The headline numbers for one person's body of covered work.
-
-    First and latest are separate tiles rather than one "1983-2022" range: a
-    metric value that long is truncated to an ellipsis at a sixth of the width.
-    """
-    years = films["year"].dropna()
-    rt = films["tomatoes_avg"].dropna()
-    tmdb = films["rating_tmdb"].dropna()
-    return [
-        ("Films covered", len(films)),
-        ("Episodes", int(films["total_episodes_featured"].fillna(0).sum())),
-        ("First film", int(years.min()) if len(years) else "—"),
-        ("Latest film", int(years.max()) if len(years) else "—"),
-        ("Avg RT", f"{rt.mean()*100:.0f}%" if len(rt) else "—"),
-        ("Avg TMDB", f"{tmdb.mean():.2f}" if len(tmdb) else "—"),
-    ]
-
-
 # ── Hosts & Guests ────────────────────────────────────────────────────────────
 
-# A regular, for the lean tests: anyone on at least this many episodes. Ten
-# people clear it; below it a person's episodes are too few for anything short
-# of a landslide to be told from chance.
-LEAN_FLOOR = 15
-# Genres tested for a lean: those on at least this many episodes (seven do).
-# Every extra test raises the bar the correction sets for all the others, and
-# a genre on a handful of episodes cannot move far enough to clear it.
-GENRE_FLOOR = 40
-LEAN_Q = 0.05
-N_PERM = 4000
 # The bench table stops here. The one- and two-timers are most of the names
 # and none of the pattern, and the lookup still has every one of them.
 BENCH_FLOOR = 3
@@ -807,22 +716,6 @@ RING_TOP = 12
 # Verdict episodes needed before a person's Cruise vs. Hanks split is read at
 # all. Shared with that section so the two never disagree.
 VERDICT_FLOOR = 8
-
-
-@st.cache_data(ttl=300)
-def room_leans(measures, members):
-    """Every regular against everyone else, on every measure, with q-values.
-
-    `measures` is one column per metric and `members` one boolean column per
-    regular, both one row per airing.
-    """
-    out = permutation_diffs(
-        {c: measures[c].to_numpy() for c in measures.columns},
-        {p: members[p].to_numpy() for p in members.columns},
-        n_perm=N_PERM,
-    )
-    out["q"] = bh_adjust(out["p"])
-    return out
 
 
 def lean_chips(rows):
@@ -838,20 +731,6 @@ def lean_chips(rows):
         f"{lean_phrase(r.metric, r.mean_in, r.mean_out, r.diff)}</span>"
         for r in rows.sort_values("q").itertuples()
     )
-
-
-def person_shelf(name):
-    """Every airing a person was on, newest first.
-
-    One definition for two readers: the lookup draws its poster grid in this
-    order, and the dossier's step arrows walk it in the same order. Computed
-    from merged_df rather than read off the grid because the dossier gate runs
-    before the section, on a run where the grid is never drawn.
-    """
-    room = room_long(merged_df, "raw_episode_id",
-                     keep=("episode_number", "episode_date", "movie_id"))
-    return (room[room["person"] == name]
-            .sort_values(["episode_date", "episode_number"], ascending=False))
 
 
 def person_spotlight(films, key, collab_title, collab_pairs, collab_empty,
@@ -1088,7 +967,7 @@ if selected_film and section != "explorer":
     # the Without Bill grid -- is usually not on the shelf and gets no arrows.
     siblings = None
     if section == "hosts" and kept("flt_person") in _VALID_PEOPLE:
-        siblings = list(dict.fromkeys(person_shelf(kept("flt_person"))["movie_id"]))
+        siblings = list(dict.fromkeys(person_shelf(merged_df, kept("flt_person"))["movie_id"]))
     render_dossier(selected_film, siblings=siblings)
     st.stop()
 
@@ -1719,7 +1598,7 @@ elif section == "directors":
     tape("Director spotlight")
     sel_dir = keep(
         st.selectbox, "Director", top_dirs["director"].tolist(), key="flt_dir_pick")
-    dir_films = films_by_director(sel_dir)
+    dir_films = films_by_director(movies_rated, sel_dir)
 
     regulars = Counter(
         name
@@ -1804,7 +1683,8 @@ elif section == "actors":
     # ten slots, and "who gets cast" is a question about slots. Rendered only
     # when the dimension is populated, so a database that has not been through
     # the cast_ids pass keeps the ungendered section it had before.
-    by_gender = {g: explode_cast(movies_rated, top_n=100_000, gender=g)
+    by_gender = {g: explode_cast(movies_rated, top_n=100_000, gender=g,
+                             gender_map=GENDER_MAP)
                  for g in GENDERS}
     credits_by_gender = {g: int(by_gender[g]["count"].sum()) for g in GENDERS}
     credits_total = sum(credits_by_gender.values())
@@ -1873,7 +1753,7 @@ elif section == "actors":
     tape("Actor spotlight")
     sel_actor = keep(
         st.selectbox, "Actor", top_actors["actor"].tolist(), key="flt_actor_pick")
-    actor_films = films_by_actor(sel_actor)
+    actor_films = films_by_actor(movies_rated, sel_actor)
 
     worked_with = Counter(actor_films["director_primary"])
     worked_with.pop("Unknown", None)
@@ -2915,7 +2795,7 @@ elif section == "hosts":
     ])
     st.markdown("<div style='height:14px'></div>", unsafe_allow_html=True)
 
-    mine = person_shelf(who).merge(
+    mine = person_shelf(merged_df, who).merge(
         movies_df[["movie_id", "title", "poster_url_tmdb"]], on="movie_id", how="left")
     COLS = 8
     for start in range(0, len(mine), COLS):

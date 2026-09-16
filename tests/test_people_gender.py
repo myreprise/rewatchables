@@ -18,7 +18,8 @@ from unittest.mock import MagicMock, patch
 import pandas as pd
 import pytest
 
-from rewatchables.app.data import GENDERS, GENDER_LABEL, gender_from_people
+from rewatchables.app.analysis import explode_cast
+from rewatchables.app.data import gender_from_people
 from rewatchables.pipeline import s09_enrich_metadata as mod
 
 ROOT = Path(__file__).parent.parent
@@ -344,41 +345,8 @@ class TestEnrichFillsPeople:
 
 
 # ---------------------------------------------------------------------------
-# app.py: name -> gender resolution
+# The app's name -> gender resolution, now in the app package
 # ---------------------------------------------------------------------------
-
-def _app_helpers():
-    """explode_cast, lifted out of app.py.
-
-    app.py runs Streamlit at import, so the function is read out of its AST and
-    executed in a bare namespace -- the same trick conftest uses for NAV.
-    gender_from_people and the gender constants moved to rewatchables.app.data
-    in the phase 2 split, and are imported above like any other function.
-    """
-    import ast
-    from collections import Counter
-
-    tree = ast.parse((ROOT / "app.py").read_text(encoding="utf-8"))
-    wanted = {"explode_cast", "BILLED"}
-    # explode_cast falls back to the app's module-level GENDER_MAP, which is
-    # built from the database at import. An empty one here is the right stand-in:
-    # every test that cares about gender passes its own map explicitly, and the
-    # ungendered tests must behave the same either way.
-    ns = {"Counter": Counter, "pd": pd, "GENDER_MAP": {},
-          "GENDERS": GENDERS, "GENDER_LABEL": GENDER_LABEL}
-    for node in tree.body:
-        if isinstance(node, ast.FunctionDef) and node.name in wanted:
-            exec(compile(ast.Module([node], []), "<app>", "exec"), ns)
-        elif isinstance(node, ast.Assign) and any(
-                getattr(t, "id", None) in wanted for t in node.targets):
-            exec(compile(ast.Module([node], []), "<app>", "exec"), ns)
-    missing = wanted - set(ns)
-    assert not missing, f"app.py no longer defines {missing}"
-    return ns
-
-
-APP = _app_helpers()
-
 
 def _frame(*casts):
     return pd.DataFrame({"cast_names": list(casts)})
@@ -429,35 +397,35 @@ class TestExplodeCastByGender:
 
     def test_unfiltered_counts_are_unchanged(self):
         df = _frame(["Al Pacino", "Ashley Judd"], ["Al Pacino"])
-        out = APP["explode_cast"](df)
+        out = explode_cast(df)
         assert dict(zip(out["actor"], out["count"])) == \
             {"Al Pacino": 2, "Ashley Judd": 1}
 
     def test_filtering_to_one_gender_keeps_only_those_actors(self):
         df = _frame(["Al Pacino", "Ashley Judd", "Robert De Niro"])
-        women = APP["explode_cast"](df, gender="F", gender_map=self.GENDER)
+        women = explode_cast(df, gender="F", gender_map=self.GENDER)
         assert list(women["actor"]) == ["Ashley Judd"]
 
     def test_the_two_genders_partition_the_credits(self):
         """Men + women + unknown must equal the ungendered total, or a headline
         share is being computed over a different population than it claims."""
         df = _frame(["Al Pacino", "Ashley Judd", "Nobody"], ["Al Pacino"])
-        total = APP["explode_cast"](df)["count"].sum()
+        total = explode_cast(df)["count"].sum()
         split = sum(
-            APP["explode_cast"](df, gender=g, gender_map=self.GENDER)["count"].sum()
+            explode_cast(df, gender=g, gender_map=self.GENDER)["count"].sum()
             for g in ("M", "F", "NB", "unknown"))
         assert split == total
 
     def test_an_actor_with_no_gender_row_lands_in_unknown(self):
         df = _frame(["Nobody"])
-        out = APP["explode_cast"](df, gender="unknown", gender_map=self.GENDER)
+        out = explode_cast(df, gender="unknown", gender_map=self.GENDER)
         assert list(out["actor"]) == ["Nobody"]
 
     def test_ranking_within_a_gender_is_by_count(self):
         df = _frame(["Ashley Judd"], ["Ashley Judd"], ["Al Pacino"])
-        out = APP["explode_cast"](df, gender="M", gender_map=self.GENDER)
+        out = explode_cast(df, gender="M", gender_map=self.GENDER)
         assert list(out["actor"]) == ["Al Pacino"]
-        out = APP["explode_cast"](df, gender="F", gender_map=self.GENDER)
+        out = explode_cast(df, gender="F", gender_map=self.GENDER)
         assert list(out["count"]) == [2]
 
 
