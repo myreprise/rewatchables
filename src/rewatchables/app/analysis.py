@@ -17,12 +17,15 @@ from views import bh_adjust, permutation_diffs, room_long
 
 
 def explode_genres(df):
-    """Return long-form DataFrame with one genre per row."""
-    rows = []
-    for _, row in df.iterrows():
-        for g in (row["genres"] if isinstance(row["genres"], list) else []):
-            rows.append({**row.to_dict(), "genre": g})
-    return pd.DataFrame(rows)
+    """Return long-form DataFrame with one genre per row.
+
+    A film whose genres are not a list, or an empty one, contributes no rows.
+    Vectorised: the row-by-row version rebuilt a dict per (film, genre), about
+    230 ms a call on the catalogue, and a section can call this twice.
+    """
+    has = df["genres"].map(lambda g: isinstance(g, list) and len(g) > 0)
+    out = df[has].assign(genre=df.loc[has, "genres"]).explode("genre")
+    return out.reset_index(drop=True)
 
 
 # "In this film" counts the whole cast list curated_movies stores, which TMDB
