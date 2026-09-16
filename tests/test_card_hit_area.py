@@ -24,11 +24,11 @@ from pathlib import Path
 import pytest
 
 ROOT = Path(__file__).parent.parent
-# The card functions moved to the app package in the phase 2 split;
-# prospect_card is still in app.py. Both are searched.
-_APP = ROOT / "src" / "rewatchables" / "app"
-_PATHS = [ROOT / "app.py", _APP / "components.py",
-          _APP / "overlays" / "prospect.py"]
+# The card functions and every call to them live across the app package
+# since the phase 2 split, so the whole package is searched -- a section
+# added later is covered without anyone remembering to list it.
+_PATHS = [ROOT / "app.py",
+          *sorted((ROOT / "src" / "rewatchables" / "app").rglob("*.py"))]
 _MODULES = [(s, ast.parse(s)) for s in
             (p.read_text(encoding="utf-8") for p in _PATHS)]
 # The stylesheet left app.py in the phase 2 split. The geometry rules are read

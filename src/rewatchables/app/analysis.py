@@ -143,3 +143,8 @@ def room_leans(measures, members):
     )
     out["q"] = bh_adjust(out["p"])
     return out
+
+
+# Verdict episodes needed before a person's Cruise vs. Hanks split is read at
+# all. Shared with that section so the two never disagree.
+VERDICT_FLOOR = 8
