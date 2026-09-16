@@ -239,13 +239,21 @@ automatically (see `tests/conftest.py`). Most tests need a built
 
 ```
 rewatchables/
-├── app.py                  Streamlit explorer
-├── views.py                Presentation and statistics helpers for app.py, Streamlit-free
+├── app.py                  Streamlit entry point: rail, overlays, dispatch
+├── views.py                Streamlit-free presentation and statistics helpers
 ├── src/rewatchables/
 │   ├── config.py           Paths and settings, anchored to the repo root
 │   ├── http.py             The API steps' shared retry policy
 │   ├── keys.py             Business keys and deterministic ids
-│   └── pipeline/           orchestrate.py, s01_…s13_*.py, convert_xlsx_to_csv.py
+│   ├── pipeline/           orchestrate.py, s01_…s13_*.py, convert_xlsx_to_csv.py
+│   └── app/                The explorer, in parts
+│       ├── theme.py, theme.css      Palette and stylesheet
+│       ├── data.py, context.py      Loaders, and the Ctx every renderer is handed
+│       ├── state.py                 Nav rail, overlay callbacks, URL seeding, keep/kept
+│       ├── components.py, charts.py, panels.py   Cards, figures, shared panels
+│       ├── analysis.py              Frames in, numbers out
+│       ├── overlays/                dossier.py, keyword.py, prospect.py
+│       └── sections/                One module per rail section, each with render(ctx)
 ├── scripts/
 │   ├── orchestrate.py, 01_…13_*.py, convert_xlsx_to_csv.py   wrappers for the modules above
 │   └── migrate_*.py, vendor_cmu_subset.py   one-off tools
@@ -262,6 +270,15 @@ rewatchables/
 ├── config/.env.template
 └── pyproject.toml
 ```
+
+### Adding a section
+
+1. Add its slug and label to `NAV` in `src/rewatchables/app/state.py`.
+2. Write `src/rewatchables/app/sections/<slug>.py` with a `render(ctx)`.
+3. Register it in `RENDERERS` in `sections/__init__.py`.
+
+`ctx` carries every frame the app reads; see `context.py`. The tests pick the
+new rail entry up from `NAV` on their own.
 
 ## API sources
 
