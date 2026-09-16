@@ -18,6 +18,7 @@ from unittest.mock import MagicMock, patch
 import pandas as pd
 import pytest
 
+from rewatchables.app.data import GENDERS, GENDER_LABEL, gender_from_people
 from rewatchables.pipeline import s09_enrich_metadata as mod
 
 ROOT = Path(__file__).parent.parent
@@ -347,22 +348,24 @@ class TestEnrichFillsPeople:
 # ---------------------------------------------------------------------------
 
 def _app_helpers():
-    """gender_from_people and explode_cast, lifted out of app.py.
+    """explode_cast, lifted out of app.py.
 
-    app.py runs Streamlit at import, so the functions are read out of its AST
-    and executed in a bare namespace -- the same trick conftest uses for NAV.
+    app.py runs Streamlit at import, so the function is read out of its AST and
+    executed in a bare namespace -- the same trick conftest uses for NAV.
+    gender_from_people and the gender constants moved to rewatchables.app.data
+    in the phase 2 split, and are imported above like any other function.
     """
     import ast
     from collections import Counter
 
     tree = ast.parse((ROOT / "app.py").read_text(encoding="utf-8"))
-    wanted = {"gender_from_people", "explode_cast", "GENDERS", "GENDER_LABEL",
-              "BILLED"}
+    wanted = {"explode_cast", "BILLED"}
     # explode_cast falls back to the app's module-level GENDER_MAP, which is
     # built from the database at import. An empty one here is the right stand-in:
     # every test that cares about gender passes its own map explicitly, and the
     # ungendered tests must behave the same either way.
-    ns = {"Counter": Counter, "pd": pd, "GENDER_MAP": {}}
+    ns = {"Counter": Counter, "pd": pd, "GENDER_MAP": {},
+          "GENDERS": GENDERS, "GENDER_LABEL": GENDER_LABEL}
     for node in tree.body:
         if isinstance(node, ast.FunctionDef) and node.name in wanted:
             exec(compile(ast.Module([node], []), "<app>", "exec"), ns)
@@ -389,12 +392,12 @@ class TestGenderFromPeople:
     ])
 
     def test_maps_names_to_gender(self):
-        m = APP["gender_from_people"](self.PEOPLE)
+        m = gender_from_people(self.PEOPLE)
         assert m["Al Pacino"] == "M"
         assert m["Ashley Judd"] == "F"
 
     def test_a_name_with_no_person_row_is_unknown(self):
-        m = APP["gender_from_people"](self.PEOPLE)
+        m = gender_from_people(self.PEOPLE)
         assert m.get("Nobody At All", "unknown") == "unknown"
 
     def test_two_people_sharing_a_name_collapse_to_unknown(self):
@@ -407,18 +410,18 @@ class TestGenderFromPeople:
             {"name": "Chris Evans", "gender": "M"},
             {"name": "Chris Evans", "gender": "F"},
         ])
-        assert APP["gender_from_people"](clash)["Chris Evans"] == "unknown"
+        assert gender_from_people(clash)["Chris Evans"] == "unknown"
 
     def test_agreeing_duplicates_keep_their_gender(self):
         dupes = pd.DataFrame([
             {"name": "Al Pacino", "gender": "M"},
             {"name": "Al Pacino", "gender": "M"},
         ])
-        assert APP["gender_from_people"](dupes)["Al Pacino"] == "M"
+        assert gender_from_people(dupes)["Al Pacino"] == "M"
 
     def test_a_null_gender_reads_as_unknown(self):
         rows = pd.DataFrame([{"name": "Someone", "gender": None}])
-        assert APP["gender_from_people"](rows)["Someone"] == "unknown"
+        assert gender_from_people(rows)["Someone"] == "unknown"
 
 
 class TestExplodeCastByGender:
