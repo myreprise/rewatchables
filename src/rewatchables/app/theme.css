@@ -1,0 +1,1053 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+:root {
+  --ink:#0B0D0C; --ink-2:#101211; --ink-3:#171A18; --ink-4:#1E221F;
+  --line:#262B28; --line-2:#333934;
+  --mint:#2BE8A0; --mint-deep:#17A87C; --mint-dim:#0D6249;
+  --tape:#F2EFE6; --tape-2:#D9D5C9; --coral:#E2624F;
+  --txt-2:#9AA39D; --txt-3:#6B736E;
+}
+
+/* ── Base ─────────────────────────────────────────────────────────────── */
+.stApp { background:var(--ink); color:var(--tape); }
+html, body, .stApp, .stMarkdown, .stText {
+  font-family:'Archivo','Helvetica Neue',Arial,sans-serif;
+}
+[data-testid="stHeader"] { background:transparent; }
+.block-container { padding-top:2.4rem; max-width:1500px; }
+hr { border-color:var(--line); }
+::selection { background:var(--mint); color:var(--ink); }
+:focus-visible { outline:2px solid var(--mint); outline-offset:2px; }
+@media (prefers-reduced-motion:reduce) { * { transition:none !important; } }
+
+/* ── Sidebar ──────────────────────────────────────────────────────────── */
+section[data-testid="stSidebar"] { background:var(--ink-2); border-right:1px solid var(--line); }
+.rw-brand { display:flex; align-items:center; gap:10px; padding:2px 0 14px; }
+.rw-brand svg { width:30px; height:30px; flex:none; }
+.rw-brand b {
+  display:block; font-family:'Archivo Black',Arial Black,sans-serif; font-weight:400;
+  font-size:13px; line-height:1.15; color:var(--tape);
+}
+.rw-brand span {
+  display:block; font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:8.5px;
+  letter-spacing:.05em; color:var(--txt-3); margin-top:4px; white-space:nowrap;
+}
+.rw-foot {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:10px;
+  letter-spacing:.06em; color:var(--txt-3); line-height:1.8; text-transform:uppercase;
+}
+
+/* Nav — the section radios, restyled as one rail with mono numbering.
+   The rail is one radio per group, so the counter is reset on the sidebar and
+   not on the radiogroup: a per-group reset restarts the numbering at 01 under
+   every heading instead of running 01..09 down the whole rail. */
+section[data-testid="stSidebar"] { counter-reset:rwnav; }
+section[data-testid="stSidebar"] div[role="radiogroup"] {
+  display:flex; flex-direction:column; gap:2px;
+}
+.rw-navgroup {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:9.5px;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--txt-3);
+  margin:16px 0 5px 3px;
+}
+section[data-testid="stSidebar"] div[role="radiogroup"] > label {
+  display:flex; align-items:center; gap:9px; padding:8px 10px; margin:0;
+  border-radius:5px; cursor:pointer; background:transparent;
+  transition:background .15s;
+}
+section[data-testid="stSidebar"] div[role="radiogroup"] > label::before {
+  counter-increment:rwnav; content:counter(rwnav,decimal-leading-zero);
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:10.5px;
+  color:var(--txt-3); width:16px; flex:none;
+}
+section[data-testid="stSidebar"] div[role="radiogroup"] > label > div:first-child { display:none; }
+section[data-testid="stSidebar"] div[role="radiogroup"] p {
+  font-size:13.5px !important; font-weight:500 !important; color:var(--txt-2);
+  margin:0 !important; line-height:1.3;
+}
+section[data-testid="stSidebar"] div[role="radiogroup"] > label:hover { background:var(--ink-3); }
+section[data-testid="stSidebar"] div[role="radiogroup"] > label:hover p { color:var(--tape); }
+section[data-testid="stSidebar"] div[role="radiogroup"] > label:has(input:checked) {
+  background:var(--mint); box-shadow:2px 2px 0 rgba(0,0,0,.4);
+}
+section[data-testid="stSidebar"] div[role="radiogroup"] > label:has(input:checked) p {
+  color:var(--ink); font-weight:700 !important;
+}
+section[data-testid="stSidebar"] div[role="radiogroup"] > label:has(input:checked)::before {
+  color:rgba(11,13,12,.55);
+}
+
+/* ── Masthead ─────────────────────────────────────────────────────────── */
+.rw-masthead {
+  position:relative; overflow:hidden; padding:24px 26px 20px; margin:0 0 4px;
+  border:1px solid var(--line); border-radius:8px;
+  background:linear-gradient(180deg,#14231D 0%,#0B0D0C 100%);
+}
+.rw-masthead h1 {
+  position:relative; margin:0; padding:0;
+  font-family:'Archivo Black',Arial Black,sans-serif; font-weight:400;
+  font-size:30px; line-height:1.1; letter-spacing:-.02em; color:var(--tape);
+}
+.rw-masthead p {
+  position:relative; margin:8px 0 0; max-width:60ch;
+  font-size:13.5px; color:var(--txt-2); line-height:1.5;
+}
+.rw-watermark {
+  position:absolute; right:-46px; top:-64px; width:250px; height:250px;
+  opacity:.10; pointer-events:none;
+}
+
+/* ── Tape-strip section headings ──────────────────────────────────────── */
+.rw-tape-row { margin:26px 0 10px; }
+.rw-tape {
+  display:inline-block; position:relative; background:var(--tape); color:var(--ink);
+  font-family:'Archivo Black',Arial Black,sans-serif; font-weight:400;
+  font-size:13px; letter-spacing:.02em; text-transform:uppercase;
+  padding:7px 15px; transform:rotate(-.9deg);
+  box-shadow:2px 2px 0 rgba(0,0,0,.45);
+}
+.rw-tape::before, .rw-tape::after {
+  content:""; position:absolute; left:0; right:0; height:3px;
+  background:repeating-linear-gradient(90deg,#0B0D0C 0 3px,transparent 3px 6px);
+  opacity:.45;
+}
+.rw-tape::before { top:0; }
+.rw-tape::after { bottom:0; }
+.rw-tape.alt { transform:rotate(.7deg); }
+
+/* ── Headings ─────────────────────────────────────────────────────────── */
+h1, h2 {
+  font-family:'Archivo Black',Arial Black,sans-serif !important; font-weight:400 !important;
+  color:var(--tape) !important; letter-spacing:-.015em;
+}
+h3 { color:var(--tape) !important; font-size:1.02rem !important; font-weight:700 !important; }
+
+/* ── Metric tiles ─────────────────────────────────────────────────────── */
+[data-testid="stMetric"], div[data-testid="metric-container"] {
+  background:var(--ink-2); border:1px solid var(--line); border-radius:7px;
+  padding:13px 14px 12px; position:relative; overflow:hidden;
+}
+[data-testid="stMetric"]::after, div[data-testid="metric-container"]::after {
+  content:""; position:absolute; left:0; top:0; bottom:0; width:3px; background:var(--mint-dim);
+}
+[data-testid="stMetricLabel"], [data-testid="stMetricLabel"] p {
+  font-family:'IBM Plex Mono',ui-monospace,monospace !important;
+  font-size:9.5px !important; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--txt-3) !important;
+  /* Streamlit clips a metric label to one line with an ellipsis, which turns
+     "Median gross (2024$)" into "Median gross (2..." — dropping the half that
+     says which dollars. Let it wrap instead; the tiles are a fixed grid and
+     already have the vertical room. */
+  white-space:normal !important; overflow:visible !important;
+  text-overflow:clip !important; line-height:1.45 !important;
+}
+.rw-tile {
+  background:var(--ink-2); border:1px solid var(--line); border-radius:7px;
+  padding:13px 14px 12px; position:relative; overflow:hidden; display:inline-block;
+  min-width:180px;
+}
+.rw-tile::after { content:""; position:absolute; left:0; top:0; bottom:0; width:3px; background:var(--coral); }
+.rw-tile .k {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:9.5px;
+  letter-spacing:.13em; text-transform:uppercase; color:var(--txt-3);
+}
+.rw-tile .v {
+  font-family:'Archivo Black',Arial Black,sans-serif; font-size:29px; line-height:1.15;
+  color:var(--coral); font-variant-numeric:tabular-nums; letter-spacing:-.02em; margin-top:6px;
+}
+[data-testid="stMetricValue"] {
+  font-family:'Archivo Black',Arial Black,sans-serif !important;
+  font-size:29px !important; line-height:1.15 !important; color:var(--mint) !important;
+  font-variant-numeric:tabular-nums; letter-spacing:-.02em;
+}
+
+/* ── Poster cards ─────────────────────────────────────────────────────── */
+.poster-card {
+  background:var(--ink-3); border:1px solid var(--line); border-radius:6px;
+  overflow:hidden; margin-bottom:12px;
+  transition:border-color .15s, transform .15s;
+}
+.poster-card:hover { border-color:var(--mint); transform:translateY(-2px); }
+/* Verdict band for poster grids that carry one. It sits between the art and the
+   title strip and is the whole tag -- so it is weighted to read as a deliberate
+   band across a grid rather than as a hairline. */
+.poster-rule { height:5px; }
+.poster-rule.cruise { background:#C98500; }
+.poster-rule.hanks  { background:#4A8FE0; }
+.poster-rule.tie    { background:#6B736E; }
+.poster-label { padding:7px 9px 8px; font-size:.72rem; color:var(--txt-3); line-height:1.35; min-height:44px; }
+.poster-label strong {
+  display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;
+  color:var(--tape); font-size:.76rem; font-weight:600;
+}
+.poster-label span {
+  color:var(--mint); font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:.68rem;
+}
+.poster-plate {
+  position:relative; display:flex; align-items:flex-end; padding:9px; overflow:hidden;
+  background:linear-gradient(160deg,#1D2B25 0%,#101211 62%,#0B0D0C 100%);
+}
+.poster-plate b {
+  position:relative; font-family:'Archivo Black',Arial Black,sans-serif; font-weight:400;
+  font-size:11px; line-height:1.2; text-transform:uppercase; color:var(--tape-2);
+}
+.poster-plate svg { position:absolute; right:-16px; top:-16px; width:76px; height:76px; opacity:.14; }
+/* Every plate is a poster's own 2:3 at its column's width, so the cards in a
+   grid share one size and every card in the app shares one shape. A fixed
+   pixel height against a fluid column made the box whatever shape the viewport
+   produced -- near-square six across, a letterbox strip in a one-film shelf --
+   and cover cropped the poster to match. TMDB posters are 2:3 to within 1%
+   (644 of 661, the rest within 5%), so cover now trims a sliver off those few. */
+.poster-img { box-sizing:border-box; width:100%; aspect-ratio:2/3; }
+img.poster-img { display:block; object-fit:cover; }
+
+/* ── Ranked name/count rows (collaborator lists) ──────────────────────── */
+.rw-rank { display:flex; align-items:center; gap:10px; padding:5px 0; }
+.rw-rank .n { font-size:13px; color:var(--tape-2); width:44%; flex:none;
+  overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.rw-rank .bar { flex:1; height:14px; background:var(--ink-3); border-radius:2px; overflow:hidden; }
+.rw-rank .bar i { display:block; height:14px; background:var(--mint-deep); }
+/* Three-name lineups ("Chris Ryan + Mallory Rubin + Sean Fennessey") ran to
+   an ellipsis at 64% in a two-fifths column; the bar only has to show rank. */
+.rw-rank.wide .n { width:74%; }
+.rw-rank .c {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:11px;
+  color:var(--txt-2); width:22px; flex:none; text-align:right;
+  font-variant-numeric:tabular-nums;
+}
+
+/* ── Chips & badges ───────────────────────────────────────────────────── */
+.badge {
+  display:inline-flex; align-items:center; padding:3px 8px; margin:2px 3px 2px 0;
+  border-radius:3px; font-family:'IBM Plex Mono',ui-monospace,monospace;
+  font-size:10px; font-weight:700; letter-spacing:.07em; text-transform:uppercase;
+  background:var(--ink-3); border:1px solid var(--line-2); color:var(--txt-2);
+}
+.badge-mint { background:rgba(43,232,160,.13); border-color:rgba(43,232,160,.35); color:var(--mint); }
+.badge-revisit { background:rgba(226,98,79,.16); border-color:rgba(226,98,79,.42); color:var(--coral); }
+.chip-row { display:flex; flex-wrap:wrap; gap:6px; margin:8px 0; }
+
+/* ── Controls ─────────────────────────────────────────────────────────── */
+.stButton > button {
+  background:var(--ink-3); color:var(--tape); border:1px solid var(--line-2);
+  border-radius:5px; font-weight:600; transition:border-color .15s, color .15s;
+}
+.stButton > button:hover { border-color:var(--mint); color:var(--mint); }
+[data-baseweb="tag"] { background:var(--mint) !important; color:var(--ink) !important; }
+[data-baseweb="tag"] span { color:var(--ink) !important; }
+
+/* Selects and multiselects. Stock BaseWeb ships them as #101211 on a #0B0D0C
+   page with a border the same colour as their own fill -- a control with no
+   edge, set in Source Sans, which is the one typeface the rest of the page
+   never uses. They read as gaps in the layout rather than as things to click.
+   Given the same treatment as .stButton so every control on the page is
+   recognisably the same family. !important throughout: BaseWeb sets these
+   inline, and an inline style beats a stylesheet regardless of specificity. */
+[data-baseweb="select"] > div {
+  background:var(--ink-3) !important; border:1px solid var(--line-2) !important;
+  border-radius:5px !important; transition:border-color .15s;
+}
+[data-baseweb="select"] > div:hover { border-color:var(--mint) !important; }
+[data-baseweb="select"] > div:focus-within {
+  border-color:var(--mint) !important;
+  box-shadow:0 0 0 3px rgba(43,232,160,.15) !important;
+}
+[data-baseweb="select"] input, [data-baseweb="select"] div[value] {
+  font-family:'IBM Plex Mono',ui-monospace,monospace !important;
+  font-size:12px !important; letter-spacing:.04em;
+}
+/* The chevron is the one saturated mark in an otherwise monochrome row, which
+   is what the eye lands on. Scoped to the control: the tag close crosses on a
+   multiselect are svgs too, and they sit on mint already. */
+[data-baseweb="select"] > div > div:last-child svg { color:var(--mint); }
+
+/* The menu, which otherwise floats edgeless over the poster grid. */
+[data-baseweb="popover"] ul {
+  background:var(--ink-2) !important; border:1px solid var(--line-2) !important;
+  border-radius:5px !important;
+}
+[data-baseweb="popover"] li {
+  font-family:'IBM Plex Mono',ui-monospace,monospace !important;
+  font-size:12px !important; color:var(--txt-2) !important;
+}
+[data-baseweb="popover"] li[aria-selected="true"] {
+  background:rgba(43,232,160,.13) !important; color:var(--mint) !important;
+}
+
+/* Widget labels, as the mono micro-caps every other piece of furniture uses.
+   Matches .rw-kw-eyebrow, so the sidebar filters and the sort picker announce
+   themselves the same way a section eyebrow does. */
+[data-testid="stWidgetLabel"] p {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:9.5px;
+  letter-spacing:.18em; text-transform:uppercase; color:var(--txt-3);
+}
+
+/* ── Tables ───────────────────────────────────────────────────────────── */
+.stDataFrame { background:var(--ink-2); border:1px solid var(--line); border-radius:7px; }
+[data-testid="stTable"] { background:var(--ink-2); }
+
+/* ── Cruise vs. Hanks ─────────────────────────────────────────────────── */
+/* Amber/blue are the SERIES slots already assigned to the two camps; the
+   scoreboard, the guest splits and the streak cards all read off the same
+   two hues so the pairing never has to be re-learned mid-section. */
+
+/* Fight-card header. Two portraits squared off across the running score, each
+   backed by a rail of posters from THAT actor's films the podcast has actually
+   covered -- 18 for Cruise, 11 for Hanks -- so the art is drawn from the same
+   dataset as the charts rather than being decoration bolted on top. */
+.ch-hero {
+  position:relative; overflow:hidden; border:1px solid var(--line); border-radius:8px;
+  background:linear-gradient(180deg,#14231D 0%,#0B0D0C 100%);
+  padding:22px 26px; margin-bottom:4px; min-height:196px;
+  display:flex; align-items:center;
+}
+.ch-rail {
+  position:absolute; top:50%; transform:translateY(-50%); width:44%;
+  display:flex; gap:5px; align-items:center; pointer-events:none;
+  opacity:.34; user-select:none;
+}
+.ch-rail img { height:230px; width:auto; flex:none; filter:grayscale(.72) contrast(1.02); }
+/* Scrim between the rails and the type. The posters are texture, not content --
+   without this the captions sit on top of poster lettering and stop being
+   readable, which is the usual way a photo header goes wrong. */
+.ch-hero::before {
+  content:""; position:absolute; inset:0; z-index:1; pointer-events:none;
+  background:linear-gradient(90deg,
+    rgba(11,13,12,.42) 0%, rgba(11,13,12,.86) 20%, rgba(11,13,12,.93) 50%,
+    rgba(11,13,12,.86) 80%, rgba(11,13,12,.42) 100%);
+}
+/* Fade each rail out toward the centre so the portraits and score stay legible. */
+.ch-rail.l { left:0;
+  -webkit-mask-image:linear-gradient(90deg,#000 0%,#000 42%,transparent 92%);
+          mask-image:linear-gradient(90deg,#000 0%,#000 42%,transparent 92%); }
+.ch-rail.r { right:0; justify-content:flex-end;
+  -webkit-mask-image:linear-gradient(270deg,#000 0%,#000 42%,transparent 92%);
+          mask-image:linear-gradient(270deg,#000 0%,#000 42%,transparent 92%); }
+
+.ch-hero-inner {
+  position:relative; z-index:2; width:100%;
+  display:flex; align-items:center; justify-content:space-between; gap:22px;
+}
+/* The two fighters hold their size; the centre column is the one that gives, so
+   a narrow viewport squeezes the blurb rather than pushing a portrait out of
+   the overflow:hidden container. */
+.ch-fighter { display:flex; align-items:center; gap:15px; flex:0 0 auto; min-width:0; }
+.ch-fighter.r { flex-direction:row-reverse; text-align:right; }
+/* Duotone: a greyscale portrait blended onto the camp's own colour plate, so
+   the two men carry the same amber/blue coding as every chart below. */
+.ch-face {
+  width:108px; height:152px; flex:none; border-radius:5px; overflow:hidden;
+  position:relative; isolation:isolate; box-shadow:0 10px 26px rgba(0,0,0,.6);
+}
+.ch-face.c { background:#C98500; }
+.ch-face.h { background:#4A8FE0; }
+.ch-face img {
+  width:100%; height:100%; object-fit:cover; object-position:center 12%; display:block;
+  filter:grayscale(1) contrast(1.06); mix-blend-mode:luminosity;
+}
+.ch-name {
+  font-family:'Archivo Black',Arial Black,sans-serif; font-weight:400;
+  font-size:25px; line-height:1; letter-spacing:-.02em;
+}
+.ch-name.c { color:#E8A21F; }
+.ch-name.h { color:#7BB0EE; }
+.ch-tally {
+  font-family:'Archivo Black',Arial Black,sans-serif; font-size:38px; line-height:1;
+  color:var(--tape); font-variant-numeric:tabular-nums; margin-top:7px;
+}
+.ch-sub {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:9.5px;
+  letter-spacing:.11em; text-transform:uppercase; color:var(--txt-3); margin-top:7px;
+}
+.ch-vs { text-align:center; flex:1 1 auto; min-width:0; padding:0 6px; }
+/* Never break "Who ya got?" across lines -- it shrinks with the viewport
+   instead, because the phrase is the section's name and reads as damaged split. */
+.ch-vs .q {
+  font-family:'Archivo Black',Arial Black,sans-serif; font-weight:400;
+  font-size:clamp(17px,2.1vw,31px); line-height:1.02; color:var(--tape);
+  letter-spacing:-.02em; white-space:nowrap;
+}
+.ch-vs .bolt {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:10px; font-weight:600;
+  letter-spacing:.26em; color:var(--txt-3); margin-bottom:9px; white-space:nowrap;
+}
+.ch-vs .blurb {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:10px;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--txt-3); margin-top:11px;
+}
+@media (max-width:1100px) { .ch-rail { display:none; } }
+@media (max-width:820px) {
+  .ch-hero-inner { flex-direction:column; gap:16px; }
+  .ch-fighter, .ch-fighter.r { flex-direction:column; text-align:center; }
+}
+.ch-score { display:flex; align-items:flex-end; justify-content:space-between; gap:18px; margin-bottom:10px; }
+.ch-score .who {
+  font-family:'Archivo Black',Arial Black,sans-serif; font-size:34px; line-height:1;
+  letter-spacing:-.02em;
+}
+.ch-score .cruise { color:#E8A21F; }
+.ch-score .hanks  { color:#7BB0EE; }
+.ch-score .cnt {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:12.5px;
+  color:var(--txt-2); margin-top:6px; letter-spacing:.04em;
+}
+.ch-score .r { text-align:right; }
+.ch-score .mid {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:10px;
+  color:var(--txt-3); letter-spacing:.12em; padding-bottom:6px; white-space:nowrap;
+}
+.ch-tug { display:flex; height:42px; border:1px solid var(--line-2); overflow:hidden; }
+.ch-tug div {
+  display:flex; align-items:center; font-family:'IBM Plex Mono',ui-monospace,monospace;
+  font-size:13px; font-weight:600; color:var(--ink);
+}
+.ch-tug .c { background:#C98500; padding-left:13px; }
+.ch-tug .t { background:var(--txt-3); justify-content:center; font-size:11px; }
+.ch-tug .h { background:#4A8FE0; justify-content:flex-end; padding-right:13px; }
+
+.ch-note { font-size:13px; color:var(--txt-3); margin:10px 0 0; max-width:74ch; line-height:1.55; }
+.ch-note b { color:var(--txt-2); font-weight:600; }
+
+.ch-null {
+  margin-top:14px; padding:13px 16px; background:var(--ink-3);
+  border-left:2px solid var(--coral); font-size:13.5px; color:var(--tape-2); line-height:1.55;
+}
+.ch-null b { color:var(--tape); }
+
+.ch-streak {
+  background:var(--ink-3); border:1px solid var(--line); padding:13px 15px;
+  border-radius:5px; height:100%;
+}
+.ch-streak .n {
+  font-family:'Archivo Black',Arial Black,sans-serif; font-size:25px; line-height:1;
+}
+.ch-streak .lbl {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:9.5px;
+  letter-spacing:.11em; color:var(--txt-3); margin:6px 0 8px;
+}
+.ch-streak .films { font-size:12px; color:var(--txt-2); line-height:1.5; }
+
+.ch-guest { display:flex; align-items:center; gap:12px; padding:5px 0; }
+.ch-guest .gn { font-size:13px; color:var(--tape-2); width:150px; flex:none; }
+.ch-guest .bar { display:flex; height:18px; flex:1; overflow:hidden; }
+.ch-guest .bar i { display:block; height:18px; }
+.ch-guest .num {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:11px;
+  color:var(--txt-3); width:104px; flex:none; text-align:right;
+}
+
+/* ── Film dossier ─────────────────────────────────────────────────────── */
+/* The per-film detail view. Nothing here restyles an existing class; the
+   dossier borrows the masthead gradient, the tape strips, the metric-tile
+   grammar and the amber/blue Cruise-Hanks pairing already defined above. */
+
+/* Poster grids: the title strip under each plate is a real st.button, flattened
+   so a grid of them still reads as a grid. Scoped by the marker span the card
+   emits, so the sidebar and Surprise-me buttons keep their own styling. */
+.rw-cardmark { display:none; }
+/* Streamlit sizes a column's contents from a pixel width it measured itself --
+   on the inner block and each element container by class, and on the element
+   inside (stMarkdown, stButton) by inline style -- and after a section change
+   those can hold a width that is not the column's: seen at 742px inside a
+   103px column. Plates are sized by width, so a stale width shows as a 740x1111
+   poster spilling over its neighbours. Each level carries its own width, so
+   clamping the block alone is not enough; all three are held to the column. */
+div[data-testid="stVerticalBlock"]:has(> div > div > div > div > .rw-cardmark),
+div[data-testid="stVerticalBlock"]:has(> div > div > div > div > .rw-cardmark) > div[data-testid="stElementContainer"],
+div[data-testid="stVerticalBlock"]:has(> div > div > div > div > .rw-cardmark) > div[data-testid="stElementContainer"] > div {
+  width:100% !important; max-width:100%;
+}
+div[data-testid="stVerticalBlock"]:has(> div > div > div > div > .rw-cardmark) div[data-testid="stButton"] button {
+  background:var(--ink-3); border:1px solid var(--line); border-top:0;
+  border-radius:0 0 6px 6px; margin-top:-13px; margin-bottom:12px;
+  padding:7px 9px 8px; display:flex; flex-direction:column; gap:2px;
+  align-items:flex-start; justify-content:flex-start; text-align:left;
+  /* Matches the min-height the old .poster-label carried, so a two-line title
+     in one column does not push the next row of that column out of step. */
+  min-height:46px;
+  white-space:normal; transition:border-color .15s, color .15s, background .15s;
+}
+div[data-testid="stVerticalBlock"]:has(> div > div > div > div > .rw-cardmark) div[data-testid="stButton"] button:hover {
+  border-color:var(--mint); background:var(--ink-4);
+}
+/* The button's own box is only the title strip, but the whole card is one
+   target: this reaches the hit area up over the plate so a click anywhere on
+   the poster opens the dossier. The button stays a real button with its text
+   label, so keyboard and screen-reader behaviour is unchanged.
+   How far up is one plate height, and a plate is 2:3 at its column's width --
+   which is the button's width too. A percentage margin resolves against the
+   containing block's width even when it is vertical, so -150% reaches exactly
+   one plate up at any column count. The 12px is the button's own -13px margin
+   less its border; it undershoots by a pixel deliberately, because a dead
+   hairline at the top of a plate is invisible where an overlay reaching into
+   the row above would steal that card's clicks. */
+div[data-testid="stVerticalBlock"]:has(> div > div > div > div > .rw-cardmark) div[data-testid="stButton"] button {
+  position:relative;
+}
+div[data-testid="stVerticalBlock"]:has(> div > div > div > div > .rw-cardmark) div[data-testid="stButton"] button::after {
+  content:''; position:absolute; left:0; right:0; top:0; bottom:0; z-index:2;
+  margin-top:calc(-150% + 12px);
+}
+/* A verdict band sits between the plate and the strip, so a toned card
+   reaches 5px further. */
+div[data-testid="stVerticalBlock"]:has(> div > div > div > div > .rw-cardmark.toned) div[data-testid="stButton"] button::after { margin-top:calc(-150% + 7px); }
+/* With the plate covered, .poster-card:hover can no longer fire -- the pointer
+   is over the button. Drive both halves off the button so the card and its
+   strip light up and lift together instead of one at a time. */
+div[data-testid="stVerticalBlock"]:has(> div > div > div > div > .rw-cardmark):has(div[data-testid="stButton"] button:hover) .poster-card {
+  border-color:var(--mint); transform:translateY(-2px);
+}
+div[data-testid="stVerticalBlock"]:has(> div > div > div > div > .rw-cardmark) div[data-testid="stButton"] button:hover {
+  transform:translateY(-2px);
+}
+div[data-testid="stVerticalBlock"]:has(> div > div > div > div > .rw-cardmark) div[data-testid="stButton"] button p {
+  margin:0 !important; font-size:.76rem !important; font-weight:600 !important;
+  line-height:1.3 !important; color:var(--tape) !important;
+}
+/* The caption line keeps the mono treatment the poster label used. */
+div[data-testid="stVerticalBlock"]:has(> div > div > div > div > .rw-cardmark) div[data-testid="stButton"] button p + p {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:.68rem !important;
+  font-weight:400 !important; color:var(--mint) !important;
+}
+div[data-testid="stVerticalBlock"]:has(> div > div > div > div > .rw-cardmark) div[data-testid="stButton"] button:hover p {
+  color:var(--mint) !important;
+}
+
+/* Return bar */
+.rw-dt-bar { display:flex; align-items:center; gap:14px; flex-wrap:wrap; margin-bottom:6px; }
+.rw-dt-count {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:10px;
+  letter-spacing:.12em; text-transform:uppercase; color:var(--txt-3);
+}
+
+/* Hero */
+.rw-dt-hero {
+  position:relative; overflow:hidden; border:1px solid var(--line); border-radius:8px;
+  background:linear-gradient(180deg,#14231D 0%,#0B0D0C 100%);
+  display:grid; grid-template-columns:186px 1fr; gap:26px; padding:24px 26px;
+}
+.rw-dt-hero .rw-watermark { right:-52px; top:-70px; width:266px; height:266px; }
+.rw-dt-poster {
+  position:relative; width:186px; border-radius:5px; overflow:hidden;
+  border:1px solid var(--line-2); box-shadow:5px 5px 0 rgba(0,0,0,.5); align-self:start;
+}
+.rw-dt-poster img { width:100%; display:block; }
+.rw-dt-poster .poster-plate { height:275px; }
+.rw-dt-id { position:relative; min-width:0; }
+.rw-dt-id h1 {
+  font-family:'Archivo Black',Arial Black,sans-serif; font-weight:400;
+  font-size:clamp(26px,3.4vw,40px); line-height:1.04; letter-spacing:-.025em;
+  color:var(--tape); margin:0; text-wrap:balance;
+}
+.rw-dt-id h1 span { color:var(--txt-3); font-size:.62em; letter-spacing:-.01em; }
+.rw-dt-cred {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:11.5px;
+  letter-spacing:.06em; color:var(--txt-2); margin:12px 0 0;
+}
+.rw-dt-cred i { color:var(--txt-3); font-style:normal; padding:0 7px; }
+
+/* Stat rail — the metric tile, sized down to sit inside the hero */
+.rw-dt-rail {
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(112px,1fr));
+  gap:9px; margin-top:20px;
+}
+.rw-dt-stat {
+  background:rgba(11,13,12,.55); border:1px solid var(--line); border-radius:6px;
+  padding:10px 12px 11px; position:relative; overflow:hidden;
+}
+.rw-dt-stat::after {
+  content:""; position:absolute; left:0; top:0; bottom:0; width:3px; background:var(--mint-dim);
+}
+.rw-dt-stat.is-coral::after { background:var(--coral); }
+.rw-dt-stat .k {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:8.5px;
+  letter-spacing:.13em; text-transform:uppercase; color:var(--txt-3); display:block;
+}
+.rw-dt-stat .v {
+  font-family:'Archivo Black',Arial Black,sans-serif; font-size:21px; line-height:1.15;
+  color:var(--mint); font-variant-numeric:tabular-nums; letter-spacing:-.02em;
+  margin-top:5px; display:block;
+}
+.rw-dt-stat.is-coral .v { color:var(--coral); }
+.rw-dt-stat .u { font-size:.55em; color:var(--txt-3); letter-spacing:0; }
+.rw-dt-stat .miss {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:14px;
+  color:var(--txt-3); margin-top:9px; display:block; letter-spacing:.1em;
+}
+
+/* Episode spine */
+.rw-dt-spine { position:relative; margin-top:6px; padding-left:26px; }
+.rw-dt-spine::before {
+  content:""; position:absolute; left:6px; top:14px; bottom:14px; width:1px;
+  background:linear-gradient(180deg,var(--mint-dim),var(--line));
+}
+.rw-dt-ep { position:relative; margin-bottom:11px; }
+.rw-dt-ep::before {
+  content:""; position:absolute; left:-24px; top:19px; width:9px; height:9px;
+  border-radius:50%; background:var(--ink); border:2px solid var(--mint-deep);
+}
+.rw-dt-ep.is-revisit::before { border-color:var(--coral); }
+.rw-dt-epcard {
+  background:var(--ink-2); border:1px solid var(--line); border-radius:6px;
+  padding:14px 17px 15px;
+}
+.rw-dt-ephead { display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; }
+.rw-dt-epno {
+  font-family:'Archivo Black',Arial Black,sans-serif; font-size:19px; color:var(--tape);
+  font-variant-numeric:tabular-nums; letter-spacing:-.02em;
+}
+.rw-dt-epno span { color:var(--txt-3); font-size:.62em; }
+.rw-dt-epdate {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:11px;
+  letter-spacing:.07em; color:var(--txt-2);
+}
+.rw-dt-epflags { margin-left:auto; display:flex; gap:5px; flex-wrap:wrap; }
+.rw-dt-eproom {
+  display:flex; flex-wrap:wrap; align-items:center; gap:7px; margin-top:11px;
+  font-size:13px; color:var(--tape-2);
+}
+.rw-dt-eproom .lbl {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:9px;
+  letter-spacing:.13em; text-transform:uppercase; color:var(--txt-3); margin-right:2px;
+}
+.rw-dt-person {
+  display:inline-flex; align-items:center; gap:6px; padding:3px 9px 3px 5px;
+  background:var(--ink-3); border:1px solid var(--line); border-radius:20px; font-size:12.5px;
+}
+.rw-dt-person i {
+  width:17px; height:17px; border-radius:50%; background:var(--mint-dim); color:var(--ink);
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:8.5px; font-style:normal;
+  font-weight:600; display:inline-flex; align-items:center; justify-content:center;
+}
+.rw-dt-person.is-host i { background:var(--mint); }
+.rw-dt-epnote {
+  margin-top:11px; padding:9px 13px; background:var(--ink-3);
+  border-left:2px solid #C98500; font-size:12.5px; color:var(--tape-2); line-height:1.55;
+}
+.rw-dt-epnote .lbl {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:9px;
+  letter-spacing:.13em; text-transform:uppercase; color:var(--txt-3);
+  display:block; margin-bottom:3px;
+}
+.rw-dt-gap {
+  display:flex; align-items:center; gap:9px; margin:0 0 11px -24px; padding-left:24px;
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:9.5px;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--txt-3);
+}
+.rw-dt-gap::before { content:"\\2304"; color:var(--mint-dim); font-size:13px; line-height:1; }
+
+/* Cruise / Hanks verdict badges — the pairing established in section 6 */
+.badge-cruise { background:rgba(201,133,0,.16); border-color:rgba(201,133,0,.45); color:#E8A21F; }
+.badge-hanks  { background:rgba(74,143,224,.16); border-color:rgba(74,143,224,.45); color:#7BB0EE; }
+
+/* Lower half */
+.rw-dt-panel {
+  background:var(--ink-2); border:1px solid var(--line); border-radius:7px;
+  padding:17px 19px 19px; margin-bottom:16px;
+}
+.rw-dt-loose {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:9.5px;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--txt-3) !important;
+  margin:4px 0 10px; font-weight:500 !important;
+}
+.rw-dt-panel > h4 {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:9.5px;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--txt-3);
+  margin:0 0 12px; font-weight:500;
+}
+.rw-dt-logline { font-size:15px; line-height:1.62; color:var(--tape); margin:0; max-width:66ch; }
+.rw-dt-kw { display:flex; flex-wrap:wrap; gap:5px; }
+.rw-dt-kw span {
+  padding:2px 8px; border-radius:3px; font-family:'IBM Plex Mono',ui-monospace,monospace;
+  font-size:10px; letter-spacing:.05em; background:rgba(13,98,73,.24);
+  border:1px solid rgba(23,168,124,.28); color:#79E9C2;
+}
+.rw-dt-cast { display:flex; flex-wrap:wrap; gap:6px; }
+.rw-dt-cast span {
+  padding:4px 10px; background:var(--ink-3); border:1px solid var(--line);
+  border-radius:20px; font-size:12.5px; color:var(--tape-2);
+}
+.rw-dt-cast span b {
+  color:var(--txt-3); font-weight:500;
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:10px; margin-left:4px;
+}
+
+/* Provenance footer */
+.rw-dt-prov {
+  margin-top:4px; padding:13px 17px; background:var(--ink-2);
+  border:1px solid var(--line); border-radius:7px;
+  display:flex; flex-wrap:wrap; gap:9px 28px; align-items:center;
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:9.5px;
+  letter-spacing:.1em; text-transform:uppercase; color:var(--txt-3);
+}
+.rw-dt-prov b { color:var(--txt-2); font-weight:500; }
+.rw-dt-prov a { color:var(--mint-deep); text-decoration:none; border-bottom:1px solid rgba(23,168,124,.35); }
+.rw-dt-prov a:hover { color:var(--mint); }
+.rw-dt-prov .conf { color:var(--mint); }
+
+@media (max-width:860px) {
+  .rw-dt-hero { grid-template-columns:1fr; }
+  .rw-dt-poster { width:150px; }
+}
+
+/* ── Keyword index ────────────────────────────────────────────────────── */
+/* The chip is the shared unit of both keyword surfaces. It always carries its
+   reach, because that number is what tells you whether following it is worth
+   the click — the job a consolidated vocabulary would otherwise have to do. */
+.rw-kw-field { display:flex; flex-wrap:wrap; gap:6px; align-items:center; }
+.rw-kw-chip {
+  display:inline-flex; align-items:baseline; gap:7px;
+  padding:5px 11px; border-radius:4px;
+  font-size:13px; line-height:1.2; color:var(--tape-2);
+  background:var(--ink-3); border:1px solid var(--line);
+}
+.rw-kw-chip b {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:10px;
+  font-weight:500; color:var(--txt-3); font-variant-numeric:tabular-nums;
+}
+.rw-kw-chip.b1 { background:rgba(43,232,160,.15); border-color:rgba(43,232,160,.45); color:var(--tape); font-size:15px; font-weight:600; }
+.rw-kw-chip.b2 { background:rgba(28,189,140,.12); border-color:rgba(28,189,140,.36); color:var(--tape); font-size:14px; font-weight:600; }
+.rw-kw-chip.b3 { background:rgba(23,168,124,.09); border-color:rgba(23,168,124,.28); color:var(--tape-2); font-size:13.5px; }
+.rw-kw-chip.b4 { background:rgba(13,98,73,.16); border-color:rgba(13,98,73,.42); }
+.rw-kw-chip.b5 { background:var(--ink-3); border-color:var(--line); font-size:12.5px; color:var(--txt-2); }
+.rw-kw-chip.is-here { background:var(--mint); border-color:var(--mint); color:var(--ink); font-weight:700; }
+.rw-kw-chip.is-here b { color:rgba(11,13,12,.6); }
+/* A keyword reaching only the film you are already on is still worth printing —
+   it describes the film. It just must not look like a door. */
+.rw-kw-chip.is-inert {
+  background:transparent; border-style:dashed; border-color:var(--line-2);
+  color:var(--txt-3); font-size:12.5px;
+}
+.rw-kw-chip.is-inert b { color:var(--txt-3); }
+
+/* Clickable chips are buttons. Streamlit stacks block children vertically, so
+   the marker's block is flipped to a wrapping row and its element containers
+   are released from full width — that is what makes buttons read as a chip
+   field rather than a column of bars. */
+.rw-kwmark { display:none; }
+/* Plain inline flow rather than a flex row: the block inherits flex:1 1 0 from
+   Streamlit's own layout, and flipping its direction collapses it to zero width
+   while the chips spill out one per line. */
+div[data-testid="stVerticalBlock"]:has(> div > div > div > .rw-kwmark) {
+  display:block; width:100%; gap:0;
+}
+/* max-width rather than width: Streamlit's own rule sets the container to 100%
+   and outranks a plain width:auto here, but capping it at the content width
+   shrinks it to the chip regardless of who wins on width. */
+/* Both widths carry !important. Streamlit sets the element container and the
+   button wrapper to 100% from its own stylesheet and wins the cascade here;
+   without overriding both, the chip re-inflates to the full row and every one
+   lands on its own line. */
+div[data-testid="stVerticalBlock"]:has(> div > div > div > .rw-kwmark)
+  > div[data-testid="stElementContainer"] {
+  display:inline-block; width:auto !important; vertical-align:top; margin:0 6px 6px 0;
+}
+div[data-testid="stVerticalBlock"]:has(> div > div > div > .rw-kwmark)
+  div[data-testid="stButton"] { width:auto !important; }
+div[data-testid="stVerticalBlock"]:has(> div > div > div > .rw-kwmark) div[data-testid="stButton"] button {
+  background:var(--ink-3); border:1px solid var(--line); border-radius:4px;
+  padding:5px 11px; min-height:0; width:auto;
+  font-size:13px; line-height:1.2; font-weight:500; color:var(--tape-2);
+  white-space:nowrap; transition:border-color .15s, color .15s, background .15s;
+}
+div[data-testid="stVerticalBlock"]:has(> div > div > div > .rw-kwmark) div[data-testid="stButton"] button:hover {
+  border-color:var(--mint); color:var(--mint); background:var(--ink-4);
+}
+div[data-testid="stVerticalBlock"]:has(> div > div > div > .rw-kwmark) div[data-testid="stButton"] button p {
+  font-size:13px !important; margin:0 !important; white-space:nowrap;
+}
+
+.rw-kw-legend {
+  display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:0 0 12px;
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:9.5px;
+  letter-spacing:.13em; text-transform:uppercase; color:var(--txt-3);
+}
+.rw-kw-legend i { display:block; width:22px; height:9px; border-radius:2px; }
+.rw-kw-legend .l1 { background:rgba(43,232,160,.55); }
+.rw-kw-legend .l2 { background:rgba(28,189,140,.42); }
+.rw-kw-legend .l3 { background:rgba(23,168,124,.3); }
+.rw-kw-legend .l4 { background:rgba(13,98,73,.45); }
+.rw-kw-legend .l5 { background:var(--line-2); }
+
+/* The long tail, stated rather than hidden */
+.rw-kw-tail {
+  margin-top:16px; padding:12px 16px; background:var(--ink-3);
+  border-left:2px solid var(--mint-dim); font-size:13px; color:var(--tape-2);
+  line-height:1.6; max-width:78ch;
+}
+.rw-kw-tail b { color:var(--tape); }
+
+.rw-kw-decades { display:grid; grid-template-columns:repeat(auto-fit,minmax(168px,1fr)); gap:12px; }
+.rw-kw-dec {
+  background:var(--ink-2); border:1px solid var(--line); border-radius:7px;
+  padding:13px 15px 14px; position:relative; overflow:hidden;
+}
+.rw-kw-dec::after { content:""; position:absolute; left:0; top:0; bottom:0; width:3px; background:var(--mint-dim); }
+.rw-kw-dec h5 {
+  margin:0 0 2px; font-family:'Archivo Black',Arial Black,sans-serif; font-weight:400;
+  font-size:19px; letter-spacing:-.02em; color:var(--tape);
+}
+.rw-kw-dec .n {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:9px;
+  letter-spacing:.13em; text-transform:uppercase; color:var(--txt-3);
+  display:block; margin-bottom:10px;
+}
+.rw-kw-dec ol { margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:5px; }
+.rw-kw-dec li { display:flex; align-items:baseline; gap:8px; font-size:12.5px; color:var(--tape-2); }
+.rw-kw-dec li span { flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.rw-kw-dec li b {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:10px; font-weight:500;
+  color:var(--mint-deep); font-variant-numeric:tabular-nums;
+}
+
+/* Keyword header */
+.rw-kw-head {
+  position:relative; overflow:hidden; border:1px solid var(--line); border-radius:8px;
+  background:linear-gradient(180deg,#14231D 0%,#0B0D0C 100%); padding:24px 26px 22px;
+}
+.rw-kw-head .rw-watermark { right:-46px; top:-64px; width:250px; height:250px; }
+.rw-kw-eyebrow {
+  position:relative; font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:9.5px;
+  letter-spacing:.18em; text-transform:uppercase; color:var(--txt-3); margin:0 0 8px;
+}
+.rw-kw-head h1 {
+  position:relative; margin:0; font-family:'Archivo Black',Arial Black,sans-serif;
+  font-weight:400; font-size:clamp(28px,4vw,44px); line-height:1.02;
+  letter-spacing:-.03em; color:var(--tape); text-wrap:balance;
+}
+.rw-kw-rail {
+  position:relative; display:grid; grid-template-columns:repeat(auto-fit,minmax(122px,1fr));
+  gap:9px; margin-top:20px;
+}
+
+/* Decade signature. The bar sits in a track of definite height: a percentage
+   set on the flex item itself resolves against the row and is then clamped by
+   whatever space the labels leave, flattening the tallest bar. */
+.rw-kw-bars { display:flex; align-items:flex-end; gap:10px; padding-top:6px; }
+.rw-kw-bar { flex:1; display:flex; flex-direction:column; gap:6px; }
+.rw-kw-bar .track { display:flex; align-items:flex-end; height:96px; }
+.rw-kw-bar i { display:block; width:100%; background:var(--mint-deep); border-radius:2px 2px 0 0; }
+.rw-kw-bar.is-peak i { background:var(--mint); }
+.rw-kw-bar .v {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:11px;
+  color:var(--tape-2); text-align:center; font-variant-numeric:tabular-nums;
+}
+.rw-kw-bar .d {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:9.5px;
+  letter-spacing:.1em; color:var(--txt-3); text-align:center; padding-top:5px;
+  border-top:1px solid var(--line);
+}
+.rw-kw-bar.is-peak .d { color:var(--mint); }
+.rw-kw-caption {
+  margin:12px 0 0; font-size:13px; color:var(--txt-2); line-height:1.6; max-width:74ch;
+}
+.rw-kw-caption b { color:var(--tape-2); font-weight:600; }
+
+.rw-kw-gridnote {
+  display:flex; align-items:baseline; justify-content:space-between; gap:14px;
+  flex-wrap:wrap; margin-bottom:4px;
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:10px;
+  letter-spacing:.12em; text-transform:uppercase; color:var(--txt-3);
+}
+
+/* ── Upcoming films ───────────────────────────────────────────────────── */
+/* A requested film has none of the furniture an aired one does: no episode
+   number, no room, no verdict. What it has is a reason someone wants it, so
+   the reason is what the card is built around rather than a metadata strip
+   with three empty slots. */
+.rw-up-why {
+  margin:6px 0 0; padding:9px 11px; background:var(--ink-2);
+  border:1px solid var(--line); border-left:2px solid var(--mint-dim);
+  border-radius:0 5px 5px 0; font-size:12.5px; line-height:1.5;
+  color:var(--tape-2);
+}
+.rw-up-why .who {
+  display:block; margin-top:6px;
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:9.5px;
+  letter-spacing:.11em; text-transform:uppercase; color:var(--txt-3);
+}
+.rw-up-why .who a { color:var(--mint-deep); text-decoration:none; }
+.rw-up-why .who a:hover { color:var(--mint); }
+.rw-up-tags { display:flex; flex-wrap:wrap; gap:5px; }
+.rw-up-tag {
+  padding:2px 8px; border-radius:3px;
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:10px;
+  letter-spacing:.05em; background:rgba(13,98,73,.24);
+  border:1px solid rgba(23,168,124,.28); color:#79E9C2;
+}
+/* An unresolved row is not an error to be hidden. Two of them are TV series on
+   a list of films and one has no year — all three are true things about the
+   source, so the card prints and says which. */
+.rw-up-unres {
+  display:inline-block; margin-top:6px; padding:2px 8px; border-radius:3px;
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:9.5px;
+  letter-spacing:.1em; text-transform:uppercase;
+  color:var(--txt-3); border:1px dashed var(--line-2);
+}
+/* The graduates. Coral, because it is the one thing on this page that has
+   stopped being a request — the same colour the dossier gives a revisit. */
+.rw-up-grad {
+  display:flex; gap:13px; align-items:center; padding:11px 13px;
+  background:var(--ink-2); border:1px solid var(--line);
+  border-left:3px solid var(--coral); border-radius:0 6px 6px 0;
+  margin-bottom:9px;
+}
+.rw-up-grad img { width:44px; height:66px; object-fit:cover; border-radius:3px; flex:none; }
+.rw-up-grad .b { min-width:0; }
+.rw-up-grad .t { display:block; font-weight:600; color:var(--tape); font-size:14px; }
+.rw-up-grad .m {
+  display:block; margin-top:3px;
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:9.5px;
+  letter-spacing:.1em; text-transform:uppercase; color:var(--txt-3);
+}
+.rw-up-grad .m b { color:var(--coral); font-weight:500; }
+.rw-up-note {
+  margin:10px 0 0; font-size:13px; color:var(--txt-2); line-height:1.6; max-width:74ch;
+}
+.rw-up-note b { color:var(--tape-2); font-weight:600; }
+
+/* ── Overview ─────────────────────────────────────────────────────────── */
+/* The regulars: one card per person, ranked by how often they were in the
+   room across the host and guest columns together. There is no person image
+   cache, so an initials disc stands in for a portrait. Bill Simmons is left
+   out: he is on nine episodes in ten. */
+/* Six fixed columns rather than auto-fit: the row is exactly six people, and
+   an auto-fit grid dropped the sixth onto a line of his own at 1400px. */
+.rw-reg-row { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:9px; }
+@media (max-width:1100px) { .rw-reg-row { grid-template-columns:repeat(3,minmax(0,1fr)); } }
+.rw-reg {
+  display:flex; gap:9px; align-items:center; padding:10px 11px; min-width:0;
+  background:var(--ink-2); border:1px solid var(--line); border-radius:7px;
+}
+.rw-reg .d {
+  flex:none; width:34px; height:34px; border-radius:50%;
+  display:flex; align-items:center; justify-content:center;
+  background:var(--ink-4); border:1px solid var(--line-2);
+  font-family:'Archivo Black',Arial Black,sans-serif; font-size:12px;
+  letter-spacing:.02em; color:var(--mint);
+}
+.rw-reg .b { min-width:0; flex:1; }
+.rw-reg .n { display:block; font-weight:600; color:var(--tape); font-size:13px; line-height:1.2; }
+.rw-reg .m {
+  display:block; margin-top:2px; font-family:'IBM Plex Mono',ui-monospace,monospace;
+  font-size:9px; letter-spacing:.1em; text-transform:uppercase; color:var(--txt-3);
+}
+.rw-reg .m b { color:var(--mint); font-weight:500; }
+.rw-reg .bar { height:3px; margin-top:7px; border-radius:2px; overflow:hidden; background:var(--ink-4); }
+.rw-reg .bar i { display:block; height:100%; background:var(--mint-deep); }
+
+/* ── Hosts & guests ───────────────────────────────────────────────────── */
+/* One row per regular: name and episode count, then the leans that survived
+   the correction as badges. A row with none says so rather than sitting
+   empty -- "no detectable lean" is a finding, not a gap. */
+.rw-lean {
+  display:flex; gap:16px; align-items:baseline; padding:9px 0;
+  border-top:1px solid var(--line);
+}
+.rw-lean:first-child { border-top:0; }
+.rw-lean .n { width:180px; flex:none; font-weight:600; color:var(--tape); font-size:13.5px; }
+.rw-lean .n span {
+  display:block; margin-top:2px; font-family:'IBM Plex Mono',ui-monospace,monospace;
+  font-size:9px; font-weight:400; letter-spacing:.1em; text-transform:uppercase;
+  color:var(--txt-3);
+}
+.rw-lean .l { flex:1; min-width:0; display:flex; flex-wrap:wrap; align-items:center; }
+.rw-lean-none { font-size:12.5px; color:var(--txt-3); }
+
+/* ── Stale-data banner ────────────────────────────────────────────────── */
+/* Coral, the colour the app already uses for "look at this" (revisits, the
+   episode tile), and set above every page including an open dossier. */
+.rw-stale {
+  margin:0 0 16px; padding:10px 14px; border-radius:6px; font-size:13px;
+  line-height:1.55; color:var(--tape-2);
+  background:rgba(226,98,79,.12); border:1px solid rgba(226,98,79,.42);
+}
+.rw-stale b { color:var(--tape); font-weight:600; }
+.rw-stale code {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:12px;
+  color:var(--coral); background:rgba(0,0,0,.25); padding:1px 5px; border-radius:3px;
+}
+
+/* A note that sits under a block or beside a control on the same row. */
+.rw-ov-note { margin:6px 0 0; font-size:13px; color:var(--txt-2); line-height:1.6; max-width:74ch; }
+.rw-ov-note b { color:var(--tape-2); font-weight:600; }
+
+/* The cadence panel's reading of the chart beside it. */
+.rw-ov-read { margin:0; padding:0; list-style:none; }
+.rw-ov-read li {
+  padding:9px 0; border-top:1px solid var(--line); font-size:12.5px;
+  color:var(--txt-2); line-height:1.5;
+}
+.rw-ov-read li:first-child { border-top:0; padding-top:0; }
+.rw-ov-read b {
+  display:block; font-family:'Archivo Black',Arial Black,sans-serif; font-weight:400;
+  font-size:17px; color:var(--mint); letter-spacing:-.02em; font-variant-numeric:tabular-nums;
+}
+
+/* Section doors. Each card fronts one section of the rail and carries one
+   number and one sentence, which is what the rail's bare labels cannot. The
+   card is markup; the button beneath is the real control, flattened onto the
+   card exactly the way film_card's title strip is, and scoped by the same
+   marker trick so no other button picks up the styling. */
+.rw-doormark { display:none; }
+.rw-door {
+  position:relative; overflow:hidden; min-height:124px;
+  padding:13px 15px 8px 17px; margin-bottom:0;
+  background:var(--ink-2); border:1px solid var(--line); border-bottom:0;
+  border-radius:7px 7px 0 0;
+}
+.rw-door::after {
+  content:""; position:absolute; left:0; top:0; bottom:0; width:3px; background:var(--mint-dim);
+}
+.rw-door .k {
+  display:block; font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:8.5px;
+  letter-spacing:.13em; text-transform:uppercase; color:var(--txt-3);
+}
+.rw-door .v {
+  display:block; margin-top:6px; font-family:'Archivo Black',Arial Black,sans-serif;
+  font-weight:400; font-size:22px; line-height:1.1; color:var(--mint);
+  letter-spacing:-.02em; font-variant-numeric:tabular-nums;
+}
+.rw-door .v small {
+  font-size:.5em; color:var(--txt-3); letter-spacing:0; margin-left:4px;
+  font-family:'IBM Plex Mono',ui-monospace,monospace;
+}
+.rw-door .t { display:block; margin-top:4px; font-weight:600; font-size:13.5px; color:var(--tape); }
+.rw-door p { margin:4px 0 0; font-size:12px; line-height:1.5; color:var(--txt-2); }
+div[data-testid="stVerticalBlock"]:has(> div > div > div > div > .rw-doormark) div[data-testid="stButton"] button {
+  background:var(--ink-2); border:1px solid var(--line); border-top:0;
+  border-radius:0 0 7px 7px; margin-top:-13px; margin-bottom:12px;
+  padding:6px 15px 9px 17px; min-height:0; display:flex; justify-content:flex-start;
+  transition:border-color .15s, background .15s;
+}
+div[data-testid="stVerticalBlock"]:has(> div > div > div > div > .rw-doormark) div[data-testid="stButton"] button p {
+  margin:0 !important; font-family:'IBM Plex Mono',ui-monospace,monospace;
+  font-size:10px !important; letter-spacing:.12em; text-transform:uppercase;
+  color:var(--mint-deep) !important; font-weight:500 !important;
+}
+div[data-testid="stVerticalBlock"]:has(> div > div > div > div > .rw-doormark) div[data-testid="stButton"] button:hover {
+  border-color:var(--mint); background:var(--ink-4);
+}
+div[data-testid="stVerticalBlock"]:has(> div > div > div > div > .rw-doormark) div[data-testid="stButton"] button:hover p {
+  color:var(--mint) !important;
+}
+/* The whole card lights when the strip is hovered, not only the strip. */
+div[data-testid="stVerticalBlock"]:has(> div > div > div > div > .rw-doormark):has(div[data-testid="stButton"] button:hover) .rw-door {
+  border-color:var(--mint);
+}
+
+/* Random spotlight, set in the dossier's panel grammar. */
+.rw-spot { display:grid; grid-template-columns:150px 1fr; gap:20px; align-items:start; }
+.rw-spot img { width:150px; border-radius:5px; display:block; border:1px solid var(--line); }
+.rw-spot .h {
+  margin:0; font-family:'Archivo Black',Arial Black,sans-serif; font-weight:400;
+  font-size:21px; line-height:1.15; letter-spacing:-.02em; color:var(--tape);
+}
+.rw-spot .h small { color:var(--txt-3); font-size:.7em; margin-left:6px; letter-spacing:0; }
+.rw-spot .m {
+  display:block; margin-top:7px; font-family:'IBM Plex Mono',ui-monospace,monospace;
+  font-size:9.5px; letter-spacing:.1em; text-transform:uppercase; color:var(--txt-3);
+}
+.rw-spot .m b { color:var(--mint); font-weight:500; }
+.rw-spot p { margin:11px 0 0; font-size:13.5px; line-height:1.62; color:var(--txt-2); max-width:66ch; }
+@media (max-width:860px) { .rw-spot { grid-template-columns:1fr; } .rw-spot img { width:120px; } }

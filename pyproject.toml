@@ -29,6 +29,10 @@ dev = [
 [tool.setuptools.packages.find]
 where = ["src"]
 
+[tool.setuptools.package-data]
+# The stylesheet is read at runtime from beside theme.py.
+rewatchables = ["app/*.css"]
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 # The repo root holds app.py and views.py; src/ holds the package, which the

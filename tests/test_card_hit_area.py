@@ -1,7 +1,7 @@
 """
 Tests for poster card geometry and the card's click target.
 
-Every poster plate is 2:3 at its column's width (.poster-img in app.py), so the
+Every poster plate is 2:3 at its column's width (.poster-img in theme.css), so
 cards in a grid share one size and every card in the app shares one shape.
 Nothing hands a plate a height any more: a fixed pixel height against a fluid
 column width is what made plates whatever shape the viewport produced, with
@@ -23,9 +23,14 @@ from pathlib import Path
 
 import pytest
 
-APP = Path(__file__).parent.parent / "app.py"
+ROOT = Path(__file__).parent.parent
+APP = ROOT / "app.py"
 SOURCE = APP.read_text(encoding="utf-8")
 TREE = ast.parse(SOURCE)
+# The stylesheet left app.py in the phase 2 split. The geometry rules are read
+# from it here; the card functions are still parsed out of app.py above.
+CSS = (ROOT / "src" / "rewatchables" / "app" / "theme.css").read_text(
+    encoding="utf-8")
 
 # The rules that stretch the strip's hit area, base and toned.
 _OVERLAY = re.compile(
@@ -47,7 +52,7 @@ def _defined(name):
 
 def _plate_ratio():
     """Height over width of a plate, from .poster-img's aspect-ratio."""
-    m = re.search(r"\.poster-img \{[^}]*aspect-ratio:(\d+)/(\d+)", SOURCE)
+    m = re.search(r"\.poster-img \{[^}]*aspect-ratio:(\d+)/(\d+)", CSS)
     assert m, ".poster-img no longer declares an aspect-ratio"
     w, h = map(int, m.groups())
     return Fraction(h, w)
@@ -55,7 +60,7 @@ def _plate_ratio():
 
 def _overlays():
     """{toned: (percent, px)} for the two hit-area rules."""
-    found = {bool(t): (int(pct), int(px)) for t, pct, px in _OVERLAY.findall(SOURCE)}
+    found = {bool(t): (int(pct), int(px)) for t, pct, px in _OVERLAY.findall(CSS)}
     assert set(found) == {False, True}, (
         "expected a base and a toned button::after rule with "
         "margin-top:calc(-N% + Mpx)"
@@ -79,7 +84,7 @@ def test_overlay_reaches_one_plate_height():
 
 
 def test_toned_overlay_reaches_past_the_band():
-    band = int(re.search(r"\.poster-rule \{ height:(\d+)px; \}", SOURCE).group(1))
+    band = int(re.search(r"\.poster-rule \{ height:(\d+)px; \}", CSS).group(1))
     base_pct, base_px = _overlays()[False]
     toned_pct, toned_px = _overlays()[True]
     assert toned_pct == base_pct
@@ -119,7 +124,7 @@ def test_card_is_held_to_its_column():
     assert re.search(
         rf'{block},\s*{container},\s*{container} > div \{{\s*'
         r'width:100% !important; max-width:100%;',
-        SOURCE,
+        CSS,
     ), "the column clamp must cover the block, its containers and their elements"
 
 
