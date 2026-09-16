@@ -24,9 +24,12 @@ from pathlib import Path
 import pytest
 
 ROOT = Path(__file__).parent.parent
-APP = ROOT / "app.py"
-SOURCE = APP.read_text(encoding="utf-8")
-TREE = ast.parse(SOURCE)
+# The card functions moved to the app package in the phase 2 split;
+# prospect_card is still in app.py. Both are searched.
+_PATHS = [ROOT / "app.py",
+          ROOT / "src" / "rewatchables" / "app" / "components.py"]
+_MODULES = [(s, ast.parse(s)) for s in
+            (p.read_text(encoding="utf-8") for p in _PATHS)]
 # The stylesheet left app.py in the phase 2 split. The geometry rules are read
 # from it here; the card functions are still parsed out of app.py above.
 CSS = (ROOT / "src" / "rewatchables" / "app" / "theme.css").read_text(
@@ -41,13 +44,17 @@ _OVERLAY = re.compile(
 
 def _called(name):
     """Every Call node for a plain function named `name`."""
-    return [n for n in ast.walk(TREE)
+    return [n for _source, tree in _MODULES for n in ast.walk(tree)
             if isinstance(n, ast.Call) and getattr(n.func, "id", None) == name]
 
 
 def _defined(name):
-    return next(n for n in ast.walk(TREE)
-                if isinstance(n, ast.FunctionDef) and n.name == name)
+    """(source, node) for a function, wherever of the two it is defined."""
+    for source, tree in _MODULES:
+        for n in ast.walk(tree):
+            if isinstance(n, ast.FunctionDef) and n.name == name:
+                return source, n
+    raise AssertionError(f"{name} is defined in neither module")
 
 
 def _plate_ratio():
@@ -95,7 +102,7 @@ def test_toned_overlay_reaches_past_the_band():
     "name", ["poster_art", "poster_html", "film_card", "prospect_card", "shelf"])
 def test_no_plate_takes_a_height(name):
     """A height parameter or argument would bring back per-grid plate shapes."""
-    params = [a.arg for a in _defined(name).args.args]
+    params = [a.arg for a in _defined(name)[1].args.args]
     assert "height" not in params
     passing = [c.lineno for c in _called(name)
                if any(kw.arg == "height" for kw in c.keywords)]
@@ -104,7 +111,7 @@ def test_no_plate_takes_a_height(name):
 
 def test_shelf_column_count_is_fixed():
     """One column per film made a one-film shelf a panel-wide poster."""
-    cols = [n for n in ast.walk(_defined("shelf"))
+    cols = [n for n in ast.walk(_defined("shelf")[1])
             if isinstance(n, ast.Call) and getattr(n.func, "attr", None) == "columns"]
     assert len(cols) == 1
     assert isinstance(cols[0].args[0], ast.Constant)
@@ -130,6 +137,6 @@ def test_card_is_held_to_its_column():
 
 def test_marker_carries_the_band():
     """poster_html must stamp .toned, or a banded card's top 5px go dead."""
-    source = ast.get_source_segment(SOURCE, _defined("poster_html"))
+    source = ast.get_source_segment(*_defined("poster_html"))
     assert "rw-cardmark" in source
     assert "toned" in source
