@@ -6,13 +6,13 @@ pyproject.toml, so test files import views and the rewatchables package
 directly, under plain `pytest` as well as `python -m pytest`.
 """
 
-import ast
 import functools
 import inspect
 import re
-from pathlib import Path
 
 import pytest
+
+from rewatchables.app.state import NAV
 
 # ── The `app` marker ──────────────────────────────────────────────────────────
 # A test that drives app.py through Streamlit's AppTest costs seconds rather
@@ -52,27 +52,12 @@ def pytest_collection_modifyitems(items):
 # The nav rail is one radio per group (keys nav_g0..nav_gN), so a test cannot
 # address it by a single widget any more. Drive it by label.
 #
-# NAV_GROUPS is read out of app.py rather than restated here. A hand-kept copy
-# drifts the moment a section is added -- which it did, the first time one was
-# -- and the failure is an unhelpful StopIteration inside the helper rather
-# than anything about the section under test.
+# NAV_GROUPS is derived from the rail itself rather than restated here. A
+# hand-kept copy drifts the moment a section is added -- which it did, the
+# first time one was -- and the failure is an unhelpful StopIteration inside
+# the helper rather than anything about the section under test.
 
-
-def _nav_groups():
-    tree = ast.parse(
-        (Path(__file__).parent.parent / "app.py").read_text(encoding="utf-8"))
-    for node in ast.walk(tree):
-        if not isinstance(node, ast.Assign):
-            continue
-        if not any(getattr(t, "id", None) == "NAV" for t in node.targets):
-            continue
-        return [[label for _slug, label in
-                 (ast.literal_eval(item) for item in group.elts[1].elts)]
-                for group in node.value.elts]
-    raise RuntimeError("no NAV assignment found in app.py")
-
-
-NAV_GROUPS = _nav_groups()
+NAV_GROUPS = [[label for _slug, label in items] for _group, items in NAV]
 
 
 def goto(at, label):
