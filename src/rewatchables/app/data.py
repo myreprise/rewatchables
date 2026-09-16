@@ -281,10 +281,9 @@ def gender_from_people(people):
     rows["gender"] = rows["gender"].fillna("unknown")
     agreed = rows.groupby("name")["gender"].nunique()
     first = rows.drop_duplicates("name").set_index("name")["gender"]
-    return {name: (first[name] if agreed[name] == 1 else "unknown")
-            for name in agreed.index}
-
-
+    # One aligned pass, not two scalar lookups per name. This runs on every
+    # rerun, and at 2,948 names the lookups were most of build_context.
+    return first.reindex(agreed.index).where(agreed == 1, "unknown").to_dict()
 
 
 @st.cache_data(ttl=300)
