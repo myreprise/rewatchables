@@ -18,9 +18,9 @@ from rewatchables import config
 from rewatchables.app import theme
 from rewatchables.app.state import (
     DEFAULT_SECTION, NAV, SECTION_LABEL, SLUGS,
-    close_dossier, go_section, keep, kept, open_dossier,
-    open_person, open_prospect, pick_section,
-    resolve_section, seed_from_url,
+    go_section, keep, kept, open_dossier,
+    pick_section,
+    seed_from_url,
 )
 from rewatchables.app.analysis import (
     BILLED, GENRE_FLOOR, LEAN_FLOOR, LEAN_Q, N_PERM, PERSON_AGG, billed_long,
@@ -31,17 +31,22 @@ from rewatchables.app.charts import (
     fold_counts, fold_to_series,
     people_scatter, plotly_defaults,
 )
+from rewatchables.app.context import build_context
+from rewatchables.app.overlays.dossier import render_dossier
+from rewatchables.app.overlays.keyword import render_keyword
+from rewatchables.app.overlays.prospect import (
+    prospect_card, render_prospect, why_html,
+)
 from rewatchables.app.panels import (
     gender_split_leaderboards, lean_chips, people_leaderboard,
     person_spotlight,
 )
 from rewatchables.app.components import (
     TMDB_PROFILE, film_card, keyword_row, masthead,
-    poster_art, poster_html, ranked_list, rings_svg, shelf, stat_tiles, tape,
+    ranked_list, rings_svg, stat_tiles, tape,
 )
 from rewatchables.app.data import (
-    DB_PATH, GENDERS, GENDER_LABEL, gender_from_people, load_data,
-    load_people, load_upcoming, stamp,
+    DB_PATH, GENDERS, GENDER_LABEL, stamp,
 )
 from rewatchables.app.theme import (
     AMBER, BLUE, CORAL, INK, INK_2, INK_3, LINE, LINE_2, MINT, MINT_DEEP,
@@ -49,10 +54,9 @@ from rewatchables.app.theme import (
 )
 from views import (
     ANCHOR, BREAK_EVEN_MULTIPLE, BROWSE_FLOOR, CPI_BASE_YEAR,
-    CPI_PROVISIONAL_FROM, MEASURE_LABEL, RESOLUTION_NOTE, ROOM,
-    appearances_by_year, bench, clean, co_appearances,
-    contributor_link, decade_bars, html, human_gap, keyword_chip, lean_value, lineups, money, pitch_chips, plain, region_of, room_long,
-    stale_notice, stars, stat_tile,
+    CPI_PROVISIONAL_FROM, MEASURE_LABEL, RESOLUTION_NOTE, appearances_by_year, bench, clean, co_appearances,
+    html, keyword_chip, lean_value, lineups, money, room_long,
+    stale_notice, stat_tile,
 )
 
 # ── Config ────────────────────────────────────────────────────────────────────
@@ -85,10 +89,14 @@ theme.inject()
 # The loaders live in rewatchables.app.data. They are called here, once, so
 # every section reads the same frames.
 
-DB_STAMP = stamp()
-movies_df, episodes_df, links_df, merged_df, ch_df = load_data(DB_STAMP)
-GENDER_MAP = gender_from_people(load_people(DB_STAMP))
-upcoming_df, graduated_df = load_upcoming(DB_STAMP)
+ctx = build_context(stamp())
+
+# The names the section blocks below still use. They go with the sections.
+movies_df, episodes_df, links_df = ctx.movies, ctx.episodes, ctx.links
+merged_df, ch_df = ctx.merged, ctx.cruise_hanks
+upcoming_df, graduated_df = ctx.upcoming, ctx.graduated
+movies_rated, GENDER_MAP = ctx.rated, ctx.gender_map
+KEYWORDS, REACH = ctx.keywords, ctx.reach
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -97,546 +105,7 @@ upcoming_df, graduated_df = load_upcoming(DB_STAMP)
 # the poster fallback plate.
 # ── Film dossier ──────────────────────────────────────────────────────────────
 
-def render_dossier(movie_id, siblings=None):
-    """The per-film detail view: identity, episodes, the film, provenance.
-
-    `siblings` is the result set the film was clicked from, so the step arrows
-    walk the same filtered list the grid was showing.
-    """
-    movie = movies_df[movies_df["movie_id"] == movie_id].iloc[0]
-    origin = SECTION_LABEL[
-        resolve_section(st.session_state.get("nav_section", DEFAULT_SECTION))]
-
-    # ── Return bar ──
-    siblings = list(siblings) if siblings is not None else []
-    position = siblings.index(movie_id) if movie_id in siblings else None
-    cols = st.columns([3, 0.5, 0.5, 4])
-    if cols[0].button(f"← Back to {origin}", key="btn_dt_back", use_container_width=True):
-        close_dossier()
-        st.rerun()
-    if position is not None:
-        if cols[1].button("‹", key="btn_dt_prev", use_container_width=True,
-                          disabled=position == 0):
-            open_dossier(siblings[position - 1])
-        if cols[2].button("›", key="btn_dt_next", use_container_width=True,
-                          disabled=position == len(siblings) - 1):
-            open_dossier(siblings[position + 1])
-        cols[3].markdown(
-            f'<div class="rw-dt-count">Film {position + 1} of {len(siblings)}</div>',
-            unsafe_allow_html=True,
-        )
-
-    # ── Hero ──
-    episodes = links_df[links_df["movie_id"] == movie_id].sort_values("episode_number")
-    directors = " &middot; ".join(movie["directors"]) or "Director unknown"
-    genres = " &middot; ".join(movie["genres"]) or "Ungenred"
-    runtime = f"{int(movie['runtime_minutes'])} min" if pd.notna(movie["runtime_minutes"]) else "runtime unknown"
-
-    chips = []
-    if movie["revisited_flag"] == 1:
-        revisits = max(int(movie["total_episodes_featured"]) - 1, 1)
-        chips.append(f'<span class="badge badge-revisit">Revisited &times;{revisits}</span>')
-    chips.append(
-        f'<span class="badge badge-mint">{int(movie["total_episodes_featured"])} '
-        f'episode{"s" if movie["total_episodes_featured"] != 1 else ""}</span>'
-    )
-    if pd.notna(movie["first_episode_date"]):
-        span = movie["first_episode_date"].strftime("%b %Y")
-        if pd.notna(movie["last_episode_date"]) and movie["last_episode_date"] != movie["first_episode_date"]:
-            span += " &rarr; " + movie["last_episode_date"].strftime("%b %Y")
-        chips.append(f'<span class="badge">{span}</span>')
-
-    # RT and Ebert are film attributes in the source sheet — verified constant
-    # across every one of the 26 multi-episode films — so they belong here in
-    # the hero, not repeated onto each episode card as if they had moved.
-    rt = episodes["tomatoes_num"].dropna()
-    ebert = episodes["ebert_num"].dropna()
-    # Box office is the adjusted figure, so the tile can be read against any
-    # other film in the catalogue without doing CPI arithmetic in your head.
-    box = movie.get("revenue_real")
-    mult = movie.get("multiple")
-    rail = "".join([
-        stat_tile("TMDB", f"{movie['rating_tmdb']:.1f}" if pd.notna(movie["rating_tmdb"]) else None, "/10"),
-        stat_tile("Rotten Tomatoes", f"{rt.iloc[0] * 100:.0f}" if len(rt) else None, "%"),
-        stat_tile("Ebert", stars(ebert.iloc[0]) if len(ebert) else None),
-        stat_tile(f"Box office ({CPI_BASE_YEAR}$)", money(box) if pd.notna(box) else None),
-        stat_tile("Return", f"{mult:.1f}" if pd.notna(mult) else None, "&times;"),
-        stat_tile("Episodes", int(movie["total_episodes_featured"]), coral=True),
-    ])
-
-    poster = movie["poster_url_tmdb"]
-    plate = (
-        f'<img src="{poster.replace("/w500/", "/w342/")}" alt="">' if poster
-        else f'<div class="poster-plate">{rings_svg("")}<b>{movie["title"]}</b></div>'
-    )
-    st.markdown(html(f"""
-    <div class="rw-dt-hero">
-      {rings_svg()}
-      <div class="rw-dt-poster">{plate}</div>
-      <div class="rw-dt-id">
-        <h1>{movie['title']} <span>{movie['year']}</span></h1>
-        <p class="rw-dt-cred">{directors}<i>&middot;</i>{runtime}<i>&middot;</i>{genres}</p>
-        <div class="chip-row">{''.join(chips)}</div>
-        <div class="rw-dt-rail">{rail}</div>
-      </div>
-    </div>"""), unsafe_allow_html=True)
-
-    # ── Episode spine ──
-    tape(f"On the show &mdash; {len(episodes)} episode{'s' if len(episodes) != 1 else ''}")
-
-    spine, previous_date = [], None
-    for _, ep in episodes.iterrows():
-        if previous_date is not None and pd.notna(ep["episode_date"]):
-            gap = (ep["episode_date"] - previous_date).days
-            if gap > 0:
-                spine.append(f'<div class="rw-dt-gap">{human_gap(gap)}</div>')
-        previous_date = ep["episode_date"]
-
-        flags = []
-        if ep["is_revisit"]:
-            kind = (clean(ep["revisit_type"]) or "revisit").replace("_", " ")
-            flags.append(
-                f'<span class="badge badge-revisit">Revisit {int(ep["revisit_sequence"])} '
-                f'&middot; {kind.replace(" revisit", "")}</span>'
-            )
-        else:
-            flags.append('<span class="badge badge-mint">First watch</span>')
-        # The verdict is genuinely episode-grained — it differs across episodes
-        # for 8 of the 26 multi-episode films — so it rides on the card.
-        verdict = clean(ep["cruise_hanks"])
-        if verdict:
-            tone = "cruise" if verdict.lower().startswith("cruise") else "hanks"
-            flags.append(f'<span class="badge badge-{tone}">{verdict}</span>')
-
-        room = []
-        host = clean(ep["host"])
-        if host:
-            room.append(f'<span class="rw-dt-person is-host"><i>H</i>{host}</span>')
-        for slot in ("guest1", "guest2", "guest3", "guest4"):
-            guest = clean(ep.get(slot))
-            if guest:
-                room.append(f'<span class="rw-dt-person"><i>G</i>{guest}</span>')
-
-        note = clean(ep["notes"])
-        note_html = (
-            f'<div class="rw-dt-epnote"><span class="lbl">Sheet note</span>{note}</div>'
-            if note else ""
-        )
-        # %-d is glibc-only; build the unpadded day by hand so this runs on Windows.
-        date = (
-            f'{ep["episode_date"].day} {ep["episode_date"]:%b %Y}'
-            if pd.notna(ep["episode_date"]) else "date unknown"
-        )
-
-        spine.append(html(f"""
-        <div class="rw-dt-ep{' is-revisit' if ep['is_revisit'] else ''}">
-          <div class="rw-dt-epcard">
-            <div class="rw-dt-ephead">
-              <span class="rw-dt-epno"><span>EP</span> {int(ep['episode_number']):03d}</span>
-              <span class="rw-dt-epdate">{date}</span>
-              <span class="rw-dt-epflags">{''.join(flags)}</span>
-            </div>
-            <div class="rw-dt-eproom"><span class="lbl">Room</span>{''.join(room)}</div>
-            {note_html}
-          </div>
-        </div>"""))
-
-    st.markdown(f'<div class="rw-dt-spine">{"".join(spine)}</div>', unsafe_allow_html=True)
-
-    # Everyone in the room across this film's episodes, Bill aside, as a way
-    # into the Hosts & Guests lookup. Buttons rather than links on the chips
-    # above: a link reloads the session, and with it every filter behind the
-    # dossier.
-    seated = list(dict.fromkeys(
-        name for _, ep in episodes.iterrows() for name in (ep[c] for c in ROOM)
-        if isinstance(name, str) and name != ANCHOR))
-    if seated:
-        st.markdown(
-            '<div class="rw-kw-gridnote"><span>Look up who was in the room</span></div>',
-            unsafe_allow_html=True)
-        per_row = 6
-        for start in range(0, len(seated), per_row):
-            cols = st.columns(per_row)
-            for offset, (col, name) in enumerate(zip(cols, seated[start:start + per_row])):
-                col.button(name, key=f"btn_dt_person_{start + offset}",
-                           use_container_width=True, on_click=open_person, args=(name,))
-
-    # ── The film ──
-    tape("The film")
-    left, right = st.columns([1.65, 1])
-
-    with left:
-        st.markdown(
-            '<div class="rw-dt-panel"><h4>Plot</h4>'
-            f'<p class="rw-dt-logline">'
-            f'{plain(movie["plot_summary"]) or "No summary on file."}</p></div>',
-            unsafe_allow_html=True,
-        )
-        synopsis = clean(movie["plot_summary_wiki"])
-        if synopsis:
-            words = movie["plot_summary_wiki_words"]
-            with st.expander(f"Full Wikipedia synopsis — {int(words):,} words"):
-                st.markdown(plain(synopsis))
-        if movie["keywords"]:
-            words = movie["keywords"]
-            st.markdown('<h4 class="rw-dt-loose">Keywords</h4>', unsafe_allow_html=True)
-            # Ranked by reach and capped, so the chips that go somewhere come
-            # first. Unranked and uncapped, 31% of them would lead to a page
-            # holding only this film; at eight it is 7%.
-            keyword_row(words, f"film_{movie_id}", REACH, cap=8)
-            if len(words) > 8:
-                with st.expander(f"All {len(words)} keywords"):
-                    keyword_row(words, f"filmall_{movie_id}", REACH)
-
-    with right:
-        if movie["cast_names"]:
-            # How often each name turns up elsewhere on the show — the number is
-            # the reason to click through, so it only shows when it is above one.
-            billing = Counter()
-            for names in movies_df["cast_names"]:
-                for name in (names[:5] if isinstance(names, list) else []):
-                    billing[name] += 1
-            chips = "".join(
-                f'<span>{name}'
-                + (f" <b>{billing[name]}</b>" if billing.get(name, 0) > 1 else "")
-                + "</span>"
-                for name in movie["cast_names"][:10]
-            )
-            st.markdown(
-                f'<div class="rw-dt-panel"><h4>Cast &mdash; top billed</h4>'
-                f'<div class="rw-dt-cast">{chips}</div></div>',
-                unsafe_allow_html=True,
-            )
-
-        director = movie["director_primary"]
-        same_director = movies_df[
-            (movies_df["director_primary"] == director)
-            & (movies_df["movie_id"] != movie_id)
-        ].sort_values("year")
-        if len(same_director):
-            st.markdown(f"##### Also on the show — {director}")
-            shelf(same_director.head(4), key=f"dir_{movie_id}")
-
-        # Films sharing a top-billed name, most-shared first.
-        cast = set(movie["cast_names"][:5]) if movie["cast_names"] else set()
-        if cast:
-            overlap = movies_df[movies_df["movie_id"] != movie_id].copy()
-            overlap["shared"] = overlap["cast_names"].apply(
-                lambda names: len(cast & set(names[:5])) if isinstance(names, list) else 0
-            )
-            overlap = overlap[overlap["shared"] > 0].sort_values(
-                ["shared", "year"], ascending=[False, True])
-            if len(overlap):
-                st.markdown("##### Shared cast")
-                shelf(overlap.head(4), key=f"cast_{movie_id}")
-
-    # ── Provenance ──
-    facts = [f'Key confidence <span class="conf">{movie["canonical_key_confidence"]}</span>']
-    if clean(movie["enriched_at"]):
-        facts.append(f'Enriched <b>{str(movie["enriched_at"])[:10]}</b>')
-    if pd.notna(movie["tmdb_id"]):
-        facts.append(
-            f'<a href="https://www.themoviedb.org/movie/{int(movie["tmdb_id"])}" '
-            f'target="_blank">TMDB {int(movie["tmdb_id"])}</a>'
-        )
-    if clean(movie["wikipedia_url"]):
-        facts.append(f'<a href="{movie["wikipedia_url"]}" target="_blank">Wikipedia</a>')
-    if clean(movie["wikidata_qid"]):
-        facts.append(
-            f'<a href="https://www.wikidata.org/wiki/{movie["wikidata_qid"]}" '
-            f'target="_blank">Wikidata {movie["wikidata_qid"]}</a>'
-        )
-    st.markdown(
-        '<div class="rw-dt-prov">' + "".join(f"<span>{f}</span>" for f in facts) + "</div>",
-        unsafe_allow_html=True,
-    )
-
-
 # ── Upcoming films ────────────────────────────────────────────────────────────
-
-def why_html(row):
-    """The reason a film is on the list, and who put it there.
-
-    Every card leads with this rather than with metadata. A requested film has
-    no episode, no room and no verdict, so the justification is the only thing
-    on the card that is actually about this film rather than about the movie —
-    and it is the thing a reader is here for.
-    """
-    note = clean(row.get("mention_note"))
-    tags = row.get("tags") or []
-    label, href = contributor_link(row.get("contributor"))
-
-    if note:
-        body = plain(note)
-    elif tags:
-        body = pitch_chips(tags)
-    else:
-        # Three rows carry neither. Saying so is better than an empty box.
-        body = '<i style="color:var(--txt-3)">No reason recorded.</i>'
-
-    who = ""
-    if label:
-        who = (f'<span class="who">Put forward by '
-               f'<a href="{href}" target="_blank" rel="noopener">{label}</a></span>')
-    return f'<div class="rw-up-why">{body}{who}</div>'
-
-
-def prospect_card(row, key=""):
-    """A poster whose strip opens that requested film's panel.
-
-    Deliberately the same shape as film_card, so the grid reads as the same kind
-    of object as every other poster grid in the app — the difference between a
-    film that aired and a film that might is a matter of what the card says, not
-    of how it is built.
-    """
-    st.markdown(
-        poster_html(row["poster_url_tmdb"], row["title"], label=False),
-        unsafe_allow_html=True,
-    )
-    # Same two-line caption film_card uses: the blank line is what makes the
-    # year read as a subtitle rather than as part of the title.
-    caption = "{}\n\n{}".format(row["title"], row["year_raw"] or "—")
-    if st.button(
-        caption,
-        key=f"btn_up_{key}_{row['upcoming_film_id']}",
-        use_container_width=True,
-    ):
-        open_prospect(row["upcoming_film_id"])
-
-
-def render_prospect(upcoming_film_id):
-    """The detail panel for one requested film.
-
-    Half a dossier by design: identity, the pitch, and the film itself. There is
-    no episode spine because there is no episode — that is the whole distinction
-    this section exists to draw.
-    """
-    match = upcoming_df[upcoming_df["upcoming_film_id"] == upcoming_film_id]
-    if match.empty:
-        # The list is rebuilt every pipeline run, so a shared link can outlive
-        # its row -- most likely because the film became a real episode.
-        st.warning("That film is no longer on the upcoming list. It may have "
-                   "become an episode.")
-        if st.button("← Back to Upcoming Films", key="btn_up_back_missing"):
-            close_dossier()
-            st.rerun()
-        return
-    row = match.iloc[0]
-
-    if st.button("← Back to Upcoming Films", key="btn_up_back"):
-        close_dossier()
-        st.rerun()
-
-    directors = " · ".join(row["directors"]) if row["directors"] else None
-    genres = " · ".join(row["genres"]) if row["genres"] else None
-    cred = " <i>/</i> ".join(x for x in (directors, genres) if x)
-
-    rail = [stat_tile("Year", row["year_raw"] or None)]
-    rail.append(stat_tile("Runtime", int(row["runtime_minutes"]) if pd.notna(
-        row["runtime_minutes"]) else None, " min"))
-    rail.append(stat_tile("TMDB", f"{row['rating_tmdb']:.1f}" if pd.notna(
-        row["rating_tmdb"]) else None, "/10"))
-    rail.append(stat_tile("Status", "Requested", coral=True))
-
-    st.markdown(html(f"""
-    <div class="rw-dt-hero">
-      {rings_svg()}
-      <div class="rw-dt-poster">
-        {poster_art(row["poster_url_tmdb"], row["title"])}
-      </div>
-      <div class="rw-dt-id">
-        <p class="rw-dt-loose">Upcoming &middot; not yet an episode</p>
-        <h1>{row["title"]} <span>{row["year_raw"] or ""}</span></h1>
-        <div class="rw-dt-cred">{cred}</div>
-        <div class="rw-dt-rail">{"".join(rail)}</div>
-      </div>
-    </div>"""), unsafe_allow_html=True)
-
-    if not row["resolved"]:
-        st.markdown(
-            f'<div class="rw-up-unres">Unmatched &mdash; '
-            f'{RESOLUTION_NOTE.get(row["resolution_method"], "not matched")}</div>',
-            unsafe_allow_html=True,
-        )
-
-    st.markdown('<div class="rw-dt-panel"><h4>Why it is on the list</h4>'
-                + why_html(row) + "</div>", unsafe_allow_html=True)
-
-    if row["tags"] and clean(row.get("mention_note")):
-        # Both populated is rare -- the source columns are alternatives -- but
-        # when it happens the tags are additional, not a duplicate of the note.
-        st.markdown('<div class="rw-dt-panel"><h4>Pitched as</h4>'
-                    + pitch_chips(row["tags"]) + "</div>", unsafe_allow_html=True)
-
-    if clean(row.get("plot_summary")):
-        st.markdown(
-            '<div class="rw-dt-panel"><h4>The film</h4>'
-            f'<p class="rw-dt-logline">{plain(row["plot_summary"])}</p></div>',
-            unsafe_allow_html=True,
-        )
-
-    if row["cast_names"]:
-        cast = "".join(f"<span>{name}</span>" for name in row["cast_names"][:10])
-        st.markdown(
-            '<div class="rw-dt-panel"><h4>Cast</h4>'
-            f'<div class="rw-dt-cast">{cast}</div></div>',
-            unsafe_allow_html=True,
-        )
-
-    tmdb_link = (f'<a href="https://www.themoviedb.org/movie/{int(row["tmdb_id"])}" '
-                 f'target="_blank" rel="noopener">TMDB</a>'
-                 if pd.notna(row["tmdb_id"]) else "<b>no TMDB match</b>")
-    st.markdown(
-        f'<div class="rw-dt-prov"><span>Source <b>data/upcoming.csv</b></span>'
-        f'<span>Match <b>{row["resolution_method"]}</b></span>'
-        f'<span>{tmdb_link}</span></div>',
-        unsafe_allow_html=True,
-    )
-
-
-# ── Keyword index ─────────────────────────────────────────────────────────────
-
-@st.cache_data(ttl=300)
-def keyword_index():
-    """keyword -> the movie_ids carrying it, built once for the whole session.
-
-    7,734 pairs. It also supplies the reach count behind every chip, so ranking
-    a film's keywords costs nothing at render time.
-    """
-    index = {}
-    for movie_id, keywords in zip(movies_df["movie_id"], movies_df["keywords"]):
-        for word in (keywords if isinstance(keywords, list) else []):
-            index.setdefault(word, []).append(movie_id)
-    return index
-
-
-KEYWORDS = keyword_index()
-REACH = {word: len(ids) for word, ids in KEYWORDS.items()}
-
-
-def render_keyword(keyword):
-    """Every film carrying one keyword, plus where to go next.
-
-    A keyword page must hold up even when the keyword has a single film, since
-    search and shared links reach the thin ones too. The partner panel is what
-    guarantees that: no keyword in the catalogue has an empty one, because the
-    median film carries 17 keywords and every one of them is an exit.
-    """
-    movie_ids = KEYWORDS.get(keyword, [])
-    films = movies_df[movies_df["movie_id"].isin(movie_ids)].sort_values("year")
-    origin = SECTION_LABEL[
-        resolve_section(st.session_state.get("nav_section", DEFAULT_SECTION))]
-
-    if st.button(f"← Back to {origin}", key="btn_kw_back"):
-        close_dossier()
-        st.rerun()
-
-    # ── Header ──
-    share = 100 * len(films) / len(movies_df)
-    rail = [
-        stat_tile("Films", len(films)),
-        stat_tile("Of the catalogue", f"{share:.1f}", "%"),
-    ]
-    thin = len(films) < 3
-    if thin:
-        # No decade shape and no meaningful average from one or two films, so
-        # the rail says how rare the keyword is instead of inventing precision.
-        rail.append(stat_tile("Rarity", len(films), f" of {len(movies_df)}", coral=True))
-    else:
-        decades = Counter(int(y) // 10 * 10 for y in films["year"].dropna())
-        peak = max(decades, key=lambda d: decades[d])
-        ratings = films["rating_tmdb"].dropna()
-        corpus = movies_df["rating_tmdb"].dropna().mean()
-        rail.append(stat_tile("Peak decade", peak, "s"))
-        rail.append(stat_tile("Avg TMDB", f"{ratings.mean():.1f}" if len(ratings) else None, "/10"))
-        if len(ratings):
-            rail.append(stat_tile("vs. catalogue", f"{ratings.mean() - corpus:+.1f}", coral=True))
-
-    st.markdown(html(f"""
-    <div class="rw-kw-head">
-      {rings_svg()}
-      <p class="rw-kw-eyebrow">Keyword</p>
-      <h1>{keyword}</h1>
-      <div class="rw-kw-rail">{''.join(rail)}</div>
-    </div>"""), unsafe_allow_html=True)
-
-    # The one mechanical hierarchy in the vocabulary: TMDB writes locations as
-    # "city, region". It earns a line, not a browse axis of its own — "usa" is a
-    # bucket and some regions have a single child.
-    region = region_of(keyword)
-    if region:
-        siblings = [w for w in KEYWORDS if region_of(w) == region]
-        if len(siblings) > 1:
-            total = len({m for w in siblings for m in KEYWORDS[w]})
-            st.markdown(
-                f'<div class="rw-kw-tail">Part of <b>{region.title()}</b>: '
-                f'{total} films across {len(siblings)} places.</div>',
-                unsafe_allow_html=True,
-            )
-
-    # ── Decade signature ──
-    if not thin:
-        tape("When these films were made")
-        spread = Counter(int(y) // 10 * 10 for y in films["year"].dropna())
-        full = {d: spread.get(d, 0) for d in range(min(spread), max(spread) + 10, 10)}
-        st.markdown(decade_bars(full), unsafe_allow_html=True)
-        catalogue = Counter(int(y) // 10 * 10 for y in movies_df["year"].dropna())
-        here = 100 * full.get(peak, 0) / len(films)
-        house = 100 * catalogue.get(peak, 0) / len(movies_df)
-        st.markdown(
-            f'<p class="rw-kw-caption">The {peak}s hold <b>{here:.0f}%</b> of these '
-            f'films, against <b>{house:.0f}%</b> of the catalogue as a whole. '
-            'Read the gap between those two numbers, not the shape on its own '
-            '— the show covers some decades far more than others.</p>',
-            unsafe_allow_html=True,
-        )
-    else:
-        st.markdown(
-            f'<div class="rw-kw-tail">Only {len(films)} film'
-            f'{"s" if len(films) != 1 else ""} carries this keyword, so there is no '
-            'decade shape and no average worth printing. Below is the film, and '
-            'the keywords it shares with the rest of the catalogue.</div>',
-            unsafe_allow_html=True,
-        )
-
-    # ── Travels with ──
-    partners = Counter()
-    for movie_id in movie_ids:
-        row = movies_df[movies_df["movie_id"] == movie_id].iloc[0]
-        for word in (row["keywords"] if isinstance(row["keywords"], list) else []):
-            if word != keyword:
-                partners[word] += 1
-    if partners:
-        tape("Travels with" if not thin else "Where to go from here")
-        top = [w for w, _ in partners.most_common(14)]
-        keyword_row(top, "partners", REACH, current=keyword)
-
-    # ── The films ──
-    tape(f"The {len(films)} film{'s' if len(films) != 1 else ''}")
-    st.markdown(
-        '<div class="rw-kw-gridnote"><span>Ordered by year · oldest first</span>'
-        "<span>Every poster opens that film's dossier</span></div>",
-        unsafe_allow_html=True,
-    )
-    COLS = 8
-    for start in range(0, len(films), COLS):
-        cols = st.columns(COLS)
-        for col, (_, film) in zip(cols, films.iloc[start:start + COLS].iterrows()):
-            with col:
-                rating = f"{film['rating_tmdb']:.1f}" if pd.notna(film["rating_tmdb"]) else ""
-                film_card(film, f"{film['year']} {rating}", key="kw")
-
-
-# Per-film critic scores, averaged over a film's airings. Built once: the Movie
-# Explorer, Directors and Actors sections all need the same numbers, and
-# recomputing the groupby per section drifted the moment one of them changed.
-EP_RATINGS = (
-    merged_df.groupby("movie_id")
-    .agg(tomatoes_avg=("tomatoes_num", "mean"), ebert_avg=("ebert_num", "mean"))
-    .reset_index()
-)
-movies_rated = movies_df.merge(EP_RATINGS, on="movie_id", how="left")
-
 
 # ── Hosts & Guests ────────────────────────────────────────────────────────────
 
@@ -738,7 +207,7 @@ selected_keyword = st.session_state.get("kw_word")
 # A keyword overlay covers every section, Movie Explorer included: it has no
 # result set of its own to preserve, so there is nothing to keep rendering.
 if selected_keyword:
-    render_keyword(selected_keyword)
+    render_keyword(ctx, selected_keyword)
     st.stop()
 
 if selected_film and section != "explorer":
@@ -749,12 +218,12 @@ if selected_film and section != "explorer":
     siblings = None
     if section == "hosts" and kept("flt_person") in _VALID_PEOPLE:
         siblings = list(dict.fromkeys(person_shelf(merged_df, kept("flt_person"))["movie_id"]))
-    render_dossier(selected_film, siblings=siblings)
+    render_dossier(ctx, selected_film, siblings=siblings)
     st.stop()
 
 selected_prospect = st.session_state.get("up_film")
 if selected_prospect:
-    render_prospect(selected_prospect)
+    render_prospect(ctx, selected_prospect)
     st.stop()
 
 
@@ -1154,7 +623,7 @@ elif section == "explorer":
     view = view.sort_values(keys, ascending=order, na_position="last")
 
     if selected_film:
-        render_dossier(selected_film, siblings=view["movie_id"].tolist())
+        render_dossier(ctx, selected_film, siblings=view["movie_id"].tolist())
         st.stop()
 
     masthead("Movie Explorer", "Filter and search every film they have covered.")

@@ -347,3 +347,17 @@ def load_upcoming(db_stamp=None):
     pending["decade"] = (pending["year"] // 10 * 10).astype("Int64")
     pending["resolved"] = pending["resolution_method"] == "auto_tmdb"
     return pending, graduated
+
+
+@st.cache_data(ttl=300)
+def keyword_index(_movies, db_stamp=None):
+    """keyword -> the movie_ids carrying it, built once per database.
+
+    7,734 pairs. It also supplies the reach count behind every chip, so ranking
+    a film's keywords costs nothing at render time.
+    """
+    index = {}
+    for movie_id, keywords in zip(_movies["movie_id"], _movies["keywords"]):
+        for word in (keywords if isinstance(keywords, list) else []):
+            index.setdefault(word, []).append(movie_id)
+    return index

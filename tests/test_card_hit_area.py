@@ -26,8 +26,9 @@ import pytest
 ROOT = Path(__file__).parent.parent
 # The card functions moved to the app package in the phase 2 split;
 # prospect_card is still in app.py. Both are searched.
-_PATHS = [ROOT / "app.py",
-          ROOT / "src" / "rewatchables" / "app" / "components.py"]
+_APP = ROOT / "src" / "rewatchables" / "app"
+_PATHS = [ROOT / "app.py", _APP / "components.py",
+          _APP / "overlays" / "prospect.py"]
 _MODULES = [(s, ast.parse(s)) for s in
             (p.read_text(encoding="utf-8") for p in _PATHS)]
 # The stylesheet left app.py in the phase 2 split. The geometry rules are read
