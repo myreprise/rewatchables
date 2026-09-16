@@ -6,3 +6,11 @@ primaryColor = "#2BE8A0"
 backgroundColor = "#0B0D0C"
 secondaryBackgroundColor = "#101211"
 textColor = "#F2EFE6"
+
+[browser]
+# Streamlit's usage statistics. Off, for two reasons: this is a private app,
+# and while they are on, every element call pays for a telemetry record that
+# inspects the calling function's signature. On the poster grids that is
+# ~1,000 inspections a render -- 25% of Movie Explorer's time, 18% of Hosts &
+# Guests'. Measured interleaved, stats on vs off; see reports/progress/008.
+gatherUsageStats = false
