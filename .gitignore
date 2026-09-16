@@ -6,6 +6,8 @@
 # Database files
 *.db
 *.db-journal
+# ...and the timestamped copies the migrations leave beside it.
+*.db.*.bak
 
 # Python
 __pycache__/
