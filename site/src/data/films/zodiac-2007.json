@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Chris Ryan",
+   "host": {
+    "name": "Chris Ryan",
+    "id": "chris-ryan"
+   },
    "guests": [
-    "Sean Fennessey",
-    "Andy Greenwald"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Andy Greenwald",
+     "id": "andy-greenwald"
+    }
    ],
    "note": "Bill says there will be a Re-Zodiac during the Bill's 50 Most Rewatchable Movies of the 21st Century ep"
   },
@@ -55,10 +64,19 @@
    "revisit_kind": "regular",
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": "First new episode on Netflix"
   }
@@ -68,193 +86,225 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "murder",
    "reach": 36,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "murder"
   },
   {
    "word": "police",
    "reach": 22,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "police"
   },
   {
    "word": "detective",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "detective"
   },
   {
    "word": "california",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "california"
   },
   {
    "word": "investigation",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "investigation"
   },
   {
    "word": "serial killer",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "serial-killer"
   },
   {
    "word": "1960s",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "1960s"
   },
   {
    "word": "journalist",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "journalist"
   },
   {
    "word": "1970s",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1970s"
   },
   {
    "word": "awestruck",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "awestruck"
   },
   {
    "word": "frightened",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "frightened"
   },
   {
    "word": "whodunit",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "whodunit"
   },
   {
    "word": "alcoholic",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alcoholic"
   },
   {
    "word": "ambiguous",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ambiguous"
   },
   {
    "word": "san francisco, california",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "san-francisco-california"
   },
   {
    "word": "newspaper",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "newspaper"
   },
   {
    "word": "killing",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "killing"
   },
   {
    "word": "reporter",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "reporter"
   },
   {
    "word": "bar",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bar"
   },
   {
    "word": "fourth of july",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fourth-of-july"
   },
   {
    "word": "clinical",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "clinical"
   },
   {
    "word": "crime scene",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "crime-scene"
   },
   {
    "word": "foreboding",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "foreboding"
   },
   {
    "word": "victim",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "victim"
   },
   {
    "word": "cartoonist",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "code",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "malicious",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "newspaper article",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "true crime",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "young man",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "zodiac killer",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -40,9 +40,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Kyle Brandt"
+    {
+     "name": "Kyle Brandt",
+     "id": "kyle-brandt"
+    }
    ],
    "note": "Raj did not write a review but gave it a thumbs up on TV"
   }
@@ -52,163 +58,190 @@
    "word": "revenge",
    "reach": 31,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "revenge"
   },
   {
    "word": "sequel",
    "reach": 28,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "sequel"
   },
   {
    "word": "explosion",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "explosion"
   },
   {
    "word": "chase",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "chase"
   },
   {
    "word": "vietnam veteran",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vietnam-veteran"
   },
   {
    "word": "helicopter",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "helicopter"
   },
   {
    "word": "torture",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "torture"
   },
   {
    "word": "vietnam",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vietnam"
   },
   {
    "word": "vietnam war",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vietnam-war"
   },
   {
    "word": "agent",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "agent"
   },
   {
    "word": "government",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "government"
   },
   {
    "word": "photography",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "photography"
   },
   {
    "word": "prisoner",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "prisoner"
   },
   {
    "word": "soldier",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "soldier"
   },
   {
    "word": "us army",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "us-army"
   },
   {
    "word": "bow and arrow",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bow-and-arrow"
   },
   {
    "word": "forest",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "forest"
   },
   {
    "word": "leech",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "leech"
   },
   {
    "word": "liberation of prisoners",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "liberation-of-prisoners"
   },
   {
    "word": "submachine gun",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "submachine-gun"
   },
   {
    "word": "denunciation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "electrical torture",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "exploding body",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "liberation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "machinegun",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "prisoner of war",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "russian army",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

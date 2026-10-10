@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Van Lathan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": null
   }
@@ -50,115 +59,134 @@
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "inspirational",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "inspirational"
   },
   {
    "word": "love of one's life",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "love-of-ones-life"
   },
   {
    "word": "philadelphia, pennsylvania",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "philadelphia-pennsylvania"
   },
   {
    "word": "training",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "training"
   },
   {
    "word": "underdog",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "underdog"
   },
   {
    "word": "fight",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fight"
   },
   {
    "word": "italian american",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "italian-american"
   },
   {
    "word": "boxing",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "boxing"
   },
   {
    "word": "boxer",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "boxer"
   },
   {
    "word": "hopeful",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hopeful"
   },
   {
    "word": "transporter",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "transporter"
   },
   {
    "word": "empathetic",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "empathetic"
   },
   {
    "word": "lovers",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lovers"
   },
   {
    "word": "victory",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "victory"
   },
   {
    "word": "independence",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "independence"
   },
   {
    "word": "world champion",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "world-champion"
   },
   {
    "word": "publicity",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "publicity"
   },
   {
    "word": "surprise",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

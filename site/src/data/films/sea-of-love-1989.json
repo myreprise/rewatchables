@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Wosny Lambre"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Wosny Lambre",
+     "id": "wosny-lambre"
+    }
    ],
    "note": null
   }
@@ -52,49 +61,57 @@
    "word": "new york city",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "new-york-city"
   },
   {
    "word": "murder",
    "reach": 36,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "murder"
   },
   {
    "word": "neo-noir",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "neo-noir"
   },
   {
    "word": "police",
    "reach": 22,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "police"
   },
   {
    "word": "detective",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "detective"
   },
   {
    "word": "serial killer",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "serial-killer"
   },
   {
    "word": "alcohol",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alcohol"
   },
   {
    "word": "newspaper",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "newspaper"
   }
  ],
  "cast": [

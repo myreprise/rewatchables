@@ -37,9 +37,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Mallory Rubin"
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    }
    ],
    "note": null
   }
@@ -49,43 +55,50 @@
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "duringcreditsstinger",
    "reach": 27,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "duringcreditsstinger"
   },
   {
    "word": "american football",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "american-football"
   },
   {
    "word": "nfl (national football league)",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nfl-national-football-league"
   },
   {
    "word": "cleveland",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "cleveland browns",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "draft day",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

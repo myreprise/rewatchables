@@ -37,9 +37,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Sean Fennessey",
+   "host": {
+    "name": "Sean Fennessey",
+    "id": "sean-fennessey"
+   },
    "guests": [
-    "Wesley Morris"
+    {
+     "name": "Wesley Morris",
+     "id": "wesley-morris"
+    }
    ],
    "note": null
   }
@@ -49,139 +55,162 @@
    "word": "new york city",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "new-york-city"
   },
   {
    "word": "love",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "love"
   },
   {
    "word": "angry",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "angry"
   },
   {
    "word": "money",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "money"
   },
   {
    "word": "italian american",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "italian-american"
   },
   {
    "word": "police brutality",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "police-brutality"
   },
   {
    "word": "racism",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "racism"
   },
   {
    "word": "brooklyn, new york city",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "brooklyn-new-york-city"
   },
   {
    "word": "chaos",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "chaos"
   },
   {
    "word": "dignified",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dignified"
   },
   {
    "word": "burlesque",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "burlesque"
   },
   {
    "word": "police operation",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "police-operation"
   },
   {
    "word": "street war",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "street-war"
   },
   {
    "word": "culture clash",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "culture-clash"
   },
   {
    "word": "heatwave",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "heatwave"
   },
   {
    "word": "hip-hop",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hip-hop"
   },
   {
    "word": "pizza",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pizza"
   },
   {
    "word": "punk rock",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "punk-rock"
   },
   {
    "word": "radio transmission",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "radio-transmission"
   },
   {
    "word": "restaurant critic",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "restaurant-critic"
   },
   {
    "word": "heat",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "pizzeria",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "race relations",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

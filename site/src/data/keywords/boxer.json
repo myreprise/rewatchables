@@ -1,0 +1,156 @@
+{
+ "word": "boxer",
+ "id": "boxer",
+ "catalogue": 460,
+ "share": 1.1,
+ "thin": false,
+ "peak": 1970,
+ "avg_tmdb": 7.2,
+ "vs_catalogue": 0.1,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 2
+  },
+  {
+   "decade": 1980,
+   "n": 2
+  },
+  {
+   "decade": 1990,
+   "n": 0
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  }
+ ],
+ "peak_share": 40.0,
+ "catalogue_peak_share": 7.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "boxing",
+   "reach": 6,
+   "band": "b5",
+   "id": "boxing"
+  },
+  {
+   "word": "transporter",
+   "reach": 5,
+   "band": "b5",
+   "id": "transporter"
+  },
+  {
+   "word": "sports",
+   "reach": 47,
+   "band": "b1",
+   "id": "sports"
+  },
+  {
+   "word": "training",
+   "reach": 10,
+   "band": "b5",
+   "id": "training"
+  },
+  {
+   "word": "victory",
+   "reach": 4,
+   "band": "b5",
+   "id": "victory"
+  },
+  {
+   "word": "powerful",
+   "reach": 7,
+   "band": "b5",
+   "id": "powerful"
+  },
+  {
+   "word": "sequel",
+   "reach": 28,
+   "band": "b2",
+   "id": "sequel"
+  },
+  {
+   "word": "world champion",
+   "reach": 3,
+   "band": "b5",
+   "id": "world-champion"
+  },
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "id": "admiring"
+  },
+  {
+   "word": "candid",
+   "reach": 5,
+   "band": "b5",
+   "id": "candid"
+  },
+  {
+   "word": "dying and death",
+   "reach": 13,
+   "band": "b4",
+   "id": "dying-and-death"
+  },
+  {
+   "word": "empathetic",
+   "reach": 4,
+   "band": "b5",
+   "id": "empathetic"
+  },
+  {
+   "word": "love of one's life",
+   "reach": 11,
+   "band": "b5",
+   "id": "love-of-ones-life"
+  },
+  {
+   "word": "publicity",
+   "reach": 2,
+   "band": "b5",
+   "id": "publicity"
+  }
+ ],
+ "films": [
+  {
+   "id": "rocky-1976",
+   "title": "Rocky",
+   "year": 1976,
+   "poster": "xSI0dbKLDETwhiVUy6hGE8KXUln.jpg",
+   "tmdb": 7.8
+  },
+  {
+   "id": "rocky-ii-1979",
+   "title": "Rocky II",
+   "year": 1979,
+   "poster": "nMaiiu0CzT77U4JZkUYV7KqdAjK.jpg",
+   "tmdb": 7.3
+  },
+  {
+   "id": "rocky-iii-1982",
+   "title": "Rocky III",
+   "year": 1982,
+   "poster": "uqw16i2kmwVqkJHzjzbDU4xZ0Pl.jpg",
+   "tmdb": 6.907
+  },
+  {
+   "id": "rocky-iv-1985",
+   "title": "Rocky IV",
+   "year": 1985,
+   "poster": "2MHUit4H6OK5adcOjnCN6suCKOl.jpg",
+   "tmdb": 7.094
+  },
+  {
+   "id": "ali-2001",
+   "title": "Ali",
+   "year": 2001,
+   "poster": "32l3FaCzs8cXWps6hkgNJAcOsP.jpg",
+   "tmdb": 6.743
+  }
+ ]
+}

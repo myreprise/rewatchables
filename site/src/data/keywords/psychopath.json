@@ -1,0 +1,215 @@
+{
+ "word": "psychopath",
+ "id": "psychopath",
+ "catalogue": 460,
+ "share": 3.0,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.2,
+ "vs_catalogue": 0.2,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 2
+  },
+  {
+   "decade": 1990,
+   "n": 11
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  }
+ ],
+ "peak_share": 79.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "neo-noir",
+   "reach": 29,
+   "band": "b2",
+   "id": "neo-noir"
+  },
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "id": "murder"
+  },
+  {
+   "word": "serial killer",
+   "reach": 14,
+   "band": "b4",
+   "id": "serial-killer"
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "brutality",
+   "reach": 4,
+   "band": "b5",
+   "id": "brutality"
+  },
+  {
+   "word": "detective",
+   "reach": 17,
+   "band": "b3",
+   "id": "detective"
+  },
+  {
+   "word": "disturbed",
+   "reach": 7,
+   "band": "b5",
+   "id": "disturbed"
+  },
+  {
+   "word": "fbi",
+   "reach": 20,
+   "band": "b3",
+   "id": "fbi"
+  },
+  {
+   "word": "frightened",
+   "reach": 11,
+   "band": "b5",
+   "id": "frightened"
+  },
+  {
+   "word": "police",
+   "reach": 22,
+   "band": "b3",
+   "id": "police"
+  },
+  {
+   "word": "psychological horror",
+   "reach": 6,
+   "band": "b5",
+   "id": "psychological-horror"
+  },
+  {
+   "word": "psychological thriller",
+   "reach": 12,
+   "band": "b4",
+   "id": "psychological-thriller"
+  },
+  {
+   "word": "sadism",
+   "reach": 6,
+   "band": "b5",
+   "id": "sadism"
+  }
+ ],
+ "films": [
+  {
+   "id": "cobra-1986",
+   "title": "Cobra",
+   "year": 1986,
+   "poster": "jCxfbTh8JvJil5edhNywxaTHoWv.jpg",
+   "tmdb": 6.162
+  },
+  {
+   "id": "manhunter-1986",
+   "title": "Manhunter",
+   "year": 1986,
+   "poster": "6rb24x39vV8n5301IelC8rCPJTH.jpg",
+   "tmdb": 7.009
+  },
+  {
+   "id": "misery-1990",
+   "title": "Misery",
+   "year": 1990,
+   "poster": "klPO5oh1LOxiPpdDXZo1ADgpKcw.jpg",
+   "tmdb": 7.753
+  },
+  {
+   "id": "pacific-heights-1990",
+   "title": "Pacific Heights",
+   "year": 1990,
+   "poster": "9iHD6xIrGSuuMEFWhwSVGXSddY2.jpg",
+   "tmdb": 6.29
+  },
+  {
+   "id": "out-for-justice-1991",
+   "title": "Out for Justice",
+   "year": 1991,
+   "poster": "nmfM1diysOyrX4JbvwS7uOomyes.jpg",
+   "tmdb": 6.182
+  },
+  {
+   "id": "the-silence-of-the-lambs-1991",
+   "title": "The Silence of the Lambs",
+   "year": 1991,
+   "poster": "uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
+   "tmdb": 8.345
+  },
+  {
+   "id": "basic-instinct-1992",
+   "title": "Basic Instinct",
+   "year": 1992,
+   "poster": "76Ts0yoHk8kVQj9MMnoMixhRWoh.jpg",
+   "tmdb": 6.946
+  },
+  {
+   "id": "reservoir-dogs-1992",
+   "title": "Reservoir Dogs",
+   "year": 1992,
+   "poster": "xi8Iu6qyTfyZVDVy60raIOYJJmk.jpg",
+   "tmdb": 8.111
+  },
+  {
+   "id": "the-good-son-1993",
+   "title": "The Good Son",
+   "year": 1993,
+   "poster": "6jZ1eef6SCVSMb4o1pSHHq84Nyf.jpg",
+   "tmdb": 6.8
+  },
+  {
+   "id": "se7en-1995",
+   "title": "Se7en",
+   "year": 1995,
+   "poster": "191nKfP0ehp3uIvWqgPbFmI4lv9.jpg",
+   "tmdb": 8.38
+  },
+  {
+   "id": "primal-fear-1996",
+   "title": "Primal Fear",
+   "year": 1996,
+   "poster": "qJf2TzE8nRTFbFMPJNW6c8mI0KU.jpg",
+   "tmdb": 7.659
+  },
+  {
+   "id": "con-air-1997",
+   "title": "Con Air",
+   "year": 1997,
+   "poster": "kOKjgrEzGOP92rVQ6srA9jtp60l.jpg",
+   "tmdb": 6.785
+  },
+  {
+   "id": "face-off-1997",
+   "title": "Face/Off",
+   "year": 1997,
+   "poster": "69Xzn8UdPbVnmqSChKz2RTpoNfB.jpg",
+   "tmdb": 7.059
+  },
+  {
+   "id": "no-country-for-old-men-2007",
+   "title": "No Country for Old Men",
+   "year": 2007,
+   "poster": "6d5XOczc226jECq0LIX0siKtgHR.jpg",
+   "tmdb": 7.95
+  }
+ ]
+}

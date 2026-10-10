@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": null
   }
@@ -51,169 +57,197 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "action hero",
    "reach": 21,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "action-hero"
   },
   {
    "word": "shootout",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "shootout"
   },
   {
    "word": "spy",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "spy"
   },
   {
    "word": "paris, france",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "paris-france"
   },
   {
    "word": "flashback",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "flashback"
   },
   {
    "word": "thoughtful",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "thoughtful"
   },
   {
    "word": "assassin",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "assassin"
   },
   {
    "word": "escape",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "escape"
   },
   {
    "word": "secret identity",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "secret-identity"
   },
   {
    "word": "hand to hand combat",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hand-to-hand-combat"
   },
   {
    "word": "lovers",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lovers"
   },
   {
    "word": "political thriller",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "political-thriller"
   },
   {
    "word": "amnesia",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "amnesia"
   },
   {
    "word": "foot chase",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "foot-chase"
   },
   {
    "word": "safe deposit box",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "safe-deposit-box"
   },
   {
    "word": "cell phone",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cell-phone"
   },
   {
    "word": "fishing boat",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fishing-boat"
   },
   {
    "word": "langley virginia",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "langley-virginia"
   },
   {
    "word": "mission of murder",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mission-of-murder"
   },
   {
    "word": "barcelona, spain",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "bourne",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "globe trotter",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "hamburg, germany",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "jason bourne",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "multiple identities",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "passport",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "surveillance camera",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

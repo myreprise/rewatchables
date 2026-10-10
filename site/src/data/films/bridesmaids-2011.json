@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Mallory Rubin",
-    "Mina Kimes"
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    },
+    {
+     "name": "Mina Kimes",
+     "id": "mina-kimes"
+    }
    ],
    "note": null
   }
@@ -51,145 +60,169 @@
    "word": "duringcreditsstinger",
    "reach": 27,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "duringcreditsstinger"
   },
   {
    "word": "amused",
    "reach": 26,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "amused"
   },
   {
    "word": "parent child relationship",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "parent-child-relationship"
   },
   {
    "word": "awestruck",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "awestruck"
   },
   {
    "word": "fight",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fight"
   },
   {
    "word": "jealousy",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "jealousy"
   },
   {
    "word": "best friend",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "best-friend"
   },
   {
    "word": "competition",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "competition"
   },
   {
    "word": "group of friends",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "group-of-friends"
   },
   {
    "word": "missing person",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "missing-person"
   },
   {
    "word": "female friendship",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "female-friendship"
   },
   {
    "word": "intimate",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "intimate"
   },
   {
    "word": "wealth",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "wealth"
   },
   {
    "word": "fear of commitment",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fear-of-commitment"
   },
   {
    "word": "maid of honor",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "maid-of-honor"
   },
   {
    "word": "bridesmaid",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "casual sex",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "drunk",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "materialism",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "out of control",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sexual humor",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "vanity",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "wedding dress",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "wedding party",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

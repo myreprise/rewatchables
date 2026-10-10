@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Mallory Rubin"
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    }
    ],
    "note": null
   }
@@ -50,43 +56,50 @@
    "word": "love of one's life",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "love-of-ones-life"
   },
   {
    "word": "gambling",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gambling"
   },
   {
    "word": "las vegas",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "las-vegas"
   },
   {
    "word": "millionaire",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "millionaire"
   },
   {
    "word": "adultery",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "adultery"
   },
   {
    "word": "roulette",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "roulette"
   },
   {
    "word": "indecent proposal",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

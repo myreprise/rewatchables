@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Kyle Brandt"
+    {
+     "name": "Kyle Brandt",
+     "id": "kyle-brandt"
+    }
    ],
    "note": null
   }
@@ -50,43 +56,50 @@
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "based on true story",
    "reach": 25,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "based-on-true-story"
   },
   {
    "word": "american football",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "american-football"
   },
   {
    "word": "biography",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "biography"
   },
   {
    "word": "underdog",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "underdog"
   },
   {
    "word": "family relationships",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "family-relationships"
   },
   {
    "word": "aspiration",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": "Rock Bottom' month"
   }
@@ -52,121 +61,141 @@
    "word": "los angeles, california",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "los-angeles-california"
   },
   {
    "word": "bold",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "bold"
   },
   {
    "word": "daughter",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "daughter"
   },
   {
    "word": "blunt",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "blunt"
   },
   {
    "word": "harsh",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "harsh"
   },
   {
    "word": "pornography",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pornography"
   },
   {
    "word": "private detective",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "private-detective"
   },
   {
    "word": "father",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "father"
   },
   {
    "word": "subculture",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "subculture"
   },
   {
    "word": "missing child",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "missing-child"
   },
   {
    "word": "porn industry",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "porn-industry"
   },
   {
    "word": "runaway",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "runaway"
   },
   {
    "word": "search for daughter",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "search-for-daughter"
   },
   {
    "word": "snuff",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "snuff"
   },
   {
    "word": "snuff film",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "snuff-film"
   },
   {
    "word": "calvinism",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "calvinist",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "michigan",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "peep show",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sex industry",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

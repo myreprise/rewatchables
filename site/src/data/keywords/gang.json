@@ -1,0 +1,156 @@
+{
+ "word": "gang",
+ "id": "gang",
+ "catalogue": 460,
+ "share": 1.1,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.2,
+ "vs_catalogue": 0.2,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 2
+  },
+  {
+   "decade": 1990,
+   "n": 2
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 40.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "id": "murder"
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "betrayal",
+   "reach": 9,
+   "band": "b5",
+   "id": "betrayal"
+  },
+  {
+   "word": "heist",
+   "reach": 16,
+   "band": "b4",
+   "id": "heist"
+  },
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  },
+  {
+   "word": "psychopath",
+   "reach": 14,
+   "band": "b4",
+   "id": "psychopath"
+  },
+  {
+   "word": "showdown",
+   "reach": 7,
+   "band": "b5",
+   "id": "showdown"
+  },
+  {
+   "word": "thief",
+   "reach": 6,
+   "band": "b5",
+   "id": "thief"
+  },
+  {
+   "word": "angry",
+   "reach": 8,
+   "band": "b5",
+   "id": "angry"
+  },
+  {
+   "word": "antagonistic",
+   "reach": 13,
+   "band": "b4",
+   "id": "antagonistic"
+  },
+  {
+   "word": "assertive",
+   "reach": 9,
+   "band": "b5",
+   "id": "assertive"
+  },
+  {
+   "word": "authoritarian",
+   "reach": 4,
+   "band": "b5",
+   "id": "authoritarian"
+  },
+  {
+   "word": "bank job",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bank robbery",
+   "reach": 5,
+   "band": "b5",
+   "id": "bank-robbery"
+  }
+ ],
+ "films": [
+  {
+   "id": "cobra-1986",
+   "title": "Cobra",
+   "year": 1986,
+   "poster": "jCxfbTh8JvJil5edhNywxaTHoWv.jpg",
+   "tmdb": 6.162
+  },
+  {
+   "id": "lethal-weapon-2-1989",
+   "title": "Lethal Weapon 2",
+   "year": 1989,
+   "poster": "1EEIUw0tkX7AJZ1ikZrtKZZKlC6.jpg",
+   "tmdb": 7.045
+  },
+  {
+   "id": "reservoir-dogs-1992",
+   "title": "Reservoir Dogs",
+   "year": 1992,
+   "poster": "xi8Iu6qyTfyZVDVy60raIOYJJmk.jpg",
+   "tmdb": 8.111
+  },
+  {
+   "id": "heat-1995",
+   "title": "Heat",
+   "year": 1995,
+   "poster": "gKaePbkEkaqvMtw74EyhhkfCKKh.jpg",
+   "tmdb": 7.945
+  },
+  {
+   "id": "shot-caller-2017",
+   "title": "Shot Caller",
+   "year": 2017,
+   "poster": "qLmLz2wtyYvmW8Ult3l2ngOnW8v.jpg",
+   "tmdb": 6.968
+  }
+ ]
+}

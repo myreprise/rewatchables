@@ -40,10 +40,19 @@
    "revisit_kind": null,
    "verdict": "Tie",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Mallory Rubin"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    }
    ],
    "note": null
   }
@@ -53,151 +62,176 @@
    "word": "absurd",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "absurd"
   },
   {
    "word": "admiring",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "admiring"
   },
   {
    "word": "audacious",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "audacious"
   },
   {
    "word": "ambiguous",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ambiguous"
   },
   {
    "word": "angry",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "angry"
   },
   {
    "word": "shocking",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "shocking"
   },
   {
    "word": "sympathetic",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sympathetic"
   },
   {
    "word": "appreciative",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "appreciative"
   },
   {
    "word": "ghost",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ghost"
   },
   {
    "word": "mysterious",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mysterious"
   },
   {
    "word": "vibrant",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vibrant"
   },
   {
    "word": "haunted house",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "haunted-house"
   },
   {
    "word": "car accident",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "car-accident"
   },
   {
    "word": "secret",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "secret"
   },
   {
    "word": "suspicion",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "suspicion"
   },
   {
    "word": "approving",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "approving"
   },
   {
    "word": "baffled",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "baffled"
   },
   {
    "word": "haunting",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "haunting"
   },
   {
    "word": "lake",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lake"
   },
   {
    "word": "missing child",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "missing-child"
   },
   {
    "word": "new neighbor",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "new-neighbor"
   },
   {
    "word": "séance",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "seance"
   },
   {
    "word": "vermont",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vermont"
   },
   {
    "word": "ouija board",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "therapist",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

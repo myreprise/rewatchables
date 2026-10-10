@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -50,67 +59,78 @@
    "word": "infidelity",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "infidelity"
   },
   {
    "word": "male friendship",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "male-friendship"
   },
   {
    "word": "college",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "college"
   },
   {
    "word": "fraternity",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fraternity"
   },
   {
    "word": "dean",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dean"
   },
   {
    "word": "beer",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "group sex",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mouth to mouth resuscitation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sex doll",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "streaking",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "wild party",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

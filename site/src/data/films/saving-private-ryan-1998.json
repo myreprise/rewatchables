@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -52,109 +61,127 @@
    "word": "based on true story",
    "reach": 25,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "based-on-true-story"
   },
   {
    "word": "dying and death",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "dying-and-death"
   },
   {
    "word": "military",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "military"
   },
   {
    "word": "1940s",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1940s"
   },
   {
    "word": "rescue mission",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rescue-mission"
   },
   {
    "word": "world war ii",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "world-war-ii"
   },
   {
    "word": "bravery",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bravery"
   },
   {
    "word": "self sacrifice",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "self-sacrifice"
   },
   {
    "word": "us army",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "us-army"
   },
   {
    "word": "cowardice",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cowardice"
   },
   {
    "word": "german soldier",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "german-soldier"
   },
   {
    "word": "d-day",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "duty",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "military operation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "normandy, france",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "omaha beach",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "troops",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "waffen ss",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

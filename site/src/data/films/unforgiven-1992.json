@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": "Rog originally gave it 2.5/4 stars, but re-assessed in 2002"
   }
@@ -50,91 +59,106 @@
    "word": "revenge",
    "reach": 31,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "revenge"
   },
   {
    "word": "excited",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "excited"
   },
   {
    "word": "prostitute",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "prostitute"
   },
   {
    "word": "somber",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "somber"
   },
   {
    "word": "regret",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "regret"
   },
   {
    "word": "sheriff",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sheriff"
   },
   {
    "word": "19th century",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "19th-century"
   },
   {
    "word": "right and justice",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "right-and-justice"
   },
   {
    "word": "wyoming, usa",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "wyoming-usa"
   },
   {
    "word": "one last job",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "one-last-job"
   },
   {
    "word": "englishman",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "kansas, usa",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mutilation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "pig farmer",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "reputation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

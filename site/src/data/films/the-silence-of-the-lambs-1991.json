@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": null
   },
@@ -54,11 +60,23 @@
    "revisit_kind": "regular",
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey",
-    "Mallory Rubin"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    }
    ],
    "note": null
   }
@@ -68,163 +86,190 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "murder",
    "reach": 36,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "murder"
   },
   {
    "word": "neo-noir",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "neo-noir"
   },
   {
    "word": "fbi",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "fbi"
   },
   {
    "word": "prison",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "prison"
   },
   {
    "word": "psychopath",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "psychopath"
   },
   {
    "word": "serial killer",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "serial-killer"
   },
   {
    "word": "kidnapping",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "kidnapping"
   },
   {
    "word": "psychological thriller",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "psychological-thriller"
   },
   {
    "word": "disturbed",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "disturbed"
   },
   {
    "word": "macabre",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "macabre"
   },
   {
    "word": "psychological horror",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "psychological-horror"
   },
   {
    "word": "psychiatrist",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "psychiatrist"
   },
   {
    "word": "biting",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "biting"
   },
   {
    "word": "brutality",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "brutality"
   },
   {
    "word": "cannibalism",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cannibalism"
   },
   {
    "word": "virginia",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "virginia"
   },
   {
    "word": "cannibal",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cannibal"
   },
   {
    "word": "crime horror",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "crime-horror"
   },
   {
    "word": "crime thriller",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "crime-thriller"
   },
   {
    "word": "hannibal lecter",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hannibal-lecter"
   },
   {
    "word": "psychological profiling",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "psychological-profiling"
   },
   {
    "word": "moth",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "past history",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "scientific study",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "skinning",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "twisted",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

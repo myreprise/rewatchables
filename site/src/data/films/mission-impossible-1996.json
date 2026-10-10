@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Chris Ryan",
+   "host": {
+    "name": "Chris Ryan",
+    "id": "chris-ryan"
+   },
    "guests": [
-    "Sean Fennessey",
-    "Jason Concepcion"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Jason Concepcion",
+     "id": "jason-concepcion"
+    }
    ],
    "note": null
   }
@@ -52,151 +61,176 @@
    "word": "terrorism",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "terrorism"
   },
   {
    "word": "undercover",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "undercover"
   },
   {
    "word": "spy",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "spy"
   },
   {
    "word": "paris, france",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "paris-france"
   },
   {
    "word": "central intelligence agency (cia)",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "central-intelligence-agency-cia"
   },
   {
    "word": "fake identity",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fake-identity"
   },
   {
    "word": "secret identity",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "secret-identity"
   },
   {
    "word": "london, england",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "london-england"
   },
   {
    "word": "secret agent",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "secret-agent"
   },
   {
    "word": "mask",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mask"
   },
   {
    "word": "mission",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mission"
   },
   {
    "word": "agent",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "agent"
   },
   {
    "word": "based on tv series",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "based-on-tv-series"
   },
   {
    "word": "espionage",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "espionage"
   },
   {
    "word": "secret base",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "secret-base"
   },
   {
    "word": "arms deal",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "arms-deal"
   },
   {
    "word": "computer",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "computer"
   },
   {
    "word": "embassy",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "embassy"
   },
   {
    "word": "fictional government agency",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fictional-government-agency"
   },
   {
    "word": "government agency",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "government-agency"
   },
   {
    "word": "infiltration",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "infiltration"
   },
   {
    "word": "secret government organization",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "secret-government-organization"
   },
   {
    "word": "headquarter",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "prague, czech republic",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "secret mission",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

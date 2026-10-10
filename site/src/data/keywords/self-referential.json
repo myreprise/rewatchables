@@ -1,0 +1,118 @@
+{
+ "word": "self-referential",
+ "id": "self-referential",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "house party",
+   "reach": 5,
+   "band": "b5",
+   "id": "house-party"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "apocalypse",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "biblical",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "california",
+   "reach": 16,
+   "band": "b4",
+   "id": "california"
+  },
+  {
+   "word": "celebrity",
+   "reach": 5,
+   "band": "b5",
+   "id": "celebrity"
+  },
+  {
+   "word": "claustrophobic",
+   "reach": 2,
+   "band": "b5",
+   "id": "claustrophobic"
+  },
+  {
+   "word": "creature",
+   "reach": 7,
+   "band": "b5",
+   "id": "creature"
+  },
+  {
+   "word": "crime spree",
+   "reach": 2,
+   "band": "b5",
+   "id": "crime-spree"
+  },
+  {
+   "word": "dark comedy",
+   "reach": 10,
+   "band": "b5",
+   "id": "dark-comedy"
+  },
+  {
+   "word": "demon",
+   "reach": 4,
+   "band": "b5",
+   "id": "demon"
+  },
+  {
+   "word": "disturbed",
+   "reach": 7,
+   "band": "b5",
+   "id": "disturbed"
+  },
+  {
+   "word": "dreary",
+   "reach": 6,
+   "band": "b5",
+   "id": "dreary"
+  },
+  {
+   "word": "drugs",
+   "reach": 17,
+   "band": "b3",
+   "id": "drugs"
+  }
+ ],
+ "films": [
+  {
+   "id": "scream-1996",
+   "title": "Scream",
+   "year": 1996,
+   "poster": "lr9ZIrmuwVmZhpZuTCW8D9g0ZJe.jpg",
+   "tmdb": 7.431
+  },
+  {
+   "id": "this-is-the-end-2013",
+   "title": "This Is the End",
+   "year": 2013,
+   "poster": "tNIW0NhX1hKvUsy6PQ80DOKUhkD.jpg",
+   "tmdb": 6.232
+  }
+ ]
+}

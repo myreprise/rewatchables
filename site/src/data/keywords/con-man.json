@@ -1,0 +1,160 @@
+{
+ "word": "con man",
+ "id": "con-man",
+ "catalogue": 460,
+ "share": 1.1,
+ "thin": false,
+ "peak": 2010,
+ "avg_tmdb": 7.4,
+ "vs_catalogue": 0.3,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 0
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  },
+  {
+   "decade": 2010,
+   "n": 2
+  }
+ ],
+ "peak_share": 40.0,
+ "catalogue_peak_share": 12.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "con artist",
+   "reach": 4,
+   "band": "b5",
+   "id": "con-artist"
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "biography",
+   "reach": 10,
+   "band": "b5",
+   "id": "biography"
+  },
+  {
+   "word": "cautionary",
+   "reach": 6,
+   "band": "b5",
+   "id": "cautionary"
+  },
+  {
+   "word": "1930s",
+   "reach": 6,
+   "band": "b5",
+   "id": "1930s"
+  },
+  {
+   "word": "1980s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1980s"
+  },
+  {
+   "word": "aggressive",
+   "reach": 18,
+   "band": "b3",
+   "id": "aggressive"
+  },
+  {
+   "word": "alley",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "antagonistic",
+   "reach": 13,
+   "band": "b4",
+   "id": "antagonistic"
+  },
+  {
+   "word": "anti hero",
+   "reach": 8,
+   "band": "b5",
+   "id": "anti-hero"
+  },
+  {
+   "word": "assertive",
+   "reach": 9,
+   "band": "b5",
+   "id": "assertive"
+  },
+  {
+   "word": "attempted jailbreak",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "attempted murder",
+   "reach": 3,
+   "band": "b5",
+   "id": "attempted-murder"
+  },
+  {
+   "word": "bank fraud",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "the-sting-1973",
+   "title": "The Sting",
+   "year": 1973,
+   "poster": "ckmYng37zey8INYf6d10cVgIG93.jpg",
+   "tmdb": 8.0
+  },
+  {
+   "id": "pacific-heights-1990",
+   "title": "Pacific Heights",
+   "year": 1990,
+   "poster": "9iHD6xIrGSuuMEFWhwSVGXSddY2.jpg",
+   "tmdb": 6.29
+  },
+  {
+   "id": "catch-me-if-you-can-2002",
+   "title": "Catch Me If You Can",
+   "year": 2002,
+   "poster": "ctjEj2xM32OvBXCq8zAdK3ZrsAj.jpg",
+   "tmdb": 7.978
+  },
+  {
+   "id": "the-wolf-of-wall-street-2013",
+   "title": "The Wolf of Wall Street",
+   "year": 2013,
+   "poster": "kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg",
+   "tmdb": 8.027
+  },
+  {
+   "id": "focus-2015",
+   "title": "Focus",
+   "year": 2015,
+   "poster": "lOzGWjceYTd0kd5HyX7Ch46O9kh.jpg",
+   "tmdb": 6.87
+  }
+ ]
+}

@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Juliet Litman",
-    "Amanda Dobbins"
+    {
+     "name": "Juliet Litman",
+     "id": "juliet-litman"
+    },
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    }
    ],
    "note": "1999 series (Luminary)"
   }
@@ -52,97 +61,113 @@
    "word": "high school",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "high-school"
   },
   {
    "word": "chicago, illinois",
    "reach": 19,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "chicago-illinois"
   },
   {
    "word": "undercover",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "undercover"
   },
   {
    "word": "journalist",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "journalist"
   },
   {
    "word": "love",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "love"
   },
   {
    "word": "lighthearted",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lighthearted"
   },
   {
    "word": "romcom",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "romcom"
   },
   {
    "word": "nerd",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nerd"
   },
   {
    "word": "newspaper",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "newspaper"
   },
   {
    "word": "reporter",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "reporter"
   },
   {
    "word": "prank",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "prank"
   },
   {
    "word": "entrapment",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "entrapment"
   },
   {
    "word": "kiss",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "kiss"
   },
   {
    "word": "prom",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "prom"
   },
   {
    "word": "editor",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "humiliation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -41,9 +41,15 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Kyle Brandt"
+    {
+     "name": "Kyle Brandt",
+     "id": "kyle-brandt"
+    }
    ],
    "note": null
   }
@@ -53,79 +59,92 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "action hero",
    "reach": 21,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "action-hero"
   },
   {
    "word": "spy",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "spy"
   },
   {
    "word": "politics",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "politics"
   },
   {
    "word": "london, england",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "london-england"
   },
   {
    "word": "thief",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "thief"
   },
   {
    "word": "espionage",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "espionage"
   },
   {
    "word": "master thief",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "master-thief"
   },
   {
    "word": "scientist",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "scientist"
   },
   {
    "word": "berlin, germany",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "gas",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "moscow, russia",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "the saint",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

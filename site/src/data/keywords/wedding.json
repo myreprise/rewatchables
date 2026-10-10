@@ -1,0 +1,187 @@
+{
+ "word": "wedding",
+ "id": "wedding",
+ "catalogue": 460,
+ "share": 2.2,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 6.7,
+ "vs_catalogue": -0.4,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 5
+  },
+  {
+   "decade": 2000,
+   "n": 4
+  }
+ ],
+ "peak_share": 50.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "daughter",
+   "reach": 10,
+   "band": "b5",
+   "id": "daughter"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "bride",
+   "reach": 3,
+   "band": "b5",
+   "id": "bride"
+  },
+  {
+   "word": "father-in-law",
+   "reach": 3,
+   "band": "b5",
+   "id": "father-in-law"
+  },
+  {
+   "word": "love of one's life",
+   "reach": 11,
+   "band": "b5",
+   "id": "love-of-ones-life"
+  },
+  {
+   "word": "rehearsal dinner",
+   "reach": 2,
+   "band": "b5",
+   "id": "rehearsal-dinner"
+  },
+  {
+   "word": "sibling relationship",
+   "reach": 7,
+   "band": "b5",
+   "id": "sibling-relationship"
+  },
+  {
+   "word": "1960s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1960s"
+  },
+  {
+   "word": "adoring",
+   "reach": 8,
+   "band": "b5",
+   "id": "adoring"
+  },
+  {
+   "word": "aftercreditsstinger",
+   "reach": 18,
+   "band": "b3",
+   "id": "aftercreditsstinger"
+  },
+  {
+   "word": "aggressive",
+   "reach": 18,
+   "band": "b3",
+   "id": "aggressive"
+  },
+  {
+   "word": "airplane",
+   "reach": 8,
+   "band": "b5",
+   "id": "airplane"
+  },
+  {
+   "word": "airport",
+   "reach": 3,
+   "band": "b5",
+   "id": "airport"
+  },
+  {
+   "word": "ambition",
+   "reach": 4,
+   "band": "b5",
+   "id": "ambition"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-princess-bride-1987",
+   "title": "The Princess Bride",
+   "year": 1987,
+   "poster": "2FC9L9MrjBoGHYjYZjdWQdopVYb.jpg",
+   "tmdb": 7.706
+  },
+  {
+   "id": "father-of-the-bride-1991",
+   "title": "Father of the Bride",
+   "year": 1991,
+   "poster": "bU7HzJbJpY5OiLdqWhKSqGPtYii.jpg",
+   "tmdb": 6.476
+  },
+  {
+   "id": "clueless-1995",
+   "title": "Clueless",
+   "year": 1995,
+   "poster": "8AwVTcgpTnmeOs4TdTWqcFDXEsA.jpg",
+   "tmdb": 7.247
+  },
+  {
+   "id": "shes-the-one-1996",
+   "title": "She's the One",
+   "year": 1996,
+   "poster": "wNd6qM8Qa8tLFOiUOiEivh0qBkH.jpg",
+   "tmdb": 5.5
+  },
+  {
+   "id": "my-best-friends-wedding-1997",
+   "title": "My Best Friend's Wedding",
+   "year": 1997,
+   "poster": "b5g4bp8gS5ovMyR5439AII6zQ3n.jpg",
+   "tmdb": 6.563
+  },
+  {
+   "id": "armageddon-1998",
+   "title": "Armageddon",
+   "year": 1998,
+   "poster": "eTM3qtGhDU8cvjpoa6KEt5E2auU.jpg",
+   "tmdb": 6.832
+  },
+  {
+   "id": "meet-the-parents-2000",
+   "title": "Meet the Parents",
+   "year": 2000,
+   "poster": "5tXJ9ctuyEOMUFLaeqRisbXowWs.jpg",
+   "tmdb": 6.7
+  },
+  {
+   "id": "wedding-crashers-2005",
+   "title": "Wedding Crashers",
+   "year": 2005,
+   "poster": "lFM3lk2zVzC1YFnKm0r6LbFPyRu.jpg",
+   "tmdb": 6.503
+  },
+  {
+   "id": "american-gangster-2007",
+   "title": "American Gangster",
+   "year": 2007,
+   "poster": "sX9idXDqRUxE5ffww3n3RV5gL55.jpg",
+   "tmdb": 7.594
+  },
+  {
+   "id": "rachel-getting-married-2008",
+   "title": "Rachel Getting Married",
+   "year": 2008,
+   "poster": "bumaq3lqe4YSsq6LlYoge7e9ABk.jpg",
+   "tmdb": 6.301
+  }
+ ]
+}

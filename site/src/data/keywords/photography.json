@@ -1,0 +1,142 @@
+{
+ "word": "photography",
+ "id": "photography",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1970,
+ "avg_tmdb": 7.1,
+ "vs_catalogue": 0.0,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 0
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  }
+ ],
+ "peak_share": 33.0,
+ "catalogue_peak_share": 7.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "adolescence",
+   "reach": 2,
+   "band": "b5",
+   "id": "adolescence"
+  },
+  {
+   "word": "agent",
+   "reach": 3,
+   "band": "b5",
+   "id": "agent"
+  },
+  {
+   "word": "ambassador",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "anti-christ",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "archaeologist",
+   "reach": 3,
+   "band": "b5",
+   "id": "archaeologist"
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  },
+  {
+   "word": "baboon",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bad boss",
+   "reach": 2,
+   "band": "b5",
+   "id": "bad-boss"
+  },
+  {
+   "word": "based on comic",
+   "reach": 5,
+   "band": "b5",
+   "id": "based-on-comic"
+  },
+  {
+   "word": "bow and arrow",
+   "reach": 2,
+   "band": "b5",
+   "id": "bow-and-arrow"
+  },
+  {
+   "word": "chase",
+   "reach": 7,
+   "band": "b5",
+   "id": "chase"
+  },
+  {
+   "word": "conspiracy",
+   "reach": 13,
+   "band": "b4",
+   "id": "conspiracy"
+  },
+  {
+   "word": "cowardliness",
+   "reach": 3,
+   "band": "b5",
+   "id": "cowardliness"
+  },
+  {
+   "word": "decapitation",
+   "reach": 2,
+   "band": "b5",
+   "id": "decapitation"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-omen-1976",
+   "title": "The Omen",
+   "year": 1976,
+   "poster": "mDcjjEu1fMNmsXi4l4D8IftlTix.jpg",
+   "tmdb": 7.404
+  },
+  {
+   "id": "rambo-first-blood-part-ii-1985",
+   "title": "Rambo: First Blood Part II",
+   "year": 1985,
+   "poster": "fVwRtWqEPdsCH21BVDGqgkAQcff.jpg",
+   "tmdb": 6.67
+  },
+  {
+   "id": "spider-man-2002",
+   "title": "Spider-Man",
+   "year": 2002,
+   "poster": "or6XJBVpcEbIkma0V9zshnbEtx4.jpg",
+   "tmdb": 7.351
+  }
+ ]
+}

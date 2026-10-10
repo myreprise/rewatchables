@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Brian Koppelman"
+    {
+     "name": "Brian Koppelman",
+     "id": "brian-koppelman"
+    }
    ],
    "note": null
   }
@@ -51,187 +57,218 @@
    "word": "police",
    "reach": 22,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "police"
   },
   {
    "word": "absurd",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "absurd"
   },
   {
    "word": "aggressive",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "aggressive"
   },
   {
    "word": "prison",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "prison"
   },
   {
    "word": "dying and death",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "dying-and-death"
   },
   {
    "word": "anti hero",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "anti-hero"
   },
   {
    "word": "escape",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "escape"
   },
   {
    "word": "sympathetic",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sympathetic"
   },
   {
    "word": "vietnam veteran",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vietnam-veteran"
   },
   {
    "word": "gun",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gun"
   },
   {
    "word": "police brutality",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "police-brutality"
   },
   {
    "word": "sheriff",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sheriff"
   },
   {
    "word": "prosecution",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "prosecution"
   },
   {
    "word": "vietnam",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vietnam"
   },
   {
    "word": "vietnam war",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vietnam-war"
   },
   {
    "word": "falsely accused",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "falsely-accused"
   },
   {
    "word": "guerrilla warfare",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "guerrilla-warfare"
   },
   {
    "word": "hero",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hero"
   },
   {
    "word": "matter of life and death",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "matter-of-life-and-death"
   },
   {
    "word": "police operation",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "police-operation"
   },
   {
    "word": "attempt to escape",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "attempt-to-escape"
   },
   {
    "word": "destroy",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "destroy"
   },
   {
    "word": "firearm",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "firearm"
   },
   {
    "word": "special forces",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "special-forces"
   },
   {
    "word": "submachine gun",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "submachine-gun"
   },
   {
    "word": "woods",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "woods"
   },
   {
    "word": "national guard",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "rural area",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "self-defense",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "survivalist",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "tramp",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

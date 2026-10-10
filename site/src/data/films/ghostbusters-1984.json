@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Van Lathan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": null
   }
@@ -51,187 +60,218 @@
    "word": "new york city",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "new-york-city"
   },
   {
    "word": "duringcreditsstinger",
    "reach": 27,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "duringcreditsstinger"
   },
   {
    "word": "amused",
    "reach": 26,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "amused"
   },
   {
    "word": "nostalgic",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "nostalgic"
   },
   {
    "word": "ghost",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ghost"
   },
   {
    "word": "nerd",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nerd"
   },
   {
    "word": "possession",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "possession"
   },
   {
    "word": "urban setting",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "urban-setting"
   },
   {
    "word": "paranormal phenomena",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "paranormal-phenomena"
   },
   {
    "word": "super power",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "super-power"
   },
   {
    "word": "supernatural",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "supernatural"
   },
   {
    "word": "enchant",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "enchant"
   },
   {
    "word": "satirical",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "satirical"
   },
   {
    "word": "witty",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "witty"
   },
   {
    "word": "ghostbuster",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ghostbuster"
   },
   {
    "word": "haunting",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "haunting"
   },
   {
    "word": "paranormal investigation",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "paranormal-investigation"
   },
   {
    "word": "receptionist",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "receptionist"
   },
   {
    "word": "world trade center",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "world-trade-center"
   },
   {
    "word": "environmental protection agency",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "fighting supernatural",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "gatekeeper",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "ghostbusters",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "giant monster",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "horror spoof",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "hybrid",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "library",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "loser",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "monsters",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mythology",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "slime",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

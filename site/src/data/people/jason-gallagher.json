@@ -1,0 +1,41 @@
+{
+ "name": "Jason Gallagher",
+ "id": "jason-gallagher",
+ "episodes": 1,
+ "share": 0.0021,
+ "hosted": 0,
+ "first": "2019-06-06",
+ "last": "2019-06-06",
+ "shelf": [
+  {
+   "id": "office-space-1999",
+   "title": "Office Space",
+   "year": 1999,
+   "poster": "iEmTwOkUaLziMQCUZii5wPQBIAO.jpg",
+   "episode": 78,
+   "aired": "2019-06-06"
+  }
+ ],
+ "company": [
+  {
+   "name": "Sean Fennessey",
+   "id": "sean-fennessey",
+   "episodes": 1
+  },
+  {
+   "name": "Andrew Gruttadaro",
+   "id": "andrew-gruttadaro",
+   "episodes": 1
+  }
+ ],
+ "regular": false,
+ "lean_floor": 15,
+ "leans": [],
+ "verdict_floor": 8,
+ "verdicts": {
+  "cruise": 0,
+  "hanks": 0,
+  "ties": 0,
+  "n": 0
+ }
+}

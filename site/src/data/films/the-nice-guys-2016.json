@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Rob Mahoney"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Rob Mahoney",
+     "id": "rob-mahoney"
+    }
    ],
    "note": null
   }
@@ -52,97 +61,113 @@
    "word": "neo-noir",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "neo-noir"
   },
   {
    "word": "amused",
    "reach": 26,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "amused"
   },
   {
    "word": "detective",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "detective"
   },
   {
    "word": "investigation",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "investigation"
   },
   {
    "word": "conspiracy",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "conspiracy"
   },
   {
    "word": "1970s",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1970s"
   },
   {
    "word": "buddy cop",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "buddy-cop"
   },
   {
    "word": "whodunit",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "whodunit"
   },
   {
    "word": "alcoholic",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alcoholic"
   },
   {
    "word": "daughter",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "daughter"
   },
   {
    "word": "alcoholism",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alcoholism"
   },
   {
    "word": "father daughter relationship",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "father-daughter-relationship"
   },
   {
    "word": "vibrant",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vibrant"
   },
   {
    "word": "bumbling detective",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bumbling-detective"
   },
   {
    "word": "private investigator",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "private-investigator"
   },
   {
    "word": "private eye",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

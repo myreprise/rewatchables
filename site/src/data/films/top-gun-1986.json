@@ -39,11 +39,23 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Jason Concepcion",
-    "Mallory Rubin"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Jason Concepcion",
+     "id": "jason-concepcion"
+    },
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    }
    ],
    "note": null
   }
@@ -53,97 +65,113 @@
    "word": "loss of loved one",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "loss-of-loved-one"
   },
   {
    "word": "dying and death",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "dying-and-death"
   },
   {
    "word": "airplane",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "airplane"
   },
   {
    "word": "u.s. navy",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "u-s-navy"
   },
   {
    "word": "lovesickness",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lovesickness"
   },
   {
    "word": "pilot",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pilot"
   },
   {
    "word": "secret love",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "secret-love"
   },
   {
    "word": "based on magazine, newspaper or article",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "based-on-magazine-newspaper-or-article"
   },
   {
    "word": "cowardliness",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cowardliness"
   },
   {
    "word": "hostility",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hostility"
   },
   {
    "word": "fighter pilot",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fighter-pilot"
   },
   {
    "word": "training camp",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "training-camp"
   },
   {
    "word": "battle assignment",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "homoeroticism",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "pilot school",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "self-discovery",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Andy Greenwald"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Andy Greenwald",
+     "id": "andy-greenwald"
+    }
    ],
    "note": null
   }
@@ -51,91 +60,106 @@
    "word": "high school",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "high-school"
   },
   {
    "word": "chaos",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "chaos"
   },
   {
    "word": "cult",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cult"
   },
   {
    "word": "freedom",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "freedom"
   },
   {
    "word": "suicide",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "suicide"
   },
   {
    "word": "hero",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hero"
   },
   {
    "word": "radio",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "radio"
   },
   {
    "word": "arizona",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "arizona"
   },
   {
    "word": "dj",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dj"
   },
   {
    "word": "pirate",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pirate"
   },
   {
    "word": "rebellion",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rebellion"
   },
   {
    "word": "authority",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "parents",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "pirate radio",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "principal",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

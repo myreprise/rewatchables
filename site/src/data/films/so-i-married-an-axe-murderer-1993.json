@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -52,31 +61,36 @@
    "word": "murder",
    "reach": 36,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "murder"
   },
   {
    "word": "scotland",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "scotland"
   },
   {
    "word": "sister",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sister"
   },
   {
    "word": "axe murder",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "butcher",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

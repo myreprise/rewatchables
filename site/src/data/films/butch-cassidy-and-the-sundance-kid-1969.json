@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Sean Fennessey",
-    "Aaron Sorkin"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Aaron Sorkin",
+     "id": "aaron-sorkin"
+    }
    ],
    "note": null
   }
@@ -52,85 +61,99 @@
    "word": "excited",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "excited"
   },
   {
    "word": "shootout",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "shootout"
   },
   {
    "word": "buddy",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "buddy"
   },
   {
    "word": "on the run",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "on-the-run"
   },
   {
    "word": "male friendship",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "male-friendship"
   },
   {
    "word": "comforting",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "comforting"
   },
   {
    "word": "bolivia",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "butch cassidy",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "dynamite",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "escape plan",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "posse",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sundance kid",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "train robbery",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "western bandits",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

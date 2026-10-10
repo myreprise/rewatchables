@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Shea Serrano"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Shea Serrano",
+     "id": "shea-serrano"
+    }
    ],
    "note": null
   }
@@ -51,55 +60,64 @@
    "word": "murder",
    "reach": 36,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "murder"
   },
   {
    "word": "revenge",
    "reach": 31,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "revenge"
   },
   {
    "word": "gangster",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "gangster"
   },
   {
    "word": "hitman",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hitman"
   },
   {
    "word": "dog",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dog"
   },
   {
    "word": "bratva (russian mafia)",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bratva-russian-mafia"
   },
   {
    "word": "widower",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "widower"
   },
   {
    "word": "secret organization",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "secret-organization"
   },
   {
    "word": "retired",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

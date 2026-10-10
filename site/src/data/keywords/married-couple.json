@@ -1,0 +1,138 @@
+{
+ "word": "married couple",
+ "id": "married-couple",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 6.8,
+ "vs_catalogue": -0.3,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  }
+ ],
+ "peak_share": 33.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "lawyer",
+   "reach": 15,
+   "band": "b4",
+   "id": "lawyer"
+  },
+  {
+   "word": "marriage crisis",
+   "reach": 7,
+   "band": "b5",
+   "id": "marriage-crisis"
+  },
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "id": "absurd"
+  },
+  {
+   "word": "assassin",
+   "reach": 8,
+   "band": "b5",
+   "id": "assassin"
+  },
+  {
+   "word": "assault rifle",
+   "reach": 2,
+   "band": "b5",
+   "id": "assault-rifle"
+  },
+  {
+   "word": "bar exam",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "blackmail",
+   "reach": 5,
+   "band": "b5",
+   "id": "blackmail"
+  },
+  {
+   "word": "bomb",
+   "reach": 6,
+   "band": "b5",
+   "id": "bomb"
+  },
+  {
+   "word": "bullet wound",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "cayman islands",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "cliché",
+   "reach": 8,
+   "band": "b5",
+   "id": "cliche"
+  },
+  {
+   "word": "death",
+   "reach": 6,
+   "band": "b5",
+   "id": "death"
+  },
+  {
+   "word": "deceived wife",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "decoy",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "fatal-attraction-1987",
+   "title": "Fatal Attraction",
+   "year": 1987,
+   "poster": "vjB9XwJKnYqFKKjhWcE6WpAf5Ki.jpg",
+   "tmdb": 6.833
+  },
+  {
+   "id": "the-firm-1993",
+   "title": "The Firm",
+   "year": 1993,
+   "poster": "kFexXCzidkm4LwlgZqxsJsDQB5v.jpg",
+   "tmdb": 6.744
+  },
+  {
+   "id": "mr-and-mrs-smith-2005",
+   "title": "Mr. & Mrs. Smith",
+   "year": 2005,
+   "poster": "kjD700RtyhveN3ZbOnSvUSne0Qj.jpg",
+   "tmdb": 6.694
+  }
+ ]
+}

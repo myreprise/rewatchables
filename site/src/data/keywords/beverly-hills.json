@@ -1,0 +1,145 @@
+{
+ "word": "beverly hills",
+ "id": "beverly-hills",
+ "catalogue": 460,
+ "share": 0.9,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 6.8,
+ "vs_catalogue": -0.3,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 2
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  }
+ ],
+ "peak_share": 50.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  },
+  {
+   "word": "black cop",
+   "reach": 2,
+   "band": "b5",
+   "id": "black-cop"
+  },
+  {
+   "word": "buddy cop",
+   "reach": 11,
+   "band": "b5",
+   "id": "buddy-cop"
+  },
+  {
+   "word": "cheerful",
+   "reach": 9,
+   "band": "b5",
+   "id": "cheerful"
+  },
+  {
+   "word": "detective comedy",
+   "reach": 2,
+   "band": "b5",
+   "id": "detective-comedy"
+  },
+  {
+   "word": "detroit, michigan",
+   "reach": 5,
+   "band": "b5",
+   "id": "detroit-michigan"
+  },
+  {
+   "word": "gunfight",
+   "reach": 7,
+   "band": "b5",
+   "id": "gunfight"
+  },
+  {
+   "word": "narcotics detective",
+   "reach": 3,
+   "band": "b5",
+   "id": "narcotics-detective"
+  },
+  {
+   "word": "strip club",
+   "reach": 6,
+   "band": "b5",
+   "id": "strip-club"
+  },
+  {
+   "word": "undercover",
+   "reach": 13,
+   "band": "b4",
+   "id": "undercover"
+  },
+  {
+   "word": "1960s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1960s"
+  },
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "id": "absurd"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "armored car",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "shampoo-1975",
+   "title": "Shampoo",
+   "year": 1975,
+   "poster": "6jmFvXPV6OhtX3AkAVnH7rwdeUJ.jpg",
+   "tmdb": 6.05
+  },
+  {
+   "id": "beverly-hills-cop-1984",
+   "title": "Beverly Hills Cop",
+   "year": 1984,
+   "poster": "eBJEvKkhQ0tUt1dBAcTEYW6kCle.jpg",
+   "tmdb": 7.211
+  },
+  {
+   "id": "beverly-hills-cop-ii-1987",
+   "title": "Beverly Hills Cop II",
+   "year": 1987,
+   "poster": "egDakU8O5yUwpUJP9IMAUVtIDll.jpg",
+   "tmdb": 6.532
+  },
+  {
+   "id": "pretty-woman-1990",
+   "title": "Pretty Woman",
+   "year": 1990,
+   "poster": "hVHUfT801LQATGd26VPzhorIYza.jpg",
+   "tmdb": 7.443
+  }
+ ]
+}

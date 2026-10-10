@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Sean Fennessey",
-    "Steven Spielberg"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Steven Spielberg",
+     "id": "steven-spielberg"
+    }
    ],
    "note": "First episode of 'From Hell' month; Steven Spielberg says he'll return for the Re-Jaws"
   }
@@ -52,127 +61,148 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "suspenseful",
    "reach": 30,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "suspenseful"
   },
   {
    "word": "philosophical",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "philosophical"
   },
   {
    "word": "artificial intelligence (a.i.)",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "artificial-intelligence-a-i"
   },
   {
    "word": "astronaut",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "astronaut"
   },
   {
    "word": "man vs machine",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "man-vs-machine"
   },
   {
    "word": "moon",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "moon"
   },
   {
    "word": "space travel",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "space-travel"
   },
   {
    "word": "space opera",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "space-opera"
   },
   {
    "word": "2000s",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "2000s"
   },
   {
    "word": "complicated",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "complicated"
   },
   {
    "word": "technology",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "technology"
   },
   {
    "word": "ai rebellion",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "evolution",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "jupiter",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "metrocolor",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "monolith",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "moon base",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "space mission",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "space station",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "super computer",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

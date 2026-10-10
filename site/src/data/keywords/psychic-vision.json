@@ -1,0 +1,118 @@
+{
+ "word": "psychic vision",
+ "id": "psychic-vision",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1970s"
+  },
+  {
+   "word": "2050s",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "based on short story",
+   "reach": 2,
+   "band": "b5",
+   "id": "based-on-short-story"
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "biting",
+   "reach": 4,
+   "band": "b5",
+   "id": "biting"
+  },
+  {
+   "word": "cellar",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "conspiracy",
+   "reach": 13,
+   "band": "b4",
+   "id": "conspiracy"
+  },
+  {
+   "word": "conspiracy thriller",
+   "reach": 5,
+   "band": "b5",
+   "id": "conspiracy-thriller"
+  },
+  {
+   "word": "critical",
+   "reach": 4,
+   "band": "b5",
+   "id": "critical"
+  },
+  {
+   "word": "crucifix",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "cyber thriller",
+   "reach": 2,
+   "band": "b5",
+   "id": "cyber-thriller"
+  },
+  {
+   "word": "cyberpunk",
+   "reach": 5,
+   "band": "b5",
+   "id": "cyberpunk"
+  },
+  {
+   "word": "demonic",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "demonic spirit",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "minority-report-2002",
+   "title": "Minority Report",
+   "year": 2002,
+   "poster": "qtgFcnwh9dAFLocsDk2ySDVS8UF.jpg",
+   "tmdb": 7.355
+  },
+  {
+   "id": "the-conjuring-2013",
+   "title": "The Conjuring",
+   "year": 2013,
+   "poster": "wVYREutTvI2tmxr6ujrHT704wGF.jpg",
+   "tmdb": 7.542
+  }
+ ]
+}

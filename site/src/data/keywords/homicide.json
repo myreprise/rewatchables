@@ -1,0 +1,141 @@
+{
+ "word": "homicide",
+ "id": "homicide",
+ "catalogue": 460,
+ "share": 0.9,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.0,
+ "vs_catalogue": -0.1,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 3
+  }
+ ],
+ "peak_share": 75.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "id": "admiring"
+  },
+  {
+   "word": "adoring",
+   "reach": 8,
+   "band": "b5",
+   "id": "adoring"
+  },
+  {
+   "word": "affectation",
+   "reach": 5,
+   "band": "b5",
+   "id": "affectation"
+  },
+  {
+   "word": "african american family",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "angry",
+   "reach": 8,
+   "band": "b5",
+   "id": "angry"
+  },
+  {
+   "word": "appreciative",
+   "reach": 6,
+   "band": "b5",
+   "id": "appreciative"
+  },
+  {
+   "word": "atlantic ocean",
+   "reach": 3,
+   "band": "b5",
+   "id": "atlantic-ocean"
+  },
+  {
+   "word": "baffled",
+   "reach": 2,
+   "band": "b5",
+   "id": "baffled"
+  },
+  {
+   "word": "basketball",
+   "reach": 7,
+   "band": "b5",
+   "id": "basketball"
+  },
+  {
+   "word": "begnadigung",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "beguilement",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "blackmail",
+   "reach": 5,
+   "band": "b5",
+   "id": "blackmail"
+  },
+  {
+   "word": "cold war era",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "no-way-out-1987",
+   "title": "No Way Out",
+   "year": 1987,
+   "poster": "93CzsBvRhg035yvQosRtSsTL19v.jpg",
+   "tmdb": 6.849
+  },
+  {
+   "id": "the-player-1992",
+   "title": "The Player",
+   "year": 1992,
+   "poster": "tZ3kDut2dhFVGkWNEn9xoCHCNAx.jpg",
+   "tmdb": 7.187
+  },
+  {
+   "id": "he-got-game-1998",
+   "title": "He Got Game",
+   "year": 1998,
+   "poster": "kd8hRaysUQOz7AvSorZDJHuihcJ.jpg",
+   "tmdb": 6.752
+  },
+  {
+   "id": "the-talented-mr-ripley-1999",
+   "title": "The Talented Mr. Ripley",
+   "year": 1999,
+   "poster": "6ojHgqtIR41O2qLKa7LFUVj0cZa.jpg",
+   "tmdb": 7.197
+  }
+ ]
+}

@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": "Bill says \"we've done 155 episodes\" at 1hr 7min"
   }
@@ -50,109 +59,127 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "suspenseful",
    "reach": 30,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "suspenseful"
   },
   {
    "word": "bold",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "bold"
   },
   {
    "word": "washington dc, usa",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "washington-dc-usa"
   },
   {
    "word": "macabre",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "macabre"
   },
   {
    "word": "supernatural horror",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "supernatural-horror"
   },
   {
    "word": "possession",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "possession"
   },
   {
    "word": "paranormal phenomena",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "paranormal-phenomena"
   },
   {
    "word": "demon",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "demon"
   },
   {
    "word": "exorcism",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "exorcism"
   },
   {
    "word": "priest",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "priest"
   },
   {
    "word": "satan",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "satan"
   },
   {
    "word": "demonic possession",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "demonic-possession"
   },
   {
    "word": "possessed child",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "possessed-child"
   },
   {
    "word": "roman catholic church",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "roman-catholic-church"
   },
   {
    "word": "crisis of faith",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "religion and supernatural",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "religious horror",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -40,10 +40,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Amanda Dobbins"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    }
    ],
    "note": null
   }
@@ -53,91 +62,106 @@
    "word": "assassin",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "assassin"
   },
   {
    "word": "gunfight",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gunfight"
   },
   {
    "word": "hitman",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hitman"
   },
   {
    "word": "marriage crisis",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "marriage-crisis"
   },
   {
    "word": "secret identity",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "secret-identity"
   },
   {
    "word": "bomb",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bomb"
   },
   {
    "word": "gun",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gun"
   },
   {
    "word": "marriage",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "marriage"
   },
   {
    "word": "secret agent",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "secret-agent"
   },
   {
    "word": "married couple",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "married-couple"
   },
   {
    "word": "assault rifle",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "assault-rifle"
   },
   {
    "word": "dysfunctional marriage",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dysfunctional-marriage"
   },
   {
    "word": "bullet wound",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "decoy",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "embarrassed",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

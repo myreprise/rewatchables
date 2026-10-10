@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Amanda Dobbins"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    }
    ],
    "note": "Bill says this is episode #1 at 00m:56s; CR confirms this during the Primal Fear episode"
   },
@@ -53,11 +62,23 @@
    "revisit_kind": "regular",
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey",
-    "Mallory Rubin"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    }
    ],
    "note": "Courtroom Month; Bill says the next movie will be episode #300"
   }
@@ -67,127 +88,148 @@
    "word": "dying and death",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "dying-and-death"
   },
   {
    "word": "legal thriller",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "legal-thriller"
   },
   {
    "word": "underdog",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "underdog"
   },
   {
    "word": "flashback",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "flashback"
   },
   {
    "word": "u.s. navy",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "u-s-navy"
   },
   {
    "word": "based on play or musical",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "based-on-play-or-musical"
   },
   {
    "word": "court case",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "court-case"
   },
   {
    "word": "suicide",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "suicide"
   },
   {
    "word": "right and justice",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "right-and-justice"
   },
   {
    "word": "suspicion of murder",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "suspicion-of-murder"
   },
   {
    "word": "navy",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "navy"
   },
   {
    "word": "sexism",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sexism"
   },
   {
    "word": "code red",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "command",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "court martial",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "guantanamo bay",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "marine corps",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "military base",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "military court",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "military law",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "platoon leader",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

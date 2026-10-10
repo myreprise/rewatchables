@@ -1,0 +1,118 @@
+{
+ "word": "naval officer",
+ "id": "naval-officer",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "id": "admiring"
+  },
+  {
+   "word": "adoring",
+   "reach": 8,
+   "band": "b5",
+   "id": "adoring"
+  },
+  {
+   "word": "ambiguous",
+   "reach": 9,
+   "band": "b5",
+   "id": "ambiguous"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "amusement park",
+   "reach": 4,
+   "band": "b5",
+   "id": "amusement-park"
+  },
+  {
+   "word": "assassination",
+   "reach": 5,
+   "band": "b5",
+   "id": "assassination"
+  },
+  {
+   "word": "atlantic city",
+   "reach": 2,
+   "band": "b5",
+   "id": "atlantic-city"
+  },
+  {
+   "word": "based on memoir or autobiography",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "boxing match",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bribery",
+   "reach": 4,
+   "band": "b5",
+   "id": "bribery"
+  },
+  {
+   "word": "california",
+   "reach": 16,
+   "band": "b4",
+   "id": "california"
+  },
+  {
+   "word": "casino",
+   "reach": 5,
+   "band": "b5",
+   "id": "casino"
+  },
+  {
+   "word": "corrupt cop",
+   "reach": 2,
+   "band": "b5",
+   "id": "corrupt-cop"
+  },
+  {
+   "word": "dubious",
+   "reach": 3,
+   "band": "b5",
+   "id": "dubious"
+  }
+ ],
+ "films": [
+  {
+   "id": "dangerous-minds-1995",
+   "title": "Dangerous Minds",
+   "year": 1995,
+   "poster": "yWHWC8fJRp2kLgiFrEa8o3krOH9.jpg",
+   "tmdb": 6.984
+  },
+  {
+   "id": "snake-eyes-1998",
+   "title": "Snake Eyes",
+   "year": 1998,
+   "poster": "gsh9mQKRrr4M90XC9Rr0wxefc9u.jpg",
+   "tmdb": 6.204
+  }
+ ]
+}

@@ -1,0 +1,152 @@
+{
+ "word": "house party",
+ "id": "house-party",
+ "catalogue": 460,
+ "share": 1.1,
+ "thin": false,
+ "peak": 2010,
+ "avg_tmdb": 6.6,
+ "vs_catalogue": -0.5,
+ "decades": [
+  {
+   "decade": 1990,
+   "n": 2
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 3
+  }
+ ],
+ "peak_share": 60.0,
+ "catalogue_peak_share": 12.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "id": "high-school"
+  },
+  {
+   "word": "friends",
+   "reach": 7,
+   "band": "b5",
+   "id": "friends"
+  },
+  {
+   "word": "self-referential",
+   "reach": 2,
+   "band": "b5",
+   "id": "self-referential"
+  },
+  {
+   "word": "alcohol",
+   "reach": 6,
+   "band": "b5",
+   "id": "alcohol"
+  },
+  {
+   "word": "american football",
+   "reach": 13,
+   "band": "b4",
+   "id": "american-football"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "apocalypse",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "baby",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bathroom humor",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "biblical",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "birthday",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "birthday party",
+   "reach": 2,
+   "band": "b5",
+   "id": "birthday-party"
+  },
+  {
+   "word": "break-up",
+   "reach": 5,
+   "band": "b5",
+   "id": "break-up"
+  },
+  {
+   "word": "california",
+   "reach": 16,
+   "band": "b4",
+   "id": "california"
+  }
+ ],
+ "films": [
+  {
+   "id": "scream-1996",
+   "title": "Scream",
+   "year": 1996,
+   "poster": "lr9ZIrmuwVmZhpZuTCW8D9g0ZJe.jpg",
+   "tmdb": 7.431
+  },
+  {
+   "id": "cant-hardly-wait-1998",
+   "title": "Can't Hardly Wait",
+   "year": 1998,
+   "poster": "r3a5gGWfS0SDS9nriNrJzSSrErf.jpg",
+   "tmdb": 6.248
+  },
+  {
+   "id": "project-x-2012",
+   "title": "Project X",
+   "year": 2012,
+   "poster": "lUPDGT3lyRrq8SvWuNWG2DP64bR.jpg",
+   "tmdb": 6.924
+  },
+  {
+   "id": "this-is-the-end-2013",
+   "title": "This Is the End",
+   "year": 2013,
+   "poster": "tNIW0NhX1hKvUsy6PQ80DOKUhkD.jpg",
+   "tmdb": 6.232
+  },
+  {
+   "id": "neighbors-2014",
+   "title": "Neighbors",
+   "year": 2014,
+   "poster": "sN1RU08CMi8xkRIibremh3AOdgw.jpg",
+   "tmdb": 6.181
+  }
+ ]
+}

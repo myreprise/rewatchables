@@ -1,0 +1,118 @@
+{
+ "word": "loving",
+ "id": "loving",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "age change",
+   "reach": 2,
+   "band": "b5",
+   "id": "age-change"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "baseball",
+   "reach": 10,
+   "band": "b5",
+   "id": "baseball"
+  },
+  {
+   "word": "best friend",
+   "reach": 6,
+   "band": "b5",
+   "id": "best-friend"
+  },
+  {
+   "word": "beverly hills",
+   "reach": 4,
+   "band": "b5",
+   "id": "beverly-hills"
+  },
+  {
+   "word": "body-swap",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bronx, new york city",
+   "reach": 2,
+   "band": "b5",
+   "id": "bronx-new-york-city"
+  },
+  {
+   "word": "bubble bath",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bunk bed",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "business deal",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "capitalism",
+   "reach": 5,
+   "band": "b5",
+   "id": "capitalism"
+  },
+  {
+   "word": "cheerful",
+   "reach": 9,
+   "band": "b5",
+   "id": "cheerful"
+  },
+  {
+   "word": "cinderella story",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "co-workers relationship",
+   "reach": 3,
+   "band": "b5",
+   "id": "co-workers-relationship"
+  }
+ ],
+ "films": [
+  {
+   "id": "big-1988",
+   "title": "Big",
+   "year": 1988,
+   "poster": "eWhCDJiwxvx3YXkAFRiHjimnF0j.jpg",
+   "tmdb": 7.195
+  },
+  {
+   "id": "pretty-woman-1990",
+   "title": "Pretty Woman",
+   "year": 1990,
+   "poster": "hVHUfT801LQATGd26VPzhorIYza.jpg",
+   "tmdb": 7.443
+  }
+ ]
+}

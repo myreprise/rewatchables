@@ -1,0 +1,118 @@
+{
+ "word": "technology",
+ "id": "technology",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "2000s",
+   "reach": 2,
+   "band": "b5",
+   "id": "2000s"
+  },
+  {
+   "word": "ai rebellion",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "anti hero",
+   "reach": 8,
+   "band": "b5",
+   "id": "anti-hero"
+  },
+  {
+   "word": "artificial intelligence (a.i.)",
+   "reach": 4,
+   "band": "b5",
+   "id": "artificial-intelligence-a-i"
+  },
+  {
+   "word": "astronaut",
+   "reach": 4,
+   "band": "b5",
+   "id": "astronaut"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "betrayal",
+   "reach": 9,
+   "band": "b5",
+   "id": "betrayal"
+  },
+  {
+   "word": "cat and mouse",
+   "reach": 2,
+   "band": "b5",
+   "id": "cat-and-mouse"
+  },
+  {
+   "word": "chinese military",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "complicated",
+   "reach": 2,
+   "band": "b5",
+   "id": "complicated"
+  },
+  {
+   "word": "computer",
+   "reach": 2,
+   "band": "b5",
+   "id": "computer"
+  },
+  {
+   "word": "computer virus",
+   "reach": 2,
+   "band": "b5",
+   "id": "computer-virus"
+  },
+  {
+   "word": "conspiracy",
+   "reach": 13,
+   "band": "b4",
+   "id": "conspiracy"
+  },
+  {
+   "word": "cyber terrorism",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "2001-a-space-odyssey-1968",
+   "title": "2001: A Space Odyssey",
+   "year": 1968,
+   "poster": "ve72VxNqjGM69Uky4WTo2bK6rfq.jpg",
+   "tmdb": 8.045
+  },
+  {
+   "id": "blackhat-2015",
+   "title": "Blackhat",
+   "year": 2015,
+   "poster": "7zu6HPnKPjNA7NuR4DGRdaH0PdX.jpg",
+   "tmdb": 5.522
+  }
+ ]
+}

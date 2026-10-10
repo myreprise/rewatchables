@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -51,127 +60,148 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "loss of loved one",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "loss-of-loved-one"
   },
   {
    "word": "gangster",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "gangster"
   },
   {
    "word": "organized crime",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "organized-crime"
   },
   {
    "word": "mafia",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "mafia"
   },
   {
    "word": "1950s",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1950s"
   },
   {
    "word": "1940s",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1940s"
   },
   {
    "word": "italy",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "italy"
   },
   {
    "word": "religion",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "religion"
   },
   {
    "word": "gun violence",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gun-violence"
   },
   {
    "word": "symbolism",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "symbolism"
   },
   {
    "word": "europe",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "europe"
   },
   {
    "word": "gang violence",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gang-violence"
   },
   {
    "word": "love at first sight",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "love-at-first-sight"
   },
   {
    "word": "sicilian mafia",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sicilian-mafia"
   },
   {
    "word": "crime family",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mafia war",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "patriarch",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "religious hypocrisy",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "revenge motive",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "rise to power",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

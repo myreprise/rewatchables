@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Sean Fennessey",
-    "Wesley Morris"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Wesley Morris",
+     "id": "wesley-morris"
+    }
    ],
    "note": "Courtroom Month"
   }
@@ -50,37 +59,43 @@
    "word": "lawyer",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "lawyer"
   },
   {
    "word": "legal thriller",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "legal-thriller"
   },
   {
    "word": "courtroom",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "courtroom"
   },
   {
    "word": "courtroom drama",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "courtroom-drama"
   },
   {
    "word": "bitter",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bitter"
   },
   {
    "word": "extramarital affair",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "extramarital-affair"
   }
  ],
  "cast": [

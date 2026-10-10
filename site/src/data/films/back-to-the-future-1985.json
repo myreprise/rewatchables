@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -52,157 +61,183 @@
    "word": "excited",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "excited"
   },
   {
    "word": "terrorism",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "terrorism"
   },
   {
    "word": "1950s",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1950s"
   },
   {
    "word": "love",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "love"
   },
   {
    "word": "lighthearted",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lighthearted"
   },
   {
    "word": "race against time",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "race-against-time"
   },
   {
    "word": "time travel",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "time-travel"
   },
   {
    "word": "car race",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "car-race"
   },
   {
    "word": "fish out of water",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fish-out-of-water"
   },
   {
    "word": "bullying",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bullying"
   },
   {
    "word": "kids",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "kids"
   },
   {
    "word": "optimistic",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "optimistic"
   },
   {
    "word": "teenage love",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "teenage-love"
   },
   {
    "word": "burlesque",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "burlesque"
   },
   {
    "word": "flying car",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "flying-car"
   },
   {
    "word": "guitar",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "guitar"
   },
   {
    "word": "lightning",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lightning"
   },
   {
    "word": "hidden identity",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hidden-identity"
   },
   {
    "word": "invention",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "invention"
   },
   {
    "word": "inventor",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "inventor"
   },
   {
    "word": "teenage life",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "teenage-life"
   },
   {
    "word": "changing the past or future",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "clock tower",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "destiny",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "journey in the past",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mad scientist",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -1,0 +1,118 @@
+{
+ "word": "embassy",
+ "id": "embassy",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "terrorism",
+   "reach": 15,
+   "band": "b4",
+   "id": "terrorism"
+  },
+  {
+   "word": "agent",
+   "reach": 3,
+   "band": "b5",
+   "id": "agent"
+  },
+  {
+   "word": "aircraft carrier",
+   "reach": 2,
+   "band": "b5",
+   "id": "aircraft-carrier"
+  },
+  {
+   "word": "arms deal",
+   "reach": 2,
+   "band": "b5",
+   "id": "arms-deal"
+  },
+  {
+   "word": "based on tv series",
+   "reach": 3,
+   "band": "b5",
+   "id": "based-on-tv-series"
+  },
+  {
+   "word": "battle for power",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "central intelligence agency (cia)",
+   "reach": 8,
+   "band": "b5",
+   "id": "central-intelligence-agency-cia"
+  },
+  {
+   "word": "chain of command",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "commanding",
+   "reach": 7,
+   "band": "b5",
+   "id": "commanding"
+  },
+  {
+   "word": "computer",
+   "reach": 2,
+   "band": "b5",
+   "id": "computer"
+  },
+  {
+   "word": "direct",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "espionage",
+   "reach": 3,
+   "band": "b5",
+   "id": "espionage"
+  },
+  {
+   "word": "fake identity",
+   "reach": 7,
+   "band": "b5",
+   "id": "fake-identity"
+  },
+  {
+   "word": "fictional government agency",
+   "reach": 2,
+   "band": "b5",
+   "id": "fictional-government-agency"
+  }
+ ],
+ "films": [
+  {
+   "id": "crimson-tide-1995",
+   "title": "Crimson Tide",
+   "year": 1995,
+   "poster": "21nqRJ6ofEgVvEl68J4O9V26Xzy.jpg",
+   "tmdb": 7.181
+  },
+  {
+   "id": "mission-impossible-1996",
+   "title": "Mission: Impossible",
+   "year": 1996,
+   "poster": "l5uxY5m5OInWpcExIpKG6AR3rgL.jpg",
+   "tmdb": 7.027
+  }
+ ]
+}

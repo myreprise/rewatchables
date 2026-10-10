@@ -1,0 +1,57 @@
+{
+ "name": "Bill Hader",
+ "id": "bill-hader",
+ "episodes": 3,
+ "share": 0.0062,
+ "hosted": 0,
+ "first": "2019-07-03",
+ "last": "2025-09-22",
+ "shelf": [
+  {
+   "id": "airplane-1980",
+   "title": "Airplane!",
+   "year": 1980,
+   "poster": "7Q3efxd3AF1vQjlSxnlerSA7RzN.jpg",
+   "episode": 424,
+   "aired": "2025-09-22"
+  },
+  {
+   "id": "taxi-driver-1976",
+   "title": "Taxi Driver",
+   "year": 1976,
+   "poster": "ekstpH614fwDX8DUln1a2Opz0N8.jpg",
+   "episode": 187,
+   "aired": "2021-02-09"
+  },
+  {
+   "id": "no-country-for-old-men-2007",
+   "title": "No Country for Old Men",
+   "year": 2007,
+   "poster": "6d5XOczc226jECq0LIX0siKtgHR.jpg",
+   "episode": 83,
+   "aired": "2019-07-03"
+  }
+ ],
+ "company": [
+  {
+   "name": "Chris Ryan",
+   "id": "chris-ryan",
+   "episodes": 1
+  },
+  {
+   "name": "Sean Fennessey",
+   "id": "sean-fennessey",
+   "episodes": 1
+  }
+ ],
+ "regular": false,
+ "lean_floor": 15,
+ "leans": [],
+ "verdict_floor": 8,
+ "verdicts": {
+  "cruise": 1,
+  "hanks": 0,
+  "ties": 0,
+  "n": 1
+ }
+}

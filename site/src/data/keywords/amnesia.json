@@ -1,0 +1,130 @@
+{
+ "word": "amnesia",
+ "id": "amnesia",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 2000,
+ "avg_tmdb": 7.7,
+ "vs_catalogue": 0.6,
+ "decades": [
+  {
+   "decade": 2000,
+   "n": 3
+  }
+ ],
+ "peak_share": 100.0,
+ "catalogue_peak_share": 17.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "flashback",
+   "reach": 9,
+   "band": "b5",
+   "id": "flashback"
+  },
+  {
+   "word": "memory loss",
+   "reach": 2,
+   "band": "b5",
+   "id": "memory-loss"
+  },
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "id": "absurd"
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "assassin",
+   "reach": 8,
+   "band": "b5",
+   "id": "assassin"
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  },
+  {
+   "word": "barcelona, spain",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "based on short story",
+   "reach": 2,
+   "band": "b5",
+   "id": "based-on-short-story"
+  },
+  {
+   "word": "bewildered",
+   "reach": 4,
+   "band": "b5",
+   "id": "bewildered"
+  },
+  {
+   "word": "blackjack",
+   "reach": 2,
+   "band": "b5",
+   "id": "blackjack"
+  },
+  {
+   "word": "bold",
+   "reach": 15,
+   "band": "b4",
+   "id": "bold"
+  },
+  {
+   "word": "bourne",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "memento-2000",
+   "title": "Memento",
+   "year": 2000,
+   "poster": "nzlv62aC0octS5AklAiWpXLX9Z0.jpg",
+   "tmdb": 8.174
+  },
+  {
+   "id": "the-bourne-identity-2002",
+   "title": "The Bourne Identity",
+   "year": 2002,
+   "poster": "aP8swke3gmowbkfZ6lmNidu0y9p.jpg",
+   "tmdb": 7.485
+  },
+  {
+   "id": "the-hangover-2009",
+   "title": "The Hangover",
+   "year": 2009,
+   "poster": "A0uS9rHR56FeBtpjVki16M5xxSW.jpg",
+   "tmdb": 7.337
+  }
+ ]
+}

@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": "1999 series (Luminary); released on Spotify feed 11/28/2023"
   },
@@ -54,10 +63,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": "Originally released April 23, 2019 on Luminary as part of 1999 Rewatchables series"
   }
@@ -67,91 +85,106 @@
    "word": "coming of age",
    "reach": 24,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "coming-of-age"
   },
   {
    "word": "teenager",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "teenager"
   },
   {
    "word": "teen comedy",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "teen-comedy"
   },
   {
    "word": "voyeurism",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "voyeurism"
   },
   {
    "word": "high school student",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "high-school-student"
   },
   {
    "word": "graduation",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "graduation"
   },
   {
    "word": "loss of virginity",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "loss-of-virginity"
   },
   {
    "word": "sex comedy",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sex-comedy"
   },
   {
    "word": "innocence",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "innocence"
   },
   {
    "word": "laxative",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "laxative"
   },
   {
    "word": "virginity",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "virginity"
   },
   {
    "word": "exchange student",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "pie",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "prom night",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "teenage sexuality",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

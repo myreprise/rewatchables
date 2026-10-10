@@ -40,9 +40,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Kyle Brandt"
+    {
+     "name": "Kyle Brandt",
+     "id": "kyle-brandt"
+    }
    ],
    "note": null
   }
@@ -52,43 +58,50 @@
    "word": "terrorism",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "terrorism"
   },
   {
    "word": "hostage",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hostage"
   },
   {
    "word": "ice hockey",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ice-hockey"
   },
   {
    "word": "pittsburgh, pennsylvania",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pittsburgh-pennsylvania"
   },
   {
    "word": "explosive",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "pittsburgh penguins",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "vice president",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

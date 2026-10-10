@@ -1,0 +1,118 @@
+{
+ "word": "motorcycle chase",
+ "id": "motorcycle-chase",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "sequel",
+   "reach": 28,
+   "band": "b2",
+   "id": "sequel"
+  },
+  {
+   "word": "1930s",
+   "reach": 6,
+   "band": "b5",
+   "id": "1930s"
+  },
+  {
+   "word": "action",
+   "reach": 2,
+   "band": "b5",
+   "id": "action"
+  },
+  {
+   "word": "adolf hitler",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "archaeologist",
+   "reach": 3,
+   "band": "b5",
+   "id": "archaeologist"
+  },
+  {
+   "word": "based on tv series",
+   "reach": 3,
+   "band": "b5",
+   "id": "based-on-tv-series"
+  },
+  {
+   "word": "bible quote",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "biblical archaeology",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "boat chase",
+   "reach": 4,
+   "band": "b5",
+   "id": "boat-chase"
+  },
+  {
+   "word": "bomb remote detonator",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "book burning",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "boy scouts",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "brotherhood",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "central intelligence agency (cia)",
+   "reach": 8,
+   "band": "b5",
+   "id": "central-intelligence-agency-cia"
+  }
+ ],
+ "films": [
+  {
+   "id": "indiana-jones-and-the-last-crusade-1989",
+   "title": "Indiana Jones and the Last Crusade",
+   "year": 1989,
+   "poster": "sizg1AU8f8JDZX4QIgE4pjUMBvx.jpg",
+   "tmdb": 7.855
+  },
+  {
+   "id": "mission-impossible-fallout-2018",
+   "title": "Mission: Impossible - Fallout",
+   "year": 2018,
+   "poster": "AkJQpZp9WoNdj7pLYSj1L0RcMMN.jpg",
+   "tmdb": 7.45
+  }
+ ]
+}

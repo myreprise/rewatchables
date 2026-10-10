@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Mallory Rubin",
-    "Amanda Dobbins"
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    },
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    }
    ],
    "note": "Rock Bottom' month"
   }
@@ -51,61 +60,71 @@
    "word": "excited",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "excited"
   },
   {
    "word": "lawyer",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "lawyer"
   },
   {
    "word": "marriage",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "marriage"
   },
   {
    "word": "divorce",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "divorce"
   },
   {
    "word": "reminiscent",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "reminiscent"
   },
   {
    "word": "divorce lawyer",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "divorce-lawyer"
   },
   {
    "word": "romance",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "romance"
   },
   {
    "word": "argument",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "hostile",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "love-hate relationship",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

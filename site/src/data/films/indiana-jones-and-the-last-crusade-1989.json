@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -51,211 +60,246 @@
    "word": "sequel",
    "reach": 28,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "sequel"
   },
   {
    "word": "excited",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "excited"
   },
   {
    "word": "saving the world",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "saving-the-world"
   },
   {
    "word": "1930s",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1930s"
   },
   {
    "word": "father son relationship",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "father-son-relationship"
   },
   {
    "word": "joyous",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "joyous"
   },
   {
    "word": "nazi",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nazi"
   },
   {
    "word": "boat chase",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "boat-chase"
   },
   {
    "word": "riddle",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "riddle"
   },
   {
    "word": "archaeologist",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "archaeologist"
   },
   {
    "word": "venice, italy",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "venice-italy"
   },
   {
    "word": "entrapment",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "entrapment"
   },
   {
    "word": "german soldier",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "german-soldier"
   },
   {
    "word": "motorcycle chase",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "motorcycle-chase"
   },
   {
    "word": "the crusades",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "the-crusades"
   },
   {
    "word": "adolf hitler",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "bible quote",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "biblical archaeology",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "book burning",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "boy scouts",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "brotherhood",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "crusader",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "german agent",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "germany",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "gestapo",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "hindenburg",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "holy grail",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "knights templar",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "medieval",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "nazi germany",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "nazi officer",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "single father",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "tank",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "traveling circus",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "zeppelin",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

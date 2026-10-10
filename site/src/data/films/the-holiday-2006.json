@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Juliet Litman",
+   "host": {
+    "name": "Juliet Litman",
+    "id": "juliet-litman"
+   },
    "guests": [
-    "Amanda Dobbins",
-    "Kari Simmons"
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    },
+    {
+     "name": "Kari Simmons",
+     "id": "kari-simmons"
+    }
    ],
    "note": null
   }
@@ -51,103 +60,120 @@
    "word": "los angeles, california",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "los-angeles-california"
   },
   {
    "word": "woman director",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "woman-director"
   },
   {
    "word": "bold",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "bold"
   },
   {
    "word": "christmas",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "christmas"
   },
   {
    "word": "holiday",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "holiday"
   },
   {
    "word": "london, england",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "london-england"
   },
   {
    "word": "vacation",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vacation"
   },
   {
    "word": "christmas party",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "christmas-party"
   },
   {
    "word": "movie business",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "movie-business"
   },
   {
    "word": "vibrant",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vibrant"
   },
   {
    "word": "multiple storylines",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "multiple-storylines"
   },
   {
    "word": "romance",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "romance"
   },
   {
    "word": "christmas romance",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "country house",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "holiday romance",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "house swapping",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "surrey",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

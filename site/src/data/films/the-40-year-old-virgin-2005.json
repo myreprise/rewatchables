@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -51,49 +60,57 @@
    "word": "male friendship",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "male-friendship"
   },
   {
    "word": "co-workers relationship",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "co-workers-relationship"
   },
   {
    "word": "sex comedy",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sex-comedy"
   },
   {
    "word": "virgin",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "virgin"
   },
   {
    "word": "virginity",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "virginity"
   },
   {
    "word": "first time",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "poker game",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sex",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

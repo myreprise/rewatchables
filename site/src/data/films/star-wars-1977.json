@@ -39,11 +39,23 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey",
-    "Van Lathan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": "70s month'"
   }
@@ -53,121 +65,141 @@
    "word": "powerful",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "powerful"
   },
   {
    "word": "space",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "space"
   },
   {
    "word": "rescue mission",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rescue-mission"
   },
   {
    "word": "super power",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "super-power"
   },
   {
    "word": "android",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "android"
   },
   {
    "word": "desert",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "desert"
   },
   {
    "word": "freedom",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "freedom"
   },
   {
    "word": "quest",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "quest"
   },
   {
    "word": "rebel",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rebel"
   },
   {
    "word": "space opera",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "space-opera"
   },
   {
    "word": "oppression",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "oppression"
   },
   {
    "word": "rebellion",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rebellion"
   },
   {
    "word": "smuggling (contraband)",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "smuggling-contraband"
   },
   {
    "word": "empire",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "galaxy",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "hermit",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "planet",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "totalitarianism",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "tuwaderalit",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "wizard",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

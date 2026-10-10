@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Kyle Brandt"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Kyle Brandt",
+     "id": "kyle-brandt"
+    }
    ],
    "note": null
   }
@@ -51,79 +60,92 @@
    "word": "revenge",
    "reach": 31,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "revenge"
   },
   {
    "word": "nightclub",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nightclub"
   },
   {
    "word": "showdown",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "showdown"
   },
   {
    "word": "strip club",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "strip-club"
   },
   {
    "word": "voyeurism",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "voyeurism"
   },
   {
    "word": "new love",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "new-love"
   },
   {
    "word": "hoodlum",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hoodlum"
   },
   {
    "word": "fistfight",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fistfight"
   },
   {
    "word": "brawl",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "brawl"
   },
   {
    "word": "stripper",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "stripper"
   },
   {
    "word": "bouncer",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "protection money",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "roadhouse",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

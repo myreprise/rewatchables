@@ -1,0 +1,134 @@
+{
+ "word": "post-traumatic stress disorder (ptsd)",
+ "id": "post-traumatic-stress-disorder-ptsd",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.7,
+ "vs_catalogue": 0.6,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 2
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  }
+ ],
+ "peak_share": 67.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "chicago, illinois",
+   "reach": 19,
+   "band": "b3",
+   "id": "chicago-illinois"
+  },
+  {
+   "word": "1960s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1960s"
+  },
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1970s"
+  },
+  {
+   "word": "aftercreditsstinger",
+   "reach": 18,
+   "band": "b3",
+   "id": "aftercreditsstinger"
+  },
+  {
+   "word": "air controller",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "airplane",
+   "reach": 8,
+   "band": "b5",
+   "id": "airplane"
+  },
+  {
+   "word": "alabama",
+   "reach": 2,
+   "band": "b5",
+   "id": "alabama"
+  },
+  {
+   "word": "alcohol",
+   "reach": 6,
+   "band": "b5",
+   "id": "alcohol"
+  },
+  {
+   "word": "alcohol abuse",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "america",
+   "reach": 2,
+   "band": "b5",
+   "id": "america"
+  },
+  {
+   "word": "anarchic comedy",
+   "reach": 3,
+   "band": "b5",
+   "id": "anarchic-comedy"
+  },
+  {
+   "word": "anti war protest",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "anxious",
+   "reach": 8,
+   "band": "b5",
+   "id": "anxious"
+  }
+ ],
+ "films": [
+  {
+   "id": "airplane-1980",
+   "title": "Airplane!",
+   "year": 1980,
+   "poster": "7Q3efxd3AF1vQjlSxnlerSA7RzN.jpg",
+   "tmdb": 7.3
+  },
+  {
+   "id": "ordinary-people-1980",
+   "title": "Ordinary People",
+   "year": 1980,
+   "poster": "tJVETEDAKgD3fEh88SHOvMvOQue.jpg",
+   "tmdb": 7.44
+  },
+  {
+   "id": "forrest-gump-1994",
+   "title": "Forrest Gump",
+   "year": 1994,
+   "poster": "Cw4hIUIAmSYfK9QfaUW5igp9La.jpg",
+   "tmdb": 8.463
+  }
+ ]
+}

@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Van Lathan",
-    "Logan Murdock"
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    },
+    {
+     "name": "Logan Murdock",
+     "id": "logan-murdock"
+    }
    ],
    "note": null
   }
@@ -52,61 +61,71 @@
    "word": "new york city",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "new-york-city"
   },
   {
    "word": "drugs",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "drugs"
   },
   {
    "word": "drug dealer",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drug-dealer"
   },
   {
    "word": "street gang",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "street-gang"
   },
   {
    "word": "cop",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cop"
   },
   {
    "word": "ghetto",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ghetto"
   },
   {
    "word": "heroin",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "heroin"
   },
   {
    "word": "undercover agent",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "undercover-agent"
   },
   {
    "word": "gang leader",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gang-leader"
   },
   {
    "word": "crack",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

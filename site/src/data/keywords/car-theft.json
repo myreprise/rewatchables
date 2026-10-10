@@ -1,0 +1,118 @@
+{
+ "word": "car theft",
+ "id": "car-theft",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1980s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1980s"
+  },
+  {
+   "word": "aftercreditsstinger",
+   "reach": 18,
+   "band": "b3",
+   "id": "aftercreditsstinger"
+  },
+  {
+   "word": "bigotry",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "breaking the fourth wall",
+   "reach": 5,
+   "band": "b5",
+   "id": "breaking-the-fourth-wall"
+  },
+  {
+   "word": "caper",
+   "reach": 4,
+   "band": "b5",
+   "id": "caper"
+  },
+  {
+   "word": "car crash",
+   "reach": 6,
+   "band": "b5",
+   "id": "car-crash"
+  },
+  {
+   "word": "chicago, illinois",
+   "reach": 19,
+   "band": "b3",
+   "id": "chicago-illinois"
+  },
+  {
+   "word": "collision",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "id": "coming-of-age"
+  },
+  {
+   "word": "connected",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "daughter",
+   "reach": 10,
+   "band": "b5",
+   "id": "daughter"
+  },
+  {
+   "word": "day in a life",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dramatic",
+   "reach": 18,
+   "band": "b3",
+   "id": "dramatic"
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "id": "duringcreditsstinger"
+  }
+ ],
+ "films": [
+  {
+   "id": "ferris-buellers-day-off-1986",
+   "title": "Ferris Bueller's Day Off",
+   "year": 1986,
+   "poster": "9LTQNCvoLsKXP0LtaKAaYVtRaQL.jpg",
+   "tmdb": 7.562
+  },
+  {
+   "id": "crash-2005",
+   "title": "Crash",
+   "year": 2005,
+   "poster": "86BdPC6RDX88NC880pLidKn2LCj.jpg",
+   "tmdb": 7.215
+  }
+ ]
+}

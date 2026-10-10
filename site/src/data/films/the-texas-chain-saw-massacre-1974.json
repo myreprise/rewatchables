@@ -37,9 +37,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": null
   }
@@ -49,139 +55,162 @@
    "word": "suspenseful",
    "reach": 30,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "suspenseful"
   },
   {
    "word": "antagonistic",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "antagonistic"
   },
   {
    "word": "frightened",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "frightened"
   },
   {
    "word": "texas",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "texas"
   },
   {
    "word": "disturbed",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "disturbed"
   },
   {
    "word": "family",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "family"
   },
   {
    "word": "psychological horror",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "psychological-horror"
   },
   {
    "word": "slasher",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "slasher"
   },
   {
    "word": "b-horror",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "b-horror"
   },
   {
    "word": "cannibalism",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cannibalism"
   },
   {
    "word": "gas station",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gas-station"
   },
   {
    "word": "sadistic",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sadistic"
   },
   {
    "word": "cannibal",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cannibal"
   },
   {
    "word": "polaroid",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "polaroid"
   },
   {
    "word": "van",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "van"
   },
   {
    "word": "chainsaw",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "grave robber",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "hitchhiker",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "leatherface",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "one day",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "slaughterhouse",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "splatter horror",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "vacation gone wrong",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

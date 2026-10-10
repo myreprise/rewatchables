@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Juliet Litman"
+    {
+     "name": "Juliet Litman",
+     "id": "juliet-litman"
+    }
    ],
    "note": null
   }
@@ -51,79 +57,92 @@
    "word": "duringcreditsstinger",
    "reach": 27,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "duringcreditsstinger"
   },
   {
    "word": "1980s",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "1980s"
   },
   {
    "word": "infidelity",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "infidelity"
   },
   {
    "word": "sympathetic",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sympathetic"
   },
   {
    "word": "amusement park",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "amusement-park"
   },
   {
    "word": "young adult",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "young-adult"
   },
   {
    "word": "reconciliation",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "reconciliation"
   },
   {
    "word": "carny",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "job seeking",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "leaving home",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "marijuana joint",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "summer job",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "ticket booth",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -1,0 +1,157 @@
+{
+ "word": "astronaut",
+ "id": "astronaut",
+ "catalogue": 460,
+ "share": 0.9,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.5,
+ "vs_catalogue": 0.4,
+ "decades": [
+  {
+   "decade": 1960,
+   "n": 1
+  },
+  {
+   "decade": 1970,
+   "n": 0
+  },
+  {
+   "decade": 1980,
+   "n": 0
+  },
+  {
+   "decade": 1990,
+   "n": 2
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 50.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "moon",
+   "reach": 4,
+   "band": "b5",
+   "id": "moon"
+  },
+  {
+   "word": "nasa",
+   "reach": 5,
+   "band": "b5",
+   "id": "nasa"
+  },
+  {
+   "word": "space",
+   "reach": 6,
+   "band": "b5",
+   "id": "space"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "disaster",
+   "reach": 4,
+   "band": "b5",
+   "id": "disaster"
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "id": "duringcreditsstinger"
+  },
+  {
+   "word": "philosophical",
+   "reach": 5,
+   "band": "b5",
+   "id": "philosophical"
+  },
+  {
+   "word": "race against time",
+   "reach": 7,
+   "band": "b5",
+   "id": "race-against-time"
+  },
+  {
+   "word": "survival",
+   "reach": 12,
+   "band": "b4",
+   "id": "survival"
+  },
+  {
+   "word": "2000s",
+   "reach": 2,
+   "band": "b5",
+   "id": "2000s"
+  },
+  {
+   "word": "2030s",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "aftercreditsstinger",
+   "reach": 18,
+   "band": "b3",
+   "id": "aftercreditsstinger"
+  },
+  {
+   "word": "aggressive",
+   "reach": 18,
+   "band": "b3",
+   "id": "aggressive"
+  },
+  {
+   "word": "ai rebellion",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "2001-a-space-odyssey-1968",
+   "title": "2001: A Space Odyssey",
+   "year": 1968,
+   "poster": "ve72VxNqjGM69Uky4WTo2bK6rfq.jpg",
+   "tmdb": 8.045
+  },
+  {
+   "id": "apollo-13-1995",
+   "title": "Apollo 13",
+   "year": 1995,
+   "poster": "tVeKscCm2fY1xDXZk8PgnZ87h9S.jpg",
+   "tmdb": 7.463
+  },
+  {
+   "id": "armageddon-1998",
+   "title": "Armageddon",
+   "year": 1998,
+   "poster": "eTM3qtGhDU8cvjpoa6KEt5E2auU.jpg",
+   "tmdb": 6.832
+  },
+  {
+   "id": "the-martian-2015",
+   "title": "The Martian",
+   "year": 2015,
+   "poster": "fASz8A0yFE3QB6LgGoOfwvFSseV.jpg",
+   "tmdb": 7.706
+  }
+ ]
+}

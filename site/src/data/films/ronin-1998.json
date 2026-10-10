@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": null
   }
@@ -51,85 +57,99 @@
    "word": "shootout",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "shootout"
   },
   {
    "word": "heist",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "heist"
   },
   {
    "word": "paris, france",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "paris-france"
   },
   {
    "word": "violence",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "violence"
   },
   {
    "word": "mercenary",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mercenary"
   },
   {
    "word": "arms deal",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "arms-deal"
   },
   {
    "word": "france",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "france"
   },
   {
    "word": "impostor",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "impostor"
   },
   {
    "word": "suitcase",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "suitcase"
   },
   {
    "word": "cafe",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "cellular phone trace",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "computer expert",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "ex kgb",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "ira (irish republican army)",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

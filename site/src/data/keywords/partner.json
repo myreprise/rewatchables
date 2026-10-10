@@ -1,0 +1,118 @@
+{
+ "word": "partner",
+ "id": "partner",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1980s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1980s"
+  },
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "id": "absurd"
+  },
+  {
+   "word": "aids",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "buddy cop",
+   "reach": 11,
+   "band": "b5",
+   "id": "buddy-cop"
+  },
+  {
+   "word": "convict",
+   "reach": 4,
+   "band": "b5",
+   "id": "convict"
+  },
+  {
+   "word": "court",
+   "reach": 6,
+   "band": "b5",
+   "id": "court"
+  },
+  {
+   "word": "courtroom drama",
+   "reach": 7,
+   "band": "b5",
+   "id": "courtroom-drama"
+  },
+  {
+   "word": "discrimination",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dying",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dysfunctional relationship",
+   "reach": 2,
+   "band": "b5",
+   "id": "dysfunctional-relationship"
+  },
+  {
+   "word": "fake fight",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "gay theme",
+   "reach": 6,
+   "band": "b5",
+   "id": "gay-theme"
+  },
+  {
+   "word": "hiv",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "48-hrs-1982",
+   "title": "48 Hrs.",
+   "year": 1982,
+   "poster": "rvvjXHzEDBIvIVDBHNOwHS7hVPu.jpg",
+   "tmdb": 6.676
+  },
+  {
+   "id": "philadelphia-1993",
+   "title": "Philadelphia",
+   "year": 1993,
+   "poster": "tFe5Yoo5zT495okA49bq1vPPkiV.jpg",
+   "tmdb": 7.705
+  }
+ ]
+}

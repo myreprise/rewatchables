@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Bill's Dad"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Bill's Dad",
+     "id": "bills-dad"
+    }
    ],
    "note": null
   }
@@ -52,157 +61,183 @@
    "word": "revenge",
    "reach": 31,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "revenge"
   },
   {
    "word": "fbi",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "fbi"
   },
   {
    "word": "gangster",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "gangster"
   },
   {
    "word": "organized crime",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "organized-crime"
   },
   {
    "word": "remake",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "remake"
   },
   {
    "word": "corruption",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "corruption"
   },
   {
    "word": "hostage",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hostage"
   },
   {
    "word": "assassin",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "assassin"
   },
   {
    "word": "hitman",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hitman"
   },
   {
    "word": "vigilante",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vigilante"
   },
   {
    "word": "sadism",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sadism"
   },
   {
    "word": "callous",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "callous"
   },
   {
    "word": "hand to hand combat",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hand-to-hand-combat"
   },
   {
    "word": "sociopath",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sociopath"
   },
   {
    "word": "vigilante justice",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vigilante-justice"
   },
   {
    "word": "commando",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "commando"
   },
   {
    "word": "surveillance",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "surveillance"
   },
   {
    "word": "call girl",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "call-girl"
   },
   {
    "word": "gore",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gore"
   },
   {
    "word": "interrogation",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "interrogation"
   },
   {
    "word": "loner",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "loner"
   },
   {
    "word": "ex soldier",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ex-soldier"
   },
   {
    "word": "fake death",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fake-death"
   },
   {
    "word": "black ops",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mysterious past",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "teenage prostitute",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

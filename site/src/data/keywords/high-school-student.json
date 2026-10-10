@@ -1,0 +1,149 @@
+{
+ "word": "high school student",
+ "id": "high-school-student",
+ "catalogue": 460,
+ "share": 0.9,
+ "thin": false,
+ "peak": 2010,
+ "avg_tmdb": 6.9,
+ "vs_catalogue": -0.2,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 2
+  }
+ ],
+ "peak_share": 50.0,
+ "catalogue_peak_share": 12.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "id": "high-school"
+  },
+  {
+   "word": "teen movie",
+   "reach": 7,
+   "band": "b5",
+   "id": "teen-movie"
+  },
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "id": "coming-of-age"
+  },
+  {
+   "word": "loss of virginity",
+   "reach": 3,
+   "band": "b5",
+   "id": "loss-of-virginity"
+  },
+  {
+   "word": "teen comedy",
+   "reach": 9,
+   "band": "b5",
+   "id": "teen-comedy"
+  },
+  {
+   "word": "teenager",
+   "reach": 12,
+   "band": "b4",
+   "id": "teenager"
+  },
+  {
+   "word": "beaten",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "birthday",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "birthday party",
+   "reach": 2,
+   "band": "b5",
+   "id": "birthday-party"
+  },
+  {
+   "word": "bullies",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bully",
+   "reach": 2,
+   "band": "b5",
+   "id": "bully"
+  },
+  {
+   "word": "bullying",
+   "reach": 5,
+   "band": "b5",
+   "id": "bullying"
+  },
+  {
+   "word": "crane",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "id": "duringcreditsstinger"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-karate-kid-1984",
+   "title": "The Karate Kid",
+   "year": 1984,
+   "poster": "1mp4ViklKvA0WXXsNvNx0RBuiit.jpg",
+   "tmdb": 7.23
+  },
+  {
+   "id": "american-pie-1999",
+   "title": "American Pie",
+   "year": 1999,
+   "poster": "5P68by2Thn8wHAziyWGEw2O7hco.jpg",
+   "tmdb": 6.618
+  },
+  {
+   "id": "easy-a-2010",
+   "title": "Easy A",
+   "year": 2010,
+   "poster": "v5f1qO6NJnxWgONgkYg21TW39DT.jpg",
+   "tmdb": 6.803
+  },
+  {
+   "id": "project-x-2012",
+   "title": "Project X",
+   "year": 2012,
+   "poster": "lUPDGT3lyRrq8SvWuNWG2DP64bR.jpg",
+   "tmdb": 6.924
+  }
+ ]
+}

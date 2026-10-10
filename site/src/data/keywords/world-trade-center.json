@@ -1,0 +1,118 @@
+{
+ "word": "world trade center",
+ "id": "world-trade-center",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "id": "new-york-city"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "arson",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bad cop",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bridge",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "car accident",
+   "reach": 3,
+   "band": "b5",
+   "id": "car-accident"
+  },
+  {
+   "word": "car crash",
+   "reach": 6,
+   "band": "b5",
+   "id": "car-crash"
+  },
+  {
+   "word": "corruption",
+   "reach": 12,
+   "band": "b4",
+   "id": "corruption"
+  },
+  {
+   "word": "curious",
+   "reach": 3,
+   "band": "b5",
+   "id": "curious"
+  },
+  {
+   "word": "dirty cop",
+   "reach": 5,
+   "band": "b5",
+   "id": "dirty-cop"
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "id": "duringcreditsstinger"
+  },
+  {
+   "word": "enchant",
+   "reach": 3,
+   "band": "b5",
+   "id": "enchant"
+  },
+  {
+   "word": "environmental protection agency",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "fbi",
+   "reach": 20,
+   "band": "b3",
+   "id": "fbi"
+  }
+ ],
+ "films": [
+  {
+   "id": "ghostbusters-1984",
+   "title": "Ghostbusters",
+   "year": 1984,
+   "poster": "7E8nLijS9AwwUEPu2oFYOVKhdFA.jpg",
+   "tmdb": 7.498
+  },
+  {
+   "id": "cop-land-1997",
+   "title": "Cop Land",
+   "year": 1997,
+   "poster": "dyOqXyPCQh8VF0KA5aelBCCQond.jpg",
+   "tmdb": 6.816
+  }
+ ]
+}

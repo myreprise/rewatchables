@@ -39,11 +39,23 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Shea Serrano",
-    "Sean Fennessey",
-    "Mallory Rubin"
+    {
+     "name": "Shea Serrano",
+     "id": "shea-serrano"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    }
    ],
    "note": null
   }
@@ -53,127 +65,148 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "investigation",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "investigation"
   },
   {
    "word": "psychological thriller",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "psychological-thriller"
   },
   {
    "word": "infidelity",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "infidelity"
   },
   {
    "word": "whodunit",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "whodunit"
   },
   {
    "word": "marriage crisis",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "marriage-crisis"
   },
   {
    "word": "missing person",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "missing-person"
   },
   {
    "word": "cynical",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cynical"
   },
   {
    "word": "disappearance",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "disappearance"
   },
   {
    "word": "killed during sex",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "killed-during-sex"
   },
   {
    "word": "manipulative woman",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "manipulative-woman"
   },
   {
    "word": "murder suspect",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "murder-suspect"
   },
   {
    "word": "controlling wife",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "criminal lawyer",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "hate",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "missing wife",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "perspective",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "revenge thriller",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "search party",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "toxic relationship",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "wife",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

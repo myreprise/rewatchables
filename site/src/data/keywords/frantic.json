@@ -1,0 +1,118 @@
+{
+ "word": "frantic",
+ "id": "frantic",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "dreary",
+   "reach": 6,
+   "band": "b5",
+   "id": "dreary"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "apocalypse",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "biblical",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bold",
+   "reach": 15,
+   "band": "b4",
+   "id": "bold"
+  },
+  {
+   "word": "briefcase",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "cabbie",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "car",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "celebrity",
+   "reach": 5,
+   "band": "b5",
+   "id": "celebrity"
+  },
+  {
+   "word": "claustrophobic",
+   "reach": 2,
+   "band": "b5",
+   "id": "claustrophobic"
+  },
+  {
+   "word": "contract killer",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "creature",
+   "reach": 7,
+   "band": "b5",
+   "id": "creature"
+  },
+  {
+   "word": "dark comedy",
+   "reach": 10,
+   "band": "b5",
+   "id": "dark-comedy"
+  },
+  {
+   "word": "demon",
+   "reach": 4,
+   "band": "b5",
+   "id": "demon"
+  }
+ ],
+ "films": [
+  {
+   "id": "collateral-2004",
+   "title": "Collateral",
+   "year": 2004,
+   "poster": "nV5316WUsVij8sVXLCF1g7TFitg.jpg",
+   "tmdb": 7.249
+  },
+  {
+   "id": "this-is-the-end-2013",
+   "title": "This Is the End",
+   "year": 2013,
+   "poster": "tNIW0NhX1hKvUsy6PQ80DOKUhkD.jpg",
+   "tmdb": 6.232
+  }
+ ]
+}

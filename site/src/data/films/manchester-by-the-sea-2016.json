@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": "Rock Bottom' month; the first Cruise or Hanks"
   }
@@ -50,127 +59,148 @@
    "word": "boston, massachusetts",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "boston-massachusetts"
   },
   {
    "word": "hospital",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hospital"
   },
   {
    "word": "death",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "death"
   },
   {
    "word": "dysfunctional family",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dysfunctional-family"
   },
   {
    "word": "ex-husband ex-wife relationship",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ex-husband-ex-wife-relationship"
   },
   {
    "word": "melancholy",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "melancholy"
   },
   {
    "word": "funeral",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "funeral"
   },
   {
    "word": "nonlinear timeline",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nonlinear-timeline"
   },
   {
    "word": "ex-wife",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ex-wife"
   },
   {
    "word": "massachusetts",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "massachusetts"
   },
   {
    "word": "sadness",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sadness"
   },
   {
    "word": "tragic",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "tragic"
   },
   {
    "word": "brother",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "brother"
   },
   {
    "word": "grief",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "grief"
   },
   {
    "word": "boat",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "dysfunctional life",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "house fire",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "legal guardian",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "loss",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mental health",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "nephew",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

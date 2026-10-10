@@ -1,0 +1,118 @@
+{
+ "word": "sexual desire",
+ "id": "sexual-desire",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "alien",
+   "reach": 9,
+   "band": "b5",
+   "id": "alien"
+  },
+  {
+   "word": "alien dna",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "bribery",
+   "reach": 4,
+   "band": "b5",
+   "id": "bribery"
+  },
+  {
+   "word": "christmas",
+   "reach": 14,
+   "band": "b4",
+   "id": "christmas"
+  },
+  {
+   "word": "christmas party",
+   "reach": 5,
+   "band": "b5",
+   "id": "christmas-party"
+  },
+  {
+   "word": "cocoon",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "conspiracy",
+   "reach": 13,
+   "band": "b4",
+   "id": "conspiracy"
+  },
+  {
+   "word": "consumerism",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "costume shop",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "creature",
+   "reach": 7,
+   "band": "b5",
+   "id": "creature"
+  },
+  {
+   "word": "cult",
+   "reach": 4,
+   "band": "b5",
+   "id": "cult"
+  },
+  {
+   "word": "decapitation",
+   "reach": 2,
+   "band": "b5",
+   "id": "decapitation"
+  }
+ ],
+ "films": [
+  {
+   "id": "species-1995",
+   "title": "Species",
+   "year": 1995,
+   "poster": "cT5wdyo8kT7dycqjrolJ2sHWkFx.jpg",
+   "tmdb": 5.992
+  },
+  {
+   "id": "eyes-wide-shut-1999",
+   "title": "Eyes Wide Shut",
+   "year": 1999,
+   "poster": "knEIz1eNGl5MQDbrEAVWA7iRqF9.jpg",
+   "tmdb": 7.485
+  }
+ ]
+}

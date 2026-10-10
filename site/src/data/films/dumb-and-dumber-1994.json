@@ -37,9 +37,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Jennifer Lawrence"
+    {
+     "name": "Jennifer Lawrence",
+     "id": "jennifer-lawrence"
+    }
    ],
    "note": null
   }
@@ -49,121 +55,141 @@
    "word": "buddy",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "buddy"
   },
   {
    "word": "road trip",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "road-trip"
   },
   {
    "word": "criminal",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "criminal"
   },
   {
    "word": "motel",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "motel"
   },
   {
    "word": "gas station",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gas-station"
   },
   {
    "word": "prank",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "prank"
   },
   {
    "word": "cigar smoking",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cigar-smoking"
   },
   {
    "word": "laxative",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "laxative"
   },
   {
    "word": "pill",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pill"
   },
   {
    "word": "stupidity",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "stupidity"
   },
   {
    "word": "aspen colorado",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "clumsiness",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "defecation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "endangered species",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "fired from the job",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "foolish",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "parakeet",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "scooter",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "stepparent stepchild relationship",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "utah",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

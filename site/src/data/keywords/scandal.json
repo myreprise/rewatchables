@@ -1,0 +1,118 @@
+{
+ "word": "scandal",
+ "id": "scandal",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "ambition",
+   "reach": 4,
+   "band": "b5",
+   "id": "ambition"
+  },
+  {
+   "word": "bias",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "business ethics",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "chambers of a barrister",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "corporate world",
+   "reach": 2,
+   "band": "b5",
+   "id": "corporate-world"
+  },
+  {
+   "word": "cover-up",
+   "reach": 2,
+   "band": "b5",
+   "id": "cover-up"
+  },
+  {
+   "word": "crooked lawyer",
+   "reach": 3,
+   "band": "b5",
+   "id": "crooked-lawyer"
+  },
+  {
+   "word": "crush",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dangerous secrets",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dark comedy",
+   "reach": 10,
+   "band": "b5",
+   "id": "dark-comedy"
+  },
+  {
+   "word": "election",
+   "reach": 2,
+   "band": "b5",
+   "id": "election"
+  },
+  {
+   "word": "fake suicide",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "feud",
+   "reach": 2,
+   "band": "b5",
+   "id": "feud"
+  },
+  {
+   "word": "fixer lawyer",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "election-1999",
+   "title": "Election",
+   "year": 1999,
+   "poster": "fbo0IYzBc32dD5SjFzKIgfp4O4F.jpg",
+   "tmdb": 6.867
+  },
+  {
+   "id": "michael-clayton-2007",
+   "title": "Michael Clayton",
+   "year": 2007,
+   "poster": "hhkW4yVIGo8Bee3UITKvqOvhNMG.jpg",
+   "tmdb": 6.793
+  }
+ ]
+}

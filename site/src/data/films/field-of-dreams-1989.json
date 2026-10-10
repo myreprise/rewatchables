@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Mallory Rubin"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    }
    ],
    "note": null
   }
@@ -51,103 +60,120 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "road trip",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "road-trip"
   },
   {
    "word": "baseball",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "baseball"
   },
   {
    "word": "ghost",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ghost"
   },
   {
    "word": "regret",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "regret"
   },
   {
    "word": "author",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "author"
   },
   {
    "word": "doctor",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "doctor"
   },
   {
    "word": "reconciliation",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "reconciliation"
   },
   {
    "word": "iowa",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "iowa"
   },
   {
    "word": "miracle",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "miracle"
   },
   {
    "word": "cornfield",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "farm",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "hearing voices",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "pta",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "recluse",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "school board",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -1,0 +1,177 @@
+{
+ "word": "adoring",
+ "id": "adoring",
+ "catalogue": 460,
+ "share": 1.7,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 6.9,
+ "vs_catalogue": -0.1,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 3
+  },
+  {
+   "decade": 1990,
+   "n": 3
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 38.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "id": "admiring"
+  },
+  {
+   "word": "affectation",
+   "reach": 5,
+   "band": "b5",
+   "id": "affectation"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "angry",
+   "reach": 8,
+   "band": "b5",
+   "id": "angry"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "christmas",
+   "reach": 14,
+   "band": "b4",
+   "id": "christmas"
+  },
+  {
+   "word": "dramatic",
+   "reach": 18,
+   "band": "b3",
+   "id": "dramatic"
+  },
+  {
+   "word": "familiar",
+   "reach": 5,
+   "band": "b5",
+   "id": "familiar"
+  },
+  {
+   "word": "parent child relationship",
+   "reach": 16,
+   "band": "b4",
+   "id": "parent-child-relationship"
+  },
+  {
+   "word": "romantic",
+   "reach": 11,
+   "band": "b5",
+   "id": "romantic"
+  },
+  {
+   "word": "2020s",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "african american family",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "airplane",
+   "reach": 8,
+   "band": "b5",
+   "id": "airplane"
+  },
+  {
+   "word": "alien",
+   "reach": 9,
+   "band": "b5",
+   "id": "alien"
+  }
+ ],
+ "films": [
+  {
+   "id": "mr-mom-1983",
+   "title": "Mr. Mom",
+   "year": 1983,
+   "poster": "QuTlgKKykL7j0PnZZd3LNFVhCX.jpg",
+   "tmdb": 6.561
+  },
+  {
+   "id": "the-princess-bride-1987",
+   "title": "The Princess Bride",
+   "year": 1987,
+   "poster": "2FC9L9MrjBoGHYjYZjdWQdopVYb.jpg",
+   "tmdb": 7.706
+  },
+  {
+   "id": "national-lampoons-christmas-vacation-1989",
+   "title": "National Lampoon's Christmas Vacation",
+   "year": 1989,
+   "poster": "oat42hUw8XzKYUmfy0YLAxYd484.jpg",
+   "tmdb": 7.232
+  },
+  {
+   "id": "sleepless-in-seattle-1993",
+   "title": "Sleepless in Seattle",
+   "year": 1993,
+   "poster": "jAXfku1u1uaLGh4cUmK0ESf1pPu.jpg",
+   "tmdb": 6.741
+  },
+  {
+   "id": "he-got-game-1998",
+   "title": "He Got Game",
+   "year": 1998,
+   "poster": "kd8hRaysUQOz7AvSorZDJHuihcJ.jpg",
+   "tmdb": 6.752
+  },
+  {
+   "id": "snake-eyes-1998",
+   "title": "Snake Eyes",
+   "year": 1998,
+   "poster": "gsh9mQKRrr4M90XC9Rr0wxefc9u.jpg",
+   "tmdb": 6.204
+  },
+  {
+   "id": "ali-2001",
+   "title": "Ali",
+   "year": 2001,
+   "poster": "32l3FaCzs8cXWps6hkgNJAcOsP.jpg",
+   "tmdb": 6.743
+  },
+  {
+   "id": "edge-of-tomorrow-2014",
+   "title": "Edge of Tomorrow",
+   "year": 2014,
+   "poster": "nBM9MMa2WCwvMG4IJ3eiGUdbPe6.jpg",
+   "tmdb": 7.642
+  }
+ ]
+}

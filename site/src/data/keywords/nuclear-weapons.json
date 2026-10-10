@@ -1,0 +1,142 @@
+{
+ "word": "nuclear weapons",
+ "id": "nuclear-weapons",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.9,
+ "vs_catalogue": 0.8,
+ "decades": [
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  },
+  {
+   "decade": 2020,
+   "n": 1
+  }
+ ],
+ "peak_share": 33.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "sequel",
+   "reach": 28,
+   "band": "b2",
+   "id": "sequel"
+  },
+  {
+   "word": "action",
+   "reach": 2,
+   "band": "b5",
+   "id": "action"
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "aircraft carrier",
+   "reach": 2,
+   "band": "b5",
+   "id": "aircraft-carrier"
+  },
+  {
+   "word": "artificial intelligence (a.i.)",
+   "reach": 4,
+   "band": "b5",
+   "id": "artificial-intelligence-a-i"
+  },
+  {
+   "word": "based on tv series",
+   "reach": 3,
+   "band": "b5",
+   "id": "based-on-tv-series"
+  },
+  {
+   "word": "bomb remote detonator",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "catch phrase",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "central intelligence agency (cia)",
+   "reach": 8,
+   "band": "b5",
+   "id": "central-intelligence-agency-cia"
+  },
+  {
+   "word": "chase",
+   "reach": 7,
+   "band": "b5",
+   "id": "chase"
+  },
+  {
+   "word": "countdown",
+   "reach": 3,
+   "band": "b5",
+   "id": "countdown"
+  },
+  {
+   "word": "cyborg",
+   "reach": 3,
+   "band": "b5",
+   "id": "cyborg"
+  },
+  {
+   "word": "double agent",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dystopia",
+   "reach": 17,
+   "band": "b3",
+   "id": "dystopia"
+  }
+ ],
+ "films": [
+  {
+   "id": "terminator-2-judgment-day-1991",
+   "title": "Terminator 2: Judgment Day",
+   "year": 1991,
+   "poster": "jFTVD4XoWQTcg7wdyJKa8PEds5q.jpg",
+   "tmdb": 8.2
+  },
+  {
+   "id": "mission-impossible-fallout-2018",
+   "title": "Mission: Impossible - Fallout",
+   "year": 2018,
+   "poster": "AkJQpZp9WoNdj7pLYSj1L0RcMMN.jpg",
+   "tmdb": 7.45
+  },
+  {
+   "id": "top-gun-maverick-2022",
+   "title": "Top Gun: Maverick",
+   "year": 2022,
+   "poster": "n0YuM4f5lvGAP6MAW2kBIzugXnc.jpg",
+   "tmdb": 8.16
+  }
+ ]
+}

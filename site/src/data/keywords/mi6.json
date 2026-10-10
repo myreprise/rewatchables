@@ -1,0 +1,134 @@
+{
+ "word": "mi6",
+ "id": "mi6",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 2010,
+ "avg_tmdb": 7.4,
+ "vs_catalogue": 0.3,
+ "decades": [
+  {
+   "decade": 2000,
+   "n": 1
+  },
+  {
+   "decade": 2010,
+   "n": 2
+  }
+ ],
+ "peak_share": 67.0,
+ "catalogue_peak_share": 12.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "spy",
+   "reach": 11,
+   "band": "b5",
+   "id": "spy"
+  },
+  {
+   "word": "action",
+   "reach": 2,
+   "band": "b5",
+   "id": "action"
+  },
+  {
+   "word": "british secret service",
+   "reach": 2,
+   "band": "b5",
+   "id": "british-secret-service"
+  },
+  {
+   "word": "james bond",
+   "reach": 3,
+   "band": "b5",
+   "id": "james-bond"
+  },
+  {
+   "word": "killer",
+   "reach": 2,
+   "band": "b5",
+   "id": "killer"
+  },
+  {
+   "word": "adventure",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "art gallery",
+   "reach": 3,
+   "band": "b5",
+   "id": "art-gallery"
+  },
+  {
+   "word": "aston martin",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "banker",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "based on tv series",
+   "reach": 3,
+   "band": "b5",
+   "id": "based-on-tv-series"
+  },
+  {
+   "word": "bomb remote detonator",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "booby trap",
+   "reach": 2,
+   "band": "b5",
+   "id": "booby-trap"
+  },
+  {
+   "word": "casino",
+   "reach": 5,
+   "band": "b5",
+   "id": "casino"
+  }
+ ],
+ "films": [
+  {
+   "id": "casino-royale-2006",
+   "title": "Casino Royale",
+   "year": 2006,
+   "poster": "lMrxYKKhd4lqRzwUHAy5gcx9PSO.jpg",
+   "tmdb": 7.576
+  },
+  {
+   "id": "skyfall-2012",
+   "title": "Skyfall",
+   "year": 2012,
+   "poster": "d0IVecFQvsGdSbnMAHqiYsNYaJT.jpg",
+   "tmdb": 7.265
+  },
+  {
+   "id": "mission-impossible-fallout-2018",
+   "title": "Mission: Impossible - Fallout",
+   "year": 2018,
+   "poster": "AkJQpZp9WoNdj7pLYSj1L0RcMMN.jpg",
+   "tmdb": 7.45
+  }
+ ]
+}

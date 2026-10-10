@@ -1,0 +1,325 @@
+{
+ "word": "sequel",
+ "id": "sequel",
+ "catalogue": 460,
+ "share": 6.1,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.2,
+ "vs_catalogue": 0.1,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 3
+  },
+  {
+   "decade": 1980,
+   "n": 12
+  },
+  {
+   "decade": 1990,
+   "n": 6
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  },
+  {
+   "decade": 2010,
+   "n": 5
+  },
+  {
+   "decade": 2020,
+   "n": 1
+  }
+ ],
+ "peak_share": 43.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "revenge",
+   "reach": 31,
+   "band": "b2",
+   "id": "revenge"
+  },
+  {
+   "word": "excited",
+   "reach": 17,
+   "band": "b3",
+   "id": "excited"
+  },
+  {
+   "word": "helicopter",
+   "reach": 6,
+   "band": "b5",
+   "id": "helicopter"
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "christmas",
+   "reach": 14,
+   "band": "b4",
+   "id": "christmas"
+  },
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "id": "new-york-city"
+  },
+  {
+   "word": "shootout",
+   "reach": 17,
+   "band": "b3",
+   "id": "shootout"
+  },
+  {
+   "word": "sports",
+   "reach": 47,
+   "band": "b1",
+   "id": "sports"
+  },
+  {
+   "word": "boxer",
+   "reach": 5,
+   "band": "b5",
+   "id": "boxer"
+  },
+  {
+   "word": "boxing",
+   "reach": 6,
+   "band": "b5",
+   "id": "boxing"
+  },
+  {
+   "word": "car race",
+   "reach": 6,
+   "band": "b5",
+   "id": "car-race"
+  },
+  {
+   "word": "dying and death",
+   "reach": 13,
+   "band": "b4",
+   "id": "dying-and-death"
+  },
+  {
+   "word": "explosion",
+   "reach": 8,
+   "band": "b5",
+   "id": "explosion"
+  },
+  {
+   "word": "nuclear weapons",
+   "reach": 3,
+   "band": "b5",
+   "id": "nuclear-weapons"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-godfather-part-ii-1974",
+   "title": "The Godfather Part II",
+   "year": 1974,
+   "poster": "sSuQTCZwqKrNBNIsksO9IAUoWP9.jpg",
+   "tmdb": 8.573
+  },
+  {
+   "id": "jaws-2-1978",
+   "title": "Jaws 2",
+   "year": 1978,
+   "poster": "cN3ijEwsn4kBaRuHfcJpAQJbeWe.jpg",
+   "tmdb": 6.038
+  },
+  {
+   "id": "rocky-ii-1979",
+   "title": "Rocky II",
+   "year": 1979,
+   "poster": "nMaiiu0CzT77U4JZkUYV7KqdAjK.jpg",
+   "tmdb": 7.3
+  },
+  {
+   "id": "halloween-ii-1981",
+   "title": "Halloween II",
+   "year": 1981,
+   "poster": "3nX5HHGgOKaVMxXwMLT9DHO1Ne6.jpg",
+   "tmdb": 6.592
+  },
+  {
+   "id": "rocky-iii-1982",
+   "title": "Rocky III",
+   "year": 1982,
+   "poster": "uqw16i2kmwVqkJHzjzbDU4xZ0Pl.jpg",
+   "tmdb": 6.907
+  },
+  {
+   "id": "rambo-first-blood-part-ii-1985",
+   "title": "Rambo: First Blood Part II",
+   "year": 1985,
+   "poster": "fVwRtWqEPdsCH21BVDGqgkAQcff.jpg",
+   "tmdb": 6.67
+  },
+  {
+   "id": "rocky-iv-1985",
+   "title": "Rocky IV",
+   "year": 1985,
+   "poster": "2MHUit4H6OK5adcOjnCN6suCKOl.jpg",
+   "tmdb": 7.094
+  },
+  {
+   "id": "aliens-1986",
+   "title": "Aliens",
+   "year": 1986,
+   "poster": "r1x5JGpyqZU8PYhbs4UcrO1Xb6x.jpg",
+   "tmdb": 7.966
+  },
+  {
+   "id": "the-karate-kid-part-ii-1986",
+   "title": "The Karate Kid Part II",
+   "year": 1986,
+   "poster": "k0OwgRR6PNu7h3SiqpCbRdZWNaG.jpg",
+   "tmdb": 6.351
+  },
+  {
+   "id": "beverly-hills-cop-ii-1987",
+   "title": "Beverly Hills Cop II",
+   "year": 1987,
+   "poster": "egDakU8O5yUwpUJP9IMAUVtIDll.jpg",
+   "tmdb": 6.532
+  },
+  {
+   "id": "halloween-4-the-return-of-michael-myers-1988",
+   "title": "Halloween 4: The Return of Michael Myers",
+   "year": 1988,
+   "poster": "eFSOkXF9n9hsfGv45MDsPixiOyx.jpg",
+   "tmdb": 6.175
+  },
+  {
+   "id": "back-to-the-future-part-ii-1989",
+   "title": "Back to the Future Part II",
+   "year": 1989,
+   "poster": "hQq8xZe5uLjFzSBt4LanNP7SQjl.jpg",
+   "tmdb": 7.784
+  },
+  {
+   "id": "indiana-jones-and-the-last-crusade-1989",
+   "title": "Indiana Jones and the Last Crusade",
+   "year": 1989,
+   "poster": "sizg1AU8f8JDZX4QIgE4pjUMBvx.jpg",
+   "tmdb": 7.855
+  },
+  {
+   "id": "lethal-weapon-2-1989",
+   "title": "Lethal Weapon 2",
+   "year": 1989,
+   "poster": "1EEIUw0tkX7AJZ1ikZrtKZZKlC6.jpg",
+   "tmdb": 7.045
+  },
+  {
+   "id": "national-lampoons-christmas-vacation-1989",
+   "title": "National Lampoon's Christmas Vacation",
+   "year": 1989,
+   "poster": "oat42hUw8XzKYUmfy0YLAxYd484.jpg",
+   "tmdb": 7.232
+  },
+  {
+   "id": "die-hard-2-1990",
+   "title": "Die Hard 2",
+   "year": 1990,
+   "poster": "ybki0UWO3OPhaM6MSniuKC7sy1R.jpg",
+   "tmdb": 6.969
+  },
+  {
+   "id": "the-godfather-part-iii-1990",
+   "title": "The Godfather Part III",
+   "year": 1990,
+   "poster": "lm3pQ2QoQ16pextRsmnUbG2onES.jpg",
+   "tmdb": 7.418
+  },
+  {
+   "id": "terminator-2-judgment-day-1991",
+   "title": "Terminator 2: Judgment Day",
+   "year": 1991,
+   "poster": "jFTVD4XoWQTcg7wdyJKa8PEds5q.jpg",
+   "tmdb": 8.2
+  },
+  {
+   "id": "home-alone-2-lost-in-new-york-1992",
+   "title": "Home Alone 2: Lost in New York",
+   "year": 1992,
+   "poster": "uuitWHpJwxD1wruFl2nZHIb4UGN.jpg",
+   "tmdb": 6.793
+  },
+  {
+   "id": "die-hard-with-a-vengeance-1995",
+   "title": "Die Hard: With a Vengeance",
+   "year": 1995,
+   "poster": "buqmCdFQEWwEpL3agGgg2GVjN2d.jpg",
+   "tmdb": 7.283
+  },
+  {
+   "id": "austin-powers-the-spy-who-shagged-me-1999",
+   "title": "Austin Powers: The Spy Who Shagged Me",
+   "year": 1999,
+   "poster": "jiF7UShERJFn5RtgfBK2lIJrOTc.jpg",
+   "tmdb": 6.322
+  },
+  {
+   "id": "oceans-twelve-2004",
+   "title": "Ocean's Twelve",
+   "year": 2004,
+   "poster": "pE5anFf7nf6ah7V3VRezQ1KSovi.jpg",
+   "tmdb": 6.566
+  },
+  {
+   "id": "fast-five-2011",
+   "title": "Fast Five",
+   "year": 2011,
+   "poster": "gEfQjjQwY7fh5bI4GlG0RrBu7Pz.jpg",
+   "tmdb": 7.244
+  },
+  {
+   "id": "furious-7-2015",
+   "title": "Furious 7",
+   "year": 2015,
+   "poster": "ktofZ9Htrjiy0P6LEowsDaxd3Ri.jpg",
+   "tmdb": 7.2
+  },
+  {
+   "id": "mad-max-fury-road-2015",
+   "title": "Mad Max: Fury Road",
+   "year": 2015,
+   "poster": "ulcAi4dKpAjHwYGS08vNyx9H6I9.jpg",
+   "tmdb": 7.637
+  },
+  {
+   "id": "john-wick-chapter-2-2017",
+   "title": "John Wick: Chapter 2",
+   "year": 2017,
+   "poster": "hXWBc0ioZP3cN4zCu6SN3YHXZVO.jpg",
+   "tmdb": 7.345
+  },
+  {
+   "id": "mission-impossible-fallout-2018",
+   "title": "Mission: Impossible - Fallout",
+   "year": 2018,
+   "poster": "AkJQpZp9WoNdj7pLYSj1L0RcMMN.jpg",
+   "tmdb": 7.45
+  },
+  {
+   "id": "top-gun-maverick-2022",
+   "title": "Top Gun: Maverick",
+   "year": 2022,
+   "poster": "n0YuM4f5lvGAP6MAW2kBIzugXnc.jpg",
+   "tmdb": 8.16
+  }
+ ]
+}

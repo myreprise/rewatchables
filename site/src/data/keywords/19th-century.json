@@ -1,0 +1,149 @@
+{
+ "word": "19th century",
+ "id": "19th-century",
+ "catalogue": 460,
+ "share": 0.9,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.7,
+ "vs_catalogue": 0.6,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 0
+  },
+  {
+   "decade": 1990,
+   "n": 2
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  }
+ ],
+ "peak_share": 50.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "right and justice",
+   "reach": 3,
+   "band": "b5",
+   "id": "right-and-justice"
+  },
+  {
+   "word": "1890s",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "1900s",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "20th century",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "adopted son",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "alcoholic",
+   "reach": 10,
+   "band": "b5",
+   "id": "alcoholic"
+  },
+  {
+   "word": "american dream",
+   "reach": 2,
+   "band": "b5",
+   "id": "american-dream"
+  },
+  {
+   "word": "arizona",
+   "reach": 2,
+   "band": "b5",
+   "id": "arizona"
+  },
+  {
+   "word": "baptism",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "blackfoot",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bowling alley",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "cabin",
+   "reach": 2,
+   "band": "b5",
+   "id": "cabin"
+  },
+  {
+   "word": "california",
+   "reach": 16,
+   "band": "b4",
+   "id": "california"
+  }
+ ],
+ "films": [
+  {
+   "id": "jeremiah-johnson-1972",
+   "title": "Jeremiah Johnson",
+   "year": 1972,
+   "poster": "fANj1S3UmBB51wnKxYRKtw8LMBn.jpg",
+   "tmdb": 7.308
+  },
+  {
+   "id": "unforgiven-1992",
+   "title": "Unforgiven",
+   "year": 1992,
+   "poster": "54roTwbX9fltg85zjsmrooXAs12.jpg",
+   "tmdb": 7.912
+  },
+  {
+   "id": "tombstone-1993",
+   "title": "Tombstone",
+   "year": 1993,
+   "poster": "wGFCvylul8iEQhJOKfwZGGvXMzA.jpg",
+   "tmdb": 7.581
+  },
+  {
+   "id": "there-will-be-blood-2007",
+   "title": "There Will Be Blood",
+   "year": 2007,
+   "poster": "fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
+   "tmdb": 8.064
+  }
+ ]
+}

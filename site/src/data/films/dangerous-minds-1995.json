@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Shea Serrano",
-    "Van Lathan"
+    {
+     "name": "Shea Serrano",
+     "id": "shea-serrano"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": null
   }
@@ -50,55 +59,64 @@
    "word": "high school",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "high-school"
   },
   {
    "word": "california",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "california"
   },
   {
    "word": "teacher",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "teacher"
   },
   {
    "word": "amusement park",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "amusement-park"
   },
   {
    "word": "rap music",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rap-music"
   },
   {
    "word": "karate",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "karate"
   },
   {
    "word": "naval officer",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "naval-officer"
   },
   {
    "word": "schoolteacher",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "schoolteacher"
   },
   {
    "word": "based on memoir or autobiography",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

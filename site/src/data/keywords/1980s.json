@@ -1,0 +1,205 @@
+{
+ "word": "1980s",
+ "id": "1980s",
+ "catalogue": 460,
+ "share": 2.6,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.5,
+ "vs_catalogue": 0.4,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 5
+  },
+  {
+   "decade": 1990,
+   "n": 3
+  },
+  {
+   "decade": 2000,
+   "n": 2
+  },
+  {
+   "decade": 2010,
+   "n": 2
+  }
+ ],
+ "peak_share": 42.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "id": "coming-of-age"
+  },
+  {
+   "word": "fbi",
+   "reach": 20,
+   "band": "b3",
+   "id": "fbi"
+  },
+  {
+   "word": "husband wife relationship",
+   "reach": 8,
+   "band": "b5",
+   "id": "husband-wife-relationship"
+  },
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1970s"
+  },
+  {
+   "word": "biography",
+   "reach": 10,
+   "band": "b5",
+   "id": "biography"
+  },
+  {
+   "word": "black monday",
+   "reach": 2,
+   "band": "b5",
+   "id": "black-monday"
+  },
+  {
+   "word": "cocaine",
+   "reach": 7,
+   "band": "b5",
+   "id": "cocaine"
+  },
+  {
+   "word": "desert",
+   "reach": 4,
+   "band": "b5",
+   "id": "desert"
+  },
+  {
+   "word": "dramatic",
+   "reach": 18,
+   "band": "b3",
+   "id": "dramatic"
+  },
+  {
+   "word": "drug abuse",
+   "reach": 4,
+   "band": "b5",
+   "id": "drug-abuse"
+  },
+  {
+   "word": "drugs",
+   "reach": 17,
+   "band": "b3",
+   "id": "drugs"
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "id": "duringcreditsstinger"
+  },
+  {
+   "word": "fraud",
+   "reach": 2,
+   "band": "b5",
+   "id": "fraud"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-breakfast-club-1985",
+   "title": "The Breakfast Club",
+   "year": 1985,
+   "poster": "gp4zlj7wgbiofLMNsTPndMuO3PN.jpg",
+   "tmdb": 7.717
+  },
+  {
+   "id": "ferris-buellers-day-off-1986",
+   "title": "Ferris Bueller's Day Off",
+   "year": 1986,
+   "poster": "9LTQNCvoLsKXP0LtaKAaYVtRaQL.jpg",
+   "tmdb": 7.562
+  },
+  {
+   "id": "manhunter-1986",
+   "title": "Manhunter",
+   "year": 1986,
+   "poster": "6rb24x39vV8n5301IelC8rCPJTH.jpg",
+   "tmdb": 7.009
+  },
+  {
+   "id": "wall-street-1987",
+   "title": "Wall Street",
+   "year": 1987,
+   "poster": "2tQYq9ntzn2dEwDIGLBSipYPenv.jpg",
+   "tmdb": 7.162
+  },
+  {
+   "id": "die-hard-1988",
+   "title": "Die Hard",
+   "year": 1988,
+   "poster": "7Bjd8kfmDSOzpmhySpEhkUyK2oH.jpg",
+   "tmdb": 7.816
+  },
+  {
+   "id": "philadelphia-1993",
+   "title": "Philadelphia",
+   "year": 1993,
+   "poster": "tFe5Yoo5zT495okA49bq1vPPkiV.jpg",
+   "tmdb": 7.705
+  },
+  {
+   "id": "casino-1995",
+   "title": "Casino",
+   "year": 1995,
+   "poster": "gziIkUSnYuj9ChCi8qOu2ZunpSC.jpg",
+   "tmdb": 7.998
+  },
+  {
+   "id": "boogie-nights-1997",
+   "title": "Boogie Nights",
+   "year": 1997,
+   "poster": "2hVSN9yOfoI8EUTqcVW6zCIyQ1G.jpg",
+   "tmdb": 7.638
+  },
+  {
+   "id": "no-country-for-old-men-2007",
+   "title": "No Country for Old Men",
+   "year": 2007,
+   "poster": "6d5XOczc226jECq0LIX0siKtgHR.jpg",
+   "tmdb": 7.95
+  },
+  {
+   "id": "adventureland-2009",
+   "title": "Adventureland",
+   "year": 2009,
+   "poster": "eeSJNAR1aWcgANq26KWIHm3cbyB.jpg",
+   "tmdb": 6.398
+  },
+  {
+   "id": "argo-2012",
+   "title": "Argo",
+   "year": 2012,
+   "poster": "m5gPWFZFIp4UJFABgWyLkbXv8GX.jpg",
+   "tmdb": 7.286
+  },
+  {
+   "id": "the-wolf-of-wall-street-2013",
+   "title": "The Wolf of Wall Street",
+   "year": 2013,
+   "poster": "kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg",
+   "tmdb": 8.027
+  }
+ ]
+}

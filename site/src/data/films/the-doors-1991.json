@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Chuck Klosterman"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Chuck Klosterman",
+     "id": "chuck-klosterman"
+    }
    ],
    "note": null
   }
@@ -51,91 +60,106 @@
    "word": "drugs",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "drugs"
   },
   {
    "word": "biography",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "biography"
   },
   {
    "word": "period drama",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "period-drama"
   },
   {
    "word": "airplane",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "airplane"
   },
   {
    "word": "alcoholism",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alcoholism"
   },
   {
    "word": "singer",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "singer"
   },
   {
    "word": "rock 'n' roll",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rock-n-roll"
   },
   {
    "word": "wilderness",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "wilderness"
   },
   {
    "word": "hallucination",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hallucination"
   },
   {
    "word": "hippie",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hippie"
   },
   {
    "word": "lsd",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lsd"
   },
   {
    "word": "poetry",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "poetry"
   },
   {
    "word": "addicted",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "joint",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "organ",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

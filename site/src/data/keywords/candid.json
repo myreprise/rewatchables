@@ -1,0 +1,156 @@
+{
+ "word": "candid",
+ "id": "candid",
+ "catalogue": 460,
+ "share": 1.1,
+ "thin": false,
+ "peak": 2000,
+ "avg_tmdb": 7.1,
+ "vs_catalogue": 0.0,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 0
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 3
+  }
+ ],
+ "peak_share": 60.0,
+ "catalogue_peak_share": 17.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "id": "admiring"
+  },
+  {
+   "word": "appreciative",
+   "reach": 6,
+   "band": "b5",
+   "id": "appreciative"
+  },
+  {
+   "word": "boxer",
+   "reach": 5,
+   "band": "b5",
+   "id": "boxer"
+  },
+  {
+   "word": "boxing",
+   "reach": 6,
+   "band": "b5",
+   "id": "boxing"
+  },
+  {
+   "word": "dramatic",
+   "reach": 18,
+   "band": "b3",
+   "id": "dramatic"
+  },
+  {
+   "word": "husband wife relationship",
+   "reach": 8,
+   "band": "b5",
+   "id": "husband-wife-relationship"
+  },
+  {
+   "word": "sports",
+   "reach": 47,
+   "band": "b1",
+   "id": "sports"
+  },
+  {
+   "word": "transporter",
+   "reach": 5,
+   "band": "b5",
+   "id": "transporter"
+  },
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1970s"
+  },
+  {
+   "word": "1980s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1980s"
+  },
+  {
+   "word": "abduction",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "adoring",
+   "reach": 8,
+   "band": "b5",
+   "id": "adoring"
+  },
+  {
+   "word": "adultery",
+   "reach": 5,
+   "band": "b5",
+   "id": "adultery"
+  },
+  {
+   "word": "affectation",
+   "reach": 5,
+   "band": "b5",
+   "id": "affectation"
+  }
+ ],
+ "films": [
+  {
+   "id": "rocky-ii-1979",
+   "title": "Rocky II",
+   "year": 1979,
+   "poster": "nMaiiu0CzT77U4JZkUYV7KqdAjK.jpg",
+   "tmdb": 7.3
+  },
+  {
+   "id": "boogie-nights-1997",
+   "title": "Boogie Nights",
+   "year": 1997,
+   "poster": "2hVSN9yOfoI8EUTqcVW6zCIyQ1G.jpg",
+   "tmdb": 7.638
+  },
+  {
+   "id": "ali-2001",
+   "title": "Ali",
+   "year": 2001,
+   "poster": "32l3FaCzs8cXWps6hkgNJAcOsP.jpg",
+   "tmdb": 6.743
+  },
+  {
+   "id": "dodgeball-a-true-underdog-story-2004",
+   "title": "DodgeBall: A True Underdog Story",
+   "year": 2004,
+   "poster": "r8KbNHkkwFXLjV1suGwm0Qjure5.jpg",
+   "tmdb": 6.4
+  },
+  {
+   "id": "taken-2008",
+   "title": "Taken",
+   "year": 2008,
+   "poster": "ognkaUSNgJe1a2pjB4UNdzEo5jT.jpg",
+   "tmdb": 7.409
+  }
+ ]
+}

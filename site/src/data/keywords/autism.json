@@ -1,0 +1,118 @@
+{
+ "word": "autism",
+ "id": "autism",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "mentally disabled",
+   "reach": 2,
+   "band": "b5",
+   "id": "mentally-disabled"
+  },
+  {
+   "word": "1960s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1960s"
+  },
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1970s"
+  },
+  {
+   "word": "alabama",
+   "reach": 2,
+   "band": "b5",
+   "id": "alabama"
+  },
+  {
+   "word": "america",
+   "reach": 2,
+   "band": "b5",
+   "id": "america"
+  },
+  {
+   "word": "anti war protest",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "asperger's syndrome",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "black panther party",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "blackjack",
+   "reach": 2,
+   "band": "b5",
+   "id": "blackjack"
+  },
+  {
+   "word": "bus stop",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "car dealer",
+   "reach": 2,
+   "band": "b5",
+   "id": "car-dealer"
+  },
+  {
+   "word": "chameleon",
+   "reach": 2,
+   "band": "b5",
+   "id": "chameleon"
+  },
+  {
+   "word": "cincinnati",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "rain-man-1988",
+   "title": "Rain Man",
+   "year": 1988,
+   "poster": "iTNHwO896WKkaoPtpMMS74d8VNi.jpg",
+   "tmdb": 7.751
+  },
+  {
+   "id": "forrest-gump-1994",
+   "title": "Forrest Gump",
+   "year": 1994,
+   "poster": "Cw4hIUIAmSYfK9QfaUW5igp9La.jpg",
+   "tmdb": 8.463
+  }
+ ]
+}

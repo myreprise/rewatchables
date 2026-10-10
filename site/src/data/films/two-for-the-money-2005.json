@@ -40,10 +40,19 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Cousin Sal"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Cousin Sal",
+     "id": "cousin-sal"
+    }
    ],
    "note": null
   }
@@ -53,37 +62,43 @@
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "based on true story",
    "reach": 25,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "based-on-true-story"
   },
   {
    "word": "american football",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "american-football"
   },
   {
    "word": "bet",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bet"
   },
   {
    "word": "greed",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "greed"
   },
   {
    "word": "career",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "career"
   }
  ],
  "cast": [

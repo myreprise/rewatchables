@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": null
   }
@@ -51,73 +57,85 @@
    "word": "revenge",
    "reach": 31,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "revenge"
   },
   {
    "word": "amused",
    "reach": 26,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "amused"
   },
   {
    "word": "absurd",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "absurd"
   },
   {
    "word": "prison",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "prison"
   },
   {
    "word": "buddy cop",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "buddy-cop"
   },
   {
    "word": "san francisco, california",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "san-francisco-california"
   },
   {
    "word": "convict",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "convict"
   },
   {
    "word": "tough cop",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "tough-cop"
   },
   {
    "word": "dysfunctional relationship",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dysfunctional-relationship"
   },
   {
    "word": "knife",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "knife"
   },
   {
    "word": "partner",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "partner"
   },
   {
    "word": "fake fight",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

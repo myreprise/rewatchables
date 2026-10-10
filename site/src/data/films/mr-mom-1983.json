@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Amanda Dobbins"
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    }
    ],
    "note": null
   }
@@ -50,37 +56,43 @@
    "word": "amused",
    "reach": 26,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "amused"
   },
   {
    "word": "adoring",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "adoring"
   },
   {
    "word": "detroit, michigan",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "detroit-michigan"
   },
   {
    "word": "familiar",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "familiar"
   },
   {
    "word": "housewife",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "stay-at-home dad",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

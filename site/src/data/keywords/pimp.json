@@ -1,0 +1,145 @@
+{
+ "word": "pimp",
+ "id": "pimp",
+ "catalogue": 460,
+ "share": 0.9,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.4,
+ "vs_catalogue": 0.3,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 2
+  }
+ ],
+ "peak_share": 50.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1970s"
+  },
+  {
+   "word": "cocaine",
+   "reach": 7,
+   "band": "b5",
+   "id": "cocaine"
+  },
+  {
+   "word": "illegal prostitution",
+   "reach": 3,
+   "band": "b5",
+   "id": "illegal-prostitution"
+  },
+  {
+   "word": "mafia",
+   "reach": 12,
+   "band": "b4",
+   "id": "mafia"
+  },
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "id": "murder"
+  },
+  {
+   "word": "neo-noir",
+   "reach": 29,
+   "band": "b2",
+   "id": "neo-noir"
+  },
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "id": "new-york-city"
+  },
+  {
+   "word": "suspenseful",
+   "reach": 30,
+   "band": "b2",
+   "id": "suspenseful"
+  },
+  {
+   "word": "1980s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1980s"
+  },
+  {
+   "word": "alienation",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "antagonistic",
+   "reach": 13,
+   "band": "b4",
+   "id": "antagonistic"
+  },
+  {
+   "word": "aspiring actor",
+   "reach": 2,
+   "band": "b5",
+   "id": "aspiring-actor"
+  },
+  {
+   "word": "audacious",
+   "reach": 10,
+   "band": "b5",
+   "id": "audacious"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  }
+ ],
+ "films": [
+  {
+   "id": "taxi-driver-1976",
+   "title": "Taxi Driver",
+   "year": 1976,
+   "poster": "ekstpH614fwDX8DUln1a2Opz0N8.jpg",
+   "tmdb": 8.1
+  },
+  {
+   "id": "night-shift-1982",
+   "title": "Night Shift",
+   "year": 1982,
+   "poster": "iS78MFtMDwWDP748juZQBK57C9o.jpg",
+   "tmdb": 6.066
+  },
+  {
+   "id": "true-romance-1993",
+   "title": "True Romance",
+   "year": 1993,
+   "poster": "39lXk6ud6KiJgGbbWI2PUKS7y2.jpg",
+   "tmdb": 7.54
+  },
+  {
+   "id": "casino-1995",
+   "title": "Casino",
+   "year": 1995,
+   "poster": "gziIkUSnYuj9ChCi8qOu2ZunpSC.jpg",
+   "tmdb": 7.998
+  }
+ ]
+}

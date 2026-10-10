@@ -1,0 +1,118 @@
+{
+ "word": "san fernando valley",
+ "id": "san-fernando-valley",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1960s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1960s"
+  },
+  {
+   "word": "baseball",
+   "reach": 10,
+   "band": "b5",
+   "id": "baseball"
+  },
+  {
+   "word": "becoming an adult",
+   "reach": 2,
+   "band": "b5",
+   "id": "becoming-an-adult"
+  },
+  {
+   "word": "bewildered",
+   "reach": 4,
+   "band": "b5",
+   "id": "bewildered"
+  },
+  {
+   "word": "chance",
+   "reach": 2,
+   "band": "b5",
+   "id": "chance"
+  },
+  {
+   "word": "child prodigy",
+   "reach": 4,
+   "band": "b5",
+   "id": "child-prodigy"
+  },
+  {
+   "word": "daughter",
+   "reach": 10,
+   "band": "b5",
+   "id": "daughter"
+  },
+  {
+   "word": "dog",
+   "reach": 5,
+   "band": "b5",
+   "id": "dog"
+  },
+  {
+   "word": "dying and death",
+   "reach": 13,
+   "band": "b4",
+   "id": "dying-and-death"
+  },
+  {
+   "word": "farewell",
+   "reach": 2,
+   "band": "b5",
+   "id": "farewell"
+  },
+  {
+   "word": "fence",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "fourth of july",
+   "reach": 3,
+   "band": "b5",
+   "id": "fourth-of-july"
+  },
+  {
+   "word": "frog",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "kids' sports team",
+   "reach": 2,
+   "band": "b5",
+   "id": "kids-sports-team"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-sandlot-1993",
+   "title": "The Sandlot",
+   "year": 1993,
+   "poster": "7PYqz0viEuW8qTvuGinUMjDWMnj.jpg",
+   "tmdb": 7.563
+  },
+  {
+   "id": "magnolia-1999",
+   "title": "Magnolia",
+   "year": 1999,
+   "poster": "tpfC325Jk6S38VTe5dDWjWtoyxr.jpg",
+   "tmdb": 7.724
+  }
+ ]
+}

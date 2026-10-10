@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Cousin Sal",
-    "Gus Ramsey"
+    {
+     "name": "Cousin Sal",
+     "id": "cousin-sal"
+    },
+    {
+     "name": "Gus Ramsey",
+     "id": "gus-ramsey"
+    }
    ],
    "note": null
   }
@@ -50,121 +59,141 @@
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "revenge",
    "reach": 31,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "revenge"
   },
   {
    "word": "sequel",
    "reach": 28,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "sequel"
   },
   {
    "word": "admiring",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "admiring"
   },
   {
    "word": "dying and death",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "dying-and-death"
   },
   {
    "word": "training",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "training"
   },
   {
    "word": "powerful",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "powerful"
   },
   {
    "word": "shocking",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "shocking"
   },
   {
    "word": "boxing",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "boxing"
   },
   {
    "word": "boxer",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "boxer"
   },
   {
    "word": "trainer",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "trainer"
   },
   {
    "word": "transporter",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "transporter"
   },
   {
    "word": "fame",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fame"
   },
   {
    "word": "victory",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "victory"
   },
   {
    "word": "comeback",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "comeback"
   },
   {
    "word": "wealth",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "wealth"
   },
   {
    "word": "world champion",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "world-champion"
   },
   {
    "word": "challenger",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "defeat",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "rematch",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

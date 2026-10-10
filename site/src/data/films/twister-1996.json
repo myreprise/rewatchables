@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Van Lathan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": null
   }
@@ -52,103 +61,120 @@
    "word": "husband wife relationship",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "husband-wife-relationship"
   },
   {
    "word": "disaster movie",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "disaster-movie"
   },
   {
    "word": "divorce",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "divorce"
   },
   {
    "word": "natural disaster",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "natural-disaster"
   },
   {
    "word": "invention",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "invention"
   },
   {
    "word": "truck",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "truck"
   },
   {
    "word": "barn",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "climate",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "extreme weather",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "metereologist",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "motley crew",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "oklahoma",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "science experiment",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "storm chaser",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "tornado",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "twister",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "weather chasers",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

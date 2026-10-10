@@ -1,0 +1,138 @@
+{
+ "word": "co-workers relationship",
+ "id": "co-workers-relationship",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.0,
+ "vs_catalogue": -0.1,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  }
+ ],
+ "peak_share": 33.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "age change",
+   "reach": 2,
+   "band": "b5",
+   "id": "age-change"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "bad boss",
+   "reach": 2,
+   "band": "b5",
+   "id": "bad-boss"
+  },
+  {
+   "word": "baseball",
+   "reach": 10,
+   "band": "b5",
+   "id": "baseball"
+  },
+  {
+   "word": "best friend",
+   "reach": 6,
+   "band": "b5",
+   "id": "best-friend"
+  },
+  {
+   "word": "body-swap",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bronx, new york city",
+   "reach": 2,
+   "band": "b5",
+   "id": "bronx-new-york-city"
+  },
+  {
+   "word": "bunk bed",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "burnout",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "business rivalry",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "id": "coming-of-age"
+  },
+  {
+   "word": "corporate world",
+   "reach": 2,
+   "band": "b5",
+   "id": "corporate-world"
+  },
+  {
+   "word": "dallas, texas",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "downsizing",
+   "reach": 2,
+   "band": "b5",
+   "id": "downsizing"
+  }
+ ],
+ "films": [
+  {
+   "id": "big-1988",
+   "title": "Big",
+   "year": 1988,
+   "poster": "eWhCDJiwxvx3YXkAFRiHjimnF0j.jpg",
+   "tmdb": 7.195
+  },
+  {
+   "id": "office-space-1999",
+   "title": "Office Space",
+   "year": 1999,
+   "poster": "iEmTwOkUaLziMQCUZii5wPQBIAO.jpg",
+   "tmdb": 7.381
+  },
+  {
+   "id": "the-40-year-old-virgin-2005",
+   "title": "The 40 Year-Old Virgin",
+   "year": 2005,
+   "poster": "mVeoqL37gzhMXQVpONi9DGOQ3tZ.jpg",
+   "tmdb": 6.429
+  }
+ ]
+}

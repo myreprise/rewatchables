@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Brian Koppelman"
+    {
+     "name": "Brian Koppelman",
+     "id": "brian-koppelman"
+    }
    ],
    "note": "One-word movie title month'"
   }
@@ -50,37 +56,43 @@
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "dystopia",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "dystopia"
   },
   {
    "word": "future",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "future sport",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "game",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "roller skating",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

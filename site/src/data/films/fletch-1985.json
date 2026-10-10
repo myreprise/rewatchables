@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -52,97 +61,113 @@
    "word": "hilarious",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "hilarious"
   },
   {
    "word": "journalist",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "journalist"
   },
   {
    "word": "police corruption",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "police-corruption"
   },
   {
    "word": "dirty cop",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dirty-cop"
   },
   {
    "word": "disguise",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "disguise"
   },
   {
    "word": "bumbling detective",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bumbling-detective"
   },
   {
    "word": "country club",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "country-club"
   },
   {
    "word": "divorce lawyer",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "divorce-lawyer"
   },
   {
    "word": "santa monica, california",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "santa-monica-california"
   },
   {
    "word": "assumed identity",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "cabana",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "heroin addict",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "insurance fraud",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "rio de janeiro",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sarcasm",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "social engineering",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

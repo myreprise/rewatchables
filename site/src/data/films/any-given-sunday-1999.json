@@ -37,9 +37,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": "Bill says there will be a Re-Sunday during the F1 ep"
   }
@@ -49,37 +55,43 @@
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "american football",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "american-football"
   },
   {
    "word": "training",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "training"
   },
   {
    "word": "trainer",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "trainer"
   },
   {
    "word": "american football coach",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "american football stadium",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

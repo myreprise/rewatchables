@@ -1,0 +1,118 @@
+{
+ "word": "cowardice",
+ "id": "cowardice",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1940s",
+   "reach": 5,
+   "band": "b5",
+   "id": "1940s"
+  },
+  {
+   "word": "alien",
+   "reach": 9,
+   "band": "b5",
+   "id": "alien"
+  },
+  {
+   "word": "android",
+   "reach": 4,
+   "band": "b5",
+   "id": "android"
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "beheading",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "biology",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bravery",
+   "reach": 3,
+   "band": "b5",
+   "id": "bravery"
+  },
+  {
+   "word": "cosmos",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "countdown",
+   "reach": 3,
+   "band": "b5",
+   "id": "countdown"
+  },
+  {
+   "word": "d-day",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "duty",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dying and death",
+   "reach": 13,
+   "band": "b4",
+   "id": "dying-and-death"
+  },
+  {
+   "word": "dystopia",
+   "reach": 17,
+   "band": "b3",
+   "id": "dystopia"
+  },
+  {
+   "word": "female protagonist",
+   "reach": 6,
+   "band": "b5",
+   "id": "female-protagonist"
+  }
+ ],
+ "films": [
+  {
+   "id": "alien-1979",
+   "title": "Alien",
+   "year": 1979,
+   "poster": "vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg",
+   "tmdb": 8.172
+  },
+  {
+   "id": "saving-private-ryan-1998",
+   "title": "Saving Private Ryan",
+   "year": 1998,
+   "poster": "uqx37cS8cpHg8U35f9U5IBlrCV3.jpg",
+   "tmdb": 8.232
+  }
+ ]
+}

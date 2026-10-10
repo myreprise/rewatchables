@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": "Bill says this is episode #226 around 50:00min"
   }
@@ -52,97 +61,113 @@
    "word": "organized crime",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "organized-crime"
   },
   {
    "word": "good versus evil",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "good-versus-evil"
   },
   {
    "word": "vigilante",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vigilante"
   },
   {
    "word": "villain",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "villain"
   },
   {
    "word": "cautionary",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cautionary"
   },
   {
    "word": "based on comic",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "based-on-comic"
   },
   {
    "word": "criminal",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "criminal"
   },
   {
    "word": "super power",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "super-power"
   },
   {
    "word": "crime fighter",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "crime-fighter"
   },
   {
    "word": "superhero",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "superhero"
   },
   {
    "word": "vigilantism",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vigilantism"
   },
   {
    "word": "double life",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "double-life"
   },
   {
    "word": "dual identity",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dual-identity"
   },
   {
    "word": "mobster",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mobster"
   },
   {
    "word": "chemical",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "madness",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

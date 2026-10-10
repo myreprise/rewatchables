@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -52,169 +61,197 @@
    "word": "murder",
    "reach": 36,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "murder"
   },
   {
    "word": "loss of loved one",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "loss-of-loved-one"
   },
   {
    "word": "parent child relationship",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "parent-child-relationship"
   },
   {
    "word": "daughter",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "daughter"
   },
   {
    "word": "commanding",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "commanding"
   },
   {
    "word": "dysfunctional family",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dysfunctional-family"
   },
   {
    "word": "possession",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "possession"
   },
   {
    "word": "evil",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "evil"
   },
   {
    "word": "supernatural",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "supernatural"
   },
   {
    "word": "demon",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "demon"
   },
   {
    "word": "funeral",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "funeral"
   },
   {
    "word": "fear",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fear"
   },
   {
    "word": "demonic possession",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "demonic-possession"
   },
   {
    "word": "didactic",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "didactic"
   },
   {
    "word": "grieving",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "grieving"
   },
   {
    "word": "séance",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "seance"
   },
   {
    "word": "attic",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "coven (akelarre)",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "dollhouse",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "family drama",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "matriarch",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "miniatures",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "psychological disorders",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "ritual",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "ritual murder",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "satanic ritual",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sleeplessness",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "traumatized woman",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

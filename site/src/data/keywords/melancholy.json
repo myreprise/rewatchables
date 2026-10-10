@@ -1,0 +1,152 @@
+{
+ "word": "melancholy",
+ "id": "melancholy",
+ "catalogue": 460,
+ "share": 1.1,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.6,
+ "vs_catalogue": 0.5,
+ "decades": [
+  {
+   "decade": 1990,
+   "n": 2
+  },
+  {
+   "decade": 2000,
+   "n": 2
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 40.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1970s"
+  },
+  {
+   "word": "1980s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1980s"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "cocaine",
+   "reach": 7,
+   "band": "b5",
+   "id": "cocaine"
+  },
+  {
+   "word": "dramatic",
+   "reach": 18,
+   "band": "b3",
+   "id": "dramatic"
+  },
+  {
+   "word": "drug abuse",
+   "reach": 4,
+   "band": "b5",
+   "id": "drug-abuse"
+  },
+  {
+   "word": "dysfunctional family",
+   "reach": 6,
+   "band": "b5",
+   "id": "dysfunctional-family"
+  },
+  {
+   "word": "sadness",
+   "reach": 3,
+   "band": "b5",
+   "id": "sadness"
+  },
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "id": "admiring"
+  },
+  {
+   "word": "adultery",
+   "reach": 5,
+   "band": "b5",
+   "id": "adultery"
+  },
+  {
+   "word": "alter ego",
+   "reach": 2,
+   "band": "b5",
+   "id": "alter-ego"
+  },
+  {
+   "word": "american dream",
+   "reach": 2,
+   "band": "b5",
+   "id": "american-dream"
+  },
+  {
+   "word": "audacious",
+   "reach": 10,
+   "band": "b5",
+   "id": "audacious"
+  },
+  {
+   "word": "betrayal",
+   "reach": 9,
+   "band": "b5",
+   "id": "betrayal"
+  }
+ ],
+ "films": [
+  {
+   "id": "casino-1995",
+   "title": "Casino",
+   "year": 1995,
+   "poster": "gziIkUSnYuj9ChCi8qOu2ZunpSC.jpg",
+   "tmdb": 7.998
+  },
+  {
+   "id": "boogie-nights-1997",
+   "title": "Boogie Nights",
+   "year": 1997,
+   "poster": "2hVSN9yOfoI8EUTqcVW6zCIyQ1G.jpg",
+   "tmdb": 7.638
+  },
+  {
+   "id": "the-royal-tenenbaums-2001",
+   "title": "The Royal Tenenbaums",
+   "year": 2001,
+   "poster": "nG7hZJn7wQTSDCQT39Gy3s3tbrp.jpg",
+   "tmdb": 7.454
+  },
+  {
+   "id": "25th-hour-2002",
+   "title": "25th Hour",
+   "year": 2002,
+   "poster": "uW7tTRElr2tRhmAVESzvHy4ByXg.jpg",
+   "tmdb": 7.313
+  },
+  {
+   "id": "manchester-by-the-sea-2016",
+   "title": "Manchester by the Sea",
+   "year": 2016,
+   "poster": "o9VXYOuaJxCEKOxbA86xqtwmqYn.jpg",
+   "tmdb": 7.552
+  }
+ ]
+}

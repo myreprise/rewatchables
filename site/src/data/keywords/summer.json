@@ -1,0 +1,138 @@
+{
+ "word": "summer",
+ "id": "summer",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.2,
+ "vs_catalogue": 0.1,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  }
+ ],
+ "peak_share": 33.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "teenager",
+   "reach": 12,
+   "band": "b4",
+   "id": "teenager"
+  },
+  {
+   "word": "1950s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1950s"
+  },
+  {
+   "word": "1960s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1960s"
+  },
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1970s"
+  },
+  {
+   "word": "antagonistic",
+   "reach": 13,
+   "band": "b4",
+   "id": "antagonistic"
+  },
+  {
+   "word": "b-horror",
+   "reach": 3,
+   "band": "b5",
+   "id": "b-horror"
+  },
+  {
+   "word": "cabin",
+   "reach": 2,
+   "band": "b5",
+   "id": "cabin"
+  },
+  {
+   "word": "camp",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "closeted homosexual",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "comforting",
+   "reach": 8,
+   "band": "b5",
+   "id": "comforting"
+  },
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "id": "coming-of-age"
+  },
+  {
+   "word": "countryside",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "cowboy",
+   "reach": 2,
+   "band": "b5",
+   "id": "cowboy"
+  },
+  {
+   "word": "drowning",
+   "reach": 2,
+   "band": "b5",
+   "id": "drowning"
+  }
+ ],
+ "films": [
+  {
+   "id": "friday-the-13th-1980",
+   "title": "Friday the 13th",
+   "year": 1980,
+   "poster": "uGGpnWHOmWTARVN9wbC1nPxNgps.jpg",
+   "tmdb": 6.4
+  },
+  {
+   "id": "dazed-and-confused-1993",
+   "title": "Dazed and Confused",
+   "year": 1993,
+   "poster": "msG9awbLhVZwv1Eh9Ge7SofMexW.jpg",
+   "tmdb": 7.3
+  },
+  {
+   "id": "brokeback-mountain-2005",
+   "title": "Brokeback Mountain",
+   "year": 2005,
+   "poster": "aByfQOQBNa4CMFwIgq3QrqY2ZHh.jpg",
+   "tmdb": 7.784
+  }
+ ]
+}

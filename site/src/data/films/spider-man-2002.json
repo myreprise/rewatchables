@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Van Lathan",
+   "host": {
+    "name": "Van Lathan",
+    "id": "van-lathan"
+   },
    "guests": [
-    "Charles Holmes"
+    {
+     "name": "Charles Holmes",
+     "id": "charles-holmes"
+    }
    ],
    "note": null
   }
@@ -50,103 +56,120 @@
    "word": "new york city",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "new-york-city"
   },
   {
    "word": "loss of loved one",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "loss-of-loved-one"
   },
   {
    "word": "secret identity",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "secret-identity"
   },
   {
    "word": "villain",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "villain"
   },
   {
    "word": "based on comic",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "based-on-comic"
   },
   {
    "word": "evil",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "evil"
   },
   {
    "word": "photographer",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "photographer"
   },
   {
    "word": "superhero",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "superhero"
   },
   {
    "word": "teenage love",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "teenage-love"
   },
   {
    "word": "hostility",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hostility"
   },
   {
    "word": "photography",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "photography"
   },
   {
    "word": "adolescence",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "adolescence"
   },
   {
    "word": "bad boss",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bad-boss"
   },
   {
    "word": "super villain",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "super-villain"
   },
   {
    "word": "teenage boy",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "teenage-boy"
   },
   {
    "word": "spider",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "taking responsibility",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

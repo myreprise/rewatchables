@@ -1,0 +1,138 @@
+{
+ "word": "rise and fall",
+ "id": "rise-and-fall",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.9,
+ "vs_catalogue": 0.8,
+ "decades": [
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 33.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1980s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1980s"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "money",
+   "reach": 8,
+   "band": "b5",
+   "id": "money"
+  },
+  {
+   "word": "organized crime",
+   "reach": 15,
+   "band": "b4",
+   "id": "organized-crime"
+  },
+  {
+   "word": "suspenseful",
+   "reach": 30,
+   "band": "b2",
+   "id": "suspenseful"
+  },
+  {
+   "word": "1960s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1960s"
+  },
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1970s"
+  },
+  {
+   "word": "aftercreditsstinger",
+   "reach": 18,
+   "band": "b3",
+   "id": "aftercreditsstinger"
+  },
+  {
+   "word": "ambition",
+   "reach": 4,
+   "band": "b5",
+   "id": "ambition"
+  },
+  {
+   "word": "anti hero",
+   "reach": 8,
+   "band": "b5",
+   "id": "anti-hero"
+  },
+  {
+   "word": "based on real person",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "biography",
+   "reach": 10,
+   "band": "b5",
+   "id": "biography"
+  },
+  {
+   "word": "black monday",
+   "reach": 2,
+   "band": "b5",
+   "id": "black-monday"
+  }
+ ],
+ "films": [
+  {
+   "id": "casino-1995",
+   "title": "Casino",
+   "year": 1995,
+   "poster": "gziIkUSnYuj9ChCi8qOu2ZunpSC.jpg",
+   "tmdb": 7.998
+  },
+  {
+   "id": "american-gangster-2007",
+   "title": "American Gangster",
+   "year": 2007,
+   "poster": "sX9idXDqRUxE5ffww3n3RV5gL55.jpg",
+   "tmdb": 7.594
+  },
+  {
+   "id": "the-wolf-of-wall-street-2013",
+   "title": "The Wolf of Wall Street",
+   "year": 2013,
+   "poster": "kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg",
+   "tmdb": 8.027
+  }
+ ]
+}

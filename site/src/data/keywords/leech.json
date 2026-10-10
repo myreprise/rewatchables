@@ -1,0 +1,118 @@
+{
+ "word": "leech",
+ "id": "leech",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1950s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1950s"
+  },
+  {
+   "word": "agent",
+   "reach": 3,
+   "band": "b5",
+   "id": "agent"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "bow and arrow",
+   "reach": 2,
+   "band": "b5",
+   "id": "bow-and-arrow"
+  },
+  {
+   "word": "boys",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bullying",
+   "reach": 5,
+   "band": "b5",
+   "id": "bullying"
+  },
+  {
+   "word": "campfire story",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "chase",
+   "reach": 7,
+   "band": "b5",
+   "id": "chase"
+  },
+  {
+   "word": "coin toss",
+   "reach": 2,
+   "band": "b5",
+   "id": "coin-toss"
+  },
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "id": "coming-of-age"
+  },
+  {
+   "word": "dark comedy",
+   "reach": 10,
+   "band": "b5",
+   "id": "dark-comedy"
+  },
+  {
+   "word": "denunciation",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "electrical torture",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "exploding body",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "rambo-first-blood-part-ii-1985",
+   "title": "Rambo: First Blood Part II",
+   "year": 1985,
+   "poster": "fVwRtWqEPdsCH21BVDGqgkAQcff.jpg",
+   "tmdb": 6.67
+  },
+  {
+   "id": "stand-by-me-1986",
+   "title": "Stand by Me",
+   "year": 1986,
+   "poster": "vz0w9BSehcqjDcJOjRaCk7fgJe7.jpg",
+   "tmdb": 7.833
+  }
+ ]
+}

@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Sean Fennessey",
-    "The Safdie Brothers"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "The Safdie Brothers",
+     "id": "the-safdie-brothers"
+    }
    ],
    "note": null
   }
@@ -50,133 +59,155 @@
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "loss of loved one",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "loss-of-loved-one"
   },
   {
    "word": "joyful",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "joyful"
   },
   {
    "word": "class differences",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "class-differences"
   },
   {
    "word": "golf",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "golf"
   },
   {
    "word": "rich snob",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rich-snob"
   },
   {
    "word": "driving range",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "driving-range"
   },
   {
    "word": "golf tournament",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "golf-tournament"
   },
   {
    "word": "anger issues",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "boy meets girl",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "child raised by grandmother",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "grandma-grandson relationship",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "grandmother grandson relationship",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "hockey player",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "loss of home",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "old-age home",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "prize money",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "putting",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "repossessed home",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sports comedy",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "taxes",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "winner takes all",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

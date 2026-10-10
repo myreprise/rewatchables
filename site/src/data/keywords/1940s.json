@@ -1,0 +1,160 @@
+{
+ "word": "1940s",
+ "id": "1940s",
+ "catalogue": 460,
+ "share": 1.1,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 8.1,
+ "vs_catalogue": 1.0,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 0
+  },
+  {
+   "decade": 1990,
+   "n": 3
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 60.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "world war ii",
+   "reach": 5,
+   "band": "b5",
+   "id": "world-war-ii"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "europe",
+   "reach": 2,
+   "band": "b5",
+   "id": "europe"
+  },
+  {
+   "word": "military",
+   "reach": 6,
+   "band": "b5",
+   "id": "military"
+  },
+  {
+   "word": "rescue mission",
+   "reach": 5,
+   "band": "b5",
+   "id": "rescue-mission"
+  },
+  {
+   "word": "1950s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1950s"
+  },
+  {
+   "word": "allies",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "army",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  },
+  {
+   "word": "baseball",
+   "reach": 10,
+   "band": "b5",
+   "id": "baseball"
+  },
+  {
+   "word": "baseball player",
+   "reach": 3,
+   "band": "b5",
+   "id": "baseball-player"
+  },
+  {
+   "word": "beach",
+   "reach": 3,
+   "band": "b5",
+   "id": "beach"
+  },
+  {
+   "word": "bravery",
+   "reach": 3,
+   "band": "b5",
+   "id": "bravery"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-godfather-1972",
+   "title": "The Godfather",
+   "year": 1972,
+   "poster": "3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+   "tmdb": 8.686
+  },
+  {
+   "id": "a-league-of-their-own-1992",
+   "title": "A League of Their Own",
+   "year": 1992,
+   "poster": "f9BtX6wYOwJUyfUr4vyeT3COz6m.jpg",
+   "tmdb": 7.197
+  },
+  {
+   "id": "the-shawshank-redemption-1994",
+   "title": "The Shawshank Redemption",
+   "year": 1994,
+   "poster": "9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
+   "tmdb": 8.729
+  },
+  {
+   "id": "saving-private-ryan-1998",
+   "title": "Saving Private Ryan",
+   "year": 1998,
+   "poster": "uqx37cS8cpHg8U35f9U5IBlrCV3.jpg",
+   "tmdb": 8.232
+  },
+  {
+   "id": "dunkirk-2017",
+   "title": "Dunkirk",
+   "year": 2017,
+   "poster": "b4Oe15CGLL61Ped0RAS9JpqdmCt.jpg",
+   "tmdb": 7.451
+  }
+ ]
+}

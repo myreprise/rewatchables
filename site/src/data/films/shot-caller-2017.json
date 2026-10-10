@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": "Rock Bottom' month"
   }
@@ -51,115 +57,134 @@
    "word": "murder",
    "reach": 36,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "murder"
   },
   {
    "word": "drugs",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "drugs"
   },
   {
    "word": "california",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "california"
   },
   {
    "word": "prison",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "prison"
   },
   {
    "word": "cliché",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cliche"
   },
   {
    "word": "criminal",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "criminal"
   },
   {
    "word": "gang",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gang"
   },
   {
    "word": "undercover cop",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "undercover-cop"
   },
   {
    "word": "estranged father",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "estranged-father"
   },
   {
    "word": "gun battle",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gun-battle"
   },
   {
    "word": "insecurity",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "insecurity"
   },
   {
    "word": "probation",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "probation"
   },
   {
    "word": "tattoo",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "tattoo"
   },
   {
    "word": "driving drunk",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "gun runner",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "manslaughter",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "prison riot",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "probation officer",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "thriller",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -1,0 +1,118 @@
+{
+ "word": "navy",
+ "id": "navy",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "based on play or musical",
+   "reach": 5,
+   "band": "b5",
+   "id": "based-on-play-or-musical"
+  },
+  {
+   "word": "code red",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "command",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "court case",
+   "reach": 4,
+   "band": "b5",
+   "id": "court-case"
+  },
+  {
+   "word": "court martial",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dying and death",
+   "reach": 13,
+   "band": "b4",
+   "id": "dying-and-death"
+  },
+  {
+   "word": "flashback",
+   "reach": 9,
+   "band": "b5",
+   "id": "flashback"
+  },
+  {
+   "word": "guantanamo bay",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "legal thriller",
+   "reach": 10,
+   "band": "b5",
+   "id": "legal-thriller"
+  },
+  {
+   "word": "love of one's life",
+   "reach": 11,
+   "band": "b5",
+   "id": "love-of-ones-life"
+  },
+  {
+   "word": "marine corps",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "military base",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "military court",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "military law",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "an-officer-and-a-gentleman-1982",
+   "title": "An Officer and a Gentleman",
+   "year": 1982,
+   "poster": "69adZbLeRk5TNQ3e0008dMnde9p.jpg",
+   "tmdb": 7.029
+  },
+  {
+   "id": "a-few-good-men-1992",
+   "title": "A Few Good Men",
+   "year": 1992,
+   "poster": "rLOk4z9zL1tTukIYV56P94aZXKk.jpg",
+   "tmdb": 7.557
+  }
+ ]
+}

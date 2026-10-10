@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Sean Fennessey",
-    "Cousin Sal"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Cousin Sal",
+     "id": "cousin-sal"
+    }
    ],
    "note": null
   }
@@ -50,13 +59,15 @@
    "word": "buddy",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "buddy"
   },
   {
    "word": "road trip",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "road-trip"
   }
  ],
  "cast": [

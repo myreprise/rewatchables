@@ -1,0 +1,160 @@
+{
+ "word": "callous",
+ "id": "callous",
+ "catalogue": 460,
+ "share": 1.1,
+ "thin": false,
+ "peak": 1970,
+ "avg_tmdb": 7.2,
+ "vs_catalogue": 0.1,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 2
+  },
+  {
+   "decade": 1980,
+   "n": 0
+  },
+  {
+   "decade": 1990,
+   "n": 2
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 40.0,
+ "catalogue_peak_share": 7.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "cautionary",
+   "reach": 6,
+   "band": "b5",
+   "id": "cautionary"
+  },
+  {
+   "word": "antagonistic",
+   "reach": 13,
+   "band": "b4",
+   "id": "antagonistic"
+  },
+  {
+   "word": "loner",
+   "reach": 3,
+   "band": "b5",
+   "id": "loner"
+  },
+  {
+   "word": "manhattan, new york city",
+   "reach": 7,
+   "band": "b5",
+   "id": "manhattan-new-york-city"
+  },
+  {
+   "word": "obsession",
+   "reach": 8,
+   "band": "b5",
+   "id": "obsession"
+  },
+  {
+   "word": "vigilante",
+   "reach": 7,
+   "band": "b5",
+   "id": "vigilante"
+  },
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1970s"
+  },
+  {
+   "word": "aggressive",
+   "reach": 18,
+   "band": "b3",
+   "id": "aggressive"
+  },
+  {
+   "word": "alienation",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "ambition",
+   "reach": 4,
+   "band": "b5",
+   "id": "ambition"
+  },
+  {
+   "word": "anxious",
+   "reach": 8,
+   "band": "b5",
+   "id": "anxious"
+  },
+  {
+   "word": "arrogant",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "assassin",
+   "reach": 8,
+   "band": "b5",
+   "id": "assassin"
+  },
+  {
+   "word": "attempted murder",
+   "reach": 3,
+   "band": "b5",
+   "id": "attempted-murder"
+  }
+ ],
+ "films": [
+  {
+   "id": "taxi-driver-1976",
+   "title": "Taxi Driver",
+   "year": 1976,
+   "poster": "ekstpH614fwDX8DUln1a2Opz0N8.jpg",
+   "tmdb": 8.1
+  },
+  {
+   "id": "saturday-night-fever-1977",
+   "title": "Saturday Night Fever",
+   "year": 1977,
+   "poster": "ylA7E5Md21aqgzxbwa2dFxX8LKV.jpg",
+   "tmdb": 6.732
+  },
+  {
+   "id": "pacific-heights-1990",
+   "title": "Pacific Heights",
+   "year": 1990,
+   "poster": "9iHD6xIrGSuuMEFWhwSVGXSddY2.jpg",
+   "tmdb": 6.29
+  },
+  {
+   "id": "the-devils-advocate-1997",
+   "title": "The Devil's Advocate",
+   "year": 1997,
+   "poster": "5ZzBGpxy55OQzHxKVY11IpY6a0o.jpg",
+   "tmdb": 7.481
+  },
+  {
+   "id": "the-equalizer-2014",
+   "title": "The Equalizer",
+   "year": 2014,
+   "poster": "9u4yW7yPA0BQ2pv9XwiNzItwvp8.jpg",
+   "tmdb": 7.292
+  }
+ ]
+}

@@ -1,0 +1,152 @@
+{
+ "word": "prison escape",
+ "id": "prison-escape",
+ "catalogue": 460,
+ "share": 1.1,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.4,
+ "vs_catalogue": 0.3,
+ "decades": [
+  {
+   "decade": 1990,
+   "n": 4
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 80.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "fbi",
+   "reach": 20,
+   "band": "b3",
+   "id": "fbi"
+  },
+  {
+   "word": "fbi agent",
+   "reach": 5,
+   "band": "b5",
+   "id": "fbi-agent"
+  },
+  {
+   "word": "freedom",
+   "reach": 4,
+   "band": "b5",
+   "id": "freedom"
+  },
+  {
+   "word": "heist",
+   "reach": 16,
+   "band": "b4",
+   "id": "heist"
+  },
+  {
+   "word": "organized crime",
+   "reach": 15,
+   "band": "b4",
+   "id": "organized-crime"
+  },
+  {
+   "word": "prison",
+   "reach": 16,
+   "band": "b4",
+   "id": "prison"
+  },
+  {
+   "word": "shootout",
+   "reach": 17,
+   "band": "b3",
+   "id": "shootout"
+  },
+  {
+   "word": "1940s",
+   "reach": 5,
+   "band": "b5",
+   "id": "1940s"
+  },
+  {
+   "word": "alcatraz prison",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "ambivalent",
+   "reach": 3,
+   "band": "b5",
+   "id": "ambivalent"
+  },
+  {
+   "word": "archenemy",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "archvillain",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "bedroom",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "the-shawshank-redemption-1994",
+   "title": "The Shawshank Redemption",
+   "year": 1994,
+   "poster": "9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
+   "tmdb": 8.729
+  },
+  {
+   "id": "the-rock-1996",
+   "title": "The Rock",
+   "year": 1996,
+   "poster": "eBcoxveWzzXQrCrwWMGAROcqgpP.jpg",
+   "tmdb": 7.156
+  },
+  {
+   "id": "face-off-1997",
+   "title": "Face/Off",
+   "year": 1997,
+   "poster": "69Xzn8UdPbVnmqSChKz2RTpoNfB.jpg",
+   "tmdb": 7.059
+  },
+  {
+   "id": "out-of-sight-1998",
+   "title": "Out of Sight",
+   "year": 1998,
+   "poster": "v49q7AMR3pB4M762woWB1NYMCLF.jpg",
+   "tmdb": 6.68
+  },
+  {
+   "id": "fast-five-2011",
+   "title": "Fast Five",
+   "year": 2011,
+   "poster": "gEfQjjQwY7fh5bI4GlG0RrBu7Pz.jpg",
+   "tmdb": 7.244
+  }
+ ]
+}

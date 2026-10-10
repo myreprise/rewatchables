@@ -1,0 +1,138 @@
+{
+ "word": "frustrated",
+ "id": "frustrated",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.2,
+ "vs_catalogue": 0.1,
+ "decades": [
+  {
+   "decade": 1990,
+   "n": 2
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 67.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1950s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1950s"
+  },
+  {
+   "word": "apologetic",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "audacious",
+   "reach": 10,
+   "band": "b5",
+   "id": "audacious"
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "car race",
+   "reach": 6,
+   "band": "b5",
+   "id": "car-race"
+  },
+  {
+   "word": "cars",
+   "reach": 3,
+   "band": "b5",
+   "id": "cars"
+  },
+  {
+   "word": "cruel",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "custody battle",
+   "reach": 3,
+   "band": "b5",
+   "id": "custody-battle"
+  },
+  {
+   "word": "divorced couple",
+   "reach": 2,
+   "band": "b5",
+   "id": "divorced-couple"
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "id": "duringcreditsstinger"
+  },
+  {
+   "word": "enchant",
+   "reach": 3,
+   "band": "b5",
+   "id": "enchant"
+  },
+  {
+   "word": "escaped convict",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "exhilarated",
+   "reach": 8,
+   "band": "b5",
+   "id": "exhilarated"
+  }
+ ],
+ "films": [
+  {
+   "id": "mrs-doubtfire-1993",
+   "title": "Mrs. Doubtfire",
+   "year": 1993,
+   "poster": "shHrSmXS5140o6sQzgzXxn3KqSm.jpg",
+   "tmdb": 7.197
+  },
+  {
+   "id": "quiz-show-1994",
+   "title": "Quiz Show",
+   "year": 1994,
+   "poster": "yoGJo1h3Hl2exXPVcG9UXWDENtX.jpg",
+   "tmdb": 7.25
+  },
+  {
+   "id": "fast-five-2011",
+   "title": "Fast Five",
+   "year": 2011,
+   "poster": "gEfQjjQwY7fh5bI4GlG0RrBu7Pz.jpg",
+   "tmdb": 7.244
+  }
+ ]
+}

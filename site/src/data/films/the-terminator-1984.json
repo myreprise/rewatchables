@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Shea Serrano"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Shea Serrano",
+     "id": "shea-serrano"
+    }
    ],
    "note": null
   }
@@ -52,133 +61,155 @@
    "word": "los angeles, california",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "los-angeles-california"
   },
   {
    "word": "action hero",
    "reach": 21,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "action-hero"
   },
   {
    "word": "dystopia",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "dystopia"
   },
   {
    "word": "saving the world",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "saving-the-world"
   },
   {
    "word": "good versus evil",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "good-versus-evil"
   },
   {
    "word": "time travel",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "time-travel"
   },
   {
    "word": "villain",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "villain"
   },
   {
    "word": "female protagonist",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "female-protagonist"
   },
   {
    "word": "urban setting",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "urban-setting"
   },
   {
    "word": "artificial intelligence (a.i.)",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "artificial-intelligence-a-i"
   },
   {
    "word": "man vs machine",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "man-vs-machine"
   },
   {
    "word": "cyborg",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cyborg"
   },
   {
    "word": "rebel",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rebel"
   },
   {
    "word": "shotgun",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "shotgun"
   },
   {
    "word": "laser gun",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "laser-gun"
   },
   {
    "word": "savior",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "savior"
   },
   {
    "word": "tech noir",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "tech-noir"
   },
   {
    "word": "future war",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "griffith observatory",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "killer robot",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "murders",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "time paradox",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

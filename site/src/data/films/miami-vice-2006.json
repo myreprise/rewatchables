@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": null
   }
@@ -51,115 +57,134 @@
    "word": "action hero",
    "reach": 21,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "action-hero"
   },
   {
    "word": "fbi",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "fbi"
   },
   {
    "word": "remake",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "remake"
   },
   {
    "word": "undercover",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "undercover"
   },
   {
    "word": "hostage",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hostage"
   },
   {
    "word": "florida",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "florida"
   },
   {
    "word": "police detective",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "police-detective"
   },
   {
    "word": "urban setting",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "urban-setting"
   },
   {
    "word": "drug dealing",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drug-dealing"
   },
   {
    "word": "miami, florida",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "miami-florida"
   },
   {
    "word": "drug cartel",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drug-cartel"
   },
   {
    "word": "asian woman",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "criminal organization",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "duo",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "havana, cuba",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "neo-nazis",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "police investigation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "speedboat ",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "vice",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

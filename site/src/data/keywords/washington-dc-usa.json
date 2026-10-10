@@ -1,0 +1,177 @@
+{
+ "word": "washington dc, usa",
+ "id": "washington-dc-usa",
+ "catalogue": 460,
+ "share": 1.7,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.3,
+ "vs_catalogue": 0.3,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 2
+  },
+  {
+   "decade": 1980,
+   "n": 2
+  },
+  {
+   "decade": 1990,
+   "n": 3
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  }
+ ],
+ "peak_share": 38.0,
+ "catalogue_peak_share": 39.0,
+ "region": "usa",
+ "region_films": 20,
+ "region_places": 7,
+ "partners": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "bold",
+   "reach": 15,
+   "band": "b4",
+   "id": "bold"
+  },
+  {
+   "word": "conspiracy",
+   "reach": 13,
+   "band": "b4",
+   "id": "conspiracy"
+  },
+  {
+   "word": "journalist",
+   "reach": 12,
+   "band": "b4",
+   "id": "journalist"
+  },
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "id": "murder"
+  },
+  {
+   "word": "surveillance state",
+   "reach": 2,
+   "band": "b5",
+   "id": "surveillance-state"
+  },
+  {
+   "word": "suspenseful",
+   "reach": 30,
+   "band": "b2",
+   "id": "suspenseful"
+  },
+  {
+   "word": "wiretap",
+   "reach": 2,
+   "band": "b5",
+   "id": "wiretap"
+  },
+  {
+   "word": "1960s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1960s"
+  },
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1970s"
+  },
+  {
+   "word": "2050s",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "aggressive",
+   "reach": 18,
+   "band": "b3",
+   "id": "aggressive"
+  },
+  {
+   "word": "alabama",
+   "reach": 2,
+   "band": "b5",
+   "id": "alabama"
+  },
+  {
+   "word": "america",
+   "reach": 2,
+   "band": "b5",
+   "id": "america"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-exorcist-1973",
+   "title": "The Exorcist",
+   "year": 1973,
+   "poster": "5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg",
+   "tmdb": 7.744
+  },
+  {
+   "id": "all-the-presidents-men-1976",
+   "title": "All the President's Men",
+   "year": 1976,
+   "poster": "pCe6lfLxt1B58zPD4lgQrlnDS2j.jpg",
+   "tmdb": 7.656
+  },
+  {
+   "id": "broadcast-news-1987",
+   "title": "Broadcast News",
+   "year": 1987,
+   "poster": "kQNR1Lc0qAF5xuBySpDn481KVjb.jpg",
+   "tmdb": 6.782
+  },
+  {
+   "id": "no-way-out-1987",
+   "title": "No Way Out",
+   "year": 1987,
+   "poster": "93CzsBvRhg035yvQosRtSsTL19v.jpg",
+   "tmdb": 6.849
+  },
+  {
+   "id": "forrest-gump-1994",
+   "title": "Forrest Gump",
+   "year": 1994,
+   "poster": "Cw4hIUIAmSYfK9QfaUW5igp9La.jpg",
+   "tmdb": 8.463
+  },
+  {
+   "id": "armageddon-1998",
+   "title": "Armageddon",
+   "year": 1998,
+   "poster": "eTM3qtGhDU8cvjpoa6KEt5E2auU.jpg",
+   "tmdb": 6.832
+  },
+  {
+   "id": "enemy-of-the-state-1998",
+   "title": "Enemy of the State",
+   "year": 1998,
+   "poster": "x9pXrMKLsBGGOFyyZ0Gwt9YpVub.jpg",
+   "tmdb": 7.079
+  },
+  {
+   "id": "minority-report-2002",
+   "title": "Minority Report",
+   "year": 2002,
+   "poster": "qtgFcnwh9dAFLocsDk2ySDVS8UF.jpg",
+   "tmdb": 7.355
+  }
+ ]
+}

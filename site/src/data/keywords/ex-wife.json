@@ -1,0 +1,134 @@
+{
+ "word": "ex-wife",
+ "id": "ex-wife",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 2010,
+ "avg_tmdb": 7.4,
+ "vs_catalogue": 0.3,
+ "decades": [
+  {
+   "decade": 2000,
+   "n": 1
+  },
+  {
+   "decade": 2010,
+   "n": 2
+  }
+ ],
+ "peak_share": 67.0,
+ "catalogue_peak_share": 12.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "adulterous wife",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "boat",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "boston, massachusetts",
+   "reach": 7,
+   "band": "b5",
+   "id": "boston-massachusetts"
+  },
+  {
+   "word": "brother",
+   "reach": 2,
+   "band": "b5",
+   "id": "brother"
+  },
+  {
+   "word": "caper",
+   "reach": 4,
+   "band": "b5",
+   "id": "caper"
+  },
+  {
+   "word": "card dealer",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "casino",
+   "reach": 5,
+   "band": "b5",
+   "id": "casino"
+  },
+  {
+   "word": "casino owner",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "casino vault",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "cheerful",
+   "reach": 9,
+   "band": "b5",
+   "id": "cheerful"
+  },
+  {
+   "word": "computer hacker",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "con artist",
+   "reach": 4,
+   "band": "b5",
+   "id": "con-artist"
+  },
+  {
+   "word": "contortionist",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "oceans-eleven-2001",
+   "title": "Ocean's Eleven",
+   "year": 2001,
+   "poster": "hQQCdZrsHtZyR6NbKH2YyCqd2fR.jpg",
+   "tmdb": 7.466
+  },
+  {
+   "id": "silver-linings-playbook-2012",
+   "title": "Silver Linings Playbook",
+   "year": 2012,
+   "poster": "fhHB1uvfFKKFbj6bTKE8xdtsjKi.jpg",
+   "tmdb": 7.2
+  },
+  {
+   "id": "manchester-by-the-sea-2016",
+   "title": "Manchester by the Sea",
+   "year": 2016,
+   "poster": "o9VXYOuaJxCEKOxbA86xqtwmqYn.jpg",
+   "tmdb": 7.552
+  }
+ ]
+}

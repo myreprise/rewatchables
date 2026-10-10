@@ -1,0 +1,202 @@
+{
+ "word": "drug dealer",
+ "id": "drug-dealer",
+ "catalogue": 460,
+ "share": 2.4,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.3,
+ "vs_catalogue": 0.3,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 0
+  },
+  {
+   "decade": 1990,
+   "n": 6
+  },
+  {
+   "decade": 2000,
+   "n": 3
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 55.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  },
+  {
+   "word": "neo-noir",
+   "reach": 29,
+   "band": "b2",
+   "id": "neo-noir"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "drugs",
+   "reach": 17,
+   "band": "b3",
+   "id": "drugs"
+  },
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "id": "new-york-city"
+  },
+  {
+   "word": "audacious",
+   "reach": 10,
+   "band": "b5",
+   "id": "audacious"
+  },
+  {
+   "word": "betrayal",
+   "reach": 9,
+   "band": "b5",
+   "id": "betrayal"
+  },
+  {
+   "word": "bratva (russian mafia)",
+   "reach": 4,
+   "band": "b5",
+   "id": "bratva-russian-mafia"
+  },
+  {
+   "word": "dark comedy",
+   "reach": 10,
+   "band": "b5",
+   "id": "dark-comedy"
+  },
+  {
+   "word": "friendship",
+   "reach": 22,
+   "band": "b3",
+   "id": "friendship"
+  },
+  {
+   "word": "heroin",
+   "reach": 3,
+   "band": "b5",
+   "id": "heroin"
+  },
+  {
+   "word": "irish-american",
+   "reach": 5,
+   "band": "b5",
+   "id": "irish-american"
+  },
+  {
+   "word": "nightclub",
+   "reach": 7,
+   "band": "b5",
+   "id": "nightclub"
+  },
+  {
+   "word": "nonlinear timeline",
+   "reach": 4,
+   "band": "b5",
+   "id": "nonlinear-timeline"
+  }
+ ],
+ "films": [
+  {
+   "id": "taxi-driver-1976",
+   "title": "Taxi Driver",
+   "year": 1976,
+   "poster": "ekstpH614fwDX8DUln1a2Opz0N8.jpg",
+   "tmdb": 8.1
+  },
+  {
+   "id": "another-48-hrs-1990",
+   "title": "Another 48 Hrs.",
+   "year": 1990,
+   "poster": "ixeygHHDsuzsg67H1IPTc3Qp8cR.jpg",
+   "tmdb": 6.0
+  },
+  {
+   "id": "kindergarten-cop-1990",
+   "title": "Kindergarten Cop",
+   "year": 1990,
+   "poster": "nKnHWwkXyvhzCYWm3FyRAv3qBrl.jpg",
+   "tmdb": 6.135
+  },
+  {
+   "id": "new-jack-city-1991",
+   "title": "New Jack City",
+   "year": 1991,
+   "poster": "k9VjzXyGElRAxXyXgPvtRRSznyL.jpg",
+   "tmdb": 6.732
+  },
+  {
+   "id": "pulp-fiction-1994",
+   "title": "Pulp Fiction",
+   "year": 1994,
+   "poster": "vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+   "tmdb": 8.48
+  },
+  {
+   "id": "friday-1995",
+   "title": "Friday",
+   "year": 1995,
+   "poster": "3Ya1RurP2NqaYoiok4DmfO41rCC.jpg",
+   "tmdb": 7.148
+  },
+  {
+   "id": "trainspotting-1996",
+   "title": "Trainspotting",
+   "year": 1996,
+   "poster": "1jUC02qsqS2NxBMFarbIhcQtazV.jpg",
+   "tmdb": 7.962
+  },
+  {
+   "id": "memento-2000",
+   "title": "Memento",
+   "year": 2000,
+   "poster": "nzlv62aC0octS5AklAiWpXLX9Z0.jpg",
+   "tmdb": 8.174
+  },
+  {
+   "id": "training-day-2001",
+   "title": "Training Day",
+   "year": 2001,
+   "poster": "bUeiwBQdupBLQthMCHKV7zv56uv.jpg",
+   "tmdb": 7.528
+  },
+  {
+   "id": "25th-hour-2002",
+   "title": "25th Hour",
+   "year": 2002,
+   "poster": "uW7tTRElr2tRhmAVESzvHy4ByXg.jpg",
+   "tmdb": 7.313
+  },
+  {
+   "id": "the-town-2010",
+   "title": "The Town",
+   "year": 2010,
+   "poster": "3NIzyXkfylsjflRKSz8Fts3lXzm.jpg",
+   "tmdb": 7.226
+  }
+ ]
+}

@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Kyle Brandt"
+    {
+     "name": "Kyle Brandt",
+     "id": "kyle-brandt"
+    }
    ],
    "note": null
   }
@@ -50,79 +56,92 @@
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "absurd",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "absurd"
   },
   {
    "word": "road trip",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "road-trip"
   },
   {
    "word": "underdog",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "underdog"
   },
   {
    "word": "father son relationship",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "father-son-relationship"
   },
   {
    "word": "father-in-law",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "father-in-law"
   },
   {
    "word": "truck",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "truck"
   },
   {
    "word": "arm wrestling",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "bad father-in-law",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "eighteen wheeler",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "on the road",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "semi truck",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "truck driver",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

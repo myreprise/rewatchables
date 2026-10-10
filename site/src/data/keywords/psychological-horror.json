@@ -1,0 +1,171 @@
+{
+ "word": "psychological horror",
+ "id": "psychological-horror",
+ "catalogue": 460,
+ "share": 1.3,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.8,
+ "vs_catalogue": 0.7,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 3
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 0
+  },
+  {
+   "decade": 2020,
+   "n": 1
+  }
+ ],
+ "peak_share": 50.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "disturbed",
+   "reach": 7,
+   "band": "b5",
+   "id": "disturbed"
+  },
+  {
+   "word": "psychological thriller",
+   "reach": 12,
+   "band": "b4",
+   "id": "psychological-thriller"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "frightened",
+   "reach": 11,
+   "band": "b5",
+   "id": "frightened"
+  },
+  {
+   "word": "psychopath",
+   "reach": 14,
+   "band": "b4",
+   "id": "psychopath"
+  },
+  {
+   "word": "suspenseful",
+   "reach": 30,
+   "band": "b2",
+   "id": "suspenseful"
+  },
+  {
+   "word": "brutality",
+   "reach": 4,
+   "band": "b5",
+   "id": "brutality"
+  },
+  {
+   "word": "cannibal",
+   "reach": 2,
+   "band": "b5",
+   "id": "cannibal"
+  },
+  {
+   "word": "cannibalism",
+   "reach": 3,
+   "band": "b5",
+   "id": "cannibalism"
+  },
+  {
+   "word": "crime horror",
+   "reach": 2,
+   "band": "b5",
+   "id": "crime-horror"
+  },
+  {
+   "word": "crime thriller",
+   "reach": 2,
+   "band": "b5",
+   "id": "crime-thriller"
+  },
+  {
+   "word": "fbi",
+   "reach": 20,
+   "band": "b3",
+   "id": "fbi"
+  },
+  {
+   "word": "hannibal lecter",
+   "reach": 2,
+   "band": "b5",
+   "id": "hannibal-lecter"
+  },
+  {
+   "word": "loss of loved one",
+   "reach": 20,
+   "band": "b3",
+   "id": "loss-of-loved-one"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-texas-chain-saw-massacre-1974",
+   "title": "The Texas Chain Saw Massacre",
+   "year": 1974,
+   "poster": "mpgkRPH1GNkMCgdPk2OMyHzAks7.jpg",
+   "tmdb": 7.3
+  },
+  {
+   "id": "manhunter-1986",
+   "title": "Manhunter",
+   "year": 1986,
+   "poster": "6rb24x39vV8n5301IelC8rCPJTH.jpg",
+   "tmdb": 7.009
+  },
+  {
+   "id": "misery-1990",
+   "title": "Misery",
+   "year": 1990,
+   "poster": "klPO5oh1LOxiPpdDXZo1ADgpKcw.jpg",
+   "tmdb": 7.753
+  },
+  {
+   "id": "the-silence-of-the-lambs-1991",
+   "title": "The Silence of the Lambs",
+   "year": 1991,
+   "poster": "uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
+   "tmdb": 8.345
+  },
+  {
+   "id": "the-sixth-sense-1999",
+   "title": "The Sixth Sense",
+   "year": 1999,
+   "poster": "vOyfUXNFSnaTk7Vk5AjpsKTUWsu.jpg",
+   "tmdb": 7.954
+  },
+  {
+   "id": "obsession-2026",
+   "title": "Obsession",
+   "year": 2026,
+   "poster": "bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
+   "tmdb": 8.207
+  }
+ ]
+}

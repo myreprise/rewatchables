@@ -39,11 +39,23 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey",
-    "Wesley Morris"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Wesley Morris",
+     "id": "wesley-morris"
+    }
    ],
    "note": null
   }
@@ -53,115 +65,134 @@
    "word": "neo-noir",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "neo-noir"
   },
   {
    "word": "conspiracy",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "conspiracy"
   },
   {
    "word": "philadelphia, pennsylvania",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "philadelphia-pennsylvania"
   },
   {
    "word": "whodunit",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "whodunit"
   },
   {
    "word": "hitman",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hitman"
   },
   {
    "word": "politics",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "politics"
   },
   {
    "word": "paranoia",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "paranoia"
   },
   {
    "word": "political thriller",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "political-thriller"
   },
   {
    "word": "car accident",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "car-accident"
   },
   {
    "word": "presidential election",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "presidential-election"
   },
   {
    "word": "tape recorder",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "tape-recorder"
   },
   {
    "word": "audio recording",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "audio tape",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "faithlessness",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "giallo",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "grand",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "noise",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sound effect",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "yell",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

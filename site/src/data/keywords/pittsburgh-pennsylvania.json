@@ -1,0 +1,118 @@
+{
+ "word": "pittsburgh, pennsylvania",
+ "id": "pittsburgh-pennsylvania",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": "pennsylvania",
+ "region_films": 13,
+ "region_places": 2,
+ "partners": [
+  {
+   "word": "alcoholic",
+   "reach": 10,
+   "band": "b5",
+   "id": "alcoholic"
+  },
+  {
+   "word": "bank",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "beating",
+   "reach": 2,
+   "band": "b5",
+   "id": "beating"
+  },
+  {
+   "word": "combat",
+   "reach": 2,
+   "band": "b5",
+   "id": "combat"
+  },
+  {
+   "word": "complicated",
+   "reach": 2,
+   "band": "b5",
+   "id": "complicated"
+  },
+  {
+   "word": "exercise",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "explosive",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "familiar",
+   "reach": 5,
+   "band": "b5",
+   "id": "familiar"
+  },
+  {
+   "word": "gym",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "hostage",
+   "reach": 9,
+   "band": "b5",
+   "id": "hostage"
+  },
+  {
+   "word": "ice hockey",
+   "reach": 3,
+   "band": "b5",
+   "id": "ice-hockey"
+  },
+  {
+   "word": "intense",
+   "reach": 23,
+   "band": "b3",
+   "id": "intense"
+  },
+  {
+   "word": "mixed martial arts (mma)",
+   "reach": 4,
+   "band": "b5",
+   "id": "mixed-martial-arts-mma"
+  },
+  {
+   "word": "muscleman",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "sudden-death-1995",
+   "title": "Sudden Death",
+   "year": 1995,
+   "poster": "4Snihptli0we9I4W5QfufOdHSeV.jpg",
+   "tmdb": 6.036
+  },
+  {
+   "id": "warrior-2011",
+   "title": "Warrior",
+   "year": 2011,
+   "poster": "iM8n4nZJPR2abpnyZ36FUgHiRjr.jpg",
+   "tmdb": 7.841
+  }
+ ]
+}

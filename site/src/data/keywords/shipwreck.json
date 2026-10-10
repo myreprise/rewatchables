@@ -1,0 +1,118 @@
+{
+ "word": "shipwreck",
+ "id": "shipwreck",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "atlantic ocean",
+   "reach": 3,
+   "band": "b5",
+   "id": "atlantic-ocean"
+  },
+  {
+   "word": "1910s",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "animal attack",
+   "reach": 2,
+   "band": "b5",
+   "id": "animal-attack"
+  },
+  {
+   "word": "animal horror",
+   "reach": 3,
+   "band": "b5",
+   "id": "animal-horror"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "bathing",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "beach",
+   "reach": 3,
+   "band": "b5",
+   "id": "beach"
+  },
+  {
+   "word": "child killed by animal",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "class differences",
+   "reach": 4,
+   "band": "b5",
+   "id": "class-differences"
+  },
+  {
+   "word": "creature",
+   "reach": 7,
+   "band": "b5",
+   "id": "creature"
+  },
+  {
+   "word": "dead child",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dead dog",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "disaster movie",
+   "reach": 5,
+   "band": "b5",
+   "id": "disaster-movie"
+  }
+ ],
+ "films": [
+  {
+   "id": "jaws-1975",
+   "title": "Jaws",
+   "year": 1975,
+   "poster": "lxM6kqilAdpdhqUl2biYp5frUxE.jpg",
+   "tmdb": 7.684
+  },
+  {
+   "id": "titanic-1997",
+   "title": "Titanic",
+   "year": 1997,
+   "poster": "9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
+   "tmdb": 7.9
+  }
+ ]
+}

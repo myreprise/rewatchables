@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Van Lathan",
-    "Logan Murdock"
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    },
+    {
+     "name": "Logan Murdock",
+     "id": "logan-murdock"
+    }
    ],
    "note": null
   }
@@ -50,103 +59,120 @@
    "word": "dramatic",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "dramatic"
   },
   {
    "word": "parent child relationship",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "parent-child-relationship"
   },
   {
    "word": "prison",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "prison"
   },
   {
    "word": "admiring",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "admiring"
   },
   {
    "word": "adoring",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "adoring"
   },
   {
    "word": "angry",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "angry"
   },
   {
    "word": "college",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "college"
   },
   {
    "word": "basketball",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "basketball"
   },
   {
    "word": "sympathetic",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sympathetic"
   },
   {
    "word": "affectation",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "affectation"
   },
   {
    "word": "familiar",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "familiar"
   },
   {
    "word": "homicide",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "homicide"
   },
   {
    "word": "forgiveness",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "forgiveness"
   },
   {
    "word": "didactic",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "didactic"
   },
   {
    "word": "release from prison",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "release-from-prison"
   },
   {
    "word": "african american family",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "begnadigung",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

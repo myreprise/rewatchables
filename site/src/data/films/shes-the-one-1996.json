@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Sean Fennessey",
-    "Wesley Morris"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Wesley Morris",
+     "id": "wesley-morris"
+    }
    ],
    "note": null
   }
@@ -51,43 +60,50 @@
    "word": "love of one's life",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "love-of-ones-life"
   },
   {
    "word": "wedding",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "wedding"
   },
   {
    "word": "ex-girlfriend",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ex-girlfriend"
   },
   {
    "word": "sibling relationship",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sibling-relationship"
   },
   {
    "word": "taxi",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "taxi"
   },
   {
    "word": "bride",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bride"
   },
   {
    "word": "broker",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "broker"
   }
  ],
  "cast": [

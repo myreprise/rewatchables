@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -52,229 +61,267 @@
    "word": "murder",
    "reach": 36,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "murder"
   },
   {
    "word": "revenge",
    "reach": 31,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "revenge"
   },
   {
    "word": "suspenseful",
    "reach": 30,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "suspenseful"
   },
   {
    "word": "neo-noir",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "neo-noir"
   },
   {
    "word": "intense",
    "reach": 23,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "intense"
   },
   {
    "word": "fbi",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "fbi"
   },
   {
    "word": "dramatic",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "dramatic"
   },
   {
    "word": "drugs",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "drugs"
   },
   {
    "word": "corruption",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "corruption"
   },
   {
    "word": "awestruck",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "awestruck"
   },
   {
    "word": "manipulation",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "manipulation"
   },
   {
    "word": "texas",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "texas"
   },
   {
    "word": "assassin",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "assassin"
   },
   {
    "word": "central intelligence agency (cia)",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "central-intelligence-agency-cia"
   },
   {
    "word": "violence",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "violence"
   },
   {
    "word": "powerful",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "powerful"
   },
   {
    "word": "blunt",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "blunt"
   },
   {
    "word": "bomb",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bomb"
   },
   {
    "word": "dirty cop",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dirty-cop"
   },
   {
    "word": "brutality",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "brutality"
   },
   {
    "word": "desert",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "desert"
   },
   {
    "word": "mission",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mission"
   },
   {
    "word": "reflective",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "reflective"
   },
   {
    "word": "surveillance",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "surveillance"
   },
   {
    "word": "interrogation",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "interrogation"
   },
   {
    "word": "mexico",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mexico"
   },
   {
    "word": "serious",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "serious"
   },
   {
    "word": "smoking",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "smoking"
   },
   {
    "word": "cynicism",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cynicism"
   },
   {
    "word": "death of daughter",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "death-of-daughter"
   },
   {
    "word": "death of wife",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "death-of-wife"
   },
   {
    "word": "mexican cartel",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mexican-cartel"
   },
   {
    "word": "moral dilemma",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "moral-dilemma"
   },
   {
    "word": "special forces",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "special-forces"
   },
   {
    "word": "border",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "juárez, mexico",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "night vision",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "secret tunnel",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

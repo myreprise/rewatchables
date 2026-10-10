@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Amanda Dobbins"
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    }
    ],
    "note": null
   }
@@ -51,139 +57,162 @@
    "word": "aftercreditsstinger",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "aftercreditsstinger"
   },
   {
    "word": "woman director",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "woman-director"
   },
   {
    "word": "adultery",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "adultery"
   },
   {
    "word": "hopeful",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hopeful"
   },
   {
    "word": "loneliness",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "loneliness"
   },
   {
    "word": "photographer",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "photographer"
   },
   {
    "word": "unsociability",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "unsociability"
   },
   {
    "word": "older man younger woman relationship",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "older-man-younger-woman-relationship"
   },
   {
    "word": "pop star",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pop-star"
   },
   {
    "word": "unlikely friendship",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "unlikely-friendship"
   },
   {
    "word": "culture clash",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "culture-clash"
   },
   {
    "word": "homesickness",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "homesickness"
   },
   {
    "word": "japan",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "japan"
   },
   {
    "word": "lyrical",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lyrical"
   },
   {
    "word": "midlife crisis",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "midlife-crisis"
   },
   {
    "word": "upper class",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "upper-class"
   },
   {
    "word": "age difference",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "commercial",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "hotel room",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "jet lag",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "karaoke",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "tokyo, japan",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "wistful",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

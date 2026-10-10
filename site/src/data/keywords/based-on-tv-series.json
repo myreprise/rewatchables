@@ -1,0 +1,142 @@
+{
+ "word": "based on tv series",
+ "id": "based-on-tv-series",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.3,
+ "vs_catalogue": 0.2,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 33.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "central intelligence agency (cia)",
+   "reach": 8,
+   "band": "b5",
+   "id": "central-intelligence-agency-cia"
+  },
+  {
+   "word": "fake identity",
+   "reach": 7,
+   "band": "b5",
+   "id": "fake-identity"
+  },
+  {
+   "word": "fictional government agency",
+   "reach": 2,
+   "band": "b5",
+   "id": "fictional-government-agency"
+  },
+  {
+   "word": "government agency",
+   "reach": 2,
+   "band": "b5",
+   "id": "government-agency"
+  },
+  {
+   "word": "infiltration",
+   "reach": 2,
+   "band": "b5",
+   "id": "infiltration"
+  },
+  {
+   "word": "london, england",
+   "reach": 6,
+   "band": "b5",
+   "id": "london-england"
+  },
+  {
+   "word": "mask",
+   "reach": 5,
+   "band": "b5",
+   "id": "mask"
+  },
+  {
+   "word": "paris, france",
+   "reach": 10,
+   "band": "b5",
+   "id": "paris-france"
+  },
+  {
+   "word": "secret government organization",
+   "reach": 2,
+   "band": "b5",
+   "id": "secret-government-organization"
+  },
+  {
+   "word": "spy",
+   "reach": 11,
+   "band": "b5",
+   "id": "spy"
+  },
+  {
+   "word": "terrorism",
+   "reach": 15,
+   "band": "b4",
+   "id": "terrorism"
+  },
+  {
+   "word": "action",
+   "reach": 2,
+   "band": "b5",
+   "id": "action"
+  },
+  {
+   "word": "agent",
+   "reach": 3,
+   "band": "b5",
+   "id": "agent"
+  },
+  {
+   "word": "anarchic comedy",
+   "reach": 3,
+   "band": "b5",
+   "id": "anarchic-comedy"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-naked-gun-from-the-files-of-police-squad-1988",
+   "title": "The Naked Gun: From the Files of Police Squad!",
+   "year": 1988,
+   "poster": "zT0mhZqZQJE1gSY5Eg9qcGP4NYo.jpg",
+   "tmdb": 7.282
+  },
+  {
+   "id": "mission-impossible-1996",
+   "title": "Mission: Impossible",
+   "year": 1996,
+   "poster": "l5uxY5m5OInWpcExIpKG6AR3rgL.jpg",
+   "tmdb": 7.027
+  },
+  {
+   "id": "mission-impossible-fallout-2018",
+   "title": "Mission: Impossible - Fallout",
+   "year": 2018,
+   "poster": "AkJQpZp9WoNdj7pLYSj1L0RcMMN.jpg",
+   "tmdb": 7.45
+  }
+ ]
+}

@@ -77,31 +77,37 @@
  "regulars": [
   {
    "name": "Chris Ryan",
+   "id": "chris-ryan",
    "episodes": 287,
    "hosted": 21
   },
   {
    "name": "Sean Fennessey",
+   "id": "sean-fennessey",
    "episodes": 180,
    "hosted": 7
   },
   {
    "name": "Van Lathan",
+   "id": "van-lathan",
    "episodes": 78,
    "hosted": 1
   },
   {
    "name": "Amanda Dobbins",
+   "id": "amanda-dobbins",
    "episodes": 44,
    "hosted": 0
   },
   {
    "name": "Mallory Rubin",
+   "id": "mallory-rubin",
    "episodes": 42,
    "hosted": 0
   },
   {
    "name": "Shea Serrano",
+   "id": "shea-serrano",
    "episodes": 34,
    "hosted": 0
   }

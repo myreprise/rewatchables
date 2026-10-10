@@ -1,0 +1,156 @@
+{
+ "word": "dirty cop",
+ "id": "dirty-cop",
+ "catalogue": 460,
+ "share": 1.1,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.0,
+ "vs_catalogue": -0.1,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 2
+  },
+  {
+   "decade": 1990,
+   "n": 2
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 40.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "id": "murder"
+  },
+  {
+   "word": "neo-noir",
+   "reach": 29,
+   "band": "b2",
+   "id": "neo-noir"
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  },
+  {
+   "word": "corruption",
+   "reach": 12,
+   "band": "b4",
+   "id": "corruption"
+  },
+  {
+   "word": "dramatic",
+   "reach": 18,
+   "band": "b3",
+   "id": "dramatic"
+  },
+  {
+   "word": "fbi",
+   "reach": 20,
+   "band": "b3",
+   "id": "fbi"
+  },
+  {
+   "word": "gangster",
+   "reach": 18,
+   "band": "b3",
+   "id": "gangster"
+  },
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "id": "new-york-city"
+  },
+  {
+   "word": "police corruption",
+   "reach": 9,
+   "band": "b5",
+   "id": "police-corruption"
+  },
+  {
+   "word": "suspenseful",
+   "reach": 30,
+   "band": "b2",
+   "id": "suspenseful"
+  },
+  {
+   "word": "violence",
+   "reach": 8,
+   "band": "b5",
+   "id": "violence"
+  },
+  {
+   "word": "ambiguous",
+   "reach": 9,
+   "band": "b5",
+   "id": "ambiguous"
+  },
+  {
+   "word": "arson",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "aspirin",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "thief-1981",
+   "title": "Thief",
+   "year": 1981,
+   "poster": "bpjRGwfYJ71bU0hNhLIz7g3t6Oy.jpg",
+   "tmdb": 7.231
+  },
+  {
+   "id": "fletch-1985",
+   "title": "Fletch",
+   "year": 1985,
+   "poster": "nKDnMvVynvj7lwdv1iAZO1DzTYn.jpg",
+   "tmdb": 6.752
+  },
+  {
+   "id": "king-of-new-york-1990",
+   "title": "King of New York",
+   "year": 1990,
+   "poster": "1MyH4MJAJZJbb6wDVeOc2bTECtK.jpg",
+   "tmdb": 6.762
+  },
+  {
+   "id": "cop-land-1997",
+   "title": "Cop Land",
+   "year": 1997,
+   "poster": "dyOqXyPCQh8VF0KA5aelBCCQond.jpg",
+   "tmdb": 6.816
+  },
+  {
+   "id": "sicario-2015",
+   "title": "Sicario",
+   "year": 2015,
+   "poster": "lz8vNyXeidqqOdJW9ZjnDAMb5Vr.jpg",
+   "tmdb": 7.427
+  }
+ ]
+}

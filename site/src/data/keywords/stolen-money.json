@@ -1,0 +1,138 @@
+{
+ "word": "stolen money",
+ "id": "stolen-money",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.4,
+ "vs_catalogue": 0.3,
+ "decades": [
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 33.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "drug dealer",
+   "reach": 11,
+   "band": "b5",
+   "id": "drug-dealer"
+  },
+  {
+   "word": "heist",
+   "reach": 16,
+   "band": "b4",
+   "id": "heist"
+  },
+  {
+   "word": "aggressive",
+   "reach": 18,
+   "band": "b3",
+   "id": "aggressive"
+  },
+  {
+   "word": "ambulance",
+   "reach": 2,
+   "band": "b5",
+   "id": "ambulance"
+  },
+  {
+   "word": "amsterdam, netherlands",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bank manager",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bank robbery",
+   "reach": 5,
+   "band": "b5",
+   "id": "bank-robbery"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "best friend",
+   "reach": 6,
+   "band": "b5",
+   "id": "best-friend"
+  },
+  {
+   "word": "boston garden",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "boston, massachusetts",
+   "reach": 7,
+   "band": "b5",
+   "id": "boston-massachusetts"
+  },
+  {
+   "word": "caper",
+   "reach": 4,
+   "band": "b5",
+   "id": "caper"
+  },
+  {
+   "word": "car fire",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "competition",
+   "reach": 6,
+   "band": "b5",
+   "id": "competition"
+  }
+ ],
+ "films": [
+  {
+   "id": "pulp-fiction-1994",
+   "title": "Pulp Fiction",
+   "year": 1994,
+   "poster": "vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+   "tmdb": 8.48
+  },
+  {
+   "id": "oceans-twelve-2004",
+   "title": "Ocean's Twelve",
+   "year": 2004,
+   "poster": "pE5anFf7nf6ah7V3VRezQ1KSovi.jpg",
+   "tmdb": 6.566
+  },
+  {
+   "id": "the-town-2010",
+   "title": "The Town",
+   "year": 2010,
+   "poster": "3NIzyXkfylsjflRKSz8Fts3lXzm.jpg",
+   "tmdb": 7.226
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "word": "clique",
+ "id": "clique",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "gossip",
+   "reach": 2,
+   "band": "b5",
+   "id": "gossip"
+  },
+  {
+   "word": "1950s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1950s"
+  },
+  {
+   "word": "animated credits",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "audacious",
+   "reach": 10,
+   "band": "b5",
+   "id": "audacious"
+  },
+  {
+   "word": "australia",
+   "reach": 2,
+   "band": "b5",
+   "id": "australia"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "based on play or musical",
+   "reach": 5,
+   "band": "b5",
+   "id": "based-on-play-or-musical"
+  },
+  {
+   "word": "best friend",
+   "reach": 6,
+   "band": "b5",
+   "id": "best-friend"
+  },
+  {
+   "word": "bullying",
+   "reach": 5,
+   "band": "b5",
+   "id": "bullying"
+  },
+  {
+   "word": "california",
+   "reach": 16,
+   "band": "b4",
+   "id": "california"
+  },
+  {
+   "word": "carnival",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "cheerleader",
+   "reach": 6,
+   "band": "b5",
+   "id": "cheerleader"
+  },
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "id": "coming-of-age"
+  },
+  {
+   "word": "dance competition",
+   "reach": 2,
+   "band": "b5",
+   "id": "dance-competition"
+  }
+ ],
+ "films": [
+  {
+   "id": "grease-1978",
+   "title": "Grease",
+   "year": 1978,
+   "poster": "2rM7fQKpb7cs1Iq7IBqub9LFDzJ.jpg",
+   "tmdb": 7.366
+  },
+  {
+   "id": "mean-girls-2004",
+   "title": "Mean Girls",
+   "year": 2004,
+   "poster": "2ZkuQXvVhh45uSvkBej4S7Ix1NJ.jpg",
+   "tmdb": 7.227
+  }
+ ]
+}

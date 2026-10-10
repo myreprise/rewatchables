@@ -1,0 +1,145 @@
+{
+ "word": "rock 'n' roll",
+ "id": "rock-n-roll",
+ "catalogue": 460,
+ "share": 0.9,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 6.9,
+ "vs_catalogue": -0.2,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 2
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  }
+ ],
+ "peak_share": 50.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "singer",
+   "reach": 6,
+   "band": "b5",
+   "id": "singer"
+  },
+  {
+   "word": "addicted",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "airplane",
+   "reach": 8,
+   "band": "b5",
+   "id": "airplane"
+  },
+  {
+   "word": "alcoholism",
+   "reach": 6,
+   "band": "b5",
+   "id": "alcoholism"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "biography",
+   "reach": 10,
+   "band": "b5",
+   "id": "biography"
+  },
+  {
+   "word": "bong",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "break-up",
+   "reach": 5,
+   "band": "b5",
+   "id": "break-up"
+  },
+  {
+   "word": "breaking the fourth wall",
+   "reach": 5,
+   "band": "b5",
+   "id": "breaking-the-fourth-wall"
+  },
+  {
+   "word": "breaking up with boyfriend",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "cheerful",
+   "reach": 9,
+   "band": "b5",
+   "id": "cheerful"
+  },
+  {
+   "word": "chicago, illinois",
+   "reach": 19,
+   "band": "b3",
+   "id": "chicago-illinois"
+  },
+  {
+   "word": "comforting",
+   "reach": 8,
+   "band": "b5",
+   "id": "comforting"
+  },
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "id": "coming-of-age"
+  }
+ ],
+ "films": [
+  {
+   "id": "fast-times-at-ridgemont-high-1982",
+   "title": "Fast Times at Ridgemont High",
+   "year": 1982,
+   "poster": "e15rmfjf0m6EGLe4MnNhwD3Dd1W.jpg",
+   "tmdb": 6.791
+  },
+  {
+   "id": "eddie-and-the-cruisers-1983",
+   "title": "Eddie and the Cruisers",
+   "year": 1983,
+   "poster": "qohqTtk33FlEoeb3zYLEAUGSO0E.jpg",
+   "tmdb": 6.663
+  },
+  {
+   "id": "the-doors-1991",
+   "title": "The Doors",
+   "year": 1991,
+   "poster": "x1LM3dzGuG6xOz0aT2e71o11vhu.jpg",
+   "tmdb": 7.106
+  },
+  {
+   "id": "high-fidelity-2000",
+   "title": "High Fidelity",
+   "year": 2000,
+   "poster": "e2LZGB62GMhv3Fo8tDZjY87I81a.jpg",
+   "tmdb": 7.1
+  }
+ ]
+}

@@ -1,0 +1,187 @@
+{
+ "word": "paris, france",
+ "id": "paris-france",
+ "catalogue": 460,
+ "share": 2.2,
+ "thin": false,
+ "peak": 2000,
+ "avg_tmdb": 7.3,
+ "vs_catalogue": 0.2,
+ "decades": [
+  {
+   "decade": 1990,
+   "n": 3
+  },
+  {
+   "decade": 2000,
+   "n": 6
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 60.0,
+ "catalogue_peak_share": 17.0,
+ "region": "france",
+ "region_films": 11,
+ "region_places": 2,
+ "partners": [
+  {
+   "word": "spy",
+   "reach": 11,
+   "band": "b5",
+   "id": "spy"
+  },
+  {
+   "word": "arms deal",
+   "reach": 2,
+   "band": "b5",
+   "id": "arms-deal"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "based on tv series",
+   "reach": 3,
+   "band": "b5",
+   "id": "based-on-tv-series"
+  },
+  {
+   "word": "central intelligence agency (cia)",
+   "reach": 8,
+   "band": "b5",
+   "id": "central-intelligence-agency-cia"
+  },
+  {
+   "word": "cliché",
+   "reach": 8,
+   "band": "b5",
+   "id": "cliche"
+  },
+  {
+   "word": "fake identity",
+   "reach": 7,
+   "band": "b5",
+   "id": "fake-identity"
+  },
+  {
+   "word": "fictional government agency",
+   "reach": 2,
+   "band": "b5",
+   "id": "fictional-government-agency"
+  },
+  {
+   "word": "government agency",
+   "reach": 2,
+   "band": "b5",
+   "id": "government-agency"
+  },
+  {
+   "word": "hand to hand combat",
+   "reach": 5,
+   "band": "b5",
+   "id": "hand-to-hand-combat"
+  },
+  {
+   "word": "heist",
+   "reach": 16,
+   "band": "b4",
+   "id": "heist"
+  },
+  {
+   "word": "infiltration",
+   "reach": 2,
+   "band": "b5",
+   "id": "infiltration"
+  },
+  {
+   "word": "journalist",
+   "reach": 12,
+   "band": "b4",
+   "id": "journalist"
+  },
+  {
+   "word": "london, england",
+   "reach": 6,
+   "band": "b5",
+   "id": "london-england"
+  }
+ ],
+ "films": [
+  {
+   "id": "mission-impossible-1996",
+   "title": "Mission: Impossible",
+   "year": 1996,
+   "poster": "l5uxY5m5OInWpcExIpKG6AR3rgL.jpg",
+   "tmdb": 7.027
+  },
+  {
+   "id": "armageddon-1998",
+   "title": "Armageddon",
+   "year": 1998,
+   "poster": "eTM3qtGhDU8cvjpoa6KEt5E2auU.jpg",
+   "tmdb": 6.832
+  },
+  {
+   "id": "ronin-1998",
+   "title": "Ronin",
+   "year": 1998,
+   "poster": "AirrhRJjHwytOV0pdLu7YZ4DEyr.jpg",
+   "tmdb": 6.966
+  },
+  {
+   "id": "the-bourne-identity-2002",
+   "title": "The Bourne Identity",
+   "year": 2002,
+   "poster": "aP8swke3gmowbkfZ6lmNidu0y9p.jpg",
+   "tmdb": 7.485
+  },
+  {
+   "id": "before-sunset-2004",
+   "title": "Before Sunset",
+   "year": 2004,
+   "poster": "4sW5XH9ZfYXpvFzev00S1IGAEbg.jpg",
+   "tmdb": 7.8
+  },
+  {
+   "id": "oceans-twelve-2004",
+   "title": "Ocean's Twelve",
+   "year": 2004,
+   "poster": "pE5anFf7nf6ah7V3VRezQ1KSovi.jpg",
+   "tmdb": 6.566
+  },
+  {
+   "id": "the-devil-wears-prada-2006",
+   "title": "The Devil Wears Prada",
+   "year": 2006,
+   "poster": "8912AsVuS7Sj915apArUFbv6F9L.jpg",
+   "tmdb": 7.438
+  },
+  {
+   "id": "taken-2008",
+   "title": "Taken",
+   "year": 2008,
+   "poster": "ognkaUSNgJe1a2pjB4UNdzEo5jT.jpg",
+   "tmdb": 7.409
+  },
+  {
+   "id": "inglourious-basterds-2009",
+   "title": "Inglourious Basterds",
+   "year": 2009,
+   "poster": "aupnPtagH9JVBuMrGEanf4iqXEQ.jpg",
+   "tmdb": 8.218
+  },
+  {
+   "id": "mission-impossible-fallout-2018",
+   "title": "Mission: Impossible - Fallout",
+   "year": 2018,
+   "poster": "AkJQpZp9WoNdj7pLYSj1L0RcMMN.jpg",
+   "tmdb": 7.45
+  }
+ ]
+}

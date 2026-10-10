@@ -1,0 +1,118 @@
+{
+ "word": "rehearsal dinner",
+ "id": "rehearsal-dinner",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "wedding",
+   "reach": 10,
+   "band": "b5",
+   "id": "wedding"
+  },
+  {
+   "word": "chicago, illinois",
+   "reach": 19,
+   "band": "b3",
+   "id": "chicago-illinois"
+  },
+  {
+   "word": "connecticut",
+   "reach": 2,
+   "band": "b5",
+   "id": "connecticut"
+  },
+  {
+   "word": "drug addiction",
+   "reach": 4,
+   "band": "b5",
+   "id": "drug-addiction"
+  },
+  {
+   "word": "drug rehabilitation",
+   "reach": 2,
+   "band": "b5",
+   "id": "drug-rehabilitation"
+  },
+  {
+   "word": "interracial marriage",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "love of one's life",
+   "reach": 11,
+   "band": "b5",
+   "id": "love-of-ones-life"
+  },
+  {
+   "word": "maid of honor",
+   "reach": 2,
+   "band": "b5",
+   "id": "maid-of-honor"
+  },
+  {
+   "word": "man woman relationship",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "new love",
+   "reach": 5,
+   "band": "b5",
+   "id": "new-love"
+  },
+  {
+   "word": "relationship sabotage",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "restaurant critic",
+   "reach": 2,
+   "band": "b5",
+   "id": "restaurant-critic"
+  },
+  {
+   "word": "secret love",
+   "reach": 4,
+   "band": "b5",
+   "id": "secret-love"
+  },
+  {
+   "word": "sibling relationship",
+   "reach": 7,
+   "band": "b5",
+   "id": "sibling-relationship"
+  }
+ ],
+ "films": [
+  {
+   "id": "my-best-friends-wedding-1997",
+   "title": "My Best Friend's Wedding",
+   "year": 1997,
+   "poster": "b5g4bp8gS5ovMyR5439AII6zQ3n.jpg",
+   "tmdb": 6.563
+  },
+  {
+   "id": "rachel-getting-married-2008",
+   "title": "Rachel Getting Married",
+   "year": 2008,
+   "poster": "bumaq3lqe4YSsq6LlYoge7e9ABk.jpg",
+   "tmdb": 6.301
+  }
+ ]
+}

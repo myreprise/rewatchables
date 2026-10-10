@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Shea Serrano",
-    "Amanda Dobbins"
+    {
+     "name": "Shea Serrano",
+     "id": "shea-serrano"
+    },
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    }
    ],
    "note": null
   }
@@ -52,91 +61,106 @@
    "word": "parent child relationship",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "parent-child-relationship"
   },
   {
    "word": "san francisco, california",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "san-francisco-california"
   },
   {
    "word": "fake identity",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fake-identity"
   },
   {
    "word": "mask",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mask"
   },
   {
    "word": "custody battle",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "custody-battle"
   },
   {
    "word": "enchant",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "enchant"
   },
   {
    "word": "frustrated",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "frustrated"
   },
   {
    "word": "nanny",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nanny"
   },
   {
    "word": "divorced couple",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "divorced-couple"
   },
   {
    "word": "responsibility",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "responsibility"
   },
   {
    "word": "restaurant",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "restaurant"
   },
   {
    "word": "apologetic",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "social worker",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "transvestite",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "voice acting",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

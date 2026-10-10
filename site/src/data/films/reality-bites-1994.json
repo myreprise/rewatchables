@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Chuck Klosterman"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Chuck Klosterman",
+     "id": "chuck-klosterman"
+    }
    ],
    "note": null
   }
@@ -52,37 +61,43 @@
    "word": "roommates",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "roommates"
   },
   {
    "word": "unemployed",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "unemployed"
   },
   {
    "word": "yuppie",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "yuppie"
   },
   {
    "word": "cabriolet",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "cohabitant",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "generations conflict",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

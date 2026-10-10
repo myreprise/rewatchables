@@ -1,0 +1,118 @@
+{
+ "word": "crash",
+ "id": "crash",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "airplane",
+   "reach": 8,
+   "band": "b5",
+   "id": "airplane"
+  },
+  {
+   "word": "animal horror",
+   "reach": 3,
+   "band": "b5",
+   "id": "animal-horror"
+  },
+  {
+   "word": "bear attack",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "billionaire",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "car crash",
+   "reach": 6,
+   "band": "b5",
+   "id": "car-crash"
+  },
+  {
+   "word": "conflict",
+   "reach": 2,
+   "band": "b5",
+   "id": "conflict"
+  },
+  {
+   "word": "daytona",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "emergency landing",
+   "reach": 2,
+   "band": "b5",
+   "id": "emergency-landing"
+  },
+  {
+   "word": "grizzly bear",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "motorsport",
+   "reach": 2,
+   "band": "b5",
+   "id": "motorsport"
+  },
+  {
+   "word": "nascar",
+   "reach": 2,
+   "band": "b5",
+   "id": "nascar"
+  },
+  {
+   "word": "phoenix, arizona",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "photographer",
+   "reach": 4,
+   "band": "b5",
+   "id": "photographer"
+  },
+  {
+   "word": "race car driver",
+   "reach": 3,
+   "band": "b5",
+   "id": "race-car-driver"
+  }
+ ],
+ "films": [
+  {
+   "id": "days-of-thunder-1990",
+   "title": "Days of Thunder",
+   "year": 1990,
+   "poster": "8UvcoeMJag8UWGF8sg7eYspzq0Q.jpg",
+   "tmdb": 6.393
+  },
+  {
+   "id": "the-edge-1997",
+   "title": "The Edge",
+   "year": 1997,
+   "poster": "zplJqfuUyqzW0D4jX3W1afl0d7b.jpg",
+   "tmdb": 6.861
+  }
+ ]
+}

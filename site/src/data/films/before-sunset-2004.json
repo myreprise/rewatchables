@@ -38,11 +38,23 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey",
-    "Mallory Rubin"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    }
    ],
    "note": null
   }
@@ -52,67 +64,78 @@
    "word": "journalist",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "journalist"
   },
   {
    "word": "love of one's life",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "love-of-ones-life"
   },
   {
    "word": "romantic",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "romantic"
   },
   {
    "word": "paris, france",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "paris-france"
   },
   {
    "word": "cliché",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cliche"
   },
   {
    "word": "soulmates",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "soulmates"
   },
   {
    "word": "author",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "author"
   },
   {
    "word": "semi autobiographical",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "semi-autobiographical"
   },
   {
    "word": "bookshop",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bookshop"
   },
   {
    "word": "talking",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "talking"
   },
   {
    "word": "walking",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "walking"
   }
  ],
  "cast": [

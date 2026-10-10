@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -52,109 +61,127 @@
    "word": "revenge",
    "reach": 31,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "revenge"
   },
   {
    "word": "prison",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "prison"
   },
   {
    "word": "lawyer",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "lawyer"
   },
   {
    "word": "remake",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "remake"
   },
   {
    "word": "psychological thriller",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "psychological-thriller"
   },
   {
    "word": "stalking",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "stalking"
   },
   {
    "word": "child abuse",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "child-abuse"
   },
   {
    "word": "small town",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "small-town"
   },
   {
    "word": "private detective",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "private-detective"
   },
   {
    "word": "rape",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rape"
   },
   {
    "word": "fear",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fear"
   },
   {
    "word": "cigar smoking",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cigar-smoking"
   },
   {
    "word": "family terrorized",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "houseboat",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "killing a dog",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "rapist",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "rebellious daughter",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "threat to family",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

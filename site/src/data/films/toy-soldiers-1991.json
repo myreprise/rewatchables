@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Kyle Brandt"
+    {
+     "name": "Kyle Brandt",
+     "id": "kyle-brandt"
+    }
    ],
    "note": null
   }
@@ -51,25 +57,29 @@
    "word": "high school",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "high-school"
   },
   {
    "word": "terrorism",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "terrorism"
   },
   {
    "word": "preparatory school",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "preparatory-school"
   },
   {
    "word": "hostage-taking",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hostage-taking"
   }
  ],
  "cast": [

@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Van Lathan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": null
   }
@@ -50,181 +59,211 @@
    "word": "amused",
    "reach": 26,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "amused"
   },
   {
    "word": "absurd",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "absurd"
   },
   {
    "word": "dramatic",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "dramatic"
   },
   {
    "word": "hilarious",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "hilarious"
   },
   {
    "word": "christmas",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "christmas"
   },
   {
    "word": "philadelphia, pennsylvania",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "philadelphia-pennsylvania"
   },
   {
    "word": "satire",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "satire"
   },
   {
    "word": "exhilarated",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "exhilarated"
   },
   {
    "word": "new year's eve",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "new-years-eve"
   },
   {
    "word": "mischievous",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mischievous"
   },
   {
    "word": "fish out of water",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fish-out-of-water"
   },
   {
    "word": "millionaire",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "millionaire"
   },
   {
    "word": "prostitute",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "prostitute"
   },
   {
    "word": "christmas party",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "christmas-party"
   },
   {
    "word": "hoodlum",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hoodlum"
   },
   {
    "word": "stockbroker",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "stockbroker"
   },
   {
    "word": "broker",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "broker"
   },
   {
    "word": "christmas eve",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "christmas-eve"
   },
   {
    "word": "rags to riches",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rags-to-riches"
   },
   {
    "word": "rich snob",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rich-snob"
   },
   {
    "word": "irreverent",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "irreverent"
   },
   {
    "word": "new year",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "new-year"
   },
   {
    "word": "wrongful arrest",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "wrongful-arrest"
   },
   {
    "word": "beggar",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "butler",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "commodities",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "disrespectful",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "investor",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "riches to rags",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "wager",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

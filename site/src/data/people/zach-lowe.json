@@ -1,0 +1,36 @@
+{
+ "name": "Zach Lowe",
+ "id": "zach-lowe",
+ "episodes": 1,
+ "share": 0.0021,
+ "hosted": 0,
+ "first": "2026-02-09",
+ "last": "2026-02-09",
+ "shelf": [
+  {
+   "id": "ace-ventura-pet-detective-1994",
+   "title": "Ace Ventura: Pet Detective",
+   "year": 1994,
+   "poster": "pqiRuETmuSybfnVZ7qyeoXhQyN1.jpg",
+   "episode": 446,
+   "aired": "2026-02-09"
+  }
+ ],
+ "company": [
+  {
+   "name": "Craig Horlbeck",
+   "id": "craig-horlbeck",
+   "episodes": 1
+  }
+ ],
+ "regular": false,
+ "lean_floor": 15,
+ "leans": [],
+ "verdict_floor": 8,
+ "verdicts": {
+  "cruise": 0,
+  "hanks": 1,
+  "ties": 0,
+  "n": 1
+ }
+}

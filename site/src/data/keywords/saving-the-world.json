@@ -1,0 +1,177 @@
+{
+ "word": "saving the world",
+ "id": "saving-the-world",
+ "catalogue": 460,
+ "share": 1.7,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.3,
+ "vs_catalogue": 0.3,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 3
+  },
+  {
+   "decade": 1990,
+   "n": 3
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 38.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "dystopia",
+   "reach": 17,
+   "band": "b3",
+   "id": "dystopia"
+  },
+  {
+   "word": "1930s",
+   "reach": 6,
+   "band": "b5",
+   "id": "1930s"
+  },
+  {
+   "word": "archaeologist",
+   "reach": 3,
+   "band": "b5",
+   "id": "archaeologist"
+  },
+  {
+   "word": "artificial intelligence (a.i.)",
+   "reach": 4,
+   "band": "b5",
+   "id": "artificial-intelligence-a-i"
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "id": "duringcreditsstinger"
+  },
+  {
+   "word": "end of the world",
+   "reach": 3,
+   "band": "b5",
+   "id": "end-of-the-world"
+  },
+  {
+   "word": "infection",
+   "reach": 2,
+   "band": "b5",
+   "id": "infection"
+  },
+  {
+   "word": "laser gun",
+   "reach": 2,
+   "band": "b5",
+   "id": "laser-gun"
+  },
+  {
+   "word": "man vs machine",
+   "reach": 4,
+   "band": "b5",
+   "id": "man-vs-machine"
+  },
+  {
+   "word": "moon",
+   "reach": 4,
+   "band": "b5",
+   "id": "moon"
+  },
+  {
+   "word": "nasa",
+   "reach": 5,
+   "band": "b5",
+   "id": "nasa"
+  },
+  {
+   "word": "nazi",
+   "reach": 5,
+   "band": "b5",
+   "id": "nazi"
+  },
+  {
+   "word": "pandemic",
+   "reach": 2,
+   "band": "b5",
+   "id": "pandemic"
+  },
+  {
+   "word": "riddle",
+   "reach": 4,
+   "band": "b5",
+   "id": "riddle"
+  }
+ ],
+ "films": [
+  {
+   "id": "raiders-of-the-lost-ark-1981",
+   "title": "Raiders of the Lost Ark",
+   "year": 1981,
+   "poster": "ceG9VzoRAVGwivFU403Wc3AHRys.jpg",
+   "tmdb": 7.927
+  },
+  {
+   "id": "the-terminator-1984",
+   "title": "The Terminator",
+   "year": 1984,
+   "poster": "qvktm0BHcnmDpul4Hz01GIazWPr.jpg",
+   "tmdb": 7.69
+  },
+  {
+   "id": "indiana-jones-and-the-last-crusade-1989",
+   "title": "Indiana Jones and the Last Crusade",
+   "year": 1989,
+   "poster": "sizg1AU8f8JDZX4QIgE4pjUMBvx.jpg",
+   "tmdb": 7.855
+  },
+  {
+   "id": "armageddon-1998",
+   "title": "Armageddon",
+   "year": 1998,
+   "poster": "eTM3qtGhDU8cvjpoa6KEt5E2auU.jpg",
+   "tmdb": 6.832
+  },
+  {
+   "id": "austin-powers-the-spy-who-shagged-me-1999",
+   "title": "Austin Powers: The Spy Who Shagged Me",
+   "year": 1999,
+   "poster": "jiF7UShERJFn5RtgfBK2lIJrOTc.jpg",
+   "tmdb": 6.322
+  },
+  {
+   "id": "the-matrix-1999",
+   "title": "The Matrix",
+   "year": 1999,
+   "poster": "dXNAPwY7VrqMAo51EKhhCJfaGb5.jpg",
+   "tmdb": 8.256
+  },
+  {
+   "id": "i-am-legend-2007",
+   "title": "I Am Legend",
+   "year": 2007,
+   "poster": "iPDkaSdKk2jRLTM65UOEoKtsIZ8.jpg",
+   "tmdb": 7.223
+  },
+  {
+   "id": "contagion-2011",
+   "title": "Contagion",
+   "year": 2011,
+   "poster": "qL0IooP0bjXy0KXl9KEyPo22ll0.jpg",
+   "tmdb": 6.653
+  }
+ ]
+}

@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Juliet Litman",
-    "Amanda Dobbins"
+    {
+     "name": "Juliet Litman",
+     "id": "juliet-litman"
+    },
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    }
    ],
    "note": null
   }
@@ -51,223 +60,260 @@
    "word": "high school",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "high-school"
   },
   {
    "word": "california",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "california"
   },
   {
    "word": "1950s",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1950s"
   },
   {
    "word": "street gang",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "street-gang"
   },
   {
    "word": "jealousy",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "jealousy"
   },
   {
    "word": "cheerleader",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cheerleader"
   },
   {
    "word": "based on play or musical",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "based-on-play-or-musical"
   },
   {
    "word": "opposites attract",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "opposites-attract"
   },
   {
    "word": "rivalry",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rivalry"
   },
   {
    "word": "flying car",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "flying-car"
   },
   {
    "word": "high school graduation",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "high-school-graduation"
   },
   {
    "word": "australia",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "australia"
   },
   {
    "word": "clique",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "clique"
   },
   {
    "word": "dance competition",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dance-competition"
   },
   {
    "word": "girl gang",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "girl-gang"
   },
   {
    "word": "gossip",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gossip"
   },
   {
    "word": "high school friends",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "high-school-friends"
   },
   {
    "word": "makeover",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "makeover"
   },
   {
    "word": "musical",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "musical"
   },
   {
    "word": "school dance",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "school-dance"
   },
   {
    "word": "tv show in film",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "tv-show-in-film"
   },
   {
    "word": "animated credits",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "carnival",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "going steady",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "goody two shoes",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "greaser",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "letterman jacket",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mooning",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "pep rally",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "rival gang",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "street racing",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "summer romance",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sweethearts",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "track and field",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "two-faced",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "west side story",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "wrong side of the tracks",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

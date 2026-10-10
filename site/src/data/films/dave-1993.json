@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Sean Fennessey",
-    "Amanda Dobbins"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    }
    ],
    "note": null
   }
@@ -50,73 +59,85 @@
    "word": "usa president",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "usa-president"
   },
   {
    "word": "coma",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "coma"
   },
   {
    "word": "secret service",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "secret-service"
   },
   {
    "word": "the white house",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "the-white-house"
   },
   {
    "word": "impersonation",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "impersonation"
   },
   {
    "word": "look-alike",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "look-alike"
   },
   {
    "word": "apoplectic stroke",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "body double",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "corgi",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "doppelgänger",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "nice guy",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "temp agency",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

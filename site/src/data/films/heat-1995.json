@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": null
   },
@@ -54,9 +60,15 @@
    "revisit_kind": "regular",
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": null
   },
@@ -69,10 +81,19 @@
    "revisit_kind": "regular",
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Michael Mann"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Michael Mann",
+     "id": "michael-mann"
+    }
    ],
    "note": null
   }
@@ -82,151 +103,176 @@
    "word": "los angeles, california",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "los-angeles-california"
   },
   {
    "word": "murder",
    "reach": 36,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "murder"
   },
   {
    "word": "neo-noir",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "neo-noir"
   },
   {
    "word": "gangster",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "gangster"
   },
   {
    "word": "detective",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "detective"
   },
   {
    "word": "heist",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "heist"
   },
   {
    "word": "bold",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "bold"
   },
   {
    "word": "remake",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "remake"
   },
   {
    "word": "assertive",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "assertive"
   },
   {
    "word": "betrayal",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "betrayal"
   },
   {
    "word": "obsession",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "obsession"
   },
   {
    "word": "chase",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "chase"
   },
   {
    "word": "thief",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "thief"
   },
   {
    "word": "bank robbery",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bank-robbery"
   },
   {
    "word": "gang",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gang"
   },
   {
    "word": "robbery",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "robbery"
   },
   {
    "word": "authoritarian",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "authoritarian"
   },
   {
    "word": "criminal mastermind",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "criminal-mastermind"
   },
   {
    "word": "ex-con",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ex-con"
   },
   {
    "word": "loner",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "loner"
   },
   {
    "word": "cat and mouse",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cat-and-mouse"
   },
   {
    "word": "crime epic",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "crime-epic"
   },
   {
    "word": "one last job",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "one-last-job"
   },
   {
    "word": "bank job",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "honor",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

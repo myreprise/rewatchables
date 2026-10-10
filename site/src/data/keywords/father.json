@@ -1,0 +1,142 @@
+{
+ "word": "father",
+ "id": "father",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1970,
+ "avg_tmdb": 7.2,
+ "vs_catalogue": 0.1,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 0
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  }
+ ],
+ "peak_share": 33.0,
+ "catalogue_peak_share": 7.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "daughter",
+   "reach": 10,
+   "band": "b5",
+   "id": "daughter"
+  },
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  },
+  {
+   "word": "1890s",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "1900s",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "19th century",
+   "reach": 4,
+   "band": "b5",
+   "id": "19th-century"
+  },
+  {
+   "word": "20th century",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "adopted son",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "alcoholic",
+   "reach": 10,
+   "band": "b5",
+   "id": "alcoholic"
+  },
+  {
+   "word": "american dream",
+   "reach": 2,
+   "band": "b5",
+   "id": "american-dream"
+  },
+  {
+   "word": "baptism",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "blunt",
+   "reach": 6,
+   "band": "b5",
+   "id": "blunt"
+  },
+  {
+   "word": "bold",
+   "reach": 15,
+   "band": "b4",
+   "id": "bold"
+  }
+ ],
+ "films": [
+  {
+   "id": "hardcore-1979",
+   "title": "Hardcore",
+   "year": 1979,
+   "poster": "g6m9xBTAzxXVhdJ624s9BLK9o6.jpg",
+   "tmdb": 6.8
+  },
+  {
+   "id": "commando-1985",
+   "title": "Commando",
+   "year": 1985,
+   "poster": "ollPAAAgZ7euU8VisfqU3cuXhZ6.jpg",
+   "tmdb": 6.712
+  },
+  {
+   "id": "there-will-be-blood-2007",
+   "title": "There Will Be Blood",
+   "year": 2007,
+   "poster": "fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
+   "tmdb": 8.064
+  }
+ ]
+}

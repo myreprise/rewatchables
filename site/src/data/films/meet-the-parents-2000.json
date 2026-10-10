@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Kyle Brandt"
+    {
+     "name": "Kyle Brandt",
+     "id": "kyle-brandt"
+    }
    ],
    "note": null
   }
@@ -50,91 +56,106 @@
    "word": "daughter",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "daughter"
   },
   {
    "word": "wedding",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "wedding"
   },
   {
    "word": "airplane",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "airplane"
   },
   {
    "word": "central intelligence agency (cia)",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "central-intelligence-agency-cia"
   },
   {
    "word": "hospital",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hospital"
   },
   {
    "word": "airport",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "airport"
   },
   {
    "word": "father-in-law",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "father-in-law"
   },
   {
    "word": "nurse",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nurse"
   },
   {
    "word": "volleyball",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "volleyball"
   },
   {
    "word": "cat",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "epistaxis",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "lost baggage",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "orderly",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "pavilion",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "urn",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

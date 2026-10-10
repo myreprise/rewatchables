@@ -1,0 +1,205 @@
+{
+ "word": "kidnapping",
+ "id": "kidnapping",
+ "catalogue": 460,
+ "share": 2.6,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.5,
+ "vs_catalogue": 0.4,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 2
+  },
+  {
+   "decade": 1990,
+   "n": 4
+  },
+  {
+   "decade": 2000,
+   "n": 4
+  },
+  {
+   "decade": 2010,
+   "n": 2
+  }
+ ],
+ "peak_share": 33.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "aggressive",
+   "reach": 18,
+   "band": "b3",
+   "id": "aggressive"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "neo-noir",
+   "reach": 29,
+   "band": "b2",
+   "id": "neo-noir"
+  },
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "id": "absurd"
+  },
+  {
+   "word": "dark comedy",
+   "reach": 10,
+   "band": "b5",
+   "id": "dark-comedy"
+  },
+  {
+   "word": "ex-cia agent",
+   "reach": 2,
+   "band": "b5",
+   "id": "ex-cia-agent"
+  },
+  {
+   "word": "hostage",
+   "reach": 9,
+   "band": "b5",
+   "id": "hostage"
+  },
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  },
+  {
+   "word": "macabre",
+   "reach": 7,
+   "band": "b5",
+   "id": "macabre"
+  },
+  {
+   "word": "manipulation",
+   "reach": 9,
+   "band": "b5",
+   "id": "manipulation"
+  },
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "id": "murder"
+  },
+  {
+   "word": "psychological thriller",
+   "reach": 12,
+   "band": "b4",
+   "id": "psychological-thriller"
+  },
+  {
+   "word": "rescue mission",
+   "reach": 5,
+   "band": "b5",
+   "id": "rescue-mission"
+  },
+  {
+   "word": "revenge",
+   "reach": 31,
+   "band": "b2",
+   "id": "revenge"
+  }
+ ],
+ "films": [
+  {
+   "id": "escape-from-new-york-1981",
+   "title": "Escape from New York",
+   "year": 1981,
+   "poster": "vH9llaphjAssRGi0k7e75tD40Ce.jpg",
+   "tmdb": 7.047
+  },
+  {
+   "id": "commando-1985",
+   "title": "Commando",
+   "year": 1985,
+   "poster": "ollPAAAgZ7euU8VisfqU3cuXhZ6.jpg",
+   "tmdb": 6.712
+  },
+  {
+   "id": "the-silence-of-the-lambs-1991",
+   "title": "The Silence of the Lambs",
+   "year": 1991,
+   "poster": "uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
+   "tmdb": 8.345
+  },
+  {
+   "id": "true-lies-1994",
+   "title": "True Lies",
+   "year": 1994,
+   "poster": "pqdvCBDThAOjlA0XBzbNm7GvwpU.jpg",
+   "tmdb": 7.102
+  },
+  {
+   "id": "fargo-1996",
+   "title": "Fargo",
+   "year": 1996,
+   "poster": "rt7cpEr1uP6RTZykBFhBTcRaKvG.jpg",
+   "tmdb": 7.85
+  },
+  {
+   "id": "the-big-lebowski-1998",
+   "title": "The Big Lebowski",
+   "year": 1998,
+   "poster": "3bv6WAp6BSxxYvB5ozKFUYuRA8C.jpg",
+   "tmdb": 7.834
+  },
+  {
+   "id": "proof-of-life-2000",
+   "title": "Proof of Life",
+   "year": 2000,
+   "poster": "yw8x2i3vaHZZzpvqvF75E8q2N6M.jpg",
+   "tmdb": 6.2
+  },
+  {
+   "id": "man-on-fire-2004",
+   "title": "Man on Fire",
+   "year": 2004,
+   "poster": "grCGLCcTHv9TChibzOwzUpykcjB.jpg",
+   "tmdb": 7.466
+  },
+  {
+   "id": "iron-man-2008",
+   "title": "Iron Man",
+   "year": 2008,
+   "poster": "78lPtwv72eTNqFW9COBYI0dWDJa.jpg",
+   "tmdb": 7.664
+  },
+  {
+   "id": "taken-2008",
+   "title": "Taken",
+   "year": 2008,
+   "poster": "ognkaUSNgJe1a2pjB4UNdzEo5jT.jpg",
+   "tmdb": 7.409
+  },
+  {
+   "id": "inception-2010",
+   "title": "Inception",
+   "year": 2010,
+   "poster": "xlaY2zyzMfkhk0HSC5VUwzoZPU1.jpg",
+   "tmdb": 8.373
+  },
+  {
+   "id": "get-out-2017",
+   "title": "Get Out",
+   "year": 2017,
+   "poster": "tFXcEccSQMf3lfhfXKSU9iRBpa3.jpg",
+   "tmdb": 7.625
+  }
+ ]
+}

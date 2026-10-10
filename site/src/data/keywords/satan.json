@@ -1,0 +1,138 @@
+{
+ "word": "satan",
+ "id": "satan",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1970,
+ "avg_tmdb": 7.5,
+ "vs_catalogue": 0.4,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 2
+  },
+  {
+   "decade": 1980,
+   "n": 0
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  }
+ ],
+ "peak_share": 67.0,
+ "catalogue_peak_share": 7.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "devil's son",
+   "reach": 2,
+   "band": "b5",
+   "id": "devils-son"
+  },
+  {
+   "word": "macabre",
+   "reach": 7,
+   "band": "b5",
+   "id": "macabre"
+  },
+  {
+   "word": "paranormal phenomena",
+   "reach": 5,
+   "band": "b5",
+   "id": "paranormal-phenomena"
+  },
+  {
+   "word": "priest",
+   "reach": 3,
+   "band": "b5",
+   "id": "priest"
+  },
+  {
+   "word": "supernatural horror",
+   "reach": 7,
+   "band": "b5",
+   "id": "supernatural-horror"
+  },
+  {
+   "word": "ambassador",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "ambition",
+   "reach": 4,
+   "band": "b5",
+   "id": "ambition"
+  },
+  {
+   "word": "anti-christ",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "anxious",
+   "reach": 8,
+   "band": "b5",
+   "id": "anxious"
+  },
+  {
+   "word": "archaeologist",
+   "reach": 3,
+   "band": "b5",
+   "id": "archaeologist"
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  },
+  {
+   "word": "baboon",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "bible",
+   "reach": 2,
+   "band": "b5",
+   "id": "bible"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-exorcist-1973",
+   "title": "The Exorcist",
+   "year": 1973,
+   "poster": "5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg",
+   "tmdb": 7.744
+  },
+  {
+   "id": "the-omen-1976",
+   "title": "The Omen",
+   "year": 1976,
+   "poster": "mDcjjEu1fMNmsXi4l4D8IftlTix.jpg",
+   "tmdb": 7.404
+  },
+  {
+   "id": "the-devils-advocate-1997",
+   "title": "The Devil's Advocate",
+   "year": 1997,
+   "poster": "5ZzBGpxy55OQzHxKVY11IpY6a0o.jpg",
+   "tmdb": 7.481
+  }
+ ]
+}

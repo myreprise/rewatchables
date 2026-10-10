@@ -40,9 +40,15 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": null
   }
@@ -52,109 +58,127 @@
    "word": "chicago, illinois",
    "reach": 19,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "chicago-illinois"
   },
   {
    "word": "drugs",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "drugs"
   },
   {
    "word": "shootout",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "shootout"
   },
   {
    "word": "undercover",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "undercover"
   },
   {
    "word": "buddy cop",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "buddy-cop"
   },
   {
    "word": "florida",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "florida"
   },
   {
    "word": "chase",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "chase"
   },
   {
    "word": "cop",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cop"
   },
   {
    "word": "taxi",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "taxi"
   },
   {
    "word": "vacation",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vacation"
   },
   {
    "word": "undercover cop",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "undercover-cop"
   },
   {
    "word": "airport",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "airport"
   },
   {
    "word": "winter",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "winter"
   },
   {
    "word": "florida keys",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "florida-keys"
   },
   {
    "word": "key west",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "key-west"
   },
   {
    "word": "bullet proof vest",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "garbage truck",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "train tracks",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -1,0 +1,160 @@
+{
+ "word": "criminal",
+ "id": "criminal",
+ "catalogue": 460,
+ "share": 1.1,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.2,
+ "vs_catalogue": 0.1,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 2
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 40.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "id": "new-york-city"
+  },
+  {
+   "word": "theft",
+   "reach": 5,
+   "band": "b5",
+   "id": "theft"
+  },
+  {
+   "word": "agent",
+   "reach": 3,
+   "band": "b5",
+   "id": "agent"
+  },
+  {
+   "word": "aspen colorado",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "based on comic",
+   "reach": 5,
+   "band": "b5",
+   "id": "based-on-comic"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "buddy",
+   "reach": 14,
+   "band": "b4",
+   "id": "buddy"
+  },
+  {
+   "word": "california",
+   "reach": 16,
+   "band": "b4",
+   "id": "california"
+  },
+  {
+   "word": "cargo ship",
+   "reach": 2,
+   "band": "b5",
+   "id": "cargo-ship"
+  },
+  {
+   "word": "cautionary",
+   "reach": 6,
+   "band": "b5",
+   "id": "cautionary"
+  },
+  {
+   "word": "chemical",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "cigar smoking",
+   "reach": 2,
+   "band": "b5",
+   "id": "cigar-smoking"
+  },
+  {
+   "word": "cliché",
+   "reach": 8,
+   "band": "b5",
+   "id": "cliche"
+  },
+  {
+   "word": "clumsiness",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "marathon-man-1976",
+   "title": "Marathon Man",
+   "year": 1976,
+   "poster": "uPNgubSiri2yvBQRPtP77ViYjN.jpg",
+   "tmdb": 7.168
+  },
+  {
+   "id": "batman-1989",
+   "title": "Batman",
+   "year": 1989,
+   "poster": "cij4dd21v2Rk2YtUQbV5kW69WB2.jpg",
+   "tmdb": 7.233
+  },
+  {
+   "id": "dumb-and-dumber-1994",
+   "title": "Dumb and Dumber",
+   "year": 1994,
+   "poster": "4LdpBXiCyGKkR8FGHgjKlphrfUc.jpg",
+   "tmdb": 6.662
+  },
+  {
+   "id": "the-usual-suspects-1995",
+   "title": "The Usual Suspects",
+   "year": 1995,
+   "poster": "99X2SgyFunJFXGAYnDv3sb9pnUD.jpg",
+   "tmdb": 8.165
+  },
+  {
+   "id": "shot-caller-2017",
+   "title": "Shot Caller",
+   "year": 2017,
+   "poster": "qLmLz2wtyYvmW8Ult3l2ngOnW8v.jpg",
+   "tmdb": 6.968
+  }
+ ]
+}

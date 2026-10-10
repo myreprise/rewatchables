@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Chris Ryan",
+   "host": {
+    "name": "Chris Ryan",
+    "id": "chris-ryan"
+   },
    "guests": [
-    "Sean Fennessey",
-    "Amanda Dobbins"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    }
    ],
    "note": null
   }
@@ -52,115 +61,134 @@
    "word": "intense",
    "reach": 23,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "intense"
   },
   {
    "word": "spy",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "spy"
   },
   {
    "word": "secret agent",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "secret-agent"
   },
   {
    "word": "sociopath",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sociopath"
   },
   {
    "word": "vibrant",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vibrant"
   },
   {
    "word": "art gallery",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "art-gallery"
   },
   {
    "word": "james bond",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "james-bond"
   },
   {
    "word": "mi6",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mi6"
   },
   {
    "word": "booby trap",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "booby-trap"
   },
   {
    "word": "british secret service",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "british-secret-service"
   },
   {
    "word": "globetrotting",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "globetrotting"
   },
   {
    "word": "hacking",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hacking"
   },
   {
    "word": "killer",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "killer"
   },
   {
    "word": "aston martin",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "helicopter crash",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "macao",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "police impersonator",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "scottish highlands",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "uzi",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

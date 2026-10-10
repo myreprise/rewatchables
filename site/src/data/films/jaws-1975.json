@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -52,157 +61,183 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "dying and death",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "dying-and-death"
   },
   {
    "word": "creature",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "creature"
   },
   {
    "word": "animal horror",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "animal-horror"
   },
   {
    "word": "atlantic ocean",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "atlantic-ocean"
   },
   {
    "word": "beach",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "beach"
   },
   {
    "word": "fourth of july",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fourth-of-july"
   },
   {
    "word": "police chief",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "police-chief"
   },
   {
    "word": "shark",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "shark"
   },
   {
    "word": "animal attack",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "animal-attack"
   },
   {
    "word": "fishing boat",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fishing-boat"
   },
   {
    "word": "great white shark",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "great-white-shark"
   },
   {
    "word": "long island, new york",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "long-island-new-york"
   },
   {
    "word": "shark attack",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "shark-attack"
   },
   {
    "word": "shipwreck",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "shipwreck"
   },
   {
    "word": "bathing",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "child killed by animal",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "dead child",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "dead dog",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "ferry boat",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "fishing",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "killer shark",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sea adventure",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "severed leg",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "shark cage",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "skinny dipping",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

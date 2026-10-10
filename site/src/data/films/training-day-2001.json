@@ -39,11 +39,23 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey",
-    "Shea Serrano"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Shea Serrano",
+     "id": "shea-serrano"
+    }
    ],
    "note": null
   }
@@ -53,103 +65,120 @@
    "word": "los angeles, california",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "los-angeles-california"
   },
   {
    "word": "neo-noir",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "neo-noir"
   },
   {
    "word": "california",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "california"
   },
   {
    "word": "admiring",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "admiring"
   },
   {
    "word": "drug dealer",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drug-dealer"
   },
   {
    "word": "audacious",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "audacious"
   },
   {
    "word": "police corruption",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "police-corruption"
   },
   {
    "word": "police brutality",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "police-brutality"
   },
   {
    "word": "bratva (russian mafia)",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bratva-russian-mafia"
   },
   {
    "word": "drug trafficking",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drug-trafficking"
   },
   {
    "word": "poker",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "poker"
   },
   {
    "word": "gang member",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gang-member"
   },
   {
    "word": "war on drugs",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "war-on-drugs"
   },
   {
    "word": "cholo",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mexican american",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "narcotics cop",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "rookie cop",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

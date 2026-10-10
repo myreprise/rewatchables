@@ -1,0 +1,36 @@
+{
+ "name": "David Jacoby",
+ "id": "david-jacoby",
+ "episodes": 1,
+ "share": 0.0021,
+ "hosted": 0,
+ "first": "2022-06-28",
+ "last": "2022-06-28",
+ "shelf": [
+  {
+   "id": "project-x-2012",
+   "title": "Project X",
+   "year": 2012,
+   "poster": "lUPDGT3lyRrq8SvWuNWG2DP64bR.jpg",
+   "episode": 261,
+   "aired": "2022-06-28"
+  }
+ ],
+ "company": [
+  {
+   "name": "Craig Horlbeck",
+   "id": "craig-horlbeck",
+   "episodes": 1
+  }
+ ],
+ "regular": false,
+ "lean_floor": 15,
+ "leans": [],
+ "verdict_floor": 8,
+ "verdicts": {
+  "cruise": 0,
+  "hanks": 0,
+  "ties": 0,
+  "n": 0
+ }
+}

@@ -1,0 +1,142 @@
+{
+ "word": "sex comedy",
+ "id": "sex-comedy",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1970,
+ "avg_tmdb": 6.4,
+ "vs_catalogue": -0.7,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 0
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  }
+ ],
+ "peak_share": 33.0,
+ "catalogue_peak_share": 7.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "virginity",
+   "reach": 2,
+   "band": "b5",
+   "id": "virginity"
+  },
+  {
+   "word": "1960s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1960s"
+  },
+  {
+   "word": "beverly hills",
+   "reach": 4,
+   "band": "b5",
+   "id": "beverly-hills"
+  },
+  {
+   "word": "cheerful",
+   "reach": 9,
+   "band": "b5",
+   "id": "cheerful"
+  },
+  {
+   "word": "co-workers relationship",
+   "reach": 3,
+   "band": "b5",
+   "id": "co-workers-relationship"
+  },
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "id": "coming-of-age"
+  },
+  {
+   "word": "exchange student",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "first time",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "graduation",
+   "reach": 3,
+   "band": "b5",
+   "id": "graduation"
+  },
+  {
+   "word": "hairdresser",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "high school student",
+   "reach": 4,
+   "band": "b5",
+   "id": "high-school-student"
+  },
+  {
+   "word": "innocence",
+   "reach": 2,
+   "band": "b5",
+   "id": "innocence"
+  },
+  {
+   "word": "laxative",
+   "reach": 2,
+   "band": "b5",
+   "id": "laxative"
+  },
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  }
+ ],
+ "films": [
+  {
+   "id": "shampoo-1975",
+   "title": "Shampoo",
+   "year": 1975,
+   "poster": "6jmFvXPV6OhtX3AkAVnH7rwdeUJ.jpg",
+   "tmdb": 6.05
+  },
+  {
+   "id": "american-pie-1999",
+   "title": "American Pie",
+   "year": 1999,
+   "poster": "5P68by2Thn8wHAziyWGEw2O7hco.jpg",
+   "tmdb": 6.618
+  },
+  {
+   "id": "the-40-year-old-virgin-2005",
+   "title": "The 40 Year-Old Virgin",
+   "year": 2005,
+   "poster": "mVeoqL37gzhMXQVpONi9DGOQ3tZ.jpg",
+   "tmdb": 6.429
+  }
+ ]
+}

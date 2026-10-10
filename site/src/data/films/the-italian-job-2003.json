@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Van Lathan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": null
   }
@@ -51,157 +60,183 @@
    "word": "los angeles, california",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "los-angeles-california"
   },
   {
    "word": "murder",
    "reach": 36,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "murder"
   },
   {
    "word": "revenge",
    "reach": 31,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "revenge"
   },
   {
    "word": "suspenseful",
    "reach": 30,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "suspenseful"
   },
   {
    "word": "california",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "california"
   },
   {
    "word": "heist",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "heist"
   },
   {
    "word": "explosion",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "explosion"
   },
   {
    "word": "chase",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "chase"
   },
   {
    "word": "helicopter",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "helicopter"
   },
   {
    "word": "mentor protégé relationship",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mentor-protege-relationship"
   },
   {
    "word": "father daughter relationship",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "father-daughter-relationship"
   },
   {
    "word": "boat chase",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "boat-chase"
   },
   {
    "word": "defiant",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "defiant"
   },
   {
    "word": "hacker",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hacker"
   },
   {
    "word": "master thief",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "master-thief"
   },
   {
    "word": "safe",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "safe"
   },
   {
    "word": "safecracker",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "safecracker"
   },
   {
    "word": "subway",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "subway"
   },
   {
    "word": "venice, italy",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "venice-italy"
   },
   {
    "word": "gold",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gold"
   },
   {
    "word": "based on movie",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "double crossed",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "gold heist",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mini cooper",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "television repair",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "vengeance",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

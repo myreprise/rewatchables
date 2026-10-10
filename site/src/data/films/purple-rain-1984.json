@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Wesley Morris"
+    {
+     "name": "Wesley Morris",
+     "id": "wesley-morris"
+    }
    ],
    "note": null
   }
@@ -51,43 +57,50 @@
    "word": "admiring",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "admiring"
   },
   {
    "word": "anxious",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "anxious"
   },
   {
    "word": "commanding",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "commanding"
   },
   {
    "word": "vibrant",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vibrant"
   },
   {
    "word": "suicide attempt",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "suicide-attempt"
   },
   {
    "word": "pop star",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pop-star"
   },
   {
    "word": "aspiring singer",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "aspiring-singer"
   }
  ],
  "cast": [

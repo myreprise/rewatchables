@@ -1,0 +1,191 @@
+{
+ "word": "marijuana",
+ "id": "marijuana",
+ "catalogue": 460,
+ "share": 2.2,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.1,
+ "vs_catalogue": 0.0,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 2
+  },
+  {
+   "decade": 1990,
+   "n": 4
+  },
+  {
+   "decade": 2000,
+   "n": 3
+  }
+ ],
+ "peak_share": 40.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "id": "absurd"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "cheerful",
+   "reach": 9,
+   "band": "b5",
+   "id": "cheerful"
+  },
+  {
+   "word": "comforting",
+   "reach": 8,
+   "band": "b5",
+   "id": "comforting"
+  },
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "id": "coming-of-age"
+  },
+  {
+   "word": "drugs",
+   "reach": 17,
+   "band": "b3",
+   "id": "drugs"
+  },
+  {
+   "word": "family",
+   "reach": 7,
+   "band": "b5",
+   "id": "family"
+  },
+  {
+   "word": "friendship",
+   "reach": 22,
+   "band": "b3",
+   "id": "friendship"
+  },
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "id": "high-school"
+  },
+  {
+   "word": "hilarious",
+   "reach": 17,
+   "band": "b3",
+   "id": "hilarious"
+  },
+  {
+   "word": "inspirational",
+   "reach": 14,
+   "band": "b4",
+   "id": "inspirational"
+  },
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  },
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "id": "new-york-city"
+  }
+ ],
+ "films": [
+  {
+   "id": "halloween-1978",
+   "title": "Halloween",
+   "year": 1978,
+   "poster": "wijlZ3HaYMvlDTPqJoTCWKFkCPU.jpg",
+   "tmdb": 7.557
+  },
+  {
+   "id": "fast-times-at-ridgemont-high-1982",
+   "title": "Fast Times at Ridgemont High",
+   "year": 1982,
+   "poster": "e15rmfjf0m6EGLe4MnNhwD3Dd1W.jpg",
+   "tmdb": 6.791
+  },
+  {
+   "id": "the-big-chill-1983",
+   "title": "The Big Chill",
+   "year": 1983,
+   "poster": "rU8kjMEL5Mn0EWm3gOShPHBEZ4l.jpg",
+   "tmdb": 6.829
+  },
+  {
+   "id": "dazed-and-confused-1993",
+   "title": "Dazed and Confused",
+   "year": 1993,
+   "poster": "msG9awbLhVZwv1Eh9Ge7SofMexW.jpg",
+   "tmdb": 7.3
+  },
+  {
+   "id": "friday-1995",
+   "title": "Friday",
+   "year": 1995,
+   "poster": "3Ya1RurP2NqaYoiok4DmfO41rCC.jpg",
+   "tmdb": 7.148
+  },
+  {
+   "id": "the-big-lebowski-1998",
+   "title": "The Big Lebowski",
+   "year": 1998,
+   "poster": "3bv6WAp6BSxxYvB5ozKFUYuRA8C.jpg",
+   "tmdb": 7.834
+  },
+  {
+   "id": "eyes-wide-shut-1999",
+   "title": "Eyes Wide Shut",
+   "year": 1999,
+   "poster": "knEIz1eNGl5MQDbrEAVWA7iRqF9.jpg",
+   "tmdb": 7.485
+  },
+  {
+   "id": "sideways-2004",
+   "title": "Sideways",
+   "year": 2004,
+   "poster": "zOsaxYLgvZVU7cJBpPn8CuE0MrP.jpg",
+   "tmdb": 7.1
+  },
+  {
+   "id": "pineapple-express-2008",
+   "title": "Pineapple Express",
+   "year": 2008,
+   "poster": "6E50WjeOYjDZg9HXgPjYdGtY2jG.jpg",
+   "tmdb": 6.64
+  },
+  {
+   "id": "its-complicated-2009",
+   "title": "It's Complicated",
+   "year": 2009,
+   "poster": "bmjPrJgrGENFRrERP7lCJ9FGIVB.jpg",
+   "tmdb": 6.514
+  }
+ ]
+}

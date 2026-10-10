@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Sean Fennessey"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": "1999 series (Luminary)"
   },
@@ -54,9 +60,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Sean Fennessey"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": "Originally released May 30, 2019 on Luminary as part of 1999 Rewatchables series"
   }
@@ -66,133 +78,155 @@
    "word": "sequel",
    "reach": 28,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "sequel"
   },
   {
    "word": "duringcreditsstinger",
    "reach": 27,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "duringcreditsstinger"
   },
   {
    "word": "aftercreditsstinger",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "aftercreditsstinger"
   },
   {
    "word": "undercover",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "undercover"
   },
   {
    "word": "spy",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "spy"
   },
   {
    "word": "central intelligence agency (cia)",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "central-intelligence-agency-cia"
   },
   {
    "word": "saving the world",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "saving-the-world"
   },
   {
    "word": "usa president",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "usa-president"
   },
   {
    "word": "showdown",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "showdown"
   },
   {
    "word": "time travel",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "time-travel"
   },
   {
    "word": "parody",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "parody"
   },
   {
    "word": "nasa",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nasa"
   },
   {
    "word": "ridiculous",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ridiculous"
   },
   {
    "word": "space marine",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "space-marine"
   },
   {
    "word": "android",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "android"
   },
   {
    "word": "moon",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "moon"
   },
   {
    "word": "exotic island",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "exotic-island"
   },
   {
    "word": "laser gun",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "laser-gun"
   },
   {
    "word": "submarine",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "submarine"
   },
   {
    "word": "supermodel",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "supermodel"
   },
   {
    "word": "car journey",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "clone",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

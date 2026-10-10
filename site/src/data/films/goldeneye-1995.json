@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -52,97 +61,113 @@
    "word": "secret identity",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "secret-identity"
   },
   {
    "word": "falsely accused",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "falsely-accused"
   },
   {
    "word": "james bond",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "james-bond"
   },
   {
    "word": "secret base",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "secret-base"
   },
   {
    "word": "computer virus",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "computer-virus"
   },
   {
    "word": "cuba",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cuba"
   },
   {
    "word": "kgb",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "kgb"
   },
   {
    "word": "satellite",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "satellite"
   },
   {
    "word": "cossack",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "electromagnetic pulse",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "red army",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "scary lady",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "secret intelligence service",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "special car",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "st. petersburg, russia",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "time bomb",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

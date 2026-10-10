@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": null
   }
@@ -50,79 +56,92 @@
    "word": "1980s",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "1980s"
   },
   {
    "word": "biography",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "biography"
   },
   {
    "word": "central intelligence agency (cia)",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "central-intelligence-agency-cia"
   },
   {
    "word": "husband wife relationship",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "husband-wife-relationship"
   },
   {
    "word": "political thriller",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "political-thriller"
   },
   {
    "word": "american abroad",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "american-abroad"
   },
   {
    "word": "factual",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "factual"
   },
   {
    "word": "langley virginia",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "langley-virginia"
   },
   {
    "word": "press conference",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "press-conference"
   },
   {
    "word": "extraction",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "intelligence agent",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "iran hostage crisis",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "revolution",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -51,13 +60,15 @@
    "word": "love of one's life",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "love-of-ones-life"
   },
   {
    "word": "navy",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "navy"
   }
  ],
  "cast": [

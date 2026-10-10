@@ -37,9 +37,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Sean Fennessey"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -49,61 +55,71 @@
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "coming of age",
    "reach": 24,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "coming-of-age"
   },
   {
    "word": "explosion",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "explosion"
   },
   {
    "word": "competition",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "competition"
   },
   {
    "word": "celebratory",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "celebratory"
   },
   {
    "word": "class differences",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "class-differences"
   },
   {
    "word": "golf",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "golf"
   },
   {
    "word": "country club",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "country-club"
   },
   {
    "word": "lightning",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lightning"
   },
   {
    "word": "underwear",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

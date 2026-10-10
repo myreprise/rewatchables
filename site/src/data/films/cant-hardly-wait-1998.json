@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Joanna Robinson"
+    {
+     "name": "Joanna Robinson",
+     "id": "joanna-robinson"
+    }
    ],
    "note": null
   }
@@ -50,163 +56,190 @@
    "word": "high school",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "high-school"
   },
   {
    "word": "coming of age",
    "reach": 24,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "coming-of-age"
   },
   {
    "word": "woman director",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "woman-director"
   },
   {
    "word": "american football",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "american-football"
   },
   {
    "word": "college",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "college"
   },
   {
    "word": "friends",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "friends"
   },
   {
    "word": "alcohol",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alcohol"
   },
   {
    "word": "cheerleader",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cheerleader"
   },
   {
    "word": "nerd",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nerd"
   },
   {
    "word": "break-up",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "break-up"
   },
   {
    "word": "dating",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dating"
   },
   {
    "word": "homophobia",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "homophobia"
   },
   {
    "word": "house party",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "house-party"
   },
   {
    "word": "regret",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "regret"
   },
   {
    "word": "graduation",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "graduation"
   },
   {
    "word": "high school graduation",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "high-school-graduation"
   },
   {
    "word": "radio",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "radio"
   },
   {
    "word": "unlikely friendship",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "unlikely-friendship"
   },
   {
    "word": "love letter",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "love-letter"
   },
   {
    "word": "groupie",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "infatuation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "jocks",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "pop music",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "revenge plot",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "rock band",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "social outcast",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "talk show",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

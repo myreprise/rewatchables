@@ -1,0 +1,118 @@
+{
+ "word": "river",
+ "id": "river",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "banjo",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "candle",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "canoe",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "class",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dementia",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "fight",
+   "reach": 7,
+   "band": "b5",
+   "id": "fight"
+  },
+  {
+   "word": "georgia",
+   "reach": 2,
+   "band": "b5",
+   "id": "georgia"
+  },
+  {
+   "word": "hillbilly",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "love of one's life",
+   "reach": 11,
+   "band": "b5",
+   "id": "love-of-ones-life"
+  },
+  {
+   "word": "mailbox",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "male rape",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "poem",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "rafting",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "deliverance-1972",
+   "title": "Deliverance",
+   "year": 1972,
+   "poster": "2TrAzNJlHyNYYSkQf6asg3rs2Xr.jpg",
+   "tmdb": 7.311
+  },
+  {
+   "id": "the-notebook-2004",
+   "title": "The Notebook",
+   "year": 2004,
+   "poster": "rNzQyW4f8B8cQeg7Dgj3n6eT5k9.jpg",
+   "tmdb": 7.89
+  }
+ ]
+}

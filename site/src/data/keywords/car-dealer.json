@@ -1,0 +1,118 @@
+{
+ "word": "car dealer",
+ "id": "car-dealer",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "loss of loved one",
+   "reach": 20,
+   "band": "b3",
+   "id": "loss-of-loved-one"
+  },
+  {
+   "word": "ambiguous",
+   "reach": 9,
+   "band": "b5",
+   "id": "ambiguous"
+  },
+  {
+   "word": "asperger's syndrome",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "assertive",
+   "reach": 9,
+   "band": "b5",
+   "id": "assertive"
+  },
+  {
+   "word": "autism",
+   "reach": 2,
+   "band": "b5",
+   "id": "autism"
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "blackjack",
+   "reach": 2,
+   "band": "b5",
+   "id": "blackjack"
+  },
+  {
+   "word": "burglar",
+   "reach": 4,
+   "band": "b5",
+   "id": "burglar"
+  },
+  {
+   "word": "chicago, illinois",
+   "reach": 19,
+   "band": "b3",
+   "id": "chicago-illinois"
+  },
+  {
+   "word": "cincinnati",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "commanding",
+   "reach": 7,
+   "band": "b5",
+   "id": "commanding"
+  },
+  {
+   "word": "convertible",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "convict",
+   "reach": 4,
+   "band": "b5",
+   "id": "convict"
+  }
+ ],
+ "films": [
+  {
+   "id": "thief-1981",
+   "title": "Thief",
+   "year": 1981,
+   "poster": "bpjRGwfYJ71bU0hNhLIz7g3t6Oy.jpg",
+   "tmdb": 7.231
+  },
+  {
+   "id": "rain-man-1988",
+   "title": "Rain Man",
+   "year": 1988,
+   "poster": "iTNHwO896WKkaoPtpMMS74d8VNi.jpg",
+   "tmdb": 7.751
+  }
+ ]
+}

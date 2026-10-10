@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Amanda Dobbins"
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    }
    ],
    "note": null
   }
@@ -50,61 +56,71 @@
    "word": "los angeles, california",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "los-angeles-california"
   },
   {
    "word": "remake",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "remake"
   },
   {
    "word": "daughter",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "daughter"
   },
   {
    "word": "wedding",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "wedding"
   },
   {
    "word": "father daughter relationship",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "father-daughter-relationship"
   },
   {
    "word": "bride",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bride"
   },
   {
    "word": "father-in-law",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "father-in-law"
   },
   {
    "word": "fool",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "son-in-law",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "wedding planner",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

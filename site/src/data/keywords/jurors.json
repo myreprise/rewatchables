@@ -1,0 +1,118 @@
+{
+ "word": "jurors",
+ "id": "jurors",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "court",
+   "reach": 6,
+   "band": "b5",
+   "id": "court"
+  },
+  {
+   "word": "courtroom drama",
+   "reach": 7,
+   "band": "b5",
+   "id": "courtroom-drama"
+  },
+  {
+   "word": "lawyer",
+   "reach": 15,
+   "band": "b4",
+   "id": "lawyer"
+  },
+  {
+   "word": "1980s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1980s"
+  },
+  {
+   "word": "aids",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "attempted hanging",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "attempted murder",
+   "reach": 3,
+   "band": "b5",
+   "id": "attempted-murder"
+  },
+  {
+   "word": "avenging father",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "black community",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "blackmail",
+   "reach": 5,
+   "band": "b5",
+   "id": "blackmail"
+  },
+  {
+   "word": "capital punishment",
+   "reach": 2,
+   "band": "b5",
+   "id": "capital-punishment"
+  },
+  {
+   "word": "courtroom",
+   "reach": 7,
+   "band": "b5",
+   "id": "courtroom"
+  },
+  {
+   "word": "discrimination",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dying",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "philadelphia-1993",
+   "title": "Philadelphia",
+   "year": 1993,
+   "poster": "tFe5Yoo5zT495okA49bq1vPPkiV.jpg",
+   "tmdb": 7.705
+  },
+  {
+   "id": "a-time-to-kill-1996",
+   "title": "A Time to Kill",
+   "year": 1996,
+   "poster": "w8UCke112E9jrhjKcwG32kyhTx5.jpg",
+   "tmdb": 7.397
+  }
+ ]
+}

@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Sean Fennessey",
-    "Van Lathan"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": null
   }
@@ -51,115 +60,134 @@
    "word": "high school",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "high-school"
   },
   {
    "word": "1960s",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "1960s"
   },
   {
    "word": "husband wife relationship",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "husband-wife-relationship"
   },
   {
    "word": "father son relationship",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "father-son-relationship"
   },
   {
    "word": "1990s",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1990s"
   },
   {
    "word": "deaf-mute",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "deaf-mute"
   },
   {
    "word": "mentor",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mentor"
   },
   {
    "word": "music teacher",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "music-teacher"
   },
   {
    "word": "sign languages",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sign-languages"
   },
   {
    "word": "composer",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "disabled",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "forced retirement",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "high school teacher",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "inspiring teacher",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "marching band",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "portland, oregon",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "retirement party",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "teacher student relationship",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "teaching",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

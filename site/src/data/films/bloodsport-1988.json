@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Shea Serrano",
-    "Jason Concepcion"
+    {
+     "name": "Shea Serrano",
+     "id": "shea-serrano"
+    },
+    {
+     "name": "Jason Concepcion",
+     "id": "jason-concepcion"
+    }
    ],
    "note": null
   }
@@ -52,121 +61,141 @@
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "amused",
    "reach": 26,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "amused"
   },
   {
    "word": "action hero",
    "reach": 21,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "action-hero"
   },
   {
    "word": "biography",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "biography"
   },
   {
    "word": "assertive",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "assertive"
   },
   {
    "word": "martial arts",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "martial-arts"
   },
   {
    "word": "cliché",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cliche"
   },
   {
    "word": "mixed martial arts (mma)",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mixed-martial-arts-mma"
   },
   {
    "word": "optimistic",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "optimistic"
   },
   {
    "word": "casual",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "casual"
   },
   {
    "word": "enthusiastic",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "enthusiastic"
   },
   {
    "word": "fistfight",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fistfight"
   },
   {
    "word": "farcical",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "farcical"
   },
   {
    "word": "sensei",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sensei"
   },
   {
    "word": "underground fighting",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "underground-fighting"
   },
   {
    "word": "bloodsport",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "hong kong",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "kowloon",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "tournament",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "walled city",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

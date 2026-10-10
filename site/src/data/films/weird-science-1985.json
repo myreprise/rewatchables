@@ -40,9 +40,15 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Kyle Brandt"
+    {
+     "name": "Kyle Brandt",
+     "id": "kyle-brandt"
+    }
    ],
    "note": null
   }
@@ -52,67 +58,78 @@
    "word": "chicago, illinois",
    "reach": 19,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "chicago-illinois"
   },
   {
    "word": "absurd",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "absurd"
   },
   {
    "word": "hilarious",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "hilarious"
   },
   {
    "word": "lighthearted",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lighthearted"
   },
   {
    "word": "mischievous",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mischievous"
   },
   {
    "word": "nerd",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nerd"
   },
   {
    "word": "based on comic",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "based-on-comic"
   },
   {
    "word": "ridiculous",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ridiculous"
   },
   {
    "word": "whimsical",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "whimsical"
   },
   {
    "word": "biker",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "biker"
   },
   {
    "word": "morphing",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "morphing"
   }
  ],
  "cast": [

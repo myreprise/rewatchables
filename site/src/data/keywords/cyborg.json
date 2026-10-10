@@ -1,0 +1,134 @@
+{
+ "word": "cyborg",
+ "id": "cyborg",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.8,
+ "vs_catalogue": 0.7,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 2
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  }
+ ],
+ "peak_share": 67.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "dystopia",
+   "reach": 17,
+   "band": "b3",
+   "id": "dystopia"
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "artificial intelligence (a.i.)",
+   "reach": 4,
+   "band": "b5",
+   "id": "artificial-intelligence-a-i"
+  },
+  {
+   "word": "good versus evil",
+   "reach": 7,
+   "band": "b5",
+   "id": "good-versus-evil"
+  },
+  {
+   "word": "man vs machine",
+   "reach": 4,
+   "band": "b5",
+   "id": "man-vs-machine"
+  },
+  {
+   "word": "savior",
+   "reach": 2,
+   "band": "b5",
+   "id": "savior"
+  },
+  {
+   "word": "shotgun",
+   "reach": 3,
+   "band": "b5",
+   "id": "shotgun"
+  },
+  {
+   "word": "time travel",
+   "reach": 7,
+   "band": "b5",
+   "id": "time-travel"
+  },
+  {
+   "word": "urban setting",
+   "reach": 6,
+   "band": "b5",
+   "id": "urban-setting"
+  },
+  {
+   "word": "villain",
+   "reach": 7,
+   "band": "b5",
+   "id": "villain"
+  },
+  {
+   "word": "allegory",
+   "reach": 3,
+   "band": "b5",
+   "id": "allegory"
+  },
+  {
+   "word": "catch phrase",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "corrupt system",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "crime fighter",
+   "reach": 4,
+   "band": "b5",
+   "id": "crime-fighter"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-terminator-1984",
+   "title": "The Terminator",
+   "year": 1984,
+   "poster": "qvktm0BHcnmDpul4Hz01GIazWPr.jpg",
+   "tmdb": 7.69
+  },
+  {
+   "id": "robocop-1987",
+   "title": "RoboCop",
+   "year": 1987,
+   "poster": "hHtOgGb3NihlyRATHlKPaFApbrd.jpg",
+   "tmdb": 7.365
+  },
+  {
+   "id": "terminator-2-judgment-day-1991",
+   "title": "Terminator 2: Judgment Day",
+   "year": 1991,
+   "poster": "jFTVD4XoWQTcg7wdyJKa8PEds5q.jpg",
+   "tmdb": 8.2
+  }
+ ]
+}

@@ -1,0 +1,163 @@
+{
+ "word": "gun",
+ "id": "gun",
+ "catalogue": 460,
+ "share": 1.3,
+ "thin": false,
+ "peak": 2000,
+ "avg_tmdb": 7.0,
+ "vs_catalogue": -0.1,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 2
+  },
+  {
+   "decade": 2010,
+   "n": 2
+  }
+ ],
+ "peak_share": 33.0,
+ "catalogue_peak_share": 17.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "police",
+   "reach": 22,
+   "band": "b3",
+   "id": "police"
+  },
+  {
+   "word": "secret agent",
+   "reach": 6,
+   "band": "b5",
+   "id": "secret-agent"
+  },
+  {
+   "word": "spy",
+   "reach": 11,
+   "band": "b5",
+   "id": "spy"
+  },
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "id": "absurd"
+  },
+  {
+   "word": "action",
+   "reach": 2,
+   "band": "b5",
+   "id": "action"
+  },
+  {
+   "word": "aggressive",
+   "reach": 18,
+   "band": "b3",
+   "id": "aggressive"
+  },
+  {
+   "word": "anti hero",
+   "reach": 8,
+   "band": "b5",
+   "id": "anti-hero"
+  },
+  {
+   "word": "appreciative",
+   "reach": 6,
+   "band": "b5",
+   "id": "appreciative"
+  },
+  {
+   "word": "assassin",
+   "reach": 8,
+   "band": "b5",
+   "id": "assassin"
+  },
+  {
+   "word": "assault rifle",
+   "reach": 2,
+   "band": "b5",
+   "id": "assault-rifle"
+  },
+  {
+   "word": "attempt to escape",
+   "reach": 2,
+   "band": "b5",
+   "id": "attempt-to-escape"
+  },
+  {
+   "word": "based on tv series",
+   "reach": 3,
+   "band": "b5",
+   "id": "based-on-tv-series"
+  },
+  {
+   "word": "beating",
+   "reach": 2,
+   "band": "b5",
+   "id": "beating"
+  },
+  {
+   "word": "bigotry",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "first-blood-1982",
+   "title": "First Blood",
+   "year": 1982,
+   "poster": "a9sa6ERZCpplbPEO7OMWE763CLD.jpg",
+   "tmdb": 7.516
+  },
+  {
+   "id": "true-lies-1994",
+   "title": "True Lies",
+   "year": 1994,
+   "poster": "pqdvCBDThAOjlA0XBzbNm7GvwpU.jpg",
+   "tmdb": 7.102
+  },
+  {
+   "id": "crash-2005",
+   "title": "Crash",
+   "year": 2005,
+   "poster": "86BdPC6RDX88NC880pLidKn2LCj.jpg",
+   "tmdb": 7.215
+  },
+  {
+   "id": "mr-and-mrs-smith-2005",
+   "title": "Mr. & Mrs. Smith",
+   "year": 2005,
+   "poster": "kjD700RtyhveN3ZbOnSvUSne0Qj.jpg",
+   "tmdb": 6.694
+  },
+  {
+   "id": "the-gambler-2014",
+   "title": "The Gambler",
+   "year": 2014,
+   "poster": "hIgU3cxn7Y87joQGM3srofnXOm5.jpg",
+   "tmdb": 6.048
+  },
+  {
+   "id": "mission-impossible-fallout-2018",
+   "title": "Mission: Impossible - Fallout",
+   "year": 2018,
+   "poster": "AkJQpZp9WoNdj7pLYSj1L0RcMMN.jpg",
+   "tmdb": 7.45
+  }
+ ]
+}

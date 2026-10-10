@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Shea Serrano"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Shea Serrano",
+     "id": "shea-serrano"
+    }
    ],
    "note": null
   }
@@ -52,157 +61,183 @@
    "word": "action hero",
    "reach": 21,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "action-hero"
   },
   {
    "word": "shootout",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "shootout"
   },
   {
    "word": "psychopath",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "psychopath"
   },
   {
    "word": "serial killer",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "serial-killer"
   },
   {
    "word": "undercover",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "undercover"
   },
   {
    "word": "brutality",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "brutality"
   },
   {
    "word": "convict",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "convict"
   },
   {
    "word": "mexican standoff",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mexican-standoff"
   },
   {
    "word": "bravery",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bravery"
   },
   {
    "word": "u.s. marshal",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "u-s-marshal"
   },
   {
    "word": "war veteran",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "war-veteran"
   },
   {
    "word": "ambush",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ambush"
   },
   {
    "word": "army veteran",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "army-veteran"
   },
   {
    "word": "diabetic",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "diabetic"
   },
   {
    "word": "hijacking",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hijacking"
   },
   {
    "word": "sandstorm",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sandstorm"
   },
   {
    "word": "war hero",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "war-hero"
   },
   {
    "word": "dea agent",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "disguises",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "ex army",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "hostile takeover",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "prison guard",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "prison transport plane",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "prisoner transport",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "skyjacker",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "transport plane",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

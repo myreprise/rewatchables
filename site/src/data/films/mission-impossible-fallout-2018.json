@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Craig Horlbeck"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Craig Horlbeck",
+     "id": "craig-horlbeck"
+    }
    ],
    "note": null
   }
@@ -51,193 +60,225 @@
    "word": "sequel",
    "reach": 28,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "sequel"
   },
   {
    "word": "spy",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "spy"
   },
   {
    "word": "paris, france",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "paris-france"
   },
   {
    "word": "central intelligence agency (cia)",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "central-intelligence-agency-cia"
   },
   {
    "word": "chase",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "chase"
   },
   {
    "word": "fake identity",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fake-identity"
   },
   {
    "word": "race against time",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "race-against-time"
   },
   {
    "word": "gun",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gun"
   },
   {
    "word": "helicopter",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "helicopter"
   },
   {
    "word": "london, england",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "london-england"
   },
   {
    "word": "hand to hand combat",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hand-to-hand-combat"
   },
   {
    "word": "mask",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mask"
   },
   {
    "word": "based on tv series",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "based-on-tv-series"
   },
   {
    "word": "countdown",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "countdown"
   },
   {
    "word": "fistfight",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fistfight"
   },
   {
    "word": "mi6",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mi6"
   },
   {
    "word": "nuclear weapons",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nuclear-weapons"
   },
   {
    "word": "action",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "action"
   },
   {
    "word": "fictional government agency",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fictional-government-agency"
   },
   {
    "word": "government agency",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "government-agency"
   },
   {
    "word": "infiltration",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "infiltration"
   },
   {
    "word": "killer",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "killer"
   },
   {
    "word": "motorcycle",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "motorcycle"
   },
   {
    "word": "motorcycle chase",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "motorcycle-chase"
   },
   {
    "word": "secret government organization",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "secret-government-organization"
   },
   {
    "word": "bomb remote detonator",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "double agent",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "french police",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "handgun",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "helicopter chase",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "norway",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "stunt",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

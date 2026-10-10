@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Rembert Browne"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Rembert Browne",
+     "id": "rembert-browne"
+    }
    ],
    "note": null
   }
@@ -51,85 +60,99 @@
    "word": "los angeles, california",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "los-angeles-california"
   },
   {
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "friendship",
    "reach": 22,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "friendship"
   },
   {
    "word": "buddy",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "buddy"
   },
   {
    "word": "male friendship",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "male-friendship"
   },
   {
    "word": "basketball",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "basketball"
   },
   {
    "word": "hoodlum",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hoodlum"
   },
   {
    "word": "satirical",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "satirical"
   },
   {
    "word": "racial segregation",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "racial-segregation"
   },
   {
    "word": "confidence artist",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "hustling",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "jeopardy",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "streetball",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "white trash",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

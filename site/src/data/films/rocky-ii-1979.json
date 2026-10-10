@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Van Lathan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": null
   }
@@ -50,115 +59,134 @@
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "sequel",
    "reach": 28,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "sequel"
   },
   {
    "word": "love of one's life",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "love-of-ones-life"
   },
   {
    "word": "training",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "training"
   },
   {
    "word": "anxious",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "anxious"
   },
   {
    "word": "husband wife relationship",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "husband-wife-relationship"
   },
   {
    "word": "hospital",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hospital"
   },
   {
    "word": "powerful",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "powerful"
   },
   {
    "word": "appreciative",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "appreciative"
   },
   {
    "word": "boxing",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "boxing"
   },
   {
    "word": "boxer",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "boxer"
   },
   {
    "word": "candid",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "candid"
   },
   {
    "word": "coma",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "coma"
   },
   {
    "word": "transporter",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "transporter"
   },
   {
    "word": "victory",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "victory"
   },
   {
    "word": "hero",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hero"
   },
   {
    "word": "world champion",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "world-champion"
   },
   {
    "word": "intensive care",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "intensive-care"
   },
   {
    "word": "publicity",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "publicity"
   }
  ],
  "cast": [

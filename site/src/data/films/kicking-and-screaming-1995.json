@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Andy Greenwald"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Andy Greenwald",
+     "id": "andy-greenwald"
+    }
    ],
    "note": null
   }
@@ -52,37 +61,43 @@
    "word": "friendship",
    "reach": 22,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "friendship"
   },
   {
    "word": "male friendship",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "male-friendship"
   },
   {
    "word": "college",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "college"
   },
   {
    "word": "campus",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "graduate",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "video store",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

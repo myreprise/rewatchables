@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -52,97 +61,113 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "based on true story",
    "reach": 25,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "based-on-true-story"
   },
   {
    "word": "fbi",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "fbi"
   },
   {
    "word": "conspiracy",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "conspiracy"
   },
   {
    "word": "journalist",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "journalist"
   },
   {
    "word": "washington dc, usa",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "washington-dc-usa"
   },
   {
    "word": "politics",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "politics"
   },
   {
    "word": "newspaper",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "newspaper"
   },
   {
    "word": "burglar",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "burglar"
   },
   {
    "word": "shadowing",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "shadowing"
   },
   {
    "word": "wiretap",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "wiretap"
   },
   {
    "word": "informative",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "newspaper man",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "plan",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "watergate",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "watergate scandal",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

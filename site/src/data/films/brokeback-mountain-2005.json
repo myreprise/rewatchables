@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Wesley Morris"
+    {
+     "name": "Wesley Morris",
+     "id": "wesley-morris"
+    }
    ],
    "note": null
   }
@@ -50,109 +56,127 @@
    "word": "1960s",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "1960s"
   },
   {
    "word": "thoughtful",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "thoughtful"
   },
   {
    "word": "marriage crisis",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "marriage-crisis"
   },
   {
    "word": "gay theme",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gay-theme"
   },
   {
    "word": "homophobia",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "homophobia"
   },
   {
    "word": "lgbt",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lgbt"
   },
   {
    "word": "secret love",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "secret-love"
   },
   {
    "word": "summer",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "summer"
   },
   {
    "word": "wyoming, usa",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "wyoming-usa"
   },
   {
    "word": "cowboy",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cowboy"
   },
   {
    "word": "closeted homosexual",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "countryside",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "gay relationship",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "gay romance",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "in the closet",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "intolerance",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "matter of fact",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "star crossed lovers",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Ryen Russillo"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Ryen Russillo",
+     "id": "ryen-russillo"
+    }
    ],
    "note": null
   }
@@ -51,187 +60,218 @@
    "word": "based on true story",
    "reach": 25,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "based-on-true-story"
   },
   {
    "word": "lawyer",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "lawyer"
   },
   {
    "word": "conspiracy",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "conspiracy"
   },
   {
    "word": "journalist",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "journalist"
   },
   {
    "word": "florida",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "florida"
   },
   {
    "word": "boston, massachusetts",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "boston-massachusetts"
   },
   {
    "word": "powerful",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "powerful"
   },
   {
    "word": "child abuse",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "child-abuse"
   },
   {
    "word": "court",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "court"
   },
   {
    "word": "historical fiction",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "historical-fiction"
   },
   {
    "word": "newspaper",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "newspaper"
   },
   {
    "word": "journalism",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "journalism"
   },
   {
    "word": "biting",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "biting"
   },
   {
    "word": "lgbt",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lgbt"
   },
   {
    "word": "priest",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "priest"
   },
   {
    "word": "serious",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "serious"
   },
   {
    "word": "tragic",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "tragic"
   },
   {
    "word": "understated",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "understated"
   },
   {
    "word": "cover-up",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cover-up"
   },
   {
    "word": "judge",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "judge"
   },
   {
    "word": "roman catholic church",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "roman-catholic-church"
   },
   {
    "word": "victim",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "victim"
   },
   {
    "word": "9/11",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "archdiocese",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "cardinal",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "catholic",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "catholicism",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "child molestation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "investigative journalism",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "pedophilia",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sex scandal",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

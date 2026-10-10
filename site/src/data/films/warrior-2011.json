@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Ryen Russillo"
+    {
+     "name": "Ryen Russillo",
+     "id": "ryen-russillo"
+    }
    ],
    "note": null
   }
@@ -50,85 +56,99 @@
    "word": "intense",
    "reach": 23,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "intense"
   },
   {
    "word": "alcoholic",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alcoholic"
   },
   {
    "word": "training",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "training"
   },
   {
    "word": "teacher",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "teacher"
   },
   {
    "word": "familiar",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "familiar"
   },
   {
    "word": "mixed martial arts (mma)",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mixed-martial-arts-mma"
   },
   {
    "word": "beating",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "beating"
   },
   {
    "word": "combat",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "combat"
   },
   {
    "word": "complicated",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "complicated"
   },
   {
    "word": "pittsburgh, pennsylvania",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pittsburgh-pennsylvania"
   },
   {
    "word": "bank",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "exercise",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "gym",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "muscleman",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

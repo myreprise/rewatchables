@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Wesley Morris"
+    {
+     "name": "Wesley Morris",
+     "id": "wesley-morris"
+    }
    ],
    "note": null
   }
@@ -51,55 +57,64 @@
    "word": "femme fatale",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "femme-fatale"
   },
   {
    "word": "con man",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "con-man"
   },
   {
    "word": "rivalry",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rivalry"
   },
   {
    "word": "con artist",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "con-artist"
   },
   {
    "word": "deception",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "deception"
   },
   {
    "word": "seduction",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "seduction"
   },
   {
    "word": "serious",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "serious"
   },
   {
    "word": "illusion",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "illusionist",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

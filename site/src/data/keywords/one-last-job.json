@@ -1,0 +1,118 @@
+{
+ "word": "one last job",
+ "id": "one-last-job",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "19th century",
+   "reach": 4,
+   "band": "b5",
+   "id": "19th-century"
+  },
+  {
+   "word": "assertive",
+   "reach": 9,
+   "band": "b5",
+   "id": "assertive"
+  },
+  {
+   "word": "authoritarian",
+   "reach": 4,
+   "band": "b5",
+   "id": "authoritarian"
+  },
+  {
+   "word": "bank job",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bank robbery",
+   "reach": 5,
+   "band": "b5",
+   "id": "bank-robbery"
+  },
+  {
+   "word": "betrayal",
+   "reach": 9,
+   "band": "b5",
+   "id": "betrayal"
+  },
+  {
+   "word": "bold",
+   "reach": 15,
+   "band": "b4",
+   "id": "bold"
+  },
+  {
+   "word": "cat and mouse",
+   "reach": 2,
+   "band": "b5",
+   "id": "cat-and-mouse"
+  },
+  {
+   "word": "chase",
+   "reach": 7,
+   "band": "b5",
+   "id": "chase"
+  },
+  {
+   "word": "crime epic",
+   "reach": 2,
+   "band": "b5",
+   "id": "crime-epic"
+  },
+  {
+   "word": "criminal mastermind",
+   "reach": 4,
+   "band": "b5",
+   "id": "criminal-mastermind"
+  },
+  {
+   "word": "detective",
+   "reach": 17,
+   "band": "b3",
+   "id": "detective"
+  },
+  {
+   "word": "englishman",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "ex-con",
+   "reach": 4,
+   "band": "b5",
+   "id": "ex-con"
+  }
+ ],
+ "films": [
+  {
+   "id": "unforgiven-1992",
+   "title": "Unforgiven",
+   "year": 1992,
+   "poster": "54roTwbX9fltg85zjsmrooXAs12.jpg",
+   "tmdb": 7.912
+  },
+  {
+   "id": "heat-1995",
+   "title": "Heat",
+   "year": 1995,
+   "poster": "gKaePbkEkaqvMtw74EyhhkfCKKh.jpg",
+   "tmdb": 7.945
+  }
+ ]
+}

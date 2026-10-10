@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Van Lathan"
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": null
   }
@@ -51,121 +57,141 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "new york city",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "new-york-city"
   },
   {
    "word": "amused",
    "reach": 26,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "amused"
   },
   {
    "word": "dystopia",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "dystopia"
   },
   {
    "word": "admiring",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "admiring"
   },
   {
    "word": "survival",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "survival"
   },
   {
    "word": "saving the world",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "saving-the-world"
   },
   {
    "word": "desperate",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "desperate"
   },
   {
    "word": "loneliness",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "loneliness"
   },
   {
    "word": "post-apocalyptic future",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "post-apocalyptic-future"
   },
   {
    "word": "end of the world",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "end-of-the-world"
   },
   {
    "word": "matter of life and death",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "matter-of-life-and-death"
   },
   {
    "word": "pets",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pets"
   },
   {
    "word": "alone",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alone"
   },
   {
    "word": "infection",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "infection"
   },
   {
    "word": "pandemic",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pandemic"
   },
   {
    "word": "virus",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "virus"
   },
   {
    "word": "helplessness",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "lost civilization",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "zombie",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

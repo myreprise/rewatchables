@@ -40,9 +40,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": null
   }
@@ -52,121 +58,141 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "based on true story",
    "reach": 25,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "based-on-true-story"
   },
   {
    "word": "biography",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "biography"
   },
   {
    "word": "1990s",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1990s"
   },
   {
    "word": "disaster",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "disaster"
   },
   {
    "word": "natural disaster",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "natural-disaster"
   },
   {
    "word": "new england",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "new-england"
   },
   {
    "word": "shark",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "shark"
   },
   {
    "word": "male camaraderie",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "male-camaraderie"
   },
   {
    "word": "thunderstorm",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "thunderstorm"
   },
   {
    "word": "u.s. air force",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "u-s-air-force"
   },
   {
    "word": "city hall",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "jamaican",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "man vs nature",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "marine",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "meteorologist",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "rescue boat",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "storm at sea",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "the flemish cap",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "tragic event",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

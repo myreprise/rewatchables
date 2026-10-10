@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Van Lathan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": null
   }
@@ -51,181 +60,211 @@
    "word": "new york city",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "new-york-city"
   },
   {
    "word": "suspenseful",
    "reach": 30,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "suspenseful"
   },
   {
    "word": "intense",
    "reach": 23,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "intense"
   },
   {
    "word": "aftercreditsstinger",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "aftercreditsstinger"
   },
   {
    "word": "gangster",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "gangster"
   },
   {
    "word": "organized crime",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "organized-crime"
   },
   {
    "word": "1960s",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "1960s"
   },
   {
    "word": "wedding",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "wedding"
   },
   {
    "word": "police corruption",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "police-corruption"
   },
   {
    "word": "violence",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "violence"
   },
   {
    "word": "cop",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cop"
   },
   {
    "word": "family",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "family"
   },
   {
    "word": "nightclub",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nightclub"
   },
   {
    "word": "police detective",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "police-detective"
   },
   {
    "word": "provocative",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "provocative"
   },
   {
    "word": "ambition",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ambition"
   },
   {
    "word": "bribery",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bribery"
   },
   {
    "word": "drug dealing",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drug-dealing"
   },
   {
    "word": "drug trafficking",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drug-trafficking"
   },
   {
    "word": "surveillance",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "surveillance"
   },
   {
    "word": "vietnam",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vietnam"
   },
   {
    "word": "ghetto",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ghetto"
   },
   {
    "word": "heroin",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "heroin"
   },
   {
    "word": "rise and fall",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rise-and-fall"
   },
   {
    "word": "brisk",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "brisk"
   },
   {
    "word": "drug smuggling",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drug-smuggling"
   },
   {
    "word": "junkie",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "junkie"
   },
   {
    "word": "law enforcement",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "law-enforcement"
   },
   {
    "word": "dishonesty",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "society",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

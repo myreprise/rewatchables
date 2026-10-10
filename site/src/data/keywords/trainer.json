@@ -1,0 +1,156 @@
+{
+ "word": "trainer",
+ "id": "trainer",
+ "catalogue": 460,
+ "share": 1.1,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.0,
+ "vs_catalogue": -0.1,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 2
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 40.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "sports",
+   "reach": 47,
+   "band": "b1",
+   "id": "sports"
+  },
+  {
+   "word": "training",
+   "reach": 10,
+   "band": "b5",
+   "id": "training"
+  },
+  {
+   "word": "american football",
+   "reach": 13,
+   "band": "b4",
+   "id": "american-football"
+  },
+  {
+   "word": "boxing",
+   "reach": 6,
+   "band": "b5",
+   "id": "boxing"
+  },
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "id": "high-school"
+  },
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1970s"
+  },
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "id": "admiring"
+  },
+  {
+   "word": "american football coach",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "american football stadium",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "apartheid",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "basketball",
+   "reach": 7,
+   "band": "b5",
+   "id": "basketball"
+  },
+  {
+   "word": "boxer",
+   "reach": 5,
+   "band": "b5",
+   "id": "boxer"
+  },
+  {
+   "word": "boxing champion",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "rocky-iii-1982",
+   "title": "Rocky III",
+   "year": 1982,
+   "poster": "uqw16i2kmwVqkJHzjzbDU4xZ0Pl.jpg",
+   "tmdb": 6.907
+  },
+  {
+   "id": "teen-wolf-1985",
+   "title": "Teen Wolf",
+   "year": 1985,
+   "poster": "bv9rY9eoue2Hat6tcvrKVQ0ow8v.jpg",
+   "tmdb": 6.209
+  },
+  {
+   "id": "any-given-sunday-1999",
+   "title": "Any Given Sunday",
+   "year": 1999,
+   "poster": "bysZeUvSPZPJnku4qkHF34CdgMG.jpg",
+   "tmdb": 6.821
+  },
+  {
+   "id": "remember-the-titans-2000",
+   "title": "Remember the Titans",
+   "year": 2000,
+   "poster": "825ohvC4wZ3gCuncCaqkWeQnK8h.jpg",
+   "tmdb": 7.66
+  },
+  {
+   "id": "creed-2015",
+   "title": "Creed",
+   "year": 2015,
+   "poster": "1BfTsk5VWuw8FCocAhCyqnRbEzq.jpg",
+   "tmdb": 7.407
+  }
+ ]
+}

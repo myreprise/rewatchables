@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Shea Serrano",
-    "Rembert Browne"
+    {
+     "name": "Shea Serrano",
+     "id": "shea-serrano"
+    },
+    {
+     "name": "Rembert Browne",
+     "id": "rembert-browne"
+    }
    ],
    "note": null
   }
@@ -50,127 +59,148 @@
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "high school",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "high-school"
   },
   {
    "word": "based on true story",
    "reach": 25,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "based-on-true-story"
   },
   {
    "word": "friendship",
    "reach": 22,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "friendship"
   },
   {
    "word": "american football",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "american-football"
   },
   {
    "word": "1970s",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1970s"
   },
   {
    "word": "period drama",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "period-drama"
   },
   {
    "word": "politics",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "politics"
   },
   {
    "word": "trainer",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "trainer"
   },
   {
    "word": "high school sports",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "high-school-sports"
   },
   {
    "word": "ku klux klan",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ku-klux-klan"
   },
   {
    "word": "race politics",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "race-politics"
   },
   {
    "word": "virginia",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "virginia"
   },
   {
    "word": "head coach",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "head-coach"
   },
   {
    "word": "racial segregation",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "racial-segregation"
   },
   {
    "word": "racial tension",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "racial-tension"
   },
   {
    "word": "racist",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "racist"
   },
   {
    "word": "xenophobia",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "xenophobia"
   },
   {
    "word": "apartheid",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "civil rights",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "coaction",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

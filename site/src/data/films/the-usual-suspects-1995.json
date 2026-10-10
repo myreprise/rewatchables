@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": null
   }
@@ -51,109 +57,127 @@
    "word": "los angeles, california",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "los-angeles-california"
   },
   {
    "word": "new york city",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "new-york-city"
   },
   {
    "word": "neo-noir",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "neo-noir"
   },
   {
    "word": "intense",
    "reach": 23,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "intense"
   },
   {
    "word": "excited",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "excited"
   },
   {
    "word": "heist",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "heist"
   },
   {
    "word": "whodunit",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "whodunit"
   },
   {
    "word": "flashback",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "flashback"
   },
   {
    "word": "police corruption",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "police-corruption"
   },
   {
    "word": "criminal",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "criminal"
   },
   {
    "word": "robbery",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "robbery"
   },
   {
    "word": "theft",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "theft"
   },
   {
    "word": "criminal mastermind",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "criminal-mastermind"
   },
   {
    "word": "cargo ship",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cargo-ship"
   },
   {
    "word": "relatives",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "relatives"
   },
   {
    "word": "mind game",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mystery villain",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "rashomon effect",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

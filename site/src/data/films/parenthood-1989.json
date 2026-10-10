@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Van Lathan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": "\"Fucked up Family February\" month"
   }
@@ -51,37 +60,43 @@
    "word": "parent child relationship",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "parent-child-relationship"
   },
   {
    "word": "family relationships",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "family-relationships"
   },
   {
    "word": "dysfunctional family",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dysfunctional-family"
   },
   {
    "word": "parenting",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "parenting"
   },
   {
    "word": "children's party",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "grandparent grandchild relationship",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

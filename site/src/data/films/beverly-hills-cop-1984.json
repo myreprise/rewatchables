@@ -39,11 +39,23 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey",
-    "Wesley Morris"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Wesley Morris",
+     "id": "wesley-morris"
+    }
    ],
    "note": null
   }
@@ -53,175 +65,204 @@
    "word": "los angeles, california",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "los-angeles-california"
   },
   {
    "word": "absurd",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "absurd"
   },
   {
    "word": "hilarious",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "hilarious"
   },
   {
    "word": "undercover",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "undercover"
   },
   {
    "word": "buddy cop",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "buddy-cop"
   },
   {
    "word": "cocaine",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cocaine"
   },
   {
    "word": "gunfight",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gunfight"
   },
   {
    "word": "mischievous",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mischievous"
   },
   {
    "word": "showdown",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "showdown"
   },
   {
    "word": "strip club",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "strip-club"
   },
   {
    "word": "detroit, michigan",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "detroit-michigan"
   },
   {
    "word": "beverly hills",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "beverly-hills"
   },
   {
    "word": "art gallery",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "art-gallery"
   },
   {
    "word": "buddy comedy",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "buddy-comedy"
   },
   {
    "word": "country club",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "country-club"
   },
   {
    "word": "foot chase",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "foot-chase"
   },
   {
    "word": "maverick cop",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "maverick-cop"
   },
   {
    "word": "murder investigation",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "murder-investigation"
   },
   {
    "word": "narcotics detective",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "narcotics-detective"
   },
   {
    "word": "bearer bonds",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bearer-bonds"
   },
   {
    "word": "black cop",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "black-cop"
   },
   {
    "word": "detective comedy",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "detective-comedy"
   },
   {
    "word": "drug smuggling",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drug-smuggling"
   },
   {
    "word": "mansion",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mansion"
   },
   {
    "word": "warehouse",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "warehouse"
   },
   {
    "word": "bar fight",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "childhood friends",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "damsel in distress",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "food delivery",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

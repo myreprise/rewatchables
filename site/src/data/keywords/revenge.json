@@ -1,0 +1,342 @@
+{
+ "word": "revenge",
+ "id": "revenge",
+ "catalogue": 460,
+ "share": 6.7,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.1,
+ "vs_catalogue": 0.0,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 2
+  },
+  {
+   "decade": 1980,
+   "n": 9
+  },
+  {
+   "decade": 1990,
+   "n": 10
+  },
+  {
+   "decade": 2000,
+   "n": 4
+  },
+  {
+   "decade": 2010,
+   "n": 6
+  }
+ ],
+ "peak_share": 32.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "sequel",
+   "reach": 28,
+   "band": "b2",
+   "id": "sequel"
+  },
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "id": "murder"
+  },
+  {
+   "word": "organized crime",
+   "reach": 15,
+   "band": "b4",
+   "id": "organized-crime"
+  },
+  {
+   "word": "gangster",
+   "reach": 18,
+   "band": "b3",
+   "id": "gangster"
+  },
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  },
+  {
+   "word": "suspenseful",
+   "reach": 30,
+   "band": "b2",
+   "id": "suspenseful"
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "excited",
+   "reach": 17,
+   "band": "b3",
+   "id": "excited"
+  },
+  {
+   "word": "fbi",
+   "reach": 20,
+   "band": "b3",
+   "id": "fbi"
+  },
+  {
+   "word": "helicopter",
+   "reach": 6,
+   "band": "b5",
+   "id": "helicopter"
+  },
+  {
+   "word": "mafia",
+   "reach": 12,
+   "band": "b4",
+   "id": "mafia"
+  },
+  {
+   "word": "martial arts",
+   "reach": 9,
+   "band": "b5",
+   "id": "martial-arts"
+  },
+  {
+   "word": "neo-noir",
+   "reach": 29,
+   "band": "b2",
+   "id": "neo-noir"
+  }
+ ],
+ "films": [
+  {
+   "id": "death-wish-1974",
+   "title": "Death Wish",
+   "year": 1974,
+   "poster": "rNksI6UiuTgLtBy69WvKT1PrG0R.jpg",
+   "tmdb": 6.931
+  },
+  {
+   "id": "the-godfather-part-ii-1974",
+   "title": "The Godfather Part II",
+   "year": 1974,
+   "poster": "sSuQTCZwqKrNBNIsksO9IAUoWP9.jpg",
+   "tmdb": 8.573
+  },
+  {
+   "id": "friday-the-13th-1980",
+   "title": "Friday the 13th",
+   "year": 1980,
+   "poster": "uGGpnWHOmWTARVN9wbC1nPxNgps.jpg",
+   "tmdb": 6.4
+  },
+  {
+   "id": "48-hrs-1982",
+   "title": "48 Hrs.",
+   "year": 1982,
+   "poster": "rvvjXHzEDBIvIVDBHNOwHS7hVPu.jpg",
+   "tmdb": 6.676
+  },
+  {
+   "id": "rocky-iii-1982",
+   "title": "Rocky III",
+   "year": 1982,
+   "poster": "uqw16i2kmwVqkJHzjzbDU4xZ0Pl.jpg",
+   "tmdb": 6.907
+  },
+  {
+   "id": "rambo-first-blood-part-ii-1985",
+   "title": "Rambo: First Blood Part II",
+   "year": 1985,
+   "poster": "fVwRtWqEPdsCH21BVDGqgkAQcff.jpg",
+   "tmdb": 6.67
+  },
+  {
+   "id": "rocky-iv-1985",
+   "title": "Rocky IV",
+   "year": 1985,
+   "poster": "2MHUit4H6OK5adcOjnCN6suCKOl.jpg",
+   "tmdb": 7.094
+  },
+  {
+   "id": "to-live-and-die-in-l-a-1985",
+   "title": "To Live and Die in L.A.",
+   "year": 1985,
+   "poster": "2iW3pSihBIhXjnBQmUJ0mAiZbB5.jpg",
+   "tmdb": 7.117
+  },
+  {
+   "id": "the-karate-kid-part-ii-1986",
+   "title": "The Karate Kid Part II",
+   "year": 1986,
+   "poster": "k0OwgRR6PNu7h3SiqpCbRdZWNaG.jpg",
+   "tmdb": 6.351
+  },
+  {
+   "id": "the-princess-bride-1987",
+   "title": "The Princess Bride",
+   "year": 1987,
+   "poster": "2FC9L9MrjBoGHYjYZjdWQdopVYb.jpg",
+   "tmdb": 7.706
+  },
+  {
+   "id": "road-house-1989",
+   "title": "Road House",
+   "year": 1989,
+   "poster": "n7Ra0BRYQVn47kiqOMyS8vdY0QS.jpg",
+   "tmdb": 6.768
+  },
+  {
+   "id": "days-of-thunder-1990",
+   "title": "Days of Thunder",
+   "year": 1990,
+   "poster": "8UvcoeMJag8UWGF8sg7eYspzq0Q.jpg",
+   "tmdb": 6.393
+  },
+  {
+   "id": "hard-to-kill-1990",
+   "title": "Hard to Kill",
+   "year": 1990,
+   "poster": "nmtMNxslljllSTVtt7VIOXdxSZp.jpg",
+   "tmdb": 5.996
+  },
+  {
+   "id": "the-godfather-part-iii-1990",
+   "title": "The Godfather Part III",
+   "year": 1990,
+   "poster": "lm3pQ2QoQ16pextRsmnUbG2onES.jpg",
+   "tmdb": 7.418
+  },
+  {
+   "id": "cape-fear-1991",
+   "title": "Cape Fear",
+   "year": 1991,
+   "poster": "meJZAAuVcjic2ipvbOPz5UlE4P9.jpg",
+   "tmdb": 7.26
+  },
+  {
+   "id": "out-for-justice-1991",
+   "title": "Out for Justice",
+   "year": 1991,
+   "poster": "nmfM1diysOyrX4JbvwS7uOomyes.jpg",
+   "tmdb": 6.182
+  },
+  {
+   "id": "the-last-of-the-mohicans-1992",
+   "title": "The Last of the Mohicans",
+   "year": 1992,
+   "poster": "qzJMPWRtZveBkxXOv3ucWhoJuyj.jpg",
+   "tmdb": 7.381
+  },
+  {
+   "id": "unforgiven-1992",
+   "title": "Unforgiven",
+   "year": 1992,
+   "poster": "54roTwbX9fltg85zjsmrooXAs12.jpg",
+   "tmdb": 7.912
+  },
+  {
+   "id": "die-hard-with-a-vengeance-1995",
+   "title": "Die Hard: With a Vengeance",
+   "year": 1995,
+   "poster": "buqmCdFQEWwEpL3agGgg2GVjN2d.jpg",
+   "tmdb": 7.283
+  },
+  {
+   "id": "face-off-1997",
+   "title": "Face/Off",
+   "year": 1997,
+   "poster": "69Xzn8UdPbVnmqSChKz2RTpoNfB.jpg",
+   "tmdb": 7.059
+  },
+  {
+   "id": "dirty-work-1998",
+   "title": "Dirty Work",
+   "year": 1998,
+   "poster": "r6OcS6TQCHal2wHooJhHWSlFzfd.jpg",
+   "tmdb": 6.219
+  },
+  {
+   "id": "gladiator-2000",
+   "title": "Gladiator",
+   "year": 2000,
+   "poster": "wN2xWp1eIwCKOD0BHTcErTBv1Uq.jpg",
+   "tmdb": 8.231
+  },
+  {
+   "id": "memento-2000",
+   "title": "Memento",
+   "year": 2000,
+   "poster": "nzlv62aC0octS5AklAiWpXLX9Z0.jpg",
+   "tmdb": 8.174
+  },
+  {
+   "id": "the-italian-job-2003",
+   "title": "The Italian Job",
+   "year": 2003,
+   "poster": "eSkjK4kctyrWpFhxl35GPvSs6tI.jpg",
+   "tmdb": 6.799
+  },
+  {
+   "id": "man-on-fire-2004",
+   "title": "Man on Fire",
+   "year": 2004,
+   "poster": "grCGLCcTHv9TChibzOwzUpykcjB.jpg",
+   "tmdb": 7.466
+  },
+  {
+   "id": "john-wick-2014",
+   "title": "John Wick",
+   "year": 2014,
+   "poster": "wXqWR7dHncNRbxoEGybEy7QTe9h.jpg",
+   "tmdb": 7.463
+  },
+  {
+   "id": "the-equalizer-2014",
+   "title": "The Equalizer",
+   "year": 2014,
+   "poster": "9u4yW7yPA0BQ2pv9XwiNzItwvp8.jpg",
+   "tmdb": 7.292
+  },
+  {
+   "id": "furious-7-2015",
+   "title": "Furious 7",
+   "year": 2015,
+   "poster": "ktofZ9Htrjiy0P6LEowsDaxd3Ri.jpg",
+   "tmdb": 7.2
+  },
+  {
+   "id": "sicario-2015",
+   "title": "Sicario",
+   "year": 2015,
+   "poster": "lz8vNyXeidqqOdJW9ZjnDAMb5Vr.jpg",
+   "tmdb": 7.427
+  },
+  {
+   "id": "get-out-2017",
+   "title": "Get Out",
+   "year": 2017,
+   "poster": "tFXcEccSQMf3lfhfXKSU9iRBpa3.jpg",
+   "tmdb": 7.625
+  },
+  {
+   "id": "john-wick-chapter-2-2017",
+   "title": "John Wick: Chapter 2",
+   "year": 2017,
+   "poster": "hXWBc0ioZP3cN4zCu6SN3YHXZVO.jpg",
+   "tmdb": 7.345
+  }
+ ]
+}

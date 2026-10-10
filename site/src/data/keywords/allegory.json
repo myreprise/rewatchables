@@ -1,0 +1,142 @@
+{
+ "word": "allegory",
+ "id": "allegory",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 8.0,
+ "vs_catalogue": 0.9,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 33.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "cyberpunk",
+   "reach": 5,
+   "band": "b5",
+   "id": "cyberpunk"
+  },
+  {
+   "word": "dystopia",
+   "reach": 17,
+   "band": "b3",
+   "id": "dystopia"
+  },
+  {
+   "word": "artificial intelligence (a.i.)",
+   "reach": 4,
+   "band": "b5",
+   "id": "artificial-intelligence-a-i"
+  },
+  {
+   "word": "chosen one",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "corrupt system",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "crime fighter",
+   "reach": 4,
+   "band": "b5",
+   "id": "crime-fighter"
+  },
+  {
+   "word": "cyborg",
+   "reach": 3,
+   "band": "b5",
+   "id": "cyborg"
+  },
+  {
+   "word": "deep",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "detroit, michigan",
+   "reach": 5,
+   "band": "b5",
+   "id": "detroit-michigan"
+  },
+  {
+   "word": "dream",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dream world",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dreams",
+   "reach": 3,
+   "band": "b5",
+   "id": "dreams"
+  },
+  {
+   "word": "emotional",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "evil corporation",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "robocop-1987",
+   "title": "RoboCop",
+   "year": 1987,
+   "poster": "hHtOgGb3NihlyRATHlKPaFApbrd.jpg",
+   "tmdb": 7.365
+  },
+  {
+   "id": "the-matrix-1999",
+   "title": "The Matrix",
+   "year": 1999,
+   "poster": "dXNAPwY7VrqMAo51EKhhCJfaGb5.jpg",
+   "tmdb": 8.256
+  },
+  {
+   "id": "inception-2010",
+   "title": "Inception",
+   "year": 2010,
+   "poster": "xlaY2zyzMfkhk0HSC5VUwzoZPU1.jpg",
+   "tmdb": 8.373
+  }
+ ]
+}

@@ -1,0 +1,156 @@
+{
+ "word": "journalism",
+ "id": "journalism",
+ "catalogue": 460,
+ "share": 1.1,
+ "thin": false,
+ "peak": 2000,
+ "avg_tmdb": 7.4,
+ "vs_catalogue": 0.3,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 2
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 40.0,
+ "catalogue_peak_share": 17.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "journalist",
+   "reach": 12,
+   "band": "b4",
+   "id": "journalist"
+  },
+  {
+   "word": "newspaper",
+   "reach": 6,
+   "band": "b5",
+   "id": "newspaper"
+  },
+  {
+   "word": "1990s",
+   "reach": 4,
+   "band": "b5",
+   "id": "1990s"
+  },
+  {
+   "word": "9/11",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "africa",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "ambivalent",
+   "reach": 3,
+   "band": "b5",
+   "id": "ambivalent"
+  },
+  {
+   "word": "archdiocese",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "assistant",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "biting",
+   "reach": 4,
+   "band": "b5",
+   "id": "biting"
+  },
+  {
+   "word": "bootlegger",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "boston, massachusetts",
+   "reach": 7,
+   "band": "b5",
+   "id": "boston-massachusetts"
+  },
+  {
+   "word": "bullied",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "broadcast-news-1987",
+   "title": "Broadcast News",
+   "year": 1987,
+   "poster": "kQNR1Lc0qAF5xuBySpDn481KVjb.jpg",
+   "tmdb": 6.782
+  },
+  {
+   "id": "the-insider-1999",
+   "title": "The Insider",
+   "year": 1999,
+   "poster": "w695X0FvTlBCS7GSLHNILnrfqPm.jpg",
+   "tmdb": 7.464
+  },
+  {
+   "id": "blood-diamond-2006",
+   "title": "Blood Diamond",
+   "year": 2006,
+   "poster": "sYAUuiWpoXGKHxUfHyjTj7Apj2h.jpg",
+   "tmdb": 7.559
+  },
+  {
+   "id": "the-devil-wears-prada-2006",
+   "title": "The Devil Wears Prada",
+   "year": 2006,
+   "poster": "8912AsVuS7Sj915apArUFbv6F9L.jpg",
+   "tmdb": 7.438
+  },
+  {
+   "id": "spotlight-2015",
+   "title": "Spotlight",
+   "year": 2015,
+   "poster": "8DPGG400FgaFWaqcv11n8mRd2NG.jpg",
+   "tmdb": 7.812
+  }
+ ]
+}

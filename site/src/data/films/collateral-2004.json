@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": null
   }
@@ -51,157 +57,183 @@
    "word": "neo-noir",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "neo-noir"
   },
   {
    "word": "police",
    "reach": 22,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "police"
   },
   {
    "word": "fbi",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "fbi"
   },
   {
    "word": "bold",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "bold"
   },
   {
    "word": "hostage",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hostage"
   },
   {
    "word": "hitman",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hitman"
   },
   {
    "word": "nightclub",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nightclub"
   },
   {
    "word": "taxi",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "taxi"
   },
   {
    "word": "dreary",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dreary"
   },
   {
    "word": "lapd",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lapd"
   },
   {
    "word": "sociopath",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sociopath"
   },
   {
    "word": "one night",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "one-night"
   },
   {
    "word": "gun violence",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gun-violence"
   },
   {
    "word": "taxi driver",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "taxi-driver"
   },
   {
    "word": "train",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "train"
   },
   {
    "word": "frantic",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "frantic"
   },
   {
    "word": "self-fulfilling prophecy",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "self-fulfilling-prophecy"
   },
   {
    "word": "briefcase",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "cabbie",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "car",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "contract killer",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "federal prosecutor",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "los angeles airport (lax)",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "professional hit",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "suspense thriller",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "taxi ride",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": null
   }
@@ -51,43 +57,50 @@
    "word": "gambling",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gambling"
   },
   {
    "word": "gun",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gun"
   },
   {
    "word": "reflective",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "reflective"
   },
   {
    "word": "professor",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "professor"
   },
   {
    "word": "beating",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "beating"
   },
   {
    "word": "gambler",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gambler"
   },
   {
    "word": "loan shark",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "loan-shark"
   }
  ],
  "cast": [

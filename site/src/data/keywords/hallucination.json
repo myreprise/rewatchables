@@ -1,0 +1,130 @@
+{
+ "word": "hallucination",
+ "id": "hallucination",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.5,
+ "vs_catalogue": 0.4,
+ "decades": [
+  {
+   "decade": 1990,
+   "n": 3
+  }
+ ],
+ "peak_share": 100.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "drugs",
+   "reach": 17,
+   "band": "b3",
+   "id": "drugs"
+  },
+  {
+   "word": "addicted",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "addiction",
+   "reach": 5,
+   "band": "b5",
+   "id": "addiction"
+  },
+  {
+   "word": "airplane",
+   "reach": 8,
+   "band": "b5",
+   "id": "airplane"
+  },
+  {
+   "word": "alcoholism",
+   "reach": 6,
+   "band": "b5",
+   "id": "alcoholism"
+  },
+  {
+   "word": "ambition",
+   "reach": 4,
+   "band": "b5",
+   "id": "ambition"
+  },
+  {
+   "word": "anti hero",
+   "reach": 8,
+   "band": "b5",
+   "id": "anti-hero"
+  },
+  {
+   "word": "anxious",
+   "reach": 8,
+   "band": "b5",
+   "id": "anxious"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "bible",
+   "reach": 2,
+   "band": "b5",
+   "id": "bible"
+  },
+  {
+   "word": "biography",
+   "reach": 10,
+   "band": "b5",
+   "id": "biography"
+  },
+  {
+   "word": "callous",
+   "reach": 5,
+   "band": "b5",
+   "id": "callous"
+  },
+  {
+   "word": "cautionary",
+   "reach": 6,
+   "band": "b5",
+   "id": "cautionary"
+  },
+  {
+   "word": "child abuse",
+   "reach": 6,
+   "band": "b5",
+   "id": "child-abuse"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-doors-1991",
+   "title": "The Doors",
+   "year": 1991,
+   "poster": "x1LM3dzGuG6xOz0aT2e71o11vhu.jpg",
+   "tmdb": 7.106
+  },
+  {
+   "id": "trainspotting-1996",
+   "title": "Trainspotting",
+   "year": 1996,
+   "poster": "1jUC02qsqS2NxBMFarbIhcQtazV.jpg",
+   "tmdb": 7.962
+  },
+  {
+   "id": "the-devils-advocate-1997",
+   "title": "The Devil's Advocate",
+   "year": 1997,
+   "poster": "5ZzBGpxy55OQzHxKVY11IpY6a0o.jpg",
+   "tmdb": 7.481
+  }
+ ]
+}

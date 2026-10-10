@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Glen Powell"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Glen Powell",
+     "id": "glen-powell"
+    }
    ],
    "note": null
   }
@@ -51,79 +60,92 @@
    "word": "dystopia",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "dystopia"
   },
   {
    "word": "dark comedy",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dark-comedy"
   },
   {
    "word": "escape",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "escape"
   },
   {
    "word": "deception",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "deception"
   },
   {
    "word": "paranoia",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "paranoia"
   },
   {
    "word": "suspicion",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "suspicion"
   },
   {
    "word": "television producer",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "television-producer"
   },
   {
    "word": "simulated reality ",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "simulated-reality"
   },
   {
    "word": "tv show in film",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "tv-show-in-film"
   },
   {
    "word": "actor",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "hidden camera",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "make believe",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "video surveillance",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

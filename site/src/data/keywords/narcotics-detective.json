@@ -1,0 +1,134 @@
+{
+ "word": "narcotics detective",
+ "id": "narcotics-detective",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 6.9,
+ "vs_catalogue": -0.2,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 2
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  }
+ ],
+ "peak_share": 67.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "buddy cop",
+   "reach": 11,
+   "band": "b5",
+   "id": "buddy-cop"
+  },
+  {
+   "word": "gunfight",
+   "reach": 7,
+   "band": "b5",
+   "id": "gunfight"
+  },
+  {
+   "word": "strip club",
+   "reach": 6,
+   "band": "b5",
+   "id": "strip-club"
+  },
+  {
+   "word": "beverly hills",
+   "reach": 4,
+   "band": "b5",
+   "id": "beverly-hills"
+  },
+  {
+   "word": "black cop",
+   "reach": 2,
+   "band": "b5",
+   "id": "black-cop"
+  },
+  {
+   "word": "detective comedy",
+   "reach": 2,
+   "band": "b5",
+   "id": "detective-comedy"
+  },
+  {
+   "word": "detroit, michigan",
+   "reach": 5,
+   "band": "b5",
+   "id": "detroit-michigan"
+  },
+  {
+   "word": "foot chase",
+   "reach": 3,
+   "band": "b5",
+   "id": "foot-chase"
+  },
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  },
+  {
+   "word": "murder investigation",
+   "reach": 3,
+   "band": "b5",
+   "id": "murder-investigation"
+  },
+  {
+   "word": "undercover",
+   "reach": 13,
+   "band": "b4",
+   "id": "undercover"
+  },
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "id": "absurd"
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  }
+ ],
+ "films": [
+  {
+   "id": "beverly-hills-cop-1984",
+   "title": "Beverly Hills Cop",
+   "year": 1984,
+   "poster": "eBJEvKkhQ0tUt1dBAcTEYW6kCle.jpg",
+   "tmdb": 7.211
+  },
+  {
+   "id": "beverly-hills-cop-ii-1987",
+   "title": "Beverly Hills Cop II",
+   "year": 1987,
+   "poster": "egDakU8O5yUwpUJP9IMAUVtIDll.jpg",
+   "tmdb": 6.532
+  },
+  {
+   "id": "bad-boys-1995",
+   "title": "Bad Boys",
+   "year": 1995,
+   "poster": "x1ygBecKHfXX4M2kRhmFKWfWbJc.jpg",
+   "tmdb": 6.831
+  }
+ ]
+}

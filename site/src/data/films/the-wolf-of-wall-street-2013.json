@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Chris Ryan",
+   "host": {
+    "name": "Chris Ryan",
+    "id": "chris-ryan"
+   },
    "guests": [
-    "Sean Fennessey",
-    "Ryen Russillo"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Ryen Russillo",
+     "id": "ryen-russillo"
+    }
    ],
    "note": null
   }
@@ -52,163 +61,190 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "based on true story",
    "reach": 25,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "based-on-true-story"
   },
   {
    "word": "drugs",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "drugs"
   },
   {
    "word": "1980s",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "1980s"
   },
   {
    "word": "corruption",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "corruption"
   },
   {
    "word": "biography",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "biography"
   },
   {
    "word": "anti hero",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "anti-hero"
   },
   {
    "word": "money",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "money"
   },
   {
    "word": "con man",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "con-man"
   },
   {
    "word": "con artist",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "con-artist"
   },
   {
    "word": "drug addiction",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drug-addiction"
   },
   {
    "word": "stockbroker",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "stockbroker"
   },
   {
    "word": "rise and fall",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rise-and-fall"
   },
   {
    "word": "wall street",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "wall-street"
   },
   {
    "word": "black monday",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "black-monday"
   },
   {
    "word": "fraud",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fraud"
   },
   {
    "word": "based on real person",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "corrupt",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "decadence",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "desire for fame",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "fame-seeking",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "financial drama",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "financial market",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "hedonism",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sharemarket fraud",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "stripping",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "wealthy",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

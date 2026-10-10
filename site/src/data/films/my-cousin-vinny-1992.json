@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Wesley Morris"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Wesley Morris",
+     "id": "wesley-morris"
+    }
    ],
    "note": "Courtroom Month"
   }
@@ -51,163 +60,190 @@
    "word": "amused",
    "reach": 26,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "amused"
   },
   {
    "word": "absurd",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "absurd"
   },
   {
    "word": "prison",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "prison"
   },
   {
    "word": "lawyer",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "lawyer"
   },
   {
    "word": "nostalgic",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "nostalgic"
   },
   {
    "word": "courtroom",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "courtroom"
   },
   {
    "word": "courtroom drama",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "courtroom-drama"
   },
   {
    "word": "court",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "court"
   },
   {
    "word": "fish out of water",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fish-out-of-water"
   },
   {
    "word": "joyful",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "joyful"
   },
   {
    "word": "small town",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "small-town"
   },
   {
    "word": "court case",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "court-case"
   },
   {
    "word": "best friends",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "best-friends"
   },
   {
    "word": "curious",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "curious"
   },
   {
    "word": "suspicion",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "suspicion"
   },
   {
    "word": "understated",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "understated"
   },
   {
    "word": "alabama",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alabama"
   },
   {
    "word": "cousin",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cousin"
   },
   {
    "word": "defense attorney",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "defense-attorney"
   },
   {
    "word": "murder suspect",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "murder-suspect"
   },
   {
    "word": "southern usa",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "southern-usa"
   },
   {
    "word": "wrongful arrest",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "wrongful-arrest"
   },
   {
    "word": "convenience store robbery",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "deep south",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "engaged couple",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "expert witness",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "ironic",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

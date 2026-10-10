@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Craig Horlbeck"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Craig Horlbeck",
+     "id": "craig-horlbeck"
+    }
    ],
    "note": null
   }
@@ -52,97 +61,113 @@
    "word": "based on true story",
    "reach": 25,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "based-on-true-story"
   },
   {
    "word": "dramatic",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "dramatic"
   },
   {
    "word": "survival",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "survival"
   },
   {
    "word": "appreciative",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "appreciative"
   },
   {
    "word": "disaster movie",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "disaster-movie"
   },
   {
    "word": "airplane crash",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "airplane-crash"
   },
   {
    "word": "cannibalism",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cannibalism"
   },
   {
    "word": "incredulous",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "incredulous"
   },
   {
    "word": "stranded",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "stranded"
   },
   {
    "word": "airplane wreck",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "andes mountains",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "freezing",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "frostbite",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "rugby",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "snow atmosphere",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "snow mountain survival",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

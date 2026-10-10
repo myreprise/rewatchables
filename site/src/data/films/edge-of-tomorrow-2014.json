@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Chris Ryan",
+   "host": {
+    "name": "Chris Ryan",
+    "id": "chris-ryan"
+   },
    "guests": [
-    "Sean Fennessey"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -50,145 +56,169 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "dystopia",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "dystopia"
   },
   {
    "word": "training",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "training"
   },
   {
    "word": "alien",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alien"
   },
   {
    "word": "adoring",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "adoring"
   },
   {
    "word": "anxious",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "anxious"
   },
   {
    "word": "time travel",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "time-travel"
   },
   {
    "word": "somber",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "somber"
   },
   {
    "word": "affectation",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "affectation"
   },
   {
    "word": "alien invasion",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alien-invasion"
   },
   {
    "word": "defiant",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "defiant"
   },
   {
    "word": "dignified",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dignified"
   },
   {
    "word": "earnest",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "earnest"
   },
   {
    "word": "sentimental",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sentimental"
   },
   {
    "word": "soldier",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "soldier"
   },
   {
    "word": "deja vu",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "deja-vu"
   },
   {
    "word": "military officer",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "military-officer"
   },
   {
    "word": "time loop",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "time-loop"
   },
   {
    "word": "war",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "war"
   },
   {
    "word": "war hero",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "war-hero"
   },
   {
    "word": "2020s",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "exoskeleton",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "restart",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "soldiers",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

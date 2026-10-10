@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Kyle Brandt"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Kyle Brandt",
+     "id": "kyle-brandt"
+    }
    ],
    "note": null
   }
@@ -52,139 +61,162 @@
    "word": "murder",
    "reach": 36,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "murder"
   },
   {
    "word": "neo-noir",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "neo-noir"
   },
   {
    "word": "police",
    "reach": 22,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "police"
   },
   {
    "word": "absurd",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "absurd"
   },
   {
    "word": "hilarious",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "hilarious"
   },
   {
    "word": "kidnapping",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "kidnapping"
   },
   {
    "word": "dark comedy",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dark-comedy"
   },
   {
    "word": "money",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "money"
   },
   {
    "word": "macabre",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "macabre"
   },
   {
    "word": "complex",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "complex"
   },
   {
    "word": "unsociability",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "unsociability"
   },
   {
    "word": "cheating",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cheating"
   },
   {
    "word": "winter",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "winter"
   },
   {
    "word": "car dealership",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "car-dealership"
   },
   {
    "word": "police officer",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "police-officer"
   },
   {
    "word": "ransom",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ransom"
   },
   {
    "word": "false history",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "minneapolis",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "minnesota",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "north dakota",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "salesclerk",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "straightforward",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "woodchipper",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

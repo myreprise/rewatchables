@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Van Lathan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": "Raj did not write a review but both Siskel & Ebert loathed the Friday the 13th films"
   }
@@ -50,133 +59,155 @@
    "word": "murder",
    "reach": 36,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "murder"
   },
   {
    "word": "revenge",
    "reach": 31,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "revenge"
   },
   {
    "word": "suspenseful",
    "reach": 30,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "suspenseful"
   },
   {
    "word": "serial killer",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "serial-killer"
   },
   {
    "word": "antagonistic",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "antagonistic"
   },
   {
    "word": "teenager",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "teenager"
   },
   {
    "word": "1950s",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1950s"
   },
   {
    "word": "halloween",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "halloween"
   },
   {
    "word": "stalking",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "stalking"
   },
   {
    "word": "villain",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "villain"
   },
   {
    "word": "sadism",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sadism"
   },
   {
    "word": "slasher",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "slasher"
   },
   {
    "word": "b-horror",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "b-horror"
   },
   {
    "word": "summer",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "summer"
   },
   {
    "word": "cabin",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cabin"
   },
   {
    "word": "drowning",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drowning"
   },
   {
    "word": "lake",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lake"
   },
   {
    "word": "new jersey",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "new-jersey"
   },
   {
    "word": "woods",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "woods"
   },
   {
    "word": "camp",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "series of murders",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "summer camp",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

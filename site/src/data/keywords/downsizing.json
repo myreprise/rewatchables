@@ -1,0 +1,118 @@
+{
+ "word": "downsizing",
+ "id": "downsizing",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "bad boss",
+   "reach": 2,
+   "band": "b5",
+   "id": "bad-boss"
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "brokerage",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "burnout",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "business rivalry",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "capitalism",
+   "reach": 5,
+   "band": "b5",
+   "id": "capitalism"
+  },
+  {
+   "word": "co-workers relationship",
+   "reach": 3,
+   "band": "b5",
+   "id": "co-workers-relationship"
+  },
+  {
+   "word": "corporate world",
+   "reach": 2,
+   "band": "b5",
+   "id": "corporate-world"
+  },
+  {
+   "word": "dallas, texas",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "id": "duringcreditsstinger"
+  },
+  {
+   "word": "economics",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "embezzlement",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "financial crisis",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "investment",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "office-space-1999",
+   "title": "Office Space",
+   "year": 1999,
+   "poster": "iEmTwOkUaLziMQCUZii5wPQBIAO.jpg",
+   "tmdb": 7.381
+  },
+  {
+   "id": "margin-call-2011",
+   "title": "Margin Call",
+   "year": 2011,
+   "poster": "qtO57obCJuUBS0en3HLgFgZ19Xk.jpg",
+   "tmdb": 6.855
+  }
+ ]
+}

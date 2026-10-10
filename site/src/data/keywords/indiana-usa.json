@@ -1,0 +1,134 @@
+{
+ "word": "indiana, usa",
+ "id": "indiana-usa",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1970,
+ "avg_tmdb": 7.2,
+ "vs_catalogue": 0.1,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 2
+  },
+  {
+   "decade": 1980,
+   "n": 1
+  }
+ ],
+ "peak_share": 67.0,
+ "catalogue_peak_share": 7.0,
+ "region": "usa",
+ "region_films": 20,
+ "region_places": 7,
+ "partners": [
+  {
+   "word": "sports",
+   "reach": 47,
+   "band": "b1",
+   "id": "sports"
+  },
+  {
+   "word": "1950s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1950s"
+  },
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "id": "admiring"
+  },
+  {
+   "word": "alien",
+   "reach": 9,
+   "band": "b5",
+   "id": "alien"
+  },
+  {
+   "word": "alien abduction",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "alien contact",
+   "reach": 2,
+   "band": "b5",
+   "id": "alien-contact"
+  },
+  {
+   "word": "alien encounter",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "alien language",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "alien life-form",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "alien space craft",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "alien spaceship",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "basketball",
+   "reach": 7,
+   "band": "b5",
+   "id": "basketball"
+  },
+  {
+   "word": "basketball coach",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "close-encounters-of-the-third-kind-1977",
+   "title": "Close Encounters of the Third Kind",
+   "year": 1977,
+   "poster": "yaPx3cK9zGFX3SbcKwxWM1QIbUh.jpg",
+   "tmdb": 7.359
+  },
+  {
+   "id": "breaking-away-1979",
+   "title": "Breaking Away",
+   "year": 1979,
+   "poster": "k7b5GsVJK1hfdwoYqcczN9pBba6.jpg",
+   "tmdb": 7.146
+  },
+  {
+   "id": "hoosiers-1986",
+   "title": "Hoosiers",
+   "year": 1986,
+   "poster": "dHpjZQXEdoi1xNLubM1rPmTHJYz.jpg",
+   "tmdb": 7.0
+  }
+ ]
+}

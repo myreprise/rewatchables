@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Mallory Rubin",
-    "Wesley Morris"
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    },
+    {
+     "name": "Wesley Morris",
+     "id": "wesley-morris"
+    }
    ],
    "note": null
   }
@@ -51,61 +60,71 @@
    "word": "murder",
    "reach": 36,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "murder"
   },
   {
    "word": "neo-noir",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "neo-noir"
   },
   {
    "word": "prison",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "prison"
   },
   {
    "word": "infidelity",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "infidelity"
   },
   {
    "word": "florida",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "florida"
   },
   {
    "word": "erotic thriller",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "erotic-thriller"
   },
   {
    "word": "femme fatale",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "femme-fatale"
   },
   {
    "word": "smoking",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "smoking"
   },
   {
    "word": "heatwave",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "heatwave"
   },
   {
    "word": "no air conditioning",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

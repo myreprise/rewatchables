@@ -37,11 +37,23 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Sean Fennessey",
-    "K. Austin Collins",
-    "Wesley Morris"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "K. Austin Collins",
+     "id": "k-austin-collins"
+    },
+    {
+     "name": "Wesley Morris",
+     "id": "wesley-morris"
+    }
    ],
    "note": null
   },
@@ -54,11 +66,23 @@
    "revisit_kind": "regular",
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey",
-    "Van Lathan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": "Cold Weather Tour 2024"
   }
@@ -68,91 +92,106 @@
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "philadelphia, pennsylvania",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "philadelphia-pennsylvania"
   },
   {
    "word": "underdog",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "underdog"
   },
   {
    "word": "boxing",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "boxing"
   },
   {
    "word": "trainer",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "trainer"
   },
   {
    "word": "mexico",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mexico"
   },
   {
    "word": "mentor",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mentor"
   },
   {
    "word": "underground fighting",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "underground-fighting"
   },
   {
    "word": "boxing champion",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "boxing manager",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "boxing trainer",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "cancer",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "legacy",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "motivational speaker",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "spin off",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

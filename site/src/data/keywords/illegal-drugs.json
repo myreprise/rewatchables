@@ -1,0 +1,118 @@
+{
+ "word": "illegal drugs",
+ "id": "illegal-drugs",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "addiction",
+   "reach": 5,
+   "band": "b5",
+   "id": "addiction"
+  },
+  {
+   "word": "anarchic comedy",
+   "reach": 3,
+   "band": "b5",
+   "id": "anarchic-comedy"
+  },
+  {
+   "word": "anti hero",
+   "reach": 8,
+   "band": "b5",
+   "id": "anti-hero"
+  },
+  {
+   "word": "aquarium",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "assassination",
+   "reach": 5,
+   "band": "b5",
+   "id": "assassination"
+  },
+  {
+   "word": "baseball",
+   "reach": 10,
+   "band": "b5",
+   "id": "baseball"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "based on tv series",
+   "reach": 3,
+   "band": "b5",
+   "id": "based-on-tv-series"
+  },
+  {
+   "word": "buddy cop",
+   "reach": 11,
+   "band": "b5",
+   "id": "buddy-cop"
+  },
+  {
+   "word": "bumbling detective",
+   "reach": 3,
+   "band": "b5",
+   "id": "bumbling-detective"
+  },
+  {
+   "word": "cold turkey",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "criminal investigation",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dark comedy",
+   "reach": 10,
+   "band": "b5",
+   "id": "dark-comedy"
+  },
+  {
+   "word": "drug abuse",
+   "reach": 4,
+   "band": "b5",
+   "id": "drug-abuse"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-naked-gun-from-the-files-of-police-squad-1988",
+   "title": "The Naked Gun: From the Files of Police Squad!",
+   "year": 1988,
+   "poster": "zT0mhZqZQJE1gSY5Eg9qcGP4NYo.jpg",
+   "tmdb": 7.282
+  },
+  {
+   "id": "trainspotting-1996",
+   "title": "Trainspotting",
+   "year": 1996,
+   "poster": "1jUC02qsqS2NxBMFarbIhcQtazV.jpg",
+   "tmdb": 7.962
+  }
+ ]
+}

@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Mallory Rubin",
-    "Mina Kimes"
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    },
+    {
+     "name": "Mina Kimes",
+     "id": "mina-kimes"
+    }
    ],
    "note": null
   }
@@ -52,61 +61,71 @@
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "1960s",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "1960s"
   },
   {
    "word": "baseball",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "baseball"
   },
   {
    "word": "dog",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dog"
   },
   {
    "word": "fourth of july",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fourth-of-july"
   },
   {
    "word": "kids' sports team",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "kids-sports-team"
   },
   {
    "word": "san fernando valley",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "san-fernando-valley"
   },
   {
    "word": "fence",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mastiff",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "tree house",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

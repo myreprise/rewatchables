@@ -1,0 +1,138 @@
+{
+ "word": "symbolism",
+ "id": "symbolism",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1970,
+ "avg_tmdb": 8.2,
+ "vs_catalogue": 1.1,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 2
+  },
+  {
+   "decade": 1980,
+   "n": 0
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  }
+ ],
+ "peak_share": 67.0,
+ "catalogue_peak_share": 7.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "gangster",
+   "reach": 18,
+   "band": "b3",
+   "id": "gangster"
+  },
+  {
+   "word": "italy",
+   "reach": 5,
+   "band": "b5",
+   "id": "italy"
+  },
+  {
+   "word": "mafia",
+   "reach": 12,
+   "band": "b4",
+   "id": "mafia"
+  },
+  {
+   "word": "organized crime",
+   "reach": 15,
+   "band": "b4",
+   "id": "organized-crime"
+  },
+  {
+   "word": "1950s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1950s"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "italian american",
+   "reach": 7,
+   "band": "b5",
+   "id": "italian-american"
+  },
+  {
+   "word": "lawyer",
+   "reach": 15,
+   "band": "b4",
+   "id": "lawyer"
+  },
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "id": "new-york-city"
+  },
+  {
+   "word": "revenge",
+   "reach": 31,
+   "band": "b2",
+   "id": "revenge"
+  },
+  {
+   "word": "sequel",
+   "reach": 28,
+   "band": "b2",
+   "id": "sequel"
+  },
+  {
+   "word": "sicilian mafia",
+   "reach": 2,
+   "band": "b5",
+   "id": "sicilian-mafia"
+  },
+  {
+   "word": "1940s",
+   "reach": 5,
+   "band": "b5",
+   "id": "1940s"
+  },
+  {
+   "word": "assassination",
+   "reach": 5,
+   "band": "b5",
+   "id": "assassination"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-godfather-1972",
+   "title": "The Godfather",
+   "year": 1972,
+   "poster": "3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+   "tmdb": 8.686
+  },
+  {
+   "id": "the-godfather-part-ii-1974",
+   "title": "The Godfather Part II",
+   "year": 1974,
+   "poster": "sSuQTCZwqKrNBNIsksO9IAUoWP9.jpg",
+   "tmdb": 8.573
+  },
+  {
+   "id": "the-godfather-part-iii-1990",
+   "title": "The Godfather Part III",
+   "year": 1990,
+   "poster": "lm3pQ2QoQ16pextRsmnUbG2onES.jpg",
+   "tmdb": 7.418
+  }
+ ]
+}

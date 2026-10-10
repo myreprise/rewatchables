@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Ryen Russillo"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Ryen Russillo",
+     "id": "ryen-russillo"
+    }
    ],
    "note": null
   }
@@ -52,157 +61,183 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "shootout",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "shootout"
   },
   {
    "word": "heist",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "heist"
   },
   {
    "word": "drug dealer",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drug-dealer"
   },
   {
    "word": "violence",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "violence"
   },
   {
    "word": "boston, massachusetts",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "boston-massachusetts"
   },
   {
    "word": "friends",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "friends"
   },
   {
    "word": "best friend",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "best-friend"
   },
   {
    "word": "desperate",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "desperate"
   },
   {
    "word": "bank robbery",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bank-robbery"
   },
   {
    "word": "fbi agent",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fbi-agent"
   },
   {
    "word": "irish-american",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "irish-american"
   },
   {
    "word": "massachusetts",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "massachusetts"
   },
   {
    "word": "police chase",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "police-chase"
   },
   {
    "word": "stolen money",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "stolen-money"
   },
   {
    "word": "ambulance",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ambulance"
   },
   {
    "word": "criminal gang",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "criminal-gang"
   },
   {
    "word": "hold-up robbery",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hold-up-robbery"
   },
   {
    "word": "money laundering",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "money-laundering"
   },
   {
    "word": "bank manager",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "boston garden",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "car fire",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "fenway park",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "florist",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "flower shop",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "volunteer",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

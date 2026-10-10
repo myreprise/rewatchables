@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Van Lathan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": null
   }
@@ -52,133 +61,155 @@
    "word": "los angeles, california",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "los-angeles-california"
   },
   {
    "word": "amused",
    "reach": 26,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "amused"
   },
   {
    "word": "on the run",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "on-the-run"
   },
   {
    "word": "alien",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alien"
   },
   {
    "word": "creature",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "creature"
   },
   {
    "word": "femme fatale",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "femme-fatale"
   },
   {
    "word": "paranoia",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "paranoia"
   },
   {
    "word": "scientist",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "scientist"
   },
   {
    "word": "telepathy",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "telepathy"
   },
   {
    "word": "decapitation",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "decapitation"
   },
   {
    "word": "dna",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dna"
   },
   {
    "word": "sexual desire",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sexual-desire"
   },
   {
    "word": "alien dna",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "cocoon",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "genetic engineering",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "genetics",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "gynophobia",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "heteronormative",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "instinct",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "interspecies romance",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sexual attraction",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "transformation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

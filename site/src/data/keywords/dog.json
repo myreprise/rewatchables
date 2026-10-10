@@ -1,0 +1,152 @@
+{
+ "word": "dog",
+ "id": "dog",
+ "catalogue": 460,
+ "share": 1.1,
+ "thin": false,
+ "peak": 2000,
+ "avg_tmdb": 7.3,
+ "vs_catalogue": 0.2,
+ "decades": [
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 2
+  },
+  {
+   "decade": 2010,
+   "n": 2
+  }
+ ],
+ "peak_share": 40.0,
+ "catalogue_peak_share": 17.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "hitman",
+   "reach": 7,
+   "band": "b5",
+   "id": "hitman"
+  },
+  {
+   "word": "philadelphia, pennsylvania",
+   "reach": 11,
+   "band": "b5",
+   "id": "philadelphia-pennsylvania"
+  },
+  {
+   "word": "revenge",
+   "reach": 31,
+   "band": "b2",
+   "id": "revenge"
+  },
+  {
+   "word": "secret organization",
+   "reach": 2,
+   "band": "b5",
+   "id": "secret-organization"
+  },
+  {
+   "word": "1960s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1960s"
+  },
+  {
+   "word": "aggressive",
+   "reach": 18,
+   "band": "b3",
+   "id": "aggressive"
+  },
+  {
+   "word": "animal show",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "archbishop",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "army colonel",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "assassin",
+   "reach": 8,
+   "band": "b5",
+   "id": "assassin"
+  },
+  {
+   "word": "assassination",
+   "reach": 5,
+   "band": "b5",
+   "id": "assassination"
+  },
+  {
+   "word": "baseball",
+   "reach": 10,
+   "band": "b5",
+   "id": "baseball"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "bitter",
+   "reach": 2,
+   "band": "b5",
+   "id": "bitter"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-sandlot-1993",
+   "title": "The Sandlot",
+   "year": 1993,
+   "poster": "7PYqz0viEuW8qTvuGinUMjDWMnj.jpg",
+   "tmdb": 7.563
+  },
+  {
+   "id": "best-in-show-2000",
+   "title": "Best in Show",
+   "year": 2000,
+   "poster": "2SqHjWWqfJjQE6zLCbQR9HMla4Q.jpg",
+   "tmdb": 6.886
+  },
+  {
+   "id": "shooter-2007",
+   "title": "Shooter",
+   "year": 2007,
+   "poster": "2aWGxo1E5polpBjPvtBRkWp7qaS.jpg",
+   "tmdb": 7.13
+  },
+  {
+   "id": "john-wick-2014",
+   "title": "John Wick",
+   "year": 2014,
+   "poster": "wXqWR7dHncNRbxoEGybEy7QTe9h.jpg",
+   "tmdb": 7.463
+  },
+  {
+   "id": "john-wick-chapter-2-2017",
+   "title": "John Wick: Chapter 2",
+   "year": 2017,
+   "poster": "hXWBc0ioZP3cN4zCu6SN3YHXZVO.jpg",
+   "tmdb": 7.345
+  }
+ ]
+}

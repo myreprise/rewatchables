@@ -1,0 +1,118 @@
+{
+ "word": "fictional government agency",
+ "id": "fictional-government-agency",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "based on tv series",
+   "reach": 3,
+   "band": "b5",
+   "id": "based-on-tv-series"
+  },
+  {
+   "word": "central intelligence agency (cia)",
+   "reach": 8,
+   "band": "b5",
+   "id": "central-intelligence-agency-cia"
+  },
+  {
+   "word": "fake identity",
+   "reach": 7,
+   "band": "b5",
+   "id": "fake-identity"
+  },
+  {
+   "word": "government agency",
+   "reach": 2,
+   "band": "b5",
+   "id": "government-agency"
+  },
+  {
+   "word": "infiltration",
+   "reach": 2,
+   "band": "b5",
+   "id": "infiltration"
+  },
+  {
+   "word": "london, england",
+   "reach": 6,
+   "band": "b5",
+   "id": "london-england"
+  },
+  {
+   "word": "mask",
+   "reach": 5,
+   "band": "b5",
+   "id": "mask"
+  },
+  {
+   "word": "paris, france",
+   "reach": 10,
+   "band": "b5",
+   "id": "paris-france"
+  },
+  {
+   "word": "secret government organization",
+   "reach": 2,
+   "band": "b5",
+   "id": "secret-government-organization"
+  },
+  {
+   "word": "spy",
+   "reach": 11,
+   "band": "b5",
+   "id": "spy"
+  },
+  {
+   "word": "action",
+   "reach": 2,
+   "band": "b5",
+   "id": "action"
+  },
+  {
+   "word": "agent",
+   "reach": 3,
+   "band": "b5",
+   "id": "agent"
+  },
+  {
+   "word": "arms deal",
+   "reach": 2,
+   "band": "b5",
+   "id": "arms-deal"
+  },
+  {
+   "word": "bomb remote detonator",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "mission-impossible-1996",
+   "title": "Mission: Impossible",
+   "year": 1996,
+   "poster": "l5uxY5m5OInWpcExIpKG6AR3rgL.jpg",
+   "tmdb": 7.027
+  },
+  {
+   "id": "mission-impossible-fallout-2018",
+   "title": "Mission: Impossible - Fallout",
+   "year": 2018,
+   "poster": "AkJQpZp9WoNdj7pLYSj1L0RcMMN.jpg",
+   "tmdb": 7.45
+  }
+ ]
+}

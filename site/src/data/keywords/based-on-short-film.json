@@ -1,0 +1,118 @@
+{
+ "word": "based on short film",
+ "id": "based-on-short-film",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "angry",
+   "reach": 8,
+   "band": "b5",
+   "id": "angry"
+  },
+  {
+   "word": "aggressive",
+   "reach": 18,
+   "band": "b3",
+   "id": "aggressive"
+  },
+  {
+   "word": "antagonistic",
+   "reach": 13,
+   "band": "b4",
+   "id": "antagonistic"
+  },
+  {
+   "word": "anxious",
+   "reach": 8,
+   "band": "b5",
+   "id": "anxious"
+  },
+  {
+   "word": "betrayal",
+   "reach": 9,
+   "band": "b5",
+   "id": "betrayal"
+  },
+  {
+   "word": "bold",
+   "reach": 15,
+   "band": "b4",
+   "id": "bold"
+  },
+  {
+   "word": "botched robbery",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "conservatory",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "desperate",
+   "reach": 6,
+   "band": "b5",
+   "id": "desperate"
+  },
+  {
+   "word": "disapproving",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "drummer",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "drums",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "ear",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "emotional abuse",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "reservoir-dogs-1992",
+   "title": "Reservoir Dogs",
+   "year": 1992,
+   "poster": "xi8Iu6qyTfyZVDVy60raIOYJJmk.jpg",
+   "tmdb": 8.111
+  },
+  {
+   "id": "whiplash-2014",
+   "title": "Whiplash",
+   "year": 2014,
+   "poster": "7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+   "tmdb": 8.375
+  }
+ ]
+}

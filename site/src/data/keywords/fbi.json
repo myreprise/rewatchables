@@ -1,0 +1,265 @@
+{
+ "word": "fbi",
+ "id": "fbi",
+ "catalogue": 460,
+ "share": 4.3,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.2,
+ "vs_catalogue": 0.2,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 2
+  },
+  {
+   "decade": 1990,
+   "n": 9
+  },
+  {
+   "decade": 2000,
+   "n": 4
+  },
+  {
+   "decade": 2010,
+   "n": 4
+  }
+ ],
+ "peak_share": 45.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "id": "murder"
+  },
+  {
+   "word": "neo-noir",
+   "reach": 29,
+   "band": "b2",
+   "id": "neo-noir"
+  },
+  {
+   "word": "organized crime",
+   "reach": 15,
+   "band": "b4",
+   "id": "organized-crime"
+  },
+  {
+   "word": "shootout",
+   "reach": 17,
+   "band": "b3",
+   "id": "shootout"
+  },
+  {
+   "word": "fbi agent",
+   "reach": 5,
+   "band": "b5",
+   "id": "fbi-agent"
+  },
+  {
+   "word": "hostage",
+   "reach": 9,
+   "band": "b5",
+   "id": "hostage"
+  },
+  {
+   "word": "intense",
+   "reach": 23,
+   "band": "b3",
+   "id": "intense"
+  },
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  },
+  {
+   "word": "revenge",
+   "reach": 31,
+   "band": "b2",
+   "id": "revenge"
+  },
+  {
+   "word": "1980s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1980s"
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "bomb",
+   "reach": 6,
+   "band": "b5",
+   "id": "bomb"
+  },
+  {
+   "word": "brutality",
+   "reach": 4,
+   "band": "b5",
+   "id": "brutality"
+  }
+ ],
+ "films": [
+  {
+   "id": "all-the-presidents-men-1976",
+   "title": "All the President's Men",
+   "year": 1976,
+   "poster": "pCe6lfLxt1B58zPD4lgQrlnDS2j.jpg",
+   "tmdb": 7.656
+  },
+  {
+   "id": "manhunter-1986",
+   "title": "Manhunter",
+   "year": 1986,
+   "poster": "6rb24x39vV8n5301IelC8rCPJTH.jpg",
+   "tmdb": 7.009
+  },
+  {
+   "id": "die-hard-1988",
+   "title": "Die Hard",
+   "year": 1988,
+   "poster": "7Bjd8kfmDSOzpmhySpEhkUyK2oH.jpg",
+   "tmdb": 7.816
+  },
+  {
+   "id": "point-break-1991",
+   "title": "Point Break",
+   "year": 1991,
+   "poster": "tlbERIghrQ4oofqlbF7H0K0EYnx.jpg",
+   "tmdb": 7.152
+  },
+  {
+   "id": "the-silence-of-the-lambs-1991",
+   "title": "The Silence of the Lambs",
+   "year": 1991,
+   "poster": "uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
+   "tmdb": 8.345
+  },
+  {
+   "id": "the-firm-1993",
+   "title": "The Firm",
+   "year": 1993,
+   "poster": "kFexXCzidkm4LwlgZqxsJsDQB5v.jpg",
+   "tmdb": 6.744
+  },
+  {
+   "id": "casino-1995",
+   "title": "Casino",
+   "year": 1995,
+   "poster": "gziIkUSnYuj9ChCi8qOu2ZunpSC.jpg",
+   "tmdb": 7.998
+  },
+  {
+   "id": "die-hard-with-a-vengeance-1995",
+   "title": "Die Hard: With a Vengeance",
+   "year": 1995,
+   "poster": "buqmCdFQEWwEpL3agGgg2GVjN2d.jpg",
+   "tmdb": 7.283
+  },
+  {
+   "id": "ransom-1996",
+   "title": "Ransom",
+   "year": 1996,
+   "poster": "4nmOA5ZOY2VlHzwSlKY03sF2JUz.jpg",
+   "tmdb": 6.7
+  },
+  {
+   "id": "the-rock-1996",
+   "title": "The Rock",
+   "year": 1996,
+   "poster": "eBcoxveWzzXQrCrwWMGAROcqgpP.jpg",
+   "tmdb": 7.156
+  },
+  {
+   "id": "cop-land-1997",
+   "title": "Cop Land",
+   "year": 1997,
+   "poster": "dyOqXyPCQh8VF0KA5aelBCCQond.jpg",
+   "tmdb": 6.816
+  },
+  {
+   "id": "face-off-1997",
+   "title": "Face/Off",
+   "year": 1997,
+   "poster": "69Xzn8UdPbVnmqSChKz2RTpoNfB.jpg",
+   "tmdb": 7.059
+  },
+  {
+   "id": "catch-me-if-you-can-2002",
+   "title": "Catch Me If You Can",
+   "year": 2002,
+   "poster": "ctjEj2xM32OvBXCq8zAdK3ZrsAj.jpg",
+   "tmdb": 7.978
+  },
+  {
+   "id": "collateral-2004",
+   "title": "Collateral",
+   "year": 2004,
+   "poster": "nV5316WUsVij8sVXLCF1g7TFitg.jpg",
+   "tmdb": 7.249
+  },
+  {
+   "id": "miami-vice-2006",
+   "title": "Miami Vice",
+   "year": 2006,
+   "poster": "iJPSls4taB09EUKtLj6FjFSprb3.jpg",
+   "tmdb": 6.034
+  },
+  {
+   "id": "shooter-2007",
+   "title": "Shooter",
+   "year": 2007,
+   "poster": "2aWGxo1E5polpBjPvtBRkWp7qaS.jpg",
+   "tmdb": 7.13
+  },
+  {
+   "id": "fast-five-2011",
+   "title": "Fast Five",
+   "year": 2011,
+   "poster": "gEfQjjQwY7fh5bI4GlG0RrBu7Pz.jpg",
+   "tmdb": 7.244
+  },
+  {
+   "id": "the-equalizer-2014",
+   "title": "The Equalizer",
+   "year": 2014,
+   "poster": "9u4yW7yPA0BQ2pv9XwiNzItwvp8.jpg",
+   "tmdb": 7.292
+  },
+  {
+   "id": "sicario-2015",
+   "title": "Sicario",
+   "year": 2015,
+   "poster": "lz8vNyXeidqqOdJW9ZjnDAMb5Vr.jpg",
+   "tmdb": 7.427
+  },
+  {
+   "id": "den-of-thieves-2018",
+   "title": "Den of Thieves",
+   "year": 2018,
+   "poster": "dAP5NpkrMMczir5dUPjRR6ywqgz.jpg",
+   "tmdb": 6.873
+  }
+ ]
+}

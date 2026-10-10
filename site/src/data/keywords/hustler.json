@@ -1,0 +1,112 @@
+{
+ "word": "hustler",
+ "id": "hustler",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "chess",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "chess champion",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "chess match",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "chess tournament",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "child prodigy",
+   "reach": 4,
+   "band": "b5",
+   "id": "child-prodigy"
+  },
+  {
+   "word": "inspirational",
+   "reach": 14,
+   "band": "b4",
+   "id": "inspirational"
+  },
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "id": "new-york-city"
+  },
+  {
+   "word": "playing chess",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "pool billiards",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "pressure to perform",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "sports",
+   "reach": 47,
+   "band": "b1",
+   "id": "sports"
+  },
+  {
+   "word": "talent",
+   "reach": 3,
+   "band": "b5",
+   "id": "talent"
+  },
+  {
+   "word": "understated",
+   "reach": 3,
+   "band": "b5",
+   "id": "understated"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-color-of-money-1986",
+   "title": "The Color of Money",
+   "year": 1986,
+   "poster": "dVdnHmdQu3JtLAAksjTmTEF76gD.jpg",
+   "tmdb": 6.852
+  },
+  {
+   "id": "searching-for-bobby-fischer-1993",
+   "title": "Searching for Bobby Fischer",
+   "year": 1993,
+   "poster": "oAJpHkMpfXiFY9F3HocIz9fhHLc.jpg",
+   "tmdb": 7.069
+  }
+ ]
+}

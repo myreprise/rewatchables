@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": "Rog originally gave it 3.5/4 stars, but re-assessed in 2011"
   }
@@ -52,121 +61,141 @@
    "word": "murder",
    "reach": 36,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "murder"
   },
   {
    "word": "neo-noir",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "neo-noir"
   },
   {
    "word": "police",
    "reach": 22,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "police"
   },
   {
    "word": "detective",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "detective"
   },
   {
    "word": "shootout",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "shootout"
   },
   {
    "word": "investigation",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "investigation"
   },
   {
    "word": "psychopath",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "psychopath"
   },
   {
    "word": "serial killer",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "serial-killer"
   },
   {
    "word": "sadism",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sadism"
   },
   {
    "word": "religion",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "religion"
   },
   {
    "word": "rage and hate",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rage-and-hate"
   },
   {
    "word": "s.w.a.t.",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "s-w-a-t"
   },
   {
    "word": "corpse",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "corpse"
   },
   {
    "word": "depravity",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "depravity"
   },
   {
    "word": "insomnia",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "insomnia"
   },
   {
    "word": "self-fulfilling prophecy",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "self-fulfilling-prophecy"
   },
   {
    "word": "seven deadly sins",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "seven-deadly-sins"
   },
   {
    "word": "grimdark",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "seven: los siete pecados capitales",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "urban gothic",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

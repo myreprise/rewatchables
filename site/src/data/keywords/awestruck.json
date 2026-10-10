@@ -1,0 +1,202 @@
+{
+ "word": "awestruck",
+ "id": "awestruck",
+ "catalogue": 460,
+ "share": 2.4,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.3,
+ "vs_catalogue": 0.2,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 3
+  },
+  {
+   "decade": 1990,
+   "n": 2
+  },
+  {
+   "decade": 2000,
+   "n": 2
+  },
+  {
+   "decade": 2010,
+   "n": 3
+  }
+ ],
+ "peak_share": 27.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "manipulation",
+   "reach": 9,
+   "band": "b5",
+   "id": "manipulation"
+  },
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "id": "murder"
+  },
+  {
+   "word": "neo-noir",
+   "reach": 29,
+   "band": "b2",
+   "id": "neo-noir"
+  },
+  {
+   "word": "ambiguous",
+   "reach": 9,
+   "band": "b5",
+   "id": "ambiguous"
+  },
+  {
+   "word": "audacious",
+   "reach": 10,
+   "band": "b5",
+   "id": "audacious"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "chicago, illinois",
+   "reach": 19,
+   "band": "b3",
+   "id": "chicago-illinois"
+  },
+  {
+   "word": "dirty cop",
+   "reach": 5,
+   "band": "b5",
+   "id": "dirty-cop"
+  },
+  {
+   "word": "dramatic",
+   "reach": 18,
+   "band": "b3",
+   "id": "dramatic"
+  },
+  {
+   "word": "foreboding",
+   "reach": 2,
+   "band": "b5",
+   "id": "foreboding"
+  },
+  {
+   "word": "idealist",
+   "reach": 2,
+   "band": "b5",
+   "id": "idealist"
+  },
+  {
+   "word": "intense",
+   "reach": 23,
+   "band": "b3",
+   "id": "intense"
+  },
+  {
+   "word": "investigation",
+   "reach": 14,
+   "band": "b4",
+   "id": "investigation"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-omen-1976",
+   "title": "The Omen",
+   "year": 1976,
+   "poster": "mDcjjEu1fMNmsXi4l4D8IftlTix.jpg",
+   "tmdb": 7.404
+  },
+  {
+   "id": "the-blues-brothers-1980",
+   "title": "The Blues Brothers",
+   "year": 1980,
+   "poster": "b0hq1d2d7FIvRGNLewKLm79JNTK.jpg",
+   "tmdb": 7.716
+  },
+  {
+   "id": "thief-1981",
+   "title": "Thief",
+   "year": 1981,
+   "poster": "bpjRGwfYJ71bU0hNhLIz7g3t6Oy.jpg",
+   "tmdb": 7.231
+  },
+  {
+   "id": "poltergeist-1982",
+   "title": "Poltergeist",
+   "year": 1982,
+   "poster": "4eMN3GANH5GG4kXdHkrTZEUuQ9M.jpg",
+   "tmdb": 7.2
+  },
+  {
+   "id": "quiz-show-1994",
+   "title": "Quiz Show",
+   "year": 1994,
+   "poster": "yoGJo1h3Hl2exXPVcG9UXWDENtX.jpg",
+   "tmdb": 7.25
+  },
+  {
+   "id": "bad-boys-1995",
+   "title": "Bad Boys",
+   "year": 1995,
+   "poster": "x1ygBecKHfXX4M2kRhmFKWfWbJc.jpg",
+   "tmdb": 6.831
+  },
+  {
+   "id": "memento-2000",
+   "title": "Memento",
+   "year": 2000,
+   "poster": "nzlv62aC0octS5AklAiWpXLX9Z0.jpg",
+   "tmdb": 8.174
+  },
+  {
+   "id": "zodiac-2007",
+   "title": "Zodiac",
+   "year": 2007,
+   "poster": "6YmeO4pB7XTh8P8F960O1uA14JO.jpg",
+   "tmdb": 7.532
+  },
+  {
+   "id": "bridesmaids-2011",
+   "title": "Bridesmaids",
+   "year": 2011,
+   "poster": "gJtA7hYsBMQ7EM3sPBMUdBfU7a0.jpg",
+   "tmdb": 6.509
+  },
+  {
+   "id": "sicario-2015",
+   "title": "Sicario",
+   "year": 2015,
+   "poster": "lz8vNyXeidqqOdJW9ZjnDAMb5Vr.jpg",
+   "tmdb": 7.427
+  },
+  {
+   "id": "dunkirk-2017",
+   "title": "Dunkirk",
+   "year": 2017,
+   "poster": "b4Oe15CGLL61Ped0RAS9JpqdmCt.jpg",
+   "tmdb": 7.451
+  }
+ ]
+}

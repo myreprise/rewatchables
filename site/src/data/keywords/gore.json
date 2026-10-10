@@ -1,0 +1,138 @@
+{
+ "word": "gore",
+ "id": "gore",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.7,
+ "vs_catalogue": 0.6,
+ "decades": [
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 33.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "assassin",
+   "reach": 8,
+   "band": "b5",
+   "id": "assassin"
+  },
+  {
+   "word": "gangster",
+   "reach": 18,
+   "band": "b3",
+   "id": "gangster"
+  },
+  {
+   "word": "organized crime",
+   "reach": 15,
+   "band": "b4",
+   "id": "organized-crime"
+  },
+  {
+   "word": "prison",
+   "reach": 16,
+   "band": "b4",
+   "id": "prison"
+  },
+  {
+   "word": "vigilante justice",
+   "reach": 5,
+   "band": "b5",
+   "id": "vigilante-justice"
+  },
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1970s"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "biography",
+   "reach": 10,
+   "band": "b5",
+   "id": "biography"
+  },
+  {
+   "word": "black ops",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bomb",
+   "reach": 6,
+   "band": "b5",
+   "id": "bomb"
+  },
+  {
+   "word": "brooklyn, new york city",
+   "reach": 4,
+   "band": "b5",
+   "id": "brooklyn-new-york-city"
+  },
+  {
+   "word": "call girl",
+   "reach": 3,
+   "band": "b5",
+   "id": "call-girl"
+  },
+  {
+   "word": "callous",
+   "reach": 5,
+   "band": "b5",
+   "id": "callous"
+  }
+ ],
+ "films": [
+  {
+   "id": "goodfellas-1990",
+   "title": "GoodFellas",
+   "year": 1990,
+   "poster": "9OkCLM73MIU2CrKZbqiT8Ln1wY2.jpg",
+   "tmdb": 8.451
+  },
+  {
+   "id": "law-abiding-citizen-2009",
+   "title": "Law Abiding Citizen",
+   "year": 2009,
+   "poster": "fcEXcip7v0O1ndV4VUdFqJSqbOg.jpg",
+   "tmdb": 7.395
+  },
+  {
+   "id": "the-equalizer-2014",
+   "title": "The Equalizer",
+   "year": 2014,
+   "poster": "9u4yW7yPA0BQ2pv9XwiNzItwvp8.jpg",
+   "tmdb": 7.292
+  }
+ ]
+}

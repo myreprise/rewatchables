@@ -1,0 +1,36 @@
+{
+ "name": "Liz Kelly",
+ "id": "liz-kelly",
+ "episodes": 1,
+ "share": 0.0021,
+ "hosted": 0,
+ "first": "2020-12-15",
+ "last": "2020-12-15",
+ "shelf": [
+  {
+   "id": "country-strong-2010",
+   "title": "Country Strong",
+   "year": 2010,
+   "poster": "6C95tD92E9xm5poyyzs37bYemM0.jpg",
+   "episode": 178,
+   "aired": "2020-12-15"
+  }
+ ],
+ "company": [
+  {
+   "name": "Amanda Dobbins",
+   "id": "amanda-dobbins",
+   "episodes": 1
+  }
+ ],
+ "regular": false,
+ "lean_floor": 15,
+ "leans": [],
+ "verdict_floor": 8,
+ "verdicts": {
+  "cruise": 0,
+  "hanks": 0,
+  "ties": 0,
+  "n": 0
+ }
+}

@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Van Lathan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": "Courtroom Month"
   }
@@ -52,151 +61,176 @@
    "word": "legal thriller",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "legal-thriller"
   },
   {
    "word": "anxious",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "anxious"
   },
   {
    "word": "obsession",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "obsession"
   },
   {
    "word": "courtroom",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "courtroom"
   },
   {
    "word": "manhattan, new york city",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "manhattan-new-york-city"
   },
   {
    "word": "marriage crisis",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "marriage-crisis"
   },
   {
    "word": "supernatural horror",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "supernatural-horror"
   },
   {
    "word": "cautionary",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cautionary"
   },
   {
    "word": "child abuse",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "child-abuse"
   },
   {
    "word": "callous",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "callous"
   },
   {
    "word": "ambition",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ambition"
   },
   {
    "word": "seduction",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "seduction"
   },
   {
    "word": "crooked lawyer",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "crooked-lawyer"
   },
   {
    "word": "hallucination",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hallucination"
   },
   {
    "word": "law firm",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "law-firm"
   },
   {
    "word": "satan",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "satan"
   },
   {
    "word": "bible",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bible"
   },
   {
    "word": "devil's son",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "devils-son"
   },
   {
    "word": "evil spirit",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "evil-spirit"
   },
   {
    "word": "lust",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lust"
   },
   {
    "word": "seven deadly sins",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "seven-deadly-sins"
   },
   {
    "word": "southern usa",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "southern-usa"
   },
   {
    "word": "ethics",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "pact with the devil",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "temptation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -1,0 +1,118 @@
+{
+ "word": "love at first sight",
+ "id": "love-at-first-sight",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1940s",
+   "reach": 5,
+   "band": "b5",
+   "id": "1940s"
+  },
+  {
+   "word": "1950s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1950s"
+  },
+  {
+   "word": "aftercreditsstinger",
+   "reach": 18,
+   "band": "b3",
+   "id": "aftercreditsstinger"
+  },
+  {
+   "word": "against the odds",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "appreciative",
+   "reach": 6,
+   "band": "b5",
+   "id": "appreciative"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "bodyguard",
+   "reach": 4,
+   "band": "b5",
+   "id": "bodyguard"
+  },
+  {
+   "word": "breaking the fourth wall",
+   "reach": 5,
+   "band": "b5",
+   "id": "breaking-the-fourth-wall"
+  },
+  {
+   "word": "candid",
+   "reach": 5,
+   "band": "b5",
+   "id": "candid"
+  },
+  {
+   "word": "casual",
+   "reach": 3,
+   "band": "b5",
+   "id": "casual"
+  },
+  {
+   "word": "cheerleader",
+   "reach": 6,
+   "band": "b5",
+   "id": "cheerleader"
+  },
+  {
+   "word": "cheerleading",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "competition",
+   "reach": 6,
+   "band": "b5",
+   "id": "competition"
+  },
+  {
+   "word": "crime family",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "the-godfather-1972",
+   "title": "The Godfather",
+   "year": 1972,
+   "poster": "3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+   "tmdb": 8.686
+  },
+  {
+   "id": "dodgeball-a-true-underdog-story-2004",
+   "title": "DodgeBall: A True Underdog Story",
+   "year": 2004,
+   "poster": "r8KbNHkkwFXLjV1suGwm0Qjure5.jpg",
+   "tmdb": 6.4
+  }
+ ]
+}

@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Van Lathan",
-    "Wesley Morris"
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    },
+    {
+     "name": "Wesley Morris",
+     "id": "wesley-morris"
+    }
    ],
    "note": "One-word movie title month'"
   }
@@ -52,205 +61,239 @@
    "word": "chicago, illinois",
    "reach": 19,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "chicago-illinois"
   },
   {
    "word": "aftercreditsstinger",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "aftercreditsstinger"
   },
   {
    "word": "frightened",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "frightened"
   },
   {
    "word": "playful",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "playful"
   },
   {
    "word": "supernatural horror",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "supernatural-horror"
   },
   {
    "word": "1930s",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1930s"
   },
   {
    "word": "alcoholism",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alcoholism"
   },
   {
    "word": "blunt",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "blunt"
   },
   {
    "word": "capitalism",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "capitalism"
   },
   {
    "word": "musician",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "musician"
   },
   {
    "word": "surrealism",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "surrealism"
   },
   {
    "word": "1990s",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1990s"
   },
   {
    "word": "church",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "church"
   },
   {
    "word": "ku klux klan",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ku-klux-klan"
   },
   {
    "word": "twins",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "twins"
   },
   {
    "word": "brother brother relationship",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "brother-brother-relationship"
   },
   {
    "word": "cousin",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cousin"
   },
   {
    "word": "death of daughter",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "death-of-daughter"
   },
   {
    "word": "afro-descendants",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "assimilation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "blues music",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "chinese immigrant",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "cousin relationship",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "dual role",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "estranged wife",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "immortality",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "klansmen",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mississippi",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "salvation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sin",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "southern gothic",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "train station",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "vampire",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "vampire hunter (slayer)",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

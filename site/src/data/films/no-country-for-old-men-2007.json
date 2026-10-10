@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Bill Hader",
-    "Chris Ryan"
+    {
+     "name": "Bill Hader",
+     "id": "bill-hader"
+    },
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": null
   }
@@ -52,175 +61,204 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "neo-noir",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "neo-noir"
   },
   {
    "word": "psychopath",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "psychopath"
   },
   {
    "word": "1980s",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "1980s"
   },
   {
    "word": "texas",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "texas"
   },
   {
    "word": "hitman",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hitman"
   },
   {
    "word": "vietnam veteran",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vietnam-veteran"
   },
   {
    "word": "sheriff",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sheriff"
   },
   {
    "word": "desert",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "desert"
   },
   {
    "word": "drug trafficking",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drug-trafficking"
   },
   {
    "word": "motel",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "motel"
   },
   {
    "word": "faithful adaptation",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "faithful-adaptation"
   },
   {
    "word": "coin toss",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "coin-toss"
   },
   {
    "word": "drug cartel",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drug-cartel"
   },
   {
    "word": "mexican cartel",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mexican-cartel"
   },
   {
    "word": "tracking device",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "tracking-device"
   },
   {
    "word": "captive bolt gun",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "cartel",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "cold blooded killer",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "drug deal",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "fate",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "horror western",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "human nature",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "modern-day western",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "motel room",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "neo-western",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "trailer park",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "usa–mexico border",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "western noir",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -1,0 +1,205 @@
+{
+ "word": "teenager",
+ "id": "teenager",
+ "catalogue": 460,
+ "share": 2.6,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.1,
+ "vs_catalogue": 0.0,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 6
+  },
+  {
+   "decade": 1990,
+   "n": 3
+  },
+  {
+   "decade": 2000,
+   "n": 2
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 50.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "id": "coming-of-age"
+  },
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "id": "high-school"
+  },
+  {
+   "word": "teen comedy",
+   "reach": 9,
+   "band": "b5",
+   "id": "teen-comedy"
+  },
+  {
+   "word": "hilarious",
+   "reach": 17,
+   "band": "b3",
+   "id": "hilarious"
+  },
+  {
+   "word": "loss of virginity",
+   "reach": 3,
+   "band": "b5",
+   "id": "loss-of-virginity"
+  },
+  {
+   "word": "teen movie",
+   "reach": 7,
+   "band": "b5",
+   "id": "teen-movie"
+  },
+  {
+   "word": "1950s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1950s"
+  },
+  {
+   "word": "1980s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1980s"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "comforting",
+   "reach": 8,
+   "band": "b5",
+   "id": "comforting"
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "id": "duringcreditsstinger"
+  },
+  {
+   "word": "friendship",
+   "reach": 22,
+   "band": "b3",
+   "id": "friendship"
+  },
+  {
+   "word": "halloween",
+   "reach": 7,
+   "band": "b5",
+   "id": "halloween"
+  },
+  {
+   "word": "high school student",
+   "reach": 4,
+   "band": "b5",
+   "id": "high-school-student"
+  }
+ ],
+ "films": [
+  {
+   "id": "friday-the-13th-1980",
+   "title": "Friday the 13th",
+   "year": 1980,
+   "poster": "uGGpnWHOmWTARVN9wbC1nPxNgps.jpg",
+   "tmdb": 6.4
+  },
+  {
+   "id": "fast-times-at-ridgemont-high-1982",
+   "title": "Fast Times at Ridgemont High",
+   "year": 1982,
+   "poster": "e15rmfjf0m6EGLe4MnNhwD3Dd1W.jpg",
+   "tmdb": 6.791
+  },
+  {
+   "id": "teen-wolf-1985",
+   "title": "Teen Wolf",
+   "year": 1985,
+   "poster": "bv9rY9eoue2Hat6tcvrKVQ0ow8v.jpg",
+   "tmdb": 6.209
+  },
+  {
+   "id": "the-breakfast-club-1985",
+   "title": "The Breakfast Club",
+   "year": 1985,
+   "poster": "gp4zlj7wgbiofLMNsTPndMuO3PN.jpg",
+   "tmdb": 7.717
+  },
+  {
+   "id": "ferris-buellers-day-off-1986",
+   "title": "Ferris Bueller's Day Off",
+   "year": 1986,
+   "poster": "9LTQNCvoLsKXP0LtaKAaYVtRaQL.jpg",
+   "tmdb": 7.562
+  },
+  {
+   "id": "dead-poets-society-1989",
+   "title": "Dead Poets Society",
+   "year": 1989,
+   "poster": "tNvKkSnnn4Z6RCBThyK1gfCSSvv.jpg",
+   "tmdb": 8.296
+  },
+  {
+   "id": "dazed-and-confused-1993",
+   "title": "Dazed and Confused",
+   "year": 1993,
+   "poster": "msG9awbLhVZwv1Eh9Ge7SofMexW.jpg",
+   "tmdb": 7.3
+  },
+  {
+   "id": "scream-1996",
+   "title": "Scream",
+   "year": 1996,
+   "poster": "lr9ZIrmuwVmZhpZuTCW8D9g0ZJe.jpg",
+   "tmdb": 7.431
+  },
+  {
+   "id": "american-pie-1999",
+   "title": "American Pie",
+   "year": 1999,
+   "poster": "5P68by2Thn8wHAziyWGEw2O7hco.jpg",
+   "tmdb": 6.618
+  },
+  {
+   "id": "13-going-on-30-2004",
+   "title": "13 Going on 30",
+   "year": 2004,
+   "poster": "iNZdSIfhSCMtRILDNyhLn8UKeSG.jpg",
+   "tmdb": 6.8
+  },
+  {
+   "id": "mean-girls-2004",
+   "title": "Mean Girls",
+   "year": 2004,
+   "poster": "2ZkuQXvVhh45uSvkBej4S7Ix1NJ.jpg",
+   "tmdb": 7.227
+  },
+  {
+   "id": "easy-a-2010",
+   "title": "Easy A",
+   "year": 2010,
+   "poster": "v5f1qO6NJnxWgONgkYg21TW39DT.jpg",
+   "tmdb": 6.803
+  }
+ ]
+}

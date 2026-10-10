@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Van Lathan"
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": null
   }
@@ -51,79 +57,92 @@
    "word": "survival",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "survival"
   },
   {
    "word": "airplane",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "airplane"
   },
   {
    "word": "rescue",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rescue"
   },
   {
    "word": "photographer",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "photographer"
   },
   {
    "word": "wilderness",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "wilderness"
   },
   {
    "word": "animal horror",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "animal-horror"
   },
   {
    "word": "conflict",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "conflict"
   },
   {
    "word": "crash",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "crash"
   },
   {
    "word": "emergency landing",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "emergency-landing"
   },
   {
    "word": "supermodel",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "supermodel"
   },
   {
    "word": "bear attack",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "billionaire",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "grizzly bear",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

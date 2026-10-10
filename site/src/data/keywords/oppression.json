@@ -1,0 +1,118 @@
+{
+ "word": "oppression",
+ "id": "oppression",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "quest",
+   "reach": 3,
+   "band": "b5",
+   "id": "quest"
+  },
+  {
+   "word": "rebel",
+   "reach": 3,
+   "band": "b5",
+   "id": "rebel"
+  },
+  {
+   "word": "smuggling (contraband)",
+   "reach": 2,
+   "band": "b5",
+   "id": "smuggling-contraband"
+  },
+  {
+   "word": "1990s",
+   "reach": 4,
+   "band": "b5",
+   "id": "1990s"
+  },
+  {
+   "word": "africa",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "android",
+   "reach": 4,
+   "band": "b5",
+   "id": "android"
+  },
+  {
+   "word": "bootlegger",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "desert",
+   "reach": 4,
+   "band": "b5",
+   "id": "desert"
+  },
+  {
+   "word": "diamond mine",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "empire",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "fisherman",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "freedom",
+   "reach": 4,
+   "band": "b5",
+   "id": "freedom"
+  },
+  {
+   "word": "galaxy",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "hermit",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "star-wars-1977",
+   "title": "Star Wars",
+   "year": 1977,
+   "poster": "fai0rspsNeJCS69wHNjOdWxcI7P.jpg",
+   "tmdb": 8.207
+  },
+  {
+   "id": "blood-diamond-2006",
+   "title": "Blood Diamond",
+   "year": 2006,
+   "poster": "sYAUuiWpoXGKHxUfHyjTj7Apj2h.jpg",
+   "tmdb": 7.559
+  }
+ ]
+}

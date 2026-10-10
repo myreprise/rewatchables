@@ -1,0 +1,191 @@
+{
+ "word": "legal thriller",
+ "id": "legal-thriller",
+ "catalogue": 460,
+ "share": 2.2,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.2,
+ "vs_catalogue": 0.1,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 0
+  },
+  {
+   "decade": 1990,
+   "n": 8
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  }
+ ],
+ "peak_share": 80.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "courtroom drama",
+   "reach": 7,
+   "band": "b5",
+   "id": "courtroom-drama"
+  },
+  {
+   "word": "lawyer",
+   "reach": 15,
+   "band": "b4",
+   "id": "lawyer"
+  },
+  {
+   "word": "courtroom",
+   "reach": 7,
+   "band": "b5",
+   "id": "courtroom"
+  },
+  {
+   "word": "law firm",
+   "reach": 3,
+   "band": "b5",
+   "id": "law-firm"
+  },
+  {
+   "word": "legal drama",
+   "reach": 4,
+   "band": "b5",
+   "id": "legal-drama"
+  },
+  {
+   "word": "suspenseful",
+   "reach": 30,
+   "band": "b2",
+   "id": "suspenseful"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "blackmail",
+   "reach": 5,
+   "band": "b5",
+   "id": "blackmail"
+  },
+  {
+   "word": "capital punishment",
+   "reach": 2,
+   "band": "b5",
+   "id": "capital-punishment"
+  },
+  {
+   "word": "child abuse",
+   "reach": 6,
+   "band": "b5",
+   "id": "child-abuse"
+  },
+  {
+   "word": "court",
+   "reach": 6,
+   "band": "b5",
+   "id": "court"
+  },
+  {
+   "word": "court case",
+   "reach": 4,
+   "band": "b5",
+   "id": "court-case"
+  },
+  {
+   "word": "crooked lawyer",
+   "reach": 3,
+   "band": "b5",
+   "id": "crooked-lawyer"
+  },
+  {
+   "word": "death",
+   "reach": 6,
+   "band": "b5",
+   "id": "death"
+  }
+ ],
+ "films": [
+  {
+   "id": "and-justice-for-all-1979",
+   "title": "...And Justice for All",
+   "year": 1979,
+   "poster": "fGFkpJUsouxxBGWfYqeuJfH210T.jpg",
+   "tmdb": 7.097
+  },
+  {
+   "id": "jfk-1991",
+   "title": "JFK",
+   "year": 1991,
+   "poster": "r0VWVTYlqdRCK5ZoOdNnHdqM2gt.jpg",
+   "tmdb": 7.593
+  },
+  {
+   "id": "a-few-good-men-1992",
+   "title": "A Few Good Men",
+   "year": 1992,
+   "poster": "rLOk4z9zL1tTukIYV56P94aZXKk.jpg",
+   "tmdb": 7.557
+  },
+  {
+   "id": "the-firm-1993",
+   "title": "The Firm",
+   "year": 1993,
+   "poster": "kFexXCzidkm4LwlgZqxsJsDQB5v.jpg",
+   "tmdb": 6.744
+  },
+  {
+   "id": "the-pelican-brief-1993",
+   "title": "The Pelican Brief",
+   "year": 1993,
+   "poster": "7B1HS0SqfJR1jbeHS6V0ZWdzLXP.jpg",
+   "tmdb": 6.593
+  },
+  {
+   "id": "a-time-to-kill-1996",
+   "title": "A Time to Kill",
+   "year": 1996,
+   "poster": "w8UCke112E9jrhjKcwG32kyhTx5.jpg",
+   "tmdb": 7.397
+  },
+  {
+   "id": "primal-fear-1996",
+   "title": "Primal Fear",
+   "year": 1996,
+   "poster": "qJf2TzE8nRTFbFMPJNW6c8mI0KU.jpg",
+   "tmdb": 7.659
+  },
+  {
+   "id": "the-devils-advocate-1997",
+   "title": "The Devil's Advocate",
+   "year": 1997,
+   "poster": "5ZzBGpxy55OQzHxKVY11IpY6a0o.jpg",
+   "tmdb": 7.481
+  },
+  {
+   "id": "the-insider-1999",
+   "title": "The Insider",
+   "year": 1999,
+   "poster": "w695X0FvTlBCS7GSLHNILnrfqPm.jpg",
+   "tmdb": 7.464
+  },
+  {
+   "id": "michael-clayton-2007",
+   "title": "Michael Clayton",
+   "year": 2007,
+   "poster": "hhkW4yVIGo8Bee3UITKvqOvhNMG.jpg",
+   "tmdb": 6.793
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "word": "schoolteacher",
+ "id": "schoolteacher",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "teacher",
+   "reach": 6,
+   "band": "b5",
+   "id": "teacher"
+  },
+  {
+   "word": "1950s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1950s"
+  },
+  {
+   "word": "amusement park",
+   "reach": 4,
+   "band": "b5",
+   "id": "amusement-park"
+  },
+  {
+   "word": "based on memoir or autobiography",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "california",
+   "reach": 16,
+   "band": "b4",
+   "id": "california"
+  },
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "id": "coming-of-age"
+  },
+  {
+   "word": "depressing",
+   "reach": 2,
+   "band": "b5",
+   "id": "depressing"
+  },
+  {
+   "word": "dramatic",
+   "reach": 18,
+   "band": "b3",
+   "id": "dramatic"
+  },
+  {
+   "word": "friendship",
+   "reach": 22,
+   "band": "b3",
+   "id": "friendship"
+  },
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "id": "high-school"
+  },
+  {
+   "word": "individual",
+   "reach": 2,
+   "band": "b5",
+   "id": "individual"
+  },
+  {
+   "word": "introspective",
+   "reach": 3,
+   "band": "b5",
+   "id": "introspective"
+  },
+  {
+   "word": "karate",
+   "reach": 2,
+   "band": "b5",
+   "id": "karate"
+  },
+  {
+   "word": "literature",
+   "reach": 2,
+   "band": "b5",
+   "id": "literature"
+  }
+ ],
+ "films": [
+  {
+   "id": "dead-poets-society-1989",
+   "title": "Dead Poets Society",
+   "year": 1989,
+   "poster": "tNvKkSnnn4Z6RCBThyK1gfCSSvv.jpg",
+   "tmdb": 8.296
+  },
+  {
+   "id": "dangerous-minds-1995",
+   "title": "Dangerous Minds",
+   "year": 1995,
+   "poster": "yWHWC8fJRp2kLgiFrEa8o3krOH9.jpg",
+   "tmdb": 6.984
+  }
+ ]
+}

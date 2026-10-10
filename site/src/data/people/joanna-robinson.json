@@ -1,0 +1,125 @@
+{
+ "name": "Joanna Robinson",
+ "id": "joanna-robinson",
+ "episodes": 9,
+ "share": 0.0185,
+ "hosted": 0,
+ "first": "2025-02-24",
+ "last": "2026-07-27",
+ "shelf": [
+  {
+   "id": "obsession-2026",
+   "title": "Obsession",
+   "year": 2026,
+   "poster": "bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
+   "episode": 473,
+   "aired": "2026-07-27"
+  },
+  {
+   "id": "the-hand-that-rocks-the-cradle-1992",
+   "title": "The Hand That Rocks the Cradle",
+   "year": 1992,
+   "poster": "1fBnyO3SbNBplck45js6O4pQaLw.jpg",
+   "episode": 466,
+   "aired": "2026-06-14"
+  },
+  {
+   "id": "just-one-of-the-guys-1985",
+   "title": "Just One of the Guys",
+   "year": 1985,
+   "poster": "7ffvsRv8ueYYK0H3zocmNRPd8yN.jpg",
+   "episode": 442,
+   "aired": "2026-01-19"
+  },
+  {
+   "id": "high-fidelity-2000",
+   "title": "High Fidelity",
+   "year": 2000,
+   "poster": "e2LZGB62GMhv3Fo8tDZjY87I81a.jpg",
+   "episode": 436,
+   "aired": "2025-12-15"
+  },
+  {
+   "id": "sneakers-1992",
+   "title": "Sneakers",
+   "year": 1992,
+   "poster": "l2pIGwCvpZEpBuMb55YBl6A04Jv.jpg",
+   "episode": 427,
+   "aired": "2025-10-13"
+  },
+  {
+   "id": "working-girl-1988",
+   "title": "Working Girl",
+   "year": 1988,
+   "poster": "q2jfFzZvAzjTaArQR0tjilIZ5aJ.jpg",
+   "episode": 409,
+   "aired": "2025-06-09"
+  },
+  {
+   "id": "cant-hardly-wait-1998",
+   "title": "Can't Hardly Wait",
+   "year": 1998,
+   "poster": "r3a5gGWfS0SDS9nriNrJzSSrErf.jpg",
+   "episode": 401,
+   "aired": "2025-04-14"
+  },
+  {
+   "id": "best-in-show-2000",
+   "title": "Best in Show",
+   "year": 2000,
+   "poster": "2SqHjWWqfJjQE6zLCbQR9HMla4Q.jpg",
+   "episode": 396,
+   "aired": "2025-03-10"
+  },
+  {
+   "id": "crash-2005",
+   "title": "Crash",
+   "year": 2005,
+   "poster": "86BdPC6RDX88NC880pLidKn2LCj.jpg",
+   "episode": 394,
+   "aired": "2025-02-24"
+  }
+ ],
+ "company": [
+  {
+   "name": "Chris Ryan",
+   "id": "chris-ryan",
+   "episodes": 3
+  },
+  {
+   "name": "Kyle Brandt",
+   "id": "kyle-brandt",
+   "episodes": 2
+  },
+  {
+   "name": "Rob Mahoney",
+   "id": "rob-mahoney",
+   "episodes": 1
+  },
+  {
+   "name": "Amanda Dobbins",
+   "id": "amanda-dobbins",
+   "episodes": 1
+  },
+  {
+   "name": "Van Lathan",
+   "id": "van-lathan",
+   "episodes": 1
+  },
+  {
+   "name": "Mallory Rubin",
+   "id": "mallory-rubin",
+   "episodes": 1
+  }
+ ],
+ "regular": false,
+ "lean_floor": 15,
+ "leans": [],
+ "verdict_floor": 8,
+ "verdicts": {
+  "cruise": 2,
+  "hanks": 7,
+  "ties": 0,
+  "n": 9
+ }
+}

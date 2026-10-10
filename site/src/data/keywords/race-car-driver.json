@@ -1,0 +1,142 @@
+{
+ "word": "race car driver",
+ "id": "race-car-driver",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 6.9,
+ "vs_catalogue": -0.2,
+ "decades": [
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  },
+  {
+   "decade": 2010,
+   "n": 0
+  },
+  {
+   "decade": 2020,
+   "n": 1
+  }
+ ],
+ "peak_share": 33.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "aftercreditsstinger",
+   "reach": 18,
+   "band": "b3",
+   "id": "aftercreditsstinger"
+  },
+  {
+   "word": "motorsport",
+   "reach": 2,
+   "band": "b5",
+   "id": "motorsport"
+  },
+  {
+   "word": "nascar",
+   "reach": 2,
+   "band": "b5",
+   "id": "nascar"
+  },
+  {
+   "word": "racing",
+   "reach": 2,
+   "band": "b5",
+   "id": "racing"
+  },
+  {
+   "word": "sport competition",
+   "reach": 4,
+   "band": "b5",
+   "id": "sport-competition"
+  },
+  {
+   "word": "sports",
+   "reach": 47,
+   "band": "b1",
+   "id": "sports"
+  },
+  {
+   "word": "advertising",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "beforecreditsstinger",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "best friend",
+   "reach": 6,
+   "band": "b5",
+   "id": "best-friend"
+  },
+  {
+   "word": "betrayal",
+   "reach": 9,
+   "band": "b5",
+   "id": "betrayal"
+  },
+  {
+   "word": "car crash",
+   "reach": 6,
+   "band": "b5",
+   "id": "car-crash"
+  },
+  {
+   "word": "car race",
+   "reach": 6,
+   "band": "b5",
+   "id": "car-race"
+  },
+  {
+   "word": "car racing",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "comeback",
+   "reach": 3,
+   "band": "b5",
+   "id": "comeback"
+  }
+ ],
+ "films": [
+  {
+   "id": "days-of-thunder-1990",
+   "title": "Days of Thunder",
+   "year": 1990,
+   "poster": "8UvcoeMJag8UWGF8sg7eYspzq0Q.jpg",
+   "tmdb": 6.393
+  },
+  {
+   "id": "talladega-nights-the-ballad-of-ricky-bobby-2006",
+   "title": "Talladega Nights: The Ballad of Ricky Bobby",
+   "year": 2006,
+   "poster": "3iCiTqsmJz1mO85AHzTiHNkRmb6.jpg",
+   "tmdb": 6.381
+  },
+  {
+   "id": "f1-2025",
+   "title": "F1",
+   "year": 2025,
+   "poster": "9PXZIUsSDh4alB80jheWX4fhZmy.jpg",
+   "tmdb": 7.823
+  }
+ ]
+}

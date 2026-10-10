@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": null
   }
@@ -51,73 +57,85 @@
    "word": "texas",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "texas"
   },
   {
    "word": "chase",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "chase"
   },
   {
    "word": "female protagonist",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "female-protagonist"
   },
   {
    "word": "fugitive",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fugitive"
   },
   {
    "word": "false accusations",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "false-accusations"
   },
   {
    "word": "runaway",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "runaway"
   },
   {
    "word": "sexual abuse",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sexual-abuse"
   },
   {
    "word": "accidental shooting",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "attempted rape",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "brother sister relationship",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "girl heroine",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "social justice",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -52,91 +61,106 @@
    "word": "new york city",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "new-york-city"
   },
   {
    "word": "revenge",
    "reach": 31,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "revenge"
   },
   {
    "word": "sequel",
    "reach": 28,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "sequel"
   },
   {
    "word": "gangster",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "gangster"
   },
   {
    "word": "lawyer",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "lawyer"
   },
   {
    "word": "organized crime",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "organized-crime"
   },
   {
    "word": "mafia",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "mafia"
   },
   {
    "word": "daughter",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "daughter"
   },
   {
    "word": "italian american",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "italian-american"
   },
   {
    "word": "helicopter",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "helicopter"
   },
   {
    "word": "assassination",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "assassination"
   },
   {
    "word": "italy",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "italy"
   },
   {
    "word": "defiant",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "defiant"
   },
   {
    "word": "symbolism",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "symbolism"
   },
   {
    "word": "confession",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "confession"
   }
  ],
  "cast": [

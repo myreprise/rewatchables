@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Mallory Rubin"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    }
    ],
    "note": null
   }
@@ -50,127 +59,148 @@
    "word": "coming of age",
    "reach": 24,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "coming-of-age"
   },
   {
    "word": "friendship",
    "reach": 22,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "friendship"
   },
   {
    "word": "dramatic",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "dramatic"
   },
   {
    "word": "teenager",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "teenager"
   },
   {
    "word": "1950s",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1950s"
   },
   {
    "word": "thoughtful",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "thoughtful"
   },
   {
    "word": "powerful",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "powerful"
   },
   {
    "word": "teacher",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "teacher"
   },
   {
    "word": "philosophical",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "philosophical"
   },
   {
    "word": "preparatory school",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "preparatory-school"
   },
   {
    "word": "introspective",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "introspective"
   },
   {
    "word": "new england",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "new-england"
   },
   {
    "word": "professor",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "professor"
   },
   {
    "word": "depressing",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "depressing"
   },
   {
    "word": "individual",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "individual"
   },
   {
    "word": "literature",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "literature"
   },
   {
    "word": "philosophy",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "philosophy"
   },
   {
    "word": "poetry",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "poetry"
   },
   {
    "word": "school play",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "school-play"
   },
   {
    "word": "schoolteacher",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "schoolteacher"
   },
   {
    "word": "vermont",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vermont"
   }
  ],
  "cast": [

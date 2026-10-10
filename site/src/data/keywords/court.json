@@ -1,0 +1,163 @@
+{
+ "word": "court",
+ "id": "court",
+ "catalogue": 460,
+ "share": 1.3,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.6,
+ "vs_catalogue": 0.5,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 4
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 67.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "lawyer",
+   "reach": 15,
+   "band": "b4",
+   "id": "lawyer"
+  },
+  {
+   "word": "courtroom drama",
+   "reach": 7,
+   "band": "b5",
+   "id": "courtroom-drama"
+  },
+  {
+   "word": "courtroom",
+   "reach": 7,
+   "band": "b5",
+   "id": "courtroom"
+  },
+  {
+   "word": "boston, massachusetts",
+   "reach": 7,
+   "band": "b5",
+   "id": "boston-massachusetts"
+  },
+  {
+   "word": "capital punishment",
+   "reach": 2,
+   "band": "b5",
+   "id": "capital-punishment"
+  },
+  {
+   "word": "child abuse",
+   "reach": 6,
+   "band": "b5",
+   "id": "child-abuse"
+  },
+  {
+   "word": "court case",
+   "reach": 4,
+   "band": "b5",
+   "id": "court-case"
+  },
+  {
+   "word": "defense attorney",
+   "reach": 2,
+   "band": "b5",
+   "id": "defense-attorney"
+  },
+  {
+   "word": "jurors",
+   "reach": 2,
+   "band": "b5",
+   "id": "jurors"
+  },
+  {
+   "word": "legal drama",
+   "reach": 4,
+   "band": "b5",
+   "id": "legal-drama"
+  },
+  {
+   "word": "legal thriller",
+   "reach": 10,
+   "band": "b5",
+   "id": "legal-thriller"
+  },
+  {
+   "word": "lgbt",
+   "reach": 4,
+   "band": "b5",
+   "id": "lgbt"
+  },
+  {
+   "word": "understated",
+   "reach": 3,
+   "band": "b5",
+   "id": "understated"
+  },
+  {
+   "word": "1980s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1980s"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-verdict-1982",
+   "title": "The Verdict",
+   "year": 1982,
+   "poster": "iYEuFP1bpj5yOenKliiRFcNO3VE.jpg",
+   "tmdb": 7.469
+  },
+  {
+   "id": "my-cousin-vinny-1992",
+   "title": "My Cousin Vinny",
+   "year": 1992,
+   "poster": "iwSURa8nS2ujwrU3s1lfxxX7voH.jpg",
+   "tmdb": 7.497
+  },
+  {
+   "id": "philadelphia-1993",
+   "title": "Philadelphia",
+   "year": 1993,
+   "poster": "tFe5Yoo5zT495okA49bq1vPPkiV.jpg",
+   "tmdb": 7.705
+  },
+  {
+   "id": "a-time-to-kill-1996",
+   "title": "A Time to Kill",
+   "year": 1996,
+   "poster": "w8UCke112E9jrhjKcwG32kyhTx5.jpg",
+   "tmdb": 7.397
+  },
+  {
+   "id": "primal-fear-1996",
+   "title": "Primal Fear",
+   "year": 1996,
+   "poster": "qJf2TzE8nRTFbFMPJNW6c8mI0KU.jpg",
+   "tmdb": 7.659
+  },
+  {
+   "id": "spotlight-2015",
+   "title": "Spotlight",
+   "year": 2015,
+   "poster": "8DPGG400FgaFWaqcv11n8mRd2NG.jpg",
+   "tmdb": 7.812
+  }
+ ]
+}

@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Ryen Russillo",
-    "Bill Lawrence"
+    {
+     "name": "Ryen Russillo",
+     "id": "ryen-russillo"
+    },
+    {
+     "name": "Bill Lawrence",
+     "id": "bill-lawrence"
+    }
    ],
    "note": null
   }
@@ -52,43 +61,50 @@
    "word": "heist",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "heist"
   },
   {
    "word": "prison escape",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "prison-escape"
   },
   {
    "word": "u.s. marshal",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "u-s-marshal"
   },
   {
    "word": "bedroom",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "car trunk",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "diamond theft",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "locked in trunk of car",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

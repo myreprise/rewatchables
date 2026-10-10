@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Juliet Litman",
+   "host": {
+    "name": "Juliet Litman",
+    "id": "juliet-litman"
+   },
    "guests": [
-    "Amanda Dobbins"
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    }
    ],
    "note": null
   }
@@ -50,79 +56,92 @@
    "word": "woman director",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "woman-director"
   },
   {
    "word": "christmas",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "christmas"
   },
   {
    "word": "romcom",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "romcom"
   },
   {
    "word": "manhattan, new york city",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "manhattan-new-york-city"
   },
   {
    "word": "falling in love",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "falling-in-love"
   },
   {
    "word": "bookshop",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bookshop"
   },
   {
    "word": "anonymous letter",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "anonymous-letter"
   },
   {
    "word": "businessman",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "class conflict",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "internet romance",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "online dating",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "online relationship",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "parfumerie",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

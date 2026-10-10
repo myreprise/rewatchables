@@ -1,0 +1,240 @@
+{
+ "word": "drugs",
+ "id": "drugs",
+ "catalogue": 460,
+ "share": 3.7,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.2,
+ "vs_catalogue": 0.1,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 8
+  },
+  {
+   "decade": 2000,
+   "n": 3
+  },
+  {
+   "decade": 2010,
+   "n": 5
+  }
+ ],
+ "peak_share": 47.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  },
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "id": "murder"
+  },
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "id": "new-york-city"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "drug dealer",
+   "reach": 11,
+   "band": "b5",
+   "id": "drug-dealer"
+  },
+  {
+   "word": "intense",
+   "reach": 23,
+   "band": "b3",
+   "id": "intense"
+  },
+  {
+   "word": "suspenseful",
+   "reach": 30,
+   "band": "b2",
+   "id": "suspenseful"
+  },
+  {
+   "word": "1980s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1980s"
+  },
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "id": "absurd"
+  },
+  {
+   "word": "addiction",
+   "reach": 5,
+   "band": "b5",
+   "id": "addiction"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "anti hero",
+   "reach": 8,
+   "band": "b5",
+   "id": "anti-hero"
+  },
+  {
+   "word": "biography",
+   "reach": 10,
+   "band": "b5",
+   "id": "biography"
+  },
+  {
+   "word": "cocaine",
+   "reach": 7,
+   "band": "b5",
+   "id": "cocaine"
+  }
+ ],
+ "films": [
+  {
+   "id": "running-scared-1986",
+   "title": "Running Scared",
+   "year": 1986,
+   "poster": "nSiRjhc7aTVPonXAhmTZAPqd2jT.jpg",
+   "tmdb": 6.095
+  },
+  {
+   "id": "new-jack-city-1991",
+   "title": "New Jack City",
+   "year": 1991,
+   "poster": "k9VjzXyGElRAxXyXgPvtRRSznyL.jpg",
+   "tmdb": 6.732
+  },
+  {
+   "id": "the-doors-1991",
+   "title": "The Doors",
+   "year": 1991,
+   "poster": "x1LM3dzGuG6xOz0aT2e71o11vhu.jpg",
+   "tmdb": 7.106
+  },
+  {
+   "id": "true-romance-1993",
+   "title": "True Romance",
+   "year": 1993,
+   "poster": "39lXk6ud6KiJgGbbWI2PUKS7y2.jpg",
+   "tmdb": 7.54
+  },
+  {
+   "id": "friday-1995",
+   "title": "Friday",
+   "year": 1995,
+   "poster": "3Ya1RurP2NqaYoiok4DmfO41rCC.jpg",
+   "tmdb": 7.148
+  },
+  {
+   "id": "trainspotting-1996",
+   "title": "Trainspotting",
+   "year": 1996,
+   "poster": "1jUC02qsqS2NxBMFarbIhcQtazV.jpg",
+   "tmdb": 7.962
+  },
+  {
+   "id": "boogie-nights-1997",
+   "title": "Boogie Nights",
+   "year": 1997,
+   "poster": "2hVSN9yOfoI8EUTqcVW6zCIyQ1G.jpg",
+   "tmdb": 7.638
+  },
+  {
+   "id": "the-last-days-of-disco-1998",
+   "title": "The Last Days of Disco",
+   "year": 1998,
+   "poster": "lReaAZCsA0GXvJrxzSMsFxwgh6F.jpg",
+   "tmdb": 6.3
+  },
+  {
+   "id": "eyes-wide-shut-1999",
+   "title": "Eyes Wide Shut",
+   "year": 1999,
+   "poster": "knEIz1eNGl5MQDbrEAVWA7iRqF9.jpg",
+   "tmdb": 7.485
+  },
+  {
+   "id": "minority-report-2002",
+   "title": "Minority Report",
+   "year": 2002,
+   "poster": "qtgFcnwh9dAFLocsDk2ySDVS8UF.jpg",
+   "tmdb": 7.355
+  },
+  {
+   "id": "superbad-2007",
+   "title": "Superbad",
+   "year": 2007,
+   "poster": "ek8e8txUyUwd2BNqj6lFEerJfbq.jpg",
+   "tmdb": 7.272
+  },
+  {
+   "id": "the-hangover-2009",
+   "title": "The Hangover",
+   "year": 2009,
+   "poster": "A0uS9rHR56FeBtpjVki16M5xxSW.jpg",
+   "tmdb": 7.337
+  },
+  {
+   "id": "limitless-2011",
+   "title": "Limitless",
+   "year": 2011,
+   "poster": "kCokPP4WCQRrrAuZ7FcpIyHr8b2.jpg",
+   "tmdb": 7.202
+  },
+  {
+   "id": "the-wolf-of-wall-street-2013",
+   "title": "The Wolf of Wall Street",
+   "year": 2013,
+   "poster": "kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg",
+   "tmdb": 8.027
+  },
+  {
+   "id": "this-is-the-end-2013",
+   "title": "This Is the End",
+   "year": 2013,
+   "poster": "tNIW0NhX1hKvUsy6PQ80DOKUhkD.jpg",
+   "tmdb": 6.232
+  },
+  {
+   "id": "sicario-2015",
+   "title": "Sicario",
+   "year": 2015,
+   "poster": "lz8vNyXeidqqOdJW9ZjnDAMb5Vr.jpg",
+   "tmdb": 7.427
+  },
+  {
+   "id": "shot-caller-2017",
+   "title": "Shot Caller",
+   "year": 2017,
+   "poster": "qLmLz2wtyYvmW8Ult3l2ngOnW8v.jpg",
+   "tmdb": 6.968
+  }
+ ]
+}

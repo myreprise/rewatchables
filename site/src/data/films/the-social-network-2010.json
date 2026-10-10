@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -50,85 +59,99 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "based on true story",
    "reach": 25,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "based-on-true-story"
   },
   {
    "word": "biography",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "biography"
   },
   {
    "word": "boston, massachusetts",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "boston-massachusetts"
   },
   {
    "word": "ex-girlfriend",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ex-girlfriend"
   },
   {
    "word": "blunt",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "blunt"
   },
   {
    "word": "historical fiction",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "historical-fiction"
   },
   {
    "word": "hacker",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hacker"
   },
   {
    "word": "legal drama",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "legal-drama"
   },
   {
    "word": "twins",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "twins"
   },
   {
    "word": "social media",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "social-media"
   },
   {
    "word": "university",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "university"
   },
   {
    "word": "conceited",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "docudrama",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -1,0 +1,118 @@
+{
+ "word": "racist",
+ "id": "racist",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1970s"
+  },
+  {
+   "word": "american football",
+   "reach": 13,
+   "band": "b4",
+   "id": "american-football"
+  },
+  {
+   "word": "apartheid",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "brain surgery",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "civil rights",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "coaction",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dark comedy",
+   "reach": 10,
+   "band": "b5",
+   "id": "dark-comedy"
+  },
+  {
+   "word": "disappearance",
+   "reach": 2,
+   "band": "b5",
+   "id": "disappearance"
+  },
+  {
+   "word": "externally controlled action",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "friendship",
+   "reach": 22,
+   "band": "b3",
+   "id": "friendship"
+  },
+  {
+   "word": "head coach",
+   "reach": 2,
+   "band": "b5",
+   "id": "head-coach"
+  },
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "id": "high-school"
+  },
+  {
+   "word": "high school sports",
+   "reach": 4,
+   "band": "b5",
+   "id": "high-school-sports"
+  }
+ ],
+ "films": [
+  {
+   "id": "remember-the-titans-2000",
+   "title": "Remember the Titans",
+   "year": 2000,
+   "poster": "825ohvC4wZ3gCuncCaqkWeQnK8h.jpg",
+   "tmdb": 7.66
+  },
+  {
+   "id": "get-out-2017",
+   "title": "Get Out",
+   "year": 2017,
+   "poster": "tFXcEccSQMf3lfhfXKSU9iRBpa3.jpg",
+   "tmdb": 7.625
+  }
+ ]
+}

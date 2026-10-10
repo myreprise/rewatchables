@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Amanda Dobbins",
-    "Sean Fennessey"
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -52,109 +61,127 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "suspenseful",
    "reach": 30,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "suspenseful"
   },
   {
    "word": "dramatic",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "dramatic"
   },
   {
    "word": "terrorism",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "terrorism"
   },
   {
    "word": "spy",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "spy"
   },
   {
    "word": "money",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "money"
   },
   {
    "word": "casino",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "casino"
   },
   {
    "word": "italy",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "italy"
   },
   {
    "word": "earnest",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "earnest"
   },
   {
    "word": "poker",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "poker"
   },
   {
    "word": "torture",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "torture"
   },
   {
    "word": "james bond",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "james-bond"
   },
   {
    "word": "mi6",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mi6"
   },
   {
    "word": "action",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "action"
   },
   {
    "word": "british secret service",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "british-secret-service"
   },
   {
    "word": "adventure",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "banker",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "montenegro",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

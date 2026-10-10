@@ -1,0 +1,118 @@
+{
+ "word": "crime spree",
+ "id": "crime-spree",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "halloween",
+   "reach": 7,
+   "band": "b5",
+   "id": "halloween"
+  },
+  {
+   "word": "killing",
+   "reach": 4,
+   "band": "b5",
+   "id": "killing"
+  },
+  {
+   "word": "serial killer",
+   "reach": 14,
+   "band": "b4",
+   "id": "serial-killer"
+  },
+  {
+   "word": "ambulance",
+   "reach": 2,
+   "band": "b5",
+   "id": "ambulance"
+  },
+  {
+   "word": "california",
+   "reach": 16,
+   "band": "b4",
+   "id": "california"
+  },
+  {
+   "word": "escaped killer",
+   "reach": 2,
+   "band": "b5",
+   "id": "escaped-killer"
+  },
+  {
+   "word": "evil",
+   "reach": 5,
+   "band": "b5",
+   "id": "evil"
+  },
+  {
+   "word": "halloween costume",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "id": "high-school"
+  },
+  {
+   "word": "holiday horror",
+   "reach": 2,
+   "band": "b5",
+   "id": "holiday-horror"
+  },
+  {
+   "word": "house party",
+   "reach": 5,
+   "band": "b5",
+   "id": "house-party"
+  },
+  {
+   "word": "killing spree",
+   "reach": 3,
+   "band": "b5",
+   "id": "killing-spree"
+  },
+  {
+   "word": "knife",
+   "reach": 2,
+   "band": "b5",
+   "id": "knife"
+  },
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "id": "murder"
+  }
+ ],
+ "films": [
+  {
+   "id": "halloween-4-the-return-of-michael-myers-1988",
+   "title": "Halloween 4: The Return of Michael Myers",
+   "year": 1988,
+   "poster": "eFSOkXF9n9hsfGv45MDsPixiOyx.jpg",
+   "tmdb": 6.175
+  },
+  {
+   "id": "scream-1996",
+   "title": "Scream",
+   "year": 1996,
+   "poster": "lr9ZIrmuwVmZhpZuTCW8D9g0ZJe.jpg",
+   "tmdb": 7.431
+  }
+ ]
+}

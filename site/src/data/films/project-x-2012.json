@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "David Jacoby",
-    "Craig Horlbeck"
+    {
+     "name": "David Jacoby",
+     "id": "david-jacoby"
+    },
+    {
+     "name": "Craig Horlbeck",
+     "id": "craig-horlbeck"
+    }
    ],
    "note": null
   }
@@ -50,55 +59,64 @@
    "word": "high school",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "high-school"
   },
   {
    "word": "teen movie",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "teen-movie"
   },
   {
    "word": "house party",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "house-party"
   },
   {
    "word": "high school student",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "high-school-student"
   },
   {
    "word": "mockumentary",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mockumentary"
   },
   {
    "word": "birthday party",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "birthday-party"
   },
   {
    "word": "faux documentary",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "faux-documentary"
   },
   {
    "word": "birthday",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "fake documentary",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

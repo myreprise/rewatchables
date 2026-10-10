@@ -1,0 +1,141 @@
+{
+ "word": "unsociability",
+ "id": "unsociability",
+ "catalogue": 460,
+ "share": 0.9,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.4,
+ "vs_catalogue": 0.3,
+ "decades": [
+  {
+   "decade": 1990,
+   "n": 3
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  }
+ ],
+ "peak_share": 75.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "loss of loved one",
+   "reach": 20,
+   "band": "b3",
+   "id": "loss-of-loved-one"
+  },
+  {
+   "word": "parent child relationship",
+   "reach": 16,
+   "band": "b4",
+   "id": "parent-child-relationship"
+  },
+  {
+   "word": "woman director",
+   "reach": 16,
+   "band": "b4",
+   "id": "woman-director"
+  },
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "id": "absurd"
+  },
+  {
+   "word": "adoring",
+   "reach": 8,
+   "band": "b5",
+   "id": "adoring"
+  },
+  {
+   "word": "adultery",
+   "reach": 5,
+   "band": "b5",
+   "id": "adultery"
+  },
+  {
+   "word": "aftercreditsstinger",
+   "reach": 18,
+   "band": "b3",
+   "id": "aftercreditsstinger"
+  },
+  {
+   "word": "age difference",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "airplane",
+   "reach": 8,
+   "band": "b5",
+   "id": "airplane"
+  },
+  {
+   "word": "baltimore, usa",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "becoming an adult",
+   "reach": 2,
+   "band": "b5",
+   "id": "becoming-an-adult"
+  },
+  {
+   "word": "bewildered",
+   "reach": 4,
+   "band": "b5",
+   "id": "bewildered"
+  },
+  {
+   "word": "car dealership",
+   "reach": 2,
+   "band": "b5",
+   "id": "car-dealership"
+  },
+  {
+   "word": "chance",
+   "reach": 2,
+   "band": "b5",
+   "id": "chance"
+  }
+ ],
+ "films": [
+  {
+   "id": "sleepless-in-seattle-1993",
+   "title": "Sleepless in Seattle",
+   "year": 1993,
+   "poster": "jAXfku1u1uaLGh4cUmK0ESf1pPu.jpg",
+   "tmdb": 6.741
+  },
+  {
+   "id": "fargo-1996",
+   "title": "Fargo",
+   "year": 1996,
+   "poster": "rt7cpEr1uP6RTZykBFhBTcRaKvG.jpg",
+   "tmdb": 7.85
+  },
+  {
+   "id": "magnolia-1999",
+   "title": "Magnolia",
+   "year": 1999,
+   "poster": "tpfC325Jk6S38VTe5dDWjWtoyxr.jpg",
+   "tmdb": 7.724
+  },
+  {
+   "id": "lost-in-translation-2003",
+   "title": "Lost in Translation",
+   "year": 2003,
+   "poster": "3jCLmYDIIiSMPujbwygNpqdpM8N.jpg",
+   "tmdb": 7.38
+  }
+ ]
+}

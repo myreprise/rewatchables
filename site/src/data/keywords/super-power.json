@@ -1,0 +1,156 @@
+{
+ "word": "super power",
+ "id": "super-power",
+ "catalogue": 460,
+ "share": 1.1,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.5,
+ "vs_catalogue": 0.4,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 3
+  },
+  {
+   "decade": 1990,
+   "n": 0
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  }
+ ],
+ "peak_share": 60.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "based on comic",
+   "reach": 5,
+   "band": "b5",
+   "id": "based-on-comic"
+  },
+  {
+   "word": "crime fighter",
+   "reach": 4,
+   "band": "b5",
+   "id": "crime-fighter"
+  },
+  {
+   "word": "organized crime",
+   "reach": 15,
+   "band": "b4",
+   "id": "organized-crime"
+  },
+  {
+   "word": "superhero",
+   "reach": 4,
+   "band": "b5",
+   "id": "superhero"
+  },
+  {
+   "word": "vigilante",
+   "reach": 7,
+   "band": "b5",
+   "id": "vigilante"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "android",
+   "reach": 4,
+   "band": "b5",
+   "id": "android"
+  },
+  {
+   "word": "anti hero",
+   "reach": 8,
+   "band": "b5",
+   "id": "anti-hero"
+  },
+  {
+   "word": "anti villain",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "basketball",
+   "reach": 7,
+   "band": "b5",
+   "id": "basketball"
+  },
+  {
+   "word": "bold",
+   "reach": 15,
+   "band": "b4",
+   "id": "bold"
+  },
+  {
+   "word": "cautionary",
+   "reach": 6,
+   "band": "b5",
+   "id": "cautionary"
+  },
+  {
+   "word": "chaos",
+   "reach": 4,
+   "band": "b5",
+   "id": "chaos"
+  },
+  {
+   "word": "chemical",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "star-wars-1977",
+   "title": "Star Wars",
+   "year": 1977,
+   "poster": "fai0rspsNeJCS69wHNjOdWxcI7P.jpg",
+   "tmdb": 8.207
+  },
+  {
+   "id": "ghostbusters-1984",
+   "title": "Ghostbusters",
+   "year": 1984,
+   "poster": "7E8nLijS9AwwUEPu2oFYOVKhdFA.jpg",
+   "tmdb": 7.498
+  },
+  {
+   "id": "teen-wolf-1985",
+   "title": "Teen Wolf",
+   "year": 1985,
+   "poster": "bv9rY9eoue2Hat6tcvrKVQ0ow8v.jpg",
+   "tmdb": 6.209
+  },
+  {
+   "id": "batman-1989",
+   "title": "Batman",
+   "year": 1989,
+   "poster": "cij4dd21v2Rk2YtUQbV5kW69WB2.jpg",
+   "tmdb": 7.233
+  },
+  {
+   "id": "the-dark-knight-2008",
+   "title": "The Dark Knight",
+   "year": 2008,
+   "poster": "qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+   "tmdb": 8.534
+  }
+ ]
+}

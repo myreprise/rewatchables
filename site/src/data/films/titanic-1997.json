@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Juliet Litman",
+   "host": {
+    "name": "Juliet Litman",
+    "id": "juliet-litman"
+   },
    "guests": [
-    "Amanda Dobbins",
-    "K. Austin Collins"
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    },
+    {
+     "name": "K. Austin Collins",
+     "id": "k-austin-collins"
+    }
    ],
    "note": null
   },
@@ -54,9 +63,15 @@
    "revisit_kind": "regular",
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Van Lathan"
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": null
   }
@@ -66,133 +81,155 @@
    "word": "based on true story",
    "reach": 25,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "based-on-true-story"
   },
   {
    "word": "historical fiction",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "historical-fiction"
   },
   {
    "word": "soulmates",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "soulmates"
   },
   {
    "word": "disaster movie",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "disaster-movie"
   },
   {
    "word": "class differences",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "class-differences"
   },
   {
    "word": "evacuation",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "evacuation"
   },
   {
    "word": "tragedy",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "tragedy"
   },
   {
    "word": "atlantic ocean",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "atlantic-ocean"
   },
   {
    "word": "love affair",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "love-affair"
   },
   {
    "word": "rich snob",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rich-snob"
   },
   {
    "word": "ship",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ship"
   },
   {
    "word": "shipwreck",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "shipwreck"
   },
   {
    "word": "1910s",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "forbidden love",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "historical event",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "iceberg",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "ocean liner",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "rich woman poor man",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sinking ship",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "titanic",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "tragic love",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "tragic romance",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

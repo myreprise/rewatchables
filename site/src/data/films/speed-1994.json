@@ -38,11 +38,23 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Jason Concepcion",
-    "Shea Serrano",
-    "Donnie Kwak"
+    {
+     "name": "Jason Concepcion",
+     "id": "jason-concepcion"
+    },
+    {
+     "name": "Shea Serrano",
+     "id": "shea-serrano"
+    },
+    {
+     "name": "Donnie Kwak",
+     "id": "donnie-kwak"
+    }
    ],
    "note": null
   },
@@ -55,10 +67,19 @@
    "revisit_kind": "regular",
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -68,127 +89,148 @@
    "word": "los angeles, california",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "los-angeles-california"
   },
   {
    "word": "suspenseful",
    "reach": 30,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "suspenseful"
   },
   {
    "word": "aggressive",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "aggressive"
   },
   {
    "word": "excited",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "excited"
   },
   {
    "word": "bold",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "bold"
   },
   {
    "word": "lapd",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lapd"
   },
   {
    "word": "s.w.a.t.",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "s-w-a-t"
   },
   {
    "word": "ransom demand",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ransom-demand"
   },
   {
    "word": "santa monica, california",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "santa-monica-california"
   },
   {
    "word": "bomb explosion",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "bomb planting",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "bomb vest",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "bomber",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "bus bomb",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "bus passengers",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "city bus",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "extortionist",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "falling elevator",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "subway train",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "trapped in a vehicle",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "trapped in an elevator",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

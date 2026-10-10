@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Mallory Rubin",
-    "Joanna Robinson"
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    },
+    {
+     "name": "Joanna Robinson",
+     "id": "joanna-robinson"
+    }
    ],
    "note": null
   }
@@ -50,67 +59,78 @@
    "word": "philadelphia, pennsylvania",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "philadelphia-pennsylvania"
   },
   {
    "word": "dog",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dog"
   },
   {
    "word": "mockumentary",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mockumentary"
   },
   {
    "word": "pets",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pets"
   },
   {
    "word": "illinois",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "illinois"
   },
   {
    "word": "animal show",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "dog show",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "kimono",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "pet shop",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "poodle",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "terrier",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

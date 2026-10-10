@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Juliet Litman",
+   "host": {
+    "name": "Juliet Litman",
+    "id": "juliet-litman"
+   },
    "guests": [
-    "Amanda Dobbins",
-    "Andrew Gruttadaro"
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    },
+    {
+     "name": "Andrew Gruttadaro",
+     "id": "andrew-gruttadaro"
+    }
    ],
    "note": null
   }
@@ -51,91 +60,106 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "love of one's life",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "love-of-ones-life"
   },
   {
    "word": "romantic",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "romantic"
   },
   {
    "word": "fight",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fight"
   },
   {
    "word": "soulmates",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "soulmates"
   },
   {
    "word": "valentine's day",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "valentines-day"
   },
   {
    "word": "secret love",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "secret-love"
   },
   {
    "word": "sadness",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sadness"
   },
   {
    "word": "river",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "river"
   },
   {
    "word": "tears",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "tears"
   },
   {
    "word": "candle",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "class",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "dementia",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mailbox",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "poem",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

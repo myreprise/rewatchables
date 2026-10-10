@@ -1,0 +1,62 @@
+{
+ "name": "Rob Mahoney",
+ "id": "rob-mahoney",
+ "episodes": 3,
+ "share": 0.0062,
+ "hosted": 0,
+ "first": "2025-12-15",
+ "last": "2026-08-24",
+ "shelf": [
+  {
+   "id": "apollo-13-1995",
+   "title": "Apollo 13",
+   "year": 1995,
+   "poster": "tVeKscCm2fY1xDXZk8PgnZ87h9S.jpg",
+   "episode": 478,
+   "aired": "2026-08-24"
+  },
+  {
+   "id": "the-nice-guys-2016",
+   "title": "The Nice Guys",
+   "year": 2016,
+   "poster": "clq4So9spa9cXk3MZy2iMdqkxP2.jpg",
+   "episode": 453,
+   "aired": "2026-03-23"
+  },
+  {
+   "id": "high-fidelity-2000",
+   "title": "High Fidelity",
+   "year": 2000,
+   "poster": "e2LZGB62GMhv3Fo8tDZjY87I81a.jpg",
+   "episode": 436,
+   "aired": "2025-12-15"
+  }
+ ],
+ "company": [
+  {
+   "name": "Chris Ryan",
+   "id": "chris-ryan",
+   "episodes": 2
+  },
+  {
+   "name": "Joanna Robinson",
+   "id": "joanna-robinson",
+   "episodes": 1
+  },
+  {
+   "name": "Amanda Dobbins",
+   "id": "amanda-dobbins",
+   "episodes": 1
+  }
+ ],
+ "regular": false,
+ "lean_floor": 15,
+ "leans": [],
+ "verdict_floor": 8,
+ "verdicts": {
+  "cruise": 0,
+  "hanks": 3,
+  "ties": 0,
+  "n": 3
+ }
+}

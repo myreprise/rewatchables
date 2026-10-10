@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": null
   }
@@ -51,103 +57,120 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "kidnapping",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "kidnapping"
   },
   {
    "word": "hostage",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hostage"
   },
   {
    "word": "based on magazine, newspaper or article",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "based-on-magazine-newspaper-or-article"
   },
   {
    "word": "american abroad",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "american-abroad"
   },
   {
    "word": "hostage negotiator",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hostage-negotiator"
   },
   {
    "word": "hostages",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hostages"
   },
   {
    "word": "ransom demand",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ransom-demand"
   },
   {
    "word": "bandit guerillas",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "engineer",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "kidnap and ransom",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "kidnapped spouse",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "liberation army",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "missing husband",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "oil company",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "south america",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "structural engineer",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

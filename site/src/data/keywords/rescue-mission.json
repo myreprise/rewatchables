@@ -1,0 +1,160 @@
+{
+ "word": "rescue mission",
+ "id": "rescue-mission",
+ "catalogue": 460,
+ "share": 1.1,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.5,
+ "vs_catalogue": 0.4,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 2
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 40.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1940s",
+   "reach": 5,
+   "band": "b5",
+   "id": "1940s"
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "kidnapping",
+   "reach": 12,
+   "band": "b4",
+   "id": "kidnapping"
+  },
+  {
+   "word": "military",
+   "reach": 6,
+   "band": "b5",
+   "id": "military"
+  },
+  {
+   "word": "us army",
+   "reach": 3,
+   "band": "b5",
+   "id": "us-army"
+  },
+  {
+   "word": "world war ii",
+   "reach": 5,
+   "band": "b5",
+   "id": "world-war-ii"
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "aggressive",
+   "reach": 18,
+   "band": "b3",
+   "id": "aggressive"
+  },
+  {
+   "word": "allies",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "android",
+   "reach": 4,
+   "band": "b5",
+   "id": "android"
+  },
+  {
+   "word": "anti hero",
+   "reach": 8,
+   "band": "b5",
+   "id": "anti-hero"
+  },
+  {
+   "word": "army",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "attempt to escape",
+   "reach": 2,
+   "band": "b5",
+   "id": "attempt-to-escape"
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  }
+ ],
+ "films": [
+  {
+   "id": "star-wars-1977",
+   "title": "Star Wars",
+   "year": 1977,
+   "poster": "fai0rspsNeJCS69wHNjOdWxcI7P.jpg",
+   "tmdb": 8.207
+  },
+  {
+   "id": "escape-from-new-york-1981",
+   "title": "Escape from New York",
+   "year": 1981,
+   "poster": "vH9llaphjAssRGi0k7e75tD40Ce.jpg",
+   "tmdb": 7.047
+  },
+  {
+   "id": "commando-1985",
+   "title": "Commando",
+   "year": 1985,
+   "poster": "ollPAAAgZ7euU8VisfqU3cuXhZ6.jpg",
+   "tmdb": 6.712
+  },
+  {
+   "id": "saving-private-ryan-1998",
+   "title": "Saving Private Ryan",
+   "year": 1998,
+   "poster": "uqx37cS8cpHg8U35f9U5IBlrCV3.jpg",
+   "tmdb": 8.232
+  },
+  {
+   "id": "dunkirk-2017",
+   "title": "Dunkirk",
+   "year": 2017,
+   "poster": "b4Oe15CGLL61Ped0RAS9JpqdmCt.jpg",
+   "tmdb": 7.451
+  }
+ ]
+}

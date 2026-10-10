@@ -1,0 +1,209 @@
+{
+ "word": "journalist",
+ "id": "journalist",
+ "catalogue": 460,
+ "share": 2.6,
+ "thin": false,
+ "peak": 2000,
+ "avg_tmdb": 7.2,
+ "vs_catalogue": 0.1,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 3
+  },
+  {
+   "decade": 1990,
+   "n": 2
+  },
+  {
+   "decade": 2000,
+   "n": 5
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 42.0,
+ "catalogue_peak_share": 17.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "journalism",
+   "reach": 5,
+   "band": "b5",
+   "id": "journalism"
+  },
+  {
+   "word": "newspaper",
+   "reach": 6,
+   "band": "b5",
+   "id": "newspaper"
+  },
+  {
+   "word": "loss of loved one",
+   "reach": 20,
+   "band": "b3",
+   "id": "loss-of-loved-one"
+  },
+  {
+   "word": "reporter",
+   "reach": 4,
+   "band": "b5",
+   "id": "reporter"
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "california",
+   "reach": 16,
+   "band": "b4",
+   "id": "california"
+  },
+  {
+   "word": "conspiracy",
+   "reach": 13,
+   "band": "b4",
+   "id": "conspiracy"
+  },
+  {
+   "word": "crime scene",
+   "reach": 2,
+   "band": "b5",
+   "id": "crime-scene"
+  },
+  {
+   "word": "fbi",
+   "reach": 20,
+   "band": "b3",
+   "id": "fbi"
+  },
+  {
+   "word": "frightened",
+   "reach": 11,
+   "band": "b5",
+   "id": "frightened"
+  },
+  {
+   "word": "investigation",
+   "reach": 14,
+   "band": "b4",
+   "id": "investigation"
+  },
+  {
+   "word": "love",
+   "reach": 11,
+   "band": "b5",
+   "id": "love"
+  },
+  {
+   "word": "love of one's life",
+   "reach": 11,
+   "band": "b5",
+   "id": "love-of-ones-life"
+  }
+ ],
+ "films": [
+  {
+   "id": "all-the-presidents-men-1976",
+   "title": "All the President's Men",
+   "year": 1976,
+   "poster": "pCe6lfLxt1B58zPD4lgQrlnDS2j.jpg",
+   "tmdb": 7.656
+  },
+  {
+   "id": "fletch-1985",
+   "title": "Fletch",
+   "year": 1985,
+   "poster": "nKDnMvVynvj7lwdv1iAZO1DzTYn.jpg",
+   "tmdb": 6.752
+  },
+  {
+   "id": "manhunter-1986",
+   "title": "Manhunter",
+   "year": 1986,
+   "poster": "6rb24x39vV8n5301IelC8rCPJTH.jpg",
+   "tmdb": 7.009
+  },
+  {
+   "id": "broadcast-news-1987",
+   "title": "Broadcast News",
+   "year": 1987,
+   "poster": "kQNR1Lc0qAF5xuBySpDn481KVjb.jpg",
+   "tmdb": 6.782
+  },
+  {
+   "id": "sleepless-in-seattle-1993",
+   "title": "Sleepless in Seattle",
+   "year": 1993,
+   "poster": "jAXfku1u1uaLGh4cUmK0ESf1pPu.jpg",
+   "tmdb": 6.741
+  },
+  {
+   "id": "never-been-kissed-1999",
+   "title": "Never Been Kissed",
+   "year": 1999,
+   "poster": "6BngDhDNfbBjhVFWDT2yMve32vi.jpg",
+   "tmdb": 6.161
+  },
+  {
+   "id": "before-sunset-2004",
+   "title": "Before Sunset",
+   "year": 2004,
+   "poster": "4sW5XH9ZfYXpvFzev00S1IGAEbg.jpg",
+   "tmdb": 7.8
+  },
+  {
+   "id": "blood-diamond-2006",
+   "title": "Blood Diamond",
+   "year": 2006,
+   "poster": "sYAUuiWpoXGKHxUfHyjTj7Apj2h.jpg",
+   "tmdb": 7.559
+  },
+  {
+   "id": "borat-cultural-learnings-of-america-for-make-benefit-glorious-nation-of-kazakhstan-2006",
+   "title": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
+   "year": 2006,
+   "poster": "7g9kBHMN2KTr5KUf8aen187Mdn.jpg",
+   "tmdb": 6.788
+  },
+  {
+   "id": "the-devil-wears-prada-2006",
+   "title": "The Devil Wears Prada",
+   "year": 2006,
+   "poster": "8912AsVuS7Sj915apArUFbv6F9L.jpg",
+   "tmdb": 7.438
+  },
+  {
+   "id": "zodiac-2007",
+   "title": "Zodiac",
+   "year": 2007,
+   "poster": "6YmeO4pB7XTh8P8F960O1uA14JO.jpg",
+   "tmdb": 7.532
+  },
+  {
+   "id": "spotlight-2015",
+   "title": "Spotlight",
+   "year": 2015,
+   "poster": "8DPGG400FgaFWaqcv11n8mRd2NG.jpg",
+   "tmdb": 7.812
+  }
+ ]
+}

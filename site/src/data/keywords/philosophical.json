@@ -1,0 +1,164 @@
+{
+ "word": "philosophical",
+ "id": "philosophical",
+ "catalogue": 460,
+ "share": 1.1,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.7,
+ "vs_catalogue": 0.6,
+ "decades": [
+  {
+   "decade": 1960,
+   "n": 1
+  },
+  {
+   "decade": 1970,
+   "n": 0
+  },
+  {
+   "decade": 1980,
+   "n": 3
+  },
+  {
+   "decade": 1990,
+   "n": 0
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 60.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "astronaut",
+   "reach": 4,
+   "band": "b5",
+   "id": "astronaut"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "friendship",
+   "reach": 22,
+   "band": "b3",
+   "id": "friendship"
+  },
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  },
+  {
+   "word": "thoughtful",
+   "reach": 9,
+   "band": "b5",
+   "id": "thoughtful"
+  },
+  {
+   "word": "1950s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1950s"
+  },
+  {
+   "word": "2000s",
+   "reach": 2,
+   "band": "b5",
+   "id": "2000s"
+  },
+  {
+   "word": "2030s",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "id": "absurd"
+  },
+  {
+   "word": "aftercreditsstinger",
+   "reach": 18,
+   "band": "b3",
+   "id": "aftercreditsstinger"
+  },
+  {
+   "word": "aggressive",
+   "reach": 18,
+   "band": "b3",
+   "id": "aggressive"
+  },
+  {
+   "word": "ai rebellion",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "alien",
+   "reach": 9,
+   "band": "b5",
+   "id": "alien"
+  },
+  {
+   "word": "alien invasion",
+   "reach": 4,
+   "band": "b5",
+   "id": "alien-invasion"
+  }
+ ],
+ "films": [
+  {
+   "id": "2001-a-space-odyssey-1968",
+   "title": "2001: A Space Odyssey",
+   "year": 1968,
+   "poster": "ve72VxNqjGM69Uky4WTo2bK6rfq.jpg",
+   "tmdb": 8.045
+  },
+  {
+   "id": "the-karate-kid-1984",
+   "title": "The Karate Kid",
+   "year": 1984,
+   "poster": "1mp4ViklKvA0WXXsNvNx0RBuiit.jpg",
+   "tmdb": 7.23
+  },
+  {
+   "id": "they-live-1988",
+   "title": "They Live",
+   "year": 1988,
+   "poster": "ngnybFTuopfbfmmEeX9jjBQQmF6.jpg",
+   "tmdb": 7.308
+  },
+  {
+   "id": "dead-poets-society-1989",
+   "title": "Dead Poets Society",
+   "year": 1989,
+   "poster": "tNvKkSnnn4Z6RCBThyK1gfCSSvv.jpg",
+   "tmdb": 8.296
+  },
+  {
+   "id": "the-martian-2015",
+   "title": "The Martian",
+   "year": 2015,
+   "poster": "fASz8A0yFE3QB6LgGoOfwvFSseV.jpg",
+   "tmdb": 7.706
+  }
+ ]
+}

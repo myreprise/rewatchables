@@ -40,10 +40,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Sean Fennessey",
+   "host": {
+    "name": "Sean Fennessey",
+    "id": "sean-fennessey"
+   },
    "guests": [
-    "Mallory Rubin",
-    "Shea Serrano"
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    },
+    {
+     "name": "Shea Serrano",
+     "id": "shea-serrano"
+    }
    ],
    "note": null
   }
@@ -53,157 +62,183 @@
    "word": "amused",
    "reach": 26,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "amused"
   },
   {
    "word": "friendship",
    "reach": 22,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "friendship"
   },
   {
    "word": "buddy",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "buddy"
   },
   {
    "word": "nostalgic",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "nostalgic"
   },
   {
    "word": "comforting",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "comforting"
   },
   {
    "word": "friends",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "friends"
   },
   {
    "word": "jealousy",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "jealousy"
   },
   {
    "word": "villain",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "villain"
   },
   {
    "word": "rescue",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rescue"
   },
   {
    "word": "bullying",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bullying"
   },
   {
    "word": "joyous",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "joyous"
   },
   {
    "word": "rivalry",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rivalry"
   },
   {
    "word": "mission",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mission"
   },
   {
    "word": "new toy",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "new-toy"
   },
   {
    "word": "3d animation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "anthropomorphism",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "boy next door",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "computer animation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "elementary school",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "neighborhood",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "pixar",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "resourcefulness",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "toy",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "toy car",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "toy comes to life",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "walkie talkie",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

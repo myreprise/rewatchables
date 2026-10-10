@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Shea Serrano"
+    {
+     "name": "Shea Serrano",
+     "id": "shea-serrano"
+    }
    ],
    "note": null
   }
@@ -50,85 +56,99 @@
    "word": "kidnapping",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "kidnapping"
   },
   {
    "word": "paris, france",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "paris-france"
   },
   {
    "word": "rescue",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rescue"
   },
   {
    "word": "candid",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "candid"
   },
   {
    "word": "prostitution",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "prostitution"
   },
   {
    "word": "army veteran",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "army-veteran"
   },
   {
    "word": "calm",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "calm"
   },
   {
    "word": "ex-cia agent",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ex-cia-agent"
   },
   {
    "word": "search for daughter",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "search-for-daughter"
   },
   {
    "word": "abduction",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "albanian",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "ex special forces",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "missing daughter",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sex trafficking",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

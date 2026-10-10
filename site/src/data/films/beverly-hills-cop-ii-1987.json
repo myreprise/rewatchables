@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": null
   }
@@ -51,163 +57,190 @@
    "word": "los angeles, california",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "los-angeles-california"
   },
   {
    "word": "sequel",
    "reach": 28,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "sequel"
   },
   {
    "word": "amused",
    "reach": 26,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "amused"
   },
   {
    "word": "police",
    "reach": 22,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "police"
   },
   {
    "word": "detective",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "detective"
   },
   {
    "word": "shootout",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "shootout"
   },
   {
    "word": "investigation",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "investigation"
   },
   {
    "word": "undercover",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "undercover"
   },
   {
    "word": "buddy cop",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "buddy-cop"
   },
   {
    "word": "gunfight",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gunfight"
   },
   {
    "word": "strip club",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "strip-club"
   },
   {
    "word": "detroit, michigan",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "detroit-michigan"
   },
   {
    "word": "beverly hills",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "beverly-hills"
   },
   {
    "word": "credit card fraud",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "credit-card-fraud"
   },
   {
    "word": "narcotics detective",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "narcotics-detective"
   },
   {
    "word": "black cop",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "black-cop"
   },
   {
    "word": "detective comedy",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "detective-comedy"
   },
   {
    "word": "ferrari",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ferrari"
   },
   {
    "word": "intensive care",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "intensive-care"
   },
   {
    "word": "robbery gang",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "robbery-gang"
   },
   {
    "word": "armored car",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "arms smuggling",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "horse track",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "playboy mansion",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "police procedural",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "shooting range",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "superdetective",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

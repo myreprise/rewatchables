@@ -1,0 +1,142 @@
+{
+ "word": "ice hockey",
+ "id": "ice-hockey",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1970,
+ "avg_tmdb": 6.6,
+ "vs_catalogue": -0.5,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 0
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  }
+ ],
+ "peak_share": 33.0,
+ "catalogue_peak_share": 7.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "sports",
+   "reach": 47,
+   "band": "b1",
+   "id": "sports"
+  },
+  {
+   "word": "aftercreditsstinger",
+   "reach": 18,
+   "band": "b3",
+   "id": "aftercreditsstinger"
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "id": "duringcreditsstinger"
+  },
+  {
+   "word": "explosive",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "gas rationing",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "hostage",
+   "reach": 9,
+   "band": "b5",
+   "id": "hostage"
+  },
+  {
+   "word": "lake placid new york",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "milwaukee wisconsin",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "olympic games",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "pennsylvania, usa",
+   "reach": 5,
+   "band": "b5",
+   "id": "pennsylvania-usa"
+  },
+  {
+   "word": "pittsburgh penguins",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "pittsburgh, pennsylvania",
+   "reach": 2,
+   "band": "b5",
+   "id": "pittsburgh-pennsylvania"
+  },
+  {
+   "word": "saint paul, minnesota",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "slap-shot-1977",
+   "title": "Slap Shot",
+   "year": 1977,
+   "poster": "k5dvEA7ajd90mf3KrF6m6LnYXOv.jpg",
+   "tmdb": 6.759
+  },
+  {
+   "id": "sudden-death-1995",
+   "title": "Sudden Death",
+   "year": 1995,
+   "poster": "4Snihptli0we9I4W5QfufOdHSeV.jpg",
+   "tmdb": 6.036
+  },
+  {
+   "id": "miracle-2004",
+   "title": "Miracle",
+   "year": 2004,
+   "poster": "mxtej2th8t8x0ufVBTyhsO6Htxj.jpg",
+   "tmdb": 7.1
+  }
+ ]
+}

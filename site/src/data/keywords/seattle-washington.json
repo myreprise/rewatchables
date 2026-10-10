@@ -1,0 +1,148 @@
+{
+ "word": "seattle, washington",
+ "id": "seattle-washington",
+ "catalogue": 460,
+ "share": 1.1,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 6.8,
+ "vs_catalogue": -0.3,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 4
+  }
+ ],
+ "peak_share": 80.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "id": "high-school"
+  },
+  {
+   "word": "lighthearted",
+   "reach": 9,
+   "band": "b5",
+   "id": "lighthearted"
+  },
+  {
+   "word": "love of one's life",
+   "reach": 11,
+   "band": "b5",
+   "id": "love-of-ones-life"
+  },
+  {
+   "word": "lovesickness",
+   "reach": 4,
+   "band": "b5",
+   "id": "lovesickness"
+  },
+  {
+   "word": "opposites attract",
+   "reach": 5,
+   "band": "b5",
+   "id": "opposites-attract"
+  },
+  {
+   "word": "valentine's day",
+   "reach": 5,
+   "band": "b5",
+   "id": "valentines-day"
+  },
+  {
+   "word": "adoring",
+   "reach": 8,
+   "band": "b5",
+   "id": "adoring"
+  },
+  {
+   "word": "airplane",
+   "reach": 8,
+   "band": "b5",
+   "id": "airplane"
+  },
+  {
+   "word": "apartment building",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "baltimore, usa",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "band",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "based on play or musical",
+   "reach": 5,
+   "band": "b5",
+   "id": "based-on-play-or-musical"
+  },
+  {
+   "word": "blind date",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "say-anything-1989",
+   "title": "Say Anything...",
+   "year": 1989,
+   "poster": "nkucKciFGSRalw6dJtsglWqOXMC.jpg",
+   "tmdb": 7.0
+  },
+  {
+   "id": "singles-1992",
+   "title": "Singles",
+   "year": 1992,
+   "poster": "4T7OKBdkNBorRKWw7VSeuA225z1.jpg",
+   "tmdb": 6.41
+  },
+  {
+   "id": "sleepless-in-seattle-1993",
+   "title": "Sleepless in Seattle",
+   "year": 1993,
+   "poster": "jAXfku1u1uaLGh4cUmK0ESf1pPu.jpg",
+   "tmdb": 6.741
+  },
+  {
+   "id": "disclosure-1994",
+   "title": "Disclosure",
+   "year": 1994,
+   "poster": "9e8cp3ho2aZrHMFgitysCoJxXwP.jpg",
+   "tmdb": 6.248
+  },
+  {
+   "id": "10-things-i-hate-about-you-1999",
+   "title": "10 Things I Hate About You",
+   "year": 1999,
+   "poster": "ujERk3aKABXU3NDXOAxEQYTHe9A.jpg",
+   "tmdb": 7.597
+  }
+ ]
+}

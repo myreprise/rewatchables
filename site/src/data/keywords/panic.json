@@ -1,0 +1,118 @@
+{
+ "word": "panic",
+ "id": "panic",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "creature",
+   "reach": 7,
+   "band": "b5",
+   "id": "creature"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "animal attack",
+   "reach": 2,
+   "band": "b5",
+   "id": "animal-attack"
+  },
+  {
+   "word": "animal horror",
+   "reach": 3,
+   "band": "b5",
+   "id": "animal-horror"
+  },
+  {
+   "word": "apocalypse",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "biblical",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "boat accident",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "celebrity",
+   "reach": 5,
+   "band": "b5",
+   "id": "celebrity"
+  },
+  {
+   "word": "claustrophobic",
+   "reach": 2,
+   "band": "b5",
+   "id": "claustrophobic"
+  },
+  {
+   "word": "current",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dark comedy",
+   "reach": 10,
+   "band": "b5",
+   "id": "dark-comedy"
+  },
+  {
+   "word": "demon",
+   "reach": 4,
+   "band": "b5",
+   "id": "demon"
+  },
+  {
+   "word": "disturbed",
+   "reach": 7,
+   "band": "b5",
+   "id": "disturbed"
+  },
+  {
+   "word": "dreary",
+   "reach": 6,
+   "band": "b5",
+   "id": "dreary"
+  }
+ ],
+ "films": [
+  {
+   "id": "jaws-2-1978",
+   "title": "Jaws 2",
+   "year": 1978,
+   "poster": "cN3ijEwsn4kBaRuHfcJpAQJbeWe.jpg",
+   "tmdb": 6.038
+  },
+  {
+   "id": "this-is-the-end-2013",
+   "title": "This Is the End",
+   "year": 2013,
+   "poster": "tNIW0NhX1hKvUsy6PQ80DOKUhkD.jpg",
+   "tmdb": 6.232
+  }
+ ]
+}

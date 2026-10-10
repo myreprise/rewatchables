@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Brian Koppelman"
+    {
+     "name": "Brian Koppelman",
+     "id": "brian-koppelman"
+    }
    ],
    "note": "Robert Redford month'"
   }
@@ -50,103 +56,120 @@
    "word": "based on true story",
    "reach": 25,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "based-on-true-story"
   },
   {
    "word": "lawyer",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "lawyer"
   },
   {
    "word": "investigation",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "investigation"
   },
   {
    "word": "1950s",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1950s"
   },
   {
    "word": "awestruck",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "awestruck"
   },
   {
    "word": "audacious",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "audacious"
   },
   {
    "word": "manipulation",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "manipulation"
   },
   {
    "word": "frustrated",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "frustrated"
   },
   {
    "word": "game show",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "game-show"
   },
   {
    "word": "idealist",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "idealist"
   },
   {
    "word": "cruel",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "fighting the system",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "idealism",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "manipulation of the media",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "product placement",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "quiz",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "tv ratings",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

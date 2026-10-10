@@ -39,11 +39,23 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey",
-    "Andy Greenwald"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Andy Greenwald",
+     "id": "andy-greenwald"
+    }
    ],
    "note": null
   }
@@ -53,85 +65,99 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "neo-noir",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "neo-noir"
   },
   {
    "word": "detective",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "detective"
   },
   {
    "word": "corruption",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "corruption"
   },
   {
    "word": "1950s",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1950s"
   },
   {
    "word": "whodunit",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "whodunit"
   },
   {
    "word": "femme fatale",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "femme-fatale"
   },
   {
    "word": "district attorney",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "district-attorney"
   },
   {
    "word": "call girl",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "call-girl"
   },
   {
    "word": "domestic violence",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "domestic-violence"
   },
   {
    "word": "movie star",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "movie-star"
   },
   {
    "word": "shotgun",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "shotgun"
   },
   {
    "word": "corpse",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "corpse"
   },
   {
    "word": "good cop bad cop",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

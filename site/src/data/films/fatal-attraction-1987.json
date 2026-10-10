@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Mallory Rubin",
-    "Wesley Morris"
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    },
+    {
+     "name": "Wesley Morris",
+     "id": "wesley-morris"
+    }
    ],
    "note": null
   }
@@ -52,145 +61,169 @@
    "word": "new york city",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "new-york-city"
   },
   {
    "word": "absurd",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "absurd"
   },
   {
    "word": "lawyer",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "lawyer"
   },
   {
    "word": "cliché",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cliche"
   },
   {
    "word": "obsession",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "obsession"
   },
   {
    "word": "marriage crisis",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "marriage-crisis"
   },
   {
    "word": "stalking",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "stalking"
   },
   {
    "word": "ridiculous",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ridiculous"
   },
   {
    "word": "sexual obsession",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sexual-obsession"
   },
   {
    "word": "stalker",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "stalker"
   },
   {
    "word": "dubious",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dubious"
   },
   {
    "word": "incredulous",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "incredulous"
   },
   {
    "word": "married couple",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "married-couple"
   },
   {
    "word": "one-night stand",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "one-night-stand"
   },
   {
    "word": "extramarital affair",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "extramarital-affair"
   },
   {
    "word": "married man",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "married-man"
   },
   {
    "word": "deceived wife",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "every man's nightmare",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "executive",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "female stalker",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "obsessed with a man",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "obsessive love",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "obsessive relationship",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "psychotic obsessions",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

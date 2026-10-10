@@ -1,0 +1,36 @@
+{
+ "name": "Aaron Sorkin",
+ "id": "aaron-sorkin",
+ "episodes": 1,
+ "share": 0.0021,
+ "hosted": 0,
+ "first": "2019-09-01",
+ "last": "2019-09-01",
+ "shelf": [
+  {
+   "id": "butch-cassidy-and-the-sundance-kid-1969",
+   "title": "Butch Cassidy and the Sundance Kid",
+   "year": 1969,
+   "poster": "gFmmykF1Ym3OGzENo50nZQaD1dx.jpg",
+   "episode": 94,
+   "aired": "2019-09-01"
+  }
+ ],
+ "company": [
+  {
+   "name": "Sean Fennessey",
+   "id": "sean-fennessey",
+   "episodes": 1
+  }
+ ],
+ "regular": false,
+ "lean_floor": 15,
+ "leans": [],
+ "verdict_floor": 8,
+ "verdicts": {
+  "cruise": 0,
+  "hanks": 0,
+  "ties": 0,
+  "n": 0
+ }
+}

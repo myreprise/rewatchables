@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": "At the end of the ep, Bill mentions that the next ep is episode 400, the first time the pod's episode count has aligned with this sheet"
   }
@@ -51,103 +57,120 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "new york city",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "new-york-city"
   },
   {
    "word": "conspiracy",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "conspiracy"
   },
   {
    "word": "psychological thriller",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "psychological-thriller"
   },
   {
    "word": "criminal",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "criminal"
   },
   {
    "word": "nazi",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nazi"
   },
   {
    "word": "theft",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "theft"
   },
   {
    "word": "agent",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "agent"
   },
   {
    "word": "government",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "government"
   },
   {
    "word": "safe deposit box",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "safe-deposit-box"
   },
   {
    "word": "dentist",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "diamond",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "graduate student",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "is it safe",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "pistol",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "rogue",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "runner",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

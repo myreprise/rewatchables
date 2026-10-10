@@ -1,0 +1,30 @@
+{
+ "name": "Jimmy Kimmel",
+ "id": "jimmy-kimmel",
+ "episodes": 1,
+ "share": 0.0021,
+ "hosted": 0,
+ "first": "2021-12-07",
+ "last": "2021-12-07",
+ "shelf": [
+  {
+   "id": "saturday-night-fever-1977",
+   "title": "Saturday Night Fever",
+   "year": 1977,
+   "poster": "ylA7E5Md21aqgzxbwa2dFxX8LKV.jpg",
+   "episode": 232,
+   "aired": "2021-12-07"
+  }
+ ],
+ "company": [],
+ "regular": false,
+ "lean_floor": 15,
+ "leans": [],
+ "verdict_floor": 8,
+ "verdicts": {
+  "cruise": 0,
+  "hanks": 0,
+  "ties": 0,
+  "n": 0
+ }
+}

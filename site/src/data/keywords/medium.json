@@ -1,0 +1,118 @@
+{
+ "word": "medium",
+ "id": "medium",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "haunted house",
+   "reach": 4,
+   "band": "b5",
+   "id": "haunted-house"
+  },
+  {
+   "word": "aftercreditsstinger",
+   "reach": 18,
+   "band": "b3",
+   "id": "aftercreditsstinger"
+  },
+  {
+   "word": "anxious",
+   "reach": 8,
+   "band": "b5",
+   "id": "anxious"
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  },
+  {
+   "word": "demon",
+   "reach": 4,
+   "band": "b5",
+   "id": "demon"
+  },
+  {
+   "word": "distressing",
+   "reach": 3,
+   "band": "b5",
+   "id": "distressing"
+  },
+  {
+   "word": "dramatic",
+   "reach": 18,
+   "band": "b3",
+   "id": "dramatic"
+  },
+  {
+   "word": "dying and death",
+   "reach": 13,
+   "band": "b4",
+   "id": "dying-and-death"
+  },
+  {
+   "word": "evil spirit",
+   "reach": 2,
+   "band": "b5",
+   "id": "evil-spirit"
+  },
+  {
+   "word": "family relationships",
+   "reach": 7,
+   "band": "b5",
+   "id": "family-relationships"
+  },
+  {
+   "word": "ghostbuster",
+   "reach": 2,
+   "band": "b5",
+   "id": "ghostbuster"
+  },
+  {
+   "word": "halloween",
+   "reach": 7,
+   "band": "b5",
+   "id": "halloween"
+  },
+  {
+   "word": "haunted",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "horrified",
+   "reach": 3,
+   "band": "b5",
+   "id": "horrified"
+  }
+ ],
+ "films": [
+  {
+   "id": "poltergeist-1982",
+   "title": "Poltergeist",
+   "year": 1982,
+   "poster": "4eMN3GANH5GG4kXdHkrTZEUuQ9M.jpg",
+   "tmdb": 7.2
+  },
+  {
+   "id": "insidious-2011",
+   "title": "Insidious",
+   "year": 2011,
+   "poster": "1egpmVXuXed58TH2UOnX1nATTrf.jpg",
+   "tmdb": 7.0
+  }
+ ]
+}

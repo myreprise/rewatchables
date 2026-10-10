@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -51,31 +60,36 @@
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "small town",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "small-town"
   },
   {
    "word": "pennsylvania, usa",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pennsylvania-usa"
   },
   {
    "word": "ice hockey",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ice-hockey"
   },
   {
    "word": "team owner",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "team-owner"
   }
  ],
  "cast": [

@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Juliet Litman"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Juliet Litman",
+     "id": "juliet-litman"
+    }
    ],
    "note": null
   },
@@ -55,11 +64,23 @@
    "revisit_kind": "regular",
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey",
-    "Van Lathan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": "Youtube livestream"
   }
@@ -69,37 +90,43 @@
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "american football",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "american-football"
   },
   {
    "word": "thoughtful",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "thoughtful"
   },
   {
    "word": "single mother",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "single-mother"
   },
   {
    "word": "career",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "career"
   },
   {
    "word": "stadium",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

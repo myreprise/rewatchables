@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Van Lathan"
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": null
   }
@@ -50,67 +56,78 @@
    "word": "fbi",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "fbi"
   },
   {
    "word": "loss of loved one",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "loss-of-loved-one"
   },
   {
    "word": "terrorism",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "terrorism"
   },
   {
    "word": "hostage",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hostage"
   },
   {
    "word": "police corruption",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "police-corruption"
   },
   {
    "word": "millionaire",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "millionaire"
   },
   {
    "word": "child kidnapping",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "child-kidnapping"
   },
   {
    "word": "ransom",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ransom"
   },
   {
    "word": "baby-snatching",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "negotiator",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "yellow press",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

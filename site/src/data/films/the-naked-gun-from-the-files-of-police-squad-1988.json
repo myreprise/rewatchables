@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Kyle Brandt"
+    {
+     "name": "Kyle Brandt",
+     "id": "kyle-brandt"
+    }
    ],
    "note": null
   }
@@ -50,109 +56,127 @@
    "word": "los angeles, california",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "los-angeles-california"
   },
   {
    "word": "police",
    "reach": 22,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "police"
   },
   {
    "word": "terrorism",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "terrorism"
   },
   {
    "word": "buddy cop",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "buddy-cop"
   },
   {
    "word": "baseball",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "baseball"
   },
   {
    "word": "satire",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "satire"
   },
   {
    "word": "exhilarated",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "exhilarated"
   },
   {
    "word": "good versus evil",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "good-versus-evil"
   },
   {
    "word": "parody",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "parody"
   },
   {
    "word": "assassination",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "assassination"
   },
   {
    "word": "slapstick comedy",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "slapstick-comedy"
   },
   {
    "word": "anarchic comedy",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "anarchic-comedy"
   },
   {
    "word": "based on tv series",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "based-on-tv-series"
   },
   {
    "word": "bumbling detective",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bumbling-detective"
   },
   {
    "word": "illegal drugs",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "illegal-drugs"
   },
   {
    "word": "aquarium",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "criminal investigation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "hypnotize",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

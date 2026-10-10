@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Van Lathan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": null
   }
@@ -51,49 +60,57 @@
    "word": "sequel",
    "reach": 28,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "sequel"
   },
   {
    "word": "serial killer",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "serial-killer"
   },
   {
    "word": "halloween",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "halloween"
   },
   {
    "word": "hospital",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hospital"
   },
   {
    "word": "mask",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mask"
   },
   {
    "word": "sheriff",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sheriff"
   },
   {
    "word": "killing spree",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "killing-spree"
   },
   {
    "word": "holiday horror",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "holiday-horror"
   }
  ],
  "cast": [

@@ -1,0 +1,138 @@
+{
+ "word": "widower",
+ "id": "widower",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.1,
+ "vs_catalogue": 0.0,
+ "decades": [
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 33.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "bratva (russian mafia)",
+   "reach": 4,
+   "band": "b5",
+   "id": "bratva-russian-mafia"
+  },
+  {
+   "word": "american dream",
+   "reach": 2,
+   "band": "b5",
+   "id": "american-dream"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "betrayal",
+   "reach": 9,
+   "band": "b5",
+   "id": "betrayal"
+  },
+  {
+   "word": "class differences",
+   "reach": 4,
+   "band": "b5",
+   "id": "class-differences"
+  },
+  {
+   "word": "dating",
+   "reach": 5,
+   "band": "b5",
+   "id": "dating"
+  },
+  {
+   "word": "distrust",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dog",
+   "reach": 5,
+   "band": "b5",
+   "id": "dog"
+  },
+  {
+   "word": "dreams",
+   "reach": 3,
+   "band": "b5",
+   "id": "dreams"
+  },
+  {
+   "word": "drug dealer",
+   "reach": 11,
+   "band": "b5",
+   "id": "drug-dealer"
+  },
+  {
+   "word": "father daughter relationship",
+   "reach": 5,
+   "band": "b5",
+   "id": "father-daughter-relationship"
+  },
+  {
+   "word": "fossil fuel",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "friendship",
+   "reach": 22,
+   "band": "b3",
+   "id": "friendship"
+  },
+  {
+   "word": "gangster",
+   "reach": 18,
+   "band": "b3",
+   "id": "gangster"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-american-president-1995",
+   "title": "The American President",
+   "year": 1995,
+   "poster": "yObOAYFIHXHkFPQ3jhgkN2ezaD.jpg",
+   "tmdb": 6.528
+  },
+  {
+   "id": "25th-hour-2002",
+   "title": "25th Hour",
+   "year": 2002,
+   "poster": "uW7tTRElr2tRhmAVESzvHy4ByXg.jpg",
+   "tmdb": 7.313
+  },
+  {
+   "id": "john-wick-2014",
+   "title": "John Wick",
+   "year": 2014,
+   "poster": "wXqWR7dHncNRbxoEGybEy7QTe9h.jpg",
+   "tmdb": 7.463
+  }
+ ]
+}

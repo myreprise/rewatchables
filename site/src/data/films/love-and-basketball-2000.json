@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Jemele Hill"
+    {
+     "name": "Jemele Hill",
+     "id": "jemele-hill"
+    }
    ],
    "note": null
   }
@@ -51,79 +57,92 @@
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "high school",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "high-school"
   },
   {
    "word": "woman director",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "woman-director"
   },
   {
    "word": "romantic",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "romantic"
   },
   {
    "word": "romcom",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "romcom"
   },
   {
    "word": "basketball",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "basketball"
   },
   {
    "word": "high school sports",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "high-school-sports"
   },
   {
    "word": "lovers",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lovers"
   },
   {
    "word": "african american romance",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "african-american-romance"
   },
   {
    "word": "relationship",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "relationship"
   },
   {
    "word": "sport",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sport"
   },
   {
    "word": "affection",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "basketball player",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": null
   }
@@ -50,133 +56,155 @@
    "word": "conspiracy",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "conspiracy"
   },
   {
    "word": "awestruck",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "awestruck"
   },
   {
    "word": "macabre",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "macabre"
   },
   {
    "word": "paranormal phenomena",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "paranormal-phenomena"
   },
   {
    "word": "religion",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "religion"
   },
   {
    "word": "archaeologist",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "archaeologist"
   },
   {
    "word": "cowardliness",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cowardliness"
   },
   {
    "word": "nanny",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nanny"
   },
   {
    "word": "photography",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "photography"
   },
   {
    "word": "priest",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "priest"
   },
   {
    "word": "satan",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "satan"
   },
   {
    "word": "decapitation",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "decapitation"
   },
   {
    "word": "devil's son",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "devils-son"
   },
   {
    "word": "prophecy",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "prophecy"
   },
   {
    "word": "rottweiler",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rottweiler"
   },
   {
    "word": "ambassador",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "anti-christ",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "baboon",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "devil",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "monk",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "ominous",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "revelation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

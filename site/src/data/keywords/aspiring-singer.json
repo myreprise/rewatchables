@@ -1,0 +1,118 @@
+{
+ "word": "aspiring singer",
+ "id": "aspiring-singer",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "id": "admiring"
+  },
+  {
+   "word": "pop star",
+   "reach": 3,
+   "band": "b5",
+   "id": "pop-star"
+  },
+  {
+   "word": "addiction",
+   "reach": 5,
+   "band": "b5",
+   "id": "addiction"
+  },
+  {
+   "word": "alcoholic",
+   "reach": 10,
+   "band": "b5",
+   "id": "alcoholic"
+  },
+  {
+   "word": "alcoholism",
+   "reach": 6,
+   "band": "b5",
+   "id": "alcoholism"
+  },
+  {
+   "word": "anxious",
+   "reach": 8,
+   "band": "b5",
+   "id": "anxious"
+  },
+  {
+   "word": "celebrity",
+   "reach": 5,
+   "band": "b5",
+   "id": "celebrity"
+  },
+  {
+   "word": "commanding",
+   "reach": 7,
+   "band": "b5",
+   "id": "commanding"
+  },
+  {
+   "word": "concert",
+   "reach": 2,
+   "band": "b5",
+   "id": "concert"
+  },
+  {
+   "word": "country music",
+   "reach": 3,
+   "band": "b5",
+   "id": "country-music"
+  },
+  {
+   "word": "country singer",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "emotional vulnerability",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "fading star",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "falling in love",
+   "reach": 4,
+   "band": "b5",
+   "id": "falling-in-love"
+  }
+ ],
+ "films": [
+  {
+   "id": "purple-rain-1984",
+   "title": "Purple Rain",
+   "year": 1984,
+   "poster": "vkQmzaSuDj8QyXmwNhCceCAmwUe.jpg",
+   "tmdb": 6.698
+  },
+  {
+   "id": "a-star-is-born-2018",
+   "title": "A Star Is Born",
+   "year": 2018,
+   "poster": "wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+   "tmdb": 7.5
+  }
+ ]
+}

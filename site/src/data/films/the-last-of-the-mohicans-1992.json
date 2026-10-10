@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": null
   }
@@ -51,79 +57,92 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "revenge",
    "reach": 31,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "revenge"
   },
   {
    "word": "inspirational",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "inspirational"
   },
   {
    "word": "period drama",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "period-drama"
   },
   {
    "word": "love triangle",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "love-triangle"
   },
   {
    "word": "interracial relationship",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "interracial-relationship"
   },
   {
    "word": "warrior",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "warrior"
   },
   {
    "word": "18th century",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "colonialism",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "french and indian war",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "historical",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "native american",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "warfare",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

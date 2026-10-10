@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": "1999 series (Luminary); released on Spotify feed 1/30/2024"
   },
@@ -54,10 +63,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": "Originally released May 23, 2019 on Luminary as part of 1999 Rewatchables series"
   }
@@ -67,97 +85,113 @@
    "word": "suspenseful",
    "reach": 30,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "suspenseful"
   },
   {
    "word": "spy",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "spy"
   },
   {
    "word": "legal thriller",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "legal-thriller"
   },
   {
    "word": "politics",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "politics"
   },
   {
    "word": "newspaper",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "newspaper"
   },
   {
    "word": "journalism",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "journalism"
   },
   {
    "word": "legal drama",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "legal-drama"
   },
   {
    "word": "reporter",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "reporter"
   },
   {
    "word": "intimate",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "intimate"
   },
   {
    "word": "whistleblower",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "whistleblower"
   },
   {
    "word": "interview",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "interview"
   },
   {
    "word": "conspiracy theory",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "insider",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "research",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "tobacco",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "tobacco industry",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -1,0 +1,166 @@
+{
+ "word": "cop",
+ "id": "cop",
+ "catalogue": 460,
+ "share": 1.5,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 6.7,
+ "vs_catalogue": -0.4,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 3
+  },
+  {
+   "decade": 1990,
+   "n": 3
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  }
+ ],
+ "peak_share": 43.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "airport",
+   "reach": 3,
+   "band": "b5",
+   "id": "airport"
+  },
+  {
+   "word": "drugs",
+   "reach": 17,
+   "band": "b3",
+   "id": "drugs"
+  },
+  {
+   "word": "ghetto",
+   "reach": 3,
+   "band": "b5",
+   "id": "ghetto"
+  },
+  {
+   "word": "heroin",
+   "reach": 3,
+   "band": "b5",
+   "id": "heroin"
+  },
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  },
+  {
+   "word": "mysterious",
+   "reach": 5,
+   "band": "b5",
+   "id": "mysterious"
+  },
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "id": "new-york-city"
+  },
+  {
+   "word": "organized crime",
+   "reach": 15,
+   "band": "b4",
+   "id": "organized-crime"
+  },
+  {
+   "word": "revenge",
+   "reach": 31,
+   "band": "b2",
+   "id": "revenge"
+  },
+  {
+   "word": "shootout",
+   "reach": 17,
+   "band": "b3",
+   "id": "shootout"
+  },
+  {
+   "word": "street gang",
+   "reach": 8,
+   "band": "b5",
+   "id": "street-gang"
+  },
+  {
+   "word": "undercover cop",
+   "reach": 4,
+   "band": "b5",
+   "id": "undercover-cop"
+  },
+  {
+   "word": "1960s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1960s"
+  }
+ ],
+ "films": [
+  {
+   "id": "to-live-and-die-in-l-a-1985",
+   "title": "To Live and Die in L.A.",
+   "year": 1985,
+   "poster": "2iW3pSihBIhXjnBQmUJ0mAiZbB5.jpg",
+   "tmdb": 7.117
+  },
+  {
+   "id": "cobra-1986",
+   "title": "Cobra",
+   "year": 1986,
+   "poster": "jCxfbTh8JvJil5edhNywxaTHoWv.jpg",
+   "tmdb": 6.162
+  },
+  {
+   "id": "running-scared-1986",
+   "title": "Running Scared",
+   "year": 1986,
+   "poster": "nSiRjhc7aTVPonXAhmTZAPqd2jT.jpg",
+   "tmdb": 6.095
+  },
+  {
+   "id": "die-hard-2-1990",
+   "title": "Die Hard 2",
+   "year": 1990,
+   "poster": "ybki0UWO3OPhaM6MSniuKC7sy1R.jpg",
+   "tmdb": 6.969
+  },
+  {
+   "id": "hard-to-kill-1990",
+   "title": "Hard to Kill",
+   "year": 1990,
+   "poster": "nmtMNxslljllSTVtt7VIOXdxSZp.jpg",
+   "tmdb": 5.996
+  },
+  {
+   "id": "new-jack-city-1991",
+   "title": "New Jack City",
+   "year": 1991,
+   "poster": "k9VjzXyGElRAxXyXgPvtRRSznyL.jpg",
+   "tmdb": 6.732
+  },
+  {
+   "id": "american-gangster-2007",
+   "title": "American Gangster",
+   "year": 2007,
+   "poster": "sX9idXDqRUxE5ffww3n3RV5gL55.jpg",
+   "tmdb": 7.594
+  }
+ ]
+}

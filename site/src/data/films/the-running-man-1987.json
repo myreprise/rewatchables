@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Kyle Brandt"
+    {
+     "name": "Kyle Brandt",
+     "id": "kyle-brandt"
+    }
    ],
    "note": null
   }
@@ -51,97 +57,113 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "dystopia",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "dystopia"
   },
   {
    "word": "on the run",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "on-the-run"
   },
   {
    "word": "paranoid",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "paranoid"
   },
   {
    "word": "authoritarian",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "authoritarian"
   },
   {
    "word": "dark future",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dark-future"
   },
   {
    "word": "game show",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "game-show"
   },
   {
    "word": "alternate future",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "crowd mentality",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "death game",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "fight for life",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "not too distant future",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "prison break",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "stalkers",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "totalitarian",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "wrongly accused",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

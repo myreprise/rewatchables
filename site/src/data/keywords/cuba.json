@@ -1,0 +1,118 @@
+{
+ "word": "cuba",
+ "id": "cuba",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1950s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1950s"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "betrayal",
+   "reach": 9,
+   "band": "b5",
+   "id": "betrayal"
+  },
+  {
+   "word": "blackmail",
+   "reach": 5,
+   "band": "b5",
+   "id": "blackmail"
+  },
+  {
+   "word": "computer virus",
+   "reach": 2,
+   "band": "b5",
+   "id": "computer-virus"
+  },
+  {
+   "word": "corrupt politician",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "cossack",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "electromagnetic pulse",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "extortion",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "falsely accused",
+   "reach": 3,
+   "band": "b5",
+   "id": "falsely-accused"
+  },
+  {
+   "word": "gangster",
+   "reach": 18,
+   "band": "b3",
+   "id": "gangster"
+  },
+  {
+   "word": "italian american",
+   "reach": 7,
+   "band": "b5",
+   "id": "italian-american"
+  },
+  {
+   "word": "italy",
+   "reach": 5,
+   "band": "b5",
+   "id": "italy"
+  },
+  {
+   "word": "james bond",
+   "reach": 3,
+   "band": "b5",
+   "id": "james-bond"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-godfather-part-ii-1974",
+   "title": "The Godfather Part II",
+   "year": 1974,
+   "poster": "sSuQTCZwqKrNBNIsksO9IAUoWP9.jpg",
+   "tmdb": 8.573
+  },
+  {
+   "id": "goldeneye-1995",
+   "title": "GoldenEye",
+   "year": 1995,
+   "poster": "z0ljRnNxIO7CRBhLEO0DvLgAFPR.jpg",
+   "tmdb": 6.905
+  }
+ ]
+}

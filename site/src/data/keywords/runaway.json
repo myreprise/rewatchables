@@ -1,0 +1,118 @@
+{
+ "word": "runaway",
+ "id": "runaway",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "accidental shooting",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "attempted rape",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "blunt",
+   "reach": 6,
+   "band": "b5",
+   "id": "blunt"
+  },
+  {
+   "word": "bold",
+   "reach": 15,
+   "band": "b4",
+   "id": "bold"
+  },
+  {
+   "word": "brother sister relationship",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "calvinism",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "calvinist",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "chase",
+   "reach": 7,
+   "band": "b5",
+   "id": "chase"
+  },
+  {
+   "word": "daughter",
+   "reach": 10,
+   "band": "b5",
+   "id": "daughter"
+  },
+  {
+   "word": "false accusations",
+   "reach": 2,
+   "band": "b5",
+   "id": "false-accusations"
+  },
+  {
+   "word": "father",
+   "reach": 3,
+   "band": "b5",
+   "id": "father"
+  },
+  {
+   "word": "female protagonist",
+   "reach": 6,
+   "band": "b5",
+   "id": "female-protagonist"
+  },
+  {
+   "word": "fugitive",
+   "reach": 4,
+   "band": "b5",
+   "id": "fugitive"
+  },
+  {
+   "word": "girl heroine",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "hardcore-1979",
+   "title": "Hardcore",
+   "year": 1979,
+   "poster": "g6m9xBTAzxXVhdJ624s9BLK9o6.jpg",
+   "tmdb": 6.8
+  },
+  {
+   "id": "the-legend-of-billie-jean-1985",
+   "title": "The Legend of Billie Jean",
+   "year": 1985,
+   "poster": "x2u2YtbJ9XySs3MdaIly8Gfp66.jpg",
+   "tmdb": 6.6
+  }
+ ]
+}

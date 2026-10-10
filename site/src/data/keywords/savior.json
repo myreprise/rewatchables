@@ -1,0 +1,118 @@
+{
+ "word": "savior",
+ "id": "savior",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "artificial intelligence (a.i.)",
+   "reach": 4,
+   "band": "b5",
+   "id": "artificial-intelligence-a-i"
+  },
+  {
+   "word": "cyborg",
+   "reach": 3,
+   "band": "b5",
+   "id": "cyborg"
+  },
+  {
+   "word": "dystopia",
+   "reach": 17,
+   "band": "b3",
+   "id": "dystopia"
+  },
+  {
+   "word": "good versus evil",
+   "reach": 7,
+   "band": "b5",
+   "id": "good-versus-evil"
+  },
+  {
+   "word": "man vs machine",
+   "reach": 4,
+   "band": "b5",
+   "id": "man-vs-machine"
+  },
+  {
+   "word": "shotgun",
+   "reach": 3,
+   "band": "b5",
+   "id": "shotgun"
+  },
+  {
+   "word": "time travel",
+   "reach": 7,
+   "band": "b5",
+   "id": "time-travel"
+  },
+  {
+   "word": "urban setting",
+   "reach": 6,
+   "band": "b5",
+   "id": "urban-setting"
+  },
+  {
+   "word": "villain",
+   "reach": 7,
+   "band": "b5",
+   "id": "villain"
+  },
+  {
+   "word": "catch phrase",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "female protagonist",
+   "reach": 6,
+   "band": "b5",
+   "id": "female-protagonist"
+  },
+  {
+   "word": "fictional war",
+   "reach": 2,
+   "band": "b5",
+   "id": "fictional-war"
+  },
+  {
+   "word": "future war",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "the-terminator-1984",
+   "title": "The Terminator",
+   "year": 1984,
+   "poster": "qvktm0BHcnmDpul4Hz01GIazWPr.jpg",
+   "tmdb": 7.69
+  },
+  {
+   "id": "terminator-2-judgment-day-1991",
+   "title": "Terminator 2: Judgment Day",
+   "year": 1991,
+   "poster": "jFTVD4XoWQTcg7wdyJKa8PEds5q.jpg",
+   "tmdb": 8.2
+  }
+ ]
+}

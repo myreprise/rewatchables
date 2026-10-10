@@ -1,0 +1,118 @@
+{
+ "word": "child rescue",
+ "id": "child-rescue",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "burglar",
+   "reach": 4,
+   "band": "b5",
+   "id": "burglar"
+  },
+  {
+   "word": "christmas",
+   "reach": 14,
+   "band": "b4",
+   "id": "christmas"
+  },
+  {
+   "word": "family relationships",
+   "reach": 7,
+   "band": "b5",
+   "id": "family-relationships"
+  },
+  {
+   "word": "holiday",
+   "reach": 9,
+   "band": "b5",
+   "id": "holiday"
+  },
+  {
+   "word": "home alone",
+   "reach": 2,
+   "band": "b5",
+   "id": "home-alone"
+  },
+  {
+   "word": "home invasion",
+   "reach": 5,
+   "band": "b5",
+   "id": "home-invasion"
+  },
+  {
+   "word": "kids on their own",
+   "reach": 2,
+   "band": "b5",
+   "id": "kids-on-their-own"
+  },
+  {
+   "word": "little boy",
+   "reach": 2,
+   "band": "b5",
+   "id": "little-boy"
+  },
+  {
+   "word": "mischievous child",
+   "reach": 2,
+   "band": "b5",
+   "id": "mischievous-child"
+  },
+  {
+   "word": "precocious child",
+   "reach": 2,
+   "band": "b5",
+   "id": "precocious-child"
+  },
+  {
+   "word": "slapstick comedy",
+   "reach": 4,
+   "band": "b5",
+   "id": "slapstick-comedy"
+  },
+  {
+   "word": "aggressive",
+   "reach": 18,
+   "band": "b3",
+   "id": "aggressive"
+  },
+  {
+   "word": "alone",
+   "reach": 2,
+   "band": "b5",
+   "id": "alone"
+  },
+  {
+   "word": "booby trap",
+   "reach": 2,
+   "band": "b5",
+   "id": "booby-trap"
+  }
+ ],
+ "films": [
+  {
+   "id": "home-alone-1990",
+   "title": "Home Alone",
+   "year": 1990,
+   "poster": "onTSipZ8R3bliBdKfPtsDuHTdlL.jpg",
+   "tmdb": 7.469
+  },
+  {
+   "id": "home-alone-2-lost-in-new-york-1992",
+   "title": "Home Alone 2: Lost in New York",
+   "year": 1992,
+   "poster": "uuitWHpJwxD1wruFl2nZHIb4UGN.jpg",
+   "tmdb": 6.793
+  }
+ ]
+}

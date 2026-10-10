@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Ryen Russillo",
-    "Brian Koppelman"
+    {
+     "name": "Ryen Russillo",
+     "id": "ryen-russillo"
+    },
+    {
+     "name": "Brian Koppelman",
+     "id": "brian-koppelman"
+    }
    ],
    "note": null
   }
@@ -51,73 +60,85 @@
    "word": "based on true story",
    "reach": 25,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "based-on-true-story"
   },
   {
    "word": "capitalism",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "capitalism"
   },
   {
    "word": "wall street",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "wall-street"
   },
   {
    "word": "downsizing",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "downsizing"
   },
   {
    "word": "morality",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "morality"
   },
   {
    "word": "stock market",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "stock-market"
   },
   {
    "word": "brokerage",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "economics",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "financial crisis",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "investment",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "investment banker",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "stock market crash",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

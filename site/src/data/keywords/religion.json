@@ -1,0 +1,149 @@
+{
+ "word": "religion",
+ "id": "religion",
+ "catalogue": 460,
+ "share": 0.9,
+ "thin": false,
+ "peak": 1970,
+ "avg_tmdb": 8.1,
+ "vs_catalogue": 1.0,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 2
+  },
+  {
+   "decade": 1980,
+   "n": 0
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  }
+ ],
+ "peak_share": 50.0,
+ "catalogue_peak_share": 7.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "1890s",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "1900s",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "1940s",
+   "reach": 5,
+   "band": "b5",
+   "id": "1940s"
+  },
+  {
+   "word": "1950s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1950s"
+  },
+  {
+   "word": "19th century",
+   "reach": 4,
+   "band": "b5",
+   "id": "19th-century"
+  },
+  {
+   "word": "20th century",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "adopted son",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "alcoholic",
+   "reach": 10,
+   "band": "b5",
+   "id": "alcoholic"
+  },
+  {
+   "word": "ambassador",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "american dream",
+   "reach": 2,
+   "band": "b5",
+   "id": "american-dream"
+  },
+  {
+   "word": "anti-christ",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "archaeologist",
+   "reach": 3,
+   "band": "b5",
+   "id": "archaeologist"
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-godfather-1972",
+   "title": "The Godfather",
+   "year": 1972,
+   "poster": "3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+   "tmdb": 8.686
+  },
+  {
+   "id": "the-omen-1976",
+   "title": "The Omen",
+   "year": 1976,
+   "poster": "mDcjjEu1fMNmsXi4l4D8IftlTix.jpg",
+   "tmdb": 7.404
+  },
+  {
+   "id": "se7en-1995",
+   "title": "Se7en",
+   "year": 1995,
+   "poster": "191nKfP0ehp3uIvWqgPbFmI4lv9.jpg",
+   "tmdb": 8.38
+  },
+  {
+   "id": "there-will-be-blood-2007",
+   "title": "There Will Be Blood",
+   "year": 2007,
+   "poster": "fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
+   "tmdb": 8.064
+  }
+ ]
+}

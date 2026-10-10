@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Amanda Dobbins",
-    "Liz Kelly"
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    },
+    {
+     "name": "Liz Kelly",
+     "id": "liz-kelly"
+    }
    ],
    "note": null
   }
@@ -52,85 +61,99 @@
    "word": "woman director",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "woman-director"
   },
   {
    "word": "infidelity",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "infidelity"
   },
   {
    "word": "love",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "love"
   },
   {
    "word": "texas",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "texas"
   },
   {
    "word": "alcohol",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alcohol"
   },
   {
    "word": "singer",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "singer"
   },
   {
    "word": "addiction",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "addiction"
   },
   {
    "word": "adultery",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "adultery"
   },
   {
    "word": "musician",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "musician"
   },
   {
    "word": "country music",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "country-music"
   },
   {
    "word": "biker",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "biker"
   },
   {
    "word": "musical",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "musical"
   },
   {
    "word": "paparazzi",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "paparazzi"
   },
   {
    "word": "van",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "van"
   }
  ],
  "cast": [

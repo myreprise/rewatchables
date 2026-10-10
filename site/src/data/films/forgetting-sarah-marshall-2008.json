@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -52,55 +61,64 @@
    "word": "ex-girlfriend",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ex-girlfriend"
   },
   {
    "word": "vacation",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vacation"
   },
   {
    "word": "break-up",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "break-up"
   },
   {
    "word": "celebrity",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "celebrity"
   },
   {
    "word": "one-night stand",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "one-night-stand"
   },
   {
    "word": "beauty",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "dumped",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "hawaii",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "rock star",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

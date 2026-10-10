@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Mallory Rubin"
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    }
    ],
    "note": "1999 series (Luminary)"
   },
@@ -53,9 +59,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Mallory Rubin"
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    }
    ],
    "note": "Originally released Sep 26, 2019 on Luminary as part of 1999 Rewatchables series"
   }
@@ -65,85 +77,99 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "baseball",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "baseball"
   },
   {
    "word": "training",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "training"
   },
   {
    "word": "single mother",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "single-mother"
   },
   {
    "word": "baseball player",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "baseball-player"
   },
   {
    "word": "baseball stadium",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "baseball-stadium"
   },
   {
    "word": "legend",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "legend"
   },
   {
    "word": "teenage daughter",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "teenage-daughter"
   },
   {
    "word": "baseball game",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "baseball pitcher",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "baseball team",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "long distance relationship",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sports injury",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

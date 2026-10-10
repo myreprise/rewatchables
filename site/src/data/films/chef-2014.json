@@ -37,9 +37,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "David Chang"
+    {
+     "name": "David Chang",
+     "id": "david-chang"
+    }
    ],
    "note": null
   }
@@ -49,73 +55,85 @@
    "word": "duringcreditsstinger",
    "reach": 27,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "duringcreditsstinger"
   },
   {
    "word": "parent child relationship",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "parent-child-relationship"
   },
   {
    "word": "road trip",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "road-trip"
   },
   {
    "word": "affectation",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "affectation"
   },
   {
    "word": "ex-husband ex-wife relationship",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ex-husband-ex-wife-relationship"
   },
   {
    "word": "semi autobiographical",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "semi-autobiographical"
   },
   {
    "word": "social media",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "social-media"
   },
   {
    "word": "chef",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "food",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "food truck",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "restaurant owner",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "twitter",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

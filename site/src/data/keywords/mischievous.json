@@ -1,0 +1,174 @@
+{
+ "word": "mischievous",
+ "id": "mischievous",
+ "catalogue": 460,
+ "share": 1.5,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.1,
+ "vs_catalogue": 0.0,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 3
+  },
+  {
+   "decade": 1990,
+   "n": 2
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 43.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "hilarious",
+   "reach": 17,
+   "band": "b3",
+   "id": "hilarious"
+  },
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "id": "absurd"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "chicago, illinois",
+   "reach": 19,
+   "band": "b3",
+   "id": "chicago-illinois"
+  },
+  {
+   "word": "christmas",
+   "reach": 14,
+   "band": "b4",
+   "id": "christmas"
+  },
+  {
+   "word": "lighthearted",
+   "reach": 9,
+   "band": "b5",
+   "id": "lighthearted"
+  },
+  {
+   "word": "satire",
+   "reach": 9,
+   "band": "b5",
+   "id": "satire"
+  },
+  {
+   "word": "1930s",
+   "reach": 6,
+   "band": "b5",
+   "id": "1930s"
+  },
+  {
+   "word": "alley",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "alone",
+   "reach": 2,
+   "band": "b5",
+   "id": "alone"
+  },
+  {
+   "word": "apocalypse",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "appreciative",
+   "reach": 6,
+   "band": "b5",
+   "id": "appreciative"
+  },
+  {
+   "word": "art gallery",
+   "reach": 3,
+   "band": "b5",
+   "id": "art-gallery"
+  },
+  {
+   "word": "bar fight",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "the-sting-1973",
+   "title": "The Sting",
+   "year": 1973,
+   "poster": "ckmYng37zey8INYf6d10cVgIG93.jpg",
+   "tmdb": 8.0
+  },
+  {
+   "id": "trading-places-1983",
+   "title": "Trading Places",
+   "year": 1983,
+   "poster": "8mBuLCOcpWnmYtZc4aqtvDXslv6.jpg",
+   "tmdb": 7.23
+  },
+  {
+   "id": "beverly-hills-cop-1984",
+   "title": "Beverly Hills Cop",
+   "year": 1984,
+   "poster": "eBJEvKkhQ0tUt1dBAcTEYW6kCle.jpg",
+   "tmdb": 7.211
+  },
+  {
+   "id": "weird-science-1985",
+   "title": "Weird Science",
+   "year": 1985,
+   "poster": "AsFxOHwUlK7mTOkC5p6SySsdEjz.jpg",
+   "tmdb": 6.534
+  },
+  {
+   "id": "home-alone-1990",
+   "title": "Home Alone",
+   "year": 1990,
+   "poster": "onTSipZ8R3bliBdKfPtsDuHTdlL.jpg",
+   "tmdb": 7.469
+  },
+  {
+   "id": "true-lies-1994",
+   "title": "True Lies",
+   "year": 1994,
+   "poster": "pqdvCBDThAOjlA0XBzbNm7GvwpU.jpg",
+   "tmdb": 7.102
+  },
+  {
+   "id": "this-is-the-end-2013",
+   "title": "This Is the End",
+   "year": 2013,
+   "poster": "tNIW0NhX1hKvUsy6PQ80DOKUhkD.jpg",
+   "tmdb": 6.232
+  }
+ ]
+}

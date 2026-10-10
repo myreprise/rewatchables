@@ -1,0 +1,118 @@
+{
+ "word": "corrupt cop",
+ "id": "corrupt-cop",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "id": "admiring"
+  },
+  {
+   "word": "adoring",
+   "reach": 8,
+   "band": "b5",
+   "id": "adoring"
+  },
+  {
+   "word": "aggressive",
+   "reach": 18,
+   "band": "b3",
+   "id": "aggressive"
+  },
+  {
+   "word": "alcoholic",
+   "reach": 10,
+   "band": "b5",
+   "id": "alcoholic"
+  },
+  {
+   "word": "ambiguous",
+   "reach": 9,
+   "band": "b5",
+   "id": "ambiguous"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "assassination",
+   "reach": 5,
+   "band": "b5",
+   "id": "assassination"
+  },
+  {
+   "word": "atlantic city",
+   "reach": 2,
+   "band": "b5",
+   "id": "atlantic-city"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "bible",
+   "reach": 2,
+   "band": "b5",
+   "id": "bible"
+  },
+  {
+   "word": "bloodshed",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bodyguard",
+   "reach": 4,
+   "band": "b5",
+   "id": "bodyguard"
+  },
+  {
+   "word": "boxing match",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bribery",
+   "reach": 4,
+   "band": "b5",
+   "id": "bribery"
+  }
+ ],
+ "films": [
+  {
+   "id": "snake-eyes-1998",
+   "title": "Snake Eyes",
+   "year": 1998,
+   "poster": "gsh9mQKRrr4M90XC9Rr0wxefc9u.jpg",
+   "tmdb": 6.204
+  },
+  {
+   "id": "man-on-fire-2004",
+   "title": "Man on Fire",
+   "year": 2004,
+   "poster": "grCGLCcTHv9TChibzOwzUpykcjB.jpg",
+   "tmdb": 7.466
+  }
+ ]
+}

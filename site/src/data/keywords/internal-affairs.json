@@ -1,0 +1,130 @@
+{
+ "word": "internal affairs",
+ "id": "internal-affairs",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 6.7,
+ "vs_catalogue": -0.4,
+ "decades": [
+  {
+   "decade": 1990,
+   "n": 3
+  }
+ ],
+ "peak_share": 100.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "police corruption",
+   "reach": 9,
+   "band": "b5",
+   "id": "police-corruption"
+  },
+  {
+   "word": "car crash",
+   "reach": 6,
+   "band": "b5",
+   "id": "car-crash"
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "arson",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  },
+  {
+   "word": "bad cop",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bridge",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "buddy cop",
+   "reach": 11,
+   "band": "b5",
+   "id": "buddy-cop"
+  },
+  {
+   "word": "buddy movie",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "car accident",
+   "reach": 3,
+   "band": "b5",
+   "id": "car-accident"
+  },
+  {
+   "word": "corruption",
+   "reach": 12,
+   "band": "b4",
+   "id": "corruption"
+  },
+  {
+   "word": "curious",
+   "reach": 3,
+   "band": "b5",
+   "id": "curious"
+  },
+  {
+   "word": "dirty cop",
+   "reach": 5,
+   "band": "b5",
+   "id": "dirty-cop"
+  },
+  {
+   "word": "drug lord",
+   "reach": 2,
+   "band": "b5",
+   "id": "drug-lord"
+  }
+ ],
+ "films": [
+  {
+   "id": "internal-affairs-1990",
+   "title": "Internal Affairs",
+   "year": 1990,
+   "poster": "A4pH8DiNFEf2AgXkM4zk3ZpblV.jpg",
+   "tmdb": 6.37
+  },
+  {
+   "id": "bad-boys-1995",
+   "title": "Bad Boys",
+   "year": 1995,
+   "poster": "x1ygBecKHfXX4M2kRhmFKWfWbJc.jpg",
+   "tmdb": 6.831
+  },
+  {
+   "id": "cop-land-1997",
+   "title": "Cop Land",
+   "year": 1997,
+   "poster": "dyOqXyPCQh8VF0KA5aelBCCQond.jpg",
+   "tmdb": 6.816
+  }
+ ]
+}

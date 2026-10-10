@@ -1,0 +1,130 @@
+{
+ "word": "curious",
+ "id": "curious",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.3,
+ "vs_catalogue": 0.2,
+ "decades": [
+  {
+   "decade": 1990,
+   "n": 3
+  }
+ ],
+ "peak_share": 100.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1970s"
+  },
+  {
+   "word": "1980s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1980s"
+  },
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "id": "absurd"
+  },
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "id": "admiring"
+  },
+  {
+   "word": "adultery",
+   "reach": 5,
+   "band": "b5",
+   "id": "adultery"
+  },
+  {
+   "word": "alabama",
+   "reach": 2,
+   "band": "b5",
+   "id": "alabama"
+  },
+  {
+   "word": "alter ego",
+   "reach": 2,
+   "band": "b5",
+   "id": "alter-ego"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "arson",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "audacious",
+   "reach": 10,
+   "band": "b5",
+   "id": "audacious"
+  },
+  {
+   "word": "bad cop",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "best friends",
+   "reach": 3,
+   "band": "b5",
+   "id": "best-friends"
+  },
+  {
+   "word": "big dick",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bridge",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "my-cousin-vinny-1992",
+   "title": "My Cousin Vinny",
+   "year": 1992,
+   "poster": "iwSURa8nS2ujwrU3s1lfxxX7voH.jpg",
+   "tmdb": 7.497
+  },
+  {
+   "id": "boogie-nights-1997",
+   "title": "Boogie Nights",
+   "year": 1997,
+   "poster": "2hVSN9yOfoI8EUTqcVW6zCIyQ1G.jpg",
+   "tmdb": 7.638
+  },
+  {
+   "id": "cop-land-1997",
+   "title": "Cop Land",
+   "year": 1997,
+   "poster": "dyOqXyPCQh8VF0KA5aelBCCQond.jpg",
+   "tmdb": 6.816
+  }
+ ]
+}

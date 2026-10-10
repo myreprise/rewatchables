@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -52,109 +61,127 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "amused",
    "reach": 26,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "amused"
   },
   {
    "word": "california",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "california"
   },
   {
    "word": "buddy",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "buddy"
   },
   {
    "word": "antagonistic",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "antagonistic"
   },
   {
    "word": "road trip",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "road-trip"
   },
   {
    "word": "marijuana",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "marijuana"
   },
   {
    "word": "cheerful",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cheerful"
   },
   {
    "word": "sympathetic",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sympathetic"
   },
   {
    "word": "whimsical",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "whimsical"
   },
   {
    "word": "golf",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "golf"
   },
   {
    "word": "sincere",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sincere"
   },
   {
    "word": "writer",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "writer"
   },
   {
    "word": "santa barbara, california",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "santa-barbara-california"
   },
   {
    "word": "stag night",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "stag-night"
   },
   {
    "word": "wine",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "wine drinking",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "winery",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -1,0 +1,149 @@
+{
+ "word": "funeral",
+ "id": "funeral",
+ "catalogue": 460,
+ "share": 0.9,
+ "thin": false,
+ "peak": 2010,
+ "avg_tmdb": 7.4,
+ "vs_catalogue": 0.3,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 2
+  }
+ ],
+ "peak_share": 50.0,
+ "catalogue_peak_share": 12.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "dysfunctional family",
+   "reach": 6,
+   "band": "b5",
+   "id": "dysfunctional-family"
+  },
+  {
+   "word": "nostalgia",
+   "reach": 2,
+   "band": "b5",
+   "id": "nostalgia"
+  },
+  {
+   "word": "parent child relationship",
+   "reach": 16,
+   "band": "b4",
+   "id": "parent-child-relationship"
+  },
+  {
+   "word": "1960s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1960s"
+  },
+  {
+   "word": "attic",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bat",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "best friend",
+   "reach": 6,
+   "band": "b5",
+   "id": "best-friend"
+  },
+  {
+   "word": "boat",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "boston, massachusetts",
+   "reach": 7,
+   "band": "b5",
+   "id": "boston-massachusetts"
+  },
+  {
+   "word": "bronx, new york city",
+   "reach": 2,
+   "band": "b5",
+   "id": "bronx-new-york-city"
+  },
+  {
+   "word": "brother",
+   "reach": 2,
+   "band": "b5",
+   "id": "brother"
+  },
+  {
+   "word": "bus driver",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "commanding",
+   "reach": 7,
+   "band": "b5",
+   "id": "commanding"
+  },
+  {
+   "word": "confession booth",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "the-big-chill-1983",
+   "title": "The Big Chill",
+   "year": 1983,
+   "poster": "rU8kjMEL5Mn0EWm3gOShPHBEZ4l.jpg",
+   "tmdb": 6.829
+  },
+  {
+   "id": "a-bronx-tale-1993",
+   "title": "A Bronx Tale",
+   "year": 1993,
+   "poster": "sDbO6LmLYtyqAoFTPpRcMgPSCEO.jpg",
+   "tmdb": 7.9
+  },
+  {
+   "id": "manchester-by-the-sea-2016",
+   "title": "Manchester by the Sea",
+   "year": 2016,
+   "poster": "o9VXYOuaJxCEKOxbA86xqtwmqYn.jpg",
+   "tmdb": 7.552
+  },
+  {
+   "id": "hereditary-2018",
+   "title": "Hereditary",
+   "year": 2018,
+   "poster": "4GFPuL14eXi66V96xBWY73Y9PfR.jpg",
+   "tmdb": 7.3
+  }
+ ]
+}

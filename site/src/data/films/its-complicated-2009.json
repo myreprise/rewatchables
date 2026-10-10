@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Amanda Dobbins",
-    "Mina Kimes"
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    },
+    {
+     "name": "Mina Kimes",
+     "id": "mina-kimes"
+    }
    ],
    "note": null
   }
@@ -51,151 +60,176 @@
    "word": "new york city",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "new-york-city"
   },
   {
    "word": "woman director",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "woman-director"
   },
   {
    "word": "marijuana",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "marijuana"
   },
   {
    "word": "single mother",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "single-mother"
   },
   {
    "word": "family",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "family"
   },
   {
    "word": "dating",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dating"
   },
   {
    "word": "ex-husband ex-wife relationship",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ex-husband-ex-wife-relationship"
   },
   {
    "word": "lovers",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lovers"
   },
   {
    "word": "divorcee",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "divorcee"
   },
   {
    "word": "love affair",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "love-affair"
   },
   {
    "word": "older man younger woman relationship",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "older-man-younger-woman-relationship"
   },
   {
    "word": "secret",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "secret"
   },
   {
    "word": "architect",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "architect"
   },
   {
    "word": "divorced couple",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "divorced-couple"
   },
   {
    "word": "divorced parents",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "divorced-parents"
   },
   {
    "word": "santa barbara, california",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "santa-barbara-california"
   },
   {
    "word": "adult children",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "baker",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "bakery",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "cheating husband",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "college graduation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "family history",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mature romance",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "new relationship",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "unresolved issues",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

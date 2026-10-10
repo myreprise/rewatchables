@@ -1,0 +1,163 @@
+{
+ "word": "car race",
+ "id": "car-race",
+ "catalogue": 460,
+ "share": 1.3,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.3,
+ "vs_catalogue": 0.2,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 2
+  },
+  {
+   "decade": 1990,
+   "n": 0
+  },
+  {
+   "decade": 2000,
+   "n": 2
+  },
+  {
+   "decade": 2010,
+   "n": 2
+  }
+ ],
+ "peak_share": 33.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "cars",
+   "reach": 3,
+   "band": "b5",
+   "id": "cars"
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "id": "duringcreditsstinger"
+  },
+  {
+   "word": "excited",
+   "reach": 17,
+   "band": "b3",
+   "id": "excited"
+  },
+  {
+   "word": "sequel",
+   "reach": 28,
+   "band": "b2",
+   "id": "sequel"
+  },
+  {
+   "word": "street race",
+   "reach": 3,
+   "band": "b5",
+   "id": "street-race"
+  },
+  {
+   "word": "aftercreditsstinger",
+   "reach": 18,
+   "band": "b3",
+   "id": "aftercreditsstinger"
+  },
+  {
+   "word": "flying car",
+   "reach": 3,
+   "band": "b5",
+   "id": "flying-car"
+  },
+  {
+   "word": "guitar",
+   "reach": 3,
+   "band": "b5",
+   "id": "guitar"
+  },
+  {
+   "word": "inventor",
+   "reach": 2,
+   "band": "b5",
+   "id": "inventor"
+  },
+  {
+   "word": "kids",
+   "reach": 5,
+   "band": "b5",
+   "id": "kids"
+  },
+  {
+   "word": "lighthearted",
+   "reach": 9,
+   "band": "b5",
+   "id": "lighthearted"
+  },
+  {
+   "word": "lightning",
+   "reach": 3,
+   "band": "b5",
+   "id": "lightning"
+  },
+  {
+   "word": "time travel",
+   "reach": 7,
+   "band": "b5",
+   "id": "time-travel"
+  },
+  {
+   "word": "1950s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1950s"
+  }
+ ],
+ "films": [
+  {
+   "id": "back-to-the-future-1985",
+   "title": "Back to the Future",
+   "year": 1985,
+   "poster": "vN5B5WgYscRGcQpVhHl6p9DDTP0.jpg",
+   "tmdb": 8.329
+  },
+  {
+   "id": "back-to-the-future-part-ii-1989",
+   "title": "Back to the Future Part II",
+   "year": 1989,
+   "poster": "hQq8xZe5uLjFzSBt4LanNP7SQjl.jpg",
+   "tmdb": 7.784
+  },
+  {
+   "id": "the-fast-and-the-furious-2001",
+   "title": "The Fast and the Furious",
+   "year": 2001,
+   "poster": "gqY0ITBgT7A82poL9jv851qdnIb.jpg",
+   "tmdb": 7.0
+  },
+  {
+   "id": "talladega-nights-the-ballad-of-ricky-bobby-2006",
+   "title": "Talladega Nights: The Ballad of Ricky Bobby",
+   "year": 2006,
+   "poster": "3iCiTqsmJz1mO85AHzTiHNkRmb6.jpg",
+   "tmdb": 6.381
+  },
+  {
+   "id": "fast-five-2011",
+   "title": "Fast Five",
+   "year": 2011,
+   "poster": "gEfQjjQwY7fh5bI4GlG0RrBu7Pz.jpg",
+   "tmdb": 7.244
+  },
+  {
+   "id": "furious-7-2015",
+   "title": "Furious 7",
+   "year": 2015,
+   "poster": "ktofZ9Htrjiy0P6LEowsDaxd3Ri.jpg",
+   "tmdb": 7.2
+  }
+ ]
+}

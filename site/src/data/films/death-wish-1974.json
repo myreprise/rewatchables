@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": "70s month'"
   }
@@ -51,109 +57,127 @@
    "word": "new york city",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "new-york-city"
   },
   {
    "word": "revenge",
    "reach": 31,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "revenge"
   },
   {
    "word": "police",
    "reach": 22,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "police"
   },
   {
    "word": "action hero",
    "reach": 21,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "action-hero"
   },
   {
    "word": "gangster",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "gangster"
   },
   {
    "word": "inspirational",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "inspirational"
   },
   {
    "word": "anti hero",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "anti-hero"
   },
   {
    "word": "fight",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fight"
   },
   {
    "word": "hospital",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hospital"
   },
   {
    "word": "taxi",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "taxi"
   },
   {
    "word": "vigilante",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vigilante"
   },
   {
    "word": "hopeful",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hopeful"
   },
   {
    "word": "one against many",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "one-against-many"
   },
   {
    "word": "vigilante justice",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vigilante-justice"
   },
   {
    "word": "one man army",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "one-man-army"
   },
   {
    "word": "vigilantism",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vigilantism"
   },
   {
    "word": "architect",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "architect"
   },
   {
    "word": "rape and revenge",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rape-and-revenge"
   }
  ],
  "cast": [

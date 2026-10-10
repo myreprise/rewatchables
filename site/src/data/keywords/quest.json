@@ -1,0 +1,142 @@
+{
+ "word": "quest",
+ "id": "quest",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1970,
+ "avg_tmdb": 7.8,
+ "vs_catalogue": 0.7,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 0
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  }
+ ],
+ "peak_share": 33.0,
+ "catalogue_peak_share": 7.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "oppression",
+   "reach": 2,
+   "band": "b5",
+   "id": "oppression"
+  },
+  {
+   "word": "rebel",
+   "reach": 3,
+   "band": "b5",
+   "id": "rebel"
+  },
+  {
+   "word": "smuggling (contraband)",
+   "reach": 2,
+   "band": "b5",
+   "id": "smuggling-contraband"
+  },
+  {
+   "word": "1990s",
+   "reach": 4,
+   "band": "b5",
+   "id": "1990s"
+  },
+  {
+   "word": "africa",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "android",
+   "reach": 4,
+   "band": "b5",
+   "id": "android"
+  },
+  {
+   "word": "audacious",
+   "reach": 10,
+   "band": "b5",
+   "id": "audacious"
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  },
+  {
+   "word": "blues",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bootlegger",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "buddy",
+   "reach": 14,
+   "band": "b4",
+   "id": "buddy"
+  },
+  {
+   "word": "chicago, illinois",
+   "reach": 19,
+   "band": "b3",
+   "id": "chicago-illinois"
+  },
+  {
+   "word": "church",
+   "reach": 4,
+   "band": "b5",
+   "id": "church"
+  },
+  {
+   "word": "concert",
+   "reach": 2,
+   "band": "b5",
+   "id": "concert"
+  }
+ ],
+ "films": [
+  {
+   "id": "star-wars-1977",
+   "title": "Star Wars",
+   "year": 1977,
+   "poster": "fai0rspsNeJCS69wHNjOdWxcI7P.jpg",
+   "tmdb": 8.207
+  },
+  {
+   "id": "the-blues-brothers-1980",
+   "title": "The Blues Brothers",
+   "year": 1980,
+   "poster": "b0hq1d2d7FIvRGNLewKLm79JNTK.jpg",
+   "tmdb": 7.716
+  },
+  {
+   "id": "blood-diamond-2006",
+   "title": "Blood Diamond",
+   "year": 2006,
+   "poster": "sYAUuiWpoXGKHxUfHyjTj7Apj2h.jpg",
+   "tmdb": 7.559
+  }
+ ]
+}

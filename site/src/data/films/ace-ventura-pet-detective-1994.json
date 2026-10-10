@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Zach Lowe",
-    "Craig Horlbeck"
+    {
+     "name": "Zach Lowe",
+     "id": "zach-lowe"
+    },
+    {
+     "name": "Craig Horlbeck",
+     "id": "craig-horlbeck"
+    }
    ],
    "note": null
   }
@@ -52,61 +61,71 @@
    "word": "detective",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "detective"
   },
   {
    "word": "private detective",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "private-detective"
   },
   {
    "word": "slapstick comedy",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "slapstick-comedy"
   },
   {
    "word": "miami, florida",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "miami-florida"
   },
   {
    "word": "pets",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pets"
   },
   {
    "word": "stupidity",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "stupidity"
   },
   {
    "word": "animals",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "dolphin",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "human animal relationship",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mascot",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Kyle Brandt"
+    {
+     "name": "Kyle Brandt",
+     "id": "kyle-brandt"
+    }
    ],
    "note": "One-word movie title month'"
   }
@@ -51,109 +57,127 @@
    "word": "dystopia",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "dystopia"
   },
   {
    "word": "shocking",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "shocking"
   },
   {
    "word": "cyberpunk",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cyberpunk"
   },
   {
    "word": "detroit, michigan",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "detroit-michigan"
   },
   {
    "word": "crime fighter",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "crime-fighter"
   },
   {
    "word": "allegory",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "allegory"
   },
   {
    "word": "cyborg",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cyborg"
   },
   {
    "word": "law enforcement",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "law-enforcement"
   },
   {
    "word": "transhumanism",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "transhumanism"
   },
   {
    "word": "corrupt system",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "deep",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "emotional",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "evil corporation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "experiment",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "gentrification",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "ghosts of the past",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "giant robot",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "megacorporation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

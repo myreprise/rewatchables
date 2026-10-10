@@ -1,0 +1,118 @@
+{
+ "word": "private",
+ "id": "private",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1940s",
+   "reach": 5,
+   "band": "b5",
+   "id": "1940s"
+  },
+  {
+   "word": "allies",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "army",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "army cadet",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "army life",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "army training",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "beach",
+   "reach": 3,
+   "band": "b5",
+   "id": "beach"
+  },
+  {
+   "word": "british army",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "class clown",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "date",
+   "reach": 2,
+   "band": "b5",
+   "id": "date"
+  },
+  {
+   "word": "dunkirk",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "europe",
+   "reach": 2,
+   "band": "b5",
+   "id": "europe"
+  }
+ ],
+ "films": [
+  {
+   "id": "stripes-1981",
+   "title": "Stripes",
+   "year": 1981,
+   "poster": "toyyN62VLUXoUudFbHPdrrmRFSZ.jpg",
+   "tmdb": 6.562
+  },
+  {
+   "id": "dunkirk-2017",
+   "title": "Dunkirk",
+   "year": 2017,
+   "poster": "b4Oe15CGLL61Ped0RAS9JpqdmCt.jpg",
+   "tmdb": 7.451
+  }
+ ]
+}

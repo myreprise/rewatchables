@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Sean Fennessey",
-    "Van Lathan"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": null
   }
@@ -50,37 +59,43 @@
    "word": "psychiatrist",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "psychiatrist"
   },
   {
    "word": "family holiday",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "family-holiday"
   },
   {
    "word": "farce",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "farce"
   },
   {
    "word": "new hampshire",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "new-hampshire"
   },
   {
    "word": "idiot",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "neurosis",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Van Lathan",
-    "Mina Kimes"
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    },
+    {
+     "name": "Mina Kimes",
+     "id": "mina-kimes"
+    }
    ],
    "note": null
   }
@@ -52,25 +61,29 @@
    "word": "romantic",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "romantic"
   },
   {
    "word": "romcom",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "romcom"
   },
   {
    "word": "dating",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dating"
   },
   {
    "word": "speed date",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

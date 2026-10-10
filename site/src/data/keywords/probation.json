@@ -1,0 +1,118 @@
+{
+ "word": "probation",
+ "id": "probation",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1960s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1960s"
+  },
+  {
+   "word": "anarchic comedy",
+   "reach": 3,
+   "band": "b5",
+   "id": "anarchic-comedy"
+  },
+  {
+   "word": "california",
+   "reach": 16,
+   "band": "b4",
+   "id": "california"
+  },
+  {
+   "word": "cliché",
+   "reach": 8,
+   "band": "b5",
+   "id": "cliche"
+  },
+  {
+   "word": "college",
+   "reach": 8,
+   "band": "b5",
+   "id": "college"
+  },
+  {
+   "word": "college freshman",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "criminal",
+   "reach": 5,
+   "band": "b5",
+   "id": "criminal"
+  },
+  {
+   "word": "dean",
+   "reach": 2,
+   "band": "b5",
+   "id": "dean"
+  },
+  {
+   "word": "driving drunk",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "drugs",
+   "reach": 17,
+   "band": "b3",
+   "id": "drugs"
+  },
+  {
+   "word": "estranged father",
+   "reach": 2,
+   "band": "b5",
+   "id": "estranged-father"
+  },
+  {
+   "word": "fraternity",
+   "reach": 3,
+   "band": "b5",
+   "id": "fraternity"
+  },
+  {
+   "word": "fraternity house",
+   "reach": 2,
+   "band": "b5",
+   "id": "fraternity-house"
+  },
+  {
+   "word": "gang",
+   "reach": 5,
+   "band": "b5",
+   "id": "gang"
+  }
+ ],
+ "films": [
+  {
+   "id": "animal-house-1978",
+   "title": "Animal House",
+   "year": 1978,
+   "poster": "fWooBbipMRIKeSRhEzmeaDV0T8H.jpg",
+   "tmdb": 6.949
+  },
+  {
+   "id": "shot-caller-2017",
+   "title": "Shot Caller",
+   "year": 2017,
+   "poster": "qLmLz2wtyYvmW8Ult3l2ngOnW8v.jpg",
+   "tmdb": 6.968
+  }
+ ]
+}

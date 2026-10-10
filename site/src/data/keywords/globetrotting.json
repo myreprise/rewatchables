@@ -1,0 +1,118 @@
+{
+ "word": "globetrotting",
+ "id": "globetrotting",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1930s",
+   "reach": 6,
+   "band": "b5",
+   "id": "1930s"
+  },
+  {
+   "word": "adventurer",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "archaeologist",
+   "reach": 3,
+   "band": "b5",
+   "id": "archaeologist"
+  },
+  {
+   "word": "archeology",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "ark of the covenant",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "art gallery",
+   "reach": 3,
+   "band": "b5",
+   "id": "art-gallery"
+  },
+  {
+   "word": "aston martin",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "booby trap",
+   "reach": 2,
+   "band": "b5",
+   "id": "booby-trap"
+  },
+  {
+   "word": "british secret service",
+   "reach": 2,
+   "band": "b5",
+   "id": "british-secret-service"
+  },
+  {
+   "word": "cairo",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "egypt",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "excavation",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "hacking",
+   "reach": 2,
+   "band": "b5",
+   "id": "hacking"
+  },
+  {
+   "word": "hat",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "raiders-of-the-lost-ark-1981",
+   "title": "Raiders of the Lost Ark",
+   "year": 1981,
+   "poster": "ceG9VzoRAVGwivFU403Wc3AHRys.jpg",
+   "tmdb": 7.927
+  },
+  {
+   "id": "skyfall-2012",
+   "title": "Skyfall",
+   "year": 2012,
+   "poster": "d0IVecFQvsGdSbnMAHqiYsNYaJT.jpg",
+   "tmdb": 7.265
+  }
+ ]
+}

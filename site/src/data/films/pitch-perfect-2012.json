@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Juliet Litman",
+   "host": {
+    "name": "Juliet Litman",
+    "id": "juliet-litman"
+   },
    "guests": [
-    "Jodi Walker",
-    "Kate Halliwell"
+    {
+     "name": "Jodi Walker",
+     "id": "jodi-walker"
+    },
+    {
+     "name": "Kate Halliwell",
+     "id": "kate-halliwell"
+    }
    ],
    "note": null
   }
@@ -52,103 +61,120 @@
    "word": "hilarious",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "hilarious"
   },
   {
    "word": "college",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "college"
   },
   {
    "word": "competition",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "competition"
   },
   {
    "word": "group of friends",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "group-of-friends"
   },
   {
    "word": "roommates",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "roommates"
   },
   {
    "word": "young adult",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "young-adult"
   },
   {
    "word": "female friendship",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "female-friendship"
   },
   {
    "word": "dj",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dj"
   },
   {
    "word": "misfit",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "misfit"
   },
   {
    "word": "university",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "university"
   },
   {
    "word": "acapella",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "audition",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "bickering",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "dorm room",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "film score",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "hazing",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "singing competition",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

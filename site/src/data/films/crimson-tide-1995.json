@@ -40,10 +40,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -53,115 +62,134 @@
    "word": "suspenseful",
    "reach": 30,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "suspenseful"
   },
   {
    "word": "terrorism",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "terrorism"
   },
   {
    "word": "commanding",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "commanding"
   },
   {
    "word": "military",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "military"
   },
   {
    "word": "u.s. navy",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "u-s-navy"
   },
   {
    "word": "aircraft carrier",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "aircraft-carrier"
   },
   {
    "word": "embassy",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "embassy"
   },
   {
    "word": "missile",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "missile"
   },
   {
    "word": "moral dilemma",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "moral-dilemma"
   },
   {
    "word": "nuclear missile",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nuclear-missile"
   },
   {
    "word": "submarine",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "submarine"
   },
   {
    "word": "battle for power",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "chain of command",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "direct",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "launch code",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mutiny",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "nuclear submarine",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "post cold war",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sonar",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

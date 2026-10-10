@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -51,97 +60,113 @@
    "word": "based on true story",
    "reach": 25,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "based-on-true-story"
   },
   {
    "word": "1970s",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1970s"
   },
   {
    "word": "sibling relationship",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sibling-relationship"
   },
   {
    "word": "ghost",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ghost"
   },
   {
    "word": "possession",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "possession"
   },
   {
    "word": "haunted house",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "haunted-house"
   },
   {
    "word": "exorcism",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "exorcism"
   },
   {
    "word": "paranormal investigation",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "paranormal-investigation"
   },
   {
    "word": "psychic vision",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "psychic-vision"
   },
   {
    "word": "cellar",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "crucifix",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "demonic",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "demonic spirit",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "demonology",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "malevolent spirit",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "rhode island",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

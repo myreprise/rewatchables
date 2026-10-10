@@ -37,11 +37,23 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey",
-    "Van Lathan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": null
   }
@@ -51,109 +63,127 @@
    "word": "sequel",
    "reach": 28,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "sequel"
   },
   {
    "word": "christmas",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "christmas"
   },
   {
    "word": "romantic",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "romantic"
   },
   {
    "word": "holiday",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "holiday"
   },
   {
    "word": "adoring",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "adoring"
   },
   {
    "word": "vacation",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vacation"
   },
   {
    "word": "neighbor",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "neighbor"
   },
   {
    "word": "christmas eve",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "christmas-eve"
   },
   {
    "word": "boss",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "boss"
   },
   {
    "word": "domestic life",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "domestic-life"
   },
   {
    "word": "family dinner",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "family-dinner"
   },
   {
    "word": "fantasy sequence",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fantasy-sequence"
   },
   {
    "word": "rottweiler",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rottweiler"
   },
   {
    "word": "christmas bonus",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "christmas tree",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "jello",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "lights",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "squirrel",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

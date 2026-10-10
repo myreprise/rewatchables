@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Chris Ryan",
+   "host": {
+    "name": "Chris Ryan",
+    "id": "chris-ryan"
+   },
    "guests": [
-    "Sean Fennessey",
-    "Jason Concepcion"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Jason Concepcion",
+     "id": "jason-concepcion"
+    }
    ],
    "note": null
   }
@@ -52,109 +61,127 @@
    "word": "neo-noir",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "neo-noir"
   },
   {
    "word": "bold",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "bold"
   },
   {
    "word": "organized crime",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "organized-crime"
   },
   {
    "word": "anti hero",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "anti-hero"
   },
   {
    "word": "secret identity",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "secret-identity"
   },
   {
    "word": "vigilante",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vigilante"
   },
   {
    "word": "sadism",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sadism"
   },
   {
    "word": "based on comic",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "based-on-comic"
   },
   {
    "word": "super power",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "super-power"
   },
   {
    "word": "chaos",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "chaos"
   },
   {
    "word": "crime fighter",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "crime-fighter"
   },
   {
    "word": "criminal mastermind",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "criminal-mastermind"
   },
   {
    "word": "district attorney",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "district-attorney"
   },
   {
    "word": "superhero",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "superhero"
   },
   {
    "word": "super villain",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "super-villain"
   },
   {
    "word": "anti villain",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "scarecrow",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "tragic hero",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

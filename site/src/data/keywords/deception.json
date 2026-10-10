@@ -1,0 +1,145 @@
+{
+ "word": "deception",
+ "id": "deception",
+ "catalogue": 460,
+ "share": 0.9,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.4,
+ "vs_catalogue": 0.3,
+ "decades": [
+  {
+   "decade": 1990,
+   "n": 3
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 75.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "actor",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "based on play or musical",
+   "reach": 5,
+   "band": "b5",
+   "id": "based-on-play-or-musical"
+  },
+  {
+   "word": "casual",
+   "reach": 3,
+   "band": "b5",
+   "id": "casual"
+  },
+  {
+   "word": "cliché",
+   "reach": 8,
+   "band": "b5",
+   "id": "cliche"
+  },
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "id": "coming-of-age"
+  },
+  {
+   "word": "con artist",
+   "reach": 4,
+   "band": "b5",
+   "id": "con-artist"
+  },
+  {
+   "word": "con man",
+   "reach": 5,
+   "band": "b5",
+   "id": "con-man"
+  },
+  {
+   "word": "dark comedy",
+   "reach": 10,
+   "band": "b5",
+   "id": "dark-comedy"
+  },
+  {
+   "word": "deceit",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "disbelief",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "disbelieving adult",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "id": "duringcreditsstinger"
+  },
+  {
+   "word": "dystopia",
+   "reach": 17,
+   "band": "b3",
+   "id": "dystopia"
+  },
+  {
+   "word": "escape",
+   "reach": 7,
+   "band": "b5",
+   "id": "escape"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-good-son-1993",
+   "title": "The Good Son",
+   "year": 1993,
+   "poster": "6jZ1eef6SCVSMb4o1pSHHq84Nyf.jpg",
+   "tmdb": 6.8
+  },
+  {
+   "id": "the-truman-show-1998",
+   "title": "The Truman Show",
+   "year": 1998,
+   "poster": "vuza0WqY239yBXOadKlGwJsZJFE.jpg",
+   "tmdb": 8.157
+  },
+  {
+   "id": "10-things-i-hate-about-you-1999",
+   "title": "10 Things I Hate About You",
+   "year": 1999,
+   "poster": "ujERk3aKABXU3NDXOAxEQYTHe9A.jpg",
+   "tmdb": 7.597
+  },
+  {
+   "id": "focus-2015",
+   "title": "Focus",
+   "year": 2015,
+   "poster": "lOzGWjceYTd0kd5HyX7Ch46O9kh.jpg",
+   "tmdb": 6.87
+  }
+ ]
+}

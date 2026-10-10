@@ -1,0 +1,251 @@
+{
+ "word": "gangster",
+ "id": "gangster",
+ "catalogue": 460,
+ "share": 3.9,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.7,
+ "vs_catalogue": 0.6,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 4
+  },
+  {
+   "decade": 1980,
+   "n": 3
+  },
+  {
+   "decade": 1990,
+   "n": 7
+  },
+  {
+   "decade": 2000,
+   "n": 2
+  },
+  {
+   "decade": 2010,
+   "n": 2
+  }
+ ],
+ "peak_share": 39.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "id": "new-york-city"
+  },
+  {
+   "word": "organized crime",
+   "reach": 15,
+   "band": "b4",
+   "id": "organized-crime"
+  },
+  {
+   "word": "mafia",
+   "reach": 12,
+   "band": "b4",
+   "id": "mafia"
+  },
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "id": "murder"
+  },
+  {
+   "word": "revenge",
+   "reach": 31,
+   "band": "b2",
+   "id": "revenge"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "intense",
+   "reach": 23,
+   "band": "b3",
+   "id": "intense"
+  },
+  {
+   "word": "suspenseful",
+   "reach": 30,
+   "band": "b2",
+   "id": "suspenseful"
+  },
+  {
+   "word": "violence",
+   "reach": 8,
+   "band": "b5",
+   "id": "violence"
+  },
+  {
+   "word": "italian american",
+   "reach": 7,
+   "band": "b5",
+   "id": "italian-american"
+  },
+  {
+   "word": "italy",
+   "reach": 5,
+   "band": "b5",
+   "id": "italy"
+  },
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  },
+  {
+   "word": "neo-noir",
+   "reach": 29,
+   "band": "b2",
+   "id": "neo-noir"
+  },
+  {
+   "word": "remake",
+   "reach": 13,
+   "band": "b4",
+   "id": "remake"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-godfather-1972",
+   "title": "The Godfather",
+   "year": 1972,
+   "poster": "3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+   "tmdb": 8.686
+  },
+  {
+   "id": "death-wish-1974",
+   "title": "Death Wish",
+   "year": 1974,
+   "poster": "rNksI6UiuTgLtBy69WvKT1PrG0R.jpg",
+   "tmdb": 6.931
+  },
+  {
+   "id": "the-godfather-part-ii-1974",
+   "title": "The Godfather Part II",
+   "year": 1974,
+   "poster": "sSuQTCZwqKrNBNIsksO9IAUoWP9.jpg",
+   "tmdb": 8.573
+  },
+  {
+   "id": "the-warriors-1979",
+   "title": "The Warriors",
+   "year": 1979,
+   "poster": "d6YZpBq4BhQr1K985J3CuL1cA8J.jpg",
+   "tmdb": 7.682
+  },
+  {
+   "id": "escape-from-new-york-1981",
+   "title": "Escape from New York",
+   "year": 1981,
+   "poster": "vH9llaphjAssRGi0k7e75tD40Ce.jpg",
+   "tmdb": 7.047
+  },
+  {
+   "id": "thief-1981",
+   "title": "Thief",
+   "year": 1981,
+   "poster": "bpjRGwfYJ71bU0hNhLIz7g3t6Oy.jpg",
+   "tmdb": 7.231
+  },
+  {
+   "id": "the-untouchables-1987",
+   "title": "The Untouchables",
+   "year": 1987,
+   "poster": "tPq0R4jTO4Ey8ZspFaWK9wGA4Ls.jpg",
+   "tmdb": 7.8
+  },
+  {
+   "id": "goodfellas-1990",
+   "title": "GoodFellas",
+   "year": 1990,
+   "poster": "9OkCLM73MIU2CrKZbqiT8Ln1wY2.jpg",
+   "tmdb": 8.451
+  },
+  {
+   "id": "king-of-new-york-1990",
+   "title": "King of New York",
+   "year": 1990,
+   "poster": "1MyH4MJAJZJbb6wDVeOc2bTECtK.jpg",
+   "tmdb": 6.762
+  },
+  {
+   "id": "the-godfather-part-iii-1990",
+   "title": "The Godfather Part III",
+   "year": 1990,
+   "poster": "lm3pQ2QoQ16pextRsmnUbG2onES.jpg",
+   "tmdb": 7.418
+  },
+  {
+   "id": "boyz-n-the-hood-1991",
+   "title": "Boyz n the Hood",
+   "year": 1991,
+   "poster": "kaS8BkTZESnkoB5i1zRQ02FIRGk.jpg",
+   "tmdb": 7.638
+  },
+  {
+   "id": "a-bronx-tale-1993",
+   "title": "A Bronx Tale",
+   "year": 1993,
+   "poster": "sDbO6LmLYtyqAoFTPpRcMgPSCEO.jpg",
+   "tmdb": 7.9
+  },
+  {
+   "id": "pulp-fiction-1994",
+   "title": "Pulp Fiction",
+   "year": 1994,
+   "poster": "vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+   "tmdb": 8.48
+  },
+  {
+   "id": "heat-1995",
+   "title": "Heat",
+   "year": 1995,
+   "poster": "gKaePbkEkaqvMtw74EyhhkfCKKh.jpg",
+   "tmdb": 7.945
+  },
+  {
+   "id": "the-departed-2006",
+   "title": "The Departed",
+   "year": 2006,
+   "poster": "nT97ifVT2J1yMQmeq20Qblg61T.jpg",
+   "tmdb": 8.159
+  },
+  {
+   "id": "american-gangster-2007",
+   "title": "American Gangster",
+   "year": 2007,
+   "poster": "sX9idXDqRUxE5ffww3n3RV5gL55.jpg",
+   "tmdb": 7.594
+  },
+  {
+   "id": "john-wick-2014",
+   "title": "John Wick",
+   "year": 2014,
+   "poster": "wXqWR7dHncNRbxoEGybEy7QTe9h.jpg",
+   "tmdb": 7.463
+  },
+  {
+   "id": "the-equalizer-2014",
+   "title": "The Equalizer",
+   "year": 2014,
+   "poster": "9u4yW7yPA0BQ2pv9XwiNzItwvp8.jpg",
+   "tmdb": 7.292
+  }
+ ]
+}

@@ -37,9 +37,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Jimmy Kimmel"
+    {
+     "name": "Jimmy Kimmel",
+     "id": "jimmy-kimmel"
+    }
    ],
    "note": "Rog originally gave it 3.5/4 stars, but re-assessed in 1999"
   }
@@ -49,67 +55,78 @@
    "word": "callous",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "callous"
   },
   {
    "word": "disco",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "disco"
   },
   {
    "word": "reminiscent",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "reminiscent"
   },
   {
    "word": "grim",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "grim"
   },
   {
    "word": "lyrical",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lyrical"
   },
   {
    "word": "sardonic",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sardonic"
   },
   {
    "word": "arrogant",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "dance performance",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "dancing master",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "disco music",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "female lover",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

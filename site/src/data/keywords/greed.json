@@ -1,0 +1,134 @@
+{
+ "word": "greed",
+ "id": "greed",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 2000,
+ "avg_tmdb": 7.4,
+ "vs_catalogue": 0.3,
+ "decades": [
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 2
+  }
+ ],
+ "peak_share": 67.0,
+ "catalogue_peak_share": 17.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "money",
+   "reach": 8,
+   "band": "b5",
+   "id": "money"
+  },
+  {
+   "word": "1890s",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "1900s",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1970s"
+  },
+  {
+   "word": "1980s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1980s"
+  },
+  {
+   "word": "19th century",
+   "reach": 4,
+   "band": "b5",
+   "id": "19th-century"
+  },
+  {
+   "word": "20th century",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "adopted son",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "alcoholic",
+   "reach": 10,
+   "band": "b5",
+   "id": "alcoholic"
+  },
+  {
+   "word": "american dream",
+   "reach": 2,
+   "band": "b5",
+   "id": "american-dream"
+  },
+  {
+   "word": "american football",
+   "reach": 13,
+   "band": "b4",
+   "id": "american-football"
+  },
+  {
+   "word": "baptism",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  }
+ ],
+ "films": [
+  {
+   "id": "casino-1995",
+   "title": "Casino",
+   "year": 1995,
+   "poster": "gziIkUSnYuj9ChCi8qOu2ZunpSC.jpg",
+   "tmdb": 7.998
+  },
+  {
+   "id": "two-for-the-money-2005",
+   "title": "Two for the Money",
+   "year": 2005,
+   "poster": "5SedPYdGLrp6LX9C2cWXLx38w1D.jpg",
+   "tmdb": 6.063
+  },
+  {
+   "id": "there-will-be-blood-2007",
+   "title": "There Will Be Blood",
+   "year": 2007,
+   "poster": "fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
+   "tmdb": 8.064
+  }
+ ]
+}

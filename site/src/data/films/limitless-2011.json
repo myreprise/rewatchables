@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Shea Serrano"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Shea Serrano",
+     "id": "shea-serrano"
+    }
    ],
    "note": null
   }
@@ -52,91 +61,106 @@
    "word": "new york city",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "new-york-city"
   },
   {
    "word": "drugs",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "drugs"
   },
   {
    "word": "inspirational",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "inspirational"
   },
   {
    "word": "stalking",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "stalking"
   },
   {
    "word": "writer",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "writer"
   },
   {
    "word": "medicine",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "medicine"
   },
   {
    "word": "pill",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pill"
   },
   {
    "word": "politician",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "politician"
   },
   {
    "word": "transhumanism",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "transhumanism"
   },
   {
    "word": "iq",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "knowledge",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mind booster",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "nootropics",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "superhuman",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "threat",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Van Lathan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": null
   }
@@ -51,175 +60,204 @@
    "word": "new york city",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "new-york-city"
   },
   {
    "word": "revenge",
    "reach": 31,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "revenge"
   },
   {
    "word": "sequel",
    "reach": 28,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "sequel"
   },
   {
    "word": "police",
    "reach": 22,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "police"
   },
   {
    "word": "action hero",
    "reach": 21,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "action-hero"
   },
   {
    "word": "fbi",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "fbi"
   },
   {
    "word": "detective",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "detective"
   },
   {
    "word": "excited",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "excited"
   },
   {
    "word": "shootout",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "shootout"
   },
   {
    "word": "assertive",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "assertive"
   },
   {
    "word": "flashback",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "flashback"
   },
   {
    "word": "explosion",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "explosion"
   },
   {
    "word": "taxi",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "taxi"
   },
   {
    "word": "bomb",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bomb"
   },
   {
    "word": "helicopter",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "helicopter"
   },
   {
    "word": "robbery",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "robbery"
   },
   {
    "word": "nypd",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nypd"
   },
   {
    "word": "riddle",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "riddle"
   },
   {
    "word": "cargo ship",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cargo-ship"
   },
   {
    "word": "gold",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gold"
   },
   {
    "word": "aqueduct",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "bomb threat",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "deadly game",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "dump truck",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "federal reserve bank",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "harlem, new york city",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "nyc subway",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "simon says",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "wild goose chase",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

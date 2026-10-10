@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": null
   }
@@ -51,169 +57,197 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "revenge",
    "reach": 31,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "revenge"
   },
   {
    "word": "suspenseful",
    "reach": 30,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "suspenseful"
   },
   {
    "word": "aggressive",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "aggressive"
   },
   {
    "word": "remake",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "remake"
   },
   {
    "word": "kidnapping",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "kidnapping"
   },
   {
    "word": "alcoholic",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alcoholic"
   },
   {
    "word": "vigilante justice",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vigilante-justice"
   },
   {
    "word": "bodyguard",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bodyguard"
   },
   {
    "word": "child kidnapping",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "child-kidnapping"
   },
   {
    "word": "mexico",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mexico"
   },
   {
    "word": "bible",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bible"
   },
   {
    "word": "cell phone",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cell-phone"
   },
   {
    "word": "corrupt cop",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "corrupt-cop"
   },
   {
    "word": "ex-cia agent",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ex-cia-agent"
   },
   {
    "word": "gun battle",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gun-battle"
   },
   {
    "word": "stuffed animal",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "stuffed-animal"
   },
   {
    "word": "bloodshed",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "diary",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "grenade launcher",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "gun death",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mexican federale",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mexican law enforcement",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mexican police",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mexico city, mexico",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "one person army",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "personal security",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "swim meet",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

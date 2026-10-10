@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Amanda Dobbins",
-    "Van Lathan"
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": null
   }
@@ -51,91 +60,106 @@
    "word": "romantic",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "romantic"
   },
   {
    "word": "holiday",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "holiday"
   },
   {
    "word": "usa president",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "usa-president"
   },
   {
    "word": "dating",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dating"
   },
   {
    "word": "father daughter relationship",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "father-daughter-relationship"
   },
   {
    "word": "new love",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "new-love"
   },
   {
    "word": "class differences",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "class-differences"
   },
   {
    "word": "the white house",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "the-white-house"
   },
   {
    "word": "widower",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "widower"
   },
   {
    "word": "fossil fuel",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "global warming",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "lobbyist",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "press",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "widower with daughter",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "wildlife conservation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

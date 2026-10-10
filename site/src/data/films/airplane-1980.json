@@ -37,9 +37,15 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Bill Hader"
+    {
+     "name": "Bill Hader",
+     "id": "bill-hader"
+    }
    ],
    "note": null
   }
@@ -49,175 +55,204 @@
    "word": "los angeles, california",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "los-angeles-california"
   },
   {
    "word": "chicago, illinois",
    "reach": 19,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "chicago-illinois"
   },
   {
    "word": "aftercreditsstinger",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "aftercreditsstinger"
   },
   {
    "word": "airplane",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "airplane"
   },
   {
    "word": "anxious",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "anxious"
   },
   {
    "word": "alcohol",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alcohol"
   },
   {
    "word": "parody",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "parody"
   },
   {
    "word": "disaster movie",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "disaster-movie"
   },
   {
    "word": "dignified",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dignified"
   },
   {
    "word": "pilot",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pilot"
   },
   {
    "word": "anarchic comedy",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "anarchic-comedy"
   },
   {
    "word": "guitar",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "guitar"
   },
   {
    "word": "post-traumatic stress disorder (ptsd)",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "post-traumatic-stress-disorder-ptsd"
   },
   {
    "word": "taxi driver",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "taxi-driver"
   },
   {
    "word": "cataclysm",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cataclysm"
   },
   {
    "word": "farce",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "farce"
   },
   {
    "word": "medicine",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "medicine"
   },
   {
    "word": "nun",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nun"
   },
   {
    "word": "air controller",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "alcohol abuse",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "autopilot",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "fear of flying",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "food poisoning",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "inflatable life raft",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "landing",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "passenger",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "saxophone",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "spoof",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "stewardess",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

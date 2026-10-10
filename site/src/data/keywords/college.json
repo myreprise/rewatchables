@@ -1,0 +1,181 @@
+{
+ "word": "college",
+ "id": "college",
+ "catalogue": 460,
+ "share": 1.7,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 6.6,
+ "vs_catalogue": -0.5,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 4
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 50.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "id": "coming-of-age"
+  },
+  {
+   "word": "dean",
+   "reach": 2,
+   "band": "b5",
+   "id": "dean"
+  },
+  {
+   "word": "fraternity",
+   "reach": 3,
+   "band": "b5",
+   "id": "fraternity"
+  },
+  {
+   "word": "male friendship",
+   "reach": 9,
+   "band": "b5",
+   "id": "male-friendship"
+  },
+  {
+   "word": "1960s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1960s"
+  },
+  {
+   "word": "acapella",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "id": "admiring"
+  },
+  {
+   "word": "adoring",
+   "reach": 8,
+   "band": "b5",
+   "id": "adoring"
+  },
+  {
+   "word": "affectation",
+   "reach": 5,
+   "band": "b5",
+   "id": "affectation"
+  },
+  {
+   "word": "african american family",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "alcohol",
+   "reach": 6,
+   "band": "b5",
+   "id": "alcohol"
+  },
+  {
+   "word": "american football",
+   "reach": 13,
+   "band": "b4",
+   "id": "american-football"
+  },
+  {
+   "word": "anarchic comedy",
+   "reach": 3,
+   "band": "b5",
+   "id": "anarchic-comedy"
+  },
+  {
+   "word": "angry",
+   "reach": 8,
+   "band": "b5",
+   "id": "angry"
+  }
+ ],
+ "films": [
+  {
+   "id": "animal-house-1978",
+   "title": "Animal House",
+   "year": 1978,
+   "poster": "fWooBbipMRIKeSRhEzmeaDV0T8H.jpg",
+   "tmdb": 6.949
+  },
+  {
+   "id": "the-sure-thing-1985",
+   "title": "The Sure Thing",
+   "year": 1985,
+   "poster": "a9cuohQn5kczi4htWZAZjEZvXkZ.jpg",
+   "tmdb": 6.531
+  },
+  {
+   "id": "higher-learning-1995",
+   "title": "Higher Learning",
+   "year": 1995,
+   "poster": "tuud1Blsdwo1KQRdz5UVwjlLAWQ.jpg",
+   "tmdb": 6.308
+  },
+  {
+   "id": "kicking-and-screaming-1995",
+   "title": "Kicking and Screaming",
+   "year": 1995,
+   "poster": "ynAtSpTou7snNOq32djzILw9VCA.jpg",
+   "tmdb": 6.187
+  },
+  {
+   "id": "cant-hardly-wait-1998",
+   "title": "Can't Hardly Wait",
+   "year": 1998,
+   "poster": "r3a5gGWfS0SDS9nriNrJzSSrErf.jpg",
+   "tmdb": 6.248
+  },
+  {
+   "id": "he-got-game-1998",
+   "title": "He Got Game",
+   "year": 1998,
+   "poster": "kd8hRaysUQOz7AvSorZDJHuihcJ.jpg",
+   "tmdb": 6.752
+  },
+  {
+   "id": "old-school-2003",
+   "title": "Old School",
+   "year": 2003,
+   "poster": "nYtuwNHpEoIbTgS3aFPSEwZNN6l.jpg",
+   "tmdb": 6.621
+  },
+  {
+   "id": "pitch-perfect-2012",
+   "title": "Pitch Perfect",
+   "year": 2012,
+   "poster": "gsFoJk9g8W3zgaipRrrURk7LbiF.jpg",
+   "tmdb": 7.266
+  }
+ ]
+}

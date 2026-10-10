@@ -1,0 +1,118 @@
+{
+ "word": "individual",
+ "id": "individual",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1950s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1950s"
+  },
+  {
+   "word": "asperger's syndrome",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "autism",
+   "reach": 2,
+   "band": "b5",
+   "id": "autism"
+  },
+  {
+   "word": "blackjack",
+   "reach": 2,
+   "band": "b5",
+   "id": "blackjack"
+  },
+  {
+   "word": "car dealer",
+   "reach": 2,
+   "band": "b5",
+   "id": "car-dealer"
+  },
+  {
+   "word": "cincinnati",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "id": "coming-of-age"
+  },
+  {
+   "word": "convertible",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "depressing",
+   "reach": 2,
+   "band": "b5",
+   "id": "depressing"
+  },
+  {
+   "word": "disability",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dramatic",
+   "reach": 18,
+   "band": "b3",
+   "id": "dramatic"
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "id": "duringcreditsstinger"
+  },
+  {
+   "word": "egocentrism",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "forgotten memory",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "rain-man-1988",
+   "title": "Rain Man",
+   "year": 1988,
+   "poster": "iTNHwO896WKkaoPtpMMS74d8VNi.jpg",
+   "tmdb": 7.751
+  },
+  {
+   "id": "dead-poets-society-1989",
+   "title": "Dead Poets Society",
+   "year": 1989,
+   "poster": "tNvKkSnnn4Z6RCBThyK1gfCSSvv.jpg",
+   "tmdb": 8.296
+  }
+ ]
+}

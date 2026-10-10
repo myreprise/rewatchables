@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Kyle Brandt"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Kyle Brandt",
+     "id": "kyle-brandt"
+    }
    ],
    "note": null
   }
@@ -52,103 +61,120 @@
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "revenge",
    "reach": 31,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "revenge"
   },
   {
    "word": "underdog",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "underdog"
   },
   {
    "word": "car crash",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "car-crash"
   },
   {
    "word": "rivalry",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rivalry"
   },
   {
    "word": "race car driver",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "race-car-driver"
   },
   {
    "word": "crash",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "crash"
   },
   {
    "word": "motorsport",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "motorsport"
   },
   {
    "word": "nascar",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nascar"
   },
   {
    "word": "racing",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "racing"
   },
   {
    "word": "daytona",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "phoenix, arizona",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "racer",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "recovery",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "stock car",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "stock car racing",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "underdog sports movie",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

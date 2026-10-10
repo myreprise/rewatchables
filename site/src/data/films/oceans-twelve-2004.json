@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Chris Ryan",
+   "host": {
+    "name": "Chris Ryan",
+    "id": "chris-ryan"
+   },
    "guests": [
-    "Sean Fennessey",
-    "Amanda Dobbins"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    }
    ],
    "note": "At the end of the Vision Quest ep Bill calls this 'episode 3' of the 'Flawed Rewatchables'"
   }
@@ -51,97 +60,113 @@
    "word": "sequel",
    "reach": 28,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "sequel"
   },
   {
    "word": "heist",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "heist"
   },
   {
    "word": "paris, france",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "paris-france"
   },
   {
    "word": "ex-girlfriend",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ex-girlfriend"
   },
   {
    "word": "competition",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "competition"
   },
   {
    "word": "caper",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "caper"
   },
   {
    "word": "ex-con",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ex-con"
   },
   {
    "word": "master thief",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "master-thief"
   },
   {
    "word": "rome, italy",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rome-italy"
   },
   {
    "word": "stolen money",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "stolen-money"
   },
   {
    "word": "look-alike",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "look-alike"
   },
   {
    "word": "professional thief",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "professional-thief"
   },
   {
    "word": "robbery crew",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "robbery-crew"
   },
   {
    "word": "amsterdam, netherlands",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "europol agent",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "fabergé egg",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

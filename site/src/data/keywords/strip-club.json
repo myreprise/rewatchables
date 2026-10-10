@@ -1,0 +1,163 @@
+{
+ "word": "strip club",
+ "id": "strip-club",
+ "catalogue": 460,
+ "share": 1.3,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 6.8,
+ "vs_catalogue": -0.3,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 3
+  },
+  {
+   "decade": 1990,
+   "n": 2
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 50.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  },
+  {
+   "word": "buddy cop",
+   "reach": 11,
+   "band": "b5",
+   "id": "buddy-cop"
+  },
+  {
+   "word": "gunfight",
+   "reach": 7,
+   "band": "b5",
+   "id": "gunfight"
+  },
+  {
+   "word": "narcotics detective",
+   "reach": 3,
+   "band": "b5",
+   "id": "narcotics-detective"
+  },
+  {
+   "word": "beverly hills",
+   "reach": 4,
+   "band": "b5",
+   "id": "beverly-hills"
+  },
+  {
+   "word": "black cop",
+   "reach": 2,
+   "band": "b5",
+   "id": "black-cop"
+  },
+  {
+   "word": "cocaine",
+   "reach": 7,
+   "band": "b5",
+   "id": "cocaine"
+  },
+  {
+   "word": "detective",
+   "reach": 17,
+   "band": "b3",
+   "id": "detective"
+  },
+  {
+   "word": "detective comedy",
+   "reach": 2,
+   "band": "b5",
+   "id": "detective-comedy"
+  },
+  {
+   "word": "detroit, michigan",
+   "reach": 5,
+   "band": "b5",
+   "id": "detroit-michigan"
+  },
+  {
+   "word": "foot chase",
+   "reach": 3,
+   "band": "b5",
+   "id": "foot-chase"
+  },
+  {
+   "word": "investigation",
+   "reach": 14,
+   "band": "b4",
+   "id": "investigation"
+  },
+  {
+   "word": "murder investigation",
+   "reach": 3,
+   "band": "b5",
+   "id": "murder-investigation"
+  },
+  {
+   "word": "shootout",
+   "reach": 17,
+   "band": "b3",
+   "id": "shootout"
+  }
+ ],
+ "films": [
+  {
+   "id": "beverly-hills-cop-1984",
+   "title": "Beverly Hills Cop",
+   "year": 1984,
+   "poster": "eBJEvKkhQ0tUt1dBAcTEYW6kCle.jpg",
+   "tmdb": 7.211
+  },
+  {
+   "id": "beverly-hills-cop-ii-1987",
+   "title": "Beverly Hills Cop II",
+   "year": 1987,
+   "poster": "egDakU8O5yUwpUJP9IMAUVtIDll.jpg",
+   "tmdb": 6.532
+  },
+  {
+   "id": "road-house-1989",
+   "title": "Road House",
+   "year": 1989,
+   "poster": "n7Ra0BRYQVn47kiqOMyS8vdY0QS.jpg",
+   "tmdb": 6.768
+  },
+  {
+   "id": "the-last-boy-scout-1991",
+   "title": "The Last Boy Scout",
+   "year": 1991,
+   "poster": "glPswihcZYoAQ4YM2uJF4UACy8T.jpg",
+   "tmdb": 6.843
+  },
+  {
+   "id": "bad-boys-1995",
+   "title": "Bad Boys",
+   "year": 1995,
+   "poster": "x1ygBecKHfXX4M2kRhmFKWfWbJc.jpg",
+   "tmdb": 6.831
+  },
+  {
+   "id": "den-of-thieves-2018",
+   "title": "Den of Thieves",
+   "year": 2018,
+   "poster": "dAP5NpkrMMczir5dUPjRR6ywqgz.jpg",
+   "tmdb": 6.873
+  }
+ ]
+}

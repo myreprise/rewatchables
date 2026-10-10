@@ -1,0 +1,118 @@
+{
+ "word": "farewell",
+ "id": "farewell",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "loss of loved one",
+   "reach": 20,
+   "band": "b3",
+   "id": "loss-of-loved-one"
+  },
+  {
+   "word": "alien",
+   "reach": 9,
+   "band": "b5",
+   "id": "alien"
+  },
+  {
+   "word": "alien contact",
+   "reach": 2,
+   "band": "b5",
+   "id": "alien-contact"
+  },
+  {
+   "word": "alien friendship",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "becoming an adult",
+   "reach": 2,
+   "band": "b5",
+   "id": "becoming-an-adult"
+  },
+  {
+   "word": "bewildered",
+   "reach": 4,
+   "band": "b5",
+   "id": "bewildered"
+  },
+  {
+   "word": "california",
+   "reach": 16,
+   "band": "b4",
+   "id": "california"
+  },
+  {
+   "word": "chance",
+   "reach": 2,
+   "band": "b5",
+   "id": "chance"
+  },
+  {
+   "word": "child prodigy",
+   "reach": 4,
+   "band": "b5",
+   "id": "child-prodigy"
+  },
+  {
+   "word": "child protagonist",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "daughter",
+   "reach": 10,
+   "band": "b5",
+   "id": "daughter"
+  },
+  {
+   "word": "dying and death",
+   "reach": 13,
+   "band": "b4",
+   "id": "dying-and-death"
+  },
+  {
+   "word": "empathy",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "extraterrestrial",
+   "reach": 2,
+   "band": "b5",
+   "id": "extraterrestrial"
+  }
+ ],
+ "films": [
+  {
+   "id": "e-t-the-extra-terrestrial-1982",
+   "title": "E.T. the Extra-Terrestrial",
+   "year": 1982,
+   "poster": "an0nD6uq6byfxXCfk6lQBzdL2J1.jpg",
+   "tmdb": 7.518
+  },
+  {
+   "id": "magnolia-1999",
+   "title": "Magnolia",
+   "year": 1999,
+   "poster": "tpfC325Jk6S38VTe5dDWjWtoyxr.jpg",
+   "tmdb": 7.724
+  }
+ ]
+}

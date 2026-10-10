@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Kyle Brandt",
-    "Joanna Robinson"
+    {
+     "name": "Kyle Brandt",
+     "id": "kyle-brandt"
+    },
+    {
+     "name": "Joanna Robinson",
+     "id": "joanna-robinson"
+    }
    ],
    "note": "Robert Redford month'"
   }
@@ -52,37 +61,43 @@
    "word": "sympathetic",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sympathetic"
   },
   {
    "word": "hacker",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hacker"
   },
   {
    "word": "calm",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "calm"
   },
   {
    "word": "assignment",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mathematician",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "relaxed",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

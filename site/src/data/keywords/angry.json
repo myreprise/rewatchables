@@ -1,0 +1,177 @@
+{
+ "word": "angry",
+ "id": "angry",
+ "catalogue": 460,
+ "share": 1.7,
+ "thin": false,
+ "peak": 2000,
+ "avg_tmdb": 7.5,
+ "vs_catalogue": 0.4,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 2
+  },
+  {
+   "decade": 1990,
+   "n": 2
+  },
+  {
+   "decade": 2000,
+   "n": 3
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 38.0,
+ "catalogue_peak_share": 17.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "id": "admiring"
+  },
+  {
+   "word": "adoring",
+   "reach": 8,
+   "band": "b5",
+   "id": "adoring"
+  },
+  {
+   "word": "affectation",
+   "reach": 5,
+   "band": "b5",
+   "id": "affectation"
+  },
+  {
+   "word": "antagonistic",
+   "reach": 13,
+   "band": "b4",
+   "id": "antagonistic"
+  },
+  {
+   "word": "approving",
+   "reach": 2,
+   "band": "b5",
+   "id": "approving"
+  },
+  {
+   "word": "based on short film",
+   "reach": 2,
+   "band": "b5",
+   "id": "based-on-short-film"
+  },
+  {
+   "word": "dramatic",
+   "reach": 18,
+   "band": "b3",
+   "id": "dramatic"
+  },
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "id": "new-york-city"
+  },
+  {
+   "word": "sympathetic",
+   "reach": 7,
+   "band": "b5",
+   "id": "sympathetic"
+  },
+  {
+   "word": "2010s",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "id": "absurd"
+  },
+  {
+   "word": "african american family",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "aggressive",
+   "reach": 18,
+   "band": "b3",
+   "id": "aggressive"
+  },
+  {
+   "word": "alternate history",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "back-to-the-future-part-ii-1989",
+   "title": "Back to the Future Part II",
+   "year": 1989,
+   "poster": "hQq8xZe5uLjFzSBt4LanNP7SQjl.jpg",
+   "tmdb": 7.784
+  },
+  {
+   "id": "do-the-right-thing-1989",
+   "title": "Do the Right Thing",
+   "year": 1989,
+   "poster": "63rmSDPahrH7C1gEFYzRuIBAN9W.jpg",
+   "tmdb": 7.773
+  },
+  {
+   "id": "reservoir-dogs-1992",
+   "title": "Reservoir Dogs",
+   "year": 1992,
+   "poster": "xi8Iu6qyTfyZVDVy60raIOYJJmk.jpg",
+   "tmdb": 8.111
+  },
+  {
+   "id": "he-got-game-1998",
+   "title": "He Got Game",
+   "year": 1998,
+   "poster": "kd8hRaysUQOz7AvSorZDJHuihcJ.jpg",
+   "tmdb": 6.752
+  },
+  {
+   "id": "what-lies-beneath-2000",
+   "title": "What Lies Beneath",
+   "year": 2000,
+   "poster": "2L3Cn0CizbSy2E9KJt1SiOSyb6p.jpg",
+   "tmdb": 6.437
+  },
+  {
+   "id": "ali-2001",
+   "title": "Ali",
+   "year": 2001,
+   "poster": "32l3FaCzs8cXWps6hkgNJAcOsP.jpg",
+   "tmdb": 6.743
+  },
+  {
+   "id": "the-departed-2006",
+   "title": "The Departed",
+   "year": 2006,
+   "poster": "nT97ifVT2J1yMQmeq20Qblg61T.jpg",
+   "tmdb": 8.159
+  },
+  {
+   "id": "whiplash-2014",
+   "title": "Whiplash",
+   "year": 2014,
+   "poster": "7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+   "tmdb": 8.375
+  }
+ ]
+}

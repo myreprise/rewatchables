@@ -1,0 +1,251 @@
+{
+ "word": "aftercreditsstinger",
+ "id": "aftercreditsstinger",
+ "catalogue": 460,
+ "share": 3.9,
+ "thin": false,
+ "peak": 2000,
+ "avg_tmdb": 7.1,
+ "vs_catalogue": 0.0,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 3
+  },
+  {
+   "decade": 1990,
+   "n": 2
+  },
+  {
+   "decade": 2000,
+   "n": 9
+  },
+  {
+   "decade": 2010,
+   "n": 2
+  },
+  {
+   "decade": 2020,
+   "n": 2
+  }
+ ],
+ "peak_share": 50.0,
+ "catalogue_peak_share": 17.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "id": "duringcreditsstinger"
+  },
+  {
+   "word": "chicago, illinois",
+   "reach": 19,
+   "band": "b3",
+   "id": "chicago-illinois"
+  },
+  {
+   "word": "breaking the fourth wall",
+   "reach": 5,
+   "band": "b5",
+   "id": "breaking-the-fourth-wall"
+  },
+  {
+   "word": "buddy",
+   "reach": 14,
+   "band": "b4",
+   "id": "buddy"
+  },
+  {
+   "word": "parody",
+   "reach": 6,
+   "band": "b5",
+   "id": "parody"
+  },
+  {
+   "word": "sport competition",
+   "reach": 4,
+   "band": "b5",
+   "id": "sport-competition"
+  },
+  {
+   "word": "sports",
+   "reach": 47,
+   "band": "b1",
+   "id": "sports"
+  },
+  {
+   "word": "aggressive",
+   "reach": 18,
+   "band": "b3",
+   "id": "aggressive"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "bold",
+   "reach": 15,
+   "band": "b4",
+   "id": "bold"
+  },
+  {
+   "word": "car race",
+   "reach": 6,
+   "band": "b5",
+   "id": "car-race"
+  },
+  {
+   "word": "cheerful",
+   "reach": 9,
+   "band": "b5",
+   "id": "cheerful"
+  },
+  {
+   "word": "exhilarated",
+   "reach": 8,
+   "band": "b5",
+   "id": "exhilarated"
+  },
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  }
+ ],
+ "films": [
+  {
+   "id": "airplane-1980",
+   "title": "Airplane!",
+   "year": 1980,
+   "poster": "7Q3efxd3AF1vQjlSxnlerSA7RzN.jpg",
+   "tmdb": 7.3
+  },
+  {
+   "id": "ferris-buellers-day-off-1986",
+   "title": "Ferris Bueller's Day Off",
+   "year": 1986,
+   "poster": "9LTQNCvoLsKXP0LtaKAaYVtRaQL.jpg",
+   "tmdb": 7.562
+  },
+  {
+   "id": "planes-trains-and-automobiles-1987",
+   "title": "Planes, Trains and Automobiles",
+   "year": 1987,
+   "poster": "fwi2cET87xArJCb8MdbWq2BZO3n.jpg",
+   "tmdb": 7.251
+  },
+  {
+   "id": "waynes-world-1992",
+   "title": "Wayne's World",
+   "year": 1992,
+   "poster": "fHwZnFNWR7PaS9t5EBwTvGPeoYQ.jpg",
+   "tmdb": 6.684
+  },
+  {
+   "id": "austin-powers-the-spy-who-shagged-me-1999",
+   "title": "Austin Powers: The Spy Who Shagged Me",
+   "year": 1999,
+   "poster": "jiF7UShERJFn5RtgfBK2lIJrOTc.jpg",
+   "tmdb": 6.322
+  },
+  {
+   "id": "the-fast-and-the-furious-2001",
+   "title": "The Fast and the Furious",
+   "year": 2001,
+   "poster": "gqY0ITBgT7A82poL9jv851qdnIb.jpg",
+   "tmdb": 7.0
+  },
+  {
+   "id": "lost-in-translation-2003",
+   "title": "Lost in Translation",
+   "year": 2003,
+   "poster": "3jCLmYDIIiSMPujbwygNpqdpM8N.jpg",
+   "tmdb": 7.38
+  },
+  {
+   "id": "dodgeball-a-true-underdog-story-2004",
+   "title": "DodgeBall: A True Underdog Story",
+   "year": 2004,
+   "poster": "r8KbNHkkwFXLjV1suGwm0Qjure5.jpg",
+   "tmdb": 6.4
+  },
+  {
+   "id": "miracle-2004",
+   "title": "Miracle",
+   "year": 2004,
+   "poster": "mxtej2th8t8x0ufVBTyhsO6Htxj.jpg",
+   "tmdb": 7.1
+  },
+  {
+   "id": "borat-cultural-learnings-of-america-for-make-benefit-glorious-nation-of-kazakhstan-2006",
+   "title": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
+   "year": 2006,
+   "poster": "7g9kBHMN2KTr5KUf8aen187Mdn.jpg",
+   "tmdb": 6.788
+  },
+  {
+   "id": "talladega-nights-the-ballad-of-ricky-bobby-2006",
+   "title": "Talladega Nights: The Ballad of Ricky Bobby",
+   "year": 2006,
+   "poster": "3iCiTqsmJz1mO85AHzTiHNkRmb6.jpg",
+   "tmdb": 6.381
+  },
+  {
+   "id": "american-gangster-2007",
+   "title": "American Gangster",
+   "year": 2007,
+   "poster": "sX9idXDqRUxE5ffww3n3RV5gL55.jpg",
+   "tmdb": 7.594
+  },
+  {
+   "id": "iron-man-2008",
+   "title": "Iron Man",
+   "year": 2008,
+   "poster": "78lPtwv72eTNqFW9COBYI0dWDJa.jpg",
+   "tmdb": 7.664
+  },
+  {
+   "id": "step-brothers-2008",
+   "title": "Step Brothers",
+   "year": 2008,
+   "poster": "nvggBbEraUTAVR6ffP3AaBUWSHs.jpg",
+   "tmdb": 6.558
+  },
+  {
+   "id": "insidious-2011",
+   "title": "Insidious",
+   "year": 2011,
+   "poster": "1egpmVXuXed58TH2UOnX1nATTrf.jpg",
+   "tmdb": 7.0
+  },
+  {
+   "id": "the-martian-2015",
+   "title": "The Martian",
+   "year": 2015,
+   "poster": "fASz8A0yFE3QB6LgGoOfwvFSseV.jpg",
+   "tmdb": 7.706
+  },
+  {
+   "id": "f1-2025",
+   "title": "F1",
+   "year": 2025,
+   "poster": "9PXZIUsSDh4alB80jheWX4fhZmy.jpg",
+   "tmdb": 7.823
+  },
+  {
+   "id": "sinners-2025",
+   "title": "Sinners",
+   "year": 2025,
+   "poster": "fWPgbnt2LSqkQ6cdQc0SZN9CpLm.jpg",
+   "tmdb": 7.512
+  }
+ ]
+}

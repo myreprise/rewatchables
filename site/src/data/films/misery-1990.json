@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Brian Koppelman"
+    {
+     "name": "Brian Koppelman",
+     "id": "brian-koppelman"
+    }
    ],
    "note": null
   }
@@ -50,187 +56,218 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "suspenseful",
    "reach": 30,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "suspenseful"
   },
   {
    "word": "intense",
    "reach": 23,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "intense"
   },
   {
    "word": "psychopath",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "psychopath"
   },
   {
    "word": "psychological thriller",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "psychological-thriller"
   },
   {
    "word": "frightened",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "frightened"
   },
   {
    "word": "disturbed",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "disturbed"
   },
   {
    "word": "car crash",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "car-crash"
   },
   {
    "word": "psychological horror",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "psychological-horror"
   },
   {
    "word": "mysterious",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mysterious"
   },
   {
    "word": "author",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "author"
   },
   {
    "word": "slasher",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "slasher"
   },
   {
    "word": "torture",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "torture"
   },
   {
    "word": "blizzard",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "blizzard"
   },
   {
    "word": "claustrophobic",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "claustrophobic"
   },
   {
    "word": "colorado",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "colorado"
   },
   {
    "word": "nurse",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nurse"
   },
   {
    "word": "obsessed fan",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "obsessed-fan"
   },
   {
    "word": "psycho",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "psycho"
   },
   {
    "word": "psychological drama",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "psychological-drama"
   },
   {
    "word": "psychotic",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "psychotic"
   },
   {
    "word": "abducted",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "bedridden",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "crazy",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "female psychopath",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "fight for survival",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "kidnapped",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "lunatic",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "nutcase",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "obssesive fan",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "rural setting",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -1,0 +1,41 @@
+{
+ "name": "Joel Anderson",
+ "id": "joel-anderson",
+ "episodes": 1,
+ "share": 0.0021,
+ "hosted": 0,
+ "first": "2026-05-11",
+ "last": "2026-05-11",
+ "shelf": [
+  {
+   "id": "tropic-thunder-2008",
+   "title": "Tropic Thunder",
+   "year": 2008,
+   "poster": "zAurB9mNxfYRoVrVjAJJwGV3sPg.jpg",
+   "episode": 460,
+   "aired": "2026-05-11"
+  }
+ ],
+ "company": [
+  {
+   "name": "Chris Ryan",
+   "id": "chris-ryan",
+   "episodes": 1
+  },
+  {
+   "name": "Van Lathan",
+   "id": "van-lathan",
+   "episodes": 1
+  }
+ ],
+ "regular": false,
+ "lean_floor": 15,
+ "leans": [],
+ "verdict_floor": 8,
+ "verdicts": {
+  "cruise": 1,
+  "hanks": 0,
+  "ties": 0,
+  "n": 1
+ }
+}

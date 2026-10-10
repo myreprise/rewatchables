@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Chris Ryan",
+   "host": {
+    "name": "Chris Ryan",
+    "id": "chris-ryan"
+   },
    "guests": [
-    "Sean Fennessey"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -51,133 +57,155 @@
    "word": "neo-noir",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "neo-noir"
   },
   {
    "word": "aggressive",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "aggressive"
   },
   {
    "word": "dark comedy",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dark-comedy"
   },
   {
    "word": "betrayal",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "betrayal"
   },
   {
    "word": "competition",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "competition"
   },
   {
    "word": "desperate",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "desperate"
   },
   {
    "word": "dreary",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dreary"
   },
   {
    "word": "based on play or musical",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "based-on-play-or-musical"
   },
   {
    "word": "robbery",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "robbery"
   },
   {
    "word": "brooklyn, new york city",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "brooklyn-new-york-city"
   },
   {
    "word": "shop",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "shop"
   },
   {
    "word": "bleak",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "chinese restaurant",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "contest",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "cutthroat",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "estate agent",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "office",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "pressure",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "real estate",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "salesman",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "salesmen",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "stormy night",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

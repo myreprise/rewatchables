@@ -40,11 +40,23 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Shea Serrano",
-    "Kyle Brandt"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Shea Serrano",
+     "id": "shea-serrano"
+    },
+    {
+     "name": "Kyle Brandt",
+     "id": "kyle-brandt"
+    }
    ],
    "note": null
   }
@@ -54,97 +66,113 @@
    "word": "suspenseful",
    "reach": 30,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "suspenseful"
   },
   {
    "word": "aggressive",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "aggressive"
   },
   {
    "word": "survival",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "survival"
   },
   {
    "word": "alien",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alien"
   },
   {
    "word": "assertive",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "assertive"
   },
   {
    "word": "violence",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "violence"
   },
   {
    "word": "creature",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "creature"
   },
   {
    "word": "stalking",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "stalking"
   },
   {
    "word": "alien invasion",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alien-invasion"
   },
   {
    "word": "commando",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "commando"
   },
   {
    "word": "guerrilla warfare",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "guerrilla-warfare"
   },
   {
    "word": "central and south america",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "invisible",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "predator",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "prey",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "trap",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

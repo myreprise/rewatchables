@@ -1,0 +1,118 @@
+{
+ "word": "romance",
+ "id": "romance",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "argument",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bold",
+   "reach": 15,
+   "band": "b4",
+   "id": "bold"
+  },
+  {
+   "word": "christmas",
+   "reach": 14,
+   "band": "b4",
+   "id": "christmas"
+  },
+  {
+   "word": "christmas party",
+   "reach": 5,
+   "band": "b5",
+   "id": "christmas-party"
+  },
+  {
+   "word": "christmas romance",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "country house",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "divorce",
+   "reach": 5,
+   "band": "b5",
+   "id": "divorce"
+  },
+  {
+   "word": "divorce lawyer",
+   "reach": 2,
+   "band": "b5",
+   "id": "divorce-lawyer"
+  },
+  {
+   "word": "excited",
+   "reach": 17,
+   "band": "b3",
+   "id": "excited"
+  },
+  {
+   "word": "holiday",
+   "reach": 9,
+   "band": "b5",
+   "id": "holiday"
+  },
+  {
+   "word": "holiday romance",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "hostile",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "house swapping",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "lawyer",
+   "reach": 15,
+   "band": "b4",
+   "id": "lawyer"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-war-of-the-roses-1989",
+   "title": "The War of the Roses",
+   "year": 1989,
+   "poster": "9VWwYsuXhRImUtrJGvN6bYJB2He.jpg",
+   "tmdb": 6.915
+  },
+  {
+   "id": "the-holiday-2006",
+   "title": "The Holiday",
+   "year": 2006,
+   "poster": "h1ITOpvJN3Tw4Sy60w2QTfYMvdd.jpg",
+   "tmdb": 7.099
+  }
+ ]
+}

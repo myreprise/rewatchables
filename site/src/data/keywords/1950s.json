@@ -1,0 +1,194 @@
+{
+ "word": "1950s",
+ "id": "1950s",
+ "catalogue": 460,
+ "share": 2.4,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.6,
+ "vs_catalogue": 0.5,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 3
+  },
+  {
+   "decade": 1980,
+   "n": 5
+  },
+  {
+   "decade": 1990,
+   "n": 3
+  }
+ ],
+ "peak_share": 45.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "id": "coming-of-age"
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "bullying",
+   "reach": 5,
+   "band": "b5",
+   "id": "bullying"
+  },
+  {
+   "word": "flying car",
+   "reach": 3,
+   "band": "b5",
+   "id": "flying-car"
+  },
+  {
+   "word": "friendship",
+   "reach": 22,
+   "band": "b3",
+   "id": "friendship"
+  },
+  {
+   "word": "gangster",
+   "reach": 18,
+   "band": "b3",
+   "id": "gangster"
+  },
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "id": "high-school"
+  },
+  {
+   "word": "italy",
+   "reach": 5,
+   "band": "b5",
+   "id": "italy"
+  },
+  {
+   "word": "kids",
+   "reach": 5,
+   "band": "b5",
+   "id": "kids"
+  },
+  {
+   "word": "lawyer",
+   "reach": 15,
+   "band": "b4",
+   "id": "lawyer"
+  },
+  {
+   "word": "mafia",
+   "reach": 12,
+   "band": "b4",
+   "id": "mafia"
+  },
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "id": "murder"
+  },
+  {
+   "word": "organized crime",
+   "reach": 15,
+   "band": "b4",
+   "id": "organized-crime"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-godfather-1972",
+   "title": "The Godfather",
+   "year": 1972,
+   "poster": "3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+   "tmdb": 8.686
+  },
+  {
+   "id": "the-godfather-part-ii-1974",
+   "title": "The Godfather Part II",
+   "year": 1974,
+   "poster": "sSuQTCZwqKrNBNIsksO9IAUoWP9.jpg",
+   "tmdb": 8.573
+  },
+  {
+   "id": "grease-1978",
+   "title": "Grease",
+   "year": 1978,
+   "poster": "2rM7fQKpb7cs1Iq7IBqub9LFDzJ.jpg",
+   "tmdb": 7.366
+  },
+  {
+   "id": "friday-the-13th-1980",
+   "title": "Friday the 13th",
+   "year": 1980,
+   "poster": "uGGpnWHOmWTARVN9wbC1nPxNgps.jpg",
+   "tmdb": 6.4
+  },
+  {
+   "id": "back-to-the-future-1985",
+   "title": "Back to the Future",
+   "year": 1985,
+   "poster": "vN5B5WgYscRGcQpVhHl6p9DDTP0.jpg",
+   "tmdb": 8.329
+  },
+  {
+   "id": "hoosiers-1986",
+   "title": "Hoosiers",
+   "year": 1986,
+   "poster": "dHpjZQXEdoi1xNLubM1rPmTHJYz.jpg",
+   "tmdb": 7.0
+  },
+  {
+   "id": "stand-by-me-1986",
+   "title": "Stand by Me",
+   "year": 1986,
+   "poster": "vz0w9BSehcqjDcJOjRaCk7fgJe7.jpg",
+   "tmdb": 7.833
+  },
+  {
+   "id": "dead-poets-society-1989",
+   "title": "Dead Poets Society",
+   "year": 1989,
+   "poster": "tNvKkSnnn4Z6RCBThyK1gfCSSvv.jpg",
+   "tmdb": 8.296
+  },
+  {
+   "id": "school-ties-1992",
+   "title": "School Ties",
+   "year": 1992,
+   "poster": "h9u6VSyEPlF5L69QSzOh1eo4F5q.jpg",
+   "tmdb": 6.507
+  },
+  {
+   "id": "quiz-show-1994",
+   "title": "Quiz Show",
+   "year": 1994,
+   "poster": "yoGJo1h3Hl2exXPVcG9UXWDENtX.jpg",
+   "tmdb": 7.25
+  },
+  {
+   "id": "l-a-confidential-1997",
+   "title": "L.A. Confidential",
+   "year": 1997,
+   "poster": "lWCgf5sD5FpMljjpkRhcC8pXcch.jpg",
+   "tmdb": 7.806
+  }
+ ]
+}

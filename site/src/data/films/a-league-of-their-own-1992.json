@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Mallory Rubin"
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    }
    ],
    "note": null
   }
@@ -50,49 +56,57 @@
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "woman director",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "woman-director"
   },
   {
    "word": "baseball",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "baseball"
   },
   {
    "word": "1940s",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1940s"
   },
   {
    "word": "world war ii",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "world-war-ii"
   },
   {
    "word": "baseball player",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "baseball-player"
   },
   {
    "word": "female athlete",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "home front",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

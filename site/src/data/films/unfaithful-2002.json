@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Wesley Morris"
+    {
+     "name": "Wesley Morris",
+     "id": "wesley-morris"
+    }
    ],
    "note": null
   }
@@ -51,43 +57,50 @@
    "word": "new york city",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "new-york-city"
   },
   {
    "word": "infidelity",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "infidelity"
   },
   {
    "word": "erotic thriller",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "erotic-thriller"
   },
   {
    "word": "adultery",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "adultery"
   },
   {
    "word": "eroticism",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "eroticism"
   },
   {
    "word": "literature",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "literature"
   },
   {
    "word": "lover",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lover"
   }
  ],
  "cast": [

@@ -1,0 +1,118 @@
+{
+ "word": "georgia",
+ "id": "georgia",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "american football",
+   "reach": 13,
+   "band": "b4",
+   "id": "american-football"
+  },
+  {
+   "word": "banjo",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "canoe",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "hillbilly",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "male rape",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "palm beach, florida",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "prison",
+   "reach": 16,
+   "band": "b4",
+   "id": "prison"
+  },
+  {
+   "word": "quarterback",
+   "reach": 2,
+   "band": "b5",
+   "id": "quarterback"
+  },
+  {
+   "word": "rafting",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "rape",
+   "reach": 4,
+   "band": "b5",
+   "id": "rape"
+  },
+  {
+   "word": "rapids",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "river",
+   "reach": 2,
+   "band": "b5",
+   "id": "river"
+  },
+  {
+   "word": "sports",
+   "reach": 47,
+   "band": "b1",
+   "id": "sports"
+  }
+ ],
+ "films": [
+  {
+   "id": "deliverance-1972",
+   "title": "Deliverance",
+   "year": 1972,
+   "poster": "2TrAzNJlHyNYYSkQf6asg3rs2Xr.jpg",
+   "tmdb": 7.311
+  },
+  {
+   "id": "the-longest-yard-1974",
+   "title": "The Longest Yard",
+   "year": 1974,
+   "poster": "2qtpPGRpMEnwhRRoq3iqyQm238V.jpg",
+   "tmdb": 6.735
+  }
+ ]
+}

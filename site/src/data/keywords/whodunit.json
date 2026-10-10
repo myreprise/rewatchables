@@ -1,0 +1,198 @@
+{
+ "word": "whodunit",
+ "id": "whodunit",
+ "catalogue": 460,
+ "share": 2.4,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.5,
+ "vs_catalogue": 0.4,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 3
+  },
+  {
+   "decade": 1990,
+   "n": 4
+  },
+  {
+   "decade": 2000,
+   "n": 2
+  },
+  {
+   "decade": 2010,
+   "n": 2
+  }
+ ],
+ "peak_share": 36.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "neo-noir",
+   "reach": 29,
+   "band": "b2",
+   "id": "neo-noir"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "detective",
+   "reach": 17,
+   "band": "b3",
+   "id": "detective"
+  },
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "id": "murder"
+  },
+  {
+   "word": "serial killer",
+   "reach": 14,
+   "band": "b4",
+   "id": "serial-killer"
+  },
+  {
+   "word": "investigation",
+   "reach": 14,
+   "band": "b4",
+   "id": "investigation"
+  },
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  },
+  {
+   "word": "police",
+   "reach": 22,
+   "band": "b3",
+   "id": "police"
+  },
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1970s"
+  },
+  {
+   "word": "alcoholic",
+   "reach": 10,
+   "band": "b5",
+   "id": "alcoholic"
+  },
+  {
+   "word": "american giallo",
+   "reach": 3,
+   "band": "b5",
+   "id": "american-giallo"
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  },
+  {
+   "word": "california",
+   "reach": 16,
+   "band": "b4",
+   "id": "california"
+  },
+  {
+   "word": "conspiracy",
+   "reach": 13,
+   "band": "b4",
+   "id": "conspiracy"
+  }
+ ],
+ "films": [
+  {
+   "id": "cruising-1980",
+   "title": "Cruising",
+   "year": 1980,
+   "poster": "bb9CND0WyfwdHOZY5XmP4Qn8taz.jpg",
+   "tmdb": 6.586
+  },
+  {
+   "id": "blow-out-1981",
+   "title": "Blow Out",
+   "year": 1981,
+   "poster": "uFzMscVLDrTaYd6KXOXlr6dly7w.jpg",
+   "tmdb": 7.357
+  },
+  {
+   "id": "body-double-1984",
+   "title": "Body Double",
+   "year": 1984,
+   "poster": "lRFm5P2AdOGpELwm3HHhmUz6k5I.jpg",
+   "tmdb": 6.741
+  },
+  {
+   "id": "the-usual-suspects-1995",
+   "title": "The Usual Suspects",
+   "year": 1995,
+   "poster": "99X2SgyFunJFXGAYnDv3sb9pnUD.jpg",
+   "tmdb": 8.165
+  },
+  {
+   "id": "primal-fear-1996",
+   "title": "Primal Fear",
+   "year": 1996,
+   "poster": "qJf2TzE8nRTFbFMPJNW6c8mI0KU.jpg",
+   "tmdb": 7.659
+  },
+  {
+   "id": "scream-1996",
+   "title": "Scream",
+   "year": 1996,
+   "poster": "lr9ZIrmuwVmZhpZuTCW8D9g0ZJe.jpg",
+   "tmdb": 7.431
+  },
+  {
+   "id": "l-a-confidential-1997",
+   "title": "L.A. Confidential",
+   "year": 1997,
+   "poster": "lWCgf5sD5FpMljjpkRhcC8pXcch.jpg",
+   "tmdb": 7.806
+  },
+  {
+   "id": "memento-2000",
+   "title": "Memento",
+   "year": 2000,
+   "poster": "nzlv62aC0octS5AklAiWpXLX9Z0.jpg",
+   "tmdb": 8.174
+  },
+  {
+   "id": "zodiac-2007",
+   "title": "Zodiac",
+   "year": 2007,
+   "poster": "6YmeO4pB7XTh8P8F960O1uA14JO.jpg",
+   "tmdb": 7.532
+  },
+  {
+   "id": "gone-girl-2014",
+   "title": "Gone Girl",
+   "year": 2014,
+   "poster": "ts996lKsxvjkO2yiYG0ht4qAicO.jpg",
+   "tmdb": 7.889
+  },
+  {
+   "id": "the-nice-guys-2016",
+   "title": "The Nice Guys",
+   "year": 2016,
+   "poster": "clq4So9spa9cXk3MZy2iMdqkxP2.jpg",
+   "tmdb": 7.133
+  }
+ ]
+}

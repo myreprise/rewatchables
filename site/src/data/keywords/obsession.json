@@ -1,0 +1,185 @@
+{
+ "word": "obsession",
+ "id": "obsession",
+ "catalogue": 460,
+ "share": 1.7,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.6,
+ "vs_catalogue": 0.5,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 2
+  },
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 3
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  },
+  {
+   "decade": 2020,
+   "n": 1
+  }
+ ],
+ "peak_share": 38.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "id": "new-york-city"
+  },
+  {
+   "word": "anxious",
+   "reach": 8,
+   "band": "b5",
+   "id": "anxious"
+  },
+  {
+   "word": "bold",
+   "reach": 15,
+   "band": "b4",
+   "id": "bold"
+  },
+  {
+   "word": "callous",
+   "reach": 5,
+   "band": "b5",
+   "id": "callous"
+  },
+  {
+   "word": "cautionary",
+   "reach": 6,
+   "band": "b5",
+   "id": "cautionary"
+  },
+  {
+   "word": "loner",
+   "reach": 3,
+   "band": "b5",
+   "id": "loner"
+  },
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  },
+  {
+   "word": "manhattan, new york city",
+   "reach": 7,
+   "band": "b5",
+   "id": "manhattan-new-york-city"
+  },
+  {
+   "word": "marriage crisis",
+   "reach": 7,
+   "band": "b5",
+   "id": "marriage-crisis"
+  },
+  {
+   "word": "missing person",
+   "reach": 5,
+   "band": "b5",
+   "id": "missing-person"
+  },
+  {
+   "word": "neo-noir",
+   "reach": 29,
+   "band": "b2",
+   "id": "neo-noir"
+  },
+  {
+   "word": "pornography",
+   "reach": 4,
+   "band": "b5",
+   "id": "pornography"
+  },
+  {
+   "word": "supernatural horror",
+   "reach": 7,
+   "band": "b5",
+   "id": "supernatural-horror"
+  },
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1970s"
+  }
+ ],
+ "films": [
+  {
+   "id": "taxi-driver-1976",
+   "title": "Taxi Driver",
+   "year": 1976,
+   "poster": "ekstpH614fwDX8DUln1a2Opz0N8.jpg",
+   "tmdb": 8.1
+  },
+  {
+   "id": "close-encounters-of-the-third-kind-1977",
+   "title": "Close Encounters of the Third Kind",
+   "year": 1977,
+   "poster": "yaPx3cK9zGFX3SbcKwxWM1QIbUh.jpg",
+   "tmdb": 7.359
+  },
+  {
+   "id": "fatal-attraction-1987",
+   "title": "Fatal Attraction",
+   "year": 1987,
+   "poster": "vjB9XwJKnYqFKKjhWcE6WpAf5Ki.jpg",
+   "tmdb": 6.833
+  },
+  {
+   "id": "heat-1995",
+   "title": "Heat",
+   "year": 1995,
+   "poster": "gKaePbkEkaqvMtw74EyhhkfCKKh.jpg",
+   "tmdb": 7.945
+  },
+  {
+   "id": "the-devils-advocate-1997",
+   "title": "The Devil's Advocate",
+   "year": 1997,
+   "poster": "5ZzBGpxy55OQzHxKVY11IpY6a0o.jpg",
+   "tmdb": 7.481
+  },
+  {
+   "id": "8mm-1999",
+   "title": "8MM",
+   "year": 1999,
+   "poster": "mhr9xRpjOBqlBjgDwtiOx6FsLvV.jpg",
+   "tmdb": 6.506
+  },
+  {
+   "id": "whiplash-2014",
+   "title": "Whiplash",
+   "year": 2014,
+   "poster": "7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+   "tmdb": 8.375
+  },
+  {
+   "id": "obsession-2026",
+   "title": "Obsession",
+   "year": 2026,
+   "poster": "bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
+   "tmdb": 8.207
+  }
+ ]
+}

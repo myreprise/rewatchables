@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": "Tie",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Sean Fennessey",
-    "Van Lathan"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": null
   }
@@ -52,115 +61,134 @@
    "word": "amused",
    "reach": 26,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "amused"
   },
   {
    "word": "admiring",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "admiring"
   },
   {
    "word": "ambiguous",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ambiguous"
   },
   {
    "word": "adoring",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "adoring"
   },
   {
    "word": "gambling",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gambling"
   },
   {
    "word": "assassination",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "assassination"
   },
   {
    "word": "casino",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "casino"
   },
   {
    "word": "bribery",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bribery"
   },
   {
    "word": "dubious",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dubious"
   },
   {
    "word": "whistleblower",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "whistleblower"
   },
   {
    "word": "atlantic city",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "atlantic-city"
   },
   {
    "word": "corrupt cop",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "corrupt-cop"
   },
   {
    "word": "homicide detective",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "homicide-detective"
   },
   {
    "word": "naval officer",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "naval-officer"
   },
   {
    "word": "secretary of defense",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "secretary-of-defense"
   },
   {
    "word": "boxing match",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "navy commander",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "political activism",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "woman in jeopardy",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

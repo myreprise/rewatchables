@@ -1,0 +1,134 @@
+{
+ "word": "telepathy",
+ "id": "telepathy",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.2,
+ "vs_catalogue": 0.1,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 2
+  }
+ ],
+ "peak_share": 67.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "2080s",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "alcoholic",
+   "reach": 10,
+   "band": "b5",
+   "id": "alcoholic"
+  },
+  {
+   "word": "alcoholism",
+   "reach": 6,
+   "band": "b5",
+   "id": "alcoholism"
+  },
+  {
+   "word": "alien",
+   "reach": 9,
+   "band": "b5",
+   "id": "alien"
+  },
+  {
+   "word": "alien dna",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "ambiguous",
+   "reach": 9,
+   "band": "b5",
+   "id": "ambiguous"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "avant garde",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "blizzard",
+   "reach": 2,
+   "band": "b5",
+   "id": "blizzard"
+  },
+  {
+   "word": "caretaker",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "child abuse",
+   "reach": 6,
+   "band": "b5",
+   "id": "child-abuse"
+  },
+  {
+   "word": "cocoon",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "the-shining-1980",
+   "title": "The Shining",
+   "year": 1980,
+   "poster": "uAR0AWqhQL1hQa69UDEbb2rE5Wx.jpg",
+   "tmdb": 8.2
+  },
+  {
+   "id": "total-recall-1990",
+   "title": "Total Recall",
+   "year": 1990,
+   "poster": "wVbeL6fkbTKSmNfalj4VoAUUqJv.jpg",
+   "tmdb": 7.328
+  },
+  {
+   "id": "species-1995",
+   "title": "Species",
+   "year": 1995,
+   "poster": "cT5wdyo8kT7dycqjrolJ2sHWkFx.jpg",
+   "tmdb": 5.992
+  }
+ ]
+}

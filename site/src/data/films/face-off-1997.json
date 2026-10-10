@@ -39,11 +39,23 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Jason Concepcion",
-    "Shea Serrano"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Jason Concepcion",
+     "id": "jason-concepcion"
+    },
+    {
+     "name": "Shea Serrano",
+     "id": "shea-serrano"
+    }
    ],
    "note": null
   }
@@ -53,187 +65,218 @@
    "word": "los angeles, california",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "los-angeles-california"
   },
   {
    "word": "revenge",
    "reach": 31,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "revenge"
   },
   {
    "word": "fbi",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "fbi"
   },
   {
    "word": "shootout",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "shootout"
   },
   {
    "word": "prison",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "prison"
   },
   {
    "word": "organized crime",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "organized-crime"
   },
   {
    "word": "psychopath",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "psychopath"
   },
   {
    "word": "undercover",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "undercover"
   },
   {
    "word": "flashback",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "flashback"
   },
   {
    "word": "blunt",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "blunt"
   },
   {
    "word": "bomb",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bomb"
   },
   {
    "word": "fbi agent",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fbi-agent"
   },
   {
    "word": "prison escape",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "prison-escape"
   },
   {
    "word": "boat chase",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "boat-chase"
   },
   {
    "word": "disguise",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "disguise"
   },
   {
    "word": "doctor",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "doctor"
   },
   {
    "word": "mexican standoff",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mexican-standoff"
   },
   {
    "word": "tragedy",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "tragedy"
   },
   {
    "word": "prisoner",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "prisoner"
   },
   {
    "word": "brother brother relationship",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "brother-brother-relationship"
   },
   {
    "word": "criminal gang",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "criminal-gang"
   },
   {
    "word": "archenemy",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "archvillain",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "biological weapon",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "bullet ballet",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "face transplant",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "golden gun",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "maximum security prison",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sibling",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "surgery",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "vendetta",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

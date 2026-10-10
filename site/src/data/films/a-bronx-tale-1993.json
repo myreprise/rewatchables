@@ -38,11 +38,23 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey",
-    "Van Lathan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": null
   }
@@ -52,127 +64,148 @@
    "word": "gangster",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "gangster"
   },
   {
    "word": "parent child relationship",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "parent-child-relationship"
   },
   {
    "word": "1960s",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "1960s"
   },
   {
    "word": "mafia",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "mafia"
   },
   {
    "word": "italian american",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "italian-american"
   },
   {
    "word": "best friend",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "best-friend"
   },
   {
    "word": "gambling",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gambling"
   },
   {
    "word": "witness to murder",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "witness-to-murder"
   },
   {
    "word": "funeral",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "funeral"
   },
   {
    "word": "hoodlum",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hoodlum"
   },
   {
    "word": "bronx, new york city",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bronx-new-york-city"
   },
   {
    "word": "gang leader",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gang-leader"
   },
   {
    "word": "nostalgia",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nostalgia"
   },
   {
    "word": "xenophobia",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "xenophobia"
   },
   {
    "word": "bus driver",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "confession booth",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "father figure",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "game of dice",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "italian",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "loyalty",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "molotow cocktail",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

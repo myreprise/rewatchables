@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -52,121 +61,141 @@
    "word": "murder",
    "reach": 36,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "murder"
   },
   {
    "word": "antagonistic",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "antagonistic"
   },
   {
    "word": "mafia",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "mafia"
   },
   {
    "word": "on the run",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "on-the-run"
   },
   {
    "word": "washington dc, usa",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "washington-dc-usa"
   },
   {
    "word": "voyeurism",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "voyeurism"
   },
   {
    "word": "authoritarian",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "authoritarian"
   },
   {
    "word": "surveillance",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "surveillance"
   },
   {
    "word": "false accusations",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "false-accusations"
   },
   {
    "word": "married man",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "married-man"
   },
   {
    "word": "national security agency (nsa)",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "national-security-agency-nsa"
   },
   {
    "word": "satellite",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "satellite"
   },
   {
    "word": "surveillance state",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "surveillance-state"
   },
   {
    "word": "tracking device",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "tracking-device"
   },
   {
    "word": "wiretap",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "wiretap"
   },
   {
    "word": "baltimore, maryland",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "christmastime",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "congressman",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "invasion of privacy",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "tape recording  ",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

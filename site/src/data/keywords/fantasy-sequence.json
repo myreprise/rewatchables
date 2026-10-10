@@ -1,0 +1,118 @@
+{
+ "word": "fantasy sequence",
+ "id": "fantasy-sequence",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1980s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1980s"
+  },
+  {
+   "word": "adoring",
+   "reach": 8,
+   "band": "b5",
+   "id": "adoring"
+  },
+  {
+   "word": "aftercreditsstinger",
+   "reach": 18,
+   "band": "b3",
+   "id": "aftercreditsstinger"
+  },
+  {
+   "word": "boss",
+   "reach": 2,
+   "band": "b5",
+   "id": "boss"
+  },
+  {
+   "word": "breaking the fourth wall",
+   "reach": 5,
+   "band": "b5",
+   "id": "breaking-the-fourth-wall"
+  },
+  {
+   "word": "caper",
+   "reach": 4,
+   "band": "b5",
+   "id": "caper"
+  },
+  {
+   "word": "car theft",
+   "reach": 2,
+   "band": "b5",
+   "id": "car-theft"
+  },
+  {
+   "word": "chicago, illinois",
+   "reach": 19,
+   "band": "b3",
+   "id": "chicago-illinois"
+  },
+  {
+   "word": "christmas",
+   "reach": 14,
+   "band": "b4",
+   "id": "christmas"
+  },
+  {
+   "word": "christmas bonus",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "christmas eve",
+   "reach": 3,
+   "band": "b5",
+   "id": "christmas-eve"
+  },
+  {
+   "word": "christmas tree",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "id": "coming-of-age"
+  },
+  {
+   "word": "day in a life",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "ferris-buellers-day-off-1986",
+   "title": "Ferris Bueller's Day Off",
+   "year": 1986,
+   "poster": "9LTQNCvoLsKXP0LtaKAaYVtRaQL.jpg",
+   "tmdb": 7.562
+  },
+  {
+   "id": "national-lampoons-christmas-vacation-1989",
+   "title": "National Lampoon's Christmas Vacation",
+   "year": 1989,
+   "poster": "oat42hUw8XzKYUmfy0YLAxYd484.jpg",
+   "tmdb": 7.232
+  }
+ ]
+}

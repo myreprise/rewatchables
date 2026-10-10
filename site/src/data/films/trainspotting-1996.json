@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Chris Ryan",
+   "host": {
+    "name": "Chris Ryan",
+    "id": "chris-ryan"
+   },
    "guests": [
-    "Andy Greenwald"
+    {
+     "name": "Andy Greenwald",
+     "id": "andy-greenwald"
+    }
    ],
    "note": null
   }
@@ -50,169 +56,197 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "friendship",
    "reach": 22,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "friendship"
   },
   {
    "word": "drugs",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "drugs"
   },
   {
    "word": "excited",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "excited"
   },
   {
    "word": "drug dealer",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drug-dealer"
   },
   {
    "word": "dark comedy",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dark-comedy"
   },
   {
    "word": "anti hero",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "anti-hero"
   },
   {
    "word": "nightclub",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nightclub"
   },
   {
    "word": "london, england",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "london-england"
   },
   {
    "word": "addiction",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "addiction"
   },
   {
    "word": "surrealism",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "surrealism"
   },
   {
    "word": "drug abuse",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drug-abuse"
   },
   {
    "word": "drug addiction",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drug-addiction"
   },
   {
    "word": "drug dealing",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drug-dealing"
   },
   {
    "word": "hallucination",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hallucination"
   },
   {
    "word": "heroin",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "heroin"
   },
   {
    "word": "drug rehabilitation",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drug-rehabilitation"
   },
   {
    "word": "illegal drugs",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "illegal-drugs"
   },
   {
    "word": "junkie",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "junkie"
   },
   {
    "word": "scotland",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "scotland"
   },
   {
    "word": "cold turkey",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "drug culture",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "edinburgh, scotland",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "modern society",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "recovering addict",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "schoolgirl",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "social realism",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "stealing",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

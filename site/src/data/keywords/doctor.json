@@ -1,0 +1,141 @@
+{
+ "word": "doctor",
+ "id": "doctor",
+ "catalogue": 460,
+ "share": 0.9,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.3,
+ "vs_catalogue": 0.2,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 3
+  }
+ ],
+ "peak_share": 75.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "disguise",
+   "reach": 4,
+   "band": "b5",
+   "id": "disguise"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "conspiracy",
+   "reach": 13,
+   "band": "b4",
+   "id": "conspiracy"
+  },
+  {
+   "word": "flashback",
+   "reach": 9,
+   "band": "b5",
+   "id": "flashback"
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "archenemy",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "archvillain",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "author",
+   "reach": 4,
+   "band": "b5",
+   "id": "author"
+  },
+  {
+   "word": "baseball",
+   "reach": 10,
+   "band": "b5",
+   "id": "baseball"
+  },
+  {
+   "word": "betrayal",
+   "reach": 9,
+   "band": "b5",
+   "id": "betrayal"
+  },
+  {
+   "word": "biological weapon",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "blunt",
+   "reach": 6,
+   "band": "b5",
+   "id": "blunt"
+  },
+  {
+   "word": "boat chase",
+   "reach": 4,
+   "band": "b5",
+   "id": "boat-chase"
+  },
+  {
+   "word": "bomb",
+   "reach": 6,
+   "band": "b5",
+   "id": "bomb"
+  }
+ ],
+ "films": [
+  {
+   "id": "field-of-dreams-1989",
+   "title": "Field of Dreams",
+   "year": 1989,
+   "poster": "oeM7nAw6FVFICwUaXKCRkDsKjqO.jpg",
+   "tmdb": 7.125
+  },
+  {
+   "id": "the-fugitive-1993",
+   "title": "The Fugitive",
+   "year": 1993,
+   "poster": "b3rEtLKyOnF89mcK75GXDXdmOEf.jpg",
+   "tmdb": 7.486
+  },
+  {
+   "id": "face-off-1997",
+   "title": "Face/Off",
+   "year": 1997,
+   "poster": "69Xzn8UdPbVnmqSChKz2RTpoNfB.jpg",
+   "tmdb": 7.059
+  },
+  {
+   "id": "eyes-wide-shut-1999",
+   "title": "Eyes Wide Shut",
+   "year": 1999,
+   "poster": "knEIz1eNGl5MQDbrEAVWA7iRqF9.jpg",
+   "tmdb": 7.485
+  }
+ ]
+}

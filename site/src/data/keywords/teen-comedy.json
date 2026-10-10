@@ -1,0 +1,184 @@
+{
+ "word": "teen comedy",
+ "id": "teen-comedy",
+ "catalogue": 460,
+ "share": 2.0,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.0,
+ "vs_catalogue": -0.1,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 4
+  },
+  {
+   "decade": 1990,
+   "n": 3
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 44.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "id": "coming-of-age"
+  },
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "id": "high-school"
+  },
+  {
+   "word": "teenager",
+   "reach": 12,
+   "band": "b4",
+   "id": "teenager"
+  },
+  {
+   "word": "hilarious",
+   "reach": 17,
+   "band": "b3",
+   "id": "hilarious"
+  },
+  {
+   "word": "loss of virginity",
+   "reach": 3,
+   "band": "b5",
+   "id": "loss-of-virginity"
+  },
+  {
+   "word": "teen movie",
+   "reach": 7,
+   "band": "b5",
+   "id": "teen-movie"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "comforting",
+   "reach": 8,
+   "band": "b5",
+   "id": "comforting"
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "id": "duringcreditsstinger"
+  },
+  {
+   "word": "high school student",
+   "reach": 4,
+   "band": "b5",
+   "id": "high-school-student"
+  },
+  {
+   "word": "inspirational",
+   "reach": 14,
+   "band": "b4",
+   "id": "inspirational"
+  },
+  {
+   "word": "marijuana",
+   "reach": 10,
+   "band": "b5",
+   "id": "marijuana"
+  },
+  {
+   "word": "teen drama",
+   "reach": 2,
+   "band": "b5",
+   "id": "teen-drama"
+  },
+  {
+   "word": "woman director",
+   "reach": 16,
+   "band": "b4",
+   "id": "woman-director"
+  }
+ ],
+ "films": [
+  {
+   "id": "fast-times-at-ridgemont-high-1982",
+   "title": "Fast Times at Ridgemont High",
+   "year": 1982,
+   "poster": "e15rmfjf0m6EGLe4MnNhwD3Dd1W.jpg",
+   "tmdb": 6.791
+  },
+  {
+   "id": "just-one-of-the-guys-1985",
+   "title": "Just One of the Guys",
+   "year": 1985,
+   "poster": "7ffvsRv8ueYYK0H3zocmNRPd8yN.jpg",
+   "tmdb": 6.424
+  },
+  {
+   "id": "the-breakfast-club-1985",
+   "title": "The Breakfast Club",
+   "year": 1985,
+   "poster": "gp4zlj7wgbiofLMNsTPndMuO3PN.jpg",
+   "tmdb": 7.717
+  },
+  {
+   "id": "cant-buy-me-love-1987",
+   "title": "Can't Buy Me Love",
+   "year": 1987,
+   "poster": "qK3yiqo84U3twOOKOx81c407Hpr.jpg",
+   "tmdb": 6.884
+  },
+  {
+   "id": "dazed-and-confused-1993",
+   "title": "Dazed and Confused",
+   "year": 1993,
+   "poster": "msG9awbLhVZwv1Eh9Ge7SofMexW.jpg",
+   "tmdb": 7.3
+  },
+  {
+   "id": "10-things-i-hate-about-you-1999",
+   "title": "10 Things I Hate About You",
+   "year": 1999,
+   "poster": "ujERk3aKABXU3NDXOAxEQYTHe9A.jpg",
+   "tmdb": 7.597
+  },
+  {
+   "id": "american-pie-1999",
+   "title": "American Pie",
+   "year": 1999,
+   "poster": "5P68by2Thn8wHAziyWGEw2O7hco.jpg",
+   "tmdb": 6.618
+  },
+  {
+   "id": "mean-girls-2004",
+   "title": "Mean Girls",
+   "year": 2004,
+   "poster": "2ZkuQXvVhh45uSvkBej4S7Ix1NJ.jpg",
+   "tmdb": 7.227
+  },
+  {
+   "id": "easy-a-2010",
+   "title": "Easy A",
+   "year": 2010,
+   "poster": "v5f1qO6NJnxWgONgkYg21TW39DT.jpg",
+   "tmdb": 6.803
+  }
+ ]
+}

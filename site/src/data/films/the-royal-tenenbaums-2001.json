@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Chris Ryan",
+   "host": {
+    "name": "Chris Ryan",
+    "id": "chris-ryan"
+   },
    "guests": [
-    "Andy Greenwald"
+    {
+     "name": "Andy Greenwald",
+     "id": "andy-greenwald"
+    }
    ],
    "note": null
   }
@@ -50,49 +56,57 @@
    "word": "dysfunctional family",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dysfunctional-family"
   },
   {
    "word": "hopeful",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hopeful"
   },
   {
    "word": "melancholy",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "melancholy"
   },
   {
    "word": "child prodigy",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "child-prodigy"
   },
   {
    "word": "forgiveness",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "forgiveness"
   },
   {
    "word": "terminal illness",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "terminal-illness"
   },
   {
    "word": "cigarette",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "family conflict",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

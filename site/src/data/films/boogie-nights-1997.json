@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -51,175 +60,204 @@
    "word": "los angeles, california",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "los-angeles-california"
   },
   {
    "word": "coming of age",
    "reach": 24,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "coming-of-age"
   },
   {
    "word": "dramatic",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "dramatic"
   },
   {
    "word": "drugs",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "drugs"
   },
   {
    "word": "admiring",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "admiring"
   },
   {
    "word": "1980s",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "1980s"
   },
   {
    "word": "1970s",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1970s"
   },
   {
    "word": "audacious",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "audacious"
   },
   {
    "word": "husband wife relationship",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "husband-wife-relationship"
   },
   {
    "word": "new year's eve",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "new-years-eve"
   },
   {
    "word": "cocaine",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cocaine"
   },
   {
    "word": "voyeurism",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "voyeurism"
   },
   {
    "word": "adultery",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "adultery"
   },
   {
    "word": "candid",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "candid"
   },
   {
    "word": "melancholy",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "melancholy"
   },
   {
    "word": "robbery",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "robbery"
   },
   {
    "word": "drug abuse",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drug-abuse"
   },
   {
    "word": "pornography",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pornography"
   },
   {
    "word": "curious",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "curious"
   },
   {
    "word": "custody battle",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "custody-battle"
   },
   {
    "word": "disco",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "disco"
   },
   {
    "word": "euphoric",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "euphoric"
   },
   {
    "word": "introspective",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "introspective"
   },
   {
    "word": "mother son relationship",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mother-son-relationship"
   },
   {
    "word": "rags to riches",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rags-to-riches"
   },
   {
    "word": "alter ego",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alter-ego"
   },
   {
    "word": "porn actor",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "porn-actor"
   },
   {
    "word": "porn industry",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "porn-industry"
   },
   {
    "word": "big dick",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Juliet Litman",
-    "Amanda Dobbins"
+    {
+     "name": "Juliet Litman",
+     "id": "juliet-litman"
+    },
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    }
    ],
    "note": "Bill says this is episode #275 at 1hr 6min"
   }
@@ -52,145 +61,169 @@
    "word": "new york city",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "new-york-city"
   },
   {
    "word": "friendship",
    "reach": 22,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "friendship"
   },
   {
    "word": "loss of loved one",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "loss-of-loved-one"
   },
   {
    "word": "parent child relationship",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "parent-child-relationship"
   },
   {
    "word": "woman director",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "woman-director"
   },
   {
    "word": "christmas",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "christmas"
   },
   {
    "word": "journalist",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "journalist"
   },
   {
    "word": "love",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "love"
   },
   {
    "word": "love of one's life",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "love-of-ones-life"
   },
   {
    "word": "adoring",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "adoring"
   },
   {
    "word": "airplane",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "airplane"
   },
   {
    "word": "new year's eve",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "new-years-eve"
   },
   {
    "word": "christmas party",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "christmas-party"
   },
   {
    "word": "seattle, washington",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "seattle-washington"
   },
   {
    "word": "valentine's day",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "valentines-day"
   },
   {
    "word": "lovesickness",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lovesickness"
   },
   {
    "word": "unsociability",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "unsociability"
   },
   {
    "word": "radio",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "radio"
   },
   {
    "word": "radio transmission",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "radio-transmission"
   },
   {
    "word": "baltimore, usa",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "empire state building",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "fiancé",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "radio presenter",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "radio station",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -52,61 +61,71 @@
    "word": "new york city",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "new-york-city"
   },
   {
    "word": "suspenseful",
    "reach": 30,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "suspenseful"
   },
   {
    "word": "heist",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "heist"
   },
   {
    "word": "hostage",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hostage"
   },
   {
    "word": "manhattan, new york city",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "manhattan-new-york-city"
   },
   {
    "word": "police detective",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "police-detective"
   },
   {
    "word": "bank robbery",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bank-robbery"
   },
   {
    "word": "nypd",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nypd"
   },
   {
    "word": "hostage situation",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hostage-situation"
   },
   {
    "word": "ultimatum",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

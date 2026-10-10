@@ -1,0 +1,118 @@
+{
+ "word": "rapper",
+ "id": "rapper",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  },
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "id": "absurd"
+  },
+  {
+   "word": "antagonistic",
+   "reach": 13,
+   "band": "b4",
+   "id": "antagonistic"
+  },
+  {
+   "word": "black american",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bully",
+   "reach": 2,
+   "band": "b5",
+   "id": "bully"
+  },
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "id": "coming-of-age"
+  },
+  {
+   "word": "drug dealer",
+   "reach": 11,
+   "band": "b5",
+   "id": "drug-dealer"
+  },
+  {
+   "word": "drugs",
+   "reach": 17,
+   "band": "b3",
+   "id": "drugs"
+  },
+  {
+   "word": "exuberant",
+   "reach": 3,
+   "band": "b5",
+   "id": "exuberant"
+  },
+  {
+   "word": "gang violence",
+   "reach": 2,
+   "band": "b5",
+   "id": "gang-violence"
+  },
+  {
+   "word": "gangster",
+   "reach": 18,
+   "band": "b3",
+   "id": "gangster"
+  },
+  {
+   "word": "ghetto",
+   "reach": 3,
+   "band": "b5",
+   "id": "ghetto"
+  },
+  {
+   "word": "intense",
+   "reach": 23,
+   "band": "b3",
+   "id": "intense"
+  },
+  {
+   "word": "male friendship",
+   "reach": 9,
+   "band": "b5",
+   "id": "male-friendship"
+  }
+ ],
+ "films": [
+  {
+   "id": "boyz-n-the-hood-1991",
+   "title": "Boyz n the Hood",
+   "year": 1991,
+   "poster": "kaS8BkTZESnkoB5i1zRQ02FIRGk.jpg",
+   "tmdb": 7.638
+  },
+  {
+   "id": "friday-1995",
+   "title": "Friday",
+   "year": 1995,
+   "poster": "3Ya1RurP2NqaYoiok4DmfO41rCC.jpg",
+   "tmdb": 7.148
+  }
+ ]
+}

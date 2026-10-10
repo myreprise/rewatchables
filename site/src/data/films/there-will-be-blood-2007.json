@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -50,223 +59,260 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "california",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "california"
   },
   {
    "word": "alcoholic",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alcoholic"
   },
   {
    "word": "exhilarated",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "exhilarated"
   },
   {
    "word": "money",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "money"
   },
   {
    "word": "commanding",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "commanding"
   },
   {
    "word": "sibling relationship",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sibling-relationship"
   },
   {
    "word": "capitalism",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "capitalism"
   },
   {
    "word": "19th century",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "19th-century"
   },
   {
    "word": "church",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "church"
   },
   {
    "word": "religion",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "religion"
   },
   {
    "word": "father",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "father"
   },
   {
    "word": "greed",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "greed"
   },
   {
    "word": "american dream",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "american-dream"
   },
   {
    "word": "character study",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "character-study"
   },
   {
    "word": "deaf-mute",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "deaf-mute"
   },
   {
    "word": "impostor",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "impostor"
   },
   {
    "word": "misanthrophy",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "misanthrophy"
   },
   {
    "word": "pipeline",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pipeline"
   },
   {
    "word": "sign languages",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sign-languages"
   },
   {
    "word": "1890s",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "1900s",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "20th century",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "adopted son",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "baptism",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "bowling alley",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "child abandonment",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "fanatic",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "narcissism",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "oil",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "oil field",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "oil industry",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "pastor",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "personality change",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "petrol",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "turn of the century",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "zealot",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

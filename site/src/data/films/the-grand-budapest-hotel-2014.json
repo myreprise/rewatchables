@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Chris Ryan",
+   "host": {
+    "name": "Chris Ryan",
+    "id": "chris-ryan"
+   },
    "guests": [
-    "Sean Fennessey",
-    "Andy Greenwald"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Andy Greenwald",
+     "id": "andy-greenwald"
+    }
    ],
    "note": null
   }
@@ -51,97 +60,113 @@
    "word": "hilarious",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "hilarious"
   },
   {
    "word": "1960s",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "1960s"
   },
   {
    "word": "period drama",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "period-drama"
   },
   {
    "word": "gunfight",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gunfight"
   },
   {
    "word": "1930s",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1930s"
   },
   {
    "word": "mentor protégé relationship",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mentor-protege-relationship"
   },
   {
    "word": "theft",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "theft"
   },
   {
    "word": "author",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "author"
   },
   {
    "word": "hotel",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hotel"
   },
   {
    "word": "painting",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "painting"
   },
   {
    "word": "bellhop  ",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "eastern europe",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "european",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "hotel lobby",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "renaissance painting",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "wartime",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

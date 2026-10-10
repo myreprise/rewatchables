@@ -1,0 +1,118 @@
+{
+ "word": "neurotic",
+ "id": "neurotic",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "art gallery",
+   "reach": 3,
+   "band": "b5",
+   "id": "art-gallery"
+  },
+  {
+   "word": "bagpipe",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "beach",
+   "reach": 3,
+   "band": "b5",
+   "id": "beach"
+  },
+  {
+   "word": "bride",
+   "reach": 3,
+   "band": "b5",
+   "id": "bride"
+  },
+  {
+   "word": "caribbean sea",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "chance",
+   "reach": 2,
+   "band": "b5",
+   "id": "chance"
+  },
+  {
+   "word": "chance meeting",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "commitment",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dance class",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dance club",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "ferret",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "honeymoon",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "insurance risk manager",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "broadcast-news-1987",
+   "title": "Broadcast News",
+   "year": 1987,
+   "poster": "kQNR1Lc0qAF5xuBySpDn481KVjb.jpg",
+   "tmdb": 6.782
+  },
+  {
+   "id": "along-came-polly-2004",
+   "title": "Along Came Polly",
+   "year": 2004,
+   "poster": "7Tp16THdpHkMrqgoiDresDz9CWL.jpg",
+   "tmdb": 6.031
+  }
+ ]
+}

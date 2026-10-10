@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Juliet Litman",
-    "Amanda Dobbins"
+    {
+     "name": "Juliet Litman",
+     "id": "juliet-litman"
+    },
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    }
    ],
    "note": null
   }
@@ -51,151 +60,176 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "coming of age",
    "reach": 24,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "coming-of-age"
   },
   {
    "word": "teenager",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "teenager"
   },
   {
    "word": "audacious",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "audacious"
   },
   {
    "word": "teen comedy",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "teen-comedy"
   },
   {
    "word": "best friend",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "best-friend"
   },
   {
    "word": "fish out of water",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fish-out-of-water"
   },
   {
    "word": "bullying",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bullying"
   },
   {
    "word": "female friendship",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "female-friendship"
   },
   {
    "word": "clique",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "clique"
   },
   {
    "word": "gossip",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gossip"
   },
   {
    "word": "illinois",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "illinois"
   },
   {
    "word": "math genius",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "math-genius"
   },
   {
    "word": "prom",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "prom"
   },
   {
    "word": "public humiliation",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "public-humiliation"
   },
   {
    "word": "teenage life",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "teenage-life"
   },
   {
    "word": "exploitation of friendship",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "female bully",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "former best friend",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "high school rivalry",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "manipulative friend",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "math teacher",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "new girl at school",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "teenage friendship",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "teenage girl",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -1,0 +1,142 @@
+{
+ "word": "wealth",
+ "id": "wealth",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 6.9,
+ "vs_catalogue": -0.2,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 33.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "jealousy",
+   "reach": 7,
+   "band": "b5",
+   "id": "jealousy"
+  },
+  {
+   "word": "shocking",
+   "reach": 7,
+   "band": "b5",
+   "id": "shocking"
+  },
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "id": "admiring"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "atlantic ocean",
+   "reach": 3,
+   "band": "b5",
+   "id": "atlantic-ocean"
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "beguilement",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "best friend",
+   "reach": 6,
+   "band": "b5",
+   "id": "best-friend"
+  },
+  {
+   "word": "boxer",
+   "reach": 5,
+   "band": "b5",
+   "id": "boxer"
+  },
+  {
+   "word": "boxing",
+   "reach": 6,
+   "band": "b5",
+   "id": "boxing"
+  },
+  {
+   "word": "bridesmaid",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "casual sex",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "challenger",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "rocky-iii-1982",
+   "title": "Rocky III",
+   "year": 1982,
+   "poster": "uqw16i2kmwVqkJHzjzbDU4xZ0Pl.jpg",
+   "tmdb": 6.907
+  },
+  {
+   "id": "the-talented-mr-ripley-1999",
+   "title": "The Talented Mr. Ripley",
+   "year": 1999,
+   "poster": "6ojHgqtIR41O2qLKa7LFUVj0cZa.jpg",
+   "tmdb": 7.197
+  },
+  {
+   "id": "bridesmaids-2011",
+   "title": "Bridesmaids",
+   "year": 2011,
+   "poster": "gJtA7hYsBMQ7EM3sPBMUdBfU7a0.jpg",
+   "tmdb": 6.509
+  }
+ ]
+}

@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -51,97 +60,113 @@
    "word": "aftercreditsstinger",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "aftercreditsstinger"
   },
   {
    "word": "supernatural horror",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "supernatural-horror"
   },
   {
    "word": "supernatural",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "supernatural"
   },
   {
    "word": "demon",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "demon"
   },
   {
    "word": "haunted house",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "haunted-house"
   },
   {
    "word": "distressing",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "distressing"
   },
   {
    "word": "horrified",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "horrified"
   },
   {
    "word": "evil spirit",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "evil-spirit"
   },
   {
    "word": "medium",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "medium"
   },
   {
    "word": "possessed child",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "possessed-child"
   },
   {
    "word": "supernatural power",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "supernatural-power"
   },
   {
    "word": "horror",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "house warming",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "insidious",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "new home",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "other dimension",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

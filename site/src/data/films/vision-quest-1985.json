@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Ryen Russillo"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Ryen Russillo",
+     "id": "ryen-russillo"
+    }
    ],
    "note": "Bill calls this 'episode 2' of the 'Flawed Rewatchables' (contributed by u/Randy_Marsh55)"
   }
@@ -51,73 +60,85 @@
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "high school",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "high-school"
   },
   {
    "word": "coming of age",
    "reach": 24,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "coming-of-age"
   },
   {
    "word": "love",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "love"
   },
   {
    "word": "coach",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "coach"
   },
   {
    "word": "melodramatic",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "melodramatic"
   },
   {
    "word": "wrestling",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "wrestling"
   },
   {
    "word": "pizza",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pizza"
   },
   {
    "word": "brief",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "homoerotic",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "wrestler",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "wrestling team",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Sean Fennessey",
+   "host": {
+    "name": "Sean Fennessey",
+    "id": "sean-fennessey"
+   },
    "guests": [
-    "Andrew Gruttadaro",
-    "Jason Gallagher"
+    {
+     "name": "Andrew Gruttadaro",
+     "id": "andrew-gruttadaro"
+    },
+    {
+     "name": "Jason Gallagher",
+     "id": "jason-gallagher"
+    }
    ],
    "note": "1999 series (Luminary)"
   }
@@ -50,97 +59,113 @@
    "word": "duringcreditsstinger",
    "reach": 27,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "duringcreditsstinger"
   },
   {
    "word": "satire",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "satire"
   },
   {
    "word": "waitress",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "waitress"
   },
   {
    "word": "co-workers relationship",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "co-workers-relationship"
   },
   {
    "word": "suburbia",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "suburbia"
   },
   {
    "word": "bad boss",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bad-boss"
   },
   {
    "word": "corporate world",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "corporate-world"
   },
   {
    "word": "downsizing",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "downsizing"
   },
   {
    "word": "burnout",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "business rivalry",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "dallas, texas",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "embezzlement",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "printer",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "software engineer",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "stapler",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "work",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

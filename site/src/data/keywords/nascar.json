@@ -1,0 +1,118 @@
+{
+ "word": "nascar",
+ "id": "nascar",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "race car driver",
+   "reach": 3,
+   "band": "b5",
+   "id": "race-car-driver"
+  },
+  {
+   "word": "advertising",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "aftercreditsstinger",
+   "reach": 18,
+   "band": "b3",
+   "id": "aftercreditsstinger"
+  },
+  {
+   "word": "best friend",
+   "reach": 6,
+   "band": "b5",
+   "id": "best-friend"
+  },
+  {
+   "word": "betrayal",
+   "reach": 9,
+   "band": "b5",
+   "id": "betrayal"
+  },
+  {
+   "word": "car crash",
+   "reach": 6,
+   "band": "b5",
+   "id": "car-crash"
+  },
+  {
+   "word": "car race",
+   "reach": 6,
+   "band": "b5",
+   "id": "car-race"
+  },
+  {
+   "word": "crash",
+   "reach": 2,
+   "band": "b5",
+   "id": "crash"
+  },
+  {
+   "word": "daytona",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "divorce",
+   "reach": 5,
+   "band": "b5",
+   "id": "divorce"
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "id": "duringcreditsstinger"
+  },
+  {
+   "word": "estranged father",
+   "reach": 2,
+   "band": "b5",
+   "id": "estranged-father"
+  },
+  {
+   "word": "face your fear",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "family dinner",
+   "reach": 2,
+   "band": "b5",
+   "id": "family-dinner"
+  }
+ ],
+ "films": [
+  {
+   "id": "days-of-thunder-1990",
+   "title": "Days of Thunder",
+   "year": 1990,
+   "poster": "8UvcoeMJag8UWGF8sg7eYspzq0Q.jpg",
+   "tmdb": 6.393
+  },
+  {
+   "id": "talladega-nights-the-ballad-of-ricky-bobby-2006",
+   "title": "Talladega Nights: The Ballad of Ricky Bobby",
+   "year": 2006,
+   "poster": "3iCiTqsmJz1mO85AHzTiHNkRmb6.jpg",
+   "tmdb": 6.381
+  }
+ ]
+}

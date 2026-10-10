@@ -1,0 +1,173 @@
+{
+ "word": "assassin",
+ "id": "assassin",
+ "catalogue": 460,
+ "share": 1.7,
+ "thin": false,
+ "peak": 2000,
+ "avg_tmdb": 7.2,
+ "vs_catalogue": 0.1,
+ "decades": [
+  {
+   "decade": 1990,
+   "n": 2
+  },
+  {
+   "decade": 2000,
+   "n": 3
+  },
+  {
+   "decade": 2010,
+   "n": 3
+  }
+ ],
+ "peak_share": 38.0,
+ "catalogue_peak_share": 17.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "bomb",
+   "reach": 6,
+   "band": "b5",
+   "id": "bomb"
+  },
+  {
+   "word": "corruption",
+   "reach": 12,
+   "band": "b4",
+   "id": "corruption"
+  },
+  {
+   "word": "hand to hand combat",
+   "reach": 5,
+   "band": "b5",
+   "id": "hand-to-hand-combat"
+  },
+  {
+   "word": "hitman",
+   "reach": 7,
+   "band": "b5",
+   "id": "hitman"
+  },
+  {
+   "word": "revenge",
+   "reach": 31,
+   "band": "b2",
+   "id": "revenge"
+  },
+  {
+   "word": "central intelligence agency (cia)",
+   "reach": 8,
+   "band": "b5",
+   "id": "central-intelligence-agency-cia"
+  },
+  {
+   "word": "cynicism",
+   "reach": 2,
+   "band": "b5",
+   "id": "cynicism"
+  },
+  {
+   "word": "dysfunctional marriage",
+   "reach": 2,
+   "band": "b5",
+   "id": "dysfunctional-marriage"
+  },
+  {
+   "word": "fbi",
+   "reach": 20,
+   "band": "b3",
+   "id": "fbi"
+  },
+  {
+   "word": "gore",
+   "reach": 3,
+   "band": "b5",
+   "id": "gore"
+  },
+  {
+   "word": "intense",
+   "reach": 23,
+   "band": "b3",
+   "id": "intense"
+  },
+  {
+   "word": "interrogation",
+   "reach": 3,
+   "band": "b5",
+   "id": "interrogation"
+  },
+  {
+   "word": "neo-noir",
+   "reach": 29,
+   "band": "b2",
+   "id": "neo-noir"
+  },
+  {
+   "word": "secret identity",
+   "reach": 7,
+   "band": "b5",
+   "id": "secret-identity"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-last-boy-scout-1991",
+   "title": "The Last Boy Scout",
+   "year": 1991,
+   "poster": "glPswihcZYoAQ4YM2uJF4UACy8T.jpg",
+   "tmdb": 6.843
+  },
+  {
+   "id": "in-the-line-of-fire-1993",
+   "title": "In the Line of Fire",
+   "year": 1993,
+   "poster": "3NvOFpmyECI3DNExYMtFIRcGMsu.jpg",
+   "tmdb": 6.974
+  },
+  {
+   "id": "the-bourne-identity-2002",
+   "title": "The Bourne Identity",
+   "year": 2002,
+   "poster": "aP8swke3gmowbkfZ6lmNidu0y9p.jpg",
+   "tmdb": 7.485
+  },
+  {
+   "id": "mr-and-mrs-smith-2005",
+   "title": "Mr. & Mrs. Smith",
+   "year": 2005,
+   "poster": "kjD700RtyhveN3ZbOnSvUSne0Qj.jpg",
+   "tmdb": 6.694
+  },
+  {
+   "id": "law-abiding-citizen-2009",
+   "title": "Law Abiding Citizen",
+   "year": 2009,
+   "poster": "fcEXcip7v0O1ndV4VUdFqJSqbOg.jpg",
+   "tmdb": 7.395
+  },
+  {
+   "id": "the-equalizer-2014",
+   "title": "The Equalizer",
+   "year": 2014,
+   "poster": "9u4yW7yPA0BQ2pv9XwiNzItwvp8.jpg",
+   "tmdb": 7.292
+  },
+  {
+   "id": "sicario-2015",
+   "title": "Sicario",
+   "year": 2015,
+   "poster": "lz8vNyXeidqqOdJW9ZjnDAMb5Vr.jpg",
+   "tmdb": 7.427
+  },
+  {
+   "id": "john-wick-chapter-2-2017",
+   "title": "John Wick: Chapter 2",
+   "year": 2017,
+   "poster": "hXWBc0ioZP3cN4zCu6SN3YHXZVO.jpg",
+   "tmdb": 7.345
+  }
+ ]
+}

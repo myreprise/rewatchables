@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Craig Horlbeck"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Craig Horlbeck",
+     "id": "craig-horlbeck"
+    }
    ],
    "note": null
   }
@@ -51,169 +60,197 @@
    "word": "amused",
    "reach": 26,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "amused"
   },
   {
    "word": "friendship",
    "reach": 22,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "friendship"
   },
   {
    "word": "drugs",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "drugs"
   },
   {
    "word": "dark comedy",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dark-comedy"
   },
   {
    "word": "satire",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "satire"
   },
   {
    "word": "creature",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "creature"
   },
   {
    "word": "disturbed",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "disturbed"
   },
   {
    "word": "friends",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "friends"
   },
   {
    "word": "macabre",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "macabre"
   },
   {
    "word": "mischievous",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mischievous"
   },
   {
    "word": "dreary",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dreary"
   },
   {
    "word": "possession",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "possession"
   },
   {
    "word": "celebrity",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "celebrity"
   },
   {
    "word": "house party",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "house-party"
   },
   {
    "word": "demon",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "demon"
   },
   {
    "word": "hollywood",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hollywood"
   },
   {
    "word": "end of the world",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "end-of-the-world"
   },
   {
    "word": "exorcism",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "exorcism"
   },
   {
    "word": "painting",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "painting"
   },
   {
    "word": "claustrophobic",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "claustrophobic"
   },
   {
    "word": "frantic",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "frantic"
   },
   {
    "word": "panic",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "panic"
   },
   {
    "word": "self-referential",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "self-referential"
   },
   {
    "word": "apocalypse",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "biblical",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "end",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "monster",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "other worldly",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

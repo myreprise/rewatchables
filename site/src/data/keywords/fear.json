@@ -1,0 +1,138 @@
+{
+ "word": "fear",
+ "id": "fear",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.0,
+ "vs_catalogue": -0.1,
+ "decades": [
+  {
+   "decade": 1990,
+   "n": 2
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 67.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "evil",
+   "reach": 5,
+   "band": "b5",
+   "id": "evil"
+  },
+  {
+   "word": "supernatural",
+   "reach": 5,
+   "band": "b5",
+   "id": "supernatural"
+  },
+  {
+   "word": "ambiguous",
+   "reach": 9,
+   "band": "b5",
+   "id": "ambiguous"
+  },
+  {
+   "word": "attic",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "camping",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "child abuse",
+   "reach": 6,
+   "band": "b5",
+   "id": "child-abuse"
+  },
+  {
+   "word": "cigar smoking",
+   "reach": 2,
+   "band": "b5",
+   "id": "cigar-smoking"
+  },
+  {
+   "word": "commanding",
+   "reach": 7,
+   "band": "b5",
+   "id": "commanding"
+  },
+  {
+   "word": "coven (akelarre)",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "daughter",
+   "reach": 10,
+   "band": "b5",
+   "id": "daughter"
+  },
+  {
+   "word": "demon",
+   "reach": 4,
+   "band": "b5",
+   "id": "demon"
+  },
+  {
+   "word": "demonic possession",
+   "reach": 2,
+   "band": "b5",
+   "id": "demonic-possession"
+  },
+  {
+   "word": "depressing",
+   "reach": 2,
+   "band": "b5",
+   "id": "depressing"
+  },
+  {
+   "word": "didactic",
+   "reach": 2,
+   "band": "b5",
+   "id": "didactic"
+  }
+ ],
+ "films": [
+  {
+   "id": "cape-fear-1991",
+   "title": "Cape Fear",
+   "year": 1991,
+   "poster": "meJZAAuVcjic2ipvbOPz5UlE4P9.jpg",
+   "tmdb": 7.26
+  },
+  {
+   "id": "the-blair-witch-project-1999",
+   "title": "The Blair Witch Project",
+   "year": 1999,
+   "poster": "9050VGrYjYrEjpOvDZVAngLbg1f.jpg",
+   "tmdb": 6.37
+  },
+  {
+   "id": "hereditary-2018",
+   "title": "Hereditary",
+   "year": 2018,
+   "poster": "4GFPuL14eXi66V96xBWY73Y9PfR.jpg",
+   "tmdb": 7.3
+  }
+ ]
+}

@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -51,127 +60,148 @@
    "word": "sequel",
    "reach": 28,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "sequel"
   },
   {
    "word": "dying and death",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "dying-and-death"
   },
   {
    "word": "creature",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "creature"
   },
   {
    "word": "rescue",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rescue"
   },
   {
    "word": "animal horror",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "animal-horror"
   },
   {
    "word": "police chief",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "police-chief"
   },
   {
    "word": "sailing",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sailing"
   },
   {
    "word": "shark",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "shark"
   },
   {
    "word": "animal attack",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "animal-attack"
   },
   {
    "word": "great white shark",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "great-white-shark"
   },
   {
    "word": "island",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "island"
   },
   {
    "word": "panic",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "panic"
   },
   {
    "word": "scuba diving",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "scuba-diving"
   },
   {
    "word": "shark attack",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "shark-attack"
   },
   {
    "word": "boat accident",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "current",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "high-tension current",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "killer whale",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mayor",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "tourism",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "water skiing",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

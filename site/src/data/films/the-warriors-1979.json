@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Sean Fennessey",
-    "Shea Serrano"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Shea Serrano",
+     "id": "shea-serrano"
+    }
    ],
    "note": null
   }
@@ -51,91 +60,106 @@
    "word": "new york city",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "new-york-city"
   },
   {
    "word": "intense",
    "reach": 23,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "intense"
   },
   {
    "word": "gangster",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "gangster"
   },
   {
    "word": "survival",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "survival"
   },
   {
    "word": "street gang",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "street-gang"
   },
   {
    "word": "violence",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "violence"
   },
   {
    "word": "framed for murder",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "framed-for-murder"
   },
   {
    "word": "disc jockey",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "disc-jockey"
   },
   {
    "word": "gang member",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gang-member"
   },
   {
    "word": "girl gang",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "girl-gang"
   },
   {
    "word": "warrior",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "warrior"
   },
   {
    "word": "coney island",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "gang war",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "new york subway",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "pursuit",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

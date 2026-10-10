@@ -1,0 +1,141 @@
+{
+ "word": "con artist",
+ "id": "con-artist",
+ "catalogue": 460,
+ "share": 0.9,
+ "thin": false,
+ "peak": 2000,
+ "avg_tmdb": 7.6,
+ "vs_catalogue": 0.5,
+ "decades": [
+  {
+   "decade": 2000,
+   "n": 2
+  },
+  {
+   "decade": 2010,
+   "n": 2
+  }
+ ],
+ "peak_share": 50.0,
+ "catalogue_peak_share": 17.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "con man",
+   "reach": 5,
+   "band": "b5",
+   "id": "con-man"
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "biography",
+   "reach": 10,
+   "band": "b5",
+   "id": "biography"
+  },
+  {
+   "word": "1980s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1980s"
+  },
+  {
+   "word": "anti hero",
+   "reach": 8,
+   "band": "b5",
+   "id": "anti-hero"
+  },
+  {
+   "word": "assertive",
+   "reach": 9,
+   "band": "b5",
+   "id": "assertive"
+  },
+  {
+   "word": "attempted jailbreak",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bank fraud",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "based on real person",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "black monday",
+   "reach": 2,
+   "band": "b5",
+   "id": "black-monday"
+  },
+  {
+   "word": "caper",
+   "reach": 4,
+   "band": "b5",
+   "id": "caper"
+  },
+  {
+   "word": "card dealer",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "casino",
+   "reach": 5,
+   "band": "b5",
+   "id": "casino"
+  }
+ ],
+ "films": [
+  {
+   "id": "oceans-eleven-2001",
+   "title": "Ocean's Eleven",
+   "year": 2001,
+   "poster": "hQQCdZrsHtZyR6NbKH2YyCqd2fR.jpg",
+   "tmdb": 7.466
+  },
+  {
+   "id": "catch-me-if-you-can-2002",
+   "title": "Catch Me If You Can",
+   "year": 2002,
+   "poster": "ctjEj2xM32OvBXCq8zAdK3ZrsAj.jpg",
+   "tmdb": 7.978
+  },
+  {
+   "id": "the-wolf-of-wall-street-2013",
+   "title": "The Wolf of Wall Street",
+   "year": 2013,
+   "poster": "kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg",
+   "tmdb": 8.027
+  },
+  {
+   "id": "focus-2015",
+   "title": "Focus",
+   "year": 2015,
+   "poster": "lOzGWjceYTd0kd5HyX7Ch46O9kh.jpg",
+   "tmdb": 6.87
+  }
+ ]
+}

@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Sean Fennessey",
-    "Amanda Dobbins"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    }
    ],
    "note": null
   }
@@ -52,151 +61,176 @@
    "word": "admiring",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "admiring"
   },
   {
    "word": "remake",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "remake"
   },
   {
    "word": "romantic",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "romantic"
   },
   {
    "word": "alcoholic",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alcoholic"
   },
   {
    "word": "alcoholism",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alcoholism"
   },
   {
    "word": "singer",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "singer"
   },
   {
    "word": "addiction",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "addiction"
   },
   {
    "word": "celebrity",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "celebrity"
   },
   {
    "word": "falling in love",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "falling-in-love"
   },
   {
    "word": "fame",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fame"
   },
   {
    "word": "waitress",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "waitress"
   },
   {
    "word": "country music",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "country-music"
   },
   {
    "word": "pop star",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pop-star"
   },
   {
    "word": "self-destruction",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "self-destruction"
   },
   {
    "word": "talent",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "talent"
   },
   {
    "word": "aspiring singer",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "aspiring-singer"
   },
   {
    "word": "concert",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "concert"
   },
   {
    "word": "insecurity",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "insecurity"
   },
   {
    "word": "country singer",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "emotional vulnerability",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "fading star",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "hearing impaired",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "show business",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "struggling musician",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "tinnitus",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

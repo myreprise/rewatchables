@@ -1,0 +1,174 @@
+{
+ "word": "vigilante",
+ "id": "vigilante",
+ "catalogue": 460,
+ "share": 1.5,
+ "thin": false,
+ "peak": 1970,
+ "avg_tmdb": 7.2,
+ "vs_catalogue": 0.1,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 2
+  },
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 2
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 29.0,
+ "catalogue_peak_share": 7.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "organized crime",
+   "reach": 15,
+   "band": "b4",
+   "id": "organized-crime"
+  },
+  {
+   "word": "revenge",
+   "reach": 31,
+   "band": "b2",
+   "id": "revenge"
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "one against many",
+   "reach": 5,
+   "band": "b5",
+   "id": "one-against-many"
+  },
+  {
+   "word": "one man army",
+   "reach": 4,
+   "band": "b5",
+   "id": "one-man-army"
+  },
+  {
+   "word": "vigilante justice",
+   "reach": 5,
+   "band": "b5",
+   "id": "vigilante-justice"
+  },
+  {
+   "word": "anti hero",
+   "reach": 8,
+   "band": "b5",
+   "id": "anti-hero"
+  },
+  {
+   "word": "based on comic",
+   "reach": 5,
+   "band": "b5",
+   "id": "based-on-comic"
+  },
+  {
+   "word": "callous",
+   "reach": 5,
+   "band": "b5",
+   "id": "callous"
+  },
+  {
+   "word": "cautionary",
+   "reach": 6,
+   "band": "b5",
+   "id": "cautionary"
+  },
+  {
+   "word": "corruption",
+   "reach": 12,
+   "band": "b4",
+   "id": "corruption"
+  },
+  {
+   "word": "crime fighter",
+   "reach": 4,
+   "band": "b5",
+   "id": "crime-fighter"
+  },
+  {
+   "word": "gangster",
+   "reach": 18,
+   "band": "b3",
+   "id": "gangster"
+  },
+  {
+   "word": "hospital",
+   "reach": 7,
+   "band": "b5",
+   "id": "hospital"
+  }
+ ],
+ "films": [
+  {
+   "id": "death-wish-1974",
+   "title": "Death Wish",
+   "year": 1974,
+   "poster": "rNksI6UiuTgLtBy69WvKT1PrG0R.jpg",
+   "tmdb": 6.931
+  },
+  {
+   "id": "taxi-driver-1976",
+   "title": "Taxi Driver",
+   "year": 1976,
+   "poster": "ekstpH614fwDX8DUln1a2Opz0N8.jpg",
+   "tmdb": 8.1
+  },
+  {
+   "id": "batman-1989",
+   "title": "Batman",
+   "year": 1989,
+   "poster": "cij4dd21v2Rk2YtUQbV5kW69WB2.jpg",
+   "tmdb": 7.233
+  },
+  {
+   "id": "hard-to-kill-1990",
+   "title": "Hard to Kill",
+   "year": 1990,
+   "poster": "nmtMNxslljllSTVtt7VIOXdxSZp.jpg",
+   "tmdb": 5.996
+  },
+  {
+   "id": "out-for-justice-1991",
+   "title": "Out for Justice",
+   "year": 1991,
+   "poster": "nmfM1diysOyrX4JbvwS7uOomyes.jpg",
+   "tmdb": 6.182
+  },
+  {
+   "id": "the-dark-knight-2008",
+   "title": "The Dark Knight",
+   "year": 2008,
+   "poster": "qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+   "tmdb": 8.534
+  },
+  {
+   "id": "the-equalizer-2014",
+   "title": "The Equalizer",
+   "year": 2014,
+   "poster": "9u4yW7yPA0BQ2pv9XwiNzItwvp8.jpg",
+   "tmdb": 7.292
+  }
+ ]
+}

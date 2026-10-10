@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Shea Serrano"
+    {
+     "name": "Shea Serrano",
+     "id": "shea-serrano"
+    }
    ],
    "note": null
   }
@@ -51,121 +57,141 @@
    "word": "sequel",
    "reach": 28,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "sequel"
   },
   {
    "word": "duringcreditsstinger",
    "reach": 27,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "duringcreditsstinger"
   },
   {
    "word": "intense",
    "reach": 23,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "intense"
   },
   {
    "word": "fbi",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "fbi"
   },
   {
    "word": "heist",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "heist"
   },
   {
    "word": "organized crime",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "organized-crime"
   },
   {
    "word": "on the run",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "on-the-run"
   },
   {
    "word": "exhilarated",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "exhilarated"
   },
   {
    "word": "money",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "money"
   },
   {
    "word": "car race",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "car-race"
   },
   {
    "word": "prison escape",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "prison-escape"
   },
   {
    "word": "freedom",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "freedom"
   },
   {
    "word": "fugitive",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fugitive"
   },
   {
    "word": "cars",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cars"
   },
   {
    "word": "exuberant",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "exuberant"
   },
   {
    "word": "frustrated",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "frustrated"
   },
   {
    "word": "police chase",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "police-chase"
   },
   {
    "word": "street race",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "street-race"
   },
   {
    "word": "farcical",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "farcical"
   },
   {
    "word": "escaped convict",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

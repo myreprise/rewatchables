@@ -1,0 +1,118 @@
+{
+ "word": "kiss",
+ "id": "kiss",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "chicago, illinois",
+   "reach": 19,
+   "band": "b3",
+   "id": "chicago-illinois"
+  },
+  {
+   "word": "crime fighter",
+   "reach": 4,
+   "band": "b5",
+   "id": "crime-fighter"
+  },
+  {
+   "word": "drug dealer",
+   "reach": 11,
+   "band": "b5",
+   "id": "drug-dealer"
+  },
+  {
+   "word": "dying and death",
+   "reach": 13,
+   "band": "b4",
+   "id": "dying-and-death"
+  },
+  {
+   "word": "editor",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "education",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "entrapment",
+   "reach": 2,
+   "band": "b5",
+   "id": "entrapment"
+  },
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "id": "high-school"
+  },
+  {
+   "word": "humiliation",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "journalist",
+   "reach": 12,
+   "band": "b4",
+   "id": "journalist"
+  },
+  {
+   "word": "kindergarten",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "lighthearted",
+   "reach": 9,
+   "band": "b5",
+   "id": "lighthearted"
+  },
+  {
+   "word": "love",
+   "reach": 11,
+   "band": "b5",
+   "id": "love"
+  },
+  {
+   "word": "nerd",
+   "reach": 6,
+   "band": "b5",
+   "id": "nerd"
+  }
+ ],
+ "films": [
+  {
+   "id": "kindergarten-cop-1990",
+   "title": "Kindergarten Cop",
+   "year": 1990,
+   "poster": "nKnHWwkXyvhzCYWm3FyRAv3qBrl.jpg",
+   "tmdb": 6.135
+  },
+  {
+   "id": "never-been-kissed-1999",
+   "title": "Never Been Kissed",
+   "year": 1999,
+   "poster": "6BngDhDNfbBjhVFWDT2yMve32vi.jpg",
+   "tmdb": 6.161
+  }
+ ]
+}

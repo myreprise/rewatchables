@@ -1,0 +1,174 @@
+{
+ "word": "fight",
+ "id": "fight",
+ "catalogue": 460,
+ "share": 1.5,
+ "thin": false,
+ "peak": 1970,
+ "avg_tmdb": 7.4,
+ "vs_catalogue": 0.3,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 2
+  },
+  {
+   "decade": 1980,
+   "n": 2
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 29.0,
+ "catalogue_peak_share": 7.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "hopeful",
+   "reach": 5,
+   "band": "b5",
+   "id": "hopeful"
+  },
+  {
+   "word": "inspirational",
+   "reach": 14,
+   "band": "b4",
+   "id": "inspirational"
+  },
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  },
+  {
+   "word": "love of one's life",
+   "reach": 11,
+   "band": "b5",
+   "id": "love-of-ones-life"
+  },
+  {
+   "word": "alter ego",
+   "reach": 2,
+   "band": "b5",
+   "id": "alter-ego"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "anti hero",
+   "reach": 8,
+   "band": "b5",
+   "id": "anti-hero"
+  },
+  {
+   "word": "architect",
+   "reach": 2,
+   "band": "b5",
+   "id": "architect"
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  },
+  {
+   "word": "beaten",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "best friend",
+   "reach": 6,
+   "band": "b5",
+   "id": "best-friend"
+  },
+  {
+   "word": "boxer",
+   "reach": 5,
+   "band": "b5",
+   "id": "boxer"
+  }
+ ],
+ "films": [
+  {
+   "id": "death-wish-1974",
+   "title": "Death Wish",
+   "year": 1974,
+   "poster": "rNksI6UiuTgLtBy69WvKT1PrG0R.jpg",
+   "tmdb": 6.931
+  },
+  {
+   "id": "rocky-1976",
+   "title": "Rocky",
+   "year": 1976,
+   "poster": "xSI0dbKLDETwhiVUy6hGE8KXUln.jpg",
+   "tmdb": 7.8
+  },
+  {
+   "id": "the-karate-kid-1984",
+   "title": "The Karate Kid",
+   "year": 1984,
+   "poster": "1mp4ViklKvA0WXXsNvNx0RBuiit.jpg",
+   "tmdb": 7.23
+  },
+  {
+   "id": "commando-1985",
+   "title": "Commando",
+   "year": 1985,
+   "poster": "ollPAAAgZ7euU8VisfqU3cuXhZ6.jpg",
+   "tmdb": 6.712
+  },
+  {
+   "id": "fight-club-1999",
+   "title": "Fight Club",
+   "year": 1999,
+   "poster": "jSziioSwPVrOy9Yow3XhWIBDjq1.jpg",
+   "tmdb": 8.437
+  },
+  {
+   "id": "the-notebook-2004",
+   "title": "The Notebook",
+   "year": 2004,
+   "poster": "rNzQyW4f8B8cQeg7Dgj3n6eT5k9.jpg",
+   "tmdb": 7.89
+  },
+  {
+   "id": "bridesmaids-2011",
+   "title": "Bridesmaids",
+   "year": 2011,
+   "poster": "gJtA7hYsBMQ7EM3sPBMUdBfU7a0.jpg",
+   "tmdb": 6.509
+  }
+ ]
+}

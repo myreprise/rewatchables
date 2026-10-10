@@ -1,0 +1,214 @@
+{
+ "name": "Jason Concepcion",
+ "id": "jason-concepcion",
+ "episodes": 19,
+ "share": 0.039,
+ "hosted": 1,
+ "first": "2017-08-24",
+ "last": "2024-09-10",
+ "shelf": [
+  {
+   "id": "the-sixth-sense-1999",
+   "title": "The Sixth Sense",
+   "year": 1999,
+   "poster": "vOyfUXNFSnaTk7Vk5AjpsKTUWsu.jpg",
+   "episode": 80,
+   "aired": "2024-09-10"
+  },
+  {
+   "id": "armageddon-1998",
+   "title": "Armageddon",
+   "year": 1998,
+   "poster": "eTM3qtGhDU8cvjpoa6KEt5E2auU.jpg",
+   "episode": 142,
+   "aired": "2020-05-21"
+  },
+  {
+   "id": "gladiator-2000",
+   "title": "Gladiator",
+   "year": 2000,
+   "poster": "wN2xWp1eIwCKOD0BHTcErTBv1Uq.jpg",
+   "episode": 137,
+   "aired": "2020-05-05"
+  },
+  {
+   "id": "total-recall-1990",
+   "title": "Total Recall",
+   "year": 1990,
+   "poster": "wVbeL6fkbTKSmNfalj4VoAUUqJv.jpg",
+   "episode": 129,
+   "aired": "2020-04-07"
+  },
+  {
+   "id": "bloodsport-1988",
+   "title": "Bloodsport",
+   "year": 1988,
+   "poster": "kndxR9TRK0kJ5hxzDprRSS80F2W.jpg",
+   "episode": 90,
+   "aired": "2019-08-08"
+  },
+  {
+   "id": "top-gun-1986",
+   "title": "Top Gun",
+   "year": 1986,
+   "poster": "xUuHj3CgmZQ9P2cMaqQs4J0d4Zc.jpg",
+   "episode": 86,
+   "aired": "2019-07-23"
+  },
+  {
+   "id": "the-matrix-1999",
+   "title": "The Matrix",
+   "year": 1999,
+   "poster": "dXNAPwY7VrqMAo51EKhhCJfaGb5.jpg",
+   "episode": 81,
+   "aired": "2019-06-20"
+  },
+  {
+   "id": "the-sixth-sense-1999",
+   "title": "The Sixth Sense",
+   "year": 1999,
+   "poster": "vOyfUXNFSnaTk7Vk5AjpsKTUWsu.jpg",
+   "episode": 80,
+   "aired": "2019-06-13"
+  },
+  {
+   "id": "mad-max-fury-road-2015",
+   "title": "Mad Max: Fury Road",
+   "year": 2015,
+   "poster": "ulcAi4dKpAjHwYGS08vNyx9H6I9.jpg",
+   "episode": 45,
+   "aired": "2018-08-23"
+  },
+  {
+   "id": "die-hard-1988",
+   "title": "Die Hard",
+   "year": 1988,
+   "poster": "7Bjd8kfmDSOzpmhySpEhkUyK2oH.jpg",
+   "episode": 42,
+   "aired": "2018-08-01"
+  },
+  {
+   "id": "mission-impossible-1996",
+   "title": "Mission: Impossible",
+   "year": 1996,
+   "poster": "l5uxY5m5OInWpcExIpKG6AR3rgL.jpg",
+   "episode": 41,
+   "aired": "2018-07-26"
+  },
+  {
+   "id": "inception-2010",
+   "title": "Inception",
+   "year": 2010,
+   "poster": "xlaY2zyzMfkhk0HSC5VUwzoZPU1.jpg",
+   "episode": 29,
+   "aired": "2018-03-22"
+  },
+  {
+   "id": "the-big-lebowski-1998",
+   "title": "The Big Lebowski",
+   "year": 1998,
+   "poster": "3bv6WAp6BSxxYvB5ozKFUYuRA8C.jpg",
+   "episode": 27,
+   "aired": "2018-03-09"
+  },
+  {
+   "id": "varsity-blues-1999",
+   "title": "Varsity Blues",
+   "year": 1999,
+   "poster": "g2jX2Xmx7drbc6J9MLJEBghR7Mg.jpg",
+   "episode": 24,
+   "aired": "2018-02-03"
+  },
+  {
+   "id": "the-dark-knight-2008",
+   "title": "The Dark Knight",
+   "year": 2008,
+   "poster": "qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+   "episode": 18,
+   "aired": "2017-11-16"
+  },
+  {
+   "id": "face-off-1997",
+   "title": "Face/Off",
+   "year": 1997,
+   "poster": "69Xzn8UdPbVnmqSChKz2RTpoNfB.jpg",
+   "episode": 16,
+   "aired": "2017-10-26"
+  },
+  {
+   "id": "scream-1996",
+   "title": "Scream",
+   "year": 1996,
+   "poster": "lr9ZIrmuwVmZhpZuTCW8D9g0ZJe.jpg",
+   "episode": 15,
+   "aired": "2017-10-12"
+  },
+  {
+   "id": "speed-1994",
+   "title": "Speed",
+   "year": 1994,
+   "poster": "82PkCE4R95KhHICUDF7G4Ly2z3l.jpg",
+   "episode": 12,
+   "aired": "2017-09-21"
+  },
+  {
+   "id": "point-break-1991",
+   "title": "Point Break",
+   "year": 1991,
+   "poster": "tlbERIghrQ4oofqlbF7H0K0EYnx.jpg",
+   "episode": 9,
+   "aired": "2017-08-24"
+  }
+ ],
+ "company": [
+  {
+   "name": "Chris Ryan",
+   "id": "chris-ryan",
+   "episodes": 12
+  },
+  {
+   "name": "Shea Serrano",
+   "id": "shea-serrano",
+   "episodes": 10
+  },
+  {
+   "name": "Sean Fennessey",
+   "id": "sean-fennessey",
+   "episodes": 10
+  },
+  {
+   "name": "Mallory Rubin",
+   "id": "mallory-rubin",
+   "episodes": 3
+  },
+  {
+   "name": "David Shoemaker",
+   "id": "david-shoemaker",
+   "episodes": 1
+  },
+  {
+   "name": "Donnie Kwak",
+   "id": "donnie-kwak",
+   "episodes": 1
+  }
+ ],
+ "regular": true,
+ "lean_floor": 15,
+ "leans": [
+  {
+   "text": "Action 74% vs 23%",
+   "up": true
+  },
+  {
+   "text": "Adventure 32% vs 8%",
+   "up": true
+  }
+ ],
+ "verdict_floor": 8,
+ "verdicts": {
+  "cruise": 0,
+  "hanks": 0,
+  "ties": 0,
+  "n": 0
+ }
+}

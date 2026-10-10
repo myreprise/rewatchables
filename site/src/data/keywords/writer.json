@@ -1,0 +1,142 @@
+{
+ "word": "writer",
+ "id": "writer",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.5,
+ "vs_catalogue": 0.4,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 0
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 33.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "alcoholic",
+   "reach": 10,
+   "band": "b5",
+   "id": "alcoholic"
+  },
+  {
+   "word": "alcoholism",
+   "reach": 6,
+   "band": "b5",
+   "id": "alcoholism"
+  },
+  {
+   "word": "ambiguous",
+   "reach": 9,
+   "band": "b5",
+   "id": "ambiguous"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "antagonistic",
+   "reach": 13,
+   "band": "b4",
+   "id": "antagonistic"
+  },
+  {
+   "word": "avant garde",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "blizzard",
+   "reach": 2,
+   "band": "b5",
+   "id": "blizzard"
+  },
+  {
+   "word": "buddy",
+   "reach": 14,
+   "band": "b4",
+   "id": "buddy"
+  },
+  {
+   "word": "california",
+   "reach": 16,
+   "band": "b4",
+   "id": "california"
+  },
+  {
+   "word": "caretaker",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "cheerful",
+   "reach": 9,
+   "band": "b5",
+   "id": "cheerful"
+  },
+  {
+   "word": "child abuse",
+   "reach": 6,
+   "band": "b5",
+   "id": "child-abuse"
+  },
+  {
+   "word": "colorado",
+   "reach": 2,
+   "band": "b5",
+   "id": "colorado"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-shining-1980",
+   "title": "The Shining",
+   "year": 1980,
+   "poster": "uAR0AWqhQL1hQa69UDEbb2rE5Wx.jpg",
+   "tmdb": 8.2
+  },
+  {
+   "id": "sideways-2004",
+   "title": "Sideways",
+   "year": 2004,
+   "poster": "zOsaxYLgvZVU7cJBpPn8CuE0MrP.jpg",
+   "tmdb": 7.1
+  },
+  {
+   "id": "limitless-2011",
+   "title": "Limitless",
+   "year": 2011,
+   "poster": "kCokPP4WCQRrrAuZ7FcpIyHr8b2.jpg",
+   "tmdb": 7.202
+  }
+ ]
+}

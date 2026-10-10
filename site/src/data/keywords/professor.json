@@ -1,0 +1,142 @@
+{
+ "word": "professor",
+ "id": "professor",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.0,
+ "vs_catalogue": -0.1,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 33.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "dramatic",
+   "reach": 18,
+   "band": "b3",
+   "id": "dramatic"
+  },
+  {
+   "word": "1950s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1950s"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "beating",
+   "reach": 2,
+   "band": "b5",
+   "id": "beating"
+  },
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "id": "coming-of-age"
+  },
+  {
+   "word": "depressing",
+   "reach": 2,
+   "band": "b5",
+   "id": "depressing"
+  },
+  {
+   "word": "friendship",
+   "reach": 22,
+   "band": "b3",
+   "id": "friendship"
+  },
+  {
+   "word": "gambler",
+   "reach": 2,
+   "band": "b5",
+   "id": "gambler"
+  },
+  {
+   "word": "gambling",
+   "reach": 6,
+   "band": "b5",
+   "id": "gambling"
+  },
+  {
+   "word": "gun",
+   "reach": 6,
+   "band": "b5",
+   "id": "gun"
+  },
+  {
+   "word": "individual",
+   "reach": 2,
+   "band": "b5",
+   "id": "individual"
+  },
+  {
+   "word": "introspective",
+   "reach": 3,
+   "band": "b5",
+   "id": "introspective"
+  },
+  {
+   "word": "judge",
+   "reach": 2,
+   "band": "b5",
+   "id": "judge"
+  },
+  {
+   "word": "legal thriller",
+   "reach": 10,
+   "band": "b5",
+   "id": "legal-thriller"
+  }
+ ],
+ "films": [
+  {
+   "id": "dead-poets-society-1989",
+   "title": "Dead Poets Society",
+   "year": 1989,
+   "poster": "tNvKkSnnn4Z6RCBThyK1gfCSSvv.jpg",
+   "tmdb": 8.296
+  },
+  {
+   "id": "the-pelican-brief-1993",
+   "title": "The Pelican Brief",
+   "year": 1993,
+   "poster": "7B1HS0SqfJR1jbeHS6V0ZWdzLXP.jpg",
+   "tmdb": 6.593
+  },
+  {
+   "id": "the-gambler-2014",
+   "title": "The Gambler",
+   "year": 2014,
+   "poster": "hIgU3cxn7Y87joQGM3srofnXOm5.jpg",
+   "tmdb": 6.048
+  }
+ ]
+}

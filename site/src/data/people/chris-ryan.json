@@ -1,0 +1,2370 @@
+{
+ "name": "Chris Ryan",
+ "id": "chris-ryan",
+ "episodes": 287,
+ "share": 0.5893,
+ "hosted": 21,
+ "first": "2015-12-22",
+ "last": "2026-10-12",
+ "shelf": [
+  {
+   "id": "friday-the-13th-1980",
+   "title": "Friday the 13th",
+   "year": 1980,
+   "poster": "uGGpnWHOmWTARVN9wbC1nPxNgps.jpg",
+   "episode": 485,
+   "aired": "2026-10-12"
+  },
+  {
+   "id": "the-texas-chain-saw-massacre-1974",
+   "title": "The Texas Chain Saw Massacre",
+   "year": 1974,
+   "poster": "mpgkRPH1GNkMCgdPk2OMyHzAks7.jpg",
+   "episode": 484,
+   "aired": "2026-10-05"
+  },
+  {
+   "id": "aliens-1986",
+   "title": "Aliens",
+   "year": 1986,
+   "poster": "r1x5JGpyqZU8PYhbs4UcrO1Xb6x.jpg",
+   "episode": 479,
+   "aired": "2026-08-31"
+  },
+  {
+   "id": "speed-1994",
+   "title": "Speed",
+   "year": 1994,
+   "poster": "82PkCE4R95KhHICUDF7G4Ly2z3l.jpg",
+   "episode": 477,
+   "aired": "2026-08-17"
+  },
+  {
+   "id": "about-last-night-1986",
+   "title": "About Last Night...",
+   "year": 1986,
+   "poster": "9KqG5OFi3NLJYBbsDSA8pZ3dln.jpg",
+   "episode": 476,
+   "aired": "2026-08-13"
+  },
+  {
+   "id": "the-italian-job-2003",
+   "title": "The Italian Job",
+   "year": 2003,
+   "poster": "eSkjK4kctyrWpFhxl35GPvSs6tI.jpg",
+   "episode": 475,
+   "aired": "2026-08-10"
+  },
+  {
+   "id": "obsession-2026",
+   "title": "Obsession",
+   "year": 2026,
+   "poster": "bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
+   "episode": 473,
+   "aired": "2026-07-27"
+  },
+  {
+   "id": "ali-2001",
+   "title": "Ali",
+   "year": 2001,
+   "poster": "32l3FaCzs8cXWps6hkgNJAcOsP.jpg",
+   "episode": 470,
+   "aired": "2026-07-06"
+  },
+  {
+   "id": "pacific-heights-1990",
+   "title": "Pacific Heights",
+   "year": 1990,
+   "poster": "9iHD6xIrGSuuMEFWhwSVGXSddY2.jpg",
+   "episode": 469,
+   "aired": "2026-06-29"
+  },
+  {
+   "id": "domestic-disturbance-2001",
+   "title": "Domestic Disturbance",
+   "year": 2001,
+   "poster": "quRhjnXAuIn04VmgM84nmKzt79J.jpg",
+   "episode": 467,
+   "aired": "2026-06-22"
+  },
+  {
+   "id": "the-hand-that-rocks-the-cradle-1992",
+   "title": "The Hand That Rocks the Cradle",
+   "year": 1992,
+   "poster": "1fBnyO3SbNBplck45js6O4pQaLw.jpg",
+   "episode": 466,
+   "aired": "2026-06-14"
+  },
+  {
+   "id": "animal-house-1978",
+   "title": "Animal House",
+   "year": 1978,
+   "poster": "fWooBbipMRIKeSRhEzmeaDV0T8H.jpg",
+   "episode": 462,
+   "aired": "2026-05-25"
+  },
+  {
+   "id": "tropic-thunder-2008",
+   "title": "Tropic Thunder",
+   "year": 2008,
+   "poster": "zAurB9mNxfYRoVrVjAJJwGV3sPg.jpg",
+   "episode": 460,
+   "aired": "2026-05-11"
+  },
+  {
+   "id": "theres-something-about-mary-1998",
+   "title": "There's Something About Mary",
+   "year": 1998,
+   "poster": "slJD1Dvnsf15LoeqhERsyzisAdn.jpg",
+   "episode": 459,
+   "aired": "2026-05-04"
+  },
+  {
+   "id": "ghostbusters-1984",
+   "title": "Ghostbusters",
+   "year": 1984,
+   "poster": "7E8nLijS9AwwUEPu2oFYOVKhdFA.jpg",
+   "episode": 458,
+   "aired": "2026-04-27"
+  },
+  {
+   "id": "basic-instinct-1992",
+   "title": "Basic Instinct",
+   "year": 1992,
+   "poster": "76Ts0yoHk8kVQj9MMnoMixhRWoh.jpg",
+   "episode": 456,
+   "aired": "2026-04-13"
+  },
+  {
+   "id": "eddie-and-the-cruisers-1983",
+   "title": "Eddie and the Cruisers",
+   "year": 1983,
+   "poster": "qohqTtk33FlEoeb3zYLEAUGSO0E.jpg",
+   "episode": 455,
+   "aired": "2026-04-06"
+  },
+  {
+   "id": "l-a-confidential-1997",
+   "title": "L.A. Confidential",
+   "year": 1997,
+   "poster": "lWCgf5sD5FpMljjpkRhcC8pXcch.jpg",
+   "episode": 454,
+   "aired": "2026-03-30"
+  },
+  {
+   "id": "the-nice-guys-2016",
+   "title": "The Nice Guys",
+   "year": 2016,
+   "poster": "clq4So9spa9cXk3MZy2iMdqkxP2.jpg",
+   "episode": 453,
+   "aired": "2026-03-23"
+  },
+  {
+   "id": "to-live-and-die-in-l-a-1985",
+   "title": "To Live and Die in L.A.",
+   "year": 1985,
+   "poster": "2iW3pSihBIhXjnBQmUJ0mAiZbB5.jpg",
+   "episode": 451,
+   "aired": "2026-03-16"
+  },
+  {
+   "id": "fargo-1996",
+   "title": "Fargo",
+   "year": 1996,
+   "poster": "rt7cpEr1uP6RTZykBFhBTcRaKvG.jpg",
+   "episode": 450,
+   "aired": "2026-03-09"
+  },
+  {
+   "id": "sicario-2015",
+   "title": "Sicario",
+   "year": 2015,
+   "poster": "lz8vNyXeidqqOdJW9ZjnDAMb5Vr.jpg",
+   "episode": 449,
+   "aired": "2026-03-02"
+  },
+  {
+   "id": "goldeneye-1995",
+   "title": "GoldenEye",
+   "year": 1995,
+   "poster": "z0ljRnNxIO7CRBhLEO0DvLgAFPR.jpg",
+   "episode": 447,
+   "aired": "2026-02-16"
+  },
+  {
+   "id": "zodiac-2007",
+   "title": "Zodiac",
+   "year": 2007,
+   "poster": "6YmeO4pB7XTh8P8F960O1uA14JO.jpg",
+   "episode": 444,
+   "aired": "2026-01-26"
+  },
+  {
+   "id": "another-48-hrs-1990",
+   "title": "Another 48 Hrs.",
+   "year": 1990,
+   "poster": "ixeygHHDsuzsg67H1IPTc3Qp8cR.jpg",
+   "episode": 443,
+   "aired": "2026-01-21"
+  },
+  {
+   "id": "what-lies-beneath-2000",
+   "title": "What Lies Beneath",
+   "year": 2000,
+   "poster": "2L3Cn0CizbSy2E9KJt1SiOSyb6p.jpg",
+   "episode": 441,
+   "aired": "2026-01-13"
+  },
+  {
+   "id": "f1-2025",
+   "title": "F1",
+   "year": 2025,
+   "poster": "9PXZIUsSDh4alB80jheWX4fhZmy.jpg",
+   "episode": 438,
+   "aired": "2025-12-22"
+  },
+  {
+   "id": "the-sure-thing-1985",
+   "title": "The Sure Thing",
+   "year": 1985,
+   "poster": "a9cuohQn5kczi4htWZAZjEZvXkZ.jpg",
+   "episode": 437,
+   "aired": "2025-12-17"
+  },
+  {
+   "id": "high-fidelity-2000",
+   "title": "High Fidelity",
+   "year": 2000,
+   "poster": "e2LZGB62GMhv3Fo8tDZjY87I81a.jpg",
+   "episode": 436,
+   "aired": "2025-12-15"
+  },
+  {
+   "id": "rocky-ii-1979",
+   "title": "Rocky II",
+   "year": 1979,
+   "poster": "nMaiiu0CzT77U4JZkUYV7KqdAjK.jpg",
+   "episode": 434,
+   "aired": "2025-12-01"
+  },
+  {
+   "id": "two-for-the-money-2005",
+   "title": "Two for the Money",
+   "year": 2005,
+   "poster": "5SedPYdGLrp6LX9C2cWXLx38w1D.jpg",
+   "episode": 433,
+   "aired": "2025-11-24"
+  },
+  {
+   "id": "the-truman-show-1998",
+   "title": "The Truman Show",
+   "year": 1998,
+   "poster": "vuza0WqY239yBXOadKlGwJsZJFE.jpg",
+   "episode": 430,
+   "aired": "2025-11-03"
+  },
+  {
+   "id": "halloween-ii-1981",
+   "title": "Halloween II",
+   "year": 1981,
+   "poster": "3nX5HHGgOKaVMxXwMLT9DHO1Ne6.jpg",
+   "episode": 429,
+   "aired": "2025-10-27"
+  },
+  {
+   "id": "jeremiah-johnson-1972",
+   "title": "Jeremiah Johnson",
+   "year": 1972,
+   "poster": "fANj1S3UmBB51wnKxYRKtw8LMBn.jpg",
+   "episode": 426,
+   "aired": "2025-10-06"
+  },
+  {
+   "id": "the-sting-1973",
+   "title": "The Sting",
+   "year": 1973,
+   "poster": "ckmYng37zey8INYf6d10cVgIG93.jpg",
+   "episode": 425,
+   "aired": "2025-09-29"
+  },
+  {
+   "id": "the-legend-of-billie-jean-1985",
+   "title": "The Legend of Billie Jean",
+   "year": 1985,
+   "poster": "x2u2YtbJ9XySs3MdaIly8Gfp66.jpg",
+   "episode": 422,
+   "aired": "2025-09-08"
+  },
+  {
+   "id": "american-gangster-2007",
+   "title": "American Gangster",
+   "year": 2007,
+   "poster": "sX9idXDqRUxE5ffww3n3RV5gL55.jpg",
+   "episode": 421,
+   "aired": "2025-09-01"
+  },
+  {
+   "id": "species-1995",
+   "title": "Species",
+   "year": 1995,
+   "poster": "cT5wdyo8kT7dycqjrolJ2sHWkFx.jpg",
+   "episode": 415,
+   "aired": "2025-07-21"
+  },
+  {
+   "id": "jaws-2-1978",
+   "title": "Jaws 2",
+   "year": 1978,
+   "poster": "cN3ijEwsn4kBaRuHfcJpAQJbeWe.jpg",
+   "episode": 413,
+   "aired": "2025-07-07"
+  },
+  {
+   "id": "die-hard-with-a-vengeance-1995",
+   "title": "Die Hard: With a Vengeance",
+   "year": 1995,
+   "poster": "buqmCdFQEWwEpL3agGgg2GVjN2d.jpg",
+   "episode": 411,
+   "aired": "2025-06-23"
+  },
+  {
+   "id": "marathon-man-1976",
+   "title": "Marathon Man",
+   "year": 1976,
+   "poster": "uPNgubSiri2yvBQRPtP77ViYjN.jpg",
+   "episode": 410,
+   "aired": "2025-06-17"
+  },
+  {
+   "id": "heaven-can-wait-1978",
+   "title": "Heaven Can Wait",
+   "year": 1978,
+   "poster": "h1yOiO9cow6gwmGxSAWvPdY4lhJ.jpg",
+   "episode": 407,
+   "aired": "2025-05-26"
+  },
+  {
+   "id": "close-encounters-of-the-third-kind-1977",
+   "title": "Close Encounters of the Third Kind",
+   "year": 1977,
+   "poster": "yaPx3cK9zGFX3SbcKwxWM1QIbUh.jpg",
+   "episode": 406,
+   "aired": "2025-05-19"
+  },
+  {
+   "id": "death-wish-1974",
+   "title": "Death Wish",
+   "year": 1974,
+   "poster": "rNksI6UiuTgLtBy69WvKT1PrG0R.jpg",
+   "episode": 405,
+   "aired": "2025-05-12"
+  },
+  {
+   "id": "star-wars-1977",
+   "title": "Star Wars",
+   "year": 1977,
+   "poster": "fai0rspsNeJCS69wHNjOdWxcI7P.jpg",
+   "episode": 404,
+   "aired": "2025-05-05"
+  },
+  {
+   "id": "someone-to-watch-over-me-1987",
+   "title": "Someone to Watch Over Me",
+   "year": 1987,
+   "poster": "7Vqw29y8pkoHaVtwkQcQhBK9oTY.jpg",
+   "episode": 403,
+   "aired": "2025-04-28"
+  },
+  {
+   "id": "minority-report-2002",
+   "title": "Minority Report",
+   "year": 2002,
+   "poster": "qtgFcnwh9dAFLocsDk2ySDVS8UF.jpg",
+   "episode": 402,
+   "aired": "2025-04-21"
+  },
+  {
+   "id": "good-will-hunting-1997",
+   "title": "Good Will Hunting",
+   "year": 1997,
+   "poster": "z2FnLKpFi1HPO7BEJxdkv6hpJSU.jpg",
+   "episode": 399,
+   "aired": "2025-03-31"
+  },
+  {
+   "id": "blue-chips-1994",
+   "title": "Blue Chips",
+   "year": 1994,
+   "poster": "tO71i4Ob64tchCRBB5MoqonPKAF.jpg",
+   "episode": 398,
+   "aired": "2025-03-24"
+  },
+  {
+   "id": "days-of-thunder-1990",
+   "title": "Days of Thunder",
+   "year": 1990,
+   "poster": "8UvcoeMJag8UWGF8sg7eYspzq0Q.jpg",
+   "episode": 397,
+   "aired": "2025-03-17"
+  },
+  {
+   "id": "rocky-1976",
+   "title": "Rocky",
+   "year": 1976,
+   "poster": "xSI0dbKLDETwhiVUy6hGE8KXUln.jpg",
+   "episode": 395,
+   "aired": "2025-03-03"
+  },
+  {
+   "id": "the-blues-brothers-1980",
+   "title": "The Blues Brothers",
+   "year": 1980,
+   "poster": "b0hq1d2d7FIvRGNLewKLm79JNTK.jpg",
+   "episode": 392,
+   "aired": "2025-02-10"
+  },
+  {
+   "id": "before-sunset-2004",
+   "title": "Before Sunset",
+   "year": 2004,
+   "poster": "4sW5XH9ZfYXpvFzev00S1IGAEbg.jpg",
+   "episode": 391,
+   "aired": "2025-02-03"
+  },
+  {
+   "id": "before-sunrise-1995",
+   "title": "Before Sunrise",
+   "year": 1995,
+   "poster": "kf1Jb1c2JAOqjuzA3H4oDM263uB.jpg",
+   "episode": 390,
+   "aired": "2025-01-27"
+  },
+  {
+   "id": "den-of-thieves-2018",
+   "title": "Den of Thieves",
+   "year": 2018,
+   "poster": "dAP5NpkrMMczir5dUPjRR6ywqgz.jpg",
+   "episode": 388,
+   "aired": "2025-01-06"
+  },
+  {
+   "id": "the-gambler-2014",
+   "title": "The Gambler",
+   "year": 2014,
+   "poster": "hIgU3cxn7Y87joQGM3srofnXOm5.jpg",
+   "episode": 385,
+   "aired": "2024-12-16"
+  },
+  {
+   "id": "running-scared-1986",
+   "title": "Running Scared",
+   "year": 1986,
+   "poster": "nSiRjhc7aTVPonXAhmTZAPqd2jT.jpg",
+   "episode": 383,
+   "aired": "2024-11-25"
+  },
+  {
+   "id": "body-double-1984",
+   "title": "Body Double",
+   "year": 1984,
+   "poster": "lRFm5P2AdOGpELwm3HHhmUz6k5I.jpg",
+   "episode": 380,
+   "aired": "2024-11-04"
+  },
+  {
+   "id": "halloween-4-the-return-of-michael-myers-1988",
+   "title": "Halloween 4: The Return of Michael Myers",
+   "year": 1988,
+   "poster": "eFSOkXF9n9hsfGv45MDsPixiOyx.jpg",
+   "episode": 379,
+   "aired": "2024-10-28"
+  },
+  {
+   "id": "hereditary-2018",
+   "title": "Hereditary",
+   "year": 2018,
+   "poster": "4GFPuL14eXi66V96xBWY73Y9PfR.jpg",
+   "episode": 378,
+   "aired": "2024-10-21"
+  },
+  {
+   "id": "the-silence-of-the-lambs-1991",
+   "title": "The Silence of the Lambs",
+   "year": 1991,
+   "poster": "uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
+   "episode": 377,
+   "aired": "2024-10-15"
+  },
+  {
+   "id": "the-blair-witch-project-1999",
+   "title": "The Blair Witch Project",
+   "year": 1999,
+   "poster": "9050VGrYjYrEjpOvDZVAngLbg1f.jpg",
+   "episode": 375,
+   "aired": "2024-10-01"
+  },
+  {
+   "id": "john-wick-2014",
+   "title": "John Wick",
+   "year": 2014,
+   "poster": "wXqWR7dHncNRbxoEGybEy7QTe9h.jpg",
+   "episode": 373,
+   "aired": "2024-09-17"
+  },
+  {
+   "id": "the-sixth-sense-1999",
+   "title": "The Sixth Sense",
+   "year": 1999,
+   "poster": "vOyfUXNFSnaTk7Vk5AjpsKTUWsu.jpg",
+   "episode": 80,
+   "aired": "2024-09-10"
+  },
+  {
+   "id": "night-shift-1982",
+   "title": "Night Shift",
+   "year": 1982,
+   "poster": "iS78MFtMDwWDP748juZQBK57C9o.jpg",
+   "episode": 372,
+   "aired": "2024-09-03"
+  },
+  {
+   "id": "the-grand-budapest-hotel-2014",
+   "title": "The Grand Budapest Hotel",
+   "year": 2014,
+   "poster": "eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
+   "episode": 369,
+   "aired": "2024-08-13"
+  },
+  {
+   "id": "pulp-fiction-1994",
+   "title": "Pulp Fiction",
+   "year": 1994,
+   "poster": "vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+   "episode": 367,
+   "aired": "2024-07-29"
+  },
+  {
+   "id": "no-way-out-1987",
+   "title": "No Way Out",
+   "year": 1987,
+   "poster": "93CzsBvRhg035yvQosRtSsTL19v.jpg",
+   "episode": 366,
+   "aired": "2024-07-23"
+  },
+  {
+   "id": "true-lies-1994",
+   "title": "True Lies",
+   "year": 1994,
+   "poster": "pqdvCBDThAOjlA0XBzbNm7GvwpU.jpg",
+   "episode": 365,
+   "aired": "2024-07-15"
+  },
+  {
+   "id": "twister-1996",
+   "title": "Twister",
+   "year": 1996,
+   "poster": "d4ie3f6QTvNw40V770Uzo87SDZn.jpg",
+   "episode": 364,
+   "aired": "2024-07-09"
+  },
+  {
+   "id": "the-longest-yard-1974",
+   "title": "The Longest Yard",
+   "year": 1974,
+   "poster": "2qtpPGRpMEnwhRRoq3iqyQm238V.jpg",
+   "episode": 361,
+   "aired": "2024-06-18"
+  },
+  {
+   "id": "breaking-away-1979",
+   "title": "Breaking Away",
+   "year": 1979,
+   "poster": "k7b5GsVJK1hfdwoYqcczN9pBba6.jpg",
+   "episode": 360,
+   "aired": "2024-06-11"
+  },
+  {
+   "id": "slap-shot-1977",
+   "title": "Slap Shot",
+   "year": 1977,
+   "poster": "k5dvEA7ajd90mf3KrF6m6LnYXOv.jpg",
+   "episode": 359,
+   "aired": "2024-06-04"
+  },
+  {
+   "id": "fast-times-at-ridgemont-high-1982",
+   "title": "Fast Times at Ridgemont High",
+   "year": 1982,
+   "poster": "e15rmfjf0m6EGLe4MnNhwD3Dd1W.jpg",
+   "episode": 358,
+   "aired": "2024-05-28"
+  },
+  {
+   "id": "back-to-the-future-part-ii-1989",
+   "title": "Back to the Future Part II",
+   "year": 1989,
+   "poster": "hQq8xZe5uLjFzSBt4LanNP7SQjl.jpg",
+   "episode": 357,
+   "aired": "2024-05-21"
+  },
+  {
+   "id": "jerry-maguire-1996",
+   "title": "Jerry Maguire",
+   "year": 1996,
+   "poster": "lABvGN7fDk5ifnwZoxij6G96t2w.jpg",
+   "episode": 356,
+   "aired": "2024-05-13"
+  },
+  {
+   "id": "hardcore-1979",
+   "title": "Hardcore",
+   "year": 1979,
+   "poster": "g6m9xBTAzxXVhdJ624s9BLK9o6.jpg",
+   "episode": 353,
+   "aired": "2024-04-23"
+  },
+  {
+   "id": "magnolia-1999",
+   "title": "Magnolia",
+   "year": 1999,
+   "poster": "tpfC325Jk6S38VTe5dDWjWtoyxr.jpg",
+   "episode": 103,
+   "aired": "2024-04-16"
+  },
+  {
+   "id": "shot-caller-2017",
+   "title": "Shot Caller",
+   "year": 2017,
+   "poster": "qLmLz2wtyYvmW8Ult3l2ngOnW8v.jpg",
+   "episode": 351,
+   "aired": "2024-04-02"
+  },
+  {
+   "id": "manchester-by-the-sea-2016",
+   "title": "Manchester by the Sea",
+   "year": 2016,
+   "poster": "o9VXYOuaJxCEKOxbA86xqtwmqYn.jpg",
+   "episode": 350,
+   "aired": "2024-03-26"
+  },
+  {
+   "id": "internal-affairs-1990",
+   "title": "Internal Affairs",
+   "year": 1990,
+   "poster": "A4pH8DiNFEf2AgXkM4zk3ZpblV.jpg",
+   "episode": 349,
+   "aired": "2024-03-19"
+  },
+  {
+   "id": "risky-business-1983",
+   "title": "Risky Business",
+   "year": 1983,
+   "poster": "82KOHShH9raGhkcAN3TztVjqjj3.jpg",
+   "episode": 348,
+   "aired": "2024-03-12"
+  },
+  {
+   "id": "road-house-1989",
+   "title": "Road House",
+   "year": 1989,
+   "poster": "n7Ra0BRYQVn47kiqOMyS8vdY0QS.jpg",
+   "episode": 347,
+   "aired": "2024-03-05"
+  },
+  {
+   "id": "rounders-1998",
+   "title": "Rounders",
+   "year": 1998,
+   "poster": "mqbMwYGwIChnaCO55h7v8DG8Wwy.jpg",
+   "episode": 346,
+   "aired": "2024-02-27"
+  },
+  {
+   "id": "creed-2015",
+   "title": "Creed",
+   "year": 2015,
+   "poster": "1BfTsk5VWuw8FCocAhCyqnRbEzq.jpg",
+   "episode": 345,
+   "aired": "2024-02-20"
+  },
+  {
+   "id": "forrest-gump-1994",
+   "title": "Forrest Gump",
+   "year": 1994,
+   "poster": "Cw4hIUIAmSYfK9QfaUW5igp9La.jpg",
+   "episode": 344,
+   "aired": "2024-02-13"
+  },
+  {
+   "id": "the-fugitive-1993",
+   "title": "The Fugitive",
+   "year": 1993,
+   "poster": "b3rEtLKyOnF89mcK75GXDXdmOEf.jpg",
+   "episode": 343,
+   "aired": "2024-02-06"
+  },
+  {
+   "id": "the-insider-1999",
+   "title": "The Insider",
+   "year": 1999,
+   "poster": "w695X0FvTlBCS7GSLHNILnrfqPm.jpg",
+   "episode": 74,
+   "aired": "2024-01-30"
+  },
+  {
+   "id": "philadelphia-1993",
+   "title": "Philadelphia",
+   "year": 1993,
+   "poster": "tFe5Yoo5zT495okA49bq1vPPkiV.jpg",
+   "episode": 342,
+   "aired": "2024-01-23"
+  },
+  {
+   "id": "silver-linings-playbook-2012",
+   "title": "Silver Linings Playbook",
+   "year": 2012,
+   "poster": "fhHB1uvfFKKFbj6bTKE8xdtsjKi.jpg",
+   "episode": 341,
+   "aired": "2024-01-16"
+  },
+  {
+   "id": "flight-2012",
+   "title": "Flight",
+   "year": 2012,
+   "poster": "tFsHDNclXoCKy2xMxskzXXMaFJS.jpg",
+   "episode": 340,
+   "aired": "2024-01-09"
+  },
+  {
+   "id": "national-lampoons-christmas-vacation-1989",
+   "title": "National Lampoon's Christmas Vacation",
+   "year": 1989,
+   "poster": "oat42hUw8XzKYUmfy0YLAxYd484.jpg",
+   "episode": 337,
+   "aired": "2023-12-19"
+  },
+  {
+   "id": "the-pelican-brief-1993",
+   "title": "The Pelican Brief",
+   "year": 1993,
+   "poster": "7B1HS0SqfJR1jbeHS6V0ZWdzLXP.jpg",
+   "episode": 336,
+   "aired": "2023-12-12"
+  },
+  {
+   "id": "sea-of-love-1989",
+   "title": "Sea of Love",
+   "year": 1989,
+   "poster": "vJ88WmJ12eAK9CRb3cggn9CJthH.jpg",
+   "episode": 335,
+   "aired": "2023-12-05"
+  },
+  {
+   "id": "american-pie-1999",
+   "title": "American Pie",
+   "year": 1999,
+   "poster": "5P68by2Thn8wHAziyWGEw2O7hco.jpg",
+   "episode": 68,
+   "aired": "2023-11-28"
+  },
+  {
+   "id": "mr-and-mrs-smith-2005",
+   "title": "Mr. & Mrs. Smith",
+   "year": 2005,
+   "poster": "kjD700RtyhveN3ZbOnSvUSne0Qj.jpg",
+   "episode": 334,
+   "aired": "2023-11-21"
+  },
+  {
+   "id": "an-officer-and-a-gentleman-1982",
+   "title": "An Officer and a Gentleman",
+   "year": 1982,
+   "poster": "69adZbLeRk5TNQ3e0008dMnde9p.jpg",
+   "episode": 333,
+   "aired": "2023-11-14"
+  },
+  {
+   "id": "robin-hood-prince-of-thieves-1991",
+   "title": "Robin Hood: Prince of Thieves",
+   "year": 1991,
+   "poster": "hbRnWUNJkKKVN5mkcuC5ooqjE4e.jpg",
+   "episode": 332,
+   "aired": "2023-11-07"
+  },
+  {
+   "id": "the-omen-1976",
+   "title": "The Omen",
+   "year": 1976,
+   "poster": "mDcjjEu1fMNmsXi4l4D8IftlTix.jpg",
+   "episode": 331,
+   "aired": "2023-10-31"
+  },
+  {
+   "id": "in-the-line-of-fire-1993",
+   "title": "In the Line of Fire",
+   "year": 1993,
+   "poster": "3NvOFpmyECI3DNExYMtFIRcGMsu.jpg",
+   "episode": 330,
+   "aired": "2023-10-24"
+  },
+  {
+   "id": "so-i-married-an-axe-murderer-1993",
+   "title": "So I Married an Axe Murderer",
+   "year": 1993,
+   "poster": "yv2yakJ8zTT4ycKAsppcGQZmpMz.jpg",
+   "episode": 329,
+   "aired": "2023-10-17"
+  },
+  {
+   "id": "they-live-1988",
+   "title": "They Live",
+   "year": 1988,
+   "poster": "ngnybFTuopfbfmmEeX9jjBQQmF6.jpg",
+   "episode": 328,
+   "aired": "2023-10-10"
+  },
+  {
+   "id": "the-big-chill-1983",
+   "title": "The Big Chill",
+   "year": 1983,
+   "poster": "rU8kjMEL5Mn0EWm3gOShPHBEZ4l.jpg",
+   "episode": 326,
+   "aired": "2023-09-26"
+  },
+  {
+   "id": "a-bronx-tale-1993",
+   "title": "A Bronx Tale",
+   "year": 1993,
+   "poster": "sDbO6LmLYtyqAoFTPpRcMgPSCEO.jpg",
+   "episode": 325,
+   "aired": "2023-09-19"
+  },
+  {
+   "id": "blackhat-2015",
+   "title": "Blackhat",
+   "year": 2015,
+   "poster": "7zu6HPnKPjNA7NuR4DGRdaH0PdX.jpg",
+   "episode": 324,
+   "aired": "2023-09-12"
+  },
+  {
+   "id": "the-equalizer-2014",
+   "title": "The Equalizer",
+   "year": 2014,
+   "poster": "9u4yW7yPA0BQ2pv9XwiNzItwvp8.jpg",
+   "episode": 322,
+   "aired": "2023-08-29"
+  },
+  {
+   "id": "eyes-wide-shut-1999",
+   "title": "Eyes Wide Shut",
+   "year": 1999,
+   "poster": "knEIz1eNGl5MQDbrEAVWA7iRqF9.jpg",
+   "episode": 95,
+   "aired": "2023-08-15"
+  },
+  {
+   "id": "national-lampoons-vacation-1983",
+   "title": "National Lampoon's Vacation",
+   "year": 1983,
+   "poster": "q3DvoqY06yZnRp9faH6uge7n7VP.jpg",
+   "episode": 321,
+   "aired": "2023-08-08"
+  },
+  {
+   "id": "a-few-good-men-1992",
+   "title": "A Few Good Men",
+   "year": 1992,
+   "poster": "rLOk4z9zL1tTukIYV56P94aZXKk.jpg",
+   "episode": 320,
+   "aired": "2023-07-31"
+  },
+  {
+   "id": "the-devils-advocate-1997",
+   "title": "The Devil's Advocate",
+   "year": 1997,
+   "poster": "5ZzBGpxy55OQzHxKVY11IpY6a0o.jpg",
+   "episode": 319,
+   "aired": "2023-07-25"
+  },
+  {
+   "id": "my-cousin-vinny-1992",
+   "title": "My Cousin Vinny",
+   "year": 1992,
+   "poster": "iwSURa8nS2ujwrU3s1lfxxX7voH.jpg",
+   "episode": 317,
+   "aired": "2023-07-18"
+  },
+  {
+   "id": "primal-fear-1996",
+   "title": "Primal Fear",
+   "year": 1996,
+   "poster": "qJf2TzE8nRTFbFMPJNW6c8mI0KU.jpg",
+   "episode": 315,
+   "aired": "2023-07-04"
+  },
+  {
+   "id": "this-is-the-end-2013",
+   "title": "This Is the End",
+   "year": 2013,
+   "poster": "tNIW0NhX1hKvUsy6PQ80DOKUhkD.jpg",
+   "episode": 314,
+   "aired": "2023-06-27"
+  },
+  {
+   "id": "indiana-jones-and-the-last-crusade-1989",
+   "title": "Indiana Jones and the Last Crusade",
+   "year": 1989,
+   "poster": "sizg1AU8f8JDZX4QIgE4pjUMBvx.jpg",
+   "episode": 313,
+   "aired": "2023-06-20"
+  },
+  {
+   "id": "blood-diamond-2006",
+   "title": "Blood Diamond",
+   "year": 2006,
+   "poster": "sYAUuiWpoXGKHxUfHyjTj7Apj2h.jpg",
+   "episode": 312,
+   "aired": "2023-06-13"
+  },
+  {
+   "id": "the-last-days-of-disco-1998",
+   "title": "The Last Days of Disco",
+   "year": 1998,
+   "poster": "lReaAZCsA0GXvJrxzSMsFxwgh6F.jpg",
+   "episode": 309,
+   "aired": "2023-05-23"
+  },
+  {
+   "id": "trading-places-1983",
+   "title": "Trading Places",
+   "year": 1983,
+   "poster": "8mBuLCOcpWnmYtZc4aqtvDXslv6.jpg",
+   "episode": 308,
+   "aired": "2023-05-16"
+  },
+  {
+   "id": "alien-1979",
+   "title": "Alien",
+   "year": 1979,
+   "poster": "vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg",
+   "episode": 304,
+   "aired": "2023-04-18"
+  },
+  {
+   "id": "cape-fear-1991",
+   "title": "Cape Fear",
+   "year": 1991,
+   "poster": "meJZAAuVcjic2ipvbOPz5UlE4P9.jpg",
+   "episode": 301,
+   "aired": "2023-03-28"
+  },
+  {
+   "id": "bad-boys-1983",
+   "title": "Bad Boys",
+   "year": 1983,
+   "poster": "5nHZ3wflOifKJMUcTCw0isKhmCv.jpg",
+   "episode": 299,
+   "aired": "2023-03-14"
+  },
+  {
+   "id": "the-purge-2013",
+   "title": "The Purge",
+   "year": 2013,
+   "poster": "46X1ei9uf13nkkr0OhWldGyr5Uh.jpg",
+   "episode": 298,
+   "aired": "2023-03-07"
+  },
+  {
+   "id": "catch-me-if-you-can-2002",
+   "title": "Catch Me If You Can",
+   "year": 2002,
+   "poster": "ctjEj2xM32OvBXCq8zAdK3ZrsAj.jpg",
+   "episode": 297,
+   "aired": "2023-02-28"
+  },
+  {
+   "id": "the-vanishing-1993",
+   "title": "The Vanishing",
+   "year": 1993,
+   "poster": "whCG6TGm3h9AHBkfh5M0MnJ8zT0.jpg",
+   "episode": 294,
+   "aired": "2023-02-07"
+  },
+  {
+   "id": "deliverance-1972",
+   "title": "Deliverance",
+   "year": 1972,
+   "poster": "2TrAzNJlHyNYYSkQf6asg3rs2Xr.jpg",
+   "episode": 293,
+   "aired": "2023-01-31"
+  },
+  {
+   "id": "alive-1993",
+   "title": "Alive",
+   "year": 1993,
+   "poster": "uQACcCZqd7WCTRin9xRIW5gr1bd.jpg",
+   "episode": 291,
+   "aired": "2023-01-17"
+  },
+  {
+   "id": "sideways-2004",
+   "title": "Sideways",
+   "year": 2004,
+   "poster": "zOsaxYLgvZVU7cJBpPn8CuE0MrP.jpg",
+   "episode": 290,
+   "aired": "2023-01-10"
+  },
+  {
+   "id": "mission-impossible-fallout-2018",
+   "title": "Mission: Impossible - Fallout",
+   "year": 2018,
+   "poster": "AkJQpZp9WoNdj7pLYSj1L0RcMMN.jpg",
+   "episode": 288,
+   "aired": "2022-12-27"
+  },
+  {
+   "id": "the-verdict-1982",
+   "title": "The Verdict",
+   "year": 1982,
+   "poster": "iYEuFP1bpj5yOenKliiRFcNO3VE.jpg",
+   "episode": 286,
+   "aired": "2022-12-13"
+  },
+  {
+   "id": "man-on-fire-2004",
+   "title": "Man on Fire",
+   "year": 2004,
+   "poster": "grCGLCcTHv9TChibzOwzUpykcjB.jpg",
+   "episode": 285,
+   "aired": "2022-12-06"
+  },
+  {
+   "id": "blow-out-1981",
+   "title": "Blow Out",
+   "year": 1981,
+   "poster": "uFzMscVLDrTaYd6KXOXlr6dly7w.jpg",
+   "episode": 282,
+   "aired": "2022-11-15"
+  },
+  {
+   "id": "cruising-1980",
+   "title": "Cruising",
+   "year": 1980,
+   "poster": "bb9CND0WyfwdHOZY5XmP4Qn8taz.jpg",
+   "episode": 281,
+   "aired": "2022-11-08"
+  },
+  {
+   "id": "glengarry-glen-ross-1992",
+   "title": "Glengarry Glen Ross",
+   "year": 1992,
+   "poster": "zcaEDx8KlVfh4vKfMNLhiSi5Oz4.jpg",
+   "episode": 277,
+   "aired": "2022-10-11"
+  },
+  {
+   "id": "boogie-nights-1997",
+   "title": "Boogie Nights",
+   "year": 1997,
+   "poster": "2hVSN9yOfoI8EUTqcVW6zCIyQ1G.jpg",
+   "episode": 275,
+   "aired": "2022-09-27"
+  },
+  {
+   "id": "singles-1992",
+   "title": "Singles",
+   "year": 1992,
+   "poster": "4T7OKBdkNBorRKWw7VSeuA225z1.jpg",
+   "episode": 273,
+   "aired": "2022-09-13"
+  },
+  {
+   "id": "saving-private-ryan-1998",
+   "title": "Saving Private Ryan",
+   "year": 1998,
+   "poster": "uqx37cS8cpHg8U35f9U5IBlrCV3.jpg",
+   "episode": 272,
+   "aired": "2022-09-06"
+  },
+  {
+   "id": "scent-of-a-woman-1992",
+   "title": "Scent of a Woman",
+   "year": 1992,
+   "poster": "4adI7IaveWb7EidYXfLb3MK3CgO.jpg",
+   "episode": 270,
+   "aired": "2022-08-22"
+  },
+  {
+   "id": "unforgiven-1992",
+   "title": "Unforgiven",
+   "year": 1992,
+   "poster": "54roTwbX9fltg85zjsmrooXAs12.jpg",
+   "episode": 266,
+   "aired": "2022-08-01"
+  },
+  {
+   "id": "there-will-be-blood-2007",
+   "title": "There Will Be Blood",
+   "year": 2007,
+   "poster": "fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
+   "episode": 265,
+   "aired": "2022-07-26"
+  },
+  {
+   "id": "top-gun-maverick-2022",
+   "title": "Top Gun: Maverick",
+   "year": 2022,
+   "poster": "n0YuM4f5lvGAP6MAW2kBIzugXnc.jpg",
+   "episode": 263,
+   "aired": "2022-07-12"
+  },
+  {
+   "id": "the-untouchables-1987",
+   "title": "The Untouchables",
+   "year": 1987,
+   "poster": "tPq0R4jTO4Ey8ZspFaWK9wGA4Ls.jpg",
+   "episode": 260,
+   "aired": "2022-06-23"
+  },
+  {
+   "id": "cop-land-1997",
+   "title": "Cop Land",
+   "year": 1997,
+   "poster": "dyOqXyPCQh8VF0KA5aelBCCQond.jpg",
+   "episode": 257,
+   "aired": "2022-06-02"
+  },
+  {
+   "id": "e-t-the-extra-terrestrial-1982",
+   "title": "E.T. the Extra-Terrestrial",
+   "year": 1982,
+   "poster": "an0nD6uq6byfxXCfk6lQBzdL2J1.jpg",
+   "episode": 254,
+   "aired": "2022-05-17"
+  },
+  {
+   "id": "beverly-hills-cop-ii-1987",
+   "title": "Beverly Hills Cop II",
+   "year": 1987,
+   "poster": "egDakU8O5yUwpUJP9IMAUVtIDll.jpg",
+   "episode": 253,
+   "aired": "2022-05-10"
+  },
+  {
+   "id": "austin-powers-international-man-of-mystery-1997",
+   "title": "Austin Powers: International Man of Mystery",
+   "year": 1997,
+   "poster": "5uD4dxNX8JKFjWKYMHyOsqhi5pN.jpg",
+   "episode": 252,
+   "aired": "2022-05-03"
+  },
+  {
+   "id": "die-hard-2-1990",
+   "title": "Die Hard 2",
+   "year": 1990,
+   "poster": "ybki0UWO3OPhaM6MSniuKC7sy1R.jpg",
+   "episode": 248,
+   "aired": "2022-04-05"
+  },
+  {
+   "id": "panic-room-2002",
+   "title": "Panic Room",
+   "year": 2002,
+   "poster": "hANYbvfwxmkC9E4yY6YyJxYxlSJ.jpg",
+   "episode": 247,
+   "aired": "2022-03-29"
+  },
+  {
+   "id": "shooter-2007",
+   "title": "Shooter",
+   "year": 2007,
+   "poster": "2aWGxo1E5polpBjPvtBRkWp7qaS.jpg",
+   "episode": 246,
+   "aired": "2022-03-22"
+  },
+  {
+   "id": "batman-1989",
+   "title": "Batman",
+   "year": 1989,
+   "poster": "cij4dd21v2Rk2YtUQbV5kW69WB2.jpg",
+   "episode": 244,
+   "aired": "2022-03-08"
+  },
+  {
+   "id": "the-ice-storm-1997",
+   "title": "The Ice Storm",
+   "year": 1997,
+   "poster": "3a6uLta7K8Dzojps4RoJAPHD0km.jpg",
+   "episode": 243,
+   "aired": "2022-03-01"
+  },
+  {
+   "id": "parenthood-1989",
+   "title": "Parenthood",
+   "year": 1989,
+   "poster": "29Y6yg0gSurkFYTh54yxDzLBmrT.jpg",
+   "episode": 241,
+   "aired": "2022-02-15"
+  },
+  {
+   "id": "casino-1995",
+   "title": "Casino",
+   "year": 1995,
+   "poster": "gziIkUSnYuj9ChCi8qOu2ZunpSC.jpg",
+   "episode": 238,
+   "aired": "2022-01-25"
+  },
+  {
+   "id": "miracle-2004",
+   "title": "Miracle",
+   "year": 2004,
+   "poster": "mxtej2th8t8x0ufVBTyhsO6Htxj.jpg",
+   "episode": 237,
+   "aired": "2022-01-18"
+  },
+  {
+   "id": "limitless-2011",
+   "title": "Limitless",
+   "year": 2011,
+   "poster": "kCokPP4WCQRrrAuZ7FcpIyHr8b2.jpg",
+   "episode": 235,
+   "aired": "2022-01-04"
+  },
+  {
+   "id": "the-last-boy-scout-1991",
+   "title": "The Last Boy Scout",
+   "year": 1991,
+   "poster": "glPswihcZYoAQ4YM2uJF4UACy8T.jpg",
+   "episode": 233,
+   "aired": "2021-12-14"
+  },
+  {
+   "id": "jfk-1991",
+   "title": "JFK",
+   "year": 1991,
+   "poster": "r0VWVTYlqdRCK5ZoOdNnHdqM2gt.jpg",
+   "episode": 231,
+   "aired": "2021-12-02"
+  },
+  {
+   "id": "heat-1995",
+   "title": "Heat",
+   "year": 1995,
+   "poster": "gKaePbkEkaqvMtw74EyhhkfCKKh.jpg",
+   "episode": 227,
+   "aired": "2021-11-02"
+  },
+  {
+   "id": "halloween-1978",
+   "title": "Halloween",
+   "year": 1978,
+   "poster": "wijlZ3HaYMvlDTPqJoTCWKFkCPU.jpg",
+   "episode": 226,
+   "aired": "2021-10-26"
+  },
+  {
+   "id": "the-color-of-money-1986",
+   "title": "The Color of Money",
+   "year": 1986,
+   "poster": "dVdnHmdQu3JtLAAksjTmTEF76gD.jpg",
+   "episode": 225,
+   "aired": "2021-10-19"
+  },
+  {
+   "id": "the-departed-2006",
+   "title": "The Departed",
+   "year": 2006,
+   "poster": "nT97ifVT2J1yMQmeq20Qblg61T.jpg",
+   "episode": 223,
+   "aired": "2021-10-05"
+  },
+  {
+   "id": "trainspotting-1996",
+   "title": "Trainspotting",
+   "year": 1996,
+   "poster": "1jUC02qsqS2NxBMFarbIhcQtazV.jpg",
+   "episode": 222,
+   "aired": "2021-09-28"
+  },
+  {
+   "id": "rain-man-1988",
+   "title": "Rain Man",
+   "year": 1988,
+   "poster": "iTNHwO896WKkaoPtpMMS74d8VNi.jpg",
+   "episode": 217,
+   "aired": "2021-08-24"
+  },
+  {
+   "id": "argo-2012",
+   "title": "Argo",
+   "year": 2012,
+   "poster": "m5gPWFZFIp4UJFABgWyLkbXv8GX.jpg",
+   "episode": 216,
+   "aired": "2021-08-16"
+  },
+  {
+   "id": "superbad-2007",
+   "title": "Superbad",
+   "year": 2007,
+   "poster": "ek8e8txUyUwd2BNqj6lFEerJfbq.jpg",
+   "episode": 215,
+   "aired": "2021-08-09"
+  },
+  {
+   "id": "escape-to-victory-1981",
+   "title": "Escape to Victory",
+   "year": 1981,
+   "poster": "3j6H0dnbvjNXLK1l9nKguXw5vvO.jpg",
+   "episode": 214,
+   "aired": "2021-08-03"
+  },
+  {
+   "id": "fight-club-1999",
+   "title": "Fight Club",
+   "year": 1999,
+   "poster": "jSziioSwPVrOy9Yow3XhWIBDjq1.jpg",
+   "episode": 212,
+   "aired": "2021-07-20"
+  },
+  {
+   "id": "independence-day-1996",
+   "title": "Independence Day",
+   "year": 1996,
+   "poster": "p0BPQGSPoSa8Ml0DAf2mB2kCU0R.jpg",
+   "episode": 210,
+   "aired": "2021-07-05"
+  },
+  {
+   "id": "city-slickers-1991",
+   "title": "City Slickers",
+   "year": 1991,
+   "poster": "9DVZpm9pQNB3M17cRo752zqUYhL.jpg",
+   "episode": 207,
+   "aired": "2021-06-15"
+  },
+  {
+   "id": "raiders-of-the-lost-ark-1981",
+   "title": "Raiders of the Lost Ark",
+   "year": 1981,
+   "poster": "ceG9VzoRAVGwivFU403Wc3AHRys.jpg",
+   "episode": 206,
+   "aired": "2021-06-08"
+  },
+  {
+   "id": "memento-2000",
+   "title": "Memento",
+   "year": 2000,
+   "poster": "nzlv62aC0octS5AklAiWpXLX9Z0.jpg",
+   "episode": 205,
+   "aired": "2021-06-01"
+  },
+  {
+   "id": "the-rock-1996",
+   "title": "The Rock",
+   "year": 1996,
+   "poster": "eBcoxveWzzXQrCrwWMGAROcqgpP.jpg",
+   "episode": 204,
+   "aired": "2021-05-25"
+  },
+  {
+   "id": "goodfellas-1990",
+   "title": "GoodFellas",
+   "year": 1990,
+   "poster": "9OkCLM73MIU2CrKZbqiT8Ln1wY2.jpg",
+   "episode": 203,
+   "aired": "2021-05-18"
+  },
+  {
+   "id": "lethal-weapon-2-1989",
+   "title": "Lethal Weapon 2",
+   "year": 1989,
+   "poster": "1EEIUw0tkX7AJZ1ikZrtKZZKlC6.jpg",
+   "episode": 202,
+   "aired": "2021-05-11"
+  },
+  {
+   "id": "predator-1987",
+   "title": "Predator",
+   "year": 1987,
+   "poster": "k3mW4qfJo6SKqe6laRyNGnbB9n5.jpg",
+   "episode": 200,
+   "aired": "2021-04-27"
+  },
+  {
+   "id": "manhunter-1986",
+   "title": "Manhunter",
+   "year": 1986,
+   "poster": "6rb24x39vV8n5301IelC8rCPJTH.jpg",
+   "episode": 198,
+   "aired": "2021-04-13"
+  },
+  {
+   "id": "lethal-weapon-1987",
+   "title": "Lethal Weapon",
+   "year": 1987,
+   "poster": "6gt44oqb4nE8vflPElffeGwsHVl.jpg",
+   "episode": 197,
+   "aired": "2021-04-06"
+  },
+  {
+   "id": "thief-1981",
+   "title": "Thief",
+   "year": 1981,
+   "poster": "bpjRGwfYJ71bU0hNhLIz7g3t6Oy.jpg",
+   "episode": 196,
+   "aired": "2021-04-01"
+  },
+  {
+   "id": "insidious-2011",
+   "title": "Insidious",
+   "year": 2011,
+   "poster": "1egpmVXuXed58TH2UOnX1nATTrf.jpg",
+   "episode": 194,
+   "aired": "2021-03-22"
+  },
+  {
+   "id": "inside-man-2006",
+   "title": "Inside Man",
+   "year": 2006,
+   "poster": "ffMUgkDZICNiyaws1Jkv8qG8uFW.jpg",
+   "episode": 193,
+   "aired": "2021-03-14"
+  },
+  {
+   "id": "the-doors-1991",
+   "title": "The Doors",
+   "year": 1991,
+   "poster": "x1LM3dzGuG6xOz0aT2e71o11vhu.jpg",
+   "episode": 191,
+   "aired": "2021-03-01"
+  },
+  {
+   "id": "neighbors-2014",
+   "title": "Neighbors",
+   "year": 2014,
+   "poster": "sN1RU08CMi8xkRIibremh3AOdgw.jpg",
+   "episode": 190,
+   "aired": "2021-02-23"
+  },
+  {
+   "id": "terminator-2-judgment-day-1991",
+   "title": "Terminator 2: Judgment Day",
+   "year": 1991,
+   "poster": "jFTVD4XoWQTcg7wdyJKa8PEds5q.jpg",
+   "episode": 185,
+   "aired": "2021-01-26"
+  },
+  {
+   "id": "the-terminator-1984",
+   "title": "The Terminator",
+   "year": 1984,
+   "poster": "qvktm0BHcnmDpul4Hz01GIazWPr.jpg",
+   "episode": 184,
+   "aired": "2021-01-21"
+  },
+  {
+   "id": "the-royal-tenenbaums-2001",
+   "title": "The Royal Tenenbaums",
+   "year": 2001,
+   "poster": "nG7hZJn7wQTSDCQT39Gy3s3tbrp.jpg",
+   "episode": 182,
+   "aired": "2021-01-12"
+  },
+  {
+   "id": "the-bourne-identity-2002",
+   "title": "The Bourne Identity",
+   "year": 2002,
+   "poster": "aP8swke3gmowbkfZ6lmNidu0y9p.jpg",
+   "episode": 179,
+   "aired": "2020-12-23"
+  },
+  {
+   "id": "8mm-1999",
+   "title": "8MM",
+   "year": 1999,
+   "poster": "mhr9xRpjOBqlBjgDwtiOx6FsLvV.jpg",
+   "episode": 175,
+   "aired": "2020-11-24"
+  },
+  {
+   "id": "home-alone-1990",
+   "title": "Home Alone",
+   "year": 1990,
+   "poster": "onTSipZ8R3bliBdKfPtsDuHTdlL.jpg",
+   "episode": 174,
+   "aired": "2020-11-17"
+  },
+  {
+   "id": "the-exorcist-1973",
+   "title": "The Exorcist",
+   "year": 1973,
+   "poster": "5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg",
+   "episode": 171,
+   "aired": "2020-10-29"
+  },
+  {
+   "id": "spotlight-2015",
+   "title": "Spotlight",
+   "year": 2015,
+   "poster": "8DPGG400FgaFWaqcv11n8mRd2NG.jpg",
+   "episode": 169,
+   "aired": "2020-10-20"
+  },
+  {
+   "id": "the-martian-2015",
+   "title": "The Martian",
+   "year": 2015,
+   "poster": "fASz8A0yFE3QB6LgGoOfwvFSseV.jpg",
+   "episode": 168,
+   "aired": "2020-10-13"
+  },
+  {
+   "id": "kicking-and-screaming-1995",
+   "title": "Kicking and Screaming",
+   "year": 1995,
+   "poster": "ynAtSpTou7snNOq32djzILw9VCA.jpg",
+   "episode": 167,
+   "aired": "2020-10-06"
+  },
+  {
+   "id": "the-game-1997",
+   "title": "The Game",
+   "year": 1997,
+   "poster": "4UOa079915QjiTA2u5hT2yKVgUu.jpg",
+   "episode": 166,
+   "aired": "2020-09-29"
+  },
+  {
+   "id": "se7en-1995",
+   "title": "Se7en",
+   "year": 1995,
+   "poster": "191nKfP0ehp3uIvWqgPbFmI4lv9.jpg",
+   "episode": 165,
+   "aired": "2020-09-22"
+  },
+  {
+   "id": "the-usual-suspects-1995",
+   "title": "The Usual Suspects",
+   "year": 1995,
+   "poster": "99X2SgyFunJFXGAYnDv3sb9pnUD.jpg",
+   "episode": 162,
+   "aired": "2020-09-08"
+  },
+  {
+   "id": "cocktail-1988",
+   "title": "Cocktail",
+   "year": 1988,
+   "poster": "jFRhEPhtsln9tDwzMdZN3OlhUob.jpg",
+   "episode": 160,
+   "aired": "2020-09-01"
+  },
+  {
+   "id": "the-40-year-old-virgin-2005",
+   "title": "The 40 Year-Old Virgin",
+   "year": 2005,
+   "poster": "mVeoqL37gzhMXQVpONi9DGOQ3tZ.jpg",
+   "episode": 159,
+   "aired": "2020-08-25"
+  },
+  {
+   "id": "pump-up-the-volume-1990",
+   "title": "Pump Up the Volume",
+   "year": 1990,
+   "poster": "s1SyKrARJG2R7FyS4zkNdaekLAW.jpg",
+   "episode": 158,
+   "aired": "2020-08-20"
+  },
+  {
+   "id": "the-last-of-the-mohicans-1992",
+   "title": "The Last of the Mohicans",
+   "year": 1992,
+   "poster": "qzJMPWRtZveBkxXOv3ucWhoJuyj.jpg",
+   "episode": 155,
+   "aired": "2020-08-11"
+  },
+  {
+   "id": "ghost-1990",
+   "title": "Ghost",
+   "year": 1990,
+   "poster": "w9RaPHov8oM5cnzeE27isnFMsvS.jpg",
+   "episode": 152,
+   "aired": "2020-07-28"
+  },
+  {
+   "id": "the-conjuring-2013",
+   "title": "The Conjuring",
+   "year": 2013,
+   "poster": "wVYREutTvI2tmxr6ujrHT704wGF.jpg",
+   "episode": 151,
+   "aired": "2020-07-21"
+  },
+  {
+   "id": "stand-by-me-1986",
+   "title": "Stand by Me",
+   "year": 1986,
+   "poster": "vz0w9BSehcqjDcJOjRaCk7fgJe7.jpg",
+   "episode": 149,
+   "aired": "2020-07-14"
+  },
+  {
+   "id": "swingers-1996",
+   "title": "Swingers",
+   "year": 1996,
+   "poster": "rRjWk68kU3a2so4lgr3TKB7Y5vA.jpg",
+   "episode": 148,
+   "aired": "2020-07-09"
+  },
+  {
+   "id": "st-elmos-fire-1985",
+   "title": "St. Elmo's Fire",
+   "year": 1985,
+   "poster": "g2SL3XHJas7hebZ2hhTrYLpKToD.jpg",
+   "episode": 147,
+   "aired": "2020-07-07"
+  },
+  {
+   "id": "the-perfect-storm-2000",
+   "title": "The Perfect Storm",
+   "year": 2000,
+   "poster": "vJPoxqgpfFNbGi0HyoNsjFeLCio.jpg",
+   "episode": 146,
+   "aired": "2020-07-02"
+  },
+  {
+   "id": "fletch-1985",
+   "title": "Fletch",
+   "year": 1985,
+   "poster": "nKDnMvVynvj7lwdv1iAZO1DzTYn.jpg",
+   "episode": 145,
+   "aired": "2020-06-16"
+  },
+  {
+   "id": "say-anything-1989",
+   "title": "Say Anything...",
+   "year": 1989,
+   "poster": "nkucKciFGSRalw6dJtsglWqOXMC.jpg",
+   "episode": 144,
+   "aired": "2020-06-10"
+  },
+  {
+   "id": "armageddon-1998",
+   "title": "Armageddon",
+   "year": 1998,
+   "poster": "eTM3qtGhDU8cvjpoa6KEt5E2auU.jpg",
+   "episode": 142,
+   "aired": "2020-05-21"
+  },
+  {
+   "id": "back-to-the-future-1985",
+   "title": "Back to the Future",
+   "year": 1985,
+   "poster": "vN5B5WgYscRGcQpVhHl6p9DDTP0.jpg",
+   "episode": 141,
+   "aired": "2020-05-19"
+  },
+  {
+   "id": "crimson-tide-1995",
+   "title": "Crimson Tide",
+   "year": 1995,
+   "poster": "21nqRJ6ofEgVvEl68J4O9V26Xzy.jpg",
+   "episode": 139,
+   "aired": "2020-05-12"
+  },
+  {
+   "id": "gladiator-2000",
+   "title": "Gladiator",
+   "year": 2000,
+   "poster": "wN2xWp1eIwCKOD0BHTcErTBv1Uq.jpg",
+   "episode": 137,
+   "aired": "2020-05-05"
+  },
+  {
+   "id": "escape-from-new-york-1981",
+   "title": "Escape from New York",
+   "year": 1981,
+   "poster": "vH9llaphjAssRGi0k7e75tD40Ce.jpg",
+   "episode": 135,
+   "aired": "2020-04-29"
+  },
+  {
+   "id": "ronin-1998",
+   "title": "Ronin",
+   "year": 1998,
+   "poster": "AirrhRJjHwytOV0pdLu7YZ4DEyr.jpg",
+   "episode": 134,
+   "aired": "2020-04-23"
+  },
+  {
+   "id": "ferris-buellers-day-off-1986",
+   "title": "Ferris Bueller's Day Off",
+   "year": 1986,
+   "poster": "9LTQNCvoLsKXP0LtaKAaYVtRaQL.jpg",
+   "episode": 133,
+   "aired": "2020-04-21"
+  },
+  {
+   "id": "basic-instinct-1992",
+   "title": "Basic Instinct",
+   "year": 1992,
+   "poster": "76Ts0yoHk8kVQj9MMnoMixhRWoh.jpg",
+   "episode": 131,
+   "aired": "2020-04-14"
+  },
+  {
+   "id": "enemy-of-the-state-1998",
+   "title": "Enemy of the State",
+   "year": 1998,
+   "poster": "x9pXrMKLsBGGOFyyZ0Gwt9YpVub.jpg",
+   "episode": 130,
+   "aired": "2020-04-09"
+  },
+  {
+   "id": "edge-of-tomorrow-2014",
+   "title": "Edge of Tomorrow",
+   "year": 2014,
+   "poster": "nBM9MMa2WCwvMG4IJ3eiGUdbPe6.jpg",
+   "episode": 125,
+   "aired": "2020-03-23"
+  },
+  {
+   "id": "the-godfather-part-iii-1990",
+   "title": "The Godfather Part III",
+   "year": 1990,
+   "poster": "lm3pQ2QoQ16pextRsmnUbG2onES.jpg",
+   "episode": 123,
+   "aired": "2020-03-17"
+  },
+  {
+   "id": "contagion-2011",
+   "title": "Contagion",
+   "year": 2011,
+   "poster": "qL0IooP0bjXy0KXl9KEyPo22ll0.jpg",
+   "episode": 122,
+   "aired": "2020-03-08"
+  },
+  {
+   "id": "oceans-twelve-2004",
+   "title": "Ocean's Twelve",
+   "year": 2004,
+   "poster": "pE5anFf7nf6ah7V3VRezQ1KSovi.jpg",
+   "episode": 121,
+   "aired": "2020-03-05"
+  },
+  {
+   "id": "vision-quest-1985",
+   "title": "Vision Quest",
+   "year": 1985,
+   "poster": "l3g4e6ocqGA8aNL1hIrIVWLkljL.jpg",
+   "episode": 120,
+   "aired": "2020-02-27"
+  },
+  {
+   "id": "the-breakfast-club-1985",
+   "title": "The Breakfast Club",
+   "year": 1985,
+   "poster": "gp4zlj7wgbiofLMNsTPndMuO3PN.jpg",
+   "episode": 118,
+   "aired": "2020-02-13"
+  },
+  {
+   "id": "once-upon-a-time-in-hollywood-2019",
+   "title": "Once Upon a Time... in Hollywood",
+   "year": 2019,
+   "poster": "8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg",
+   "episode": 117,
+   "aired": "2020-02-06"
+  },
+  {
+   "id": "heat-1995",
+   "title": "Heat",
+   "year": 1995,
+   "poster": "gKaePbkEkaqvMtw74EyhhkfCKKh.jpg",
+   "episode": 116,
+   "aired": "2020-01-24"
+  },
+  {
+   "id": "unstoppable-2010",
+   "title": "Unstoppable",
+   "year": 2010,
+   "poster": "zKvHwL0GqLOear8rTnUPSTRYY0r.jpg",
+   "episode": 114,
+   "aired": "2020-01-09"
+  },
+  {
+   "id": "dunkirk-2017",
+   "title": "Dunkirk",
+   "year": 2017,
+   "poster": "b4Oe15CGLL61Ped0RAS9JpqdmCt.jpg",
+   "episode": 112,
+   "aired": "2019-12-20"
+  },
+  {
+   "id": "the-godfather-part-ii-1974",
+   "title": "The Godfather Part II",
+   "year": 1974,
+   "poster": "sSuQTCZwqKrNBNIsksO9IAUoWP9.jpg",
+   "episode": 111,
+   "aired": "2019-12-16"
+  },
+  {
+   "id": "the-wolf-of-wall-street-2013",
+   "title": "The Wolf of Wall Street",
+   "year": 2013,
+   "poster": "kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg",
+   "episode": 109,
+   "aired": "2019-12-03"
+  },
+  {
+   "id": "skyfall-2012",
+   "title": "Skyfall",
+   "year": 2012,
+   "poster": "d0IVecFQvsGdSbnMAHqiYsNYaJT.jpg",
+   "episode": 108,
+   "aired": "2019-11-20"
+  },
+  {
+   "id": "the-shining-1980",
+   "title": "The Shining",
+   "year": 1980,
+   "poster": "uAR0AWqhQL1hQa69UDEbb2rE5Wx.jpg",
+   "episode": 106,
+   "aired": "2019-10-30"
+  },
+  {
+   "id": "den-of-thieves-2018",
+   "title": "Den of Thieves",
+   "year": 2018,
+   "poster": "dAP5NpkrMMczir5dUPjRR6ywqgz.jpg",
+   "episode": 105,
+   "aired": "2019-10-14"
+  },
+  {
+   "id": "magnolia-1999",
+   "title": "Magnolia",
+   "year": 1999,
+   "poster": "tpfC325Jk6S38VTe5dDWjWtoyxr.jpg",
+   "episode": 103,
+   "aired": "2019-10-10"
+  },
+  {
+   "id": "the-shawshank-redemption-1994",
+   "title": "The Shawshank Redemption",
+   "year": 1994,
+   "poster": "9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
+   "episode": 99,
+   "aired": "2019-09-25"
+  },
+  {
+   "id": "beverly-hills-cop-1984",
+   "title": "Beverly Hills Cop",
+   "year": 1984,
+   "poster": "eBJEvKkhQ0tUt1dBAcTEYW6kCle.jpg",
+   "episode": 97,
+   "aired": "2019-09-16"
+  },
+  {
+   "id": "eyes-wide-shut-1999",
+   "title": "Eyes Wide Shut",
+   "year": 1999,
+   "poster": "knEIz1eNGl5MQDbrEAVWA7iRqF9.jpg",
+   "episode": 95,
+   "aired": "2019-09-05"
+  },
+  {
+   "id": "collateral-2004",
+   "title": "Collateral",
+   "year": 2004,
+   "poster": "nV5316WUsVij8sVXLCF1g7TFitg.jpg",
+   "episode": 89,
+   "aired": "2019-08-06"
+  },
+  {
+   "id": "the-town-2010",
+   "title": "The Town",
+   "year": 2010,
+   "poster": "3NIzyXkfylsjflRKSz8Fts3lXzm.jpg",
+   "episode": 88,
+   "aired": "2019-08-01"
+  },
+  {
+   "id": "reservoir-dogs-1992",
+   "title": "Reservoir Dogs",
+   "year": 1992,
+   "poster": "xi8Iu6qyTfyZVDVy60raIOYJJmk.jpg",
+   "episode": 87,
+   "aired": "2019-07-25"
+  },
+  {
+   "id": "top-gun-1986",
+   "title": "Top Gun",
+   "year": 1986,
+   "poster": "xUuHj3CgmZQ9P2cMaqQs4J0d4Zc.jpg",
+   "episode": 86,
+   "aired": "2019-07-23"
+  },
+  {
+   "id": "inglourious-basterds-2009",
+   "title": "Inglourious Basterds",
+   "year": 2009,
+   "poster": "aupnPtagH9JVBuMrGEanf4iqXEQ.jpg",
+   "episode": 85,
+   "aired": "2019-07-15"
+  },
+  {
+   "id": "no-country-for-old-men-2007",
+   "title": "No Country for Old Men",
+   "year": 2007,
+   "poster": "6d5XOczc226jECq0LIX0siKtgHR.jpg",
+   "episode": 83,
+   "aired": "2019-07-03"
+  },
+  {
+   "id": "the-matrix-1999",
+   "title": "The Matrix",
+   "year": 1999,
+   "poster": "dXNAPwY7VrqMAo51EKhhCJfaGb5.jpg",
+   "episode": 81,
+   "aired": "2019-06-20"
+  },
+  {
+   "id": "the-sixth-sense-1999",
+   "title": "The Sixth Sense",
+   "year": 1999,
+   "poster": "vOyfUXNFSnaTk7Vk5AjpsKTUWsu.jpg",
+   "episode": 80,
+   "aired": "2019-06-13"
+  },
+  {
+   "id": "dead-poets-society-1989",
+   "title": "Dead Poets Society",
+   "year": 1989,
+   "poster": "tNvKkSnnn4Z6RCBThyK1gfCSSvv.jpg",
+   "episode": 79,
+   "aired": "2019-06-11"
+  },
+  {
+   "id": "the-hangover-2009",
+   "title": "The Hangover",
+   "year": 2009,
+   "poster": "A0uS9rHR56FeBtpjVki16M5xxSW.jpg",
+   "episode": 75,
+   "aired": "2019-05-26"
+  },
+  {
+   "id": "the-insider-1999",
+   "title": "The Insider",
+   "year": 1999,
+   "poster": "w695X0FvTlBCS7GSLHNILnrfqPm.jpg",
+   "episode": 74,
+   "aired": "2019-05-23"
+  },
+  {
+   "id": "john-wick-chapter-2-2017",
+   "title": "John Wick: Chapter 2",
+   "year": 2017,
+   "poster": "hXWBc0ioZP3cN4zCu6SN3YHXZVO.jpg",
+   "episode": 72,
+   "aired": "2019-05-13"
+  },
+  {
+   "id": "american-pie-1999",
+   "title": "American Pie",
+   "year": 1999,
+   "poster": "5P68by2Thn8wHAziyWGEw2O7hco.jpg",
+   "episode": 68,
+   "aired": "2019-04-23"
+  },
+  {
+   "id": "field-of-dreams-1989",
+   "title": "Field of Dreams",
+   "year": 1989,
+   "poster": "oeM7nAw6FVFICwUaXKCRkDsKjqO.jpg",
+   "episode": 67,
+   "aired": "2019-04-19"
+  },
+  {
+   "id": "broadcast-news-1987",
+   "title": "Broadcast News",
+   "year": 1987,
+   "poster": "kQNR1Lc0qAF5xuBySpDn481KVjb.jpg",
+   "episode": 63,
+   "aired": "2019-03-11"
+  },
+  {
+   "id": "forgetting-sarah-marshall-2008",
+   "title": "Forgetting Sarah Marshall",
+   "year": 2008,
+   "poster": "d4elOzyhNWVlxpG7BwigrumkFTe.jpg",
+   "episode": 62,
+   "aired": "2019-03-04"
+  },
+  {
+   "id": "reality-bites-1994",
+   "title": "Reality Bites",
+   "year": 1994,
+   "poster": "qGDhodtpkpxkrFqokenGNJlzt6w.jpg",
+   "episode": 61,
+   "aired": "2019-02-26"
+  },
+  {
+   "id": "proof-of-life-2000",
+   "title": "Proof of Life",
+   "year": 2000,
+   "poster": "yw8x2i3vaHZZzpvqvF75E8q2N6M.jpg",
+   "episode": 57,
+   "aired": "2019-01-28"
+  },
+  {
+   "id": "old-school-2003",
+   "title": "Old School",
+   "year": 2003,
+   "poster": "nYtuwNHpEoIbTgS3aFPSEwZNN6l.jpg",
+   "episode": 55,
+   "aired": "2019-01-14"
+  },
+  {
+   "id": "the-godfather-1972",
+   "title": "The Godfather",
+   "year": 1972,
+   "poster": "3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+   "episode": 54,
+   "aired": "2019-01-07"
+  },
+  {
+   "id": "tombstone-1993",
+   "title": "Tombstone",
+   "year": 1993,
+   "poster": "wGFCvylul8iEQhJOKfwZGGvXMzA.jpg",
+   "episode": 53,
+   "aired": "2018-12-24"
+  },
+  {
+   "id": "con-air-1997",
+   "title": "Con Air",
+   "year": 1997,
+   "poster": "kOKjgrEzGOP92rVQ6srA9jtp60l.jpg",
+   "episode": 52,
+   "aired": "2018-12-18"
+  },
+  {
+   "id": "the-firm-1993",
+   "title": "The Firm",
+   "year": 1993,
+   "poster": "kFexXCzidkm4LwlgZqxsJsDQB5v.jpg",
+   "episode": 51,
+   "aired": "2018-12-11"
+  },
+  {
+   "id": "all-the-presidents-men-1976",
+   "title": "All the President's Men",
+   "year": 1976,
+   "poster": "pCe6lfLxt1B58zPD4lgQrlnDS2j.jpg",
+   "episode": 50,
+   "aired": "2018-11-08"
+  },
+  {
+   "id": "dazed-and-confused-1993",
+   "title": "Dazed and Confused",
+   "year": 1993,
+   "poster": "msG9awbLhVZwv1Eh9Ge7SofMexW.jpg",
+   "episode": 49,
+   "aired": "2018-10-02"
+  },
+  {
+   "id": "true-romance-1993",
+   "title": "True Romance",
+   "year": 1993,
+   "poster": "39lXk6ud6KiJgGbbWI2PUKS7y2.jpg",
+   "episode": 48,
+   "aired": "2018-09-20"
+  },
+  {
+   "id": "mad-max-fury-road-2015",
+   "title": "Mad Max: Fury Road",
+   "year": 2015,
+   "poster": "ulcAi4dKpAjHwYGS08vNyx9H6I9.jpg",
+   "episode": 45,
+   "aired": "2018-08-23"
+  },
+  {
+   "id": "wedding-crashers-2005",
+   "title": "Wedding Crashers",
+   "year": 2005,
+   "poster": "lFM3lk2zVzC1YFnKm0r6LbFPyRu.jpg",
+   "episode": 44,
+   "aired": "2018-08-16"
+  },
+  {
+   "id": "die-hard-1988",
+   "title": "Die Hard",
+   "year": 1988,
+   "poster": "7Bjd8kfmDSOzpmhySpEhkUyK2oH.jpg",
+   "episode": 42,
+   "aired": "2018-08-01"
+  },
+  {
+   "id": "mission-impossible-1996",
+   "title": "Mission: Impossible",
+   "year": 1996,
+   "poster": "l5uxY5m5OInWpcExIpKG6AR3rgL.jpg",
+   "episode": 41,
+   "aired": "2018-07-26"
+  },
+  {
+   "id": "midnight-run-1988",
+   "title": "Midnight Run",
+   "year": 1988,
+   "poster": "yx0touyDQ9enWDsFgS4MbBwCSNd.jpg",
+   "episode": 40,
+   "aired": "2018-07-20"
+  },
+  {
+   "id": "step-brothers-2008",
+   "title": "Step Brothers",
+   "year": 2008,
+   "poster": "nvggBbEraUTAVR6ffP3AaBUWSHs.jpg",
+   "episode": 39,
+   "aired": "2018-07-13"
+  },
+  {
+   "id": "jaws-1975",
+   "title": "Jaws",
+   "year": 1975,
+   "poster": "lxM6kqilAdpdhqUl2biYp5frUxE.jpg",
+   "episode": 38,
+   "aired": "2018-07-04"
+  },
+  {
+   "id": "oceans-eleven-2001",
+   "title": "Ocean's Eleven",
+   "year": 2001,
+   "poster": "hQQCdZrsHtZyR6NbKH2YyCqd2fR.jpg",
+   "episode": 34,
+   "aired": "2018-06-07"
+  },
+  {
+   "id": "training-day-2001",
+   "title": "Training Day",
+   "year": 2001,
+   "poster": "bUeiwBQdupBLQthMCHKV7zv56uv.jpg",
+   "episode": 33,
+   "aired": "2018-05-31"
+  },
+  {
+   "id": "the-social-network-2010",
+   "title": "The Social Network",
+   "year": 2010,
+   "poster": "n0ybibhJtQ5icDqTp8eRytcIHJx.jpg",
+   "episode": 32,
+   "aired": "2018-05-24"
+  },
+  {
+   "id": "michael-clayton-2007",
+   "title": "Michael Clayton",
+   "year": 2007,
+   "poster": "hhkW4yVIGo8Bee3UITKvqOvhNMG.jpg",
+   "episode": 30,
+   "aired": "2018-03-29"
+  },
+  {
+   "id": "the-big-lebowski-1998",
+   "title": "The Big Lebowski",
+   "year": 1998,
+   "poster": "3bv6WAp6BSxxYvB5ozKFUYuRA8C.jpg",
+   "episode": 27,
+   "aired": "2018-03-09"
+  },
+  {
+   "id": "miami-vice-2006",
+   "title": "Miami Vice",
+   "year": 2006,
+   "poster": "iJPSls4taB09EUKtLj6FjFSprb3.jpg",
+   "episode": 25,
+   "aired": "2018-02-07"
+  },
+  {
+   "id": "good-will-hunting-1997",
+   "title": "Good Will Hunting",
+   "year": 1997,
+   "poster": "z2FnLKpFi1HPO7BEJxdkv6hpJSU.jpg",
+   "episode": 23,
+   "aired": "2018-01-25"
+  },
+  {
+   "id": "zodiac-2007",
+   "title": "Zodiac",
+   "year": 2007,
+   "poster": "6YmeO4pB7XTh8P8F960O1uA14JO.jpg",
+   "episode": 21,
+   "aired": "2017-12-14"
+  },
+  {
+   "id": "48-hrs-1982",
+   "title": "48 Hrs.",
+   "year": 1982,
+   "poster": "rvvjXHzEDBIvIVDBHNOwHS7hVPu.jpg",
+   "episode": 20,
+   "aired": "2017-12-07"
+  },
+  {
+   "id": "the-dark-knight-2008",
+   "title": "The Dark Knight",
+   "year": 2008,
+   "poster": "qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+   "episode": 18,
+   "aired": "2017-11-16"
+  },
+  {
+   "id": "the-fugitive-1993",
+   "title": "The Fugitive",
+   "year": 1993,
+   "poster": "b3rEtLKyOnF89mcK75GXDXdmOEf.jpg",
+   "episode": 17,
+   "aired": "2017-11-02"
+  },
+  {
+   "id": "face-off-1997",
+   "title": "Face/Off",
+   "year": 1997,
+   "poster": "69Xzn8UdPbVnmqSChKz2RTpoNfB.jpg",
+   "episode": 16,
+   "aired": "2017-10-26"
+  },
+  {
+   "id": "the-silence-of-the-lambs-1991",
+   "title": "The Silence of the Lambs",
+   "year": 1991,
+   "poster": "uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
+   "episode": 11,
+   "aired": "2017-09-14"
+  },
+  {
+   "id": "the-departed-2006",
+   "title": "The Departed",
+   "year": 2006,
+   "poster": "nT97ifVT2J1yMQmeq20Qblg61T.jpg",
+   "episode": 8,
+   "aired": "2017-08-17"
+  },
+  {
+   "id": "a-few-good-men-1992",
+   "title": "A Few Good Men",
+   "year": 1992,
+   "poster": "rLOk4z9zL1tTukIYV56P94aZXKk.jpg",
+   "episode": 7,
+   "aired": "2017-08-10"
+  },
+  {
+   "id": "blue-chips-1994",
+   "title": "Blue Chips",
+   "year": 1994,
+   "poster": "tO71i4Ob64tchCRBB5MoqonPKAF.jpg",
+   "episode": 6,
+   "aired": "2017-03-21"
+  },
+  {
+   "id": "white-men-cant-jump-1992",
+   "title": "White Men Can't Jump",
+   "year": 1992,
+   "poster": "jnI05Z2Cm9ACEJo8FGen7tdHKLl.jpg",
+   "episode": 5,
+   "aired": "2017-02-01"
+  },
+  {
+   "id": "any-given-sunday-1999",
+   "title": "Any Given Sunday",
+   "year": 1999,
+   "poster": "bysZeUvSPZPJnku4qkHF34CdgMG.jpg",
+   "episode": 4,
+   "aired": "2017-01-11"
+  },
+  {
+   "id": "moneyball-2011",
+   "title": "Moneyball",
+   "year": 2011,
+   "poster": "4yIQq1e6iOcaZ5rLDG3lZBP3j7a.jpg",
+   "episode": 3,
+   "aired": "2016-12-29"
+  },
+  {
+   "id": "jerry-maguire-1996",
+   "title": "Jerry Maguire",
+   "year": 1996,
+   "poster": "lABvGN7fDk5ifnwZoxij6G96t2w.jpg",
+   "episode": 2,
+   "aired": "2016-12-23"
+  },
+  {
+   "id": "heat-1995",
+   "title": "Heat",
+   "year": 1995,
+   "poster": "gKaePbkEkaqvMtw74EyhhkfCKKh.jpg",
+   "episode": 1,
+   "aired": "2015-12-22"
+  }
+ ],
+ "company": [
+  {
+   "name": "Sean Fennessey",
+   "id": "sean-fennessey",
+   "episodes": 136
+  },
+  {
+   "name": "Van Lathan",
+   "id": "van-lathan",
+   "episodes": 41
+  },
+  {
+   "name": "Mallory Rubin",
+   "id": "mallory-rubin",
+   "episodes": 17
+  },
+  {
+   "name": "Shea Serrano",
+   "id": "shea-serrano",
+   "episodes": 15
+  },
+  {
+   "name": "Jason Concepcion",
+   "id": "jason-concepcion",
+   "episodes": 12
+  },
+  {
+   "name": "Andy Greenwald",
+   "id": "andy-greenwald",
+   "episodes": 9
+  }
+ ],
+ "regular": true,
+ "lean_floor": 15,
+ "leans": [
+  {
+   "text": "RT +7 pts",
+   "up": true
+  },
+  {
+   "text": "Thriller 44% vs 26%",
+   "up": true
+  },
+  {
+   "text": "Comedy 26% vs 45%",
+   "up": false
+  },
+  {
+   "text": "Romance 12% vs 31%",
+   "up": false
+  },
+  {
+   "text": "Crime 31% vs 20%",
+   "up": true
+  }
+ ],
+ "verdict_floor": 8,
+ "verdicts": {
+  "cruise": 38,
+  "hanks": 35,
+  "ties": 3,
+  "n": 76
+ }
+}

@@ -1,0 +1,328 @@
+{
+ "word": "neo-noir",
+ "id": "neo-noir",
+ "catalogue": 460,
+ "share": 6.3,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.5,
+ "vs_catalogue": 0.5,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 7
+  },
+  {
+   "decade": 1990,
+   "n": 13
+  },
+  {
+   "decade": 2000,
+   "n": 5
+  },
+  {
+   "decade": 2010,
+   "n": 3
+  }
+ ],
+ "peak_share": 45.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "id": "murder"
+  },
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  },
+  {
+   "word": "detective",
+   "reach": 17,
+   "band": "b3",
+   "id": "detective"
+  },
+  {
+   "word": "police",
+   "reach": 22,
+   "band": "b3",
+   "id": "police"
+  },
+  {
+   "word": "whodunit",
+   "reach": 11,
+   "band": "b5",
+   "id": "whodunit"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "bold",
+   "reach": 15,
+   "band": "b4",
+   "id": "bold"
+  },
+  {
+   "word": "fbi",
+   "reach": 20,
+   "band": "b3",
+   "id": "fbi"
+  },
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "id": "new-york-city"
+  },
+  {
+   "word": "psychopath",
+   "reach": 14,
+   "band": "b4",
+   "id": "psychopath"
+  },
+  {
+   "word": "serial killer",
+   "reach": 14,
+   "band": "b4",
+   "id": "serial-killer"
+  },
+  {
+   "word": "drug dealer",
+   "reach": 11,
+   "band": "b5",
+   "id": "drug-dealer"
+  },
+  {
+   "word": "hitman",
+   "reach": 7,
+   "band": "b5",
+   "id": "hitman"
+  },
+  {
+   "word": "revenge",
+   "reach": 31,
+   "band": "b2",
+   "id": "revenge"
+  }
+ ],
+ "films": [
+  {
+   "id": "taxi-driver-1976",
+   "title": "Taxi Driver",
+   "year": 1976,
+   "poster": "ekstpH614fwDX8DUln1a2Opz0N8.jpg",
+   "tmdb": 8.1
+  },
+  {
+   "id": "blow-out-1981",
+   "title": "Blow Out",
+   "year": 1981,
+   "poster": "uFzMscVLDrTaYd6KXOXlr6dly7w.jpg",
+   "tmdb": 7.357
+  },
+  {
+   "id": "body-heat-1981",
+   "title": "Body Heat",
+   "year": 1981,
+   "poster": "5LipPcaW1J9IjAP7TOTesw8OcMS.jpg",
+   "tmdb": 6.981
+  },
+  {
+   "id": "thief-1981",
+   "title": "Thief",
+   "year": 1981,
+   "poster": "bpjRGwfYJ71bU0hNhLIz7g3t6Oy.jpg",
+   "tmdb": 7.231
+  },
+  {
+   "id": "body-double-1984",
+   "title": "Body Double",
+   "year": 1984,
+   "poster": "lRFm5P2AdOGpELwm3HHhmUz6k5I.jpg",
+   "tmdb": 6.741
+  },
+  {
+   "id": "to-live-and-die-in-l-a-1985",
+   "title": "To Live and Die in L.A.",
+   "year": 1985,
+   "poster": "2iW3pSihBIhXjnBQmUJ0mAiZbB5.jpg",
+   "tmdb": 7.117
+  },
+  {
+   "id": "manhunter-1986",
+   "title": "Manhunter",
+   "year": 1986,
+   "poster": "6rb24x39vV8n5301IelC8rCPJTH.jpg",
+   "tmdb": 7.009
+  },
+  {
+   "id": "sea-of-love-1989",
+   "title": "Sea of Love",
+   "year": 1989,
+   "poster": "vJ88WmJ12eAK9CRb3cggn9CJthH.jpg",
+   "tmdb": 6.6
+  },
+  {
+   "id": "the-silence-of-the-lambs-1991",
+   "title": "The Silence of the Lambs",
+   "year": 1991,
+   "poster": "uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
+   "tmdb": 8.345
+  },
+  {
+   "id": "basic-instinct-1992",
+   "title": "Basic Instinct",
+   "year": 1992,
+   "poster": "76Ts0yoHk8kVQj9MMnoMixhRWoh.jpg",
+   "tmdb": 6.946
+  },
+  {
+   "id": "glengarry-glen-ross-1992",
+   "title": "Glengarry Glen Ross",
+   "year": 1992,
+   "poster": "zcaEDx8KlVfh4vKfMNLhiSi5Oz4.jpg",
+   "tmdb": 7.3
+  },
+  {
+   "id": "true-romance-1993",
+   "title": "True Romance",
+   "year": 1993,
+   "poster": "39lXk6ud6KiJgGbbWI2PUKS7y2.jpg",
+   "tmdb": 7.54
+  },
+  {
+   "id": "pulp-fiction-1994",
+   "title": "Pulp Fiction",
+   "year": 1994,
+   "poster": "vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+   "tmdb": 8.48
+  },
+  {
+   "id": "heat-1995",
+   "title": "Heat",
+   "year": 1995,
+   "poster": "gKaePbkEkaqvMtw74EyhhkfCKKh.jpg",
+   "tmdb": 7.945
+  },
+  {
+   "id": "se7en-1995",
+   "title": "Se7en",
+   "year": 1995,
+   "poster": "191nKfP0ehp3uIvWqgPbFmI4lv9.jpg",
+   "tmdb": 8.38
+  },
+  {
+   "id": "the-usual-suspects-1995",
+   "title": "The Usual Suspects",
+   "year": 1995,
+   "poster": "99X2SgyFunJFXGAYnDv3sb9pnUD.jpg",
+   "tmdb": 8.165
+  },
+  {
+   "id": "fargo-1996",
+   "title": "Fargo",
+   "year": 1996,
+   "poster": "rt7cpEr1uP6RTZykBFhBTcRaKvG.jpg",
+   "tmdb": 7.85
+  },
+  {
+   "id": "cop-land-1997",
+   "title": "Cop Land",
+   "year": 1997,
+   "poster": "dyOqXyPCQh8VF0KA5aelBCCQond.jpg",
+   "tmdb": 6.816
+  },
+  {
+   "id": "l-a-confidential-1997",
+   "title": "L.A. Confidential",
+   "year": 1997,
+   "poster": "lWCgf5sD5FpMljjpkRhcC8pXcch.jpg",
+   "tmdb": 7.806
+  },
+  {
+   "id": "rounders-1998",
+   "title": "Rounders",
+   "year": 1998,
+   "poster": "mqbMwYGwIChnaCO55h7v8DG8Wwy.jpg",
+   "tmdb": 7.02
+  },
+  {
+   "id": "the-big-lebowski-1998",
+   "title": "The Big Lebowski",
+   "year": 1998,
+   "poster": "3bv6WAp6BSxxYvB5ozKFUYuRA8C.jpg",
+   "tmdb": 7.834
+  },
+  {
+   "id": "memento-2000",
+   "title": "Memento",
+   "year": 2000,
+   "poster": "nzlv62aC0octS5AklAiWpXLX9Z0.jpg",
+   "tmdb": 8.174
+  },
+  {
+   "id": "training-day-2001",
+   "title": "Training Day",
+   "year": 2001,
+   "poster": "bUeiwBQdupBLQthMCHKV7zv56uv.jpg",
+   "tmdb": 7.528
+  },
+  {
+   "id": "collateral-2004",
+   "title": "Collateral",
+   "year": 2004,
+   "poster": "nV5316WUsVij8sVXLCF1g7TFitg.jpg",
+   "tmdb": 7.249
+  },
+  {
+   "id": "no-country-for-old-men-2007",
+   "title": "No Country for Old Men",
+   "year": 2007,
+   "poster": "6d5XOczc226jECq0LIX0siKtgHR.jpg",
+   "tmdb": 7.95
+  },
+  {
+   "id": "the-dark-knight-2008",
+   "title": "The Dark Knight",
+   "year": 2008,
+   "poster": "qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+   "tmdb": 8.534
+  },
+  {
+   "id": "sicario-2015",
+   "title": "Sicario",
+   "year": 2015,
+   "poster": "lz8vNyXeidqqOdJW9ZjnDAMb5Vr.jpg",
+   "tmdb": 7.427
+  },
+  {
+   "id": "the-nice-guys-2016",
+   "title": "The Nice Guys",
+   "year": 2016,
+   "poster": "clq4So9spa9cXk3MZy2iMdqkxP2.jpg",
+   "tmdb": 7.133
+  },
+  {
+   "id": "john-wick-chapter-2-2017",
+   "title": "John Wick: Chapter 2",
+   "year": 2017,
+   "poster": "hXWBc0ioZP3cN4zCu6SN3YHXZVO.jpg",
+   "tmdb": 7.345
+  }
+ ]
+}

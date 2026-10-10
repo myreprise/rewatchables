@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Van Lathan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": null
   }
@@ -52,187 +61,218 @@
    "word": "murder",
    "reach": 36,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "murder"
   },
   {
    "word": "suspenseful",
    "reach": 30,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "suspenseful"
   },
   {
    "word": "intense",
    "reach": 23,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "intense"
   },
   {
    "word": "drugs",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "drugs"
   },
   {
    "word": "dystopia",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "dystopia"
   },
   {
    "word": "conspiracy",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "conspiracy"
   },
   {
    "word": "washington dc, usa",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "washington-dc-usa"
   },
   {
    "word": "mentor protégé relationship",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mentor-protege-relationship"
   },
   {
    "word": "conspiracy thriller",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "conspiracy-thriller"
   },
   {
    "word": "cyberpunk",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cyberpunk"
   },
   {
    "word": "ex-husband ex-wife relationship",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ex-husband-ex-wife-relationship"
   },
   {
    "word": "paranoid",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "paranoid"
   },
   {
    "word": "biting",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "biting"
   },
   {
    "word": "critical",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "critical"
   },
   {
    "word": "police chase",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "police-chase"
   },
   {
    "word": "police chief",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "police-chief"
   },
   {
    "word": "based on short story",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "based-on-short-story"
   },
   {
    "word": "cyber thriller",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cyber-thriller"
   },
   {
    "word": "futuristic",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "futuristic"
   },
   {
    "word": "hologram",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hologram"
   },
   {
    "word": "psychic vision",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "psychic-vision"
   },
   {
    "word": "surveillance state",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "surveillance-state"
   },
   {
    "word": "tech noir",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "tech-noir"
   },
   {
    "word": "2050s",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "future noir",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "home video",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "loss of child",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "missing son",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "precognition",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "prevention",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "stasis",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

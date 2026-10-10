@@ -1,0 +1,118 @@
+{
+ "word": "morality",
+ "id": "morality",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "ambition",
+   "reach": 4,
+   "band": "b5",
+   "id": "ambition"
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "bias",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "brokerage",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "capitalism",
+   "reach": 5,
+   "band": "b5",
+   "id": "capitalism"
+  },
+  {
+   "word": "crush",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dark comedy",
+   "reach": 10,
+   "band": "b5",
+   "id": "dark-comedy"
+  },
+  {
+   "word": "downsizing",
+   "reach": 2,
+   "band": "b5",
+   "id": "downsizing"
+  },
+  {
+   "word": "economics",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "election",
+   "reach": 2,
+   "band": "b5",
+   "id": "election"
+  },
+  {
+   "word": "feud",
+   "reach": 2,
+   "band": "b5",
+   "id": "feud"
+  },
+  {
+   "word": "financial crisis",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "graduation",
+   "reach": 3,
+   "band": "b5",
+   "id": "graduation"
+  },
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "id": "high-school"
+  }
+ ],
+ "films": [
+  {
+   "id": "election-1999",
+   "title": "Election",
+   "year": 1999,
+   "poster": "fbo0IYzBc32dD5SjFzKIgfp4O4F.jpg",
+   "tmdb": 6.867
+  },
+  {
+   "id": "margin-call-2011",
+   "title": "Margin Call",
+   "year": 2011,
+   "poster": "qtO57obCJuUBS0en3HLgFgZ19Xk.jpg",
+   "tmdb": 6.855
+  }
+ ]
+}

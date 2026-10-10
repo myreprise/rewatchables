@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Sean Fennessey",
-    "Bill Hader"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Bill Hader",
+     "id": "bill-hader"
+    }
    ],
    "note": null
   }
@@ -51,211 +60,246 @@
    "word": "new york city",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "new-york-city"
   },
   {
    "word": "neo-noir",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "neo-noir"
   },
   {
    "word": "antagonistic",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "antagonistic"
   },
   {
    "word": "1970s",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1970s"
   },
   {
    "word": "drug dealer",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drug-dealer"
   },
   {
    "word": "audacious",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "audacious"
   },
   {
    "word": "obsession",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "obsession"
   },
   {
    "word": "manhattan, new york city",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "manhattan-new-york-city"
   },
   {
    "word": "taxi",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "taxi"
   },
   {
    "word": "vietnam veteran",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vietnam-veteran"
   },
   {
    "word": "vigilante",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vigilante"
   },
   {
    "word": "cautionary",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cautionary"
   },
   {
    "word": "dreary",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dreary"
   },
   {
    "word": "callous",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "callous"
   },
   {
    "word": "complex",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "complex"
   },
   {
    "word": "provocative",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "provocative"
   },
   {
    "word": "pimp",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pimp"
   },
   {
    "word": "pornography",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pornography"
   },
   {
    "word": "cynical",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cynical"
   },
   {
    "word": "illegal prostitution",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "illegal-prostitution"
   },
   {
    "word": "loner",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "loner"
   },
   {
    "word": "taxi driver",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "taxi-driver"
   },
   {
    "word": "character study",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "character-study"
   },
   {
    "word": "firearm",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "firearm"
   },
   {
    "word": "misanthrophy",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "misanthrophy"
   },
   {
    "word": "politician",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "politician"
   },
   {
    "word": "alienation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "child prostitution",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "drives",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "junk food",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "meditative",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "new hollywood",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "observer",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "political campaign",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "urban decay",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

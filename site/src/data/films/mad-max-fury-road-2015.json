@@ -39,11 +39,23 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Chris Ryan",
+   "host": {
+    "name": "Chris Ryan",
+    "id": "chris-ryan"
+   },
    "guests": [
-    "Sean Fennessey",
-    "Micah Peters",
-    "Jason Concepcion"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Micah Peters",
+     "id": "micah-peters"
+    },
+    {
+     "name": "Jason Concepcion",
+     "id": "jason-concepcion"
+    }
    ],
    "note": null
   }
@@ -53,115 +65,134 @@
    "word": "sequel",
    "reach": 28,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "sequel"
   },
   {
    "word": "intense",
    "reach": 23,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "intense"
   },
   {
    "word": "dystopia",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "dystopia"
   },
   {
    "word": "survival",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "survival"
   },
   {
    "word": "on the run",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "on-the-run"
   },
   {
    "word": "rescue",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rescue"
   },
   {
    "word": "post-apocalyptic future",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "post-apocalyptic-future"
   },
   {
    "word": "australia",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "australia"
   },
   {
    "word": "dark future",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dark-future"
   },
   {
    "word": "sandstorm",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sandstorm"
   },
   {
    "word": "convoy attack",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "desert wasteland",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "freedom quest",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "high-speed chase",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "modified vehicles",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "peak oil",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "road warfare",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "tyrannical ruler",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "war boys",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

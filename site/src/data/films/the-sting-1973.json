@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": "Tie",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": "Robert Redford month'"
   }
@@ -52,91 +61,106 @@
    "word": "chicago, illinois",
    "reach": 19,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "chicago-illinois"
   },
   {
    "word": "heist",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "heist"
   },
   {
    "word": "mischievous",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mischievous"
   },
   {
    "word": "1930s",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1930s"
   },
   {
    "word": "cautionary",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cautionary"
   },
   {
    "word": "con man",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "con-man"
   },
   {
    "word": "caper",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "caper"
   },
   {
    "word": "bet",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bet"
   },
   {
    "word": "alley",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "horse race",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mafia boss",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "off track betting",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "ragtime",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "repayment",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sting operation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

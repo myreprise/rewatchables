@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Bill's Dad"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Bill's Dad",
+     "id": "bills-dad"
+    }
    ],
    "note": null
   }
@@ -51,109 +60,127 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "friendship",
    "reach": 22,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "friendship"
   },
   {
    "word": "prison",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "prison"
   },
   {
    "word": "corruption",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "corruption"
   },
   {
    "word": "police brutality",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "police-brutality"
   },
   {
    "word": "1940s",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1940s"
   },
   {
    "word": "prison escape",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "prison-escape"
   },
   {
    "word": "framed for murder",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "framed-for-murder"
   },
   {
    "word": "freedom",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "freedom"
   },
   {
    "word": "redemption",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "redemption"
   },
   {
    "word": "hope",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hope"
   },
   {
    "word": "delinquent",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "epic",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "interracial friendship",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "parole board",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "prison cell",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "voiceover",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "wrongful imprisonment",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -39,11 +39,23 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Shea Serrano",
-    "Jason Concepcion",
-    "Mallory Rubin"
+    {
+     "name": "Shea Serrano",
+     "id": "shea-serrano"
+    },
+    {
+     "name": "Jason Concepcion",
+     "id": "jason-concepcion"
+    },
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    }
    ],
    "note": null
   }
@@ -53,43 +65,50 @@
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "american football",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "american-football"
   },
   {
    "word": "texas",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "texas"
   },
   {
    "word": "cheerleader",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cheerleader"
   },
   {
    "word": "small town",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "small-town"
   },
   {
    "word": "high school sports",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "high-school-sports"
   },
   {
    "word": "the big game",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "the-big-game"
   }
  ],
  "cast": [

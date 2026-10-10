@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Sean Fennessey",
+   "host": {
+    "name": "Sean Fennessey",
+    "id": "sean-fennessey"
+   },
    "guests": [
-    "Amanda Dobbins"
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    }
    ],
    "note": "1999 series (Luminary)"
   }
@@ -50,133 +56,155 @@
    "word": "high school",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "high-school"
   },
   {
    "word": "infidelity",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "infidelity"
   },
   {
    "word": "dark comedy",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dark-comedy"
   },
   {
    "word": "satire",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "satire"
   },
   {
    "word": "jealousy",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "jealousy"
   },
   {
    "word": "politics",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "politics"
   },
   {
    "word": "teacher",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "teacher"
   },
   {
    "word": "ambition",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ambition"
   },
   {
    "word": "motel",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "motel"
   },
   {
    "word": "graduation",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "graduation"
   },
   {
    "word": "election",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "election"
   },
   {
    "word": "feud",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "feud"
   },
   {
    "word": "morality",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "morality"
   },
   {
    "word": "scandal",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "scandal"
   },
   {
    "word": "bias",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "crush",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "museum",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "nebraska",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "omaha",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "overachiever",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "trust",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "vandalism",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

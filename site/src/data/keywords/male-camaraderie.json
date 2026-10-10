@@ -1,0 +1,118 @@
+{
+ "word": "male camaraderie",
+ "id": "male-camaraderie",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1990s",
+   "reach": 4,
+   "band": "b5",
+   "id": "1990s"
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "biography",
+   "reach": 10,
+   "band": "b5",
+   "id": "biography"
+  },
+  {
+   "word": "buddy cop",
+   "reach": 11,
+   "band": "b5",
+   "id": "buddy-cop"
+  },
+  {
+   "word": "buddy movie",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "car crash",
+   "reach": 6,
+   "band": "b5",
+   "id": "car-crash"
+  },
+  {
+   "word": "city hall",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "disaster",
+   "reach": 4,
+   "band": "b5",
+   "id": "disaster"
+  },
+  {
+   "word": "drug lord",
+   "reach": 2,
+   "band": "b5",
+   "id": "drug-lord"
+  },
+  {
+   "word": "foot chase",
+   "reach": 3,
+   "band": "b5",
+   "id": "foot-chase"
+  },
+  {
+   "word": "gunfight",
+   "reach": 7,
+   "band": "b5",
+   "id": "gunfight"
+  }
+ ],
+ "films": [
+  {
+   "id": "bad-boys-1995",
+   "title": "Bad Boys",
+   "year": 1995,
+   "poster": "x1ygBecKHfXX4M2kRhmFKWfWbJc.jpg",
+   "tmdb": 6.831
+  },
+  {
+   "id": "the-perfect-storm-2000",
+   "title": "The Perfect Storm",
+   "year": 2000,
+   "poster": "vJPoxqgpfFNbGi0HyoNsjFeLCio.jpg",
+   "tmdb": 6.486
+  }
+ ]
+}

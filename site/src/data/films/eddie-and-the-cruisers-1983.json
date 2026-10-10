@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Van Lathan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": null
   }
@@ -51,31 +60,36 @@
    "word": "singer",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "singer"
   },
   {
    "word": "musician",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "musician"
   },
   {
    "word": "rock 'n' roll",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rock-n-roll"
   },
   {
    "word": "music",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "music"
   },
   {
    "word": "eddie wilson",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

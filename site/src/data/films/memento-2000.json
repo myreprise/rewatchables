@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": null
   }
@@ -50,181 +56,211 @@
    "word": "los angeles, california",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "los-angeles-california"
   },
   {
    "word": "murder",
    "reach": 36,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "murder"
   },
   {
    "word": "revenge",
    "reach": 31,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "revenge"
   },
   {
    "word": "neo-noir",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "neo-noir"
   },
   {
    "word": "bold",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "bold"
   },
   {
    "word": "psychological thriller",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "psychological-thriller"
   },
   {
    "word": "awestruck",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "awestruck"
   },
   {
    "word": "drug dealer",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drug-dealer"
   },
   {
    "word": "whodunit",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "whodunit"
   },
   {
    "word": "flashback",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "flashback"
   },
   {
    "word": "manipulation",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "manipulation"
   },
   {
    "word": "somber",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "somber"
   },
   {
    "word": "paranoid",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "paranoid"
   },
   {
    "word": "bewildered",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bewildered"
   },
   {
    "word": "motel",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "motel"
   },
   {
    "word": "nonlinear timeline",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nonlinear-timeline"
   },
   {
    "word": "waitress",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "waitress"
   },
   {
    "word": "amnesia",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "amnesia"
   },
   {
    "word": "based on short story",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "based-on-short-story"
   },
   {
    "word": "memory",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "memory"
   },
   {
    "word": "memory loss",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "memory-loss"
   },
   {
    "word": "mourning",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mourning"
   },
   {
    "word": "polaroid",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "polaroid"
   },
   {
    "word": "tattoo",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "tattoo"
   },
   {
    "word": "confusion",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "individuality",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "insulin",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "insurance agent",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "phone call",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "reverse chronology",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

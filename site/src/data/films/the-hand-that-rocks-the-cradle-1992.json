@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Joanna Robinson"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Joanna Robinson",
+     "id": "joanna-robinson"
+    }
    ],
    "note": "From Hell' month; despite what Bill says on the pod, Raj didn't write a review but gave it a thumbs up on TV"
   }
@@ -51,73 +60,85 @@
    "word": "suspenseful",
    "reach": 30,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "suspenseful"
   },
   {
    "word": "loss of loved one",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "loss-of-loved-one"
   },
   {
    "word": "frightened",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "frightened"
   },
   {
    "word": "kids",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "kids"
   },
   {
    "word": "nanny",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nanny"
   },
   {
    "word": "rage and hate",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rage-and-hate"
   },
   {
    "word": "destroy",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "destroy"
   },
   {
    "word": "childlessness",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "desire to have children",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "family's daily life",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "infant",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "malice",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

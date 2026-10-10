@@ -1,0 +1,138 @@
+{
+ "word": "casual",
+ "id": "casual",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.0,
+ "vs_catalogue": -0.1,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  }
+ ],
+ "peak_share": 33.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "cliché",
+   "reach": 8,
+   "band": "b5",
+   "id": "cliche"
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "id": "duringcreditsstinger"
+  },
+  {
+   "word": "sports",
+   "reach": 47,
+   "band": "b1",
+   "id": "sports"
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "aftercreditsstinger",
+   "reach": 18,
+   "band": "b3",
+   "id": "aftercreditsstinger"
+  },
+  {
+   "word": "against the odds",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "appreciative",
+   "reach": 6,
+   "band": "b5",
+   "id": "appreciative"
+  },
+  {
+   "word": "assertive",
+   "reach": 9,
+   "band": "b5",
+   "id": "assertive"
+  },
+  {
+   "word": "based on play or musical",
+   "reach": 5,
+   "band": "b5",
+   "id": "based-on-play-or-musical"
+  },
+  {
+   "word": "biography",
+   "reach": 10,
+   "band": "b5",
+   "id": "biography"
+  },
+  {
+   "word": "bloodsport",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bodyguard",
+   "reach": 4,
+   "band": "b5",
+   "id": "bodyguard"
+  },
+  {
+   "word": "breaking the fourth wall",
+   "reach": 5,
+   "band": "b5",
+   "id": "breaking-the-fourth-wall"
+  }
+ ],
+ "films": [
+  {
+   "id": "bloodsport-1988",
+   "title": "Bloodsport",
+   "year": 1988,
+   "poster": "kndxR9TRK0kJ5hxzDprRSS80F2W.jpg",
+   "tmdb": 7.067
+  },
+  {
+   "id": "10-things-i-hate-about-you-1999",
+   "title": "10 Things I Hate About You",
+   "year": 1999,
+   "poster": "ujERk3aKABXU3NDXOAxEQYTHe9A.jpg",
+   "tmdb": 7.597
+  },
+  {
+   "id": "dodgeball-a-true-underdog-story-2004",
+   "title": "DodgeBall: A True Underdog Story",
+   "year": 2004,
+   "poster": "r8KbNHkkwFXLjV1suGwm0Qjure5.jpg",
+   "tmdb": 6.4
+  }
+ ]
+}

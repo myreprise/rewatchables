@@ -1,0 +1,118 @@
+{
+ "word": "america",
+ "id": "america",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1960s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1960s"
+  },
+  {
+   "word": "usa president",
+   "reach": 8,
+   "band": "b5",
+   "id": "usa-president"
+  },
+  {
+   "word": "vietnam war",
+   "reach": 4,
+   "band": "b5",
+   "id": "vietnam-war"
+  },
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1970s"
+  },
+  {
+   "word": "alabama",
+   "reach": 2,
+   "band": "b5",
+   "id": "alabama"
+  },
+  {
+   "word": "ambiguous",
+   "reach": 9,
+   "band": "b5",
+   "id": "ambiguous"
+  },
+  {
+   "word": "antagonistic",
+   "reach": 13,
+   "band": "b4",
+   "id": "antagonistic"
+  },
+  {
+   "word": "anti war protest",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "assassination",
+   "reach": 5,
+   "band": "b5",
+   "id": "assassination"
+  },
+  {
+   "word": "assassination of president",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "autism",
+   "reach": 2,
+   "band": "b5",
+   "id": "autism"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "black panther party",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "jfk-1991",
+   "title": "JFK",
+   "year": 1991,
+   "poster": "r0VWVTYlqdRCK5ZoOdNnHdqM2gt.jpg",
+   "tmdb": 7.593
+  },
+  {
+   "id": "forrest-gump-1994",
+   "title": "Forrest Gump",
+   "year": 1994,
+   "poster": "Cw4hIUIAmSYfK9QfaUW5igp9La.jpg",
+   "tmdb": 8.463
+  }
+ ]
+}

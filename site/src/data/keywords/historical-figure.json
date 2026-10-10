@@ -1,0 +1,118 @@
+{
+ "word": "historical figure",
+ "id": "historical-figure",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1960s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1960s"
+  },
+  {
+   "word": "19th century",
+   "reach": 4,
+   "band": "b5",
+   "id": "19th-century"
+  },
+  {
+   "word": "ambiguous",
+   "reach": 9,
+   "band": "b5",
+   "id": "ambiguous"
+  },
+  {
+   "word": "america",
+   "reach": 2,
+   "band": "b5",
+   "id": "america"
+  },
+  {
+   "word": "antagonistic",
+   "reach": 13,
+   "band": "b4",
+   "id": "antagonistic"
+  },
+  {
+   "word": "arizona",
+   "reach": 2,
+   "band": "b5",
+   "id": "arizona"
+  },
+  {
+   "word": "assassination",
+   "reach": 5,
+   "band": "b5",
+   "id": "assassination"
+  },
+  {
+   "word": "assassination of president",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "central intelligence agency (cia)",
+   "reach": 8,
+   "band": "b5",
+   "id": "central-intelligence-agency-cia"
+  },
+  {
+   "word": "conspiracy",
+   "reach": 13,
+   "band": "b4",
+   "id": "conspiracy"
+  },
+  {
+   "word": "courtroom drama",
+   "reach": 7,
+   "band": "b5",
+   "id": "courtroom-drama"
+  },
+  {
+   "word": "death",
+   "reach": 6,
+   "band": "b5",
+   "id": "death"
+  },
+  {
+   "word": "defiant",
+   "reach": 4,
+   "band": "b5",
+   "id": "defiant"
+  }
+ ],
+ "films": [
+  {
+   "id": "jfk-1991",
+   "title": "JFK",
+   "year": 1991,
+   "poster": "r0VWVTYlqdRCK5ZoOdNnHdqM2gt.jpg",
+   "tmdb": 7.593
+  },
+  {
+   "id": "tombstone-1993",
+   "title": "Tombstone",
+   "year": 1993,
+   "poster": "wGFCvylul8iEQhJOKfwZGGvXMzA.jpg",
+   "tmdb": 7.581
+  }
+ ]
+}

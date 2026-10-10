@@ -1,0 +1,104 @@
+{
+ "name": "Mina Kimes",
+ "id": "mina-kimes",
+ "episodes": 7,
+ "share": 0.0144,
+ "hosted": 0,
+ "first": "2020-08-04",
+ "last": "2026-07-20",
+ "shelf": [
+  {
+   "id": "hitch-2005",
+   "title": "Hitch",
+   "year": 2005,
+   "poster": "x3W9H3nhGQbWSlyI8Amp2F6Z6cz.jpg",
+   "episode": 472,
+   "aired": "2026-07-20"
+  },
+  {
+   "id": "crazy-stupid-love-2011",
+   "title": "Crazy, Stupid, Love.",
+   "year": 2011,
+   "poster": "p4RafgAPk558muOjnBMHhMArjS2.jpg",
+   "episode": 448,
+   "aired": "2026-02-23"
+  },
+  {
+   "id": "its-complicated-2009",
+   "title": "It's Complicated",
+   "year": 2009,
+   "poster": "bmjPrJgrGENFRrERP7lCJ9FGIVB.jpg",
+   "episode": 414,
+   "aired": "2025-07-14"
+  },
+  {
+   "id": "the-rock-1996",
+   "title": "The Rock",
+   "year": 1996,
+   "poster": "eBcoxveWzzXQrCrwWMGAROcqgpP.jpg",
+   "episode": 204,
+   "aired": "2021-05-25"
+  },
+  {
+   "id": "bridesmaids-2011",
+   "title": "Bridesmaids",
+   "year": 2011,
+   "poster": "gJtA7hYsBMQ7EM3sPBMUdBfU7a0.jpg",
+   "episode": 181,
+   "aired": "2021-01-05"
+  },
+  {
+   "id": "home-alone-1990",
+   "title": "Home Alone",
+   "year": 1990,
+   "poster": "onTSipZ8R3bliBdKfPtsDuHTdlL.jpg",
+   "episode": 174,
+   "aired": "2020-11-17"
+  },
+  {
+   "id": "the-sandlot-1993",
+   "title": "The Sandlot",
+   "year": 1993,
+   "poster": "7PYqz0viEuW8qTvuGinUMjDWMnj.jpg",
+   "episode": 153,
+   "aired": "2020-08-04"
+  }
+ ],
+ "company": [
+  {
+   "name": "Chris Ryan",
+   "id": "chris-ryan",
+   "episodes": 2
+  },
+  {
+   "name": "Van Lathan",
+   "id": "van-lathan",
+   "episodes": 2
+  },
+  {
+   "name": "Mallory Rubin",
+   "id": "mallory-rubin",
+   "episodes": 2
+  },
+  {
+   "name": "Sean Fennessey",
+   "id": "sean-fennessey",
+   "episodes": 1
+  },
+  {
+   "name": "Amanda Dobbins",
+   "id": "amanda-dobbins",
+   "episodes": 1
+  }
+ ],
+ "regular": false,
+ "lean_floor": 15,
+ "leans": [],
+ "verdict_floor": 8,
+ "verdicts": {
+  "cruise": 2,
+  "hanks": 1,
+  "ties": 0,
+  "n": 3
+ }
+}

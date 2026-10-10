@@ -1,0 +1,152 @@
+{
+ "word": "home invasion",
+ "id": "home-invasion",
+ "catalogue": 460,
+ "share": 1.1,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.0,
+ "vs_catalogue": -0.1,
+ "decades": [
+  {
+   "decade": 1990,
+   "n": 3
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 60.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "burglar",
+   "reach": 4,
+   "band": "b5",
+   "id": "burglar"
+  },
+  {
+   "word": "child rescue",
+   "reach": 2,
+   "band": "b5",
+   "id": "child-rescue"
+  },
+  {
+   "word": "christmas",
+   "reach": 14,
+   "band": "b4",
+   "id": "christmas"
+  },
+  {
+   "word": "family relationships",
+   "reach": 7,
+   "band": "b5",
+   "id": "family-relationships"
+  },
+  {
+   "word": "holiday",
+   "reach": 9,
+   "band": "b5",
+   "id": "holiday"
+  },
+  {
+   "word": "home alone",
+   "reach": 2,
+   "band": "b5",
+   "id": "home-alone"
+  },
+  {
+   "word": "kids on their own",
+   "reach": 2,
+   "band": "b5",
+   "id": "kids-on-their-own"
+  },
+  {
+   "word": "little boy",
+   "reach": 2,
+   "band": "b5",
+   "id": "little-boy"
+  },
+  {
+   "word": "mischievous child",
+   "reach": 2,
+   "band": "b5",
+   "id": "mischievous-child"
+  },
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "id": "new-york-city"
+  },
+  {
+   "word": "precocious child",
+   "reach": 2,
+   "band": "b5",
+   "id": "precocious-child"
+  },
+  {
+   "word": "shocking",
+   "reach": 7,
+   "band": "b5",
+   "id": "shocking"
+  },
+  {
+   "word": "slapstick comedy",
+   "reach": 4,
+   "band": "b5",
+   "id": "slapstick-comedy"
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  }
+ ],
+ "films": [
+  {
+   "id": "home-alone-1990",
+   "title": "Home Alone",
+   "year": 1990,
+   "poster": "onTSipZ8R3bliBdKfPtsDuHTdlL.jpg",
+   "tmdb": 7.469
+  },
+  {
+   "id": "home-alone-2-lost-in-new-york-1992",
+   "title": "Home Alone 2: Lost in New York",
+   "year": 1992,
+   "poster": "uuitWHpJwxD1wruFl2nZHIb4UGN.jpg",
+   "tmdb": 6.793
+  },
+  {
+   "id": "the-fugitive-1993",
+   "title": "The Fugitive",
+   "year": 1993,
+   "poster": "b3rEtLKyOnF89mcK75GXDXdmOEf.jpg",
+   "tmdb": 7.486
+  },
+  {
+   "id": "panic-room-2002",
+   "title": "Panic Room",
+   "year": 2002,
+   "poster": "hANYbvfwxmkC9E4yY6YyJxYxlSJ.jpg",
+   "tmdb": 6.795
+  },
+  {
+   "id": "the-purge-2013",
+   "title": "The Purge",
+   "year": 2013,
+   "poster": "46X1ei9uf13nkkr0OhWldGyr5Uh.jpg",
+   "tmdb": 6.246
+  }
+ ]
+}

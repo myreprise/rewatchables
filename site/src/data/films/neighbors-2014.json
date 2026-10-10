@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -50,79 +59,92 @@
    "word": "family",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "family"
   },
   {
    "word": "house party",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "house-party"
   },
   {
    "word": "fraternity",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fraternity"
   },
   {
    "word": "fraternity house",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fraternity-house"
   },
   {
    "word": "new neighbor",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "new-neighbor"
   },
   {
    "word": "parenting",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "parenting"
   },
   {
    "word": "baby",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "bathroom humor",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "neighbor neighbor relationship",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "partying",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "pranks",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "routine",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "stay-at-home mom",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

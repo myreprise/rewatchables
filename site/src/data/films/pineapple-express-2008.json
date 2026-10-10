@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Craig Horlbeck",
+   "host": {
+    "name": "Craig Horlbeck",
+    "id": "craig-horlbeck"
+   },
    "guests": [
-    "Danny Kelly",
-    "Danny Heifetz"
+    {
+     "name": "Danny Kelly",
+     "id": "danny-kelly"
+    },
+    {
+     "name": "Danny Heifetz",
+     "id": "danny-heifetz"
+    }
    ],
    "note": null
   }
@@ -52,61 +61,71 @@
    "word": "marijuana",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "marijuana"
   },
   {
    "word": "smoking",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "smoking"
   },
   {
    "word": "stoner",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "stoner"
   },
   {
    "word": "witness",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "witness"
   },
   {
    "word": "cannabis",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "painting toenails",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "radio call in show",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "roach",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "seed",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "stoner movie",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

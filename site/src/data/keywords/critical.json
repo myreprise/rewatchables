@@ -1,0 +1,145 @@
+{
+ "word": "critical",
+ "id": "critical",
+ "catalogue": 460,
+ "share": 0.9,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.3,
+ "vs_catalogue": 0.2,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 2
+  },
+  {
+   "decade": 1990,
+   "n": 0
+  },
+  {
+   "decade": 2000,
+   "n": 2
+  }
+ ],
+ "peak_share": 50.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "assertive",
+   "reach": 9,
+   "band": "b5",
+   "id": "assertive"
+  },
+  {
+   "word": "commanding",
+   "reach": 7,
+   "band": "b5",
+   "id": "commanding"
+  },
+  {
+   "word": "provocative",
+   "reach": 5,
+   "band": "b5",
+   "id": "provocative"
+  },
+  {
+   "word": "suspenseful",
+   "reach": 30,
+   "band": "b2",
+   "id": "suspenseful"
+  },
+  {
+   "word": "2050s",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "action horror",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "alien",
+   "reach": 9,
+   "band": "b5",
+   "id": "alien"
+  },
+  {
+   "word": "ambiguous",
+   "reach": 9,
+   "band": "b5",
+   "id": "ambiguous"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "android",
+   "reach": 4,
+   "band": "b5",
+   "id": "android"
+  },
+  {
+   "word": "audacious",
+   "reach": 10,
+   "band": "b5",
+   "id": "audacious"
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "based on short story",
+   "reach": 2,
+   "band": "b5",
+   "id": "based-on-short-story"
+  }
+ ],
+ "films": [
+  {
+   "id": "thief-1981",
+   "title": "Thief",
+   "year": 1981,
+   "poster": "bpjRGwfYJ71bU0hNhLIz7g3t6Oy.jpg",
+   "tmdb": 7.231
+  },
+  {
+   "id": "aliens-1986",
+   "title": "Aliens",
+   "year": 1986,
+   "poster": "r1x5JGpyqZU8PYhbs4UcrO1Xb6x.jpg",
+   "tmdb": 7.966
+  },
+  {
+   "id": "minority-report-2002",
+   "title": "Minority Report",
+   "year": 2002,
+   "poster": "qtgFcnwh9dAFLocsDk2ySDVS8UF.jpg",
+   "tmdb": 7.355
+  },
+  {
+   "id": "tropic-thunder-2008",
+   "title": "Tropic Thunder",
+   "year": 2008,
+   "poster": "zAurB9mNxfYRoVrVjAJJwGV3sPg.jpg",
+   "tmdb": 6.725
+  }
+ ]
+}

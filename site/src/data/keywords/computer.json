@@ -1,0 +1,118 @@
+{
+ "word": "computer",
+ "id": "computer",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "terrorism",
+   "reach": 15,
+   "band": "b4",
+   "id": "terrorism"
+  },
+  {
+   "word": "agent",
+   "reach": 3,
+   "band": "b5",
+   "id": "agent"
+  },
+  {
+   "word": "anti hero",
+   "reach": 8,
+   "band": "b5",
+   "id": "anti-hero"
+  },
+  {
+   "word": "arms deal",
+   "reach": 2,
+   "band": "b5",
+   "id": "arms-deal"
+  },
+  {
+   "word": "based on tv series",
+   "reach": 3,
+   "band": "b5",
+   "id": "based-on-tv-series"
+  },
+  {
+   "word": "betrayal",
+   "reach": 9,
+   "band": "b5",
+   "id": "betrayal"
+  },
+  {
+   "word": "cat and mouse",
+   "reach": 2,
+   "band": "b5",
+   "id": "cat-and-mouse"
+  },
+  {
+   "word": "central intelligence agency (cia)",
+   "reach": 8,
+   "band": "b5",
+   "id": "central-intelligence-agency-cia"
+  },
+  {
+   "word": "chinese military",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "computer virus",
+   "reach": 2,
+   "band": "b5",
+   "id": "computer-virus"
+  },
+  {
+   "word": "conspiracy",
+   "reach": 13,
+   "band": "b4",
+   "id": "conspiracy"
+  },
+  {
+   "word": "cyber terrorism",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "cyber thriller",
+   "reach": 2,
+   "band": "b5",
+   "id": "cyber-thriller"
+  },
+  {
+   "word": "cybercrime",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "mission-impossible-1996",
+   "title": "Mission: Impossible",
+   "year": 1996,
+   "poster": "l5uxY5m5OInWpcExIpKG6AR3rgL.jpg",
+   "tmdb": 7.027
+  },
+  {
+   "id": "blackhat-2015",
+   "title": "Blackhat",
+   "year": 2015,
+   "poster": "7zu6HPnKPjNA7NuR4DGRdaH0PdX.jpg",
+   "tmdb": 5.522
+  }
+ ]
+}

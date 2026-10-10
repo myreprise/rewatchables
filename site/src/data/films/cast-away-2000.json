@@ -38,7 +38,10 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [],
    "note": null
   }
@@ -48,91 +51,106 @@
    "word": "intense",
    "reach": 23,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "intense"
   },
   {
    "word": "bold",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "bold"
   },
   {
    "word": "survival",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "survival"
   },
   {
    "word": "loneliness",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "loneliness"
   },
   {
    "word": "melodramatic",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "melodramatic"
   },
   {
    "word": "suicide attempt",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "suicide-attempt"
   },
   {
    "word": "airplane crash",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "airplane-crash"
   },
   {
    "word": "exotic island",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "exotic-island"
   },
   {
    "word": "volleyball",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "volleyball"
   },
   {
    "word": "castaway",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "deserted island",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "presumed dead",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "remarriage",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "south pacific",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "tropical island",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

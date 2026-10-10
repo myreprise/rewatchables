@@ -1,0 +1,36 @@
+{
+ "name": "Steven Spielberg",
+ "id": "steven-spielberg",
+ "episodes": 1,
+ "share": 0.0021,
+ "hosted": 0,
+ "first": "2026-05-31",
+ "last": "2026-05-31",
+ "shelf": [
+  {
+   "id": "2001-a-space-odyssey-1968",
+   "title": "2001: A Space Odyssey",
+   "year": 1968,
+   "poster": "ve72VxNqjGM69Uky4WTo2bK6rfq.jpg",
+   "episode": 463,
+   "aired": "2026-05-31"
+  }
+ ],
+ "company": [
+  {
+   "name": "Sean Fennessey",
+   "id": "sean-fennessey",
+   "episodes": 1
+  }
+ ],
+ "regular": false,
+ "lean_floor": 15,
+ "leans": [],
+ "verdict_floor": 8,
+ "verdicts": {
+  "cruise": 0,
+  "hanks": 1,
+  "ties": 0,
+  "n": 1
+ }
+}

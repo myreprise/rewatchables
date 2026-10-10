@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Mallory Rubin"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    }
    ],
    "note": null
   },
@@ -54,11 +63,23 @@
    "revisit_kind": "regular",
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Van Lathan",
-    "Mallory Rubin"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    },
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    }
    ],
    "note": null
   }
@@ -68,145 +89,169 @@
    "word": "neo-noir",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "neo-noir"
   },
   {
    "word": "police",
    "reach": 22,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "police"
   },
   {
    "word": "detective",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "detective"
   },
   {
    "word": "california",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "california"
   },
   {
    "word": "psychopath",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "psychopath"
   },
   {
    "word": "dying and death",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "dying-and-death"
   },
   {
    "word": "san francisco, california",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "san-francisco-california"
   },
   {
    "word": "jealousy",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "jealousy"
   },
   {
    "word": "erotic thriller",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "erotic-thriller"
   },
   {
    "word": "femme fatale",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "femme-fatale"
   },
   {
    "word": "sadism",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sadism"
   },
   {
    "word": "celebrity",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "celebrity"
   },
   {
    "word": "eroticism",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "eroticism"
   },
   {
    "word": "sociopath",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sociopath"
   },
   {
    "word": "sexual obsession",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sexual-obsession"
   },
   {
    "word": "american giallo",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "american-giallo"
   },
   {
    "word": "suspicion of murder",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "suspicion-of-murder"
   },
   {
    "word": "killed during sex",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "killed-during-sex"
   },
   {
    "word": "lover",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lover"
   },
   {
    "word": "manipulative woman",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "manipulative-woman"
   },
   {
    "word": "bisexuality",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "book writing",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "dead",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "striptease",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

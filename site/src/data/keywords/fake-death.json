@@ -1,0 +1,118 @@
+{
+ "word": "fake death",
+ "id": "fake-death",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "assassin",
+   "reach": 8,
+   "band": "b5",
+   "id": "assassin"
+  },
+  {
+   "word": "beach house",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "black ops",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "blind mother",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "call girl",
+   "reach": 3,
+   "band": "b5",
+   "id": "call-girl"
+  },
+  {
+   "word": "callous",
+   "reach": 5,
+   "band": "b5",
+   "id": "callous"
+  },
+  {
+   "word": "cape cod",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "commando",
+   "reach": 4,
+   "band": "b5",
+   "id": "commando"
+  },
+  {
+   "word": "corruption",
+   "reach": 12,
+   "band": "b4",
+   "id": "corruption"
+  },
+  {
+   "word": "domestic abuse",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "domestic violence",
+   "reach": 3,
+   "band": "b5",
+   "id": "domestic-violence"
+  },
+  {
+   "word": "drama teacher",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "drowning",
+   "reach": 2,
+   "band": "b5",
+   "id": "drowning"
+  },
+  {
+   "word": "escape",
+   "reach": 7,
+   "band": "b5",
+   "id": "escape"
+  }
+ ],
+ "films": [
+  {
+   "id": "sleeping-with-the-enemy-1991",
+   "title": "Sleeping with the Enemy",
+   "year": 1991,
+   "poster": "zaUkndJP8IClB1gMsbw13PoVeLS.jpg",
+   "tmdb": 6.517
+  },
+  {
+   "id": "the-equalizer-2014",
+   "title": "The Equalizer",
+   "year": 2014,
+   "poster": "9u4yW7yPA0BQ2pv9XwiNzItwvp8.jpg",
+   "tmdb": 7.292
+  }
+ ]
+}

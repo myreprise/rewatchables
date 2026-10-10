@@ -1,0 +1,262 @@
+{
+ "word": "chicago, illinois",
+ "id": "chicago-illinois",
+ "catalogue": 460,
+ "share": 4.1,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.1,
+ "vs_catalogue": 0.0,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 11
+  },
+  {
+   "decade": 1990,
+   "n": 5
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  },
+  {
+   "decade": 2010,
+   "n": 0
+  },
+  {
+   "decade": 2020,
+   "n": 1
+  }
+ ],
+ "peak_share": 58.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "aftercreditsstinger",
+   "reach": 18,
+   "band": "b3",
+   "id": "aftercreditsstinger"
+  },
+  {
+   "word": "1930s",
+   "reach": 6,
+   "band": "b5",
+   "id": "1930s"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "id": "high-school"
+  },
+  {
+   "word": "suspenseful",
+   "reach": 30,
+   "band": "b2",
+   "id": "suspenseful"
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  },
+  {
+   "word": "breaking the fourth wall",
+   "reach": 5,
+   "band": "b5",
+   "id": "breaking-the-fourth-wall"
+  },
+  {
+   "word": "buddy",
+   "reach": 14,
+   "band": "b4",
+   "id": "buddy"
+  },
+  {
+   "word": "caper",
+   "reach": 4,
+   "band": "b5",
+   "id": "caper"
+  },
+  {
+   "word": "chase",
+   "reach": 7,
+   "band": "b5",
+   "id": "chase"
+  },
+  {
+   "word": "church",
+   "reach": 4,
+   "band": "b5",
+   "id": "church"
+  },
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "id": "coming-of-age"
+  },
+  {
+   "word": "flashback",
+   "reach": 9,
+   "band": "b5",
+   "id": "flashback"
+  },
+  {
+   "word": "gangster",
+   "reach": 18,
+   "band": "b3",
+   "id": "gangster"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-sting-1973",
+   "title": "The Sting",
+   "year": 1973,
+   "poster": "ckmYng37zey8INYf6d10cVgIG93.jpg",
+   "tmdb": 8.0
+  },
+  {
+   "id": "airplane-1980",
+   "title": "Airplane!",
+   "year": 1980,
+   "poster": "7Q3efxd3AF1vQjlSxnlerSA7RzN.jpg",
+   "tmdb": 7.3
+  },
+  {
+   "id": "ordinary-people-1980",
+   "title": "Ordinary People",
+   "year": 1980,
+   "poster": "tJVETEDAKgD3fEh88SHOvMvOQue.jpg",
+   "tmdb": 7.44
+  },
+  {
+   "id": "the-blues-brothers-1980",
+   "title": "The Blues Brothers",
+   "year": 1980,
+   "poster": "b0hq1d2d7FIvRGNLewKLm79JNTK.jpg",
+   "tmdb": 7.716
+  },
+  {
+   "id": "thief-1981",
+   "title": "Thief",
+   "year": 1981,
+   "poster": "bpjRGwfYJ71bU0hNhLIz7g3t6Oy.jpg",
+   "tmdb": 7.231
+  },
+  {
+   "id": "risky-business-1983",
+   "title": "Risky Business",
+   "year": 1983,
+   "poster": "82KOHShH9raGhkcAN3TztVjqjj3.jpg",
+   "tmdb": 6.587
+  },
+  {
+   "id": "weird-science-1985",
+   "title": "Weird Science",
+   "year": 1985,
+   "poster": "AsFxOHwUlK7mTOkC5p6SySsdEjz.jpg",
+   "tmdb": 6.534
+  },
+  {
+   "id": "about-last-night-1986",
+   "title": "About Last Night...",
+   "year": 1986,
+   "poster": "9KqG5OFi3NLJYBbsDSA8pZ3dln.jpg",
+   "tmdb": 6.1
+  },
+  {
+   "id": "ferris-buellers-day-off-1986",
+   "title": "Ferris Bueller's Day Off",
+   "year": 1986,
+   "poster": "9LTQNCvoLsKXP0LtaKAaYVtRaQL.jpg",
+   "tmdb": 7.562
+  },
+  {
+   "id": "running-scared-1986",
+   "title": "Running Scared",
+   "year": 1986,
+   "poster": "nSiRjhc7aTVPonXAhmTZAPqd2jT.jpg",
+   "tmdb": 6.095
+  },
+  {
+   "id": "planes-trains-and-automobiles-1987",
+   "title": "Planes, Trains and Automobiles",
+   "year": 1987,
+   "poster": "fwi2cET87xArJCb8MdbWq2BZO3n.jpg",
+   "tmdb": 7.251
+  },
+  {
+   "id": "the-untouchables-1987",
+   "title": "The Untouchables",
+   "year": 1987,
+   "poster": "tPq0R4jTO4Ey8ZspFaWK9wGA4Ls.jpg",
+   "tmdb": 7.8
+  },
+  {
+   "id": "the-fugitive-1993",
+   "title": "The Fugitive",
+   "year": 1993,
+   "poster": "b3rEtLKyOnF89mcK75GXDXdmOEf.jpg",
+   "tmdb": 7.486
+  },
+  {
+   "id": "while-you-were-sleeping-1995",
+   "title": "While You Were Sleeping",
+   "year": 1995,
+   "poster": "qNGO3ETcNwlWqK2kNRpbJSJRlos.jpg",
+   "tmdb": 7.035
+  },
+  {
+   "id": "primal-fear-1996",
+   "title": "Primal Fear",
+   "year": 1996,
+   "poster": "qJf2TzE8nRTFbFMPJNW6c8mI0KU.jpg",
+   "tmdb": 7.659
+  },
+  {
+   "id": "my-best-friends-wedding-1997",
+   "title": "My Best Friend's Wedding",
+   "year": 1997,
+   "poster": "b5g4bp8gS5ovMyR5439AII6zQ3n.jpg",
+   "tmdb": 6.563
+  },
+  {
+   "id": "never-been-kissed-1999",
+   "title": "Never Been Kissed",
+   "year": 1999,
+   "poster": "6BngDhDNfbBjhVFWDT2yMve32vi.jpg",
+   "tmdb": 6.161
+  },
+  {
+   "id": "high-fidelity-2000",
+   "title": "High Fidelity",
+   "year": 2000,
+   "poster": "e2LZGB62GMhv3Fo8tDZjY87I81a.jpg",
+   "tmdb": 7.1
+  },
+  {
+   "id": "sinners-2025",
+   "title": "Sinners",
+   "year": 2025,
+   "poster": "fWPgbnt2LSqkQ6cdQc0SZN9CpLm.jpg",
+   "tmdb": 7.512
+  }
+ ]
+}

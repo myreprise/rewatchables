@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Sean Fennessey"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -50,139 +56,162 @@
    "word": "los angeles, california",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "los-angeles-california"
   },
   {
    "word": "amused",
    "reach": 26,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "amused"
   },
   {
    "word": "romantic",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "romantic"
   },
   {
    "word": "romcom",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "romcom"
   },
   {
    "word": "opposites attract",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "opposites-attract"
   },
   {
    "word": "art gallery",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "art-gallery"
   },
   {
    "word": "beach",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "beach"
   },
   {
    "word": "bride",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bride"
   },
   {
    "word": "chance",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "chance"
   },
   {
    "word": "long island, new york",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "long-island-new-york"
   },
   {
    "word": "neurotic",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "neurotic"
   },
   {
    "word": "scuba diving",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "scuba-diving"
   },
   {
    "word": "bagpipe",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "caribbean sea",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "chance meeting",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "commitment",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "dance class",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "dance club",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "ferret",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "honeymoon",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "insurance risk manager",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "risk",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "unfaithfulness",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

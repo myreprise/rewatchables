@@ -1,0 +1,118 @@
+{
+ "word": "babysitter",
+ "id": "babysitter",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "divorcee",
+   "reach": 3,
+   "band": "b5",
+   "id": "divorcee"
+  },
+  {
+   "word": "escaped killer",
+   "reach": 2,
+   "band": "b5",
+   "id": "escaped-killer"
+  },
+  {
+   "word": "evil",
+   "reach": 5,
+   "band": "b5",
+   "id": "evil"
+  },
+  {
+   "word": "family",
+   "reach": 7,
+   "band": "b5",
+   "id": "family"
+  },
+  {
+   "word": "friendship",
+   "reach": 22,
+   "band": "b3",
+   "id": "friendship"
+  },
+  {
+   "word": "halloween",
+   "reach": 7,
+   "band": "b5",
+   "id": "halloween"
+  },
+  {
+   "word": "killing spree",
+   "reach": 3,
+   "band": "b5",
+   "id": "killing-spree"
+  },
+  {
+   "word": "law school",
+   "reach": 3,
+   "band": "b5",
+   "id": "law-school"
+  },
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  },
+  {
+   "word": "love affair",
+   "reach": 3,
+   "band": "b5",
+   "id": "love-affair"
+  },
+  {
+   "word": "maniac",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "marijuana",
+   "reach": 10,
+   "band": "b5",
+   "id": "marijuana"
+  },
+  {
+   "word": "marriage crisis",
+   "reach": 7,
+   "band": "b5",
+   "id": "marriage-crisis"
+  },
+  {
+   "word": "mask",
+   "reach": 5,
+   "band": "b5",
+   "id": "mask"
+  }
+ ],
+ "films": [
+  {
+   "id": "halloween-1978",
+   "title": "Halloween",
+   "year": 1978,
+   "poster": "wijlZ3HaYMvlDTPqJoTCWKFkCPU.jpg",
+   "tmdb": 7.557
+  },
+  {
+   "id": "crazy-stupid-love-2011",
+   "title": "Crazy, Stupid, Love.",
+   "year": 2011,
+   "poster": "p4RafgAPk558muOjnBMHhMArjS2.jpg",
+   "tmdb": 7.277
+  }
+ ]
+}

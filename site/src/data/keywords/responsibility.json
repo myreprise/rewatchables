@@ -1,0 +1,118 @@
+{
+ "word": "responsibility",
+ "id": "responsibility",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "apologetic",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bachelor",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "child's point of view",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "custody battle",
+   "reach": 3,
+   "band": "b5",
+   "id": "custody-battle"
+  },
+  {
+   "word": "divorced couple",
+   "reach": 2,
+   "band": "b5",
+   "id": "divorced-couple"
+  },
+  {
+   "word": "enchant",
+   "reach": 3,
+   "band": "b5",
+   "id": "enchant"
+  },
+  {
+   "word": "fake identity",
+   "reach": 7,
+   "band": "b5",
+   "id": "fake-identity"
+  },
+  {
+   "word": "frustrated",
+   "reach": 3,
+   "band": "b5",
+   "id": "frustrated"
+  },
+  {
+   "word": "immaturity",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "law school",
+   "reach": 3,
+   "band": "b5",
+   "id": "law-school"
+  },
+  {
+   "word": "mask",
+   "reach": 5,
+   "band": "b5",
+   "id": "mask"
+  },
+  {
+   "word": "nanny",
+   "reach": 3,
+   "band": "b5",
+   "id": "nanny"
+  },
+  {
+   "word": "parent child relationship",
+   "reach": 16,
+   "band": "b4",
+   "id": "parent-child-relationship"
+  },
+  {
+   "word": "politically incorrect",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "mrs-doubtfire-1993",
+   "title": "Mrs. Doubtfire",
+   "year": 1993,
+   "poster": "shHrSmXS5140o6sQzgzXxn3KqSm.jpg",
+   "tmdb": 7.197
+  },
+  {
+   "id": "big-daddy-1999",
+   "title": "Big Daddy",
+   "year": 1999,
+   "poster": "lEYg1X8RjqNB5NWEtodcbK7vm1G.jpg",
+   "tmdb": 6.487
+  }
+ ]
+}

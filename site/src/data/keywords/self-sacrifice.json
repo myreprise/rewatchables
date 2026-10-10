@@ -1,0 +1,134 @@
+{
+ "word": "self sacrifice",
+ "id": "self-sacrifice",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.8,
+ "vs_catalogue": 0.7,
+ "decades": [
+  {
+   "decade": 1990,
+   "n": 2
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  }
+ ],
+ "peak_share": 67.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "paris, france",
+   "reach": 10,
+   "band": "b5",
+   "id": "paris-france"
+  },
+  {
+   "word": "world war ii",
+   "reach": 5,
+   "band": "b5",
+   "id": "world-war-ii"
+  },
+  {
+   "word": "1940s",
+   "reach": 5,
+   "band": "b5",
+   "id": "1940s"
+  },
+  {
+   "word": "aggressive",
+   "reach": 18,
+   "band": "b3",
+   "id": "aggressive"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "anti-fascism",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "asteroid",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "astronaut",
+   "reach": 4,
+   "band": "b5",
+   "id": "astronaut"
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "bold",
+   "reach": 15,
+   "band": "b4",
+   "id": "bold"
+  },
+  {
+   "word": "bravery",
+   "reach": 3,
+   "band": "b5",
+   "id": "bravery"
+  },
+  {
+   "word": "cataclysm",
+   "reach": 2,
+   "band": "b5",
+   "id": "cataclysm"
+  },
+  {
+   "word": "cliché",
+   "reach": 8,
+   "band": "b5",
+   "id": "cliche"
+  },
+  {
+   "word": "cowardice",
+   "reach": 2,
+   "band": "b5",
+   "id": "cowardice"
+  }
+ ],
+ "films": [
+  {
+   "id": "armageddon-1998",
+   "title": "Armageddon",
+   "year": 1998,
+   "poster": "eTM3qtGhDU8cvjpoa6KEt5E2auU.jpg",
+   "tmdb": 6.832
+  },
+  {
+   "id": "saving-private-ryan-1998",
+   "title": "Saving Private Ryan",
+   "year": 1998,
+   "poster": "uqx37cS8cpHg8U35f9U5IBlrCV3.jpg",
+   "tmdb": 8.232
+  },
+  {
+   "id": "inglourious-basterds-2009",
+   "title": "Inglourious Basterds",
+   "year": 2009,
+   "poster": "aupnPtagH9JVBuMrGEanf4iqXEQ.jpg",
+   "tmdb": 8.218
+  }
+ ]
+}

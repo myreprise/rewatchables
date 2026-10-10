@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Mina Kimes"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Mina Kimes",
+     "id": "mina-kimes"
+    }
    ],
    "note": null
   }
@@ -52,163 +61,190 @@
    "word": "fbi",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "fbi"
   },
   {
    "word": "shootout",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "shootout"
   },
   {
    "word": "terrorism",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "terrorism"
   },
   {
    "word": "san francisco, california",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "san-francisco-california"
   },
   {
    "word": "military",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "military"
   },
   {
    "word": "conspiracy thriller",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "conspiracy-thriller"
   },
   {
    "word": "fbi agent",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fbi-agent"
   },
   {
    "word": "mercenary",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mercenary"
   },
   {
    "word": "prison escape",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "prison-escape"
   },
   {
    "word": "commando",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "commando"
   },
   {
    "word": "ambivalent",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ambivalent"
   },
   {
    "word": "hostage situation",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hostage-situation"
   },
   {
    "word": "war veteran",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "war-veteran"
   },
   {
    "word": "u.s. marine",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "u-s-marine"
   },
   {
    "word": "alcatraz prison",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "british spy",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "chemical warfare",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "chemical weapon",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "chemist",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "disillusioned",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "gas attack",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "island prison",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "nerve gas",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "terrorist threat",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "tourist attraction",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "tourists in peril",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "u.s. navy seal",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

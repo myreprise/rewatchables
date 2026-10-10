@@ -1,0 +1,141 @@
+{
+ "word": "stalker",
+ "id": "stalker",
+ "catalogue": 460,
+ "share": 0.9,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 6.6,
+ "vs_catalogue": -0.5,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 3
+  }
+ ],
+ "peak_share": 75.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "id": "absurd"
+  },
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "id": "admiring"
+  },
+  {
+   "word": "anonymous letter",
+   "reach": 2,
+   "band": "b5",
+   "id": "anonymous-letter"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "basement",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bodyguard",
+   "reach": 4,
+   "band": "b5",
+   "id": "bodyguard"
+  },
+  {
+   "word": "business card",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "cliché",
+   "reach": 8,
+   "band": "b5",
+   "id": "cliche"
+  },
+  {
+   "word": "deceived wife",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "desperate",
+   "reach": 6,
+   "band": "b5",
+   "id": "desperate"
+  },
+  {
+   "word": "diva",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dream girl",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dubious",
+   "reach": 3,
+   "band": "b5",
+   "id": "dubious"
+  },
+  {
+   "word": "every man's nightmare",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "fatal-attraction-1987",
+   "title": "Fatal Attraction",
+   "year": 1987,
+   "poster": "vjB9XwJKnYqFKKjhWcE6WpAf5Ki.jpg",
+   "tmdb": 6.833
+  },
+  {
+   "id": "single-white-female-1992",
+   "title": "Single White Female",
+   "year": 1992,
+   "poster": "yPGK58CcAM8NAX8ycR1jdjo2wiE.jpg",
+   "tmdb": 6.307
+  },
+  {
+   "id": "the-bodyguard-1992",
+   "title": "The Bodyguard",
+   "year": 1992,
+   "poster": "ihWF0uY1xnKqw9YK7ZHNLUZOhcO.jpg",
+   "tmdb": 6.705
+  },
+  {
+   "id": "theres-something-about-mary-1998",
+   "title": "There's Something About Mary",
+   "year": 1998,
+   "poster": "slJD1Dvnsf15LoeqhERsyzisAdn.jpg",
+   "tmdb": 6.637
+  }
+ ]
+}

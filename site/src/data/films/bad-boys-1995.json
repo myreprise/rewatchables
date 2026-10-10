@@ -40,10 +40,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Van Lathan",
-    "Logan Murdock"
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    },
+    {
+     "name": "Logan Murdock",
+     "id": "logan-murdock"
+    }
    ],
    "note": null
   }
@@ -53,145 +62,169 @@
    "word": "action hero",
    "reach": 21,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "action-hero"
   },
   {
    "word": "nostalgic",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "nostalgic"
   },
   {
    "word": "awestruck",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "awestruck"
   },
   {
    "word": "buddy cop",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "buddy-cop"
   },
   {
    "word": "male friendship",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "male-friendship"
   },
   {
    "word": "police corruption",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "police-corruption"
   },
   {
    "word": "gunfight",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gunfight"
   },
   {
    "word": "car crash",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "car-crash"
   },
   {
    "word": "strip club",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "strip-club"
   },
   {
    "word": "witness to murder",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "witness-to-murder"
   },
   {
    "word": "mexican standoff",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mexican-standoff"
   },
   {
    "word": "foot chase",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "foot-chase"
   },
   {
    "word": "internal affairs",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "internal-affairs"
   },
   {
    "word": "miami, florida",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "miami-florida"
   },
   {
    "word": "murder investigation",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "murder-investigation"
   },
   {
    "word": "narcotics detective",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "narcotics-detective"
   },
   {
    "word": "drug lord",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drug-lord"
   },
   {
    "word": "male camaraderie",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "male-camaraderie"
   },
   {
    "word": "stripper",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "stripper"
   },
   {
    "word": "buddy movie",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "hangar",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "loose cannon",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "stolen drugs",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "witness protection",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

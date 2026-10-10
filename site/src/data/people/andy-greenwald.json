@@ -1,0 +1,110 @@
+{
+ "name": "Andy Greenwald",
+ "id": "andy-greenwald",
+ "episodes": 9,
+ "share": 0.0185,
+ "hosted": 0,
+ "first": "2017-11-02",
+ "last": "2026-03-30",
+ "shelf": [
+  {
+   "id": "l-a-confidential-1997",
+   "title": "L.A. Confidential",
+   "year": 1997,
+   "poster": "lWCgf5sD5FpMljjpkRhcC8pXcch.jpg",
+   "episode": 454,
+   "aired": "2026-03-30"
+  },
+  {
+   "id": "the-grand-budapest-hotel-2014",
+   "title": "The Grand Budapest Hotel",
+   "year": 2014,
+   "poster": "eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
+   "episode": 369,
+   "aired": "2024-08-13"
+  },
+  {
+   "id": "silver-linings-playbook-2012",
+   "title": "Silver Linings Playbook",
+   "year": 2012,
+   "poster": "fhHB1uvfFKKFbj6bTKE8xdtsjKi.jpg",
+   "episode": 341,
+   "aired": "2024-01-16"
+  },
+  {
+   "id": "trainspotting-1996",
+   "title": "Trainspotting",
+   "year": 1996,
+   "poster": "1jUC02qsqS2NxBMFarbIhcQtazV.jpg",
+   "episode": 222,
+   "aired": "2021-09-28"
+  },
+  {
+   "id": "the-royal-tenenbaums-2001",
+   "title": "The Royal Tenenbaums",
+   "year": 2001,
+   "poster": "nG7hZJn7wQTSDCQT39Gy3s3tbrp.jpg",
+   "episode": 182,
+   "aired": "2021-01-12"
+  },
+  {
+   "id": "kicking-and-screaming-1995",
+   "title": "Kicking and Screaming",
+   "year": 1995,
+   "poster": "ynAtSpTou7snNOq32djzILw9VCA.jpg",
+   "episode": 167,
+   "aired": "2020-10-06"
+  },
+  {
+   "id": "pump-up-the-volume-1990",
+   "title": "Pump Up the Volume",
+   "year": 1990,
+   "poster": "s1SyKrARJG2R7FyS4zkNdaekLAW.jpg",
+   "episode": 158,
+   "aired": "2020-08-20"
+  },
+  {
+   "id": "zodiac-2007",
+   "title": "Zodiac",
+   "year": 2007,
+   "poster": "6YmeO4pB7XTh8P8F960O1uA14JO.jpg",
+   "episode": 21,
+   "aired": "2017-12-14"
+  },
+  {
+   "id": "the-fugitive-1993",
+   "title": "The Fugitive",
+   "year": 1993,
+   "poster": "b3rEtLKyOnF89mcK75GXDXdmOEf.jpg",
+   "episode": 17,
+   "aired": "2017-11-02"
+  }
+ ],
+ "company": [
+  {
+   "name": "Chris Ryan",
+   "id": "chris-ryan",
+   "episodes": 9
+  },
+  {
+   "name": "Sean Fennessey",
+   "id": "sean-fennessey",
+   "episodes": 3
+  },
+  {
+   "name": "Zach Baron",
+   "id": "zach-baron",
+   "episodes": 1
+  }
+ ],
+ "regular": false,
+ "lean_floor": 15,
+ "leans": [],
+ "verdict_floor": 8,
+ "verdicts": {
+  "cruise": 1,
+  "hanks": 1,
+  "ties": 0,
+  "n": 2
+ }
+}

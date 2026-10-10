@@ -1,0 +1,195 @@
+{
+ "word": "alcoholic",
+ "id": "alcoholic",
+ "catalogue": 460,
+ "share": 2.2,
+ "thin": false,
+ "peak": 2000,
+ "avg_tmdb": 7.5,
+ "vs_catalogue": 0.4,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 2
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 3
+  },
+  {
+   "decade": 2010,
+   "n": 3
+  }
+ ],
+ "peak_share": 30.0,
+ "catalogue_peak_share": 17.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "alcoholism",
+   "reach": 6,
+   "band": "b5",
+   "id": "alcoholism"
+  },
+  {
+   "word": "california",
+   "reach": 16,
+   "band": "b4",
+   "id": "california"
+  },
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1970s"
+  },
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "id": "admiring"
+  },
+  {
+   "word": "ambiguous",
+   "reach": 9,
+   "band": "b5",
+   "id": "ambiguous"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "child kidnapping",
+   "reach": 3,
+   "band": "b5",
+   "id": "child-kidnapping"
+  },
+  {
+   "word": "detective",
+   "reach": 17,
+   "band": "b3",
+   "id": "detective"
+  },
+  {
+   "word": "father daughter relationship",
+   "reach": 5,
+   "band": "b5",
+   "id": "father-daughter-relationship"
+  },
+  {
+   "word": "frightened",
+   "reach": 11,
+   "band": "b5",
+   "id": "frightened"
+  },
+  {
+   "word": "investigation",
+   "reach": 14,
+   "band": "b4",
+   "id": "investigation"
+  },
+  {
+   "word": "remake",
+   "reach": 13,
+   "band": "b4",
+   "id": "remake"
+  },
+  {
+   "word": "whodunit",
+   "reach": 11,
+   "band": "b5",
+   "id": "whodunit"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-bad-news-bears-1976",
+   "title": "The Bad News Bears",
+   "year": 1976,
+   "poster": "kJNXMni0ObOXLth6v9xpUhWbtrp.jpg",
+   "tmdb": 6.908
+  },
+  {
+   "id": "the-shining-1980",
+   "title": "The Shining",
+   "year": 1980,
+   "poster": "uAR0AWqhQL1hQa69UDEbb2rE5Wx.jpg",
+   "tmdb": 8.2
+  },
+  {
+   "id": "the-verdict-1982",
+   "title": "The Verdict",
+   "year": 1982,
+   "poster": "iYEuFP1bpj5yOenKliiRFcNO3VE.jpg",
+   "tmdb": 7.469
+  },
+  {
+   "id": "the-last-boy-scout-1991",
+   "title": "The Last Boy Scout",
+   "year": 1991,
+   "poster": "glPswihcZYoAQ4YM2uJF4UACy8T.jpg",
+   "tmdb": 6.843
+  },
+  {
+   "id": "man-on-fire-2004",
+   "title": "Man on Fire",
+   "year": 2004,
+   "poster": "grCGLCcTHv9TChibzOwzUpykcjB.jpg",
+   "tmdb": 7.466
+  },
+  {
+   "id": "there-will-be-blood-2007",
+   "title": "There Will Be Blood",
+   "year": 2007,
+   "poster": "fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
+   "tmdb": 8.064
+  },
+  {
+   "id": "zodiac-2007",
+   "title": "Zodiac",
+   "year": 2007,
+   "poster": "6YmeO4pB7XTh8P8F960O1uA14JO.jpg",
+   "tmdb": 7.532
+  },
+  {
+   "id": "warrior-2011",
+   "title": "Warrior",
+   "year": 2011,
+   "poster": "iM8n4nZJPR2abpnyZ36FUgHiRjr.jpg",
+   "tmdb": 7.841
+  },
+  {
+   "id": "the-nice-guys-2016",
+   "title": "The Nice Guys",
+   "year": 2016,
+   "poster": "clq4So9spa9cXk3MZy2iMdqkxP2.jpg",
+   "tmdb": 7.133
+  },
+  {
+   "id": "a-star-is-born-2018",
+   "title": "A Star Is Born",
+   "year": 2018,
+   "poster": "wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+   "tmdb": 7.5
+  }
+ ]
+}

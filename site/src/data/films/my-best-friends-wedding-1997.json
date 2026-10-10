@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Juliet Litman",
-    "Amanda Dobbins"
+    {
+     "name": "Juliet Litman",
+     "id": "juliet-litman"
+    },
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    }
    ],
    "note": null
   }
@@ -51,61 +60,71 @@
    "word": "chicago, illinois",
    "reach": 19,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "chicago-illinois"
   },
   {
    "word": "love of one's life",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "love-of-ones-life"
   },
   {
    "word": "wedding",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "wedding"
   },
   {
    "word": "new love",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "new-love"
   },
   {
    "word": "secret love",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "secret-love"
   },
   {
    "word": "rehearsal dinner",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rehearsal-dinner"
   },
   {
    "word": "restaurant critic",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "restaurant-critic"
   },
   {
    "word": "man woman relationship",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "relationship sabotage",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "wedding reception",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

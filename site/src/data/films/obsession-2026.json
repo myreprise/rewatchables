@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Joanna Robinson"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Joanna Robinson",
+     "id": "joanna-robinson"
+    }
    ],
    "note": null
   }
@@ -51,79 +60,92 @@
    "word": "obsession",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "obsession"
   },
   {
    "word": "supernatural horror",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "supernatural-horror"
   },
   {
    "word": "possession",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "possession"
   },
   {
    "word": "psychological horror",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "psychological-horror"
   },
   {
    "word": "supernatural",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "supernatural"
   },
   {
    "word": "couple",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "couple"
   },
   {
    "word": "wish",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "wish"
   },
   {
    "word": "absurdism",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "cursed object",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "independent film",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "psychological",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "self-harm",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "unrequited love",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

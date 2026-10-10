@@ -1,0 +1,142 @@
+{
+ "word": "country music",
+ "id": "country-music",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 2010,
+ "avg_tmdb": 7.1,
+ "vs_catalogue": 0.0,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 0
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 2
+  }
+ ],
+ "peak_share": 67.0,
+ "catalogue_peak_share": 12.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "addiction",
+   "reach": 5,
+   "band": "b5",
+   "id": "addiction"
+  },
+  {
+   "word": "concert",
+   "reach": 2,
+   "band": "b5",
+   "id": "concert"
+  },
+  {
+   "word": "singer",
+   "reach": 6,
+   "band": "b5",
+   "id": "singer"
+  },
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "id": "admiring"
+  },
+  {
+   "word": "adultery",
+   "reach": 5,
+   "band": "b5",
+   "id": "adultery"
+  },
+  {
+   "word": "alcohol",
+   "reach": 6,
+   "band": "b5",
+   "id": "alcohol"
+  },
+  {
+   "word": "alcoholic",
+   "reach": 10,
+   "band": "b5",
+   "id": "alcoholic"
+  },
+  {
+   "word": "alcoholism",
+   "reach": 6,
+   "band": "b5",
+   "id": "alcoholism"
+  },
+  {
+   "word": "aspiring singer",
+   "reach": 2,
+   "band": "b5",
+   "id": "aspiring-singer"
+  },
+  {
+   "word": "audacious",
+   "reach": 10,
+   "band": "b5",
+   "id": "audacious"
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  },
+  {
+   "word": "biker",
+   "reach": 2,
+   "band": "b5",
+   "id": "biker"
+  },
+  {
+   "word": "blues",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "buddy",
+   "reach": 14,
+   "band": "b4",
+   "id": "buddy"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-blues-brothers-1980",
+   "title": "The Blues Brothers",
+   "year": 1980,
+   "poster": "b0hq1d2d7FIvRGNLewKLm79JNTK.jpg",
+   "tmdb": 7.716
+  },
+  {
+   "id": "country-strong-2010",
+   "title": "Country Strong",
+   "year": 2010,
+   "poster": "6C95tD92E9xm5poyyzs37bYemM0.jpg",
+   "tmdb": 6.133
+  },
+  {
+   "id": "a-star-is-born-2018",
+   "title": "A Star Is Born",
+   "year": 2018,
+   "poster": "wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+   "tmdb": 7.5
+  }
+ ]
+}

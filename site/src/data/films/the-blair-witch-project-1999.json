@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": null
   }
@@ -50,169 +56,197 @@
    "word": "survival",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "survival"
   },
   {
    "word": "ambiguous",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ambiguous"
   },
   {
    "word": "friends",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "friends"
   },
   {
    "word": "evil",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "evil"
   },
   {
    "word": "paranoid",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "paranoid"
   },
   {
    "word": "supernatural",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "supernatural"
   },
   {
    "word": "wilderness",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "wilderness"
   },
   {
    "word": "fear",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fear"
   },
   {
    "word": "sinister",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sinister"
   },
   {
    "word": "depressing",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "depressing"
   },
   {
    "word": "faux documentary",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "faux-documentary"
   },
   {
    "word": "forest",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "forest"
   },
   {
    "word": "legend",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "legend"
   },
   {
    "word": "maryland",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "maryland"
   },
   {
    "word": "videotape",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "videotape"
   },
   {
    "word": "camping",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "folk horror",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "found footage",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "hopeless",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "lost in the woods",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "map",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "method filmmaking",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "paranormal",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "pov (point of view)",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "pseudo-documentary",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "urban legend",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "witch",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "witchcraft",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -1,0 +1,138 @@
+{
+ "word": "subway",
+ "id": "subway",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.1,
+ "vs_catalogue": 0.0,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  }
+ ],
+ "peak_share": 33.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "id": "murder"
+  },
+  {
+   "word": "artist",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bar",
+   "reach": 3,
+   "band": "b5",
+   "id": "bar"
+  },
+  {
+   "word": "based on movie",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "boat chase",
+   "reach": 4,
+   "band": "b5",
+   "id": "boat-chase"
+  },
+  {
+   "word": "brother",
+   "reach": 2,
+   "band": "b5",
+   "id": "brother"
+  },
+  {
+   "word": "california",
+   "reach": 16,
+   "band": "b4",
+   "id": "california"
+  },
+  {
+   "word": "chase",
+   "reach": 7,
+   "band": "b5",
+   "id": "chase"
+  },
+  {
+   "word": "chicago, illinois",
+   "reach": 19,
+   "band": "b3",
+   "id": "chicago-illinois"
+  },
+  {
+   "word": "christmas",
+   "reach": 14,
+   "band": "b4",
+   "id": "christmas"
+  },
+  {
+   "word": "circumstance",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "close family",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "coincidence",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "coma",
+   "reach": 5,
+   "band": "b5",
+   "id": "coma"
+  }
+ ],
+ "films": [
+  {
+   "id": "after-hours-1985",
+   "title": "After Hours",
+   "year": 1985,
+   "poster": "8upjM945SVY99tu2Z8OG27Jd4m6.jpg",
+   "tmdb": 7.5
+  },
+  {
+   "id": "while-you-were-sleeping-1995",
+   "title": "While You Were Sleeping",
+   "year": 1995,
+   "poster": "qNGO3ETcNwlWqK2kNRpbJSJRlos.jpg",
+   "tmdb": 7.035
+  },
+  {
+   "id": "the-italian-job-2003",
+   "title": "The Italian Job",
+   "year": 2003,
+   "poster": "eSkjK4kctyrWpFhxl35GPvSs6tI.jpg",
+   "tmdb": 6.799
+  }
+ ]
+}

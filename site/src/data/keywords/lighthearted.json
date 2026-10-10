@@ -1,0 +1,176 @@
+{
+ "word": "lighthearted",
+ "id": "lighthearted",
+ "catalogue": 460,
+ "share": 2.0,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.1,
+ "vs_catalogue": 0.0,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 4
+  },
+  {
+   "decade": 1990,
+   "n": 5
+  }
+ ],
+ "peak_share": 56.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "car race",
+   "reach": 6,
+   "band": "b5",
+   "id": "car-race"
+  },
+  {
+   "word": "chicago, illinois",
+   "reach": 19,
+   "band": "b3",
+   "id": "chicago-illinois"
+  },
+  {
+   "word": "cliché",
+   "reach": 8,
+   "band": "b5",
+   "id": "cliche"
+  },
+  {
+   "word": "diner",
+   "reach": 2,
+   "band": "b5",
+   "id": "diner"
+  },
+  {
+   "word": "enthusiastic",
+   "reach": 3,
+   "band": "b5",
+   "id": "enthusiastic"
+  },
+  {
+   "word": "fish out of water",
+   "reach": 6,
+   "band": "b5",
+   "id": "fish-out-of-water"
+  },
+  {
+   "word": "flying car",
+   "reach": 3,
+   "band": "b5",
+   "id": "flying-car"
+  },
+  {
+   "word": "guitar",
+   "reach": 3,
+   "band": "b5",
+   "id": "guitar"
+  },
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "id": "high-school"
+  },
+  {
+   "word": "hilarious",
+   "reach": 17,
+   "band": "b3",
+   "id": "hilarious"
+  },
+  {
+   "word": "inventor",
+   "reach": 2,
+   "band": "b5",
+   "id": "inventor"
+  },
+  {
+   "word": "kids",
+   "reach": 5,
+   "band": "b5",
+   "id": "kids"
+  },
+  {
+   "word": "lightning",
+   "reach": 3,
+   "band": "b5",
+   "id": "lightning"
+  },
+  {
+   "word": "love",
+   "reach": 11,
+   "band": "b5",
+   "id": "love"
+  }
+ ],
+ "films": [
+  {
+   "id": "back-to-the-future-1985",
+   "title": "Back to the Future",
+   "year": 1985,
+   "poster": "vN5B5WgYscRGcQpVhHl6p9DDTP0.jpg",
+   "tmdb": 8.329
+  },
+  {
+   "id": "weird-science-1985",
+   "title": "Weird Science",
+   "year": 1985,
+   "poster": "AsFxOHwUlK7mTOkC5p6SySsdEjz.jpg",
+   "tmdb": 6.534
+  },
+  {
+   "id": "back-to-the-future-part-ii-1989",
+   "title": "Back to the Future Part II",
+   "year": 1989,
+   "poster": "hQq8xZe5uLjFzSBt4LanNP7SQjl.jpg",
+   "tmdb": 7.784
+  },
+  {
+   "id": "when-harry-met-sally-1989",
+   "title": "When Harry Met Sally...",
+   "year": 1989,
+   "poster": "rFOiFUhTMtDetqCGClC9PIgnC1P.jpg",
+   "tmdb": 7.408
+  },
+  {
+   "id": "home-alone-1990",
+   "title": "Home Alone",
+   "year": 1990,
+   "poster": "onTSipZ8R3bliBdKfPtsDuHTdlL.jpg",
+   "tmdb": 7.469
+  },
+  {
+   "id": "city-slickers-1991",
+   "title": "City Slickers",
+   "year": 1991,
+   "poster": "9DVZpm9pQNB3M17cRo752zqUYhL.jpg",
+   "tmdb": 6.457
+  },
+  {
+   "id": "singles-1992",
+   "title": "Singles",
+   "year": 1992,
+   "poster": "4T7OKBdkNBorRKWw7VSeuA225z1.jpg",
+   "tmdb": 6.41
+  },
+  {
+   "id": "10-things-i-hate-about-you-1999",
+   "title": "10 Things I Hate About You",
+   "year": 1999,
+   "poster": "ujERk3aKABXU3NDXOAxEQYTHe9A.jpg",
+   "tmdb": 7.597
+  },
+  {
+   "id": "never-been-kissed-1999",
+   "title": "Never Been Kissed",
+   "year": 1999,
+   "poster": "6BngDhDNfbBjhVFWDT2yMve32vi.jpg",
+   "tmdb": 6.161
+  }
+ ]
+}

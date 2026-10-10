@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Mallory Rubin",
-    "Van Lathan"
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": null
   }
@@ -52,151 +61,176 @@
    "word": "amused",
    "reach": 26,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "amused"
   },
   {
    "word": "coming of age",
    "reach": 24,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "coming-of-age"
   },
   {
    "word": "hilarious",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "hilarious"
   },
   {
    "word": "woman director",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "woman-director"
   },
   {
    "word": "nostalgic",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "nostalgic"
   },
   {
    "word": "baseball",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "baseball"
   },
   {
    "word": "best friend",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "best-friend"
   },
   {
    "word": "joyful",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "joyful"
   },
   {
    "word": "co-workers relationship",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "co-workers-relationship"
   },
   {
    "word": "age change",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "age-change"
   },
   {
    "word": "bronx, new york city",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bronx-new-york-city"
   },
   {
    "word": "homesick",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "homesick"
   },
   {
    "word": "loving",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "loving"
   },
   {
    "word": "magic realism",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "magic-realism"
   },
   {
    "word": "new toy",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "new-toy"
   },
   {
    "word": "pinball machine",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pinball-machine"
   },
   {
    "word": "body-swap",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "bunk bed",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "job promotion",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "quarter",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "toy maker",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "toymaker",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "unplugged electronic works",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "wish fulfillment",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "yankee stadium",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

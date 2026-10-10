@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Juliet Litman",
-    "Amanda Dobbins"
+    {
+     "name": "Juliet Litman",
+     "id": "juliet-litman"
+    },
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    }
    ],
    "note": "1999 series (Luminary); released on Spotify feed 8/22/2023"
   },
@@ -54,10 +63,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Juliet Litman",
-    "Amanda Dobbins"
+    {
+     "name": "Juliet Litman",
+     "id": "juliet-litman"
+    },
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    }
    ],
    "note": "Originally released May 2, 2019 on Luminary as part of 1999 Rewatchables series"
   }
@@ -67,139 +85,162 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "antagonistic",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "antagonistic"
   },
   {
    "word": "love",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "love"
   },
   {
    "word": "manipulation",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "manipulation"
   },
   {
    "word": "cocaine",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cocaine"
   },
   {
    "word": "sibling relationship",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sibling-relationship"
   },
   {
    "word": "addiction",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "addiction"
   },
   {
    "word": "eroticism",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "eroticism"
   },
   {
    "word": "drug abuse",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drug-abuse"
   },
   {
    "word": "seduction",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "seduction"
   },
   {
    "word": "sexual obsession",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sexual-obsession"
   },
   {
    "word": "bet",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bet"
   },
   {
    "word": "sadistic",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sadistic"
   },
   {
    "word": "clinical",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "clinical"
   },
   {
    "word": "innocence",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "innocence"
   },
   {
    "word": "love letter",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "love-letter"
   },
   {
    "word": "upper class",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "upper-class"
   },
   {
    "word": "virgin",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "virgin"
   },
   {
    "word": "cynic",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "dangerous liaison",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "incest",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "private school",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "psychotherapy",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

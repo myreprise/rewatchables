@@ -1,0 +1,148 @@
+{
+ "word": "dating",
+ "id": "dating",
+ "catalogue": 460,
+ "share": 1.1,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 6.8,
+ "vs_catalogue": -0.3,
+ "decades": [
+  {
+   "decade": 1990,
+   "n": 3
+  },
+  {
+   "decade": 2000,
+   "n": 2
+  }
+ ],
+ "peak_share": 60.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "romantic",
+   "reach": 11,
+   "band": "b5",
+   "id": "romantic"
+  },
+  {
+   "word": "woman director",
+   "reach": 16,
+   "band": "b4",
+   "id": "woman-director"
+  },
+  {
+   "word": "abused as a child",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "id": "admiring"
+  },
+  {
+   "word": "adult children",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "alcohol",
+   "reach": 6,
+   "band": "b5",
+   "id": "alcohol"
+  },
+  {
+   "word": "american football",
+   "reach": 13,
+   "band": "b4",
+   "id": "american-football"
+  },
+  {
+   "word": "architect",
+   "reach": 2,
+   "band": "b5",
+   "id": "architect"
+  },
+  {
+   "word": "baker",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bakery",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "boston, massachusetts",
+   "reach": 7,
+   "band": "b5",
+   "id": "boston-massachusetts"
+  },
+  {
+   "word": "break-up",
+   "reach": 5,
+   "band": "b5",
+   "id": "break-up"
+  },
+  {
+   "word": "cheating husband",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "cheerleader",
+   "reach": 6,
+   "band": "b5",
+   "id": "cheerleader"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-american-president-1995",
+   "title": "The American President",
+   "year": 1995,
+   "poster": "yObOAYFIHXHkFPQ3jhgkN2ezaD.jpg",
+   "tmdb": 6.528
+  },
+  {
+   "id": "good-will-hunting-1997",
+   "title": "Good Will Hunting",
+   "year": 1997,
+   "poster": "z2FnLKpFi1HPO7BEJxdkv6hpJSU.jpg",
+   "tmdb": 8.165
+  },
+  {
+   "id": "cant-hardly-wait-1998",
+   "title": "Can't Hardly Wait",
+   "year": 1998,
+   "poster": "r3a5gGWfS0SDS9nriNrJzSSrErf.jpg",
+   "tmdb": 6.248
+  },
+  {
+   "id": "hitch-2005",
+   "title": "Hitch",
+   "year": 2005,
+   "poster": "x3W9H3nhGQbWSlyI8Amp2F6Z6cz.jpg",
+   "tmdb": 6.582
+  },
+  {
+   "id": "its-complicated-2009",
+   "title": "It's Complicated",
+   "year": 2009,
+   "poster": "bmjPrJgrGENFRrERP7lCJ9FGIVB.jpg",
+   "tmdb": 6.514
+  }
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "word": "rags to riches",
+ "id": "rags-to-riches",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.0,
+ "vs_catalogue": -0.1,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 2
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  }
+ ],
+ "peak_share": 67.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "dramatic",
+   "reach": 18,
+   "band": "b3",
+   "id": "dramatic"
+  },
+  {
+   "word": "new year's eve",
+   "reach": 8,
+   "band": "b5",
+   "id": "new-years-eve"
+  },
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1970s"
+  },
+  {
+   "word": "1980s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1980s"
+  },
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "id": "absurd"
+  },
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "id": "admiring"
+  },
+  {
+   "word": "adultery",
+   "reach": 5,
+   "band": "b5",
+   "id": "adultery"
+  },
+  {
+   "word": "alter ego",
+   "reach": 2,
+   "band": "b5",
+   "id": "alter-ego"
+  },
+  {
+   "word": "ambition",
+   "reach": 4,
+   "band": "b5",
+   "id": "ambition"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "audacious",
+   "reach": 10,
+   "band": "b5",
+   "id": "audacious"
+  },
+  {
+   "word": "bartender",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "beggar",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "big dick",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "trading-places-1983",
+   "title": "Trading Places",
+   "year": 1983,
+   "poster": "8mBuLCOcpWnmYtZc4aqtvDXslv6.jpg",
+   "tmdb": 7.23
+  },
+  {
+   "id": "cocktail-1988",
+   "title": "Cocktail",
+   "year": 1988,
+   "poster": "jFRhEPhtsln9tDwzMdZN3OlhUob.jpg",
+   "tmdb": 6.105
+  },
+  {
+   "id": "boogie-nights-1997",
+   "title": "Boogie Nights",
+   "year": 1997,
+   "poster": "2hVSN9yOfoI8EUTqcVW6zCIyQ1G.jpg",
+   "tmdb": 7.638
+  }
+ ]
+}

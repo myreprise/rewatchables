@@ -1,0 +1,118 @@
+{
+ "word": "poetry",
+ "id": "poetry",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1950s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1950s"
+  },
+  {
+   "word": "addicted",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "airplane",
+   "reach": 8,
+   "band": "b5",
+   "id": "airplane"
+  },
+  {
+   "word": "alcoholism",
+   "reach": 6,
+   "band": "b5",
+   "id": "alcoholism"
+  },
+  {
+   "word": "biography",
+   "reach": 10,
+   "band": "b5",
+   "id": "biography"
+  },
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "id": "coming-of-age"
+  },
+  {
+   "word": "depressing",
+   "reach": 2,
+   "band": "b5",
+   "id": "depressing"
+  },
+  {
+   "word": "dramatic",
+   "reach": 18,
+   "band": "b3",
+   "id": "dramatic"
+  },
+  {
+   "word": "drugs",
+   "reach": 17,
+   "band": "b3",
+   "id": "drugs"
+  },
+  {
+   "word": "friendship",
+   "reach": 22,
+   "band": "b3",
+   "id": "friendship"
+  },
+  {
+   "word": "hallucination",
+   "reach": 3,
+   "band": "b5",
+   "id": "hallucination"
+  },
+  {
+   "word": "hippie",
+   "reach": 2,
+   "band": "b5",
+   "id": "hippie"
+  },
+  {
+   "word": "individual",
+   "reach": 2,
+   "band": "b5",
+   "id": "individual"
+  },
+  {
+   "word": "introspective",
+   "reach": 3,
+   "band": "b5",
+   "id": "introspective"
+  }
+ ],
+ "films": [
+  {
+   "id": "dead-poets-society-1989",
+   "title": "Dead Poets Society",
+   "year": 1989,
+   "poster": "tNvKkSnnn4Z6RCBThyK1gfCSSvv.jpg",
+   "tmdb": 8.296
+  },
+  {
+   "id": "the-doors-1991",
+   "title": "The Doors",
+   "year": 1991,
+   "poster": "x1LM3dzGuG6xOz0aT2e71o11vhu.jpg",
+   "tmdb": 7.106
+  }
+ ]
+}

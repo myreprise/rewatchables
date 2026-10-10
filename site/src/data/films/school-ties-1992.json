@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Juliet Litman",
-    "Mallory Rubin"
+    {
+     "name": "Juliet Litman",
+     "id": "juliet-litman"
+    },
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    }
    ],
    "note": null
   }
@@ -50,49 +59,57 @@
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "coming of age",
    "reach": 24,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "coming-of-age"
   },
   {
    "word": "1950s",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1950s"
   },
   {
    "word": "preparatory school",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "preparatory-school"
   },
   {
    "word": "massachusetts",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "massachusetts"
   },
   {
    "word": "antisemitism",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "antisemitism"
   },
   {
    "word": "scholarship",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "scholarship"
   },
   {
    "word": "judaism",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

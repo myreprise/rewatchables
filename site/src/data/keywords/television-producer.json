@@ -1,0 +1,134 @@
+{
+ "word": "television producer",
+ "id": "television-producer",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.2,
+ "vs_catalogue": 0.1,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 2
+  }
+ ],
+ "peak_share": 67.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "actor",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "aftercreditsstinger",
+   "reach": 18,
+   "band": "b3",
+   "id": "aftercreditsstinger"
+  },
+  {
+   "word": "best friends",
+   "reach": 3,
+   "band": "b5",
+   "id": "best-friends"
+  },
+  {
+   "word": "breaking the fourth wall",
+   "reach": 5,
+   "band": "b5",
+   "id": "breaking-the-fourth-wall"
+  },
+  {
+   "word": "buddy",
+   "reach": 14,
+   "band": "b4",
+   "id": "buddy"
+  },
+  {
+   "word": "dark comedy",
+   "reach": 10,
+   "band": "b5",
+   "id": "dark-comedy"
+  },
+  {
+   "word": "deception",
+   "reach": 4,
+   "band": "b5",
+   "id": "deception"
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "id": "duringcreditsstinger"
+  },
+  {
+   "word": "dystopia",
+   "reach": 17,
+   "band": "b3",
+   "id": "dystopia"
+  },
+  {
+   "word": "escape",
+   "reach": 7,
+   "band": "b5",
+   "id": "escape"
+  },
+  {
+   "word": "heavy metal",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "hidden camera",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "journalism",
+   "reach": 5,
+   "band": "b5",
+   "id": "journalism"
+  },
+  {
+   "word": "journalist",
+   "reach": 12,
+   "band": "b4",
+   "id": "journalist"
+  }
+ ],
+ "films": [
+  {
+   "id": "broadcast-news-1987",
+   "title": "Broadcast News",
+   "year": 1987,
+   "poster": "kQNR1Lc0qAF5xuBySpDn481KVjb.jpg",
+   "tmdb": 6.782
+  },
+  {
+   "id": "waynes-world-1992",
+   "title": "Wayne's World",
+   "year": 1992,
+   "poster": "fHwZnFNWR7PaS9t5EBwTvGPeoYQ.jpg",
+   "tmdb": 6.684
+  },
+  {
+   "id": "the-truman-show-1998",
+   "title": "The Truman Show",
+   "year": 1998,
+   "poster": "vuza0WqY239yBXOadKlGwJsZJFE.jpg",
+   "tmdb": 8.157
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "word": "drug cartel",
+ "id": "drug-cartel",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1980s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1980s"
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "asian woman",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "captive bolt gun",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "cartel",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "coin toss",
+   "reach": 2,
+   "band": "b5",
+   "id": "coin-toss"
+  },
+  {
+   "word": "cold blooded killer",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "criminal organization",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "desert",
+   "reach": 4,
+   "band": "b5",
+   "id": "desert"
+  },
+  {
+   "word": "drug deal",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "drug dealing",
+   "reach": 4,
+   "band": "b5",
+   "id": "drug-dealing"
+  },
+  {
+   "word": "drug trafficking",
+   "reach": 4,
+   "band": "b5",
+   "id": "drug-trafficking"
+  },
+  {
+   "word": "duo",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "miami-vice-2006",
+   "title": "Miami Vice",
+   "year": 2006,
+   "poster": "iJPSls4taB09EUKtLj6FjFSprb3.jpg",
+   "tmdb": 6.034
+  },
+  {
+   "id": "no-country-for-old-men-2007",
+   "title": "No Country for Old Men",
+   "year": 2007,
+   "poster": "6d5XOczc226jECq0LIX0siKtgHR.jpg",
+   "tmdb": 7.95
+  }
+ ]
+}

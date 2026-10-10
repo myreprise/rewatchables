@@ -1,0 +1,118 @@
+{
+ "word": "teen drama",
+ "id": "teen-drama",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "id": "coming-of-age"
+  },
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "id": "high-school"
+  },
+  {
+   "word": "teen comedy",
+   "reach": 9,
+   "band": "b5",
+   "id": "teen-comedy"
+  },
+  {
+   "word": "break-up",
+   "reach": 5,
+   "band": "b5",
+   "id": "break-up"
+  },
+  {
+   "word": "cheerleader",
+   "reach": 6,
+   "band": "b5",
+   "id": "cheerleader"
+  },
+  {
+   "word": "dress",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "id": "duringcreditsstinger"
+  },
+  {
+   "word": "evening gown",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "female protagonist",
+   "reach": 6,
+   "band": "b5",
+   "id": "female-protagonist"
+  },
+  {
+   "word": "gay friend",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "high school student",
+   "reach": 4,
+   "band": "b5",
+   "id": "high-school-student"
+  },
+  {
+   "word": "intelligent",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "lie",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "loss of virginity",
+   "reach": 3,
+   "band": "b5",
+   "id": "loss-of-virginity"
+  }
+ ],
+ "films": [
+  {
+   "id": "cant-buy-me-love-1987",
+   "title": "Can't Buy Me Love",
+   "year": 1987,
+   "poster": "qK3yiqo84U3twOOKOx81c407Hpr.jpg",
+   "tmdb": 6.884
+  },
+  {
+   "id": "easy-a-2010",
+   "title": "Easy A",
+   "year": 2010,
+   "poster": "v5f1qO6NJnxWgONgkYg21TW39DT.jpg",
+   "tmdb": 6.803
+  }
+ ]
+}

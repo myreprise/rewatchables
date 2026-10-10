@@ -1,0 +1,145 @@
+{
+ "word": "burglar",
+ "id": "burglar",
+ "catalogue": 460,
+ "share": 0.9,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.3,
+ "vs_catalogue": 0.2,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 2
+  }
+ ],
+ "peak_share": 50.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "child rescue",
+   "reach": 2,
+   "band": "b5",
+   "id": "child-rescue"
+  },
+  {
+   "word": "christmas",
+   "reach": 14,
+   "band": "b4",
+   "id": "christmas"
+  },
+  {
+   "word": "family relationships",
+   "reach": 7,
+   "band": "b5",
+   "id": "family-relationships"
+  },
+  {
+   "word": "holiday",
+   "reach": 9,
+   "band": "b5",
+   "id": "holiday"
+  },
+  {
+   "word": "home alone",
+   "reach": 2,
+   "band": "b5",
+   "id": "home-alone"
+  },
+  {
+   "word": "home invasion",
+   "reach": 5,
+   "band": "b5",
+   "id": "home-invasion"
+  },
+  {
+   "word": "kids on their own",
+   "reach": 2,
+   "band": "b5",
+   "id": "kids-on-their-own"
+  },
+  {
+   "word": "little boy",
+   "reach": 2,
+   "band": "b5",
+   "id": "little-boy"
+  },
+  {
+   "word": "mischievous child",
+   "reach": 2,
+   "band": "b5",
+   "id": "mischievous-child"
+  },
+  {
+   "word": "precocious child",
+   "reach": 2,
+   "band": "b5",
+   "id": "precocious-child"
+  },
+  {
+   "word": "shadowing",
+   "reach": 2,
+   "band": "b5",
+   "id": "shadowing"
+  },
+  {
+   "word": "slapstick comedy",
+   "reach": 4,
+   "band": "b5",
+   "id": "slapstick-comedy"
+  },
+  {
+   "word": "aggressive",
+   "reach": 18,
+   "band": "b3",
+   "id": "aggressive"
+  }
+ ],
+ "films": [
+  {
+   "id": "all-the-presidents-men-1976",
+   "title": "All the President's Men",
+   "year": 1976,
+   "poster": "pCe6lfLxt1B58zPD4lgQrlnDS2j.jpg",
+   "tmdb": 7.656
+  },
+  {
+   "id": "thief-1981",
+   "title": "Thief",
+   "year": 1981,
+   "poster": "bpjRGwfYJ71bU0hNhLIz7g3t6Oy.jpg",
+   "tmdb": 7.231
+  },
+  {
+   "id": "home-alone-1990",
+   "title": "Home Alone",
+   "year": 1990,
+   "poster": "onTSipZ8R3bliBdKfPtsDuHTdlL.jpg",
+   "tmdb": 7.469
+  },
+  {
+   "id": "home-alone-2-lost-in-new-york-1992",
+   "title": "Home Alone 2: Lost in New York",
+   "year": 1992,
+   "poster": "uuitWHpJwxD1wruFl2nZHIb4UGN.jpg",
+   "tmdb": 6.793
+  }
+ ]
+}

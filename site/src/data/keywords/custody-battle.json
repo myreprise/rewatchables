@@ -1,0 +1,138 @@
+{
+ "word": "custody battle",
+ "id": "custody-battle",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.5,
+ "vs_catalogue": 0.4,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 0
+  },
+  {
+   "decade": 1990,
+   "n": 2
+  }
+ ],
+ "peak_share": 67.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "dramatic",
+   "reach": 18,
+   "band": "b3",
+   "id": "dramatic"
+  },
+  {
+   "word": "husband wife relationship",
+   "reach": 8,
+   "band": "b5",
+   "id": "husband-wife-relationship"
+  },
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1970s"
+  },
+  {
+   "word": "1980s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1980s"
+  },
+  {
+   "word": "abandonment",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "id": "admiring"
+  },
+  {
+   "word": "adultery",
+   "reach": 5,
+   "band": "b5",
+   "id": "adultery"
+  },
+  {
+   "word": "alter ego",
+   "reach": 2,
+   "band": "b5",
+   "id": "alter-ego"
+  },
+  {
+   "word": "apologetic",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "audacious",
+   "reach": 10,
+   "band": "b5",
+   "id": "audacious"
+  },
+  {
+   "word": "big dick",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "candid",
+   "reach": 5,
+   "band": "b5",
+   "id": "candid"
+  },
+  {
+   "word": "child custody",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "cocaine",
+   "reach": 7,
+   "band": "b5",
+   "id": "cocaine"
+  }
+ ],
+ "films": [
+  {
+   "id": "kramer-vs-kramer-1979",
+   "title": "Kramer vs. Kramer",
+   "year": 1979,
+   "poster": "3CUP5V5SWfHSK4qvkZF7lMNyugY.jpg",
+   "tmdb": 7.565
+  },
+  {
+   "id": "mrs-doubtfire-1993",
+   "title": "Mrs. Doubtfire",
+   "year": 1993,
+   "poster": "shHrSmXS5140o6sQzgzXxn3KqSm.jpg",
+   "tmdb": 7.197
+  },
+  {
+   "id": "boogie-nights-1997",
+   "title": "Boogie Nights",
+   "year": 1997,
+   "poster": "2hVSN9yOfoI8EUTqcVW6zCIyQ1G.jpg",
+   "tmdb": 7.638
+  }
+ ]
+}

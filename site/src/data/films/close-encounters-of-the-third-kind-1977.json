@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": "70s month'"
   }
@@ -51,217 +60,253 @@
    "word": "admiring",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "admiring"
   },
   {
    "word": "alien",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alien"
   },
   {
    "word": "obsession",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "obsession"
   },
   {
    "word": "desperate",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "desperate"
   },
   {
    "word": "missing person",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "missing-person"
   },
   {
    "word": "whimsical",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "whimsical"
   },
   {
    "word": "evacuation",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "evacuation"
   },
   {
    "word": "indiana, usa",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "indiana-usa"
   },
   {
    "word": "secret base",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "secret-base"
   },
   {
    "word": "wyoming, usa",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "wyoming-usa"
   },
   {
    "word": "alien contact",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alien-contact"
   },
   {
    "word": "extraterrestrial technology",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "extraterrestrial-technology"
   },
   {
    "word": "flying saucer",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "flying-saucer"
   },
   {
    "word": "ufo",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ufo"
   },
   {
    "word": "vision",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vision"
   },
   {
    "word": "wonder",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "wonder"
   },
   {
    "word": "alien abduction",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "alien encounter",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "alien language",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "alien life-form",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "alien space craft",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "alien spaceship",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "blackout",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "escapade",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "extraterrestrial capsule",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "extraterrestrial humanoids",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "extraterrestrial life form",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "flying ship",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "humanoid alien",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "lightshow",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mother ship",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "moving lights",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mysterious lights",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "obsessive quest",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "secret space ufos",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "ufo sighting",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

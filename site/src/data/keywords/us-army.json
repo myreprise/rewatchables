@@ -1,0 +1,134 @@
+{
+ "word": "us army",
+ "id": "us-army",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.2,
+ "vs_catalogue": 0.1,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 2
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  }
+ ],
+ "peak_share": 67.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "rescue mission",
+   "reach": 5,
+   "band": "b5",
+   "id": "rescue-mission"
+  },
+  {
+   "word": "1940s",
+   "reach": 5,
+   "band": "b5",
+   "id": "1940s"
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "agent",
+   "reach": 3,
+   "band": "b5",
+   "id": "agent"
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "bow and arrow",
+   "reach": 2,
+   "band": "b5",
+   "id": "bow-and-arrow"
+  },
+  {
+   "word": "bravery",
+   "reach": 3,
+   "band": "b5",
+   "id": "bravery"
+  },
+  {
+   "word": "chase",
+   "reach": 7,
+   "band": "b5",
+   "id": "chase"
+  },
+  {
+   "word": "cowardice",
+   "reach": 2,
+   "band": "b5",
+   "id": "cowardice"
+  },
+  {
+   "word": "d-day",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "daughter",
+   "reach": 10,
+   "band": "b5",
+   "id": "daughter"
+  },
+  {
+   "word": "denunciation",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "duty",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dying and death",
+   "reach": 13,
+   "band": "b4",
+   "id": "dying-and-death"
+  }
+ ],
+ "films": [
+  {
+   "id": "commando-1985",
+   "title": "Commando",
+   "year": 1985,
+   "poster": "ollPAAAgZ7euU8VisfqU3cuXhZ6.jpg",
+   "tmdb": 6.712
+  },
+  {
+   "id": "rambo-first-blood-part-ii-1985",
+   "title": "Rambo: First Blood Part II",
+   "year": 1985,
+   "poster": "fVwRtWqEPdsCH21BVDGqgkAQcff.jpg",
+   "tmdb": 6.67
+  },
+  {
+   "id": "saving-private-ryan-1998",
+   "title": "Saving Private Ryan",
+   "year": 1998,
+   "poster": "uqx37cS8cpHg8U35f9U5IBlrCV3.jpg",
+   "tmdb": 8.232
+  }
+ ]
+}

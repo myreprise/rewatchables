@@ -37,9 +37,15 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Kyle Brandt"
+    {
+     "name": "Kyle Brandt",
+     "id": "kyle-brandt"
+    }
    ],
    "note": null
   }
@@ -49,49 +55,57 @@
    "word": "police",
    "reach": 22,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "police"
   },
   {
    "word": "dying and death",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "dying-and-death"
   },
   {
    "word": "drug dealer",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drug-dealer"
   },
   {
    "word": "teacher",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "teacher"
   },
   {
    "word": "crime fighter",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "crime-fighter"
   },
   {
    "word": "kiss",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "kiss"
   },
   {
    "word": "education",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "kindergarten",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

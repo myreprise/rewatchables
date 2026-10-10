@@ -1,0 +1,145 @@
+{
+ "word": "killing",
+ "id": "killing",
+ "catalogue": 460,
+ "share": 0.9,
+ "thin": false,
+ "peak": 2000,
+ "avg_tmdb": 7.0,
+ "vs_catalogue": -0.1,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 2
+  }
+ ],
+ "peak_share": 50.0,
+ "catalogue_peak_share": 17.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "serial killer",
+   "reach": 14,
+   "band": "b4",
+   "id": "serial-killer"
+  },
+  {
+   "word": "california",
+   "reach": 16,
+   "band": "b4",
+   "id": "california"
+  },
+  {
+   "word": "crime spree",
+   "reach": 2,
+   "band": "b5",
+   "id": "crime-spree"
+  },
+  {
+   "word": "halloween",
+   "reach": 7,
+   "band": "b5",
+   "id": "halloween"
+  },
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "id": "murder"
+  },
+  {
+   "word": "whodunit",
+   "reach": 11,
+   "band": "b5",
+   "id": "whodunit"
+  },
+  {
+   "word": "1960s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1960s"
+  },
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1970s"
+  },
+  {
+   "word": "alcoholic",
+   "reach": 10,
+   "band": "b5",
+   "id": "alcoholic"
+  },
+  {
+   "word": "ambiguous",
+   "reach": 9,
+   "band": "b5",
+   "id": "ambiguous"
+  },
+  {
+   "word": "ambulance",
+   "reach": 2,
+   "band": "b5",
+   "id": "ambulance"
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  },
+  {
+   "word": "bar",
+   "reach": 3,
+   "band": "b5",
+   "id": "bar"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  }
+ ],
+ "films": [
+  {
+   "id": "halloween-4-the-return-of-michael-myers-1988",
+   "title": "Halloween 4: The Return of Michael Myers",
+   "year": 1988,
+   "poster": "eFSOkXF9n9hsfGv45MDsPixiOyx.jpg",
+   "tmdb": 6.175
+  },
+  {
+   "id": "scream-1996",
+   "title": "Scream",
+   "year": 1996,
+   "poster": "lr9ZIrmuwVmZhpZuTCW8D9g0ZJe.jpg",
+   "tmdb": 7.431
+  },
+  {
+   "id": "michael-clayton-2007",
+   "title": "Michael Clayton",
+   "year": 2007,
+   "poster": "hhkW4yVIGo8Bee3UITKvqOvhNMG.jpg",
+   "tmdb": 6.793
+  },
+  {
+   "id": "zodiac-2007",
+   "title": "Zodiac",
+   "year": 2007,
+   "poster": "6YmeO4pB7XTh8P8F960O1uA14JO.jpg",
+   "tmdb": 7.532
+  }
+ ]
+}

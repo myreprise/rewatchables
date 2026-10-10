@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Juliet Litman"
+    {
+     "name": "Juliet Litman",
+     "id": "juliet-litman"
+    }
    ],
    "note": null
   }
@@ -51,73 +57,85 @@
    "word": "new york city",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "new-york-city"
   },
   {
    "word": "nostalgic",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "nostalgic"
   },
   {
    "word": "teenager",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "teenager"
   },
   {
    "word": "time travel",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "time-travel"
   },
   {
    "word": "photographer",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "photographer"
   },
   {
    "word": "age change",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "age-change"
   },
   {
    "word": "editor-in-chief",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "editor-in-chief"
   },
   {
    "word": "wish",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "wish"
   },
   {
    "word": "beautiful woman",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "child as an adult",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "friends in love",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "time jump",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

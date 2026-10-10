@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Sean Fennessey"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -51,151 +57,176 @@
    "word": "new york city",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "new-york-city"
   },
   {
    "word": "aggressive",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "aggressive"
   },
   {
    "word": "bold",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "bold"
   },
   {
    "word": "romantic",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "romantic"
   },
   {
    "word": "angry",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "angry"
   },
   {
    "word": "anxious",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "anxious"
   },
   {
    "word": "obsession",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "obsession"
   },
   {
    "word": "musician",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "musician"
   },
   {
    "word": "young adult",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "young-adult"
   },
   {
    "word": "based on short film",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "based-on-short-film"
   },
   {
    "word": "jazz",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "jazz"
   },
   {
    "word": "music teacher",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "music-teacher"
   },
   {
    "word": "psychological drama",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "psychological-drama"
   },
   {
    "word": "public humiliation",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "public-humiliation"
   },
   {
    "word": "conservatory",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "disapproving",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "drummer",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "drums",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "emotional abuse",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "enraged",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "jazz band",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "montage",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "music school",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "perfectionist",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "verbal abuse",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

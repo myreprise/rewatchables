@@ -39,11 +39,23 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey",
-    "Van Lathan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": null
   }
@@ -53,121 +65,141 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "duringcreditsstinger",
    "reach": 27,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "duringcreditsstinger"
   },
   {
    "word": "aftercreditsstinger",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "aftercreditsstinger"
   },
   {
    "word": "survival",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "survival"
   },
   {
    "word": "cheerful",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cheerful"
   },
   {
    "word": "space",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "space"
   },
   {
    "word": "nasa",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nasa"
   },
   {
    "word": "philosophical",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "philosophical"
   },
   {
    "word": "astronaut",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "astronaut"
   },
   {
    "word": "optimistic",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "optimistic"
   },
   {
    "word": "faithful adaptation",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "faithful-adaptation"
   },
   {
    "word": "spacecraft",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "spacecraft"
   },
   {
    "word": "isolation",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "isolation"
   },
   {
    "word": "planet mars",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "planet-mars"
   },
   {
    "word": "stranded",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "stranded"
   },
   {
    "word": "2030s",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "botanist",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "deep space",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "engineering",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "struggle for survival",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

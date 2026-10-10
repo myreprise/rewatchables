@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Juliet Litman",
+   "host": {
+    "name": "Juliet Litman",
+    "id": "juliet-litman"
+   },
    "guests": [
-    "Amanda Dobbins",
-    "Shea Serrano"
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    },
+    {
+     "name": "Shea Serrano",
+     "id": "shea-serrano"
+    }
    ],
    "note": null
   }
@@ -50,109 +59,127 @@
    "word": "high school",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "high-school"
   },
   {
    "word": "duringcreditsstinger",
    "reach": 27,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "duringcreditsstinger"
   },
   {
    "word": "coming of age",
    "reach": 24,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "coming-of-age"
   },
   {
    "word": "teenager",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "teenager"
   },
   {
    "word": "teen comedy",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "teen-comedy"
   },
   {
    "word": "teen movie",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "teen-movie"
   },
   {
    "word": "female protagonist",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "female-protagonist"
   },
   {
    "word": "small town",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "small-town"
   },
   {
    "word": "high school student",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "high-school-student"
   },
   {
    "word": "loss of virginity",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "loss-of-virginity"
   },
   {
    "word": "school",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "school"
   },
   {
    "word": "teen drama",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "teen-drama"
   },
   {
    "word": "gay friend",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "intelligent",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "lie",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "pretend relationship",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "rumor",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "small town girl",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

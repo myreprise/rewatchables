@@ -40,9 +40,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Juliet Litman",
+   "host": {
+    "name": "Juliet Litman",
+    "id": "juliet-litman"
+   },
    "guests": [
-    "David Shoemaker"
+    {
+     "name": "David Shoemaker",
+     "id": "david-shoemaker"
+    }
    ],
    "note": null
   }
@@ -52,145 +58,169 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "revenge",
    "reach": 31,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "revenge"
   },
   {
    "word": "romantic",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "romantic"
   },
   {
    "word": "wedding",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "wedding"
   },
   {
    "word": "adoring",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "adoring"
   },
   {
    "word": "boat chase",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "boat-chase"
   },
   {
    "word": "dreams",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dreams"
   },
   {
    "word": "enchant",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "enchant"
   },
   {
    "word": "wrestling",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "wrestling"
   },
   {
    "word": "hidden identity",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hidden-identity"
   },
   {
    "word": "impersonation",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "impersonation"
   },
   {
    "word": "miracle",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "miracle"
   },
   {
    "word": "pirate",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pirate"
   },
   {
    "word": "story within the story",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "story-within-the-story"
   },
   {
    "word": "battle of wits",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "evil prince",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "fairytale",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "fictitious country",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "giant man",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "grandfather grandson relationship",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "narration",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "screwball",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "swashbuckler",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sword fight",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

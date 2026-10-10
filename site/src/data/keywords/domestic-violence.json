@@ -1,0 +1,134 @@
+{
+ "word": "domestic violence",
+ "id": "domestic-violence",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.5,
+ "vs_catalogue": 0.4,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 2
+  }
+ ],
+ "peak_share": 67.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "1950s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1950s"
+  },
+  {
+   "word": "alcoholic",
+   "reach": 10,
+   "band": "b5",
+   "id": "alcoholic"
+  },
+  {
+   "word": "alcoholism",
+   "reach": 6,
+   "band": "b5",
+   "id": "alcoholism"
+  },
+  {
+   "word": "ambiguous",
+   "reach": 9,
+   "band": "b5",
+   "id": "ambiguous"
+  },
+  {
+   "word": "avant garde",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "beach house",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "blind mother",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "blizzard",
+   "reach": 2,
+   "band": "b5",
+   "id": "blizzard"
+  },
+  {
+   "word": "call girl",
+   "reach": 3,
+   "band": "b5",
+   "id": "call-girl"
+  },
+  {
+   "word": "cape cod",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "caretaker",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "child abuse",
+   "reach": 6,
+   "band": "b5",
+   "id": "child-abuse"
+  },
+  {
+   "word": "colorado",
+   "reach": 2,
+   "band": "b5",
+   "id": "colorado"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-shining-1980",
+   "title": "The Shining",
+   "year": 1980,
+   "poster": "uAR0AWqhQL1hQa69UDEbb2rE5Wx.jpg",
+   "tmdb": 8.2
+  },
+  {
+   "id": "sleeping-with-the-enemy-1991",
+   "title": "Sleeping with the Enemy",
+   "year": 1991,
+   "poster": "zaUkndJP8IClB1gMsbw13PoVeLS.jpg",
+   "tmdb": 6.517
+  },
+  {
+   "id": "l-a-confidential-1997",
+   "title": "L.A. Confidential",
+   "year": 1997,
+   "poster": "lWCgf5sD5FpMljjpkRhcC8pXcch.jpg",
+   "tmdb": 7.806
+  }
+ ]
+}

@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -52,43 +61,50 @@
    "word": "manipulation",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "manipulation"
   },
   {
    "word": "san francisco, california",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "san-francisco-california"
   },
   {
    "word": "conspiracy thriller",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "conspiracy-thriller"
   },
   {
    "word": "bewildered",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bewildered"
   },
   {
    "word": "birthday present",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "danger of life",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "puzzle",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

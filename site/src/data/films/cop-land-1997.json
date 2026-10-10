@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -52,121 +61,141 @@
    "word": "new york city",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "new-york-city"
   },
   {
    "word": "murder",
    "reach": 36,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "murder"
   },
   {
    "word": "neo-noir",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "neo-noir"
   },
   {
    "word": "police",
    "reach": 22,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "police"
   },
   {
    "word": "fbi",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "fbi"
   },
   {
    "word": "organized crime",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "organized-crime"
   },
   {
    "word": "corruption",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "corruption"
   },
   {
    "word": "police corruption",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "police-corruption"
   },
   {
    "word": "car crash",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "car-crash"
   },
   {
    "word": "dirty cop",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dirty-cop"
   },
   {
    "word": "nypd",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nypd"
   },
   {
    "word": "car accident",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "car-accident"
   },
   {
    "word": "curious",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "curious"
   },
   {
    "word": "internal affairs",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "internal-affairs"
   },
   {
    "word": "new jersey",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "new-jersey"
   },
   {
    "word": "world trade center",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "world-trade-center"
   },
   {
    "word": "arson",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "bad cop",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "bridge",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "handcuffs",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

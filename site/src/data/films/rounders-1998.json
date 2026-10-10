@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Sean Fennessey"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   },
@@ -53,11 +59,23 @@
    "revisit_kind": "regular",
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey",
-    "Van Lathan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": "Cold Weather Tour 2024"
   }
@@ -67,91 +85,106 @@
    "word": "new york city",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "new-york-city"
   },
   {
    "word": "neo-noir",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "neo-noir"
   },
   {
    "word": "friendship",
    "reach": 22,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "friendship"
   },
   {
    "word": "gambling",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gambling"
   },
   {
    "word": "casino",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "casino"
   },
   {
    "word": "bratva (russian mafia)",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bratva-russian-mafia"
   },
   {
    "word": "poker",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "poker"
   },
   {
    "word": "call girl",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "call-girl"
   },
   {
    "word": "credit card fraud",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "credit-card-fraud"
   },
   {
    "word": "atlantic city",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "atlantic-city"
   },
   {
    "word": "gambling debt",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gambling-debt"
   },
   {
    "word": "loan shark",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "loan-shark"
   },
   {
    "word": "roulette",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "roulette"
   },
   {
    "word": "gain",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "law student",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Kyle Brandt"
+    {
+     "name": "Kyle Brandt",
+     "id": "kyle-brandt"
+    }
    ],
    "note": null
   }
@@ -51,103 +57,120 @@
    "word": "new york city",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "new-york-city"
   },
   {
    "word": "sequel",
    "reach": 28,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "sequel"
   },
   {
    "word": "aggressive",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "aggressive"
   },
   {
    "word": "christmas",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "christmas"
   },
   {
    "word": "holiday",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "holiday"
   },
   {
    "word": "family",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "family"
   },
   {
    "word": "family relationships",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "family-relationships"
   },
   {
    "word": "shocking",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "shocking"
   },
   {
    "word": "home invasion",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "home-invasion"
   },
   {
    "word": "burglar",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "burglar"
   },
   {
    "word": "slapstick comedy",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "slapstick-comedy"
   },
   {
    "word": "child rescue",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "child-rescue"
   },
   {
    "word": "home alone",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "home-alone"
   },
   {
    "word": "kids on their own",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "kids-on-their-own"
   },
   {
    "word": "little boy",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "little-boy"
   },
   {
    "word": "mischievous child",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mischievous-child"
   },
   {
    "word": "precocious child",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "precocious-child"
   }
  ],
  "cast": [

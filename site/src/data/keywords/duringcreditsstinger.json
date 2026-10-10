@@ -1,0 +1,310 @@
+{
+ "word": "duringcreditsstinger",
+ "id": "duringcreditsstinger",
+ "catalogue": 460,
+ "share": 5.9,
+ "thin": false,
+ "peak": 2000,
+ "avg_tmdb": 6.9,
+ "vs_catalogue": -0.2,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 4
+  },
+  {
+   "decade": 1990,
+   "n": 7
+  },
+  {
+   "decade": 2000,
+   "n": 9
+  },
+  {
+   "decade": 2010,
+   "n": 7
+  }
+ ],
+ "peak_share": 33.0,
+ "catalogue_peak_share": 17.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "aftercreditsstinger",
+   "reach": 18,
+   "band": "b3",
+   "id": "aftercreditsstinger"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "parody",
+   "reach": 6,
+   "band": "b5",
+   "id": "parody"
+  },
+  {
+   "word": "bold",
+   "reach": 15,
+   "band": "b4",
+   "id": "bold"
+  },
+  {
+   "word": "breaking the fourth wall",
+   "reach": 5,
+   "band": "b5",
+   "id": "breaking-the-fourth-wall"
+  },
+  {
+   "word": "buddy",
+   "reach": 14,
+   "band": "b4",
+   "id": "buddy"
+  },
+  {
+   "word": "car race",
+   "reach": 6,
+   "band": "b5",
+   "id": "car-race"
+  },
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "id": "coming-of-age"
+  },
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "id": "high-school"
+  },
+  {
+   "word": "nasa",
+   "reach": 5,
+   "band": "b5",
+   "id": "nasa"
+  },
+  {
+   "word": "nostalgic",
+   "reach": 13,
+   "band": "b4",
+   "id": "nostalgic"
+  },
+  {
+   "word": "road trip",
+   "reach": 13,
+   "band": "b4",
+   "id": "road-trip"
+  },
+  {
+   "word": "satire",
+   "reach": 9,
+   "band": "b5",
+   "id": "satire"
+  },
+  {
+   "word": "sports",
+   "reach": 47,
+   "band": "b1",
+   "id": "sports"
+  }
+ ],
+ "films": [
+  {
+   "id": "national-lampoons-vacation-1983",
+   "title": "National Lampoon's Vacation",
+   "year": 1983,
+   "poster": "q3DvoqY06yZnRp9faH6uge7n7VP.jpg",
+   "tmdb": 7.106
+  },
+  {
+   "id": "ghostbusters-1984",
+   "title": "Ghostbusters",
+   "year": 1984,
+   "poster": "7E8nLijS9AwwUEPu2oFYOVKhdFA.jpg",
+   "tmdb": 7.498
+  },
+  {
+   "id": "ferris-buellers-day-off-1986",
+   "title": "Ferris Bueller's Day Off",
+   "year": 1986,
+   "poster": "9LTQNCvoLsKXP0LtaKAaYVtRaQL.jpg",
+   "tmdb": 7.562
+  },
+  {
+   "id": "rain-man-1988",
+   "title": "Rain Man",
+   "year": 1988,
+   "poster": "iTNHwO896WKkaoPtpMMS74d8VNi.jpg",
+   "tmdb": 7.751
+  },
+  {
+   "id": "waynes-world-1992",
+   "title": "Wayne's World",
+   "year": 1992,
+   "poster": "fHwZnFNWR7PaS9t5EBwTvGPeoYQ.jpg",
+   "tmdb": 6.684
+  },
+  {
+   "id": "austin-powers-international-man-of-mystery-1997",
+   "title": "Austin Powers: International Man of Mystery",
+   "year": 1997,
+   "poster": "5uD4dxNX8JKFjWKYMHyOsqhi5pN.jpg",
+   "tmdb": 6.602
+  },
+  {
+   "id": "armageddon-1998",
+   "title": "Armageddon",
+   "year": 1998,
+   "poster": "eTM3qtGhDU8cvjpoa6KEt5E2auU.jpg",
+   "tmdb": 6.832
+  },
+  {
+   "id": "wild-things-1998",
+   "title": "Wild Things",
+   "year": 1998,
+   "poster": "wrcTDD9T7Ga5c9MW7kaOo2qwIvW.jpg",
+   "tmdb": 6.378
+  },
+  {
+   "id": "10-things-i-hate-about-you-1999",
+   "title": "10 Things I Hate About You",
+   "year": 1999,
+   "poster": "ujERk3aKABXU3NDXOAxEQYTHe9A.jpg",
+   "tmdb": 7.597
+  },
+  {
+   "id": "austin-powers-the-spy-who-shagged-me-1999",
+   "title": "Austin Powers: The Spy Who Shagged Me",
+   "year": 1999,
+   "poster": "jiF7UShERJFn5RtgfBK2lIJrOTc.jpg",
+   "tmdb": 6.322
+  },
+  {
+   "id": "office-space-1999",
+   "title": "Office Space",
+   "year": 1999,
+   "poster": "iEmTwOkUaLziMQCUZii5wPQBIAO.jpg",
+   "tmdb": 7.381
+  },
+  {
+   "id": "the-fast-and-the-furious-2001",
+   "title": "The Fast and the Furious",
+   "year": 2001,
+   "poster": "gqY0ITBgT7A82poL9jv851qdnIb.jpg",
+   "tmdb": 7.0
+  },
+  {
+   "id": "dodgeball-a-true-underdog-story-2004",
+   "title": "DodgeBall: A True Underdog Story",
+   "year": 2004,
+   "poster": "r8KbNHkkwFXLjV1suGwm0Qjure5.jpg",
+   "tmdb": 6.4
+  },
+  {
+   "id": "miracle-2004",
+   "title": "Miracle",
+   "year": 2004,
+   "poster": "mxtej2th8t8x0ufVBTyhsO6Htxj.jpg",
+   "tmdb": 7.1
+  },
+  {
+   "id": "borat-cultural-learnings-of-america-for-make-benefit-glorious-nation-of-kazakhstan-2006",
+   "title": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
+   "year": 2006,
+   "poster": "7g9kBHMN2KTr5KUf8aen187Mdn.jpg",
+   "tmdb": 6.788
+  },
+  {
+   "id": "talladega-nights-the-ballad-of-ricky-bobby-2006",
+   "title": "Talladega Nights: The Ballad of Ricky Bobby",
+   "year": 2006,
+   "poster": "3iCiTqsmJz1mO85AHzTiHNkRmb6.jpg",
+   "tmdb": 6.381
+  },
+  {
+   "id": "knocked-up-2007",
+   "title": "Knocked Up",
+   "year": 2007,
+   "poster": "b4OaXw2MW97VvIiZE0Sbn1NfxSh.jpg",
+   "tmdb": 6.304
+  },
+  {
+   "id": "step-brothers-2008",
+   "title": "Step Brothers",
+   "year": 2008,
+   "poster": "nvggBbEraUTAVR6ffP3AaBUWSHs.jpg",
+   "tmdb": 6.558
+  },
+  {
+   "id": "tropic-thunder-2008",
+   "title": "Tropic Thunder",
+   "year": 2008,
+   "poster": "zAurB9mNxfYRoVrVjAJJwGV3sPg.jpg",
+   "tmdb": 6.725
+  },
+  {
+   "id": "adventureland-2009",
+   "title": "Adventureland",
+   "year": 2009,
+   "poster": "eeSJNAR1aWcgANq26KWIHm3cbyB.jpg",
+   "tmdb": 6.398
+  },
+  {
+   "id": "easy-a-2010",
+   "title": "Easy A",
+   "year": 2010,
+   "poster": "v5f1qO6NJnxWgONgkYg21TW39DT.jpg",
+   "tmdb": 6.803
+  },
+  {
+   "id": "bridesmaids-2011",
+   "title": "Bridesmaids",
+   "year": 2011,
+   "poster": "gJtA7hYsBMQ7EM3sPBMUdBfU7a0.jpg",
+   "tmdb": 6.509
+  },
+  {
+   "id": "fast-five-2011",
+   "title": "Fast Five",
+   "year": 2011,
+   "poster": "gEfQjjQwY7fh5bI4GlG0RrBu7Pz.jpg",
+   "tmdb": 7.244
+  },
+  {
+   "id": "chef-2014",
+   "title": "Chef",
+   "year": 2014,
+   "poster": "hyp8EXDmO4dSC8V6Q5jU7gD1kcg.jpg",
+   "tmdb": 7.111
+  },
+  {
+   "id": "draft-day-2014",
+   "title": "Draft Day",
+   "year": 2014,
+   "poster": "bnl2ocjS1io4UCPhjoFuPKmJ9bf.jpg",
+   "tmdb": 6.71
+  },
+  {
+   "id": "the-martian-2015",
+   "title": "The Martian",
+   "year": 2015,
+   "poster": "fASz8A0yFE3QB6LgGoOfwvFSseV.jpg",
+   "tmdb": 7.706
+  },
+  {
+   "id": "once-upon-a-time-in-hollywood-2019",
+   "title": "Once Upon a Time... in Hollywood",
+   "year": 2019,
+   "poster": "8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg",
+   "tmdb": 7.42
+  }
+ ]
+}

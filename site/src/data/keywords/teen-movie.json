@@ -1,0 +1,170 @@
+{
+ "word": "teen movie",
+ "id": "teen-movie",
+ "catalogue": 460,
+ "share": 1.5,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.0,
+ "vs_catalogue": -0.1,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 4
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 2
+  }
+ ],
+ "peak_share": 57.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "id": "high-school"
+  },
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "id": "coming-of-age"
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "id": "duringcreditsstinger"
+  },
+  {
+   "word": "high school student",
+   "reach": 4,
+   "band": "b5",
+   "id": "high-school-student"
+  },
+  {
+   "word": "teen comedy",
+   "reach": 9,
+   "band": "b5",
+   "id": "teen-comedy"
+  },
+  {
+   "word": "teenager",
+   "reach": 12,
+   "band": "b4",
+   "id": "teenager"
+  },
+  {
+   "word": "friendship",
+   "reach": 22,
+   "band": "b3",
+   "id": "friendship"
+  },
+  {
+   "word": "loss of virginity",
+   "reach": 3,
+   "band": "b5",
+   "id": "loss-of-virginity"
+  },
+  {
+   "word": "martial arts",
+   "reach": 9,
+   "band": "b5",
+   "id": "martial-arts"
+  },
+  {
+   "word": "mentor protégé relationship",
+   "reach": 6,
+   "band": "b5",
+   "id": "mentor-protege-relationship"
+  },
+  {
+   "word": "teenage romance",
+   "reach": 2,
+   "band": "b5",
+   "id": "teenage-romance"
+  },
+  {
+   "word": "1980s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1980s"
+  },
+  {
+   "word": "aftercreditsstinger",
+   "reach": 18,
+   "band": "b3",
+   "id": "aftercreditsstinger"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  }
+ ],
+ "films": [
+  {
+   "id": "fast-times-at-ridgemont-high-1982",
+   "title": "Fast Times at Ridgemont High",
+   "year": 1982,
+   "poster": "e15rmfjf0m6EGLe4MnNhwD3Dd1W.jpg",
+   "tmdb": 6.791
+  },
+  {
+   "id": "the-karate-kid-1984",
+   "title": "The Karate Kid",
+   "year": 1984,
+   "poster": "1mp4ViklKvA0WXXsNvNx0RBuiit.jpg",
+   "tmdb": 7.23
+  },
+  {
+   "id": "ferris-buellers-day-off-1986",
+   "title": "Ferris Bueller's Day Off",
+   "year": 1986,
+   "poster": "9LTQNCvoLsKXP0LtaKAaYVtRaQL.jpg",
+   "tmdb": 7.562
+  },
+  {
+   "id": "the-karate-kid-part-ii-1986",
+   "title": "The Karate Kid Part II",
+   "year": 1986,
+   "poster": "k0OwgRR6PNu7h3SiqpCbRdZWNaG.jpg",
+   "tmdb": 6.351
+  },
+  {
+   "id": "10-things-i-hate-about-you-1999",
+   "title": "10 Things I Hate About You",
+   "year": 1999,
+   "poster": "ujERk3aKABXU3NDXOAxEQYTHe9A.jpg",
+   "tmdb": 7.597
+  },
+  {
+   "id": "easy-a-2010",
+   "title": "Easy A",
+   "year": 2010,
+   "poster": "v5f1qO6NJnxWgONgkYg21TW39DT.jpg",
+   "tmdb": 6.803
+  },
+  {
+   "id": "project-x-2012",
+   "title": "Project X",
+   "year": 2012,
+   "poster": "lUPDGT3lyRrq8SvWuNWG2DP64bR.jpg",
+   "tmdb": 6.924
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "word": "chameleon",
+ "id": "chameleon",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1960s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1960s"
+  },
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1970s"
+  },
+  {
+   "word": "alabama",
+   "reach": 2,
+   "band": "b5",
+   "id": "alabama"
+  },
+  {
+   "word": "america",
+   "reach": 2,
+   "band": "b5",
+   "id": "america"
+  },
+  {
+   "word": "anti war protest",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "assertive",
+   "reach": 9,
+   "band": "b5",
+   "id": "assertive"
+  },
+  {
+   "word": "attempted jailbreak",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "autism",
+   "reach": 2,
+   "band": "b5",
+   "id": "autism"
+  },
+  {
+   "word": "bank fraud",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "biography",
+   "reach": 10,
+   "band": "b5",
+   "id": "biography"
+  },
+  {
+   "word": "black panther party",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bus stop",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "forrest-gump-1994",
+   "title": "Forrest Gump",
+   "year": 1994,
+   "poster": "Cw4hIUIAmSYfK9QfaUW5igp9La.jpg",
+   "tmdb": 8.463
+  },
+  {
+   "id": "catch-me-if-you-can-2002",
+   "title": "Catch Me If You Can",
+   "year": 2002,
+   "poster": "ctjEj2xM32OvBXCq8zAdK3ZrsAj.jpg",
+   "tmdb": 7.978
+  }
+ ]
+}

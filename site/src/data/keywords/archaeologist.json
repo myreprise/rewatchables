@@ -1,0 +1,134 @@
+{
+ "word": "archaeologist",
+ "id": "archaeologist",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.7,
+ "vs_catalogue": 0.6,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 2
+  }
+ ],
+ "peak_share": 67.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1930s",
+   "reach": 6,
+   "band": "b5",
+   "id": "1930s"
+  },
+  {
+   "word": "nazi",
+   "reach": 5,
+   "band": "b5",
+   "id": "nazi"
+  },
+  {
+   "word": "riddle",
+   "reach": 4,
+   "band": "b5",
+   "id": "riddle"
+  },
+  {
+   "word": "saving the world",
+   "reach": 8,
+   "band": "b5",
+   "id": "saving-the-world"
+  },
+  {
+   "word": "adolf hitler",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "adventurer",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "ambassador",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "anti-christ",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "archeology",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "ark of the covenant",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  },
+  {
+   "word": "baboon",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bible quote",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "biblical archaeology",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "the-omen-1976",
+   "title": "The Omen",
+   "year": 1976,
+   "poster": "mDcjjEu1fMNmsXi4l4D8IftlTix.jpg",
+   "tmdb": 7.404
+  },
+  {
+   "id": "raiders-of-the-lost-ark-1981",
+   "title": "Raiders of the Lost Ark",
+   "year": 1981,
+   "poster": "ceG9VzoRAVGwivFU403Wc3AHRys.jpg",
+   "tmdb": 7.927
+  },
+  {
+   "id": "indiana-jones-and-the-last-crusade-1989",
+   "title": "Indiana Jones and the Last Crusade",
+   "year": 1989,
+   "poster": "sizg1AU8f8JDZX4QIgE4pjUMBvx.jpg",
+   "tmdb": 7.855
+  }
+ ]
+}

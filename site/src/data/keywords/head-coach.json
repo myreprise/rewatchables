@@ -1,0 +1,118 @@
+{
+ "word": "head coach",
+ "id": "head-coach",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "id": "high-school"
+  },
+  {
+   "word": "high school sports",
+   "reach": 4,
+   "band": "b5",
+   "id": "high-school-sports"
+  },
+  {
+   "word": "sports",
+   "reach": 47,
+   "band": "b1",
+   "id": "sports"
+  },
+  {
+   "word": "1950s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1950s"
+  },
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1970s"
+  },
+  {
+   "word": "american football",
+   "reach": 13,
+   "band": "b4",
+   "id": "american-football"
+  },
+  {
+   "word": "apartheid",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "basketball",
+   "reach": 7,
+   "band": "b5",
+   "id": "basketball"
+  },
+  {
+   "word": "basketball coach",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "civil rights",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "coach",
+   "reach": 5,
+   "band": "b5",
+   "id": "coach"
+  },
+  {
+   "word": "coach teacher",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "coaching",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "hoosiers-1986",
+   "title": "Hoosiers",
+   "year": 1986,
+   "poster": "dHpjZQXEdoi1xNLubM1rPmTHJYz.jpg",
+   "tmdb": 7.0
+  },
+  {
+   "id": "remember-the-titans-2000",
+   "title": "Remember the Titans",
+   "year": 2000,
+   "poster": "825ohvC4wZ3gCuncCaqkWeQnK8h.jpg",
+   "tmdb": 7.66
+  }
+ ]
+}

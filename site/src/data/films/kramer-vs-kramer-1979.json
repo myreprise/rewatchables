@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Sean Fennessey",
-    "Mallory Rubin"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    }
    ],
    "note": "\"Fucked up Family February\" month"
   }
@@ -50,79 +59,92 @@
    "word": "dramatic",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "dramatic"
   },
   {
    "word": "husband wife relationship",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "husband-wife-relationship"
   },
   {
    "word": "family",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "family"
   },
   {
    "word": "manhattan, new york city",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "manhattan-new-york-city"
   },
   {
    "word": "marriage",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "marriage"
   },
   {
    "word": "divorce",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "divorce"
   },
   {
    "word": "compassionate",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "compassionate"
   },
   {
    "word": "couple",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "couple"
   },
   {
    "word": "custody battle",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "custody-battle"
   },
   {
    "word": "abandonment",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "child custody",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "parents separating",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "selfishness",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

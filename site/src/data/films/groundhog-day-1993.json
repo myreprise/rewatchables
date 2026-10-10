@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Sean Fennessey",
-    "Issa Rae"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Issa Rae",
+     "id": "issa-rae"
+    }
    ],
    "note": "Rog originally gave it 3/4 stars, but re-assessed in 2005"
   }
@@ -52,85 +61,99 @@
    "word": "holiday",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "holiday"
   },
   {
    "word": "pennsylvania, usa",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pennsylvania-usa"
   },
   {
    "word": "winter",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "winter"
   },
   {
    "word": "deja vu",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "deja-vu"
   },
   {
    "word": "magic realism",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "magic-realism"
   },
   {
    "word": "time loop",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "time-loop"
   },
   {
    "word": "alarm clock",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "existentialism",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "february",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "groundhog",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "groundhog day",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "telecaster",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "time warp",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "weather forecast",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

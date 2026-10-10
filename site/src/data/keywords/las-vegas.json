@@ -1,0 +1,159 @@
+{
+ "word": "las vegas",
+ "id": "las-vegas",
+ "catalogue": 460,
+ "share": 1.3,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.3,
+ "vs_catalogue": 0.2,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 3
+  },
+  {
+   "decade": 2000,
+   "n": 2
+  }
+ ],
+ "peak_share": 50.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "blackjack",
+   "reach": 2,
+   "band": "b5",
+   "id": "blackjack"
+  },
+  {
+   "word": "casino",
+   "reach": 5,
+   "band": "b5",
+   "id": "casino"
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "id": "duringcreditsstinger"
+  },
+  {
+   "word": "gambling",
+   "reach": 6,
+   "band": "b5",
+   "id": "gambling"
+  },
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1970s"
+  },
+  {
+   "word": "1980s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1980s"
+  },
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "id": "absurd"
+  },
+  {
+   "word": "adultery",
+   "reach": 5,
+   "band": "b5",
+   "id": "adultery"
+  },
+  {
+   "word": "amnesia",
+   "reach": 3,
+   "band": "b5",
+   "id": "amnesia"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "asperger's syndrome",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "autism",
+   "reach": 2,
+   "band": "b5",
+   "id": "autism"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "brutal violence",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "rain-man-1988",
+   "title": "Rain Man",
+   "year": 1988,
+   "poster": "iTNHwO896WKkaoPtpMMS74d8VNi.jpg",
+   "tmdb": 7.751
+  },
+  {
+   "id": "indecent-proposal-1993",
+   "title": "Indecent Proposal",
+   "year": 1993,
+   "poster": "a39WoiTJEG5kNLIrr3kOMwg3LFg.jpg",
+   "tmdb": 6.407
+  },
+  {
+   "id": "casino-1995",
+   "title": "Casino",
+   "year": 1995,
+   "poster": "gziIkUSnYuj9ChCi8qOu2ZunpSC.jpg",
+   "tmdb": 7.998
+  },
+  {
+   "id": "austin-powers-international-man-of-mystery-1997",
+   "title": "Austin Powers: International Man of Mystery",
+   "year": 1997,
+   "poster": "5uD4dxNX8JKFjWKYMHyOsqhi5pN.jpg",
+   "tmdb": 6.602
+  },
+  {
+   "id": "oceans-eleven-2001",
+   "title": "Ocean's Eleven",
+   "year": 2001,
+   "poster": "hQQCdZrsHtZyR6NbKH2YyCqd2fR.jpg",
+   "tmdb": 7.466
+  },
+  {
+   "id": "the-hangover-2009",
+   "title": "The Hangover",
+   "year": 2009,
+   "poster": "A0uS9rHR56FeBtpjVki16M5xxSW.jpg",
+   "tmdb": 7.337
+  }
+ ]
+}

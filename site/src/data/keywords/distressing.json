@@ -1,0 +1,142 @@
+{
+ "word": "distressing",
+ "id": "distressing",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.1,
+ "vs_catalogue": 0.0,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 33.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "aftercreditsstinger",
+   "reach": 18,
+   "band": "b3",
+   "id": "aftercreditsstinger"
+  },
+  {
+   "word": "atlantic ocean",
+   "reach": 3,
+   "band": "b5",
+   "id": "atlantic-ocean"
+  },
+  {
+   "word": "audacious",
+   "reach": 10,
+   "band": "b5",
+   "id": "audacious"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "beguilement",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "blunt",
+   "reach": 6,
+   "band": "b5",
+   "id": "blunt"
+  },
+  {
+   "word": "bold",
+   "reach": 15,
+   "band": "b4",
+   "id": "bold"
+  },
+  {
+   "word": "bungee-jump",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "complex",
+   "reach": 5,
+   "band": "b5",
+   "id": "complex"
+  },
+  {
+   "word": "conspiracy thriller",
+   "reach": 5,
+   "band": "b5",
+   "id": "conspiracy-thriller"
+  },
+  {
+   "word": "cop",
+   "reach": 7,
+   "band": "b5",
+   "id": "cop"
+  },
+  {
+   "word": "counterfeit",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "counterfeit money",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "demon",
+   "reach": 4,
+   "band": "b5",
+   "id": "demon"
+  }
+ ],
+ "films": [
+  {
+   "id": "to-live-and-die-in-l-a-1985",
+   "title": "To Live and Die in L.A.",
+   "year": 1985,
+   "poster": "2iW3pSihBIhXjnBQmUJ0mAiZbB5.jpg",
+   "tmdb": 7.117
+  },
+  {
+   "id": "the-talented-mr-ripley-1999",
+   "title": "The Talented Mr. Ripley",
+   "year": 1999,
+   "poster": "6ojHgqtIR41O2qLKa7LFUVj0cZa.jpg",
+   "tmdb": 7.197
+  },
+  {
+   "id": "insidious-2011",
+   "title": "Insidious",
+   "year": 2011,
+   "poster": "1egpmVXuXed58TH2UOnX1nATTrf.jpg",
+   "tmdb": 7.0
+  }
+ ]
+}

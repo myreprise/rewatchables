@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -51,43 +60,50 @@
    "word": "hollywood",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hollywood"
   },
   {
    "word": "aspiring actor",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "aspiring-actor"
   },
   {
    "word": "stuffed animal",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "stuffed-animal"
   },
   {
    "word": "swinger",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "swinger"
   },
   {
    "word": "drink",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "name calling",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "producer",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

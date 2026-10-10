@@ -1,0 +1,130 @@
+{
+ "word": "buddy comedy",
+ "id": "buddy-comedy",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.2,
+ "vs_catalogue": 0.1,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 3
+  }
+ ],
+ "peak_share": 100.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "buddy cop",
+   "reach": 11,
+   "band": "b5",
+   "id": "buddy-cop"
+  },
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  },
+  {
+   "word": "maverick cop",
+   "reach": 3,
+   "band": "b5",
+   "id": "maverick-cop"
+  },
+  {
+   "word": "showdown",
+   "reach": 7,
+   "band": "b5",
+   "id": "showdown"
+  },
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "id": "absurd"
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "art gallery",
+   "reach": 3,
+   "band": "b5",
+   "id": "art-gallery"
+  },
+  {
+   "word": "bail jumper",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bar fight",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bearer bonds",
+   "reach": 2,
+   "band": "b5",
+   "id": "bearer-bonds"
+  },
+  {
+   "word": "beverly hills",
+   "reach": 4,
+   "band": "b5",
+   "id": "beverly-hills"
+  },
+  {
+   "word": "black cop",
+   "reach": 2,
+   "band": "b5",
+   "id": "black-cop"
+  },
+  {
+   "word": "buddy",
+   "reach": 14,
+   "band": "b4",
+   "id": "buddy"
+  },
+  {
+   "word": "bus station",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "beverly-hills-cop-1984",
+   "title": "Beverly Hills Cop",
+   "year": 1984,
+   "poster": "eBJEvKkhQ0tUt1dBAcTEYW6kCle.jpg",
+   "tmdb": 7.211
+  },
+  {
+   "id": "lethal-weapon-1987",
+   "title": "Lethal Weapon",
+   "year": 1987,
+   "poster": "6gt44oqb4nE8vflPElffeGwsHVl.jpg",
+   "tmdb": 7.303
+  },
+  {
+   "id": "midnight-run-1988",
+   "title": "Midnight Run",
+   "year": 1988,
+   "poster": "yx0touyDQ9enWDsFgS4MbBwCSNd.jpg",
+   "tmdb": 7.182
+  }
+ ]
+}

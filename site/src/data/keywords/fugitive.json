@@ -1,0 +1,149 @@
+{
+ "word": "fugitive",
+ "id": "fugitive",
+ "catalogue": 460,
+ "share": 0.9,
+ "thin": false,
+ "peak": 2010,
+ "avg_tmdb": 6.7,
+ "vs_catalogue": -0.4,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 2
+  }
+ ],
+ "peak_share": 50.0,
+ "catalogue_peak_share": 12.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "on the run",
+   "reach": 10,
+   "band": "b5",
+   "id": "on-the-run"
+  },
+  {
+   "word": "betrayal",
+   "reach": 9,
+   "band": "b5",
+   "id": "betrayal"
+  },
+  {
+   "word": "chase",
+   "reach": 7,
+   "band": "b5",
+   "id": "chase"
+  },
+  {
+   "word": "conspiracy",
+   "reach": 13,
+   "band": "b4",
+   "id": "conspiracy"
+  },
+  {
+   "word": "accidental shooting",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "anti hero",
+   "reach": 8,
+   "band": "b5",
+   "id": "anti-hero"
+  },
+  {
+   "word": "attempted rape",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "brother sister relationship",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "car race",
+   "reach": 6,
+   "band": "b5",
+   "id": "car-race"
+  },
+  {
+   "word": "cars",
+   "reach": 3,
+   "band": "b5",
+   "id": "cars"
+  },
+  {
+   "word": "cat and mouse",
+   "reach": 2,
+   "band": "b5",
+   "id": "cat-and-mouse"
+  },
+  {
+   "word": "chicago, illinois",
+   "reach": 19,
+   "band": "b3",
+   "id": "chicago-illinois"
+  },
+  {
+   "word": "chinese military",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "the-legend-of-billie-jean-1985",
+   "title": "The Legend of Billie Jean",
+   "year": 1985,
+   "poster": "x2u2YtbJ9XySs3MdaIly8Gfp66.jpg",
+   "tmdb": 6.6
+  },
+  {
+   "id": "the-fugitive-1993",
+   "title": "The Fugitive",
+   "year": 1993,
+   "poster": "b3rEtLKyOnF89mcK75GXDXdmOEf.jpg",
+   "tmdb": 7.486
+  },
+  {
+   "id": "fast-five-2011",
+   "title": "Fast Five",
+   "year": 2011,
+   "poster": "gEfQjjQwY7fh5bI4GlG0RrBu7Pz.jpg",
+   "tmdb": 7.244
+  },
+  {
+   "id": "blackhat-2015",
+   "title": "Blackhat",
+   "year": 2015,
+   "poster": "7zu6HPnKPjNA7NuR4DGRdaH0PdX.jpg",
+   "tmdb": 5.522
+  }
+ ]
+}

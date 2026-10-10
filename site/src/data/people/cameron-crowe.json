@@ -1,0 +1,36 @@
+{
+ "name": "Cameron Crowe",
+ "id": "cameron-crowe",
+ "episodes": 1,
+ "share": 0.0021,
+ "hosted": 0,
+ "first": "2025-12-08",
+ "last": "2025-12-08",
+ "shelf": [
+  {
+   "id": "shampoo-1975",
+   "title": "Shampoo",
+   "year": 1975,
+   "poster": "6jmFvXPV6OhtX3AkAVnH7rwdeUJ.jpg",
+   "episode": 435,
+   "aired": "2025-12-08"
+  }
+ ],
+ "company": [
+  {
+   "name": "Sean Fennessey",
+   "id": "sean-fennessey",
+   "episodes": 1
+  }
+ ],
+ "regular": false,
+ "lean_floor": 15,
+ "leans": [],
+ "verdict_floor": 8,
+ "verdicts": {
+  "cruise": 1,
+  "hanks": 0,
+  "ties": 0,
+  "n": 1
+ }
+}

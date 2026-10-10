@@ -1,0 +1,118 @@
+{
+ "word": "professional thief",
+ "id": "professional-thief",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "caper",
+   "reach": 4,
+   "band": "b5",
+   "id": "caper"
+  },
+  {
+   "word": "ex-con",
+   "reach": 4,
+   "band": "b5",
+   "id": "ex-con"
+  },
+  {
+   "word": "heist",
+   "reach": 16,
+   "band": "b4",
+   "id": "heist"
+  },
+  {
+   "word": "amsterdam, netherlands",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "card dealer",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "casino",
+   "reach": 5,
+   "band": "b5",
+   "id": "casino"
+  },
+  {
+   "word": "casino owner",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "casino vault",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "competition",
+   "reach": 6,
+   "band": "b5",
+   "id": "competition"
+  },
+  {
+   "word": "computer hacker",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "con artist",
+   "reach": 4,
+   "band": "b5",
+   "id": "con-artist"
+  },
+  {
+   "word": "contortionist",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "distractions",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "europol agent",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "oceans-eleven-2001",
+   "title": "Ocean's Eleven",
+   "year": 2001,
+   "poster": "hQQCdZrsHtZyR6NbKH2YyCqd2fR.jpg",
+   "tmdb": 7.466
+  },
+  {
+   "id": "oceans-twelve-2004",
+   "title": "Ocean's Twelve",
+   "year": 2004,
+   "poster": "pE5anFf7nf6ah7V3VRezQ1KSovi.jpg",
+   "tmdb": 6.566
+  }
+ ]
+}

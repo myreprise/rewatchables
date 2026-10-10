@@ -37,9 +37,15 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Van Lathan"
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": null
   }
@@ -49,91 +55,106 @@
    "word": "dramatic",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "dramatic"
   },
   {
    "word": "parent child relationship",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "parent-child-relationship"
   },
   {
    "word": "dying and death",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "dying-and-death"
   },
   {
    "word": "awestruck",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "awestruck"
   },
   {
    "word": "anxious",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "anxious"
   },
   {
    "word": "family relationships",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "family-relationships"
   },
   {
    "word": "halloween",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "halloween"
   },
   {
    "word": "paranormal phenomena",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "paranormal-phenomena"
   },
   {
    "word": "haunted house",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "haunted-house"
   },
   {
    "word": "suburbia",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "suburbia"
   },
   {
    "word": "ghostbuster",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ghostbuster"
   },
   {
    "word": "medium",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "medium"
   },
   {
    "word": "haunted",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "poltergeist",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "power of goodness",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

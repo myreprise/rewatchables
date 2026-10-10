@@ -1,0 +1,118 @@
+{
+ "word": "hijacking",
+ "id": "hijacking",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "airplane",
+   "reach": 8,
+   "band": "b5",
+   "id": "airplane"
+  },
+  {
+   "word": "ambush",
+   "reach": 2,
+   "band": "b5",
+   "id": "ambush"
+  },
+  {
+   "word": "army veteran",
+   "reach": 2,
+   "band": "b5",
+   "id": "army-veteran"
+  },
+  {
+   "word": "bravery",
+   "reach": 3,
+   "band": "b5",
+   "id": "bravery"
+  },
+  {
+   "word": "brutality",
+   "reach": 4,
+   "band": "b5",
+   "id": "brutality"
+  },
+  {
+   "word": "climbing",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "convict",
+   "reach": 4,
+   "band": "b5",
+   "id": "convict"
+  },
+  {
+   "word": "dea agent",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "diabetic",
+   "reach": 2,
+   "band": "b5",
+   "id": "diabetic"
+  },
+  {
+   "word": "disguises",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "ex army",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "heist",
+   "reach": 16,
+   "band": "b4",
+   "id": "heist"
+  },
+  {
+   "word": "hostile takeover",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "cliffhanger-1993",
+   "title": "Cliffhanger",
+   "year": 1993,
+   "poster": "b28DOM54OHb1c7Lsk6Nu7Kwuonj.jpg",
+   "tmdb": 6.518
+  },
+  {
+   "id": "con-air-1997",
+   "title": "Con Air",
+   "year": 1997,
+   "poster": "kOKjgrEzGOP92rVQ6srA9jtp60l.jpg",
+   "tmdb": 6.785
+  }
+ ]
+}

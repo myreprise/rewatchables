@@ -41,9 +41,15 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Kyle Brandt"
+    {
+     "name": "Kyle Brandt",
+     "id": "kyle-brandt"
+    }
    ],
    "note": "Raj did not write a review but gave it a thumbs up on TV"
   }
@@ -53,133 +59,155 @@
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "revenge",
    "reach": 31,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "revenge"
   },
   {
    "word": "sequel",
    "reach": 28,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "sequel"
   },
   {
    "word": "underdog",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "underdog"
   },
   {
    "word": "martial arts",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "martial-arts"
   },
   {
    "word": "thoughtful",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "thoughtful"
   },
   {
    "word": "teen movie",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "teen-movie"
   },
   {
    "word": "mentor protégé relationship",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mentor-protege-relationship"
   },
   {
    "word": "reflective",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "reflective"
   },
   {
    "word": "sentimental",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sentimental"
   },
   {
    "word": "feud",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "feud"
   },
   {
    "word": "japan",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "japan"
   },
   {
    "word": "death of father",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "enemies to friends",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "japanese family",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "japanese girl",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "japanese tradition",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "japanese woman",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "okinawa",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "romantic rival",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "self esteem",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "traditional culture",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

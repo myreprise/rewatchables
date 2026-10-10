@@ -37,9 +37,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Sean Fennessey"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -49,67 +55,78 @@
    "word": "revenge",
    "reach": 31,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "revenge"
   },
   {
    "word": "prostitute",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "prostitute"
   },
   {
    "word": "drug dealing",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drug-dealing"
   },
   {
    "word": "car dealership",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "car-dealership"
   },
   {
    "word": "gambling debt",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gambling-debt"
   },
   {
    "word": "tape recorder",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "tape-recorder"
   },
   {
    "word": "bookie",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "bulldozer",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "heart transplant",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "homelessness",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "opera house",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

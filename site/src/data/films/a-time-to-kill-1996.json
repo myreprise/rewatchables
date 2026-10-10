@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Wesley Morris"
+    {
+     "name": "Wesley Morris",
+     "id": "wesley-morris"
+    }
    ],
    "note": "Courtroom Month"
   }
@@ -51,163 +57,190 @@
    "word": "murder",
    "reach": 36,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "murder"
   },
   {
    "word": "lawyer",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "lawyer"
   },
   {
    "word": "inspirational",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "inspirational"
   },
   {
    "word": "frightened",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "frightened"
   },
   {
    "word": "legal thriller",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "legal-thriller"
   },
   {
    "word": "courtroom",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "courtroom"
   },
   {
    "word": "courtroom drama",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "courtroom-drama"
   },
   {
    "word": "court",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "court"
   },
   {
    "word": "racism",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "racism"
   },
   {
    "word": "blackmail",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "blackmail"
   },
   {
    "word": "legal drama",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "legal-drama"
   },
   {
    "word": "rape",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rape"
   },
   {
    "word": "attempted murder",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "attempted-murder"
   },
   {
    "word": "forgiveness",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "forgiveness"
   },
   {
    "word": "ku klux klan",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ku-klux-klan"
   },
   {
    "word": "capital punishment",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "capital-punishment"
   },
   {
    "word": "jurors",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "jurors"
   },
   {
    "word": "mourning",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mourning"
   },
   {
    "word": "racial tension",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "racial-tension"
   },
   {
    "word": "sniper",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sniper"
   },
   {
    "word": "attempted hanging",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "avenging father",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "black community",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "gang rape",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mississippi river",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "racial issues",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "trial",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

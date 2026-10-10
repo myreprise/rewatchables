@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Van Lathan",
-    "Wosny Lambre"
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    },
+    {
+     "name": "Wosny Lambre",
+     "id": "wosny-lambre"
+    }
    ],
    "note": null
   }
@@ -52,49 +61,57 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "erotic thriller",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "erotic-thriller"
   },
   {
    "word": "seattle, washington",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "seattle-washington"
   },
   {
    "word": "employee",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "employee"
   },
   {
    "word": "sexual harassment",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sexual-harassment"
   },
   {
    "word": "computer technology",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "intrigue",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "workplace",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

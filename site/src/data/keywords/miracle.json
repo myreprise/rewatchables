@@ -1,0 +1,118 @@
+{
+ "word": "miracle",
+ "id": "miracle",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "adoring",
+   "reach": 8,
+   "band": "b5",
+   "id": "adoring"
+  },
+  {
+   "word": "author",
+   "reach": 4,
+   "band": "b5",
+   "id": "author"
+  },
+  {
+   "word": "baseball",
+   "reach": 10,
+   "band": "b5",
+   "id": "baseball"
+  },
+  {
+   "word": "battle of wits",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "boat chase",
+   "reach": 4,
+   "band": "b5",
+   "id": "boat-chase"
+  },
+  {
+   "word": "cornfield",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "doctor",
+   "reach": 4,
+   "band": "b5",
+   "id": "doctor"
+  },
+  {
+   "word": "dreams",
+   "reach": 3,
+   "band": "b5",
+   "id": "dreams"
+  },
+  {
+   "word": "enchant",
+   "reach": 3,
+   "band": "b5",
+   "id": "enchant"
+  },
+  {
+   "word": "evil prince",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "fairytale",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "farm",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "fictitious country",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "the-princess-bride-1987",
+   "title": "The Princess Bride",
+   "year": 1987,
+   "poster": "2FC9L9MrjBoGHYjYZjdWQdopVYb.jpg",
+   "tmdb": 7.706
+  },
+  {
+   "id": "field-of-dreams-1989",
+   "title": "Field of Dreams",
+   "year": 1989,
+   "poster": "oeM7nAw6FVFICwUaXKCRkDsKjqO.jpg",
+   "tmdb": 7.125
+  }
+ ]
+}

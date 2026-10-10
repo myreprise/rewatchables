@@ -1,0 +1,188 @@
+{
+ "word": "betrayal",
+ "id": "betrayal",
+ "catalogue": 460,
+ "share": 2.0,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.2,
+ "vs_catalogue": 0.1,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 0
+  },
+  {
+   "decade": 1990,
+   "n": 5
+  },
+  {
+   "decade": 2000,
+   "n": 2
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 56.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "cat and mouse",
+   "reach": 2,
+   "band": "b5",
+   "id": "cat-and-mouse"
+  },
+  {
+   "word": "chase",
+   "reach": 7,
+   "band": "b5",
+   "id": "chase"
+  },
+  {
+   "word": "conspiracy",
+   "reach": 13,
+   "band": "b4",
+   "id": "conspiracy"
+  },
+  {
+   "word": "desperate",
+   "reach": 6,
+   "band": "b5",
+   "id": "desperate"
+  },
+  {
+   "word": "drug dealer",
+   "reach": 11,
+   "band": "b5",
+   "id": "drug-dealer"
+  },
+  {
+   "word": "escape",
+   "reach": 7,
+   "band": "b5",
+   "id": "escape"
+  },
+  {
+   "word": "fugitive",
+   "reach": 4,
+   "band": "b5",
+   "id": "fugitive"
+  },
+  {
+   "word": "gang",
+   "reach": 5,
+   "band": "b5",
+   "id": "gang"
+  },
+  {
+   "word": "gangster",
+   "reach": 18,
+   "band": "b3",
+   "id": "gangster"
+  },
+  {
+   "word": "heist",
+   "reach": 16,
+   "band": "b4",
+   "id": "heist"
+  },
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "id": "murder"
+  },
+  {
+   "word": "neo-noir",
+   "reach": 29,
+   "band": "b2",
+   "id": "neo-noir"
+  },
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "id": "new-york-city"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-godfather-part-ii-1974",
+   "title": "The Godfather Part II",
+   "year": 1974,
+   "poster": "sSuQTCZwqKrNBNIsksO9IAUoWP9.jpg",
+   "tmdb": 8.573
+  },
+  {
+   "id": "another-48-hrs-1990",
+   "title": "Another 48 Hrs.",
+   "year": 1990,
+   "poster": "ixeygHHDsuzsg67H1IPTc3Qp8cR.jpg",
+   "tmdb": 6.0
+  },
+  {
+   "id": "glengarry-glen-ross-1992",
+   "title": "Glengarry Glen Ross",
+   "year": 1992,
+   "poster": "zcaEDx8KlVfh4vKfMNLhiSi5Oz4.jpg",
+   "tmdb": 7.3
+  },
+  {
+   "id": "reservoir-dogs-1992",
+   "title": "Reservoir Dogs",
+   "year": 1992,
+   "poster": "xi8Iu6qyTfyZVDVy60raIOYJJmk.jpg",
+   "tmdb": 8.111
+  },
+  {
+   "id": "the-fugitive-1993",
+   "title": "The Fugitive",
+   "year": 1993,
+   "poster": "b3rEtLKyOnF89mcK75GXDXdmOEf.jpg",
+   "tmdb": 7.486
+  },
+  {
+   "id": "heat-1995",
+   "title": "Heat",
+   "year": 1995,
+   "poster": "gKaePbkEkaqvMtw74EyhhkfCKKh.jpg",
+   "tmdb": 7.945
+  },
+  {
+   "id": "25th-hour-2002",
+   "title": "25th Hour",
+   "year": 2002,
+   "poster": "uW7tTRElr2tRhmAVESzvHy4ByXg.jpg",
+   "tmdb": 7.313
+  },
+  {
+   "id": "talladega-nights-the-ballad-of-ricky-bobby-2006",
+   "title": "Talladega Nights: The Ballad of Ricky Bobby",
+   "year": 2006,
+   "poster": "3iCiTqsmJz1mO85AHzTiHNkRmb6.jpg",
+   "tmdb": 6.381
+  },
+  {
+   "id": "blackhat-2015",
+   "title": "Blackhat",
+   "year": 2015,
+   "poster": "7zu6HPnKPjNA7NuR4DGRdaH0PdX.jpg",
+   "tmdb": 5.522
+  }
+ ]
+}

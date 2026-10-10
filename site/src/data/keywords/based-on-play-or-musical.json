@@ -1,0 +1,152 @@
+{
+ "word": "based on play or musical",
+ "id": "based-on-play-or-musical",
+ "catalogue": 460,
+ "share": 1.1,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.3,
+ "vs_catalogue": 0.2,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 2
+  },
+  {
+   "decade": 1980,
+   "n": 0
+  },
+  {
+   "decade": 1990,
+   "n": 3
+  }
+ ],
+ "peak_share": 60.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "id": "high-school"
+  },
+  {
+   "word": "opposites attract",
+   "reach": 5,
+   "band": "b5",
+   "id": "opposites-attract"
+  },
+  {
+   "word": "1950s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1950s"
+  },
+  {
+   "word": "afterlife",
+   "reach": 3,
+   "band": "b5",
+   "id": "afterlife"
+  },
+  {
+   "word": "aggressive",
+   "reach": 18,
+   "band": "b3",
+   "id": "aggressive"
+  },
+  {
+   "word": "american football",
+   "reach": 13,
+   "band": "b4",
+   "id": "american-football"
+  },
+  {
+   "word": "animated credits",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "australia",
+   "reach": 2,
+   "band": "b5",
+   "id": "australia"
+  },
+  {
+   "word": "betrayal",
+   "reach": 9,
+   "band": "b5",
+   "id": "betrayal"
+  },
+  {
+   "word": "bleak",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "brooklyn, new york city",
+   "reach": 4,
+   "band": "b5",
+   "id": "brooklyn-new-york-city"
+  },
+  {
+   "word": "california",
+   "reach": 16,
+   "band": "b4",
+   "id": "california"
+  },
+  {
+   "word": "carnival",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "casual",
+   "reach": 3,
+   "band": "b5",
+   "id": "casual"
+  }
+ ],
+ "films": [
+  {
+   "id": "grease-1978",
+   "title": "Grease",
+   "year": 1978,
+   "poster": "2rM7fQKpb7cs1Iq7IBqub9LFDzJ.jpg",
+   "tmdb": 7.366
+  },
+  {
+   "id": "heaven-can-wait-1978",
+   "title": "Heaven Can Wait",
+   "year": 1978,
+   "poster": "h1yOiO9cow6gwmGxSAWvPdY4lhJ.jpg",
+   "tmdb": 6.657
+  },
+  {
+   "id": "a-few-good-men-1992",
+   "title": "A Few Good Men",
+   "year": 1992,
+   "poster": "rLOk4z9zL1tTukIYV56P94aZXKk.jpg",
+   "tmdb": 7.557
+  },
+  {
+   "id": "glengarry-glen-ross-1992",
+   "title": "Glengarry Glen Ross",
+   "year": 1992,
+   "poster": "zcaEDx8KlVfh4vKfMNLhiSi5Oz4.jpg",
+   "tmdb": 7.3
+  },
+  {
+   "id": "10-things-i-hate-about-you-1999",
+   "title": "10 Things I Hate About You",
+   "year": 1999,
+   "poster": "ujERk3aKABXU3NDXOAxEQYTHe9A.jpg",
+   "tmdb": 7.597
+  }
+ ]
+}

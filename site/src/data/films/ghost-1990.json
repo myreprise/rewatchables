@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Amanda Dobbins"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    }
    ],
    "note": null
   }
@@ -52,121 +61,141 @@
    "word": "murder",
    "reach": 36,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "murder"
   },
   {
    "word": "corruption",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "corruption"
   },
   {
    "word": "love",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "love"
   },
   {
    "word": "dark comedy",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dark-comedy"
   },
   {
    "word": "death",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "death"
   },
   {
    "word": "ghost",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ghost"
   },
   {
    "word": "joyful",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "joyful"
   },
   {
    "word": "soulmates",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "soulmates"
   },
   {
    "word": "dignified",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dignified"
   },
   {
    "word": "afterlife",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "afterlife"
   },
   {
    "word": "burlesque",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "burlesque"
   },
   {
    "word": "fortune teller",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fortune-teller"
   },
   {
    "word": "money laundering",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "money-laundering"
   },
   {
    "word": "spiritism",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "spiritism"
   },
   {
    "word": "everlasting love",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "heaven",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "hell",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "money transfer",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "pottery",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "power of love",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

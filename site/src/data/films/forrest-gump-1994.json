@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Sean Fennessey"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   },
@@ -54,11 +60,23 @@
    "revisit_kind": "regular",
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey",
-    "Mallory Rubin"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    }
    ],
    "note": "Cold Weather Tour 2024"
   }
@@ -68,193 +86,225 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "friendship",
    "reach": 22,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "friendship"
   },
   {
    "word": "dramatic",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "dramatic"
   },
   {
    "word": "parent child relationship",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "parent-child-relationship"
   },
   {
    "word": "1960s",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "1960s"
   },
   {
    "word": "1970s",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1970s"
   },
   {
    "word": "new year's eve",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "new-years-eve"
   },
   {
    "word": "single mother",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "single-mother"
   },
   {
    "word": "usa president",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "usa-president"
   },
   {
    "word": "washington dc, usa",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "washington-dc-usa"
   },
   {
    "word": "family relationships",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "family-relationships"
   },
   {
    "word": "vietnam veteran",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vietnam-veteran"
   },
   {
    "word": "military",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "military"
   },
   {
    "word": "drug addiction",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drug-addiction"
   },
   {
    "word": "vietnam war",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vietnam-war"
   },
   {
    "word": "waitress",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "waitress"
   },
   {
    "word": "mother son relationship",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mother-son-relationship"
   },
   {
    "word": "post-traumatic stress disorder (ptsd)",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "post-traumatic-stress-disorder-ptsd"
   },
   {
    "word": "alabama",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alabama"
   },
   {
    "word": "america",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "america"
   },
   {
    "word": "autism",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "autism"
   },
   {
    "word": "chameleon",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "chameleon"
   },
   {
    "word": "hippie",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hippie"
   },
   {
    "word": "mentally disabled",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mentally-disabled"
   },
   {
    "word": "anti war protest",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "black panther party",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "bus stop",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "college american football",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "feelgood",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "optimism",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "simpleton",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "single parent",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

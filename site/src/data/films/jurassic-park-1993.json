@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Sean Fennessey",
+   "host": {
+    "name": "Sean Fennessey",
+    "id": "sean-fennessey"
+   },
    "guests": [
-    "David Shoemaker",
-    "Bryan Curtis"
+    {
+     "name": "David Shoemaker",
+     "id": "david-shoemaker"
+    },
+    {
+     "name": "Bryan Curtis",
+     "id": "bryan-curtis"
+    }
    ],
    "note": null
   }
@@ -51,67 +60,78 @@
    "word": "amusement park",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "amusement-park"
   },
   {
    "word": "exotic island",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "exotic-island"
   },
   {
    "word": "dna",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dna"
   },
   {
    "word": "island",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "island"
   },
   {
    "word": "theme park",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "theme-park"
   },
   {
    "word": "brontosaurus",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "dinosaur",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "electric fence",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "paleontology",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "triceratops",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "tyrannosaurus rex",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

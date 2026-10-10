@@ -1,0 +1,118 @@
+{
+ "word": "new jersey",
+ "id": "new-jersey",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "id": "murder"
+  },
+  {
+   "word": "1950s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1950s"
+  },
+  {
+   "word": "antagonistic",
+   "reach": 13,
+   "band": "b4",
+   "id": "antagonistic"
+  },
+  {
+   "word": "arson",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "b-horror",
+   "reach": 3,
+   "band": "b5",
+   "id": "b-horror"
+  },
+  {
+   "word": "bad cop",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bridge",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "cabin",
+   "reach": 2,
+   "band": "b5",
+   "id": "cabin"
+  },
+  {
+   "word": "camp",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "car accident",
+   "reach": 3,
+   "band": "b5",
+   "id": "car-accident"
+  },
+  {
+   "word": "car crash",
+   "reach": 6,
+   "band": "b5",
+   "id": "car-crash"
+  },
+  {
+   "word": "corruption",
+   "reach": 12,
+   "band": "b4",
+   "id": "corruption"
+  },
+  {
+   "word": "curious",
+   "reach": 3,
+   "band": "b5",
+   "id": "curious"
+  },
+  {
+   "word": "dirty cop",
+   "reach": 5,
+   "band": "b5",
+   "id": "dirty-cop"
+  }
+ ],
+ "films": [
+  {
+   "id": "friday-the-13th-1980",
+   "title": "Friday the 13th",
+   "year": 1980,
+   "poster": "uGGpnWHOmWTARVN9wbC1nPxNgps.jpg",
+   "tmdb": 6.4
+  },
+  {
+   "id": "cop-land-1997",
+   "title": "Cop Land",
+   "year": 1997,
+   "poster": "dyOqXyPCQh8VF0KA5aelBCCQond.jpg",
+   "tmdb": 6.816
+  }
+ ]
+}

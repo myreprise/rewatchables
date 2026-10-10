@@ -1,0 +1,118 @@
+{
+ "word": "gold",
+ "id": "gold",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "explosion",
+   "reach": 8,
+   "band": "b5",
+   "id": "explosion"
+  },
+  {
+   "word": "helicopter",
+   "reach": 6,
+   "band": "b5",
+   "id": "helicopter"
+  },
+  {
+   "word": "revenge",
+   "reach": 31,
+   "band": "b2",
+   "id": "revenge"
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "aqueduct",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "assertive",
+   "reach": 9,
+   "band": "b5",
+   "id": "assertive"
+  },
+  {
+   "word": "based on movie",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "boat chase",
+   "reach": 4,
+   "band": "b5",
+   "id": "boat-chase"
+  },
+  {
+   "word": "bomb",
+   "reach": 6,
+   "band": "b5",
+   "id": "bomb"
+  },
+  {
+   "word": "bomb threat",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "california",
+   "reach": 16,
+   "band": "b4",
+   "id": "california"
+  },
+  {
+   "word": "cargo ship",
+   "reach": 2,
+   "band": "b5",
+   "id": "cargo-ship"
+  },
+  {
+   "word": "chase",
+   "reach": 7,
+   "band": "b5",
+   "id": "chase"
+  },
+  {
+   "word": "deadly game",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "die-hard-with-a-vengeance-1995",
+   "title": "Die Hard: With a Vengeance",
+   "year": 1995,
+   "poster": "buqmCdFQEWwEpL3agGgg2GVjN2d.jpg",
+   "tmdb": 7.283
+  },
+  {
+   "id": "the-italian-job-2003",
+   "title": "The Italian Job",
+   "year": 2003,
+   "poster": "eSkjK4kctyrWpFhxl35GPvSs6tI.jpg",
+   "tmdb": 6.799
+  }
+ ]
+}

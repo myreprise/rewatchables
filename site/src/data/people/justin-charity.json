@@ -1,0 +1,59 @@
+{
+ "name": "Justin Charity",
+ "id": "justin-charity",
+ "episodes": 2,
+ "share": 0.0041,
+ "hosted": 0,
+ "first": "2017-11-30",
+ "last": "2018-03-29",
+ "shelf": [
+  {
+   "id": "michael-clayton-2007",
+   "title": "Michael Clayton",
+   "year": 2007,
+   "poster": "hhkW4yVIGo8Bee3UITKvqOvhNMG.jpg",
+   "episode": 30,
+   "aired": "2018-03-29"
+  },
+  {
+   "id": "friday-1995",
+   "title": "Friday",
+   "year": 1995,
+   "poster": "3Ya1RurP2NqaYoiok4DmfO41rCC.jpg",
+   "episode": 19,
+   "aired": "2017-11-30"
+  }
+ ],
+ "company": [
+  {
+   "name": "Donnie Kwak",
+   "id": "donnie-kwak",
+   "episodes": 1
+  },
+  {
+   "name": "Hannah Giorgis",
+   "id": "hannah-giorgis",
+   "episodes": 1
+  },
+  {
+   "name": "Chris Ryan",
+   "id": "chris-ryan",
+   "episodes": 1
+  },
+  {
+   "name": "Lindsay Zoladz",
+   "id": "lindsay-zoladz",
+   "episodes": 1
+  }
+ ],
+ "regular": false,
+ "lean_floor": 15,
+ "leans": [],
+ "verdict_floor": 8,
+ "verdicts": {
+  "cruise": 0,
+  "hanks": 0,
+  "ties": 0,
+  "n": 0
+ }
+}

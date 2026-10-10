@@ -1,0 +1,152 @@
+{
+ "word": "bank robbery",
+ "id": "bank-robbery",
+ "catalogue": 460,
+ "share": 1.1,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.3,
+ "vs_catalogue": 0.2,
+ "decades": [
+  {
+   "decade": 1990,
+   "n": 2
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  },
+  {
+   "decade": 2010,
+   "n": 2
+  }
+ ],
+ "peak_share": 40.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "heist",
+   "reach": 16,
+   "band": "b4",
+   "id": "heist"
+  },
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  },
+  {
+   "word": "detective",
+   "reach": 17,
+   "band": "b3",
+   "id": "detective"
+  },
+  {
+   "word": "fbi",
+   "reach": 20,
+   "band": "b3",
+   "id": "fbi"
+  },
+  {
+   "word": "fbi agent",
+   "reach": 5,
+   "band": "b5",
+   "id": "fbi-agent"
+  },
+  {
+   "word": "hostage situation",
+   "reach": 3,
+   "band": "b5",
+   "id": "hostage-situation"
+  },
+  {
+   "word": "shootout",
+   "reach": 17,
+   "band": "b3",
+   "id": "shootout"
+  },
+  {
+   "word": "action thriller",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "aggressive",
+   "reach": 18,
+   "band": "b3",
+   "id": "aggressive"
+  },
+  {
+   "word": "ambulance",
+   "reach": 2,
+   "band": "b5",
+   "id": "ambulance"
+  },
+  {
+   "word": "armored truck",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "assault rifle",
+   "reach": 2,
+   "band": "b5",
+   "id": "assault-rifle"
+  },
+  {
+   "word": "assertive",
+   "reach": 9,
+   "band": "b5",
+   "id": "assertive"
+  },
+  {
+   "word": "authoritarian",
+   "reach": 4,
+   "band": "b5",
+   "id": "authoritarian"
+  }
+ ],
+ "films": [
+  {
+   "id": "point-break-1991",
+   "title": "Point Break",
+   "year": 1991,
+   "poster": "tlbERIghrQ4oofqlbF7H0K0EYnx.jpg",
+   "tmdb": 7.152
+  },
+  {
+   "id": "heat-1995",
+   "title": "Heat",
+   "year": 1995,
+   "poster": "gKaePbkEkaqvMtw74EyhhkfCKKh.jpg",
+   "tmdb": 7.945
+  },
+  {
+   "id": "inside-man-2006",
+   "title": "Inside Man",
+   "year": 2006,
+   "poster": "ffMUgkDZICNiyaws1Jkv8qG8uFW.jpg",
+   "tmdb": 7.41
+  },
+  {
+   "id": "the-town-2010",
+   "title": "The Town",
+   "year": 2010,
+   "poster": "3NIzyXkfylsjflRKSz8Fts3lXzm.jpg",
+   "tmdb": 7.226
+  },
+  {
+   "id": "den-of-thieves-2018",
+   "title": "Den of Thieves",
+   "year": 2018,
+   "poster": "dAP5NpkrMMczir5dUPjRR6ywqgz.jpg",
+   "tmdb": 6.873
+  }
+ ]
+}

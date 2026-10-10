@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Sean Fennessey",
+   "host": {
+    "name": "Sean Fennessey",
+    "id": "sean-fennessey"
+   },
    "guests": [
-    "Chris Ryan",
-    "Jason Concepcion"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Jason Concepcion",
+     "id": "jason-concepcion"
+    }
    ],
    "note": "1999 series (Luminary)"
   },
@@ -55,10 +64,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Sean Fennessey",
+   "host": {
+    "name": "Sean Fennessey",
+    "id": "sean-fennessey"
+   },
    "guests": [
-    "Chris Ryan",
-    "Jason Concepcion"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Jason Concepcion",
+     "id": "jason-concepcion"
+    }
    ],
    "note": "Originally released 6/13/1999 on Luminary as part of 1999 Rewatchables series"
   }
@@ -68,157 +86,183 @@
    "word": "suspenseful",
    "reach": 30,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "suspenseful"
   },
   {
    "word": "loss of loved one",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "loss-of-loved-one"
   },
   {
    "word": "dramatic",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "dramatic"
   },
   {
    "word": "dying and death",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "dying-and-death"
   },
   {
    "word": "psychological thriller",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "psychological-thriller"
   },
   {
    "word": "philadelphia, pennsylvania",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "philadelphia-pennsylvania"
   },
   {
    "word": "anxious",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "anxious"
   },
   {
    "word": "single mother",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "single-mother"
   },
   {
    "word": "marriage crisis",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "marriage-crisis"
   },
   {
    "word": "supernatural horror",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "supernatural-horror"
   },
   {
    "word": "child abuse",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "child-abuse"
   },
   {
    "word": "ghost",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ghost"
   },
   {
    "word": "psychological horror",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "psychological-horror"
   },
   {
    "word": "somber",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "somber"
   },
   {
    "word": "kids",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "kids"
   },
   {
    "word": "paranormal phenomena",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "paranormal-phenomena"
   },
   {
    "word": "afterlife",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "afterlife"
   },
   {
    "word": "cowardliness",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cowardliness"
   },
   {
    "word": "ghost child",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ghost-child"
   },
   {
    "word": "school play",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "school-play"
   },
   {
    "word": "spiritism",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "spiritism"
   },
   {
    "word": "confidence",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "psychology",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sense of guilt",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "single",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "supernatural thriller",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": null
   }
@@ -51,139 +57,162 @@
    "word": "loss of loved one",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "loss-of-loved-one"
   },
   {
    "word": "inspirational",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "inspirational"
   },
   {
    "word": "journalist",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "journalist"
   },
   {
    "word": "macabre",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "macabre"
   },
   {
    "word": "journalism",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "journalism"
   },
   {
    "word": "mercenary",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mercenary"
   },
   {
    "word": "1990s",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1990s"
   },
   {
    "word": "political thriller",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "political-thriller"
   },
   {
    "word": "quest",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "quest"
   },
   {
    "word": "rebel",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rebel"
   },
   {
    "word": "sinister",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sinister"
   },
   {
    "word": "oppression",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "oppression"
   },
   {
    "word": "slavery",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "slavery"
   },
   {
    "word": "smuggling (contraband)",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "smuggling-contraband"
   },
   {
    "word": "africa",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "bootlegger",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "diamond mine",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "fisherman",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "private military company",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "rwandan genocide",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "set in africa",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sierra leone",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "special unit",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

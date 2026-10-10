@@ -39,11 +39,23 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Shea Serrano",
-    "Jason Concepcion"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Shea Serrano",
+     "id": "shea-serrano"
+    },
+    {
+     "name": "Jason Concepcion",
+     "id": "jason-concepcion"
+    }
    ],
    "note": null
   }
@@ -53,169 +65,197 @@
    "word": "duringcreditsstinger",
    "reach": 27,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "duringcreditsstinger"
   },
   {
    "word": "loss of loved one",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "loss-of-loved-one"
   },
   {
    "word": "aggressive",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "aggressive"
   },
   {
    "word": "bold",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "bold"
   },
   {
    "word": "daughter",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "daughter"
   },
   {
    "word": "paris, france",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "paris-france"
   },
   {
    "word": "wedding",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "wedding"
   },
   {
    "word": "cliché",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cliche"
   },
   {
    "word": "saving the world",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "saving-the-world"
   },
   {
    "word": "washington dc, usa",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "washington-dc-usa"
   },
   {
    "word": "race against time",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "race-against-time"
   },
   {
    "word": "somber",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "somber"
   },
   {
    "word": "space",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "space"
   },
   {
    "word": "disaster movie",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "disaster-movie"
   },
   {
    "word": "nasa",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nasa"
   },
   {
    "word": "space marine",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "space-marine"
   },
   {
    "word": "astronaut",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "astronaut"
   },
   {
    "word": "disaster",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "disaster"
   },
   {
    "word": "moon",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "moon"
   },
   {
    "word": "end of the world",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "end-of-the-world"
   },
   {
    "word": "natural disaster",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "natural-disaster"
   },
   {
    "word": "self sacrifice",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "self-sacrifice"
   },
   {
    "word": "cataclysm",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cataclysm"
   },
   {
    "word": "u.s. air force",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "u-s-air-force"
   },
   {
    "word": "asteroid",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "daring rescue",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "heroic mission",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "space centre",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -1,0 +1,118 @@
+{
+ "word": "volleyball",
+ "id": "volleyball",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "airplane",
+   "reach": 8,
+   "band": "b5",
+   "id": "airplane"
+  },
+  {
+   "word": "airplane crash",
+   "reach": 3,
+   "band": "b5",
+   "id": "airplane-crash"
+  },
+  {
+   "word": "airport",
+   "reach": 3,
+   "band": "b5",
+   "id": "airport"
+  },
+  {
+   "word": "bold",
+   "reach": 15,
+   "band": "b4",
+   "id": "bold"
+  },
+  {
+   "word": "castaway",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "cat",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "central intelligence agency (cia)",
+   "reach": 8,
+   "band": "b5",
+   "id": "central-intelligence-agency-cia"
+  },
+  {
+   "word": "daughter",
+   "reach": 10,
+   "band": "b5",
+   "id": "daughter"
+  },
+  {
+   "word": "deserted island",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "epistaxis",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "exotic island",
+   "reach": 3,
+   "band": "b5",
+   "id": "exotic-island"
+  },
+  {
+   "word": "father-in-law",
+   "reach": 3,
+   "band": "b5",
+   "id": "father-in-law"
+  },
+  {
+   "word": "hospital",
+   "reach": 7,
+   "band": "b5",
+   "id": "hospital"
+  },
+  {
+   "word": "intense",
+   "reach": 23,
+   "band": "b3",
+   "id": "intense"
+  }
+ ],
+ "films": [
+  {
+   "id": "cast-away-2000",
+   "title": "Cast Away",
+   "year": 2000,
+   "poster": "7lLJgKnAicAcR5UEuo8xhSMj18w.jpg",
+   "tmdb": 7.667
+  },
+  {
+   "id": "meet-the-parents-2000",
+   "title": "Meet the Parents",
+   "year": 2000,
+   "poster": "5tXJ9ctuyEOMUFLaeqRisbXowWs.jpg",
+   "tmdb": 6.7
+  }
+ ]
+}

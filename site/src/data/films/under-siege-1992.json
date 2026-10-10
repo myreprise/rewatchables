@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Kyle Brandt"
+    {
+     "name": "Kyle Brandt",
+     "id": "kyle-brandt"
+    }
    ],
    "note": null
   }
@@ -50,91 +56,106 @@
    "word": "action hero",
    "reach": 21,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "action-hero"
   },
   {
    "word": "terrorism",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "terrorism"
   },
   {
    "word": "martial arts",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "martial-arts"
   },
   {
    "word": "good versus evil",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "good-versus-evil"
   },
   {
    "word": "race against time",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "race-against-time"
   },
   {
    "word": "u.s. navy",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "u-s-navy"
   },
   {
    "word": "hand to hand combat",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hand-to-hand-combat"
   },
   {
    "word": "mercenary",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mercenary"
   },
   {
    "word": "one against many",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "one-against-many"
   },
   {
    "word": "hostage-taking",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hostage-taking"
   },
   {
    "word": "nuclear missile",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nuclear-missile"
   },
   {
    "word": "battleship",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "nuclear threat",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "ship takeover",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "war ship",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

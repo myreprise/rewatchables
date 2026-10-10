@@ -1,0 +1,166 @@
+{
+ "word": "halloween",
+ "id": "halloween",
+ "catalogue": 460,
+ "share": 1.5,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.0,
+ "vs_catalogue": -0.1,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 5
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  }
+ ],
+ "peak_share": 71.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "serial killer",
+   "reach": 14,
+   "band": "b4",
+   "id": "serial-killer"
+  },
+  {
+   "word": "killing spree",
+   "reach": 3,
+   "band": "b5",
+   "id": "killing-spree"
+  },
+  {
+   "word": "california",
+   "reach": 16,
+   "band": "b4",
+   "id": "california"
+  },
+  {
+   "word": "crime spree",
+   "reach": 2,
+   "band": "b5",
+   "id": "crime-spree"
+  },
+  {
+   "word": "escaped killer",
+   "reach": 2,
+   "band": "b5",
+   "id": "escaped-killer"
+  },
+  {
+   "word": "evil",
+   "reach": 5,
+   "band": "b5",
+   "id": "evil"
+  },
+  {
+   "word": "holiday horror",
+   "reach": 2,
+   "band": "b5",
+   "id": "holiday-horror"
+  },
+  {
+   "word": "killing",
+   "reach": 4,
+   "band": "b5",
+   "id": "killing"
+  },
+  {
+   "word": "mask",
+   "reach": 5,
+   "band": "b5",
+   "id": "mask"
+  },
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "id": "murder"
+  },
+  {
+   "word": "sequel",
+   "reach": 28,
+   "band": "b2",
+   "id": "sequel"
+  },
+  {
+   "word": "sheriff",
+   "reach": 5,
+   "band": "b5",
+   "id": "sheriff"
+  },
+  {
+   "word": "slasher",
+   "reach": 4,
+   "band": "b5",
+   "id": "slasher"
+  },
+  {
+   "word": "stalking",
+   "reach": 7,
+   "band": "b5",
+   "id": "stalking"
+  }
+ ],
+ "films": [
+  {
+   "id": "halloween-1978",
+   "title": "Halloween",
+   "year": 1978,
+   "poster": "wijlZ3HaYMvlDTPqJoTCWKFkCPU.jpg",
+   "tmdb": 7.557
+  },
+  {
+   "id": "friday-the-13th-1980",
+   "title": "Friday the 13th",
+   "year": 1980,
+   "poster": "uGGpnWHOmWTARVN9wbC1nPxNgps.jpg",
+   "tmdb": 6.4
+  },
+  {
+   "id": "halloween-ii-1981",
+   "title": "Halloween II",
+   "year": 1981,
+   "poster": "3nX5HHGgOKaVMxXwMLT9DHO1Ne6.jpg",
+   "tmdb": 6.592
+  },
+  {
+   "id": "e-t-the-extra-terrestrial-1982",
+   "title": "E.T. the Extra-Terrestrial",
+   "year": 1982,
+   "poster": "an0nD6uq6byfxXCfk6lQBzdL2J1.jpg",
+   "tmdb": 7.518
+  },
+  {
+   "id": "poltergeist-1982",
+   "title": "Poltergeist",
+   "year": 1982,
+   "poster": "4eMN3GANH5GG4kXdHkrTZEUuQ9M.jpg",
+   "tmdb": 7.2
+  },
+  {
+   "id": "halloween-4-the-return-of-michael-myers-1988",
+   "title": "Halloween 4: The Return of Michael Myers",
+   "year": 1988,
+   "poster": "eFSOkXF9n9hsfGv45MDsPixiOyx.jpg",
+   "tmdb": 6.175
+  },
+  {
+   "id": "scream-1996",
+   "title": "Scream",
+   "year": 1996,
+   "poster": "lr9ZIrmuwVmZhpZuTCW8D9g0ZJe.jpg",
+   "tmdb": 7.431
+  }
+ ]
+}

@@ -1,0 +1,149 @@
+{
+ "word": "post-apocalyptic future",
+ "id": "post-apocalyptic-future",
+ "catalogue": 460,
+ "share": 0.9,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.5,
+ "vs_catalogue": 0.4,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 25.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "dystopia",
+   "reach": 17,
+   "band": "b3",
+   "id": "dystopia"
+  },
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "id": "new-york-city"
+  },
+  {
+   "word": "sequel",
+   "reach": 28,
+   "band": "b2",
+   "id": "sequel"
+  },
+  {
+   "word": "survival",
+   "reach": 12,
+   "band": "b4",
+   "id": "survival"
+  },
+  {
+   "word": "suspenseful",
+   "reach": 30,
+   "band": "b2",
+   "id": "suspenseful"
+  },
+  {
+   "word": "urban setting",
+   "reach": 6,
+   "band": "b5",
+   "id": "urban-setting"
+  },
+  {
+   "word": "villain",
+   "reach": 7,
+   "band": "b5",
+   "id": "villain"
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "id": "admiring"
+  },
+  {
+   "word": "aggressive",
+   "reach": 18,
+   "band": "b3",
+   "id": "aggressive"
+  },
+  {
+   "word": "alone",
+   "reach": 2,
+   "band": "b5",
+   "id": "alone"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "anti hero",
+   "reach": 8,
+   "band": "b5",
+   "id": "anti-hero"
+  },
+  {
+   "word": "artificial intelligence (a.i.)",
+   "reach": 4,
+   "band": "b5",
+   "id": "artificial-intelligence-a-i"
+  }
+ ],
+ "films": [
+  {
+   "id": "escape-from-new-york-1981",
+   "title": "Escape from New York",
+   "year": 1981,
+   "poster": "vH9llaphjAssRGi0k7e75tD40Ce.jpg",
+   "tmdb": 7.047
+  },
+  {
+   "id": "terminator-2-judgment-day-1991",
+   "title": "Terminator 2: Judgment Day",
+   "year": 1991,
+   "poster": "jFTVD4XoWQTcg7wdyJKa8PEds5q.jpg",
+   "tmdb": 8.2
+  },
+  {
+   "id": "i-am-legend-2007",
+   "title": "I Am Legend",
+   "year": 2007,
+   "poster": "iPDkaSdKk2jRLTM65UOEoKtsIZ8.jpg",
+   "tmdb": 7.223
+  },
+  {
+   "id": "mad-max-fury-road-2015",
+   "title": "Mad Max: Fury Road",
+   "year": 2015,
+   "poster": "ulcAi4dKpAjHwYGS08vNyx9H6I9.jpg",
+   "tmdb": 7.637
+  }
+ ]
+}

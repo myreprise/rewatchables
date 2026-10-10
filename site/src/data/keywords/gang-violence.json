@@ -1,0 +1,118 @@
+{
+ "word": "gang violence",
+ "id": "gang-violence",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "gangster",
+   "reach": 18,
+   "band": "b3",
+   "id": "gangster"
+  },
+  {
+   "word": "1940s",
+   "reach": 5,
+   "band": "b5",
+   "id": "1940s"
+  },
+  {
+   "word": "1950s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1950s"
+  },
+  {
+   "word": "antagonistic",
+   "reach": 13,
+   "band": "b4",
+   "id": "antagonistic"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "black american",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "id": "coming-of-age"
+  },
+  {
+   "word": "crime family",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "europe",
+   "reach": 2,
+   "band": "b5",
+   "id": "europe"
+  },
+  {
+   "word": "ghetto",
+   "reach": 3,
+   "band": "b5",
+   "id": "ghetto"
+  },
+  {
+   "word": "gun violence",
+   "reach": 3,
+   "band": "b5",
+   "id": "gun-violence"
+  },
+  {
+   "word": "intense",
+   "reach": 23,
+   "band": "b3",
+   "id": "intense"
+  },
+  {
+   "word": "italy",
+   "reach": 5,
+   "band": "b5",
+   "id": "italy"
+  },
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-godfather-1972",
+   "title": "The Godfather",
+   "year": 1972,
+   "poster": "3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+   "tmdb": 8.686
+  },
+  {
+   "id": "boyz-n-the-hood-1991",
+   "title": "Boyz n the Hood",
+   "year": 1991,
+   "poster": "kaS8BkTZESnkoB5i1zRQ02FIRGk.jpg",
+   "tmdb": 7.638
+  }
+ ]
+}

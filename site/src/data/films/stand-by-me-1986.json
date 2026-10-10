@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": null
   }
@@ -50,121 +56,141 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "coming of age",
    "reach": 24,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "coming-of-age"
   },
   {
    "word": "friendship",
    "reach": 22,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "friendship"
   },
   {
    "word": "road trip",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "road-trip"
   },
   {
    "word": "1950s",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1950s"
   },
   {
    "word": "dark comedy",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dark-comedy"
   },
   {
    "word": "bullying",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bullying"
   },
   {
    "word": "familiar",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "familiar"
   },
   {
    "word": "kids",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "kids"
   },
   {
    "word": "faithful adaptation",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "faithful-adaptation"
   },
   {
    "word": "coin toss",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "coin-toss"
   },
   {
    "word": "leech",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "leech"
   },
   {
    "word": "story within the story",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "story-within-the-story"
   },
   {
    "word": "told in flashback",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "told-in-flashback"
   },
   {
    "word": "boys",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "campfire story",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "flipping coin",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "oregon, usa",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "pie eating",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "railroad track",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

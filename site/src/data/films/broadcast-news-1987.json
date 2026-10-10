@@ -38,11 +38,23 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey",
-    "Chuck Klosterman"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Chuck Klosterman",
+     "id": "chuck-klosterman"
+    }
    ],
    "note": null
   }
@@ -52,49 +64,57 @@
    "word": "journalist",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "journalist"
   },
   {
    "word": "washington dc, usa",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "washington-dc-usa"
   },
   {
    "word": "journalism",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "journalism"
   },
   {
    "word": "love triangle",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "love-triangle"
   },
   {
    "word": "television producer",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "television-producer"
   },
   {
    "word": "neurotic",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "neurotic"
   },
   {
    "word": "workaholic",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "workaholic"
   },
   {
    "word": "tv news anchor",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

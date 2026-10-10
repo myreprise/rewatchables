@@ -1,0 +1,159 @@
+{
+ "word": "vacation",
+ "id": "vacation",
+ "catalogue": 460,
+ "share": 1.3,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 6.7,
+ "vs_catalogue": -0.3,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 3
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 2
+  }
+ ],
+ "peak_share": 50.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "holiday",
+   "reach": 9,
+   "band": "b5",
+   "id": "holiday"
+  },
+  {
+   "word": "christmas",
+   "reach": 14,
+   "band": "b4",
+   "id": "christmas"
+  },
+  {
+   "word": "domestic life",
+   "reach": 2,
+   "band": "b5",
+   "id": "domestic-life"
+  },
+  {
+   "word": "adoring",
+   "reach": 8,
+   "band": "b5",
+   "id": "adoring"
+  },
+  {
+   "word": "airport",
+   "reach": 3,
+   "band": "b5",
+   "id": "airport"
+  },
+  {
+   "word": "amusement park",
+   "reach": 4,
+   "band": "b5",
+   "id": "amusement-park"
+  },
+  {
+   "word": "beauty",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bold",
+   "reach": 15,
+   "band": "b4",
+   "id": "bold"
+  },
+  {
+   "word": "boss",
+   "reach": 2,
+   "band": "b5",
+   "id": "boss"
+  },
+  {
+   "word": "break-up",
+   "reach": 5,
+   "band": "b5",
+   "id": "break-up"
+  },
+  {
+   "word": "buddy cop",
+   "reach": 11,
+   "band": "b5",
+   "id": "buddy-cop"
+  },
+  {
+   "word": "bullet proof vest",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "cattle drive",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "celebrity",
+   "reach": 5,
+   "band": "b5",
+   "id": "celebrity"
+  }
+ ],
+ "films": [
+  {
+   "id": "national-lampoons-vacation-1983",
+   "title": "National Lampoon's Vacation",
+   "year": 1983,
+   "poster": "q3DvoqY06yZnRp9faH6uge7n7VP.jpg",
+   "tmdb": 7.106
+  },
+  {
+   "id": "running-scared-1986",
+   "title": "Running Scared",
+   "year": 1986,
+   "poster": "nSiRjhc7aTVPonXAhmTZAPqd2jT.jpg",
+   "tmdb": 6.095
+  },
+  {
+   "id": "national-lampoons-christmas-vacation-1989",
+   "title": "National Lampoon's Christmas Vacation",
+   "year": 1989,
+   "poster": "oat42hUw8XzKYUmfy0YLAxYd484.jpg",
+   "tmdb": 7.232
+  },
+  {
+   "id": "city-slickers-1991",
+   "title": "City Slickers",
+   "year": 1991,
+   "poster": "9DVZpm9pQNB3M17cRo752zqUYhL.jpg",
+   "tmdb": 6.457
+  },
+  {
+   "id": "the-holiday-2006",
+   "title": "The Holiday",
+   "year": 2006,
+   "poster": "h1ITOpvJN3Tw4Sy60w2QTfYMvdd.jpg",
+   "tmdb": 7.099
+  },
+  {
+   "id": "forgetting-sarah-marshall-2008",
+   "title": "Forgetting Sarah Marshall",
+   "year": 2008,
+   "poster": "d4elOzyhNWVlxpG7BwigrumkFTe.jpg",
+   "tmdb": 6.505
+  }
+ ]
+}

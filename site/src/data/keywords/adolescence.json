@@ -1,0 +1,118 @@
+{
+ "word": "adolescence",
+ "id": "adolescence",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "bad boss",
+   "reach": 2,
+   "band": "b5",
+   "id": "bad-boss"
+  },
+  {
+   "word": "based on comic",
+   "reach": 5,
+   "band": "b5",
+   "id": "based-on-comic"
+  },
+  {
+   "word": "cross dressing",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "evil",
+   "reach": 5,
+   "band": "b5",
+   "id": "evil"
+  },
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "id": "high-school"
+  },
+  {
+   "word": "hostility",
+   "reach": 3,
+   "band": "b5",
+   "id": "hostility"
+  },
+  {
+   "word": "loss of loved one",
+   "reach": 20,
+   "band": "b3",
+   "id": "loss-of-loved-one"
+  },
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "id": "new-york-city"
+  },
+  {
+   "word": "photographer",
+   "reach": 4,
+   "band": "b5",
+   "id": "photographer"
+  },
+  {
+   "word": "photography",
+   "reach": 3,
+   "band": "b5",
+   "id": "photography"
+  },
+  {
+   "word": "secret identity",
+   "reach": 7,
+   "band": "b5",
+   "id": "secret-identity"
+  },
+  {
+   "word": "sexism",
+   "reach": 2,
+   "band": "b5",
+   "id": "sexism"
+  },
+  {
+   "word": "spider",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "super villain",
+   "reach": 2,
+   "band": "b5",
+   "id": "super-villain"
+  }
+ ],
+ "films": [
+  {
+   "id": "just-one-of-the-guys-1985",
+   "title": "Just One of the Guys",
+   "year": 1985,
+   "poster": "7ffvsRv8ueYYK0H3zocmNRPd8yN.jpg",
+   "tmdb": 6.424
+  },
+  {
+   "id": "spider-man-2002",
+   "title": "Spider-Man",
+   "year": 2002,
+   "poster": "or6XJBVpcEbIkma0V9zshnbEtx4.jpg",
+   "tmdb": 7.351
+  }
+ ]
+}

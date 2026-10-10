@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -52,187 +61,218 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "neo-noir",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "neo-noir"
   },
   {
    "word": "fbi",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "fbi"
   },
   {
    "word": "loss of loved one",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "loss-of-loved-one"
   },
   {
    "word": "excited",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "excited"
   },
   {
    "word": "investigation",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "investigation"
   },
   {
    "word": "psychopath",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "psychopath"
   },
   {
    "word": "serial killer",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "serial-killer"
   },
   {
    "word": "1980s",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "1980s"
   },
   {
    "word": "journalist",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "journalist"
   },
   {
    "word": "psychological thriller",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "psychological-thriller"
   },
   {
    "word": "frightened",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "frightened"
   },
   {
    "word": "disturbed",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "disturbed"
   },
   {
    "word": "macabre",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "macabre"
   },
   {
    "word": "psychological horror",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "psychological-horror"
   },
   {
    "word": "brutality",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "brutality"
   },
   {
    "word": "cult",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cult"
   },
   {
    "word": "horrified",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "horrified"
   },
   {
    "word": "brisk",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "brisk"
   },
   {
    "word": "crime horror",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "crime-horror"
   },
   {
    "word": "crime scene",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "crime-scene"
   },
   {
    "word": "crime thriller",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "crime-thriller"
   },
   {
    "word": "depravity",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "depravity"
   },
   {
    "word": "hannibal lecter",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hannibal-lecter"
   },
   {
    "word": "psychological profiling",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "psychological-profiling"
   },
   {
    "word": "videotape",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "videotape"
   },
   {
    "word": "covered investigation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "eye",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "full moon",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "homicide investigation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "malevolence",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

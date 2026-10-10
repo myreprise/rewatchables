@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Juliet Litman"
+    {
+     "name": "Juliet Litman",
+     "id": "juliet-litman"
+    }
    ],
    "note": null
   }
@@ -50,61 +56,71 @@
    "word": "high school",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "high-school"
   },
   {
    "word": "coming of age",
    "reach": 24,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "coming-of-age"
   },
   {
    "word": "teen comedy",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "teen-comedy"
   },
   {
    "word": "new year's eve",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "new-years-eve"
   },
   {
    "word": "cheerleader",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cheerleader"
   },
   {
    "word": "nerd",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nerd"
   },
   {
    "word": "break-up",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "break-up"
   },
   {
    "word": "teen drama",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "teen-drama"
   },
   {
    "word": "dress",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "evening gown",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

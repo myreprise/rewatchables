@@ -1,0 +1,118 @@
+{
+ "word": "race",
+ "id": "race",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "id": "absurd"
+  },
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "id": "admiring"
+  },
+  {
+   "word": "bigotry",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "car crash",
+   "reach": 6,
+   "band": "b5",
+   "id": "car-crash"
+  },
+  {
+   "word": "car race",
+   "reach": 6,
+   "band": "b5",
+   "id": "car-race"
+  },
+  {
+   "word": "car theft",
+   "reach": 2,
+   "band": "b5",
+   "id": "car-theft"
+  },
+  {
+   "word": "cars",
+   "reach": 3,
+   "band": "b5",
+   "id": "cars"
+  },
+  {
+   "word": "collision",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "connected",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "daughter",
+   "reach": 10,
+   "band": "b5",
+   "id": "daughter"
+  },
+  {
+   "word": "dramatic",
+   "reach": 18,
+   "band": "b3",
+   "id": "dramatic"
+  },
+  {
+   "word": "excited",
+   "reach": 17,
+   "band": "b3",
+   "id": "excited"
+  },
+  {
+   "word": "fall",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "gun",
+   "reach": 6,
+   "band": "b5",
+   "id": "gun"
+  }
+ ],
+ "films": [
+  {
+   "id": "crash-2005",
+   "title": "Crash",
+   "year": 2005,
+   "poster": "86BdPC6RDX88NC880pLidKn2LCj.jpg",
+   "tmdb": 7.215
+  },
+  {
+   "id": "furious-7-2015",
+   "title": "Furious 7",
+   "year": 2015,
+   "poster": "ktofZ9Htrjiy0P6LEowsDaxd3Ri.jpg",
+   "tmdb": 7.2
+  }
+ ]
+}

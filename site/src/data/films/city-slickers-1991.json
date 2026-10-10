@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -51,43 +60,50 @@
    "word": "lighthearted",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lighthearted"
   },
   {
    "word": "fish out of water",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fish-out-of-water"
   },
   {
    "word": "vacation",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vacation"
   },
   {
    "word": "cattle drive",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mid-life crisis",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "prairie",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "stetson",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

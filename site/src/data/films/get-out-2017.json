@@ -39,11 +39,23 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Sean Fennessey",
-    "K. Austin Collins",
-    "Wesley Morris"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "K. Austin Collins",
+     "id": "k-austin-collins"
+    },
+    {
+     "name": "Wesley Morris",
+     "id": "wesley-morris"
+    }
    ],
    "note": null
   }
@@ -53,115 +65,134 @@
    "word": "revenge",
    "reach": 31,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "revenge"
   },
   {
    "word": "kidnapping",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "kidnapping"
   },
   {
    "word": "psychological thriller",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "psychological-thriller"
   },
   {
    "word": "dark comedy",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dark-comedy"
   },
   {
    "word": "manipulation",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "manipulation"
   },
   {
    "word": "satire",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "satire"
   },
   {
    "word": "racism",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "racism"
   },
   {
    "word": "missing person",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "missing-person"
   },
   {
    "word": "horrified",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "horrified"
   },
   {
    "word": "disappearance",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "disappearance"
   },
   {
    "word": "interracial relationship",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "interracial-relationship"
   },
   {
    "word": "racist",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "racist"
   },
   {
    "word": "stereotype",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "stereotype"
   },
   {
    "word": "brain surgery",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "externally controlled action",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "hypnosis",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "neurosurgeon",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "parents-in-law",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "race-conscious",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

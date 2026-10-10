@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Joe House",
-    "Craig Horlbeck"
+    {
+     "name": "Joe House",
+     "id": "joe-house"
+    },
+    {
+     "name": "Craig Horlbeck",
+     "id": "craig-horlbeck"
+    }
    ],
    "note": null
   }
@@ -51,109 +60,127 @@
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "rivalry",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rivalry"
   },
   {
    "word": "golf",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "golf"
   },
   {
    "word": "love triangle",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "love-triangle"
   },
   {
    "word": "driving range",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "driving-range"
   },
   {
    "word": "golf tournament",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "golf-tournament"
   },
   {
    "word": "psychologist",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "psychologist"
   },
   {
    "word": "romantic rivalry",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "romantic-rivalry"
   },
   {
    "word": "caddy",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "golf instructor",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "golfers",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "pga tour",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "rebellious",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "rivals",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sports reporter",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "us open",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "washed up",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "woman between two men",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

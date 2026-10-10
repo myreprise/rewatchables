@@ -1,0 +1,313 @@
+{
+ "name": "Kyle Brandt",
+ "id": "kyle-brandt",
+ "episodes": 31,
+ "share": 0.0637,
+ "hosted": 0,
+ "first": "2020-08-06",
+ "last": "2026-09-14",
+ "shelf": [
+  {
+   "id": "rambo-first-blood-part-ii-1985",
+   "title": "Rambo: First Blood Part II",
+   "year": 1985,
+   "poster": "fVwRtWqEPdsCH21BVDGqgkAQcff.jpg",
+   "episode": 481,
+   "aired": "2026-09-14"
+  },
+  {
+   "id": "the-karate-kid-part-ii-1986",
+   "title": "The Karate Kid Part II",
+   "year": 1986,
+   "poster": "k0OwgRR6PNu7h3SiqpCbRdZWNaG.jpg",
+   "episode": 474,
+   "aired": "2026-08-03"
+  },
+  {
+   "id": "pacific-heights-1990",
+   "title": "Pacific Heights",
+   "year": 1990,
+   "poster": "9iHD6xIrGSuuMEFWhwSVGXSddY2.jpg",
+   "episode": 469,
+   "aired": "2026-06-29"
+  },
+  {
+   "id": "kindergarten-cop-1990",
+   "title": "Kindergarten Cop",
+   "year": 1990,
+   "poster": "nKnHWwkXyvhzCYWm3FyRAv3qBrl.jpg",
+   "episode": 457,
+   "aired": "2026-04-20"
+  },
+  {
+   "id": "fargo-1996",
+   "title": "Fargo",
+   "year": 1996,
+   "poster": "rt7cpEr1uP6RTZykBFhBTcRaKvG.jpg",
+   "episode": 450,
+   "aired": "2026-03-09"
+  },
+  {
+   "id": "just-one-of-the-guys-1985",
+   "title": "Just One of the Guys",
+   "year": 1985,
+   "poster": "7ffvsRv8ueYYK0H3zocmNRPd8yN.jpg",
+   "episode": 442,
+   "aired": "2026-01-19"
+  },
+  {
+   "id": "weird-science-1985",
+   "title": "Weird Science",
+   "year": 1985,
+   "poster": "AsFxOHwUlK7mTOkC5p6SySsdEjz.jpg",
+   "episode": 432,
+   "aired": "2025-11-17"
+  },
+  {
+   "id": "sneakers-1992",
+   "title": "Sneakers",
+   "year": 1992,
+   "poster": "l2pIGwCvpZEpBuMb55YBl6A04Jv.jpg",
+   "episode": 427,
+   "aired": "2025-10-13"
+  },
+  {
+   "id": "robocop-1987",
+   "title": "RoboCop",
+   "year": 1987,
+   "poster": "hHtOgGb3NihlyRATHlKPaFApbrd.jpg",
+   "episode": 417,
+   "aired": "2025-08-04"
+  },
+  {
+   "id": "out-for-justice-1991",
+   "title": "Out for Justice",
+   "year": 1991,
+   "poster": "nmfM1diysOyrX4JbvwS7uOomyes.jpg",
+   "episode": 408,
+   "aired": "2025-06-02"
+  },
+  {
+   "id": "the-saint-1997",
+   "title": "The Saint",
+   "year": 1997,
+   "poster": "k43wPAVeepqzGwP52dKcknQjquj.jpg",
+   "episode": 400,
+   "aired": "2025-04-04"
+  },
+  {
+   "id": "days-of-thunder-1990",
+   "title": "Days of Thunder",
+   "year": 1990,
+   "poster": "8UvcoeMJag8UWGF8sg7eYspzq0Q.jpg",
+   "episode": 397,
+   "aired": "2025-03-17"
+  },
+  {
+   "id": "waynes-world-1992",
+   "title": "Wayne's World",
+   "year": 1992,
+   "poster": "fHwZnFNWR7PaS9t5EBwTvGPeoYQ.jpg",
+   "episode": 393,
+   "aired": "2025-02-17"
+  },
+  {
+   "id": "home-alone-2-lost-in-new-york-1992",
+   "title": "Home Alone 2: Lost in New York",
+   "year": 1992,
+   "poster": "uuitWHpJwxD1wruFl2nZHIb4UGN.jpg",
+   "episode": 386,
+   "aired": "2024-12-23"
+  },
+  {
+   "id": "meet-the-parents-2000",
+   "title": "Meet the Parents",
+   "year": 2000,
+   "poster": "5tXJ9ctuyEOMUFLaeqRisbXowWs.jpg",
+   "episode": 381,
+   "aired": "2024-11-11"
+  },
+  {
+   "id": "over-the-top-1987",
+   "title": "Over the Top",
+   "year": 1987,
+   "poster": "a926UPf4EYbHfjdzf012M5YHiQ5.jpg",
+   "episode": 374,
+   "aired": "2024-09-24"
+  },
+  {
+   "id": "rudy-1993",
+   "title": "Rudy",
+   "year": 1993,
+   "poster": "fAbfTCRpjHe2rprXBly55KL1dL9.jpg",
+   "episode": 370,
+   "aired": "2024-08-22"
+  },
+  {
+   "id": "the-naked-gun-from-the-files-of-police-squad-1988",
+   "title": "The Naked Gun: From the Files of Police Squad!",
+   "year": 1988,
+   "poster": "zT0mhZqZQJE1gSY5Eg9qcGP4NYo.jpg",
+   "episode": 363,
+   "aired": "2024-07-02"
+  },
+  {
+   "id": "the-running-man-1987",
+   "title": "The Running Man",
+   "year": 1987,
+   "poster": "GTAUOhO4BN0peJVvxGEQydJvUO.jpg",
+   "episode": 354,
+   "aired": "2024-04-30"
+  },
+  {
+   "id": "road-house-1989",
+   "title": "Road House",
+   "year": 1989,
+   "poster": "n7Ra0BRYQVn47kiqOMyS8vdY0QS.jpg",
+   "episode": 347,
+   "aired": "2024-03-05"
+  },
+  {
+   "id": "under-siege-1992",
+   "title": "Under Siege",
+   "year": 1992,
+   "poster": "7tzVzgGKhLsQoiyDh2tiGcPeTpH.jpg",
+   "episode": 338,
+   "aired": "2023-12-26"
+  },
+  {
+   "id": "toy-soldiers-1991",
+   "title": "Toy Soldiers",
+   "year": 1991,
+   "poster": "nL3ccvqU1Wq1j31feHWAydzpbr2.jpg",
+   "episode": 327,
+   "aired": "2023-10-03"
+  },
+  {
+   "id": "sudden-death-1995",
+   "title": "Sudden Death",
+   "year": 1995,
+   "poster": "4Snihptli0we9I4W5QfufOdHSeV.jpg",
+   "episode": 305,
+   "aired": "2023-04-25"
+  },
+  {
+   "id": "cliffhanger-1993",
+   "title": "Cliffhanger",
+   "year": 1993,
+   "poster": "b28DOM54OHb1c7Lsk6Nu7Kwuonj.jpg",
+   "episode": 289,
+   "aired": "2023-01-03"
+  },
+  {
+   "id": "hard-to-kill-1990",
+   "title": "Hard to Kill",
+   "year": 1990,
+   "poster": "nmtMNxslljllSTVtt7VIOXdxSZp.jpg",
+   "episode": 259,
+   "aired": "2022-06-15"
+  },
+  {
+   "id": "cobra-1986",
+   "title": "Cobra",
+   "year": 1986,
+   "poster": "jCxfbTh8JvJil5edhNywxaTHoWv.jpg",
+   "episode": 224,
+   "aired": "2021-10-12"
+  },
+  {
+   "id": "predator-1987",
+   "title": "Predator",
+   "year": 1987,
+   "poster": "k3mW4qfJo6SKqe6laRyNGnbB9n5.jpg",
+   "episode": 200,
+   "aired": "2021-04-27"
+  },
+  {
+   "id": "commando-1985",
+   "title": "Commando",
+   "year": 1985,
+   "poster": "ollPAAAgZ7euU8VisfqU3cuXhZ6.jpg",
+   "episode": 195,
+   "aired": "2021-03-28"
+  },
+  {
+   "id": "the-program-1993",
+   "title": "The Program",
+   "year": 1993,
+   "poster": "4pdbutHc9SLEPmdLKtlVffiLByP.jpg",
+   "episode": 177,
+   "aired": "2020-12-08"
+  },
+  {
+   "id": "rocky-iv-1985",
+   "title": "Rocky IV",
+   "year": 1985,
+   "poster": "2MHUit4H6OK5adcOjnCN6suCKOl.jpg",
+   "episode": 170,
+   "aired": "2020-10-27"
+  },
+  {
+   "id": "teen-wolf-1985",
+   "title": "Teen Wolf",
+   "year": 1985,
+   "poster": "bv9rY9eoue2Hat6tcvrKVQ0ow8v.jpg",
+   "episode": 154,
+   "aired": "2020-08-06"
+  }
+ ],
+ "company": [
+  {
+   "name": "Chris Ryan",
+   "id": "chris-ryan",
+   "episodes": 5
+  },
+  {
+   "name": "Joanna Robinson",
+   "id": "joanna-robinson",
+   "episodes": 2
+  },
+  {
+   "name": "Shea Serrano",
+   "id": "shea-serrano",
+   "episodes": 2
+  },
+  {
+   "name": "Ryen Russillo",
+   "id": "ryen-russillo",
+   "episodes": 1
+  },
+  {
+   "name": "Cousin Sal",
+   "id": "cousin-sal",
+   "episodes": 1
+  }
+ ],
+ "regular": true,
+ "lean_floor": 15,
+ "leans": [
+  {
+   "text": "RT -20 pts",
+   "up": false
+  },
+  {
+   "text": "Action 58% vs 23%",
+   "up": true
+  },
+  {
+   "text": "films 8 yr older",
+   "up": true
+  },
+  {
+   "text": "Adventure 29% vs 8%",
+   "up": true
+  }
+ ],
+ "verdict_floor": 8,
+ "verdicts": {
+  "cruise": 12,
+  "hanks": 6,
+  "ties": 0,
+  "n": 18
+ }
+}

@@ -1,0 +1,170 @@
+{
+ "word": "boston, massachusetts",
+ "id": "boston-massachusetts",
+ "catalogue": 460,
+ "share": 1.5,
+ "thin": false,
+ "peak": 2010,
+ "avg_tmdb": 7.7,
+ "vs_catalogue": 0.6,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  },
+  {
+   "decade": 2010,
+   "n": 4
+  }
+ ],
+ "peak_share": 57.0,
+ "catalogue_peak_share": 12.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "id": "admiring"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "court",
+   "reach": 6,
+   "band": "b5",
+   "id": "court"
+  },
+  {
+   "word": "courtroom",
+   "reach": 7,
+   "band": "b5",
+   "id": "courtroom"
+  },
+  {
+   "word": "friends",
+   "reach": 7,
+   "band": "b5",
+   "id": "friends"
+  },
+  {
+   "word": "historical fiction",
+   "reach": 6,
+   "band": "b5",
+   "id": "historical-fiction"
+  },
+  {
+   "word": "irish-american",
+   "reach": 5,
+   "band": "b5",
+   "id": "irish-american"
+  },
+  {
+   "word": "lawyer",
+   "reach": 15,
+   "band": "b4",
+   "id": "lawyer"
+  },
+  {
+   "word": "massachusetts",
+   "reach": 3,
+   "band": "b5",
+   "id": "massachusetts"
+  },
+  {
+   "word": "tragic",
+   "reach": 3,
+   "band": "b5",
+   "id": "tragic"
+  },
+  {
+   "word": "9/11",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "abused as a child",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "affectation",
+   "reach": 5,
+   "band": "b5",
+   "id": "affectation"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-verdict-1982",
+   "title": "The Verdict",
+   "year": 1982,
+   "poster": "iYEuFP1bpj5yOenKliiRFcNO3VE.jpg",
+   "tmdb": 7.469
+  },
+  {
+   "id": "good-will-hunting-1997",
+   "title": "Good Will Hunting",
+   "year": 1997,
+   "poster": "z2FnLKpFi1HPO7BEJxdkv6hpJSU.jpg",
+   "tmdb": 8.165
+  },
+  {
+   "id": "the-departed-2006",
+   "title": "The Departed",
+   "year": 2006,
+   "poster": "nT97ifVT2J1yMQmeq20Qblg61T.jpg",
+   "tmdb": 8.159
+  },
+  {
+   "id": "the-social-network-2010",
+   "title": "The Social Network",
+   "year": 2010,
+   "poster": "n0ybibhJtQ5icDqTp8eRytcIHJx.jpg",
+   "tmdb": 7.376
+  },
+  {
+   "id": "the-town-2010",
+   "title": "The Town",
+   "year": 2010,
+   "poster": "3NIzyXkfylsjflRKSz8Fts3lXzm.jpg",
+   "tmdb": 7.226
+  },
+  {
+   "id": "spotlight-2015",
+   "title": "Spotlight",
+   "year": 2015,
+   "poster": "8DPGG400FgaFWaqcv11n8mRd2NG.jpg",
+   "tmdb": 7.812
+  },
+  {
+   "id": "manchester-by-the-sea-2016",
+   "title": "Manchester by the Sea",
+   "year": 2016,
+   "poster": "o9VXYOuaJxCEKOxbA86xqtwmqYn.jpg",
+   "tmdb": 7.552
+  }
+ ]
+}

@@ -1,0 +1,237 @@
+{
+ "word": "california",
+ "id": "california",
+ "catalogue": 460,
+ "share": 3.5,
+ "thin": false,
+ "peak": 2000,
+ "avg_tmdb": 7.1,
+ "vs_catalogue": 0.0,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 2
+  },
+  {
+   "decade": 1980,
+   "n": 2
+  },
+  {
+   "decade": 1990,
+   "n": 3
+  },
+  {
+   "decade": 2000,
+   "n": 6
+  },
+  {
+   "decade": 2010,
+   "n": 3
+  }
+ ],
+ "peak_share": 38.0,
+ "catalogue_peak_share": 17.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "alcoholic",
+   "reach": 10,
+   "band": "b5",
+   "id": "alcoholic"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "id": "high-school"
+  },
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "id": "murder"
+  },
+  {
+   "word": "baseball",
+   "reach": 10,
+   "band": "b5",
+   "id": "baseball"
+  },
+  {
+   "word": "detective",
+   "reach": 17,
+   "band": "b3",
+   "id": "detective"
+  },
+  {
+   "word": "father daughter relationship",
+   "reach": 5,
+   "band": "b5",
+   "id": "father-daughter-relationship"
+  },
+  {
+   "word": "halloween",
+   "reach": 7,
+   "band": "b5",
+   "id": "halloween"
+  },
+  {
+   "word": "jealousy",
+   "reach": 7,
+   "band": "b5",
+   "id": "jealousy"
+  },
+  {
+   "word": "journalist",
+   "reach": 12,
+   "band": "b4",
+   "id": "journalist"
+  },
+  {
+   "word": "killing",
+   "reach": 4,
+   "band": "b5",
+   "id": "killing"
+  },
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  },
+  {
+   "word": "neo-noir",
+   "reach": 29,
+   "band": "b2",
+   "id": "neo-noir"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-bad-news-bears-1976",
+   "title": "The Bad News Bears",
+   "year": 1976,
+   "poster": "kJNXMni0ObOXLth6v9xpUhWbtrp.jpg",
+   "tmdb": 6.908
+  },
+  {
+   "id": "grease-1978",
+   "title": "Grease",
+   "year": 1978,
+   "poster": "2rM7fQKpb7cs1Iq7IBqub9LFDzJ.jpg",
+   "tmdb": 7.366
+  },
+  {
+   "id": "e-t-the-extra-terrestrial-1982",
+   "title": "E.T. the Extra-Terrestrial",
+   "year": 1982,
+   "poster": "an0nD6uq6byfxXCfk6lQBzdL2J1.jpg",
+   "tmdb": 7.518
+  },
+  {
+   "id": "the-sure-thing-1985",
+   "title": "The Sure Thing",
+   "year": 1985,
+   "poster": "a9cuohQn5kczi4htWZAZjEZvXkZ.jpg",
+   "tmdb": 6.531
+  },
+  {
+   "id": "basic-instinct-1992",
+   "title": "Basic Instinct",
+   "year": 1992,
+   "poster": "76Ts0yoHk8kVQj9MMnoMixhRWoh.jpg",
+   "tmdb": 6.946
+  },
+  {
+   "id": "dangerous-minds-1995",
+   "title": "Dangerous Minds",
+   "year": 1995,
+   "poster": "yWHWC8fJRp2kLgiFrEa8o3krOH9.jpg",
+   "tmdb": 6.984
+  },
+  {
+   "id": "scream-1996",
+   "title": "Scream",
+   "year": 1996,
+   "poster": "lr9ZIrmuwVmZhpZuTCW8D9g0ZJe.jpg",
+   "tmdb": 7.431
+  },
+  {
+   "id": "training-day-2001",
+   "title": "Training Day",
+   "year": 2001,
+   "poster": "bUeiwBQdupBLQthMCHKV7zv56uv.jpg",
+   "tmdb": 7.528
+  },
+  {
+   "id": "the-italian-job-2003",
+   "title": "The Italian Job",
+   "year": 2003,
+   "poster": "eSkjK4kctyrWpFhxl35GPvSs6tI.jpg",
+   "tmdb": 6.799
+  },
+  {
+   "id": "sideways-2004",
+   "title": "Sideways",
+   "year": 2004,
+   "poster": "zOsaxYLgvZVU7cJBpPn8CuE0MrP.jpg",
+   "tmdb": 7.1
+  },
+  {
+   "id": "borat-cultural-learnings-of-america-for-make-benefit-glorious-nation-of-kazakhstan-2006",
+   "title": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
+   "year": 2006,
+   "poster": "7g9kBHMN2KTr5KUf8aen187Mdn.jpg",
+   "tmdb": 6.788
+  },
+  {
+   "id": "there-will-be-blood-2007",
+   "title": "There Will Be Blood",
+   "year": 2007,
+   "poster": "fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
+   "tmdb": 8.064
+  },
+  {
+   "id": "zodiac-2007",
+   "title": "Zodiac",
+   "year": 2007,
+   "poster": "6YmeO4pB7XTh8P8F960O1uA14JO.jpg",
+   "tmdb": 7.532
+  },
+  {
+   "id": "moneyball-2011",
+   "title": "Moneyball",
+   "year": 2011,
+   "poster": "4yIQq1e6iOcaZ5rLDG3lZBP3j7a.jpg",
+   "tmdb": 7.299
+  },
+  {
+   "id": "the-purge-2013",
+   "title": "The Purge",
+   "year": 2013,
+   "poster": "46X1ei9uf13nkkr0OhWldGyr5Uh.jpg",
+   "tmdb": 6.246
+  },
+  {
+   "id": "shot-caller-2017",
+   "title": "Shot Caller",
+   "year": 2017,
+   "poster": "qLmLz2wtyYvmW8Ult3l2ngOnW8v.jpg",
+   "tmdb": 6.968
+  }
+ ]
+}

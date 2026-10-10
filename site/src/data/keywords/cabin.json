@@ -1,0 +1,118 @@
+{
+ "word": "cabin",
+ "id": "cabin",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1950s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1950s"
+  },
+  {
+   "word": "19th century",
+   "reach": 4,
+   "band": "b5",
+   "id": "19th-century"
+  },
+  {
+   "word": "antagonistic",
+   "reach": 13,
+   "band": "b4",
+   "id": "antagonistic"
+  },
+  {
+   "word": "b-horror",
+   "reach": 3,
+   "band": "b5",
+   "id": "b-horror"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "blackfoot",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "camp",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "drowning",
+   "reach": 2,
+   "band": "b5",
+   "id": "drowning"
+  },
+  {
+   "word": "fur trapper",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "halloween",
+   "reach": 7,
+   "band": "b5",
+   "id": "halloween"
+  },
+  {
+   "word": "lake",
+   "reach": 2,
+   "band": "b5",
+   "id": "lake"
+  },
+  {
+   "word": "loss of loved one",
+   "reach": 20,
+   "band": "b3",
+   "id": "loss-of-loved-one"
+  },
+  {
+   "word": "mountain man",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "id": "murder"
+  }
+ ],
+ "films": [
+  {
+   "id": "jeremiah-johnson-1972",
+   "title": "Jeremiah Johnson",
+   "year": 1972,
+   "poster": "fANj1S3UmBB51wnKxYRKtw8LMBn.jpg",
+   "tmdb": 7.308
+  },
+  {
+   "id": "friday-the-13th-1980",
+   "title": "Friday the 13th",
+   "year": 1980,
+   "poster": "uGGpnWHOmWTARVN9wbC1nPxNgps.jpg",
+   "tmdb": 6.4
+  }
+ ]
+}

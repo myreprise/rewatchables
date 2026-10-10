@@ -38,7 +38,10 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [],
    "note": "From Hell' month"
   }
@@ -48,91 +51,106 @@
    "word": "murder",
    "reach": 36,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "murder"
   },
   {
    "word": "parent child relationship",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "parent-child-relationship"
   },
   {
    "word": "psychopath",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "psychopath"
   },
   {
    "word": "manipulation",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "manipulation"
   },
   {
    "word": "sadism",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sadism"
   },
   {
    "word": "sociopath",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sociopath"
   },
   {
    "word": "deception",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "deception"
   },
   {
    "word": "sadistic",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sadistic"
   },
   {
    "word": "lying",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lying"
   },
   {
    "word": "psycho",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "psycho"
   },
   {
    "word": "deceit",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "disbelief",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "disbelieving adult",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "problem child",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "psychopathic",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

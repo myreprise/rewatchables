@@ -1,0 +1,118 @@
+{
+ "word": "thunderstorm",
+ "id": "thunderstorm",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1990s",
+   "reach": 4,
+   "band": "b5",
+   "id": "1990s"
+  },
+  {
+   "word": "2010s",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "alternate history",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "angry",
+   "reach": 8,
+   "band": "b5",
+   "id": "angry"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "biography",
+   "reach": 10,
+   "band": "b5",
+   "id": "biography"
+  },
+  {
+   "word": "car crash",
+   "reach": 6,
+   "band": "b5",
+   "id": "car-crash"
+  },
+  {
+   "word": "car race",
+   "reach": 6,
+   "band": "b5",
+   "id": "car-race"
+  },
+  {
+   "word": "city hall",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "diner",
+   "reach": 2,
+   "band": "b5",
+   "id": "diner"
+  },
+  {
+   "word": "disaster",
+   "reach": 4,
+   "band": "b5",
+   "id": "disaster"
+  },
+  {
+   "word": "enthusiastic",
+   "reach": 3,
+   "band": "b5",
+   "id": "enthusiastic"
+  },
+  {
+   "word": "flying car",
+   "reach": 3,
+   "band": "b5",
+   "id": "flying-car"
+  }
+ ],
+ "films": [
+  {
+   "id": "back-to-the-future-part-ii-1989",
+   "title": "Back to the Future Part II",
+   "year": 1989,
+   "poster": "hQq8xZe5uLjFzSBt4LanNP7SQjl.jpg",
+   "tmdb": 7.784
+  },
+  {
+   "id": "the-perfect-storm-2000",
+   "title": "The Perfect Storm",
+   "year": 2000,
+   "poster": "vJPoxqgpfFNbGi0HyoNsjFeLCio.jpg",
+   "tmdb": 6.486
+  }
+ ]
+}

@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Van Lathan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": null
   }
@@ -51,85 +60,99 @@
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "aftercreditsstinger",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "aftercreditsstinger"
   },
   {
    "word": "exhilarated",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "exhilarated"
   },
   {
    "word": "joyful",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "joyful"
   },
   {
    "word": "sport competition",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sport-competition"
   },
   {
    "word": "comeback",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "comeback"
   },
   {
    "word": "race car driver",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "race-car-driver"
   },
   {
    "word": "motorsport",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "motorsport"
   },
   {
    "word": "racing",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "racing"
   },
   {
    "word": "beforecreditsstinger",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "car racing",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "disdainful",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "formula one (f1)",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "rookie",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

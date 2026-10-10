@@ -1,0 +1,118 @@
+{
+ "word": "corporate world",
+ "id": "corporate-world",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "bad boss",
+   "reach": 2,
+   "band": "b5",
+   "id": "bad-boss"
+  },
+  {
+   "word": "burnout",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "business ethics",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "business rivalry",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "chambers of a barrister",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "co-workers relationship",
+   "reach": 3,
+   "band": "b5",
+   "id": "co-workers-relationship"
+  },
+  {
+   "word": "cover-up",
+   "reach": 2,
+   "band": "b5",
+   "id": "cover-up"
+  },
+  {
+   "word": "crooked lawyer",
+   "reach": 3,
+   "band": "b5",
+   "id": "crooked-lawyer"
+  },
+  {
+   "word": "dallas, texas",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dangerous secrets",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "downsizing",
+   "reach": 2,
+   "band": "b5",
+   "id": "downsizing"
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "id": "duringcreditsstinger"
+  },
+  {
+   "word": "embezzlement",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "fake suicide",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "office-space-1999",
+   "title": "Office Space",
+   "year": 1999,
+   "poster": "iEmTwOkUaLziMQCUZii5wPQBIAO.jpg",
+   "tmdb": 7.381
+  },
+  {
+   "id": "michael-clayton-2007",
+   "title": "Michael Clayton",
+   "year": 2007,
+   "poster": "hhkW4yVIGo8Bee3UITKvqOvhNMG.jpg",
+   "tmdb": 6.793
+  }
+ ]
+}

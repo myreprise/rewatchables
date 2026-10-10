@@ -1,0 +1,180 @@
+{
+ "word": "thoughtful",
+ "id": "thoughtful",
+ "catalogue": 460,
+ "share": 2.0,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.3,
+ "vs_catalogue": 0.2,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 5
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 3
+  }
+ ],
+ "peak_share": 56.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "aggressive",
+   "reach": 18,
+   "band": "b3",
+   "id": "aggressive"
+  },
+  {
+   "word": "dystopia",
+   "reach": 17,
+   "band": "b3",
+   "id": "dystopia"
+  },
+  {
+   "word": "flashback",
+   "reach": 9,
+   "band": "b5",
+   "id": "flashback"
+  },
+  {
+   "word": "introspective",
+   "reach": 3,
+   "band": "b5",
+   "id": "introspective"
+  },
+  {
+   "word": "martial arts",
+   "reach": 9,
+   "band": "b5",
+   "id": "martial-arts"
+  },
+  {
+   "word": "philosophical",
+   "reach": 5,
+   "band": "b5",
+   "id": "philosophical"
+  },
+  {
+   "word": "reflective",
+   "reach": 4,
+   "band": "b5",
+   "id": "reflective"
+  },
+  {
+   "word": "sports",
+   "reach": 47,
+   "band": "b1",
+   "id": "sports"
+  },
+  {
+   "word": "1950s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1950s"
+  },
+  {
+   "word": "1960s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1960s"
+  },
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "id": "absurd"
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "alien",
+   "reach": 9,
+   "band": "b5",
+   "id": "alien"
+  },
+  {
+   "word": "alien invasion",
+   "reach": 4,
+   "band": "b5",
+   "id": "alien-invasion"
+  }
+ ],
+ "films": [
+  {
+   "id": "escape-from-new-york-1981",
+   "title": "Escape from New York",
+   "year": 1981,
+   "poster": "vH9llaphjAssRGi0k7e75tD40Ce.jpg",
+   "tmdb": 7.047
+  },
+  {
+   "id": "witness-1985",
+   "title": "Witness",
+   "year": 1985,
+   "poster": "kOymD1rChAMykmDVEzJpIh4OYS7.jpg",
+   "tmdb": 7.089
+  },
+  {
+   "id": "the-karate-kid-part-ii-1986",
+   "title": "The Karate Kid Part II",
+   "year": 1986,
+   "poster": "k0OwgRR6PNu7h3SiqpCbRdZWNaG.jpg",
+   "tmdb": 6.351
+  },
+  {
+   "id": "they-live-1988",
+   "title": "They Live",
+   "year": 1988,
+   "poster": "ngnybFTuopfbfmmEeX9jjBQQmF6.jpg",
+   "tmdb": 7.308
+  },
+  {
+   "id": "dead-poets-society-1989",
+   "title": "Dead Poets Society",
+   "year": 1989,
+   "poster": "tNvKkSnnn4Z6RCBThyK1gfCSSvv.jpg",
+   "tmdb": 8.296
+  },
+  {
+   "id": "jerry-maguire-1996",
+   "title": "Jerry Maguire",
+   "year": 1996,
+   "poster": "lABvGN7fDk5ifnwZoxij6G96t2w.jpg",
+   "tmdb": 7.002
+  },
+  {
+   "id": "high-fidelity-2000",
+   "title": "High Fidelity",
+   "year": 2000,
+   "poster": "e2LZGB62GMhv3Fo8tDZjY87I81a.jpg",
+   "tmdb": 7.1
+  },
+  {
+   "id": "the-bourne-identity-2002",
+   "title": "The Bourne Identity",
+   "year": 2002,
+   "poster": "aP8swke3gmowbkfZ6lmNidu0y9p.jpg",
+   "tmdb": 7.485
+  },
+  {
+   "id": "brokeback-mountain-2005",
+   "title": "Brokeback Mountain",
+   "year": 2005,
+   "poster": "aByfQOQBNa4CMFwIgq3QrqY2ZHh.jpg",
+   "tmdb": 7.784
+  }
+ ]
+}

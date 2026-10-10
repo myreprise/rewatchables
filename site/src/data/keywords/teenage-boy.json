@@ -1,0 +1,118 @@
+{
+ "word": "teenage boy",
+ "id": "teenage-boy",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "adolescence",
+   "reach": 2,
+   "band": "b5",
+   "id": "adolescence"
+  },
+  {
+   "word": "bad boss",
+   "reach": 2,
+   "band": "b5",
+   "id": "bad-boss"
+  },
+  {
+   "word": "based on comic",
+   "reach": 5,
+   "band": "b5",
+   "id": "based-on-comic"
+  },
+  {
+   "word": "bicycle",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bicycle race",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "id": "coming-of-age"
+  },
+  {
+   "word": "cycling",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "evil",
+   "reach": 5,
+   "band": "b5",
+   "id": "evil"
+  },
+  {
+   "word": "hostility",
+   "reach": 3,
+   "band": "b5",
+   "id": "hostility"
+  },
+  {
+   "word": "indiana, usa",
+   "reach": 3,
+   "band": "b5",
+   "id": "indiana-usa"
+  },
+  {
+   "word": "loss of loved one",
+   "reach": 20,
+   "band": "b3",
+   "id": "loss-of-loved-one"
+  },
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "id": "new-york-city"
+  },
+  {
+   "word": "photographer",
+   "reach": 4,
+   "band": "b5",
+   "id": "photographer"
+  },
+  {
+   "word": "photography",
+   "reach": 3,
+   "band": "b5",
+   "id": "photography"
+  }
+ ],
+ "films": [
+  {
+   "id": "breaking-away-1979",
+   "title": "Breaking Away",
+   "year": 1979,
+   "poster": "k7b5GsVJK1hfdwoYqcczN9pBba6.jpg",
+   "tmdb": 7.146
+  },
+  {
+   "id": "spider-man-2002",
+   "title": "Spider-Man",
+   "year": 2002,
+   "poster": "or6XJBVpcEbIkma0V9zshnbEtx4.jpg",
+   "tmdb": 7.351
+  }
+ ]
+}

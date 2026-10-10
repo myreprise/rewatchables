@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Cousin Sal"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Cousin Sal",
+     "id": "cousin-sal"
+    }
    ],
    "note": null
   }
@@ -52,121 +61,141 @@
    "word": "sequel",
    "reach": 28,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "sequel"
   },
   {
    "word": "lighthearted",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lighthearted"
   },
   {
    "word": "angry",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "angry"
   },
   {
    "word": "time travel",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "time-travel"
   },
   {
    "word": "car crash",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "car-crash"
   },
   {
    "word": "car race",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "car-race"
   },
   {
    "word": "kids",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "kids"
   },
   {
    "word": "enthusiastic",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "enthusiastic"
   },
   {
    "word": "flying car",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "flying-car"
   },
   {
    "word": "guitar",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "guitar"
   },
   {
    "word": "lightning",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lightning"
   },
   {
    "word": "diner",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "diner"
   },
   {
    "word": "inventor",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "inventor"
   },
   {
    "word": "thunderstorm",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "thunderstorm"
   },
   {
    "word": "2010s",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "alternate history",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "high school dance",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "hoverboard",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "skateboarding",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "tunnel",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

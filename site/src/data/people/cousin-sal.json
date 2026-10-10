@@ -1,0 +1,83 @@
+{
+ "name": "Cousin Sal",
+ "id": "cousin-sal",
+ "episodes": 5,
+ "share": 0.0103,
+ "hosted": 0,
+ "first": "2020-04-03",
+ "last": "2025-11-24",
+ "shelf": [
+  {
+   "id": "two-for-the-money-2005",
+   "title": "Two for the Money",
+   "year": 2005,
+   "poster": "5SedPYdGLrp6LX9C2cWXLx38w1D.jpg",
+   "episode": 433,
+   "aired": "2025-11-24"
+  },
+  {
+   "id": "back-to-the-future-part-ii-1989",
+   "title": "Back to the Future Part II",
+   "year": 1989,
+   "poster": "hQq8xZe5uLjFzSBt4LanNP7SQjl.jpg",
+   "episode": 357,
+   "aired": "2024-05-21"
+  },
+  {
+   "id": "rocky-iii-1982",
+   "title": "Rocky III",
+   "year": 1982,
+   "poster": "uqw16i2kmwVqkJHzjzbDU4xZ0Pl.jpg",
+   "episode": 255,
+   "aired": "2022-05-25"
+  },
+  {
+   "id": "rocky-iv-1985",
+   "title": "Rocky IV",
+   "year": 1985,
+   "poster": "2MHUit4H6OK5adcOjnCN6suCKOl.jpg",
+   "episode": 170,
+   "aired": "2020-10-27"
+  },
+  {
+   "id": "tommy-boy-1995",
+   "title": "Tommy Boy",
+   "year": 1995,
+   "poster": "jeEM8v1OA9u6F5NC2lzXD04Ls1U.jpg",
+   "episode": 128,
+   "aired": "2020-04-03"
+  }
+ ],
+ "company": [
+  {
+   "name": "Chris Ryan",
+   "id": "chris-ryan",
+   "episodes": 2
+  },
+  {
+   "name": "Sean Fennessey",
+   "id": "sean-fennessey",
+   "episodes": 1
+  },
+  {
+   "name": "Gus Ramsey",
+   "id": "gus-ramsey",
+   "episodes": 1
+  },
+  {
+   "name": "Kyle Brandt",
+   "id": "kyle-brandt",
+   "episodes": 1
+  }
+ ],
+ "regular": false,
+ "lean_floor": 15,
+ "leans": [],
+ "verdict_floor": 8,
+ "verdicts": {
+  "cruise": 1,
+  "hanks": 1,
+  "ties": 0,
+  "n": 2
+ }
+}

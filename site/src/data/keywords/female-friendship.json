@@ -1,0 +1,134 @@
+{
+ "word": "female friendship",
+ "id": "female-friendship",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 2010,
+ "avg_tmdb": 7.0,
+ "vs_catalogue": -0.1,
+ "decades": [
+  {
+   "decade": 2000,
+   "n": 1
+  },
+  {
+   "decade": 2010,
+   "n": 2
+  }
+ ],
+ "peak_share": 67.0,
+ "catalogue_peak_share": 12.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "best friend",
+   "reach": 6,
+   "band": "b5",
+   "id": "best-friend"
+  },
+  {
+   "word": "competition",
+   "reach": 6,
+   "band": "b5",
+   "id": "competition"
+  },
+  {
+   "word": "group of friends",
+   "reach": 5,
+   "band": "b5",
+   "id": "group-of-friends"
+  },
+  {
+   "word": "acapella",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "audacious",
+   "reach": 10,
+   "band": "b5",
+   "id": "audacious"
+  },
+  {
+   "word": "audition",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "bickering",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bridesmaid",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bullying",
+   "reach": 5,
+   "band": "b5",
+   "id": "bullying"
+  },
+  {
+   "word": "casual sex",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "clique",
+   "reach": 2,
+   "band": "b5",
+   "id": "clique"
+  }
+ ],
+ "films": [
+  {
+   "id": "mean-girls-2004",
+   "title": "Mean Girls",
+   "year": 2004,
+   "poster": "2ZkuQXvVhh45uSvkBej4S7Ix1NJ.jpg",
+   "tmdb": 7.227
+  },
+  {
+   "id": "bridesmaids-2011",
+   "title": "Bridesmaids",
+   "year": 2011,
+   "poster": "gJtA7hYsBMQ7EM3sPBMUdBfU7a0.jpg",
+   "tmdb": 6.509
+  },
+  {
+   "id": "pitch-perfect-2012",
+   "title": "Pitch Perfect",
+   "year": 2012,
+   "poster": "gsFoJk9g8W3zgaipRrrURk7LbiF.jpg",
+   "tmdb": 7.266
+  }
+ ]
+}

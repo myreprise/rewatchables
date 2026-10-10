@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Chris Ryan",
+   "host": {
+    "name": "Chris Ryan",
+    "id": "chris-ryan"
+   },
    "guests": [
-    "Sean Fennessey",
-    "Mina Kimes"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Mina Kimes",
+     "id": "mina-kimes"
+    }
    ],
    "note": null
   }
@@ -51,145 +60,169 @@
    "word": "hilarious",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "hilarious"
   },
   {
    "word": "christmas",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "christmas"
   },
   {
    "word": "holiday",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "holiday"
   },
   {
    "word": "lighthearted",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lighthearted"
   },
   {
    "word": "family relationships",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "family-relationships"
   },
   {
    "word": "mischievous",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mischievous"
   },
   {
    "word": "joyful",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "joyful"
   },
   {
    "word": "home invasion",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "home-invasion"
   },
   {
    "word": "joyous",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "joyous"
   },
   {
    "word": "burglar",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "burglar"
   },
   {
    "word": "slapstick comedy",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "slapstick-comedy"
   },
   {
    "word": "enthusiastic",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "enthusiastic"
   },
   {
    "word": "alone",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alone"
   },
   {
    "word": "booby trap",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "booby-trap"
   },
   {
    "word": "child rescue",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "child-rescue"
   },
   {
    "word": "home alone",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "home-alone"
   },
   {
    "word": "kids on their own",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "kids-on-their-own"
   },
   {
    "word": "little boy",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "little-boy"
   },
   {
    "word": "mischievous child",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mischievous-child"
   },
   {
    "word": "precocious child",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "precocious-child"
   },
   {
    "word": "burglars",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "home",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "suburban chicago",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "wet bandits",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

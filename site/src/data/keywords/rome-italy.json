@@ -1,0 +1,134 @@
+{
+ "word": "rome, italy",
+ "id": "rome-italy",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 2000,
+ "avg_tmdb": 7.4,
+ "vs_catalogue": 0.3,
+ "decades": [
+  {
+   "decade": 2000,
+   "n": 2
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 67.0,
+ "catalogue_peak_share": 17.0,
+ "region": "italy",
+ "region_films": 6,
+ "region_places": 2,
+ "partners": [
+  {
+   "word": "revenge",
+   "reach": 31,
+   "band": "b2",
+   "id": "revenge"
+  },
+  {
+   "word": "sequel",
+   "reach": 28,
+   "band": "b2",
+   "id": "sequel"
+  },
+  {
+   "word": "2nd century",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "amsterdam, netherlands",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "ancient rome",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "ancient world",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "antiquity",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "arena",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "assassin",
+   "reach": 8,
+   "band": "b5",
+   "id": "assassin"
+  },
+  {
+   "word": "barbarian horde",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "battlefield",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "caper",
+   "reach": 4,
+   "band": "b5",
+   "id": "caper"
+  },
+  {
+   "word": "chariot",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "code of honor",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "gladiator-2000",
+   "title": "Gladiator",
+   "year": 2000,
+   "poster": "wN2xWp1eIwCKOD0BHTcErTBv1Uq.jpg",
+   "tmdb": 8.231
+  },
+  {
+   "id": "oceans-twelve-2004",
+   "title": "Ocean's Twelve",
+   "year": 2004,
+   "poster": "pE5anFf7nf6ah7V3VRezQ1KSovi.jpg",
+   "tmdb": 6.566
+  },
+  {
+   "id": "john-wick-chapter-2-2017",
+   "title": "John Wick: Chapter 2",
+   "year": 2017,
+   "poster": "hXWBc0ioZP3cN4zCu6SN3YHXZVO.jpg",
+   "tmdb": 7.345
+  }
+ ]
+}

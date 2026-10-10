@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Shea Serrano"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Shea Serrano",
+     "id": "shea-serrano"
+    }
    ],
    "note": null
   }
@@ -52,187 +61,218 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "intense",
    "reach": 23,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "intense"
   },
   {
    "word": "fbi",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "fbi"
   },
   {
    "word": "aggressive",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "aggressive"
   },
   {
    "word": "conspiracy",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "conspiracy"
   },
   {
    "word": "philadelphia, pennsylvania",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "philadelphia-pennsylvania"
   },
   {
    "word": "on the run",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "on-the-run"
   },
   {
    "word": "usa president",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "usa-president"
   },
   {
    "word": "assassination",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "assassination"
   },
   {
    "word": "dog",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dog"
   },
   {
    "word": "fbi agent",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fbi-agent"
   },
   {
    "word": "framed for murder",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "framed-for-murder"
   },
   {
    "word": "bitter",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bitter"
   },
   {
    "word": "ex-marine",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ex-marine"
   },
   {
    "word": "manhunt",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "manhunt"
   },
   {
    "word": "pipeline",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pipeline"
   },
   {
    "word": "u.s. marine",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "u-s-marine"
   },
   {
    "word": "widow",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "widow"
   },
   {
    "word": "archbishop",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "army colonel",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "death of friend",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "elite sniper",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "ethiopia",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "fugitive suspect",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "government corruption",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "gunnery sergeant",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "marine sniper",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "marine veteran",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "patriot",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "spotter",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "u.s. senator",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

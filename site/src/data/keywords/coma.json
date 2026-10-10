@@ -1,0 +1,152 @@
+{
+ "word": "coma",
+ "id": "coma",
+ "catalogue": 460,
+ "share": 1.1,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 6.9,
+ "vs_catalogue": -0.2,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 3
+  }
+ ],
+ "peak_share": 60.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "hospital",
+   "reach": 7,
+   "band": "b5",
+   "id": "hospital"
+  },
+  {
+   "word": "love of one's life",
+   "reach": 11,
+   "band": "b5",
+   "id": "love-of-ones-life"
+  },
+  {
+   "word": "training",
+   "reach": 10,
+   "band": "b5",
+   "id": "training"
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "id": "admiring"
+  },
+  {
+   "word": "affectation",
+   "reach": 5,
+   "band": "b5",
+   "id": "affectation"
+  },
+  {
+   "word": "alcoholic",
+   "reach": 10,
+   "band": "b5",
+   "id": "alcoholic"
+  },
+  {
+   "word": "anxious",
+   "reach": 8,
+   "band": "b5",
+   "id": "anxious"
+  },
+  {
+   "word": "apoplectic stroke",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "appreciative",
+   "reach": 6,
+   "band": "b5",
+   "id": "appreciative"
+  },
+  {
+   "word": "body double",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "boston, massachusetts",
+   "reach": 7,
+   "band": "b5",
+   "id": "boston-massachusetts"
+  },
+  {
+   "word": "boxer",
+   "reach": 5,
+   "band": "b5",
+   "id": "boxer"
+  },
+  {
+   "word": "boxing",
+   "reach": 6,
+   "band": "b5",
+   "id": "boxing"
+  }
+ ],
+ "films": [
+  {
+   "id": "rocky-ii-1979",
+   "title": "Rocky II",
+   "year": 1979,
+   "poster": "nMaiiu0CzT77U4JZkUYV7KqdAjK.jpg",
+   "tmdb": 7.3
+  },
+  {
+   "id": "the-verdict-1982",
+   "title": "The Verdict",
+   "year": 1982,
+   "poster": "iYEuFP1bpj5yOenKliiRFcNO3VE.jpg",
+   "tmdb": 7.469
+  },
+  {
+   "id": "hard-to-kill-1990",
+   "title": "Hard to Kill",
+   "year": 1990,
+   "poster": "nmtMNxslljllSTVtt7VIOXdxSZp.jpg",
+   "tmdb": 5.996
+  },
+  {
+   "id": "dave-1993",
+   "title": "Dave",
+   "year": 1993,
+   "poster": "n7wQlcexeER5bW7DvV8sji2vRRH.jpg",
+   "tmdb": 6.647
+  },
+  {
+   "id": "while-you-were-sleeping-1995",
+   "title": "While You Were Sleeping",
+   "year": 1995,
+   "poster": "qNGO3ETcNwlWqK2kNRpbJSJRlos.jpg",
+   "tmdb": 7.035
+  }
+ ]
+}

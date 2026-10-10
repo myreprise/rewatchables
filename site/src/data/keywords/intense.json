@@ -1,0 +1,286 @@
+{
+ "word": "intense",
+ "id": "intense",
+ "catalogue": 460,
+ "share": 5.0,
+ "thin": false,
+ "peak": 2000,
+ "avg_tmdb": 7.4,
+ "vs_catalogue": 0.3,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 2
+  },
+  {
+   "decade": 1990,
+   "n": 6
+  },
+  {
+   "decade": 2000,
+   "n": 7
+  },
+  {
+   "decade": 2010,
+   "n": 7
+  }
+ ],
+ "peak_share": 30.0,
+ "catalogue_peak_share": 17.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  },
+  {
+   "word": "suspenseful",
+   "reach": 30,
+   "band": "b2",
+   "id": "suspenseful"
+  },
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "id": "new-york-city"
+  },
+  {
+   "word": "fbi",
+   "reach": 20,
+   "band": "b3",
+   "id": "fbi"
+  },
+  {
+   "word": "gangster",
+   "reach": 18,
+   "band": "b3",
+   "id": "gangster"
+  },
+  {
+   "word": "on the run",
+   "reach": 10,
+   "band": "b5",
+   "id": "on-the-run"
+  },
+  {
+   "word": "survival",
+   "reach": 12,
+   "band": "b4",
+   "id": "survival"
+  },
+  {
+   "word": "aggressive",
+   "reach": 18,
+   "band": "b3",
+   "id": "aggressive"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "complex",
+   "reach": 5,
+   "band": "b5",
+   "id": "complex"
+  },
+  {
+   "word": "detective",
+   "reach": 17,
+   "band": "b3",
+   "id": "detective"
+  },
+  {
+   "word": "drugs",
+   "reach": 17,
+   "band": "b3",
+   "id": "drugs"
+  },
+  {
+   "word": "frightened",
+   "reach": 11,
+   "band": "b5",
+   "id": "frightened"
+  },
+  {
+   "word": "heist",
+   "reach": 16,
+   "band": "b4",
+   "id": "heist"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-warriors-1979",
+   "title": "The Warriors",
+   "year": 1979,
+   "poster": "d6YZpBq4BhQr1K985J3CuL1cA8J.jpg",
+   "tmdb": 7.682
+  },
+  {
+   "id": "witness-1985",
+   "title": "Witness",
+   "year": 1985,
+   "poster": "kOymD1rChAMykmDVEzJpIh4OYS7.jpg",
+   "tmdb": 7.089
+  },
+  {
+   "id": "lethal-weapon-1987",
+   "title": "Lethal Weapon",
+   "year": 1987,
+   "poster": "6gt44oqb4nE8vflPElffeGwsHVl.jpg",
+   "tmdb": 7.303
+  },
+  {
+   "id": "misery-1990",
+   "title": "Misery",
+   "year": 1990,
+   "poster": "klPO5oh1LOxiPpdDXZo1ADgpKcw.jpg",
+   "tmdb": 7.753
+  },
+  {
+   "id": "boyz-n-the-hood-1991",
+   "title": "Boyz n the Hood",
+   "year": 1991,
+   "poster": "kaS8BkTZESnkoB5i1zRQ02FIRGk.jpg",
+   "tmdb": 7.638
+  },
+  {
+   "id": "in-the-line-of-fire-1993",
+   "title": "In the Line of Fire",
+   "year": 1993,
+   "poster": "3NvOFpmyECI3DNExYMtFIRcGMsu.jpg",
+   "tmdb": 6.974
+  },
+  {
+   "id": "true-romance-1993",
+   "title": "True Romance",
+   "year": 1993,
+   "poster": "39lXk6ud6KiJgGbbWI2PUKS7y2.jpg",
+   "tmdb": 7.54
+  },
+  {
+   "id": "the-usual-suspects-1995",
+   "title": "The Usual Suspects",
+   "year": 1995,
+   "poster": "99X2SgyFunJFXGAYnDv3sb9pnUD.jpg",
+   "tmdb": 8.165
+  },
+  {
+   "id": "the-talented-mr-ripley-1999",
+   "title": "The Talented Mr. Ripley",
+   "year": 1999,
+   "poster": "6ojHgqtIR41O2qLKa7LFUVj0cZa.jpg",
+   "tmdb": 7.197
+  },
+  {
+   "id": "cast-away-2000",
+   "title": "Cast Away",
+   "year": 2000,
+   "poster": "7lLJgKnAicAcR5UEuo8xhSMj18w.jpg",
+   "tmdb": 7.667
+  },
+  {
+   "id": "minority-report-2002",
+   "title": "Minority Report",
+   "year": 2002,
+   "poster": "qtgFcnwh9dAFLocsDk2ySDVS8UF.jpg",
+   "tmdb": 7.355
+  },
+  {
+   "id": "panic-room-2002",
+   "title": "Panic Room",
+   "year": 2002,
+   "poster": "hANYbvfwxmkC9E4yY6YyJxYxlSJ.jpg",
+   "tmdb": 6.795
+  },
+  {
+   "id": "crash-2005",
+   "title": "Crash",
+   "year": 2005,
+   "poster": "86BdPC6RDX88NC880pLidKn2LCj.jpg",
+   "tmdb": 7.215
+  },
+  {
+   "id": "the-departed-2006",
+   "title": "The Departed",
+   "year": 2006,
+   "poster": "nT97ifVT2J1yMQmeq20Qblg61T.jpg",
+   "tmdb": 8.159
+  },
+  {
+   "id": "american-gangster-2007",
+   "title": "American Gangster",
+   "year": 2007,
+   "poster": "sX9idXDqRUxE5ffww3n3RV5gL55.jpg",
+   "tmdb": 7.594
+  },
+  {
+   "id": "shooter-2007",
+   "title": "Shooter",
+   "year": 2007,
+   "poster": "2aWGxo1E5polpBjPvtBRkWp7qaS.jpg",
+   "tmdb": 7.13
+  },
+  {
+   "id": "fast-five-2011",
+   "title": "Fast Five",
+   "year": 2011,
+   "poster": "gEfQjjQwY7fh5bI4GlG0RrBu7Pz.jpg",
+   "tmdb": 7.244
+  },
+  {
+   "id": "warrior-2011",
+   "title": "Warrior",
+   "year": 2011,
+   "poster": "iM8n4nZJPR2abpnyZ36FUgHiRjr.jpg",
+   "tmdb": 7.841
+  },
+  {
+   "id": "skyfall-2012",
+   "title": "Skyfall",
+   "year": 2012,
+   "poster": "d0IVecFQvsGdSbnMAHqiYsNYaJT.jpg",
+   "tmdb": 7.265
+  },
+  {
+   "id": "mad-max-fury-road-2015",
+   "title": "Mad Max: Fury Road",
+   "year": 2015,
+   "poster": "ulcAi4dKpAjHwYGS08vNyx9H6I9.jpg",
+   "tmdb": 7.637
+  },
+  {
+   "id": "sicario-2015",
+   "title": "Sicario",
+   "year": 2015,
+   "poster": "lz8vNyXeidqqOdJW9ZjnDAMb5Vr.jpg",
+   "tmdb": 7.427
+  },
+  {
+   "id": "dunkirk-2017",
+   "title": "Dunkirk",
+   "year": 2017,
+   "poster": "b4Oe15CGLL61Ped0RAS9JpqdmCt.jpg",
+   "tmdb": 7.451
+  },
+  {
+   "id": "den-of-thieves-2018",
+   "title": "Den of Thieves",
+   "year": 2018,
+   "poster": "dAP5NpkrMMczir5dUPjRR6ywqgz.jpg",
+   "tmdb": 6.873
+  }
+ ]
+}

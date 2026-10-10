@@ -1,0 +1,145 @@
+{
+ "word": "melodramatic",
+ "id": "melodramatic",
+ "catalogue": 460,
+ "share": 0.9,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.2,
+ "vs_catalogue": 0.1,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 3
+  },
+  {
+   "decade": 1990,
+   "n": 0
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  }
+ ],
+ "peak_share": 75.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "id": "absurd"
+  },
+  {
+   "word": "african american romance",
+   "reach": 3,
+   "band": "b5",
+   "id": "african-american-romance"
+  },
+  {
+   "word": "african royalty",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "airplane crash",
+   "reach": 3,
+   "band": "b5",
+   "id": "airplane-crash"
+  },
+  {
+   "word": "ambiguous",
+   "reach": 9,
+   "band": "b5",
+   "id": "ambiguous"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "asperger's syndrome",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "autism",
+   "reach": 2,
+   "band": "b5",
+   "id": "autism"
+  },
+  {
+   "word": "blackjack",
+   "reach": 2,
+   "band": "b5",
+   "id": "blackjack"
+  },
+  {
+   "word": "bold",
+   "reach": 15,
+   "band": "b4",
+   "id": "bold"
+  },
+  {
+   "word": "brief",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "car dealer",
+   "reach": 2,
+   "band": "b5",
+   "id": "car-dealer"
+  },
+  {
+   "word": "castaway",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "cincinnati",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "vision-quest-1985",
+   "title": "Vision Quest",
+   "year": 1985,
+   "poster": "l3g4e6ocqGA8aNL1hIrIVWLkljL.jpg",
+   "tmdb": 6.349
+  },
+  {
+   "id": "coming-to-america-1988",
+   "title": "Coming to America",
+   "year": 1988,
+   "poster": "djRAvxyvvN2yqlJKDbT3uy4vOBw.jpg",
+   "tmdb": 6.884
+  },
+  {
+   "id": "rain-man-1988",
+   "title": "Rain Man",
+   "year": 1988,
+   "poster": "iTNHwO896WKkaoPtpMMS74d8VNi.jpg",
+   "tmdb": 7.751
+  },
+  {
+   "id": "cast-away-2000",
+   "title": "Cast Away",
+   "year": 2000,
+   "poster": "7lLJgKnAicAcR5UEuo8xhSMj18w.jpg",
+   "tmdb": 7.667
+  }
+ ]
+}

@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -52,175 +61,204 @@
    "word": "sequel",
    "reach": 28,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "sequel"
   },
   {
    "word": "alien",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alien"
   },
   {
    "word": "assertive",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "assertive"
   },
   {
    "word": "exhilarated",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "exhilarated"
   },
   {
    "word": "commanding",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "commanding"
   },
   {
    "word": "creature",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "creature"
   },
   {
    "word": "female protagonist",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "female-protagonist"
   },
   {
    "word": "space",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "space"
   },
   {
    "word": "space marine",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "space-marine"
   },
   {
    "word": "android",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "android"
   },
   {
    "word": "critical",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "critical"
   },
   {
    "word": "empathetic",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "empathetic"
   },
   {
    "word": "space travel",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "space-travel"
   },
   {
    "word": "sinister",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sinister"
   },
   {
    "word": "extraterrestrial technology",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "extraterrestrial-technology"
   },
   {
    "word": "space colony",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "space-colony"
   },
   {
    "word": "spaceman",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "spaceman"
   },
   {
    "word": "action horror",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "colony",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "cryogenics",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "desolate",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "desolate planet",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "female hero",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "military sci-fi",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sci-fi action",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sci-fi horror",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "settler",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "vacuum",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "warrior woman",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

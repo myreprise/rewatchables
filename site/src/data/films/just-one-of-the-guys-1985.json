@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Kyle Brandt",
-    "Joanna Robinson"
+    {
+     "name": "Kyle Brandt",
+     "id": "kyle-brandt"
+    },
+    {
+     "name": "Joanna Robinson",
+     "id": "joanna-robinson"
+    }
    ],
    "note": null
   }
@@ -51,37 +60,43 @@
    "word": "high school",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "high-school"
   },
   {
    "word": "woman director",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "woman-director"
   },
   {
    "word": "teen comedy",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "teen-comedy"
   },
   {
    "word": "adolescence",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "adolescence"
   },
   {
    "word": "sexism",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sexism"
   },
   {
    "word": "cross dressing",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

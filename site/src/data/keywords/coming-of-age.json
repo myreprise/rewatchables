@@ -1,0 +1,293 @@
+{
+ "word": "coming of age",
+ "id": "coming-of-age",
+ "catalogue": 460,
+ "share": 5.2,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.1,
+ "vs_catalogue": -0.0,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 12
+  },
+  {
+   "decade": 1990,
+   "n": 8
+  },
+  {
+   "decade": 2000,
+   "n": 2
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 50.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "id": "high-school"
+  },
+  {
+   "word": "teenager",
+   "reach": 12,
+   "band": "b4",
+   "id": "teenager"
+  },
+  {
+   "word": "teen comedy",
+   "reach": 9,
+   "band": "b5",
+   "id": "teen-comedy"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "hilarious",
+   "reach": 17,
+   "band": "b3",
+   "id": "hilarious"
+  },
+  {
+   "word": "sports",
+   "reach": 47,
+   "band": "b1",
+   "id": "sports"
+  },
+  {
+   "word": "teen movie",
+   "reach": 7,
+   "band": "b5",
+   "id": "teen-movie"
+  },
+  {
+   "word": "woman director",
+   "reach": 16,
+   "band": "b4",
+   "id": "woman-director"
+  },
+  {
+   "word": "1950s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1950s"
+  },
+  {
+   "word": "1980s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1980s"
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "id": "duringcreditsstinger"
+  },
+  {
+   "word": "friendship",
+   "reach": 22,
+   "band": "b3",
+   "id": "friendship"
+  },
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  },
+  {
+   "word": "loss of virginity",
+   "reach": 3,
+   "band": "b5",
+   "id": "loss-of-virginity"
+  }
+ ],
+ "films": [
+  {
+   "id": "breaking-away-1979",
+   "title": "Breaking Away",
+   "year": 1979,
+   "poster": "k7b5GsVJK1hfdwoYqcczN9pBba6.jpg",
+   "tmdb": 7.146
+  },
+  {
+   "id": "caddyshack-1980",
+   "title": "Caddyshack",
+   "year": 1980,
+   "poster": "lXnNz7zOXCsftMDVoU3VSo0Eioi.jpg",
+   "tmdb": 6.584
+  },
+  {
+   "id": "fast-times-at-ridgemont-high-1982",
+   "title": "Fast Times at Ridgemont High",
+   "year": 1982,
+   "poster": "e15rmfjf0m6EGLe4MnNhwD3Dd1W.jpg",
+   "tmdb": 6.791
+  },
+  {
+   "id": "risky-business-1983",
+   "title": "Risky Business",
+   "year": 1983,
+   "poster": "82KOHShH9raGhkcAN3TztVjqjj3.jpg",
+   "tmdb": 6.587
+  },
+  {
+   "id": "teen-wolf-1985",
+   "title": "Teen Wolf",
+   "year": 1985,
+   "poster": "bv9rY9eoue2Hat6tcvrKVQ0ow8v.jpg",
+   "tmdb": 6.209
+  },
+  {
+   "id": "the-breakfast-club-1985",
+   "title": "The Breakfast Club",
+   "year": 1985,
+   "poster": "gp4zlj7wgbiofLMNsTPndMuO3PN.jpg",
+   "tmdb": 7.717
+  },
+  {
+   "id": "the-sure-thing-1985",
+   "title": "The Sure Thing",
+   "year": 1985,
+   "poster": "a9cuohQn5kczi4htWZAZjEZvXkZ.jpg",
+   "tmdb": 6.531
+  },
+  {
+   "id": "vision-quest-1985",
+   "title": "Vision Quest",
+   "year": 1985,
+   "poster": "l3g4e6ocqGA8aNL1hIrIVWLkljL.jpg",
+   "tmdb": 6.349
+  },
+  {
+   "id": "ferris-buellers-day-off-1986",
+   "title": "Ferris Bueller's Day Off",
+   "year": 1986,
+   "poster": "9LTQNCvoLsKXP0LtaKAaYVtRaQL.jpg",
+   "tmdb": 7.562
+  },
+  {
+   "id": "stand-by-me-1986",
+   "title": "Stand by Me",
+   "year": 1986,
+   "poster": "vz0w9BSehcqjDcJOjRaCk7fgJe7.jpg",
+   "tmdb": 7.833
+  },
+  {
+   "id": "cant-buy-me-love-1987",
+   "title": "Can't Buy Me Love",
+   "year": 1987,
+   "poster": "qK3yiqo84U3twOOKOx81c407Hpr.jpg",
+   "tmdb": 6.884
+  },
+  {
+   "id": "big-1988",
+   "title": "Big",
+   "year": 1988,
+   "poster": "eWhCDJiwxvx3YXkAFRiHjimnF0j.jpg",
+   "tmdb": 7.195
+  },
+  {
+   "id": "dead-poets-society-1989",
+   "title": "Dead Poets Society",
+   "year": 1989,
+   "poster": "tNvKkSnnn4Z6RCBThyK1gfCSSvv.jpg",
+   "tmdb": 8.296
+  },
+  {
+   "id": "boyz-n-the-hood-1991",
+   "title": "Boyz n the Hood",
+   "year": 1991,
+   "poster": "kaS8BkTZESnkoB5i1zRQ02FIRGk.jpg",
+   "tmdb": 7.638
+  },
+  {
+   "id": "school-ties-1992",
+   "title": "School Ties",
+   "year": 1992,
+   "poster": "h9u6VSyEPlF5L69QSzOh1eo4F5q.jpg",
+   "tmdb": 6.507
+  },
+  {
+   "id": "dazed-and-confused-1993",
+   "title": "Dazed and Confused",
+   "year": 1993,
+   "poster": "msG9awbLhVZwv1Eh9Ge7SofMexW.jpg",
+   "tmdb": 7.3
+  },
+  {
+   "id": "clueless-1995",
+   "title": "Clueless",
+   "year": 1995,
+   "poster": "8AwVTcgpTnmeOs4TdTWqcFDXEsA.jpg",
+   "tmdb": 7.247
+  },
+  {
+   "id": "boogie-nights-1997",
+   "title": "Boogie Nights",
+   "year": 1997,
+   "poster": "2hVSN9yOfoI8EUTqcVW6zCIyQ1G.jpg",
+   "tmdb": 7.638
+  },
+  {
+   "id": "cant-hardly-wait-1998",
+   "title": "Can't Hardly Wait",
+   "year": 1998,
+   "poster": "r3a5gGWfS0SDS9nriNrJzSSrErf.jpg",
+   "tmdb": 6.248
+  },
+  {
+   "id": "10-things-i-hate-about-you-1999",
+   "title": "10 Things I Hate About You",
+   "year": 1999,
+   "poster": "ujERk3aKABXU3NDXOAxEQYTHe9A.jpg",
+   "tmdb": 7.597
+  },
+  {
+   "id": "american-pie-1999",
+   "title": "American Pie",
+   "year": 1999,
+   "poster": "5P68by2Thn8wHAziyWGEw2O7hco.jpg",
+   "tmdb": 6.618
+  },
+  {
+   "id": "mean-girls-2004",
+   "title": "Mean Girls",
+   "year": 2004,
+   "poster": "2ZkuQXvVhh45uSvkBej4S7Ix1NJ.jpg",
+   "tmdb": 7.227
+  },
+  {
+   "id": "superbad-2007",
+   "title": "Superbad",
+   "year": 2007,
+   "poster": "ek8e8txUyUwd2BNqj6lFEerJfbq.jpg",
+   "tmdb": 7.272
+  },
+  {
+   "id": "easy-a-2010",
+   "title": "Easy A",
+   "year": 2010,
+   "poster": "v5f1qO6NJnxWgONgkYg21TW39DT.jpg",
+   "tmdb": 6.803
+  }
+ ]
+}

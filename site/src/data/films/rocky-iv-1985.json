@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Cousin Sal",
-    "Kyle Brandt"
+    {
+     "name": "Cousin Sal",
+     "id": "cousin-sal"
+    },
+    {
+     "name": "Kyle Brandt",
+     "id": "kyle-brandt"
+    }
    ],
    "note": null
   }
@@ -50,121 +59,141 @@
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "revenge",
    "reach": 31,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "revenge"
   },
   {
    "word": "sequel",
    "reach": 28,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "sequel"
   },
   {
    "word": "friendship",
    "reach": 22,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "friendship"
   },
   {
    "word": "loss of loved one",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "loss-of-loved-one"
   },
   {
    "word": "excited",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "excited"
   },
   {
    "word": "christmas",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "christmas"
   },
   {
    "word": "dying and death",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "dying-and-death"
   },
   {
    "word": "training",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "training"
   },
   {
    "word": "powerful",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "powerful"
   },
   {
    "word": "boxing",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "boxing"
   },
   {
    "word": "boxer",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "boxer"
   },
   {
    "word": "transporter",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "transporter"
   },
   {
    "word": "victory",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "victory"
   },
   {
    "word": "matter of life and death",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "matter-of-life-and-death"
   },
   {
    "word": "kgb",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "kgb"
   },
   {
    "word": "cold war",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "loss of powers",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "siberia",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "soviet union",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

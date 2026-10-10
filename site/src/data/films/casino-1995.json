@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -51,193 +60,225 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "murder",
    "reach": 36,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "murder"
   },
   {
    "word": "suspenseful",
    "reach": 30,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "suspenseful"
   },
   {
    "word": "fbi",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "fbi"
   },
   {
    "word": "dramatic",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "dramatic"
   },
   {
    "word": "organized crime",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "organized-crime"
   },
   {
    "word": "1980s",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "1980s"
   },
   {
    "word": "mafia",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "mafia"
   },
   {
    "word": "1970s",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1970s"
   },
   {
    "word": "money",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "money"
   },
   {
    "word": "cocaine",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cocaine"
   },
   {
    "word": "italian american",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "italian-american"
   },
   {
    "word": "gambling",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gambling"
   },
   {
    "word": "las vegas",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "las-vegas"
   },
   {
    "word": "marriage",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "marriage"
   },
   {
    "word": "casino",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "casino"
   },
   {
    "word": "melancholy",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "melancholy"
   },
   {
    "word": "desert",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "desert"
   },
   {
    "word": "drug abuse",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drug-abuse"
   },
   {
    "word": "pimp",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pimp"
   },
   {
    "word": "poker",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "poker"
   },
   {
    "word": "greed",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "greed"
   },
   {
    "word": "rise and fall",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rise-and-fall"
   },
   {
    "word": "safe deposit box",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "safe-deposit-box"
   },
   {
    "word": "dysfunctional relationship",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dysfunctional-relationship"
   },
   {
    "word": "overdose",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "overdose"
   },
   {
    "word": "brutal violence",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "car bomb",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "control freak",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "fbi surveillance",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "jewish american",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "trust & betrayal",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

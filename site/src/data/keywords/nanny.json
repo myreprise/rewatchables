@@ -1,0 +1,138 @@
+{
+ "word": "nanny",
+ "id": "nanny",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.2,
+ "vs_catalogue": 0.1,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 0
+  },
+  {
+   "decade": 1990,
+   "n": 2
+  }
+ ],
+ "peak_share": 67.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "ambassador",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "anti-christ",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "apologetic",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "archaeologist",
+   "reach": 3,
+   "band": "b5",
+   "id": "archaeologist"
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  },
+  {
+   "word": "baboon",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "childlessness",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "conspiracy",
+   "reach": 13,
+   "band": "b4",
+   "id": "conspiracy"
+  },
+  {
+   "word": "cowardliness",
+   "reach": 3,
+   "band": "b5",
+   "id": "cowardliness"
+  },
+  {
+   "word": "custody battle",
+   "reach": 3,
+   "band": "b5",
+   "id": "custody-battle"
+  },
+  {
+   "word": "decapitation",
+   "reach": 2,
+   "band": "b5",
+   "id": "decapitation"
+  },
+  {
+   "word": "desire to have children",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "destroy",
+   "reach": 2,
+   "band": "b5",
+   "id": "destroy"
+  },
+  {
+   "word": "devil",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "the-omen-1976",
+   "title": "The Omen",
+   "year": 1976,
+   "poster": "mDcjjEu1fMNmsXi4l4D8IftlTix.jpg",
+   "tmdb": 7.404
+  },
+  {
+   "id": "the-hand-that-rocks-the-cradle-1992",
+   "title": "The Hand That Rocks the Cradle",
+   "year": 1992,
+   "poster": "1fBnyO3SbNBplck45js6O4pQaLw.jpg",
+   "tmdb": 6.896
+  },
+  {
+   "id": "mrs-doubtfire-1993",
+   "title": "Mrs. Doubtfire",
+   "year": 1993,
+   "poster": "shHrSmXS5140o6sQzgzXxn3KqSm.jpg",
+   "tmdb": 7.197
+  }
+ ]
+}

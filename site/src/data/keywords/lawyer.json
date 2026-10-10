@@ -1,0 +1,230 @@
+{
+ "word": "lawyer",
+ "id": "lawyer",
+ "catalogue": 460,
+ "share": 3.3,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.4,
+ "vs_catalogue": 0.3,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 2
+  },
+  {
+   "decade": 1980,
+   "n": 4
+  },
+  {
+   "decade": 1990,
+   "n": 8
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 53.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "court",
+   "reach": 6,
+   "band": "b5",
+   "id": "court"
+  },
+  {
+   "word": "courtroom drama",
+   "reach": 7,
+   "band": "b5",
+   "id": "courtroom-drama"
+  },
+  {
+   "word": "courtroom",
+   "reach": 7,
+   "band": "b5",
+   "id": "courtroom"
+  },
+  {
+   "word": "legal thriller",
+   "reach": 10,
+   "band": "b5",
+   "id": "legal-thriller"
+  },
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "id": "new-york-city"
+  },
+  {
+   "word": "blackmail",
+   "reach": 5,
+   "band": "b5",
+   "id": "blackmail"
+  },
+  {
+   "word": "child abuse",
+   "reach": 6,
+   "band": "b5",
+   "id": "child-abuse"
+  },
+  {
+   "word": "mafia",
+   "reach": 12,
+   "band": "b4",
+   "id": "mafia"
+  },
+  {
+   "word": "revenge",
+   "reach": 31,
+   "band": "b2",
+   "id": "revenge"
+  },
+  {
+   "word": "1950s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1950s"
+  },
+  {
+   "word": "1980s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1980s"
+  },
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "id": "absurd"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-godfather-part-ii-1974",
+   "title": "The Godfather Part II",
+   "year": 1974,
+   "poster": "sSuQTCZwqKrNBNIsksO9IAUoWP9.jpg",
+   "tmdb": 8.573
+  },
+  {
+   "id": "and-justice-for-all-1979",
+   "title": "...And Justice for All",
+   "year": 1979,
+   "poster": "fGFkpJUsouxxBGWfYqeuJfH210T.jpg",
+   "tmdb": 7.097
+  },
+  {
+   "id": "the-verdict-1982",
+   "title": "The Verdict",
+   "year": 1982,
+   "poster": "iYEuFP1bpj5yOenKliiRFcNO3VE.jpg",
+   "tmdb": 7.469
+  },
+  {
+   "id": "fatal-attraction-1987",
+   "title": "Fatal Attraction",
+   "year": 1987,
+   "poster": "vjB9XwJKnYqFKKjhWcE6WpAf5Ki.jpg",
+   "tmdb": 6.833
+  },
+  {
+   "id": "wall-street-1987",
+   "title": "Wall Street",
+   "year": 1987,
+   "poster": "2tQYq9ntzn2dEwDIGLBSipYPenv.jpg",
+   "tmdb": 7.162
+  },
+  {
+   "id": "the-war-of-the-roses-1989",
+   "title": "The War of the Roses",
+   "year": 1989,
+   "poster": "9VWwYsuXhRImUtrJGvN6bYJB2He.jpg",
+   "tmdb": 6.915
+  },
+  {
+   "id": "the-godfather-part-iii-1990",
+   "title": "The Godfather Part III",
+   "year": 1990,
+   "poster": "lm3pQ2QoQ16pextRsmnUbG2onES.jpg",
+   "tmdb": 7.418
+  },
+  {
+   "id": "cape-fear-1991",
+   "title": "Cape Fear",
+   "year": 1991,
+   "poster": "meJZAAuVcjic2ipvbOPz5UlE4P9.jpg",
+   "tmdb": 7.26
+  },
+  {
+   "id": "my-cousin-vinny-1992",
+   "title": "My Cousin Vinny",
+   "year": 1992,
+   "poster": "iwSURa8nS2ujwrU3s1lfxxX7voH.jpg",
+   "tmdb": 7.497
+  },
+  {
+   "id": "philadelphia-1993",
+   "title": "Philadelphia",
+   "year": 1993,
+   "poster": "tFe5Yoo5zT495okA49bq1vPPkiV.jpg",
+   "tmdb": 7.705
+  },
+  {
+   "id": "the-firm-1993",
+   "title": "The Firm",
+   "year": 1993,
+   "poster": "kFexXCzidkm4LwlgZqxsJsDQB5v.jpg",
+   "tmdb": 6.744
+  },
+  {
+   "id": "quiz-show-1994",
+   "title": "Quiz Show",
+   "year": 1994,
+   "poster": "yoGJo1h3Hl2exXPVcG9UXWDENtX.jpg",
+   "tmdb": 7.25
+  },
+  {
+   "id": "a-time-to-kill-1996",
+   "title": "A Time to Kill",
+   "year": 1996,
+   "poster": "w8UCke112E9jrhjKcwG32kyhTx5.jpg",
+   "tmdb": 7.397
+  },
+  {
+   "id": "primal-fear-1996",
+   "title": "Primal Fear",
+   "year": 1996,
+   "poster": "qJf2TzE8nRTFbFMPJNW6c8mI0KU.jpg",
+   "tmdb": 7.659
+  },
+  {
+   "id": "spotlight-2015",
+   "title": "Spotlight",
+   "year": 2015,
+   "poster": "8DPGG400FgaFWaqcv11n8mRd2NG.jpg",
+   "tmdb": 7.812
+  }
+ ]
+}

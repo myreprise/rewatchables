@@ -38,11 +38,23 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Chris Ryan",
+   "host": {
+    "name": "Chris Ryan",
+    "id": "chris-ryan"
+   },
    "guests": [
-    "Sean Fennessey",
-    "Jason Concepcion",
-    "David Shoemaker"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Jason Concepcion",
+     "id": "jason-concepcion"
+    },
+    {
+     "name": "David Shoemaker",
+     "id": "david-shoemaker"
+    }
    ],
    "note": null
   }
@@ -52,139 +64,162 @@
    "word": "los angeles, california",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "los-angeles-california"
   },
   {
    "word": "neo-noir",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "neo-noir"
   },
   {
    "word": "amused",
    "reach": 26,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "amused"
   },
   {
    "word": "absurd",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "absurd"
   },
   {
    "word": "kidnapping",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "kidnapping"
   },
   {
    "word": "marijuana",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "marijuana"
   },
   {
    "word": "vietnam veteran",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vietnam-veteran"
   },
   {
    "word": "millionaire",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "millionaire"
   },
   {
    "word": "shaggy dog story",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "shaggy-dog-story"
   },
   {
    "word": "cowboy",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cowboy"
   },
   {
    "word": "lsd",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lsd"
   },
   {
    "word": "nihilism",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nihilism"
   },
   {
    "word": "unemployed",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "unemployed"
   },
   {
    "word": "ashes",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "bowling",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "bowling ball",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "bowling team",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "carpet",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "heart attack",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "impregnation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "psychedelic drug",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "weeds",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "white russian",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

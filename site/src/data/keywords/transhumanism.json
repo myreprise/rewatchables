@@ -1,0 +1,118 @@
+{
+ "word": "transhumanism",
+ "id": "transhumanism",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "allegory",
+   "reach": 3,
+   "band": "b5",
+   "id": "allegory"
+  },
+  {
+   "word": "corrupt system",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "crime fighter",
+   "reach": 4,
+   "band": "b5",
+   "id": "crime-fighter"
+  },
+  {
+   "word": "cyberpunk",
+   "reach": 5,
+   "band": "b5",
+   "id": "cyberpunk"
+  },
+  {
+   "word": "cyborg",
+   "reach": 3,
+   "band": "b5",
+   "id": "cyborg"
+  },
+  {
+   "word": "deep",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "detroit, michigan",
+   "reach": 5,
+   "band": "b5",
+   "id": "detroit-michigan"
+  },
+  {
+   "word": "drugs",
+   "reach": 17,
+   "band": "b3",
+   "id": "drugs"
+  },
+  {
+   "word": "dystopia",
+   "reach": 17,
+   "band": "b3",
+   "id": "dystopia"
+  },
+  {
+   "word": "emotional",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "evil corporation",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "experiment",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "gentrification",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "ghosts of the past",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "robocop-1987",
+   "title": "RoboCop",
+   "year": 1987,
+   "poster": "hHtOgGb3NihlyRATHlKPaFApbrd.jpg",
+   "tmdb": 7.365
+  },
+  {
+   "id": "limitless-2011",
+   "title": "Limitless",
+   "year": 2011,
+   "poster": "kCokPP4WCQRrrAuZ7FcpIyHr8b2.jpg",
+   "tmdb": 7.202
+  }
+ ]
+}

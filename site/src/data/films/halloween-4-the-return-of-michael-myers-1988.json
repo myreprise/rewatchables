@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Van Lathan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": null
   }
@@ -51,109 +60,127 @@
    "word": "murder",
    "reach": 36,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "murder"
   },
   {
    "word": "sequel",
    "reach": 28,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "sequel"
   },
   {
    "word": "serial killer",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "serial-killer"
   },
   {
    "word": "halloween",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "halloween"
   },
   {
    "word": "evil",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "evil"
   },
   {
    "word": "sheriff",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sheriff"
   },
   {
    "word": "killing",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "killing"
   },
   {
    "word": "ambulance",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ambulance"
   },
   {
    "word": "crime spree",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "crime-spree"
   },
   {
    "word": "escaped killer",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "escaped-killer"
   },
   {
    "word": "holiday horror",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "holiday-horror"
   },
   {
    "word": "knife",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "knife"
   },
   {
    "word": "murder spree",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "niece",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "october",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "power outage",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "scissors",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "twist",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

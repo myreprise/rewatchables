@@ -1,0 +1,176 @@
+{
+ "word": "romcom",
+ "id": "romcom",
+ "catalogue": 460,
+ "share": 2.0,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 6.8,
+ "vs_catalogue": -0.3,
+ "decades": [
+  {
+   "decade": 1990,
+   "n": 6
+  },
+  {
+   "decade": 2000,
+   "n": 3
+  }
+ ],
+ "peak_share": 67.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "romantic",
+   "reach": 11,
+   "band": "b5",
+   "id": "romantic"
+  },
+  {
+   "word": "bookshop",
+   "reach": 3,
+   "band": "b5",
+   "id": "bookshop"
+  },
+  {
+   "word": "chicago, illinois",
+   "reach": 19,
+   "band": "b3",
+   "id": "chicago-illinois"
+  },
+  {
+   "word": "christmas",
+   "reach": 14,
+   "band": "b4",
+   "id": "christmas"
+  },
+  {
+   "word": "falling in love",
+   "reach": 4,
+   "band": "b5",
+   "id": "falling-in-love"
+  },
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "id": "high-school"
+  },
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  },
+  {
+   "word": "love",
+   "reach": 11,
+   "band": "b5",
+   "id": "love"
+  },
+  {
+   "word": "social differences",
+   "reach": 2,
+   "band": "b5",
+   "id": "social-differences"
+  },
+  {
+   "word": "valentine's day",
+   "reach": 5,
+   "band": "b5",
+   "id": "valentines-day"
+  },
+  {
+   "word": "woman director",
+   "reach": 16,
+   "band": "b4",
+   "id": "woman-director"
+  },
+  {
+   "word": "affection",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "african american romance",
+   "reach": 3,
+   "band": "b5",
+   "id": "african-american-romance"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  }
+ ],
+ "films": [
+  {
+   "id": "pretty-woman-1990",
+   "title": "Pretty Woman",
+   "year": 1990,
+   "poster": "hVHUfT801LQATGd26VPzhorIYza.jpg",
+   "tmdb": 7.443
+  },
+  {
+   "id": "while-you-were-sleeping-1995",
+   "title": "While You Were Sleeping",
+   "year": 1995,
+   "poster": "qNGO3ETcNwlWqK2kNRpbJSJRlos.jpg",
+   "tmdb": 7.035
+  },
+  {
+   "id": "theres-something-about-mary-1998",
+   "title": "There's Something About Mary",
+   "year": 1998,
+   "poster": "slJD1Dvnsf15LoeqhERsyzisAdn.jpg",
+   "tmdb": 6.637
+  },
+  {
+   "id": "youve-got-mail-1998",
+   "title": "You've Got Mail",
+   "year": 1998,
+   "poster": "e2uVtH6TpMfUl7WeOM70ezkcjsU.jpg",
+   "tmdb": 6.709
+  },
+  {
+   "id": "never-been-kissed-1999",
+   "title": "Never Been Kissed",
+   "year": 1999,
+   "poster": "6BngDhDNfbBjhVFWDT2yMve32vi.jpg",
+   "tmdb": 6.161
+  },
+  {
+   "id": "notting-hill-1999",
+   "title": "Notting Hill",
+   "year": 1999,
+   "poster": "hHRIf2XHeQMbyRb3HUx19SF5Ujw.jpg",
+   "tmdb": 7.265
+  },
+  {
+   "id": "love-and-basketball-2000",
+   "title": "Love & Basketball",
+   "year": 2000,
+   "poster": "zNZWNX19FZ5QyedprVM0ldsXFiP.jpg",
+   "tmdb": 7.353
+  },
+  {
+   "id": "along-came-polly-2004",
+   "title": "Along Came Polly",
+   "year": 2004,
+   "poster": "7Tp16THdpHkMrqgoiDresDz9CWL.jpg",
+   "tmdb": 6.031
+  },
+  {
+   "id": "hitch-2005",
+   "title": "Hitch",
+   "year": 2005,
+   "poster": "x3W9H3nhGQbWSlyI8Amp2F6Z6cz.jpg",
+   "tmdb": 6.582
+  }
+ ]
+}

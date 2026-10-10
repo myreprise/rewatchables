@@ -1,0 +1,118 @@
+{
+ "word": "paparazzi",
+ "id": "paparazzi",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "addiction",
+   "reach": 5,
+   "band": "b5",
+   "id": "addiction"
+  },
+  {
+   "word": "adultery",
+   "reach": 5,
+   "band": "b5",
+   "id": "adultery"
+  },
+  {
+   "word": "alcohol",
+   "reach": 6,
+   "band": "b5",
+   "id": "alcohol"
+  },
+  {
+   "word": "awkward situation",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "best friends",
+   "reach": 3,
+   "band": "b5",
+   "id": "best-friends"
+  },
+  {
+   "word": "biker",
+   "reach": 2,
+   "band": "b5",
+   "id": "biker"
+  },
+  {
+   "word": "birthday party",
+   "reach": 2,
+   "band": "b5",
+   "id": "birthday-party"
+  },
+  {
+   "word": "bookshop",
+   "reach": 3,
+   "band": "b5",
+   "id": "bookshop"
+  },
+  {
+   "word": "bookshop owner",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bookstore owner",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "charming romances and delightful chemistry",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "comforting",
+   "reach": 8,
+   "band": "b5",
+   "id": "comforting"
+  },
+  {
+   "word": "country music",
+   "reach": 3,
+   "band": "b5",
+   "id": "country-music"
+  },
+  {
+   "word": "dating woes",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "notting-hill-1999",
+   "title": "Notting Hill",
+   "year": 1999,
+   "poster": "hHRIf2XHeQMbyRb3HUx19SF5Ujw.jpg",
+   "tmdb": 7.265
+  },
+  {
+   "id": "country-strong-2010",
+   "title": "Country Strong",
+   "year": 2010,
+   "poster": "6C95tD92E9xm5poyyzs37bYemM0.jpg",
+   "tmdb": 6.133
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "name": "Danny Kelly",
+ "id": "danny-kelly",
+ "episodes": 3,
+ "share": 0.0062,
+ "hosted": 0,
+ "first": "2022-10-18",
+ "last": "2026-09-07",
+ "shelf": [
+  {
+   "id": "talladega-nights-the-ballad-of-ricky-bobby-2006",
+   "title": "Talladega Nights: The Ballad of Ricky Bobby",
+   "year": 2006,
+   "poster": "3iCiTqsmJz1mO85AHzTiHNkRmb6.jpg",
+   "episode": 480,
+   "aired": "2026-09-07"
+  },
+  {
+   "id": "dodgeball-a-true-underdog-story-2004",
+   "title": "DodgeBall: A True Underdog Story",
+   "year": 2004,
+   "poster": "r8KbNHkkwFXLjV1suGwm0Qjure5.jpg",
+   "episode": 368,
+   "aired": "2024-08-06"
+  },
+  {
+   "id": "pineapple-express-2008",
+   "title": "Pineapple Express",
+   "year": 2008,
+   "poster": "6E50WjeOYjDZg9HXgPjYdGtY2jG.jpg",
+   "episode": 278,
+   "aired": "2022-10-18"
+  }
+ ],
+ "company": [
+  {
+   "name": "Craig Horlbeck",
+   "id": "craig-horlbeck",
+   "episodes": 3
+  },
+  {
+   "name": "Danny Heifetz",
+   "id": "danny-heifetz",
+   "episodes": 3
+  }
+ ],
+ "regular": false,
+ "lean_floor": 15,
+ "leans": [],
+ "verdict_floor": 8,
+ "verdicts": {
+  "cruise": 0,
+  "hanks": 1,
+  "ties": 0,
+  "n": 1
+ }
+}

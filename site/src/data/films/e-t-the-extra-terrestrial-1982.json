@@ -39,11 +39,23 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey",
-    "Mallory Rubin"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    }
    ],
    "note": null
   }
@@ -53,109 +65,127 @@
    "word": "loss of loved one",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "loss-of-loved-one"
   },
   {
    "word": "california",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "california"
   },
   {
    "word": "alien",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alien"
   },
   {
    "word": "single mother",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "single-mother"
   },
   {
    "word": "halloween",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "halloween"
   },
   {
    "word": "nasa",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nasa"
   },
   {
    "word": "space marine",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "space-marine"
   },
   {
    "word": "prosecution",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "prosecution"
   },
   {
    "word": "alien contact",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alien-contact"
   },
   {
    "word": "extraterrestrial",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "extraterrestrial"
   },
   {
    "word": "farewell",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "farewell"
   },
   {
    "word": "flying saucer",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "flying-saucer"
   },
   {
    "word": "homesick",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "homesick"
   },
   {
    "word": "homesickness",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "homesickness"
   },
   {
    "word": "alien friendship",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "child protagonist",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "empathy",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "operation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

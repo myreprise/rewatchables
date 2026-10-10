@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Bill's Dad"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Bill's Dad",
+     "id": "bills-dad"
+    }
    ],
    "note": "Robert Redford month'"
   }
@@ -50,61 +59,71 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "loss of loved one",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "loss-of-loved-one"
   },
   {
    "word": "survival",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "survival"
   },
   {
    "word": "19th century",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "19th-century"
   },
   {
    "word": "snow",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "snow"
   },
   {
    "word": "cabin",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cabin"
   },
   {
    "word": "rocky mountains",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rocky-mountains"
   },
   {
    "word": "blackfoot",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "fur trapper",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mountain man",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

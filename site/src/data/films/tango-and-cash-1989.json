@@ -40,9 +40,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Shea Serrano"
+    {
+     "name": "Shea Serrano",
+     "id": "shea-serrano"
+    }
    ],
    "note": "During the Rocky ep Bill and CR say they could do a Re-Tango after learning it's one of Van's favorite movies"
   }
@@ -52,31 +58,36 @@
    "word": "los angeles, california",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "los-angeles-california"
   },
   {
    "word": "buddy cop",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "buddy-cop"
   },
   {
    "word": "playful",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "playful"
   },
   {
    "word": "prisoner",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "prisoner"
   },
   {
    "word": "war on drugs",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "war-on-drugs"
   }
  ],
  "cast": [

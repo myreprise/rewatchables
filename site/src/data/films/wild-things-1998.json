@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": "Tie",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Van Lathan",
-    "Mallory Rubin"
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    },
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    }
    ],
    "note": null
   }
@@ -52,109 +61,127 @@
    "word": "duringcreditsstinger",
    "reach": 27,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "duringcreditsstinger"
   },
   {
    "word": "conspiracy",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "conspiracy"
   },
   {
    "word": "florida",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "florida"
   },
   {
    "word": "cheerleader",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cheerleader"
   },
   {
    "word": "erotic thriller",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "erotic-thriller"
   },
   {
    "word": "blackmail",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "blackmail"
   },
   {
    "word": "eroticism",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "eroticism"
   },
   {
    "word": "court case",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "court-case"
   },
   {
    "word": "rape",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rape"
   },
   {
    "word": "seduction",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "seduction"
   },
   {
    "word": "sailing",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sailing"
   },
   {
    "word": "sexual abuse",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sexual-abuse"
   },
   {
    "word": "accusation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "everglades",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "heart-throb",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "menage a trois",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "pool",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sailboat",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

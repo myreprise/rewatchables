@@ -1,0 +1,160 @@
+{
+ "word": "musician",
+ "id": "musician",
+ "catalogue": 460,
+ "share": 1.1,
+ "thin": false,
+ "peak": 2010,
+ "avg_tmdb": 7.0,
+ "vs_catalogue": -0.1,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 2
+  },
+  {
+   "decade": 2020,
+   "n": 1
+  }
+ ],
+ "peak_share": 40.0,
+ "catalogue_peak_share": 12.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "singer",
+   "reach": 6,
+   "band": "b5",
+   "id": "singer"
+  },
+  {
+   "word": "1930s",
+   "reach": 6,
+   "band": "b5",
+   "id": "1930s"
+  },
+  {
+   "word": "1990s",
+   "reach": 4,
+   "band": "b5",
+   "id": "1990s"
+  },
+  {
+   "word": "addiction",
+   "reach": 5,
+   "band": "b5",
+   "id": "addiction"
+  },
+  {
+   "word": "adultery",
+   "reach": 5,
+   "band": "b5",
+   "id": "adultery"
+  },
+  {
+   "word": "afro-descendants",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "aftercreditsstinger",
+   "reach": 18,
+   "band": "b3",
+   "id": "aftercreditsstinger"
+  },
+  {
+   "word": "aggressive",
+   "reach": 18,
+   "band": "b3",
+   "id": "aggressive"
+  },
+  {
+   "word": "alcohol",
+   "reach": 6,
+   "band": "b5",
+   "id": "alcohol"
+  },
+  {
+   "word": "alcoholism",
+   "reach": 6,
+   "band": "b5",
+   "id": "alcoholism"
+  },
+  {
+   "word": "angry",
+   "reach": 8,
+   "band": "b5",
+   "id": "angry"
+  },
+  {
+   "word": "anxious",
+   "reach": 8,
+   "band": "b5",
+   "id": "anxious"
+  },
+  {
+   "word": "apartment building",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "assimilation",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "eddie-and-the-cruisers-1983",
+   "title": "Eddie and the Cruisers",
+   "year": 1983,
+   "poster": "qohqTtk33FlEoeb3zYLEAUGSO0E.jpg",
+   "tmdb": 6.663
+  },
+  {
+   "id": "singles-1992",
+   "title": "Singles",
+   "year": 1992,
+   "poster": "4T7OKBdkNBorRKWw7VSeuA225z1.jpg",
+   "tmdb": 6.41
+  },
+  {
+   "id": "country-strong-2010",
+   "title": "Country Strong",
+   "year": 2010,
+   "poster": "6C95tD92E9xm5poyyzs37bYemM0.jpg",
+   "tmdb": 6.133
+  },
+  {
+   "id": "whiplash-2014",
+   "title": "Whiplash",
+   "year": 2014,
+   "poster": "7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+   "tmdb": 8.375
+  },
+  {
+   "id": "sinners-2025",
+   "title": "Sinners",
+   "year": 2025,
+   "poster": "fWPgbnt2LSqkQ6cdQc0SZN9CpLm.jpg",
+   "tmdb": 7.512
+  }
+ ]
+}

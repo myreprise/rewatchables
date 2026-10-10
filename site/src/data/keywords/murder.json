@@ -1,0 +1,377 @@
+{
+ "word": "murder",
+ "id": "murder",
+ "catalogue": 460,
+ "share": 7.8,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.2,
+ "vs_catalogue": 0.1,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 11
+  },
+  {
+   "decade": 1990,
+   "n": 14
+  },
+  {
+   "decade": 2000,
+   "n": 6
+  },
+  {
+   "decade": 2010,
+   "n": 4
+  }
+ ],
+ "peak_share": 39.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "neo-noir",
+   "reach": 29,
+   "band": "b2",
+   "id": "neo-noir"
+  },
+  {
+   "word": "detective",
+   "reach": 17,
+   "band": "b3",
+   "id": "detective"
+  },
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "id": "new-york-city"
+  },
+  {
+   "word": "serial killer",
+   "reach": 14,
+   "band": "b4",
+   "id": "serial-killer"
+  },
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  },
+  {
+   "word": "police",
+   "reach": 22,
+   "band": "b3",
+   "id": "police"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "revenge",
+   "reach": 31,
+   "band": "b2",
+   "id": "revenge"
+  },
+  {
+   "word": "suspenseful",
+   "reach": 30,
+   "band": "b2",
+   "id": "suspenseful"
+  },
+  {
+   "word": "fbi",
+   "reach": 20,
+   "band": "b3",
+   "id": "fbi"
+  },
+  {
+   "word": "gangster",
+   "reach": 18,
+   "band": "b3",
+   "id": "gangster"
+  },
+  {
+   "word": "mafia",
+   "reach": 12,
+   "band": "b4",
+   "id": "mafia"
+  },
+  {
+   "word": "drugs",
+   "reach": 17,
+   "band": "b3",
+   "id": "drugs"
+  },
+  {
+   "word": "organized crime",
+   "reach": 15,
+   "band": "b4",
+   "id": "organized-crime"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-godfather-part-ii-1974",
+   "title": "The Godfather Part II",
+   "year": 1974,
+   "poster": "sSuQTCZwqKrNBNIsksO9IAUoWP9.jpg",
+   "tmdb": 8.573
+  },
+  {
+   "id": "american-gigolo-1980",
+   "title": "American Gigolo",
+   "year": 1980,
+   "poster": "igXGCwti23PHOjLKQX6eGIGzQiJ.jpg",
+   "tmdb": 6.18
+  },
+  {
+   "id": "cruising-1980",
+   "title": "Cruising",
+   "year": 1980,
+   "poster": "bb9CND0WyfwdHOZY5XmP4Qn8taz.jpg",
+   "tmdb": 6.586
+  },
+  {
+   "id": "friday-the-13th-1980",
+   "title": "Friday the 13th",
+   "year": 1980,
+   "poster": "uGGpnWHOmWTARVN9wbC1nPxNgps.jpg",
+   "tmdb": 6.4
+  },
+  {
+   "id": "body-heat-1981",
+   "title": "Body Heat",
+   "year": 1981,
+   "poster": "5LipPcaW1J9IjAP7TOTesw8OcMS.jpg",
+   "tmdb": 6.981
+  },
+  {
+   "id": "body-double-1984",
+   "title": "Body Double",
+   "year": 1984,
+   "poster": "lRFm5P2AdOGpELwm3HHhmUz6k5I.jpg",
+   "tmdb": 6.741
+  },
+  {
+   "id": "after-hours-1985",
+   "title": "After Hours",
+   "year": 1985,
+   "poster": "8upjM945SVY99tu2Z8OG27Jd4m6.jpg",
+   "tmdb": 7.5
+  },
+  {
+   "id": "cobra-1986",
+   "title": "Cobra",
+   "year": 1986,
+   "poster": "jCxfbTh8JvJil5edhNywxaTHoWv.jpg",
+   "tmdb": 6.162
+  },
+  {
+   "id": "someone-to-watch-over-me-1987",
+   "title": "Someone to Watch Over Me",
+   "year": 1987,
+   "poster": "7Vqw29y8pkoHaVtwkQcQhBK9oTY.jpg",
+   "tmdb": 5.847
+  },
+  {
+   "id": "die-hard-1988",
+   "title": "Die Hard",
+   "year": 1988,
+   "poster": "7Bjd8kfmDSOzpmhySpEhkUyK2oH.jpg",
+   "tmdb": 7.816
+  },
+  {
+   "id": "halloween-4-the-return-of-michael-myers-1988",
+   "title": "Halloween 4: The Return of Michael Myers",
+   "year": 1988,
+   "poster": "eFSOkXF9n9hsfGv45MDsPixiOyx.jpg",
+   "tmdb": 6.175
+  },
+  {
+   "id": "sea-of-love-1989",
+   "title": "Sea of Love",
+   "year": 1989,
+   "poster": "vJ88WmJ12eAK9CRb3cggn9CJthH.jpg",
+   "tmdb": 6.6
+  },
+  {
+   "id": "ghost-1990",
+   "title": "Ghost",
+   "year": 1990,
+   "poster": "w9RaPHov8oM5cnzeE27isnFMsvS.jpg",
+   "tmdb": 7.245
+  },
+  {
+   "id": "goodfellas-1990",
+   "title": "GoodFellas",
+   "year": 1990,
+   "poster": "9OkCLM73MIU2CrKZbqiT8Ln1wY2.jpg",
+   "tmdb": 8.451
+  },
+  {
+   "id": "king-of-new-york-1990",
+   "title": "King of New York",
+   "year": 1990,
+   "poster": "1MyH4MJAJZJbb6wDVeOc2bTECtK.jpg",
+   "tmdb": 6.762
+  },
+  {
+   "id": "the-silence-of-the-lambs-1991",
+   "title": "The Silence of the Lambs",
+   "year": 1991,
+   "poster": "uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
+   "tmdb": 8.345
+  },
+  {
+   "id": "so-i-married-an-axe-murderer-1993",
+   "title": "So I Married an Axe Murderer",
+   "year": 1993,
+   "poster": "yv2yakJ8zTT4ycKAsppcGQZmpMz.jpg",
+   "tmdb": 6.1
+  },
+  {
+   "id": "the-good-son-1993",
+   "title": "The Good Son",
+   "year": 1993,
+   "poster": "6jZ1eef6SCVSMb4o1pSHHq84Nyf.jpg",
+   "tmdb": 6.8
+  },
+  {
+   "id": "true-romance-1993",
+   "title": "True Romance",
+   "year": 1993,
+   "poster": "39lXk6ud6KiJgGbbWI2PUKS7y2.jpg",
+   "tmdb": 7.54
+  },
+  {
+   "id": "casino-1995",
+   "title": "Casino",
+   "year": 1995,
+   "poster": "gziIkUSnYuj9ChCi8qOu2ZunpSC.jpg",
+   "tmdb": 7.998
+  },
+  {
+   "id": "heat-1995",
+   "title": "Heat",
+   "year": 1995,
+   "poster": "gKaePbkEkaqvMtw74EyhhkfCKKh.jpg",
+   "tmdb": 7.945
+  },
+  {
+   "id": "se7en-1995",
+   "title": "Se7en",
+   "year": 1995,
+   "poster": "191nKfP0ehp3uIvWqgPbFmI4lv9.jpg",
+   "tmdb": 8.38
+  },
+  {
+   "id": "a-time-to-kill-1996",
+   "title": "A Time to Kill",
+   "year": 1996,
+   "poster": "w8UCke112E9jrhjKcwG32kyhTx5.jpg",
+   "tmdb": 7.397
+  },
+  {
+   "id": "fargo-1996",
+   "title": "Fargo",
+   "year": 1996,
+   "poster": "rt7cpEr1uP6RTZykBFhBTcRaKvG.jpg",
+   "tmdb": 7.85
+  },
+  {
+   "id": "cop-land-1997",
+   "title": "Cop Land",
+   "year": 1997,
+   "poster": "dyOqXyPCQh8VF0KA5aelBCCQond.jpg",
+   "tmdb": 6.816
+  },
+  {
+   "id": "enemy-of-the-state-1998",
+   "title": "Enemy of the State",
+   "year": 1998,
+   "poster": "x9pXrMKLsBGGOFyyZ0Gwt9YpVub.jpg",
+   "tmdb": 7.079
+  },
+  {
+   "id": "memento-2000",
+   "title": "Memento",
+   "year": 2000,
+   "poster": "nzlv62aC0octS5AklAiWpXLX9Z0.jpg",
+   "tmdb": 8.174
+  },
+  {
+   "id": "domestic-disturbance-2001",
+   "title": "Domestic Disturbance",
+   "year": 2001,
+   "poster": "quRhjnXAuIn04VmgM84nmKzt79J.jpg",
+   "tmdb": 5.764
+  },
+  {
+   "id": "legally-blonde-2001",
+   "title": "Legally Blonde",
+   "year": 2001,
+   "poster": "9ohlMrJHQqKhfUKh7Zr3JQqHNLZ.jpg",
+   "tmdb": 6.815
+  },
+  {
+   "id": "minority-report-2002",
+   "title": "Minority Report",
+   "year": 2002,
+   "poster": "qtgFcnwh9dAFLocsDk2ySDVS8UF.jpg",
+   "tmdb": 7.355
+  },
+  {
+   "id": "the-italian-job-2003",
+   "title": "The Italian Job",
+   "year": 2003,
+   "poster": "eSkjK4kctyrWpFhxl35GPvSs6tI.jpg",
+   "tmdb": 6.799
+  },
+  {
+   "id": "zodiac-2007",
+   "title": "Zodiac",
+   "year": 2007,
+   "poster": "6YmeO4pB7XTh8P8F960O1uA14JO.jpg",
+   "tmdb": 7.532
+  },
+  {
+   "id": "john-wick-2014",
+   "title": "John Wick",
+   "year": 2014,
+   "poster": "wXqWR7dHncNRbxoEGybEy7QTe9h.jpg",
+   "tmdb": 7.463
+  },
+  {
+   "id": "sicario-2015",
+   "title": "Sicario",
+   "year": 2015,
+   "poster": "lz8vNyXeidqqOdJW9ZjnDAMb5Vr.jpg",
+   "tmdb": 7.427
+  },
+  {
+   "id": "shot-caller-2017",
+   "title": "Shot Caller",
+   "year": 2017,
+   "poster": "qLmLz2wtyYvmW8Ult3l2ngOnW8v.jpg",
+   "tmdb": 6.968
+  },
+  {
+   "id": "hereditary-2018",
+   "title": "Hereditary",
+   "year": 2018,
+   "poster": "4GFPuL14eXi66V96xBWY73Y9PfR.jpg",
+   "tmdb": 7.3
+  }
+ ]
+}

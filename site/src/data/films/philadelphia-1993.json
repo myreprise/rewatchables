@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Wesley Morris"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Wesley Morris",
+     "id": "wesley-morris"
+    }
    ],
    "note": null
   }
@@ -50,103 +59,120 @@
    "word": "lawyer",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "lawyer"
   },
   {
    "word": "1980s",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "1980s"
   },
   {
    "word": "philadelphia, pennsylvania",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "philadelphia-pennsylvania"
   },
   {
    "word": "courtroom drama",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "courtroom-drama"
   },
   {
    "word": "court",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "court"
   },
   {
    "word": "gay theme",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gay-theme"
   },
   {
    "word": "homophobia",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "homophobia"
   },
   {
    "word": "pennsylvania, usa",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pennsylvania-usa"
   },
   {
    "word": "lgbt",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lgbt"
   },
   {
    "word": "jurors",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "jurors"
   },
   {
    "word": "lawsuit",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lawsuit"
   },
   {
    "word": "partner",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "partner"
   },
   {
    "word": "aids",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "discrimination",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "dying",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "hiv",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "judiciary",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

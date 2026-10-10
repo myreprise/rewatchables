@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Amanda Dobbins",
-    "Rob Mahoney"
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    },
+    {
+     "name": "Rob Mahoney",
+     "id": "rob-mahoney"
+    }
    ],
    "note": null
   }
@@ -51,109 +60,127 @@
    "word": "based on true story",
    "reach": 25,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "based-on-true-story"
   },
   {
    "word": "inspirational",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "inspirational"
   },
   {
    "word": "survival",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "survival"
   },
   {
    "word": "explosion",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "explosion"
   },
   {
    "word": "florida",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "florida"
   },
   {
    "word": "race against time",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "race-against-time"
   },
   {
    "word": "rescue",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rescue"
   },
   {
    "word": "space",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "space"
   },
   {
    "word": "nasa",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nasa"
   },
   {
    "word": "astronaut",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "astronaut"
   },
   {
    "word": "disaster",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "disaster"
   },
   {
    "word": "moon",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "moon"
   },
   {
    "word": "hypothermia",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hypothermia"
   },
   {
    "word": "spaceman",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "spaceman"
   },
   {
    "word": "apollo program",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "houston, texas",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "lunar mission",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "spacecraft accident",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -1,0 +1,118 @@
+{
+ "word": "ufo",
+ "id": "ufo",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "alien",
+   "reach": 9,
+   "band": "b5",
+   "id": "alien"
+  },
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "id": "admiring"
+  },
+  {
+   "word": "aggressive",
+   "reach": 18,
+   "band": "b3",
+   "id": "aggressive"
+  },
+  {
+   "word": "alien abduction",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "alien contact",
+   "reach": 2,
+   "band": "b5",
+   "id": "alien-contact"
+  },
+  {
+   "word": "alien encounter",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "alien invasion",
+   "reach": 4,
+   "band": "b5",
+   "id": "alien-invasion"
+  },
+  {
+   "word": "alien language",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "alien life-form",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "alien space craft",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "alien spaceship",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "area 51",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "audacious",
+   "reach": 10,
+   "band": "b5",
+   "id": "audacious"
+  },
+  {
+   "word": "battle",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "close-encounters-of-the-third-kind-1977",
+   "title": "Close Encounters of the Third Kind",
+   "year": 1977,
+   "poster": "yaPx3cK9zGFX3SbcKwxWM1QIbUh.jpg",
+   "tmdb": 7.359
+  },
+  {
+   "id": "independence-day-1996",
+   "title": "Independence Day",
+   "year": 1996,
+   "poster": "p0BPQGSPoSa8Ml0DAf2mB2kCU0R.jpg",
+   "tmdb": 6.916
+  }
+ ]
+}

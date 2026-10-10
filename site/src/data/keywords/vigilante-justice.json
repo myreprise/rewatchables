@@ -1,0 +1,160 @@
+{
+ "word": "vigilante justice",
+ "id": "vigilante-justice",
+ "catalogue": 460,
+ "share": 1.1,
+ "thin": false,
+ "peak": 2000,
+ "avg_tmdb": 7.0,
+ "vs_catalogue": -0.1,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 0
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 2
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 40.0,
+ "catalogue_peak_share": 17.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "revenge",
+   "reach": 31,
+   "band": "b2",
+   "id": "revenge"
+  },
+  {
+   "word": "vigilante",
+   "reach": 7,
+   "band": "b5",
+   "id": "vigilante"
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "assassin",
+   "reach": 8,
+   "band": "b5",
+   "id": "assassin"
+  },
+  {
+   "word": "gangster",
+   "reach": 18,
+   "band": "b3",
+   "id": "gangster"
+  },
+  {
+   "word": "gore",
+   "reach": 3,
+   "band": "b5",
+   "id": "gore"
+  },
+  {
+   "word": "hospital",
+   "reach": 7,
+   "band": "b5",
+   "id": "hospital"
+  },
+  {
+   "word": "one against many",
+   "reach": 5,
+   "band": "b5",
+   "id": "one-against-many"
+  },
+  {
+   "word": "one man army",
+   "reach": 4,
+   "band": "b5",
+   "id": "one-man-army"
+  },
+  {
+   "word": "organized crime",
+   "reach": 15,
+   "band": "b4",
+   "id": "organized-crime"
+  },
+  {
+   "word": "rape and revenge",
+   "reach": 2,
+   "band": "b5",
+   "id": "rape-and-revenge"
+  },
+  {
+   "word": "remake",
+   "reach": 13,
+   "band": "b4",
+   "id": "remake"
+  },
+  {
+   "word": "vigilantism",
+   "reach": 4,
+   "band": "b5",
+   "id": "vigilantism"
+  },
+  {
+   "word": "aggressive",
+   "reach": 18,
+   "band": "b3",
+   "id": "aggressive"
+  }
+ ],
+ "films": [
+  {
+   "id": "death-wish-1974",
+   "title": "Death Wish",
+   "year": 1974,
+   "poster": "rNksI6UiuTgLtBy69WvKT1PrG0R.jpg",
+   "tmdb": 6.931
+  },
+  {
+   "id": "hard-to-kill-1990",
+   "title": "Hard to Kill",
+   "year": 1990,
+   "poster": "nmtMNxslljllSTVtt7VIOXdxSZp.jpg",
+   "tmdb": 5.996
+  },
+  {
+   "id": "man-on-fire-2004",
+   "title": "Man on Fire",
+   "year": 2004,
+   "poster": "grCGLCcTHv9TChibzOwzUpykcjB.jpg",
+   "tmdb": 7.466
+  },
+  {
+   "id": "law-abiding-citizen-2009",
+   "title": "Law Abiding Citizen",
+   "year": 2009,
+   "poster": "fcEXcip7v0O1ndV4VUdFqJSqbOg.jpg",
+   "tmdb": 7.395
+  },
+  {
+   "id": "the-equalizer-2014",
+   "title": "The Equalizer",
+   "year": 2014,
+   "poster": "9u4yW7yPA0BQ2pv9XwiNzItwvp8.jpg",
+   "tmdb": 7.292
+  }
+ ]
+}

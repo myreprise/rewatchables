@@ -1,0 +1,118 @@
+{
+ "word": "wrongful arrest",
+ "id": "wrongful-arrest",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "id": "absurd"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "fish out of water",
+   "reach": 6,
+   "band": "b5",
+   "id": "fish-out-of-water"
+  },
+  {
+   "word": "alabama",
+   "reach": 2,
+   "band": "b5",
+   "id": "alabama"
+  },
+  {
+   "word": "beggar",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "best friends",
+   "reach": 3,
+   "band": "b5",
+   "id": "best-friends"
+  },
+  {
+   "word": "broker",
+   "reach": 3,
+   "band": "b5",
+   "id": "broker"
+  },
+  {
+   "word": "butler",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "christmas",
+   "reach": 14,
+   "band": "b4",
+   "id": "christmas"
+  },
+  {
+   "word": "christmas eve",
+   "reach": 3,
+   "band": "b5",
+   "id": "christmas-eve"
+  },
+  {
+   "word": "christmas party",
+   "reach": 5,
+   "band": "b5",
+   "id": "christmas-party"
+  },
+  {
+   "word": "commodities",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "convenience store robbery",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "court",
+   "reach": 6,
+   "band": "b5",
+   "id": "court"
+  }
+ ],
+ "films": [
+  {
+   "id": "trading-places-1983",
+   "title": "Trading Places",
+   "year": 1983,
+   "poster": "8mBuLCOcpWnmYtZc4aqtvDXslv6.jpg",
+   "tmdb": 7.23
+  },
+  {
+   "id": "my-cousin-vinny-1992",
+   "title": "My Cousin Vinny",
+   "year": 1992,
+   "poster": "iwSURa8nS2ujwrU3s1lfxxX7voH.jpg",
+   "tmdb": 7.497
+  }
+ ]
+}

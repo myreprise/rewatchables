@@ -1,0 +1,181 @@
+{
+ "word": "exhilarated",
+ "id": "exhilarated",
+ "catalogue": 460,
+ "share": 1.7,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.4,
+ "vs_catalogue": 0.3,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 4
+  },
+  {
+   "decade": 1990,
+   "n": 0
+  },
+  {
+   "decade": 2000,
+   "n": 2
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  },
+  {
+   "decade": 2020,
+   "n": 1
+  }
+ ],
+ "peak_share": 50.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "id": "absurd"
+  },
+  {
+   "word": "aftercreditsstinger",
+   "reach": 18,
+   "band": "b3",
+   "id": "aftercreditsstinger"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "commanding",
+   "reach": 7,
+   "band": "b5",
+   "id": "commanding"
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "id": "duringcreditsstinger"
+  },
+  {
+   "word": "fish out of water",
+   "reach": 6,
+   "band": "b5",
+   "id": "fish-out-of-water"
+  },
+  {
+   "word": "hilarious",
+   "reach": 17,
+   "band": "b3",
+   "id": "hilarious"
+  },
+  {
+   "word": "money",
+   "reach": 8,
+   "band": "b5",
+   "id": "money"
+  },
+  {
+   "word": "satire",
+   "reach": 9,
+   "band": "b5",
+   "id": "satire"
+  },
+  {
+   "word": "sequel",
+   "reach": 28,
+   "band": "b2",
+   "id": "sequel"
+  },
+  {
+   "word": "sport competition",
+   "reach": 4,
+   "band": "b5",
+   "id": "sport-competition"
+  },
+  {
+   "word": "sports",
+   "reach": 47,
+   "band": "b1",
+   "id": "sports"
+  },
+  {
+   "word": "1890s",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "1900s",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "trading-places-1983",
+   "title": "Trading Places",
+   "year": 1983,
+   "poster": "8mBuLCOcpWnmYtZc4aqtvDXslv6.jpg",
+   "tmdb": 7.23
+  },
+  {
+   "id": "aliens-1986",
+   "title": "Aliens",
+   "year": 1986,
+   "poster": "r1x5JGpyqZU8PYhbs4UcrO1Xb6x.jpg",
+   "tmdb": 7.966
+  },
+  {
+   "id": "coming-to-america-1988",
+   "title": "Coming to America",
+   "year": 1988,
+   "poster": "djRAvxyvvN2yqlJKDbT3uy4vOBw.jpg",
+   "tmdb": 6.884
+  },
+  {
+   "id": "the-naked-gun-from-the-files-of-police-squad-1988",
+   "title": "The Naked Gun: From the Files of Police Squad!",
+   "year": 1988,
+   "poster": "zT0mhZqZQJE1gSY5Eg9qcGP4NYo.jpg",
+   "tmdb": 7.282
+  },
+  {
+   "id": "dodgeball-a-true-underdog-story-2004",
+   "title": "DodgeBall: A True Underdog Story",
+   "year": 2004,
+   "poster": "r8KbNHkkwFXLjV1suGwm0Qjure5.jpg",
+   "tmdb": 6.4
+  },
+  {
+   "id": "there-will-be-blood-2007",
+   "title": "There Will Be Blood",
+   "year": 2007,
+   "poster": "fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
+   "tmdb": 8.064
+  },
+  {
+   "id": "fast-five-2011",
+   "title": "Fast Five",
+   "year": 2011,
+   "poster": "gEfQjjQwY7fh5bI4GlG0RrBu7Pz.jpg",
+   "tmdb": 7.244
+  },
+  {
+   "id": "f1-2025",
+   "title": "F1",
+   "year": 2025,
+   "poster": "9PXZIUsSDh4alB80jheWX4fhZmy.jpg",
+   "tmdb": 7.823
+  }
+ ]
+}

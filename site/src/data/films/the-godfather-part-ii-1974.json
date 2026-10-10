@@ -38,11 +38,23 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey",
-    "Brian Koppelman"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Brian Koppelman",
+     "id": "brian-koppelman"
+    }
    ],
    "note": "Rog originally gave it 3/4 stars, but re-assessed in 2008"
   }
@@ -52,151 +64,176 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "new york city",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "new-york-city"
   },
   {
    "word": "murder",
    "reach": 36,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "murder"
   },
   {
    "word": "revenge",
    "reach": 31,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "revenge"
   },
   {
    "word": "sequel",
    "reach": 28,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "sequel"
   },
   {
    "word": "gangster",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "gangster"
   },
   {
    "word": "lawyer",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "lawyer"
   },
   {
    "word": "organized crime",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "organized-crime"
   },
   {
    "word": "mafia",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "mafia"
   },
   {
    "word": "1950s",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1950s"
   },
   {
    "word": "betrayal",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "betrayal"
   },
   {
    "word": "new year's eve",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "new-years-eve"
   },
   {
    "word": "violence",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "violence"
   },
   {
    "word": "italian american",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "italian-american"
   },
   {
    "word": "blackmail",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "blackmail"
   },
   {
    "word": "italy",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "italy"
   },
   {
    "word": "symbolism",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "symbolism"
   },
   {
    "word": "cuba",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cuba"
   },
   {
    "word": "new year",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "new-year"
   },
   {
    "word": "senator",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "senator"
   },
   {
    "word": "sicilian mafia",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sicilian-mafia"
   },
   {
    "word": "corrupt politician",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "extortion",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "praise",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "suburb",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

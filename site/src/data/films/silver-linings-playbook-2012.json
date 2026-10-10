@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Chris Ryan",
+   "host": {
+    "name": "Chris Ryan",
+    "id": "chris-ryan"
+   },
    "guests": [
-    "Andy Greenwald",
-    "Zach Baron"
+    {
+     "name": "Andy Greenwald",
+     "id": "andy-greenwald"
+    },
+    {
+     "name": "Zach Baron",
+     "id": "zach-baron"
+    }
    ],
    "note": null
   }
@@ -52,169 +61,197 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "friendship",
    "reach": 22,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "friendship"
   },
   {
    "word": "infidelity",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "infidelity"
   },
   {
    "word": "philadelphia, pennsylvania",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "philadelphia-pennsylvania"
   },
   {
    "word": "cheerful",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cheerful"
   },
   {
    "word": "italian american",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "italian-american"
   },
   {
    "word": "father son relationship",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "father-son-relationship"
   },
   {
    "word": "depression",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "depression"
   },
   {
    "word": "ex-wife",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ex-wife"
   },
   {
    "word": "mental illness",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mental-illness"
   },
   {
    "word": "dance competition",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dance-competition"
   },
   {
    "word": "dancing",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dancing"
   },
   {
    "word": "mental institution",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mental-institution"
   },
   {
    "word": "obsessed fan",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "obsessed-fan"
   },
   {
    "word": "widow",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "widow"
   },
   {
    "word": "adulterous wife",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "death of husband",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "football fans",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "former teacher",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "institutionalization",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "letter",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "obsessed with a woman",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "philadelphia eagles",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "release from psychiatric institution",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sports gambling",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "superstition",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "therapy",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "unfaithful wife",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Andy Greenwald"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Andy Greenwald",
+     "id": "andy-greenwald"
+    }
    ],
    "note": null
   },
@@ -55,11 +64,23 @@
    "revisit_kind": "regular",
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Mallory Rubin",
-    "Craig Horlbeck"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    },
+    {
+     "name": "Craig Horlbeck",
+     "id": "craig-horlbeck"
+    }
    ],
    "note": "Cold Weather Tour 2024"
   }
@@ -69,151 +90,176 @@
    "word": "suspenseful",
    "reach": 30,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "suspenseful"
   },
   {
    "word": "action hero",
    "reach": 21,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "action-hero"
   },
   {
    "word": "chicago, illinois",
    "reach": 19,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "chicago-illinois"
   },
   {
    "word": "conspiracy",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "conspiracy"
   },
   {
    "word": "remake",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "remake"
   },
   {
    "word": "on the run",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "on-the-run"
   },
   {
    "word": "betrayal",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "betrayal"
   },
   {
    "word": "flashback",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "flashback"
   },
   {
    "word": "police corruption",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "police-corruption"
   },
   {
    "word": "chase",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "chase"
   },
   {
    "word": "escape",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "escape"
   },
   {
    "word": "shocking",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "shocking"
   },
   {
    "word": "home invasion",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "home-invasion"
   },
   {
    "word": "disguise",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "disguise"
   },
   {
    "word": "doctor",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "doctor"
   },
   {
    "word": "framed for murder",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "framed-for-murder"
   },
   {
    "word": "fugitive",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fugitive"
   },
   {
    "word": "dubious",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dubious"
   },
   {
    "word": "u.s. marshal",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "u-s-marshal"
   },
   {
    "word": "manhunt",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "manhunt"
   },
   {
    "word": "surgeon",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "surgeon"
   },
   {
    "word": "suspicious",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "suspicious"
   },
   {
    "word": "death sentence",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "doomed man",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "one armed man",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

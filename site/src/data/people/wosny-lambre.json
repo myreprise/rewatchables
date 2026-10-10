@@ -1,0 +1,65 @@
+{
+ "name": "Wosny Lambre",
+ "id": "wosny-lambre",
+ "episodes": 4,
+ "share": 0.0082,
+ "hosted": 0,
+ "first": "2022-01-11",
+ "last": "2024-12-09",
+ "shelf": [
+  {
+   "id": "disclosure-1994",
+   "title": "Disclosure",
+   "year": 1994,
+   "poster": "9e8cp3ho2aZrHMFgitysCoJxXwP.jpg",
+   "episode": 384,
+   "aired": "2024-12-09"
+  },
+  {
+   "id": "sea-of-love-1989",
+   "title": "Sea of Love",
+   "year": 1989,
+   "poster": "vJ88WmJ12eAK9CRb3cggn9CJthH.jpg",
+   "episode": 335,
+   "aired": "2023-12-05"
+  },
+  {
+   "id": "above-the-rim-1994",
+   "title": "Above the Rim",
+   "year": 1994,
+   "poster": "56NFHuZXdgZbVxvCyYw92E5uLQa.jpg",
+   "episode": 264,
+   "aired": "2022-07-19"
+  },
+  {
+   "id": "juice-1992",
+   "title": "Juice",
+   "year": 1992,
+   "poster": "hfXFPMhNjLnCugBHMN0nrtKW7Ra.jpg",
+   "episode": 236,
+   "aired": "2022-01-11"
+  }
+ ],
+ "company": [
+  {
+   "name": "Van Lathan",
+   "id": "van-lathan",
+   "episodes": 3
+  },
+  {
+   "name": "Chris Ryan",
+   "id": "chris-ryan",
+   "episodes": 1
+  }
+ ],
+ "regular": false,
+ "lean_floor": 15,
+ "leans": [],
+ "verdict_floor": 8,
+ "verdicts": {
+  "cruise": 1,
+  "hanks": 0,
+  "ties": 0,
+  "n": 1
+ }
+}

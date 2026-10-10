@@ -1,0 +1,163 @@
+{
+ "word": "cheerleader",
+ "id": "cheerleader",
+ "catalogue": 460,
+ "share": 1.3,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 6.6,
+ "vs_catalogue": -0.5,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 3
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  }
+ ],
+ "peak_share": 50.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "id": "high-school"
+  },
+  {
+   "word": "american football",
+   "reach": 13,
+   "band": "b4",
+   "id": "american-football"
+  },
+  {
+   "word": "break-up",
+   "reach": 5,
+   "band": "b5",
+   "id": "break-up"
+  },
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "id": "coming-of-age"
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "id": "duringcreditsstinger"
+  },
+  {
+   "word": "high school graduation",
+   "reach": 3,
+   "band": "b5",
+   "id": "high-school-graduation"
+  },
+  {
+   "word": "nerd",
+   "reach": 6,
+   "band": "b5",
+   "id": "nerd"
+  },
+  {
+   "word": "sports",
+   "reach": 47,
+   "band": "b1",
+   "id": "sports"
+  },
+  {
+   "word": "1950s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1950s"
+  },
+  {
+   "word": "accusation",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "aftercreditsstinger",
+   "reach": 18,
+   "band": "b3",
+   "id": "aftercreditsstinger"
+  },
+  {
+   "word": "against the odds",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "alcohol",
+   "reach": 6,
+   "band": "b5",
+   "id": "alcohol"
+  },
+  {
+   "word": "animated credits",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "grease-1978",
+   "title": "Grease",
+   "year": 1978,
+   "poster": "2rM7fQKpb7cs1Iq7IBqub9LFDzJ.jpg",
+   "tmdb": 7.366
+  },
+  {
+   "id": "cant-buy-me-love-1987",
+   "title": "Can't Buy Me Love",
+   "year": 1987,
+   "poster": "qK3yiqo84U3twOOKOx81c407Hpr.jpg",
+   "tmdb": 6.884
+  },
+  {
+   "id": "cant-hardly-wait-1998",
+   "title": "Can't Hardly Wait",
+   "year": 1998,
+   "poster": "r3a5gGWfS0SDS9nriNrJzSSrErf.jpg",
+   "tmdb": 6.248
+  },
+  {
+   "id": "wild-things-1998",
+   "title": "Wild Things",
+   "year": 1998,
+   "poster": "wrcTDD9T7Ga5c9MW7kaOo2qwIvW.jpg",
+   "tmdb": 6.378
+  },
+  {
+   "id": "varsity-blues-1999",
+   "title": "Varsity Blues",
+   "year": 1999,
+   "poster": "g2jX2Xmx7drbc6J9MLJEBghR7Mg.jpg",
+   "tmdb": 6.149
+  },
+  {
+   "id": "dodgeball-a-true-underdog-story-2004",
+   "title": "DodgeBall: A True Underdog Story",
+   "year": 2004,
+   "poster": "r8KbNHkkwFXLjV1suGwm0Qjure5.jpg",
+   "tmdb": 6.4
+  }
+ ]
+}

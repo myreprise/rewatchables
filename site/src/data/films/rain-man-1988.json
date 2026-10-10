@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -50,139 +59,162 @@
    "word": "duringcreditsstinger",
    "reach": 27,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "duringcreditsstinger"
   },
   {
    "word": "loss of loved one",
    "reach": 20,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "loss-of-loved-one"
   },
   {
    "word": "road trip",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "road-trip"
   },
   {
    "word": "las vegas",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "las-vegas"
   },
   {
    "word": "psychiatrist",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "psychiatrist"
   },
   {
    "word": "melodramatic",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "melodramatic"
   },
   {
    "word": "sentimental",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sentimental"
   },
   {
    "word": "autism",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "autism"
   },
   {
    "word": "blackjack",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "blackjack"
   },
   {
    "word": "car dealer",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "car-dealer"
   },
   {
    "word": "individual",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "individual"
   },
   {
    "word": "mentally disabled",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mentally-disabled"
   },
   {
    "word": "yuppie",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "yuppie"
   },
   {
    "word": "asperger's syndrome",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "cincinnati",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "convertible",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "disability",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "egocentrism",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "forgotten memory",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mentally handicapped man",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "savant syndrome",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "suppressed memory",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "travel",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

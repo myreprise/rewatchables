@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Juliet Litman",
+   "host": {
+    "name": "Juliet Litman",
+    "id": "juliet-litman"
+   },
    "guests": [
-    "Amanda Dobbins"
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    }
    ],
    "note": "1999 series (Luminary)"
   },
@@ -53,9 +59,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Juliet Litman",
+   "host": {
+    "name": "Juliet Litman",
+    "id": "juliet-litman"
+   },
    "guests": [
-    "Amanda Dobbins"
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    }
    ],
    "note": "Originally released May 16, 2019 on Luminary as part of 1999 Rewatchables series"
   }
@@ -65,187 +77,218 @@
    "word": "nostalgic",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "nostalgic"
   },
   {
    "word": "romcom",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "romcom"
   },
   {
    "word": "comforting",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "comforting"
   },
   {
    "word": "london, england",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "london-england"
   },
   {
    "word": "group of friends",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "group-of-friends"
   },
   {
    "word": "new love",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "new-love"
   },
   {
    "word": "valentine's day",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "valentines-day"
   },
   {
    "word": "falling in love",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "falling-in-love"
   },
   {
    "word": "fame",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fame"
   },
   {
    "word": "roommates",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "roommates"
   },
   {
    "word": "best friends",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "best-friends"
   },
   {
    "word": "bookshop",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bookshop"
   },
   {
    "word": "movie star",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "movie-star"
   },
   {
    "word": "birthday party",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "birthday-party"
   },
   {
    "word": "interview",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "interview"
   },
   {
    "word": "paparazzi",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "paparazzi"
   },
   {
    "word": "press conference",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "press-conference"
   },
   {
    "word": "social differences",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "social-differences"
   },
   {
    "word": "tabloid",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "tabloid"
   },
   {
    "word": "awkward situation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "bookshop owner",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "bookstore owner",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "charming romances and delightful chemistry",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "dating woes",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "dinner party",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "famous actress",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "movie set",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "movie theater",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "unexpected romance",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "unlikely romance",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "wealth differences",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

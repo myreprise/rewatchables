@@ -1,0 +1,194 @@
+{
+ "word": "spy",
+ "id": "spy",
+ "catalogue": 460,
+ "share": 2.4,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.2,
+ "vs_catalogue": 0.1,
+ "decades": [
+  {
+   "decade": 1990,
+   "n": 6
+  },
+  {
+   "decade": 2000,
+   "n": 2
+  },
+  {
+   "decade": 2010,
+   "n": 3
+  }
+ ],
+ "peak_share": 55.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "secret agent",
+   "reach": 6,
+   "band": "b5",
+   "id": "secret-agent"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "central intelligence agency (cia)",
+   "reach": 8,
+   "band": "b5",
+   "id": "central-intelligence-agency-cia"
+  },
+  {
+   "word": "london, england",
+   "reach": 6,
+   "band": "b5",
+   "id": "london-england"
+  },
+  {
+   "word": "mi6",
+   "reach": 3,
+   "band": "b5",
+   "id": "mi6"
+  },
+  {
+   "word": "paris, france",
+   "reach": 10,
+   "band": "b5",
+   "id": "paris-france"
+  },
+  {
+   "word": "terrorism",
+   "reach": 15,
+   "band": "b4",
+   "id": "terrorism"
+  },
+  {
+   "word": "undercover",
+   "reach": 13,
+   "band": "b4",
+   "id": "undercover"
+  },
+  {
+   "word": "action",
+   "reach": 2,
+   "band": "b5",
+   "id": "action"
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "based on tv series",
+   "reach": 3,
+   "band": "b5",
+   "id": "based-on-tv-series"
+  },
+  {
+   "word": "british secret service",
+   "reach": 2,
+   "band": "b5",
+   "id": "british-secret-service"
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "id": "duringcreditsstinger"
+  },
+  {
+   "word": "espionage",
+   "reach": 3,
+   "band": "b5",
+   "id": "espionage"
+  }
+ ],
+ "films": [
+  {
+   "id": "true-lies-1994",
+   "title": "True Lies",
+   "year": 1994,
+   "poster": "pqdvCBDThAOjlA0XBzbNm7GvwpU.jpg",
+   "tmdb": 7.102
+  },
+  {
+   "id": "mission-impossible-1996",
+   "title": "Mission: Impossible",
+   "year": 1996,
+   "poster": "l5uxY5m5OInWpcExIpKG6AR3rgL.jpg",
+   "tmdb": 7.027
+  },
+  {
+   "id": "austin-powers-international-man-of-mystery-1997",
+   "title": "Austin Powers: International Man of Mystery",
+   "year": 1997,
+   "poster": "5uD4dxNX8JKFjWKYMHyOsqhi5pN.jpg",
+   "tmdb": 6.602
+  },
+  {
+   "id": "the-saint-1997",
+   "title": "The Saint",
+   "year": 1997,
+   "poster": "k43wPAVeepqzGwP52dKcknQjquj.jpg",
+   "tmdb": 6.114
+  },
+  {
+   "id": "austin-powers-the-spy-who-shagged-me-1999",
+   "title": "Austin Powers: The Spy Who Shagged Me",
+   "year": 1999,
+   "poster": "jiF7UShERJFn5RtgfBK2lIJrOTc.jpg",
+   "tmdb": 6.322
+  },
+  {
+   "id": "the-insider-1999",
+   "title": "The Insider",
+   "year": 1999,
+   "poster": "w695X0FvTlBCS7GSLHNILnrfqPm.jpg",
+   "tmdb": 7.464
+  },
+  {
+   "id": "the-bourne-identity-2002",
+   "title": "The Bourne Identity",
+   "year": 2002,
+   "poster": "aP8swke3gmowbkfZ6lmNidu0y9p.jpg",
+   "tmdb": 7.485
+  },
+  {
+   "id": "casino-royale-2006",
+   "title": "Casino Royale",
+   "year": 2006,
+   "poster": "lMrxYKKhd4lqRzwUHAy5gcx9PSO.jpg",
+   "tmdb": 7.576
+  },
+  {
+   "id": "inception-2010",
+   "title": "Inception",
+   "year": 2010,
+   "poster": "xlaY2zyzMfkhk0HSC5VUwzoZPU1.jpg",
+   "tmdb": 8.373
+  },
+  {
+   "id": "skyfall-2012",
+   "title": "Skyfall",
+   "year": 2012,
+   "poster": "d0IVecFQvsGdSbnMAHqiYsNYaJT.jpg",
+   "tmdb": 7.265
+  },
+  {
+   "id": "mission-impossible-fallout-2018",
+   "title": "Mission: Impossible - Fallout",
+   "year": 2018,
+   "poster": "AkJQpZp9WoNdj7pLYSj1L0RcMMN.jpg",
+   "tmdb": 7.45
+  }
+ ]
+}

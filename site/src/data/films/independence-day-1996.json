@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Shea Serrano"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Shea Serrano",
+     "id": "shea-serrano"
+    }
    ],
    "note": null
   }
@@ -52,133 +61,155 @@
    "word": "aggressive",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "aggressive"
   },
   {
    "word": "dramatic",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "dramatic"
   },
   {
    "word": "audacious",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "audacious"
   },
   {
    "word": "alien",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alien"
   },
   {
    "word": "commanding",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "commanding"
   },
   {
    "word": "creature",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "creature"
   },
   {
    "word": "good versus evil",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "good-versus-evil"
   },
   {
    "word": "showdown",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "showdown"
   },
   {
    "word": "alien invasion",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alien-invasion"
   },
   {
    "word": "celebratory",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "celebratory"
   },
   {
    "word": "disaster",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "disaster"
   },
   {
    "word": "countdown",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "countdown"
   },
   {
    "word": "independence",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "independence"
   },
   {
    "word": "spacecraft",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "spacecraft"
   },
   {
    "word": "extraterrestrial",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "extraterrestrial"
   },
   {
    "word": "ufo",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ufo"
   },
   {
    "word": "area 51",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "battle",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "human vs alien",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "invasion",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "patriotism",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "world domination",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

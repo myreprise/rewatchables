@@ -1,0 +1,148 @@
+{
+ "word": "new love",
+ "id": "new-love",
+ "catalogue": 460,
+ "share": 1.1,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 6.9,
+ "vs_catalogue": -0.2,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 4
+  }
+ ],
+ "peak_share": 80.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "atlantic ocean",
+   "reach": 3,
+   "band": "b5",
+   "id": "atlantic-ocean"
+  },
+  {
+   "word": "awkward situation",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "beguilement",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "best friends",
+   "reach": 3,
+   "band": "b5",
+   "id": "best-friends"
+  },
+  {
+   "word": "birthday party",
+   "reach": 2,
+   "band": "b5",
+   "id": "birthday-party"
+  },
+  {
+   "word": "bookshop",
+   "reach": 3,
+   "band": "b5",
+   "id": "bookshop"
+  },
+  {
+   "word": "bookshop owner",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bookstore owner",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bouncer",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "brawl",
+   "reach": 2,
+   "band": "b5",
+   "id": "brawl"
+  },
+  {
+   "word": "charming romances and delightful chemistry",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "chicago, illinois",
+   "reach": 19,
+   "band": "b3",
+   "id": "chicago-illinois"
+  },
+  {
+   "word": "class differences",
+   "reach": 4,
+   "band": "b5",
+   "id": "class-differences"
+  }
+ ],
+ "films": [
+  {
+   "id": "road-house-1989",
+   "title": "Road House",
+   "year": 1989,
+   "poster": "n7Ra0BRYQVn47kiqOMyS8vdY0QS.jpg",
+   "tmdb": 6.768
+  },
+  {
+   "id": "the-american-president-1995",
+   "title": "The American President",
+   "year": 1995,
+   "poster": "yObOAYFIHXHkFPQ3jhgkN2ezaD.jpg",
+   "tmdb": 6.528
+  },
+  {
+   "id": "my-best-friends-wedding-1997",
+   "title": "My Best Friend's Wedding",
+   "year": 1997,
+   "poster": "b5g4bp8gS5ovMyR5439AII6zQ3n.jpg",
+   "tmdb": 6.563
+  },
+  {
+   "id": "notting-hill-1999",
+   "title": "Notting Hill",
+   "year": 1999,
+   "poster": "hHRIf2XHeQMbyRb3HUx19SF5Ujw.jpg",
+   "tmdb": 7.265
+  },
+  {
+   "id": "the-talented-mr-ripley-1999",
+   "title": "The Talented Mr. Ripley",
+   "year": 1999,
+   "poster": "6ojHgqtIR41O2qLKa7LFUVj0cZa.jpg",
+   "tmdb": 7.197
+  }
+ ]
+}

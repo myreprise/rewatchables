@@ -1,0 +1,149 @@
+{
+ "word": "author",
+ "id": "author",
+ "catalogue": 460,
+ "share": 0.9,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.7,
+ "vs_catalogue": 0.6,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 25.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "1930s",
+   "reach": 6,
+   "band": "b5",
+   "id": "1930s"
+  },
+  {
+   "word": "1960s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1960s"
+  },
+  {
+   "word": "abducted",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "baseball",
+   "reach": 10,
+   "band": "b5",
+   "id": "baseball"
+  },
+  {
+   "word": "bedridden",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bellhop  ",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "blizzard",
+   "reach": 2,
+   "band": "b5",
+   "id": "blizzard"
+  },
+  {
+   "word": "bookshop",
+   "reach": 3,
+   "band": "b5",
+   "id": "bookshop"
+  },
+  {
+   "word": "car crash",
+   "reach": 6,
+   "band": "b5",
+   "id": "car-crash"
+  },
+  {
+   "word": "claustrophobic",
+   "reach": 2,
+   "band": "b5",
+   "id": "claustrophobic"
+  },
+  {
+   "word": "cliché",
+   "reach": 8,
+   "band": "b5",
+   "id": "cliche"
+  },
+  {
+   "word": "colorado",
+   "reach": 2,
+   "band": "b5",
+   "id": "colorado"
+  },
+  {
+   "word": "cornfield",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "field-of-dreams-1989",
+   "title": "Field of Dreams",
+   "year": 1989,
+   "poster": "oeM7nAw6FVFICwUaXKCRkDsKjqO.jpg",
+   "tmdb": 7.125
+  },
+  {
+   "id": "misery-1990",
+   "title": "Misery",
+   "year": 1990,
+   "poster": "klPO5oh1LOxiPpdDXZo1ADgpKcw.jpg",
+   "tmdb": 7.753
+  },
+  {
+   "id": "before-sunset-2004",
+   "title": "Before Sunset",
+   "year": 2004,
+   "poster": "4sW5XH9ZfYXpvFzev00S1IGAEbg.jpg",
+   "tmdb": 7.8
+  },
+  {
+   "id": "the-grand-budapest-hotel-2014",
+   "title": "The Grand Budapest Hotel",
+   "year": 2014,
+   "poster": "eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
+   "tmdb": 8.025
+  }
+ ]
+}

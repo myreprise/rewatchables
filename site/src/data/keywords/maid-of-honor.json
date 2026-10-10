@@ -1,0 +1,118 @@
+{
+ "word": "maid of honor",
+ "id": "maid-of-honor",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  },
+  {
+   "word": "best friend",
+   "reach": 6,
+   "band": "b5",
+   "id": "best-friend"
+  },
+  {
+   "word": "bridesmaid",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "casual sex",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "competition",
+   "reach": 6,
+   "band": "b5",
+   "id": "competition"
+  },
+  {
+   "word": "connecticut",
+   "reach": 2,
+   "band": "b5",
+   "id": "connecticut"
+  },
+  {
+   "word": "drug addiction",
+   "reach": 4,
+   "band": "b5",
+   "id": "drug-addiction"
+  },
+  {
+   "word": "drug rehabilitation",
+   "reach": 2,
+   "band": "b5",
+   "id": "drug-rehabilitation"
+  },
+  {
+   "word": "drunk",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "id": "duringcreditsstinger"
+  },
+  {
+   "word": "fear of commitment",
+   "reach": 2,
+   "band": "b5",
+   "id": "fear-of-commitment"
+  },
+  {
+   "word": "female friendship",
+   "reach": 3,
+   "band": "b5",
+   "id": "female-friendship"
+  },
+  {
+   "word": "fight",
+   "reach": 7,
+   "band": "b5",
+   "id": "fight"
+  }
+ ],
+ "films": [
+  {
+   "id": "rachel-getting-married-2008",
+   "title": "Rachel Getting Married",
+   "year": 2008,
+   "poster": "bumaq3lqe4YSsq6LlYoge7e9ABk.jpg",
+   "tmdb": 6.301
+  },
+  {
+   "id": "bridesmaids-2011",
+   "title": "Bridesmaids",
+   "year": 2011,
+   "poster": "gJtA7hYsBMQ7EM3sPBMUdBfU7a0.jpg",
+   "tmdb": 6.509
+  }
+ ]
+}

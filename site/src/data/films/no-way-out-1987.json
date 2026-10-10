@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -51,103 +60,120 @@
    "word": "remake",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "remake"
   },
   {
    "word": "washington dc, usa",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "washington-dc-usa"
   },
   {
    "word": "u.s. navy",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "u-s-navy"
   },
   {
    "word": "homicide",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "homicide"
   },
   {
    "word": "espionage",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "espionage"
   },
   {
    "word": "limousine",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "limousine"
   },
   {
    "word": "mole",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mole"
   },
   {
    "word": "secretary of defense",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "secretary-of-defense"
   },
   {
    "word": "cold war era",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "deep cover",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "enlarged picture",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "international espionage",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "minister",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "pentagon",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "photographic evidence",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "soviet spy",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "spy thriller",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

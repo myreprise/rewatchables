@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Kyle Brandt"
+    {
+     "name": "Kyle Brandt",
+     "id": "kyle-brandt"
+    }
    ],
    "note": null
   }
@@ -51,79 +57,92 @@
    "word": "murder",
    "reach": 36,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "murder"
   },
   {
    "word": "action hero",
    "reach": 21,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "action-hero"
   },
   {
    "word": "psychopath",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "psychopath"
   },
   {
    "word": "street gang",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "street-gang"
   },
   {
    "word": "cop",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cop"
   },
   {
    "word": "good versus evil",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "good-versus-evil"
   },
   {
    "word": "showdown",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "showdown"
   },
   {
    "word": "gang",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gang"
   },
   {
    "word": "witness to murder",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "witness-to-murder"
   },
   {
    "word": "prosecution",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "prosecution"
   },
   {
    "word": "street war",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "street-war"
   },
   {
    "word": "resistance",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "resistance"
   },
   {
    "word": "new world order",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

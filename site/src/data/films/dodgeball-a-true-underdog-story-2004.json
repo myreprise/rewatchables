@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Craig Horlbeck",
+   "host": {
+    "name": "Craig Horlbeck",
+    "id": "craig-horlbeck"
+   },
    "guests": [
-    "Danny Heifetz",
-    "Danny Kelly"
+    {
+     "name": "Danny Heifetz",
+     "id": "danny-heifetz"
+    },
+    {
+     "name": "Danny Kelly",
+     "id": "danny-kelly"
+    }
    ],
    "note": null
   }
@@ -50,199 +59,232 @@
    "word": "sports",
    "reach": 47,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "sports"
   },
   {
    "word": "duringcreditsstinger",
    "reach": 27,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "duringcreditsstinger"
   },
   {
    "word": "aftercreditsstinger",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "aftercreditsstinger"
   },
   {
    "word": "underdog",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "underdog"
   },
   {
    "word": "exhilarated",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "exhilarated"
   },
   {
    "word": "appreciative",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "appreciative"
   },
   {
    "word": "cheerleader",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cheerleader"
   },
   {
    "word": "competition",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "competition"
   },
   {
    "word": "mentor protégé relationship",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mentor-protege-relationship"
   },
   {
    "word": "breaking the fourth wall",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "breaking-the-fourth-wall"
   },
   {
    "word": "candid",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "candid"
   },
   {
    "word": "bodyguard",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bodyguard"
   },
   {
    "word": "lgbt",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "lgbt"
   },
   {
    "word": "sport competition",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sport-competition"
   },
   {
    "word": "casual",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "casual"
   },
   {
    "word": "love at first sight",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "love-at-first-sight"
   },
   {
    "word": "sexual harassment",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sexual-harassment"
   },
   {
    "word": "against the odds",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "cheerleading",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "dodgeball",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "food addiction",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "girl scouts",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "guide book",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "gymnasium",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "handicapped",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "instructional video",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "megalomaniac",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "oddball",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "referee",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "rules and regulations",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "small business",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "weight loss",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "workout",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

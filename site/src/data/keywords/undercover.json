@@ -1,0 +1,208 @@
+{
+ "word": "undercover",
+ "id": "undercover",
+ "catalogue": 460,
+ "share": 2.8,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 6.7,
+ "vs_catalogue": -0.4,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 4
+  },
+  {
+   "decade": 1990,
+   "n": 6
+  },
+  {
+   "decade": 2000,
+   "n": 3
+  }
+ ],
+ "peak_share": 46.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  },
+  {
+   "word": "shootout",
+   "reach": 17,
+   "band": "b3",
+   "id": "shootout"
+  },
+  {
+   "word": "buddy cop",
+   "reach": 11,
+   "band": "b5",
+   "id": "buddy-cop"
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "id": "duringcreditsstinger"
+  },
+  {
+   "word": "police",
+   "reach": 22,
+   "band": "b3",
+   "id": "police"
+  },
+  {
+   "word": "spy",
+   "reach": 11,
+   "band": "b5",
+   "id": "spy"
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "aftercreditsstinger",
+   "reach": 18,
+   "band": "b3",
+   "id": "aftercreditsstinger"
+  },
+  {
+   "word": "beverly hills",
+   "reach": 4,
+   "band": "b5",
+   "id": "beverly-hills"
+  },
+  {
+   "word": "black cop",
+   "reach": 2,
+   "band": "b5",
+   "id": "black-cop"
+  },
+  {
+   "word": "central intelligence agency (cia)",
+   "reach": 8,
+   "band": "b5",
+   "id": "central-intelligence-agency-cia"
+  },
+  {
+   "word": "chicago, illinois",
+   "reach": 19,
+   "band": "b3",
+   "id": "chicago-illinois"
+  },
+  {
+   "word": "detective",
+   "reach": 17,
+   "band": "b3",
+   "id": "detective"
+  },
+  {
+   "word": "detective comedy",
+   "reach": 2,
+   "band": "b5",
+   "id": "detective-comedy"
+  }
+ ],
+ "films": [
+  {
+   "id": "cruising-1980",
+   "title": "Cruising",
+   "year": 1980,
+   "poster": "bb9CND0WyfwdHOZY5XmP4Qn8taz.jpg",
+   "tmdb": 6.586
+  },
+  {
+   "id": "beverly-hills-cop-1984",
+   "title": "Beverly Hills Cop",
+   "year": 1984,
+   "poster": "eBJEvKkhQ0tUt1dBAcTEYW6kCle.jpg",
+   "tmdb": 7.211
+  },
+  {
+   "id": "running-scared-1986",
+   "title": "Running Scared",
+   "year": 1986,
+   "poster": "nSiRjhc7aTVPonXAhmTZAPqd2jT.jpg",
+   "tmdb": 6.095
+  },
+  {
+   "id": "beverly-hills-cop-ii-1987",
+   "title": "Beverly Hills Cop II",
+   "year": 1987,
+   "poster": "egDakU8O5yUwpUJP9IMAUVtIDll.jpg",
+   "tmdb": 6.532
+  },
+  {
+   "id": "mission-impossible-1996",
+   "title": "Mission: Impossible",
+   "year": 1996,
+   "poster": "l5uxY5m5OInWpcExIpKG6AR3rgL.jpg",
+   "tmdb": 7.027
+  },
+  {
+   "id": "austin-powers-international-man-of-mystery-1997",
+   "title": "Austin Powers: International Man of Mystery",
+   "year": 1997,
+   "poster": "5uD4dxNX8JKFjWKYMHyOsqhi5pN.jpg",
+   "tmdb": 6.602
+  },
+  {
+   "id": "con-air-1997",
+   "title": "Con Air",
+   "year": 1997,
+   "poster": "kOKjgrEzGOP92rVQ6srA9jtp60l.jpg",
+   "tmdb": 6.785
+  },
+  {
+   "id": "face-off-1997",
+   "title": "Face/Off",
+   "year": 1997,
+   "poster": "69Xzn8UdPbVnmqSChKz2RTpoNfB.jpg",
+   "tmdb": 7.059
+  },
+  {
+   "id": "austin-powers-the-spy-who-shagged-me-1999",
+   "title": "Austin Powers: The Spy Who Shagged Me",
+   "year": 1999,
+   "poster": "jiF7UShERJFn5RtgfBK2lIJrOTc.jpg",
+   "tmdb": 6.322
+  },
+  {
+   "id": "never-been-kissed-1999",
+   "title": "Never Been Kissed",
+   "year": 1999,
+   "poster": "6BngDhDNfbBjhVFWDT2yMve32vi.jpg",
+   "tmdb": 6.161
+  },
+  {
+   "id": "the-fast-and-the-furious-2001",
+   "title": "The Fast and the Furious",
+   "year": 2001,
+   "poster": "gqY0ITBgT7A82poL9jv851qdnIb.jpg",
+   "tmdb": 7.0
+  },
+  {
+   "id": "miami-vice-2006",
+   "title": "Miami Vice",
+   "year": 2006,
+   "poster": "iJPSls4taB09EUKtLj6FjFSprb3.jpg",
+   "tmdb": 6.034
+  },
+  {
+   "id": "the-departed-2006",
+   "title": "The Departed",
+   "year": 2006,
+   "poster": "nT97ifVT2J1yMQmeq20Qblg61T.jpg",
+   "tmdb": 8.159
+  }
+ ]
+}

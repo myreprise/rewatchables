@@ -1,0 +1,146 @@
+{
+ "word": "fraternity",
+ "id": "fraternity",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1970,
+ "avg_tmdb": 6.6,
+ "vs_catalogue": -0.5,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 0
+  },
+  {
+   "decade": 1990,
+   "n": 0
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 33.0,
+ "catalogue_peak_share": 7.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "college",
+   "reach": 8,
+   "band": "b5",
+   "id": "college"
+  },
+  {
+   "word": "dean",
+   "reach": 2,
+   "band": "b5",
+   "id": "dean"
+  },
+  {
+   "word": "fraternity house",
+   "reach": 2,
+   "band": "b5",
+   "id": "fraternity-house"
+  },
+  {
+   "word": "1960s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1960s"
+  },
+  {
+   "word": "anarchic comedy",
+   "reach": 3,
+   "band": "b5",
+   "id": "anarchic-comedy"
+  },
+  {
+   "word": "baby",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bathroom humor",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "beer",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "college freshman",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "family",
+   "reach": 7,
+   "band": "b5",
+   "id": "family"
+  },
+  {
+   "word": "group sex",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "house party",
+   "reach": 5,
+   "band": "b5",
+   "id": "house-party"
+  },
+  {
+   "word": "infidelity",
+   "reach": 11,
+   "band": "b5",
+   "id": "infidelity"
+  },
+  {
+   "word": "male friendship",
+   "reach": 9,
+   "band": "b5",
+   "id": "male-friendship"
+  }
+ ],
+ "films": [
+  {
+   "id": "animal-house-1978",
+   "title": "Animal House",
+   "year": 1978,
+   "poster": "fWooBbipMRIKeSRhEzmeaDV0T8H.jpg",
+   "tmdb": 6.949
+  },
+  {
+   "id": "old-school-2003",
+   "title": "Old School",
+   "year": 2003,
+   "poster": "nYtuwNHpEoIbTgS3aFPSEwZNN6l.jpg",
+   "tmdb": 6.621
+  },
+  {
+   "id": "neighbors-2014",
+   "title": "Neighbors",
+   "year": 2014,
+   "poster": "sN1RU08CMi8xkRIibremh3AOdgw.jpg",
+   "tmdb": 6.181
+  }
+ ]
+}

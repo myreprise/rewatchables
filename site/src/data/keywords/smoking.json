@@ -1,0 +1,142 @@
+{
+ "word": "smoking",
+ "id": "smoking",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.0,
+ "vs_catalogue": -0.1,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 0
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 33.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "id": "murder"
+  },
+  {
+   "word": "neo-noir",
+   "reach": 29,
+   "band": "b2",
+   "id": "neo-noir"
+  },
+  {
+   "word": "assassin",
+   "reach": 8,
+   "band": "b5",
+   "id": "assassin"
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  },
+  {
+   "word": "blunt",
+   "reach": 6,
+   "band": "b5",
+   "id": "blunt"
+  },
+  {
+   "word": "bomb",
+   "reach": 6,
+   "band": "b5",
+   "id": "bomb"
+  },
+  {
+   "word": "border",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "brutality",
+   "reach": 4,
+   "band": "b5",
+   "id": "brutality"
+  },
+  {
+   "word": "cannabis",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "central intelligence agency (cia)",
+   "reach": 8,
+   "band": "b5",
+   "id": "central-intelligence-agency-cia"
+  },
+  {
+   "word": "corruption",
+   "reach": 12,
+   "band": "b4",
+   "id": "corruption"
+  },
+  {
+   "word": "cynicism",
+   "reach": 2,
+   "band": "b5",
+   "id": "cynicism"
+  },
+  {
+   "word": "death of daughter",
+   "reach": 2,
+   "band": "b5",
+   "id": "death-of-daughter"
+  },
+  {
+   "word": "death of wife",
+   "reach": 2,
+   "band": "b5",
+   "id": "death-of-wife"
+  }
+ ],
+ "films": [
+  {
+   "id": "body-heat-1981",
+   "title": "Body Heat",
+   "year": 1981,
+   "poster": "5LipPcaW1J9IjAP7TOTesw8OcMS.jpg",
+   "tmdb": 6.981
+  },
+  {
+   "id": "pineapple-express-2008",
+   "title": "Pineapple Express",
+   "year": 2008,
+   "poster": "6E50WjeOYjDZg9HXgPjYdGtY2jG.jpg",
+   "tmdb": 6.64
+  },
+  {
+   "id": "sicario-2015",
+   "title": "Sicario",
+   "year": 2015,
+   "poster": "lz8vNyXeidqqOdJW9ZjnDAMb5Vr.jpg",
+   "tmdb": 7.427
+  }
+ ]
+}

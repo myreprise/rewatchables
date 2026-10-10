@@ -39,9 +39,15 @@
    "revisit_kind": null,
    "verdict": "Hanks",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Mallory Rubin"
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    }
    ],
    "note": "One-word movie title month'"
   }
@@ -51,103 +57,120 @@
    "word": "intense",
    "reach": 23,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "intense"
   },
   {
    "word": "detective",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "detective"
   },
   {
    "word": "corruption",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "corruption"
   },
   {
    "word": "philadelphia, pennsylvania",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "philadelphia-pennsylvania"
   },
   {
    "word": "romantic",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "romantic"
   },
   {
    "word": "thoughtful",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "thoughtful"
   },
   {
    "word": "police brutality",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "police-brutality"
   },
   {
    "word": "complex",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "complex"
   },
   {
    "word": "pennsylvania, usa",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pennsylvania-usa"
   },
   {
    "word": "witness to murder",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "witness-to-murder"
   },
   {
    "word": "empathetic",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "empathetic"
   },
   {
    "word": "reflective",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "reflective"
   },
   {
    "word": "introspective",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "introspective"
   },
   {
    "word": "amish",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "barn raising",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "lancaster, pa",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "silo",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

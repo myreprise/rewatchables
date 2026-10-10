@@ -39,11 +39,23 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Van Lathan",
-    "Joel Anderson"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    },
+    {
+     "name": "Joel Anderson",
+     "id": "joel-anderson"
+    }
    ],
    "note": null
   }
@@ -53,139 +65,162 @@
    "word": "duringcreditsstinger",
    "reach": 27,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "duringcreditsstinger"
   },
   {
    "word": "amused",
    "reach": 26,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "amused"
   },
   {
    "word": "bold",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "bold"
   },
   {
    "word": "audacious",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "audacious"
   },
   {
    "word": "satire",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "satire"
   },
   {
    "word": "playful",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "playful"
   },
   {
    "word": "parody",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "parody"
   },
   {
    "word": "movie business",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "movie-business"
   },
   {
    "word": "provocative",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "provocative"
   },
   {
    "word": "critical",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "critical"
   },
   {
    "word": "vietnam",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vietnam"
   },
   {
    "word": "exuberant",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "exuberant"
   },
   {
    "word": "movie star",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "movie-star"
   },
   {
    "word": "taunting",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "taunting"
   },
   {
    "word": "sardonic",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sardonic"
   },
   {
    "word": "blackface",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "inflammatory",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "jungle",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "jungle adventure",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "land mine",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "method acting",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "shackles",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "southeast asia",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

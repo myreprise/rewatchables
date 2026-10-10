@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Juliet Litman",
+   "host": {
+    "name": "Juliet Litman",
+    "id": "juliet-litman"
+   },
    "guests": [
-    "Amanda Dobbins",
-    "K. Austin Collins"
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    },
+    {
+     "name": "K. Austin Collins",
+     "id": "k-austin-collins"
+    }
    ],
    "note": null
   }
@@ -51,103 +60,120 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "high school",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "high-school"
   },
   {
    "word": "coming of age",
    "reach": 24,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "coming-of-age"
   },
   {
    "word": "woman director",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "woman-director"
   },
   {
    "word": "wedding",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "wedding"
   },
   {
    "word": "cheerful",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cheerful"
   },
   {
    "word": "gay theme",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gay-theme"
   },
   {
    "word": "conflict",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "conflict"
   },
   {
    "word": "high school friends",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "high-school-friends"
   },
   {
    "word": "makeover",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "makeover"
   },
   {
    "word": "make a match",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "match making",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "matchmaker",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "matchmaking",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "popular girl",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "puberty",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "spoiled child",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

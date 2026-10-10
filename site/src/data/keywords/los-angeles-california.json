@@ -1,0 +1,468 @@
+{
+ "word": "los angeles, california",
+ "id": "los-angeles-california",
+ "catalogue": 460,
+ "share": 10.7,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.1,
+ "vs_catalogue": -0.0,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 3
+  },
+  {
+   "decade": 1980,
+   "n": 15
+  },
+  {
+   "decade": 1990,
+   "n": 20
+  },
+  {
+   "decade": 2000,
+   "n": 8
+  },
+  {
+   "decade": 2010,
+   "n": 3
+  }
+ ],
+ "peak_share": 41.0,
+ "catalogue_peak_share": 39.0,
+ "region": "california",
+ "region_films": 61,
+ "region_places": 6,
+ "partners": [
+  {
+   "word": "neo-noir",
+   "reach": 29,
+   "band": "b2",
+   "id": "neo-noir"
+  },
+  {
+   "word": "bold",
+   "reach": 15,
+   "band": "b4",
+   "id": "bold"
+  },
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "id": "murder"
+  },
+  {
+   "word": "police",
+   "reach": 22,
+   "band": "b3",
+   "id": "police"
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "buddy cop",
+   "reach": 11,
+   "band": "b5",
+   "id": "buddy-cop"
+  },
+  {
+   "word": "intense",
+   "reach": 23,
+   "band": "b3",
+   "id": "intense"
+  },
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "id": "absurd"
+  },
+  {
+   "word": "aggressive",
+   "reach": 18,
+   "band": "b3",
+   "id": "aggressive"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "detective",
+   "reach": 17,
+   "band": "b3",
+   "id": "detective"
+  },
+  {
+   "word": "excited",
+   "reach": 17,
+   "band": "b3",
+   "id": "excited"
+  },
+  {
+   "word": "heist",
+   "reach": 16,
+   "band": "b4",
+   "id": "heist"
+  },
+  {
+   "word": "lapd",
+   "reach": 6,
+   "band": "b5",
+   "id": "lapd"
+  }
+ ],
+ "films": [
+  {
+   "id": "shampoo-1975",
+   "title": "Shampoo",
+   "year": 1975,
+   "poster": "6jmFvXPV6OhtX3AkAVnH7rwdeUJ.jpg",
+   "tmdb": 6.05
+  },
+  {
+   "id": "heaven-can-wait-1978",
+   "title": "Heaven Can Wait",
+   "year": 1978,
+   "poster": "h1yOiO9cow6gwmGxSAWvPdY4lhJ.jpg",
+   "tmdb": 6.657
+  },
+  {
+   "id": "hardcore-1979",
+   "title": "Hardcore",
+   "year": 1979,
+   "poster": "g6m9xBTAzxXVhdJ624s9BLK9o6.jpg",
+   "tmdb": 6.8
+  },
+  {
+   "id": "airplane-1980",
+   "title": "Airplane!",
+   "year": 1980,
+   "poster": "7Q3efxd3AF1vQjlSxnlerSA7RzN.jpg",
+   "tmdb": 7.3
+  },
+  {
+   "id": "american-gigolo-1980",
+   "title": "American Gigolo",
+   "year": 1980,
+   "poster": "igXGCwti23PHOjLKQX6eGIGzQiJ.jpg",
+   "tmdb": 6.18
+  },
+  {
+   "id": "beverly-hills-cop-1984",
+   "title": "Beverly Hills Cop",
+   "year": 1984,
+   "poster": "eBJEvKkhQ0tUt1dBAcTEYW6kCle.jpg",
+   "tmdb": 7.211
+  },
+  {
+   "id": "body-double-1984",
+   "title": "Body Double",
+   "year": 1984,
+   "poster": "lRFm5P2AdOGpELwm3HHhmUz6k5I.jpg",
+   "tmdb": 6.741
+  },
+  {
+   "id": "the-karate-kid-1984",
+   "title": "The Karate Kid",
+   "year": 1984,
+   "poster": "1mp4ViklKvA0WXXsNvNx0RBuiit.jpg",
+   "tmdb": 7.23
+  },
+  {
+   "id": "the-terminator-1984",
+   "title": "The Terminator",
+   "year": 1984,
+   "poster": "qvktm0BHcnmDpul4Hz01GIazWPr.jpg",
+   "tmdb": 7.69
+  },
+  {
+   "id": "commando-1985",
+   "title": "Commando",
+   "year": 1985,
+   "poster": "ollPAAAgZ7euU8VisfqU3cuXhZ6.jpg",
+   "tmdb": 6.712
+  },
+  {
+   "id": "to-live-and-die-in-l-a-1985",
+   "title": "To Live and Die in L.A.",
+   "year": 1985,
+   "poster": "2iW3pSihBIhXjnBQmUJ0mAiZbB5.jpg",
+   "tmdb": 7.117
+  },
+  {
+   "id": "beverly-hills-cop-ii-1987",
+   "title": "Beverly Hills Cop II",
+   "year": 1987,
+   "poster": "egDakU8O5yUwpUJP9IMAUVtIDll.jpg",
+   "tmdb": 6.532
+  },
+  {
+   "id": "lethal-weapon-1987",
+   "title": "Lethal Weapon",
+   "year": 1987,
+   "poster": "6gt44oqb4nE8vflPElffeGwsHVl.jpg",
+   "tmdb": 7.303
+  },
+  {
+   "id": "die-hard-1988",
+   "title": "Die Hard",
+   "year": 1988,
+   "poster": "7Bjd8kfmDSOzpmhySpEhkUyK2oH.jpg",
+   "tmdb": 7.816
+  },
+  {
+   "id": "the-naked-gun-from-the-files-of-police-squad-1988",
+   "title": "The Naked Gun: From the Files of Police Squad!",
+   "year": 1988,
+   "poster": "zT0mhZqZQJE1gSY5Eg9qcGP4NYo.jpg",
+   "tmdb": 7.282
+  },
+  {
+   "id": "they-live-1988",
+   "title": "They Live",
+   "year": 1988,
+   "poster": "ngnybFTuopfbfmmEeX9jjBQQmF6.jpg",
+   "tmdb": 7.308
+  },
+  {
+   "id": "lethal-weapon-2-1989",
+   "title": "Lethal Weapon 2",
+   "year": 1989,
+   "poster": "1EEIUw0tkX7AJZ1ikZrtKZZKlC6.jpg",
+   "tmdb": 7.045
+  },
+  {
+   "id": "tango-and-cash-1989",
+   "title": "Tango & Cash",
+   "year": 1989,
+   "poster": "jxxxjTu87OSmQYkMFF7MgOEDXRn.jpg",
+   "tmdb": 6.51
+  },
+  {
+   "id": "hard-to-kill-1990",
+   "title": "Hard to Kill",
+   "year": 1990,
+   "poster": "nmtMNxslljllSTVtt7VIOXdxSZp.jpg",
+   "tmdb": 5.996
+  },
+  {
+   "id": "internal-affairs-1990",
+   "title": "Internal Affairs",
+   "year": 1990,
+   "poster": "A4pH8DiNFEf2AgXkM4zk3ZpblV.jpg",
+   "tmdb": 6.37
+  },
+  {
+   "id": "pretty-woman-1990",
+   "title": "Pretty Woman",
+   "year": 1990,
+   "poster": "hVHUfT801LQATGd26VPzhorIYza.jpg",
+   "tmdb": 7.443
+  },
+  {
+   "id": "boyz-n-the-hood-1991",
+   "title": "Boyz n the Hood",
+   "year": 1991,
+   "poster": "kaS8BkTZESnkoB5i1zRQ02FIRGk.jpg",
+   "tmdb": 7.638
+  },
+  {
+   "id": "father-of-the-bride-1991",
+   "title": "Father of the Bride",
+   "year": 1991,
+   "poster": "bU7HzJbJpY5OiLdqWhKSqGPtYii.jpg",
+   "tmdb": 6.476
+  },
+  {
+   "id": "point-break-1991",
+   "title": "Point Break",
+   "year": 1991,
+   "poster": "tlbERIghrQ4oofqlbF7H0K0EYnx.jpg",
+   "tmdb": 7.152
+  },
+  {
+   "id": "the-last-boy-scout-1991",
+   "title": "The Last Boy Scout",
+   "year": 1991,
+   "poster": "glPswihcZYoAQ4YM2uJF4UACy8T.jpg",
+   "tmdb": 6.843
+  },
+  {
+   "id": "the-bodyguard-1992",
+   "title": "The Bodyguard",
+   "year": 1992,
+   "poster": "ihWF0uY1xnKqw9YK7ZHNLUZOhcO.jpg",
+   "tmdb": 6.705
+  },
+  {
+   "id": "white-men-cant-jump-1992",
+   "title": "White Men Can't Jump",
+   "year": 1992,
+   "poster": "jnI05Z2Cm9ACEJo8FGen7tdHKLl.jpg",
+   "tmdb": 6.654
+  },
+  {
+   "id": "true-romance-1993",
+   "title": "True Romance",
+   "year": 1993,
+   "poster": "39lXk6ud6KiJgGbbWI2PUKS7y2.jpg",
+   "tmdb": 7.54
+  },
+  {
+   "id": "pulp-fiction-1994",
+   "title": "Pulp Fiction",
+   "year": 1994,
+   "poster": "vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+   "tmdb": 8.48
+  },
+  {
+   "id": "speed-1994",
+   "title": "Speed",
+   "year": 1994,
+   "poster": "82PkCE4R95KhHICUDF7G4Ly2z3l.jpg",
+   "tmdb": 7.2
+  },
+  {
+   "id": "friday-1995",
+   "title": "Friday",
+   "year": 1995,
+   "poster": "3Ya1RurP2NqaYoiok4DmfO41rCC.jpg",
+   "tmdb": 7.148
+  },
+  {
+   "id": "heat-1995",
+   "title": "Heat",
+   "year": 1995,
+   "poster": "gKaePbkEkaqvMtw74EyhhkfCKKh.jpg",
+   "tmdb": 7.945
+  },
+  {
+   "id": "species-1995",
+   "title": "Species",
+   "year": 1995,
+   "poster": "cT5wdyo8kT7dycqjrolJ2sHWkFx.jpg",
+   "tmdb": 5.992
+  },
+  {
+   "id": "the-usual-suspects-1995",
+   "title": "The Usual Suspects",
+   "year": 1995,
+   "poster": "99X2SgyFunJFXGAYnDv3sb9pnUD.jpg",
+   "tmdb": 8.165
+  },
+  {
+   "id": "boogie-nights-1997",
+   "title": "Boogie Nights",
+   "year": 1997,
+   "poster": "2hVSN9yOfoI8EUTqcVW6zCIyQ1G.jpg",
+   "tmdb": 7.638
+  },
+  {
+   "id": "face-off-1997",
+   "title": "Face/Off",
+   "year": 1997,
+   "poster": "69Xzn8UdPbVnmqSChKz2RTpoNfB.jpg",
+   "tmdb": 7.059
+  },
+  {
+   "id": "the-big-lebowski-1998",
+   "title": "The Big Lebowski",
+   "year": 1998,
+   "poster": "3bv6WAp6BSxxYvB5ozKFUYuRA8C.jpg",
+   "tmdb": 7.834
+  },
+  {
+   "id": "8mm-1999",
+   "title": "8MM",
+   "year": 1999,
+   "poster": "mhr9xRpjOBqlBjgDwtiOx6FsLvV.jpg",
+   "tmdb": 6.506
+  },
+  {
+   "id": "memento-2000",
+   "title": "Memento",
+   "year": 2000,
+   "poster": "nzlv62aC0octS5AklAiWpXLX9Z0.jpg",
+   "tmdb": 8.174
+  },
+  {
+   "id": "the-fast-and-the-furious-2001",
+   "title": "The Fast and the Furious",
+   "year": 2001,
+   "poster": "gqY0ITBgT7A82poL9jv851qdnIb.jpg",
+   "tmdb": 7.0
+  },
+  {
+   "id": "training-day-2001",
+   "title": "Training Day",
+   "year": 2001,
+   "poster": "bUeiwBQdupBLQthMCHKV7zv56uv.jpg",
+   "tmdb": 7.528
+  },
+  {
+   "id": "the-italian-job-2003",
+   "title": "The Italian Job",
+   "year": 2003,
+   "poster": "eSkjK4kctyrWpFhxl35GPvSs6tI.jpg",
+   "tmdb": 6.799
+  },
+  {
+   "id": "along-came-polly-2004",
+   "title": "Along Came Polly",
+   "year": 2004,
+   "poster": "7Tp16THdpHkMrqgoiDresDz9CWL.jpg",
+   "tmdb": 6.031
+  },
+  {
+   "id": "crash-2005",
+   "title": "Crash",
+   "year": 2005,
+   "poster": "86BdPC6RDX88NC880pLidKn2LCj.jpg",
+   "tmdb": 7.215
+  },
+  {
+   "id": "the-holiday-2006",
+   "title": "The Holiday",
+   "year": 2006,
+   "poster": "h1ITOpvJN3Tw4Sy60w2QTfYMvdd.jpg",
+   "tmdb": 7.099
+  },
+  {
+   "id": "superbad-2007",
+   "title": "Superbad",
+   "year": 2007,
+   "poster": "ek8e8txUyUwd2BNqj6lFEerJfbq.jpg",
+   "tmdb": 7.272
+  },
+  {
+   "id": "crazy-stupid-love-2011",
+   "title": "Crazy, Stupid, Love.",
+   "year": 2011,
+   "poster": "p4RafgAPk558muOjnBMHhMArjS2.jpg",
+   "tmdb": 7.277
+  },
+  {
+   "id": "den-of-thieves-2018",
+   "title": "Den of Thieves",
+   "year": 2018,
+   "poster": "dAP5NpkrMMczir5dUPjRR6ywqgz.jpg",
+   "tmdb": 6.873
+  },
+  {
+   "id": "once-upon-a-time-in-hollywood-2019",
+   "title": "Once Upon a Time... in Hollywood",
+   "year": 2019,
+   "poster": "8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg",
+   "tmdb": 7.42
+  }
+ ]
+}

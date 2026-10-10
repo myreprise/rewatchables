@@ -1,0 +1,118 @@
+{
+ "word": "flying saucer",
+ "id": "flying-saucer",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "alien",
+   "reach": 9,
+   "band": "b5",
+   "id": "alien"
+  },
+  {
+   "word": "alien contact",
+   "reach": 2,
+   "band": "b5",
+   "id": "alien-contact"
+  },
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "id": "admiring"
+  },
+  {
+   "word": "alien abduction",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "alien encounter",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "alien friendship",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "alien language",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "alien life-form",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "alien space craft",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "alien spaceship",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "blackout",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "california",
+   "reach": 16,
+   "band": "b4",
+   "id": "california"
+  },
+  {
+   "word": "child protagonist",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "desperate",
+   "reach": 6,
+   "band": "b5",
+   "id": "desperate"
+  }
+ ],
+ "films": [
+  {
+   "id": "close-encounters-of-the-third-kind-1977",
+   "title": "Close Encounters of the Third Kind",
+   "year": 1977,
+   "poster": "yaPx3cK9zGFX3SbcKwxWM1QIbUh.jpg",
+   "tmdb": 7.359
+  },
+  {
+   "id": "e-t-the-extra-terrestrial-1982",
+   "title": "E.T. the Extra-Terrestrial",
+   "year": 1982,
+   "poster": "an0nD6uq6byfxXCfk6lQBzdL2J1.jpg",
+   "tmdb": 7.518
+  }
+ ]
+}

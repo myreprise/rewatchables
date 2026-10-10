@@ -1,0 +1,171 @@
+{
+ "word": "possession",
+ "id": "possession",
+ "catalogue": 460,
+ "share": 1.3,
+ "thin": false,
+ "peak": 2010,
+ "avg_tmdb": 7.4,
+ "vs_catalogue": 0.3,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 0
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 3
+  },
+  {
+   "decade": 2020,
+   "n": 1
+  }
+ ],
+ "peak_share": 50.0,
+ "catalogue_peak_share": 12.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "demon",
+   "reach": 4,
+   "band": "b5",
+   "id": "demon"
+  },
+  {
+   "word": "exorcism",
+   "reach": 3,
+   "band": "b5",
+   "id": "exorcism"
+  },
+  {
+   "word": "supernatural",
+   "reach": 5,
+   "band": "b5",
+   "id": "supernatural"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "demonic possession",
+   "reach": 2,
+   "band": "b5",
+   "id": "demonic-possession"
+  },
+  {
+   "word": "ghost",
+   "reach": 6,
+   "band": "b5",
+   "id": "ghost"
+  },
+  {
+   "word": "macabre",
+   "reach": 7,
+   "band": "b5",
+   "id": "macabre"
+  },
+  {
+   "word": "paranormal investigation",
+   "reach": 2,
+   "band": "b5",
+   "id": "paranormal-investigation"
+  },
+  {
+   "word": "paranormal phenomena",
+   "reach": 5,
+   "band": "b5",
+   "id": "paranormal-phenomena"
+  },
+  {
+   "word": "supernatural horror",
+   "reach": 7,
+   "band": "b5",
+   "id": "supernatural-horror"
+  },
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1970s"
+  },
+  {
+   "word": "absurdism",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "apocalypse",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "attic",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "the-exorcist-1973",
+   "title": "The Exorcist",
+   "year": 1973,
+   "poster": "5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg",
+   "tmdb": 7.744
+  },
+  {
+   "id": "ghostbusters-1984",
+   "title": "Ghostbusters",
+   "year": 1984,
+   "poster": "7E8nLijS9AwwUEPu2oFYOVKhdFA.jpg",
+   "tmdb": 7.498
+  },
+  {
+   "id": "the-conjuring-2013",
+   "title": "The Conjuring",
+   "year": 2013,
+   "poster": "wVYREutTvI2tmxr6ujrHT704wGF.jpg",
+   "tmdb": 7.542
+  },
+  {
+   "id": "this-is-the-end-2013",
+   "title": "This Is the End",
+   "year": 2013,
+   "poster": "tNIW0NhX1hKvUsy6PQ80DOKUhkD.jpg",
+   "tmdb": 6.232
+  },
+  {
+   "id": "hereditary-2018",
+   "title": "Hereditary",
+   "year": 2018,
+   "poster": "4GFPuL14eXi66V96xBWY73Y9PfR.jpg",
+   "tmdb": 7.3
+  },
+  {
+   "id": "obsession-2026",
+   "title": "Obsession",
+   "year": 2026,
+   "poster": "bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
+   "tmdb": 8.207
+  }
+ ]
+}

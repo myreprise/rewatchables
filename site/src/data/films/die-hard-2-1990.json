@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -51,157 +60,183 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "sequel",
    "reach": 28,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "sequel"
   },
   {
    "word": "action hero",
    "reach": 21,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "action-hero"
   },
   {
    "word": "excited",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "excited"
   },
   {
    "word": "shootout",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "shootout"
   },
   {
    "word": "terrorism",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "terrorism"
   },
   {
    "word": "christmas",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "christmas"
   },
   {
    "word": "explosion",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "explosion"
   },
   {
    "word": "cop",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cop"
   },
   {
    "word": "helicopter",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "helicopter"
   },
   {
    "word": "mysterious",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mysterious"
   },
   {
    "word": "church",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "church"
   },
   {
    "word": "commando",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "commando"
   },
   {
    "word": "airport",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "airport"
   },
   {
    "word": "christmas eve",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "christmas-eve"
   },
   {
    "word": "snow",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "snow"
   },
   {
    "word": "terrorist plot",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "terrorist-plot"
   },
   {
    "word": "virginia",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "virginia"
   },
   {
    "word": "ambush",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ambush"
   },
   {
    "word": "news reporter",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "news-reporter"
   },
   {
    "word": "air traffic control",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "airplanes",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "airport police",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "plane crash",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "rogue military",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "snowmobile",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

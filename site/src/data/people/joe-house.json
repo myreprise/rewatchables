@@ -1,0 +1,57 @@
+{
+ "name": "Joe House",
+ "id": "joe-house",
+ "episodes": 3,
+ "share": 0.0062,
+ "hosted": 0,
+ "first": "2019-05-09",
+ "last": "2025-09-15",
+ "shelf": [
+  {
+   "id": "tin-cup-1996",
+   "title": "Tin Cup",
+   "year": 1996,
+   "poster": "rB7OvMmjcBFoogleORaUqrRgp8g.jpg",
+   "episode": 423,
+   "aired": "2025-09-15"
+  },
+  {
+   "id": "big-daddy-1999",
+   "title": "Big Daddy",
+   "year": 1999,
+   "poster": "lEYg1X8RjqNB5NWEtodcbK7vm1G.jpg",
+   "episode": 71,
+   "aired": "2024-06-27"
+  },
+  {
+   "id": "big-daddy-1999",
+   "title": "Big Daddy",
+   "year": 1999,
+   "poster": "lEYg1X8RjqNB5NWEtodcbK7vm1G.jpg",
+   "episode": 71,
+   "aired": "2019-05-09"
+  }
+ ],
+ "company": [
+  {
+   "name": "Sean Fennessey",
+   "id": "sean-fennessey",
+   "episodes": 2
+  },
+  {
+   "name": "Craig Horlbeck",
+   "id": "craig-horlbeck",
+   "episodes": 1
+  }
+ ],
+ "regular": false,
+ "lean_floor": 15,
+ "leans": [],
+ "verdict_floor": 8,
+ "verdicts": {
+  "cruise": 0,
+  "hanks": 1,
+  "ties": 0,
+  "n": 1
+ }
+}

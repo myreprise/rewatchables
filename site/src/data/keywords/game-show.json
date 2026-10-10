@@ -1,0 +1,118 @@
+{
+ "word": "game show",
+ "id": "game-show",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1950s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1950s"
+  },
+  {
+   "word": "alternate future",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "audacious",
+   "reach": 10,
+   "band": "b5",
+   "id": "audacious"
+  },
+  {
+   "word": "authoritarian",
+   "reach": 4,
+   "band": "b5",
+   "id": "authoritarian"
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "crowd mentality",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "cruel",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dark future",
+   "reach": 2,
+   "band": "b5",
+   "id": "dark-future"
+  },
+  {
+   "word": "death game",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dystopia",
+   "reach": 17,
+   "band": "b3",
+   "id": "dystopia"
+  },
+  {
+   "word": "fight for life",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "fighting the system",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "the-running-man-1987",
+   "title": "The Running Man",
+   "year": 1987,
+   "poster": "GTAUOhO4BN0peJVvxGEQydJvUO.jpg",
+   "tmdb": 6.539
+  },
+  {
+   "id": "quiz-show-1994",
+   "title": "Quiz Show",
+   "year": 1994,
+   "poster": "yoGJo1h3Hl2exXPVcG9UXWDENtX.jpg",
+   "tmdb": 7.25
+  }
+ ]
+}

@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": "Tie",
    "verdict_tone": "hanks",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": "From Hell' month"
   }
@@ -52,97 +61,113 @@
    "word": "murder",
    "reach": 36,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "murder"
   },
   {
    "word": "father son relationship",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "father-son-relationship"
   },
   {
    "word": "ex-husband ex-wife relationship",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ex-husband-ex-wife-relationship"
   },
   {
    "word": "witness to murder",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "witness-to-murder"
   },
   {
    "word": "divorced parents",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "divorced-parents"
   },
   {
    "word": "maryland",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "maryland"
   },
   {
    "word": "custody hearing",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "dark secret",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "divorced father",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "father son bond",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "newlywed",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "protective father",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "secret past",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sordid past",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "stepfather",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "threats",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

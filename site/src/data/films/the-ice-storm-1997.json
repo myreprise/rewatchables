@@ -37,10 +37,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": "\"Fucked up Family February\" month"
   }
@@ -50,103 +59,120 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "1970s",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1970s"
   },
   {
    "word": "infidelity",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "infidelity"
   },
   {
    "word": "husband wife relationship",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "husband-wife-relationship"
   },
   {
    "word": "family relationships",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "family-relationships"
   },
   {
    "word": "dysfunctional family",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dysfunctional-family"
   },
   {
    "word": "neighbor",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "neighbor"
   },
   {
    "word": "suburbia",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "suburbia"
   },
   {
    "word": "thanksgiving",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "thanksgiving"
   },
   {
    "word": "connecticut",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "connecticut"
   },
   {
    "word": "marital crisis",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "marital-crisis"
   },
   {
    "word": "swinger",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "swinger"
   },
   {
    "word": "ice storm",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "malaise",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "party",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "polyamory",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sexual awakening",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

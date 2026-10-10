@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": "Cruise",
    "verdict_tone": "cruise",
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -52,97 +61,113 @@
    "word": "los angeles, california",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "los-angeles-california"
   },
   {
    "word": "revenge",
    "reach": 31,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "revenge"
   },
   {
    "word": "neo-noir",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "neo-noir"
   },
   {
    "word": "bold",
    "reach": 15,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "bold"
   },
   {
    "word": "audacious",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "audacious"
   },
   {
    "word": "cop",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cop"
   },
   {
    "word": "blunt",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "blunt"
   },
   {
    "word": "conspiracy thriller",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "conspiracy-thriller"
   },
   {
    "word": "mysterious",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mysterious"
   },
   {
    "word": "distressing",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "distressing"
   },
   {
    "word": "secret service",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "secret-service"
   },
   {
    "word": "factual",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "factual"
   },
   {
    "word": "hold-up robbery",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hold-up-robbery"
   },
   {
    "word": "bungee-jump",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "counterfeit",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "counterfeit money",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

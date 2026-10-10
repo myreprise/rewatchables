@@ -1,0 +1,163 @@
+{
+ "word": "ghost",
+ "id": "ghost",
+ "catalogue": 460,
+ "share": 1.3,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.3,
+ "vs_catalogue": 0.2,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 2
+  },
+  {
+   "decade": 1990,
+   "n": 2
+  },
+  {
+   "decade": 2000,
+   "n": 1
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 33.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "afterlife",
+   "reach": 3,
+   "band": "b5",
+   "id": "afterlife"
+  },
+  {
+   "word": "haunted house",
+   "reach": 4,
+   "band": "b5",
+   "id": "haunted-house"
+  },
+  {
+   "word": "haunting",
+   "reach": 2,
+   "band": "b5",
+   "id": "haunting"
+  },
+  {
+   "word": "paranormal investigation",
+   "reach": 2,
+   "band": "b5",
+   "id": "paranormal-investigation"
+  },
+  {
+   "word": "paranormal phenomena",
+   "reach": 5,
+   "band": "b5",
+   "id": "paranormal-phenomena"
+  },
+  {
+   "word": "possession",
+   "reach": 6,
+   "band": "b5",
+   "id": "possession"
+  },
+  {
+   "word": "spiritism",
+   "reach": 2,
+   "band": "b5",
+   "id": "spiritism"
+  },
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1970s"
+  },
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "id": "absurd"
+  },
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "id": "admiring"
+  },
+  {
+   "word": "ambiguous",
+   "reach": 9,
+   "band": "b5",
+   "id": "ambiguous"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "angry",
+   "reach": 8,
+   "band": "b5",
+   "id": "angry"
+  },
+  {
+   "word": "anxious",
+   "reach": 8,
+   "band": "b5",
+   "id": "anxious"
+  }
+ ],
+ "films": [
+  {
+   "id": "ghostbusters-1984",
+   "title": "Ghostbusters",
+   "year": 1984,
+   "poster": "7E8nLijS9AwwUEPu2oFYOVKhdFA.jpg",
+   "tmdb": 7.498
+  },
+  {
+   "id": "field-of-dreams-1989",
+   "title": "Field of Dreams",
+   "year": 1989,
+   "poster": "oeM7nAw6FVFICwUaXKCRkDsKjqO.jpg",
+   "tmdb": 7.125
+  },
+  {
+   "id": "ghost-1990",
+   "title": "Ghost",
+   "year": 1990,
+   "poster": "w9RaPHov8oM5cnzeE27isnFMsvS.jpg",
+   "tmdb": 7.245
+  },
+  {
+   "id": "the-sixth-sense-1999",
+   "title": "The Sixth Sense",
+   "year": 1999,
+   "poster": "vOyfUXNFSnaTk7Vk5AjpsKTUWsu.jpg",
+   "tmdb": 7.954
+  },
+  {
+   "id": "what-lies-beneath-2000",
+   "title": "What Lies Beneath",
+   "year": 2000,
+   "poster": "2L3Cn0CizbSy2E9KJt1SiOSyb6p.jpg",
+   "tmdb": 6.437
+  },
+  {
+   "id": "the-conjuring-2013",
+   "title": "The Conjuring",
+   "year": 2013,
+   "poster": "wVYREutTvI2tmxr6ujrHT704wGF.jpg",
+   "tmdb": 7.542
+  }
+ ]
+}

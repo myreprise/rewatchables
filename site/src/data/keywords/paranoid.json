@@ -1,0 +1,152 @@
+{
+ "word": "paranoid",
+ "id": "paranoid",
+ "catalogue": 460,
+ "share": 1.1,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.0,
+ "vs_catalogue": -0.1,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 2
+  },
+  {
+   "decade": 2000,
+   "n": 2
+  }
+ ],
+ "peak_share": 40.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "based on short story",
+   "reach": 2,
+   "band": "b5",
+   "id": "based-on-short-story"
+  },
+  {
+   "word": "dystopia",
+   "reach": 17,
+   "band": "b3",
+   "id": "dystopia"
+  },
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "id": "murder"
+  },
+  {
+   "word": "2050s",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "alternate future",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "ambiguous",
+   "reach": 9,
+   "band": "b5",
+   "id": "ambiguous"
+  },
+  {
+   "word": "amnesia",
+   "reach": 3,
+   "band": "b5",
+   "id": "amnesia"
+  },
+  {
+   "word": "authoritarian",
+   "reach": 4,
+   "band": "b5",
+   "id": "authoritarian"
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  },
+  {
+   "word": "bar exam",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "bewildered",
+   "reach": 4,
+   "band": "b5",
+   "id": "bewildered"
+  },
+  {
+   "word": "biting",
+   "reach": 4,
+   "band": "b5",
+   "id": "biting"
+  },
+  {
+   "word": "blackmail",
+   "reach": 5,
+   "band": "b5",
+   "id": "blackmail"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-running-man-1987",
+   "title": "The Running Man",
+   "year": 1987,
+   "poster": "GTAUOhO4BN0peJVvxGEQydJvUO.jpg",
+   "tmdb": 6.539
+  },
+  {
+   "id": "the-firm-1993",
+   "title": "The Firm",
+   "year": 1993,
+   "poster": "kFexXCzidkm4LwlgZqxsJsDQB5v.jpg",
+   "tmdb": 6.744
+  },
+  {
+   "id": "the-blair-witch-project-1999",
+   "title": "The Blair Witch Project",
+   "year": 1999,
+   "poster": "9050VGrYjYrEjpOvDZVAngLbg1f.jpg",
+   "tmdb": 6.37
+  },
+  {
+   "id": "memento-2000",
+   "title": "Memento",
+   "year": 2000,
+   "poster": "nzlv62aC0octS5AklAiWpXLX9Z0.jpg",
+   "tmdb": 8.174
+  },
+  {
+   "id": "minority-report-2002",
+   "title": "Minority Report",
+   "year": 2002,
+   "poster": "qtgFcnwh9dAFLocsDk2ySDVS8UF.jpg",
+   "tmdb": 7.355
+  }
+ ]
+}

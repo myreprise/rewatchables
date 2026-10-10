@@ -1,0 +1,112 @@
+{
+ "word": "sister",
+ "id": "sister",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "axe murder",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "butcher",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "connecticut",
+   "reach": 2,
+   "band": "b5",
+   "id": "connecticut"
+  },
+  {
+   "word": "drug addiction",
+   "reach": 4,
+   "band": "b5",
+   "id": "drug-addiction"
+  },
+  {
+   "word": "drug rehabilitation",
+   "reach": 2,
+   "band": "b5",
+   "id": "drug-rehabilitation"
+  },
+  {
+   "word": "interracial marriage",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "maid of honor",
+   "reach": 2,
+   "band": "b5",
+   "id": "maid-of-honor"
+  },
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "id": "murder"
+  },
+  {
+   "word": "rehearsal dinner",
+   "reach": 2,
+   "band": "b5",
+   "id": "rehearsal-dinner"
+  },
+  {
+   "word": "scotland",
+   "reach": 2,
+   "band": "b5",
+   "id": "scotland"
+  },
+  {
+   "word": "sibling relationship",
+   "reach": 7,
+   "band": "b5",
+   "id": "sibling-relationship"
+  },
+  {
+   "word": "sister sister relationship",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "wedding",
+   "reach": 10,
+   "band": "b5",
+   "id": "wedding"
+  }
+ ],
+ "films": [
+  {
+   "id": "so-i-married-an-axe-murderer-1993",
+   "title": "So I Married an Axe Murderer",
+   "year": 1993,
+   "poster": "yv2yakJ8zTT4ycKAsppcGQZmpMz.jpg",
+   "tmdb": 6.1
+  },
+  {
+   "id": "rachel-getting-married-2008",
+   "title": "Rachel Getting Married",
+   "year": 2008,
+   "poster": "bumaq3lqe4YSsq6LlYoge7e9ABk.jpg",
+   "tmdb": 6.301
+  }
+ ]
+}

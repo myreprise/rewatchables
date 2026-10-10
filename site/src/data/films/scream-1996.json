@@ -39,12 +39,27 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Sean Fennessey",
-    "Shea Serrano",
-    "K. Austin Collins",
-    "Jason Concepcion"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Shea Serrano",
+     "id": "shea-serrano"
+    },
+    {
+     "name": "K. Austin Collins",
+     "id": "k-austin-collins"
+    },
+    {
+     "name": "Jason Concepcion",
+     "id": "jason-concepcion"
+    }
    ],
    "note": null
   }
@@ -54,121 +69,141 @@
    "word": "high school",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "high-school"
   },
   {
    "word": "california",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "california"
   },
   {
    "word": "serial killer",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "serial-killer"
   },
   {
    "word": "teenager",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "teenager"
   },
   {
    "word": "whodunit",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "whodunit"
   },
   {
    "word": "halloween",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "halloween"
   },
   {
    "word": "small town",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "small-town"
   },
   {
    "word": "house party",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "house-party"
   },
   {
    "word": "killing",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "killing"
   },
   {
    "word": "riddle",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "riddle"
   },
   {
    "word": "slasher",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "slasher"
   },
   {
    "word": "young adult",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "young-adult"
   },
   {
    "word": "killing spree",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "killing-spree"
   },
   {
    "word": "school",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "school"
   },
   {
    "word": "crime spree",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "crime-spree"
   },
   {
    "word": "news reporter",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "news-reporter"
   },
   {
    "word": "self-referential",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "self-referential"
   },
   {
    "word": "tabloid",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "tabloid"
   },
   {
    "word": "halloween costume",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "phone",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

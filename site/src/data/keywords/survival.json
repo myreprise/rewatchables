@@ -1,0 +1,209 @@
+{
+ "word": "survival",
+ "id": "survival",
+ "catalogue": 460,
+ "share": 2.6,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.3,
+ "vs_catalogue": 0.2,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 2
+  },
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 4
+  },
+  {
+   "decade": 2000,
+   "n": 2
+  },
+  {
+   "decade": 2010,
+   "n": 3
+  }
+ ],
+ "peak_share": 33.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "intense",
+   "reach": 23,
+   "band": "b3",
+   "id": "intense"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "rescue",
+   "reach": 6,
+   "band": "b5",
+   "id": "rescue"
+  },
+  {
+   "word": "airplane crash",
+   "reach": 3,
+   "band": "b5",
+   "id": "airplane-crash"
+  },
+  {
+   "word": "astronaut",
+   "reach": 4,
+   "band": "b5",
+   "id": "astronaut"
+  },
+  {
+   "word": "dystopia",
+   "reach": 17,
+   "band": "b3",
+   "id": "dystopia"
+  },
+  {
+   "word": "loneliness",
+   "reach": 4,
+   "band": "b5",
+   "id": "loneliness"
+  },
+  {
+   "word": "nasa",
+   "reach": 5,
+   "band": "b5",
+   "id": "nasa"
+  },
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "id": "new-york-city"
+  },
+  {
+   "word": "post-apocalyptic future",
+   "reach": 4,
+   "band": "b5",
+   "id": "post-apocalyptic-future"
+  },
+  {
+   "word": "space",
+   "reach": 6,
+   "band": "b5",
+   "id": "space"
+  },
+  {
+   "word": "stranded",
+   "reach": 2,
+   "band": "b5",
+   "id": "stranded"
+  },
+  {
+   "word": "violence",
+   "reach": 8,
+   "band": "b5",
+   "id": "violence"
+  }
+ ],
+ "films": [
+  {
+   "id": "jeremiah-johnson-1972",
+   "title": "Jeremiah Johnson",
+   "year": 1972,
+   "poster": "fANj1S3UmBB51wnKxYRKtw8LMBn.jpg",
+   "tmdb": 7.308
+  },
+  {
+   "id": "the-warriors-1979",
+   "title": "The Warriors",
+   "year": 1979,
+   "poster": "d6YZpBq4BhQr1K985J3CuL1cA8J.jpg",
+   "tmdb": 7.682
+  },
+  {
+   "id": "predator-1987",
+   "title": "Predator",
+   "year": 1987,
+   "poster": "k3mW4qfJo6SKqe6laRyNGnbB9n5.jpg",
+   "tmdb": 7.577
+  },
+  {
+   "id": "alive-1993",
+   "title": "Alive",
+   "year": 1993,
+   "poster": "uQACcCZqd7WCTRin9xRIW5gr1bd.jpg",
+   "tmdb": 6.885
+  },
+  {
+   "id": "apollo-13-1995",
+   "title": "Apollo 13",
+   "year": 1995,
+   "poster": "tVeKscCm2fY1xDXZk8PgnZ87h9S.jpg",
+   "tmdb": 7.463
+  },
+  {
+   "id": "the-edge-1997",
+   "title": "The Edge",
+   "year": 1997,
+   "poster": "zplJqfuUyqzW0D4jX3W1afl0d7b.jpg",
+   "tmdb": 6.861
+  },
+  {
+   "id": "the-blair-witch-project-1999",
+   "title": "The Blair Witch Project",
+   "year": 1999,
+   "poster": "9050VGrYjYrEjpOvDZVAngLbg1f.jpg",
+   "tmdb": 6.37
+  },
+  {
+   "id": "cast-away-2000",
+   "title": "Cast Away",
+   "year": 2000,
+   "poster": "7lLJgKnAicAcR5UEuo8xhSMj18w.jpg",
+   "tmdb": 7.667
+  },
+  {
+   "id": "i-am-legend-2007",
+   "title": "I Am Legend",
+   "year": 2007,
+   "poster": "iPDkaSdKk2jRLTM65UOEoKtsIZ8.jpg",
+   "tmdb": 7.223
+  },
+  {
+   "id": "mad-max-fury-road-2015",
+   "title": "Mad Max: Fury Road",
+   "year": 2015,
+   "poster": "ulcAi4dKpAjHwYGS08vNyx9H6I9.jpg",
+   "tmdb": 7.637
+  },
+  {
+   "id": "the-martian-2015",
+   "title": "The Martian",
+   "year": 2015,
+   "poster": "fASz8A0yFE3QB6LgGoOfwvFSseV.jpg",
+   "tmdb": 7.706
+  },
+  {
+   "id": "dunkirk-2017",
+   "title": "Dunkirk",
+   "year": 2017,
+   "poster": "b4Oe15CGLL61Ped0RAS9JpqdmCt.jpg",
+   "tmdb": 7.451
+  }
+ ]
+}

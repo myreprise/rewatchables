@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -51,259 +60,302 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "psychological thriller",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "psychological-thriller"
   },
   {
    "word": "frightened",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "frightened"
   },
   {
    "word": "alcoholic",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alcoholic"
   },
   {
    "word": "ambiguous",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ambiguous"
   },
   {
    "word": "disturbed",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "disturbed"
   },
   {
    "word": "supernatural horror",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "supernatural-horror"
   },
   {
    "word": "alcoholism",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alcoholism"
   },
   {
    "word": "child abuse",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "child-abuse"
   },
   {
    "word": "dreary",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dreary"
   },
   {
    "word": "surrealism",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "surrealism"
   },
   {
    "word": "loneliness",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "loneliness"
   },
   {
    "word": "domestic violence",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "domestic-violence"
   },
   {
    "word": "hotel",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hotel"
   },
   {
    "word": "mother son relationship",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mother-son-relationship"
   },
   {
    "word": "telepathy",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "telepathy"
   },
   {
    "word": "twins",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "twins"
   },
   {
    "word": "writer",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "writer"
   },
   {
    "word": "blizzard",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "blizzard"
   },
   {
    "word": "colorado",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "colorado"
   },
   {
    "word": "ghost child",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ghost-child"
   },
   {
    "word": "hypothermia",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hypothermia"
   },
   {
    "word": "isolation",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "isolation"
   },
   {
    "word": "subjective",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "subjective"
   },
   {
    "word": "supernatural power",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "supernatural-power"
   },
   {
    "word": "vision",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "vision"
   },
   {
    "word": "avant garde",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "caretaker",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "delusion",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "extrasensory perception",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "haunted hotel",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "identical twins",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "labyrinth",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "motherhood",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "nuclear family",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "pediatrician",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "postmodern",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "premonition",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "psychic power",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "psychological disintegration",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "seclusion",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "snowstorm",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "writer's block",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

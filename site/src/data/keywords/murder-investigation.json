@@ -1,0 +1,134 @@
+{
+ "word": "murder investigation",
+ "id": "murder-investigation",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 6.9,
+ "vs_catalogue": -0.2,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 2
+  },
+  {
+   "decade": 1990,
+   "n": 1
+  }
+ ],
+ "peak_share": 67.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "buddy cop",
+   "reach": 11,
+   "band": "b5",
+   "id": "buddy-cop"
+  },
+  {
+   "word": "foot chase",
+   "reach": 3,
+   "band": "b5",
+   "id": "foot-chase"
+  },
+  {
+   "word": "gunfight",
+   "reach": 7,
+   "band": "b5",
+   "id": "gunfight"
+  },
+  {
+   "word": "narcotics detective",
+   "reach": 3,
+   "band": "b5",
+   "id": "narcotics-detective"
+  },
+  {
+   "word": "strip club",
+   "reach": 6,
+   "band": "b5",
+   "id": "strip-club"
+  },
+  {
+   "word": "undercover",
+   "reach": 13,
+   "band": "b4",
+   "id": "undercover"
+  },
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "id": "absurd"
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "ambiguity",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "american giallo",
+   "reach": 3,
+   "band": "b5",
+   "id": "american-giallo"
+  },
+  {
+   "word": "art gallery",
+   "reach": 3,
+   "band": "b5",
+   "id": "art-gallery"
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  },
+  {
+   "word": "bar fight",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "bdsm",
+   "reach": 2,
+   "band": "b5",
+   "id": "bdsm"
+  }
+ ],
+ "films": [
+  {
+   "id": "cruising-1980",
+   "title": "Cruising",
+   "year": 1980,
+   "poster": "bb9CND0WyfwdHOZY5XmP4Qn8taz.jpg",
+   "tmdb": 6.586
+  },
+  {
+   "id": "beverly-hills-cop-1984",
+   "title": "Beverly Hills Cop",
+   "year": 1984,
+   "poster": "eBJEvKkhQ0tUt1dBAcTEYW6kCle.jpg",
+   "tmdb": 7.211
+  },
+  {
+   "id": "bad-boys-1995",
+   "title": "Bad Boys",
+   "year": 1995,
+   "poster": "x1ygBecKHfXX4M2kRhmFKWfWbJc.jpg",
+   "tmdb": 6.831
+  }
+ ]
+}

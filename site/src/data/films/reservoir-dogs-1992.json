@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -51,121 +60,141 @@
    "word": "suspenseful",
    "reach": 30,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "suspenseful"
   },
   {
    "word": "heist",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "heist"
   },
   {
    "word": "psychopath",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "psychopath"
   },
   {
    "word": "antagonistic",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "antagonistic"
   },
   {
    "word": "betrayal",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "betrayal"
   },
   {
    "word": "angry",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "angry"
   },
   {
    "word": "escape",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "escape"
   },
   {
    "word": "desperate",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "desperate"
   },
   {
    "word": "thief",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "thief"
   },
   {
    "word": "gang",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "gang"
   },
   {
    "word": "nonlinear timeline",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nonlinear-timeline"
   },
   {
    "word": "based on short film",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "based-on-short-film"
   },
   {
    "word": "told in flashback",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "told-in-flashback"
   },
   {
    "word": "warehouse",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "warehouse"
   },
   {
    "word": "botched robbery",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "ear",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "heist gone wrong",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "jewelry",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "plan gone wrong",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "traitor",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

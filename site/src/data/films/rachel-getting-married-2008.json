@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Amanda Dobbins",
-    "Wesley Morris"
+    {
+     "name": "Amanda Dobbins",
+     "id": "amanda-dobbins"
+    },
+    {
+     "name": "Wesley Morris",
+     "id": "wesley-morris"
+    }
    ],
    "note": "\"Fucked up Family February\" month"
   }
@@ -51,61 +60,71 @@
    "word": "wedding",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "wedding"
   },
   {
    "word": "sibling relationship",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sibling-relationship"
   },
   {
    "word": "drug addiction",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drug-addiction"
   },
   {
    "word": "connecticut",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "connecticut"
   },
   {
    "word": "drug rehabilitation",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drug-rehabilitation"
   },
   {
    "word": "maid of honor",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "maid-of-honor"
   },
   {
    "word": "rehearsal dinner",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rehearsal-dinner"
   },
   {
    "word": "sister",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "sister"
   },
   {
    "word": "interracial marriage",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "sister sister relationship",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

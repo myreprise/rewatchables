@@ -1,0 +1,118 @@
+{
+ "word": "forest",
+ "id": "forest",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "agent",
+   "reach": 3,
+   "band": "b5",
+   "id": "agent"
+  },
+  {
+   "word": "ambiguous",
+   "reach": 9,
+   "band": "b5",
+   "id": "ambiguous"
+  },
+  {
+   "word": "bow and arrow",
+   "reach": 2,
+   "band": "b5",
+   "id": "bow-and-arrow"
+  },
+  {
+   "word": "camping",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "chase",
+   "reach": 7,
+   "band": "b5",
+   "id": "chase"
+  },
+  {
+   "word": "denunciation",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "depressing",
+   "reach": 2,
+   "band": "b5",
+   "id": "depressing"
+  },
+  {
+   "word": "electrical torture",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "evil",
+   "reach": 5,
+   "band": "b5",
+   "id": "evil"
+  },
+  {
+   "word": "exploding body",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "explosion",
+   "reach": 8,
+   "band": "b5",
+   "id": "explosion"
+  },
+  {
+   "word": "faux documentary",
+   "reach": 2,
+   "band": "b5",
+   "id": "faux-documentary"
+  },
+  {
+   "word": "fear",
+   "reach": 3,
+   "band": "b5",
+   "id": "fear"
+  },
+  {
+   "word": "folk horror",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "rambo-first-blood-part-ii-1985",
+   "title": "Rambo: First Blood Part II",
+   "year": 1985,
+   "poster": "fVwRtWqEPdsCH21BVDGqgkAQcff.jpg",
+   "tmdb": 6.67
+  },
+  {
+   "id": "the-blair-witch-project-1999",
+   "title": "The Blair Witch Project",
+   "year": 1999,
+   "poster": "9050VGrYjYrEjpOvDZVAngLbg1f.jpg",
+   "tmdb": 6.37
+  }
+ ]
+}

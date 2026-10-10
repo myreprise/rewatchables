@@ -1,0 +1,118 @@
+{
+ "word": "2000s",
+ "id": "2000s",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "ai rebellion",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "artificial intelligence (a.i.)",
+   "reach": 4,
+   "band": "b5",
+   "id": "artificial-intelligence-a-i"
+  },
+  {
+   "word": "astronaut",
+   "reach": 4,
+   "band": "b5",
+   "id": "astronaut"
+  },
+  {
+   "word": "baseball",
+   "reach": 10,
+   "band": "b5",
+   "id": "baseball"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "california",
+   "reach": 16,
+   "band": "b4",
+   "id": "california"
+  },
+  {
+   "word": "complicated",
+   "reach": 2,
+   "band": "b5",
+   "id": "complicated"
+  },
+  {
+   "word": "evolution",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "inspirational",
+   "reach": 14,
+   "band": "b4",
+   "id": "inspirational"
+  },
+  {
+   "word": "job transfer",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "jupiter",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "major league baseball (mlb)",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "man vs machine",
+   "reach": 4,
+   "band": "b5",
+   "id": "man-vs-machine"
+  }
+ ],
+ "films": [
+  {
+   "id": "2001-a-space-odyssey-1968",
+   "title": "2001: A Space Odyssey",
+   "year": 1968,
+   "poster": "ve72VxNqjGM69Uky4WTo2bK6rfq.jpg",
+   "tmdb": 8.045
+  },
+  {
+   "id": "moneyball-2011",
+   "title": "Moneyball",
+   "year": 2011,
+   "poster": "4yIQq1e6iOcaZ5rLDG3lZBP3j7a.jpg",
+   "tmdb": 7.299
+  }
+ ]
+}

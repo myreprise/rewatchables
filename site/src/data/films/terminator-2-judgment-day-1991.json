@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Van Lathan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Van Lathan",
+     "id": "van-lathan"
+    }
    ],
    "note": null
   }
@@ -52,139 +61,162 @@
    "word": "suspenseful",
    "reach": 30,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "suspenseful"
   },
   {
    "word": "sequel",
    "reach": 28,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "sequel"
   },
   {
    "word": "action hero",
    "reach": 21,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "action-hero"
   },
   {
    "word": "dystopia",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "dystopia"
   },
   {
    "word": "good versus evil",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "good-versus-evil"
   },
   {
    "word": "time travel",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "time-travel"
   },
   {
    "word": "villain",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "villain"
   },
   {
    "word": "urban setting",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "urban-setting"
   },
   {
    "word": "artificial intelligence (a.i.)",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "artificial-intelligence-a-i"
   },
   {
    "word": "man vs machine",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "man-vs-machine"
   },
   {
    "word": "post-apocalyptic future",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "post-apocalyptic-future"
   },
   {
    "word": "cyborg",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cyborg"
   },
   {
    "word": "nuclear weapons",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nuclear-weapons"
   },
   {
    "word": "shotgun",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "shotgun"
   },
   {
    "word": "fictional war",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fictional-war"
   },
   {
    "word": "mental institution",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mental-institution"
   },
   {
    "word": "morphing",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "morphing"
   },
   {
    "word": "savior",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "savior"
   },
   {
    "word": "catch phrase",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "juvenile delinquent",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "moral ambiguity",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "shape shifter",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "troubled teen",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

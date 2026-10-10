@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": null
   }
@@ -50,79 +56,92 @@
    "word": "police",
    "reach": 22,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "police"
   },
   {
    "word": "serial killer",
    "reach": 14,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "serial-killer"
   },
   {
    "word": "marijuana",
    "reach": 10,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "marijuana"
   },
   {
    "word": "family",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "family"
   },
   {
    "word": "halloween",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "halloween"
   },
   {
    "word": "stalking",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "stalking"
   },
   {
    "word": "evil",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "evil"
   },
   {
    "word": "mask",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mask"
   },
   {
    "word": "killing spree",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "killing-spree"
   },
   {
    "word": "babysitter",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "babysitter"
   },
   {
    "word": "escaped killer",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "escaped-killer"
   },
   {
    "word": "psychotic",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "psychotic"
   },
   {
    "word": "maniac",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -1,0 +1,118 @@
+{
+ "word": "pretending to be gay",
+ "id": "pretending-to-be-gay",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "id": "new-york-city"
+  },
+  {
+   "word": "addiction",
+   "reach": 5,
+   "band": "b5",
+   "id": "addiction"
+  },
+  {
+   "word": "ambiguity",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "american giallo",
+   "reach": 3,
+   "band": "b5",
+   "id": "american-giallo"
+  },
+  {
+   "word": "bdsm",
+   "reach": 2,
+   "band": "b5",
+   "id": "bdsm"
+  },
+  {
+   "word": "cruising",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dancer",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "death",
+   "reach": 6,
+   "band": "b5",
+   "id": "death"
+  },
+  {
+   "word": "depression",
+   "reach": 3,
+   "band": "b5",
+   "id": "depression"
+  },
+  {
+   "word": "detective",
+   "reach": 17,
+   "band": "b3",
+   "id": "detective"
+  },
+  {
+   "word": "disco",
+   "reach": 3,
+   "band": "b5",
+   "id": "disco"
+  },
+  {
+   "word": "drugs",
+   "reach": 17,
+   "band": "b3",
+   "id": "drugs"
+  },
+  {
+   "word": "exploitation",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "fetish",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "cruising-1980",
+   "title": "Cruising",
+   "year": 1980,
+   "poster": "bb9CND0WyfwdHOZY5XmP4Qn8taz.jpg",
+   "tmdb": 6.586
+  },
+  {
+   "id": "the-last-days-of-disco-1998",
+   "title": "The Last Days of Disco",
+   "year": 1998,
+   "poster": "lReaAZCsA0GXvJrxzSMsFxwgh6F.jpg",
+   "tmdb": 6.3
+  }
+ ]
+}

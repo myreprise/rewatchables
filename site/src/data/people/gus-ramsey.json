@@ -1,0 +1,36 @@
+{
+ "name": "Gus Ramsey",
+ "id": "gus-ramsey",
+ "episodes": 1,
+ "share": 0.0021,
+ "hosted": 0,
+ "first": "2022-05-25",
+ "last": "2022-05-25",
+ "shelf": [
+  {
+   "id": "rocky-iii-1982",
+   "title": "Rocky III",
+   "year": 1982,
+   "poster": "uqw16i2kmwVqkJHzjzbDU4xZ0Pl.jpg",
+   "episode": 255,
+   "aired": "2022-05-25"
+  }
+ ],
+ "company": [
+  {
+   "name": "Cousin Sal",
+   "id": "cousin-sal",
+   "episodes": 1
+  }
+ ],
+ "regular": false,
+ "lean_floor": 15,
+ "leans": [],
+ "verdict_floor": 8,
+ "verdicts": {
+  "cruise": 0,
+  "hanks": 0,
+  "ties": 0,
+  "n": 0
+ }
+}

@@ -41,9 +41,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": null
   }
@@ -53,91 +59,106 @@
    "word": "suspenseful",
    "reach": 30,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "suspenseful"
   },
   {
    "word": "intense",
    "reach": 23,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "intense"
   },
   {
    "word": "aggressive",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "aggressive"
   },
   {
    "word": "antagonistic",
    "reach": 13,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "antagonistic"
   },
   {
    "word": "assassin",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "assassin"
   },
   {
    "word": "central intelligence agency (cia)",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "central-intelligence-agency-cia"
   },
   {
    "word": "usa president",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "usa-president"
   },
   {
    "word": "stalking",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "stalking"
   },
   {
    "word": "mysterious",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mysterious"
   },
   {
    "word": "bewildered",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bewildered"
   },
   {
    "word": "bodyguard",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "bodyguard"
   },
   {
    "word": "secret service",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "secret-service"
   },
   {
    "word": "the white house",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "the-white-house"
   },
   {
    "word": "election",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "election"
   },
   {
    "word": "u.s. secret service agent",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

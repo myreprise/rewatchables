@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Shea Serrano",
-    "Jason Concepcion"
+    {
+     "name": "Shea Serrano",
+     "id": "shea-serrano"
+    },
+    {
+     "name": "Jason Concepcion",
+     "id": "jason-concepcion"
+    }
    ],
    "note": null
   }
@@ -52,157 +61,183 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "action hero",
    "reach": 21,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "action-hero"
   },
   {
    "word": "dystopia",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "dystopia"
   },
   {
    "word": "fake identity",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fake-identity"
   },
   {
    "word": "secret agent",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "secret-agent"
   },
   {
    "word": "cyberpunk",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cyberpunk"
   },
   {
    "word": "space travel",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "space-travel"
   },
   {
    "word": "double life",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "double-life"
   },
   {
    "word": "falsely accused",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "falsely-accused"
   },
   {
    "word": "telepathy",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "telepathy"
   },
   {
    "word": "fictional war",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fictional-war"
   },
   {
    "word": "futuristic",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "futuristic"
   },
   {
    "word": "hologram",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hologram"
   },
   {
    "word": "planet mars",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "planet-mars"
   },
   {
    "word": "resistance",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "resistance"
   },
   {
    "word": "space colony",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "space-colony"
   },
   {
    "word": "villainess",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "villainess"
   },
   {
    "word": "2080s",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "false memory",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "implanted memory",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "metro cdmx",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mutant",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "oxygen",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "robot cop",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "utopia",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "virtual world",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

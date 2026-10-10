@@ -1,0 +1,134 @@
+{
+ "word": "mockumentary",
+ "id": "mockumentary",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 2000,
+ "avg_tmdb": 6.9,
+ "vs_catalogue": -0.2,
+ "decades": [
+  {
+   "decade": 2000,
+   "n": 2
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 67.0,
+ "catalogue_peak_share": 17.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "aftercreditsstinger",
+   "reach": 18,
+   "band": "b3",
+   "id": "aftercreditsstinger"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "animal show",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "antisemitism",
+   "reach": 2,
+   "band": "b5",
+   "id": "antisemitism"
+  },
+  {
+   "word": "bear",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "birthday",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "birthday party",
+   "reach": 2,
+   "band": "b5",
+   "id": "birthday-party"
+  },
+  {
+   "word": "california",
+   "reach": 16,
+   "band": "b4",
+   "id": "california"
+  },
+  {
+   "word": "chicken",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "comedy",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "demeanor course",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dog",
+   "reach": 5,
+   "band": "b5",
+   "id": "dog"
+  },
+  {
+   "word": "dog show",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "driving school",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "best-in-show-2000",
+   "title": "Best in Show",
+   "year": 2000,
+   "poster": "2SqHjWWqfJjQE6zLCbQR9HMla4Q.jpg",
+   "tmdb": 6.886
+  },
+  {
+   "id": "borat-cultural-learnings-of-america-for-make-benefit-glorious-nation-of-kazakhstan-2006",
+   "title": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
+   "year": 2006,
+   "poster": "7g9kBHMN2KTr5KUf8aen187Mdn.jpg",
+   "tmdb": 6.788
+  },
+  {
+   "id": "project-x-2012",
+   "title": "Project X",
+   "year": 2012,
+   "poster": "lUPDGT3lyRrq8SvWuNWG2DP64bR.jpg",
+   "tmdb": 6.924
+  }
+ ]
+}

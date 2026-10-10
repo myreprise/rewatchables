@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Shea Serrano"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Shea Serrano",
+     "id": "shea-serrano"
+    }
    ],
    "note": null
   }
@@ -52,145 +61,169 @@
    "word": "new york city",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "new-york-city"
   },
   {
    "word": "suspenseful",
    "reach": 30,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "suspenseful"
   },
   {
    "word": "aggressive",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "aggressive"
   },
   {
    "word": "gangster",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "gangster"
   },
   {
    "word": "dystopia",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "dystopia"
   },
   {
    "word": "kidnapping",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "kidnapping"
   },
   {
    "word": "hostage",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hostage"
   },
   {
    "word": "martial arts",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "martial-arts"
   },
   {
    "word": "thoughtful",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "thoughtful"
   },
   {
    "word": "anti hero",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "anti-hero"
   },
   {
    "word": "street gang",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "street-gang"
   },
   {
    "word": "usa president",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "usa-president"
   },
   {
    "word": "taxi",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "taxi"
   },
   {
    "word": "villain",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "villain"
   },
   {
    "word": "urban setting",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "urban-setting"
   },
   {
    "word": "cyberpunk",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cyberpunk"
   },
   {
    "word": "rescue mission",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rescue-mission"
   },
   {
    "word": "post-apocalyptic future",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "post-apocalyptic-future"
   },
   {
    "word": "police operation",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "police-operation"
   },
   {
    "word": "war veteran",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "war-veteran"
   },
   {
    "word": "wrestling",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "wrestling"
   },
   {
    "word": "attempt to escape",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "attempt-to-escape"
   },
   {
    "word": "liberation of prisoners",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "liberation-of-prisoners"
   },
   {
    "word": "reluctant hero",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

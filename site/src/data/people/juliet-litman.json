@@ -1,0 +1,318 @@
+{
+ "name": "Juliet Litman",
+ "id": "juliet-litman",
+ "episodes": 30,
+ "share": 0.0616,
+ "hosted": 12,
+ "first": "2016-12-23",
+ "last": "2026-09-28",
+ "shelf": [
+  {
+   "id": "13-going-on-30-2004",
+   "title": "13 Going on 30",
+   "year": 2004,
+   "poster": "iNZdSIfhSCMtRILDNyhLn8UKeSG.jpg",
+   "episode": 483,
+   "aired": "2026-09-28"
+  },
+  {
+   "id": "notting-hill-1999",
+   "title": "Notting Hill",
+   "year": 1999,
+   "poster": "hHRIf2XHeQMbyRb3HUx19SF5Ujw.jpg",
+   "episode": 73,
+   "aired": "2024-07-19"
+  },
+  {
+   "id": "cruel-intentions-1999",
+   "title": "Cruel Intentions",
+   "year": 1999,
+   "poster": "76cCsRtQ5MJBAqoigojXsLXLJwh.jpg",
+   "episode": 70,
+   "aired": "2023-08-22"
+  },
+  {
+   "id": "adventureland-2009",
+   "title": "Adventureland",
+   "year": 2009,
+   "poster": "eeSJNAR1aWcgANq26KWIHm3cbyB.jpg",
+   "episode": 300,
+   "aired": "2023-03-21"
+  },
+  {
+   "id": "sleepless-in-seattle-1993",
+   "title": "Sleepless in Seattle",
+   "year": 1993,
+   "poster": "jAXfku1u1uaLGh4cUmK0ESf1pPu.jpg",
+   "episode": 295,
+   "aired": "2023-02-14"
+  },
+  {
+   "id": "pitch-perfect-2012",
+   "title": "Pitch Perfect",
+   "year": 2012,
+   "poster": "gsFoJk9g8W3zgaipRrrURk7LbiF.jpg",
+   "episode": 276,
+   "aired": "2022-10-04"
+  },
+  {
+   "id": "grease-1978",
+   "title": "Grease",
+   "year": 1978,
+   "poster": "2rM7fQKpb7cs1Iq7IBqub9LFDzJ.jpg",
+   "episode": 269,
+   "aired": "2022-08-15"
+  },
+  {
+   "id": "school-ties-1992",
+   "title": "School Ties",
+   "year": 1992,
+   "poster": "h9u6VSyEPlF5L69QSzOh1eo4F5q.jpg",
+   "episode": 268,
+   "aired": "2022-08-08"
+  },
+  {
+   "id": "cant-buy-me-love-1987",
+   "title": "Can't Buy Me Love",
+   "year": 1987,
+   "poster": "qK3yiqo84U3twOOKOx81c407Hpr.jpg",
+   "episode": 267,
+   "aired": "2022-08-04"
+  },
+  {
+   "id": "knocked-up-2007",
+   "title": "Knocked Up",
+   "year": 2007,
+   "poster": "b4OaXw2MW97VvIiZE0Sbn1NfxSh.jpg",
+   "episode": 258,
+   "aired": "2022-06-07"
+  },
+  {
+   "id": "legally-blonde-2001",
+   "title": "Legally Blonde",
+   "year": 2001,
+   "poster": "9ohlMrJHQqKhfUKh7Zr3JQqHNLZ.jpg",
+   "episode": 211,
+   "aired": "2021-07-13"
+  },
+  {
+   "id": "easy-a-2010",
+   "title": "Easy A",
+   "year": 2010,
+   "poster": "v5f1qO6NJnxWgONgkYg21TW39DT.jpg",
+   "episode": 164,
+   "aired": "2020-09-17"
+  },
+  {
+   "id": "while-you-were-sleeping-1995",
+   "title": "While You Were Sleeping",
+   "year": 1995,
+   "poster": "qNGO3ETcNwlWqK2kNRpbJSJRlos.jpg",
+   "episode": 136,
+   "aired": "2020-05-01"
+  },
+  {
+   "id": "the-holiday-2006",
+   "title": "The Holiday",
+   "year": 2006,
+   "poster": "h1ITOpvJN3Tw4Sy60w2QTfYMvdd.jpg",
+   "episode": 107,
+   "aired": "2019-11-13"
+  },
+  {
+   "id": "never-been-kissed-1999",
+   "title": "Never Been Kissed",
+   "year": 1999,
+   "poster": "6BngDhDNfbBjhVFWDT2yMve32vi.jpg",
+   "episode": 98,
+   "aired": "2019-09-19"
+  },
+  {
+   "id": "when-harry-met-sally-1989",
+   "title": "When Harry Met Sally...",
+   "year": 1989,
+   "poster": "rFOiFUhTMtDetqCGClC9PIgnC1P.jpg",
+   "episode": 84,
+   "aired": "2019-07-08"
+  },
+  {
+   "id": "the-notebook-2004",
+   "title": "The Notebook",
+   "year": 2004,
+   "poster": "rNzQyW4f8B8cQeg7Dgj3n6eT5k9.jpg",
+   "episode": 82,
+   "aired": "2019-06-24"
+  },
+  {
+   "id": "notting-hill-1999",
+   "title": "Notting Hill",
+   "year": 1999,
+   "poster": "hHRIf2XHeQMbyRb3HUx19SF5Ujw.jpg",
+   "episode": 73,
+   "aired": "2019-05-16"
+  },
+  {
+   "id": "cruel-intentions-1999",
+   "title": "Cruel Intentions",
+   "year": 1999,
+   "poster": "76cCsRtQ5MJBAqoigojXsLXLJwh.jpg",
+   "episode": 70,
+   "aired": "2019-05-02"
+  },
+  {
+   "id": "mean-girls-2004",
+   "title": "Mean Girls",
+   "year": 2004,
+   "poster": "2ZkuQXvVhh45uSvkBej4S7Ix1NJ.jpg",
+   "episode": 69,
+   "aired": "2019-04-29"
+  },
+  {
+   "id": "pretty-woman-1990",
+   "title": "Pretty Woman",
+   "year": 1990,
+   "poster": "hVHUfT801LQATGd26VPzhorIYza.jpg",
+   "episode": 65,
+   "aired": "2019-03-25"
+  },
+  {
+   "id": "my-best-friends-wedding-1997",
+   "title": "My Best Friend's Wedding",
+   "year": 1997,
+   "poster": "b5g4bp8gS5ovMyR5439AII6zQ3n.jpg",
+   "episode": 43,
+   "aired": "2018-08-09"
+  },
+  {
+   "id": "the-devil-wears-prada-2006",
+   "title": "The Devil Wears Prada",
+   "year": 2006,
+   "poster": "8912AsVuS7Sj915apArUFbv6F9L.jpg",
+   "episode": 37,
+   "aired": "2018-06-28"
+  },
+  {
+   "id": "oceans-eleven-2001",
+   "title": "Ocean's Eleven",
+   "year": 2001,
+   "poster": "hQQCdZrsHtZyR6NbKH2YyCqd2fR.jpg",
+   "episode": 34,
+   "aired": "2018-06-07"
+  },
+  {
+   "id": "the-princess-bride-1987",
+   "title": "The Princess Bride",
+   "year": 1987,
+   "poster": "2FC9L9MrjBoGHYjYZjdWQdopVYb.jpg",
+   "episode": 31,
+   "aired": "2018-04-11"
+  },
+  {
+   "id": "10-things-i-hate-about-you-1999",
+   "title": "10 Things I Hate About You",
+   "year": 1999,
+   "poster": "ujERk3aKABXU3NDXOAxEQYTHe9A.jpg",
+   "episode": 22,
+   "aired": "2018-01-09"
+  },
+  {
+   "id": "clueless-1995",
+   "title": "Clueless",
+   "year": 1995,
+   "poster": "8AwVTcgpTnmeOs4TdTWqcFDXEsA.jpg",
+   "episode": 14,
+   "aired": "2017-10-05"
+  },
+  {
+   "id": "titanic-1997",
+   "title": "Titanic",
+   "year": 1997,
+   "poster": "9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
+   "episode": 13,
+   "aired": "2017-09-28"
+  },
+  {
+   "id": "youve-got-mail-1998",
+   "title": "You've Got Mail",
+   "year": 1998,
+   "poster": "e2uVtH6TpMfUl7WeOM70ezkcjsU.jpg",
+   "episode": 10,
+   "aired": "2017-08-31"
+  },
+  {
+   "id": "jerry-maguire-1996",
+   "title": "Jerry Maguire",
+   "year": 1996,
+   "poster": "lABvGN7fDk5ifnwZoxij6G96t2w.jpg",
+   "episode": 2,
+   "aired": "2016-12-23"
+  }
+ ],
+ "company": [
+  {
+   "name": "Amanda Dobbins",
+   "id": "amanda-dobbins",
+   "episodes": 22
+  },
+  {
+   "name": "Andrew Gruttadaro",
+   "id": "andrew-gruttadaro",
+   "episodes": 2
+  },
+  {
+   "name": "Chris Ryan",
+   "id": "chris-ryan",
+   "episodes": 2
+  },
+  {
+   "name": "K. Austin Collins",
+   "id": "k-austin-collins",
+   "episodes": 2
+  },
+  {
+   "name": "Sean Fennessey",
+   "id": "sean-fennessey",
+   "episodes": 1
+  },
+  {
+   "name": "Jodi Walker",
+   "id": "jodi-walker",
+   "episodes": 1
+  }
+ ],
+ "regular": true,
+ "lean_floor": 15,
+ "leans": [
+  {
+   "text": "Comedy 77% vs 31%",
+   "up": true
+  },
+  {
+   "text": "Romance 80% vs 16%",
+   "up": true
+  },
+  {
+   "text": "Thriller 3% vs 39%",
+   "up": false
+  },
+  {
+   "text": "Action 0% vs 27%",
+   "up": false
+  },
+  {
+   "text": "Crime 3% vs 28%",
+   "up": false
+  },
+  {
+   "text": "films 5 yr newer",
+   "up": false
+  }
+ ],
+ "verdict_floor": 8,
+ "verdicts": {
+  "cruise": 0,
+  "hanks": 0,
+  "ties": 0,
+  "n": 0
+ }
+}

@@ -1,0 +1,153 @@
+{
+ "word": "freedom",
+ "id": "freedom",
+ "catalogue": 460,
+ "share": 0.9,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.8,
+ "vs_catalogue": 0.7,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 0
+  },
+  {
+   "decade": 1990,
+   "n": 2
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 50.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "prison escape",
+   "reach": 5,
+   "band": "b5",
+   "id": "prison-escape"
+  },
+  {
+   "word": "rebellion",
+   "reach": 2,
+   "band": "b5",
+   "id": "rebellion"
+  },
+  {
+   "word": "1940s",
+   "reach": 5,
+   "band": "b5",
+   "id": "1940s"
+  },
+  {
+   "word": "android",
+   "reach": 4,
+   "band": "b5",
+   "id": "android"
+  },
+  {
+   "word": "arizona",
+   "reach": 2,
+   "band": "b5",
+   "id": "arizona"
+  },
+  {
+   "word": "authority",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "car race",
+   "reach": 6,
+   "band": "b5",
+   "id": "car-race"
+  },
+  {
+   "word": "cars",
+   "reach": 3,
+   "band": "b5",
+   "id": "cars"
+  },
+  {
+   "word": "chaos",
+   "reach": 4,
+   "band": "b5",
+   "id": "chaos"
+  },
+  {
+   "word": "corruption",
+   "reach": 12,
+   "band": "b4",
+   "id": "corruption"
+  },
+  {
+   "word": "cult",
+   "reach": 4,
+   "band": "b5",
+   "id": "cult"
+  },
+  {
+   "word": "delinquent",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "desert",
+   "reach": 4,
+   "band": "b5",
+   "id": "desert"
+  }
+ ],
+ "films": [
+  {
+   "id": "star-wars-1977",
+   "title": "Star Wars",
+   "year": 1977,
+   "poster": "fai0rspsNeJCS69wHNjOdWxcI7P.jpg",
+   "tmdb": 8.207
+  },
+  {
+   "id": "pump-up-the-volume-1990",
+   "title": "Pump Up the Volume",
+   "year": 1990,
+   "poster": "s1SyKrARJG2R7FyS4zkNdaekLAW.jpg",
+   "tmdb": 7.1
+  },
+  {
+   "id": "the-shawshank-redemption-1994",
+   "title": "The Shawshank Redemption",
+   "year": 1994,
+   "poster": "9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
+   "tmdb": 8.729
+  },
+  {
+   "id": "fast-five-2011",
+   "title": "Fast Five",
+   "year": 2011,
+   "poster": "gEfQjjQwY7fh5bI4GlG0RrBu7Pz.jpg",
+   "tmdb": 7.244
+  }
+ ]
+}

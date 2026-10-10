@@ -1,0 +1,118 @@
+{
+ "word": "mole",
+ "id": "mole",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "remake",
+   "reach": 13,
+   "band": "b4",
+   "id": "remake"
+  },
+  {
+   "word": "angry",
+   "reach": 8,
+   "band": "b5",
+   "id": "angry"
+  },
+  {
+   "word": "authoritarian",
+   "reach": 4,
+   "band": "b5",
+   "id": "authoritarian"
+  },
+  {
+   "word": "boston, massachusetts",
+   "reach": 7,
+   "band": "b5",
+   "id": "boston-massachusetts"
+  },
+  {
+   "word": "cold war era",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "complex",
+   "reach": 5,
+   "band": "b5",
+   "id": "complex"
+  },
+  {
+   "word": "crime boss",
+   "reach": 3,
+   "band": "b5",
+   "id": "crime-boss"
+  },
+  {
+   "word": "deep cover",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dreary",
+   "reach": 6,
+   "band": "b5",
+   "id": "dreary"
+  },
+  {
+   "word": "enlarged picture",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "espionage",
+   "reach": 3,
+   "band": "b5",
+   "id": "espionage"
+  },
+  {
+   "word": "friends",
+   "reach": 7,
+   "band": "b5",
+   "id": "friends"
+  },
+  {
+   "word": "frightened",
+   "reach": 11,
+   "band": "b5",
+   "id": "frightened"
+  },
+  {
+   "word": "gangster",
+   "reach": 18,
+   "band": "b3",
+   "id": "gangster"
+  }
+ ],
+ "films": [
+  {
+   "id": "no-way-out-1987",
+   "title": "No Way Out",
+   "year": 1987,
+   "poster": "93CzsBvRhg035yvQosRtSsTL19v.jpg",
+   "tmdb": 6.849
+  },
+  {
+   "id": "the-departed-2006",
+   "title": "The Departed",
+   "year": 2006,
+   "poster": "nT97ifVT2J1yMQmeq20Qblg61T.jpg",
+   "tmdb": 8.159
+  }
+ ]
+}

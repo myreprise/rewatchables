@@ -1,0 +1,137 @@
+{
+ "word": "tragedy",
+ "id": "tragedy",
+ "catalogue": 460,
+ "share": 0.9,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.4,
+ "vs_catalogue": 0.4,
+ "decades": [
+  {
+   "decade": 1990,
+   "n": 4
+  }
+ ],
+ "peak_share": 100.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "atlantic ocean",
+   "reach": 3,
+   "band": "b5",
+   "id": "atlantic-ocean"
+  },
+  {
+   "word": "intense",
+   "reach": 23,
+   "band": "b3",
+   "id": "intense"
+  },
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  },
+  {
+   "word": "ship",
+   "reach": 2,
+   "band": "b5",
+   "id": "ship"
+  },
+  {
+   "word": "1910s",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "antagonistic",
+   "reach": 13,
+   "band": "b4",
+   "id": "antagonistic"
+  },
+  {
+   "word": "archenemy",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "archvillain",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "id": "based-on-true-story"
+  },
+  {
+   "word": "beguilement",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "biological weapon",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "black american",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "blunt",
+   "reach": 6,
+   "band": "b5",
+   "id": "blunt"
+  }
+ ],
+ "films": [
+  {
+   "id": "boyz-n-the-hood-1991",
+   "title": "Boyz n the Hood",
+   "year": 1991,
+   "poster": "kaS8BkTZESnkoB5i1zRQ02FIRGk.jpg",
+   "tmdb": 7.638
+  },
+  {
+   "id": "face-off-1997",
+   "title": "Face/Off",
+   "year": 1997,
+   "poster": "69Xzn8UdPbVnmqSChKz2RTpoNfB.jpg",
+   "tmdb": 7.059
+  },
+  {
+   "id": "titanic-1997",
+   "title": "Titanic",
+   "year": 1997,
+   "poster": "9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
+   "tmdb": 7.9
+  },
+  {
+   "id": "the-talented-mr-ripley-1999",
+   "title": "The Talented Mr. Ripley",
+   "year": 1999,
+   "poster": "6ojHgqtIR41O2qLKa7LFUVj0cZa.jpg",
+   "tmdb": 7.197
+  }
+ ]
+}

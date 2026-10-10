@@ -1,0 +1,195 @@
+{
+ "word": "baseball",
+ "id": "baseball",
+ "catalogue": 460,
+ "share": 2.2,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.1,
+ "vs_catalogue": -0.0,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 5
+  },
+  {
+   "decade": 1990,
+   "n": 3
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 50.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "sports",
+   "reach": 47,
+   "band": "b1",
+   "id": "sports"
+  },
+  {
+   "word": "baseball player",
+   "reach": 3,
+   "band": "b5",
+   "id": "baseball-player"
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "id": "amused"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "california",
+   "reach": 16,
+   "band": "b4",
+   "id": "california"
+  },
+  {
+   "word": "hilarious",
+   "reach": 17,
+   "band": "b3",
+   "id": "hilarious"
+  },
+  {
+   "word": "inspirational",
+   "reach": 14,
+   "band": "b4",
+   "id": "inspirational"
+  },
+  {
+   "word": "kids' sports team",
+   "reach": 2,
+   "band": "b5",
+   "id": "kids-sports-team"
+  },
+  {
+   "word": "underdog",
+   "reach": 10,
+   "band": "b5",
+   "id": "underdog"
+  },
+  {
+   "word": "woman director",
+   "reach": 16,
+   "band": "b4",
+   "id": "woman-director"
+  },
+  {
+   "word": "1940s",
+   "reach": 5,
+   "band": "b5",
+   "id": "1940s"
+  },
+  {
+   "word": "1960s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1960s"
+  },
+  {
+   "word": "2000s",
+   "reach": 2,
+   "band": "b5",
+   "id": "2000s"
+  },
+  {
+   "word": "age change",
+   "reach": 2,
+   "band": "b5",
+   "id": "age-change"
+  }
+ ],
+ "films": [
+  {
+   "id": "the-bad-news-bears-1976",
+   "title": "The Bad News Bears",
+   "year": 1976,
+   "poster": "kJNXMni0ObOXLth6v9xpUhWbtrp.jpg",
+   "tmdb": 6.908
+  },
+  {
+   "id": "the-natural-1984",
+   "title": "The Natural",
+   "year": 1984,
+   "poster": "fwn1gYeOkS1XHKVFdNorKSIpix8.jpg",
+   "tmdb": 6.926
+  },
+  {
+   "id": "big-1988",
+   "title": "Big",
+   "year": 1988,
+   "poster": "eWhCDJiwxvx3YXkAFRiHjimnF0j.jpg",
+   "tmdb": 7.195
+  },
+  {
+   "id": "the-naked-gun-from-the-files-of-police-squad-1988",
+   "title": "The Naked Gun: From the Files of Police Squad!",
+   "year": 1988,
+   "poster": "zT0mhZqZQJE1gSY5Eg9qcGP4NYo.jpg",
+   "tmdb": 7.282
+  },
+  {
+   "id": "field-of-dreams-1989",
+   "title": "Field of Dreams",
+   "year": 1989,
+   "poster": "oeM7nAw6FVFICwUaXKCRkDsKjqO.jpg",
+   "tmdb": 7.125
+  },
+  {
+   "id": "major-league-1989",
+   "title": "Major League",
+   "year": 1989,
+   "poster": "ypUedY9zX4nGGf1lQv1UGc8PhPA.jpg",
+   "tmdb": 6.904
+  },
+  {
+   "id": "a-league-of-their-own-1992",
+   "title": "A League of Their Own",
+   "year": 1992,
+   "poster": "f9BtX6wYOwJUyfUr4vyeT3COz6m.jpg",
+   "tmdb": 7.197
+  },
+  {
+   "id": "the-sandlot-1993",
+   "title": "The Sandlot",
+   "year": 1993,
+   "poster": "7PYqz0viEuW8qTvuGinUMjDWMnj.jpg",
+   "tmdb": 7.563
+  },
+  {
+   "id": "for-love-of-the-game-1999",
+   "title": "For Love of the Game",
+   "year": 1999,
+   "poster": "vkeKxoSXE1qMArcFNTNBBH8TjKZ.jpg",
+   "tmdb": 6.391
+  },
+  {
+   "id": "moneyball-2011",
+   "title": "Moneyball",
+   "year": 2011,
+   "poster": "4yIQq1e6iOcaZ5rLDG3lZBP3j7a.jpg",
+   "tmdb": 7.299
+  }
+ ]
+}

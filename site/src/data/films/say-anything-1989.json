@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Judd Apatow"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Judd Apatow",
+     "id": "judd-apatow"
+    }
    ],
    "note": null
   }
@@ -52,55 +61,64 @@
    "word": "high school",
    "reach": 29,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "high-school"
   },
   {
    "word": "opposites attract",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "opposites-attract"
   },
   {
    "word": "seattle, washington",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "seattle-washington"
   },
   {
    "word": "teenage love",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "teenage-love"
   },
   {
    "word": "high school graduation",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "high-school-graduation"
   },
   {
    "word": "kickboxer",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "teenage angst",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "teenage crush",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "valedictorian",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

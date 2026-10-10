@@ -1,0 +1,134 @@
+{
+ "word": "suburbia",
+ "id": "suburbia",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.2,
+ "vs_catalogue": 0.1,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 2
+  }
+ ],
+ "peak_share": 67.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "family relationships",
+   "reach": 7,
+   "band": "b5",
+   "id": "family-relationships"
+  },
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1970s"
+  },
+  {
+   "word": "anxious",
+   "reach": 8,
+   "band": "b5",
+   "id": "anxious"
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  },
+  {
+   "word": "bad boss",
+   "reach": 2,
+   "band": "b5",
+   "id": "bad-boss"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "burnout",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "business rivalry",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "co-workers relationship",
+   "reach": 3,
+   "band": "b5",
+   "id": "co-workers-relationship"
+  },
+  {
+   "word": "connecticut",
+   "reach": 2,
+   "band": "b5",
+   "id": "connecticut"
+  },
+  {
+   "word": "corporate world",
+   "reach": 2,
+   "band": "b5",
+   "id": "corporate-world"
+  },
+  {
+   "word": "dallas, texas",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "downsizing",
+   "reach": 2,
+   "band": "b5",
+   "id": "downsizing"
+  },
+  {
+   "word": "dramatic",
+   "reach": 18,
+   "band": "b3",
+   "id": "dramatic"
+  }
+ ],
+ "films": [
+  {
+   "id": "poltergeist-1982",
+   "title": "Poltergeist",
+   "year": 1982,
+   "poster": "4eMN3GANH5GG4kXdHkrTZEUuQ9M.jpg",
+   "tmdb": 7.2
+  },
+  {
+   "id": "the-ice-storm-1997",
+   "title": "The Ice Storm",
+   "year": 1997,
+   "poster": "3a6uLta7K8Dzojps4RoJAPHD0km.jpg",
+   "tmdb": 6.875
+  },
+  {
+   "id": "office-space-1999",
+   "title": "Office Space",
+   "year": 1999,
+   "poster": "iEmTwOkUaLziMQCUZii5wPQBIAO.jpg",
+   "tmdb": 7.381
+  }
+ ]
+}

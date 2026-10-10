@@ -1,0 +1,134 @@
+{
+ "word": "sadness",
+ "id": "sadness",
+ "catalogue": 460,
+ "share": 0.7,
+ "thin": false,
+ "peak": 2000,
+ "avg_tmdb": 7.6,
+ "vs_catalogue": 0.5,
+ "decades": [
+  {
+   "decade": 2000,
+   "n": 2
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 67.0,
+ "catalogue_peak_share": 17.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "melancholy",
+   "reach": 5,
+   "band": "b5",
+   "id": "melancholy"
+  },
+  {
+   "word": "american dream",
+   "reach": 2,
+   "band": "b5",
+   "id": "american-dream"
+  },
+  {
+   "word": "betrayal",
+   "reach": 9,
+   "band": "b5",
+   "id": "betrayal"
+  },
+  {
+   "word": "boat",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "boston, massachusetts",
+   "reach": 7,
+   "band": "b5",
+   "id": "boston-massachusetts"
+  },
+  {
+   "word": "bratva (russian mafia)",
+   "reach": 4,
+   "band": "b5",
+   "id": "bratva-russian-mafia"
+  },
+  {
+   "word": "brother",
+   "reach": 2,
+   "band": "b5",
+   "id": "brother"
+  },
+  {
+   "word": "candle",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "class",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "death",
+   "reach": 6,
+   "band": "b5",
+   "id": "death"
+  },
+  {
+   "word": "dementia",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "distrust",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "dreams",
+   "reach": 3,
+   "band": "b5",
+   "id": "dreams"
+  }
+ ],
+ "films": [
+  {
+   "id": "25th-hour-2002",
+   "title": "25th Hour",
+   "year": 2002,
+   "poster": "uW7tTRElr2tRhmAVESzvHy4ByXg.jpg",
+   "tmdb": 7.313
+  },
+  {
+   "id": "the-notebook-2004",
+   "title": "The Notebook",
+   "year": 2004,
+   "poster": "rNzQyW4f8B8cQeg7Dgj3n6eT5k9.jpg",
+   "tmdb": 7.89
+  },
+  {
+   "id": "manchester-by-the-sea-2016",
+   "title": "Manchester by the Sea",
+   "year": 2016,
+   "poster": "o9VXYOuaJxCEKOxbA86xqtwmqYn.jpg",
+   "tmdb": 7.552
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "word": "walking",
+ "id": "walking",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "cliché",
+   "reach": 8,
+   "band": "b5",
+   "id": "cliche"
+  },
+  {
+   "word": "semi autobiographical",
+   "reach": 4,
+   "band": "b5",
+   "id": "semi-autobiographical"
+  },
+  {
+   "word": "soulmates",
+   "reach": 6,
+   "band": "b5",
+   "id": "soulmates"
+  },
+  {
+   "word": "talking",
+   "reach": 2,
+   "band": "b5",
+   "id": "talking"
+  },
+  {
+   "word": "austria",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "author",
+   "reach": 4,
+   "band": "b5",
+   "id": "author"
+  },
+  {
+   "word": "bookshop",
+   "reach": 3,
+   "band": "b5",
+   "id": "bookshop"
+  },
+  {
+   "word": "journalist",
+   "reach": 12,
+   "band": "b4",
+   "id": "journalist"
+  },
+  {
+   "word": "love of one's life",
+   "reach": 11,
+   "band": "b5",
+   "id": "love-of-ones-life"
+  },
+  {
+   "word": "paris, france",
+   "reach": 10,
+   "band": "b5",
+   "id": "paris-france"
+  },
+  {
+   "word": "playful",
+   "reach": 8,
+   "band": "b5",
+   "id": "playful"
+  },
+  {
+   "word": "romantic",
+   "reach": 11,
+   "band": "b5",
+   "id": "romantic"
+  },
+  {
+   "word": "vienna, austria",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "before-sunrise-1995",
+   "title": "Before Sunrise",
+   "year": 1995,
+   "poster": "kf1Jb1c2JAOqjuzA3H4oDM263uB.jpg",
+   "tmdb": 7.971
+  },
+  {
+   "id": "before-sunset-2004",
+   "title": "Before Sunset",
+   "year": 2004,
+   "poster": "4sW5XH9ZfYXpvFzev00S1IGAEbg.jpg",
+   "tmdb": 7.8
+  }
+ ]
+}

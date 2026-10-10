@@ -38,11 +38,23 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Chris Ryan",
+   "host": {
+    "name": "Chris Ryan",
+    "id": "chris-ryan"
+   },
    "guests": [
-    "Sean Fennessey",
-    "Jason Concepcion",
-    "Shea Serrano"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Jason Concepcion",
+     "id": "jason-concepcion"
+    },
+    {
+     "name": "Shea Serrano",
+     "id": "shea-serrano"
+    }
    ],
    "note": "1999 series (Luminary)"
   }
@@ -52,91 +64,106 @@
    "word": "dystopia",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "dystopia"
   },
   {
    "word": "woman director",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "woman-director"
   },
   {
    "word": "martial arts",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "martial-arts"
   },
   {
    "word": "saving the world",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "saving-the-world"
   },
   {
    "word": "cyberpunk",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cyberpunk"
   },
   {
    "word": "artificial intelligence (a.i.)",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "artificial-intelligence-a-i"
   },
   {
    "word": "man vs machine",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "man-vs-machine"
   },
   {
    "word": "allegory",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "allegory"
   },
   {
    "word": "fortune teller",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fortune-teller"
   },
   {
    "word": "philosophy",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "philosophy"
   },
   {
    "word": "prophecy",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "prophecy"
   },
   {
    "word": "simulated reality ",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "simulated-reality"
   },
   {
    "word": "chosen one",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "gnosticism",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "insurgence",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -1,0 +1,149 @@
+{
+ "word": "political thriller",
+ "id": "political-thriller",
+ "catalogue": 460,
+ "share": 0.9,
+ "thin": false,
+ "peak": 2000,
+ "avg_tmdb": 7.4,
+ "vs_catalogue": 0.3,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 0
+  },
+  {
+   "decade": 2000,
+   "n": 2
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 50.0,
+ "catalogue_peak_share": 17.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "langley virginia",
+   "reach": 2,
+   "band": "b5",
+   "id": "langley-virginia"
+  },
+  {
+   "word": "1980s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1980s"
+  },
+  {
+   "word": "1990s",
+   "reach": 4,
+   "band": "b5",
+   "id": "1990s"
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "africa",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "american abroad",
+   "reach": 2,
+   "band": "b5",
+   "id": "american-abroad"
+  },
+  {
+   "word": "amnesia",
+   "reach": 3,
+   "band": "b5",
+   "id": "amnesia"
+  },
+  {
+   "word": "assassin",
+   "reach": 8,
+   "band": "b5",
+   "id": "assassin"
+  },
+  {
+   "word": "audio recording",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "audio tape",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "barcelona, spain",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "biography",
+   "reach": 10,
+   "band": "b5",
+   "id": "biography"
+  },
+  {
+   "word": "bootlegger",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "blow-out-1981",
+   "title": "Blow Out",
+   "year": 1981,
+   "poster": "uFzMscVLDrTaYd6KXOXlr6dly7w.jpg",
+   "tmdb": 7.357
+  },
+  {
+   "id": "the-bourne-identity-2002",
+   "title": "The Bourne Identity",
+   "year": 2002,
+   "poster": "aP8swke3gmowbkfZ6lmNidu0y9p.jpg",
+   "tmdb": 7.485
+  },
+  {
+   "id": "blood-diamond-2006",
+   "title": "Blood Diamond",
+   "year": 2006,
+   "poster": "sYAUuiWpoXGKHxUfHyjTj7Apj2h.jpg",
+   "tmdb": 7.559
+  },
+  {
+   "id": "argo-2012",
+   "title": "Argo",
+   "year": 2012,
+   "poster": "m5gPWFZFIp4UJFABgWyLkbXv8GX.jpg",
+   "tmdb": 7.286
+  }
+ ]
+}

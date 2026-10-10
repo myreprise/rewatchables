@@ -1,0 +1,233 @@
+{
+ "word": "woman director",
+ "id": "woman-director",
+ "catalogue": 460,
+ "share": 3.5,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 6.9,
+ "vs_catalogue": -0.1,
+ "decades": [
+  {
+   "decade": 1980,
+   "n": 3
+  },
+  {
+   "decade": 1990,
+   "n": 8
+  },
+  {
+   "decade": 2000,
+   "n": 4
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 50.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "id": "high-school"
+  },
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "id": "coming-of-age"
+  },
+  {
+   "word": "christmas",
+   "reach": 14,
+   "band": "b4",
+   "id": "christmas"
+  },
+  {
+   "word": "adultery",
+   "reach": 5,
+   "band": "b5",
+   "id": "adultery"
+  },
+  {
+   "word": "aftercreditsstinger",
+   "reach": 18,
+   "band": "b3",
+   "id": "aftercreditsstinger"
+  },
+  {
+   "word": "alcohol",
+   "reach": 6,
+   "band": "b5",
+   "id": "alcohol"
+  },
+  {
+   "word": "baseball",
+   "reach": 10,
+   "band": "b5",
+   "id": "baseball"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "cheerful",
+   "reach": 9,
+   "band": "b5",
+   "id": "cheerful"
+  },
+  {
+   "word": "christmas party",
+   "reach": 5,
+   "band": "b5",
+   "id": "christmas-party"
+  },
+  {
+   "word": "dating",
+   "reach": 5,
+   "band": "b5",
+   "id": "dating"
+  },
+  {
+   "word": "friendship",
+   "reach": 22,
+   "band": "b3",
+   "id": "friendship"
+  },
+  {
+   "word": "hilarious",
+   "reach": 17,
+   "band": "b3",
+   "id": "hilarious"
+  },
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  }
+ ],
+ "films": [
+  {
+   "id": "fast-times-at-ridgemont-high-1982",
+   "title": "Fast Times at Ridgemont High",
+   "year": 1982,
+   "poster": "e15rmfjf0m6EGLe4MnNhwD3Dd1W.jpg",
+   "tmdb": 6.791
+  },
+  {
+   "id": "just-one-of-the-guys-1985",
+   "title": "Just One of the Guys",
+   "year": 1985,
+   "poster": "7ffvsRv8ueYYK0H3zocmNRPd8yN.jpg",
+   "tmdb": 6.424
+  },
+  {
+   "id": "big-1988",
+   "title": "Big",
+   "year": 1988,
+   "poster": "eWhCDJiwxvx3YXkAFRiHjimnF0j.jpg",
+   "tmdb": 7.195
+  },
+  {
+   "id": "point-break-1991",
+   "title": "Point Break",
+   "year": 1991,
+   "poster": "tlbERIghrQ4oofqlbF7H0K0EYnx.jpg",
+   "tmdb": 7.152
+  },
+  {
+   "id": "a-league-of-their-own-1992",
+   "title": "A League of Their Own",
+   "year": 1992,
+   "poster": "f9BtX6wYOwJUyfUr4vyeT3COz6m.jpg",
+   "tmdb": 7.197
+  },
+  {
+   "id": "waynes-world-1992",
+   "title": "Wayne's World",
+   "year": 1992,
+   "poster": "fHwZnFNWR7PaS9t5EBwTvGPeoYQ.jpg",
+   "tmdb": 6.684
+  },
+  {
+   "id": "sleepless-in-seattle-1993",
+   "title": "Sleepless in Seattle",
+   "year": 1993,
+   "poster": "jAXfku1u1uaLGh4cUmK0ESf1pPu.jpg",
+   "tmdb": 6.741
+  },
+  {
+   "id": "clueless-1995",
+   "title": "Clueless",
+   "year": 1995,
+   "poster": "8AwVTcgpTnmeOs4TdTWqcFDXEsA.jpg",
+   "tmdb": 7.247
+  },
+  {
+   "id": "cant-hardly-wait-1998",
+   "title": "Can't Hardly Wait",
+   "year": 1998,
+   "poster": "r3a5gGWfS0SDS9nriNrJzSSrErf.jpg",
+   "tmdb": 6.248
+  },
+  {
+   "id": "youve-got-mail-1998",
+   "title": "You've Got Mail",
+   "year": 1998,
+   "poster": "e2uVtH6TpMfUl7WeOM70ezkcjsU.jpg",
+   "tmdb": 6.709
+  },
+  {
+   "id": "the-matrix-1999",
+   "title": "The Matrix",
+   "year": 1999,
+   "poster": "dXNAPwY7VrqMAo51EKhhCJfaGb5.jpg",
+   "tmdb": 8.256
+  },
+  {
+   "id": "love-and-basketball-2000",
+   "title": "Love & Basketball",
+   "year": 2000,
+   "poster": "zNZWNX19FZ5QyedprVM0ldsXFiP.jpg",
+   "tmdb": 7.353
+  },
+  {
+   "id": "lost-in-translation-2003",
+   "title": "Lost in Translation",
+   "year": 2003,
+   "poster": "3jCLmYDIIiSMPujbwygNpqdpM8N.jpg",
+   "tmdb": 7.38
+  },
+  {
+   "id": "the-holiday-2006",
+   "title": "The Holiday",
+   "year": 2006,
+   "poster": "h1ITOpvJN3Tw4Sy60w2QTfYMvdd.jpg",
+   "tmdb": 7.099
+  },
+  {
+   "id": "its-complicated-2009",
+   "title": "It's Complicated",
+   "year": 2009,
+   "poster": "bmjPrJgrGENFRrERP7lCJ9FGIVB.jpg",
+   "tmdb": 6.514
+  },
+  {
+   "id": "country-strong-2010",
+   "title": "Country Strong",
+   "year": 2010,
+   "poster": "6C95tD92E9xm5poyyzs37bYemM0.jpg",
+   "tmdb": 6.133
+  }
+ ]
+}

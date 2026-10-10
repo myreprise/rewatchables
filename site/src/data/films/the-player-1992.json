@@ -41,10 +41,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Sean Fennessey",
-    "Wesley Morris"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Wesley Morris",
+     "id": "wesley-morris"
+    }
    ],
    "note": null
   }
@@ -54,79 +63,92 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "appreciative",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "appreciative"
   },
   {
    "word": "blackmail",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "blackmail"
   },
   {
    "word": "movie business",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "movie-business"
   },
   {
    "word": "harsh",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "harsh"
   },
   {
    "word": "hollywood",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hollywood"
   },
   {
    "word": "homicide",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "homicide"
   },
   {
    "word": "baffled",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "baffled"
   },
   {
    "word": "death threat",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "movie mogul",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "movie studio",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "screenwriter",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "studio executive",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

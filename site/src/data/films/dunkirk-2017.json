@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Chris Ryan",
+   "host": {
+    "name": "Chris Ryan",
+    "id": "chris-ryan"
+   },
    "guests": [
-    "Sean Fennessey",
-    "Quentin Tarantino"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Quentin Tarantino",
+     "id": "quentin-tarantino"
+    }
    ],
    "note": null
   }
@@ -52,151 +61,176 @@
    "word": "based on true story",
    "reach": 25,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "based-on-true-story"
   },
   {
    "word": "intense",
    "reach": 23,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "intense"
   },
   {
    "word": "survival",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "survival"
   },
   {
    "word": "awestruck",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "awestruck"
   },
   {
    "word": "period drama",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "period-drama"
   },
   {
    "word": "historical fiction",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "historical-fiction"
   },
   {
    "word": "military",
    "reach": 6,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "military"
   },
   {
    "word": "1940s",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "1940s"
   },
   {
    "word": "rescue mission",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rescue-mission"
   },
   {
    "word": "world war ii",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "world-war-ii"
   },
   {
    "word": "evacuation",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "evacuation"
   },
   {
    "word": "pilot",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pilot"
   },
   {
    "word": "beach",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "beach"
   },
   {
    "word": "soldier",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "soldier"
   },
   {
    "word": "europe",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "europe"
   },
   {
    "word": "foreboding",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "foreboding"
   },
   {
    "word": "france",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "france"
   },
   {
    "word": "military officer",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "military-officer"
   },
   {
    "word": "private",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "private"
   },
   {
    "word": "allies",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "army",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "british army",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "dunkirk",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "raf (royal air force)",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "royal navy",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

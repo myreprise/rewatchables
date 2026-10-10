@@ -39,11 +39,23 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Jason Concepcion",
+   "host": {
+    "name": "Jason Concepcion",
+    "id": "jason-concepcion"
+   },
    "guests": [
-    "Sean Fennessey",
-    "Andrew Gruttadaro",
-    "Mallory Rubin"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Andrew Gruttadaro",
+     "id": "andrew-gruttadaro"
+    },
+    {
+     "name": "Mallory Rubin",
+     "id": "mallory-rubin"
+    }
    ],
    "note": null
   }
@@ -53,85 +65,99 @@
    "word": "heist",
    "reach": 16,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "heist"
   },
   {
    "word": "kidnapping",
    "reach": 12,
    "band": "b4",
-   "live": true
+   "live": true,
+   "id": "kidnapping"
   },
   {
    "word": "spy",
    "reach": 11,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "spy"
   },
   {
    "word": "manipulation",
    "reach": 9,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "manipulation"
   },
   {
    "word": "mission",
    "reach": 4,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "mission"
   },
   {
    "word": "allegory",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "allegory"
   },
   {
    "word": "dreams",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dreams"
   },
   {
    "word": "incredulous",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "incredulous"
   },
   {
    "word": "memory",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "memory"
   },
   {
    "word": "dream",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "dream world",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "high concept",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "intellectual",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "subconscious",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

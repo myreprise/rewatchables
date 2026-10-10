@@ -1,0 +1,181 @@
+{
+ "word": "husband wife relationship",
+ "id": "husband-wife-relationship",
+ "catalogue": 460,
+ "share": 1.7,
+ "thin": false,
+ "peak": 1990,
+ "avg_tmdb": 7.3,
+ "vs_catalogue": 0.2,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 2
+  },
+  {
+   "decade": 1980,
+   "n": 1
+  },
+  {
+   "decade": 1990,
+   "n": 4
+  },
+  {
+   "decade": 2000,
+   "n": 0
+  },
+  {
+   "decade": 2010,
+   "n": 1
+  }
+ ],
+ "peak_share": 50.0,
+ "catalogue_peak_share": 39.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1980s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1980s"
+  },
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "id": "1970s"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "candid",
+   "reach": 5,
+   "band": "b5",
+   "id": "candid"
+  },
+  {
+   "word": "custody battle",
+   "reach": 3,
+   "band": "b5",
+   "id": "custody-battle"
+  },
+  {
+   "word": "divorce",
+   "reach": 5,
+   "band": "b5",
+   "id": "divorce"
+  },
+  {
+   "word": "dramatic",
+   "reach": 18,
+   "band": "b3",
+   "id": "dramatic"
+  },
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "id": "los-angeles-california"
+  },
+  {
+   "word": "1960s",
+   "reach": 12,
+   "band": "b4",
+   "id": "1960s"
+  },
+  {
+   "word": "1990s",
+   "reach": 4,
+   "band": "b5",
+   "id": "1990s"
+  },
+  {
+   "word": "abandonment",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "id": "absurd"
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "id": "action-hero"
+  },
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "id": "admiring"
+  }
+ ],
+ "films": [
+  {
+   "id": "kramer-vs-kramer-1979",
+   "title": "Kramer vs. Kramer",
+   "year": 1979,
+   "poster": "3CUP5V5SWfHSK4qvkZF7lMNyugY.jpg",
+   "tmdb": 7.565
+  },
+  {
+   "id": "rocky-ii-1979",
+   "title": "Rocky II",
+   "year": 1979,
+   "poster": "nMaiiu0CzT77U4JZkUYV7KqdAjK.jpg",
+   "tmdb": 7.3
+  },
+  {
+   "id": "die-hard-1988",
+   "title": "Die Hard",
+   "year": 1988,
+   "poster": "7Bjd8kfmDSOzpmhySpEhkUyK2oH.jpg",
+   "tmdb": 7.816
+  },
+  {
+   "id": "mr-hollands-opus-1995",
+   "title": "Mr. Holland's Opus",
+   "year": 1995,
+   "poster": "kBmwWeSN3ajnYHZ3dSybEobxEPI.jpg",
+   "tmdb": 6.956
+  },
+  {
+   "id": "twister-1996",
+   "title": "Twister",
+   "year": 1996,
+   "poster": "d4ie3f6QTvNw40V770Uzo87SDZn.jpg",
+   "tmdb": 6.572
+  },
+  {
+   "id": "boogie-nights-1997",
+   "title": "Boogie Nights",
+   "year": 1997,
+   "poster": "2hVSN9yOfoI8EUTqcVW6zCIyQ1G.jpg",
+   "tmdb": 7.638
+  },
+  {
+   "id": "the-ice-storm-1997",
+   "title": "The Ice Storm",
+   "year": 1997,
+   "poster": "3a6uLta7K8Dzojps4RoJAPHD0km.jpg",
+   "tmdb": 6.875
+  },
+  {
+   "id": "argo-2012",
+   "title": "Argo",
+   "year": 2012,
+   "poster": "m5gPWFZFIp4UJFABgWyLkbXv8GX.jpg",
+   "tmdb": 7.286
+  }
+ ]
+}

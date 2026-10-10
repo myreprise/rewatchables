@@ -1,0 +1,148 @@
+{
+ "word": "nazi",
+ "id": "nazi",
+ "catalogue": 460,
+ "share": 1.1,
+ "thin": false,
+ "peak": 1980,
+ "avg_tmdb": 7.5,
+ "vs_catalogue": 0.4,
+ "decades": [
+  {
+   "decade": 1970,
+   "n": 1
+  },
+  {
+   "decade": 1980,
+   "n": 4
+  }
+ ],
+ "peak_share": 80.0,
+ "catalogue_peak_share": 23.0,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "1930s",
+   "reach": 6,
+   "band": "b5",
+   "id": "1930s"
+  },
+  {
+   "word": "archaeologist",
+   "reach": 3,
+   "band": "b5",
+   "id": "archaeologist"
+  },
+  {
+   "word": "riddle",
+   "reach": 4,
+   "band": "b5",
+   "id": "riddle"
+  },
+  {
+   "word": "saving the world",
+   "reach": 8,
+   "band": "b5",
+   "id": "saving-the-world"
+  },
+  {
+   "word": "adolf hitler",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "adventurer",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "agent",
+   "reach": 3,
+   "band": "b5",
+   "id": "agent"
+  },
+  {
+   "word": "archeology",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "ark of the covenant",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "audacious",
+   "reach": 10,
+   "band": "b5",
+   "id": "audacious"
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  },
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "id": "based-on-novel-or-book"
+  },
+  {
+   "word": "bible quote",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "biblical archaeology",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  }
+ ],
+ "films": [
+  {
+   "id": "marathon-man-1976",
+   "title": "Marathon Man",
+   "year": 1976,
+   "poster": "uPNgubSiri2yvBQRPtP77ViYjN.jpg",
+   "tmdb": 7.168
+  },
+  {
+   "id": "the-blues-brothers-1980",
+   "title": "The Blues Brothers",
+   "year": 1980,
+   "poster": "b0hq1d2d7FIvRGNLewKLm79JNTK.jpg",
+   "tmdb": 7.716
+  },
+  {
+   "id": "escape-to-victory-1981",
+   "title": "Escape to Victory",
+   "year": 1981,
+   "poster": "3j6H0dnbvjNXLK1l9nKguXw5vvO.jpg",
+   "tmdb": 6.881
+  },
+  {
+   "id": "raiders-of-the-lost-ark-1981",
+   "title": "Raiders of the Lost Ark",
+   "year": 1981,
+   "poster": "ceG9VzoRAVGwivFU403Wc3AHRys.jpg",
+   "tmdb": 7.927
+  },
+  {
+   "id": "indiana-jones-and-the-last-crusade-1989",
+   "title": "Indiana Jones and the Last Crusade",
+   "year": 1989,
+   "poster": "sizg1AU8f8JDZX4QIgE4pjUMBvx.jpg",
+   "tmdb": 7.855
+  }
+ ]
+}

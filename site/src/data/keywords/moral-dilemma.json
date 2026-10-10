@@ -1,0 +1,118 @@
+{
+ "word": "moral dilemma",
+ "id": "moral-dilemma",
+ "catalogue": 460,
+ "share": 0.4,
+ "thin": true,
+ "peak": null,
+ "avg_tmdb": null,
+ "vs_catalogue": null,
+ "decades": null,
+ "peak_share": null,
+ "catalogue_peak_share": null,
+ "region": null,
+ "region_films": null,
+ "region_places": null,
+ "partners": [
+  {
+   "word": "suspenseful",
+   "reach": 30,
+   "band": "b2",
+   "id": "suspenseful"
+  },
+  {
+   "word": "aircraft carrier",
+   "reach": 2,
+   "band": "b5",
+   "id": "aircraft-carrier"
+  },
+  {
+   "word": "assassin",
+   "reach": 8,
+   "band": "b5",
+   "id": "assassin"
+  },
+  {
+   "word": "awestruck",
+   "reach": 11,
+   "band": "b5",
+   "id": "awestruck"
+  },
+  {
+   "word": "battle for power",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "blunt",
+   "reach": 6,
+   "band": "b5",
+   "id": "blunt"
+  },
+  {
+   "word": "bomb",
+   "reach": 6,
+   "band": "b5",
+   "id": "bomb"
+  },
+  {
+   "word": "border",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "brutality",
+   "reach": 4,
+   "band": "b5",
+   "id": "brutality"
+  },
+  {
+   "word": "central intelligence agency (cia)",
+   "reach": 8,
+   "band": "b5",
+   "id": "central-intelligence-agency-cia"
+  },
+  {
+   "word": "chain of command",
+   "reach": 1,
+   "band": "b5",
+   "id": null
+  },
+  {
+   "word": "commanding",
+   "reach": 7,
+   "band": "b5",
+   "id": "commanding"
+  },
+  {
+   "word": "corruption",
+   "reach": 12,
+   "band": "b4",
+   "id": "corruption"
+  },
+  {
+   "word": "cynicism",
+   "reach": 2,
+   "band": "b5",
+   "id": "cynicism"
+  }
+ ],
+ "films": [
+  {
+   "id": "crimson-tide-1995",
+   "title": "Crimson Tide",
+   "year": 1995,
+   "poster": "21nqRJ6ofEgVvEl68J4O9V26Xzy.jpg",
+   "tmdb": 7.181
+  },
+  {
+   "id": "sicario-2015",
+   "title": "Sicario",
+   "year": 2015,
+   "poster": "lz8vNyXeidqqOdJW9ZjnDAMb5Vr.jpg",
+   "tmdb": 7.427
+  }
+ ]
+}

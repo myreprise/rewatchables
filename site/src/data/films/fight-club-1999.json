@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    }
    ],
    "note": null
   }
@@ -50,85 +56,99 @@
    "word": "based on novel or book",
    "reach": 66,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "based-on-novel-or-book"
   },
   {
    "word": "dystopia",
    "reach": 17,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "dystopia"
   },
   {
    "word": "fight",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "fight"
   },
   {
    "word": "breaking the fourth wall",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "breaking-the-fourth-wall"
   },
   {
    "word": "dual identity",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dual-identity"
   },
   {
    "word": "rage and hate",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "rage-and-hate"
   },
   {
    "word": "alter ego",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "alter-ego"
   },
   {
    "word": "insomnia",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "insomnia"
   },
   {
    "word": "nihilism",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "nihilism"
   },
   {
    "word": "dissociative identity disorder",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "quitting a job",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "self destructiveness",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "split personality",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "support group",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

@@ -38,9 +38,15 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Brian Koppelman"
+    {
+     "name": "Brian Koppelman",
+     "id": "brian-koppelman"
+    }
    ],
    "note": null
   }
@@ -50,67 +56,78 @@
    "word": "ex-girlfriend",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "ex-girlfriend"
   },
   {
    "word": "date",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "date"
   },
   {
    "word": "private",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "private"
   },
   {
    "word": "training camp",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "training-camp"
   },
   {
    "word": "army cadet",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "army life",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "army training",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "class clown",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "military spoof",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "military training",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "war games",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

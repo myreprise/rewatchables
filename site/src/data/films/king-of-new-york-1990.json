@@ -38,10 +38,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Sean Fennessey",
-    "Quentin Tarantino"
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    },
+    {
+     "name": "Quentin Tarantino",
+     "id": "quentin-tarantino"
+    }
    ],
    "note": null
   }
@@ -51,67 +60,78 @@
    "word": "new york city",
    "reach": 49,
    "band": "b1",
-   "live": true
+   "live": true,
+   "id": "new-york-city"
   },
   {
    "word": "murder",
    "reach": 36,
    "band": "b2",
-   "live": true
+   "live": true,
+   "id": "murder"
   },
   {
    "word": "dramatic",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "dramatic"
   },
   {
    "word": "gangster",
    "reach": 18,
    "band": "b3",
-   "live": true
+   "live": true,
+   "id": "gangster"
   },
   {
    "word": "cocaine",
    "reach": 7,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "cocaine"
   },
   {
    "word": "dirty cop",
    "reach": 5,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "dirty-cop"
   },
   {
    "word": "drug lord",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "drug-lord"
   },
   {
    "word": "hope",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "hope"
   },
   {
    "word": "release from prison",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "release-from-prison"
   },
   {
    "word": "aspirin",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "religious statue",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [

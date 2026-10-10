@@ -39,10 +39,19 @@
    "revisit_kind": null,
    "verdict": null,
    "verdict_tone": null,
-   "host": "Bill Simmons",
+   "host": {
+    "name": "Bill Simmons",
+    "id": null
+   },
    "guests": [
-    "Chris Ryan",
-    "Sean Fennessey"
+    {
+     "name": "Chris Ryan",
+     "id": "chris-ryan"
+    },
+    {
+     "name": "Sean Fennessey",
+     "id": "sean-fennessey"
+    }
    ],
    "note": null
   }
@@ -52,91 +61,106 @@
    "word": "saving the world",
    "reach": 8,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "saving-the-world"
   },
   {
    "word": "scientist",
    "reach": 3,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "scientist"
   },
   {
    "word": "infection",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "infection"
   },
   {
    "word": "pandemic",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "pandemic"
   },
   {
    "word": "terminal illness",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "terminal-illness"
   },
   {
    "word": "virus",
    "reach": 2,
    "band": "b5",
-   "live": true
+   "live": true,
+   "id": "virus"
   },
   {
    "word": "disease",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "epidemic",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "lethal virus",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "medical drama",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "mutation",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "outbreak",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "prophetic",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "quarantine",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   },
   {
    "word": "vaccine",
    "reach": 1,
    "band": "b5",
-   "live": false
+   "live": false,
+   "id": null
   }
  ],
  "cast": [
