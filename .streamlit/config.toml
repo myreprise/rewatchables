@@ -14,3 +14,8 @@ textColor = "#F2EFE6"
 # ~1,000 inspections a render -- 25% of Movie Explorer's time, 18% of Hosts &
 # Guests'. Measured interleaved, stats on vs off; see reports/progress/008.
 gatherUsageStats = false
+
+[server]
+# Serves static/ at app/static/. Step 14 downloads the posters there, and
+# rewatchables/images.py points <img> tags at the local copies.
+enableStaticServing = true

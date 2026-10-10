@@ -64,10 +64,11 @@ class TestStepTable:
     def test_stages_are_valid(self):
         assert {s[3] for s in STEPS} <= set(STAGES)
 
-    def test_review_steps_are_optional(self):
-        """07/08 fail by design when there is nothing queued or no CSV yet."""
+    def test_review_and_image_steps_are_optional(self):
+        """07/08 fail by design when there is nothing queued or no CSV yet; 14
+        is a download the app can do without."""
         optional = {s[0] for s in STEPS if s[4]}
-        assert optional == {7, 8}
+        assert optional == {7, 8, 14}
 
 
 # ---------------------------------------------------------------------------
@@ -86,6 +87,8 @@ class TestSelectSteps:
         assert _nums(select_steps(_args(stages="source"))) == [1, 2]
         assert _nums(select_steps(_args(stages="resolve"))) == [3, 4]
         assert _nums(select_steps(_args(stages="upcoming"))) == [13]
+        assert _nums(select_steps(_args(stages="images"))) == [14]
+        assert _nums(select_steps(_args(stages="site"))) == [15]
 
     def test_multiple_stages(self):
         assert _nums(select_steps(_args(stages="source,resolve"))) == [1, 2, 3, 4]

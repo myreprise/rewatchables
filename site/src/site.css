@@ -1,0 +1,100 @@
+/* The site's stylesheet: Framework's dark theme, the app's own stylesheet on
+   top, then the layout Streamlit's st.columns used to provide.
+
+   theme.css is copied from src/rewatchables/app/theme.css by pipeline step 15
+   and must not be edited here. Its rw-* classes are the shared vocabulary; this
+   file only adds what the site's page structure needs. */
+
+@import url("observablehq:default.css");
+@import url("observablehq:theme-near-midnight.css");
+@import url("observablehq:theme-wide.css");
+@import url("./theme.css");
+
+:root {
+  --theme-background: var(--ink);
+  --theme-background-alt: var(--ink-2);
+  --theme-foreground: var(--tape);
+  --theme-foreground-alt: var(--tape-2);
+  --theme-foreground-muted: var(--txt-2);
+  --theme-foreground-faint: var(--line-2);
+  --theme-foreground-faintest: var(--line);
+  --theme-foreground-focus: var(--mint);
+  --sans-serif: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+  --monospace: 'IBM Plex Mono', ui-monospace, monospace;
+}
+
+body { background: var(--ink); color: var(--tape); }
+#observablehq-sidebar { background: var(--ink-2); border-right: 1px solid var(--line); }
+#observablehq-footer { color: var(--txt-3); font-size: 12px; }
+#observablehq-footer a { color: var(--mint-deep); }
+
+/* Framework caps prose at 640px; the app's panels set their own measure. */
+#observablehq-main p, #observablehq-main ul { max-width: none; }
+#observablehq-main a { color: inherit; }
+
+/* ── Poster grids ─────────────────────────────────────────────────────── */
+/* What st.columns(8) did: eight across, as in the app, so "Latest episodes" is
+   one row. Narrower screens step down rather than wrap a stray card or two. */
+.rw-grid {
+  display: grid; gap: 12px;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+}
+.rw-grid.shelf { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+@media (max-width: 1100px) { .rw-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (max-width: 560px) {
+  .rw-grid, .rw-grid.shelf { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+a.rw-cardlink { display: block; text-decoration: none; color: inherit; }
+a.rw-cardlink:focus-visible .poster-card { border-color: var(--mint); }
+
+/* ── Two-column rows ──────────────────────────────────────────────────── */
+.rw-split { display: grid; grid-template-columns: 3fr 1.15fr; gap: 20px; align-items: start; }
+.rw-split.film { grid-template-columns: 1.65fr 1fr; }
+/* A grid item's min-width is its content's by default, so a chart drawn at the
+   previous width would hold its column open and push the page sideways. */
+.rw-split > * { min-width: 0; }
+@media (max-width: 860px) {
+  .rw-split, .rw-split.film { grid-template-columns: 1fr; }
+  .rw-reg-row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+.rw-shelf-h {
+  font-family: 'Archivo', sans-serif; font-weight: 600; font-size: 14px;
+  color: var(--tape-2); margin: 18px 0 8px;
+}
+
+/* ── Controls ─────────────────────────────────────────────────────────── */
+/* Framework's inputs, in the app's colours. */
+form[class^="inputs-"] { --input-width: 220px; }
+form[class^="inputs-"] input, form[class^="inputs-"] select, form[class^="inputs-"] button {
+  background: var(--ink-3); color: var(--tape); border: 1px solid var(--line-2);
+  border-radius: 5px; font-family: var(--sans-serif);
+}
+form[class^="inputs-"] button:hover { border-color: var(--mint); color: var(--mint); }
+.rw-filters { display: flex; flex-wrap: wrap; gap: 6px 22px; align-items: end; margin: 14px 0 6px; }
+
+.rw-back {
+  display: inline-block; margin: 0 0 12px; padding: 6px 12px;
+  border: 1px solid var(--line-2); border-radius: 5px; background: var(--ink-3);
+  font-size: 13px; text-decoration: none;
+}
+.rw-back:hover { border-color: var(--mint); color: var(--mint) !important; }
+
+/* Doors on the overview. The app hangs a button under each; here the whole
+   card is the link. */
+a.rw-door-link { display: block; text-decoration: none; }
+a.rw-door-link .rw-door { border-bottom: 1px solid var(--line); border-radius: 7px; }
+a.rw-door-link:hover .rw-door { border-color: var(--mint); }
+
+/* The synopsis expander. */
+details.rw-more { margin: 4px 0 16px; }
+details.rw-more summary {
+  cursor: pointer; font-family: var(--monospace); font-size: 10px;
+  letter-spacing: .12em; text-transform: uppercase; color: var(--txt-2);
+}
+details.rw-more[open] summary { color: var(--mint); margin-bottom: 10px; }
+details.rw-more p { font-size: 14px; line-height: 1.65; color: var(--tape-2); max-width: 70ch; }
+
+/* theme.css writes this glyph with a doubled backslash because Streamlit's
+   markdown step strips one before the browser sees it. Served as a plain
+   stylesheet it would print the escape itself, so the site restates it. */
+.rw-dt-gap::before { content: "\2304"; }

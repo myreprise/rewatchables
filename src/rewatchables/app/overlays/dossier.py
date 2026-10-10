@@ -5,6 +5,7 @@ from collections import Counter
 import pandas as pd
 import streamlit as st
 
+from rewatchables import images
 from rewatchables.app.components import (
     keyword_row, rings_svg, shelf, tape,
 )
@@ -16,6 +17,40 @@ from views import (
     ANCHOR, CPI_BASE_YEAR, ROOM, clean, html, human_gap, money, plain, stars,
     stat_tile,
 )
+
+
+# The three lookups below are functions rather than lines in render_dossier()
+# because the public site's film pages (pipeline step 15) show the same shelves.
+
+def cast_billing(movies_df):
+    """How many films each name is top-five billed in, across the catalogue."""
+    billing = Counter()
+    for names in movies_df["cast_names"]:
+        for name in (names[:5] if isinstance(names, list) else []):
+            billing[name] += 1
+    return billing
+
+
+def same_director(movies_df, movie):
+    """The other films by this film's primary director, oldest first."""
+    return movies_df[
+        (movies_df["director_primary"] == movie["director_primary"])
+        & (movies_df["movie_id"] != movie["movie_id"])
+    ].sort_values("year")
+
+
+def shared_cast(movies_df, movie):
+    """Films sharing a top-billed name with this one, most-shared first."""
+    cast = set(movie["cast_names"][:5]) if movie["cast_names"] else set()
+    if not cast:
+        return movies_df.iloc[0:0]
+    overlap = movies_df[movies_df["movie_id"] != movie["movie_id"]].copy()
+    overlap["shared"] = overlap["cast_names"].apply(
+        lambda names: len(cast & set(names[:5])) if isinstance(names, list) else 0
+    )
+    return overlap[overlap["shared"] > 0].sort_values(
+        ["shared", "year"], ascending=[False, True])
+
 
 def render_dossier(ctx, movie_id, siblings=None):
     """The per-film detail view: identity, episodes, the film, provenance.
@@ -87,9 +122,9 @@ def render_dossier(ctx, movie_id, siblings=None):
         stat_tile("Episodes", int(movie["total_episodes_featured"]), coral=True),
     ])
 
-    poster = movie["poster_url_tmdb"]
+    poster = images.src(movie["poster_url_tmdb"], "w342")
     plate = (
-        f'<img src="{poster.replace("/w500/", "/w342/")}" alt="">' if poster
+        f'<img src="{poster}" alt="">' if poster
         else f'<div class="poster-plate">{rings_svg("")}<b>{movie["title"]}</b></div>'
     )
     st.markdown(html(f"""
@@ -215,10 +250,7 @@ def render_dossier(ctx, movie_id, siblings=None):
         if movie["cast_names"]:
             # How often each name turns up elsewhere on the show — the number is
             # the reason to click through, so it only shows when it is above one.
-            billing = Counter()
-            for names in movies_df["cast_names"]:
-                for name in (names[:5] if isinstance(names, list) else []):
-                    billing[name] += 1
+            billing = cast_billing(movies_df)
             chips = "".join(
                 f'<span>{name}'
                 + (f" <b>{billing[name]}</b>" if billing.get(name, 0) > 1 else "")
@@ -232,26 +264,15 @@ def render_dossier(ctx, movie_id, siblings=None):
             )
 
         director = movie["director_primary"]
-        same_director = movies_df[
-            (movies_df["director_primary"] == director)
-            & (movies_df["movie_id"] != movie_id)
-        ].sort_values("year")
-        if len(same_director):
+        by_director = same_director(movies_df, movie)
+        if len(by_director):
             st.markdown(f"##### Also on the show — {director}")
-            shelf(same_director.head(4), key=f"dir_{movie_id}")
+            shelf(by_director.head(4), key=f"dir_{movie_id}")
 
-        # Films sharing a top-billed name, most-shared first.
-        cast = set(movie["cast_names"][:5]) if movie["cast_names"] else set()
-        if cast:
-            overlap = movies_df[movies_df["movie_id"] != movie_id].copy()
-            overlap["shared"] = overlap["cast_names"].apply(
-                lambda names: len(cast & set(names[:5])) if isinstance(names, list) else 0
-            )
-            overlap = overlap[overlap["shared"] > 0].sort_values(
-                ["shared", "year"], ascending=[False, True])
-            if len(overlap):
-                st.markdown("##### Shared cast")
-                shelf(overlap.head(4), key=f"cast_{movie_id}")
+        overlap = shared_cast(movies_df, movie)
+        if len(overlap):
+            st.markdown("##### Shared cast")
+            shelf(overlap.head(4), key=f"cast_{movie_id}")
 
     # ── Provenance ──
     facts = [f'Key confidence <span class="conf">{movie["canonical_key_confidence"]}</span>']

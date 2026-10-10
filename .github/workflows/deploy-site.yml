@@ -1,0 +1,66 @@
+# Build the public site in site/ and publish it to GitHub Pages.
+#
+# The site's data is committed: pipeline step 15 writes it to site/src/data/ on
+# this machine. So this job needs no Python, no database and no TMDB key -- it
+# only builds the Observable Framework project from what is in the repository.
+# Publishing an update is therefore: run the pipeline, commit site/, push.
+#
+# One-time setup on GitHub: Settings -> Pages -> Build and deployment ->
+# Source: "GitHub Actions".
+
+name: Deploy site
+
+on:
+  push:
+    branches: [master, main]
+    paths:
+      - "site/**"
+      - ".github/workflows/deploy-site.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deploy at a time; a newer push waits rather than cancelling one mid-flight.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: site
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - run: npm ci
+      # Framework caches the npm modules pages import (Plotly, htl). Keyed on
+      # the lockfile and the pages, so an unchanged import is not re-downloaded.
+      - uses: actions/cache@v4
+        with:
+          path: site/src/.observablehq/cache
+          key: framework-${{ hashFiles('site/package-lock.json', 'site/src/**/*.md', 'site/src/**/*.js') }}
+          restore-keys: framework-
+      - run: npm run build
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

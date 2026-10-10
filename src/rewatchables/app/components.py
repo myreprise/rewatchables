@@ -8,14 +8,10 @@ keyword, because a card that does not navigate is not what these are for.
 
 import streamlit as st
 
+from rewatchables import images
 from rewatchables.app.state import open_dossier, open_keyword
 from rewatchables.app.theme import MINT
 from views import LINK_FLOOR, keyword_chip, rank_by_reach
-
-
-TMDB_IMG = "https://image.tmdb.org/t/p/w500"
-TMDB_THUMB = "https://image.tmdb.org/t/p/w185"
-TMDB_PROFILE = "https://image.tmdb.org/t/p/w342"
 
 
 def rings_svg(css_class="rw-watermark", color=MINT):
@@ -54,14 +50,13 @@ def tape(text):
 
 
 def poster_art(url, title):
-    """The plate itself — the TMDB thumbnail, or the rings fallback.
+    """The plate itself — the w185 poster, or the rings fallback.
 
     It takes no height: .poster-img sizes it at 2:3 to its column's width, so a
     plate never carries a height of its own to disagree with the poster's shape.
     """
-    if url:
-        # Use w185 thumbnail for grids
-        thumb = url.replace("/w500/", "/w185/") if "/w500/" in url else url
+    thumb = images.src(url, "w185")
+    if thumb:
         return f'<img class="poster-img" src="{thumb}" alt="">'
     return (
         f'<div class="poster-plate poster-img">'

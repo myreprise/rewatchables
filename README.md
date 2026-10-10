@@ -46,7 +46,14 @@ rebuild reaches the network only for new titles.
 ### Adding or editing an episode
 
 1. Edit `data/episodes.xlsx` in Excel, save, and close it.
-2. Run `python scripts/orchestrate.py --from 1`.
+2. Run `python scripts/publish.py`, or double-click `publish.bat`.
+
+That is the whole routine, including updating the public site. `publish` runs
+the pipeline from step 01, checks the result, shows what changed ("Added: Ep
+484, ...") and asks before it commits and pushes. See
+[Publishing](#publishing) below for what it checks. To update the local
+database without publishing, run `python scripts/orchestrate.py --from 1`
+instead.
 
 Step 01 checks every cell and regenerates `data/episodes.csv` from the
 workbook. It stops with the row and column named if a cell is wrong, and
@@ -68,6 +75,62 @@ python scripts/orchestrate.py --stages upcoming
 
 Step 13 regenerates `data/upcoming.csv` from the workbook itself.
 
+### Posters
+
+The app serves movie posters from the local drive, not from TMDB. Step 14
+downloads each poster at the two widths the app draws (`w185`, `w342`) into
+`static/tmdb/`, named for the film: `Heat (1995).jpg`. `static/tmdb/manifest.json`
+records which TMDB image each file is, and Streamlit serves the folder at
+`app/static/`. The step runs at the end of every default pipeline run and
+fetches only images not already on disk, so a new film costs two downloads; a
+retitled film's files are renamed. A poster not yet downloaded is shown from
+TMDB. To fetch on its own:
+
+```bash
+python scripts/orchestrate.py --stages images
+```
+
+`static/tmdb/` is gitignored; a fresh clone gets it from that command.
+
+### Publishing
+
+A static version of the explorer lives in `site/`, built with
+[Observable Framework](https://observablehq.com/framework/) and deployed to
+GitHub Pages by `.github/workflows/deploy-site.yml`. It is a prototype: the
+Overview, a filterable list of every film, and one page per film.
+
+Step 15 writes everything the site shows as JSON to `site/src/data/`, using the
+app's own loaders, so the two front ends print the same numbers. It runs at the
+end of every default pipeline run. Those files are committed, so GitHub needs
+neither the database nor a TMDB key.
+
+`python scripts/publish.py` (or `publish.bat`) does the whole publish:
+
+1. Runs the pipeline from step 01. It stops if Excel has a workbook open or a
+   cell is invalid.
+2. Stops if TMDB queued a film it was unsure of, and names it. Decide it in
+   `data/manual_review.csv` (see below) and run publish again.
+   `--allow-pending` publishes without that film for now.
+3. Runs the quick checks on the published data: the workbook renders to the
+   tracked CSV, and the site export is complete and valid.
+4. Prints what changed and asks `Publish this? [y/N]`.
+5. Commits only the published data: both workbooks, both CSVs,
+   `manual_review.csv`, `site/src/data/` and `site/src/theme.css`. Other work in
+   progress is never swept in. The commit message names the episodes.
+6. Pushes to `master`. GitHub Actions deploys the site in a few minutes, and
+   publish prints the link.
+
+Any stop happens before the commit, so a failed run leaves git as it was.
+`--dry-run` does steps 1-4 and commits nothing; `--skip-pipeline` uses the data
+as it is. Without a GitHub remote, publish commits and says so, and the next
+run pushes what is waiting.
+
+Publish commits data, not code. A change to the pipeline, the app or the site's
+pages is committed by hand as usual.
+
+To preview locally, `cd site`, `npm install` once, then `npm run dev`. See
+[site/README.md](site/README.md).
+
 ### Reviewing uncertain matches
 
 A mention that does not match TMDB with enough confidence is queued for review
@@ -79,12 +142,14 @@ instead of being accepted.
 3. Step 08 applies the decisions.
 
 `data/manual_review.csv` is the durable record of those decisions: step 08
-replays it after staging is rebuilt. It is currently gitignored, so it exists
-only on this machine.
+replays it after staging is rebuilt. It is tracked, and `publish` commits it,
+so the decisions are backed up with the repository. An item left as `skip`
+stays pending, and `publish` stops on it until it is decided or you pass
+`--allow-pending`.
 
 ## The pipeline
 
-`scripts/orchestrate.py` runs thirteen steps in five stages. Each step is a
+`scripts/orchestrate.py` runs fifteen steps in seven stages. Each step is a
 module in `src/rewatchables/pipeline/`, such as `s04_enrich.py` for step 04. A
 step can also be run on its own, with its own options, as
 `python scripts/04_enrich.py` or `python -m rewatchables.pipeline.s04_enrich`.
@@ -104,12 +169,14 @@ step can also be run on its own, with its own options, as
 | 11 | enrich | Load the vendored CMU corpus subset |
 | 12 | enrich | Plot summaries: CMU plus live Wikipedia |
 | 13 | upcoming | Build the upcoming-films list |
+| 14 | images | Download posters to `static/tmdb/` (optional) |
+| 15 | site | Export the public site's data to `site/src/data/` |
 
 The optional steps fail by design when there is nothing to review, and the run
 continues past them.
 
 ```bash
-python scripts/orchestrate.py                    # safe refresh (05-13)
+python scripts/orchestrate.py                    # safe refresh (05-15)
 python scripts/orchestrate.py --from 1           # after editing the episode list
 python scripts/orchestrate.py --all              # everything
 python scripts/orchestrate.py --stages enrich    # just 09-12
@@ -240,12 +307,15 @@ automatically (see `tests/conftest.py`). Most tests need a built
 ```
 rewatchables/
 ├── app.py                  Streamlit entry point: rail, overlays, dispatch
+├── publish.bat             Double-click to run scripts/publish.py
 ├── views.py                Streamlit-free presentation and statistics helpers
 ├── src/rewatchables/
 │   ├── config.py           Paths and settings, anchored to the repo root
 │   ├── http.py             The API steps' shared retry policy
 │   ├── keys.py             Business keys and deterministic ids
-│   ├── pipeline/           orchestrate.py, s01_…s13_*.py, convert_xlsx_to_csv.py
+│   ├── images.py           Local poster copies, and the <img> URL for one
+│   ├── publish.py          Pipeline, checks, commit and push in one command
+│   ├── pipeline/           orchestrate.py, s01_…s15_*.py, convert_xlsx_to_csv.py
 │   └── app/                The explorer, in parts
 │       ├── theme.py, theme.css      Palette and stylesheet
 │       ├── data.py, context.py      Loaders, and the Ctx every renderer is handed
@@ -255,7 +325,7 @@ rewatchables/
 │       ├── overlays/                dossier.py, keyword.py, prospect.py
 │       └── sections/                One module per rail section, each with render(ctx)
 ├── scripts/
-│   ├── orchestrate.py, 01_…13_*.py, convert_xlsx_to_csv.py   wrappers for the modules above
+│   ├── orchestrate.py, 01_…15_*.py, convert_xlsx_to_csv.py   wrappers for the modules above
 │   └── migrate_*.py, vendor_cmu_subset.py   one-off tools
 ├── sql/
 │   ├── schemas/            raw_zone.sql, staging_zone.sql, curated_zone.sql
@@ -265,6 +335,9 @@ rewatchables/
 │   ├── episodes.csv        Rendered from it by step 01; tracked for diffs
 │   ├── remaining films.xlsx, upcoming.csv   The upcoming-films list
 │   └── external/cmu/       Vendored CMU corpus subset, with PROVENANCE.md
+├── static/tmdb/            Posters downloaded by step 14; served by Streamlit
+├── site/                   The public site (Observable Framework); data from step 15
+├── .github/workflows/      deploy-site.yml: build site/ and publish to GitHub Pages
 ├── tests/
 ├── reports/progress/       Numbered progress reports
 ├── config/.env.template

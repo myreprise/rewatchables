@@ -5,21 +5,12 @@ import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 
+from rewatchables import images
 from rewatchables.app.analysis import VERDICT_FLOOR
 from rewatchables.app.charts import per_database, plotly_defaults
-from rewatchables.app.components import TMDB_PROFILE, film_card, tape
+from rewatchables.app.components import film_card, tape
 from rewatchables.app.state import keep
 from rewatchables.app.theme import AMBER, BLUE, LINE_2, TAPE, TXT_3
-
-
-# Publicity portraits for the two subjects of the Cruise vs. Hanks segment,
-# resolved once from TMDB /person (Cruise is 500, Hanks is 31) and pinned here.
-# TMDB image paths are content-addressed and stable, so hard-coding them keeps
-# the section header off the API entirely -- there is no person cache, and one
-# lookup per cold start to render two decorative images is not worth building.
-CRUISE_PORTRAIT = "/3mShHjSQR7NXOVbdTu5rT2Qd0MN.jpg"
-
-HANKS_PORTRAIT = "/oFvZoKI6lvU03n4YoNGAll9rkas.jpg"
 
 
 def render(ctx):
@@ -50,7 +41,7 @@ def render(ctx):
 
     def _rail(actor, side):
         posters = "".join(
-            f'<img src="{r.poster_url_tmdb.replace("/w500/", "/w342/")}" '
+            f'<img src="{images.src(r.poster_url_tmdb, "w342")}" '
             f'alt="" loading="lazy">'
             for r in _films_with(actor).itertuples()
         )
@@ -65,7 +56,7 @@ def render(ctx):
         + _rail("Tom Hanks", "r")
         + '<div class="ch-hero-inner">'
         + '<div class="ch-fighter">'
-        + f'<div class="ch-face c"><img src="{TMDB_PROFILE}{CRUISE_PORTRAIT}" '
+        + f'<div class="ch-face c"><img src="{images.src(images.PORTRAITS["Tom Cruise"], "w342")}" '
           'alt="Tom Cruise"></div>'
         + f'<div><div class="ch-name c">TOM<br>CRUISE</div>'
           f'<div class="ch-tally">{n_cruise}</div>'
@@ -77,7 +68,7 @@ def render(ctx):
           '<div class="q">Who ya got?</div>'
           f'<div class="blurb">{n_tie} ties</div></div>'
         + '<div class="ch-fighter r">'
-        + f'<div class="ch-face h"><img src="{TMDB_PROFILE}{HANKS_PORTRAIT}" '
+        + f'<div class="ch-face h"><img src="{images.src(images.PORTRAITS["Tom Hanks"], "w342")}" '
           'alt="Tom Hanks"></div>'
         + f'<div><div class="ch-name h">TOM<br>HANKS</div>'
           f'<div class="ch-tally">{n_hanks}</div>'

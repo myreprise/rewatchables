@@ -5,6 +5,7 @@ from collections import Counter
 import pandas as pd
 import streamlit as st
 
+from rewatchables import images
 from rewatchables.app.components import masthead, tape
 from rewatchables.app.overlays.prospect import prospect_card, why_html
 from rewatchables.app.state import keep, open_dossier
@@ -190,10 +191,8 @@ def render(ctx):
         for _, row in graduated_df.iterrows():
             aired = row["first_episode_date"]
             when = aired.strftime("%b %Y") if pd.notna(aired) else "—"
-            poster = (
-                f'<img src="{row["poster_url_tmdb"].replace("/w500/", "/w185/")}" '
-                f'alt="">' if row["poster_url_tmdb"] else ""
-            )
+            art = images.src(row["poster_url_tmdb"], "w185")
+            poster = f'<img src="{art}" alt="">' if art else ""
             # The card and its exit sit side by side. A full-width button under
             # a horizontal card reads as a second row rather than as part of it.
             card_col, go_col = st.columns([4, 1], vertical_alignment="center")

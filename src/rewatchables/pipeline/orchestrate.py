@@ -2,7 +2,7 @@
 """
 Orchestrate the rewatchables pipeline.
 
-Thirteen steps in five stages:
+Fifteen steps in seven stages:
 
   source   01 render episodes.xlsx, 02 load raw
   resolve  03 normalize + stage mentions, 04 resolve against TMDB
@@ -11,13 +11,24 @@ Thirteen steps in five stages:
   enrich   09 TMDB metadata, 10 external ids, 11 CMU corpus,
            12 plot summaries (CMU + live Wikipedia)
   upcoming 13 build the upcoming-films list
+  images   14 download posters to static/tmdb/ for the app to serve
+  site     15 export the public site's data to site/src/data/
 
 Step 13 is a stage of its own because it is a second, independent source. It
 reads "data/remaining films.xlsx" rather than the episode list, writes only its
 own tables, and depends on steps 01-12 for exactly one thing: curated_movies has
 to be current before it can tell which requested films have become real
-episodes. That is why it runs last and not why it runs at all -- `--stages
-upcoming` on its own is a legitimate way to refresh the list.
+episodes. That is why it runs after 12 and not why it runs at all --
+`--stages upcoming` on its own is a legitimate way to refresh the list.
+
+Step 14 runs last because it reads the posters of both lists. It only fetches
+images not already on disk, and the app falls back to TMDB for any it lacks, so
+a failed download is reported as a skip rather than halting the run.
+
+Step 15 runs after everything it reads. It writes JSON for the public site in
+site/ and changes nothing in the database; committing site/ and pushing is
+what publishes it (see .github/workflows/deploy-site.yml). It is required,
+not optional: a failed export would leave the site silently out of date.
 
 ADDING AN UPCOMING FILM. Add the row to "data/remaining films.xlsx", save, close
 it in Excel, then:
@@ -78,6 +89,8 @@ Usage:
     python scripts/orchestrate.py --all --rebuild-from-source
     python scripts/orchestrate.py --stages enrich    # just 09-12
     python scripts/orchestrate.py --stages upcoming  # just 13
+    python scripts/orchestrate.py --stages images    # just 14
+    python scripts/orchestrate.py --stages site      # just 15
     python scripts/orchestrate.py --from 6 --to 9
     python scripts/orchestrate.py --list
 """
@@ -101,7 +114,8 @@ DB_PATH = str(config.db_path())
 # (number, module, description, stage, optional)
 # optional=True -> a failure is logged and the pipeline continues. Used for the
 # human-in-the-loop review steps, which fail by design when there is nothing
-# queued or no decisions CSV yet.
+# queued or no decisions CSV yet, and for the image download, which nothing
+# downstream depends on.
 STEPS = [
     (1,  "s01_render_source",         "Render episodes.xlsx → episodes.csv",   "source",  False),
     (2,  "s02_load_raw",              "Load raw zone from episodes.csv",       "source",  False),
@@ -116,9 +130,11 @@ STEPS = [
     (11, "s11_load_cmu",              "Load CMU corpus subset",                "enrich",  False),
     (12, "s12_enrich_plot_summaries", "Plot summaries: CMU + live Wikipedia",  "enrich",  False),
     (13, "s13_build_upcoming",        "Build upcoming-films list",             "upcoming", False),
+    (14, "s14_cache_images",          "Download TMDB images to static/tmdb",   "images",  True),
+    (15, "s15_export_site",           "Export the public site's data",         "site",    False),
 ]
 
-STAGES = ["source", "resolve", "curated", "enrich", "upcoming"]
+STAGES = ["source", "resolve", "curated", "enrich", "upcoming", "images", "site"]
 DESTRUCTIVE_STEP = 3   # clears staging
 REPLAY_STEP = 8        # replays manual_review.csv onto the rebuilt rows
 SAFE_DEFAULT_FROM = 5   # everything from validation down is re-runnable

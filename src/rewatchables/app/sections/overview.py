@@ -6,6 +6,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 
+from rewatchables import images
 from rewatchables.app.analysis import explode_cast, explode_genres
 from rewatchables.app.charts import plotly_defaults
 from rewatchables.app.components import film_card, masthead, rings_svg, tape
@@ -14,6 +15,79 @@ from rewatchables.app.state import (
 )
 from rewatchables.app.theme import MINT_DEEP, MINT_DIM, TXT_3
 from views import ANCHOR, html, room_long, stat_tile
+
+
+# The numbers and the chart below are functions rather than lines in render()
+# because the public site (pipeline step 15) prints the same ones. One
+# definition keeps the two front pages from drifting apart.
+
+def show_now(episodes_df, merged_df, movies_df):
+    """The headline numbers: where the show is now, and the chart's reading."""
+    latest_air = episodes_df["date"].max()
+    gaps = episodes_df["date"].sort_values().diff().dt.days.dropna()
+    film_age = (merged_df["episode_date"].dt.year - merged_df["year"]).dropna()
+    return {
+        "latest_air": latest_air,
+        "first_air": episodes_df["date"].min(),
+        "n_last_year": int(
+            (episodes_df["date"] > latest_air - pd.Timedelta(days=365)).sum()),
+        "median_film_age": float(film_age.median()),
+        "share_90s": 100 * float((movies_df["decade"] == 1990).mean()),
+        "median_gap": float(gaps.median()),
+    }
+
+
+def regulars(episodes_df):
+    """Everyone but Bill Simmons, counted across all five chairs.
+
+    Returns (in_room, hosted, n_anchor): episodes per person, episodes each
+    hosted, and how many Bill was on.
+    """
+    seats = room_long(episodes_df, "raw_episode_id")
+    n_anchor = int((seats["person"] == ANCHOR).sum())
+    seats = seats[seats["person"] != ANCHOR]
+    in_room = seats["person"].value_counts()
+    hosted = seats.loc[seats["chair"] == "host", "person"].value_counts()
+    return in_room, hosted, n_anchor
+
+
+def came_back_to(movies_df):
+    """Every film with more than one episode, most episodes then latest first."""
+    return movies_df[movies_df["total_episodes_featured"] > 1].sort_values(
+        ["total_episodes_featured", "last_episode_date"], ascending=[False, False])
+
+
+def episodes_per_year(episodes_df):
+    """The episodes-per-year bar chart, and the counts it draws.
+
+    Returns (fig, ep_year). The current year is a partial count, drawn dim so
+    the drop at the right edge reads as "so far" rather than as a decline.
+    """
+    ep_year = (
+        episodes_df.set_index("date").resample("YE").size().reset_index(name="count")
+    )
+    ep_year["year"] = ep_year["date"].dt.year
+    bar_colors = [MINT_DEEP] * (len(ep_year) - 1) + [MINT_DIM]
+    fig = go.Figure(go.Bar(
+        x=ep_year["year"], y=ep_year["count"],
+        marker_color=bar_colors, marker_line_width=0,
+        text=ep_year["count"], textposition="outside",
+        textfont=dict(family="IBM Plex Mono, ui-monospace, monospace", size=11),
+        hovertemplate="%{x}: %{y} episodes<extra></extra>",
+    ))
+    fig.update_layout(
+        height=280, xaxis=dict(dtick=1, title=None),
+        # Headroom for the outside labels; autorange clips the tallest one.
+        yaxis=dict(title="Episodes", range=[0, ep_year["count"].max() * 1.18]),
+        margin=dict(t=36, r=10, b=30, l=50),
+    )
+    fig.add_annotation(
+        x=ep_year["year"].iloc[-1], y=ep_year["count"].iloc[-1],
+        text="to date", showarrow=False, yshift=26,
+        font=dict(family="IBM Plex Mono, ui-monospace, monospace", size=10, color=TXT_3),
+    )
+    plotly_defaults(fig)
+    return fig, ep_year
 
 
 def render(ctx):
@@ -37,20 +111,17 @@ def render(ctx):
     # database. A director count says nothing a visitor can picture; "the
     # median film is 27 years old" is the whole premise in one number. The
     # catalogue's own counts sit on the doors at the bottom.
-    latest_air = episodes_df["date"].max()
-    n_last_year = int((episodes_df["date"] > latest_air - pd.Timedelta(days=365)).sum())
-    film_age = (merged_df["episode_date"].dt.year - merged_df["year"]).dropna()
-    share_90s = 100 * float((movies_df["decade"] == 1990).mean())
-    gaps = episodes_df["date"].sort_values().diff().dt.days.dropna()
+    now = show_now(episodes_df, merged_df, movies_df)
+    latest_air = now["latest_air"]
 
     st.markdown(
         '<div class="rw-dt-rail">'
         + stat_tile("Episodes", f"{len(episodes_df):,}")
         + stat_tile("Films", f"{len(movies_df):,}")
-        + stat_tile("Last 12 months", n_last_year)
-        + stat_tile("Median film age", f"{film_age.median():.0f}", " yrs")
-        + stat_tile("From the 1990s", f"{share_90s:.0f}", "%")
-        + stat_tile("Between episodes", f"{gaps.median():.0f}", " days")
+        + stat_tile("Last 12 months", now["n_last_year"])
+        + stat_tile("Median film age", f"{now['median_film_age']:.0f}", " yrs")
+        + stat_tile("From the 1990s", f"{now['share_90s']:.0f}", "%")
+        + stat_tile("Between episodes", f"{now['median_gap']:.0f}", " days")
         + "</div>",
         unsafe_allow_html=True,
     )
@@ -88,12 +159,8 @@ def render(ctx):
     # sometimes hosts is credited for every episode they were in. He is on
     # nine episodes in ten; a row led by him would say only that.
     tape("The regulars")
-    seats = room_long(episodes_df, "raw_episode_id")
     n_eps = len(episodes_df)
-    n_anchor = int((seats["person"] == ANCHOR).sum())
-    seats = seats[seats["person"] != ANCHOR]
-    in_room = seats["person"].value_counts()
-    hosted = seats.loc[seats["chair"] == "host", "person"].value_counts()
+    in_room, hosted, n_anchor = regulars(episodes_df)
 
     reg_cards = []
     for name, n in in_room.head(6).items():
@@ -133,8 +200,7 @@ def render(ctx):
     # and the maximum is three, so rows two and three were single-episode films
     # in arbitrary order dressed as a ranking.
     tape("The ones they came back to")
-    again = movies_df[movies_df["total_episodes_featured"] > 1].sort_values(
-        ["total_episodes_featured", "last_episode_date"], ascending=[False, False])
+    again = came_back_to(movies_df)
     n_flagged = int((movies_df["revisited_flag"] == 1).sum())
     st.markdown(
         f'<p class="rw-ov-note"><b>{len(again)}</b> films have more than one '
@@ -168,39 +234,14 @@ def render(ctx):
     # Genres and Timeline, and a front page that repeats its own sections is a
     # front page nobody scrolls.
     tape("Episodes per year")
-    ep_year = (
-        episodes_df.set_index("date").resample("YE").size().reset_index(name="count")
-    )
-    ep_year["year"] = ep_year["date"].dt.year
-    # The current year is a partial count, drawn dim so the drop at the right
-    # edge reads as "so far" rather than as a decline.
-    bar_colors = [MINT_DEEP] * (len(ep_year) - 1) + [MINT_DIM]
+    fig, ep_year = episodes_per_year(episodes_df)
     first_full = ep_year[ep_year["count"] >= 50]["year"].min()
 
     chart_col, read_col = st.columns([3, 1.15])
     with chart_col:
-        fig = go.Figure(go.Bar(
-            x=ep_year["year"], y=ep_year["count"],
-            marker_color=bar_colors, marker_line_width=0,
-            text=ep_year["count"], textposition="outside",
-            textfont=dict(family="IBM Plex Mono, ui-monospace, monospace", size=11),
-            hovertemplate="%{x}: %{y} episodes<extra></extra>",
-        ))
-        fig.update_layout(
-            height=280, xaxis=dict(dtick=1, title=None),
-            # Headroom for the outside labels; autorange clips the tallest one.
-            yaxis=dict(title="Episodes", range=[0, ep_year["count"].max() * 1.18]),
-            margin=dict(t=36, r=10, b=30, l=50),
-        )
-        fig.add_annotation(
-            x=ep_year["year"].iloc[-1], y=ep_year["count"].iloc[-1],
-            text="to date", showarrow=False, yshift=26,
-            font=dict(family="IBM Plex Mono, ui-monospace, monospace", size=10, color=TXT_3),
-        )
-        plotly_defaults(fig)
         st.plotly_chart(fig, use_container_width=True)
     with read_col:
-        first_air = episodes_df["date"].min()
+        first_air = now["first_air"]
         st.markdown(
             html(f'''
             <div class="rw-dt-panel" style="margin-top:8px">
@@ -208,7 +249,7 @@ def render(ctx):
               <ul class="rw-ov-read">
                 <li><b>{first_air:%b %Y}</b>first film episode</li>
                 <li><b>{int(first_full) if pd.notna(first_full) else "&mdash;"}</b>first year at fifty or more</li>
-                <li><b>{gaps.median():.0f} days</b>median gap between episodes</li>
+                <li><b>{now['median_gap']:.0f} days</b>median gap between episodes</li>
                 <li><b>{int(ep_year["count"].iloc[-1])}</b>so far in {int(ep_year["year"].iloc[-1])}</li>
               </ul>
             </div>'''),
@@ -288,9 +329,9 @@ def render(ctx):
     def _esc(text):
         return str(text).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
+    art = images.src(spotlight["poster_url_tmdb"], "w342")
     poster = (
-        f'<img src="{spotlight["poster_url_tmdb"].replace("/w500/", "/w342/")}" alt="">'
-        if spotlight["poster_url_tmdb"] else
+        f'<img src="{art}" alt="">' if art else
         f'<div class="poster-plate" style="height:225px;width:150px">{rings_svg("")}'
         f'<b>{_esc(spotlight["title"])}</b></div>'
     )

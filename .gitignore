@@ -50,6 +50,10 @@ logs/
 *.log
 *.log.*
 
+# TMDB images downloaded by step 14. Regenerable from the database, and
+# TMDB's to license rather than ours to redistribute.
+static/tmdb/
+
 # Data (raw exports, working files, not committed)
 data/raw/
 data/staging/
@@ -67,6 +71,11 @@ data/*.xlsx.bak
 # need to be reviewable as a diff.
 !data/upcoming.csv
 
+# ...and the manual-review decisions. Step 08 replays them after every rebuild,
+# so this file is the only record of a hand-corrected match ('Crash', 2004).
+# Tracked so it is backed up with the repo and changes show as a diff.
+!data/manual_review.csv
+
 # OS
 .DS_Store
 Thumbs.db
@@ -77,3 +86,10 @@ Thumbs.db
 *.tmp
 tmp/
 temp/
+
+# The public site (site/). Its data under site/src/data/ is written by pipeline
+# step 15 and IS tracked: CI builds from it. Only the build's own byproducts
+# are ignored.
+site/node_modules/
+site/dist/
+site/src/.observablehq/cache/
