@@ -11,6 +11,8 @@ function that takes a frame and returns a frame is one a test can pin.
 """
 
 import math
+import re
+import unicodedata
 from collections import Counter
 from datetime import timezone
 from itertools import combinations
@@ -319,6 +321,44 @@ def sort_title(title):
         if text.startswith(article):
             return f"{text[len(article):]}, {article.strip()}"
     return text
+
+
+# ── Film addresses ────────────────────────────────────────────────────────────
+# A film's address -- ?movie=heat-1995 in the app, /movie/heat-1995 on the
+# public site -- is made from its title and year. It used to be movie_id, which
+# step 06 mints afresh for every film on each rebuild, so every shared link to a
+# film broke the next time the pipeline ran.
+
+def slugify(title, year=None):
+    """A title and year as a URL segment: "Mission: Impossible" (1996) is
+    mission-impossible-1996.
+
+    Accents fold to ASCII, "&" reads as "and", and apostrophes are dropped
+    rather than turned into a break, so "Ocean's Eleven" is oceans-eleven,
+    not ocean-s-eleven. Anything else that is not a letter or digit separates
+    words.
+    """
+    text = unicodedata.normalize("NFKD", str(title)).encode("ascii", "ignore").decode()
+    text = text.lower().replace("&", " and ")
+    text = re.sub(r"['’]", "", text)
+    text = re.sub(r"[^a-z0-9]+", "-", text).strip("-") or "film"
+    return f"{text}-{int(year)}" if year is not None and not pd.isna(year) else text
+
+
+def film_slugs(movies):
+    """movie_id -> address, unique across the catalogue.
+
+    Title and year are unique for every film on the show so far. Should two
+    ever collide -- a remake released the same year under the same title --
+    each of them takes its TMDB id as a suffix, so neither silently takes the
+    other's page, and a film that does not collide keeps its plain address.
+    """
+    base = {mid: slugify(t, y) for mid, t, y in
+            zip(movies["movie_id"], movies["title"], movies["year"])}
+    counts = Counter(base.values())
+    tmdb = dict(zip(movies["movie_id"], movies["tmdb_id"]))
+    return {mid: (s if counts[s] == 1 else f"{s}-{int(tmdb[mid])}")
+            for mid, s in base.items()}
 
 
 def contributor_link(contributor):

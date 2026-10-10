@@ -128,11 +128,16 @@ def open_person(name):
     go_section("hosts")
 
 def open_dossier(movie_id):
-    """Select a film and mirror it into the URL so the view is linkable."""
+    """Select a film and mirror it into the URL so the view is linkable.
+
+    The session keeps the movie_id; the URL carries the film's address
+    (heat-1995), which survives a rebuild where the movie_id does not.
+    """
     st.session_state.dt_movie = movie_id
     st.session_state.kw_word = None
     st.query_params.clear()
-    st.query_params["movie"] = movie_id
+    st.query_params["movie"] = st.session_state.get(
+        "_film_slugs", {}).get(movie_id, movie_id)
     st.query_params["from"] = st.session_state.get("nav_section", DEFAULT_SECTION)
     st.rerun()
 
@@ -200,20 +205,36 @@ def kept(key, default=None):
     return st.session_state.get(key, st.session_state.get(f"_keep_{key}", default))
 
 
-def seed_from_url(movie_ids, keywords, upcoming_ids, people):
+def film_from_address(value, film_slugs):
+    """The movie_id a ?movie= value names, or None.
+
+    The value is the film's address, heat-1995. A bare movie_id is still
+    accepted while it is current, so a link minted before addresses existed
+    keeps working until the next rebuild reissues the id -- after which it was
+    going to break anyway.
+    """
+    if value in film_slugs:
+        return value
+    return {slug: mid for mid, slug in film_slugs.items()}.get(value)
+
+
+def seed_from_url(film_slugs, keywords, upcoming_ids, people):
     """Open whatever the query string addresses, once per session.
 
-    A dossier is addressed by ?movie=<movie_id>, so a film can be linked
-    directly and the browser Back button steps out of it. On a cold load the
-    URL wins; from then on the click handlers keep the two in step. Each id is
-    checked against what actually exists, so a stale link falls back to the
-    section rather than opening an empty overlay.
+    A dossier is addressed by ?movie=<address> -- heat-1995 -- so a film can be
+    linked directly and the browser Back button steps out of it. `film_slugs`
+    maps movie_id to address; open_dossier() reads it back to write the URL, so
+    it is stored on every run, not only the first. On a cold load the URL wins;
+    from then on the click handlers keep the two in step. Each value is checked
+    against what actually exists, so a stale link falls back to the section
+    rather than opening an empty overlay.
     """
+    st.session_state["_film_slugs"] = film_slugs
     if "dt_movie" not in st.session_state:
         _qp = st.query_params.get("movie")
         _kw = st.query_params.get("keyword")
         _up = st.query_params.get("upcoming")
-        st.session_state.dt_movie = _qp if _qp in movie_ids else None
+        st.session_state.dt_movie = film_from_address(_qp, film_slugs)
         st.session_state.kw_word = _kw if _kw in keywords else None
         st.session_state.up_film = _up if _up in upcoming_ids else None
         if st.session_state.dt_movie or st.session_state.kw_word:

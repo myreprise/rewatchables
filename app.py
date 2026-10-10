@@ -57,15 +57,16 @@ ctx = build_context(stamp())
 
 # ── Sidebar nav ───────────────────────────────────────────────────────────────
 
-# A dossier is addressed by ?movie=<movie_id>, so a film can be linked directly
-# and the browser Back button steps out of it. On a cold load the URL wins; from
-# then on the click handler keeps the two in step.
-_VALID_IDS = set(ctx.movies["movie_id"])
+# A dossier is addressed by ?movie=<address> -- heat-1995, the same address the
+# public site uses -- so a film can be linked directly and the browser Back
+# button steps out of it. On a cold load the URL wins; from then on the click
+# handler keeps the two in step.
+_FILM_SLUGS = dict(zip(ctx.movies["movie_id"], ctx.movies["slug"]))
 _VALID_UPCOMING = (set(ctx.upcoming["upcoming_film_id"])
                    if len(ctx.upcoming) else set())
 _VALID_PEOPLE = (set(room_long(ctx.merged, "raw_episode_id")["person"])
                  - {ANCHOR})
-seed_from_url(_VALID_IDS, ctx.keywords, _VALID_UPCOMING, _VALID_PEOPLE)
+seed_from_url(_FILM_SLUGS, ctx.keywords, _VALID_UPCOMING, _VALID_PEOPLE)
 with st.sidebar:
     st.markdown(
         '<div class="rw-brand">'

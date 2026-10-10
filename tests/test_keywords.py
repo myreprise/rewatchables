@@ -275,8 +275,8 @@ def _movie_id(title):
     curated_movies.movie_id is a fresh uuid4 minted by 06_build_curated, which
     clears and rebuilds the table on every run, so a literal id only survives
     until the next rebuild. tmdb_id is the stable identifier; look the row up by
-    it. (The app's ?movie= links have the same fragility, which is a real issue
-    for a shared URL but not one this test can fix.)
+    it. (The app's ?movie= links used to share this fragility; they now carry
+    the film's address, heat-1995, which survives a rebuild.)
     """
     conn = sqlite3.connect(DB_PATH)
     row = conn.execute(

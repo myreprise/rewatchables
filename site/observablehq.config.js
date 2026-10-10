@@ -6,7 +6,9 @@
 
 import {readFileSync} from "node:fs";
 
-// One page per film, at /movie/<movie_id>. The ids come from the exported index,
+// One page per film, at /movie/<slug> -- heat-1995 -- made by step 15 from the
+// title and year so an address never changes between publishes. The slugs come
+// from the exported index,
 // so a film added to the catalogue gets a page on the next build.
 const films = JSON.parse(
   readFileSync(new URL("./src/data/films.json", import.meta.url), "utf-8")

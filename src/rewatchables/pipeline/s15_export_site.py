@@ -17,17 +17,23 @@ Writes:
   site/src/data/films.json            one row per film, for grids and search
   site/src/data/overview.json         the front page's numbers and lists
   site/src/data/charts/*.json         Plotly figures, built by the app's code
-  site/src/data/films/<movie_id>.json one file per film page
+  site/src/data/films/<slug>.json     one file per film page
   site/src/theme.css                  a copy of the app's stylesheet
 
-Output is deterministic -- no timestamps, stable ordering, one film per line in
-films.json -- so a commit shows only what changed. Per-film files for films no
-longer in the catalogue are removed.
+A film's page lives at /movie/<slug>, the slug made from its title and year:
+"Heat" (1995) is heat-1995. The site never sees movie_id. Step 06 mints a
+fresh movie_id for every film on each rebuild, so an address built on it
+changed with every publish and broke every link anyone had shared.
+
+Output is deterministic -- no timestamps, no movie_id, stable ordering, one
+film per line in films.json -- so a commit shows only what changed. Per-film
+files for films no longer in the catalogue are removed.
 
 Posters are not exported. The site loads them from TMDB's image CDN, the same
 fallback the app uses; static/tmdb/ stays unpublished.
 """
 
+import dataclasses
 import json
 import logging
 import math
@@ -38,6 +44,7 @@ import numpy as np
 import pandas as pd
 
 from rewatchables import config, images
+from views import film_slugs
 
 logger = logging.getLogger(__name__)
 
@@ -102,10 +109,27 @@ def blurb(text, limit=BLURB_CHARS):
     return text[:limit].rsplit(" ", 1)[0] + "…"
 
 
+def with_slugs(ctx):
+    """The context with movies in a fixed order, each carrying its address.
+
+    The address (`slug`, heat-1995) comes from views.film_slugs, which the
+    app's loader already applies; it is filled in here only for a frame built
+    without it. Sorted by year and slug so that ties in every list built from it (a
+    director's films in one year, say) fall the same way on every run.
+    The frame's own order follows the database's insertion order, which step
+    06 does not promise to keep.
+    """
+    movies = ctx.movies.copy()
+    if "slug" not in movies.columns:
+        movies["slug"] = movies["movie_id"].map(film_slugs(movies))
+    movies = movies.sort_values(["year", "slug"], kind="mergesort").reset_index(drop=True)
+    return dataclasses.replace(ctx, movies=movies)
+
+
 def card(movie):
     """The fields a poster card needs: enough to draw it and link it."""
     return {
-        "id": movie["movie_id"],
+        "id": movie["slug"],
         "title": movie["title"],
         "year": plain_value(movie["year"]),
         "poster": images.file_name(movie["poster_url_tmdb"]),
@@ -153,7 +177,7 @@ def overview(ctx):
         links.sort_values("episode_date", ascending=False)
         .drop_duplicates("movie_id")
         .head(LATEST)
-        .merge(movies[["movie_id", "title", "year", "poster_url_tmdb"]],
+        .merge(movies[["movie_id", "slug", "title", "year", "poster_url_tmdb"]],
                on="movie_id")
     )
     again = came_back_to(movies)
@@ -204,7 +228,7 @@ def charts(ctx):
     return {"episodes-per-year": json.loads(fig.to_json())}
 
 
-# ── films/<movie_id>.json ─────────────────────────────────────────────────────
+# ── films/<slug>.json ─────────────────────────────────────────────────────
 
 def episode_rows(episodes):
     """A film's episodes, oldest first, with the gap since the one before."""
@@ -312,6 +336,8 @@ def export(ctx, out=DATA_OUT, theme_dest=SITE_SRC / "theme.css"):
     """Write the site's data. Returns the number of film pages written."""
     from rewatchables.app.overlays.dossier import cast_billing
 
+    ctx = with_slugs(ctx)
+
     write_rows(out / "films.json", film_rows(ctx.movies))
     write_json(out / "overview.json", overview(ctx))
     for name, fig in charts(ctx).items():
@@ -322,7 +348,7 @@ def export(ctx, out=DATA_OUT, theme_dest=SITE_SRC / "theme.css"):
     billing = cast_billing(ctx.movies)
     keep = set()
     for _, movie in ctx.movies.iterrows():
-        name = f"{movie['movie_id']}.json"
+        name = f"{movie['slug']}.json"
         write_json(pages / name, film_page(movie, ctx, billing))
         keep.add(name)
     for stale in pages.glob("*.json"):

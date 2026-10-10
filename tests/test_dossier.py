@@ -14,6 +14,7 @@ that way the layout would start asserting something untrue, and nothing else in
 the app would notice.
 """
 
+import re
 import sqlite3
 from pathlib import Path
 
@@ -297,7 +298,11 @@ def test_the_dossier_is_addressable(filtered):
     _film_buttons(filtered)[0].click().run()
 
     params = dict(filtered.query_params)
-    assert params["movie"] == [filtered.session_state["dt_movie"]]
+    # The film's address, not its movie_id: step 06 reissues every movie_id on
+    # a rebuild, and a link built on it broke the next time the pipeline ran.
+    slugs = filtered.session_state["_film_slugs"]
+    assert params["movie"] == [slugs[filtered.session_state["dt_movie"]]]
+    assert re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*-\d{4}", params["movie"][0])
     # The slug, not the label — the label is free to change now.
     assert params["from"] == ["explorer"]
 
@@ -333,14 +338,14 @@ def test_changing_section_closes_the_dossier(filtered):
 
 
 def test_a_movie_url_opens_that_dossier_on_a_cold_load(conn):
-    """?movie=<id> has to survive a fresh session, not just an in-app click."""
+    """?movie=heat-1995 has to survive a fresh session, not just an in-app click."""
     apptest = pytest.importorskip("streamlit.testing.v1")
     movie_id, title = conn.execute(
         "SELECT movie_id, title FROM curated_movies WHERE title = 'Heat' AND year = 1995"
     ).fetchone()
 
     at = apptest.AppTest.from_file(str(APP), default_timeout=180)
-    at.query_params["movie"] = movie_id
+    at.query_params["movie"] = "heat-1995"
     at.query_params["from"] = "keywords"
     at.run()
 
@@ -349,6 +354,32 @@ def test_a_movie_url_opens_that_dossier_on_a_cold_load(conn):
     # The nav rail follows the link, so Back lands somewhere sensible.
     assert at.session_state["nav_section"] == "keywords"
     assert any(title in str(m.value) for m in at.markdown)
+
+
+def test_a_link_by_current_movie_id_still_opens(conn):
+    """Links minted before addresses carry a movie_id. One that is still
+    current opens its film; it was always going to stop at the next rebuild."""
+    apptest = pytest.importorskip("streamlit.testing.v1")
+    movie_id = conn.execute(
+        "SELECT movie_id FROM curated_movies WHERE title = 'Heat' AND year = 1995"
+    ).fetchone()[0]
+
+    at = apptest.AppTest.from_file(str(APP), default_timeout=180)
+    at.query_params["movie"] = movie_id
+    at.run()
+
+    assert not at.exception, at.exception
+    assert at.session_state["dt_movie"] == movie_id
+
+
+def test_film_from_address():
+    from rewatchables.app.state import film_from_address
+
+    slugs = {"id-heat": "heat-1995", "id-speed": "speed-1994"}
+    assert film_from_address("heat-1995", slugs) == "id-heat"
+    assert film_from_address("id-speed", slugs) == "id-speed"
+    assert film_from_address("heat-1996", slugs) is None
+    assert film_from_address(None, slugs) is None
 
 
 def test_an_unknown_movie_id_falls_back_to_the_section(conn):
@@ -379,12 +410,8 @@ def test_an_unknown_movie_id_falls_back_to_the_section(conn):
 ])
 def test_links_minted_under_the_old_label_scheme_still_land(conn, legacy, expected):
     apptest = pytest.importorskip("streamlit.testing.v1")
-    movie_id = conn.execute(
-        "SELECT movie_id FROM curated_movies WHERE title = 'Heat' AND year = 1995"
-    ).fetchone()[0]
-
     at = apptest.AppTest.from_file(str(APP), default_timeout=180)
-    at.query_params["movie"] = movie_id
+    at.query_params["movie"] = "heat-1995"
     at.query_params["from"] = legacy
     at.run()
 
@@ -394,12 +421,8 @@ def test_links_minted_under_the_old_label_scheme_still_land(conn, legacy, expect
 
 def test_an_unknown_from_falls_back_to_the_first_section(conn):
     apptest = pytest.importorskip("streamlit.testing.v1")
-    movie_id = conn.execute(
-        "SELECT movie_id FROM curated_movies WHERE title = 'Heat' AND year = 1995"
-    ).fetchone()[0]
-
     at = apptest.AppTest.from_file(str(APP), default_timeout=180)
-    at.query_params["movie"] = movie_id
+    at.query_params["movie"] = "heat-1995"
     at.query_params["from"] = "Section That Never Existed"
     at.run()
 

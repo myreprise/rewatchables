@@ -14,8 +14,8 @@ import streamlit as st
 
 from rewatchables import config
 from views import (
-    CPI_PROVISIONAL_FROM, ROOM, multiple, parse_tags, person_name, real_usd,
-    sort_title,
+    CPI_PROVISIONAL_FROM, ROOM, film_slugs, multiple, parse_tags, person_name,
+    real_usd, sort_title,
 )
 
 DB_PATH = config.db_path()
@@ -157,6 +157,10 @@ def load_data(db_stamp=None):
     # rather than at the point of sorting so every frame downstream of movies_df
     # files a film in the same place.
     movies["sort_title"] = movies["title"].apply(sort_title)
+
+    # The film's address, heat-1995: what ?movie= carries in the app and
+    # /movie/ on the public site. Unlike movie_id it survives a rebuild.
+    movies["slug"] = movies["movie_id"].map(film_slugs(movies))
 
     # Decade
     movies["decade"] = (movies["year"] // 10 * 10).astype("Int64")

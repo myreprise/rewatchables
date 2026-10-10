@@ -8,7 +8,7 @@ with three kinds of page:
 | --- | --- | --- |
 | Overview | `src/index.md` | The app's front page: tiles, latest episodes, regulars, revisits, the episodes-per-year chart, a random film |
 | All films | `src/films.md` | Every film, searchable and filtered by decade and genre in the browser |
-| Film | `src/movie/[id].md` | One page per film at `/movie/<movie_id>`: the app's dossier |
+| Film | `src/movie/[id].md` | One page per film at `/movie/<title>-<year>`, e.g. `/movie/heat-1995`: the app's dossier |
 
 ## Where the data comes from
 

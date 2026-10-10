@@ -3,10 +3,10 @@ title: Film
 ---
 
 ```js
-// One page per film, at /movie/<movie_id>: the site's version of the app's
-// dossier overlay. Everything on it is precomputed by pipeline step 15 into
-// data/films/<movie_id>.json, including the related-film shelves, so the page
-// only lays it out.
+// One page per film, at /movie/<slug> (heat-1995): the site's version of the
+// app's dossier overlay. Everything on it is precomputed by pipeline step 15
+// into data/films/<slug>.json, including the related-film shelves, so the page
+// only lays it out. The route parameter is still called `id`; it holds the slug.
 import {badge, fmt, filmCard, grid, heroPlate, rings, statRail, statTile, stars,
         tape} from "../components/ui.js";
 
