@@ -10,9 +10,14 @@ import {readFileSync} from "node:fs";
 // title and year so an address never changes between publishes. The slugs come
 // from the exported index,
 // so a film added to the catalogue gets a page on the next build.
-const films = JSON.parse(
-  readFileSync(new URL("./src/data/films.json", import.meta.url), "utf-8")
-);
+const read = (path) => JSON.parse(readFileSync(new URL(path, import.meta.url), "utf-8"));
+const films = read("./src/data/films.json");
+
+// Likewise one page per keyword on two or more films, at /keyword/<slug>, and
+// one per person in the room, at /person/<slug>. A keyword on a single film
+// has no page; its chip is drawn as plain text, as in the app.
+const keywords = read("./src/data/keywords.json").vocabulary.filter((k) => k.id);
+const people = read("./src/data/people.json");
 
 export default {
   title: "Rewatchables Explorer",
@@ -20,9 +25,14 @@ export default {
   style: "site.css",
   pages: [
     {name: "Overview", path: "/"},
-    {name: "All films", path: "/films"}
+    {name: "Movie Explorer", path: "/films"},
+    {name: "Keywords", path: "/keywords"}
   ],
-  dynamicPaths: films.map((f) => `/movie/${f.id}`),
+  dynamicPaths: [
+    ...films.map((f) => `/movie/${f.id}`),
+    ...keywords.map((k) => `/keyword/${k.id}`),
+    ...people.map((p) => `/person/${p.id}`)
+  ],
   toc: false,
   pager: false,
   search: false,

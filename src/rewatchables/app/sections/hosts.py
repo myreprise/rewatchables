@@ -33,31 +33,24 @@ RING_TOP = 12
 WHEN_TOP = 15
 
 
-def render(ctx):
-    merged_df = ctx.merged
-    movies_df = ctx.movies
+def the_room(merged_df):
+    """(room, others, board): everyone in the room per airing, the same with
+    Bill Simmons left out, and the bench of everyone else.
 
-    masthead(
-        "Hosts &amp; Guests",
-        "Everyone who sits in with Bill Simmons: look anyone up, see when they "
-        "were on, who they sit with, and which films they get booked on.",
-    )
-
-    # merged_df is one row per airing -- a revisit is its own row -- and it
-    # carries the film, which the lookup's posters need.
-    eps = merged_df
-    n_eps = len(eps)
-    room = room_long(eps, "raw_episode_id",
+    merged_df is one row per airing, so a revisit is its own episode.
+    """
+    room = room_long(merged_df, "raw_episode_id",
                      keep=("episode_number", "episode_date", "movie_id"))
-    is_anchor = room["person"] == ANCHOR
-    with_anchor = set(room.loc[is_anchor, "raw_episode_id"])
-    anchor_hosted = int((is_anchor & (room["chair"] == "host")).sum())
-    others = room[~is_anchor]
+    others = room[room["person"] != ANCHOR]
     board = bench(others, "raw_episode_id", "episode_date")
-    n_without = n_eps - len(with_anchor)
+    return room, others, board
 
-    # The leans feed the lookup as well as their own panel, so they are worked
-    # out up front. Cached: the permutation tests take about a second.
+
+def regular_leans(merged_df, others, board):
+    """(regulars, tested, leans): the people on LEAN_FLOOR+ episodes, the
+    genres common enough to test, and every regular against the rest of the
+    show on RT, film age and each of those genres."""
+    eps = merged_df
     regulars = board.index[board["episodes"] >= LEAN_FLOOR].tolist()
     reach = Counter(g for gs in eps["genres"] if isinstance(gs, list) for g in gs)
     tested = [g for g, n in reach.most_common() if n >= GENRE_FLOOR]
@@ -72,7 +65,44 @@ def render(ctx):
     on_ids = others.groupby("person")["raw_episode_id"].agg(set)
     members = pd.DataFrame({
         p: eps["raw_episode_id"].isin(on_ids[p]).to_numpy() for p in regulars})
-    leans = room_leans(measures, members)
+    return regulars, tested, room_leans(measures, members)
+
+
+def sits_with(others, ids, who):
+    """Episodes shared with each other person across `ids`, most first."""
+    return others.loc[others["raw_episode_id"].isin(ids)
+                      & (others["person"] != who), "person"].value_counts()
+
+
+def verdict_tally(merged_df, ids):
+    """Cruise / Hanks / Tie counts over the airings in `ids`."""
+    verdicts = merged_df.loc[merged_df["raw_episode_id"].isin(ids), "cruise_hanks"].map(clean)
+    return verdicts.dropna().value_counts()
+
+
+def render(ctx):
+    merged_df = ctx.merged
+    movies_df = ctx.movies
+
+    masthead(
+        "Hosts &amp; Guests",
+        "Everyone who sits in with Bill Simmons: look anyone up, see when they "
+        "were on, who they sit with, and which films they get booked on.",
+    )
+
+    # merged_df is one row per airing -- a revisit is its own row -- and it
+    # carries the film, which the lookup's posters need.
+    eps = merged_df
+    n_eps = len(eps)
+    room, others, board = the_room(eps)
+    is_anchor = room["person"] == ANCHOR
+    with_anchor = set(room.loc[is_anchor, "raw_episode_id"])
+    anchor_hosted = int((is_anchor & (room["chair"] == "host")).sum())
+    n_without = n_eps - len(with_anchor)
+
+    # The leans feed the lookup as well as their own panel, so they are worked
+    # out up front. Cached: the permutation tests take about a second.
+    regulars, tested, leans = regular_leans(eps, others, board)
     held = leans[leans["q"] < LEAN_Q]
 
     stat_tiles([
@@ -139,8 +169,7 @@ def render(ctx):
     c_company, c_record = st.columns(2)
     with c_company:
         st.markdown("###### Who they sit with")
-        company = others.loc[others["raw_episode_id"].isin(ids)
-                             & (others["person"] != who), "person"].value_counts()
+        company = sits_with(others, ids, who)
         ranked_list(
             [(n, int(k)) for n, k in company.head(6).items()],
             f"{who} has only ever been on with Bill.",
@@ -157,8 +186,7 @@ def render(ctx):
                        "the rest of the show.")
 
         st.markdown("###### Cruise vs. Hanks")
-        verdicts = eps.loc[eps["raw_episode_id"].isin(ids), "cruise_hanks"].map(clean)
-        tally = verdicts.dropna().value_counts()
+        tally = verdict_tally(eps, ids)
         n_v = int(tally.sum())
         if n_v >= VERDICT_FLOOR:
             ties = int(tally.get("Tie", 0))

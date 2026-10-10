@@ -359,8 +359,18 @@ def keyword_index(_movies, db_stamp=None):
     7,734 pairs. It also supplies the reach count behind every chip, so ranking
     a film's keywords costs nothing at render time.
     """
+    return build_keyword_index(_movies)
+
+
+def build_keyword_index(movies):
+    """keyword_index without the cache, for a caller holding its own frame.
+
+    The cache is keyed on the stamp alone (the frame is unhashed), so two
+    different frames under one stamp would share an index. Step 15 rebuilds
+    from the frame it was given.
+    """
     index = {}
-    for movie_id, keywords in zip(_movies["movie_id"], _movies["keywords"]):
+    for movie_id, keywords in zip(movies["movie_id"], movies["keywords"]):
         for word in (keywords if isinstance(keywords, list) else []):
             index.setdefault(word, []).append(movie_id)
     return index

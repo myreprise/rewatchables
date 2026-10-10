@@ -361,6 +361,23 @@ def film_slugs(movies):
             for mid, s in base.items()}
 
 
+def name_slugs(names):
+    """name -> address for keywords and people: "writer's block" is
+    writers-block, "Chris Ryan" is chris-ryan.
+
+    A name has no TMDB id to break a tie with, so should two fold to the same
+    address ("café" and "cafe") the later of them in sorted order takes -2,
+    then -3. Sorted, not first-seen, so the address does not depend on the
+    order the names arrive in.
+    """
+    out, taken = {}, Counter()
+    for name in sorted(set(names)):
+        base = slugify(name)
+        taken[base] += 1
+        out[name] = base if taken[base] == 1 else f"{base}-{taken[base]}"
+    return out
+
+
 def contributor_link(contributor):
     """(label, href) for the person or thread that put a film on the list.
 

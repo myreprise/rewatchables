@@ -20,7 +20,9 @@ import pandas as pd
 import pytest
 
 from rewatchables.pipeline import s15_export_site as export_site
-from views import film_slugs, slugify
+from rewatchables.pipeline.site_export import common
+from rewatchables.pipeline.site_export.films import SHELF
+from views import ANCHOR, LINK_FLOOR, film_slugs, name_slugs, slugify
 
 DB_PATH = Path(__file__).parent.parent / "rewatchables.db"
 
@@ -47,20 +49,20 @@ def _strict_load(path):
     ("Heat", "Heat"),
 ])
 def test_plain_value_writes_valid_json(value, expected):
-    assert export_site.plain_value(value) == expected
+    assert common.plain_value(value) == expected
 
 
 def test_plain_value_survives_a_round_trip():
-    out = json.dumps(export_site.plain_value(np.float64("nan")))
+    out = json.dumps(common.plain_value(np.float64("nan")))
     assert out == "null"
 
 
 def test_blurb_cuts_at_a_word_boundary():
     text = "word " * 100
-    cut = export_site.blurb(text, limit=23)
+    cut = common.blurb(text, limit=23)
     assert cut == "word word word word…"
-    assert export_site.blurb("short", limit=23) == "short"
-    assert export_site.blurb(None) == ""
+    assert common.blurb("short", limit=23) == "short"
+    assert common.blurb(None) == ""
 
 
 @pytest.mark.parametrize("title,year,slug", [
@@ -98,9 +100,25 @@ def test_film_slugs_do_not_depend_on_movie_id():
     assert list(one.values()) == list(two.values()) == ["heat-1995"]
 
 
+def test_name_slugs_suffix_a_collision_in_sorted_order():
+    """Keywords and people have no TMDB id to break a tie with."""
+    assert name_slugs(["writer's block", "Chris Ryan"]) == {
+        "writer's block": "writers-block", "Chris Ryan": "chris-ryan"}
+    # Folded to one address: the earlier in sorted order keeps the plain one,
+    # whichever order they arrive in.
+    for names in (["café", "cafe"], ["cafe", "café"]):
+        assert name_slugs(names) == {"cafe": "cafe", "café": "cafe-2"}
+
+
+def test_write_pages_removes_pages_no_longer_in_use(tmp_path):
+    (tmp_path / "gone.json").write_text("{}", encoding="utf-8")
+    assert common.write_pages(tmp_path, {"kept": {"a": 1}}) == 1
+    assert {p.name for p in tmp_path.glob("*.json")} == {"kept.json"}
+
+
 def test_write_rows_puts_one_row_per_line(tmp_path):
     path = tmp_path / "rows.json"
-    export_site.write_rows(path, [{"id": "a"}, {"id": "b"}])
+    common.write_rows(path, [{"id": "a"}, {"id": "b"}])
     lines = path.read_text(encoding="utf-8").splitlines()
     assert lines == ["[", '{"id": "a"},', '{"id": "b"}', "]"]
     assert json.loads(path.read_text(encoding="utf-8")) == [{"id": "a"}, {"id": "b"}]
@@ -126,6 +144,8 @@ def exported(ctx, tmp_path_factory):
     pages.mkdir(parents=True)
     # A page for a film no longer in the catalogue, which the export must remove.
     (pages / "not-a-film.json").write_text("{}", encoding="utf-8")
+    (out / "keywords").mkdir()
+    (out / "keywords" / "not-a-keyword.json").write_text("{}", encoding="utf-8")
     export_site.export(ctx, out=out, theme_dest=None)
     return out
 
@@ -186,8 +206,8 @@ def test_shelves_never_hold_the_film_itself(exported):
         page = _strict_load(path)
         shelved = {f["id"] for f in page["by_director"] + page["shared_cast"]}
         assert page["id"] not in shelved
-        assert len(page["by_director"]) <= export_site.SHELF
-        assert len(page["shared_cast"]) <= export_site.SHELF
+        assert len(page["by_director"]) <= SHELF
+        assert len(page["shared_cast"]) <= SHELF
 
 
 @live
@@ -243,3 +263,104 @@ def test_export_is_deterministic(ctx, exported, tmp_path):
     for path in exported.rglob("*.json"):
         twin = again / path.relative_to(exported)
         assert twin.read_bytes() == path.read_bytes(), path.name
+
+
+# ── Keyword and person pages ──────────────────────────────────────────────────
+
+def _pages(exported, kind):
+    return {p.stem: _strict_load(p) for p in (exported / kind).glob("*.json")}
+
+
+@live
+def test_a_keyword_has_a_page_exactly_when_its_chip_links(ctx, exported):
+    """The app's rule: a keyword on LINK_FLOOR films or more is a link."""
+    pages = _pages(exported, "keywords")
+    live_words = {w for w, n in ctx.reach.items() if n >= LINK_FLOOR}
+    assert {p["word"] for p in pages.values()} == live_words
+    assert "not-a-keyword" not in pages
+    index = _strict_load(exported / "keywords.json")
+    assert len(index["vocabulary"]) == len(ctx.reach)
+    assert {c["word"] for c in index["vocabulary"] if c["id"]} == live_words
+
+
+@live
+def test_keyword_pages_match_the_apps_profile(ctx, exported):
+    from rewatchables.app.overlays.keyword import keyword_profile
+
+    pages = _pages(exported, "keywords")
+    slugs = film_slugs(ctx.movies)
+    for page in list(pages.values())[::50]:
+        prof = keyword_profile(ctx.movies, ctx.keywords, page["word"])
+        assert {f["id"] for f in page["films"]} == {
+            slugs[m] for m in prof["films"]["movie_id"]}
+        assert page["thin"] == prof["thin"]
+        assert page["peak"] == prof["peak"]
+        assert [c["word"] for c in page["partners"]] == prof["partners"]
+
+
+@live
+def test_everyone_but_the_anchor_has_a_person_page(ctx, exported):
+    from views import room_long
+
+    pages = _pages(exported, "people")
+    room = set(room_long(ctx.merged, "raw_episode_id")["person"])
+    assert {p["name"] for p in pages.values()} == room - {ANCHOR}
+    index = _strict_load(exported / "people.json")
+    assert [r["id"] for r in index] and {r["id"] for r in index} == set(pages)
+    episodes = [r["episodes"] for r in index]
+    assert episodes == sorted(episodes, reverse=True)
+
+
+@live
+def test_person_pages_match_the_hosts_lookup(ctx, exported):
+    from rewatchables.app.analysis import person_shelf
+    from rewatchables.app.sections.hosts import the_room
+
+    _, _, board = the_room(ctx.merged)
+    for page in _pages(exported, "people").values():
+        me = board.loc[page["name"]]
+        assert page["episodes"] == me["episodes"]
+        assert page["hosted"] == me["hosted"]
+        assert len(page["shelf"]) == len(person_shelf(ctx.merged, page["name"]))
+        assert ANCHOR not in {c["name"] for c in page["company"]}
+        if not page["regular"]:
+            assert page["leans"] == []
+
+
+@live
+def test_every_link_lands_on_a_page(exported):
+    """A film, keyword or person id anywhere in the data names a page that
+    exists, so the site has no dead links of its own making."""
+    films = {p.stem for p in (exported / "films").glob("*.json")}
+    keywords = {p.stem for p in (exported / "keywords").glob("*.json")}
+    people = {p.stem for p in (exported / "people").glob("*.json")}
+
+    for page in _pages(exported, "films").values():
+        assert {f["id"] for f in page["by_director"] + page["shared_cast"]} <= films
+        assert {k["id"] for k in page["keywords"] if k["id"]} <= keywords
+        assert all(k["id"] for k in page["keywords"] if k["live"])
+        for ep in page["episodes"]:
+            for seat in [ep["host"], *ep["guests"]]:
+                if seat and seat["name"] != ANCHOR:
+                    assert seat["id"] in people, seat
+    for page in _pages(exported, "keywords").values():
+        assert {f["id"] for f in page["films"]} <= films
+        assert {c["id"] for c in page["partners"] if c["id"]} <= keywords
+    for page in _pages(exported, "people").values():
+        assert {f["id"] for f in page["shelf"]} <= films
+        assert {c["id"] for c in page["company"]} <= people
+    overview = _strict_load(exported / "overview.json")
+    assert {r["id"] for r in overview["regulars"]} <= people
+
+
+@live
+def test_film_rows_carry_the_explorers_ratings(ctx, exported):
+    rows = {r["id"]: r for r in _strict_load(exported / "films.json")}
+    rated = ctx.rated.assign(slug=ctx.rated["movie_id"].map(film_slugs(ctx.movies)))
+    for _, m in rated.iterrows():
+        row = rows[m["slug"]]
+        if pd.isna(m["tomatoes_avg"]):
+            assert row["rt"] is None
+        else:
+            assert row["rt"] == pytest.approx(m["tomatoes_avg"] * 100, abs=0.05)
+        assert row["director"] == m["director_primary"]

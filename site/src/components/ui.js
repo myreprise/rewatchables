@@ -116,3 +116,91 @@ export function note(content) {
 export function gridNote(...spans) {
   return html`<div class="rw-kw-gridnote">${spans.map((s) => html`<span>${s}</span>`)}</div>`;
 }
+
+// ── Links between pages ──────────────────────────────────────────────────────
+// Every page has an address made by step 15 from its name: movie/heat-1995,
+// keyword/heist, person/chris-ryan. A null id means the thing has no page (a
+// keyword on one film, the anchor), and it is drawn as plain text.
+
+// A keyword chip carrying its reach. With a page it is a link; `current`
+// marks the keyword whose page this is.
+export function keywordChip(k, base, current = false) {
+  const cls = current ? `rw-kw-chip ${k.band} is-here` : `rw-kw-chip ${k.band}`;
+  if (!k.id || current) {
+    return html`<span class=${k.id || current ? cls : "rw-kw-chip is-inert"}>${k.word} <b>${k.reach}</b></span>`;
+  }
+  return html`<a class=${cls} href=${`${base}keyword/${k.id}`}>${k.word} <b>${k.reach}</b></a>`;
+}
+
+export function chipField(chips, base, current = null) {
+  return html`<div class="rw-kw-field">${chips.map((k) => keywordChip(k, base, k.word === current))}</div>`;
+}
+
+export function personHref(id, base) {
+  return `${base}person/${id}`;
+}
+
+// A name, linked to its page when it has one.
+export function personLink(person, base) {
+  return person.id ? html`<a href=${personHref(person.id, base)}>${person.name}</a>` : person.name;
+}
+
+// views.decade_bars: a decade histogram scaled to its own tallest column.
+export function decadeBars(rows) {
+  const peak = Math.max(...rows.map((r) => r.n));
+  return html`<div class="rw-kw-bars">${rows.map((r) => html`
+    <div class=${r.n === peak && r.n ? "rw-kw-bar is-peak" : "rw-kw-bar"}>
+      <span class="v">${r.n}</span>
+      <span class="track"><i style=${`height:${peak ? Math.round(100 * r.n / peak) : 0}%`}></i></span>
+      <span class="d">${r.decade}s</span>
+    </div>`)}</div>`;
+}
+
+// components.ranked_list: name, bar, count. `label` draws the name, so it can
+// be a link.
+export function rankedList(rows, label, empty) {
+  if (!rows.length) return html`<p class="rw-ov-note">${empty}</p>`;
+  const top = Math.max(...rows.map((r) => r.n));
+  return html`<div>${rows.map((r) => html`<div class="rw-rank">
+    <span class="n">${label(r)}</span>
+    <span class="bar"><i style=${`width:${100 * r.n / top}%`}></i></span>
+    <span class="c">${r.n}</span>
+  </div>`)}</div>`;
+}
+
+// ── The trail ────────────────────────────────────────────────────────────────
+// The app's dossier steps through the list it was opened from: the Explorer's
+// filtered films, a person's episodes. Pages here are separate documents, so a
+// list remembers itself when a poster in it is clicked, and the film page
+// reads it back. Session storage: per tab, gone when the tab closes. It can be
+// missing or throw (a private window, blocked storage), and then a film page
+// simply has no arrows.
+
+const TRAIL = "rw-trail";
+
+// Remember `ids` as the list a film was opened from, whenever a poster inside
+// `container` is clicked. `back` defaults to this page, filters and all.
+export function trail(container, label, ids, back = null) {
+  container.addEventListener("click", (event) => {
+    if (!event.target.closest("a.rw-cardlink")) return;
+    try {
+      sessionStorage.setItem(TRAIL, JSON.stringify({
+        label, ids, back: back ?? location.pathname + location.search
+      }));
+    } catch {
+      // No storage: the film page falls back to its plain back link.
+    }
+  });
+  return container;
+}
+
+// The remembered list, if this film is on it: {label, back, ids, at}.
+export function readTrail(id) {
+  try {
+    const t = JSON.parse(sessionStorage.getItem(TRAIL));
+    const at = t?.ids?.indexOf(id) ?? -1;
+    return at >= 0 ? {...t, at} : null;
+  } catch {
+    return null;
+  }
+}

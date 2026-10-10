@@ -98,3 +98,27 @@ details.rw-more p { font-size: 14px; line-height: 1.65; color: var(--tape-2); ma
    markdown step strips one before the browser sees it. Served as a plain
    stylesheet it would print the escape itself, so the site restates it. */
 .rw-dt-gap::before { content: "\2304"; }
+
+/* ── Links between pages ──────────────────────────────────────────────── */
+/* Keyword chips and names in the room are links here, where the app draws
+   them as buttons. They keep the app's look and take the mint on hover. */
+a.rw-kw-chip { text-decoration: none; }
+a.rw-kw-chip:hover { border-color: var(--mint); color: var(--mint) !important; }
+a.rw-dt-person { text-decoration: none; }
+a.rw-dt-person:hover { color: var(--mint) !important; }
+.rw-reg .n a, .rw-rank .n a, .rw-kw-dec li a { text-decoration: none; }
+.rw-reg .n a:hover, .rw-rank .n a:hover, .rw-kw-dec li a:hover { color: var(--mint) !important; }
+
+/* The film page's way back, and the arrows through the list it came from. */
+.rw-dt-nav { display: flex; align-items: center; gap: 6px; margin: 0 0 12px; }
+.rw-dt-nav .rw-back { margin: 0; }
+.rw-step { min-width: 34px; text-align: center; }
+.rw-step.is-off { opacity: .35; pointer-events: none; }
+.rw-dt-nav .rw-dt-count { margin-left: 8px; }
+
+.rw-split.even { grid-template-columns: 1fr 1fr; }
+details.rw-filter-more { margin: 0 0 8px; }
+details.rw-filter-more .rw-filters { margin: 6px 0; }
+form[class^="inputs-"] input[type="checkbox"] { accent-color: var(--mint); }
+/* In the app each band heading sits in its own Streamlit block, which spaces it. */
+.rw-kw-field + .rw-kw-legend, .rw-kw-legend { margin-top: 14px; }

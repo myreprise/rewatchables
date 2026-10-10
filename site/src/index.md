@@ -47,7 +47,7 @@ display(html`<div class="rw-reg-row">${ov.regulars.map((r) => html`
   <div class="rw-reg">
     <span class="d">${r.name.split(" ").slice(0, 2).map((w) => w[0]).join("").toUpperCase()}</span>
     <div class="b">
-      <span class="n">${r.name}</span>
+      <span class="n">${r.id ? html`<a href=${`./person/${r.id}`}>${r.name}</a>` : r.name}</span>
       <span class="m"><b>${r.episodes}</b> of ${nEps}${r.hosted ? ` · hosted ${r.hosted}` : ""}</span>
       <div class="bar"><i style=${`width:${(100 * r.episodes / nEps).toFixed(0)}%`}></i></div>
     </div>
