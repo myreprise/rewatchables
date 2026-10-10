@@ -1,0 +1,268 @@
+{
+ "id": "6d2f5413-5dde-4b45-ae8d-b65165d4d011",
+ "title": "The Blair Witch Project",
+ "year": 1999,
+ "poster": "9050VGrYjYrEjpOvDZVAngLbg1f.jpg",
+ "tmdb_id": 2667,
+ "directors": [
+  "Eduardo Sánchez; Daniel Myrick"
+ ],
+ "director_primary": "Eduardo Sánchez; Daniel Myrick",
+ "genres": [
+  "Horror",
+  "Mystery"
+ ],
+ "runtime": 81,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2024-10-01",
+ "last": "2024-10-01",
+ "scores": {
+  "tmdb": 6.37,
+  "rt": 86.0,
+  "ebert": 4.0,
+  "box_office": "$468.2M",
+  "multiple": 4143.984983333334,
+  "cpi_year": 2024
+ },
+ "plot": "In October of 1994 three student filmmakers disappeared in the woods near Burkittsville, Maryland, while shooting a documentary. A year later their footage was found.",
+ "synopsis": "In October 1994, film students Heather Donahue, Michael C. Williams and Joshua Leonard set out to produce a documentary about the fabled Blair Witch. They travel to Burkittsville, Maryland, formerly Blair, and interview locals about the legend of the Blair Witch. The locals tell them of Rustin Parr, a hermit who kidnapped seven children in the 1940s and brought them to his house in the woods, where he tortured and murdered them. Parr brought the children into his home's basement in pairs, forcing the first child to face the corner and listen to their companion's screams as he murdered the second child. Parr would then murder the first child. Eventually turning himself in to the police, Parr later pleaded insanity, saying that the spirit of Elly Kedward, a witch hanged in the 18th century, had been terrorizing him for some time and promised to leave him alone if he murdered the children. The second day, the students begin to explore the woods in north Burkittsville to look for evidence to prove it is real and the Blair Witch exists. Along the way, a fisherman warns them that the woods are haunted, and recalls a time that he had seen strange mist rising from the water. The students hike to Coffin Rock, where five men were found ritualistically murdered in the 19th century, and then camp for the night. The next day they move deeper into the woods, despite being uncertain of their exact location on the map. They eventually locate what appears to be an old cemetery with seven small cairns. They set up camp nearby and then return to the cemetery after dark. Josh accidentally disturbs a cairn, and Heather hastily repairs it. Later, they hear crackling sounds in the darkness that seem to be coming from all directions and assume the noises are from animals or locals following them. The following day they attempt to return to their vehicle, but can't find their way. They try until nightfall, when they are forced to set camp. That night, they again hear crackling noises, but can't see anything. The next morning they find three cairns have been built around their tent during the night. As they continue trying to find their way out of the woods, Heather realizes that her map is missing, and Mike later reveals that he kicked it into a creek out of frustration the previous day. Josh and Heather attack Mike in a fit of intense rage. They then realize they are now hopelessly lost, and decide to simply \"head south\". Soon, they discover a multitude of humanoid stick figures suspended from trees. That night, they hear more strange noises, including the sounds of children and bizarre \"morphing\" sounds. When an unknown force shakes the tent, they flee in a panic and hide in the woods until dawn. Upon returning to their tent, they find that their possessions have been rifled through, and Josh's equipment is covered with slime, causing them to question why only his belongings were affected. As the day wears on, they pass a log over a stream that was identical to the one they had passed earlier, despite having traveled directly south all day, and again set camp, completely demoralized at having wasted the entire day seemingly going in circles. The next morning, Josh has disappeared. After trying in vain to find him, Mike and Heather eventually break camp and slowly move on. That night, they hear Josh screaming in the darkness, but are not able to find him. The next morning, Heather finds a bundle of sticks and fabric outside their tent. Later inspection reveals it contains blood-soaked scraps of Josh's shirt, as well as teeth and hair, but she does not mention this to Mike. That day, Heather films herself apologizing to the co-producers of her project as well as her family, and breaks down crying and hyperventilating, believing that something terrible is hunting her and her friends. Later, they again hear Josh's agonized cries for help, but this time they follow them and discover a derelict abandoned house in the woods. Mike races upstairs, following the voice, while Heather tries to follow. Mike then claims he hears Josh in the basement. He follows the sound and, after what seems to be a struggle, goes silent and drops to the floor. Heather screams for Mike, but gets no answer. She then enters the basement looking for both men, and her camera catches a glimpse of Mike facing the wall. Heather then screams as she and her camera drop to the floor. There is only silence as the footage ends.",
+ "synopsis_words": 769,
+ "episodes": [
+  {
+   "number": 375,
+   "date": "2024-10-01",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Hanks",
+   "verdict_tone": "hanks",
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "survival",
+   "reach": 12,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "ambiguous",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "friends",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "evil",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "paranoid",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "supernatural",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "wilderness",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "fear",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "sinister",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "depressing",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "faux documentary",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "forest",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "legend",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "maryland",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "videotape",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "camping",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "folk horror",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "found footage",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "hopeless",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "lost in the woods",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "map",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "method filmmaking",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "paranormal",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "pov (point of view)",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "pseudo-documentary",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "urban legend",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "witch",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "witchcraft",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Rei Hance",
+   "films": 1
+  },
+  {
+   "name": "Joshua Leonard",
+   "films": 1
+  },
+  {
+   "name": "Michael C. Williams",
+   "films": 1
+  },
+  {
+   "name": "Bob Griffin",
+   "films": 1
+  },
+  {
+   "name": "Jim King",
+   "films": 1
+  },
+  {
+   "name": "Sandra Sánchez",
+   "films": 0
+  },
+  {
+   "name": "Ed Swanson",
+   "films": 0
+  },
+  {
+   "name": "Patricia DeCou",
+   "films": 0
+  },
+  {
+   "name": "Mark Mason",
+   "films": 0
+  },
+  {
+   "name": "Susie Gooch",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/The_Blair_Witch_Project",
+  "wikidata": "Q644554"
+ }
+}

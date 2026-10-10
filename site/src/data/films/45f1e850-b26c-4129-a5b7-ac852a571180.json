@@ -1,0 +1,242 @@
+{
+ "id": "45f1e850-b26c-4129-a5b7-ac852a571180",
+ "title": "Running Scared",
+ "year": 1986,
+ "poster": "nSiRjhc7aTVPonXAhmTZAPqd2jT.jpg",
+ "tmdb_id": 15698,
+ "directors": [
+  "Peter Hyams"
+ ],
+ "director_primary": "Peter Hyams",
+ "genres": [
+  "Comedy",
+  "Crime",
+  "Thriller",
+  "Action"
+ ],
+ "runtime": 107,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2024-11-25",
+ "last": "2024-11-25",
+ "scores": {
+  "tmdb": 6.095,
+  "rt": 63.0,
+  "ebert": 3.0,
+  "box_office": "$110.2M",
+  "multiple": null,
+  "cpi_year": 2024
+ },
+ "plot": "Two street-wise Chicago cops have to shake off some rust after returning from a Key West vacation to pursue a drug dealer that nearly killed them in the past.",
+ "synopsis": "Ray Hughes and Danny Costanzo are two police officers working on Chicago's North Side, known for their wisecracking demeanors and unorthodox police methods, which get results in their various cases. One such case involves trying to bust up-and-coming drug dealer Julio Gonzales when they discovered he was released from prison. After arresting Snake, one of Gonzales's associates, they convince him to wear a wire in order to get the necessary evidence to put Gonzales away. When they approach the meeting place (a cargo ship) they find that Gonzales has acquired a large store of Israeli Uzi submachine guns. Snake is setting the detectives up, however, prompting the detectives to rush in by acting as though Gonzales was preparing to kill him. Gonzales reveals his ambition to be the Spanish \"Godfather\" of Chicago, but chastises Snake for letting the detectives get close, and Snake is shot dead by a subordinate. The pair look as though they will be killed, but two undercover detectives in Gonzales's gang step in to make the arrest. In the ensuing gun battle, most of the gang escape, but Ray and Danny capture Gonzales.\n\nBack at the station Ray and Danny expect to be praised, but instead their captain chastises them for their sloppy work (as revealed by Snake's wire) and orders them to take a vacation. On vacation in Key West, the pair develop a fondness for the laid-back and enjoyable atmosphere, and begin to question their career choice after the experience; when they discuss life after being cops, they decide to retire and open a bar.\n\nWhen they return to Chicago and inform the captain of their intentions, they find out that Gonzales has been released and is free on bail. Incensed, they vow to capture Gonzales before retiring, but by being a little more careful in the process, requisitioning bulletproof vests they never considered before. To add insult to injury, Captain Logan assigns them the additional task of training their replacements before they go. They must train detectives Anthony Montoya and Frank Sigliano, none other than the two undercover officers who saved them from being killed in the Gonzales bust; Logan wants them to replace Ray and Danny as \"the best of the worst.\"\n\nDuring one of the attempts to capture Gonzales, Ray and Danny confiscate a large shipment of cocaine coming from Colombia. To get it back, Gonzales kidnaps Danny's ex-wife Anna, whom he still loves and has been trying to reconcile with, and says he will trade her for his drugs; otherwise, he will kill her. Danny agrees, leading to the final confrontation inside the high-rise atrium of the State of Illinois Center. During the ensuing fight, Danny and Ray rescue their would-be protégés in a way similar to their own rescuing, and Gonzales is killed. Anna and Danny reconcile and he and Ray decide not to retire after all.",
+ "synopsis_words": 478,
+ "episodes": [
+  {
+   "number": 383,
+   "date": "2024-11-25",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Hanks",
+   "verdict_tone": "hanks",
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "chicago, illinois",
+   "reach": 19,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "drugs",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "shootout",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "undercover",
+   "reach": 13,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "buddy cop",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "florida",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "chase",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "cop",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "taxi",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "vacation",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "undercover cop",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "airport",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "winter",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "florida keys",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "key west",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "bullet proof vest",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "garbage truck",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "train tracks",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Gregory Hines",
+   "films": 1
+  },
+  {
+   "name": "Billy Crystal",
+   "films": 3
+  },
+  {
+   "name": "Steven Bauer",
+   "films": 1
+  },
+  {
+   "name": "Darlanne Fluegel",
+   "films": 1
+  },
+  {
+   "name": "Joe Pantoliano",
+   "films": 6
+  },
+  {
+   "name": "Dan Hedaya",
+   "films": 1
+  },
+  {
+   "name": "Jon Gries",
+   "films": 0
+  },
+  {
+   "name": "Tracy Reed",
+   "films": 0
+  },
+  {
+   "name": "Jimmy Smits",
+   "films": 0
+  },
+  {
+   "name": "John DiSanti",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "9657769e-825f-47b6-89e1-7f55bd8801d0",
+   "title": "Sudden Death",
+   "year": 1995,
+   "poster": "4Snihptli0we9I4W5QfufOdHSeV.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "a5d36945-1eef-4502-b4c3-20c7ff4d6ac6",
+   "title": "Risky Business",
+   "year": 1983,
+   "poster": "82KOHShH9raGhkcAN3TztVjqjj3.jpg"
+  },
+  {
+   "id": "104ac9bb-b214-4d01-9103-3cf79d4466ce",
+   "title": "Eddie and the Cruisers",
+   "year": 1983,
+   "poster": "qohqTtk33FlEoeb3zYLEAUGSO0E.jpg"
+  },
+  {
+   "id": "de732c24-e220-45a4-8fc2-1f5aaa7af7c2",
+   "title": "When Harry Met Sally...",
+   "year": 1989,
+   "poster": "rFOiFUhTMtDetqCGClC9PIgnC1P.jpg"
+  },
+  {
+   "id": "1b872089-f185-407c-bd62-fb9541b61c49",
+   "title": "City Slickers",
+   "year": 1991,
+   "poster": "9DVZpm9pQNB3M17cRo752zqUYhL.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Running_Scared_%281986_film%29",
+  "wikidata": "Q1221378"
+ }
+}

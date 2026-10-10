@@ -1,0 +1,167 @@
+{
+ "id": "63611c1d-b9e4-4199-87ca-cda95abb126f",
+ "title": "Night Shift",
+ "year": 1982,
+ "poster": "iS78MFtMDwWDP748juZQBK57C9o.jpg",
+ "tmdb_id": 14742,
+ "directors": [
+  "Ron Howard"
+ ],
+ "director_primary": "Ron Howard",
+ "genres": [
+  "Comedy"
+ ],
+ "runtime": 106,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2024-09-03",
+ "last": "2024-09-03",
+ "scores": {
+  "tmdb": 6.066,
+  "rt": 93.0,
+  "ebert": null,
+  "box_office": "$68.6M",
+  "multiple": 2.6044053086419754,
+  "cpi_year": 2024
+ },
+ "plot": "A nebbish of a morgue attendant gets shunted back to the night shift where he is shackled with an obnoxious neophyte partner who dreams of the \"one great idea\" for success. His life takes a bizarre turn when a prostitute neighbor complains about the loss of her pimp. His partner, upon hearing the situation, suggests that they fill that opening themselves using the morgue at night.",
+ "synopsis": "Charles \"Chuck\" Lumley, formerly a successful stockbroker, has found a refuge from the ulcer-inducing Wall Street rat race in his job as an attendant at a New York City morgue. His displeasure at being \"promoted\" to night-shift supervisor to make room for his boss' nephew, Leonard, is exacerbated by the irrational exuberance of Bill \"Blaze\" Blazejowski, his new co-worker. They are inspired by the plight of Chuck's prostitute neighbor, Belinda, to apply Chuck's financial acumen and Bill's entrepreneurial spirit to open a prostitution service headquartered at the morgue.\n\nChuck falls in love with Belinda, but their relationship becomes complicated when Belinda refuses to quit prostitution. Chuck's passiveness keeps him from telling Belinda he loves her. Meanwhile, Chuck and Bill's foray into the prostitution business draws the ire of dangerous pimps who come to the morgue and threaten to kill Chuck. Bill inadvertently leads two undercover police officers to the morgue where Chuck is being assaulted by the pimps. A shootout ensues. Chuck and Bill are rescued, but are arrested for promoting prostitution. Because their arrest would be a political embarrassment, the two men are offered their old jobs back and a dismissal of all charges. Chuck accepts this, but Bill sees it as an opportunity to bargain with the mayor's office. Chuck and Bill fight and part ways. Chuck's fiancée Charlotte ends their engagement.\n\nChuck sees Belinda in the hall of their apartment complex, but again fails to express his true feelings for her. Belinda leaves, and Chuck becomes angry with himself for being afraid. With renewed determination, Chuck finds Belinda working in an adult club and professes his love for her. He also finds Bill is employed there, apologizes for his harsh words, and assures Bill of the value of his creative ideas. The three leave the club together and go out on the town.",
+ "synopsis_words": 306,
+ "episodes": [
+  {
+   "number": 372,
+   "date": "2024-09-03",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Hanks",
+   "verdict_tone": "hanks",
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "pimp",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "prostitution",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "morgue",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Henry Winkler",
+   "films": 1
+  },
+  {
+   "name": "Michael Keaton",
+   "films": 5
+  },
+  {
+   "name": "Shelley Long",
+   "films": 1
+  },
+  {
+   "name": "Gina Hecht",
+   "films": 1
+  },
+  {
+   "name": "Pat Corley",
+   "films": 1
+  },
+  {
+   "name": "Bobby Di Cicco",
+   "films": 0
+  },
+  {
+   "name": "Nita Talbot",
+   "films": 0
+  },
+  {
+   "name": "Basil Hoffman",
+   "films": 0
+  },
+  {
+   "name": "Tim Rossovich",
+   "films": 0
+  },
+  {
+   "name": "Clint Howard",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "6f204970-66a4-43a6-a337-c5e4b2a2cdd6",
+   "title": "Parenthood",
+   "year": 1989,
+   "poster": "29Y6yg0gSurkFYTh54yxDzLBmrT.jpg"
+  },
+  {
+   "id": "75a8eae8-5839-4290-8133-26a48765ba26",
+   "title": "Apollo 13",
+   "year": 1995,
+   "poster": "tVeKscCm2fY1xDXZk8PgnZ87h9S.jpg"
+  },
+  {
+   "id": "58580cb5-0415-4077-950b-49a1ff0dc520",
+   "title": "Ransom",
+   "year": 1996,
+   "poster": "4nmOA5ZOY2VlHzwSlKY03sF2JUz.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "9d389891-4f1e-4f51-a516-c779f2c379b7",
+   "title": "Mr. Mom",
+   "year": 1983,
+   "poster": "QuTlgKKykL7j0PnZZd3LNFVhCX.jpg"
+  },
+  {
+   "id": "9d126887-293b-47bb-a4cf-ca5eb251bef7",
+   "title": "Batman",
+   "year": 1989,
+   "poster": "cij4dd21v2Rk2YtUQbV5kW69WB2.jpg"
+  },
+  {
+   "id": "473c413f-0893-4c2d-b7c7-d4edb57dcda3",
+   "title": "Pacific Heights",
+   "year": 1990,
+   "poster": "9iHD6xIrGSuuMEFWhwSVGXSddY2.jpg"
+  },
+  {
+   "id": "78351a0a-e114-44f2-ad96-bc8a0ec0bc98",
+   "title": "Spotlight",
+   "year": 2015,
+   "poster": "8DPGG400FgaFWaqcv11n8mRd2NG.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Night_Shift_%281982_film%29",
+  "wikidata": "Q997228"
+ }
+}

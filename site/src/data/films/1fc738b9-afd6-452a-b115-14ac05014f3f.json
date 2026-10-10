@@ -1,0 +1,219 @@
+{
+ "id": "1fc738b9-afd6-452a-b115-14ac05014f3f",
+ "title": "L.A. Confidential",
+ "year": 1997,
+ "poster": "lWCgf5sD5FpMljjpkRhcC8pXcch.jpg",
+ "tmdb_id": 2118,
+ "directors": [
+  "Curtis Hanson"
+ ],
+ "director_primary": "Curtis Hanson",
+ "genres": [
+  "Crime",
+  "Mystery",
+  "Thriller"
+ ],
+ "runtime": 138,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2026-03-30",
+ "last": "2026-03-30",
+ "scores": {
+  "tmdb": 7.806,
+  "rt": 99.0,
+  "ebert": 4.0,
+  "box_office": "$246.7M",
+  "multiple": 3.6061982857142856,
+  "cpi_year": 2024
+ },
+ "plot": "Three detectives in the corrupt and brutal L.A. police force of the 1950s use differing methods to uncover a conspiracy behind the shotgun slayings of the patrons at an all-night diner.",
+ "synopsis": "In 1953, the Los Angeles Police Department (LAPD) aims to improve its public image following decades of corruption. Career-focused sergeant Edmund Exley lives in the shadow of his legendary detective father, whose murderer was never identified; Exley names the suspect \"Rollo Tomasi\", representing any criminal who escapes justice. Fame-seeking narcotics sergeant Jack Vincennes collaborates with tabloid journalist Sid Hudgens to perform high-profile celebrity arrests, and volatile officer Wendell White uses violence to interrogate and intimidate suspects, particularly women-abusers, because his father murdered his mother.\n\nOn Christmas Eve, White encounters high-class prostitutes Lynn Bracken and Susan Lefferts, and former officer Leland Meeks. They work for Pierce Patchett, a businessman operating a prostitution ring supplying women surgically altered to resemble film stars. White begins a relationship with Bracken. After the \"Bloody Christmas\" scandal—involving drunken officers beating inmates—Exley is promoted to detective lieutenant for advising his superiors to save the department's reputation by dismissing only securely pensioned officers. Exley coerces Vincennes to testify, while White refuses to comply and is suspended. White's partner, Dick Stensland, is fired for his involvement, making other officers hostile toward Exley. After powerful gangster Mickey Cohen is imprisoned, police captain Dudley Smith recruits White to frighten off criminals attempting to take Cohen's place. A spate of murders targeting Cohen's underlings leads to the disappearance of 25 lb (11 kg) of his heroin.\n\nExley investigates a massacre at the Nite Owl coffee house, with Stensland and Lefferts among the victims. Three felons are arrested for the crime, and interrogation reveals they have been raping a captive woman. White rushes to free the woman and executes her captor, planting evidence to suggest he acted in self-defense. The felons escape the station and are killed by Exley in the ensuing shootout, closing the case and earning him a medal for bravery. However, unable to ignore inconsistencies in the case, Exley and White continue the investigation independently. White interviews Lefferts's mother and discovers Meeks's body beneath her house. He interrogates Cohen's ex-bodyguard, Johnny Stompanato, who reveals Meeks was trying to sell the stolen heroin.\n\nHudgens and Vincennes orchestrate a homosexual tryst between struggling actor Matt Reynolds and district attorney Ellis Loew to create blackmail photos. But after Reynolds is found murdered, a guilt-ridden Vincennes joins Exley's investigation. Vincennes learns that Meeks and Stensland formerly worked under Smith, and dropped an investigation into Patchett and Hudgens blackmailing prominent businessmen with photos of their illicit trysts. He then confronts Smith, who shoots him dead. With his last breath, Vincennes says, \"Rollo Tomasi.\"\n\nExley becomes suspicious when Smith asks him about \"Rollo Tomasi\", a name Exley disclosed only to Vincennes. Smith arranges for White to find photos that Hudgens took of Bracken having sex with Exley. Enraged, White fights Exley until they realize that their investigations implicate Smith. They deduce that Stensland killed Meeks for the heroin, and Smith orchestrated the Nite Owl massacre to kill Stensland and framed the felons. Exley and White interrogate Loew, discovering that Smith and Patchett are taking over Cohen's empire and blackmailed Loew to force his cooperation. Exley and White later find Hudgens and Patchett murdered.\n\nSmith lures Exley and White into a remote ambush. Though badly wounded, the pair kill Smith's men. Smith offers to mislead the approaching police and further promote Exley, but Exley executes him to prevent him from avoiding punishment. Despite Exley's evidence, LAPD officials decide to protect the department's image by claiming Smith died a hero; Exley agrees to cooperate as a second \"hero\" for further accolades. Outside city hall, Exley says goodbye to Bracken and White before they leave for Arizona.",
+ "synopsis_words": 598,
+ "episodes": [
+  {
+   "number": 454,
+   "date": "2026-03-30",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Cruise",
+   "verdict_tone": "cruise",
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Sean Fennessey",
+    "Andy Greenwald"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "neo-noir",
+   "reach": 29,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "detective",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "corruption",
+   "reach": 12,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "whodunit",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "1950s",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "femme fatale",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "district attorney",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "call girl",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "domestic violence",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "movie star",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "shotgun",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "corpse",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "good cop bad cop",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Kevin Spacey",
+   "films": 4
+  },
+  {
+   "name": "Russell Crowe",
+   "films": 6
+  },
+  {
+   "name": "Guy Pearce",
+   "films": 2
+  },
+  {
+   "name": "James Cromwell",
+   "films": 1
+  },
+  {
+   "name": "Kim Basinger",
+   "films": 3
+  },
+  {
+   "name": "Danny DeVito",
+   "films": 1
+  },
+  {
+   "name": "David Strathairn",
+   "films": 1
+  },
+  {
+   "name": "Ron Rifkin",
+   "films": 0
+  },
+  {
+   "name": "Graham Beckel",
+   "films": 0
+  },
+  {
+   "name": "Amber Smith",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "ccbb3f64-fad0-4117-b9c9-d9d04ccb4416",
+   "title": "The Hand That Rocks the Cradle",
+   "year": 1992,
+   "poster": "1fBnyO3SbNBplck45js6O4pQaLw.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "6f09eb61-5ba8-40ee-ba33-d46a41e0a1ea",
+   "title": "The Natural",
+   "year": 1984,
+   "poster": "fwn1gYeOkS1XHKVFdNorKSIpix8.jpg"
+  },
+  {
+   "id": "9d126887-293b-47bb-a4cf-ca5eb251bef7",
+   "title": "Batman",
+   "year": 1989,
+   "poster": "cij4dd21v2Rk2YtUQbV5kW69WB2.jpg"
+  },
+  {
+   "id": "5f2e73e5-ba7b-4732-b103-1f661ca75ff4",
+   "title": "The Usual Suspects",
+   "year": 1995,
+   "poster": "99X2SgyFunJFXGAYnDv3sb9pnUD.jpg"
+  },
+  {
+   "id": "f00af509-0c7e-4857-b1a1-3b3c90a1074a",
+   "title": "A Time to Kill",
+   "year": 1996,
+   "poster": "w8UCke112E9jrhjKcwG32kyhTx5.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/L.A._Confidential_%28film%29",
+  "wikidata": "Q339876"
+ }
+}

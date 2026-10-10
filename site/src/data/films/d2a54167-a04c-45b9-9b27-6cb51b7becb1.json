@@ -1,0 +1,144 @@
+{
+ "id": "d2a54167-a04c-45b9-9b27-6cb51b7becb1",
+ "title": "Just One of the Guys",
+ "year": 1985,
+ "poster": "7ffvsRv8ueYYK0H3zocmNRPd8yN.jpg",
+ "tmdb_id": 24548,
+ "directors": [
+  "Lisa Gottlieb"
+ ],
+ "director_primary": "Lisa Gottlieb",
+ "genres": [
+  "Comedy",
+  "Romance"
+ ],
+ "runtime": 100,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2026-01-19",
+ "last": "2026-01-19",
+ "scores": {
+  "tmdb": 6.424,
+  "rt": 56.99999999999999,
+  "ebert": null,
+  "box_office": "$33.6M",
+  "multiple": 1.002513043478261,
+  "cpi_year": 2024
+ },
+ "plot": "When Terry Griffith loses her high school's writing competition, she's convinced that it's because she's a girl. So Terry decides to change high schools and pose as a boy to prove her point. Her brother, Buddy, helps her pass as a guy so well that she is soon making friends with the boys at school, including the attractive Rick, who becomes her new best friend. But her gender-swapping makes things difficult when she falls in love with him.",
+ "synopsis": "Terri Griffith is a high school student and aspiring journalist in Phoenix, Arizona, who feels that her teachers do not take her articles seriously because of her good looks. After failing to obtain her dream job as a newspaper intern, Terri concludes that it is because she is a girl.\n\nTerri decides to remedy the situation while her parents are out of town on a two-week Caribbean vacation. She enrolls as a boy named \"Terry\" at a rival high school, her real identity known only to her sex-obsessed younger brother, Buddy, and her best friend, Denise. On her first day, Terri meets Rick Morehouse, a socially awkward transfer student whom she finds attractive. Trying to stay close to Rick, Terri helps him through an image makeover and encourages him to start talking to girls.\n\nAfter many episodes in and out of school, including fending off a group of bullies led by bodybuilder Greg Tolan, dealing with her real college boyfriend Kevin, and being set up on a blind date with a potential new girlfriend named Sandy, Terri manages to be accepted as \"one of the guys\".\n\nAt the senior prom, a jealous Greg picks a fight with Rick, who ultimately trounces the bully in front of the entire class. When Terri's boyfriend shows up unexpectedly and discovers the ruse, Rick assumes that Terri's big secret is that \"Terry\" is gay. To prove otherwise, Terri opens her shirt and reveals her breasts to Rick. Although she admits to loving Rick, he rejects Terri, prompting a desperate Terri to kiss him in front of everyone. To placate the awestruck students, Rick derisively announces that Terri \"has tits\" before leaving the prom and Terri behind.\n\nHeartbroken and humiliated, Terri retreats to her room and writes a lengthy article on what it is like to be a girl in boys' clothing, detailing all of her positive and negative experiences. Terri then returns to her school. When her article is printed in the newspaper, Terri receives high praise and finally earns her dream job there. Nevertheless, Terri still yearns for Rick, who has not spoken to her since the prom.\n\nOne day during the summer, Rick suddenly turns up after reading her article. Realizing their true feelings for each other, they reconcile and plan another date. They decide to go for a drive in Terri's car, but before Buddy can join them, an attractive blonde on a motorcycle rides up and beckons to him with a smile. Buddy then climbs onto the back of her motorcycle, and both couples happily part ways.",
+ "synopsis_words": 427,
+ "episodes": [
+  {
+   "number": 442,
+   "date": "2026-01-19",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Cruise",
+   "verdict_tone": "cruise",
+   "host": "Bill Simmons",
+   "guests": [
+    "Kyle Brandt",
+    "Joanna Robinson"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "woman director",
+   "reach": 16,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "teen comedy",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "adolescence",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "sexism",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "cross dressing",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Joyce Hyser",
+   "films": 1
+  },
+  {
+   "name": "Clayton Rohner",
+   "films": 1
+  },
+  {
+   "name": "Billy Jayne",
+   "films": 1
+  },
+  {
+   "name": "William Zabka",
+   "films": 2
+  },
+  {
+   "name": "Toni Hudson",
+   "films": 1
+  },
+  {
+   "name": "Leigh McCloskey",
+   "films": 0
+  },
+  {
+   "name": "Sherilyn Fenn",
+   "films": 0
+  },
+  {
+   "name": "Deborah Goodrich",
+   "films": 0
+  },
+  {
+   "name": "Kenneth Tigar",
+   "films": 0
+  },
+  {
+   "name": "Arye Gross",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "58294b07-68df-4b43-9266-80af2f5c7e13",
+   "title": "The Karate Kid",
+   "year": 1984,
+   "poster": "1mp4ViklKvA0WXXsNvNx0RBuiit.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Just_One_of_the_Guys",
+  "wikidata": "Q3281877"
+ }
+}

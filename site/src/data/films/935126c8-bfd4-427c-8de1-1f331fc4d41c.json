@@ -1,0 +1,174 @@
+{
+ "id": "935126c8-bfd4-427c-8de1-1f331fc4d41c",
+ "title": "Shampoo",
+ "year": 1975,
+ "poster": "6jmFvXPV6OhtX3AkAVnH7rwdeUJ.jpg",
+ "tmdb_id": 31121,
+ "directors": [
+  "Hal Ashby"
+ ],
+ "director_primary": "Hal Ashby",
+ "genres": [
+  "Comedy",
+  "Drama"
+ ],
+ "runtime": 110,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2025-12-08",
+ "last": "2025-12-08",
+ "scores": {
+  "tmdb": 6.05,
+  "rt": 75.0,
+  "ebert": 2.5,
+  "box_office": "$349.9M",
+  "multiple": 15.0,
+  "cpi_year": 2024
+ },
+ "plot": "On Election Day, 1968, irresponsible hairdresser and ladies' man George Roundy is too busy cutting hair and dealing with his girlfriends and mistress Felicia Karpf, whose husband Lester is having an affair with his ex-girlfriend Jackie.",
+ "synopsis": "On the eve of the 1968 presidential election, successful Beverly Hills hairdresser George Roundy meets with Felicia, one of his several clients/sexual partners, at his apartment. During sex, he receives a phone call from Jill, his naive, younger, up-and-coming actress girlfriend, who is suffering a panic attack, paranoid that an intruder is in her home. George rushes from his house to calm Jill, which frustrates Felicia.\n\nGeorge's occupation and charisma have provided him the perfect platform from which to meet and bed beautiful women, including his current girlfriend. Despite this, 34-year-old George is dissatisfied with his professional life; he is the creative star of the salon in which he works, but has to play second fiddle to Norman, the \"nickel-and-diming\" mediocre hairdresser who owns the business.\n\nGeorge dreams of setting up his own salon business but cannot convince any bank to lend him the capital he needs. He seeks out Felicia and her unsuspecting husband Lester to bankroll him. George's meeting with Lester supplies a second secret for him to keep from his would-be benefactor; Lester's current mistress, Jackie, is George's former girlfriend, perhaps the most serious relationship he has ever had. Jackie is also best friends with Jill, making the situation even more complicated.\n\nJackie arranges for George to style her hair, which he fashions nearly identically to Felicia's. Sexual tension arises between the two, and George attempts to kiss Jackie. At first, Jackie rebuffs George, but then kisses him back. They are about to have sex in the bathroom when they hear Lester announce his arrival. As Lester comes into the room, they pretend for his benefit that George is finishing styling Jackie's hair.\n\nLester, who assumes George is gay because of his profession, asks George to escort Jackie to a Republican election-night soiree. Upon arriving, George finds himself in the same room as a number of present and former sexual partners, including Jill (who came with Johnny Pope, a film director considering her for a role in his next film) and Felicia. Jackie becomes upset, drinks too much, and behaves outrageously, so Lester asks George to take her home, but she refuses to go.\n\nAll the principals except Felicia adjourn to a posh counterculture party at a Beverly Hills mansion, where guests indulge in alcohol, drugs and sexual pursuits. Lester, followed moments later by Jill and Johnny, happen upon a couple having vigorous sex in the dark on the kitchen floor. Lester comments admiringly on this tryst to Jill and Johnny, who look on through the window in stunned silence. Suddenly, the refrigerator door George had failed to properly close comes open, illuminating him and Jackie having intercourse. Lester, shocked, abruptly leaves. An enraged Jill throws a chair, breaking the window, and swears at George. Jackie flees as George tries to placate Jill with an obvious lie, but Jill, unmollified, runs off to spend the night with Johnny.\n\nThe following morning, Jill confronts George at her home with one of Felicia's earrings, which she found in his bed. When she asks about his dalliances, George admits he sought a career in the beauty industry as a means to pursue beautiful women, and that his promiscuity, while making him feel like he will live forever, may mean he does not love her. Upon returning to his home, George is met by Lester and some intimidating men. George and Lester soon find mutual understanding. Lester hypocritically calls Jackie a whore and mentions he is fed up with her. Lester promises George a business deal and he and the men leave.\n\nGeorge subsequently goes to Jackie's house, but she worriedly flees in her car, claiming she does not want Lester to find them together. George pursues her on his motorcycle, and the two arrive on a hilltop overlook above her house. George proposes to Jackie, but she tells him it is too late; she has arranged to go to Acapulco with Lester, who has said he will divorce Felicia and marry her. Jackie leaves George alone on the overlook, from where he sadly watches her depart with Lester.",
+ "synopsis_words": 678,
+ "episodes": [
+  {
+   "number": 435,
+   "date": "2025-12-08",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Cruise",
+   "verdict_tone": "cruise",
+   "host": "Bill Simmons",
+   "guests": [
+    "Sean Fennessey",
+    "Cameron Crowe"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "1960s",
+   "reach": 12,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "cheerful",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "satire",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "beverly hills",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "sex comedy",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "presidential election",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "hairdresser",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Warren Beatty",
+   "films": 2
+  },
+  {
+   "name": "Julie Christie",
+   "films": 2
+  },
+  {
+   "name": "Goldie Hawn",
+   "films": 1
+  },
+  {
+   "name": "Lee Grant",
+   "films": 1
+  },
+  {
+   "name": "Jack Warden",
+   "films": 7
+  },
+  {
+   "name": "Tony Bill",
+   "films": 0
+  },
+  {
+   "name": "George Furth",
+   "films": 0
+  },
+  {
+   "name": "Jay Robinson",
+   "films": 0
+  },
+  {
+   "name": "Ann Weldon",
+   "films": 0
+  },
+  {
+   "name": "Luana Anders",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "2cf3b9e8-700a-44a6-ae48-fb3001cd349a",
+   "title": "Heaven Can Wait",
+   "year": 1978,
+   "poster": "h1yOiO9cow6gwmGxSAWvPdY4lhJ.jpg"
+  },
+  {
+   "id": "784fb257-55b5-4375-8251-a08dfd453629",
+   "title": "All the President's Men",
+   "year": 1976,
+   "poster": "pCe6lfLxt1B58zPD4lgQrlnDS2j.jpg"
+  },
+  {
+   "id": "a14964a9-f365-4afa-a273-f982d4b35cc0",
+   "title": "...And Justice for All",
+   "year": 1979,
+   "poster": "fGFkpJUsouxxBGWfYqeuJfH210T.jpg"
+  },
+  {
+   "id": "2d455952-660c-491f-819d-1a4ac8b8c2be",
+   "title": "The Verdict",
+   "year": 1982,
+   "poster": "iYEuFP1bpj5yOenKliiRFcNO3VE.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Shampoo_%28film%29",
+  "wikidata": "Q1534188"
+ }
+}

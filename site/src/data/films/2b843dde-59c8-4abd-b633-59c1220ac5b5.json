@@ -1,0 +1,283 @@
+{
+ "id": "2b843dde-59c8-4abd-b633-59c1220ac5b5",
+ "title": "Unstoppable",
+ "year": 2010,
+ "poster": "zKvHwL0GqLOear8rTnUPSTRYY0r.jpg",
+ "tmdb_id": 44048,
+ "directors": [
+  "Tony Scott"
+ ],
+ "director_primary": "Tony Scott",
+ "genres": [
+  "Action",
+  "Thriller"
+ ],
+ "runtime": 98,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2020-01-09",
+ "last": "2020-01-09",
+ "scores": {
+  "tmdb": 6.624,
+  "rt": 87.0,
+  "ebert": 3.5,
+  "box_office": "$241.4M",
+  "multiple": 1.67805466,
+  "cpi_year": 2024
+ },
+ "plot": "When a massive, unmanned locomotive roars out of control, the threat is more ominous than just a derailment. The train is laden with toxic chemicals, and an accident would decimate human life and cause an environmental disaster. The only hope of bringing the train to a safe stop is in the hands of veteran engineer Frank Barnes, and young conductor Will Colson, who must risk their lives to save those in the runaway's path. Inspired by true events.",
+ "synopsis": "A botched switching operation by yard hostlers Dewey and Gilleece at an Allegheny and West Virginia Railroad (AWVR) yard in southern Pennsylvania results in a runaway freight train pulled by locomotive 777 (Triple 7) heading south at full throttle, hauling 39 cars. Believing it is coasting, yardmaster Connie Hooper orders Dewey and Gilleece to pursue the train and sends lead welder Ned Oldham ahead in his truck to switch it off the main line. Ned arrives at the switch after the train has passed, and the crew realize that the train is running on full power, let alone, the air brake was not latched on. During this, a train heading in the exact direction, carrying children on a field trip, evaded Triple 7 in the nick of time. Attempts by Dewey and Gilleece to board the train fail, prompting Connie to alert Oscar Galvin, Vice President of Operations, and coordinate with state police to block road crossings.\n\nFederal Railroad Administration inspector Scott Werner warns that eight of the 39 cars contain phenol, a highly toxic and flammable chemical, which poses catastrophic risks if the train derails in a populated area. Despite Connie's suggestion to derail the train in unpopulated farmland, Galvin and AWVR's president reject the idea, prioritizing cost-saving measures. Instead, veteran engineer Judd Stewart is sent to slow down Triple 7 with another locomotive to allow AWVR employee and U.S. Marine veteran Ryan Scott to board from a helicopter. The plan fails: Ryan is injured, and Stewart's locomotive derails and explodes, killing him. With Triple 7 approaching a dangerous curve above the heavily populated town of Stanton, Galvin reluctantly approves a controlled derailment near the smaller town of Arklow.\n\nMeanwhile, veteran engineer Frank Barnes and rookie conductor Will Colson are moving freight cars with locomotive 1206 going north on the same line as Triple 7. Frank, a seasoned railroad veteran facing his forced early retirement, and Will, who is preoccupied with a restraining order from his wife Darcy over an incident with a former high school colleague and living with his brother, are ordered to pull off into a siding RIP track just before the runaway train races by, smashing through their last boxcar. Frank notices an open coupler on Triple 7's rear car and proposes coupling 1206 to it, using their brakes to slow it before it reaches the Stanton curve. Frank predicts that the portable derailers set up at Arklow will fail due to Triple 7's weight and speed.\n\nGalvin dismisses the plan, threatening to fire Frank, Will, and Connie when she supports them. Ignoring him, Frank and Will proceeded with their pursuit. As predicted, the derailers fail, and Triple 7 barrels through them unhindered. Connie and Werner, realizing Frank's plan is their only option, override Galvin and coordinate support.\n\nFrank and Will catch up to Triple 7, and Will exits 1206's cab to complete the coupling. When the locking pin will not engage, Will kicks it into place, but his foot gets crushed. Despite the injury, he hobbles back to the cab and takes control of the dynamic brakes while Frank climbs atop the freight cars to manually engage the handbrakes, car by car. Their efforts initially slow Triple 7, but eventually, 1206's brakes burn out, and Triple 7 begins accelerating again.\n\nUsing the independent air brake, Will and Frank coordinate their brake timing via radio, reducing speed enough to navigate the Stanton curve elevated bridge. However, Frank is blocked from reaching Triple 7's locomotive by a bulkhead flatcar with no walkway. Ned arrives in his truck, speeding alongside the tracks with the police escorting him. Will jumps onto the truck bed, and Ned races ahead of the train. Will leaps onto Triple 7's engine, gains control, and brings the runaway train to a stop. There is later a press conference and Frank, Will, and Ned are commended for their actions.\n\nIn the aftermath, Will reunites with Darcy and their son, learning that she's pregnant with their second child. Connie arrives to congratulate Frank and Will. Frank is promoted and later retires with full benefits. Will recovers from his injuries and continues working with AWVR. Connie ascends to VP of Operations, while it’s implied Galvin was fired for his poor handling of the incident. Ryan recovers from his injuries, while Dewey is fired and finds work in the fast-food industry.",
+ "synopsis_words": 724,
+ "episodes": [
+  {
+   "number": 114,
+   "date": "2020-01-09",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Quentin Tarantino"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "race against time",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "pennsylvania, usa",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "evacuation",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "train",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "high octane",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "collision course",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "emergency stop",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "family issues",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "freight train",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "full throttle",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "hazardous material",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "locomotive",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "national news",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "railroad crossing",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "railyard",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "runaway train",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "toxic chemicals",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "train conductor",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "train engineer",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "train yard",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "train yardmaster",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Denzel Washington",
+   "films": 12
+  },
+  {
+   "name": "Chris Pine",
+   "films": 1
+  },
+  {
+   "name": "Rosario Dawson",
+   "films": 3
+  },
+  {
+   "name": "Kevin Dunn",
+   "films": 2
+  },
+  {
+   "name": "Kevin Corrigan",
+   "films": 1
+  },
+  {
+   "name": "Lew Temple",
+   "films": 0
+  },
+  {
+   "name": "Kevin Chapman",
+   "films": 0
+  },
+  {
+   "name": "Ethan Suplee",
+   "films": 0
+  },
+  {
+   "name": "T.J. Miller",
+   "films": 0
+  },
+  {
+   "name": "Jessy Schram",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "ba4b922b-1770-4613-8323-7bfccacaa6c4",
+   "title": "Top Gun",
+   "year": 1986,
+   "poster": "xUuHj3CgmZQ9P2cMaqQs4J0d4Zc.jpg"
+  },
+  {
+   "id": "e5e0f534-7957-4b84-8921-a055f5c69648",
+   "title": "Beverly Hills Cop II",
+   "year": 1987,
+   "poster": "egDakU8O5yUwpUJP9IMAUVtIDll.jpg"
+  },
+  {
+   "id": "f8ca9cdd-3e2f-4b58-b466-a7cc0a885d6c",
+   "title": "Days of Thunder",
+   "year": 1990,
+   "poster": "8UvcoeMJag8UWGF8sg7eYspzq0Q.jpg"
+  },
+  {
+   "id": "d0ada21d-7072-4f3d-8682-89325dff350f",
+   "title": "The Last Boy Scout",
+   "year": 1991,
+   "poster": "glPswihcZYoAQ4YM2uJF4UACy8T.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "a55f413a-8e24-49d4-bc70-f187e37b86ec",
+   "title": "He Got Game",
+   "year": 1998,
+   "poster": "kd8hRaysUQOz7AvSorZDJHuihcJ.jpg"
+  },
+  {
+   "id": "d835bb27-f89f-416a-833d-36b2b6585eb9",
+   "title": "Dave",
+   "year": 1993,
+   "poster": "n7wQlcexeER5bW7DvV8sji2vRRH.jpg"
+  },
+  {
+   "id": "95a3bacd-84d0-4863-a675-e81eedc35065",
+   "title": "The Pelican Brief",
+   "year": 1993,
+   "poster": "7B1HS0SqfJR1jbeHS6V0ZWdzLXP.jpg"
+  },
+  {
+   "id": "b5246abb-5dee-4d67-88c1-c91874c658ee",
+   "title": "Philadelphia",
+   "year": 1993,
+   "poster": "tFe5Yoo5zT495okA49bq1vPPkiV.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Unstoppable_%282010_film%29",
+  "wikidata": "Q644276"
+ }
+}

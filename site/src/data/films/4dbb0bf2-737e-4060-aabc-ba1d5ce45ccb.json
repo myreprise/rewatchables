@@ -1,0 +1,314 @@
+{
+ "id": "4dbb0bf2-737e-4060-aabc-ba1d5ce45ccb",
+ "title": "Face/Off",
+ "year": 1997,
+ "poster": "69Xzn8UdPbVnmqSChKz2RTpoNfB.jpg",
+ "tmdb_id": 754,
+ "directors": [
+  "John Woo"
+ ],
+ "director_primary": "John Woo",
+ "genres": [
+  "Action",
+  "Crime",
+  "Science Fiction"
+ ],
+ "runtime": 139,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2017-10-26",
+ "last": "2017-10-26",
+ "scores": {
+  "tmdb": 7.059,
+  "rt": 93.0,
+  "ebert": 3.0,
+  "box_office": "$480.2M",
+  "multiple": 3.07125,
+  "cpi_year": 2024
+ },
+ "plot": "In order to foil a terrorist plot, an FBI agent undergoes facial transplant surgery and assumes the identity of a criminal mastermind. The plan turns sour when the criminal wakes up prematurely and seeks revenge.",
+ "synopsis": "FBI Special Agent Sean Archer survives an assassination attempt by Castor Troy, a terrorist-for-hire, but the bullet kills his son Michael. Archer then engages in an extended vendetta against Troy. It culminates, six years later, in his team ambushing Troy, who is with his younger brother and accomplice, Pollux, on a remote desert airstrip. Castor goads Archer by saying he knows of a bomb that is located somewhere in Los Angeles and is set to explode in a few days. Before Archer can learn more, Castor is knocked unconscious and falls into a coma. Pollux, in custody, affirms that the bomb is real but refuses to reveal its location.\n\nIn secret, Archer reluctantly undergoes a highly experimental face transplant procedure by Dr. Malcolm Walsh to take on Castor's face, voice, and appearance. Archer-as-Castor is taken to the same high-security prison where Pollux is being held in order to obtain information on the bomb's location. Castor unexpectedly awakens from his coma and discovers that his face is missing. He calls his gang, and they force Dr. Walsh to transplant Archer's face onto him. Meanwhile, Archer successfully learns the bomb's location from Pollux before being informed that he has a visitor. Anticipating a reunion with his colleagues and a return to his normal life, Archer instead finds Castor wearing his face. Upon revealing he has murdered everyone else who is aware about the face transplant, Castor gleefully informs Archer that he looks forward to ruining his FBI career and ravishing his wife.\n\nPollux is freed when he willingly tells Castor-as-Archer of the bomb's location, and Castor subsequently disarms the bomb. Castor earns admiration from the FBI office and becomes close to Archer's wife Eve and daughter Jamie, whom Archer had been neglecting while seeking to avenge the death of his son. Back at the prison, Archer-as-Castor escapes after staging a riot and retreats to Castor's headquarters. There, he meets Sasha, the sister of Castor's primary drug kingpin Dietrich Hassler, and her son Adam, who reminds him of Michael. Archer discovers that Adam is Castor's son. Castor learns of Archer's escape and hastily assembles a team to raid his headquarters.\n\nThe raid turns into a bloodbath, and many FBI agents and several members of Castor's gang, including Dietrich and Pollux, are killed. Archer-as-Castor, Sasha, and Adam all manage to escape. In the aftermath of the raid, Archer's supervisor, Director Victor Lazarro, angrily lambasts Castor-as-Archer for the unnecessary bloodshed he caused. Castor, still furious over Pollux's death, murders Lazarro and is subsequently promoted to acting director in his place. Meanwhile, after taking Sasha and Adam to a safe location, Archer-as-Castor approaches Eve and convinces her to test Castor-as-Archer's blood to confirm his identity. After testing the blood and being convinced that the man wearing her husband's face is in fact an imposter, Eve tells Archer that Castor will be vulnerable at Lazarro's funeral.\n\nAt the ceremony, Castor-as-Archer has taken Eve hostage. Sasha arrives, and a gunfight ensues; Sasha manages to save Eve after taking a bullet. Archer-as-Castor promises a dying Sasha that he will take care of Adam and raise him away from criminal life. Castor briefly takes Jamie hostage, but she escapes by stabbing him in the leg with the butterfly knife that he lent her earlier for self-defense.\n\nFollowing the confrontation at the church, Castor reaches the docks and commandeers a speedboat while Archer commandeers one of his own to continue the pursuit. The chase ends when Archer forces Castor to the shore in a collision. With their boats grounded, the two proceed to fight to the death. Upon gaining the upper hand in the struggle, Archer manages to corner Castor at gunpoint with a speargun, only for the latter to prevent him from shooting by grabbing the firing mechanism. While admitting defeat, Castor tries to disfigure his face so that Archer will be doomed to wear the former's face forever. Before he can finish, Archer kicks Castor in the groin, causing him to lose his grip on the gun and allowing Archer to finally kill him.\n\nBackup agents arrive and address Archer-as-Castor by his true name, having been convinced by Eve of Archer's identity. After the face transplant surgery is reversed, Archer returns home. He and Eve adopt Adam, keeping Archer's promise to Sasha.",
+ "synopsis_words": 713,
+ "episodes": [
+  {
+   "number": 16,
+   "date": "2017-10-26",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Jason Concepcion",
+    "Shea Serrano"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "revenge",
+   "reach": 30,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "fbi",
+   "reach": 20,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "shootout",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "prison",
+   "reach": 16,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "organized crime",
+   "reach": 15,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "psychopath",
+   "reach": 14,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "undercover",
+   "reach": 13,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "flashback",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "blunt",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "bomb",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "fbi agent",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "prison escape",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "boat chase",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "disguise",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "doctor",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "mexican standoff",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "tragedy",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "prisoner",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "brother brother relationship",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "criminal gang",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "archenemy",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "archvillain",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "biological weapon",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "bullet ballet",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "face transplant",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "golden gun",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "maximum security prison",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "sibling",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "surgery",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "vendetta",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "John Travolta",
+   "films": 6
+  },
+  {
+   "name": "Nicolas Cage",
+   "films": 5
+  },
+  {
+   "name": "Joan Allen",
+   "films": 4
+  },
+  {
+   "name": "Alessandro Nivola",
+   "films": 1
+  },
+  {
+   "name": "Gina Gershon",
+   "films": 1
+  },
+  {
+   "name": "Dominique Swain",
+   "films": 0
+  },
+  {
+   "name": "Nick Cassavetes",
+   "films": 0
+  },
+  {
+   "name": "Harve Presnell",
+   "films": 1
+  },
+  {
+   "name": "Colm Feore",
+   "films": 0
+  },
+  {
+   "name": "John Carroll Lynch",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "01b9a599-26a7-41d6-ae72-2fe14866cb26",
+   "title": "Saturday Night Fever",
+   "year": 1977,
+   "poster": "ylA7E5Md21aqgzxbwa2dFxX8LKV.jpg"
+  },
+  {
+   "id": "ac7ee824-9bfb-44c2-91e8-aaea993321d8",
+   "title": "Grease",
+   "year": 1978,
+   "poster": "2rM7fQKpb7cs1Iq7IBqub9LFDzJ.jpg"
+  },
+  {
+   "id": "73a345f3-81e1-4619-a20a-9de8fd6eb4b3",
+   "title": "Blow Out",
+   "year": 1981,
+   "poster": "uFzMscVLDrTaYd6KXOXlr6dly7w.jpg"
+  },
+  {
+   "id": "63e12342-cb37-4edc-9e97-dda6aef24345",
+   "title": "Searching for Bobby Fischer",
+   "year": 1993,
+   "poster": "oAJpHkMpfXiFY9F3HocIz9fhHLc.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Face/Off",
+  "wikidata": "Q223887"
+ }
+}

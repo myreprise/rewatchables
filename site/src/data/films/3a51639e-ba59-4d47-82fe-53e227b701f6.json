@@ -1,0 +1,203 @@
+{
+ "id": "3a51639e-ba59-4d47-82fe-53e227b701f6",
+ "title": "Over the Top",
+ "year": 1987,
+ "poster": "a926UPf4EYbHfjdzf012M5YHiQ5.jpg",
+ "tmdb_id": 1825,
+ "directors": [
+  "Menahem Golan"
+ ],
+ "director_primary": "Menahem Golan",
+ "genres": [
+  "Action",
+  "Drama"
+ ],
+ "runtime": 94,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2024-09-24",
+ "last": "2024-09-24",
+ "scores": {
+  "tmdb": 6.468,
+  "rt": 32.0,
+  "ebert": null,
+  "box_office": "$44.3M",
+  "multiple": 0.6423032,
+  "cpi_year": 2024
+ },
+ "plot": "Lincoln Hawk a hard-luck big-rig trucker takes us under the glaring Las Vegas lights for all the boisterous action of the World Armwrestling Championship. Relying on wits and willpower, Hawk tries to rebuild his life by capturing the first-place prize money, and the love of the son he abandoned years earlier into the keeping of his rich, ruthless father-in-law.",
+ "synopsis": "Lincoln Hawk is a struggling trucker who arm wrestles on the side to make extra cash while trying to rebuild his life. Hawk's estranged wife Christina, who is very ill, asks that Hawk pick up their son Michael from military school so that the two of them can get to know each other; Hawk had left them 10 years earlier. His controlling grandfather Jason Cutler, a wealthy man who hates Hawk and disapproved of his daughter's relationship with him, believes that Hawk has no right to be in his grandson's life. Mike is very distrusting and bitter towards Hawk initially and treats him with contempt at every turn. Over the course of a trip from Colorado to California, Mike comes to trust Hawk, especially after Hawk rescues Mike from kidnappers. However, when they arrive at the hospital, Hawk is despondent to learn they have arrived too late; as Christina died in surgery earlier that day. Feeling he would have been there with her if not for Hawk, Mike leaves for his grandfather's estate. An attempt to retrieve Mike ends with Hawk being arrested for trespassing when he resorts to ramraiding after being turned away from Cutler's gated mansion. While in jail, Mike visits his father and forgives him, but tells Hawk that he feels more secure living with his grandfather. After his release, Hawk leaves to compete in the World Arm Wrestling Championships in Las Vegas. His hope is to win the grand prize of $100,000 and an expensive new custom semi-truck and thus start his own trucking company. Hawk is a clear underdog, having a size disadvantage over just about every other participant, including his old rival Bull Hurley, who is the odds-on favorite. When he arrives, he sells his truck for $7,000 and uses the money to place a bet on himself to win the contest. Meanwhile, Mike finds all the letters that Hawk had sent over the years and realizes that his grandfather has been hiding the truth about his father from him. Cutler did everything possible to drive his parents apart and had been intercepting and hiding the regular letters Hawk had written to him. During a break before the final match, Cutler summons Hawk to his presidential suite and tells him that he's always been a loser, but offers Hawk a way out and a chance for a fresh start: $500,000 and a top of the line semi on the condition that he turn over custody of Mike and stay out of their lives, but Hawk refuses and leaves. Mike, stunned by his grandfather's deceptions, gets himself to Las Vegas and finds Hawk. Apologizing for misjudging him, Mike gives Hawk the emotional support he needs to compete and he emerges from the contest victorious over Hurley in the finals. As father and son celebrate, Cutler looks on in silence and with grudging respect for all that Hawk sacrificed to get Mike back. A triumphant Hawk and Mike take their new truck and winnings and start their own business as planned.",
+ "synopsis_words": 505,
+ "episodes": [
+  {
+   "number": 374,
+   "date": "2024-09-24",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Cruise",
+   "verdict_tone": "cruise",
+   "host": "Bill Simmons",
+   "guests": [
+    "Kyle Brandt"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "sports",
+   "reach": 47,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "road trip",
+   "reach": 13,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "underdog",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "father son relationship",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "father-in-law",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "truck",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "arm wrestling",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "bad father-in-law",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "eighteen wheeler",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "on the road",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "semi truck",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "truck driver",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Sylvester Stallone",
+   "films": 13
+  },
+  {
+   "name": "Robert Loggia",
+   "films": 3
+  },
+  {
+   "name": "Susan Blakely",
+   "films": 1
+  },
+  {
+   "name": "Rick Zumwalt",
+   "films": 1
+  },
+  {
+   "name": "David Mendenhall",
+   "films": 1
+  },
+  {
+   "name": "Chris McCarty",
+   "films": 0
+  },
+  {
+   "name": "Terry Funk",
+   "films": 0
+  },
+  {
+   "name": "Bob Beattie",
+   "films": 0
+  },
+  {
+   "name": "Allan Graf",
+   "films": 0
+  },
+  {
+   "name": "Magic Schwarz",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "ba990d04-5321-4645-9010-c12e5ecdfdf3",
+   "title": "Rocky",
+   "year": 1976,
+   "poster": "xSI0dbKLDETwhiVUy6hGE8KXUln.jpg"
+  },
+  {
+   "id": "9b96c355-454b-4655-a1be-f63ad25eb9a0",
+   "title": "Rocky II",
+   "year": 1979,
+   "poster": "nMaiiu0CzT77U4JZkUYV7KqdAjK.jpg"
+  },
+  {
+   "id": "23935113-1348-4598-a9ad-fcbf40883f79",
+   "title": "Escape to Victory",
+   "year": 1981,
+   "poster": "3j6H0dnbvjNXLK1l9nKguXw5vvO.jpg"
+  },
+  {
+   "id": "460b3761-6f7b-4e84-a03d-8dc010215de9",
+   "title": "First Blood",
+   "year": 1982,
+   "poster": "a9sa6ERZCpplbPEO7OMWE763CLD.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Over_the_Top_%281987_film%29",
+  "wikidata": "Q901148"
+ }
+}

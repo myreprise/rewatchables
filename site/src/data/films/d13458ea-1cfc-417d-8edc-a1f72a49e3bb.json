@@ -1,0 +1,267 @@
+{
+ "id": "d13458ea-1cfc-417d-8edc-a1f72a49e3bb",
+ "title": "The Karate Kid Part II",
+ "year": 1986,
+ "poster": "k0OwgRR6PNu7h3SiqpCbRdZWNaG.jpg",
+ "tmdb_id": 8856,
+ "directors": [
+  "John G. Avildsen"
+ ],
+ "director_primary": "John G. Avildsen",
+ "genres": [
+  "Adventure",
+  "Drama",
+  "Action",
+  "Romance",
+  "Family"
+ ],
+ "runtime": 113,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2026-08-03",
+ "last": "2026-08-03",
+ "scores": {
+  "tmdb": 6.351,
+  "rt": 49.0,
+  "ebert": null,
+  "box_office": "$329.5M",
+  "multiple": 8.85415223076923,
+  "cpi_year": 2024
+ },
+ "plot": "Summoned by his dying father, Miyagi returns to his homeland of Okinawa, with Daniel, after a 40-year exile. There he must confront Yukie, the love of his youth, and Sato, his former best friend turned vengeful rival. Sato is bent on a fight to the death, even if it means the destruction of their village. Daniel finds his own love in Yukia's niece, Kumiko, and his own enemy in Sato's nephew, the vicious Chozen. Now, far away from the tournaments, cheering crowds and safety of home, Daniel will face his greatest challenge ever when the cost of honor is life itself.",
+ "synopsis": "Shortly after his dojo's loss to Daniel LaRusso in the 1984 All-Valley Karate Tournament, a furious John Kreese attacks his student, Johnny Lawrence, in the parking lot over the loss after he stood up to him while the other pupils defend Lawrence. Miyagi intervenes and passively incapacitates Kreese, then threatens to strike a deadly blow but instead tweaks his nose. Seeing Kreese's humiliation, Johnny and the other students abandon him and Cobra Kai.\n\nSix months later, Daniel visits Miyagi after his senior prom and explains that Ali has broken up with him in favor of a UCLA football player. Miyagi receives a letter notifying him that his father is dying, prompting him to return to his home village on Okinawa Island.\n\nMiyagi tells Daniel that he fell in love many years ago with a woman named Yukie. She was arranged to marry his best friend Sato, son of the wealthiest man in the village and fellow karate student of his father. Upon announcing his intentions to marry Yukie, Sato challenged him to a fight to the death. Instead, Miyagi left the country. Daniel decides to accompany him back to Okinawa.\n\nUpon arrival, Miyagi and Daniel are greeted by Chozen Toguchi, who drives them to one of Sato's warehouses and reveals that he is Sato's nephew. Sato appears and demands that Miyagi fight him, which Miyagi adamantly refuses.\n\nArriving at the village, Miyagi and Daniel are welcomed by Yukie and her niece Kumiko. They discover that Sato has become a rich industrialist whose supertrawlers have destroyed the local fish population, impoverishing the other villagers. They are forced to rent property from Sato, who owns the village's land title. Yukie reveals that she never married Sato because of her love for Miyagi.\n\nMiyagi's father dies, and Sato gives him three days to mourn out of respect before their fight. Miyagi shows Daniel the secret to his family's karate – a den-den daiko (handheld drum) that twists back and forth, illustrating the \"drum technique\", a counter-striking karate move that Daniel begins to practice. Daniel and Kumiko begin to develop a romance.\n\nDaniel unintentionally exposes corruption in Chozen's grocery business during an encounter in the village. Chozen accuses him of insulting his honor, and they have a series of confrontations. The feud escalates when Chozen and his cronies attack Daniel and vandalize Miyagi's family property, but Miyagi fends them off.\n\nMiyagi and Daniel plan to return home before the situation worsens, but Sato threatens to destroy the village if Miyagi refuses to fight him. He finally agrees on the condition that Sato relinquishes land ownership to the villagers, and Sato agrees.\n\nA typhoon strikes the village on the day of the fight, forcing everyone to seek shelter. Sato's house collapses, leaving him trapped in the wreckage. Miyagi and Daniel rush to rescue him, and Daniel later ventures back out to save a child trapped on a nearby bell tower. Sato orders Chozen to help, but when he refuses, Sato rushes to assist Daniel himself. He publicly shames his nephew and disowns him, and an enraged Chozen runs off into the storm in disgrace.\n\nSato returns the next day with a work crew to help rebuild the village, asking Miyagi's forgiveness and handing over the deed. He also agrees to host the O-bon festival in a nearby ceremonial castle, inviting Daniel to join. During the celebration, a vengeful Chozen ziplines into the presentation and takes Kumiko hostage, demanding that he and Daniel fight to the death. Daniel fights bravely but is eventually overwhelmed by Chozen.\n\nMiyagi, Sato, and the crowd respond by twisting den-den daikos in unison, inspiring Daniel to use the drum technique to defeat Chozen. He then grabs the vanquished Chozen and threatens to end his life, while Chozen urges Daniel to kill him. However, mirroring how Miyagi bravely stood up to Kreese and defeated him after the tournament, Daniel instead playfully tweaks Chozen's nose and drops him to the ground. The onlookers cheer as he and Kumiko embrace.",
+ "synopsis_words": 666,
+ "episodes": [
+  {
+   "number": 474,
+   "date": "2026-08-03",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Cruise",
+   "verdict_tone": "cruise",
+   "host": "Bill Simmons",
+   "guests": [
+    "Kyle Brandt"
+   ],
+   "note": "Raj did not write a review but gave it a thumbs up on TV"
+  }
+ ],
+ "keywords": [
+  {
+   "word": "sports",
+   "reach": 47,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "revenge",
+   "reach": 30,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "sequel",
+   "reach": 28,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "underdog",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "martial arts",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "thoughtful",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "teen movie",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "mentor protégé relationship",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "reflective",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "sentimental",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "feud",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "japan",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "death of father",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "enemies to friends",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "japanese family",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "japanese girl",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "japanese tradition",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "japanese woman",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "okinawa",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "romantic rival",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "self esteem",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "traditional culture",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Ralph Macchio",
+   "films": 3
+  },
+  {
+   "name": "Pat Morita",
+   "films": 2
+  },
+  {
+   "name": "Danny Kamekona",
+   "films": 1
+  },
+  {
+   "name": "Nobu McCarthy",
+   "films": 2
+  },
+  {
+   "name": "Yuji Okumoto",
+   "films": 1
+  },
+  {
+   "name": "Tamlyn Tomita",
+   "films": 0
+  },
+  {
+   "name": "Joey Miyashima",
+   "films": 0
+  },
+  {
+   "name": "Arsenio Trinidad",
+   "films": 0
+  },
+  {
+   "name": "Marc Hayashi",
+   "films": 0
+  },
+  {
+   "name": "Charlie Tanimoto",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "ba990d04-5321-4645-9010-c12e5ecdfdf3",
+   "title": "Rocky",
+   "year": 1976,
+   "poster": "xSI0dbKLDETwhiVUy6hGE8KXUln.jpg"
+  },
+  {
+   "id": "58294b07-68df-4b43-9266-80af2f5c7e13",
+   "title": "The Karate Kid",
+   "year": 1984,
+   "poster": "1mp4ViklKvA0WXXsNvNx0RBuiit.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "58294b07-68df-4b43-9266-80af2f5c7e13",
+   "title": "The Karate Kid",
+   "year": 1984,
+   "poster": "1mp4ViklKvA0WXXsNvNx0RBuiit.jpg"
+  },
+  {
+   "id": "473c413f-0893-4c2d-b7c7-d4edb57dcda3",
+   "title": "Pacific Heights",
+   "year": 1990,
+   "poster": "9iHD6xIrGSuuMEFWhwSVGXSddY2.jpg"
+  },
+  {
+   "id": "b5fddc48-fa3f-49e8-a976-5e00a938f7d8",
+   "title": "My Cousin Vinny",
+   "year": 1992,
+   "poster": "iwSURa8nS2ujwrU3s1lfxxX7voH.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/The_Karate_Kid_Part_II",
+  "wikidata": "Q1418251"
+ }
+}

@@ -1,0 +1,164 @@
+{
+ "id": "504889ac-db04-48e4-b9f2-8478a3b7e2c4",
+ "title": "Two for the Money",
+ "year": 2005,
+ "poster": "5SedPYdGLrp6LX9C2cWXLx38w1D.jpg",
+ "tmdb_id": 9910,
+ "directors": [
+  "D.J. Caruso"
+ ],
+ "director_primary": "D.J. Caruso",
+ "genres": [
+  "Comedy",
+  "Crime",
+  "Drama",
+  "Thriller"
+ ],
+ "runtime": 122,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2025-11-24",
+ "last": "2025-11-24",
+ "scores": {
+  "tmdb": 6.063,
+  "rt": 22.0,
+  "ebert": 3.5,
+  "box_office": "$49.0M",
+  "multiple": 0.8721859714285715,
+  "cpi_year": 2024
+ },
+ "plot": "A former college athlete joins forces with a sports consultant to handicap football games for high-rolling gamblers.",
+ "synopsis": "Brandon Lang is a former college football star based in Las Vegas who, after sustaining a career-ending knee injury, takes a job handicapping football games to support his mother and younger brother. His success at selecting winners catches the attention of Walter Abrams, the head of one of the largest sports consulting operations in the United States. Walter offers him a job in New York, which Brandon accepts. With Lang’s extensive knowledge of the game, leagues, and players, he generates significant profits and attracts high-profile clients, quickly making a substantial amount of money.\n\nWalter takes Brandon under his wing, and the two develop a close relationship, along with Walter’s wife, Toni. Walter transforms Brandon into a new persona, the slick John Anthony, whom he soon features on Abrams's cable television show, The Sports Advisors. This move upsets Jerry Sykes, Walter's in-house expert and best-seller, who now feels sidelined.\n\nOne evening, during a dinner with Walter and Toni, Brandon notices the attractive Alexandria at another table. Walter wagers that Brandon cannot convince her to go home with him. Brandon succeeds in his charm offensive, and the two spend the night together.\n\nAs Brandon becomes more involved with Walter and Toni, he learns that Walter is a recovering gambling addict and Toni is a former drug addict. As Brandon's success continues, he attracts the attention of wealthy gambler C.M. Novian, who agrees to place 20 million dollars in bets on Brandon’s picks. All of Novian's bets pay off, earning Walter's firm 2 million dollars.\n\nWhen Brandon asks Walter for a larger share of the earnings, Walter denies his request, stating that he has not yet earned it. Even when Brandon does, Walter warns he will not give him anything without a fight. Disheartened, Brandon seeks out Alexandria again, only to discover that she is a prostitute whom Walter had paid to sleep with him.\n\nFrom this point on, things begin to unravel. Lang starts relying on his intuition instead of his research, and after picking a string of losers for two weeks, he is physically assaulted by Novian and one of his associates for losing 30 million dollars. Brandon also learns that Walter has resumed gambling using his picks and is now deeply in debt. As a result, the once-strong bond between Abrams and Lang begins to deteriorate.\n\nAs weeks pass, Lang’s performance continues to decline, and Walter becomes increasingly erratic, firing Sykes and suspecting that Lang is having an affair with Toni. Toni urges Brandon to leave before Walter's self-destructive behavior causes further damage, but Lang insists on making one final prediction for the last game of the season to redeem himself. He makes his pick by nervously flipping a coin, and Walter intensifies the pressure by guaranteeing money back to clients if they lose.\n\nWhile Walter and his staff anxiously watch the game, Lang leaves before it concludes and boards a flight out of New York City, leaving behind a farewell letter. At the final play of the game, Brandon’s pick proves correct. After the game, Walter confronts Toni about the alleged affair, but she assures him that nothing happened, and the two reconcile. The film ends with Brandon coaching a junior league football team.",
+ "synopsis_words": 535,
+ "episodes": [
+  {
+   "number": 433,
+   "date": "2025-11-24",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Cruise",
+   "verdict_tone": "cruise",
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Cousin Sal"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "sports",
+   "reach": 47,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "american football",
+   "reach": 13,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "bet",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "greed",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "career",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  }
+ ],
+ "cast": [
+  {
+   "name": "Al Pacino",
+   "films": 13
+  },
+  {
+   "name": "Matthew McConaughey",
+   "films": 4
+  },
+  {
+   "name": "Rene Russo",
+   "films": 4
+  },
+  {
+   "name": "Armand Assante",
+   "films": 1
+  },
+  {
+   "name": "Jeremy Piven",
+   "films": 2
+  },
+  {
+   "name": "Jaime King",
+   "films": 0
+  },
+  {
+   "name": "Kevin Chapman",
+   "films": 0
+  },
+  {
+   "name": "Denise Galik",
+   "films": 0
+  },
+  {
+   "name": "Gedde Watanabe",
+   "films": 0
+  },
+  {
+   "name": "Carly Pope",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "12b388a7-6852-4c9d-ba9c-a1627a4ca51e",
+   "title": "The Godfather",
+   "year": 1972,
+   "poster": "3bhkrj58Vtu7enYsRolD1fZdja1.jpg"
+  },
+  {
+   "id": "26e7964b-6217-4281-9aba-c2941435108d",
+   "title": "The Godfather Part II",
+   "year": 1974,
+   "poster": "sSuQTCZwqKrNBNIsksO9IAUoWP9.jpg"
+  },
+  {
+   "id": "a14964a9-f365-4afa-a273-f982d4b35cc0",
+   "title": "...And Justice for All",
+   "year": 1979,
+   "poster": "fGFkpJUsouxxBGWfYqeuJfH210T.jpg"
+  },
+  {
+   "id": "5f9906f8-7f03-411e-9c77-706c58364553",
+   "title": "Cruising",
+   "year": 1980,
+   "poster": "bb9CND0WyfwdHOZY5XmP4Qn8taz.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Two_for_the_Money_%282005_film%29",
+  "wikidata": "Q1171541"
+ }
+}

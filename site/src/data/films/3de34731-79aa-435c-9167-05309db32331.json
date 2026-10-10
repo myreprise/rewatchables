@@ -1,0 +1,324 @@
+{
+ "id": "3de34731-79aa-435c-9167-05309db32331",
+ "title": "Trading Places",
+ "year": 1983,
+ "poster": "8mBuLCOcpWnmYtZc4aqtvDXslv6.jpg",
+ "tmdb_id": 1621,
+ "directors": [
+  "John Landis"
+ ],
+ "director_primary": "John Landis",
+ "genres": [
+  "Comedy"
+ ],
+ "runtime": 116,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2023-05-16",
+ "last": "2023-05-16",
+ "scores": {
+  "tmdb": 7.23,
+  "rt": 89.0,
+  "ebert": 3.5,
+  "box_office": "$284.7M",
+  "multiple": 6.026986666666667,
+  "cpi_year": 2024
+ },
+ "plot": "A snobbish investor and a wily street con-artist find their positions reversed as part of a bet by two callous millionaires.",
+ "synopsis": "Brothers Randolph and Mortimer Duke own a commodities brokerage firm, Duke & Duke Commodity Brokers, in Philadelphia, Pennsylvania. They witness an encounter between their managing director—the well-mannered and educated Louis Winthorpe III, engaged to the Dukes' grandniece Penelope Witherspoon—and poor black street hustler Billy Ray Valentine. Valentine is arrested at Winthorpe's insistence after the latter assumes he is being robbed. Holding opposing views on the issue of nature versus nurture, the Dukes make a wager and agree to conduct an experiment to observe the results of switching the lives of Valentine and Winthorpe, two people in contrasting social strata.\n\nWinthorpe is framed as a thief, drug dealer, and philanderer by Clarence Beeks, a man on the Dukes' payroll. He is fired from Duke & Duke, his bank accounts are frozen, he is denied entry to his Duke-owned home, and is ostracized by Penelope and his friends. Winthorpe is befriended by Ophelia, a prostitute who helps him in exchange for a financial reward once he is exonerated to secure her own retirement. The Dukes post bail for Valentine, install him in Winthorpe's former job, and grant him use of Winthorpe's home, including the service of his butler Coleman. Valentine becomes well versed in the business, using his street smarts to achieve success, and begins to act in a well-mannered way.\n\nDuring the firm's Christmas party, Winthorpe plants drugs in Valentine's desk, attempting to frame him, and brandishes a gun to escape. Later, the Dukes discuss their experiment and settle their wager for $1. They plot to return Valentine to the streets, but have no intention of taking back Winthorpe. Valentine overhears the conversation and seeks out Winthorpe, who has attempted suicide by overdosing. Valentine, Ophelia and Coleman nurse him back to health and inform him of the experiment. Watching a television news broadcast, they learn that Beeks is transporting a secret United States Department of Agriculture report on orange crop forecasts. Remembering large payments made to Beeks by the Dukes, Winthorpe and Valentine deduce the brothers' plan to obtain the report early and use it to corner the market on frozen concentrated orange juice, and decide to foil it.\n\nOn New Year's Eve, the four board Beeks's train in disguise, intending to switch the original report with a forgery that predicts low orange crop yields. Beeks uncovers their scheme and attempts to kill them, but is knocked unconscious by a gorilla being transported on the train. The four dress him in a gorilla suit and cage him with the real gorilla. They deliver the forged report to the Dukes in Beeks's place and collect the payment intended for him. After sharing a kiss with Ophelia, Winthorpe travels to New York City with Valentine, pooling the money with the life savings of Ophelia and Coleman to carry out their plan.\n\nOn the commodities trading floor, the Dukes invest heavily in buying frozen concentrated orange juice futures contracts, legally committing themselves to purchase the commodity at a later date. Other traders follow their lead, driving the price up; Valentine and Winthorpe naked-short-sell juice futures contracts at the inflated price. Following the broadcast of the actual crop report and its prediction of a normal harvest, the price of juice futures plummets. As the traders frantically sell their futures, Valentine and Winthorpe buy at the lower price from everyone except the Dukes, fulfilling the contracts they had short-sold earlier and turning an immense profit.\n\nAfter the closing bell, Valentine and Winthorpe explain to the Dukes that they made a wager on whether they could get rich and make the Dukes poor at the same time, and Winthorpe pays Valentine his winnings of $1. When the Dukes prove unable to pay the $394 million required to satisfy their margin call, the exchange manager orders their seats sold and their corporate and personal assets confiscated, effectively bankrupting them. Randolph collapses holding his chest and Mortimer shouts at the others, demanding the floor be reopened in a futile plea to recoup their losses.\n\nThe now-wealthy Valentine, Winthorpe, Ophelia, and Coleman vacation on a luxurious tropical beach, while Beeks and the gorilla are loaded onto a ship bound for Africa.",
+ "synopsis_words": 691,
+ "episodes": [
+  {
+   "number": 308,
+   "date": "2023-05-16",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Van Lathan"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "dramatic",
+   "reach": 18,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "hilarious",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "christmas",
+   "reach": 14,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "philadelphia, pennsylvania",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "satire",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "exhilarated",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "new year's eve",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "mischievous",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "fish out of water",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "millionaire",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "prostitute",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "christmas party",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "hoodlum",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "stockbroker",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "broker",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "christmas eve",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "rags to riches",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "rich snob",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "irreverent",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "new year",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "wrongful arrest",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "beggar",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "butler",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "commodities",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "disrespectful",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "investor",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "riches to rags",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "wager",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Dan Aykroyd",
+   "films": 4
+  },
+  {
+   "name": "Eddie Murphy",
+   "films": 7
+  },
+  {
+   "name": "Ralph Bellamy",
+   "films": 2
+  },
+  {
+   "name": "Don Ameche",
+   "films": 1
+  },
+  {
+   "name": "Denholm Elliott",
+   "films": 2
+  },
+  {
+   "name": "Jamie Lee Curtis",
+   "films": 3
+  },
+  {
+   "name": "Paul Gleason",
+   "films": 0
+  },
+  {
+   "name": "Frank Oz",
+   "films": 0
+  },
+  {
+   "name": "Jim Belushi",
+   "films": 2
+  },
+  {
+   "name": "Kristin Holby",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "790016b8-adfd-43d9-bfa9-07c1b8bac3aa",
+   "title": "Animal House",
+   "year": 1978,
+   "poster": "fWooBbipMRIKeSRhEzmeaDV0T8H.jpg"
+  },
+  {
+   "id": "c9fc60f2-d1b1-4096-8998-6b6248233a39",
+   "title": "The Blues Brothers",
+   "year": 1980,
+   "poster": "b0hq1d2d7FIvRGNLewKLm79JNTK.jpg"
+  },
+  {
+   "id": "77c811d3-34dd-4a8a-8721-d26a51c05289",
+   "title": "Coming to America",
+   "year": 1988,
+   "poster": "djRAvxyvvN2yqlJKDbT3uy4vOBw.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "c9fc60f2-d1b1-4096-8998-6b6248233a39",
+   "title": "The Blues Brothers",
+   "year": 1980,
+   "poster": "b0hq1d2d7FIvRGNLewKLm79JNTK.jpg"
+  },
+  {
+   "id": "71a0c418-937f-492f-9802-e2410325c1f3",
+   "title": "48 Hrs.",
+   "year": 1982,
+   "poster": "rvvjXHzEDBIvIVDBHNOwHS7hVPu.jpg"
+  },
+  {
+   "id": "48abe442-9378-42f7-8c0f-116cb4deb04d",
+   "title": "Beverly Hills Cop",
+   "year": 1984,
+   "poster": "eBJEvKkhQ0tUt1dBAcTEYW6kCle.jpg"
+  },
+  {
+   "id": "8498541b-3c4d-4fa0-b7ad-84b9b74bc647",
+   "title": "Ghostbusters",
+   "year": 1984,
+   "poster": "7E8nLijS9AwwUEPu2oFYOVKhdFA.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Trading_Places",
+  "wikidata": "Q504151"
+ }
+}

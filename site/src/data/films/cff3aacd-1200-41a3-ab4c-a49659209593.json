@@ -1,0 +1,224 @@
+{
+ "id": "cff3aacd-1200-41a3-ab4c-a49659209593",
+ "title": "Sideways",
+ "year": 2004,
+ "poster": "zOsaxYLgvZVU7cJBpPn8CuE0MrP.jpg",
+ "tmdb_id": 9675,
+ "directors": [
+  "Alexander Payne"
+ ],
+ "director_primary": "Alexander Payne",
+ "genres": [
+  "Comedy",
+  "Drama",
+  "Romance"
+ ],
+ "runtime": 127,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2023-01-10",
+ "last": "2023-01-10",
+ "scores": {
+  "tmdb": 7.1,
+  "rt": 97.0,
+  "ebert": 4.0,
+  "box_office": "$181.8M",
+  "multiple": 6.8438939375,
+  "cpi_year": 2024
+ },
+ "plot": "Two middle-aged men embark on a spiritual journey through Californian wine country. One is an unpublished novelist suffering from depression, and the other is only days away from walking down the aisle.",
+ "synopsis": "Miles Raymond picks up his friend Jack Cole at the home of Cole’s fiancée to begin a week together in advance of Cole’s wedding. Miles, a school teacher and unpublished author, starts the trip at his mother’s house, ostensibly to wish her a happy birthday, but Miles steals money before they leave.\n\nMiles wants to spend the week relaxing, playing golf, and enjoying good food and wine. However, Jack is interested in trying to cure Miles’ depression over his professional failures and divorce by finding him a sex partner. Jack is ambivalent over his pending marriage and the prospect of giving up his acting ambitions in favor of a job with his fiancée’s father. In the Santa Ynez valley, Miles, an oenophile, teaches Jack how to taste wine. The pair dine at The Hitching Post II. Jack infers that Maya, a waitress with whom Miles is casually acquainted, is interested in Miles. Jack tells Maya that Miles' manuscript has been accepted for publication, although it is only being considered.\n\nThe next morning Jack announces his intention to find sex partners during the trip. That night, he arranges a double date for himself and Miles with a wine pourer named Stephanie, who is also acquainted with Maya.\n\nDuring the date, Miles gets drunk and telephones Victoria, his ex-wife, after learning from Jack that she has remarried and will be bringing her new husband to Jack's wedding. The couples go to Stephanie's house, where Stephanie and Jack adjourn to Stephanie's bedroom, leaving Miles and Maya alone. The two connect through their mutual interest in wine, and Miles kisses Maya awkwardly. As they part, Miles gives Maya a copy of his manuscript, which she had earlier expressed interest in reading.\n\nJack claims to have fallen in love with Stephanie and tells Miles he wants to postpone the wedding and move to the Santa Ynez Valley to be closer to her. After spending time with Jack and Stephanie at wineries and a picnic, Miles and Maya return to Maya's apartment and have sex. The next day, Miles accidentally reveals to Maya that Jack is getting married. Disgusted with the men's dishonesty, Maya dumps Miles.\n\nJack and Miles go to a winery that Miles finds subpar. After hearing from his literary agent that his manuscript has been rejected, an upset Miles pesters the pourer for a full glass of wine. When the server refuses, Miles drinks from the spit bucket, creating a scene. Jack intervenes and drives Miles back to the motel. Upon arrival, Stephanie, who heard from Maya about Jack's marital status, furiously beats Jack with her motorcycle helmet, breaking his nose, while berating him for his dishonesty. Miles takes Jack to the ER and leaves Maya an apologetic voice message, admitting that his book will not be published.\n\nThat night, despite Miles' protests, Jack goes home with a waitress named Cammi. Jack returns to the motel naked after Cammi's husband had caught the two having sex. Jack begs Miles to help him retrieve his wallet, which contains custom wedding rings. Miles sneaks into the house, where he finds Cammi and her husband having sex. He grabs the wallet and runs, barely escaping Cammi's nude and furious husband. On the drive back to San Diego, Jack intentionally drives Miles's car into a tree to support his alibi that he broke his nose in a car accident. The pair return to Christine's home, where Jack is warmly received by her family.\n\nFollowing the wedding ceremony, Miles runs into Victoria and meets her new husband, Ken. Victoria says she is pregnant. Miles absconds before the reception and drives back to his San Diego apartment. Alone, he drinks his prized wine, a 1961 Château Cheval Blanc, from a disposable styrofoam soda cup at a fast-food restaurant. One day, Miles receives a voicemail from Maya, saying she loved his manuscript, encouraging him to keep writing, and inviting him to visit. Miles drives back to wine country and knocks on Maya's door.",
+ "synopsis_words": 663,
+ "episodes": [
+  {
+   "number": 290,
+   "date": "2023-01-10",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Sean Fennessey"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "california",
+   "reach": 16,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "buddy",
+   "reach": 14,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "road trip",
+   "reach": 13,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "antagonistic",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "marijuana",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "cheerful",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "sympathetic",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "whimsical",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "golf",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "sincere",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "writer",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "santa barbara, california",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "stag night",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "wine",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "wine drinking",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "winery",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Paul Giamatti",
+   "films": 1
+  },
+  {
+   "name": "Thomas Haden Church",
+   "films": 2
+  },
+  {
+   "name": "Virginia Madsen",
+   "films": 1
+  },
+  {
+   "name": "Sandra Oh",
+   "films": 1
+  },
+  {
+   "name": "Marylouise Burke",
+   "films": 1
+  },
+  {
+   "name": "Jessica Hecht",
+   "films": 0
+  },
+  {
+   "name": "Missy Doty",
+   "films": 0
+  },
+  {
+   "name": "M.C. Gainey",
+   "films": 0
+  },
+  {
+   "name": "Alysia Reiner",
+   "films": 0
+  },
+  {
+   "name": "Shake Tukhmanyan",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "296e980e-517e-446d-a13b-dd9bff4b471d",
+   "title": "Election",
+   "year": 1999,
+   "poster": "fbo0IYzBc32dD5SjFzKIgfp4O4F.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "8ac7e795-76ce-4175-bc52-1d73da23823b",
+   "title": "Easy A",
+   "year": 2010,
+   "poster": "v5f1qO6NJnxWgONgkYg21TW39DT.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Sideways",
+  "wikidata": "Q675937"
+ }
+}

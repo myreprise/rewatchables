@@ -1,0 +1,145 @@
+{
+ "id": "4c3b4d24-64a9-44c3-8bd2-442d52c8fd26",
+ "title": "Bad Boys",
+ "year": 1983,
+ "poster": "5nHZ3wflOifKJMUcTCw0isKhmCv.jpg",
+ "tmdb_id": 13633,
+ "directors": [
+  "Rick Rosenthal"
+ ],
+ "director_primary": "Rick Rosenthal",
+ "genres": [
+  "Crime",
+  "Drama",
+  "Thriller"
+ ],
+ "runtime": 123,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2023-03-14",
+ "last": "2023-03-14",
+ "scores": {
+  "tmdb": 6.99,
+  "rt": 89.0,
+  "ebert": 3.5,
+  "box_office": "$28.9M",
+  "multiple": null,
+  "cpi_year": 2024
+ },
+ "plot": "Mick O'Brien is a young Chicago street thug torn between a life of petty crime and the love of his girlfriend. But when the heist of a local drug dealer goes tragically wrong Mick is sentenced to a brutal juvenile prison where violence is a rite of passage and respect is measured in vengeance.",
+ "synopsis": "Mick O'Brien is a 16-year-old Irish-American hoodlum from Chicago. Mick's crimes include snatching purses, shoplifting, vandalism, and fighting, but he aspires to bigger crimes. He subsequently attempts to rip off his Puerto Rican rival, Paco Moreno, but the plan goes awry, leading to Mick's best friend Carl Brennan being fatally shot and Mick accidentally running over and killing Paco's 8-year-old brother Pacito while making his getaway in a stolen car.\n\nMick is convicted and sent to Rainford Juvenile Correctional Facility. Most of the supervisors there have lowered themselves to the role of zookeepers; one exception is counselor Ramon Herrera, a former gang member. He talks tough to the inmates, but is confident that some of them, especially Mick, can turn their lives around.\n\nMick's cellmate is Barry Horowitz, a small, intelligent Jewish kid who firebombed a bowling alley after some boys there assaulted him for flirting with their girlfriends. Their cell block is dominated by a pair of brawny sadists named \"Viking\" Lofgren and Warren \"Tweety\" Jerome, who take an immediate dislike to Mick. Mick puts up with them at first, but after witnessing Tweety murdering Terrell, another inmate who attempted to stab Tweety in retaliation for raping him, he refuses to be intimidated.\n\nSuspecting that Mick may have revealed Tweety's guilt to the authorities, Tweety and Viking go to Mick's cell to confront him about this. But Mick, having anticipated their arrival, outsmarts them by beating them up with a pillowcase full of unopened soda cans. This victory earns him the respect of the block and recognition as the new \"barn boss.\" Tweety is paroled soon afterwards but is later killed during an attempted robbery at a liquor store.\n\nIn vengeance for Pacito's death, Paco attacks and rapes Mick's girlfriend, J.C. Walenski, but is caught and arrested. After learning this, Mick is overcome with the desire to see J.C., so he and Barry escape the double perimeter fences by using a corrosive paste that weakens the links enough to kick a hole through them. While running through the woods, Barry falls onto barbed wire and is caught by Gene Daniels and Wagner, two supervisors who are on their trail. This gives Mick time to get away, but Barry is subsequently beaten by Wagner for escaping and calling him names. Ramon rightfully believes that Mick will go to J.C.'s house and soon pick him up there. Before returning to Rainford, Ramon takes Mick to visit a maximum security prison, to show him where he could end up if he continues to live the life of a criminal. Warden Bendix decides to give Mick a second chance, threatening to add six months to his sentence if he tries to escape again.\n\nAfter being convicted of the rape of J.C., Paco is sentenced to the same dormitory at Rainford as Mick. The staff are fully aware of this potential danger, but no other reform school has a vacancy. Paco attempts to provoke Mick into a fight, but Mick avoids the confrontation, since he may qualify for early release if he stays out of trouble. However, he also loses the respect of many of the inmates, who now want to see Paco put Mick away.\n\nIn an attempt to retaliate on Mick's behalf, Barry plants fertilizer in a radio he places in the cell that Viking and Paco share. The exploding charge injures Viking's face badly, and Barry is condemned to solitary confinement for the remainder of his sentence, a fate he fears more than any other.\n\nPaco accidentally learns he is being transferred to another facility the next day, so he decides to kill Mick that night. While Ramon is on night watch, Paco fakes a ruptured appendix, knocks Ramon unconscious, and locks him in the office. Paco then goes to Mick's cell to stab him with a shiv; Mick gets the jump on Paco, however, and they start fighting. The other inmates are awakened by the brawl, and some barricade the dormitory door to prevent the authorities from interfering. Eventually, Mick gains the upper hand on Paco and prepares to deliver a fatal stab wound with the shiv while being encouraged by the others to kill. However, he resists at the last second, instead stabbing the floor mat next to Paco's head. Mick then drags a beaten Paco to the supervisors and heads back to his cell, crying remorsefully beneath his breath.",
+ "synopsis_words": 731,
+ "episodes": [
+  {
+   "number": 299,
+   "date": "2023-03-14",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan"
+   ],
+   "note": "Rog originally gave it 3/4 stars, but reassessed in 1989"
+  }
+ ],
+ "keywords": [
+  {
+   "word": "prison",
+   "reach": 16,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "irish-american",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "juvenile prison",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Sean Penn",
+   "films": 3
+  },
+  {
+   "name": "Reni Santoni",
+   "films": 2
+  },
+  {
+   "name": "Jim Moody",
+   "films": 1
+  },
+  {
+   "name": "Eric Gurry",
+   "films": 1
+  },
+  {
+   "name": "Esai Morales",
+   "films": 1
+  },
+  {
+   "name": "Ally Sheedy",
+   "films": 1
+  },
+  {
+   "name": "Clancy Brown",
+   "films": 1
+  },
+  {
+   "name": "Robert Lee Rush",
+   "films": 0
+  },
+  {
+   "name": "John Zenda",
+   "films": 0
+  },
+  {
+   "name": "Tony Mockus Jr.",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "fc8ee94c-2819-4e73-9be7-bf9243ad0b17",
+   "title": "Halloween II",
+   "year": 1981,
+   "poster": "3nX5HHGgOKaVMxXwMLT9DHO1Ne6.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "3d73c072-ab9d-4d45-8cdf-7645f161e314",
+   "title": "Fast Times at Ridgemont High",
+   "year": 1982,
+   "poster": "e15rmfjf0m6EGLe4MnNhwD3Dd1W.jpg"
+  },
+  {
+   "id": "5ae14d42-e999-478c-ad85-561e4424886b",
+   "title": "Cobra",
+   "year": 1986,
+   "poster": "jCxfbTh8JvJil5edhNywxaTHoWv.jpg"
+  },
+  {
+   "id": "7fb93110-4d72-459c-a731-987c4e243851",
+   "title": "The Game",
+   "year": 1997,
+   "poster": "4UOa079915QjiTA2u5hT2yKVgUu.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Bad_Boys_%281983_film%29",
+  "wikidata": "Q798650"
+ }
+}

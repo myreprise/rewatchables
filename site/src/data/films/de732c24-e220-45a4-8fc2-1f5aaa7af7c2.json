@@ -1,0 +1,224 @@
+{
+ "id": "de732c24-e220-45a4-8fc2-1f5aaa7af7c2",
+ "title": "When Harry Met Sally...",
+ "year": 1989,
+ "poster": "rFOiFUhTMtDetqCGClC9PIgnC1P.jpg",
+ "tmdb_id": 639,
+ "directors": [
+  "Rob Reiner"
+ ],
+ "director_primary": "Rob Reiner",
+ "genres": [
+  "Comedy",
+  "Romance",
+  "Drama"
+ ],
+ "runtime": 96,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2019-07-08",
+ "last": "2019-07-08",
+ "scores": {
+  "tmdb": 7.408,
+  "rt": 89.0,
+  "ebert": 3.0,
+  "box_office": "$234.8M",
+  "multiple": 5.801471625,
+  "cpi_year": 2024
+ },
+ "plot": "Sex always gets in the way of friendships between men and women. At least, that's what Harry Burns believes. So when Harry meets Sally Albright and a deep friendship blossoms between them, Harry's determined not to let his attraction to Sally destroy it. But when a night of weakness ends in a morning of panic, can the pair avoid succumbing to Harry's fears by remaining friends and admitting they just might be the perfect match for each other?",
+ "synopsis": "The movie is framed with interviews with elderly couples telling stories about their relationships. Several stories are told throughout the movie. The story begins in 1977. Harry Burns and Sally Albright finish college at the University of Chicago and meet when both need someone to share a drive to New York City, where Sally is beginning journalism school and Harry is presumably starting a career; at the time, Harry is dating a friend of Sally's, Amanda. The film's underlying theme arises from their differing ideas about relationships between men and women which emerge during this journey. Harry evinces the view that \"Men and women can't be friends because the sex part always gets in the way\"... even with ones \"he finds unattractive\". Sally disagrees, claiming that men and women can be strictly friends without sex. On the way, at a stop in a diner, Sally is angered when Harry tells her she is attractive; she accuses him of making a pass at her. In New York, due to their divergent philosophies, they part on less than friendly terms. Five years later, they meet in a New York airport and find themselves on the same plane. Both are in relationships; Sally has just started dating a man named Joe—who happens to be an old friend of Harry's—and Harry is engaged to a woman named Helen, which surprises Sally. Harry suggests they become friends, forcing him to elaborate on his previous rule about male-female friendships; they can never be friends because the sex part gets in the way. Despite Harry's suggestions of exceptions to that rule, they separate concluding that they will not be friends. Harry and Sally meet yet again five years later, in a New York bookstore. They have coffee together and talk about their previous relationships, which have ended. After leaving the café, they take a walk and decide to be friends. In subsequent scenes, they have late-night phone conversations, go to dinner, and spend a lot of time together. Their dating experiences with others continue to highlight their different approaches to relationships and sex. During a New Year's Eve party, Harry and Sally find themselves attracted to each other. Though they remain friends, they set each other up with their respective best friends, Marie and Jess. The four go to a restaurant, where Marie and Jess hit it off; they later get engaged. One night, Sally tearfully tells Harry over the phone that her ex, Joe, is getting married to his legal assistant, and he rushes to her apartment to comfort her. They unexpectedly have sex that night, resulting in an awkward moment the next morning as Harry quickly leaves in a state of distress. This creates tension in their relationship. Their friendship cools for three weeks until the two have a heated argument during Jess and Marie's wedding dinner. Following this fight, Harry repeatedly attempts to mend his friendship with Sally. Then, at a New Year's Eve party that year, Sally feels alone without Harry by her side. Meanwhile, Harry is shown spending New Year's alone. As she decides to leave the party early, Harry appears and declares his love for her; they make up and kiss. The last segment in which couples discuss their relationship histories is an interview with Harry and Sally, talking about their wedding.",
+ "synopsis_words": 551,
+ "episodes": [
+  {
+   "number": 84,
+   "date": "2019-07-08",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Juliet Litman",
+    "Amanda Dobbins"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "friendship",
+   "reach": 22,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "lighthearted",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "cliché",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "new year's eve",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "reminiscent",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "diner",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "fake orgasm",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "holidays",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "in love with best friend",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "longtime friends",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "male female friendship",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Billy Crystal",
+   "films": 3
+  },
+  {
+   "name": "Meg Ryan",
+   "films": 5
+  },
+  {
+   "name": "Carrie Fisher",
+   "films": 2
+  },
+  {
+   "name": "Bruno Kirby",
+   "films": 2
+  },
+  {
+   "name": "Steven Ford",
+   "films": 1
+  },
+  {
+   "name": "Lisa Jane Persky",
+   "films": 0
+  },
+  {
+   "name": "Michelle Nicastro",
+   "films": 0
+  },
+  {
+   "name": "Gretchen Palmer",
+   "films": 0
+  },
+  {
+   "name": "Robert Alan Beuth",
+   "films": 0
+  },
+  {
+   "name": "David Burdick",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "33a1783b-9112-40a7-9ac0-2c37a7ab689a",
+   "title": "The Sure Thing",
+   "year": 1985,
+   "poster": "a9cuohQn5kczi4htWZAZjEZvXkZ.jpg"
+  },
+  {
+   "id": "f8a2308d-8377-4a34-be59-c15ff750cdff",
+   "title": "Stand by Me",
+   "year": 1986,
+   "poster": "vz0w9BSehcqjDcJOjRaCk7fgJe7.jpg"
+  },
+  {
+   "id": "73322e1a-a46b-4562-810b-1a2648d8b479",
+   "title": "The Princess Bride",
+   "year": 1987,
+   "poster": "2FC9L9MrjBoGHYjYZjdWQdopVYb.jpg"
+  },
+  {
+   "id": "90cb24f9-0127-4344-8a99-c23bfce496e3",
+   "title": "Misery",
+   "year": 1990,
+   "poster": "klPO5oh1LOxiPpdDXZo1ADgpKcw.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "1b872089-f185-407c-bd62-fb9541b61c49",
+   "title": "City Slickers",
+   "year": 1991,
+   "poster": "9DVZpm9pQNB3M17cRo752zqUYhL.jpg"
+  },
+  {
+   "id": "ecd07d7e-20de-4eec-a4e9-85ddfc5c2c5b",
+   "title": "Star Wars",
+   "year": 1977,
+   "poster": "fai0rspsNeJCS69wHNjOdWxcI7P.jpg"
+  },
+  {
+   "id": "45f1e850-b26c-4129-a5b7-ac852a571180",
+   "title": "Running Scared",
+   "year": 1986,
+   "poster": "nSiRjhc7aTVPonXAhmTZAPqd2jT.jpg"
+  },
+  {
+   "id": "119e3513-35c1-463a-870a-4af1851e2b38",
+   "title": "The Doors",
+   "year": 1991,
+   "poster": "x1LM3dzGuG6xOz0aT2e71o11vhu.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/When_Harry_Met_Sally...",
+  "wikidata": "Q471169"
+ }
+}

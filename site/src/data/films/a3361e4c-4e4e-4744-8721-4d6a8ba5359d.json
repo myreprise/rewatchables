@@ -1,0 +1,242 @@
+{
+ "id": "a3361e4c-4e4e-4744-8721-4d6a8ba5359d",
+ "title": "To Live and Die in L.A.",
+ "year": 1985,
+ "poster": "2iW3pSihBIhXjnBQmUJ0mAiZbB5.jpg",
+ "tmdb_id": 9846,
+ "directors": [
+  "William Friedkin"
+ ],
+ "director_primary": "William Friedkin",
+ "genres": [
+  "Crime",
+  "Thriller",
+  "Action"
+ ],
+ "runtime": 116,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2026-03-16",
+ "last": "2026-03-16",
+ "scores": {
+  "tmdb": 7.117,
+  "rt": 89.0,
+  "ebert": 4.0,
+  "box_office": "$50.5M",
+  "multiple": 2.8845031666666667,
+  "cpi_year": 2024
+ },
+ "plot": "When his longtime partner on the force is killed, reckless U.S. Secret Service agent Richard Chance vows revenge, setting out to nab dangerous counterfeit artist Eric Masters.",
+ "synopsis": "Richard Chance and Jimmy Hart are United States Secret Service agents assigned as counterfeiting investigators in its Los Angeles field office. Chance has a reputation for reckless behavior, while Hart is three days away from retirement. Alone, Hart stakes out a warehouse in the desert thought to be a print house of counterfeiter Rick Masters. When Masters and his bodyguard kill Hart, Chance explains to his new partner, John Vukovich, that he will take Masters down no matter what. The two agents attempt to get information on Masters by putting one of his criminal associates, attorney Max Waxman, under surveillance. Vukovich falls asleep on watch, and consequently they fail to catch Masters in the act of murdering Waxman. While Vukovich wants to go by the book, Chance becomes increasingly reckless and unethical in his efforts to catch Masters. While Chance relies on his sexual-extortion relationship with parolee/informant Ruth for information, Vukovich meets privately with Masters' attorney, Bob Grimes. Grimes, acknowledging a potential conflict of interest that could ruin his legal practice, agrees to set up a meeting between his client and the two agents, who engage Masters by posing as bankers from Palm Springs interested in Masters' counterfeiting services. Masters is reluctant to work with them, but ultimately agrees to print them $1,000,000 worth of fake bills. In turn, Masters charges $30,000 in front money, which is three times what the agents are legally able to obtain from their office. To get the money, Chance persuades Vukovich to aid him in robbing Thomas Ling, a man whom Ruth previously told Chance is looking to purchase $50,000 worth of stolen diamonds. However, Ling is really an undercover FBI agent. Ling is accidentally shot to death by backup agents, whom Chance and Vukovich lead on a wild chase through the streets and freeways of Los Angeles. After they escape, unidentified, Vukovich is consumed by guilt for his role in the accidental shooting while Chance is apathetic, focused solely on getting Masters. Unable to persuade Chance to come clean about their role in Ling's death, Vukovich meets with Grimes, who advises him to turn himself in and testify against Chance in exchange for a lighter sentence. Vukovich refuses to implicate his partner. At the exchange of the counterfeit million, the agents move to arrest Masters, but his bodyguard pulls a shotgun. The bodyguard and Chance fatally shoot each other and Masters escapes. Vukovich gives chase, following Masters to a warehouse. By the time Vukovich arrives, Masters has set fire to the contents of the place, destroying all evidence of his crimes. Vukovich confronts Masters and during a brief struggle, Masters asks Vukovich why he didn't take Grimes' advice to turn his partner in, revealing that Grimes was working on Masters' behalf all along. Vukovich is knocked unconscious; Masters covers Vukovich with shredded paper and is about to set him on fire when Vukovich recovers and shoots Masters. Masters accidentally sets himself ablaze, while Vukovich empties his gun on the burning man. After Masters' death, Grimes gives his estate to Masters' girlfriend Bianca. Showing little remorse, she rides away in Masters' black Ferrari with another woman. Vukovich visits Chance's informant Ruth as she's packing up to leave L.A. He mentions Chance's death, and guesses she had known Ling was FBI. He knows Chance had left her with the remaining cash that his agency now wants back. Vukovich states that Ruth is working for him now.",
+ "synopsis_words": 571,
+ "episodes": [
+  {
+   "number": 451,
+   "date": "2026-03-16",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Cruise",
+   "verdict_tone": "cruise",
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Sean Fennessey"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "revenge",
+   "reach": 30,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "neo-noir",
+   "reach": 29,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "bold",
+   "reach": 15,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "audacious",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "cop",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "blunt",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "conspiracy thriller",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "mysterious",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "distressing",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "secret service",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "factual",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "hold-up robbery",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "bungee-jump",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "counterfeit",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "counterfeit money",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "William L. Petersen",
+   "films": 2
+  },
+  {
+   "name": "Willem Dafoe",
+   "films": 5
+  },
+  {
+   "name": "John Pankow",
+   "films": 1
+  },
+  {
+   "name": "Debra Feuer",
+   "films": 1
+  },
+  {
+   "name": "John Turturro",
+   "films": 4
+  },
+  {
+   "name": "Dean Stockwell",
+   "films": 0
+  },
+  {
+   "name": "Darlanne Fluegel",
+   "films": 1
+  },
+  {
+   "name": "Michael Greene",
+   "films": 0
+  },
+  {
+   "name": "Steve James",
+   "films": 0
+  },
+  {
+   "name": "Robert Downey Sr.",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "5e92e8ae-d001-4e58-a2e4-47f9ab958c64",
+   "title": "The Exorcist",
+   "year": 1973,
+   "poster": "5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg"
+  },
+  {
+   "id": "5f9906f8-7f03-411e-9c77-706c58364553",
+   "title": "Cruising",
+   "year": 1980,
+   "poster": "bb9CND0WyfwdHOZY5XmP4Qn8taz.jpg"
+  },
+  {
+   "id": "16093f6f-d428-4579-8d9e-e3e362319eaa",
+   "title": "Blue Chips",
+   "year": 1994,
+   "poster": "tO71i4Ob64tchCRBB5MoqonPKAF.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "53446639-d4d9-462f-9b26-e0a438b213bb",
+   "title": "Manhunter",
+   "year": 1986,
+   "poster": "6rb24x39vV8n5301IelC8rCPJTH.jpg"
+  },
+  {
+   "id": "63982666-21e5-4bbd-9a70-8461b2c11c2f",
+   "title": "The Color of Money",
+   "year": 1986,
+   "poster": "dVdnHmdQu3JtLAAksjTmTEF76gD.jpg"
+  },
+  {
+   "id": "629a8f33-ee8f-4013-b357-23149b2f8ae4",
+   "title": "Quiz Show",
+   "year": 1994,
+   "poster": "yoGJo1h3Hl2exXPVcG9UXWDENtX.jpg"
+  },
+  {
+   "id": "82038c88-eb24-4495-ae87-0b3f4f7a9b40",
+   "title": "Rounders",
+   "year": 1998,
+   "poster": "mqbMwYGwIChnaCO55h7v8DG8Wwy.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/To_Live_and_Die_in_L.A._%28film%29",
+  "wikidata": "Q613485"
+ }
+}

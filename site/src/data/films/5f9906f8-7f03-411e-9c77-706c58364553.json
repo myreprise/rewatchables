@@ -1,0 +1,302 @@
+{
+ "id": "5f9906f8-7f03-411e-9c77-706c58364553",
+ "title": "Cruising",
+ "year": 1980,
+ "poster": "bb9CND0WyfwdHOZY5XmP4Qn8taz.jpg",
+ "tmdb_id": 27958,
+ "directors": [
+  "William Friedkin"
+ ],
+ "director_primary": "William Friedkin",
+ "genres": [
+  "Crime",
+  "Mystery",
+  "Thriller"
+ ],
+ "runtime": 102,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2022-11-08",
+ "last": "2022-11-08",
+ "scores": {
+  "tmdb": 6.586,
+  "rt": 49.0,
+  "ebert": 2.5,
+  "box_office": "$75.4M",
+  "multiple": 1.8013202727272728,
+  "cpi_year": 2024
+ },
+ "plot": "When New York is caught in the grip of a sadistic serial killer who preys on patrons of the city's underground bars, rookie cop Steve Burns infiltrates the S&M subculture to try and lure him out of the shadows.",
+ "synopsis": "Amidst a hot summer in New York City, the dismembered body parts of men begin appearing in the Hudson River. Police suspect a serial killer is targeting gay men at West Village bars such as the Eagle's Nest, the Ramrod and the Cock Pit, luring them to cheap hotels, tying them up, and stabbing them to death. Under pressure to solve the case before the Democratic National Convention, NYPD Captain Edelson asks officer Steve Burns to go undercover in the city's gay S&M and leather bar scene to track down the killer, as Burns matches the victims' physical characteristics.\n\nUpon accepting the assignment, Burns uses the pseudonym John Forbes to rent a separate apartment in the Meatpacking District for the operation. He quickly befriends neighbor Ted Bailey, a struggling gay playwright, but overhears the turmoil in Ted's relationship with his overbearing dancer boyfriend Gregory. Burns becomes heavily immersed in the customs of the gay nightlife scene, though the secrecy of the work strains his relationship with his girlfriend Nancy. One night, Burns entices young waiter Skip Lee, who is mistakenly arrested and beaten by police into giving a false confession despite his fingerprints not matching those of the killer's. Disturbed by the gay bashing, Burns considers quitting, but Edelson convinces him to continue by reprimanding the officers involved in Skip's interrogation.\n\nAs the killer continues to evade police, Burns pursues a new lead and investigates students at Columbia University who studied under one of the previous victims, a college professor. His suspicions center on Stuart Richards, a graduate music student whom Burns previously encountered at a club. Although Richards appears outwardly ordinary, Burns breaks into his apartment and discovers S&M attire, along with box of disturbing letters addressed to Richards' deceased father hidden in a closet. When Richards later realizes that his apartment has been broken into, he retrieves a knife from his closet matching the one used by the killer.\n\nAt night, Burns follows Richards to the park and cruises him for sex. During the encounter, Burns asks Richards to lower his pants, prompting Richards to pull his knife, but before he can strike, Burns incapacitates him by stabbing him in the side. At the hospital, Richards is taken into police custody, where authorities determine that his letters indicate signs of schizophrenia. Although Richards denies being the serial killer, his fingerprints match for those discovered at one of the murder scenes. Edelson thanks Burns for seemingly solving the case and promotes him to detective.\n\nShortly after Richards is arrested, Ted is found brutally stabbed to death in his apartment. Police dismiss the murder as a lover's quarrel turned violent and issue an arrest warrant for Gregory, whose jealousy had previously lead to a bitter confrontation with Burns. Edelson is shocked at sight of crime scene and is informed that Ted's neighbor, John Forbes, has disappeared without notice.\n\nNancy reconciles with Burns at their shared apartment, where he promises to tell her \"everything\", but after shaving first. As Burns shaves, Nancy tries on his leather jacket, peaked cap, and aviator sunglasses, resembling the outfit worn by the killer. Burns then blankly stares at the mirror.",
+ "synopsis_words": 525,
+ "episodes": [
+  {
+   "number": 281,
+   "date": "2022-11-08",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Wesley Morris"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "murder",
+   "reach": 35,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "police",
+   "reach": 22,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "detective",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "serial killer",
+   "reach": 13,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "undercover",
+   "reach": 13,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "whodunit",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "gay theme",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "homophobia",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "nypd",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "american giallo",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "interrogation",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "murder investigation",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "subculture",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "bdsm",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "pretending to be gay",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "sadomasochism",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "ambiguity",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "cruising",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "exploitation",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "fetish",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "gay club",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "leather",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "police interrogation",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "sexual murder",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "stabbing",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Al Pacino",
+   "films": 13
+  },
+  {
+   "name": "Paul Sorvino",
+   "films": 2
+  },
+  {
+   "name": "Karen Allen",
+   "films": 3
+  },
+  {
+   "name": "Richard Cox",
+   "films": 1
+  },
+  {
+   "name": "Don Scardino",
+   "films": 1
+  },
+  {
+   "name": "Joe Spinell",
+   "films": 0
+  },
+  {
+   "name": "Jay Acovone",
+   "films": 0
+  },
+  {
+   "name": "Gene Davis",
+   "films": 0
+  },
+  {
+   "name": "Randy Jurgensen",
+   "films": 0
+  },
+  {
+   "name": "Barton Heyman",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "5e92e8ae-d001-4e58-a2e4-47f9ab958c64",
+   "title": "The Exorcist",
+   "year": 1973,
+   "poster": "5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg"
+  },
+  {
+   "id": "a3361e4c-4e4e-4744-8721-4d6a8ba5359d",
+   "title": "To Live and Die in L.A.",
+   "year": 1985,
+   "poster": "2iW3pSihBIhXjnBQmUJ0mAiZbB5.jpg"
+  },
+  {
+   "id": "16093f6f-d428-4579-8d9e-e3e362319eaa",
+   "title": "Blue Chips",
+   "year": 1994,
+   "poster": "tO71i4Ob64tchCRBB5MoqonPKAF.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "12b388a7-6852-4c9d-ba9c-a1627a4ca51e",
+   "title": "The Godfather",
+   "year": 1972,
+   "poster": "3bhkrj58Vtu7enYsRolD1fZdja1.jpg"
+  },
+  {
+   "id": "26e7964b-6217-4281-9aba-c2941435108d",
+   "title": "The Godfather Part II",
+   "year": 1974,
+   "poster": "sSuQTCZwqKrNBNIsksO9IAUoWP9.jpg"
+  },
+  {
+   "id": "790016b8-adfd-43d9-bfa9-07c1b8bac3aa",
+   "title": "Animal House",
+   "year": 1978,
+   "poster": "fWooBbipMRIKeSRhEzmeaDV0T8H.jpg"
+  },
+  {
+   "id": "a14964a9-f365-4afa-a273-f982d4b35cc0",
+   "title": "...And Justice for All",
+   "year": 1979,
+   "poster": "fGFkpJUsouxxBGWfYqeuJfH210T.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Cruising_%28film%29",
+  "wikidata": "Q952511"
+ }
+}

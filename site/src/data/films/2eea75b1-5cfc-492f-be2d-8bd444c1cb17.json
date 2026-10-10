@@ -1,0 +1,248 @@
+{
+ "id": "2eea75b1-5cfc-492f-be2d-8bd444c1cb17",
+ "title": "Singles",
+ "year": 1992,
+ "poster": "4T7OKBdkNBorRKWw7VSeuA225z1.jpg",
+ "tmdb_id": 11068,
+ "directors": [
+  "Cameron Crowe"
+ ],
+ "director_primary": "Cameron Crowe",
+ "genres": [
+  "Romance",
+  "Comedy",
+  "Drama"
+ ],
+ "runtime": 99,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2022-09-13",
+ "last": "2022-09-13",
+ "scores": {
+  "tmdb": 6.41,
+  "rt": 79.0,
+  "ebert": 3.0,
+  "box_office": "$41.3M",
+  "multiple": null,
+  "cpi_year": 2024
+ },
+ "plot": "A group of young adults in their twenties, who share an apartment in the city of Seattle, ponder on love and face all the challenges of adulthood.",
+ "synopsis": "Singles centers on the precarious romantic lives of a group of twentysomethings in Seattle, Washington, at the start of the 1990s grunge phenomenon. Most of the characters dwell in an apartment block, a sign in front of which advertises \"Singles\" (studio apartments) for rent. Divided into chapters, the film focuses on the course of two couples' rocky romances, as well as the love lives of their friends and associates.\n\nThe film revolves around Janet Livermore, a coffee-bar waitress fawning over Cliff Poncier, an aspiring yet slightly aloof grunge rock musician of the fictional grunge/rock band Citizen Dick; Linda Powell and Steve Dunne, a couple wavering on whether to commit to each other; Debbie Hunt, trying to find Mr. Right.",
+ "synopsis_words": 119,
+ "episodes": [
+  {
+   "number": 273,
+   "date": "2022-09-13",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Van Lathan"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "nostalgic",
+   "reach": 13,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "love of one's life",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "lighthearted",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "comforting",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "ex-girlfriend",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "break-up",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "musician",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "seattle, washington",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "lovesickness",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "roommates",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "cheating",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "apartment building",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "band",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "blind date",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "ex-boyfriend",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "free love",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "grunge",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "relationships",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Bridget Fonda",
+   "films": 2
+  },
+  {
+   "name": "Campbell Scott",
+   "films": 1
+  },
+  {
+   "name": "Kyra Sedgwick",
+   "films": 1
+  },
+  {
+   "name": "Matt Dillon",
+   "films": 4
+  },
+  {
+   "name": "Sheila Kelley",
+   "films": 1
+  },
+  {
+   "name": "Jim True-Frost",
+   "films": 0
+  },
+  {
+   "name": "Bill Pullman",
+   "films": 3
+  },
+  {
+   "name": "James Le Gros",
+   "films": 0
+  },
+  {
+   "name": "Ally Walker",
+   "films": 0
+  },
+  {
+   "name": "Tom Skerritt",
+   "films": 2
+  }
+ ],
+ "by_director": [
+  {
+   "id": "65acdd5e-69da-4458-910b-1cfdae79c4d8",
+   "title": "Say Anything...",
+   "year": 1989,
+   "poster": "nkucKciFGSRalw6dJtsglWqOXMC.jpg"
+  },
+  {
+   "id": "399889d0-8a3b-41e4-8940-f3f952adc67c",
+   "title": "Jerry Maguire",
+   "year": 1996,
+   "poster": "lABvGN7fDk5ifnwZoxij6G96t2w.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "b10e40a5-713c-49ae-a868-bf9e926d7f98",
+   "title": "Single White Female",
+   "year": 1992,
+   "poster": "yPGK58CcAM8NAX8ycR1jdjo2wiE.jpg"
+  },
+  {
+   "id": "1585c930-7335-473d-b7b8-a8c068a392a5",
+   "title": "Wild Things",
+   "year": 1998,
+   "poster": "wrcTDD9T7Ga5c9MW7kaOo2qwIvW.jpg"
+  },
+  {
+   "id": "949fa119-2a84-490e-b0fa-c5afc0dffc79",
+   "title": "There's Something About Mary",
+   "year": 1998,
+   "poster": "slJD1Dvnsf15LoeqhERsyzisAdn.jpg"
+  },
+  {
+   "id": "51760afe-cf4d-4788-a7d0-2bc8af3c0158",
+   "title": "Crash",
+   "year": 2005,
+   "poster": "86BdPC6RDX88NC880pLidKn2LCj.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Singles_%281992_film%29",
+  "wikidata": "Q282041"
+ }
+}

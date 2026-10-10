@@ -1,0 +1,246 @@
+{
+ "id": "091cfbb0-cf7e-4c47-8f70-b5c6a7b14199",
+ "title": "Jaws 2",
+ "year": 1978,
+ "poster": "cN3ijEwsn4kBaRuHfcJpAQJbeWe.jpg",
+ "tmdb_id": 579,
+ "directors": [
+  "Jeannot Szwarc"
+ ],
+ "director_primary": "Jeannot Szwarc",
+ "genres": [
+  "Horror",
+  "Thriller"
+ ],
+ "runtime": 117,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2025-07-07",
+ "last": "2025-07-07",
+ "scores": {
+  "tmdb": 6.038,
+  "rt": 56.00000000000001,
+  "ebert": null,
+  "box_office": "$904.0M",
+  "multiple": 9.3942,
+  "cpi_year": 2024
+ },
+ "plot": "Police chief Brody must protect the citizens of Amity after a second monstrous shark begins terrorizing the waters.",
+ "synopsis": "Four years after the events of Jaws, two divers are photographing the wreck of the Orca, Quint's boat from the first film. They are suddenly attacked by a large great white shark, and during the attack one of the divers' camera gets a photo of the shark's profile. A few days later, the shark enters the coastal waters of Amity Island, killing a female water skier. The female driver of the speedboat tries to defend herself by first throwing a gasoline tank at the shark and then igniting the fuel with a flare gun. The fire ignites the gas tank and the speedboat explodes, killing the driver. Though burned on the right side of its head, the shark survives. In addition to these incidents, a dead killer whale is beached at a nearby lighthouse with large wounds all over its body which Police Chief Martin Brody suggests were caused by a great white shark. Once again, Mayor Vaughn doesn't share Brody's belief that the town has another shark problem and warns him not to press the issue. Later, Brody spots a section of a ruined speedboat bobbing in the surf just off the beach. When he goes to retrieve it, he encounters the burnt remains of the female speedboat driver. Brody stops his 17-year-old son Mike from going sailing, and finds him a summer job working at the beach. The following day, while Brody is in an observation tower, he sees a large shadow produced by a school of bluefish, which he mistakes for a shark. In his haste, Brody orders everyone out of the water and fires his gun, causing a panic. Later that evening, he receives the photo of the shark's eye, taken by one of the attacked divers. Brody shows it to Vaughn and his townsmen, but they refuse to accept the evidence put in front of them. Len Peterson,who has built a new resort in Amity to attract people, and the town council fire Brody for the beach incident, with Mayor Vaughn being the only one to vote against dismissal. Deputy Hendricks is promoted to Brody's position. The next morning, Mike sneaks out and goes sailing with his friends, but has to take his young brother Sean along to stop him telling his parents about Mike's trip. Later, they go past a group of divers led by Tom Andrews. Tom encounters the shark minutes after entering the water to catch lobsters and escapes, but suffers an embolism due to rushing to the surface too fast. Tina and Eddie later encounter the shark when it smashes into their sailboat, devouring Eddie and leaving Tina traumatized and alone. Brody and his wife Ellen find Andrews being put into an ambulance, and Brody suspects that something must have scared him to make him come up so fast. Hendricks informs Brody that Mike has gone out sailing to the lighthouse with his friends, so Brody insists on taking the police patrol boat to rescue them, with Ellen and Hendricks both joining him. They find Tina's boat, with Tina hiding in the hull, who confirms Brody's suspicions about the shark in the area. Hendricks and Ellen take Tina ashore in a passing boat, while Brody continues to search for the teenagers using the police launch. All seems well with the other teenagers until the shark appears. The shark then smashes into one of their sail boats, causing panic and their boats to collide with each other. Mike is knocked unconscious and is pulled out of the water just as the shark appears; two friends take him back to the shore for help. The rest of the teens remain floating on the wreckage of tangled boats, drifting out toward the open sea. A harbor patrol marine helicopter arrives and a line is rigged to tow the boats to shore, but before the pilot can tow them, the shark attacks the chopper causing it to sink into the water. Sean also falls into the water, but he is quickly saved by Marge. As Marge tries to get back into the boat, her hands slip on the wet hull, and she falls back into the water. The shark approaches and devours Marge. Back at mainland, Tina is sent to the hospital, and Ellen berates Peterson for getting Brody fired and denying the shark's presence. Brody finds Mike, who informs his father about the situation. Sean and his friends are drifting on the wreckage toward Cable Junction, with the open sea beyond it. Brody quickly finds the teenagers, but the shark attacks again, which causes Brody to run his boat aground on the rocks. Brody tries to tie a rope line, but snags an underwater power cable instead. Most of the teenagers are tossed into the water during the shark's next attack, and they swim to safety on Cable Junction, though the shark injures Lucy while Sean and Jackie are left marooned on one of the boats. Using an inflatable raft, Brody gets the shark's attention by pounding the power line with an oar, and gets the shark to bite the power cable. The plan succeeds: the shark gets electrocuted, dies and sinks to the bottom of the sea. Brody collects Sean and Jackie and paddles over to Cable Junction, to await rescue with the other teenagers.",
+ "synopsis_words": 882,
+ "episodes": [
+  {
+   "number": 413,
+   "date": "2025-07-07",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Cruise",
+   "verdict_tone": "cruise",
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Sean Fennessey"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "sequel",
+   "reach": 28,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "dying and death",
+   "reach": 13,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "creature",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "rescue",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "animal horror",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "police chief",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "sailing",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "shark",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "animal attack",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "great white shark",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "island",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "panic",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "scuba diving",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "shark attack",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "boat accident",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "current",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "high-tension current",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "killer whale",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "mayor",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "tourism",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "water skiing",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Roy Scheider",
+   "films": 3
+  },
+  {
+   "name": "Lorraine Gary",
+   "films": 2
+  },
+  {
+   "name": "Murray Hamilton",
+   "films": 2
+  },
+  {
+   "name": "Joseph Mascolo",
+   "films": 1
+  },
+  {
+   "name": "Jeffrey Kramer",
+   "films": 2
+  },
+  {
+   "name": "Collin Wilcox Paxton",
+   "films": 0
+  },
+  {
+   "name": "Ann Dusenberry",
+   "films": 0
+  },
+  {
+   "name": "Mark Gruner",
+   "films": 0
+  },
+  {
+   "name": "Barry Coe",
+   "films": 0
+  },
+  {
+   "name": "Susan French",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "5a186d98-c282-4ef5-9747-a7595a8d986b",
+   "title": "Jaws",
+   "year": 1975,
+   "poster": "lxM6kqilAdpdhqUl2biYp5frUxE.jpg"
+  },
+  {
+   "id": "654742de-09bc-4dec-b484-55f2d04b7735",
+   "title": "Marathon Man",
+   "year": 1976,
+   "poster": "uPNgubSiri2yvBQRPtP77ViYjN.jpg"
+  },
+  {
+   "id": "fc8ee94c-2819-4e73-9be7-bf9243ad0b17",
+   "title": "Halloween II",
+   "year": 1981,
+   "poster": "3nX5HHGgOKaVMxXwMLT9DHO1Ne6.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Jaws_2",
+  "wikidata": "Q1199834"
+ }
+}

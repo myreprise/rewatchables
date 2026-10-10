@@ -1,0 +1,259 @@
+{
+ "id": "31ea5b87-f041-4ab2-8c14-2f32fcd8fb8b",
+ "title": "GoodFellas",
+ "year": 1990,
+ "poster": "9OkCLM73MIU2CrKZbqiT8Ln1wY2.jpg",
+ "tmdb_id": 769,
+ "directors": [
+  "Martin Scorsese"
+ ],
+ "director_primary": "Martin Scorsese",
+ "genres": [
+  "Drama",
+  "Crime"
+ ],
+ "runtime": 145,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2021-05-18",
+ "last": "2021-05-18",
+ "scores": {
+  "tmdb": 8.451,
+  "rt": 94.0,
+  "ebert": 4.0,
+  "box_office": "$113.0M",
+  "multiple": 1.88289308,
+  "cpi_year": 2024
+ },
+ "plot": "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway.",
+ "synopsis": "Henry Hill admits, \"As far back as I can remember, I always wanted to be a gangster,\" referring to his idolizing the Lucchese crime family gangsters in his blue-collar, predominantly Italian-American neighborhood in East New York, Brooklyn in 1955. Wanting to be part of something significant, Henry quits school and goes to work for them. His Irish-American father tries to stop Henry after learning of his truancy, but the gangsters threaten the local postal carrier with dire consequences should he deliver any more letters from the school to Henry's house. Henry is able to make a living for himself, and learns the two most important lessons in life: \"Never rat on your friends, and always keep your mouth shut,\" the advice given to him after being acquitted of criminal charges early in his career. Henry is taken under the wing of the local mob capo, Paul \"Paulie\" Cicero and his associates, Jimmy \"The Gent\" Conway, who loves hijacking trucks, and Tommy DeVito, an aggressive armed robber with a hair-trigger temper. In late 1967 they commit the Air France Robbery, marking Henry's debut into the big time. Enjoying the perks of their criminal life, they spend most of their nights at the Copacabana with countless women. Henry meets and later marries Karen, a Jewish girl from the Five Towns. Karen is initially troubled by Henry's criminal activities, but is soon seduced by his glamorous lifestyle. When a neighbor assaults her for refusing his advances, Henry pistol-whips him in front of her. She feels aroused by the act, especially when Henry gives her the gun and tells her to hide it. On June 11, 1970, Tommy brutally beats Billy Batts, a mobster with the Gambino crime family, for insulting him about being a shoeshine boy in his younger days. However, Batts was a made man, meaning that he could not be touched without the consent of his Gambino family bosses. Realizing that this was an offense that could get them all killed, Jimmy, Henry, and Tommy need to cover up the murder. They transport the body in the trunk of Henry's car and bury it upstate. Six months later Jimmy learns that the burial site will be developed, forcing them to exhume the decomposing corpse and move it. Henry begins to see a mistress named Janice Rossi, setting her up in an apartment. When Karen finds out, she goes to Janice's apartment building to confront her, but is not let in past the front door. She then confronts Henry, points a revolver at his face, and threatens to kill both of them, demanding to know if he loves Janice. Karen cannot bring herself to kill him and an enraged Henry threatens Karen with the gun and says he has bigger concerns, like being murdered on the streets. Henry goes to live in the apartment with Janice. Paulie soon directs him to return to Karen after completing a job for him; Henry and Jimmy are sent to collect from an indebted gambler in Florida, which they succeed at after beating him. However most of the crew are arrested after being turned in by the gambler's sister, a typist for the FBI. In prison, Henry sells drugs to support his family on the outside. Soon after he is released in 1978, the crew commits the Lufthansa heist at John F. Kennedy International Airport. Despite Paulie's warning to stop, Henry further establishes himself in the drug trade, convincing Tommy and Jimmy to join him. Jimmy has the other participants in the Lufthansa robbery killed after they ignore his command to not immediately buy expensive things with their share of the stolen money. Then Tommy is killed for the murder of Billy Batts, having been fooled into thinking that he is going to be made. By 1980, Henry is a nervous wreck from cocaine use and insomnia, as he tries to organize a drug deal with his associates in Pittsburgh. However, he is caught by narcotics agents and sent to jail. On his release, Karen tells him that she flushed $60,000 worth of cocaine down the toilet to prevent the FBI agents from finding it during their raid, leaving Henry and his family virtually penniless. Feeling Henry betrayed him by dealing drugs, Paulie gives Henry $3,200 and ends his association with him. Henry decides to enroll in the Witness Protection Program after realizing that Jimmy intends to have him killed. Forced out of his gangster life, he now has to face living in the real world: \"I'm an average nobody. I get to live the rest of my life like a schnook.\" Titles explain that Henry was subsequently arrested on drug charges in Seattle, Washington but has been clean since 1987. Paul Cicero died in Fort Worth Federal Prison of respiratory illness in 1988 at 73. Jimmy, as of 1990, was serving a 20-year-to-life sentence in a New York State prison.",
+ "synopsis_words": 815,
+ "episodes": [
+  {
+   "number": 203,
+   "date": "2021-05-18",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Sean Fennessey"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "murder",
+   "reach": 35,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "gangster",
+   "reach": 18,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "prison",
+   "reach": 16,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "organized crime",
+   "reach": 15,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "mafia",
+   "reach": 12,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "biography",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "florida",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "irish-american",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "brooklyn, new york city",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "drug trafficking",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "gore",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "crime epic",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "mass murder",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "tampa, florida",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Robert De Niro",
+   "films": 14
+  },
+  {
+   "name": "Ray Liotta",
+   "films": 3
+  },
+  {
+   "name": "Joe Pesci",
+   "films": 6
+  },
+  {
+   "name": "Lorraine Bracco",
+   "films": 2
+  },
+  {
+   "name": "Paul Sorvino",
+   "films": 2
+  },
+  {
+   "name": "Frank Sivero",
+   "films": 0
+  },
+  {
+   "name": "Tony Darrow",
+   "films": 0
+  },
+  {
+   "name": "Mike Starr",
+   "films": 0
+  },
+  {
+   "name": "Frank Vincent",
+   "films": 0
+  },
+  {
+   "name": "Chuck Low",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "13ba22b2-7c4a-49fd-a7fc-8426a954f2d4",
+   "title": "Taxi Driver",
+   "year": 1976,
+   "poster": "ekstpH614fwDX8DUln1a2Opz0N8.jpg"
+  },
+  {
+   "id": "66a2c326-58dc-433a-a431-dfda0c71f7d1",
+   "title": "After Hours",
+   "year": 1985,
+   "poster": "8upjM945SVY99tu2Z8OG27Jd4m6.jpg"
+  },
+  {
+   "id": "63982666-21e5-4bbd-9a70-8461b2c11c2f",
+   "title": "The Color of Money",
+   "year": 1986,
+   "poster": "dVdnHmdQu3JtLAAksjTmTEF76gD.jpg"
+  },
+  {
+   "id": "c5730081-8d6f-4b33-9d78-6873ff9c573c",
+   "title": "Cape Fear",
+   "year": 1991,
+   "poster": "meJZAAuVcjic2ipvbOPz5UlE4P9.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "bf39e177-546f-49e4-954b-f98d8f6463b9",
+   "title": "Casino",
+   "year": 1995,
+   "poster": "gziIkUSnYuj9ChCi8qOu2ZunpSC.jpg"
+  },
+  {
+   "id": "69ff200d-2c18-4ff0-91b7-3e61412ca05f",
+   "title": "Cop Land",
+   "year": 1997,
+   "poster": "dyOqXyPCQh8VF0KA5aelBCCQond.jpg"
+  },
+  {
+   "id": "26e7964b-6217-4281-9aba-c2941435108d",
+   "title": "The Godfather Part II",
+   "year": 1974,
+   "poster": "sSuQTCZwqKrNBNIsksO9IAUoWP9.jpg"
+  },
+  {
+   "id": "13ba22b2-7c4a-49fd-a7fc-8426a954f2d4",
+   "title": "Taxi Driver",
+   "year": 1976,
+   "poster": "ekstpH614fwDX8DUln1a2Opz0N8.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Goodfellas",
+  "wikidata": "Q42047"
+ }
+}

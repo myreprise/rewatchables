@@ -1,0 +1,243 @@
+{
+ "id": "f458faef-2c5e-4cc7-8447-6ee7a8b00765",
+ "title": "Alien",
+ "year": 1979,
+ "poster": "vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg",
+ "tmdb_id": 348,
+ "directors": [
+  "Ridley Scott"
+ ],
+ "director_primary": "Ridley Scott",
+ "genres": [
+  "Horror",
+  "Science Fiction"
+ ],
+ "runtime": 117,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2023-04-18",
+ "last": "2023-04-18",
+ "scores": {
+  "tmdb": 8.172,
+  "rt": 93.0,
+  "ebert": 4.0,
+  "box_office": "$453.4M",
+  "multiple": 9.539254636363637,
+  "cpi_year": 2024
+ },
+ "plot": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
+ "synopsis": "The commercial space tug Nostromo is returning to Earth with a seven-member crew in \"stasis\": captain Dallas, executive officer Kane, warrant officer Ripley, navigator Lambert, science officer Ash, and engineers Parker and Brett, along with the ship's cat, Jones. The ship's computer, \"Mother\", detects a transmission from a nearby planet and wakes the crew. Following company policy to investigate transmissions indicating intelligent life, they leave their payload in orbit and land on the surface, but the ship is damaged. Dallas, Kane, and Lambert discover that the transmission comes from a derelict alien vessel. Inside is a giant, fossilized alien corpse with a hole in its torso. Meanwhile, Mother partially deciphers the transmission, which Ripley determines is a warning beacon and not an SOS as first thought.\n\nKane enters a chamber containing hundreds of large eggs. When he touches one, an arthropod-like lifeform springs out, penetrates his helmet, and attaches to his face. Back at the Nostromo, Ripley refuses to allow them aboard, citing quarantine regulations, but Ash disobeys her. While the engineers work on ship repairs, Ash attempts to extricate the creature from Kane's face; he stops when he discovers that its highly corrosive acidic blood could harm Kane and damage the ship's hull. The creature eventually detaches itself and dies. After the crew returns to space, Kane awakens and seems well. During a final crew meal before returning to stasis, he suddenly chokes and convulses as a small alien creature bursts from his chest and escapes into the ship.\n\nAfter ejecting Kane's body into space, the crew uses tracking devices to try to locate and kill the creature. Encountering Jones, Brett follows him into a landing leg compartment, where the now fully-grown alien kills him. The crew determines that the alien is moving around the ship within the air ducts, and Dallas devises a plan to force the creature off the ship with an airlock. Dallas asks Mother about alternative methods of killing the alien and their chances of succeeding, but the computer ominously refuses to answer his questions. Dallas then enters the ducts with a flamethrower but is ambushed and killed by the alien.\n\nA hysterical Lambert believes that they will all die and suggests abandoning the Nostromo and leaving in the ship's escape shuttle. Ripley, now in command, rejects the plan because the shuttle cannot support the remaining four crew members. Ripley decides they will try Dallas's plan again. She accesses Mother herself and discovers a secret company directive: Ash must return with the alien for study, regardless of risk to the crew. Ash attempts to kill her when confronted, and Parker attacks and incapacitates Ash, who is now revealed to be an android. Ash states that the alien cannot be killed and expresses admiration for it, claiming that the crew doesn't stand a chance against it. Parker incinerates Ash's remains.\n\nWith no hope of defeating the alien, Ripley decides to initiate the Nostromo's self-destruct sequence and go ahead with Lambert's plan to abandon the ship. While they are gathering supplies, the alien kills both Parker and Lambert. Now alone, Ripley starts the self-destruct process, but the alien blocks her route to the escape shuttle. Ripley narrowly escapes and turns back to abort the sequence but fails to return before the override option expires. With only a few minutes left to evacuate, Ripley frantically returns to the shuttle and finds that the alien is gone. She takes Jones, boards the shuttle and launches it seconds before the Nostromo explodes.\n\nAs Ripley prepares for stasis, she discovers that the alien has stowed itself in a narrow compartment aboard the shuttle. She dons a spacesuit and helmet, loads a grappling hook gun, and straps herself to a chair before she begins discharging gases to drive the alien from its hiding place. It tries to attack her, but she opens the shuttle door. The resulting depressurization blast leaves the alien clinging to the door frame. Ripley shoots it with the gun, knocking it out, but the door closes on the grapple line, leaving the alien tethered to the ship. As it swings behind an engine nacelle, Ripley fires the engines to sever the line and blast the alien into space. After recording her log entry, she places Jones and herself into stasis to start their return journey to Earth.",
+ "synopsis_words": 719,
+ "episodes": [
+  {
+   "number": 304,
+   "date": "2023-04-18",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Sean Fennessey"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "dystopia",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "alien",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "female protagonist",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "space",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "space marine",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "android",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "space travel",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "countdown",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "space opera",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "spacecraft",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "cowardice",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "beheading",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "biology",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "cosmos",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "parasite",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "space suit",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Tom Skerritt",
+   "films": 2
+  },
+  {
+   "name": "Sigourney Weaver",
+   "films": 6
+  },
+  {
+   "name": "Veronica Cartwright",
+   "films": 1
+  },
+  {
+   "name": "Harry Dean Stanton",
+   "films": 1
+  },
+  {
+   "name": "John Hurt",
+   "films": 1
+  },
+  {
+   "name": "Ian Holm",
+   "films": 0
+  },
+  {
+   "name": "Yaphet Kotto",
+   "films": 2
+  },
+  {
+   "name": "Bolaji Badejo",
+   "films": 0
+  },
+  {
+   "name": "Helen Horton",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "155eecf3-47f7-4300-b271-964adf2fcb97",
+   "title": "Someone to Watch Over Me",
+   "year": 1987,
+   "poster": "7Vqw29y8pkoHaVtwkQcQhBK9oTY.jpg"
+  },
+  {
+   "id": "22ab9200-32d0-4fd7-8bb3-9b09afcd0f65",
+   "title": "Gladiator",
+   "year": 2000,
+   "poster": "wN2xWp1eIwCKOD0BHTcErTBv1Uq.jpg"
+  },
+  {
+   "id": "66130a7b-d3e9-4218-8618-e1ff1eb94197",
+   "title": "American Gangster",
+   "year": 2007,
+   "poster": "sX9idXDqRUxE5ffww3n3RV5gL55.jpg"
+  },
+  {
+   "id": "905fb490-241f-4cde-96fc-04ea8c2ff11f",
+   "title": "The Martian",
+   "year": 2015,
+   "poster": "fASz8A0yFE3QB6LgGoOfwvFSseV.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "8498541b-3c4d-4fa0-b7ad-84b9b74bc647",
+   "title": "Ghostbusters",
+   "year": 1984,
+   "poster": "7E8nLijS9AwwUEPu2oFYOVKhdFA.jpg"
+  },
+  {
+   "id": "ba4b922b-1770-4613-8323-7bfccacaa6c4",
+   "title": "Top Gun",
+   "year": 1986,
+   "poster": "xUuHj3CgmZQ9P2cMaqQs4J0d4Zc.jpg"
+  },
+  {
+   "id": "59d70904-9e10-4d7e-b5e4-91b31d30e9be",
+   "title": "Aliens",
+   "year": 1986,
+   "poster": "r1x5JGpyqZU8PYhbs4UcrO1Xb6x.jpg"
+  },
+  {
+   "id": "192984a5-89eb-466e-b073-b48c5edab953",
+   "title": "Working Girl",
+   "year": 1988,
+   "poster": "q2jfFzZvAzjTaArQR0tjilIZ5aJ.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Alien_%28film%29",
+  "wikidata": "Q103569"
+ }
+}

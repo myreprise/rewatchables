@@ -1,0 +1,222 @@
+{
+ "id": "5d7070a7-ed05-4494-87e2-7e5b5016820e",
+ "title": "The Running Man",
+ "year": 1987,
+ "poster": "GTAUOhO4BN0peJVvxGEQydJvUO.jpg",
+ "tmdb_id": 865,
+ "directors": [
+  "Paul Michael Glaser"
+ ],
+ "director_primary": "Paul Michael Glaser",
+ "genres": [
+  "Action",
+  "Thriller",
+  "Science Fiction"
+ ],
+ "runtime": 101,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2024-04-30",
+ "last": "2024-04-30",
+ "scores": {
+  "tmdb": 6.539,
+  "rt": 66.0,
+  "ebert": 2.5,
+  "box_office": "$105.3M",
+  "multiple": 1.4119298148148147,
+  "cpi_year": 2024
+ },
+ "plot": "By 2017, the global economy has collapsed and U.S. society has become a totalitarian police state, censoring all cultural activity. The government pacifies the populace by broadcasting a number of game shows in which convicted criminals fight for their lives, including the gladiator-style The Running Man, hosted by the ruthless Damon Killian, where “runners” attempt to evade “stalkers” and certain death for a chance to be pardoned and set free.",
+ "synopsis": "By 2017, the global economy has collapsed and American society has become an totalitarian police state, censoring all cultural activity. The government pacifies the populace by broadcasting a number of game shows in which convicted criminals fight for their lives, including the gladiator-style The Running Man, hosted by the ruthless Damon Killian, where \"runners\" attempt to evade \"stalkers\" and certain death for a chance to be pardoned and set free. Eighteen months later, Ben Richards, a military pilot who was convicted of a massacre which he actually refused to participate in, escapes from a labor camp with other inmates and flees to a shanty town on the outskirts of Los Angeles. Declining an offer to join a resistance movement, Richards instead seeks shelter at his brother's apartment. He finds it is now occupied by Amber Mendez, a composer for ICS, the network that broadcasts The Running Man. Richards attempts to flee to Hawaii with Amber as a hostage, but she alerts airport security and Richards is captured and taken to the ICS studios. Killian coerces him to compete in The Running Man with the threat that if he declines, his two weaker escapee friends—Laughlin and Weiss—will be put on the show instead. Richards complies, but as the show begins, Killian reveals that Laughlin and Weiss have been enrolled as runners anyway. Richards and his friends are attacked by the first stalker, \"Subzero\", but Richards kills him instead using barbed wire as a garrotte. This shocks the audience, as this is the first stalker to ever die on the show. Laughlin and Weiss, both members of the aforementioned resistance movement, seek to exploit their current situation by searching for the network's uplink facilities, which they realise are within the game zone. Meanwhile, Amber begins to question the media's veracity after watching a falsified news report on Richards' capture. Amber discovers the truth about the massacre, but she is captured and subsequently sent into the game zone, where she encounters Richards and the others. The runners split up, each pair pursued by a different stalker. Laughlin is mortally wounded by the stalker \"Buzzsaw\", whom Richards kills with Buzzsaw's own chainsaw. Weiss and Amber are successful in locating the uplink system and learning the access codes, but Weiss is electrocuted by the stalker \"Dynamo\". Amber's screams lead Richards to her, and as the two evade the stalker, Dynamo's buggy flips, trapping him inside. Richards then stuns the audience by merely pinning Dynamo in the vehicle, proclaiming that he will not kill a helpless man. Amber and Richards return to Laughlin, who reveals that the resistance has a hideout within the game zone before finally dying. Back at the ICS studio, Killian sees Richards' popularity growing, with viewers betting for Richards to win instead on the stalkers. Off-camera, Killian offers Richards a job as a stalker, which Richards furiously declines. As the next stalker, \"Fireball\", pursues Amber and Richards into an abandoned factory, Amber inadvertently finds the charred bodies of the previous season's \"winning\" runners. Fireball attempts to kill Amber, but Richards rescues her and kills Fireball with his own weaponry. Running out of options, a frustrated Killian uses computer-generated imagery to fake the deaths of Richards and Amber in the final match of the episode, a falsified battle against retired stalker \"Captain Freedom\". In the game zone, Richards and Amber are captured by the resistance and taken to their hideout, where they learn of their \"deaths\" on the show. Using the access codes provided by Amber, the resistance takes over the ICS satellite. Richards leads the rebels to the ICS studios where they seize the control room, allowing the resistance to broadcast unedited footage of Richards' part in the Bakersfield massacre. Richards then heads to the main studio floor, shocking the live and at-home audiences who had watched him supposedly die. Amber encounters Dynamo, but she kills him when an errant gunshot sets off the sprinkler system, electrocuting him when the water hits his electrically powered suit. Richards confronts Killian, now shamed and disgraced before those watching and desperately attempting to prove his point by explaining that he had created the show for huge ratings and to appease American viewers' love for television, action and violence. Ignoring the excuse, Richards sends Killian into the game zone aboard a rocket sled, which flies into a billboard featuring Killian himself and explodes, killing him instantly, much to the delight of the live television audience. The film ends with Richards and Amber sharing a kiss as they walk off the studio.",
+ "synopsis_words": 755,
+ "episodes": [
+  {
+   "number": 354,
+   "date": "2024-04-30",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Cruise",
+   "verdict_tone": "cruise",
+   "host": "Bill Simmons",
+   "guests": [
+    "Kyle Brandt"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "dystopia",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "on the run",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "paranoid",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "authoritarian",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "dark future",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "game show",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "alternate future",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "crowd mentality",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "death game",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "fight for life",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "not too distant future",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "prison break",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "stalkers",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "totalitarian",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "wrongly accused",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Arnold Schwarzenegger",
+   "films": 8
+  },
+  {
+   "name": "Richard Dawson",
+   "films": 1
+  },
+  {
+   "name": "María Conchita Alonso",
+   "films": 1
+  },
+  {
+   "name": "Yaphet Kotto",
+   "films": 2
+  },
+  {
+   "name": "Jim Brown",
+   "films": 1
+  },
+  {
+   "name": "Jesse Ventura",
+   "films": 0
+  },
+  {
+   "name": "Erland van Lidth",
+   "films": 0
+  },
+  {
+   "name": "Marvin J. McIntyre",
+   "films": 0
+  },
+  {
+   "name": "Gus Rethwisch",
+   "films": 0
+  },
+  {
+   "name": "Professor Toru Tanaka",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "3846b478-b106-45af-a620-986ca94f1685",
+   "title": "The Terminator",
+   "year": 1984,
+   "poster": "qvktm0BHcnmDpul4Hz01GIazWPr.jpg"
+  },
+  {
+   "id": "79017872-e79b-4245-8ee9-2a0586b4f456",
+   "title": "Commando",
+   "year": 1985,
+   "poster": "ollPAAAgZ7euU8VisfqU3cuXhZ6.jpg"
+  },
+  {
+   "id": "8ef2ef7b-1bd6-49ea-8071-58484943820c",
+   "title": "Predator",
+   "year": 1987,
+   "poster": "k3mW4qfJo6SKqe6laRyNGnbB9n5.jpg"
+  },
+  {
+   "id": "6f26882f-c201-44f1-9f7e-be45514d9ee6",
+   "title": "Midnight Run",
+   "year": 1988,
+   "poster": "yx0touyDQ9enWDsFgS4MbBwCSNd.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/The_Running_Man_%281987_film%29",
+  "wikidata": "Q1058512"
+ }
+}

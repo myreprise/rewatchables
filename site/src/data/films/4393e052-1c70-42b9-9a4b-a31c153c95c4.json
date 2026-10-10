@@ -1,0 +1,224 @@
+{
+ "id": "4393e052-1c70-42b9-9a4b-a31c153c95c4",
+ "title": "The Firm",
+ "year": 1993,
+ "poster": "kFexXCzidkm4LwlgZqxsJsDQB5v.jpg",
+ "tmdb_id": 37233,
+ "directors": [
+  "Sydney Pollack"
+ ],
+ "director_primary": "Sydney Pollack",
+ "genres": [
+  "Drama",
+  "Mystery",
+  "Thriller"
+ ],
+ "runtime": 154,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2018-12-11",
+ "last": "2018-12-11",
+ "scores": {
+  "tmdb": 6.744,
+  "rt": 76.0,
+  "ebert": 3.0,
+  "box_office": "$586.7M",
+  "multiple": 6.434484928571429,
+  "cpi_year": 2024
+ },
+ "plot": "Mitch McDeere is a young man with a promising future in Law. About to sit his Bar exam, he is approached by 'The Firm' and made an offer he doesn't refuse. Seduced by the money and gifts showered on him, he is totally oblivious to the more sinister side of his company. Then, two Associates are murdered. The FBI contact him, asking him for information and suddenly his life is ruined. He has a choice - work with the FBI, or stay with the Firm. Either way he will lose his life as he knows it. Mitch figures the only way out is to follow his own plan...",
+ "synopsis": "Mitch McDeere, a top Harvard Law School graduate, accepts a lucrative offer from boutique law firm Bendini, Lambert & Locke in Memphis, Tennessee. After he and wife Abby relocate there, he prepares for the Tennessee bar exam. Senior partner Avery Tolar mentors Mitch on the firm's strict culture of loyalty, confidentiality, and high fees. Although the money and benefits, such as a new house, a Mercedes-Benz, and paid-off student loans have swayed Mitch, Abby resents the firm's meddling in employees' personal lives.\n\nMitch passes the bar exam and works grueling hours, straining his marriage. Under Avery's guidance, Mitch discovers the firm's primary work involves helping wealthy clients hide money in offshore shell corporations and other questionable tax-avoidance schemes. On a work trip to the Cayman Islands, Mitch overhears a client mentioning how the firm's Chicago associates \"break legs\". At the firm's Cayman condominium, he finds documents linked to four deceased associates. Meanwhile, the firm's security chief, Bill DeVasher, sends a prostitute to seduce Mitch and uses photos to blackmail him into silence. Mitch hires private investigator Eddie Lomax, a former cellmate of Mitch's brother Ray, to investigate the associates' deaths, but Lomax is murdered by hitmen, witnessed by his secretary Tammy.\n\nFBI agents reveal to Mitch that BL&L's top client is the Morolto crime family of the Chicago Outfit, and most of the firm's lawyers are involved in tax fraud and money laundering. The deceased associates were killed when they tried to leave the firm. The FBI warns Mitch that his home is bugged and pressures him to provide evidence against the firm and the Moroltos. Mitch agrees to cooperate for $1.5 million and his brother Ray's release from prison. The FBI release Ray and transfer half the money to a Swiss account. The FBI secretly intend to return Ray to jail after Mitch provides the incriminating files. Mitch has already confessed his one-night stand in the Caymans to Abby, who plans to leave him.\n\nMitch discovers the firm regularly overbills its clients, a form of mail fraud that exposes them to RICO charges. He and Tammy copy the billing records but need additional files from the firm's Cayman condo. Avery changes his schedule, jeopardizing Mitch's plan, so Abby flies to the Caymans and seduces and drugs Avery to get the files. The firm's phone tap records Abby warning Tammy, leading DeVasher's hitmen to pursue them. After Abby copies the files, Avery tells her the firm set up the prostitute who seduced Mitch on the beach. He warns Abby to leave and is later killed by DeVasher's hitmen, staging his death as a bathtub drowning.\n\nMitch's plans are compromised when a prison guard on the Moroltos' payroll tips off DeVasher about Ray's transfer to FBI custody. Mitch is forced to flee through downtown Memphis, pursued by DeVasher and his hitman. DeVasher mistakenly shoots the hitman, and Mitch knocks DeVasher unconscious. Mitch meets with the Moroltos, presenting himself as a loyal attorney who uncovered the illegal overbilling. He asks for permission to turn over their invoices to help the FBI prosecute the firm, but assures them that any information about their legal affairs remains protected by attorney–client privilege. The Moroltos reluctantly guarantee Mitch's safety, and he hands over the evidence. He resumes his legal career and reconciles with Abby.\n\nMitch's decision to work with the Moroltos angers the FBI, but he reminds them the evidence supports a RICO case against the firm's senior members. The film ends with the McDeeres returning to Boston in their old car. Ray, now with Tammy, enjoys his new life in the Caymans with the money Mitch obtained for him.",
+ "synopsis_words": 604,
+ "episodes": [
+  {
+   "number": 51,
+   "date": "2018-12-11",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Sean Fennessey"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "fbi",
+   "reach": 20,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "lawyer",
+   "reach": 15,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "mafia",
+   "reach": 12,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "legal thriller",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "death",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "blackmail",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "paranoid",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "law firm",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "married couple",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "secret",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "bar exam",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "cayman islands",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "marital tensions",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "memphis, tennessee",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "tense",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Tom Cruise",
+   "films": 17
+  },
+  {
+   "name": "Jeanne Tripplehorn",
+   "films": 2
+  },
+  {
+   "name": "Gene Hackman",
+   "films": 8
+  },
+  {
+   "name": "Hal Holbrook",
+   "films": 2
+  },
+  {
+   "name": "Terry Kinney",
+   "films": 1
+  },
+  {
+   "name": "Wilford Brimley",
+   "films": 1
+  },
+  {
+   "name": "Ed Harris",
+   "films": 3
+  },
+  {
+   "name": "Holly Hunter",
+   "films": 1
+  },
+  {
+   "name": "David Strathairn",
+   "films": 1
+  },
+  {
+   "name": "Gary Busey",
+   "films": 3
+  }
+ ],
+ "by_director": [
+  {
+   "id": "8f9cacf7-4772-4763-b174-83910373d6ed",
+   "title": "Jeremiah Johnson",
+   "year": 1972,
+   "poster": "fANj1S3UmBB51wnKxYRKtw8LMBn.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "784fb257-55b5-4375-8251-a08dfd453629",
+   "title": "All the President's Men",
+   "year": 1976,
+   "poster": "pCe6lfLxt1B58zPD4lgQrlnDS2j.jpg"
+  },
+  {
+   "id": "a5d36945-1eef-4502-b4c3-20c7ff4d6ac6",
+   "title": "Risky Business",
+   "year": 1983,
+   "poster": "82KOHShH9raGhkcAN3TztVjqjj3.jpg"
+  },
+  {
+   "id": "ba4b922b-1770-4613-8323-7bfccacaa6c4",
+   "title": "Top Gun",
+   "year": 1986,
+   "poster": "xUuHj3CgmZQ9P2cMaqQs4J0d4Zc.jpg"
+  },
+  {
+   "id": "63982666-21e5-4bbd-9a70-8461b2c11c2f",
+   "title": "The Color of Money",
+   "year": 1986,
+   "poster": "dVdnHmdQu3JtLAAksjTmTEF76gD.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/The_Firm_%281993_film%29",
+  "wikidata": "Q821692"
+ }
+}

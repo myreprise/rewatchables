@@ -1,0 +1,188 @@
+{
+ "id": "99ecc827-366b-4de5-94ed-3e24d4313347",
+ "title": "Out of Sight",
+ "year": 1998,
+ "poster": "v49q7AMR3pB4M762woWB1NYMCLF.jpg",
+ "tmdb_id": 1389,
+ "directors": [
+  "Steven Soderbergh"
+ ],
+ "director_primary": "Steven Soderbergh",
+ "genres": [
+  "Romance",
+  "Comedy",
+  "Crime"
+ ],
+ "runtime": 123,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2021-02-02",
+ "last": "2021-02-02",
+ "scores": {
+  "tmdb": 6.68,
+  "rt": 94.0,
+  "ebert": 3.5,
+  "box_office": "$149.6M",
+  "multiple": 1.619707625,
+  "cpi_year": 2024
+ },
+ "plot": "Meet Jack Foley, a smooth criminal who bends the law and is determined to make one last heist. Karen Sisco is a federal marshal who chooses all the right moves … and all the wrong guys. Now they're willing to risk it all to find out if there's more between them than just the law.",
+ "synopsis": "The movie intercuts between flashbacks and the present day. This plot summary follows the true chronology.\n\nCareer bank robber Jack Foley is incarcerated at Lompoc Penitentiary in California along with his friend and accomplice Buddy, after Buddy's sister snitches on them before a heist. While at Lompoc, Foley meets petty criminal Glenn and Richard Ripley, a wealthy white collar criminal from Detroit. Foley saves Ripley from being extorted by boxer Maurice \"Snoopy\" Miller, leading Ripley to promise Foley a job on the outside. He also brags about a cache of uncut diamonds hidden at his home.\n\nAfter his release, Foley turns up at Ripley's office but is only offered a menial security guard position. To complain, he confronts Ripley, who only expresses disdain for Foley's criminal past and throws him out of the building. While walking away, Foley notices a bank across the street, fails to rob it, and is sent to Glades Correctional Institution in Florida.\n\nAt Glades, he deduces that fellow inmate Chino is orchestrating a breakout and plans to tag along. Foley calls his ex-wife Adele, an out-of-work magician's assistant, to notify Buddy and Glenn to assist. However, on the night of the breakout, U.S. Marshal Karen Sisco arrives at the prison at the same time as Buddy, spots the men tunneling outside, and alerts the guards. In the confusion, Foley exits the tunnel in a guard's uniform and overpowers her. The men steal her car, and Foley forces her to hide with him in the trunk while Buddy drives. In the trunk, Foley and Sisco start talking to one another. They later meet Glenn to switch cars. Sisco recognizes him from a previous prisoner transport job and convinces him to drive off with her to avoid being arrested again for assisting a fugitive. He soon panics, crashes the car and flees, and Sisco is taken to the hospital. Foley and Buddy make their own way to Miami.\n\nSisco has a dream where she tracks down Foley, but instead of arresting him she has sex with him. After the dream, Sisco is determined to join the task force hunting for Foley and the other fugitives. Independently, she questions Adele, and happens to arrest Chino who arrives at her apartment seeking revenge on Foley. This earns her a place on the task force, but the lead agent forces her to wait in the lobby while they raid Buddy's hotel room. She and Foley spot each other as he and Buddy are in an elevator en route to the basement garage from which they escape. While in the elevator, Foley waves at Sisco, who lets them go without alerting the other agents.\n\nThe men head to Detroit, planning to break into Ripley's house and steal the hidden uncut diamonds. However, Miller is already putting his own burglary team together: his brother-in-law Kenneth, henchman White Boy Bob, and a reluctant Glenn, whom Miller first forces to help kill a rival drug dealer. Foley and Buddy meet with Miller and agree to team up on the robbery. Meanwhile, Sisco, on their trail, questions Miller's wife Moselle, and defends herself when Kenneth attempts to assault her. Foley surprises Sisco at her hotel's bar, and they spend a romantic night together.\n\nGlenn gets cold feet and runs into Sisco, who lets him escape and continues to tail Foley. The thieves break into Ripley's mansion, threaten his housekeeper Midge, and struggle to shoot open the safe upstairs. Meanwhile, Foley and Buddy find Ripley hiding in his study, where Foley deduces that the diamonds (which look like small, nondescript stones) are hidden in Ripley's tropical fish tank. Ripley reveals that he is in love with his maid Midge, and refuses to leave without her. He is then captured by Miller.\n\nUnwilling to leave Midge to be raped by Miller and his associates, Foley gives Buddy the diamonds and goes back inside. He shoots Kenneth in bed, then is held at gunpoint by White Boy Bob, who trips on the stairs and accidentally shoots himself in the head. Sisco arrives and shoots Miller in self-defense. Unwilling to return to prison, Foley confronts Sisco with an empty gun, imploring her to kill him. Sisco instead shoots him in the leg and arrests him.\n\nIn the police van outside, Foley meets another detainee, Hejira Henry, who claims to have escaped from prison nine times. Realizing that Sisco arranged for them to meet and return to Glades together, Foley smiles as the van leaves for Florida.",
+ "synopsis_words": 747,
+ "episodes": [
+  {
+   "number": 186,
+   "date": "2021-02-02",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Ryen Russillo",
+    "Bill Lawrence"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "heist",
+   "reach": 16,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "prison escape",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "u.s. marshal",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "bedroom",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "car trunk",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "diamond theft",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "locked in trunk of car",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "George Clooney",
+   "films": 5
+  },
+  {
+   "name": "Jennifer Lopez",
+   "films": 1
+  },
+  {
+   "name": "Ving Rhames",
+   "films": 5
+  },
+  {
+   "name": "Don Cheadle",
+   "films": 3
+  },
+  {
+   "name": "Steve Zahn",
+   "films": 2
+  },
+  {
+   "name": "Dennis Farina",
+   "films": 2
+  },
+  {
+   "name": "Catherine Keener",
+   "films": 2
+  },
+  {
+   "name": "Isaiah Washington",
+   "films": 0
+  },
+  {
+   "name": "Albert Brooks",
+   "films": 1
+  },
+  {
+   "name": "Luis Guzmán",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "b020995a-4c73-4ce6-898b-7ffe801a8c25",
+   "title": "Ocean's Eleven",
+   "year": 2001,
+   "poster": "hQQCdZrsHtZyR6NbKH2YyCqd2fR.jpg"
+  },
+  {
+   "id": "7f23b054-6d48-4972-88ac-bbe61f0abdfa",
+   "title": "Ocean's Twelve",
+   "year": 2004,
+   "poster": "pE5anFf7nf6ah7V3VRezQ1KSovi.jpg"
+  },
+  {
+   "id": "e94067c7-d0a5-4bdc-8e23-3e2769fb0e30",
+   "title": "Contagion",
+   "year": 2011,
+   "poster": "qL0IooP0bjXy0KXl9KEyPo22ll0.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "d835bb27-f89f-416a-833d-36b2b6585eb9",
+   "title": "Dave",
+   "year": 1993,
+   "poster": "n7wQlcexeER5bW7DvV8sji2vRRH.jpg"
+  },
+  {
+   "id": "965d6e82-2e76-486c-bcf2-ea4da1bad3e1",
+   "title": "Reality Bites",
+   "year": 1994,
+   "poster": "qGDhodtpkpxkrFqokenGNJlzt6w.jpg"
+  },
+  {
+   "id": "d63cd41d-7099-416a-aa91-914c8c391434",
+   "title": "Pulp Fiction",
+   "year": 1994,
+   "poster": "vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg"
+  },
+  {
+   "id": "8f35e9b8-d183-47de-a41f-7ad2b39a24de",
+   "title": "Con Air",
+   "year": 1997,
+   "poster": "kOKjgrEzGOP92rVQ6srA9jtp60l.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Out_of_Sight",
+  "wikidata": "Q571183"
+ }
+}

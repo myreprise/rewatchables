@@ -1,0 +1,264 @@
+{
+ "id": "d704642b-e259-416b-ba53-608a89c67742",
+ "title": "Lost in Translation",
+ "year": 2003,
+ "poster": "3jCLmYDIIiSMPujbwygNpqdpM8N.jpg",
+ "tmdb_id": 153,
+ "directors": [
+  "Sophia Coppola"
+ ],
+ "director_primary": "Sophia Coppola",
+ "genres": [
+  "Drama",
+  "Comedy",
+  "Romance"
+ ],
+ "runtime": 102,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2023-09-05",
+ "last": "2023-09-05",
+ "scores": {
+  "tmdb": 7.38,
+  "rt": 95.0,
+  "ebert": 4.0,
+  "box_office": "$204.1M",
+  "multiple": 29.930964,
+  "cpi_year": 2024
+ },
+ "plot": "Two lost souls visiting Tokyo -- the young, neglected wife of a photographer and a washed-up movie star shooting a TV commercial -- find an odd solace and pensive freedom to be real in each other's company, away from their lives in America.",
+ "synopsis": "Bob Harris is a burnt out American movie star who arrives in Tokyo to appear in lucrative advertisements for Suntory's Hibiki whiskey. He stays at the  Park Hyatt Tokyo and is miserable due to problems within his twenty-five-year marriage and a midlife crisis.\n\nCharlotte, another American staying at the hotel, is a young Yale graduate in philosophy who is accompanying her husband John while he works as a celebrity photographer. She is feeling similarly disenchanted as she questions her marriage and is anxious about her future. They both struggle additionally with bouts of jet lag and culture shock in Tokyo and pass the time loitering around the hotel, Charlotte also trying ikebana by chance.\n\nCharlotte is repelled by a vacuous Hollywood actress named Kelly, who is also at the hotel promoting a film. Kelly bumps into Charlotte and John, gushing over photography sessions she has previously done with him. Bob and Charlotte frequently cross paths in the hotel and eventually start to connect in the hotel bar.\n\nAfter several encounters, when John is on assignment outside Tokyo, Charlotte invites Bob into the city to meet some local friends. They bond over an evening in Tokyo, where they experience the city nightlife together and end up singing at a karaoke box. In the days that follow, Bob and Charlotte spend more time together, and their friendship strengthens. One night while watching television and drinking sake, while neither can sleep, the two share an intimate conversation about Charlotte's personal uncertainties and their married lives.\n\nBob has a cold conversation with his wife, then spends the night with a jazz singer from the hotel bar. Charlotte hears the woman singing in Bob's room the next morning, leading to tension between Bob and Charlotte during a shabu-shabu lunch together. The pair encounter each other in the evening and Bob reveals that he will be leaving Tokyo the following day.\n\nBob and Charlotte reconcile and express how they will miss each other, making a final visit to the hotel bar. The next morning, when Bob is leaving the hotel, he and Charlotte share sincere but unsatisfactory goodbyes. On Bob's taxi ride to the airport, he sees Charlotte on a crowded street, stops the car, and walks to her. He then embraces her and whispers something in her ear. The two share a kiss and say goodbye before Bob departs.",
+ "synopsis_words": 394,
+ "episodes": [
+  {
+   "number": 323,
+   "date": "2023-09-05",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Amanda Dobbins"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "aftercreditsstinger",
+   "reach": 18,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "woman director",
+   "reach": 16,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "adultery",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "hopeful",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "loneliness",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "photographer",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "unsociability",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "older man younger woman relationship",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "pop star",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "unlikely friendship",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "culture clash",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "homesickness",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "japan",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "lyrical",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "midlife crisis",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "upper class",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "age difference",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "commercial",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "hotel room",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "jet lag",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "karaoke",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "tokyo, japan",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "wistful",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Bill Murray",
+   "films": 6
+  },
+  {
+   "name": "Scarlett Johansson",
+   "films": 2
+  },
+  {
+   "name": "Giovanni Ribisi",
+   "films": 1
+  },
+  {
+   "name": "Anna Faris",
+   "films": 1
+  },
+  {
+   "name": "Akiko Takeshita",
+   "films": 1
+  },
+  {
+   "name": "Kazuyoshi Minamimagoe",
+   "films": 0
+  },
+  {
+   "name": "Kazuko Shibata",
+   "films": 0
+  },
+  {
+   "name": "Take",
+   "films": 0
+  },
+  {
+   "name": "Ryuichiro Baba",
+   "films": 0
+  },
+  {
+   "name": "Akira Yamaguchi",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "2337417a-5763-4bd7-9ba2-e3d83574b9d2",
+   "title": "Caddyshack",
+   "year": 1980,
+   "poster": "lXnNz7zOXCsftMDVoU3VSo0Eioi.jpg"
+  },
+  {
+   "id": "738ede6d-f6cf-4362-9071-80c8ea28ad2b",
+   "title": "Stripes",
+   "year": 1981,
+   "poster": "toyyN62VLUXoUudFbHPdrrmRFSZ.jpg"
+  },
+  {
+   "id": "8498541b-3c4d-4fa0-b7ad-84b9b74bc647",
+   "title": "Ghostbusters",
+   "year": 1984,
+   "poster": "7E8nLijS9AwwUEPu2oFYOVKhdFA.jpg"
+  },
+  {
+   "id": "3c449273-fe0f-49a9-a66d-fc6c986b9ec9",
+   "title": "What About Bob?",
+   "year": 1991,
+   "poster": "pFCrGGGhV5xeAdvEysv6aSv8T13.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Lost_in_Translation_%28film%29",
+  "wikidata": "Q107270"
+ }
+}

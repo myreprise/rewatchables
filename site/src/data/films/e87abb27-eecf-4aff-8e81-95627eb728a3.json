@@ -1,0 +1,247 @@
+{
+ "id": "e87abb27-eecf-4aff-8e81-95627eb728a3",
+ "title": "True Lies",
+ "year": 1994,
+ "poster": "pqdvCBDThAOjlA0XBzbNm7GvwpU.jpg",
+ "tmdb_id": 36955,
+ "directors": [
+  "James Cameron"
+ ],
+ "director_primary": "James Cameron",
+ "genres": [
+  "Action",
+  "Thriller"
+ ],
+ "runtime": 141,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2024-07-15",
+ "last": "2024-07-15",
+ "scores": {
+  "tmdb": 7.102,
+  "rt": 70.0,
+  "ebert": 3.0,
+  "box_office": "$802.0M",
+  "multiple": 3.294782608695652,
+  "cpi_year": 2024
+ },
+ "plot": "A fearless, globe-trotting, terrorist-battling secret agent has his life turned upside down when he discovers his wife might be having an affair with a used car salesman while terrorists smuggle nuclear war heads into the United States.",
+ "synopsis": "Harry Tasker leads a double life, performing covert missions for the United States government under a counter-terrorism task force called \"The Omega Sector\". Albert \"Gib\" Gibson and Faisil assist him in these missions under the command of Spencer Trilby. However, Harry's wife, Helen, and his daughter, Dana, believe he is a boring computer salesman with Tektel Systems doing a lot of \"corporate\" travel. Harry's latest mission in Switzerland reveals the existence of an Islamic terrorist organization group known as the Crimson Jihad, led by Salim Abu Aziz. Harry suspects that antiques dealer Juno Skinner has ties to Aziz. After visiting her, Harry is chased by Aziz's men through the Georgetown Park shopping mall and a large hotel, meanwhile missing the birthday party that his wife and daughter have arranged for him. When Harry goes to Helen's office the next day to surprise her and take her to lunch, he overhears a conversation with her coworker about \"Simon\", a man she is seeing, causing Harry to worry about their marriage. Using the Omega Sector's resources, he tracks down Simon, who turns out to be a used car salesman posing as a spy to seduce Helen. Helen is kidnapped by Harry's agency from Simon's trailer and left in a bare concrete interrogation room with a one way mirror. Harry questions her using a voice distorter about her relationship with \"Simon\" and about their marriage. She says that she wanted to have adventure in her life for once since Harry never gave her that. Harry realizes his cover as a boring salesman was too convincing. He decides to spice up Helen's life to make her happy by giving her a choice: go on a \"mission\" or be sent to prison. She chooses the mission: to pose as a prostitute and plant a bug on the phone of an arms dealer. Before she has a chance to plant the bug, Harry insists that she dances for him. The sham is interrupted by Aziz's men who burst into the room, taking both of them hostage, and subsequently flying them to the terrorist hideout somewhere in the Florida Keys. Aziz reveals he possesses small nuclear warheads hidden inside antique statues shipped by Juno and plans to detonate one to demonstrate his power to the United States. Harry reveals his secret double life, much to Helen's shock, when the terrorists threaten Helen's life. Harry then escapes, frees Helen and attacks the camp, trying to stop the planned detonation. While fighting Aziz's troops, Harry appears to die in an explosion. Helen is recaptured and is taken by Aziz, Juno, and the terrorists as they escape the island before a nuclear warhead is set to detonate and wipe out their camp and any evidence. Gib locates and rescues Harry using the GPS device in Helen's purse. Two U.S. Marine AV-8B Harrier jets are brought in to attack Aziz's convoy as they travel the Overseas Highway and Harry is able to rescue Helen just as the limo she was in falls off the bridge which was destroyed by the Harriers killing Juno, but Aziz evades capture. Harry soon learns that Aziz has kidnapped their daughter, Dana, and with the remaining terrorists has taken over the top floor of an under-construction office building in downtown Miami. Harry commandeers a Harrier to rescue his daughter and stop them from detonating the remaining nuclear warhead. Dana steals the arming key—and pursued by Aziz—climbs up onto a crane at the top of the building. Harry eliminates a few of the terrorists with the Harrier's machine guns while the rest decide to escape by helicopter. Harry sees Dana climbing the rigging and persuades her into jumping onto the Harrier. Aziz follows Dana and attacks Harry while he tries to pull his daughter to safety. Aziz falls off the jet, but gets his backpack caught on an AIM-9 Sidewinder missile which Harry shoots at the terrorists' hovering helicopter, with Aziz still attached, killing them all. A year later, the Tasker family is having dinner together. A phone call reveals that Helen now also works for Omega Sector. Harry and Helen then embark on a new mission together, where they meet \"Simon\" again.",
+ "synopsis_words": 696,
+ "episodes": [
+  {
+   "number": 365,
+   "date": "2024-07-15",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Cruise",
+   "verdict_tone": "cruise",
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Van Lathan"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "terrorism",
+   "reach": 15,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "kidnapping",
+   "reach": 12,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "spy",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "florida",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "mischievous",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "appreciative",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "gun",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "secret agent",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "terrorist plot",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "florida keys",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "key west",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "horseback riding",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "jackhammer",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "mushroom cloud",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "special agent",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "top secret",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Arnold Schwarzenegger",
+   "films": 8
+  },
+  {
+   "name": "Jamie Lee Curtis",
+   "films": 3
+  },
+  {
+   "name": "Tom Arnold",
+   "films": 1
+  },
+  {
+   "name": "Bill Paxton",
+   "films": 5
+  },
+  {
+   "name": "Tia Carrere",
+   "films": 2
+  },
+  {
+   "name": "Art Malik",
+   "films": 0
+  },
+  {
+   "name": "Eliza Dushku",
+   "films": 0
+  },
+  {
+   "name": "Grant Heslov",
+   "films": 0
+  },
+  {
+   "name": "Charlton Heston",
+   "films": 0
+  },
+  {
+   "name": "Marshall Manesh",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "3846b478-b106-45af-a620-986ca94f1685",
+   "title": "The Terminator",
+   "year": 1984,
+   "poster": "qvktm0BHcnmDpul4Hz01GIazWPr.jpg"
+  },
+  {
+   "id": "59d70904-9e10-4d7e-b5e4-91b31d30e9be",
+   "title": "Aliens",
+   "year": 1986,
+   "poster": "r1x5JGpyqZU8PYhbs4UcrO1Xb6x.jpg"
+  },
+  {
+   "id": "b9a3d0b5-937a-4d5c-8a0f-598359543420",
+   "title": "Terminator 2: Judgment Day",
+   "year": 1991,
+   "poster": "jFTVD4XoWQTcg7wdyJKa8PEds5q.jpg"
+  },
+  {
+   "id": "351712e3-7662-4d96-b240-c3f311b2f8b0",
+   "title": "Titanic",
+   "year": 1997,
+   "poster": "9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "b46129e3-458f-482a-9014-aaea164bf261",
+   "title": "Halloween",
+   "year": 1978,
+   "poster": "wijlZ3HaYMvlDTPqJoTCWKFkCPU.jpg"
+  },
+  {
+   "id": "fc8ee94c-2819-4e73-9be7-bf9243ad0b17",
+   "title": "Halloween II",
+   "year": 1981,
+   "poster": "3nX5HHGgOKaVMxXwMLT9DHO1Ne6.jpg"
+  },
+  {
+   "id": "3846b478-b106-45af-a620-986ca94f1685",
+   "title": "The Terminator",
+   "year": 1984,
+   "poster": "qvktm0BHcnmDpul4Hz01GIazWPr.jpg"
+  },
+  {
+   "id": "79017872-e79b-4245-8ee9-2a0586b4f456",
+   "title": "Commando",
+   "year": 1985,
+   "poster": "ollPAAAgZ7euU8VisfqU3cuXhZ6.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/True_Lies",
+  "wikidata": "Q110397"
+ }
+}

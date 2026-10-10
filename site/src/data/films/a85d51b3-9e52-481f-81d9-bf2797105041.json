@@ -1,0 +1,203 @@
+{
+ "id": "a85d51b3-9e52-481f-81d9-bf2797105041",
+ "title": "Big Daddy",
+ "year": 1999,
+ "poster": "lEYg1X8RjqNB5NWEtodcbK7vm1G.jpg",
+ "tmdb_id": 9032,
+ "directors": [
+  "Dennis Dugan"
+ ],
+ "director_primary": "Dennis Dugan",
+ "genres": [
+  "Comedy",
+  "Drama"
+ ],
+ "runtime": 93,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2019-05-09",
+ "last": "2024-06-27",
+ "scores": {
+  "tmdb": 6.487,
+  "rt": 39.0,
+  "ebert": 1.5,
+  "box_office": "$442.1M",
+  "multiple": 6.865552485380117,
+  "cpi_year": 2024
+ },
+ "plot": "A lazy law school grad adopts a kid to impress his girlfriend, but everything doesn't go as planned. Now he's forced to grow up while navigating the challenges of fatherhood.",
+ "synopsis": "In New York City, Sonny Koufax is a 32-year-old slacker who graduated from law school but never took the bar exam. He works only one day a week as a toll booth attendant and lives comfortably off a $200,000 settlement from a minor accident. Lacking ambition and responsibility, Sonny spends his days lounging around, much to the frustration of his girlfriend Vanessa, who threatens to break up with him unless he grows up and changes his ways.\n\nSonny's roommate Kevin Gerrity, a successful lawyer, proposes to his girlfriend Corinne, a podiatrist, before leaving for China on a work assignment. Corinne accepts but openly dislikes Sonny, largely because he constantly mocks her former job at Hooters, which she worked while paying her way through school.\n\nThe next morning, Sonny wakes up to find a five-year-old boy named Julian McGrath abandoned at the apartment. A note explains that Julian's mother Jan can no longer care for him due to illness and claims that Kevin is Julian's biological father. Sonny contacts Kevin, who is shocked and confused by the news. Despite having no parenting experience, Sonny promises to take care of Julian until Kevin returns from China.\n\nHoping to win Vanessa back, Sonny introduces her to Julian, but she reveals that she is now dating Sid, an older and seemingly accomplished man whom she admires for his intelligence and clear five-year plan. Discouraged, Sonny struggles with the realities of caring for a child and soon becomes overwhelmed.\n\nFrustrated, Sonny impersonates Kevin and takes Julian to social worker Arthur Brooks, asking that the boy be returned to his mother. Arthur instead informs him that Julian's mother has died of cancer and suggests placing Julian into foster care. Unable to allow that, Sonny reluctantly agrees to keep Julian until an adoptive family can be found.\n\nSonny vents about the situation to his father Lenny who is furious and believes Sonny is far too irresponsible to raise a child. Ignoring his father's doubts, Sonny decides to raise Julian his own way. Over time, Sonny and Julian form a strong bond, and Julian even helps Sonny begin a relationship with Layla, Corinne's sister and a lawyer. Meanwhile, Arthur finds a potential adoptive family for Julian but becomes suspicious when Sonny avoids returning his calls.\n\nAfter Julian's teacher complains about the bad habits he has learned under Sonny's influence, Sonny reevaluates his parenting and makes a sincere effort to improve both his and Julian's behavior. Shortly afterward, Arthur arrives and confronts Sonny, having discovered that he impersonated Kevin, and threatens him with arrest unless he gives up Julian. Heartbroken, Sonny complies and turns Julian over much to Julian's sadness. Determined to fight for him, Sonny asks Layla to help prepare a legal case.\n\nIn court, Layla, Kevin, and Sonny's lawyer friends represent Sonny, while friends and acquaintances testify on his behalf. Layla has Julian testify as well, revealing details about his birth in Toronto, which triggers Kevin's memory. Sonny then takes the stand and asks Lenny to question him. Though Lenny initially doubts Sonny, he is ultimately convinced by his son's sincerity and growth, moving the entire courtroom and inspiring everyone to call their dads to express their love for them. Despite this, Judge Healy  is still unconvinced, denies Sonny custody, and orders him remanded until sentencing. Kevin insists the charges be dropped as he admits that Julian was the result of a one-night stand years earlier. Judge Healy grants him custody pending a DNA test, and although Julian is devastated, Sonny promises he will always remain part of his life. After the test confirms Kevin is Julian's father, Sonny passes him to Kevin and the two begin bonding, while Sonny continues to stay involved.\n\nOne year later, Sonny has completely transformed his life. He is now a successful lawyer, married to Layla, and a father himself as well as being Julian's uncle. At a surprise birthday party at a Hooters location, Sonny encounters Vanessa (as a waitress) working alongside Sid (who's a line cook), whose once-promising plans never materialized. The film ends on a lighthearted note, highlighting how far Sonny has come.",
+ "synopsis_words": 685,
+ "episodes": [
+  {
+   "number": 71,
+   "date": "2019-05-09",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Joe House",
+    "Sean Fennessey"
+   ],
+   "note": "1999 series (Luminary)"
+  },
+  {
+   "number": 71,
+   "date": "2024-06-27",
+   "gap_before": "5 yr 1 mo later",
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Sean Fennessey",
+    "Joe House"
+   ],
+   "note": "Originally released May 9, 2019 on Luminary as part of 1999 Rewatchables series"
+  }
+ ],
+ "keywords": [
+  {
+   "word": "law school",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "responsibility",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "bachelor",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "child's point of view",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "immaturity",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "politically incorrect",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "public urination",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "syracuse university",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "vomit",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "wetting pants",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "young boy",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Adam Sandler",
+   "films": 2
+  },
+  {
+   "name": "Joey Lauren Adams",
+   "films": 2
+  },
+  {
+   "name": "Jon Stewart",
+   "films": 1
+  },
+  {
+   "name": "Cole Sprouse",
+   "films": 1
+  },
+  {
+   "name": "Dylan Sprouse",
+   "films": 1
+  },
+  {
+   "name": "Josh Mostel",
+   "films": 0
+  },
+  {
+   "name": "Leslie Mann",
+   "films": 1
+  },
+  {
+   "name": "Allen Covert",
+   "films": 0
+  },
+  {
+   "name": "Rob Schneider",
+   "films": 0
+  },
+  {
+   "name": "Kristy Swanson",
+   "films": 2
+  }
+ ],
+ "by_director": [
+  {
+   "id": "7504870e-e3df-467f-ae30-ee449ad0c5e2",
+   "title": "Happy Gilmore",
+   "year": 1996,
+   "poster": "4RnCeRzvI1xk5tuNWjpDKzSnJDk.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "af8e71a2-1c0e-4386-9c73-ddcb791ba2e1",
+   "title": "Dazed and Confused",
+   "year": 1993,
+   "poster": "msG9awbLhVZwv1Eh9Ge7SofMexW.jpg"
+  },
+  {
+   "id": "7504870e-e3df-467f-ae30-ee449ad0c5e2",
+   "title": "Happy Gilmore",
+   "year": 1996,
+   "poster": "4RnCeRzvI1xk5tuNWjpDKzSnJDk.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Big_Daddy_%281999_film%29",
+  "wikidata": "Q509025"
+ }
+}

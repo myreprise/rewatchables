@@ -1,0 +1,288 @@
+{
+ "id": "78ae530f-be68-4f9b-9679-cf7b4ea79195",
+ "title": "Edge of Tomorrow",
+ "year": 2014,
+ "poster": "nBM9MMa2WCwvMG4IJ3eiGUdbPe6.jpg",
+ "tmdb_id": 137113,
+ "directors": [
+  "Doug Liman"
+ ],
+ "director_primary": "Doug Liman",
+ "genres": [
+  "Action",
+  "Science Fiction"
+ ],
+ "runtime": 114,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2020-03-23",
+ "last": "2020-03-23",
+ "scores": {
+  "tmdb": 7.642,
+  "rt": 91.0,
+  "ebert": null,
+  "box_office": "$491.1M",
+  "multiple": 2.081692449438202,
+  "cpi_year": 2024
+ },
+ "plot": "Major Bill Cage is an officer who has never seen a day of combat when he is unceremoniously demoted and dropped into combat. Cage is killed within minutes, managing to take an alpha alien down with him. He awakens back at the beginning of the same day and is forced to fight and die again... and again - as physical contact with the alien has thrown him into a time loop.",
+ "synopsis": "In 2015, an alien race known as \"Mimics\" lands in Germany and swiftly conquers much of continental Europe, killing millions. By 2020, humanity has formed a global military alliance, the United Defense Force (UDF), to combat the Mimics. However, victory remained elusive until the recent Battle of Verdun, which was secured by the celebrated war hero Sergeant Rita Vrataski.\n\nIn Britain, the UDF amasses forces for a major invasion of France. General Brigham orders public affairs officer Major William Cage to cover the offensive from the front line, but the inexperienced and cowardly Cage attempts to blackmail Brigham into rescinding the order. Brigham has Cage arrested, demoted to Private and sent to the military base at Heathrow Airport to join the invasion as infantry, where he is assigned to Master Sergeant Farell and the misfit J-Squad, who dislike and belittle him. The following day, the invasion forces land on a French beach but are ambushed and massacred by Mimics. Cage uses a Claymore mine to kill a larger \"Alpha\" Mimic. Bathed in the Mimic's blood, Cage dies during the ensuing explosion.\n\nCage suddenly awakens at Heathrow, realizing he is reliving the previous morning. He makes failed attempts to warn against the invasion, and experiences multiple loops in which he dies on the beach only to awaken again at Heathrow. With each loop, his combat skills and knowledge of the battlefield improve. He tries to save Rita's life so she can lead them but, after recognizing his apparent prescience, she allows herself to die, ordering Cage to find her on his next loop.\n\nCage quickly convinces Rita of the reset because she gained the same power after exposure to an Alpha's blood. Her loops enabled her, an initially inexperienced soldier, to win at Verdun, but a later blood transfusion removed the power. Rita takes Cage to Mimic expert Dr. Carter, who explains the creatures are a superorganism controlled by a single, gigantic \"Omega\" Mimic. Whenever the Alpha Mimics are killed, the Omega restarts a loop and adjusts its tactics until the Mimics win. Rita realizes the Mimics allowed the UDF victory at Verdun to make them overconfident in their new exoskeletons and lure them into overcommitting their forces in retaking Europe, allowing the Mimics to exterminate most of the resistance.\n\nCage spends many loops training with Rita so they can reach the Omega, but he begins to care for her and struggles after seeing her repeatedly die. He experiences a vision of the Omega hidden in a German dam, and he and Rita seek it out. During the journey, the pair bond, but Rita remains distant, having seen someone she cared about die hundreds of times at Verdun. She eventually determines that this is not the first loop in which they approached the Omega. Cage reveals that she always dies before reaching the dam, regardless of his actions, and he is unwilling to kill the Omega and end the loops if she remains dead. Upset, Rita attempts to leave but is killed by a Mimic. Despondent, during the next loop, Cage travels to the dam alone. He discovers the vision was a trap and is ambushed by an Alpha, and Cage drowns himself before it can remove his power.\n\nTo find the Omega, Cage and Rita sneak into General Brigham's office and pressure him into handing over a prototype transponder designed by Carter. Having used it to locate the Omega beneath the Louvre Pyramid in Paris, Cage is knocked unconscious during their escape and given a blood transfusion for his injuries, removing his power.\n\nRita frees Cage, who then uses his detailed knowledge of J-Squad to convince them to help destroy the Omega. They fly to Paris, where the squad members sacrifice themselves to ensure Cage and Rita reach the Louvre. Cornered by an Alpha, Rita kisses Cage, lamenting that she does not have more time to get to know him. The Alpha kills Rita and mortally wounds Cage, but he drops several grenades that destroy the Omega, which not only kills the Mimics, but also bathes Cage in its blood.\n\nCage reawakens before his first meeting with General Brigham, and witnesses a news announcement that all Mimics are dead following a mysterious energy surge in Paris, before returning to Heathrow and finding Rita. Oblivious to his identity, she inquires what he wants; Cage chuckles.",
+ "synopsis_words": 724,
+ "episodes": [
+  {
+   "number": 125,
+   "date": "2020-03-23",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Chris Ryan",
+   "guests": [
+    "Sean Fennessey"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "dystopia",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "training",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "alien",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "adoring",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "anxious",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "time travel",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "somber",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "affectation",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "alien invasion",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "defiant",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "dignified",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "earnest",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "sentimental",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "soldier",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "deja vu",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "military officer",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "time loop",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "war",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "war hero",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "2020s",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "exoskeleton",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "restart",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "soldiers",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Tom Cruise",
+   "films": 17
+  },
+  {
+   "name": "Emily Blunt",
+   "films": 3
+  },
+  {
+   "name": "Brendan Gleeson",
+   "films": 1
+  },
+  {
+   "name": "Bill Paxton",
+   "films": 5
+  },
+  {
+   "name": "Jonas Armstrong",
+   "films": 1
+  },
+  {
+   "name": "Tony Way",
+   "films": 0
+  },
+  {
+   "name": "Kick Gurry",
+   "films": 0
+  },
+  {
+   "name": "Franz Drameh",
+   "films": 0
+  },
+  {
+   "name": "Dragomir Mrsic",
+   "films": 0
+  },
+  {
+   "name": "Charlotte Riley",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "4eb33ab7-0d57-4795-bfdc-5d2a47d345c9",
+   "title": "Swingers",
+   "year": 1996,
+   "poster": "rRjWk68kU3a2so4lgr3TKB7Y5vA.jpg"
+  },
+  {
+   "id": "738c726a-4a21-43f3-9ffa-4fa9dcee5c0b",
+   "title": "The Bourne Identity",
+   "year": 2002,
+   "poster": "aP8swke3gmowbkfZ6lmNidu0y9p.jpg"
+  },
+  {
+   "id": "725df6b8-a51a-427a-bcd2-308c88c341cc",
+   "title": "Mr. & Mrs. Smith",
+   "year": 2005,
+   "poster": "kjD700RtyhveN3ZbOnSvUSne0Qj.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "a5d36945-1eef-4502-b4c3-20c7ff4d6ac6",
+   "title": "Risky Business",
+   "year": 1983,
+   "poster": "82KOHShH9raGhkcAN3TztVjqjj3.jpg"
+  },
+  {
+   "id": "9b965337-c0e4-4425-b782-3b0a16ed3daf",
+   "title": "Weird Science",
+   "year": 1985,
+   "poster": "AsFxOHwUlK7mTOkC5p6SySsdEjz.jpg"
+  },
+  {
+   "id": "ba4b922b-1770-4613-8323-7bfccacaa6c4",
+   "title": "Top Gun",
+   "year": 1986,
+   "poster": "xUuHj3CgmZQ9P2cMaqQs4J0d4Zc.jpg"
+  },
+  {
+   "id": "63982666-21e5-4bbd-9a70-8461b2c11c2f",
+   "title": "The Color of Money",
+   "year": 1986,
+   "poster": "dVdnHmdQu3JtLAAksjTmTEF76gD.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Edge_of_Tomorrow",
+  "wikidata": "Q1187607"
+ }
+}

@@ -1,0 +1,254 @@
+{
+ "id": "d60b92fe-ac2c-428d-a342-5064d2efde91",
+ "title": "The Perfect Storm",
+ "year": 2000,
+ "poster": "vJPoxqgpfFNbGi0HyoNsjFeLCio.jpg",
+ "tmdb_id": 2133,
+ "directors": [
+  "Wolfgang Petersen"
+ ],
+ "director_primary": "Wolfgang Petersen",
+ "genres": [
+  "Drama",
+  "Adventure",
+  "Action",
+  "Thriller"
+ ],
+ "runtime": 130,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2020-07-02",
+ "last": "2020-07-02",
+ "scores": {
+  "tmdb": 6.486,
+  "rt": 46.0,
+  "ebert": 3.5,
+  "box_office": "$598.8M",
+  "multiple": 2.5286033384615383,
+  "cpi_year": 2024
+ },
+ "plot": "In October 1991, a confluence of weather conditions combined to form a killer storm in the North Atlantic. Caught in the storm was the sword-fishing boat Andrea Gail.",
+ "synopsis": "In the Fall of 1991, the commercial swordfishing boat Andrea Gail returns to port in Gloucester, Massachusetts, with a poor catch; boat owner Bob Brown ridicules and taunts Captain Billy Tyne over his recent \"cold streak.\" Desperate to redeem himself, Billy convinces the Andrea Gail crew to join him for one more late-season fishing expedition. The crew heads out past their usual fishing grounds on the Grand Banks of Newfoundland in the North Atlantic, leaving a developing tropical storm behind them. Initially unsuccessful, they head to the Flemish Cap, where their luck greatly improves. After amassing thousands of pounds of fish, the ice machine breaks down; the only way to sell their catch before it spoils is to hurry back to shore. However, between Andrea Gail and Gloucester is a confluence of two powerful weather fronts and a hurricane, which the crew underestimates.\n\nAs the crew of Andrea Gail battles the raging sea, and after repeated radio warnings from other ships, a strong wind breaks the ship's radio antenna just as Hurricane Grace and the northern weather front merge with each other atop them. Rookie fisherman Bobby Shatford attempts to fix it but is unsuccessful as the antenna breaks off and blows away into the sky. Shortly after, Captain Linda Greenlaw of sister ship Hannah Boden transmits a Mayday relay for Andrea Gail. A New York Air National Guard HH-60 Pave Hawk rescue helicopter, which has rescued three crew members of the sailboat Mistral, responds, but after failing to perform a midair refueling with an HC-130 Hercules, the helicopter crew aborts the mission and ditches their aircraft. All but one of the Air National Guard crew members are rescued by a Coast Guard vessel, USCGC Tamaroa.\n\nAndrea Gail endures various problems including 100-foot (30 m) waves crashing onto the deck, a broken stabilizer ramming the side of the ship with a loose anchor, and the crew members unsuccessfully boarding up broken windows. The ship struggles to sail through hurricane force winds and thunderous roaring, and her dewatering pumps, unable to keep up getting the water out of the ship, while friends and family worry and wait for news. Billy makes the decision to turn the boat around and is successful. However, after initially seeing the eye of the storm, when the sun breaks, the storm turns its direction towards the boat, and the vessel encounters an enormous rogue wave. The crew attempt to drive the boat over the wave, but the wall of water crests before she can get to the top and is overturned. Billy elects to go down with his boat, the rest of the crew are trapped inside the living quarters, and only one, Bobby, manages to get out; he surfaces and watches as Andrea Gail rights herself before sinking stern-first into the depths. Knowing he has no chance of survival, Bobby silently imagines comforting his girlfriend as the waves carry him away into the darkness.\n\nA search finds no survivors; Linda reads the eulogy at the memorial. Christina comforts Bobby's mother by recalling a dream she had of him smiling at her. As Linda heads out to sea again, she remembers Billy soliloquizing about what it means to be a sword boat captain.",
+ "synopsis_words": 537,
+ "episodes": [
+  {
+   "number": 146,
+   "date": "2020-07-02",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "biography",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "1990s",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "disaster",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "natural disaster",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "new england",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "shark",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "male camaraderie",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "thunderstorm",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "u.s. air force",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "city hall",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "jamaican",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "man vs nature",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "marine",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "meteorologist",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "rescue boat",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "storm at sea",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "the flemish cap",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "tragic event",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "George Clooney",
+   "films": 5
+  },
+  {
+   "name": "Mark Wahlberg",
+   "films": 6
+  },
+  {
+   "name": "Diane Lane",
+   "films": 3
+  },
+  {
+   "name": "John C. Reilly",
+   "films": 5
+  },
+  {
+   "name": "William Fichtner",
+   "films": 1
+  },
+  {
+   "name": "Mary Elizabeth Mastrantonio",
+   "films": 2
+  },
+  {
+   "name": "John Hawkes",
+   "films": 1
+  },
+  {
+   "name": "Dash Mihok",
+   "films": 1
+  },
+  {
+   "name": "Karen Allen",
+   "films": 3
+  },
+  {
+   "name": "Bob Gunton",
+   "films": 1
+  }
+ ],
+ "by_director": [
+  {
+   "id": "6b59b860-8e08-4797-a1b8-c27ae9551ceb",
+   "title": "In the Line of Fire",
+   "year": 1993,
+   "poster": "3NvOFpmyECI3DNExYMtFIRcGMsu.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "180819e4-2f59-47d7-bd14-79a230b34965",
+   "title": "Boogie Nights",
+   "year": 1997,
+   "poster": "2hVSN9yOfoI8EUTqcVW6zCIyQ1G.jpg"
+  },
+  {
+   "id": "99ecc827-366b-4de5-94ed-3e24d4313347",
+   "title": "Out of Sight",
+   "year": 1998,
+   "poster": "v49q7AMR3pB4M762woWB1NYMCLF.jpg"
+  },
+  {
+   "id": "ead537cd-e8bc-4a54-af52-7c5f2d23428e",
+   "title": "For Love of the Game",
+   "year": 1999,
+   "poster": "vkeKxoSXE1qMArcFNTNBBH8TjKZ.jpg"
+  },
+  {
+   "id": "b020995a-4c73-4ce6-898b-7ffe801a8c25",
+   "title": "Ocean's Eleven",
+   "year": 2001,
+   "poster": "hQQCdZrsHtZyR6NbKH2YyCqd2fR.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/The_Perfect_Storm_%28film%29",
+  "wikidata": "Q508349"
+ }
+}

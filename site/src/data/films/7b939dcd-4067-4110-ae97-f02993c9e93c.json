@@ -1,0 +1,237 @@
+{
+ "id": "7b939dcd-4067-4110-ae97-f02993c9e93c",
+ "title": "Scream",
+ "year": 1996,
+ "poster": "lr9ZIrmuwVmZhpZuTCW8D9g0ZJe.jpg",
+ "tmdb_id": 4232,
+ "directors": [
+  "Wes Craven"
+ ],
+ "director_primary": "Wes Craven",
+ "genres": [
+  "Crime",
+  "Horror",
+  "Mystery"
+ ],
+ "runtime": 112,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2017-10-12",
+ "last": "2017-10-12",
+ "scores": {
+  "tmdb": 7.431,
+  "rt": 77.0,
+  "ebert": 3.0,
+  "box_office": "$346.0M",
+  "multiple": 12.360475928571429,
+  "cpi_year": 2024
+ },
+ "plot": "A year after the murder of her mother, a teenage girl is terrorized by a masked killer who targets her and her friends by using scary movies as part of a deadly game.",
+ "synopsis": "High school student Casey Becker receives a flirtatious phone call from an unknown person, asking her, \"What's your favorite scary movie?\" The situation quickly escalates out of control as the caller turns sadistic and threatens her life. He reveals that her boyfriend Steve is being held hostage. After failing to answer a question correctly about horror films, Steve is murdered. When Casey refuses to cooperate with the caller, she is attacked and murdered by a masked killer, and her body is hung from a tree. The following day, the news media descend on the town and a police investigation begins. Meanwhile, Sidney Prescott struggles with the impending one-year anniversary of her mother's murder by Cotton Weary. While waiting at home for her friend Tatum Riley, Sidney receives a threatening phone call. After she hangs up, she is attacked by the killer. Sidney's boyfriend Billy Loomis arrives and offers support, but after he drops his cell phone Sidney suspects him of making the call. She flees. Billy is arrested and Tatum takes Sidney to her house. Billy is released the next day. Suspicion has shifted to Sidney's father Neil Prescott, as the calls have been traced to his phone. School is suspended in the wake of the murders. After the students have left the school, Principal Himbry is stabbed to death in his office. Billy's friend Stu Macher throws a party to celebrate the school closure. The party is attended by Sidney, Tatum, their friend Randy Meeks, and several other students. Reporter Gale Weathers attends uninvited to cover the situation, as she expects the killer to strike. Deputy sheriff Dewey Riley also looks out for murder at the party. Tatum is killed during the party after having her torso crushed by a garage door. Billy arrives to speak to Sidney privately, and the two ultimately consummate their relationship. Dewey and Gale investigate a nearby abandoned car. Many party attendees are drawn away after hearing news of Himbry's death; Randy, Sidney, Billy, Stu, and Gale's cameraman Kenny remain. After having sex, Sidney and Billy are attacked by the killer, who seemingly murders Billy. Sidney escapes the killer and seeks help from Kenny, but he gets his throat slit by the killer. Sidney again flees. Gale and Dewey, having discovered the car belongs to Neil Prescott, return to the house. They believe Neil is the killer and has come to the party to continue his spree. Gale attempts to leave the scene in her van but drives off-road and crashes to avoid hitting Sidney. Meanwhile, Dewey is stabbed in the back while investigating in the house. Sidney takes Dewey's gun. Stu and Randy appear and accuse each other of being the killer. Sidney retreats into the house, where she finds Billy, wounded but still alive. She gives Billy the gun; he lets Randy into the house and then shoots him. Billy has feigned his injuries and is actually the killer; Stu is his accomplice. Billy and Stu discuss their plan to kill Sidney and frame her father—whom they have taken hostage—for their murder spree. The pair admit to being the killers of her mother, Maureen. Billy says he was motivated to seek revenge on Maureen because of an affair she was having with Billy's father, Hank, which drove his mother away. Gale, thought dead by the killers, intervenes. Sidney takes advantage of this to turn the tables on her attackers, killing Stu. Randy is revealed to be wounded but alive. Billy attacks Sidney but she shoots him through the head, killing him. As the sun rises and police arrive, a badly-injured Dewey is taken away by ambulance and Gale makes an impromptu news report about the night's events.",
+ "synopsis_words": 615,
+ "episodes": [
+  {
+   "number": 15,
+   "date": "2017-10-12",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Sean Fennessey",
+    "Shea Serrano",
+    "K. Austin Collins",
+    "Jason Concepcion"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "california",
+   "reach": 16,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "serial killer",
+   "reach": 13,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "teenager",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "whodunit",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "halloween",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "small town",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "house party",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "killing",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "riddle",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "young adult",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "killing spree",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "school",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "crime spree",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "news reporter",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "self-referential",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "slasher",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "tabloid",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "halloween costume",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "phone",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Neve Campbell",
+   "films": 2
+  },
+  {
+   "name": "Skeet Ulrich",
+   "films": 1
+  },
+  {
+   "name": "Rose McGowan",
+   "films": 1
+  },
+  {
+   "name": "Matthew Lillard",
+   "films": 1
+  },
+  {
+   "name": "David Arquette",
+   "films": 2
+  },
+  {
+   "name": "Courteney Cox",
+   "films": 1
+  },
+  {
+   "name": "Jamie Kennedy",
+   "films": 0
+  },
+  {
+   "name": "Drew Barrymore",
+   "films": 2
+  },
+  {
+   "name": "W. Earl Brown",
+   "films": 0
+  },
+  {
+   "name": "Joseph Whipp",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "1585c930-7335-473d-b7b8-a8c068a392a5",
+   "title": "Wild Things",
+   "year": 1998,
+   "poster": "wrcTDD9T7Ga5c9MW7kaOo2qwIvW.jpg"
+  },
+  {
+   "id": "b861490b-85a0-4201-a54b-d24f2fa3df70",
+   "title": "Never Been Kissed",
+   "year": 1999,
+   "poster": "6BngDhDNfbBjhVFWDT2yMve32vi.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Scream_%281996_film%29",
+  "wikidata": "Q27411"
+ }
+}

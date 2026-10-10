@@ -1,0 +1,168 @@
+{
+ "id": "d0ce5f1f-c381-48b3-a418-c916296ab27c",
+ "title": "The Gambler",
+ "year": 2014,
+ "poster": "hIgU3cxn7Y87joQGM3srofnXOm5.jpg",
+ "tmdb_id": 284536,
+ "directors": [
+  "Rupert Wyatt"
+ ],
+ "director_primary": "Rupert Wyatt",
+ "genres": [
+  "Thriller",
+  "Crime",
+  "Drama"
+ ],
+ "runtime": 111,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2024-12-16",
+ "last": "2024-12-16",
+ "scores": {
+  "tmdb": 6.048,
+  "rt": 43.0,
+  "ebert": null,
+  "box_office": "$51.9M",
+  "multiple": 1.5668452,
+  "cpi_year": 2024
+ },
+ "plot": "Literature professor Jim Bennett leads a secret life as a high-stakes gambler. Always a risk-taker, Bennett bets it all when he borrows from a gangster and offers his own life as collateral. Staying one step ahead, he pits his creditor against the operator of an illicit gambling ring while garnering the attention of Frank, a paternalistic loan shark. As his relationship with a student deepens, Bennett must risk everything for a second chance.",
+ "synopsis": "Jim Bennett is a Los Angeles literatures professor who uses gambling as a way of self-destruction. He ends up owing $260,000 to Lee, the proprietor of an exclusive, high-stakes underground gambling ring, and another $50,000 to Neville Baraka, a loan shark. Lee gives Jim seven days to pay off his debts or be murdered.\n\nDuring one of his classes, Jim begins an awkward discussion of literary excellence using Shakespeare as an example, arguing how almost all aspiring writers fail to accomplish literary excellence. He singles out exemplary athletes in his class for discussion, including Dexter, an emerging tennis star. Jim later confronts a collegiate basketball star, Lamar Allen, who pays no attention in class but intends to play in the NBA.\n\nJim expresses his extremist view on achieving excellence in one's field or vocation: if you cannot be exemplary, he reasons, then you might as well not try. He tells them that only Amy Phillips, a quiet student, is capable of a career in literature. He identifies her as a potential writing prodigy based on her work in his class, as well as having previously encountered her working secretly as a waitress at the underground gambling house. They develop a mutual interest in each other.\n\nAfter class, Jim visits his mother Roberta at the family's luxury estate, but she says that she will not give him any more money. Jim considers borrowing money from Frank, another loan shark, to consolidate his debts and buy himself some time, but refuses to do so when Frank first demands Jim admit, \"I am not a man.\"\n\nJim convinces Roberta to give him enough to pay off his debts, expressing no gratitude, then gambles it all away in a casino with Amy. Neville kidnaps Jim, has him tied up and tortured, confronting him with an ultimatum—convince Lamar to win his college basketball semifinal by seven points or less, or he will kill Amy.\n\nJim goes to Frank, who advises him to change his version of a \"fuck you\" attitude towards life by getting enough money to build a safe house and make reliable low yield investments for protection against his severe gambling losses. Frank lends him $260,000 to pay his debt to Lee but also threatens to kill everyone in Jim's personal life if he is not repaid. Lee's men assault Jim when he comes to ask Lee to stake him $150,000, saying the only way he can pay the full $410,000 debt to Lee and Frank is to gamble and win.\n\nJim uses the $150,000 to bribe Lamar into doing the point shaving. He sends Dexter to Las Vegas to bet on the game with the $260,000 he got from Frank. Lamar succeeds, so Jim uses his winnings to pay his debt to Neville, denying he knows anything about the large bet made in Vegas. Jim then convinces both Lee and Frank to meet him in a neutral gambling den, where he wagers enough money to pay both men off—if he wins—on a single roulette spin. Successful, he leaves the money at the club for Lee and Frank saying, \"I am not a gambler.\"\n\nThe payment to Frank is more than he owed; Frank finds Jim and offers to give back the \"cream\", but to Frank's amusement, Jim responds \"Fuck you.\" On an apparent adrenaline rush, Jim runs miles through the city to arrive at Amy's apartment; he is broke, but free from debt.",
+ "synopsis_words": 571,
+ "episodes": [
+  {
+   "number": 385,
+   "date": "2024-12-16",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Cruise",
+   "verdict_tone": "cruise",
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "gambling",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "gun",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "reflective",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "professor",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "beating",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "gambler",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "loan shark",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  }
+ ],
+ "cast": [
+  {
+   "name": "Mark Wahlberg",
+   "films": 6
+  },
+  {
+   "name": "John Goodman",
+   "films": 5
+  },
+  {
+   "name": "Brie Larson",
+   "films": 1
+  },
+  {
+   "name": "Michael Kenneth Williams",
+   "films": 1
+  },
+  {
+   "name": "George Kennedy",
+   "films": 2
+  },
+  {
+   "name": "Jessica Lange",
+   "films": 1
+  },
+  {
+   "name": "Richard Schiff",
+   "films": 0
+  },
+  {
+   "name": "Andre Braugher",
+   "films": 0
+  },
+  {
+   "name": "Emory Cohen",
+   "films": 1
+  },
+  {
+   "name": "Domenick Lombardozzi",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "4d669b31-0c59-4b4b-9f6e-7c4ff04f3dec",
+   "title": "The Naked Gun: From the Files of Police Squad!",
+   "year": 1988,
+   "poster": "zT0mhZqZQJE1gSY5Eg9qcGP4NYo.jpg"
+  },
+  {
+   "id": "d4670638-b488-462c-8964-e3e05e692b4a",
+   "title": "Sea of Love",
+   "year": 1989,
+   "poster": "vJ88WmJ12eAK9CRb3cggn9CJthH.jpg"
+  },
+  {
+   "id": "180819e4-2f59-47d7-bd14-79a230b34965",
+   "title": "Boogie Nights",
+   "year": 1997,
+   "poster": "2hVSN9yOfoI8EUTqcVW6zCIyQ1G.jpg"
+  },
+  {
+   "id": "6135afeb-cd71-468c-a349-9020c83b751e",
+   "title": "The Big Lebowski",
+   "year": 1998,
+   "poster": "3bv6WAp6BSxxYvB5ozKFUYuRA8C.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/The_Gambler_%282014_film%29",
+  "wikidata": "Q15706898"
+ }
+}

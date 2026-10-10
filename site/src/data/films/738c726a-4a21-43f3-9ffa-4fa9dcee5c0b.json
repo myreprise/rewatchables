@@ -1,0 +1,313 @@
+{
+ "id": "738c726a-4a21-43f3-9ffa-4fa9dcee5c0b",
+ "title": "The Bourne Identity",
+ "year": 2002,
+ "poster": "aP8swke3gmowbkfZ6lmNidu0y9p.jpg",
+ "tmdb_id": 2501,
+ "directors": [
+  "Doug Liman"
+ ],
+ "director_primary": "Doug Liman",
+ "genres": [
+  "Action",
+  "Mystery",
+  "Thriller"
+ ],
+ "runtime": 119,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2020-12-23",
+ "last": "2020-12-23",
+ "scores": {
+  "tmdb": 7.485,
+  "rt": 84.0,
+  "ebert": 3.0,
+  "box_office": "$373.2M",
+  "multiple": 3.567237066666667,
+  "cpi_year": 2024
+ },
+ "plot": "Wounded to the brink of death and suffering from amnesia, Jason Bourne is rescued at sea by a fisherman. With nothing to go on but a Swiss bank account number, he starts to reconstruct his life, but finds that many people he encounters want him dead. However, Bourne realizes that he has the combat and mental skills of a world-class spy—but who does he work for?",
+ "synopsis": "In the Mediterranean Sea near Marseille, Italian fishermen find an unconscious man floating adrift with two gunshot wounds in his back. The boat's medic finds a tiny laser projector surgically implanted under the unknown man's skin at the level of the hip. When activated, the laser projector displays the number of a safe deposit box in Zürich. The man wakes up and discovers he is suffering from amnesia. Over the next few days on the ship, the man finds he is fluent in several languages and has unusual skills, but cannot remember anything about himself or why he was in the ocean. When the ship docks, he sets off to investigate the safe deposit box. At the CIA's headquarters, the agency's Deputy Director Ward Abbot learns about a failed assassination attempt against exiled African dictator Nykwana Wombosi. Meanwhile, in Zürich, the amnesiac incapacitates two policemen using advanced hand-to-hand combat when they attempt to arrest him. The next morning, he visits a bank using the number that was embedded in his hip, and opens a safe deposit box to find several passports containing his picture, large amounts of assorted currencies, and a handgun. He assumes the name from the first passport, Jason Bourne. He takes all the passports and money, but leaves the handgun. As he leaves, a bank employee contacts Operation Treadstone, a CIA black ops program. After being chased by police, Bourne escapes into a U.S. consulate where he is again pursued by authorities. Bourne escapes and encounters a Swiss woman named Marie Kreutz, offering her $10,000 to drive him to an address in Paris. Meanwhile, Alexander Conklin, the head of Treadstone, assures Abbott that he will destroy any evidence connecting them to Bourne, who was responsible for the failed assassination attempt on Wombosi. He activates three \"assets\" to take down Bourne: Castel, Manheim, and The Professor. Bourne arrives at the address on his passport, and after studying the apartment, hits redial on his phone and is connected to the Hotel Regina, which recognizes one of Bourne's passport aliases; Michael Kane. Bourne is told that Kane died two weeks before in a car crash. Castel ambushes Bourne and Marie at the apartment, but Bourne manages to defeat him after a fight and attempts to interrogate him unsuccessfully. Marie finds wanted posters in Castel's bag with both her and Bourne's pictures on them; as Bourne attempts to calm her down, Castel jumps out of a window to his death. Marie goes into shock, and Bourne escorts her from the building. Conklin plants a body in a Paris morgue in an attempt to fool Wombosi into thinking Kane is dead, but Wombosi recognizes that the body is not his assailant. The Professor assassinates Wombosi at his home. Bourne investigates Wombosi and concludes that he was an assassin prior to his amnesia. He and Marie leave the city and travel into the French countryside to stay at the house of Marie's stepbrother Eamon, where Bourne decides that he no longer wants to be who he was. In the morning, The Professor comes to kill Bourne. Bourne sends Marie and Eamon to hide in the basement, while he grabs Eamon's shotgun and goes out to find The Professor, blowing up a large propane tank as a distraction. After a brief standoff in a cropfield, Bourne shoots The Professor twice and interrogates him briefly. The Professor reveals their mutual connection to Treadstone before dying. Bourne sends Marie away for her own safety. He contacts Conklin to arrange a meet, but instead tracks Conklin's vehicle to discover the location of Treadstone's safe house in Paris. Bourne breaks in and holds Conklin and logistics technician Nicky Parsons at gunpoint, beginning to remember his last mission through successive flashbacks. \"Kane\" was an assumed identity during his mission to infiltrate Wombosi's entourage and kill him, but Bourne failed to kill Wombosi aboard his yacht when he intended to because his children were sleeping nearby. Bourne fled and was shot twice in the back in the process. Bourne tells Conklin that he is leaving Treadstone and warns not to follow him. Realizing that their conversation is being overheard, Bourne leaves Conklin and Parsons before killing two agents who try to kill him. Abbott shuts down Treadstone and has Manheim kill Conklin. Abbott goes before an oversight committee, dismissing Treadstone and previewing a new project codenamed \"Blackbriar\". Some time later, Jason finds Marie renting out scooters to tourists in Greece, and the two reunite.",
+ "synopsis_words": 744,
+ "episodes": [
+  {
+   "number": 179,
+   "date": "2020-12-23",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "shootout",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "spy",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "paris, france",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "flashback",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "thoughtful",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "assassin",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "escape",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "secret identity",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "hand to hand combat",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "lovers",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "political thriller",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "amnesia",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "foot chase",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "safe deposit box",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "cell phone",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "fishing boat",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "langley virginia",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "mission of murder",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "barcelona, spain",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "bourne",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "globe trotter",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "hamburg, germany",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "jason bourne",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "multiple identities",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "passport",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "surveillance camera",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Matt Damon",
+   "films": 10
+  },
+  {
+   "name": "Franka Potente",
+   "films": 1
+  },
+  {
+   "name": "Chris Cooper",
+   "films": 1
+  },
+  {
+   "name": "Clive Owen",
+   "films": 2
+  },
+  {
+   "name": "Brian Cox",
+   "films": 3
+  },
+  {
+   "name": "Adewale Akinnuoye-Agbaje",
+   "films": 0
+  },
+  {
+   "name": "Gabriel Mann",
+   "films": 0
+  },
+  {
+   "name": "Julia Stiles",
+   "films": 1
+  },
+  {
+   "name": "Walton Goggins",
+   "films": 0
+  },
+  {
+   "name": "Josh Hamilton",
+   "films": 2
+  }
+ ],
+ "by_director": [
+  {
+   "id": "4eb33ab7-0d57-4795-bfdc-5d2a47d345c9",
+   "title": "Swingers",
+   "year": 1996,
+   "poster": "rRjWk68kU3a2so4lgr3TKB7Y5vA.jpg"
+  },
+  {
+   "id": "725df6b8-a51a-427a-bcd2-308c88c341cc",
+   "title": "Mr. & Mrs. Smith",
+   "year": 2005,
+   "poster": "kjD700RtyhveN3ZbOnSvUSne0Qj.jpg"
+  },
+  {
+   "id": "78ae530f-be68-4f9b-9679-cf7b4ea79195",
+   "title": "Edge of Tomorrow",
+   "year": 2014,
+   "poster": "nBM9MMa2WCwvMG4IJ3eiGUdbPe6.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "53446639-d4d9-462f-9b26-e0a438b213bb",
+   "title": "Manhunter",
+   "year": 1986,
+   "poster": "6rb24x39vV8n5301IelC8rCPJTH.jpg"
+  },
+  {
+   "id": "cc00e646-dcd8-4bf8-b416-19ff53dbed1d",
+   "title": "School Ties",
+   "year": 1992,
+   "poster": "h9u6VSyEPlF5L69QSzOh1eo4F5q.jpg"
+  },
+  {
+   "id": "355ee011-56f7-474b-a3c1-62f5669ab95b",
+   "title": "Good Will Hunting",
+   "year": 1997,
+   "poster": "z2FnLKpFi1HPO7BEJxdkv6hpJSU.jpg"
+  },
+  {
+   "id": "82038c88-eb24-4495-ae87-0b3f4f7a9b40",
+   "title": "Rounders",
+   "year": 1998,
+   "poster": "mqbMwYGwIChnaCO55h7v8DG8Wwy.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/The_Bourne_Identity_%282002_film%29",
+  "wikidata": "Q105624"
+ }
+}

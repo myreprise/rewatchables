@@ -1,0 +1,279 @@
+{
+ "id": "743aa998-4752-462f-907c-b7c42730a64f",
+ "title": "Gone Girl",
+ "year": 2014,
+ "poster": "ts996lKsxvjkO2yiYG0ht4qAicO.jpg",
+ "tmdb_id": 210577,
+ "directors": [
+  "David Fincher"
+ ],
+ "director_primary": "David Fincher",
+ "genres": [
+  "Mystery",
+  "Thriller",
+  "Drama"
+ ],
+ "runtime": 149,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2019-08-13",
+ "last": "2019-08-13",
+ "scores": {
+  "tmdb": 7.889,
+  "rt": 88.0,
+  "ebert": null,
+  "box_office": "$491.5M",
+  "multiple": 6.080168180327869,
+  "cpi_year": 2024
+ },
+ "plot": "With his wife's disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it's suspected that he may not be innocent.",
+ "synopsis": "On their fifth anniversary, writing teacher Nick Dunne returns home to find that his wife, Amy, is missing. Amy's fame as the inspiration for her parents' Amazing Amy children's books ensures widespread press coverage. The media finds Nick's apathy towards the disappearance suspicious.\n\nBefore her disappearance, Nick and Amy's marriage deteriorated. Both lost their jobs in the recession and moved from New York to Nick's hometown in Missouri to support his dying mother. Nick grew distant from Amy and began an affair with his student Andie, while Amy became resentful toward Nick.\n\nDetective Rhonda Boney and the forensic team find evidence of a struggle and blood loss in the house. Boney learns of the couple's financial problems, disputes, and Amy's attempt to buy a gun. Medical reports indicate that Amy was pregnant, of which Nick denies knowledge.\n\nOn each anniversary, Amy sets up elaborate treasure hunts for Nick. This year's clues appear in places where Nick had sex with Andie, revealing Amy's knowledge of his affair. Nick discovers thousands of dollars' worth of items purchased with his credit card, unauthorized and hidden in his sister Margo's woodshed. Amy's clues lead authorities to a diary documenting her growing fear that Nick will kill her.\n\nAmy hides in a campground in the Ozarks. After discovering Nick's affair, Amy conceived an elaborate plan to frame him for her murder. She had him increase her life insurance, secretly used his credit card to buy the woodshed items, stole a sample of her pregnant neighbor's urine to fake a pregnancy to elicit media sympathy, wrote increasingly fabricated diary entries and placed incriminating evidence for police to find. On the morning of her disappearance, Amy drained and splattered her own blood across the kitchen. Her original plan was to drown herself after Nick's arrest and have her body found to ensure his death sentence.\n\nNick deduces Amy's scheme, convinces Margo of his innocence, and hires lawyer Tanner Bolt, known for representing husbands suspected of uxoricide. Nick meets two of Amy's ex-boyfriends. Tommy O'Hara claims that she framed him for rape and ruined his life after they broke up. The wealthy Desi Collings, against whom Amy filed a restraining order for stalking, rejects Nick.\n\nWhen Amy's campground neighbors rob her, she calls Desi for help, convincing him that she fled Nick's abuse. Desi agrees to hide her in his lakehouse. Bolt convinces Nick to admit to his affair on a popular talk show, thus seizing the narrative initiative from the media. Andie reveals the affair at a press conference shortly beforehand, but Nick insists on conducting the interview. He affirms his innocence and feigns regret for his shortcomings as a spouse, knowing that Amy is watching.\n\nThe interview garners widespread sympathy for Nick. However, Boney, having gathered adequate evidence, arrests Nick and Margo. Bolt bails them out, and they brace for the impending trial. After watching Nick's interview, Amy rekindles her attraction to him and begins crafting her escape story. Using surveillance cameras and self-inflicted injuries, she makes it appear that Desi kidnapped and raped her. She seduces Desi, slits his throat during sex, and returns home, clearing Nick of suspicion.\n\nMedical examiners lend credence to Amy's story. During questioning, Boney probes her inconsistencies, but Amy accuses Boney of incompetence. The FBI closes the case, but Boney gleans Amy's guilt. At home, Amy tells Nick the truth, but says that she forgives him after seeing him plead for her return on TV. Nick shares this with Boney, Bolt, and Margo. They agree that Amy is guilty, but acknowledge a lack of evidence. Bolt wishes Nick well and returns to New York.\n\nA televised interview takes place in their home seven weeks later. Anticipating Nick's intention to leave her and expose her story, Amy reveals her pregnancy minutes before the interview, having inseminated herself with Nick's sperm from a fertility clinic. Nick reacts violently but feels responsible for the child and decides to stay with Amy, to Margo's distress. The couple announces on television that they are expecting a child.",
+ "synopsis_words": 672,
+ "episodes": [
+  {
+   "number": 91,
+   "date": "2019-08-13",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Shea Serrano",
+    "Sean Fennessey",
+    "Mallory Rubin"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "investigation",
+   "reach": 14,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "psychological thriller",
+   "reach": 12,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "infidelity",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "whodunit",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "marriage crisis",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "missing person",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "cynical",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "disappearance",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "killed during sex",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "manipulative woman",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "murder suspect",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "controlling wife",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "criminal lawyer",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "hate",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "missing wife",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "perspective",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "revenge thriller",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "search party",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "toxic relationship",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "wife",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Ben Affleck",
+   "films": 5
+  },
+  {
+   "name": "Rosamund Pike",
+   "films": 1
+  },
+  {
+   "name": "Neil Patrick Harris",
+   "films": 1
+  },
+  {
+   "name": "Tyler Perry",
+   "films": 1
+  },
+  {
+   "name": "Carrie Coon",
+   "films": 1
+  },
+  {
+   "name": "Kim Dickens",
+   "films": 0
+  },
+  {
+   "name": "Patrick Fugit",
+   "films": 0
+  },
+  {
+   "name": "David Clennon",
+   "films": 0
+  },
+  {
+   "name": "Lisa Banes",
+   "films": 1
+  },
+  {
+   "name": "Missi Pyle",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "d5d9e0b1-1d15-4e7a-baa0-e213233d6a60",
+   "title": "Se7en",
+   "year": 1995,
+   "poster": "191nKfP0ehp3uIvWqgPbFmI4lv9.jpg"
+  },
+  {
+   "id": "7fb93110-4d72-459c-a731-987c4e243851",
+   "title": "The Game",
+   "year": 1997,
+   "poster": "4UOa079915QjiTA2u5hT2yKVgUu.jpg"
+  },
+  {
+   "id": "19edb9ec-c688-4e2a-9fe3-b8a1e5aaac66",
+   "title": "Fight Club",
+   "year": 1999,
+   "poster": "jSziioSwPVrOy9Yow3XhWIBDjq1.jpg"
+  },
+  {
+   "id": "20036670-ffaf-47bd-85a0-9408f42dc1e9",
+   "title": "Panic Room",
+   "year": 2002,
+   "poster": "hANYbvfwxmkC9E4yY6YyJxYxlSJ.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "355ee011-56f7-474b-a3c1-62f5669ab95b",
+   "title": "Good Will Hunting",
+   "year": 1997,
+   "poster": "z2FnLKpFi1HPO7BEJxdkv6hpJSU.jpg"
+  },
+  {
+   "id": "ccab3dc0-6d91-479e-b93e-c4bf74660a6f",
+   "title": "Armageddon",
+   "year": 1998,
+   "poster": "eTM3qtGhDU8cvjpoa6KEt5E2auU.jpg"
+  },
+  {
+   "id": "f7b3677d-ecb5-4bd5-b978-2fd8c1c69ec8",
+   "title": "The Town",
+   "year": 2010,
+   "poster": "3NIzyXkfylsjflRKSz8Fts3lXzm.jpg"
+  },
+  {
+   "id": "203c4d2c-e695-45cd-b7af-c2bccae9e23e",
+   "title": "Argo",
+   "year": 2012,
+   "poster": "m5gPWFZFIp4UJFABgWyLkbXv8GX.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Gone_Girl_%28film%29",
+  "wikidata": "Q14920425"
+ }
+}

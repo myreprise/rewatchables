@@ -1,0 +1,181 @@
+{
+ "id": "fc8ee94c-2819-4e73-9be7-bf9243ad0b17",
+ "title": "Halloween II",
+ "year": 1981,
+ "poster": "3nX5HHGgOKaVMxXwMLT9DHO1Ne6.jpg",
+ "tmdb_id": 11281,
+ "directors": [
+  "Rick Rosenthal"
+ ],
+ "director_primary": "Rick Rosenthal",
+ "genres": [
+  "Horror",
+  "Thriller"
+ ],
+ "runtime": 92,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2025-10-27",
+ "last": "2025-10-27",
+ "scores": {
+  "tmdb": 6.592,
+  "rt": 35.0,
+  "ebert": 2.0,
+  "box_office": "$88.1M",
+  "multiple": 10.2135272,
+  "cpi_year": 2024
+ },
+ "plot": "After failing to kill stubborn survivor Laurie and taking a bullet or six from former psychiatrist Dr. Sam Loomis, Michael Myers has followed Laurie to the Haddonfield Memorial Hospital, where she's been admitted for Myers' attempt on her life. The institution proves to be particularly suited to serial killers, however, as Myers cuts, stabs and slashes his way through hospital staff to reach his favorite victim.",
+ "synopsis": "On the night of October 31, 1978 in the town of Haddonfield, Illinois, Laurie Strode is narrowly saved from Michael Myers when his psychiatrist Dr. Sam Loomis shoots him off a balcony. Michael wanders the alleys, stealing a kitchen knife from an elderly couple the Elrods and kills Alice Martin, the teenage girl next door.\n\nLaurie is taken to Haddonfield Memorial Hospital while Loomis continues his pursuit of Michael, along with Sheriff Leigh Brackett. Loomis mistakes teenager Ben Tramer for Michael due to Ben wearing a similar mask, before Ben is hit by a police car which veers into a nearby van and bursts into flames. The dead bodies of Annie Brackett, Lynda Van der Klok and Bob Simms are discovered by the police at the Wallace residence. Upon learning his daughter Annie was murdered by Michael, Sheriff Brackett blames Loomis and abandons the search to inform his wife, leaving Deputy Gary Hunt to take his place.\n\nAt the hospital, paramedic Jimmy Lloyd develops an attraction to Laurie, but head nurse Virginia Alves limits the time he spends with her. After hearing a newsflash revealing Laurie's location, Michael makes his way to the hospital, where he cuts the phone lines and slashes all the cars’ tires so no one can escape or call for help. Wandering the halls in search of Laurie, he kills the security guard Bernard Garrett, Dr. Frederick Mixter, paramedic Budd Scarlotti, and several nurses throughout the night. In her hospital room, Laurie dreams about the time she learned she was adopted, and remembers she once visited a young Michael at the sanitarium. Jimmy and nurse Jill Franco grow increasingly concerned when they discover that more and more staff have gone missing throughout the night and search the hospital for Laurie, who is trying to evade Michael. As Jill tries to start the car to drive to the sheriff's department, it fails to start and she sees that all the car's tires in the parking lot have been slashed.\n\nAfter finding Mrs. Alves dead, strapped to a gurney with an empty IV needle in her arm draining all of her blood out of her body, Jimmy turns to go for help but slips in a pool of her blood and knocks himself unconscious, giving himself a concussion. Meanwhile, Loomis is informed that Michael broke into the local elementary school earlier that day. He discovers a drawing of a family with a knife stabbed into the figure of \"sister\", and clues connecting Michael to Samhain and the occult, which might explain his apparent indestructibility. His colleague Marion Chambers arrives to escort him back to Smith's Grove on the governor's orders and under the enforcement of a US Marshal Terrence Gummell. On the way, Marion tells Loomis that Laurie is Michael's younger sister; she was put up for adoption after the death of Michael's parents, with the records sealed to protect the family.\n\nRealizing that Michael is after Laurie and being told she was brought to Haddonfield Memorial Hospital, Loomis forces Gummell at gunpoint to drive back to Haddonfield. Jill finally finds Laurie, only to be killed by Michael, who then pursues Laurie through the hospital. She manages to escape to the parking lot and hides in a car. Jimmy regains consciousness and soon arrives and tries to start and drive the car to safety, but passes out again from the concussion, causing the horn to blare, which attracts Michael's attention. Loomis, Marion, and Gummell reach the hospital just in time to save Laurie by letting her back into the building and locking Michael out. However, Michael breaks into the hospital by walking through the glass door, and Loomis shoots Michael until he falls down, seemingly dead. While Marion is calling the police on Gummell's radio, the marshal tries to check Michael's pulse as Loomis warns him to stay away, knowing he is not dead. Michael revives and slits Gummell's throat with a scalpel.\n\nLoomis and Laurie run into an operating room, where he gives her Gummell's gun before being stabbed by Michael. Laurie then shoots Michael in both of his eyes, blinding him. As he swings the scalpel around the space violently, the two fill the room with flammable gas. Loomis orders Laurie to get out before igniting the gas, immolating himself and Michael in an explosion. Laurie watches as Michael, engulfed in flames, emerges from the fire before finally collapsing dead. The next morning, she is transferred to another hospital, traumatized but alive.",
+ "synopsis_words": 746,
+ "episodes": [
+  {
+   "number": 429,
+   "date": "2025-10-27",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Hanks",
+   "verdict_tone": "hanks",
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Van Lathan"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "sequel",
+   "reach": 28,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "serial killer",
+   "reach": 13,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "hospital",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "halloween",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "mask",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "sheriff",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "killing spree",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "holiday horror",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  }
+ ],
+ "cast": [
+  {
+   "name": "Jamie Lee Curtis",
+   "films": 3
+  },
+  {
+   "name": "Donald Pleasence",
+   "films": 4
+  },
+  {
+   "name": "Charles Cyphers",
+   "films": 2
+  },
+  {
+   "name": "Jeffrey Kramer",
+   "films": 2
+  },
+  {
+   "name": "Lance Guest",
+   "films": 1
+  },
+  {
+   "name": "Pamela Susan Shoop",
+   "films": 0
+  },
+  {
+   "name": "Hunter von Leer",
+   "films": 0
+  },
+  {
+   "name": "Dick Warlock",
+   "films": 0
+  },
+  {
+   "name": "Leo Rossi",
+   "films": 0
+  },
+  {
+   "name": "Gloria Gifford",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "4c3b4d24-64a9-44c3-8bd2-442d52c8fd26",
+   "title": "Bad Boys",
+   "year": 1983,
+   "poster": "5nHZ3wflOifKJMUcTCw0isKhmCv.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "b46129e3-458f-482a-9014-aaea164bf261",
+   "title": "Halloween",
+   "year": 1978,
+   "poster": "wijlZ3HaYMvlDTPqJoTCWKFkCPU.jpg"
+  },
+  {
+   "id": "091cfbb0-cf7e-4c47-8f70-b5c6a7b14199",
+   "title": "Jaws 2",
+   "year": 1978,
+   "poster": "cN3ijEwsn4kBaRuHfcJpAQJbeWe.jpg"
+  },
+  {
+   "id": "1a0205e5-a11c-4b12-9a5c-4ec4149c39f8",
+   "title": "Escape from New York",
+   "year": 1981,
+   "poster": "vH9llaphjAssRGi0k7e75tD40Ce.jpg"
+  },
+  {
+   "id": "78c1558f-6f52-4f62-98e9-de1819936196",
+   "title": "Halloween 4: The Return of Michael Myers",
+   "year": 1988,
+   "poster": "eFSOkXF9n9hsfGv45MDsPixiOyx.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Halloween_II_%281981_film%29",
+  "wikidata": "Q850312"
+ }
+}

@@ -1,0 +1,250 @@
+{
+ "as_of": "2026-09-28",
+ "tiles": {
+  "episodes": 485,
+  "films": 458,
+  "last_12_months": 55,
+  "median_film_age": 27,
+  "share_90s": 39,
+  "median_gap": 7
+ },
+ "latest": [
+  {
+   "id": "ce29ee4f-937c-4526-9468-0cae71fec04d",
+   "title": "13 Going on 30",
+   "year": 2004,
+   "poster": "iNZdSIfhSCMtRILDNyhLn8UKeSG.jpg",
+   "episode": 483,
+   "aired": "2026-09-28"
+  },
+  {
+   "id": "89f07c76-79c7-4a8a-8bc6-33de7a89a710",
+   "title": "Law Abiding Citizen",
+   "year": 2009,
+   "poster": "fcEXcip7v0O1ndV4VUdFqJSqbOg.jpg",
+   "episode": 482,
+   "aired": "2026-09-21"
+  },
+  {
+   "id": "5f4967bc-24a2-4ba7-a220-803a8aaf9f59",
+   "title": "Rambo: First Blood Part II",
+   "year": 1985,
+   "poster": "fVwRtWqEPdsCH21BVDGqgkAQcff.jpg",
+   "episode": 481,
+   "aired": "2026-09-14"
+  },
+  {
+   "id": "f8fcf4ff-ee8f-4db6-a3c4-7a12b9f40492",
+   "title": "Talladega Nights: The Ballad of Ricky Bobby",
+   "year": 2006,
+   "poster": "3iCiTqsmJz1mO85AHzTiHNkRmb6.jpg",
+   "episode": 480,
+   "aired": "2026-09-07"
+  },
+  {
+   "id": "59d70904-9e10-4d7e-b5e4-91b31d30e9be",
+   "title": "Aliens",
+   "year": 1986,
+   "poster": "r1x5JGpyqZU8PYhbs4UcrO1Xb6x.jpg",
+   "episode": 479,
+   "aired": "2026-08-31"
+  },
+  {
+   "id": "75a8eae8-5839-4290-8133-26a48765ba26",
+   "title": "Apollo 13",
+   "year": 1995,
+   "poster": "tVeKscCm2fY1xDXZk8PgnZ87h9S.jpg",
+   "episode": 478,
+   "aired": "2026-08-24"
+  },
+  {
+   "id": "7dbaf6e5-e15b-413f-8976-c02334c46ed1",
+   "title": "Speed",
+   "year": 1994,
+   "poster": "82PkCE4R95KhHICUDF7G4Ly2z3l.jpg",
+   "episode": 477,
+   "aired": "2026-08-17"
+  },
+  {
+   "id": "97e42db9-1dea-49eb-a01c-13d9a89929e5",
+   "title": "About Last Night...",
+   "year": 1986,
+   "poster": "9KqG5OFi3NLJYBbsDSA8pZ3dln.jpg",
+   "episode": 476,
+   "aired": "2026-08-13"
+  }
+ ],
+ "regulars": [
+  {
+   "name": "Chris Ryan",
+   "episodes": 285,
+   "hosted": 21
+  },
+  {
+   "name": "Sean Fennessey",
+   "episodes": 180,
+   "hosted": 7
+  },
+  {
+   "name": "Van Lathan",
+   "episodes": 77,
+   "hosted": 1
+  },
+  {
+   "name": "Amanda Dobbins",
+   "episodes": 44,
+   "hosted": 0
+  },
+  {
+   "name": "Mallory Rubin",
+   "episodes": 42,
+   "hosted": 0
+  },
+  {
+   "name": "Shea Serrano",
+   "episodes": 34,
+   "hosted": 0
+  }
+ ],
+ "anchor": "Bill Simmons",
+ "people_besides_anchor": 62,
+ "anchor_episodes": 440,
+ "came_back_to": [
+  {
+   "id": "387a82bd-cad9-4b3d-8758-b9e607bfbf56",
+   "title": "Heat",
+   "year": 1995,
+   "poster": "gKaePbkEkaqvMtw74EyhhkfCKKh.jpg",
+   "episodes": 3,
+   "last": "2021-11-02"
+  },
+  {
+   "id": "7dbaf6e5-e15b-413f-8976-c02334c46ed1",
+   "title": "Speed",
+   "year": 1994,
+   "poster": "82PkCE4R95KhHICUDF7G4Ly2z3l.jpg",
+   "episodes": 2,
+   "last": "2026-08-17"
+  },
+  {
+   "id": "ac9c425f-ff8c-447a-8d33-99f271cdcc15",
+   "title": "Basic Instinct",
+   "year": 1992,
+   "poster": "76Ts0yoHk8kVQj9MMnoMixhRWoh.jpg",
+   "episodes": 2,
+   "last": "2026-04-13"
+  },
+  {
+   "id": "c0ec6736-3885-4832-bc9e-9e77d88803ec",
+   "title": "Zodiac",
+   "year": 2007,
+   "poster": "6YmeO4pB7XTh8P8F960O1uA14JO.jpg",
+   "episodes": 2,
+   "last": "2026-01-26"
+  },
+  {
+   "id": "355ee011-56f7-474b-a3c1-62f5669ab95b",
+   "title": "Good Will Hunting",
+   "year": 1997,
+   "poster": "z2FnLKpFi1HPO7BEJxdkv6hpJSU.jpg",
+   "episodes": 2,
+   "last": "2025-03-31"
+  },
+  {
+   "id": "16093f6f-d428-4579-8d9e-e3e362319eaa",
+   "title": "Blue Chips",
+   "year": 1994,
+   "poster": "tO71i4Ob64tchCRBB5MoqonPKAF.jpg",
+   "episodes": 2,
+   "last": "2025-03-24"
+  },
+  {
+   "id": "360a8273-e2c2-48db-a752-c5434970a4df",
+   "title": "Den of Thieves",
+   "year": 2018,
+   "poster": "dAP5NpkrMMczir5dUPjRR6ywqgz.jpg",
+   "episodes": 2,
+   "last": "2025-01-06"
+  },
+  {
+   "id": "b37cf9cb-cb0d-4281-988f-caa9e249f39c",
+   "title": "The Silence of the Lambs",
+   "year": 1991,
+   "poster": "uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
+   "episodes": 2,
+   "last": "2024-10-15"
+  },
+  {
+   "id": "399889d0-8a3b-41e4-8940-f3f952adc67c",
+   "title": "Jerry Maguire",
+   "year": 1996,
+   "poster": "lABvGN7fDk5ifnwZoxij6G96t2w.jpg",
+   "episodes": 2,
+   "last": "2024-05-13"
+  },
+  {
+   "id": "82038c88-eb24-4495-ae87-0b3f4f7a9b40",
+   "title": "Rounders",
+   "year": 1998,
+   "poster": "mqbMwYGwIChnaCO55h7v8DG8Wwy.jpg",
+   "episodes": 2,
+   "last": "2024-02-27"
+  },
+  {
+   "id": "fc20eb10-13e3-415c-b0de-5a9689665a77",
+   "title": "Creed",
+   "year": 2015,
+   "poster": "1BfTsk5VWuw8FCocAhCyqnRbEzq.jpg",
+   "episodes": 2,
+   "last": "2024-02-20"
+  },
+  {
+   "id": "5bbaa58d-4162-4b50-8e64-5e804dcc5442",
+   "title": "Forrest Gump",
+   "year": 1994,
+   "poster": "Cw4hIUIAmSYfK9QfaUW5igp9La.jpg",
+   "episodes": 2,
+   "last": "2024-02-13"
+  },
+  {
+   "id": "c7e2200d-9c39-4f71-bdaf-4bdbf66572d0",
+   "title": "The Fugitive",
+   "year": 1993,
+   "poster": "b3rEtLKyOnF89mcK75GXDXdmOEf.jpg",
+   "episodes": 2,
+   "last": "2024-02-06"
+  },
+  {
+   "id": "a2d6e4f1-6e8d-4f62-9c3c-5971abfd1fc8",
+   "title": "A Few Good Men",
+   "year": 1992,
+   "poster": "rLOk4z9zL1tTukIYV56P94aZXKk.jpg",
+   "episodes": 2,
+   "last": "2023-07-31"
+  },
+  {
+   "id": "351712e3-7662-4d96-b240-c3f311b2f8b0",
+   "title": "Titanic",
+   "year": 1997,
+   "poster": "9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
+   "episodes": 2,
+   "last": "2022-03-15"
+  },
+  {
+   "id": "e3b897a8-b436-4dfc-9780-b3b69409aa15",
+   "title": "The Departed",
+   "year": 2006,
+   "poster": "nT97ifVT2J1yMQmeq20Qblg61T.jpg",
+   "episodes": 2,
+   "last": "2021-10-05"
+  }
+ ],
+ "flagged_revisits": 9,
+ "reading": {
+  "first_air": "2015-12-22",
+  "first_full_year": 2019,
+  "median_gap": 7,
+  "so_far": 41,
+  "so_far_year": 2026
+ }
+}

@@ -1,0 +1,209 @@
+{
+ "id": "ce7382da-3d6d-4148-a837-5e61a0208693",
+ "title": "While You Were Sleeping",
+ "year": 1995,
+ "poster": "qNGO3ETcNwlWqK2kNRpbJSJRlos.jpg",
+ "tmdb_id": 2064,
+ "directors": [
+  "Jon Turteltaub"
+ ],
+ "director_primary": "Jon Turteltaub",
+ "genres": [
+  "Romance",
+  "Comedy"
+ ],
+ "runtime": 103,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2020-05-01",
+ "last": "2020-05-01",
+ "scores": {
+  "tmdb": 7.035,
+  "rt": 81.0,
+  "ebert": 3.0,
+  "box_office": "$374.8M",
+  "multiple": 10.711764705882352,
+  "cpi_year": 2024
+ },
+ "plot": "A transit worker pulls commuter Peter off railway tracks after he's mugged, but—while he's in a coma—his family mistakenly thinks she's Peter's fiancée, and she doesn't correct them. Things get more complicated when she falls for his brother, who's not quite sure that she's who she claims to be.",
+ "synopsis": "Fare token collector Lucy Eleanor Moderatz works for the Chicago Transit Authority at the Randolph/Wabash station. She is secretly infatuated with regular commuter Peter Callaghan, though they are strangers. On Christmas Day, Lucy rescues Peter after muggers push him onto the train tracks. She accompanies the unconscious Peter to the hospital where she is mistaken for his fiancée.\n\nPeter's family is surprised to hear he is \"engaged\", but grateful to Lucy for saving him. Lucy becomes too involved in the situation to reveal the truth and remains silent due to embarrassment. She is also concerned about upsetting Peter's grandmother Elsie, who has a heart condition. While visiting the comatose Peter, Lucy confesses her predicament to him, unaware that his godfather Saul overhears. He leaves without confronting her. Meanwhile, Peter's girlfriend Ashley leaves a message on his answering machine, stating she has decided to accept his proposal after all.\n\nCaptivated by the quirky Callaghans and their unconditional love, Lucy reluctantly spends a belated Christmas with them. She meets Peter's younger brother Jack, who is expected to take over his father's estate furniture business, though he wants to build and sell his own furniture. Initially, Jack suspects Lucy is lying or cheating on his brother, but she manages to convince him otherwise.\n\nSaul visits Lucy's apartment. When he confronts her about the lies, she confesses her loneliness, as her mother died when she was very young and her father died the year before. Saul decides to keep her secret, as the accident has brought the family closer and he knows Lucy is not being malicious.\n\nAs Lucy and Jack spend time together, she begins to fall in love with him. Jack confesses to his unconscious brother that, for the first time, he is envious of something Peter has. Meanwhile, Ashley continues to leave follow-up messages about Peter's non-responsiveness, saying she is back in town and wants to see him.\n\nDue to a misunderstanding, Jack believes Lucy is pregnant. Upset, Jack confronts her about the \"pregnancy\" during Lucy's friend's New Year's Eve party, leading to a disagreement.\n\nAfter New Year's Eve, Peter awakens. When he does not recognize Lucy, everyone assumes he has amnesia. Lucy attempts to tell the Callaghans the truth, but they presume she is telling them she is not actually pregnant and brush it off. Saul intercepts Lucy, saying he will explain the truth to them later.\n\nWhen Jack drives Lucy home, she tells him things will be different now that Peter is awake. Lucy thanks Jack for being a good friend and he apologizes for the earlier argument. They share a heartfelt goodbye. The next day, Jack finally tells his father he would rather make furniture than take over the business.\n\nInstead of the truth, Saul tells Peter he is a putz for how he treats women and that Lucy is special; he encourages Peter to get to know her. When Lucy visits, Peter is charmed. Meanwhile, Ashley discovers from Peter's doorman that he is engaged to someone else, and in the hospital. Ashley confronts Peter at the hospital, insisting that they are engaged, but he reminds her they broke up after she rejected his proposal. Peter declares he is a changed man and is going to marry Lucy.\n\nLucy discovers Saul never told the Callaghans anything and returns to the hospital to tell Peter herself. Before she can, Peter proposes \"again\"; Lucy accepts. Jack then visits her and gifts her a snow globe. Conflicted, Lucy asks if he can give her a reason not to marry Peter. He disappoints her, saying he cannot.\n\nThe wedding is set for the next day. As the ceremony begins, Lucy blurts out \"I object,\" and Jack agrees. Lucy finally confesses everything. She admits she is in love with Jack and tells the family she fell in love with all of them, describing how happy she was to no longer be alone. Ashley arrives and demands that the wedding be stopped. Ashley's husband also arrives, objecting. As everyone argues, Lucy slips out unnoticed.\n\nSome time later, while Lucy is at work, Jack places an engagement ring in her booth's token tray. He proposes to her in the booth, with most of the Callaghans watching. Lucy and Jack marry and take a CTA train for their honeymoon. He fulfills her dream of going to Florence, Italy. Peter asks when she fell in love with Jack, and she replies, \"It was while you were sleeping.\"",
+ "synopsis_words": 740,
+ "episodes": [
+  {
+   "number": 136,
+   "date": "2020-05-01",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Juliet Litman",
+   "guests": [
+    "Amanda Dobbins"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "chicago, illinois",
+   "reach": 19,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "christmas",
+   "reach": 14,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "love",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "love of one's life",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "holiday",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "romcom",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "hospital",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "sibling relationship",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "coma",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "subway",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "brother",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "wonder",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "close family",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "man of one's dreams",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Sandra Bullock",
+   "films": 5
+  },
+  {
+   "name": "Bill Pullman",
+   "films": 3
+  },
+  {
+   "name": "Peter Gallagher",
+   "films": 2
+  },
+  {
+   "name": "Peter Boyle",
+   "films": 3
+  },
+  {
+   "name": "Jack Warden",
+   "films": 7
+  },
+  {
+   "name": "Glynis Johns",
+   "films": 0
+  },
+  {
+   "name": "Micole Mercurio",
+   "films": 0
+  },
+  {
+   "name": "Jason Bernard",
+   "films": 0
+  },
+  {
+   "name": "Michael Rispoli",
+   "films": 0
+  },
+  {
+   "name": "Ally Walker",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "935126c8-bfd4-427c-8de1-1f331fc4d41c",
+   "title": "Shampoo",
+   "year": 1975,
+   "poster": "6jmFvXPV6OhtX3AkAVnH7rwdeUJ.jpg"
+  },
+  {
+   "id": "784fb257-55b5-4375-8251-a08dfd453629",
+   "title": "All the President's Men",
+   "year": 1976,
+   "poster": "pCe6lfLxt1B58zPD4lgQrlnDS2j.jpg"
+  },
+  {
+   "id": "13ba22b2-7c4a-49fd-a7fc-8426a954f2d4",
+   "title": "Taxi Driver",
+   "year": 1976,
+   "poster": "ekstpH614fwDX8DUln1a2Opz0N8.jpg"
+  },
+  {
+   "id": "2cf3b9e8-700a-44a6-ae48-fb3001cd349a",
+   "title": "Heaven Can Wait",
+   "year": 1978,
+   "poster": "h1yOiO9cow6gwmGxSAWvPdY4lhJ.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/While_You_Were_Sleeping_%28film%29",
+  "wikidata": "Q492093"
+ }
+}

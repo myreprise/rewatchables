@@ -1,0 +1,314 @@
+{
+ "id": "64037c70-84d1-4361-8a37-ddf237cd3f71",
+ "title": "The Wolf of Wall Street",
+ "year": 2013,
+ "poster": "kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg",
+ "tmdb_id": 106646,
+ "directors": [
+  "Martin Scorsese"
+ ],
+ "director_primary": "Martin Scorsese",
+ "genres": [
+  "Crime",
+  "Drama",
+  "Comedy"
+ ],
+ "runtime": 180,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2019-12-03",
+ "last": "2019-12-03",
+ "scores": {
+  "tmdb": 8.027,
+  "rt": 79.0,
+  "ebert": null,
+  "box_office": "$548.0M",
+  "multiple": 4.07039432,
+  "cpi_year": 2024
+ },
+ "plot": "A New York stockbroker refuses to cooperate in a large securities fraud case involving corruption on Wall Street, corporate banking world and mob infiltration. Based on Jordan Belfort's autobiography.",
+ "synopsis": "In 1987, twenty-two-year-old Jordan Belfort becomes a Wall Street stockbroker for L.F. Rothschild, employed under Mark Hanna. Quickly enticed by the drug-fueled stockbroker culture, he learns that their goal is to make themselves rich. Jordan loses his job following Black Monday, the largest one-day stock market drop since the crash of 1929, and joins Investor's Center, a boiler room brokerage on Long Island, specializing in pink sheet penny stocks. He makes a small fortune thanks to his aggressive pitching style and high commissions.\n\nBefriending neighbor Donnie Azoff, Jordan and he start their own boiler room brokerage. Jordan's childhood friends Robbie Feinberg, Alden Kupferburg, Nicky Koskoff, Chester Ming, and Toby Welch are recruited as well as drug pusher Brad Bodnick. Jordan trains them on the \"hard sell.\" Jordan's tactics and salesmanship make his pump and dump scheme successful. To cloak this, Jordan gives the firm the respectable-sounding name of Stratton Oakmont in 1989.\n\nSoon after, the company becomes immensely successful, moving out of the auto repair shop into a bigger office. An exposé in Forbes which dubs Jordan \"The Wolf of Wall Street\" – \"a sort of twisted Robin Hood who takes from the rich and gives to himself and his merry band of brokers\"— initially enrages Belfort until it causes hundreds of ambitious young financiers to flock to the company, thus causing them to move into even bigger offices.\n\nJordan becomes immensely wealthy, and slides into a decadent lifestyle of prostitutes and drugs. He has an affair with lingerie designer Naomi Lapaglia; when his wife Teresa finds out, Jordan divorces her and marries Naomi in 1991. Meanwhile, the SEC and the FBI begin investigating Stratton Oakmont.\n\nIn 1993, Jordan illegally makes $22 million in three hours after securing the IPO of Steve Madden, Ltd., founded by Donnie's childhood friend and women's shoes designer Steve Madden, bringing him and his firm further FBI attention. Jordan tries to bribe agent Denham but fails, prompting him to seek a safe place for the money. He opens a Swiss bank account with corrupt banker Jean-Jacques Saurel, in the name of Naomi's aunt Emma, a British citizen who is outside the immediate reach of American authorities. He uses Brad's Swiss-Slovenian wife Chantalle and her family, who have Swiss passports, to smuggle the cash into Switzerland.\n\nDonnie and Brad get into a heated argument in public during a money exchange, resulting in Brad's arrest as Donnie escapes. Donnie informs Jordan that he has come upon some \"Lemmon 714\" quaaludes, which the latter refers to as \"the holy grail\" of drugs. The two take the pills at Belfort's home, but they have no effect. They assume that they have expired, and wind up taking the rest of their supply.\n\nJordan's private investigator Bo Dietl calls him and tells him he needs to talk to him on a payphone. Jordan drives to a local country club and calls Bo, who informs him that the FBI is wiretapping his phones. While talking with Bo, the quaaludes kick in, and Jordan becomes extremely inebriated, struggling to get home in his Lamborghini Countach. When he gets home, he finds Donnie talking on the phone, and nearly strangles him with the phone cord. Donnie chokes on some meat; Jordan ingests cocaine to counteract the quaaludes and gives him the Heimlich maneuver. The next day, the police arrive and inform Jordan that his car has been trashed.\n\nJordan's father Max advises him to leave Stratton Oakmont and lie low while Jordan's lawyer negotiates a deal to keep him out of prison. In the midst of his farewell speech, Jordan cannot bear to quit and talks himself into staying, to the relief of his friends and employees, and the dismay of his father.\n\nIn 1996, Jordan, Donnie, and their wives are on a yacht trip to Italy, when they learn that Emma has died. Fearing for the money he left under her name in a Swiss account, Jordan announces that they will chart a course to Switzerland to forge her name on a document and save the account before going to London for the funeral. To bypass the border patrols, he orders his yacht captain Ted to sail to Monaco, but their ship capsizes in a storm. After their rescue, the plane sent to take them to Geneva is destroyed when a seagull flies into the engine; Jordan takes this as a sign from God to address his worsening drug addiction and attempts to sober up.\n\nIn 1998, Saurel and Koskoff are arrested for an unrelated crime, the former informing the FBI about Jordan as part of a plea bargain. Since the evidence against him is overwhelming, Jordan agrees to gather evidence from the rest of his colleagues in exchange for leniency. Now fully disgusted with Jordan's lifestyle, Naomi tells him that she is divorcing him, and is taking full custody of their children, causing Jordan to angrily punch her,  relapse on cocaine, and tries to drive away with their daughter, but crashes his car in the driveway.\n\nLater, Jordan wears a wire to work but slips a note to Donnie, warning him. The note is found by the FBI, who arrest Jordan, then raid and shut down Stratton Oakmont. Despite breaching his deal, Jordan receives a reduced sentence of 36 months in a minimum security prison for his testimony, and is released in 2000 after serving 22 months. After his release, Jordan makes a living hosting seminars on sales techniques, using the same test he used with his founding partners at his firm.",
+ "synopsis_words": 920,
+ "episodes": [
+  {
+   "number": 109,
+   "date": "2019-12-03",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Chris Ryan",
+   "guests": [
+    "Sean Fennessey",
+    "Ryen Russillo"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "drugs",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "1980s",
+   "reach": 12,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "corruption",
+   "reach": 12,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "biography",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "anti hero",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "money",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "con man",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "con artist",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "drug addiction",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "stockbroker",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "rise and fall",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "wall street",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "black monday",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "fraud",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "based on real person",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "corrupt",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "decadence",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "desire for fame",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "fame-seeking",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "financial drama",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "financial market",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "hedonism",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "sharemarket fraud",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "stripping",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "wealthy",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Leonardo DiCaprio",
+   "films": 7
+  },
+  {
+   "name": "Jonah Hill",
+   "films": 4
+  },
+  {
+   "name": "Margot Robbie",
+   "films": 3
+  },
+  {
+   "name": "Matthew McConaughey",
+   "films": 4
+  },
+  {
+   "name": "Kyle Chandler",
+   "films": 2
+  },
+  {
+   "name": "Rob Reiner",
+   "films": 0
+  },
+  {
+   "name": "Jon Bernthal",
+   "films": 2
+  },
+  {
+   "name": "Jon Favreau",
+   "films": 3
+  },
+  {
+   "name": "Jean Dujardin",
+   "films": 0
+  },
+  {
+   "name": "Joanna Lumley",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "13ba22b2-7c4a-49fd-a7fc-8426a954f2d4",
+   "title": "Taxi Driver",
+   "year": 1976,
+   "poster": "ekstpH614fwDX8DUln1a2Opz0N8.jpg"
+  },
+  {
+   "id": "66a2c326-58dc-433a-a431-dfda0c71f7d1",
+   "title": "After Hours",
+   "year": 1985,
+   "poster": "8upjM945SVY99tu2Z8OG27Jd4m6.jpg"
+  },
+  {
+   "id": "63982666-21e5-4bbd-9a70-8461b2c11c2f",
+   "title": "The Color of Money",
+   "year": 1986,
+   "poster": "dVdnHmdQu3JtLAAksjTmTEF76gD.jpg"
+  },
+  {
+   "id": "31ea5b87-f041-4ab2-8c14-2f32fcd8fb8b",
+   "title": "GoodFellas",
+   "year": 1990,
+   "poster": "9OkCLM73MIU2CrKZbqiT8Ln1wY2.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "cc54743e-e6e0-4b13-847c-1567c3104018",
+   "title": "Once Upon a Time... in Hollywood",
+   "year": 2019,
+   "poster": "8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg"
+  },
+  {
+   "id": "af8e71a2-1c0e-4386-9c73-ddcb791ba2e1",
+   "title": "Dazed and Confused",
+   "year": 1993,
+   "poster": "msG9awbLhVZwv1Eh9Ge7SofMexW.jpg"
+  },
+  {
+   "id": "f00af509-0c7e-4857-b1a1-3b3c90a1074a",
+   "title": "A Time to Kill",
+   "year": 1996,
+   "poster": "w8UCke112E9jrhjKcwG32kyhTx5.jpg"
+  },
+  {
+   "id": "351712e3-7662-4d96-b240-c3f311b2f8b0",
+   "title": "Titanic",
+   "year": 1997,
+   "poster": "9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/The_Wolf_of_Wall_Street_%282013_film%29",
+  "wikidata": "Q1392744"
+ }
+}

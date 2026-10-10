@@ -1,0 +1,234 @@
+{
+ "id": "10bee52a-9060-4579-abf2-2bdf47d3f16d",
+ "title": "Wall Street",
+ "year": 1987,
+ "poster": "2tQYq9ntzn2dEwDIGLBSipYPenv.jpg",
+ "tmdb_id": 10673,
+ "directors": [
+  "Oliver Stone"
+ ],
+ "director_primary": "Oliver Stone",
+ "genres": [
+  "Crime",
+  "Drama"
+ ],
+ "runtime": 126,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2020-12-01",
+ "last": "2020-12-01",
+ "scores": {
+  "tmdb": 7.162,
+  "rt": 79.0,
+  "ebert": 3.5,
+  "box_office": "$121.2M",
+  "multiple": 2.9266666666666667,
+  "cpi_year": 2024
+ },
+ "plot": "A young and impatient stockbroker is willing to do anything to get to the top, including trading on illegal inside information taken through a ruthless and greedy corporate raider, who takes the youth under his wing.",
+ "synopsis": "In 1985, Bud Fox is a junior stockbroker at Jackson Steinem & Co. in New York City. He wants to work with his hero, Gordon Gekko, a legendary Wall Street player. After calling Gekko's office 59 days in a row trying to land an appointment, Bud visits Gekko on his birthday with a box of Gekko's favorite, contraband Cuban cigars. Impressed by his persistence, Gekko grants Bud an interview. Bud pitches him stocks, but Gekko is unimpressed. Desperate, Bud provides him with some inside information about Bluestar Airlines, which he has learned in a casual conversation with his father, Carl, leader of the company's maintenance workers' union. Intrigued, Gekko tells Bud he will think about it. A dejected Bud returns to his office. However, Gekko places an order for Bluestar stock and becomes one of Bud's clients.\n\nAfter making a considerable amount of money from the Bluestar tip, Gekko gives Bud some capital to manage, but the other stocks Bud selects by honest research and advice from respected senior broker Lou Mannheim lose money. Gekko offers Bud another chance and tells him to spy on British investor Sir Lawrence Wildman. They deduce that Wildman is making a bid for Anacott Steel. Gekko buys a large block of shares in Anacott, which Wildman is forced to buy back from him at a high price to complete the takeover.\n\nBud becomes wealthy, moves into a penthouse on Manhattan's East Side and begins dating Darien Taylor, an interior decorator who also happens to be Gekko's art consultant and ex-mistress. Bud is promoted for the large commissions he brings in and is given an office with a view. He continues to exploit inside information and use friends as straw buyers to generate additional income for himself and Gekko. Unknown to Bud, several of his trades attract the attention of the U.S. Securities and Exchange Commission (SEC).\n\nBud pitches a new idea to Gekko: buy Bluestar Airlines and expand the company, with Bud as president, using savings achieved by union concessions and the overfunded pension. Even though Bud is unable to persuade his father to support him and Gekko, he is able to get the unions to push for the deal. Soon afterward, Bud learns that Gekko plans to dissolve the company and sell off Bluestar's assets to access cash from the company's pension plan, leaving Carl and the entire Bluestar staff unemployed. Although this would leave Bud a very rich man, he is angered by Gekko's deceit and wracked with guilt for being an accessory to Bluestar's impending destruction, especially after his father suffers a heart attack. Bud resolves to disrupt Gekko's plans and breaks up with Darien when she refuses to go against Gekko, her former lover.\n\nBud and the union presidents secretly meet with Wildman and arrange for him to buy the stock and a controlling interest in Bluestar, at a significant discount, on the condition that he saves the company. Bud then devises a plan to leak news of Gekko's takeover to drive up the price. This forces Gekko to buy the stock at a higher price, as he tries to secure a controlling interest. Bud then convinces the unions to pull their support, ending any prospect of Gekko completing the takeover, and causing the price to plummet. This forces Gekko to offload his stock at a considerable loss.  When Gekko learns on the evening news that Wildman is buying Bluestar, he realizes Bud has engineered the entire scheme. Bud triumphantly returns to work at Jackson Steinem the following day, only to be arrested by the SEC, who had been tracking Bud's insider trading.\n\nLater, Bud confronts Gekko in Central Park. Gekko punches Bud several times, berating him for his role with Bluestar, and accuses him of ingratitude for several of their illicit trades. Later, it is revealed that Bud was wearing a wire to record his encounter with Gekko for the authorities, who suggest he may get a lighter sentence in exchange for providing evidence against Gekko. Later, Bud's parents drive him down FDR Drive towards the New York County Courthouse, telling Bud he \"did the right thing\" by cooperating with the government and paying back his illicit earnings, and urging him to accept Wildman's offer of a job at Bluestar once he has completed his prison sentence. After suggesting Bud \"create, instead of living off the buying and selling of others\", Carl drops Bud off at the courthouse, where he ascends the steps, ready to face justice for his crimes.",
+ "synopsis_words": 751,
+ "episodes": [
+  {
+   "number": 176,
+   "date": "2020-12-01",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Brian Koppelman"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "lawyer",
+   "reach": 15,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "1980s",
+   "reach": 12,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "manhattan, new york city",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "millionaire",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "stockbroker",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "broker",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "wall street",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "black monday",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "fraud",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "stock market",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "finances",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "high finance",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "stocks",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "union",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Michael Douglas",
+   "films": 7
+  },
+  {
+   "name": "Charlie Sheen",
+   "films": 2
+  },
+  {
+   "name": "Martin Sheen",
+   "films": 4
+  },
+  {
+   "name": "Daryl Hannah",
+   "films": 1
+  },
+  {
+   "name": "John C. McGinley",
+   "films": 2
+  },
+  {
+   "name": "Hal Holbrook",
+   "films": 2
+  },
+  {
+   "name": "Sean Young",
+   "films": 3
+  },
+  {
+   "name": "Terence Stamp",
+   "films": 0
+  },
+  {
+   "name": "James Spader",
+   "films": 0
+  },
+  {
+   "name": "Lauren Tom",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "119e3513-35c1-463a-870a-4af1851e2b38",
+   "title": "The Doors",
+   "year": 1991,
+   "poster": "x1LM3dzGuG6xOz0aT2e71o11vhu.jpg"
+  },
+  {
+   "id": "82c5995f-4240-41f4-bce2-2c10639b901d",
+   "title": "JFK",
+   "year": 1991,
+   "poster": "r0VWVTYlqdRCK5ZoOdNnHdqM2gt.jpg"
+  },
+  {
+   "id": "1f1fcab6-0084-4807-b2cd-a33d3ff3c573",
+   "title": "Any Given Sunday",
+   "year": 1999,
+   "poster": "bysZeUvSPZPJnku4qkHF34CdgMG.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "70e64d97-0365-4e8d-8b1b-d13e08ad2b5c",
+   "title": "The American President",
+   "year": 1995,
+   "poster": "yObOAYFIHXHkFPQ3jhgkN2ezaD.jpg"
+  },
+  {
+   "id": "ea73bdcc-b9d5-40f4-b542-8e2c1f5e2510",
+   "title": "Fatal Attraction",
+   "year": 1987,
+   "poster": "vjB9XwJKnYqFKKjhWcE6WpAf5Ki.jpg"
+  },
+  {
+   "id": "64e44dc6-f51d-4ef4-8e67-6c42a9f98f38",
+   "title": "Major League",
+   "year": 1989,
+   "poster": "ypUedY9zX4nGGf1lQv1UGc8PhPA.jpg"
+  },
+  {
+   "id": "f4f023a4-da3e-4263-a48e-7ca6104b3bbf",
+   "title": "The War of the Roses",
+   "year": 1989,
+   "poster": "9VWwYsuXhRImUtrJGvN6bYJB2He.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Wall_Street_%281987_film%29",
+  "wikidata": "Q332348"
+ }
+}

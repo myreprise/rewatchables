@@ -1,0 +1,283 @@
+{
+ "id": "8f35e9b8-d183-47de-a41f-7ad2b39a24de",
+ "title": "Con Air",
+ "year": 1997,
+ "poster": "kOKjgrEzGOP92rVQ6srA9jtp60l.jpg",
+ "tmdb_id": 1701,
+ "directors": [
+  "Simon West"
+ ],
+ "director_primary": "Simon West",
+ "genres": [
+  "Action",
+  "Thriller",
+  "Crime"
+ ],
+ "runtime": 116,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2018-12-18",
+ "last": "2018-12-18",
+ "scores": {
+  "tmdb": 6.785,
+  "rt": 57.99999999999999,
+  "ebert": 3.0,
+  "box_office": "$437.8M",
+  "multiple": 2.9868297866666667,
+  "cpi_year": 2024
+ },
+ "plot": "Newly-paroled former US Army ranger Cameron Poe is headed back to his wife, but must fly home aboard a prison transport flight dubbed \"Jailbird\" taking the “worst of the worst” prisoners, a group described as “pure predators”, to a new super-prison. Poe faces impossible odds when the transport plane is skyjacked mid-flight by the most vicious criminals in the country led by the mastermind — genius serial killer Cyrus \"The Virus\" Grissom, and backed by black militant Diamond Dog and psychopath Billy Bedlam.",
+ "synopsis": "Decorated honorably discharged Army Ranger Cameron Poe is convicted of involuntary manslaughter for killing a bar patron in self-defense when the other man drunkenly attacks him and his pregnant wife, Tricia. During his eight-year sentence, he writes letters to Tricia and their daughter Casey, whom he has never met. Eight years later, he is paroled and boards a flight to Alabama on the Jailbird, a Fairchild C-123 Provider converted to a prison transport plane, so he can be reunited with his family on Casey's birthday. Accompanying Poe is his diabetic cellmate and best friend Mike \"Baby-O\" O'Dell.\n\nMost of the inmates boarding the flight are convicts being transferred to a newly opened supermax prison, including mass felon William \"Billy Bedlam\" Bedford, serial rapist John \"Johnny 23\" Baca, Black Guerrilla Nathan \"Diamond Dog\" Jones, and professional criminal Cyrus \"The Virus\" Grissom. The flight is overseen by U.S. Marshal Vince Larkin while DEA special agent Willie Sims plans to go on an undercover mission to get information from narcoterrorist Francisco Cindino, who is being picked up en route; unbeknownst to Larkin, Sims' partner, Duncan Malloy, smuggles a gun on board for Sims.\n\nAfter taking off, inmate Joe \"Pinball\" Parker sets another prisoner on fire as a distraction, allowing Grissom and Jones to take over the plane. They plan to land at Carson Airport as scheduled, pick up and transfer other prisoners, and fly to a non-extradition country after switching planes and meeting the financiers of his escape. Sims tries to retake control, but Grissom kills him in the process.\n\nThe plane arrives at Carson City and the exchange of inmates commences, with the ground crew unaware of the hijacking. Amongst the new passengers are Cindino, pilot Earl \"Swamp Thing\" Williams and serial killer Garland Greene. The authorities discover the hijacking upon finding evidence in Grissom's old cell and a tape recorder planted by Poe on one of the disguised guards but cannot prevent the plane from taking off. Meanwhile, Pinball disposes of the plane's transponder, but he is crushed to death by the landing gear during takeoff.\n\nThe inmates plan to land at Lerner Airfield, a desert airstrip, and transfer onto another plane owned by Cindino and his cartel. Poe finds Pinball's corpse trapped in the landing gear and writes a message to Larkin on the body before throwing it out. Larkin learns of the news and heads to Lerner after contacting the National Guard. Bedford, raiding the cargo, discovers Poe's identity, forcing Poe to kill him.\n\nThe Jailbird is grounded at Lerner, a derelict strip next to an aircraft boneyard, with no sign of the transfer aircraft. Grissom orders the others to fuel up the plane and prepare for takeoff. Poe leaves to find Baby-O a syringe to give him insulin. Poe meets Larkin and informs him of the situation. They discover Cindino attempting to escape on a hidden private jet, which Larkin sabotages by lowering a crane arm onto it. Betrayed, Grissom executes Cindino by igniting the plane's fuel. Greene meets a little girl playing tea party near the hangar and is tempted to kill her, but he resists his homicidal urges. Johnny 23 spots a National Guard convoy approaching and gives the alarm. As the National Guard arrives, the inmates launch an enormous assault in the boneyard, resulting in various casualties, but Larkin uses a bulldozer as a makeshift shield, rallying the remaining guardsmen and forcing the convicts to retreat. The surviving inmates return to the Jailbird and get airborne. Poe rescues guard Sally Bishop as well.\n\nPoe's identity is revealed when Bedford's body is found. Baby-O takes the blame and is shot by Grissom, when Larkin and Malloy arrive in attack helicopters, damaging the Jailbird's fuel tank. Poe takes command of the cockpit, and Larkin instructs him to have the plane land at McCarran International Airport, but due to damage, Swamp Thing is forced to land it on the Las Vegas Strip, causing mass destruction and killing Johnny 23. Grissom, Jones, and Swamp Thing escape on a fire truck, pursued by Poe and Larkin on police motorcycles; the chase results in the deaths of all three escapees. Poe reunites with his family, Baby-O is hospitalized and the surviving inmates are apprehended, except for Greene, who is last seen gambling in a casino.",
+ "synopsis_words": 714,
+ "episodes": [
+  {
+   "number": 52,
+   "date": "2018-12-18",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Shea Serrano"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "shootout",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "psychopath",
+   "reach": 14,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "serial killer",
+   "reach": 13,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "undercover",
+   "reach": 13,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "brutality",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "convict",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "mexican standoff",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "bravery",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "u.s. marshal",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "war veteran",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "ambush",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "army veteran",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "diabetic",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "hijacking",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "sandstorm",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "war hero",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "dea agent",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "disguises",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "ex army",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "hostile takeover",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "prison guard",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "prison transport plane",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "prisoner transport",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "skyjacker",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "transport plane",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Nicolas Cage",
+   "films": 5
+  },
+  {
+   "name": "John Cusack",
+   "films": 4
+  },
+  {
+   "name": "John Malkovich",
+   "films": 3
+  },
+  {
+   "name": "Ving Rhames",
+   "films": 5
+  },
+  {
+   "name": "Mykelti Williamson",
+   "films": 2
+  },
+  {
+   "name": "Dave Chappelle",
+   "films": 0
+  },
+  {
+   "name": "Colm Meaney",
+   "films": 2
+  },
+  {
+   "name": "Monica Potter",
+   "films": 0
+  },
+  {
+   "name": "Landry Allbright",
+   "films": 0
+  },
+  {
+   "name": "Rachel Ticotin",
+   "films": 1
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "33a1783b-9112-40a7-9ac0-2c37a7ab689a",
+   "title": "The Sure Thing",
+   "year": 1985,
+   "poster": "a9cuohQn5kczi4htWZAZjEZvXkZ.jpg"
+  },
+  {
+   "id": "65acdd5e-69da-4458-910b-1cfdae79c4d8",
+   "title": "Say Anything...",
+   "year": 1989,
+   "poster": "nkucKciFGSRalw6dJtsglWqOXMC.jpg"
+  },
+  {
+   "id": "d835bb27-f89f-416a-833d-36b2b6585eb9",
+   "title": "Dave",
+   "year": 1993,
+   "poster": "n7wQlcexeER5bW7DvV8sji2vRRH.jpg"
+  },
+  {
+   "id": "6b59b860-8e08-4797-a1b8-c27ae9551ceb",
+   "title": "In the Line of Fire",
+   "year": 1993,
+   "poster": "3NvOFpmyECI3DNExYMtFIRcGMsu.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Con_Air",
+  "wikidata": "Q607910"
+ }
+}

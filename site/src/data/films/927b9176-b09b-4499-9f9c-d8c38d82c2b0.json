@@ -1,0 +1,258 @@
+{
+ "id": "927b9176-b09b-4499-9f9c-d8c38d82c2b0",
+ "title": "Rocky IV",
+ "year": 1985,
+ "poster": "2MHUit4H6OK5adcOjnCN6suCKOl.jpg",
+ "tmdb_id": 1374,
+ "directors": [
+  "Sylvester Stallone"
+ ],
+ "director_primary": "Sylvester Stallone",
+ "genres": [
+  "Drama"
+ ],
+ "runtime": 91,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2020-10-27",
+ "last": "2020-10-27",
+ "scores": {
+  "tmdb": 7.094,
+  "rt": 39.0,
+  "ebert": 2.0,
+  "box_office": "$876.0M",
+  "multiple": 9.692700516129031,
+  "cpi_year": 2024
+ },
+ "plot": "Rocky Balboa holds the world heavyweight championship, but a new challenger has stepped forward: Drago, a six-foot-four, 261-pound fighter who has the backing of the Soviet Union. This time, Rocky's training regimen takes him to Siberia, where he prepares for a globally televised match in the heart of Moscow. But nothing can truly prepare him for what he's about to face – a fight to the finish, in which he must defend not only himself, but also the honor of his country!",
+ "synopsis": "In 1985, Russian boxer and Soviet Army Captain Ivan Drago arrives in the United States from the Soviet Union with his wife Ludmilla, his trainers and his manager, Nicolai Koloff. Koloff takes every opportunity to promote Drago's athleticism as a hallmark of Soviet superiority. Motivated by patriotism and a desire to step back in the ring, former heavyweight champion Apollo Creed challenges Drago to an exhibition fight. Rocky Balboa has reservations about his much larger opponent and about Apollo coming out of retirement but agrees to help train Apollo for the match.\n\nThe boxing exhibition takes place at the MGM Grand Hotel in Las Vegas. Apollo enters the ring in an over-the-top patriotic entrance with James Brown performing \"Living in America\", complete with showgirls. The bout starts tamely with Apollo landing several punches that are ineffective against Drago, but Drago suddenly retaliates with devastating effects. By the end of the first round, Rocky and Apollo's trainer, Duke Evers, plead with him to stop the match, but Apollo refuses to do so. Drago aggressively pummels him in the second round. Apollo falls after a particularly savage blow and lies twitching on the ground. After the match is called in Drago's favor, he displays no contrition, commenting to the assembled media: \"If he dies, he dies.\" Apollo dies as a result of his injuries.\n\nRocky decides to challenge Drago himself, but has to surrender his championship to do so. Drago's camp agrees to an unsanctioned 15-round fight in Moscow on Christmas Day, an arrangement meant to protect Drago from the threats of violence he has been receiving in the United States. Rocky travels to the Soviet Union without his wife Adrian due to her disapproval of the match, setting up his training base in a remote cabin in Siberia with only Duke and Paulie to accompany him while being constantly watched by KGB Agents. Duke opens up to Rocky, stating that he actually raised Apollo and that his death felt like a father losing his son, and expresses his faith in Rocky that he will emerge victorious. To prepare for the match, Drago uses high-tech equipment, a team of trainers and doctors monitoring his every movement, and regular doses of anabolic steroids. Rocky, on the other hand, does roadwork in deep snow over mountainous terrain and workouts utilizing antiquated farm equipment. Adrian arrives unexpectedly five days before the fight to give Rocky her support.\n\nOn the night of the match, Rocky enters to a hostile jeering crowd. Drago is introduced with cheers and an elaborate patriotic ceremony, with the Soviet General Secretary and Politburo in attendance. In contrast to his match with Apollo, Drago immediately goes on the offensive. Rocky takes a pounding in the first round, but toward the end of the second round he lands a right hook that cuts Drago's left eye. Between rounds, Duke encourages Rocky by telling him he's proven Drago is only human, and Drago comments to his trainers that Rocky \"is like a piece of iron.\"\n\nThe two boxers spend the next dozen rounds trading blows, with Rocky managing to hold his ground despite Drago's best efforts. As the 12th round begins, the Russian crowd starts to cheer for Rocky. After Koloff berates Drago for not finishing the fight and seeing the crowd turn on him, Drago rebels, throwing him from the ring and directly addressing the Soviet leadership, stating he fights only for himself. In the final round, with both fighters exhausted, Rocky unleashes a series of blows that KOs Drago, avenging Apollo's death.\n\nRocky gives a victory speech, acknowledging the crowd's initial disdain of him, but points out that it changed to respect during the fight. He compares it to the wider disdain between Russians and Americans, except that he and the crowd have come to respect and admire each other during the course of the fight. Rocky adds that the crowd has seen \"two guys killin' each other, but I guess that's better than 20 million\". Rocky finally declares, \"If I can change, and you can change, then everybody can change!\" The General Secretary stands and passionately applauds Rocky, and his aides follow suit. Rocky ends his speech by wishing his son Rocky Jr. a Merry Christmas, and throws his arms into the air in victory as the crowd applauds.",
+ "synopsis_words": 718,
+ "episodes": [
+  {
+   "number": 170,
+   "date": "2020-10-27",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Cousin Sal",
+    "Kyle Brandt"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "sports",
+   "reach": 47,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "revenge",
+   "reach": 30,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "sequel",
+   "reach": 28,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "friendship",
+   "reach": 22,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "loss of loved one",
+   "reach": 20,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "excited",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "christmas",
+   "reach": 14,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "dying and death",
+   "reach": 13,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "training",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "powerful",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "boxing",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "boxer",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "transporter",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "victory",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "matter of life and death",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "kgb",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "cold war",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "loss of powers",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "siberia",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "soviet union",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Sylvester Stallone",
+   "films": 13
+  },
+  {
+   "name": "Dolph Lundgren",
+   "films": 1
+  },
+  {
+   "name": "Carl Weathers",
+   "films": 6
+  },
+  {
+   "name": "Talia Shire",
+   "films": 5
+  },
+  {
+   "name": "Burt Young",
+   "films": 4
+  },
+  {
+   "name": "Brigitte Nielsen",
+   "films": 1
+  },
+  {
+   "name": "Tony Burton",
+   "films": 0
+  },
+  {
+   "name": "Michael Pataki",
+   "films": 1
+  },
+  {
+   "name": "Stu Nahan",
+   "films": 0
+  },
+  {
+   "name": "R.J. Adams",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "9b96c355-454b-4655-a1be-f63ad25eb9a0",
+   "title": "Rocky II",
+   "year": 1979,
+   "poster": "nMaiiu0CzT77U4JZkUYV7KqdAjK.jpg"
+  },
+  {
+   "id": "3dbd436a-bd20-4cda-bd22-405242b2f2df",
+   "title": "Rocky III",
+   "year": 1982,
+   "poster": "uqw16i2kmwVqkJHzjzbDU4xZ0Pl.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "ba990d04-5321-4645-9010-c12e5ecdfdf3",
+   "title": "Rocky",
+   "year": 1976,
+   "poster": "xSI0dbKLDETwhiVUy6hGE8KXUln.jpg"
+  },
+  {
+   "id": "9b96c355-454b-4655-a1be-f63ad25eb9a0",
+   "title": "Rocky II",
+   "year": 1979,
+   "poster": "nMaiiu0CzT77U4JZkUYV7KqdAjK.jpg"
+  },
+  {
+   "id": "3dbd436a-bd20-4cda-bd22-405242b2f2df",
+   "title": "Rocky III",
+   "year": 1982,
+   "poster": "uqw16i2kmwVqkJHzjzbDU4xZ0Pl.jpg"
+  },
+  {
+   "id": "23935113-1348-4598-a9ad-fcbf40883f79",
+   "title": "Escape to Victory",
+   "year": 1981,
+   "poster": "3j6H0dnbvjNXLK1l9nKguXw5vvO.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Rocky_IV",
+  "wikidata": "Q387638"
+ }
+}

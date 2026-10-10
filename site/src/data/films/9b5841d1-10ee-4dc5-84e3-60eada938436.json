@@ -1,0 +1,210 @@
+{
+ "id": "9b5841d1-10ee-4dc5-84e3-60eada938436",
+ "title": "Superbad",
+ "year": 2007,
+ "poster": "ek8e8txUyUwd2BNqj6lFEerJfbq.jpg",
+ "tmdb_id": 8363,
+ "directors": [
+  "Greg Mottola"
+ ],
+ "director_primary": "Greg Mottola",
+ "genres": [
+  "Comedy"
+ ],
+ "runtime": 113,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2021-08-09",
+ "last": "2021-08-09",
+ "scores": {
+  "tmdb": 7.272,
+  "rt": 88.0,
+  "ebert": 3.5,
+  "box_office": "$258.5M",
+  "multiple": 8.54,
+  "cpi_year": 2024
+ },
+ "plot": "Two co-dependent high school seniors are forced to deal with separation anxiety after their plan to stage a booze-soaked party goes awry.",
+ "synopsis": "Seth and Evan are two high school seniors who lament their virginity and poor social standing. Best friends since childhood, the two are about to go off to different colleges, as Seth did not get accepted into Dartmouth. After Seth is paired with Jules during Home-Ec class, she invites him to a party at her house later that night. Later, Fogell comes up to the two and reveals his plans to obtain a fake ID during lunch. Seth uses this to his advantage and promises to bring alcohol to Jules' party. Fogell's fake ID is met with disgust by Seth and Evan, as it states that Fogell's name is simply \"McLovin\". After contemplating the options, Seth decides they have no choice but to have Fogell buy the alcohol with his fake ID. Fogell goes in and successfully buys the alcohol, but is interrupted when a robber enters the store, punches him in the face, and takes money from the cash register. When police officers Slater and Michaels arrive to investigate the robbery, Seth and Evan believe that Fogell has been busted for the fake ID. Inside the store, Slater and Michaels are apparently fooled by Fogell's ID and give him a ride to the party. While arguing over what to do, Seth is hit by a car being driven by Francis, who promises to take them to a party he is attending in exchange for them not telling the police. During Fogell's time with the police, they exhibit very irresponsible behavior such as drinking, shooting their firearms at a stop sign, and improper use of their sirens to run red lights. All the while, the three develop a strong friendship. When Seth and Evan arrive at the party, they quickly discover that Francis is not welcome there. Francis is brutally beaten by Mark, the party host, while Seth fills detergent bottles from the basement with alcohol he finds in the fridge. After running away from the party, which soon devolves into a fistfight, Evan angrily asserts that Seth has been holding him back from all these years and preventing him from becoming socially active. In the midst of this argument, Seth is hit by the police cruiser when Michaels distracts Slater while he is driving. Afraid of losing their jobs, the cops decide to frame the accident on Seth and Evan and begin to arrest them. While being arrested, Seth and Evan see Fogell coming out of the car and decide to run for it, Fogell and the alcohol in tow. Arriving at the party, Seth successfully delivers the alcohol while Evan meets up with his crush Becca. Becca is already drunk and initiates sex with Evan, but ultimately ends up throwing up on Jules' bed before anything can happen. Fogell impresses Nicola (Aviva with his fake ID and goes upstairs to have sex with her. Seth tries to get with Jules, but learns that she does not want to do anything with him while he is drunk. In the midst of the conversation, Seth passes out, headbutting Jules in the eye. Slater and Michaels arrive to break up the party, prompting Seth to carry Evan out of the party to save him. Slater goes upstairs to find Fogell having sex with Nicola, scaring away the latter. The two officers sit down with Fogell and reveal that they knew his ID was fake and merely wanted to show him that cops can have a good time. As repayment, the officers pretend to arrest Fogell to boost his popularity. Removing the last piece of evidence of their wildly irresponsible night, the three torch the police cruiser with molotov cocktails while Fogell signs an affidavit saying that the car was stolen by a drug addict. Seth and Evan go to Evan's house, where the two reconcile and declare their brotherly love for one another. Going to the mall the next day, they meet Jules and Becca, who are shopping for cover-up and new comforters respectively. After an awkward exchange, Seth goes to help Jules while Evan helps Becca and the two best friends part ways.",
+ "synopsis_words": 683,
+ "episodes": [
+  {
+   "number": 215,
+   "date": "2021-08-09",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Sean Fennessey"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "police",
+   "reach": 22,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "drugs",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "buddy",
+   "reach": 14,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "alcohol",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "nerd",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "chaos",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "one night",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "school",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "fake id",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "serene",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Jonah Hill",
+   "films": 4
+  },
+  {
+   "name": "Michael Cera",
+   "films": 1
+  },
+  {
+   "name": "Christopher Mintz-Plasse",
+   "films": 2
+  },
+  {
+   "name": "Bill Hader",
+   "films": 3
+  },
+  {
+   "name": "Seth Rogen",
+   "films": 6
+  },
+  {
+   "name": "Martha MacIsaac",
+   "films": 0
+  },
+  {
+   "name": "Emma Stone",
+   "films": 2
+  },
+  {
+   "name": "Aviva Baumann",
+   "films": 0
+  },
+  {
+   "name": "Joe Lo Truglio",
+   "films": 0
+  },
+  {
+   "name": "Kevin Corrigan",
+   "films": 1
+  }
+ ],
+ "by_director": [
+  {
+   "id": "ebf84b7a-b136-427b-960a-541df0bd7c8d",
+   "title": "Adventureland",
+   "year": 2009,
+   "poster": "eeSJNAR1aWcgANq26KWIHm3cbyB.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "88848622-9ff0-4dbb-ba37-fc664fe0415a",
+   "title": "This Is the End",
+   "year": 2013,
+   "poster": "tNIW0NhX1hKvUsy6PQ80DOKUhkD.jpg"
+  },
+  {
+   "id": "77598975-751b-47d9-afe3-6ac65f843cff",
+   "title": "Neighbors",
+   "year": 2014,
+   "poster": "sN1RU08CMi8xkRIibremh3AOdgw.jpg"
+  },
+  {
+   "id": "b1ec3043-715d-4bb9-8e1c-271fa5ae39d8",
+   "title": "The 40 Year-Old Virgin",
+   "year": 2005,
+   "poster": "mVeoqL37gzhMXQVpONi9DGOQ3tZ.jpg"
+  },
+  {
+   "id": "d597efc9-db5d-403e-88cb-ea6c1cf41b4c",
+   "title": "Knocked Up",
+   "year": 2007,
+   "poster": "b4OaXw2MW97VvIiZE0Sbn1NfxSh.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Superbad",
+  "wikidata": "Q679611"
+ }
+}

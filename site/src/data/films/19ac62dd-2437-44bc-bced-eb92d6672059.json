@@ -1,0 +1,228 @@
+{
+ "id": "19ac62dd-2437-44bc-bced-eb92d6672059",
+ "title": "Meet the Parents",
+ "year": 2000,
+ "poster": "5tXJ9ctuyEOMUFLaeqRisbXowWs.jpg",
+ "tmdb_id": 1597,
+ "directors": [
+  "Jay Roach"
+ ],
+ "director_primary": "Jay Roach",
+ "genres": [
+  "Comedy",
+  "Romance"
+ ],
+ "runtime": 108,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2024-11-11",
+ "last": "2024-11-11",
+ "scores": {
+  "tmdb": 6.7,
+  "rt": 85.0,
+  "ebert": 3.0,
+  "box_office": "$602.0M",
+  "multiple": 6.008073545454545,
+  "cpi_year": 2024
+ },
+ "plot": "Greg Focker is ready to marry his girlfriend, Pam, but before he pops the question, he must win over her formidable father, humorless former CIA agent Jack Byrnes, at the wedding of Pam's sister. As Greg bends over backward to make a good impression, his visit to the Byrnes home turns into a hilarious series of disasters, and everything that can go wrong does, all under Jack's critical, hawklike gaze.",
+ "synopsis": "Greg Focker, a Jewish-American nurse living in Chicago, intends to propose to his girlfriend of ten months, second-grade teacher Pam Byrnes. He chooses to get her father's blessing at her sister Debbie's wedding at their parents' house on Long Island, and plans to propose to her in front of her family. This plan is put on hold when the airline loses his luggage, which contains the engagement ring after airport security refused to let him take it through the x-ray machine and making him check it in.\n\nAt the Byrneses' house, Greg meets Pam's father Jack, mother Dina, and beloved cat Mr. Jinx. Despite displaying a friendly demeanor toward Greg, Jack is immediately suspicious of him and is critical of his choice of career as a nurse. Greg gifts Jack an extremely rare flower, but Jack does not recognize it, although he claims to be a retired florist.\n\nGreg becomes more uncomfortable after he receives an impromptu lie detector test from Jack. Pam explains that Jack's profession as a florist is a cover, and that he is actually a retired CIA operative who interrogated double agents.\n\nMeeting the rest of Pam's family and friends, including Debbie's future in-laws, Greg becomes insecure about his relationship with the former when he learns that she was previously engaged. Her ex-fiancé Kevin is amiable, handsome, wealthy, and still on friendly terms with her and her family. He is also the best man in Debbie's wedding.\n\nDespite efforts to impress Pam's family, Greg's inadvertent actions make him an easy target for ridicule. He accidentally injures Debbie during a pool volleyball game, floods the backyard with sewage by flushing a broken toilet, breaks an urn containing the ashes of Jack's mother that Mr. Jinx uses as kitty litter, and loses a cigarette while chasing Mr. Jinx on the roof, inadvertently setting on fire the wedding altar that Kevin built. Jack also suspects that Greg is a marijuana user after he endorses the marijuana interpretation of \"Puff, the Magic Dragon\". Jack's suspicion increases when he catches Pam's brother Denny retrieving a marijuana pipe from a jacket that he lent to Greg, which Denny hastily lies about being Greg's.\n\nAfter losing Mr. Jinx, Greg temporarily replaces him with a nearly identical stray whose tail he has spray-painted, while buying time to find the real cat. While the family are at the engagement party, the imposter cat makes a mess of the house, including destroying Debbie's wedding dress. Greg's deception is exposed when a neighbor finds the real Mr. Jinx and Jack confronts Greg, so the entire Byrnes family demands that he leave Long Island.\n\nJack accuses Greg of lying about taking the Medical College Admission Test because his CIA contacts could not find any record of a Greg Focker. Greg retaliates by revealing that he has seen Jack engaging in secret meetings, receiving passports and speaking in Thai over the phone. He deduces that Jack has taken on a new CIA mission, but Jack angrily reveals that he was arranging a surprise honeymoon in Thailand for Debbie and her fiancé Bob.\n\nA devastated Greg drives to the airport to return to Chicago but gets so angry that he is eventually detained by airport security for refusing to check in his luggage and for saying the word \"bomb\" on the plane while venting his anger out on the stewardess.\n\nAt the Byrneses' house, Pam shows her parents copies of Greg's MCAT transcript, which his parents faxed to her. As well, the CIA found no record of Greg because his legal name is Gaylord, not Gregory. Jack still believes that Greg is an unsuitable husband for Pam, but Dina lectures him about his consistent disapproval of any man whom Pam brings home. After hearing Pam make a heartfelt phone call to Greg, apologizing for not sticking up for him, Jack realizes that she truly loves him.\n\nJack rushes to the airport and convinces security to release Greg. The two make peace with each other, and Greg admits his fear of not living up to Jack's unattainable standards. After ensuring Greg's loyalty and devotion to Pam, Jack finally accepts him and asks him to be his son-in-law.\n\nAfter returning to the Byrneses' home, Greg proposes to Pam while Jack and Dina listen from their bedroom, agreeing that they should now meet his parents. After Debbie's wedding, Jack views footage of Greg recorded by hidden cameras that he had placed around the house, but when Greg finds one of the cameras, he vents his frustrations with Jack.",
+ "synopsis_words": 755,
+ "episodes": [
+  {
+   "number": 381,
+   "date": "2024-11-11",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Hanks",
+   "verdict_tone": "hanks",
+   "host": "Bill Simmons",
+   "guests": [
+    "Kyle Brandt"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "daughter",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "wedding",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "airplane",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "central intelligence agency (cia)",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "hospital",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "airport",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "father-in-law",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "nurse",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "volleyball",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "cat",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "epistaxis",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "lost baggage",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "orderly",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "pavilion",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "urn",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Ben Stiller",
+   "films": 7
+  },
+  {
+   "name": "Robert De Niro",
+   "films": 14
+  },
+  {
+   "name": "Teri Polo",
+   "films": 2
+  },
+  {
+   "name": "Blythe Danner",
+   "films": 1
+  },
+  {
+   "name": "Nicole DeHuff",
+   "films": 1
+  },
+  {
+   "name": "Jon Abrahams",
+   "films": 0
+  },
+  {
+   "name": "Owen Wilson",
+   "films": 1
+  },
+  {
+   "name": "James Rebhorn",
+   "films": 2
+  },
+  {
+   "name": "Tom McCarthy",
+   "films": 0
+  },
+  {
+   "name": "Phyllis George",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "a1bab376-763a-4e05-a13d-d1b64124b0aa",
+   "title": "Austin Powers: International Man of Mystery",
+   "year": 1997,
+   "poster": "5uD4dxNX8JKFjWKYMHyOsqhi5pN.jpg"
+  },
+  {
+   "id": "c228e398-fe4f-453f-862d-e9e0eaa09e1c",
+   "title": "Austin Powers: The Spy Who Shagged Me",
+   "year": 1999,
+   "poster": "jiF7UShERJFn5RtgfBK2lIJrOTc.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "26e7964b-6217-4281-9aba-c2941435108d",
+   "title": "The Godfather Part II",
+   "year": 1974,
+   "poster": "sSuQTCZwqKrNBNIsksO9IAUoWP9.jpg"
+  },
+  {
+   "id": "13ba22b2-7c4a-49fd-a7fc-8426a954f2d4",
+   "title": "Taxi Driver",
+   "year": 1976,
+   "poster": "ekstpH614fwDX8DUln1a2Opz0N8.jpg"
+  },
+  {
+   "id": "97c1441f-5968-4993-a58f-c45241b91194",
+   "title": "The Untouchables",
+   "year": 1987,
+   "poster": "tPq0R4jTO4Ey8ZspFaWK9wGA4Ls.jpg"
+  },
+  {
+   "id": "6f26882f-c201-44f1-9f7e-be45514d9ee6",
+   "title": "Midnight Run",
+   "year": 1988,
+   "poster": "yx0touyDQ9enWDsFgS4MbBwCSNd.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Meet_the_Parents",
+  "wikidata": "Q623724"
+ }
+}

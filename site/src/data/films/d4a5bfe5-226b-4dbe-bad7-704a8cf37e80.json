@@ -1,0 +1,188 @@
+{
+ "id": "d4a5bfe5-226b-4dbe-bad7-704a8cf37e80",
+ "title": "Disclosure",
+ "year": 1994,
+ "poster": "9e8cp3ho2aZrHMFgitysCoJxXwP.jpg",
+ "tmdb_id": 8984,
+ "directors": [
+  "Barry Levinson"
+ ],
+ "director_primary": "Barry Levinson",
+ "genres": [
+  "Thriller",
+  "Drama",
+  "Crime"
+ ],
+ "runtime": 128,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2024-12-09",
+ "last": "2024-12-09",
+ "scores": {
+  "tmdb": 6.248,
+  "rt": 59.0,
+  "ebert": 2.0,
+  "box_office": "$453.0M",
+  "multiple": 3.891183436363636,
+  "cpi_year": 2024
+ },
+ "plot": "A computer specialist is sued for sexual harassment by a former lover turned boss who initiated the act forcefully, which threatens both his career and his personal life.",
+ "synopsis": "Bob Garvin, the founder and CEO of the technology company DigiCom, plans to retire following a merger with a textbook company. Manufacturing chief Tom Sanders expects to be promoted to run DigiCom after the merger. Instead, Meredith Johnson, Tom's ex-girlfriend, is brought on as Garvin's heir apparent, as Garvin wanted to \"break the glass ceiling\". After calling Tom to her office to discuss a manufacturing problem with a new line of CD-ROM drives, Meredith seduces him. He allows her to perform oral sex but rebuffs her attempts for intercourse. As Tom leaves, Meredith threatens him.\n\nThe next morning, Tom discovers that Meredith has filed a sexual harassment complaint against him with the help of the legal counsel Philip Blackburn. To save the merger from a scandal, causing Garvin to lose $100 million if the deal falls through, DigiCom officials demand that Tom accept reassignment to Texas. If Tom accepts, he will lose his stock options, his career will be ruined and he will be left jobless when the other location is sold following the merger.\n\nTom receives an anonymous e-mail from \"A Friend\" directing him to Catherine Alvarez, an attorney specializing in sexual harassment cases. Tom decides to sue DigiCom, alleging Meredith harassed him, which causes animosity with his wife Susan Hendler and colleagues. At the initial mediation, a tearful Meredith lies and blames Tom. Garvin, believing the merger will fail without her, proposes Tom drop the lawsuit in exchange for keeping his position.\n\nTom realizes he misdialed a number on his cell phone during the encounter with Meredith, recording the entire event on  colleague Mark Lewyn's voicemail. Tom rejects Garvin's proposal and plays the recording at the next meeting, discrediting Meredith. Meredith defends her behavior, saying that Tom's protests in the recording were expressions of a desire to be dominated.\n\nDigiCom agrees to a settlement calling for Meredith to be quietly removed after the merger. As Tom celebrates, he receives another e-mail from \"A Friend\" warning him that all is not what it seems. Tom overhears Blackburn telling Meredith that although they lost the sexual harassment suit, they will make Tom look incompetent at the next morning's merger conference since Tom is unaware of the cause of problems on the CD-ROM production line in Malaysia. Since the production line is Tom's responsibility, he can be fired for cause.\n\nAccessing the company database for clues, Tom finds his access privileges revoked. Using a virtual reality device with access to the company database, he accesses DigiCom's files but finds that Meredith is already deleting them. Tom's Malaysian colleague Mohammed Jafar faxes him copies of incriminating memos and videos. They show that Meredith and one of the heads of operations in Malaysia changed Tom's production specifications to gain the Malaysian government's favor and cut costs to make DigiCom appear more profitable to complete the merger. These changes caused problems with the CD-ROM line. To save her career and cover for her mistakes, Meredith, with Blackburn's support, staged the sexual encounter with Tom in hopes of forcing him out of the company.\n\nWhen Tom makes his presentation at the conference, Meredith brings up the production problems, saying they were his responsibility. Tom states that she made the changes that led to the problems. When she denies having even been to the plant, Tom plays Malaysian news footage of her visiting the production line. Meredith is fired. While cleaning out her office, Meredith reveals to Tom that she has become disillusioned with Garvin following his unexpected turn against her and refuses to accept accountability for her mistakes.\n\nGarvin announces the merger's completion and names corporate counsel Stephanie Kaplan to head up the Seattle operation, a decision Tom supports. Stephanie makes Tom her second-in-command. Tom asks Stephanie's son, Spencer, a University of Washington student, if he knows \"A Friend\". Spencer confirms he is Professor Arthur Friend's research assistant at the university. Tom realizes that Spencer had access to Friend's email account, enabling Stephanie to warn Tom as \"A Friend\". He happily resumes his position as head of manufacturing.",
+ "synopsis_words": 673,
+ "episodes": [
+  {
+   "number": 384,
+   "date": "2024-12-09",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Cruise",
+   "verdict_tone": "cruise",
+   "host": "Bill Simmons",
+   "guests": [
+    "Van Lathan",
+    "Wosny Lambre"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "erotic thriller",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "seattle, washington",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "employee",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "sexual harassment",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "computer technology",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "intrigue",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "workplace",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Michael Douglas",
+   "films": 7
+  },
+  {
+   "name": "Demi Moore",
+   "films": 6
+  },
+  {
+   "name": "Donald Sutherland",
+   "films": 2
+  },
+  {
+   "name": "Dylan Baker",
+   "films": 2
+  },
+  {
+   "name": "Jacqueline Kim",
+   "films": 1
+  },
+  {
+   "name": "Roma Maffia",
+   "films": 0
+  },
+  {
+   "name": "Caroline Goodall",
+   "films": 0
+  },
+  {
+   "name": "Rosemary Forsyth",
+   "films": 0
+  },
+  {
+   "name": "Dennis Miller",
+   "films": 0
+  },
+  {
+   "name": "Suzie Plakson",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "6f09eb61-5ba8-40ee-ba33-d46a41e0a1ea",
+   "title": "The Natural",
+   "year": 1984,
+   "poster": "fwn1gYeOkS1XHKVFdNorKSIpix8.jpg"
+  },
+  {
+   "id": "45a3a5b4-f0de-4614-bdc7-d2fc92010ad1",
+   "title": "Rain Man",
+   "year": 1988,
+   "poster": "iTNHwO896WKkaoPtpMMS74d8VNi.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "22db8254-c71d-49fa-a521-b4883ef8ef0d",
+   "title": "Ordinary People",
+   "year": 1980,
+   "poster": "tJVETEDAKgD3fEh88SHOvMvOQue.jpg"
+  },
+  {
+   "id": "9df23d70-9ffb-4f51-8cab-a3f03808babb",
+   "title": "St. Elmo's Fire",
+   "year": 1985,
+   "poster": "g2SL3XHJas7hebZ2hhTrYLpKToD.jpg"
+  },
+  {
+   "id": "97e42db9-1dea-49eb-a01c-13d9a89929e5",
+   "title": "About Last Night...",
+   "year": 1986,
+   "poster": "9KqG5OFi3NLJYBbsDSA8pZ3dln.jpg"
+  },
+  {
+   "id": "ea73bdcc-b9d5-40f4-b542-8e2c1f5e2510",
+   "title": "Fatal Attraction",
+   "year": 1987,
+   "poster": "vjB9XwJKnYqFKKjhWcE6WpAf5Ki.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Disclosure_%281994_film%29",
+  "wikidata": "Q1330619"
+ }
+}

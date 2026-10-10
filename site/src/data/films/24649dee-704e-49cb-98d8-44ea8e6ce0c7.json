@@ -1,0 +1,246 @@
+{
+ "id": "24649dee-704e-49cb-98d8-44ea8e6ce0c7",
+ "title": "Ferris Bueller's Day Off",
+ "year": 1986,
+ "poster": "9LTQNCvoLsKXP0LtaKAaYVtRaQL.jpg",
+ "tmdb_id": 9377,
+ "directors": [
+  "John Hughes"
+ ],
+ "director_primary": "John Hughes",
+ "genres": [
+  "Comedy"
+ ],
+ "runtime": 103,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2020-04-21",
+ "last": "2020-04-21",
+ "scores": {
+  "tmdb": 7.562,
+  "rt": 83.0,
+  "ebert": 3.0,
+  "box_office": "$200.6M",
+  "multiple": 11.683333333333334,
+  "cpi_year": 2024
+ },
+ "plot": "After high school slacker Ferris Bueller successfully fakes an illness in order to skip school for the day, he goes on a series of adventures throughout Chicago with his girlfriend Sloane and best friend Cameron, all the while trying to outwit his wily school principal and fed-up sister.",
+ "synopsis": "As the movie opens, high school senior Ferris Bueller decides to skip school on a nice spring day by faking an illness to his parents, then encourages his girlfriend, Sloane Peterson and his pessimistic best friend, Cameron Frye to spend the day in Chicago as one of their last flings before they head off to different colleges. Ferris persuades Cameron to let them use his father's prized 1961 Ferrari 250 GT California convertible to drive into the city. The rest of the school and many residents learn of Ferris' exaggerated illness and offer donations to help \"Save Ferris\". Only two people are not convinced by Ferris's deception: his often sarcastic sister Jeanie, outraged at Ferris's ability to defy authority easily, and the school's Dean of Students, Edward Rooney, who believes Ferris to be truant. Ferris and his friends arrive downtown and leave the Ferrari with two garage attendants, who drive off in it, and take it for a joyride a short time later. Ferris, Sloane and Cameron enjoy many sights of the city, including a Cubs game at Wrigley Field, visits to the Sears Tower, the Art Institute of Chicago, and the Chicago Mercantile Exchange as well as taking part in the Von Steuben Day Parade, where Ferris lip-syncs to \"Danke Schoen\" and The Beatles' version of \"Twist and Shout\" while riding on a parade float. Ferris even uses his ploys to pretend he is Abe Froman, the Sausage King of Chicago, to dine at an upscale restaurant, Chez Quis, while narrowly avoiding his father, who is on his way to lunch with business associates. Meanwhile, Mr. Rooney goes off-campus to try to find Ferris, first at a local hangout, then at Ferris's home. He tries to gain entry but gets stuck in the mud and loses his shoe while being chased by the family's dog. He eventually gains access but Jeanie comes home trying to find Ferris and discovers Mr. Rooney in the kitchen, mistaking him for a burglar. She high-kicks him in the face and runs upstairs to call the police. This forces Mr. Rooney to flee the scene, dropping his wallet in the process. When the police show up, they take Jeanie in for prank calling and while at the police station, she talks to a drug addict, who tells her that she needs to stop worrying so much about Ferris and more about herself. Jeanie becomes increasingly annoyed with the addict but is found kissing him when her mother arrives to pick her up, upset at having to do so. At the end of the day, Ferris and his friends retrieve the Ferrari, but discover on the way home that hundreds of miles have been added to the odometer. This sends Cameron into a panic and Ferris says to the audience, \"This is where Cameron goes berserk\" just before Cameron emits a scream of terror, fearing his father's reaction. Cameron goes temporarily catatonic, and tries to drown himself in the Bueller's pool before Ferris saves him. After calming him down, Ferris comes up with a plan to run the car's engine in reverse inside Cameron's father's hillside garage, hoping to undo the mileage on the odometer. When they realize this is not working, Cameron unleashes his pent-up anger against his father, kicking and damaging the front of the Ferrari. He realizes it is high time to stand up to his father and vows to accept the consequences of the damage he has done. He calms down and leans against the car, which is still running in reverse gear, and it falls off the jack and crashes through the glass wall of the garage, landing in a ravine behind the house. Despite Ferris' offer to take the blame, Cameron still plans to \"take the heat\" and admit his actions to his father. Ferris walks Sloane home, before realizing he must get home within five minutes. He then races through the backyards of his neighborhood to get back home before his parents. Along the way, he has several close encounters with his family members driving home, but his parents do not notice him. When he arrives home, he is unable to find the house key under the doormat and instead finds Mr. Rooney with the key, saying \"Looking for this?\" Mr. Rooney then explains to Ferris how he has waited for this day and tells him to expect another year of high school. However, Jeanie finds the two, thanks Mr. Rooney for \"driving Ferris back from the hospital\" and shows him the wallet that he left behind when he broke in earlier, throwing it in the mud. Mr. Rooney gets attacked by the dog, leaving Ferris with enough time to get back into bed just before his parents check on him. As the credits are rolling, Mr. Rooney, in his disheveled state, is invited by a bus driver to hitch a ride back to school on a school bus as it drives students home. Later, at the end of the credits, Ferris emerges from the bathroom, saying directly to the audience, \"You're still here? It's over. Go home. Go!\"",
+ "synopsis_words": 851,
+ "episodes": [
+  {
+   "number": 133,
+   "date": "2020-04-21",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Sean Fennessey"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "chicago, illinois",
+   "reach": 19,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "aftercreditsstinger",
+   "reach": 18,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "1980s",
+   "reach": 12,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "teenager",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "teen movie",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "breaking the fourth wall",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "caper",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "optimistic",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "independence",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "sincere",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "car theft",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "fantasy sequence",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "irreverent",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "day in a life",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "skipping school",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "truancy",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Matthew Broderick",
+   "films": 2
+  },
+  {
+   "name": "Alan Ruck",
+   "films": 1
+  },
+  {
+   "name": "Mia Sara",
+   "films": 1
+  },
+  {
+   "name": "Jeffrey Jones",
+   "films": 2
+  },
+  {
+   "name": "Jennifer Grey",
+   "films": 1
+  },
+  {
+   "name": "Cindy Pickett",
+   "films": 0
+  },
+  {
+   "name": "Lyman Ward",
+   "films": 0
+  },
+  {
+   "name": "Edie McClurg",
+   "films": 0
+  },
+  {
+   "name": "Charlie Sheen",
+   "films": 2
+  },
+  {
+   "name": "Ben Stein",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "fb6e9d15-8c21-486a-a710-cfbf6f8eedfe",
+   "title": "The Breakfast Club",
+   "year": 1985,
+   "poster": "gp4zlj7wgbiofLMNsTPndMuO3PN.jpg"
+  },
+  {
+   "id": "9b965337-c0e4-4425-b782-3b0a16ed3daf",
+   "title": "Weird Science",
+   "year": 1985,
+   "poster": "AsFxOHwUlK7mTOkC5p6SySsdEjz.jpg"
+  },
+  {
+   "id": "8efc1e83-393e-4bc4-a580-81ca6b8abd6d",
+   "title": "Planes, Trains and Automobiles",
+   "year": 1987,
+   "poster": "fwi2cET87xArJCb8MdbWq2BZO3n.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "4f9edf30-0dfb-4462-85ba-7a9d53c16018",
+   "title": "The Devil's Advocate",
+   "year": 1997,
+   "poster": "5ZzBGpxy55OQzHxKVY11IpY6a0o.jpg"
+  },
+  {
+   "id": "296e980e-517e-446d-a13b-dd9bff4b471d",
+   "title": "Election",
+   "year": 1999,
+   "poster": "fbo0IYzBc32dD5SjFzKIgfp4O4F.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Ferris_Bueller%27s_Day_Off",
+  "wikidata": "Q498906"
+ }
+}

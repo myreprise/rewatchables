@@ -1,0 +1,224 @@
+{
+ "id": "23d9e218-1f41-4724-adf9-5433694c137a",
+ "title": "Get Out",
+ "year": 2017,
+ "poster": "tFXcEccSQMf3lfhfXKSU9iRBpa3.jpg",
+ "tmdb_id": 419430,
+ "directors": [
+  "Jordan Peele"
+ ],
+ "director_primary": "Jordan Peele",
+ "genres": [
+  "Mystery",
+  "Thriller",
+  "Horror"
+ ],
+ "runtime": 104,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2018-02-27",
+ "last": "2018-02-27",
+ "scores": {
+  "tmdb": 7.625,
+  "rt": 98.0,
+  "ebert": null,
+  "box_office": "$326.9M",
+  "multiple": 56.757326444444445,
+  "cpi_year": 2024
+ },
+ "plot": "Chris and his girlfriend Rose go upstate to visit her parents for the weekend. At first, Chris reads the family's overly accommodating behavior as nervous attempts to deal with their daughter's interracial relationship, but as the weekend progresses, a series of increasingly disturbing discoveries lead him to a truth that he never could have imagined.",
+ "synopsis": "On a suburban street at night, a Black man walks alone, talking on his phone. After a car approaches him, the man, sensing trouble, attempts to escape, but is subdued, dragged into the car and driven away.\n\nSix months later, Black photographer Chris Washington travels to upstate New York for a weekend getaway to meet the family of his white girlfriend, Rose Armitage. Upon arrival, he has uncomfortable conversations with Rose's father Dean, a neurosurgeon, and mother Missy, a psychiatrist. Later, Rose's brother Jeremy arrives, and Chris observes eerie behavior from the family's Black staff, Georgina and Walter.\n\nMissy manipulates Chris into an individual hypnotherapy session, using the sound of a spoon stirring in a teacup as a hypnotic trigger, ostensibly to cure his smoking habit. While entranced, he reveals that his mother died in a hit-and-run when he was 11 years old; he feels partially responsible, as he delayed calling for help. At Missy's prompting, his consciousness falls into a dark void she dubs the \"sunken place\", where his body becomes temporarily paralyzed. The next morning, he finds no longer has a desire to smoke.\n\nDozens of wealthy white guests arrive for the Armitages' annual get-together and continually make uncomfortable remarks toward Chris. Chris meets blind art dealer Jim Hudson, who takes an interest in his photography, and a Black man named Logan King. Like Walter and Georgina, Logan behaves unnaturally, and is married to a white woman thirty years his senior. When Chris photographs Logan with flash on, Logan lunges toward Chris, frantically telling him to \"get out.\" Dean removes him, later explaining the sudden erratic behavior as a seizure.\n\nChris confides in Rose about his worries, and both ultimately agree to return home. Meanwhile, as the party guests have a silent auction for a photo of him, Chris sends the photo of Logan to his friend, TSA officer Rod Williams. Rod recognizes Logan as Andre Hayworth, a missing man from Brooklyn. After discovering photos of Rose dating numerous Black individuals, including Walter and Georgina, he tries to leave, but Jeremy and Dean block the doors. Rose, revealing herself as an accomplice, refuses to give him his keys, and Missy hypnotizes him back to the sunken place.\n\nAwakening strapped to an armchair in the basement, Chris views a video in which Dean's father Roman explains that the Armitage family transplants the brains of wealthy white people into Black bodies to acquire their physical characteristics, leaving the host's consciousness trapped in the \"sunken place\". Jim then reveals that he is going to be transferred into Chris' body, but maintains that he does not care about the color of Chris' skin and only covets a body with working eyesight. Meanwhile, Rod consults the police, who laugh off his theory about the Armitages.\n\nIn another room, Dean begins the transplantation process, removing the top of Jim's skull. Jeremy arrives to retrieve Chris, who has seemingly been hypnotized by a clip of the teacup sound earlier, but Chris awakens and bludgeons him—having blocked the trigger by plugging his ears with cotton stuffing from the armchair. Chris kills Dean, who sets the operating room ablaze, then attacks Missy, before overpowering Jeremy when he attacks again. Attempting to escape in Jeremy's Porsche, Chris accidentally hits Georgina, who possesses the brain of Rose's grandmother Marianne. Reminded of his own mother's death, Chris guiltily takes her into the car, but she reawakens and attacks him, causing the car to crash and kill her.\n\nRose and Walter, who possesses Roman's brain, arrive to capture Chris. During a scuffle, Chris uses his phone's flash to free Walter from Roman's control. Walter shoots Rose with her rifle, then fatally shoots himself. Chris begins strangling Rose, but relents when she manipulatively pleads for her life and promises she loves him. A police car arrives; Rose cries out for help, but Rod emerges from the car and picks up Chris, leaving Rose to bleed out on the road.",
+ "synopsis_words": 657,
+ "episodes": [
+  {
+   "number": 26,
+   "date": "2018-02-27",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Sean Fennessey",
+    "K. Austin Collins",
+    "Wesley Morris"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "revenge",
+   "reach": 30,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "kidnapping",
+   "reach": 12,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "psychological thriller",
+   "reach": 12,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "dark comedy",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "manipulation",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "satire",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "racism",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "missing person",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "horrified",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "disappearance",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "interracial relationship",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "racist",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "stereotype",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "brain surgery",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "externally controlled action",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "hypnosis",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "neurosurgeon",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "parents-in-law",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "race-conscious",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Daniel Kaluuya",
+   "films": 1
+  },
+  {
+   "name": "Allison Williams",
+   "films": 1
+  },
+  {
+   "name": "Catherine Keener",
+   "films": 2
+  },
+  {
+   "name": "Bradley Whitford",
+   "films": 1
+  },
+  {
+   "name": "Caleb Landry Jones",
+   "films": 1
+  },
+  {
+   "name": "Marcus Henderson",
+   "films": 0
+  },
+  {
+   "name": "Betty Gabriel",
+   "films": 0
+  },
+  {
+   "name": "LaKeith Stanfield",
+   "films": 0
+  },
+  {
+   "name": "Stephen Root",
+   "films": 0
+  },
+  {
+   "name": "Lil Rel Howery",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "b1ec3043-715d-4bb9-8e1c-271fa5ae39d8",
+   "title": "The 40 Year-Old Virgin",
+   "year": 2005,
+   "poster": "mVeoqL37gzhMXQVpONi9DGOQ3tZ.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Get_Out",
+  "wikidata": "Q25136235"
+ }
+}

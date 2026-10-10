@@ -1,0 +1,143 @@
+{
+ "id": "50a02b22-9aa5-46ac-b9c0-a2b6bd64b6d9",
+ "title": "Purple Rain",
+ "year": 1984,
+ "poster": "vkQmzaSuDj8QyXmwNhCceCAmwUe.jpg",
+ "tmdb_id": 13763,
+ "directors": [
+  "Albert Magnoli"
+ ],
+ "director_primary": "Albert Magnoli",
+ "genres": [
+  "Drama",
+  "Music",
+  "Romance"
+ ],
+ "runtime": 111,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2024-08-27",
+ "last": "2024-08-27",
+ "scores": {
+  "tmdb": 6.698,
+  "rt": 72.0,
+  "ebert": null,
+  "box_office": "$206.5M",
+  "multiple": 9.499024583333334,
+  "cpi_year": 2024
+ },
+ "plot": "A victim of his own anger, the Kid is a Minneapolis musician on the rise with his band, the Revolution, escaping a tumultuous home life through music. While trying to avoid making the same mistakes as his truculent father, the Kid navigates the club scene and a rocky relationship with a captivating singer, Apollonia. But another musician, Morris, looks to steal the Kid's spotlight -- and his girl.",
+ "synopsis": "The Kid is the talented but troubled frontman of his Minneapolis-based band The Revolution. To escape his abusive home life, The Kid spends his days rehearsing and nights performing at the First Avenue nightclub.\n\nThe Revolution, the flashy Morris Day and his group the Time, and Dez Dickerson and his group the Modernaires hold the nightclub's three house band slots. Morris, aware that the Revolution's guitarist Wendy and keyboardist Lisa are frustrated that The Kid is unwilling to play their compositions, lobbies Billy Sparks, the club's owner, to replace The Revolution with a girl group which Morris is already forming. Morris targets The Kid's girlfriend Apollonia, an aspiring singer and new arrival to Minneapolis, to lead his group, and tries to persuade her that The Kid is too self-centered to help her. She eventually joins Morris's group, which Morris names Apollonia 6. When Apollonia reveals her newfound partnership to The Kid, he becomes furious and slaps her.\n\nAt the club, The Kid responds to the band's internal strife, the pressure to draw larger crowds, and his strained private life with the uncomfortably personal \"Darling Nikki\". His performance publicly humiliates Apollonia, who runs off in tears, and angers both Morris and Billy, worsening his situation. Billy confronts The Kid, castigating him for bringing his emotional baggage onto the stage, before warning him that he is wasting his musical talent as his father did. Apollonia 6 successfully debuts, and Billy warns The Kid that his First Avenue slot is at risk.\n\nThe Kid seizes Apollonia from a drunken Morris, leading them to argue and fight; Apollonia then abandons him. Returning home, The Kid finds the house in tatters, with his mother nowhere to be found. His abusive father, who had been lurking in the basement with a loaded handgun, attempts suicide with a gunshot to his head. Frenzied after a night of torment, The Kid tears apart the basement to release his frustration, only to find a large box of his father's musical compositions. The next morning, The Kid picks up a cassette tape of one of Wendy and Lisa's compositions, a rhythm track named \"Slow Groove\", and begins to compose.\n\nThat night at First Avenue, all is quiet in the Revolution's dressing room until the Time stops by to taunt The Kid. Once on stage, The Kid announces that he will be playing \"a song the girls in the band wrote\", dedicated to his father, revealed to be \"Purple Rain\". As the song ends, The Kid rushes from the stage and out the back door of the club, intending to ride away on his motorcycle; before he can, however, The Kid realizes that \"Purple Rain\" has thrilled the crowd.\n\nThe Kid returns to the club, with his fellow musicians greeting him with approval and a teary-eyed Apollonia embracing him. The Kid returns to the stage for two encores with the Revolution (\"I Would Die 4 U\" and \"Baby I'm a Star\") to the wild approval of the crowd and even Morris. Overlaid scenes show The Kid visiting his parents in the hospital and sorting his father's compositions in the basement, accompanied by Apollonia. A montage of all the songs plays as the credits roll.",
+ "synopsis_words": 533,
+ "episodes": [
+  {
+   "number": 371,
+   "date": "2024-08-27",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Cruise",
+   "verdict_tone": "cruise",
+   "host": "Bill Simmons",
+   "guests": [
+    "Wesley Morris"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "anxious",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "commanding",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "vibrant",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "suicide attempt",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "pop star",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "aspiring singer",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  }
+ ],
+ "cast": [
+  {
+   "name": "Prince",
+   "films": 1
+  },
+  {
+   "name": "Apollonia Kotero",
+   "films": 1
+  },
+  {
+   "name": "Morris Day",
+   "films": 1
+  },
+  {
+   "name": "Jerome Benton",
+   "films": 1
+  },
+  {
+   "name": "Olga Karlatos",
+   "films": 1
+  },
+  {
+   "name": "Clarence Williams III",
+   "films": 0
+  },
+  {
+   "name": "Billy Sparks",
+   "films": 0
+  },
+  {
+   "name": "Wendy Melvoin",
+   "films": 0
+  },
+  {
+   "name": "Lisa Coleman",
+   "films": 0
+  },
+  {
+   "name": "Bobby Z",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Purple_Rain_%28film%29",
+  "wikidata": "Q1754021"
+ }
+}

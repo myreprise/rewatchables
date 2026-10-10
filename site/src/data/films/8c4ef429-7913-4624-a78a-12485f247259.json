@@ -1,0 +1,224 @@
+{
+ "id": "8c4ef429-7913-4624-a78a-12485f247259",
+ "title": "Groundhog Day",
+ "year": 1993,
+ "poster": "gCgt1WARPZaXnq523ySQEUKinCs.jpg",
+ "tmdb_id": 137,
+ "directors": [
+  "Harold Ramis"
+ ],
+ "director_primary": "Harold Ramis",
+ "genres": [
+  "Romance",
+  "Fantasy",
+  "Comedy"
+ ],
+ "runtime": 101,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2020-05-07",
+ "last": "2020-05-07",
+ "scores": {
+  "tmdb": 7.635,
+  "rt": 94.0,
+  "ebert": 4.0,
+  "box_office": "$154.4M",
+  "multiple": 4.8704642465753425,
+  "cpi_year": 2024
+ },
+ "plot": "A cynical TV weatherman, along with his idealistic producer and his sardonic cameraman, is sent to report on Groundhog Day in the small town of Punxsutawney, where he finds himself repeating the same day over and over.",
+ "synopsis": "On February 1, cynical television weatherman Phil Connors reassures his Pittsburgh viewers that an approaching blizzard will miss Western Pennsylvania. Alongside his new producer Rita Hanson and cameraman Larry, Phil travels to Punxsutawney for his annual coverage of the Groundhog Day festivities. He makes no secret of his contempt for the assignment, the small town, and the \"hicks\" who live there, asserting that he will soon leave his station for a new job.\n\nOn February 2, Phil awakens in the Cherry Street Inn to Sonny & Cher's \"I Got You Babe\" playing on the clock radio. He gives a half-hearted report on the groundhog Punxsutawney Phil and the festivities. Contrary to his prediction, the blizzard strikes the area, preventing all travel, and although he desperately searches for a way to leave, he is forced to spend the night in the town.\n\nThe next morning, Phil again awakens to \"I Got You Babe\" and the same DJ banter on the radio in his room at the Cherry Street Inn. He experiences the previous day's events repeating exactly and believes he is experiencing déjà vu. He again unsuccessfully attempts to leave the town and retires to bed, only to awaken on February 2 once more. Phil realizes that he is trapped in a time loop of which no one else is aware. He confides his situation to Rita, who directs him to a neurologist, who in turn directs him to a psychologist; neither can explain his experiences. He gets drunk with locals Gus and Ralph and then leads police on a high-speed car chase before being arrested and imprisoned; the next morning, Phil awakens in the Cherry Street Inn once again.\n\nRealizing that there are no consequences for his actions, Phil begins to spend his loops indulging in binge eating, one-night stands, and robbery, using his growing knowledge of the day's events and the town's residents to manipulate circumstances to his advantage. He eventually focuses on seducing the sweet-natured Rita, using the loops to learn more about her and exploit that knowledge. No matter what steps he takes, Rita rebuffs his advances, particularly when Phil tells her he loves her; she asserts that he does not even know her.\n\nPhil gradually becomes depressed and desperate for a way to escape the loop. He commits suicide in a variety of ways, including kidnapping Punxsutawney Phil and driving them both off a cliff. Each time, he reawakens on February 2. He tries to explain his situation to Rita again, using his detailed knowledge of the day to predict events accurately. Convinced, Rita spends the day with him and encourages him to view the loop as a blessing rather than a curse. As they lie on the bed together at night, Phil realizes that his feelings for Rita have become sincere. He wakes alone on February 2. He decides to use the loop to change himself and help others: he saves people from deadly accidents and misfortunes and learns to play the piano, sculpt ice, and speak French. Despite his efforts, however, he is haunted by his inability to prevent a homeless old man from dying of natural causes.\n\nDuring one iteration of the loop, Phil reports on the Groundhog Day festivities with such eloquence that other news crews stop working to listen, amazing Rita. Phil continues his day helping the people of Punxsutawney. That night, Rita witnesses Phil's expert piano-playing as the adoring townsfolk regale her with stories of his good deeds. Impressed by his apparent overnight transformation, Rita successfully bids for him at a charity bachelor auction. Phil carves an ice sculpture in Rita's image and tells her that no matter what happens, even if he is trapped in the loop forever, he is finally happy because he loves her. They share a kiss and retire to his room.\n\nPhil wakes the next morning to find Rita still in bed with him; it is now February 3. He tells Rita he wants to live in Punxsutawney with her.",
+ "synopsis_words": 665,
+ "episodes": [
+  {
+   "number": 138,
+   "date": "2020-05-07",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Sean Fennessey",
+    "Issa Rae"
+   ],
+   "note": "Rog originally gave it 3/4 stars, but re-assessed in 2005"
+  }
+ ],
+ "keywords": [
+  {
+   "word": "holiday",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "pennsylvania, usa",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "winter",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "deja vu",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "magic realism",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "time loop",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "alarm clock",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "existentialism",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "february",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "groundhog",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "groundhog day",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "telecaster",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "time warp",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "weather forecast",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Bill Murray",
+   "films": 6
+  },
+  {
+   "name": "Andie MacDowell",
+   "films": 1
+  },
+  {
+   "name": "Chris Elliott",
+   "films": 2
+  },
+  {
+   "name": "Stephen Tobolowsky",
+   "films": 2
+  },
+  {
+   "name": "Brian Doyle-Murray",
+   "films": 1
+  },
+  {
+   "name": "Marita Geraghty",
+   "films": 0
+  },
+  {
+   "name": "Angela Paton",
+   "films": 0
+  },
+  {
+   "name": "Rick Ducommun",
+   "films": 0
+  },
+  {
+   "name": "Rick Overton",
+   "films": 0
+  },
+  {
+   "name": "Robin Duke",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "2337417a-5763-4bd7-9ba2-e3d83574b9d2",
+   "title": "Caddyshack",
+   "year": 1980,
+   "poster": "lXnNz7zOXCsftMDVoU3VSo0Eioi.jpg"
+  },
+  {
+   "id": "c295ebe0-fa1e-4f6b-aeb1-6200409f6712",
+   "title": "National Lampoon's Vacation",
+   "year": 1983,
+   "poster": "q3DvoqY06yZnRp9faH6uge7n7VP.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "2337417a-5763-4bd7-9ba2-e3d83574b9d2",
+   "title": "Caddyshack",
+   "year": 1980,
+   "poster": "lXnNz7zOXCsftMDVoU3VSo0Eioi.jpg"
+  },
+  {
+   "id": "738ede6d-f6cf-4362-9071-80c8ea28ad2b",
+   "title": "Stripes",
+   "year": 1981,
+   "poster": "toyyN62VLUXoUudFbHPdrrmRFSZ.jpg"
+  },
+  {
+   "id": "8498541b-3c4d-4fa0-b7ad-84b9b74bc647",
+   "title": "Ghostbusters",
+   "year": 1984,
+   "poster": "7E8nLijS9AwwUEPu2oFYOVKhdFA.jpg"
+  },
+  {
+   "id": "3c449273-fe0f-49a9-a66d-fc6c986b9ec9",
+   "title": "What About Bob?",
+   "year": 1991,
+   "poster": "pFCrGGGhV5xeAdvEysv6aSv8T13.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Groundhog_Day_%28film%29",
+  "wikidata": "Q488655"
+ }
+}

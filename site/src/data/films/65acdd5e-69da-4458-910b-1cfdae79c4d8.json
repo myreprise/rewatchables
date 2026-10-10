@@ -1,0 +1,194 @@
+{
+ "id": "65acdd5e-69da-4458-910b-1cfdae79c4d8",
+ "title": "Say Anything...",
+ "year": 1989,
+ "poster": "nkucKciFGSRalw6dJtsglWqOXMC.jpg",
+ "tmdb_id": 2028,
+ "directors": [
+  "Cameron Crowe"
+ ],
+ "director_primary": "Cameron Crowe",
+ "genres": [
+  "Romance",
+  "Comedy",
+  "Drama"
+ ],
+ "runtime": 100,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2020-06-10",
+ "last": "2020-06-10",
+ "scores": {
+  "tmdb": 7.0,
+  "rt": 98.0,
+  "ebert": 4.0,
+  "box_office": "$50.7M",
+  "multiple": 1.2522960625,
+  "cpi_year": 2024
+ },
+ "plot": "Average student and eternal optimist Lloyd Dobler seeks to capture the heart of Diane Court, a beautiful but unattainable valedictorian classmate. He surprises just about everyone - including himself - when she returns the sentiment. However, Diane's divorced, over-protective father soon begins to disapprove of the match, and Lloyd realises that it's going to take more than just the power of love to conquer all.",
+ "synopsis": "At the end of their high school senior year, noble underachiever Lloyd Dobler is smitten with valedictorian Diane Court. He plans to ask her out, although they belong to different social groups.\n\nLloyd's parents are stationed in Germany in the U.S. Army, so he lives with his sister Constance, a single mother, and still has no plans for his future. Diane comes from a sheltered academic upbringing, living with her doting divorced father Jim, who owns the retirement home where she works. She will take up a prestigious fellowship in England at the end of the summer.\n\nLloyd offers to take Diane to their graduation party. She agrees, to everyone's surprise. Their next \"date\" is a dinner at Diane's, where Lloyd fails to impress Jim, and IRS agents arrive unexpectedly to inform the latter he is under scrutiny for tax fraud.\n\nDiane introduces Lloyd to the retirement home residents and he teaches her to drive her manual transmission Ford Tempo graduation gift. They grow closer and lose their virginity together in the car, to her father's concern. Lloyd's musician best friend Corey, who has never overcome her unfaithful ex-boyfriend Joe, warns him to take care of Diane.\n\nJim urges Diane to break up with Lloyd, feeling he is not an appropriate match, and suggests she give him a pen as a parting gift. Worried about her father, Diane tells Lloyd she wants to stop seeing him and concentrate on her studies, giving him the pen. Devastated, he seeks advice from Corey, who tells him to \"be a man\" because it takes more to be a \"man\" rather than just being a \"guy\". Meanwhile, Jim discovers his credit cards are declined as the investigation continues.\n\nAt dawn, Lloyd stands under Diane's open bedroom window and plays \"In Your Eyes\" by Peter Gabriel on a boombox, which played when they had sex. The next day, she meets with an IRS investigator, who says they have evidence incriminating Jim with embezzling funds from his retirement home residents. He suggests she accept the fellowship as matters with her father will only worsen.\n\nDiane finds the cash concealed at home and confronts Jim, who tells her he took it to give her financial independence. He feels justified in doing so, insisting he provided better care of his residents than their families. Distraught, Diane reconciles with Lloyd at his kickboxing gym.\n\nAt the end of the summer, Jim is incarcerated on a nine-month sentence after accepting a plea deal. Lloyd visits him at the prison, saying he is accompanying Diane to England. Jim reacts angrily when Lloyd gives him a letter from Diane, but she arrives to say goodbye and they embrace. She gives Jim the pen he had suggested she give to Lloyd, asking him to write to her in England. Lloyd supports and comforts Diane, who is afraid of flying, on their flight.",
+ "synopsis_words": 479,
+ "episodes": [
+  {
+   "number": 144,
+   "date": "2020-06-10",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Judd Apatow"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "opposites attract",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "seattle, washington",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "teenage love",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "high school graduation",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "kickboxer",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "teenage angst",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "teenage crush",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "valedictorian",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "John Cusack",
+   "films": 4
+  },
+  {
+   "name": "Ione Skye",
+   "films": 1
+  },
+  {
+   "name": "John Mahoney",
+   "films": 3
+  },
+  {
+   "name": "Lili Taylor",
+   "films": 4
+  },
+  {
+   "name": "Amy Brooks",
+   "films": 1
+  },
+  {
+   "name": "Pamela Adlon",
+   "films": 0
+  },
+  {
+   "name": "Jason Gould",
+   "films": 0
+  },
+  {
+   "name": "Loren Dean",
+   "films": 1
+  },
+  {
+   "name": "Johnny Green",
+   "films": 0
+  },
+  {
+   "name": "Jeremy Piven",
+   "films": 2
+  }
+ ],
+ "by_director": [
+  {
+   "id": "2eea75b1-5cfc-492f-be2d-8bd444c1cb17",
+   "title": "Singles",
+   "year": 1992,
+   "poster": "4T7OKBdkNBorRKWw7VSeuA225z1.jpg"
+  },
+  {
+   "id": "399889d0-8a3b-41e4-8940-f3f952adc67c",
+   "title": "Jerry Maguire",
+   "year": 1996,
+   "poster": "lABvGN7fDk5ifnwZoxij6G96t2w.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "33a1783b-9112-40a7-9ac0-2c37a7ab689a",
+   "title": "The Sure Thing",
+   "year": 1985,
+   "poster": "a9cuohQn5kczi4htWZAZjEZvXkZ.jpg"
+  },
+  {
+   "id": "f67162f9-5195-4872-b57e-94cf13358a98",
+   "title": "Rudy",
+   "year": 1993,
+   "poster": "fAbfTCRpjHe2rprXBly55KL1dL9.jpg"
+  },
+  {
+   "id": "58580cb5-0415-4077-950b-49a1ff0dc520",
+   "title": "Ransom",
+   "year": 1996,
+   "poster": "4nmOA5ZOY2VlHzwSlKY03sF2JUz.jpg"
+  },
+  {
+   "id": "d491ff41-9e91-415f-8c27-2fbd2f4a3863",
+   "title": "Primal Fear",
+   "year": 1996,
+   "poster": "qJf2TzE8nRTFbFMPJNW6c8mI0KU.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-09-29",
+  "wikipedia": "https://en.wikipedia.org/wiki/Say_Anything...",
+  "wikidata": "Q963713"
+ }
+}
