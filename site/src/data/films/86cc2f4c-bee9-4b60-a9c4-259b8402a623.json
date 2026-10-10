@@ -1,0 +1,302 @@
+{
+ "id": "86cc2f4c-bee9-4b60-a9c4-259b8402a623",
+ "title": "Once Upon a Time... in Hollywood",
+ "year": 2019,
+ "poster": "8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg",
+ "tmdb_id": 466272,
+ "directors": [
+  "Quentin Tarantino"
+ ],
+ "director_primary": "Quentin Tarantino",
+ "genres": [
+  "Comedy",
+  "Drama",
+  "Thriller"
+ ],
+ "runtime": 162,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2020-02-06",
+ "last": "2020-02-06",
+ "scores": {
+  "tmdb": 7.42,
+  "rt": 86.0,
+  "ebert": null,
+  "box_office": "$483.2M",
+  "multiple": 4.145996747368421,
+  "cpi_year": 2024
+ },
+ "plot": "Los Angeles, 1969. TV star Rick Dalton, a struggling actor specializing in westerns, and stuntman Cliff Booth, his best friend, try to survive in a constantly changing movie industry. Dalton is the neighbor of the young and promising actress and model Sharon Tate, who has just married the prestigious Polish director Roman Polanski…",
+ "synopsis": "In February 1969, Hollywood actor Rick Dalton, a former Western TV star, copes with a fading career, his most recent roles being guest appearances as TV villains. Agent Marvin Schwarz suggests working in spaghetti Westerns in Italy, which Rick considers inferior.\n\nRick's best friend, stunt double, personal assistant, and driver is Cliff Booth, a World War II special ops veteran living in a trailer with his pit bull Brandy. Cliff struggles to find stunt work due to a past altercation with Bruce Lee and rumors that he murdered his wife. Although he does not know them personally, Rick is aware that young actress Sharon Tate and her husband, director Roman Polanski, live next door. Rick longs to befriend them, thinking it could reignite his career.\n\nWhile fixing the TV antenna on Rick's roof, Cliff notices a hippie arriving at the Polanski residence. The man, Charles Manson, asks for music producer Terry Melcher, but Tate's friend, Jay Sebring, says Melcher has moved. Later, Tate watches herself in The Wrecking Crew at a local film theater. Cliff gives hitchhiker Pussycat a ride to Spahn Ranch, a former Western film set where Cliff did stunt work.\n\nCliff checks on George Spahn, the ranch's nearly blind owner, seeking to make sure the hippies living there are not exploiting him. Cliff physically forces ranch hippie Clem to change his car tire after it was deliberately punctured. The hippies' leader Tex is summoned to deal with the situation, but he does not arrive until Cliff is driving away.\n\nWhile filming an episode for the TV series Lancer, Rick struggles to deliver his lines, causing him to have an emotional breakdown in his trailer. He later gives a powerful performance during his character's speech, impressing director Sam Wanamaker and his co-star Trudi, boosting his confidence.\n\nSchwarz books Rick to star in a Sergio Corbucci spaghetti Western. Cliff accompanies Rick for the six-month shoot in Italy, where Rick films three additional films and marries Italian starlet Francesca Capucci. Before returning to the US, a troubled Rick tells Cliff that he can no longer afford his salary, which Cliff amicably understands.\n\nReturning to Los Angeles on August 8, 1969, Rick and Cliff go drinking to commemorate their time together. Returning to Rick's house, Cliff smokes an acid-laced cigarette and takes Brandy for a walk, while Rick makes margaritas. Manson's followers Tex, Sadie, Katie and Flowerchild arrive to murder the Tate house occupants. Hearing a car's loud muffler, an enraged Rick orders the group off the private street. Recognizing him, the family members decide to kill him instead, when Sadie reasons that through television shows such as Rick's, Hollywood has \"taught them to murder\".\n\nFlowerchild deserts the group, fleeing with their car. Breaking into Rick's house armed with knives and a gun, the remaining group confronts Capucci and Cliff, with Tex announcing that he is “the Devil and here to do the Devil’s business”. Cliff recognizes them from Spahn Ranch and orders Brandy to attack. Brandy mauls Tex and bites off his genitals, and Cliff finishes him off by stomping him to death. He is stabbed by Katie, but swiftly beats her to death using random objects around the home. Brandy attacks and disfigures Sadie, who crashes through the back garden and startles Rick, who has been listening to music and was totally unaware of the fighting inside. As Sadie attempts to shoot him, Rick retrieves a working stunt flamethrower from a shed and incinerates her with it.\n\nAfter the police have taken statements and an ambulance brings Cliff to the hospital, Sebring and Tate invite Rick to Tate's house for a drink.",
+ "synopsis_words": 603,
+ "episodes": [
+  {
+   "number": 117,
+   "date": "2020-02-06",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Sean Fennessey"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "buddy",
+   "reach": 14,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "nostalgic",
+   "reach": 13,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "1960s",
+   "reach": 12,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "male friendship",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "period drama",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "historical fiction",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "celebrity",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "movie business",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "cult",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "fame",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "hollywood",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "struggling actor",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "subjective",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "charles manson",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "filmmaking",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "hollywood, california",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "manson family murders",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "old hollywood",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "revisionist history",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "satanic cult",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "sharon tate",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "stunt double",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "western filmmaking",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Leonardo DiCaprio",
+   "films": 7
+  },
+  {
+   "name": "Brad Pitt",
+   "films": 9
+  },
+  {
+   "name": "Margot Robbie",
+   "films": 3
+  },
+  {
+   "name": "Emile Hirsch",
+   "films": 1
+  },
+  {
+   "name": "Margaret Qualley",
+   "films": 2
+  },
+  {
+   "name": "Timothy Olyphant",
+   "films": 0
+  },
+  {
+   "name": "Julia Butters",
+   "films": 0
+  },
+  {
+   "name": "Austin Butler",
+   "films": 0
+  },
+  {
+   "name": "Dakota Fanning",
+   "films": 1
+  },
+  {
+   "name": "Bruce Dern",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "ff9387b8-20a2-409c-a91d-89800222c64e",
+   "title": "Reservoir Dogs",
+   "year": 1992,
+   "poster": "xi8Iu6qyTfyZVDVy60raIOYJJmk.jpg"
+  },
+  {
+   "id": "fcabdcd0-caa5-4c4c-a1df-28b3d08acb6a",
+   "title": "Pulp Fiction",
+   "year": 1994,
+   "poster": "vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg"
+  },
+  {
+   "id": "8d61dc66-361c-4b35-b3d3-18894c64662e",
+   "title": "Inglourious Basterds",
+   "year": 2009,
+   "poster": "aupnPtagH9JVBuMrGEanf4iqXEQ.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "db4a07a7-8563-415a-b3a6-df44f1153ac7",
+   "title": "The Wolf of Wall Street",
+   "year": 2013,
+   "poster": "kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg"
+  },
+  {
+   "id": "8e9ca91f-adaa-41fd-ae62-f0585f088d92",
+   "title": "Se7en",
+   "year": 1995,
+   "poster": "191nKfP0ehp3uIvWqgPbFmI4lv9.jpg"
+  },
+  {
+   "id": "8e48da9c-0098-410e-979e-9c952cea1158",
+   "title": "Titanic",
+   "year": 1997,
+   "poster": "9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg"
+  },
+  {
+   "id": "b45d8cfe-b425-4028-a808-ac096036e582",
+   "title": "Fight Club",
+   "year": 1999,
+   "poster": "jSziioSwPVrOy9Yow3XhWIBDjq1.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+  "wikidata": "Q47300912"
+ }
+}

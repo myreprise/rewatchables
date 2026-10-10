@@ -1,0 +1,211 @@
+{
+ "id": "39f9ddbe-284a-4d59-ac8e-6c163901e3cd",
+ "title": "Vision Quest",
+ "year": 1985,
+ "poster": "l3g4e6ocqGA8aNL1hIrIVWLkljL.jpg",
+ "tmdb_id": 30069,
+ "directors": [
+  "Harold Becker"
+ ],
+ "director_primary": "Harold Becker",
+ "genres": [
+  "Drama",
+  "Romance"
+ ],
+ "runtime": 105,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2020-02-27",
+ "last": "2020-02-27",
+ "scores": {
+  "tmdb": 6.349,
+  "rt": 60.0,
+  "ebert": 3.5,
+  "box_office": null,
+  "multiple": null,
+  "cpi_year": 2024
+ },
+ "plot": "After deciding he needs to do something meaningful with his life, high school wrestler Louden Swain sets out on a mission to drop weight and challenge the area's undefeated champion, which creates problems with his teammates and health. Matters are complicated further when Louden's father takes in an attractive female drifter who's on her way to San Francisco.",
+ "synopsis": "Louden Swain is a wrestler at Thompson High School who has just turned 18 years old. He has decided that he needs to do something truly meaningful in his life. He embarks on a mission or, in a Native American term, a vision quest. His goal is to drop two weight classes to challenge the area's toughest opponent, Brian Shute, a menacing three-time state champion from nearby rival Hoover High School, who has never been defeated in his high school career. In his zeal to drop from 190 pounds (86 kilograms) to 168 pounds (76 kg), against the wishes of his coach and teammates, he disrupts the team around him and creates health problems of his own.\n\nMeanwhile, his father has taken on a boarder named Carla from Trenton, New Jersey, who is passing through on her way to San Francisco. Louden falls in love with her and begins to lose sight of his goals as a wrestler. Worse, his drastic weight loss culminates in an unhealthy situation, where he gets frequent nosebleeds which, Louden assumes, is due to a lack of iron in his diet (and results in him having to forfeit a match he was winning). The two finally admit their love for each other, but Carla realizes she is distracting him from his goals.\n\nCarla decides to move out and continue on to San Francisco, but not before seeing Louden's big match, in which he makes a comeback from losing and pins Shute in the final seconds with an O-Goshi (over-under hip toss).\n\nAs Louden celebrates his victory, he monologues to the audience \"...I guess that's why we got to love those people who deserve it like there's no tomorrow. 'Cause when you get right down to it—there isn't.\"",
+ "synopsis_words": 292,
+ "episodes": [
+  {
+   "number": 120,
+   "date": "2020-02-27",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Ryen Russillo"
+   ],
+   "note": "Bill calls this 'episode 2' of the 'Flawed Rewatchables' (contributed by u/Randy_Marsh55)"
+  }
+ ],
+ "keywords": [
+  {
+   "word": "sports",
+   "reach": 47,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "love",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "coach",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "melodramatic",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "wrestling",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "pizza",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "brief",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "homoerotic",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "wrestler",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "wrestling team",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Matthew Modine",
+   "films": 2
+  },
+  {
+   "name": "Linda Fiorentino",
+   "films": 2
+  },
+  {
+   "name": "Ronny Cox",
+   "films": 5
+  },
+  {
+   "name": "Daphne Zuniga",
+   "films": 2
+  },
+  {
+   "name": "Charles Hallahan",
+   "films": 1
+  },
+  {
+   "name": "Michael Schoeffling",
+   "films": 0
+  },
+  {
+   "name": "Harold Sylvester",
+   "films": 0
+  },
+  {
+   "name": "J.C. Quinn",
+   "films": 0
+  },
+  {
+   "name": "Madonna",
+   "films": 1
+  },
+  {
+   "name": "Forest Whitaker",
+   "films": 2
+  }
+ ],
+ "by_director": [
+  {
+   "id": "87eee882-4975-474b-b88f-664b99f6f1d5",
+   "title": "Sea of Love",
+   "year": 1989,
+   "poster": "vJ88WmJ12eAK9CRb3cggn9CJthH.jpg"
+  },
+  {
+   "id": "9088afa9-ebdc-44ff-a666-0d55bcd3f6aa",
+   "title": "Domestic Disturbance",
+   "year": 2001,
+   "poster": "quRhjnXAuIn04VmgM84nmKzt79J.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "9109a2e6-024e-43a1-93ff-8cac0bd4a099",
+   "title": "Deliverance",
+   "year": 1972,
+   "poster": "2TrAzNJlHyNYYSkQf6asg3rs2Xr.jpg"
+  },
+  {
+   "id": "13c9dbc6-ab80-4331-b40f-aa2f5fc674dc",
+   "title": "Beverly Hills Cop",
+   "year": 1984,
+   "poster": "eBJEvKkhQ0tUt1dBAcTEYW6kCle.jpg"
+  },
+  {
+   "id": "a604fcf2-549a-47e9-9825-6b0a1968e7a1",
+   "title": "After Hours",
+   "year": 1985,
+   "poster": "8upjM945SVY99tu2Z8OG27Jd4m6.jpg"
+  },
+  {
+   "id": "57b0fd95-03ae-41f3-9d27-e867b36fbae4",
+   "title": "The Sure Thing",
+   "year": 1985,
+   "poster": "a9cuohQn5kczi4htWZAZjEZvXkZ.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Vision_Quest_%28film%29",
+  "wikidata": "Q1139277"
+ }
+}

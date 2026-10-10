@@ -1,0 +1,312 @@
+{
+ "id": "f27bd5cf-f3d9-4a4e-aee4-f218ea95265a",
+ "title": "Spotlight",
+ "year": 2015,
+ "poster": "8DPGG400FgaFWaqcv11n8mRd2NG.jpg",
+ "tmdb_id": 314365,
+ "directors": [
+  "Tom McCarthy"
+ ],
+ "director_primary": "Tom McCarthy",
+ "genres": [
+  "Drama",
+  "History"
+ ],
+ "runtime": 129,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2020-10-20",
+ "last": "2020-10-20",
+ "scores": {
+  "tmdb": 7.812,
+  "rt": 97.0,
+  "ebert": null,
+  "box_office": "$130.6M",
+  "multiple": 4.9345127,
+  "cpi_year": 2024
+ },
+ "plot": "The true story of how the Boston Globe uncovered the massive scandal of child molestation and cover-up within the local Catholic Archdiocese, shaking the entire Catholic Church to its core.",
+ "synopsis": "In 1976, at a Boston Police station, two policemen discuss the arrest of Fr. John Geoghan for child molestation. A high-ranking cleric talks to the mother of the victims, assuring her that Geoghan will be removed from the parish. An assistant district attorney visits the precinct and tells the policemen to keep the arrest secret from the press. The mother declines to press charges and Geoghan is quietly released.\n\nIn 2001, Marty Baron, the incoming editor of The Boston Globe, meets Walter \"Robby\" Robinson, the head of the newspaper's \"Spotlight\" investigative team. Baron seeks to make the paper essential to the community. After Baron reads a Globe article about a lawyer, Mitchell Garabedian, charging that Cardinal Bernard Law of the Archbishop of Boston knew about Geoghan's sexual abuse of children and did nothing to stop it, Baron urges the Spotlight team to investigate. Journalist Michael Rezendes contacts Garabedian, who initially declines to be interviewed. Though he is told not to, Rezendes reveals that he is on the Spotlight team and persuades Garabedian to cooperate.\n\nThe Spotlight team initially believes that they are following the story of one priest who was repeatedly reassigned to different parishes, but deduces that many other priests in Massachusetts have been similarly shuttled from parish to parish, suggesting a broader cover-up. With advice from Phil Saviano, who heads the victims' rights group Survivors Network of those Abused by Priests (SNAP), the team widens their search to thirteen priests. Richard Sipe, a psychotherapist who used to treat sexually abusive priests referred to him by the Church, estimates that there are roughly 90 abusive priests in Boston (6% of priests). The team develops a list of 87 names and conducts interviews with many of their victims.\n\nAs the team realizes the sheer scale of the investigation, it begins to take a toll on their lives. Matt Carroll learns that near his home, the Archdiocese quietly maintains a facility that houses and psychologically treats abusive priests, but to avoid spoiling the story, he cannot tell his neighbors; Sacha Pfeiffer finds herself unable to attend church with her grandmother; Rezendes pushes to get the story out quickly to prevent rival newspapers from preemptively publishing under-researched work that the Archdiocese can explain away; and Robinson's network of affluent Catholic friends pressures him to compromise the investigation to protect the Church.\n\nWhen the September 11 attacks occur, the team is forced to temporarily de-prioritize their investigation. Garabedian informs Rezendes that there are publicly available court documents tying the cover-up to Cardinal Law himself, including a letter from Bishop John Michael D'Arcy warning Law of Geoghan's abuse. At Baron's direction, Robinson urges the team to continue researching the case, emphasizing that Law can write off anecdotal priests as bad apples and that the Church's systematic cover-ups must be exposed. After a judge grants the Globe's motion to unseal more legal filings supporting the existence of a cover-up, the Spotlight team finally begins to write the story, which is scheduled for January 2002.\n\nBefore the story runs, Robinson confesses that in 1993, before he joined the Spotlight team, plaintiffs' attorney Eric MacLeish gave him a list of 20 sexually abusive priests, but he ran only a minor story and never followed up. He did not remember the list until Spotlight began investigating the Archdiocese. Baron acknowledges that reporters do not always get it right and commends Robinson and his team for exposing the crimes now. The story runs with a web link to the documents exposing Law's cover-up and a hotline for victims of abusive priests. The next morning, the team is inundated with calls from victims coming forward to tell their stories.\n\nA textual epilogue notes that Law resigned in December 2002 and was eventually promoted to the Basilica di Santa Maria Maggiore in Rome, and presents a list of 105 U.S. communities and 101 others around the world where major scandals involving abuse by priests have taken place.",
+ "synopsis_words": 656,
+ "episodes": [
+  {
+   "number": 169,
+   "date": "2020-10-20",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Ryen Russillo"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "lawyer",
+   "reach": 15,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "conspiracy",
+   "reach": 13,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "journalist",
+   "reach": 12,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "florida",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "boston, massachusetts",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "powerful",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "child abuse",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "court",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "historical fiction",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "newspaper",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "journalism",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "biting",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "lgbt",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "priest",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "serious",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "tragic",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "understated",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "cover-up",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "judge",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "roman catholic church",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "victim",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "9/11",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "archdiocese",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "cardinal",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "catholic",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "catholicism",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "child molestation",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "investigative journalism",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "pedophilia",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "sex scandal",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Mark Ruffalo",
+   "films": 4
+  },
+  {
+   "name": "Michael Keaton",
+   "films": 5
+  },
+  {
+   "name": "Rachel McAdams",
+   "films": 4
+  },
+  {
+   "name": "Liev Schreiber",
+   "films": 1
+  },
+  {
+   "name": "John Slattery",
+   "films": 1
+  },
+  {
+   "name": "Brian d'Arcy James",
+   "films": 0
+  },
+  {
+   "name": "Stanley Tucci",
+   "films": 1
+  },
+  {
+   "name": "Elena Wohl",
+   "films": 0
+  },
+  {
+   "name": "Gene Amoroso",
+   "films": 0
+  },
+  {
+   "name": "Doug Murray",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "d40c870c-94a4-42fc-a04b-1a34a4da8dcd",
+   "title": "Night Shift",
+   "year": 1982,
+   "poster": "iS78MFtMDwWDP748juZQBK57C9o.jpg"
+  },
+  {
+   "id": "317c3971-c9f3-431f-a617-c3f58f9a2244",
+   "title": "Mr. Mom",
+   "year": 1983,
+   "poster": "QuTlgKKykL7j0PnZZd3LNFVhCX.jpg"
+  },
+  {
+   "id": "37fb3c9b-1eac-495c-80da-18d674a41d75",
+   "title": "Batman",
+   "year": 1989,
+   "poster": "cij4dd21v2Rk2YtUQbV5kW69WB2.jpg"
+  },
+  {
+   "id": "dee59daf-0a79-434d-9f3d-34532f8902cf",
+   "title": "Pacific Heights",
+   "year": 1990,
+   "poster": "9iHD6xIrGSuuMEFWhwSVGXSddY2.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Spotlight_%28film%29",
+  "wikidata": "Q18154496"
+ }
+}

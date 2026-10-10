@@ -1,0 +1,186 @@
+{
+ "id": "3c90894d-9490-4574-b7e1-043b8536782e",
+ "title": "The Color of Money",
+ "year": 1986,
+ "poster": "dVdnHmdQu3JtLAAksjTmTEF76gD.jpg",
+ "tmdb_id": 11873,
+ "directors": [
+  "Martin Scorsese"
+ ],
+ "director_primary": "Martin Scorsese",
+ "genres": [
+  "Drama"
+ ],
+ "runtime": 119,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2021-10-19",
+ "last": "2021-10-19",
+ "scores": {
+  "tmdb": 6.852,
+  "rt": 87.0,
+  "ebert": 2.5,
+  "box_office": "$149.7M",
+  "multiple": 3.7894189855072464,
+  "cpi_year": 2024
+ },
+ "plot": "Former pool hustler \"Fast Eddie\" Felson decides he wants to return to the game by taking a pupil. He meets talented but green Vincent Lauria and proposes a partnership. As they tour pool halls, Eddie teaches Vincent the tricks of scamming, but he eventually grows frustrated with Vincent's showboat antics, leading to an argument and a falling-out. Eddie takes up playing again and soon crosses paths with Vincent as an opponent.",
+ "synopsis": "Former pro-pool player \"Fast Eddie\" Felson has given up the game and is now a successful liquor salesman in Chicago. However, he partners with pool players, including a hustler named Julian, who is outmatched at nine-ball by the young and charismatic Vincent Lauria. Recognizing Vincent's skill, and his girlfriend Carmen's inexperience at luring players to lose money, Eddie tells the couple of their excellent potential for hustling.\n\nCarmen visits Eddie alone to inquire about his interest in Vincent. Finding him working at Child World, Eddie invites Vincent to leave the next day for six weeks of hustling on the road, culminating in a nine-ball tournament in Atlantic City. Manipulating Vincent's insecurities about Carmen and giving him a valuable Balabushka cue stick, Eddie persuades him to accept his offer. Eddie's abrupt departure upsets Julian, as well as Eddie's girlfriend, Janelle.\n\nVincent and Carmen hit the road with Eddie in his Cadillac, visiting a series of pool halls, with Eddie taking most of any winnings and absorbing losses. Eddie attempts to teach him the art of hustling, but Vincent balks at having to play below his ability. While at a pool hall run by his old acquaintance, Orvis, Eddie becomes fed up with Vincent's arrogance, and leaves him. In Vincent's absence, Eddie reminds Carmen that they are partners with a mutual business interest in Vincent. Eddie returns to find Vincent grandstanding, beating the pool hall's best player but scaring off a wealthier mark. Eddie and Vincent talk frankly, agreeing that Vincent must curb his ego if they are to succeed.\n\nEddie and Carmen struggle to rein in Vincent's showboating. After a string of successful games, Vincent plays the famed Grady Seasons, but is directed by Eddie to dump the game to inflate the odds against Vincent in Atlantic City. Goaded by Grady, Vincent nearly fails to throw the game, and Eddie is inspired to play again. After some success, Eddie is beaten by Amos, a hustler. Humiliated, Eddie leaves Vincent and Carmen with enough money to make it to Atlantic City.\n\nEddie enters the Atlantic City tournament, in which he triumphs against Vincent. Vincent surprises Eddie in his room and explains that, after boosting his odds by beating Grady, he bet on Eddie and dumped their match. Before leaving, Vincent and Carmen give Eddie $8,000, his \"cut\" of their winnings.\n\nIn his semifinal match, Eddie forfeits the game and returns Vincent's money. Determined to win legitimately, Eddie faces Vincent in a private match, declaring, \"I'm back!\"",
+ "synopsis_words": 414,
+ "episodes": [
+  {
+   "number": 225,
+   "date": "2021-10-19",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Sean Fennessey"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "sports",
+   "reach": 47,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "inspirational",
+   "reach": 14,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "talent",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "understated",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "hustler",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "pool billiards",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Paul Newman",
+   "films": 5
+  },
+  {
+   "name": "Tom Cruise",
+   "films": 17
+  },
+  {
+   "name": "Mary Elizabeth Mastrantonio",
+   "films": 2
+  },
+  {
+   "name": "Helen Shaver",
+   "films": 1
+  },
+  {
+   "name": "John Turturro",
+   "films": 4
+  },
+  {
+   "name": "Bill Cobbs",
+   "films": 1
+  },
+  {
+   "name": "Forest Whitaker",
+   "films": 2
+  },
+  {
+   "name": "Keith McCready",
+   "films": 0
+  },
+  {
+   "name": "Elizabeth Bracco",
+   "films": 0
+  },
+  {
+   "name": "Vito D'Ambrosio",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "1bd1e666-bdee-40c9-a862-b946d9de51f3",
+   "title": "Taxi Driver",
+   "year": 1976,
+   "poster": "ekstpH614fwDX8DUln1a2Opz0N8.jpg"
+  },
+  {
+   "id": "a604fcf2-549a-47e9-9825-6b0a1968e7a1",
+   "title": "After Hours",
+   "year": 1985,
+   "poster": "8upjM945SVY99tu2Z8OG27Jd4m6.jpg"
+  },
+  {
+   "id": "cd4453db-7321-4cec-9d36-d9914951a1d4",
+   "title": "GoodFellas",
+   "year": 1990,
+   "poster": "9OkCLM73MIU2CrKZbqiT8Ln1wY2.jpg"
+  },
+  {
+   "id": "cd0bad86-a3a4-46c5-95a7-92a168188ced",
+   "title": "Cape Fear",
+   "year": 1991,
+   "poster": "meJZAAuVcjic2ipvbOPz5UlE4P9.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "ccce5295-0e77-4d15-b757-1a358b53e033",
+   "title": "Butch Cassidy and the Sundance Kid",
+   "year": 1969,
+   "poster": "gFmmykF1Ym3OGzENo50nZQaD1dx.jpg"
+  },
+  {
+   "id": "dd6af07d-d88d-4262-8839-9c54f425fdee",
+   "title": "The Sting",
+   "year": 1973,
+   "poster": "ckmYng37zey8INYf6d10cVgIG93.jpg"
+  },
+  {
+   "id": "c7fcf861-7d80-4f34-aeaf-6029ead243bd",
+   "title": "Slap Shot",
+   "year": 1977,
+   "poster": "k5dvEA7ajd90mf3KrF6m6LnYXOv.jpg"
+  },
+  {
+   "id": "d9bc710f-46d5-459d-a5ef-addd2a23a257",
+   "title": "The Verdict",
+   "year": 1982,
+   "poster": "iYEuFP1bpj5yOenKliiRFcNO3VE.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/The_Color_of_Money",
+  "wikidata": "Q470916"
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "id": "0c04edef-45dd-42ae-8418-6d01f9a51892",
+ "title": "Teen Wolf",
+ "year": 1985,
+ "poster": "bv9rY9eoue2Hat6tcvrKVQ0ow8v.jpg",
+ "tmdb_id": 11824,
+ "directors": [
+  "Rod Daniel"
+ ],
+ "director_primary": "Rod Daniel",
+ "genres": [
+  "Comedy",
+  "Fantasy",
+  "Romance"
+ ],
+ "runtime": 92,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2020-08-06",
+ "last": "2020-08-06",
+ "scores": {
+  "tmdb": 6.209,
+  "rt": 46.0,
+  "ebert": null,
+  "box_office": "$233.2M",
+  "multiple": 66.66666666666667,
+  "cpi_year": 2024
+ },
+ "plot": "When a shy teenager's new-found powers help him score at basketball - and with the popular girls - he has some pretty hairy decisions to make.",
+ "synopsis": "Scott Howard, a 17-year-old high school student, lives in Beacontown, Nebraska. His only claim to popularity is playing for the Beavers, his school's unsuccessful basketball team. Scott fawns after Pamela Wells even though she is dating his rival Mick, who plays for the Dragons, a dominant opposing team that bullies him on the court. He is also oblivious to the affections of his childhood friend Boof.\n\nAfter startling changes such as long hair sprouting on his hands and chest, Scott decides to quit the team, but his coach, Finstock, changes his mind. After Scott scores a keg, he and his best friends, Stiles and Lewis, go to a party, where Scott and Boof end up alone in a closet as the result of a game.  When they begin kissing, Scott accidentally claws Boof’s back. When he returns home, he transforms into a werewolf. His father Harold, also a werewolf, explains this is a family curse and he had hoped Scott would not inherit it.\n\nScott reveals his secret to Stiles, who agrees to keep quiet, but when Scott becomes stressed on the basketball court, he becomes the Wolf and helps the team win their first game in three years. Scott gains popularity as the high school is overwhelmed with 'Wolf Fever'. He is also alienated from Boof and his friend Lewis, who is scared of him. The basketball team goes on a winning streak, but his teammates resent him as he hogs the ball during games.\n\nStiles merchandises \"Teen Wolf\" paraphernalia, and Pamela finally begins paying attention to Scott. After he gets a role as a \"werewolf cavalryman\" in a Civil War school play alongside her, they have sex in the dressing room. Later, after a date set up to make Mick jealous, Pamela tells Scott that she is not interested in him as a boyfriend. Harold tells Scott he is responsible for his son's conflicts with vice principal Rusty Thorne, explaining that when they were in high school, Harold scared him in an attempt to protect Scott’s mother. He advises Scott to be himself and avoid abusing his wolf powers.\n\nBoof agrees to go with Scott to the Spring Dance but only if he goes as himself. Scott goes alone as the Wolf instead. Boof takes him into the hallway and they kiss, which turns Scott back into himself. When they return to the dance, Scott garners everyone's attention, including Pamela. A jealous Mick punches him in the face, then insults Boof and taunts Scott until the Wolf angrily attacks. Horrified by his loss of control, Scott flees but encounters Thorne in the hall. Thorne attempts to expel Scott, but Harold sends his son home before intimidating Thorne by growling in his face, causing the vice principal to wet himself.\n\nScott renounces using the Wolf. During the championship game, he arrives to rally his teammates. Despite the odds, the team works together and makes ground against the Dragons. During the final quarter, behind by one point, Scott is fouled hard by Mick at the buzzer. He makes both free throws, winning the championship. Brushing past Pamela, he kisses Boof as his father embraces them both. Mick tells Pamela that they should leave, but she tells him to \"drop dead\" and storms off while everyone else celebrates the victory.",
+ "synopsis_words": 549,
+ "episodes": [
+  {
+   "number": 154,
+   "date": "2020-08-06",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Kyle Brandt"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "teenager",
+   "reach": 12,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "training",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "basketball",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "super power",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "trainer",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "werewolf",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Michael J. Fox",
+   "films": 4
+  },
+  {
+   "name": "James Hampton",
+   "films": 2
+  },
+  {
+   "name": "Susan Ursitti",
+   "films": 1
+  },
+  {
+   "name": "Jerry Levine",
+   "films": 1
+  },
+  {
+   "name": "Matt Adler",
+   "films": 1
+  },
+  {
+   "name": "Lorie Griffin",
+   "films": 0
+  },
+  {
+   "name": "Jim McKrell",
+   "films": 0
+  },
+  {
+   "name": "Mark Arnold",
+   "films": 0
+  },
+  {
+   "name": "Jay Tarses",
+   "films": 0
+  },
+  {
+   "name": "Mark Holton",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "ede1367f-bba8-4bf1-9a7c-d023163beeda",
+   "title": "The Longest Yard",
+   "year": 1974,
+   "poster": "2qtpPGRpMEnwhRRoq3iqyQm238V.jpg"
+  },
+  {
+   "id": "9c719606-8d11-4504-b293-fd32c52828bb",
+   "title": "Back to the Future",
+   "year": 1985,
+   "poster": "vN5B5WgYscRGcQpVhHl6p9DDTP0.jpg"
+  },
+  {
+   "id": "58dde8b2-b5a4-4eeb-b2a7-b935942a51e8",
+   "title": "Back to the Future Part II",
+   "year": 1989,
+   "poster": "hQq8xZe5uLjFzSBt4LanNP7SQjl.jpg"
+  },
+  {
+   "id": "1645a39d-eea6-469f-8b1e-c14a10c91839",
+   "title": "The American President",
+   "year": 1995,
+   "poster": "yObOAYFIHXHkFPQ3jhgkN2ezaD.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Teen_Wolf",
+  "wikidata": "Q1067125"
+ }
+}

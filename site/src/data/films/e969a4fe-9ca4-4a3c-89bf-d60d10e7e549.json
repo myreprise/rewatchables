@@ -1,0 +1,326 @@
+{
+ "id": "e969a4fe-9ca4-4a3c-89bf-d60d10e7e549",
+ "title": "Aliens",
+ "year": 1986,
+ "poster": "r1x5JGpyqZU8PYhbs4UcrO1Xb6x.jpg",
+ "tmdb_id": 679,
+ "directors": [
+  "James Cameron"
+ ],
+ "director_primary": "James Cameron",
+ "genres": [
+  "Action",
+  "Thriller",
+  "Science Fiction"
+ ],
+ "runtime": 137,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2026-08-31",
+ "last": "2026-08-31",
+ "scores": {
+  "tmdb": 7.966,
+  "rt": 93.0,
+  "ebert": 3.5,
+  "box_office": "$524.7M",
+  "multiple": 9.908997567567567,
+  "cpi_year": 2024
+ },
+ "plot": "Ripley, the sole survivor of the Nostromo's deadly encounter with the monstrous Alien, returns to Earth after drifting through space in hypersleep for 57 years. Although her story is initially met with skepticism, she agrees to accompany a team of Colonial Marines back to LV-426.",
+ "synopsis": "A deep-space salvage crew find an escape shuttle where Ellen Ripley has been in stasis for 57 years after destroying her ship, the Nostromo, to kill an alien creature that slaughtered the crew. Ripley is  debriefed by her Weyland-Yutani Corporation employers who doubt her claim about alien eggs in a derelict ship on the exomoon LV-426, now the site of a terraforming colony.\n\nAfter contact is lost with the colony, Weyland-Yutani representative Carter Burke and Colonial Marine Lieutenant Gorman ask Ripley to accompany them to investigate. Still traumatized by her alien encounter, she agrees on the condition that they exterminate the creatures. Ripley meets the Colonial Marines aboard the spaceship Sulaco but distrusts their android, Bishop, because the Nostromo's android, Ash, betrayed its crew to protect the alien on company orders.\n\nA dropship lands the crew on LV-426, where they find the battle-ravaged colony and two live alien facehuggers in containment tanks. The only colonist found is a traumatized young girl nicknamed Newt. The team locates the other colonists' signals beneath the fusion-powered atmosphere processing station and heads to their location, descending into corridors covered in alien secretions. At the station's center, the marines discover opened eggs, dead facehuggers, and cocooned colonists serving as incubators for the alien embryos. The marines kill a newborn alien after it bursts through a colonist's chest, rousing several adult aliens who ambush the marines, killing or capturing many. When the inexperienced Gorman panics, Ripley assumes command and rams their armored personnel carrier into the nest to rescue Corporal Dwayne Hicks, and Privates Hudson and Vasquez. Hicks orders the dropship to recover the survivors, but a stowaway alien kills the pilots, causing the dropship to crash into the station. Low on ammunition and resources, the survivors barricade themselves inside the colony facility.\n\nRipley discovers that Burke ordered the colonists to investigate the derelict spaceship containing the alien eggs, intending to profit by recovering them for biological weapon research. Before she can expose Burke, Bishop reports that the dropship crash damaged the power plant's cooling system, and it will soon overheat and explode, destroying the colony. Bishop volunteers to travel to the colony transmitter and remotely pilot the remaining dropship to the surface.\n\nAsleep in the medical lab, Ripley and Newt awaken to find themselves trapped with the two released facehuggers. Ripley triggers a fire alarm to alert the marines, who rescue them and kill the creatures. She accuses Burke of releasing the facehuggers to implant her and Newt with alien embryos to smuggle them through Earth's quarantine. The power is suddenly cut, and aliens attack through the ceiling. In the ensuing firefight, the aliens kill Burke, subdue Hudson, and injure Hicks; the cornered Gorman and Vasquez sacrifice themselves to avoid capture. Newt is separated from Ripley and taken by the creatures. Ripley takes Hicks to the dropship but refuses to abandon Newt and arms herself before descending into the processing station hive alone to rescue her. During their escape, they encounter the alien queen amid dozens of eggs. When one opens, Ripley burns the eggs and blows up the queen's ovipositor. Pursued by the enraged queen, Ripley and Newt reach the dropship and escape with Bishop and an unconscious Hicks moments before the station explodes, consuming the colony in a nuclear blast.\n\nAboard the Sulaco, the queen, stowed away in the dropship's landing gear, attacks the group. The queen rips Bishop in half and advances on Newt, but Ripley battles the creature using an exosuit cargo loader, expelling it into space through an airlock while the damaged Bishop shields Newt. Ripley, Newt, Hicks, and Bishop then enter hypersleep for their return trip to Earth.",
+ "synopsis_words": 609,
+ "episodes": [
+  {
+   "number": 479,
+   "date": "2026-08-31",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Hanks",
+   "verdict_tone": "hanks",
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Sean Fennessey"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "sequel",
+   "reach": 28,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "alien",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "assertive",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "exhilarated",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "commanding",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "creature",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "female protagonist",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "space",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "space marine",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "android",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "critical",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "empathetic",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "space travel",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "sinister",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "extraterrestrial technology",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "space colony",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "spaceman",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "action horror",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "colony",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "cryogenics",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "desolate",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "desolate planet",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "female hero",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "military sci-fi",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "sci-fi action",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "sci-fi horror",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "settler",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "vacuum",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "warrior woman",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Sigourney Weaver",
+   "films": 6
+  },
+  {
+   "name": "Carrie Henn",
+   "films": 1
+  },
+  {
+   "name": "Michael Biehn",
+   "films": 3
+  },
+  {
+   "name": "Paul Reiser",
+   "films": 2
+  },
+  {
+   "name": "Lance Henriksen",
+   "films": 2
+  },
+  {
+   "name": "Bill Paxton",
+   "films": 5
+  },
+  {
+   "name": "William Hope",
+   "films": 0
+  },
+  {
+   "name": "Jenette Goldstein",
+   "films": 0
+  },
+  {
+   "name": "Al Matthews",
+   "films": 0
+  },
+  {
+   "name": "Mark Rolston",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "1a546650-619e-4230-b8c7-fa8e3da9733c",
+   "title": "The Terminator",
+   "year": 1984,
+   "poster": "qvktm0BHcnmDpul4Hz01GIazWPr.jpg"
+  },
+  {
+   "id": "1633a22b-cc71-4fdb-973b-198075985342",
+   "title": "Terminator 2: Judgment Day",
+   "year": 1991,
+   "poster": "jFTVD4XoWQTcg7wdyJKa8PEds5q.jpg"
+  },
+  {
+   "id": "0bef93f8-42c2-4822-b82b-19ff6a10287f",
+   "title": "True Lies",
+   "year": 1994,
+   "poster": "pqdvCBDThAOjlA0XBzbNm7GvwpU.jpg"
+  },
+  {
+   "id": "8e48da9c-0098-410e-979e-9c952cea1158",
+   "title": "Titanic",
+   "year": 1997,
+   "poster": "9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "1a546650-619e-4230-b8c7-fa8e3da9733c",
+   "title": "The Terminator",
+   "year": 1984,
+   "poster": "qvktm0BHcnmDpul4Hz01GIazWPr.jpg"
+  },
+  {
+   "id": "04c7939c-7091-4043-9c4f-04f9e1a7f587",
+   "title": "Alien",
+   "year": 1979,
+   "poster": "vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg"
+  },
+  {
+   "id": "0ce404c8-c03e-4140-8d09-3b53e9359669",
+   "title": "Ghostbusters",
+   "year": 1984,
+   "poster": "7E8nLijS9AwwUEPu2oFYOVKhdFA.jpg"
+  },
+  {
+   "id": "40b033bd-e3e8-4122-854c-a082e0c1e3f1",
+   "title": "Working Girl",
+   "year": 1988,
+   "poster": "q2jfFzZvAzjTaArQR0tjilIZ5aJ.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Aliens_%28film%29",
+  "wikidata": "Q104814"
+ }
+}

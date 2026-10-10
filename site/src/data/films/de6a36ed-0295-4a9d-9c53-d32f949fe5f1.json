@@ -1,0 +1,323 @@
+{
+ "id": "de6a36ed-0295-4a9d-9c53-d32f949fe5f1",
+ "title": "DodgeBall: A True Underdog Story",
+ "year": 2004,
+ "poster": "r8KbNHkkwFXLjV1suGwm0Qjure5.jpg",
+ "tmdb_id": 9472,
+ "directors": [
+  "Rawson Marshall Thurber"
+ ],
+ "director_primary": "Rawson Marshall Thurber",
+ "genres": [
+  "Comedy"
+ ],
+ "runtime": 92,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2024-08-06",
+ "last": "2024-08-06",
+ "scores": {
+  "tmdb": 6.4,
+  "rt": 72.0,
+  "ebert": 3.0,
+  "box_office": "$279.7M",
+  "multiple": 8.42116135,
+  "cpi_year": 2024
+ },
+ "plot": "When megalomaniacal White Goodman, the owner of a trendy, high-end fitness center, makes a move to take over the struggling local gym run by happy-go-lucky Pete La Fleur, there's only one way for La Fleur to fight back: dodgeball. Aided by a dodgeball guru and Goodman's attorney, La Fleur and his rag-tag team of underdogs launch a knock-down, drag-out battle in which the winner takes all.",
+ "synopsis": "Peter LaFleur is the owner of Average Joe's, a small, dilapidated and understaffed gym. When he defaults on the gym's mortgage, his cocky and vindictive business rival White Goodman, who owns the high-end Globo Gym across the street, purchases it. Unless Peter can raise $50,000 in 30 days, Goodman will foreclose on and demolish Average Joe's to build a new auxiliary parking structure for his members. Goodman attempts to seduce attorney Kate Veatch, who is handling his account; disgusted, she cites conflict of interest (COI) to rebuff his disturbing advances.\n\nPeter, gym employees Dwight Baumgarten and Owen Dittman, and members Steve \"The Pirate\" Cowan, Justin Redman and Gordon Pibb, all decide to raise the required money. After an impromptu car wash suggested by Owen fails, Gordon suggests entering a dodgeball tournament in Las Vegas with a $50,000 grand prize. Justin obtains a 1950s-era training film for the group featuring Irish-American dodgeball legend Patches O'Houlihan. A Girl Scout Troop easily defeats them at the sub-regional qualifiers the following day, but are disqualified due to one member failing a drug test, resulting in Average Joe's winning by default.\n\nHaving spied on Average Joe's using a hidden camera in a cutout of himself, Goodman forms his own dodgeball team, the Globo Gym Purple Cobras, and surprises Gordon by revealing he bypassed the mandatory qualification match due to his friendship with the chancellor. After watching their confrontation, Patches, now elderly and using a wheelchair, approaches Peter, volunteering to coach the team. Patches' unusual training regimen involves having them dodge wrenches, oncoming cars, and his constant insults. Kate demonstrates her skills at the sport but declines to join the team, citing COI.\n\nGoodman arrives at Kate's house uninvited and reveals that he misled her boss about her stealing and drinking on the job, thus getting her fired from her law firm and freeing him to date her. Instead, she rejects Goodman and joins the Average Joe's team.\n\nDespite early setbacks, the team advances to the final round against Globo Gym. The night before the match, a falling sign in the casino kills Patches. Returning to his room, Peter encounters an uninvited Goodman, who greedily offers him $100,000 for the deed to Average Joe's, claiming that Peter will inevitably cause its closure.\n\nDemoralized and anxious that the team will lose without Patches' motivation, Peter chastises Steve for his pirate behavior upon returning to the group, causing Steve's departure. On the day of the final, Justin assists his classmate and love interest Amber in a cheerleading competition after his rival Derek gets severely injured, leaving Average Joe's short of players.\n\nA brief encounter with Lance Armstrong restores Peter's morale, but he and Justin return too late; Average Joe's has already forfeited. After Gordon discovers that a majority of the judges can overturn the forfeiture, a tie-breaking vote from Chuck Norris reinstates the team.\n\nAfter an intense game, Peter and Goodman engage in a sudden-death match. Inspired by Patches' spirit, Peter blindfolds himself, evades Goodman's throw, and strikes him in the face, winning the championship and the prize money. Goodman deflatingly reveals that Peter sold the gym to him the previous night, but Peter explains he used Goodman's $100,000 to bet on Average Joe's victory; with the odds against them at 50 to 1, he collects $5 million. Peter then announces his intention to invest in the controlling stake of the publicly traded Globo Gym, allowing him to own it and its subsidiaries, which now include Average Joe's, and fire Goodman. Steve returns, appearing more normal, but reverts to his pirate persona when Peter reveals their winnings as \"buried treasure\". Joyce, a friend of Kate's who flew from Guam to witness the final match, arrives and kisses her passionately, shocking Peter; Kate then reveals her bisexuality and kisses Peter similarly.\n\nDuring the credits, Peter advertises youth dodgeball classes at a newly renovated and popular Average Joe's. Meanwhile, Goodman, now morbidly obese, is seen watching the commercial on television, blaming Norris for his plight.",
+ "synopsis_words": 665,
+ "episodes": [
+  {
+   "number": 368,
+   "date": "2024-08-06",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Hanks",
+   "verdict_tone": "hanks",
+   "host": "Craig Horlbeck",
+   "guests": [
+    "Danny Heifetz",
+    "Danny Kelly"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "sports",
+   "reach": 47,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "aftercreditsstinger",
+   "reach": 18,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "underdog",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "exhilarated",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "appreciative",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "cheerleader",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "competition",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "mentor protégé relationship",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "breaking the fourth wall",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "candid",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "bodyguard",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "lgbt",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "sport competition",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "casual",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "love at first sight",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "sexual harassment",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "against the odds",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "cheerleading",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "dodgeball",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "food addiction",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "girl scouts",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "guide book",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "gymnasium",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "handicapped",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "instructional video",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "megalomaniac",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "oddball",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "referee",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "rules and regulations",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "small business",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "weight loss",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "workout",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Vince Vaughn",
+   "films": 6
+  },
+  {
+   "name": "Christine Taylor",
+   "films": 1
+  },
+  {
+   "name": "Ben Stiller",
+   "films": 7
+  },
+  {
+   "name": "Rip Torn",
+   "films": 1
+  },
+  {
+   "name": "Justin Long",
+   "films": 1
+  },
+  {
+   "name": "Stephen Root",
+   "films": 0
+  },
+  {
+   "name": "Joel David Moore",
+   "films": 0
+  },
+  {
+   "name": "Chris Williams",
+   "films": 0
+  },
+  {
+   "name": "Alan Tudyk",
+   "films": 0
+  },
+  {
+   "name": "Missi Pyle",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "5b0be4cb-740f-4223-9ed4-3cfde5bf5ff2",
+   "title": "Reality Bites",
+   "year": 1994,
+   "poster": "qGDhodtpkpxkrFqokenGNJlzt6w.jpg"
+  },
+  {
+   "id": "fc8233c5-6562-4564-a82f-dee83965c403",
+   "title": "Swingers",
+   "year": 1996,
+   "poster": "rRjWk68kU3a2so4lgr3TKB7Y5vA.jpg"
+  },
+  {
+   "id": "0870172c-1d49-4ce5-91bf-d51d93a35389",
+   "title": "There's Something About Mary",
+   "year": 1998,
+   "poster": "slJD1Dvnsf15LoeqhERsyzisAdn.jpg"
+  },
+  {
+   "id": "c80eec3c-ec4b-4652-bdb4-4aeb9170f32a",
+   "title": "Meet the Parents",
+   "year": 2000,
+   "poster": "5tXJ9ctuyEOMUFLaeqRisbXowWs.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Dodgeball%3A_A_True_Underdog_Story",
+  "wikidata": "Q908473"
+ }
+}

@@ -1,0 +1,277 @@
+{
+ "id": "a604fcf2-549a-47e9-9825-6b0a1968e7a1",
+ "title": "After Hours",
+ "year": 1985,
+ "poster": "8upjM945SVY99tu2Z8OG27Jd4m6.jpg",
+ "tmdb_id": 10843,
+ "directors": [
+  "Martin Scorsese"
+ ],
+ "director_primary": "Martin Scorsese",
+ "genres": [
+  "Comedy",
+  "Thriller",
+  "Drama"
+ ],
+ "runtime": 97,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2025-06-30",
+ "last": "2025-06-30",
+ "scores": {
+  "tmdb": 7.5,
+  "rt": 90.0,
+  "ebert": 4.0,
+  "box_office": "$30.9M",
+  "multiple": 2.357626888888889,
+  "cpi_year": 2024
+ },
+ "plot": "Desperate to escape his mind-numbing routine, uptown Manhattan office worker Paul Hackett ventures downtown for a hookup with a mystery woman.",
+ "synopsis": "Paul Hackett, a word processor, meets Marcy Franklin in a cafe. They converse about their common interest in Henry Miller. Marcy leaves Paul her number and informs him that she lives with a sculptor named Kiki Bridges, who makes and sells plaster of Paris paperweights resembling bagels. Later in the night, under the pretense of buying a paperweight, Paul visits Marcy, taking a cab to her apartment. On his way to visit Marcy, a $20 bill is blown out the window of the cab, leaving him with only some spare pocket change. The cab driver is furious that he can't pay, thereby beginning the first in a long series of misadventures for Paul that turn hostile through no fault of his own. At the apartment Paul meets the sculptor Kiki and Marcy. It seems that a romance might develop between Paul and Marcy but he comes across a collection of photographs and medications which imply that Marcy is severely disfigured from burns on her legs and torso. As a result of this implication, and as a result of a strained conversation with Marcy, Paul abruptly slips out of the apartment. Paul later learns that Marcy is not disfigured and the significance of his earlier discovery is left as a mystery to the viewer. Paul then attempts to go home by subway, yet the fare has increased at the stroke of midnight and he finds that his pocket change is no longer sufficient to purchase a token. He goes to a bar. The owner, Tom Schorr (John Heard cannot open the cash register to help him. They exchange keys so Paul can go to Tom's place to fetch the cash register keys. On the way, he spots two burglars, Neil and Pepe, with one of Kiki's sculptures. When he returns the sculpture to the apartment, he finds Marcy has committed suicide while Kiki and a stout man named Horst have already left to go to Club Berlin, a nightclub. Paul goes back to Tom's bar, finding Tom deeply in grief over the death of Marcy, who turns out to be Tom's girlfriend. On the way he meets two women, Julie and Gail, both of whom apparently like him at first but turn against him later. When he goes to the nightclub Kiki and Horst patronize, a collection of punks attempt to shave his head into a Mohawk hairstyle. On the street Paul is mistaken for a burglar and is relentlessly pursued by a mob of local residents. Paul finds Tom again, but the mob chases Paul and he ultimately seeks refuge back at the Club Berlin, where he is helped by a woman named June, also a sculptress, who protects him by pouring plaster on him in order to disguise him as a sculpture. However, she won't let him out of the plaster, which eventually hardens, trapping Paul in a position that resembles the character depicted in Edvard Munch's The Scream. The burglar duo then breaks into the Club Berlin and steals him, placing him in the back of their van. He falls from the burglar's cargo near the gate to his office as the sun is rising, and returns to work, bringing the film full circle.",
+ "synopsis_words": 536,
+ "episodes": [
+  {
+   "number": 412,
+   "date": "2025-06-30",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Hanks",
+   "verdict_tone": "hanks",
+   "host": "Bill Simmons",
+   "guests": [
+    "Sean Fennessey"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "hilarious",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "nightclub",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "thief",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "surrealism",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "one night",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "suicide",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "vigilantism",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "bar",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "mobster",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "subway",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "date",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "overdose",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "punk rock",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "artist",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "circumstance",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "coincidence",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "district",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "paper mache",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "soho",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "surreal",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "trying to get home",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "vigilante gang",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Griffin Dunne",
+   "films": 1
+  },
+  {
+   "name": "Rosanna Arquette",
+   "films": 1
+  },
+  {
+   "name": "Verna Bloom",
+   "films": 1
+  },
+  {
+   "name": "Tommy Chong",
+   "films": 1
+  },
+  {
+   "name": "Linda Fiorentino",
+   "films": 2
+  },
+  {
+   "name": "Teri Garr",
+   "films": 3
+  },
+  {
+   "name": "John Heard",
+   "films": 5
+  },
+  {
+   "name": "Cheech Marin",
+   "films": 1
+  },
+  {
+   "name": "Catherine O'Hara",
+   "films": 1
+  },
+  {
+   "name": "Dick Miller",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "1bd1e666-bdee-40c9-a862-b946d9de51f3",
+   "title": "Taxi Driver",
+   "year": 1976,
+   "poster": "ekstpH614fwDX8DUln1a2Opz0N8.jpg"
+  },
+  {
+   "id": "3c90894d-9490-4574-b7e1-043b8536782e",
+   "title": "The Color of Money",
+   "year": 1986,
+   "poster": "dVdnHmdQu3JtLAAksjTmTEF76gD.jpg"
+  },
+  {
+   "id": "cd4453db-7321-4cec-9d36-d9914951a1d4",
+   "title": "GoodFellas",
+   "year": 1990,
+   "poster": "9OkCLM73MIU2CrKZbqiT8Ln1wY2.jpg"
+  },
+  {
+   "id": "cd0bad86-a3a4-46c5-95a7-92a168188ced",
+   "title": "Cape Fear",
+   "year": 1991,
+   "poster": "meJZAAuVcjic2ipvbOPz5UlE4P9.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "39f9ddbe-284a-4d59-ac8e-6c163901e3cd",
+   "title": "Vision Quest",
+   "year": 1985,
+   "poster": "l3g4e6ocqGA8aNL1hIrIVWLkljL.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/After_Hours_%28film%29",
+  "wikidata": "Q846209"
+ }
+}

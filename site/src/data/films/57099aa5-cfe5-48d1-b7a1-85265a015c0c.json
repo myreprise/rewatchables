@@ -1,0 +1,296 @@
+{
+ "id": "57099aa5-cfe5-48d1-b7a1-85265a015c0c",
+ "title": "The Princess Bride",
+ "year": 1987,
+ "poster": "2FC9L9MrjBoGHYjYZjdWQdopVYb.jpg",
+ "tmdb_id": 2493,
+ "directors": [
+  "Rob Reiner"
+ ],
+ "director_primary": "Rob Reiner",
+ "genres": [
+  "Adventure",
+  "Fantasy",
+  "Romance",
+  "Family"
+ ],
+ "runtime": 99,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2018-04-11",
+ "last": "2018-04-11",
+ "scores": {
+  "tmdb": 7.706,
+  "rt": 96.0,
+  "ebert": 3.5,
+  "box_office": "$85.3M",
+  "multiple": 1.93125,
+  "cpi_year": 2024
+ },
+ "plot": "In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size. But even death can't stop these true lovebirds from triumphing.",
+ "synopsis": "The film is an enactment of the following story read by the grandfather of a sick boy as the boy sits in bed listening, framed and occasionally interrupted by scenes of the reading. A young woman named Buttercup lives on a farm in the fictional country of Florin. Whenever she gives her farmhand Westley an order, he answers \"as you wish,\" and happily complies. Eventually she realizes he loves her and admits her love for him. Westley leaves to seek his fortune so they can marry, but his ship is attacked by the Dread Pirate Roberts, who has a reputation for never leaving anyone alive. Five years later, believing Westley dead, Buttercup reluctantly agrees to marry Prince Humperdinck, heir to the throne of Florin. Before the wedding, she is kidnapped by three outlaws: an extremely short Sicilian boss named Vizzini, a Turkish giant that Vizzini discovered in Greenland named Fezzik, and a Spanish master fencer named Inigo Montoya, who seeks revenge against the six-fingered man who killed his father. The outlaws are pursued by Prince Humperdinck with a complement of soldiers, and also by a masked man in black. The man in black catches up to the outlaws at the top of the Cliffs of Insanity, where he first defeats Inigo in a duel before knocking him unconscious. He then defeats Fezzik in hand-to-hand combat by choking him from behind until he blacks out. Finally, he defeats Vizzini in a battle of the wits by tricking him into drinking from a poisoned chalice, and so captures Buttercup. When he tells her he is Roberts, she becomes enraged at him for killing Westley and shoves him into a gorge after telling him that he should die too, but she realizes he is Westley himself when he replies \"As you wish!\" She dives into the gorge after him, and they flee through the dangerous Fire Swamp where they navigate past the R.O.U.S., fire spouts, and lightning sand. When they are captured on the other side by Humperdinck and his sadistic six-fingered vizier Count Rugen, Buttercup agrees to return with Humperdinck in exchange for Westley's release, but Humperdinck secretly has Rugen imprison and torture Westley. When Buttercup expresses unhappiness at marrying Humperdinck, he promises to search for Westley, but his real plan is to start a war with the neighboring country of Guilder by killing Buttercup and framing them for her death. After Buttercup realises that Humperdinck has no intention of finding Westley, she taunts his cowardice and feelings of inferiority towards his romantic rival. Enraged, Humperdinck tortures Westley to his apparent death. Meanwhile, Inigo and Fezzik meet when Humperdinck orders a gang of goons to arrest the thieves in a nearby forest, and Fezzik informs Inigo of Rugen's existence. Inigo decides that they need the man in black's help to get into the castle, and when he hears cries of anguish he decides that they must be from the man in black and follows them. Inigo and Fezzik arrive in Rugen's torture chamber to find Westley dead, but bring him to a miracle man named Miracle Max who explains that Westley is \"only mostly dead,\" reviving him to a state of heavy paralysis. Westley, Inigo, and Fezzik invade the castle, prompting Humperdinck to order a drastically-abridged version of the wedding ceremony, rushing Buttercup to her chambers. Inigo finds and duels with Rugen, and despite incurring heavy blood loss from a stab wound in the opening moments of the battle, he is able to maintain his focus by repeatedly reciting his long-rehearsed greeting of vengeance and eventually manages to slay his nemesis. Westley finds Buttercup, who is about to commit suicide, and assures her that her marriage is invalid because she never said \"I do.\" When confronted by Humperdinck, Westley bluffs his way out of a duel and manages to have Humperdinck tied to a chair, left to contemplate his cowardice. Triumphant, he then rides away with Buttercup, Inigo, and Fezzik on four white horses that Fezzik conveniently discovers. The story ends with Westley and Buttercup sharing a very passionate kiss. The grandfather then closes the book and prepares to leave, but the boy asks him to read the story again the next day. The grandfather smiles and replies, \"As you wish.\"",
+ "synopsis_words": 709,
+ "episodes": [
+  {
+   "number": 31,
+   "date": "2018-04-11",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Juliet Litman",
+   "guests": [
+    "David Shoemaker"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "revenge",
+   "reach": 31,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "romantic",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "wedding",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "adoring",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "boat chase",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "dreams",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "enchant",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "wrestling",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "hidden identity",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "impersonation",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "miracle",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "pirate",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "story within the story",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "battle of wits",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "evil prince",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "fairytale",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "fictitious country",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "giant man",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "grandfather grandson relationship",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "narration",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "screwball",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "swashbuckler",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "sword fight",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Cary Elwes",
+   "films": 3
+  },
+  {
+   "name": "Robin Wright",
+   "films": 3
+  },
+  {
+   "name": "Mandy Patinkin",
+   "films": 1
+  },
+  {
+   "name": "Chris Sarandon",
+   "films": 1
+  },
+  {
+   "name": "Christopher Guest",
+   "films": 2
+  },
+  {
+   "name": "Wallace Shawn",
+   "films": 1
+  },
+  {
+   "name": "André Roussimoff",
+   "films": 0
+  },
+  {
+   "name": "Fred Savage",
+   "films": 0
+  },
+  {
+   "name": "Peter Falk",
+   "films": 0
+  },
+  {
+   "name": "Peter Cook",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "57b0fd95-03ae-41f3-9d27-e867b36fbae4",
+   "title": "The Sure Thing",
+   "year": 1985,
+   "poster": "a9cuohQn5kczi4htWZAZjEZvXkZ.jpg"
+  },
+  {
+   "id": "d7805b61-ba0d-4c51-92b0-238a4cbde3af",
+   "title": "Stand by Me",
+   "year": 1986,
+   "poster": "vz0w9BSehcqjDcJOjRaCk7fgJe7.jpg"
+  },
+  {
+   "id": "c5320af0-e4b5-4366-bb03-4cbaabd9c75e",
+   "title": "When Harry Met Sally...",
+   "year": 1989,
+   "poster": "rFOiFUhTMtDetqCGClC9PIgnC1P.jpg"
+  },
+  {
+   "id": "7424136c-60fe-44fc-a76c-9db6e173241e",
+   "title": "Misery",
+   "year": 1990,
+   "poster": "klPO5oh1LOxiPpdDXZo1ADgpKcw.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "eab70003-504a-4439-aa89-07b5bc9a93bc",
+   "title": "Days of Thunder",
+   "year": 1990,
+   "poster": "8UvcoeMJag8UWGF8sg7eYspzq0Q.jpg"
+  },
+  {
+   "id": "5bb6f493-044e-4f3c-a5e0-7ba44db09f45",
+   "title": "Forrest Gump",
+   "year": 1994,
+   "poster": "Cw4hIUIAmSYfK9QfaUW5igp9La.jpg"
+  },
+  {
+   "id": "14138744-847a-427a-906d-045b0b2bd20a",
+   "title": "Twister",
+   "year": 1996,
+   "poster": "d4ie3f6QTvNw40V770Uzo87SDZn.jpg"
+  },
+  {
+   "id": "30ffec5f-4421-4015-b59d-838683b96e57",
+   "title": "Best in Show",
+   "year": 2000,
+   "poster": "2SqHjWWqfJjQE6zLCbQR9HMla4Q.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/The_Princess_Bride",
+  "wikidata": "Q506418"
+ }
+}

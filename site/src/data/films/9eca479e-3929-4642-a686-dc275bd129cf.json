@@ -1,0 +1,255 @@
+{
+ "id": "9eca479e-3929-4642-a686-dc275bd129cf",
+ "title": "Blow Out",
+ "year": 1981,
+ "poster": "uFzMscVLDrTaYd6KXOXlr6dly7w.jpg",
+ "tmdb_id": 11644,
+ "directors": [
+  "Brian De Palma"
+ ],
+ "director_primary": "Brian De Palma",
+ "genres": [
+  "Crime",
+  "Mystery",
+  "Thriller"
+ ],
+ "runtime": 108,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2022-11-15",
+ "last": "2022-11-15",
+ "scores": {
+  "tmdb": 7.357,
+  "rt": 88.0,
+  "ebert": 4.0,
+  "box_office": "$41.4M",
+  "multiple": 0.6666666666666666,
+  "cpi_year": 2024
+ },
+ "plot": "While recording sound effects for a slasher flick, Jack Terry stumbles upon a real-life horror: a car careening off a bridge and into a river. Jack jumps into the water and fishes out Sally from the car, but the other passenger is already dead — a governor intending to run for president. As Jack does some investigating of his tapes, and starts a perilous romance with Sally, he enters a tangled web of conspiracy that might leave him dead.",
+ "synopsis": "While in post-production on the low-budget slasher film Co-ed Frenzy, Philadelphia sound technician Jack Terry is instructed by his producer Sam to obtain a more realistic-sounding scream and better wind effects. As he records potential sound effects at a local park, Jack sees a car careen off the road and plunge into a creek. The male driver is killed, but Jack manages to rescue a young woman named Sally Bedina and accompanies her to a hospital. There, a detective interviews Jack about the accident, and Jack asks Sally out for a drink. He learns that Governor George McRyan, a presidential hopeful, was driving the car and that Sally was his escort. An associate of McRyan, Lawrence Henry, persuades Jack to conceal her involvement by smuggling her out of the hospital.\n\nListening to his recorded audio of the accident, Jack hears a gunshot just before the tire blow-out, suspecting that it was actually an assassination. He learns from a news report that, seemingly coincidentally, a man named Manny Karp filmed the accident with a motion picture camera. When Karp sells stills from his film to a local tabloid, News Today Magazine, Jack splices them together into a crude movie, syncs them with his recorded audio and finds a visible flash and smoke from the fired gun. Though initially reluctant, Sally eventually agrees to help Jack privately investigate the incident. Over a drink, Jack reveals how he left his prior career as part of a government commission to root out police corruption after a wiretap operation he was involved in led to the death of an undercover cop named Freddie Corso.\n\nUnbeknownst to Jack, Sally and Karp, both frequent blackmail co-conspirators, were hired as part of a larger plot against McRyan. A rival candidate had hired an operative named Burke to hook McRyan with Sally posing as a prostitute, take unflattering pictures of the pair, and publish them to expedite McRyan's withdrawal. However, Burke decided to blow out the tire of McRyan's car with a gunshot, thereby causing the accident. After botching the cover-up of Sally by murdering a look-alike, Burke murders two more look-alike women with piano wire and attributes the deaths to a fictional serial killer, \"the Liberty Bell Strangler,\" so that he can cover up the cover-up when she is successfully murdered.\n\nTo help Jack investigate McRyan's murder, Sally steals Karp's film, which, when synced to Jack's audio, clearly reveals the gunshot that precipitated the blow-out. Nevertheless, nobody believes Jack's story and a seemingly widespread conspiracy immediately silences his every move. Local talk-show host Frank Donahue asks to interview Jack on air and release his tapes, to which Jack eventually agrees. Burke follows the development by tapping Jack's phone, calls Sally as Donahue, and asks her to meet him at a train station with the tapes. When Sally tells Jack about Donahue's call, he becomes suspicious. He copies the audio tapes, but is unable to copy the film before Sally's meeting.\n\nShadowing a wired Sally from a distance, Jack is alarmed to see that his supposed contact is actually Burke. Immediately realizing that she is in danger, Jack attempts to warn her, but she and Burke slip out of range and into a parade. Jack manically dashes across the city, attempting to head them off and rescue her, but crashes his Jeep into the window of a department store and is incapacitated. By the time he awakens in a parked ambulance, Burke has stolen the film from Sally and thrown it into a river. Still listening in on his earpiece as he raves to find them, Jack spots Burke attacking her on a rooftop, startles him and stabs him to death with his own weapon, but is ultimately too late to save Sally, and cradles her lifeless body in his arms.\n\nBurke's death, combined with the loss of the film, ties up the last loose end. Jack's audio tapes alone are deemed insufficient to prove that a gunshot occurred. Jack obsessively replays the recording of Sally's voice and incorporates her dying scream in Co-ed Frenzy. Ecstatic at having found the perfect scream, Sam replays the audio, forcing Jack to cover his ears.",
+ "synopsis_words": 693,
+ "episodes": [
+  {
+   "number": 282,
+   "date": "2022-11-15",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Sean Fennessey",
+    "Wesley Morris"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "neo-noir",
+   "reach": 29,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "conspiracy",
+   "reach": 13,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "philadelphia, pennsylvania",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "whodunit",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "hitman",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "politics",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "paranoia",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "political thriller",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "car accident",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "presidential election",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "tape recorder",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "audio recording",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "audio tape",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "faithlessness",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "giallo",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "grand",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "noise",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "sound effect",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "yell",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "John Travolta",
+   "films": 6
+  },
+  {
+   "name": "Nancy Allen",
+   "films": 2
+  },
+  {
+   "name": "John Lithgow",
+   "films": 2
+  },
+  {
+   "name": "Dennis Franz",
+   "films": 1
+  },
+  {
+   "name": "Peter Boyden",
+   "films": 1
+  },
+  {
+   "name": "John Aquino",
+   "films": 0
+  },
+  {
+   "name": "John McMartin",
+   "films": 0
+  },
+  {
+   "name": "Deborah Everton",
+   "films": 0
+  },
+  {
+   "name": "J. Patrick McNamara",
+   "films": 0
+  },
+  {
+   "name": "Roger Wilson",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "a9674799-b5c7-439c-9be8-317220968d76",
+   "title": "The Untouchables",
+   "year": 1987,
+   "poster": "tPq0R4jTO4Ey8ZspFaWK9wGA4Ls.jpg"
+  },
+  {
+   "id": "43357b01-0c8d-4381-99cb-d7f15c4979c0",
+   "title": "Mission: Impossible",
+   "year": 1996,
+   "poster": "l5uxY5m5OInWpcExIpKG6AR3rgL.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "a93b20e4-9f7c-430f-a569-dce6dd44643e",
+   "title": "Saturday Night Fever",
+   "year": 1977,
+   "poster": "ylA7E5Md21aqgzxbwa2dFxX8LKV.jpg"
+  },
+  {
+   "id": "f55aa5a0-3081-4671-a432-7c1148a6ce95",
+   "title": "Grease",
+   "year": 1978,
+   "poster": "2rM7fQKpb7cs1Iq7IBqub9LFDzJ.jpg"
+  },
+  {
+   "id": "31bfe3f1-4d76-4e00-8dca-73a36d0d6142",
+   "title": "RoboCop",
+   "year": 1987,
+   "poster": "hHtOgGb3NihlyRATHlKPaFApbrd.jpg"
+  },
+  {
+   "id": "68ca5178-092b-4018-bd26-d2fe8d121527",
+   "title": "Cliffhanger",
+   "year": 1993,
+   "poster": "b28DOM54OHb1c7Lsk6Nu7Kwuonj.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Blow_Out",
+  "wikidata": "Q885488"
+ }
+}

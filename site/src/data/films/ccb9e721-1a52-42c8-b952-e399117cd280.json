@@ -1,0 +1,187 @@
+{
+ "id": "ccb9e721-1a52-42c8-b952-e399117cd280",
+ "title": "Before Sunrise",
+ "year": 1995,
+ "poster": "kf1Jb1c2JAOqjuzA3H4oDM263uB.jpg",
+ "tmdb_id": 76,
+ "directors": [
+  "Richard Linklater"
+ ],
+ "director_primary": "Richard Linklater",
+ "genres": [
+  "Drama",
+  "Romance"
+ ],
+ "runtime": 101,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2025-01-27",
+ "last": "2025-01-27",
+ "scores": {
+  "tmdb": 7.971,
+  "rt": 100.0,
+  "ebert": 3.0,
+  "box_office": "$12.3M",
+  "multiple": 2.3949544,
+  "cpi_year": 2024
+ },
+ "plot": "An unexpected meeting on a train leads two travelers to spend an evening wandering through Vienna. As the night unfolds, they share stories and conversations about life and love, exploring new ideas while a quiet intimacy grows between them, knowing it may be their only night together.",
+ "synopsis": "On June 16, 1994, Jesse meets Céline on a train from Budapest, and they strike up a conversation. Jesse is going to Vienna with a Eurail pass to catch a flight back to the United States, whereas Céline is returning to university in Paris after visiting her grandmother in Budapest. When they reach Vienna, Jesse asks Céline to disembark with him, saying that 10 or 20 years down the road, she might not be happy with her significant other and might wonder how her life would have been different if she had picked someone else. Alternatively, she may just realize Jesse himself is not that different from the rest. Lacking the money to rent a room for the night, they decide to roam around in Vienna until Jesse's flight the next morning.\n\nAfter visiting a few landmarks in Vienna, they share a kiss at the top of the Wiener Riesenrad at sunset and start to feel a romantic connection. As they continue to roam around the city, they begin to talk more openly with each other, with conversations ranging from topics about love, life, religion, and their observations of Vienna.\n\nWhen they are walking alongside the Donaukanal, they are approached by a man who offers to write them a poem with a word of their choice inside. Jesse and Céline decide on the word \"milkshake” and are soon presented with the poem \"Delusion Angel\" (written for the film by poet David Jewell)—a poem that Jesse cynically claims the man had already previously written and just inserts the words people choose.\n\nLater, while playing pinball at a local club, Céline tells Jesse that her last boyfriend broke up with her six months ago, claiming that she \"loved him too much.” When questioned, Jesse reveals he had initially come to Europe to spend time with his girlfriend who was studying in Madrid, but they broke up soon after he was there. He found a cheap flight home, via Vienna, but it did not leave for two weeks so he bought a Eurail pass and traveled around Europe. In a Viennese café, Jesse and Céline stage fake phone conversations with each other, playing each other's friends they pretend to call. Céline reveals that she was ready to get off the train with Jesse before he convinced her. Jesse reveals that after he broke up with his girlfriend, he bought a flight that really was not much cheaper, and all he really wanted was an escape from his life.\n\nThey admit their attraction to each other and how the night has made them feel, though they understand that they probably will not see each other again. They decide to make the best of what time they have left. They then get a bottle of wine and share it together in a park and begin discussing whether or not they should have sex. Céline says that she doesn't just want to be a one-night stand for Jesse; Jesse then explains that, if given the choice, he would marry her instead of never seeing her again. They begin kissing passionately and embracing each other, then it is heavily implied Jesse and Céline have sex in the park. The film ends the next day at the train station, where, just as Céline's train is about to leave, the couple decide not to exchange any contact information but instead meet at the same place in six months.",
+ "synopsis_words": 569,
+ "episodes": [
+  {
+   "number": 390,
+   "date": "2025-01-27",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Cruise",
+   "verdict_tone": "cruise",
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Sean Fennessey"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "cliché",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "playful",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "soulmates",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "semi autobiographical",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "talking",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "walking",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "austria",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "vienna, austria",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Ethan Hawke",
+   "films": 7
+  },
+  {
+   "name": "Julie Delpy",
+   "films": 2
+  },
+  {
+   "name": "Andrea Eckert",
+   "films": 1
+  },
+  {
+   "name": "Hanno Pöschl",
+   "films": 1
+  },
+  {
+   "name": "Karl Bruckschwaiger",
+   "films": 1
+  },
+  {
+   "name": "Tex Rubinowitz",
+   "films": 0
+  },
+  {
+   "name": "Erni Mangold",
+   "films": 0
+  },
+  {
+   "name": "Dominik Castell",
+   "films": 0
+  },
+  {
+   "name": "Haymon Maria Buttinger",
+   "films": 0
+  },
+  {
+   "name": "Harold Waiglein",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "8ddcc258-9970-4953-ade9-163033a4be5d",
+   "title": "Dazed and Confused",
+   "year": 1993,
+   "poster": "msG9awbLhVZwv1Eh9Ge7SofMexW.jpg"
+  },
+  {
+   "id": "b39134d3-2eba-42b5-bbbc-509c74ddfe0b",
+   "title": "Before Sunset",
+   "year": 2004,
+   "poster": "4sW5XH9ZfYXpvFzev00S1IGAEbg.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "b39134d3-2eba-42b5-bbbc-509c74ddfe0b",
+   "title": "Before Sunset",
+   "year": 2004,
+   "poster": "4sW5XH9ZfYXpvFzev00S1IGAEbg.jpg"
+  },
+  {
+   "id": "02c1b8ff-d059-46f6-a1b7-490077d12c39",
+   "title": "Dead Poets Society",
+   "year": 1989,
+   "poster": "tNvKkSnnn4Z6RCBThyK1gfCSSvv.jpg"
+  },
+  {
+   "id": "7996de9b-4a7c-425d-aa4f-951ab4e08331",
+   "title": "Alive",
+   "year": 1993,
+   "poster": "uQACcCZqd7WCTRin9xRIW5gr1bd.jpg"
+  },
+  {
+   "id": "5b0be4cb-740f-4223-9ed4-3cfde5bf5ff2",
+   "title": "Reality Bites",
+   "year": 1994,
+   "poster": "qGDhodtpkpxkrFqokenGNJlzt6w.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Before_Sunrise",
+  "wikidata": "Q659609"
+ }
+}

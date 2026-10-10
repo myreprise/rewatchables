@@ -1,0 +1,296 @@
+{
+ "id": "9e4d4580-f0a3-41de-b911-59f89a73206a",
+ "title": "Total Recall",
+ "year": 1990,
+ "poster": "wVbeL6fkbTKSmNfalj4VoAUUqJv.jpg",
+ "tmdb_id": 861,
+ "directors": [
+  "Paul Verhoeven"
+ ],
+ "director_primary": "Paul Verhoeven",
+ "genres": [
+  "Action",
+  "Adventure",
+  "Science Fiction"
+ ],
+ "runtime": 113,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2020-04-07",
+ "last": "2020-04-07",
+ "scores": {
+  "tmdb": 7.328,
+  "rt": 82.0,
+  "ebert": 3.5,
+  "box_office": "$627.2M",
+  "multiple": 4.020275707692308,
+  "cpi_year": 2024
+ },
+ "plot": "Construction worker Douglas Quaid's obsession with the planet Mars leads him to visit Rekall, a virtual vacation company that manufactures memories. When something goes wrong during Quaid's memory implant procedure, his life turns upside down, leading him to question what is reality and what isn't.",
+ "synopsis": "In 2084, Douglas Quaid is a construction worker on Earth, who is having troubling dreams about Mars and a mysterious woman there. His wife Lori is dismissive, pointing out how life on Earth is perfect compared to the ongoing conflicts between rival factions on colonized Mars, in part due to actions by the governor of Mars, Vilos Cohaagen, with rumors that an alien artifact has been located in the mines on the planet. Despite warnings from his co-workers, Quaid visits \"Rekall\", a company that uses memory implants to give its clients experiences of fabulous vacations. Quaid opts for a trip to Mars including an optional espionage facet. As he is put under but before the technicians can implant the memories, Quaid violently reacts, claiming they have blown his cover. The company re-sedates him, wipes his memory of the visit to Rekall, and sends him home in an automated taxi. Waking up at home, Quaid is soon cornered and attacked by his coworkers, forcing him to kill them to escape. Lori also turns against Quaid, claiming that their marriage is a fake created by memory implants. Quaid leaves her and escapes into the city before armed thugs arrive, led by Richter, Lori's real husband and Cohaagen's subordinate. Quaid is contacted by an unknown man that warns him he is being tracked, and leaves him with a suitcase. Quaid takes refuge in an abandoned building and investigates the suitcase, which contains money, gadgets, and a video. The video is of himself, apparently called \"Hauser\"; Hauser explains that he used to work for Cohaagen but has learned something about the artifact, and underwent the memory wipe to protect himself. The video instructs Quaid on removing the tracking device, and then to get himself to Mars and meet \"Kuato\". Quaid makes his way to Mars and follows clues left by Hauser to a bar in Venusville, the colony's red light district populated by a number of people who are mutants due to poor shielding from radiation. There, he meets Melina, the woman from his dreams and Hauser's former lover. She refuses to have anything to do with him, believing that Quaid is still working for Cohaagen. Returning to his pad, Quaid encounters Lori and Rekall's President, Dr. Edgemar. Edgemar insists Quaid is living out the implanted memories, and offers Quaid a pill that would wake him from the dream. Quaid is about to take the pill when he sees Edgemar sweating in fear, and kills him instead. Richter's forces capture Quaid, but Melina arrives to rescue him, with Quaid killing Lori in the process. The two race back to the Venusville bar, and with Benny, their taxi driver, escape into tunnels hidden behind the bar. Unable to locate Quaid, Cohaagen isolates and shuts down the ventilation to Venusville, slowly suffocating its citizens. Quaid, Melina, and Benny are taken to a resistance base, and Quaid is introduced to Kuato, a deformed humanoid conjoined to his brother's stomach. Kuato reads Quaid's mind and learns that the artifact is a reactor that, once activated, will create a breathable atmosphere for Mars. Suddenly, Cohaagen's forces burst in, led there by Benny, and kill most of the resistance, including Kuato; Kuato, in his final words, instructs Quaid to start the reactor. Quaid and Melina are taken to Cohaagen. Cohaagen shows them another video of Hauser, who reveals the Quaid persona was a ploy to infiltrate the mutants and lead Cohaagen to Kuato, thereby wiping out the resistance. Cohaagen orders Hauser's memory to be reimplanted in Quaid and Melina to be programmed to be Hauser's slave, but Quaid and Melina escape, making their way into the mines where the alien reactor is located. They work their way to the control room of the reactor, killing Benny, Richter, and the rest of his men along the way. Cohaagen confronts them in the control room, insisting that turning on the artifact will kill them all. Quaid tries to dispose of a bomb Cohaagen has planted, accidentally blowing out one of the walls of the control room and exposing them to the vacuum of the Martian atmosphere. Cohaagen is pulled into the Martian atmosphere and dies from choking and decompression. Quaid and Melina are also pulled out, but not before starting the reactor. As Kuato predicted, the reactor releases a massive plume of air that covers the surface of Mars, saving Quaid and Melina in time, and bursting the windows of Venusville, saving its population. As humans walk onto the surface of the planet in its new atmosphere, Quaid takes a moment to wonder if he is still living the memory before turning to kiss Melina.",
+ "synopsis_words": 773,
+ "episodes": [
+  {
+   "number": 129,
+   "date": "2020-04-07",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Shea Serrano",
+    "Jason Concepcion"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "dystopia",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "fake identity",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "secret agent",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "cyberpunk",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "space travel",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "double life",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "falsely accused",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "telepathy",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "fictional war",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "futuristic",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "hologram",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "planet mars",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "resistance",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "space colony",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "villainess",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "2080s",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "false memory",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "implanted memory",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "metro cdmx",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "mutant",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "oxygen",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "robot cop",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "utopia",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "virtual world",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Arnold Schwarzenegger",
+   "films": 8
+  },
+  {
+   "name": "Rachel Ticotin",
+   "films": 1
+  },
+  {
+   "name": "Sharon Stone",
+   "films": 3
+  },
+  {
+   "name": "Michael Ironside",
+   "films": 1
+  },
+  {
+   "name": "Marshall Bell",
+   "films": 1
+  },
+  {
+   "name": "Michael Champion",
+   "films": 0
+  },
+  {
+   "name": "Mel Johnson Jr.",
+   "films": 0
+  },
+  {
+   "name": "Roy Brocksmith",
+   "films": 0
+  },
+  {
+   "name": "Rosemary Dunsmore",
+   "films": 0
+  },
+  {
+   "name": "Ronny Cox",
+   "films": 5
+  }
+ ],
+ "by_director": [
+  {
+   "id": "31bfe3f1-4d76-4e00-8dca-73a36d0d6142",
+   "title": "RoboCop",
+   "year": 1987,
+   "poster": "hHtOgGb3NihlyRATHlKPaFApbrd.jpg"
+  },
+  {
+   "id": "e32f93d7-296d-4a74-90d2-130be6655978",
+   "title": "Basic Instinct",
+   "year": 1992,
+   "poster": "76Ts0yoHk8kVQj9MMnoMixhRWoh.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "1a546650-619e-4230-b8c7-fa8e3da9733c",
+   "title": "The Terminator",
+   "year": 1984,
+   "poster": "qvktm0BHcnmDpul4Hz01GIazWPr.jpg"
+  },
+  {
+   "id": "695c2a95-5a11-4f9c-8cc4-4db7fd02b382",
+   "title": "Commando",
+   "year": 1985,
+   "poster": "ollPAAAgZ7euU8VisfqU3cuXhZ6.jpg"
+  },
+  {
+   "id": "2dda4b44-6823-4110-b3e2-eea8dcb726f9",
+   "title": "Predator",
+   "year": 1987,
+   "poster": "k3mW4qfJo6SKqe6laRyNGnbB9n5.jpg"
+  },
+  {
+   "id": "1af6c7b7-eb61-424c-94ed-3fd99b690ff0",
+   "title": "The Running Man",
+   "year": 1987,
+   "poster": "GTAUOhO4BN0peJVvxGEQydJvUO.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Total_Recall_%281990_film%29",
+  "wikidata": "Q222018"
+ }
+}

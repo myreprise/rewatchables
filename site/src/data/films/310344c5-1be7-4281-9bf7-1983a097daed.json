@@ -1,0 +1,242 @@
+{
+ "id": "310344c5-1be7-4281-9bf7-1983a097daed",
+ "title": "Law Abiding Citizen",
+ "year": 2009,
+ "poster": "fcEXcip7v0O1ndV4VUdFqJSqbOg.jpg",
+ "tmdb_id": 22803,
+ "directors": [
+  "F. Gary Gray"
+ ],
+ "director_primary": "F. Gary Gray",
+ "genres": [
+  "Drama",
+  "Crime",
+  "Thriller"
+ ],
+ "runtime": 109,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2026-09-21",
+ "last": "2026-09-21",
+ "scores": {
+  "tmdb": 7.395,
+  "rt": 26.0,
+  "ebert": 3.0,
+  "box_office": "$187.1M",
+  "multiple": 2.413207547169811,
+  "cpi_year": 2024
+ },
+ "plot": "A frustrated man decides to take justice into his own hands after a plea bargain sets one of his family's killers free. He targets not only the killer but also the district attorney and others involved in the deal.",
+ "synopsis": "Clyde Shelton lives with his wife and daughter in Philadelphia when two burglars, Rupert Ames and Clarence Darby, break into their home. Ames ties up and gags Clyde, while Darby stabs him in the stomach before raping and murdering his wife and daughter. Prosecutor Nick Rice is assigned to the case along with District Attorney Jonas Cantrell. Unwilling to risk lowering his high conviction rate due to insufficient evidence, Nick agrees to a plea bargain. Clyde begs Nick not to make a deal with Darby, but he does so anyway. Darby testifies against Ames, who is convicted of felony murder and sentenced to death, while Darby pleads guilty to third-degree murder and will serve three years in prison before being released on parole. During a press conference, Darby publicly thanks Nick and shakes his hand as Clyde watches from afar.\n\nA decade later, Ames expresses remorse for his role in the burglary, but maintains his innocence in the murders. He is executed via lethal injection, but the procedure goes awry and he dies in agony. Nick and Cantrell discover that the drugs were replaced with an anticonvulsant. Meanwhile, Darby is warned by an anonymous caller of incoming police and instructs him to flee his apartment and take an officer hostage. The officer is revealed to be Clyde in disguise; Darby attempts to shoot him, but is paralyzed by tetrodotoxin-laced spikes hidden in the gun's handle. Clyde records himself torturing and killing Darby as he is strapped to a table. After Darby's remains are found inside an abandoned warehouse owned by Clyde, he is arrested.\n\nDuring interrogation, Nick confronts Clyde for mailing a copy of Darby's murder to his daughter Denise. Clyde represents himself at his bail hearing, where Judge Laura Burch, who previously presided over Darby's plea deal, initially grants him bail. When Clyde accuses Burch of being too easily swayed by legal doctrine and willing to release a potential criminal, she holds him in contempt of court and denies his bail. After giving his confession, Clyde demands a steak lunch from Del Frisco's and his iPod be delivered to his prison cell at 1:00 p.m. in exchange for the location of Darby's lawyer, Bill Reynolds, who was reported missing by his wife three days earlier. Nick agrees to the deal, but after missing Clyde's deadline, Reynolds is found buried alive with a precisely-timed oxygen device strapped to him. Simultaneously, Clyde kills his cellmate and is subsequently moved to solitary confinement.\n\nSuspicious of his skills, Nick and Cantrell meet with a CIA contact, who reveals that Clyde previously worked for the agency and specialized in unorthodox assassinations. During a meeting, Nick and Cantrell persuade Burch to temporarily suspend Clyde's civil rights, when she is killed by an explosive device in her cellphone. When confronted, Clyde explains that the murders are about the failures of the criminal justice system. Clyde tells Nick that he will end the killings by 6:00 a.m. if he is released from prison and all charges against him are dropped, but Nick refuses.\n\nAfter Clyde's deadline passes, members of Nick's team, including his assistant, Sarah Lowell, are killed in car bombings. While leaving Sarah's funeral, Cantrell is killed by a bomb disposal robot armed with automatic target recognition and an AT4. Nick prepares to resign, but Mayor April Henry instead promotes him to acting District Attorney and puts the city in lockdown. After Nick learns that Clyde owns a building near the prison, he and Detective Dunnigan discover a tunnel inside that leads to a cache of armaments, disguises, and surveillance equipment below the solitary confinement cells.\n\nNick realizes that Clyde intentionally sought solitary confinement, allowing him to leave the prison undetected. Clyde arrives disguised at City Hall, where Henry is holding an emergency meeting, and plants a napalm bomb in the room below the meeting. Nick and Dunnigan discover it will be activated via a cellphone call. When Clyde returns to his cell and finds Nick waiting for him, he tries to make another deal, but Nick refuses and leaves. Clyde activates the bomb but quickly discovers that it has been placed underneath his bed. He smiles and sits down, holding his daughter's handmade bracelet as it explodes. Nick, now the District Attorney, joins his wife at Denise's cello recital, having previously failed to do so.",
+ "synopsis_words": 720,
+ "episodes": [
+  {
+   "number": 482,
+   "date": "2026-09-21",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Van Lathan",
+    "Craig Horlbeck"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "prison",
+   "reach": 16,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "investigation",
+   "reach": 14,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "philadelphia, pennsylvania",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "assassin",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "explosion",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "courtroom",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "bomb",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "vigilante justice",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "criminal mastermind",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "district attorney",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "torture",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "vigilantism",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "gore",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "rape and revenge",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "deal",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "justice",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "secret passage",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Jamie Foxx",
+   "films": 5
+  },
+  {
+   "name": "Gerard Butler",
+   "films": 2
+  },
+  {
+   "name": "Colm Meaney",
+   "films": 2
+  },
+  {
+   "name": "Bruce McGill",
+   "films": 1
+  },
+  {
+   "name": "Leslie Bibb",
+   "films": 3
+  },
+  {
+   "name": "Michael Irby",
+   "films": 0
+  },
+  {
+   "name": "Gregory Itzin",
+   "films": 0
+  },
+  {
+   "name": "Regina Hall",
+   "films": 0
+  },
+  {
+   "name": "Emerald-Angel Young",
+   "films": 0
+  },
+  {
+   "name": "Brooke Stacy Mills",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "4c033f2b-8408-45b0-8b97-8f2fd5e30602",
+   "title": "Friday",
+   "year": 1995,
+   "poster": "3Ya1RurP2NqaYoiok4DmfO41rCC.jpg"
+  },
+  {
+   "id": "a6a1a4aa-220d-4f48-904b-7c8e5d1e6864",
+   "title": "The Italian Job",
+   "year": 2003,
+   "poster": "eSkjK4kctyrWpFhxl35GPvSs6tI.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "70a4d236-97c6-4e01-bac3-c4116c6ec6e3",
+   "title": "Under Siege",
+   "year": 1992,
+   "poster": "7tzVzgGKhLsQoiyDh2tiGcPeTpH.jpg"
+  },
+  {
+   "id": "2a7fb6e3-d850-443b-bf0e-1a0ce769ae6d",
+   "title": "Any Given Sunday",
+   "year": 1999,
+   "poster": "bysZeUvSPZPJnku4qkHF34CdgMG.jpg"
+  },
+  {
+   "id": "a447302a-0e6f-415a-b91f-19483d8467c8",
+   "title": "Ali",
+   "year": 2001,
+   "poster": "32l3FaCzs8cXWps6hkgNJAcOsP.jpg"
+  },
+  {
+   "id": "5a130347-f383-45d2-bb1b-887b18ba6678",
+   "title": "Collateral",
+   "year": 2004,
+   "poster": "nV5316WUsVij8sVXLCF1g7TFitg.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Law_Abiding_Citizen",
+  "wikidata": "Q951071"
+ }
+}

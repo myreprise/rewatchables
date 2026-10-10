@@ -1,0 +1,294 @@
+{
+ "id": "7899bcae-0c72-4f15-8e35-47c39fe9b928",
+ "title": "This Is the End",
+ "year": 2013,
+ "poster": "tNIW0NhX1hKvUsy6PQ80DOKUhkD.jpg",
+ "tmdb_id": 109414,
+ "directors": [
+  "Seth Rogen; Evan Goldberg"
+ ],
+ "director_primary": "Seth Rogen; Evan Goldberg",
+ "genres": [
+  "Action",
+  "Comedy"
+ ],
+ "runtime": 106,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2023-06-27",
+ "last": "2023-06-27",
+ "scores": {
+  "tmdb": 6.232,
+  "rt": 82.0,
+  "ebert": null,
+  "box_office": "$169.7M",
+  "multiple": 3.9387913125,
+  "cpi_year": 2024
+ },
+ "plot": "While attending a party at James Franco's house, Seth Rogen, Jay Baruchel and many other celebrities are faced with the apocalypse.",
+ "synopsis": "In Los Angeles, Jay Baruchel visits Seth Rogen, who invites him to a housewarming party hosted by James Franco. At the party, Jay feels uncomfortable, so he and Seth visit a convenience store where a rapture suddenly occurs. Seth and Jay flee back to James's house and find the party unharmed. An earthquake then strikes and the crowd rushes outside, where a sinkhole opens up in James's yard. Several celebrities and partygoers are killed as Seth, Jay, James, Jonah Hill and Craig Robinson run back inside and learn on the news that the earthquake has devastated most of the city. They take inventory of their supplies, set up a ration system, board up the house and await help.\n\nThe next morning, Danny McBride, who crashed the party last night and is unaware of the crisis, wakes up first and wastes most of the group's sustenance. He disbelieves what the others tell him of the previous night's events until a man outside gets decapitated by an unseen creature. Tensions rise due to various conflicts, including Jay and Seth's growing estrangement and the others' skepticism of the former's belief that the disaster might be the Apocalypse predicted in the Book of Revelation. Emma Watson makes her way back to James's house, but leaves with the group's remaining drinks after misinterpreting an overheard conversation, thinking they intend to rape her.\n\nCraig attempts to obtain water from James's cellar, only to find the doors locked. He then encounters another unseen creature, causing him to believe Jay's theory. Jay and Seth dig through the floor and find water, but Danny wastes most of it out of spite, prompting the others to kick him out. Before leaving, Danny reveals Jay was in town two months prior, but stayed at a hotel instead of with Seth due to their strained relationship. That night, Jonah prays for Jay to die and is possessed by a demon. While scavenging for supplies in an abandoned house next door, Craig and Jay are chased by a demon while Seth and James are attacked by the possessed Jonah, before Craig and Jay return and help subdue Jonah by tying him to James's bed. During an exorcism, Jay and Seth fight and knock over a candle, starting a fire that engulfs Jonah and the house, and forces the others outside.\n\nWhen a demon lands in front of James's car, Craig volunteers to sacrifice himself to help the others get into the car and is raptured into Heaven, causing the others to realize they can save themselves by performing a selfless act. While driving, James decides to take Seth and Jay to his home in Malibu before encountering a group of cannibals led by Danny and an enslaved Channing Tatum. James offers to sacrifice himself and a rapture occurs, only to get cancelled after he taunts Danny. James is eaten alive by Danny and his cannibals while Seth and Jay escape and encounter Satan. Jay apologizes to Seth for his wrongdoings, whereupon a rapture only ensnares him. Jay takes Seth with him, but Seth's presence prevents them from reaching Heaven together. Seth tells Jay to leave him behind, after which he is saved by another rapture and the two reconcile as they enter Heaven. Seth and Jay reunite with Craig, who tells them about Heaven's instant wish fulfillment. After Jay wishes for the Backstreet Boys, the band performs for a celebration.",
+ "synopsis_words": 567,
+ "episodes": [
+  {
+   "number": 314,
+   "date": "2023-06-27",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Craig Horlbeck"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "friendship",
+   "reach": 22,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "drugs",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "dark comedy",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "satire",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "creature",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "disturbed",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "friends",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "macabre",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "mischievous",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "dreary",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "possession",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "celebrity",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "house party",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "demon",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "hollywood",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "end of the world",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "exorcism",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "painting",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "claustrophobic",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "frantic",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "panic",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "self-referential",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "apocalypse",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "biblical",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "end",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "monster",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "other worldly",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "James Franco",
+   "films": 3
+  },
+  {
+   "name": "Jonah Hill",
+   "films": 4
+  },
+  {
+   "name": "Seth Rogen",
+   "films": 6
+  },
+  {
+   "name": "Jay Baruchel",
+   "films": 2
+  },
+  {
+   "name": "Danny McBride",
+   "films": 2
+  },
+  {
+   "name": "Craig Robinson",
+   "films": 0
+  },
+  {
+   "name": "Michael Cera",
+   "films": 1
+  },
+  {
+   "name": "Emma Watson",
+   "films": 0
+  },
+  {
+   "name": "Mindy Kaling",
+   "films": 0
+  },
+  {
+   "name": "David Krumholtz",
+   "films": 1
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "3646d76b-d772-493e-b6d1-9e274413b80d",
+   "title": "Pineapple Express",
+   "year": 2008,
+   "poster": "6E50WjeOYjDZg9HXgPjYdGtY2jG.jpg"
+  },
+  {
+   "id": "77291b13-f735-4de9-8e2f-275849047532",
+   "title": "Superbad",
+   "year": 2007,
+   "poster": "ek8e8txUyUwd2BNqj6lFEerJfbq.jpg"
+  },
+  {
+   "id": "fcc76e89-cdcb-42e3-b7ac-aa8d073dae38",
+   "title": "Spider-Man",
+   "year": 2002,
+   "poster": "or6XJBVpcEbIkma0V9zshnbEtx4.jpg"
+  },
+  {
+   "id": "34cfe634-4b62-4526-a3c5-45d724c9baee",
+   "title": "The 40 Year-Old Virgin",
+   "year": 2005,
+   "poster": "mVeoqL37gzhMXQVpONi9DGOQ3tZ.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/This_Is_the_End",
+  "wikidata": "Q607363"
+ }
+}

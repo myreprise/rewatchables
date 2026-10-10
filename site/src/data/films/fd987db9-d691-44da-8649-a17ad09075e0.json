@@ -1,0 +1,305 @@
+{
+ "id": "fd987db9-d691-44da-8649-a17ad09075e0",
+ "title": "The Departed",
+ "year": 2006,
+ "poster": "nT97ifVT2J1yMQmeq20Qblg61T.jpg",
+ "tmdb_id": 1422,
+ "directors": [
+  "Martin Scorsese"
+ ],
+ "director_primary": "Martin Scorsese",
+ "genres": [
+  "Drama",
+  "Thriller",
+  "Crime"
+ ],
+ "runtime": 151,
+ "revisited": false,
+ "episodes_featured": 2,
+ "first": "2017-08-17",
+ "last": "2021-10-05",
+ "scores": {
+  "tmdb": 8.159,
+  "rt": 91.0,
+  "ebert": 4.0,
+  "box_office": "$453.5M",
+  "multiple": 3.2385,
+  "cpi_year": 2024
+ },
+ "plot": "To take down South Boston's Irish Mafia, the police send in one of their own to infiltrate the underworld, not realizing the syndicate has done likewise. While an undercover cop curries favor with the mob kingpin, a career criminal rises through the police ranks. But both sides soon discover there's a mole among them.",
+ "synopsis": "Colin Sullivan is introduced to organized crime by Irish-American mobster Frank Costello in the Irish neighborhood of South Boston. Costello trains him to become a mole inside the Massachusetts State Police. Sullivan is accepted into the Special Investigations Unit, which focuses on organized crime. Before he graduates from the police academy, Billy Costigan is asked by Captain Queenan and Staff Sergeant Dignam to go undercover, as his family ties to organized crime make him a perfect infiltrator. He drops out of the academy and does time in prison on a fake assault charge to increase his credibility. As both infiltrate their respective organizations, Sullivan begins a romance with psychiatrist Madolyn Madden. Costigan sees her for his probation and also develops a relationship with her. After Costello escapes a sting operation, both moles become aware of the other's existence. Sullivan is told to find the \"rat\" and asks Costello for information to determine who is the informer within his crew. Costigan follows Costello into a movie theater where Costello gives Sullivan an envelope containing personal information on his crew members. Costigan then chases Sullivan through Chinatown. When it is over, neither man knows the other's identity. Sullivan has Queenan tailed to a meeting with Costigan. Costello's men go in and Queenan is killed. When they exit, Costigan pretends he has come to join them. Later, Costello's henchman, Fitzgibbons, reveals that Delahunt, a crew member, was an undercover cop. Dignam is forced to step down as a consequence. Using Queenan's phone, Sullivan reaches Costigan, who refuses to abort his mission. Sullivan learns of Costello's role as an informant for the Federal Bureau of Investigation from Queenan's diary, causing him to worry about his identity being revealed. With Costigan's help, Costello is traced to a cocaine drop-off, where a gunfight erupts between his crew and police, resulting in most of the crew being killed. Costello, confronted by Sullivan, admits he is an occasional FBI informant. Sullivan then shoots him multiple times. With Costello dead, Sullivan is applauded the next day by everyone on the force. In good faith, Costigan comes to him for restoration of his true identity, but notices the envelope from Costello on Sullivan's desk and flees. Knowing he has been found out, Sullivan erases all records of Costigan from the police computer system. Madolyn tells Sullivan that she is pregnant, but does not reveal who the father is. Later, she discovers a package from Costigan containing a CD with recordings of Costello's conversations with Sullivan. Sullivan walks in as she is listening and tries unsuccessfully to assuage her suspicions. He contacts Costigan, who reveals that Costello recorded every conversation he had with Sullivan. Costello's attorney left Costigan in possession of the recordings and he intends to implicate Sullivan. They agree to meet at the building where Queenan died. On the roof, Costigan catches Sullivan off-guard and handcuffs him. As Costigan had secretly arranged, Officer Brown appears on the roof as well. Shocked, Brown draws his gun on Costigan, who attempts to justify his actions by exposing Sullivan as the rat. Costigan asks Brown why Dignam did not accompany him, but Brown does not answer. Costigan leads Sullivan to the elevator. When it reaches the ground floor, Costigan is shot in the head by Officer Barrigan, who then shoots Brown and reveals to Sullivan that Costello had more than one mole in the police. When Barrigan turns, Sullivan shoots him in the head. At police headquarters, Sullivan identifies Barrigan as the mole and has Costigan posthumously given the Medal of Merit. At Costigan's funeral, Sullivan and Madolyn stand at the grave. Sullivan attempts to talk to her, but she ignores him. When Sullivan enters his apartment, Dignam, wearing hospital footies and surgical gloves, shoots him in the head with a silenced pistol.",
+ "synopsis_words": 631,
+ "episodes": [
+  {
+   "number": 8,
+   "date": "2017-08-17",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan"
+   ],
+   "note": null
+  },
+  {
+   "number": 223,
+   "date": "2021-10-05",
+   "gap_before": "4 yr 1 mo later",
+   "is_revisit": true,
+   "revisit_sequence": 2,
+   "revisit_kind": "regular",
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Sean Fennessey"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "intense",
+   "reach": 23,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "police",
+   "reach": 22,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "gangster",
+   "reach": 18,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "organized crime",
+   "reach": 15,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "inspirational",
+   "reach": 14,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "remake",
+   "reach": 13,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "undercover",
+   "reach": 13,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "mafia",
+   "reach": 12,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "frightened",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "angry",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "boston, massachusetts",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "friends",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "dreary",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "complex",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "irish-american",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "authoritarian",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "undercover cop",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "crime boss",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "mobster",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "mole",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "police training",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "realtor",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "state police",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Leonardo DiCaprio",
+   "films": 7
+  },
+  {
+   "name": "Matt Damon",
+   "films": 10
+  },
+  {
+   "name": "Jack Nicholson",
+   "films": 4
+  },
+  {
+   "name": "Mark Wahlberg",
+   "films": 6
+  },
+  {
+   "name": "Martin Sheen",
+   "films": 4
+  },
+  {
+   "name": "Ray Winstone",
+   "films": 0
+  },
+  {
+   "name": "Vera Farmiga",
+   "films": 1
+  },
+  {
+   "name": "Anthony Anderson",
+   "films": 0
+  },
+  {
+   "name": "Alec Baldwin",
+   "films": 5
+  },
+  {
+   "name": "Kevin Corrigan",
+   "films": 1
+  }
+ ],
+ "by_director": [
+  {
+   "id": "1bd1e666-bdee-40c9-a862-b946d9de51f3",
+   "title": "Taxi Driver",
+   "year": 1976,
+   "poster": "ekstpH614fwDX8DUln1a2Opz0N8.jpg"
+  },
+  {
+   "id": "a604fcf2-549a-47e9-9825-6b0a1968e7a1",
+   "title": "After Hours",
+   "year": 1985,
+   "poster": "8upjM945SVY99tu2Z8OG27Jd4m6.jpg"
+  },
+  {
+   "id": "3c90894d-9490-4574-b7e1-043b8536782e",
+   "title": "The Color of Money",
+   "year": 1986,
+   "poster": "dVdnHmdQu3JtLAAksjTmTEF76gD.jpg"
+  },
+  {
+   "id": "cd4453db-7321-4cec-9d36-d9914951a1d4",
+   "title": "GoodFellas",
+   "year": 1990,
+   "poster": "9OkCLM73MIU2CrKZbqiT8Ln1wY2.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "72fc6622-d997-4397-9f67-ab1dc4990381",
+   "title": "Catch Me If You Can",
+   "year": 2002,
+   "poster": "ctjEj2xM32OvBXCq8zAdK3ZrsAj.jpg"
+  },
+  {
+   "id": "c7b46054-206f-4f1c-9fd7-2ebdf086886e",
+   "title": "The Shining",
+   "year": 1980,
+   "poster": "uAR0AWqhQL1hQa69UDEbb2rE5Wx.jpg"
+  },
+  {
+   "id": "47e266c7-3db1-4ef0-9a86-ca50e08041bc",
+   "title": "Wall Street",
+   "year": 1987,
+   "poster": "2tQYq9ntzn2dEwDIGLBSipYPenv.jpg"
+  },
+  {
+   "id": "37fb3c9b-1eac-495c-80da-18d674a41d75",
+   "title": "Batman",
+   "year": 1989,
+   "poster": "cij4dd21v2Rk2YtUQbV5kW69WB2.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/The_Departed",
+  "wikidata": "Q172975"
+ }
+}

@@ -1,0 +1,210 @@
+{
+ "id": "83874a69-dfec-4de4-b8c4-c56ec2330043",
+ "title": "Ransom",
+ "year": 1996,
+ "poster": "4nmOA5ZOY2VlHzwSlKY03sF2JUz.jpg",
+ "tmdb_id": 3595,
+ "directors": [
+  "Ron Howard"
+ ],
+ "director_primary": "Ron Howard",
+ "genres": [
+  "Action",
+  "Thriller"
+ ],
+ "runtime": 121,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2021-11-09",
+ "last": "2021-11-09",
+ "scores": {
+  "tmdb": 6.7,
+  "rt": 74.0,
+  "ebert": 3.0,
+  "box_office": "$618.8M",
+  "multiple": 3.8686585125,
+  "cpi_year": 2024
+ },
+ "plot": "When a rich man's son is kidnapped, he cooperates with the police at first but then tries a unique tactic against the criminals.",
+ "synopsis": "While multi-millionaire Tom Mullen and his wife Kate attend a science fair, their son Sean is kidnapped. Sean is taken to an apartment by Maris, a caterer for the Mullens, along with criminals Clark, Cubby and Miles. Tom and Kate receive an e-mail from the kidnappers demanding $2,000,000. Tom calls the FBI, who begin operating from his New York City penthouse. Detective Shaker of the NYPD is arresting a perpetrator in a convenience store when Cubby buys some FrankenBerry cereal. Shaker follows Cubby into the building where the kidnappers are residing, sees Sean tied in a bedroom, and holds Cubby at gunpoint, berating him for being so obvious; Shaker is the mastermind behind the kidnapping. Tom agrees to the FBI instructions for delivering the ransom. Receiving a phone call from Shaker, who is electronically disguising his voice, Tom follows his instructions. He meets Cubby in a New Jersey quarry. Shaker indicated that Cubby would give Tom an address where Sean could be picked up in exchange for the money, but when Cubby appears ignorant of these instructions and simply demands the cash, Tom refuses to hand it over. The FBI sends a helicopter after Cubby and Cubby opens fire. FBI marksmen kill Cubby before he reveals Sean's location. Shaker sets up another ransom drop. Angered that the FBI followed him instead of the money and killed his only lead, Tom insists on taking the money without being tracked. Realizing the first drop was a setup and there is no guarantee that Sean will come back alive, Tom goes on the television news and offers the ransom as a bounty. The only way for the kidnappers to save themselves is to return his son, in which case he will withdraw the bounty and drop all charges. Despite the pleadings of Kate and FBI Special Agent Lonnie Hawkins, Tom sticks to his plan, believing it is the best chance of having Sean returned. Shaker lures Kate to a meeting where he tells her to pay the ransom or Sean will die. Tom responds by increasing the bounty to $4,000,000. Shaker calls Tom and demands to be paid. Tom replies that Sean must be returned or else the kidnappers will be hunted down. Tom hears Sean's voice screaming for his father. Shaker fires a shot heard over the phone before the call cuts off, leaving Tom and Kate believing their son is dead. Shaker forms a new plan; he will kill Clark and Miles, pretend to rescue Sean and claim the bounty for himself and Maris. He calls in a possible kidnapping to the NYPD, requesting backup. He then flashes his badge and gun at Clark and Miles, who realize he has betrayed them. Clark tries running Shaker over with his van, but Shaker fatally shoots him. He then kills Miles, making it look as though Miles shot first. Maris, trying to back out of the plan, shoots Shaker in the shoulder. Before she can fire again, Shaker kills her and re-enters the apartment just before a SWAT team charges in, finding a wounded Shaker sitting next to Sean. Hawkins takes Tom and Kate to the scene of Sean's rescue. Tom thanks Shaker, who is being hospitalized. Hawkins takes Tom to Maris' body, where he recognizes her. Shaker appears at the Mullen penthouse to receive the reward, claiming he wants to avoid publicity. As Tom writes a check for him, Sean recognizes Shaker's voice. Seeing his son's horrified reaction and hearing Shaker speak the same phrase kidnapper did, Tom realizes who Shaker is. Tom gives Shaker the check with a false signature, but Shaker realizes that Tom is on to him. Shaker threatens to kill everyone in the house, but Tom convinces him to take him hostage and go to the bank so Tom can wire the money to Shaker's account. En route, Shaker orders Tom to ready his private jet. Tom fakes a call to his pilot, actually calling Hawkins, whom Tom manages to tell covertly that the kidnapper is with him. Cops converge on Tom and Shaker outside the bank. Shaker opens fire, shooting both officers. Tom lunges at Shaker, grabbing his gun. Tom throws Shaker through a store window and when they emerge, they are surrounded by armed policemen. Shaker draws his back-up revolver from an ankle holster. Tom and Hawkins fire first, killing Shaker. The film closes as Hawkins stops the police from arresting Tom.",
+ "synopsis_words": 736,
+ "episodes": [
+  {
+   "number": 228,
+   "date": "2021-11-09",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Van Lathan"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "fbi",
+   "reach": 20,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "loss of loved one",
+   "reach": 20,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "terrorism",
+   "reach": 15,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "hostage",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "police corruption",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "millionaire",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "child kidnapping",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "ransom",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "baby-snatching",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "negotiator",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "yellow press",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Mel Gibson",
+   "films": 3
+  },
+  {
+   "name": "Rene Russo",
+   "films": 4
+  },
+  {
+   "name": "Gary Sinise",
+   "films": 4
+  },
+  {
+   "name": "Delroy Lindo",
+   "films": 1
+  },
+  {
+   "name": "Lili Taylor",
+   "films": 4
+  },
+  {
+   "name": "Brawley Nolte",
+   "films": 0
+  },
+  {
+   "name": "Liev Schreiber",
+   "films": 1
+  },
+  {
+   "name": "Donnie Wahlberg",
+   "films": 0
+  },
+  {
+   "name": "Evan Handler",
+   "films": 0
+  },
+  {
+   "name": "Nancy Ticotin",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "d40c870c-94a4-42fc-a04b-1a34a4da8dcd",
+   "title": "Night Shift",
+   "year": 1982,
+   "poster": "iS78MFtMDwWDP748juZQBK57C9o.jpg"
+  },
+  {
+   "id": "39a49d4b-d71c-4f23-a31f-c724689240f3",
+   "title": "Parenthood",
+   "year": 1989,
+   "poster": "29Y6yg0gSurkFYTh54yxDzLBmrT.jpg"
+  },
+  {
+   "id": "22fe216d-3ff7-4aa8-8ced-9bfdbd6e5350",
+   "title": "Apollo 13",
+   "year": 1995,
+   "poster": "tVeKscCm2fY1xDXZk8PgnZ87h9S.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "4fcbdec6-76d5-463d-9a51-2522cbdf107d",
+   "title": "Lethal Weapon",
+   "year": 1987,
+   "poster": "6gt44oqb4nE8vflPElffeGwsHVl.jpg"
+  },
+  {
+   "id": "bbe99fca-b8a3-4350-8258-d6e063718627",
+   "title": "Say Anything...",
+   "year": 1989,
+   "poster": "nkucKciFGSRalw6dJtsglWqOXMC.jpg"
+  },
+  {
+   "id": "4ffd0fe8-a4fa-4555-89e0-d53f6d2ba60f",
+   "title": "Lethal Weapon 2",
+   "year": 1989,
+   "poster": "1EEIUw0tkX7AJZ1ikZrtKZZKlC6.jpg"
+  },
+  {
+   "id": "326770d8-1795-437e-8fb6-d323ebf22721",
+   "title": "In the Line of Fire",
+   "year": 1993,
+   "poster": "3NvOFpmyECI3DNExYMtFIRcGMsu.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Ransom_%281996_film%29",
+  "wikidata": "Q752362"
+ }
+}

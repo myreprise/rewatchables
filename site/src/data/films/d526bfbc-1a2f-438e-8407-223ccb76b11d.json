@@ -1,0 +1,318 @@
+{
+ "id": "d526bfbc-1a2f-438e-8407-223ccb76b11d",
+ "title": "Mission: Impossible - Fallout",
+ "year": 2018,
+ "poster": "AkJQpZp9WoNdj7pLYSj1L0RcMMN.jpg",
+ "tmdb_id": 353081,
+ "directors": [
+  "Christopher McQuarrie"
+ ],
+ "director_primary": "Christopher McQuarrie",
+ "genres": [
+  "Action",
+  "Adventure"
+ ],
+ "runtime": 147,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2022-12-27",
+ "last": "2022-12-27",
+ "scores": {
+  "tmdb": 7.45,
+  "rt": 98.0,
+  "ebert": null,
+  "box_office": "$1.0B",
+  "multiple": 4.630176258426967,
+  "cpi_year": 2024
+ },
+ "plot": "When an IMF mission ends badly, the world is faced with dire consequences. As Ethan Hunt takes it upon himself to fulfill his original briefing, the CIA begin to question his loyalty and his motives. The IMF team find themselves in a race against time, hunted by assassins while trying to prevent a global catastrophe.",
+ "synopsis": "Two years after the capture of rogue British agent Solomon Lane, his terrorist network, the Syndicate, has reorganized as the Apostles, a terror-for-hire group. They are recruited by extremist \"John Lark\" to acquire three plutonium cores for nuclear bombs he will use to dismantle the existing world order.\n\nImpossible Missions Force (IMF) agent Ethan Hunt fails to recover the cores in Berlin after the Apostles take his teammate Luther Stickell hostage; Ethan chooses to save Luther, allowing the Apostles to steal the cores. Ethan, Luther, and teammate Benji Dunn capture Lark's nuclear weapons specialist, Nils Delbruuk, and trick him into providing schematics for Lark's bombs. Central Intelligence Agency (CIA) director Erika Sloane confronts Ethan and IMF secretary Alan Hunley over the team's failure to recover the plutonium. She insists on sending her agent, August Walker, with them to find the cores, directing him to consider anyone expendable.\n\nEthan and Walker perform a HALO jump above Paris and infiltrate a nightclub where Lark is to purchase the cores from arms broker Alanna Mitsopolis. They approach a man who they believe to be Lark but after an intense fight in the men's restroom, Ethan's ally MI6 agent, Ilsa Faust, intervenes and kills the man to save Ethan. Assuming Lark's identity, Ethan meets Mitsopolis, who gives him one core, explaining that the Apostles will deliver the others after he attacks a police convoy and liberates its prisoner, Lane. Meanwhile, Walker gives Sloane evidence suggesting Ethan is the real Lark.\n\nEthan deviates from the plan and rams the truck carrying Lane into the Seine to protect its police escort from Mitsopolis's mercenaries. He leads the police away while Benji and Luther secure Lane and thwarts an assassination attempt on Lane by Ilsa. Meeting with Ethan, Ilsa explains that MI6 assigned her to kill Lane to prevent foreign governments from interrogating him and prove her loyalty after working undercover as a Syndicate agent. She was ordered to protect Lark and ensure Lane's escape, but disobeyed to protect Ethan.\n\nThe team brings Lane to London for the exchange, but Hunley confronts them with Walker's evidence. The team tricks Walker into admitting he is Lark, and Sloane sends a CIA unit to arrest them all. However, the Apostles intervene, and in the ensuing gunfight, Walker kills Hunley and escapes alongside Lane. Ethan gives chase until Walker reveals he has located Julia—Ethan's ex-wife, who was sent into hiding to protect her from his enemies—and threatens her life. Walker is unable to kill Ethan, as Lane is withholding the remaining cores until he can take revenge on Ethan.\n\nEthan, Benji, Luther, and Ilsa track Lane and Walker to a medical camp near the Siachen Glacier in Kashmir, treating a smallpox outbreak orchestrated by the Apostles. Ilsa deduces that Lane will use the bombs to irradiate the water supplies of bordering India, Pakistan, and China, threatening billions of people. Benji explains the bombs operate as a circuit, meaning defusing one bomb will trigger the other unless the detonator is first disabled. At the camp, Ethan discovers Julia and her new husband are leading the medical team at the request of an anonymous donor, implied to be Walker. The bomb countdown is started, and Walker leaves with the detonator by helicopter, while Lane remains behind to die. Luther and Julia work together to defuse one bomb, while Ilsa and Benji subdue Lane and begin defusing the second.\n\nMeanwhile, Ethan hijacks a helicopter and crashes it into Walker's, causing both helicopters to crash on a cliff, leaving one suspended over the edge by its cargo hook. Ethan releases the hook, which impales and kills Walker, before disarming the detonator. The wounded Ethan is recovered to the medical camp by Sloane, who has Lane returned to MI6, freeing Ilsa. Ethan apologizes to Julia for the perils he has put her in, but she expresses gratitude for his efforts to safeguard the world and her new life. Ilsa and Ethan share a moment together as narration by Sloane praises him for caring about every individual life.",
+ "synopsis_words": 672,
+ "episodes": [
+  {
+   "number": 288,
+   "date": "2022-12-27",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Craig Horlbeck"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "sequel",
+   "reach": 28,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "spy",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "paris, france",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "central intelligence agency (cia)",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "chase",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "fake identity",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "race against time",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "gun",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "helicopter",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "london, england",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "hand to hand combat",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "mask",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "based on tv series",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "countdown",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "fistfight",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "mi6",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "nuclear weapons",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "action",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "fictional government agency",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "government agency",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "infiltration",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "killer",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "motorcycle",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "motorcycle chase",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "secret government organization",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "bomb remote detonator",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "double agent",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "french police",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "handgun",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "helicopter chase",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "norway",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "stunt",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Tom Cruise",
+   "films": 17
+  },
+  {
+   "name": "Henry Cavill",
+   "films": 1
+  },
+  {
+   "name": "Ving Rhames",
+   "films": 5
+  },
+  {
+   "name": "Simon Pegg",
+   "films": 1
+  },
+  {
+   "name": "Rebecca Ferguson",
+   "films": 1
+  },
+  {
+   "name": "Sean Harris",
+   "films": 0
+  },
+  {
+   "name": "Angela Bassett",
+   "films": 1
+  },
+  {
+   "name": "Vanessa Kirby",
+   "films": 0
+  },
+  {
+   "name": "Michelle Monaghan",
+   "films": 0
+  },
+  {
+   "name": "Wes Bentley",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "ecbc55f4-0ead-4bd8-8a01-6fc919c07841",
+   "title": "Risky Business",
+   "year": 1983,
+   "poster": "82KOHShH9raGhkcAN3TztVjqjj3.jpg"
+  },
+  {
+   "id": "d182de2d-6138-48ab-9426-6ada559b59ab",
+   "title": "Top Gun",
+   "year": 1986,
+   "poster": "xUuHj3CgmZQ9P2cMaqQs4J0d4Zc.jpg"
+  },
+  {
+   "id": "3c90894d-9490-4574-b7e1-043b8536782e",
+   "title": "The Color of Money",
+   "year": 1986,
+   "poster": "dVdnHmdQu3JtLAAksjTmTEF76gD.jpg"
+  },
+  {
+   "id": "1b606587-98d7-4b3d-9932-7a7a60325635",
+   "title": "Cocktail",
+   "year": 1988,
+   "poster": "jFRhEPhtsln9tDwzMdZN3OlhUob.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Mission%3A_Impossible_%E2%80%93_Fallout",
+  "wikidata": "Q29261993"
+ }
+}

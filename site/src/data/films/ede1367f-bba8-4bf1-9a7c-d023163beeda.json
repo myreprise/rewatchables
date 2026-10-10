@@ -1,0 +1,157 @@
+{
+ "id": "ede1367f-bba8-4bf1-9a7c-d023163beeda",
+ "title": "The Longest Yard",
+ "year": 1974,
+ "poster": "2qtpPGRpMEnwhRRoq3iqyQm238V.jpg",
+ "tmdb_id": 4985,
+ "directors": [
+  "Robert Aldrich"
+ ],
+ "director_primary": "Robert Aldrich",
+ "genres": [
+  "Comedy",
+  "Drama",
+  "Crime"
+ ],
+ "runtime": 121,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2024-06-18",
+ "last": "2024-06-18",
+ "scores": {
+  "tmdb": 6.735,
+  "rt": 76.0,
+  "ebert": null,
+  "box_office": "$273.7M",
+  "multiple": 14.830370689655172,
+  "cpi_year": 2024
+ },
+ "plot": "A football player-turned-convict organizes a team of inmates to play against a team of prison guards. His dilemma is that the warden asks him to throw the game in return for an early release, but he is also concerned about the inmates' lack of self-esteem.",
+ "synopsis": "former professional weightlifter, and Connie Shokner, a fearsome serial killer and martial arts expert. With the help of the clever Caretaker (James Hampton, veteran former professional player Nate Scarborough, \"Granny\" Granville, long-term prisoner Pop (John Steadman — who remains in prison far past his original sentence for having struck Warden Hazen when the warden was just a rookie guard — and the warden's amorous secretary, Miss Toot, Crewe molds the prisoners into a smoothly working football team named the \"Mean Machine\". Before the game, an arsonist named Unger, schemes to kill Crewe by setting off an incendiary device in his cell. Caretaker is killed in the blaze in Crewe's cell after he goes there to retrieve X-rays for Crewe, who is sitting in Caretaker's cell with Nate. As the game starts, the \"Mean Machine\" does well, and at halftime the game is close, with the guards leading, 15-13. Cornering Crewe in the locker room, Hazen berates him for trying to win the game and tells Crewe that he has Unger in custody and that he is willing to testify that Crewe was an accessory to Caretaker's murder unless Crewe loses the game to the guards by at least 21 points. Crewe reluctantly and angrily agrees, but obtains a promise from Hazen that if he cooperates, the other prisoners will not be harmed. However, Hazen tells Captain Knauer to order his players to \"inflict as much physical punishment on the prisoners as humanly possible\" as soon as they are ahead by 21 points. Crewe quickly makes several deliberate mistakes putting the \"Mean Machine\" down by more than three touchdowns, 35-13, then takes himself out of the game. With the prisoners demoralized, the guards then take out their anger on the prisoners, causing several injuries. At this point, a depressed Crewe asks Pop if it had been worth it — trading the opportunity to punch the warden in exchange for a life sentence he didn't deserve. Pop states that, for himself at least, it was, and Crewe goes back into the game with a renewed sense of purpose. At first, the prisoners are angry with Crewe and provide him with no protection or co-operation, but he convinces them of his change of mind, and with the help of two quick touchdowns followed by a drop kick field goal, gets the \"Mean Machine\" back into the game, trailing by only five points, 35-30. Nate, despite his bad knee, goes into the game to score one of the touchdowns, and, after doing so, is immediately cut down at the knees by guard Bogdanski, crippling him. However, by this time the prisoners have rallied and their spirit cannot be broken as they have turned the tables on the guards in terms of the violence, including a clothesline from Samson that apparently breaks a guard's neck, while Crewe deliberately and repeatedly throws the ball as hard as possible at Bogdanski's genitals. Driving downfield for the game-winning score, a running play up the middle is stuffed and Crewe calls the team's final timeout with seven seconds remaining in the game and the prisoners with the ball on the guards' one-yard line - the \"longest yard\" of the title. Crewe walks off the field to the sideline and his teammates begin to follow. Crewe gathers them together for a last moment of reflection and steeling of their resolve. In a long slow-motion sequence, Crewe takes the final snap, dodges several defenders in the backfield and hurdles yet others into the end zone. Scoring the winning touchdown with no time left, the \"Mean Machine\" wins, 36-35. As the prisoners and the crowd celebrate, Warden Hazen is furious. Crewe walks across the field in what appears to be an attempt to mingle with the crowd and escape. Hazen sees this and orders Knauer to shoot Crewe by yelling \"Shoot him! Kill him!\". A very tense few moments ensue as Knauer trains his rifle on Crewe and repeately yells, \"Crewe! Crewe!\" as Crewe continues to walk away. A moment before possibly being shot, Crewe bends over and picks up the game ball and begins to walk back towards Hazen. Realizing that he was ordered to shoot a man who was simply retrieving a ball, Knauer disgustedly looks at the warden and says, \"Game ball\". Crewe then arrives back to Hazen, hands him the game ball and tells him to \"Stick this in your trophy case.\"",
+ "synopsis_words": 734,
+ "episodes": [
+  {
+   "number": 361,
+   "date": "2024-06-18",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Cruise",
+   "verdict_tone": "cruise",
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Van Lathan"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "sports",
+   "reach": 47,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "prison",
+   "reach": 16,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "american football",
+   "reach": 13,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "georgia",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "quarterback",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "palm beach, florida",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Burt Reynolds",
+   "films": 3
+  },
+  {
+   "name": "Eddie Albert",
+   "films": 1
+  },
+  {
+   "name": "Ed Lauter",
+   "films": 1
+  },
+  {
+   "name": "Michael Conrad",
+   "films": 1
+  },
+  {
+   "name": "James Hampton",
+   "films": 2
+  },
+  {
+   "name": "Harry Caesar",
+   "films": 0
+  },
+  {
+   "name": "John Steadman",
+   "films": 0
+  },
+  {
+   "name": "Charles Tyner",
+   "films": 0
+  },
+  {
+   "name": "Mike Henry",
+   "films": 0
+  },
+  {
+   "name": "Richard Kiel",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "9109a2e6-024e-43a1-93ff-8cac0bd4a099",
+   "title": "Deliverance",
+   "year": 1972,
+   "poster": "2TrAzNJlHyNYYSkQf6asg3rs2Xr.jpg"
+  },
+  {
+   "id": "0c04edef-45dd-42ae-8418-6d01f9a51892",
+   "title": "Teen Wolf",
+   "year": 1985,
+   "poster": "bv9rY9eoue2Hat6tcvrKVQ0ow8v.jpg"
+  },
+  {
+   "id": "271c1d20-bbd3-4c8a-852b-64f9044d5797",
+   "title": "Boogie Nights",
+   "year": 1997,
+   "poster": "2hVSN9yOfoI8EUTqcVW6zCIyQ1G.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/The_Longest_Yard_%281974_film%29",
+  "wikidata": "Q1218665"
+ }
+}

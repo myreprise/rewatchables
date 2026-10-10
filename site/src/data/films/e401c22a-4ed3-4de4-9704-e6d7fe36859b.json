@@ -1,0 +1,264 @@
+{
+ "id": "e401c22a-4ed3-4de4-9704-e6d7fe36859b",
+ "title": "Election",
+ "year": 1999,
+ "poster": "fbo0IYzBc32dD5SjFzKIgfp4O4F.jpg",
+ "tmdb_id": 9451,
+ "directors": [
+  "Alexander Payne"
+ ],
+ "director_primary": "Alexander Payne",
+ "genres": [
+  "Comedy",
+  "Drama"
+ ],
+ "runtime": 103,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2019-09-12",
+ "last": "2019-09-12",
+ "scores": {
+  "tmdb": 6.867,
+  "rt": 92.0,
+  "ebert": 3.5,
+  "box_office": "$28.1M",
+  "multiple": 0.59608164,
+  "cpi_year": 2024
+ },
+ "plot": "A high school teacher meets his match in an over-achieving student politician.",
+ "synopsis": "Jim McAllister is a high school teacher in the suburbs of Omaha, Nebraska whose enthusiastic involvement at school masks his frustration with other aspects of his life. Tracy Flick is an overachieving senior with a secret vindictive and sexual side. Earlier in the year, Tracy had an affair with another teacher, McAllister's best friend Dave. As a result, Dave was fired and divorced by his wife Linda; Tracy walked away without reprisal or punishment. One day, Tracy announces that she is running for student body president, which horrifies McAllister, who is in charge of organizing the school's student government and truly despises Tracy. Set to run unopposed, McAllister decides to teach Tracy a lesson in humility by introducing another candidate. Paul Metzler (Chris Klein is a polite and popular football player at the school. Paul is unable to play football his final year due to a broken leg, leaving him depressed. McAllister convinces him to register for the election in order to stop Tracy's chances of winning, since McAllister thinks that Tracy wins the election, she will have to spend more time with him which might lead to the same misfortune that his best friend had. At first, Paul does not like the idea because he does not feel smart enough to run in the election, and he does not want to go against Tracy, who has been nice to him, even letting him copy her homework. Eventually, Paul agrees with McAllister because the election gives him a new purpose. This brings out Tracy's vindictiveness, as she is jealous of Paul’s ease at being successful and popular. Meanwhile, Paul's younger sister Tammy is dumped by her girlfriend, Lisa, who says that she is heterosexual and was just \"experimenting\". Lisa does not waste time in \"getting over\" Tammy, performing oral sex on Paul after asking him to drive her home from school one day. The two become an item and election partners, in part to anger Tammy. In retaliation, Tammy decides to run for president as well, with a platform that student government is a sham. During a school assembly to hear their speeches, after Tracy draws only polite applause and Paul gets a strong reaction, Tammy delivers a defiant speech in which she denounces the election by saying that the school president does not really help the student body, and only uses the position to get credentials for college applications, much to Tracy's chagrin. Tammy also declares that she will dissolve the student government if elected. This rallies the student body to a standing ovation. Fearing the student body will vote for Tammy and thus the dissolution of the student government, Tammy is suspended and kicked out of the election. While at school one night over the weekend, Tracy tries to fix one of her posters, but accidentally tears it. In a fit of uncharacteristic rage, she destroys all of Paul's campaign posters. She tries to dispose of them at the power plant, but is observed doing so by Tammy. The next day, when confronted by McAllister, Tracy claims innocence and threatens legal action against the school. Tracy then sees Tammy talking to McAllister and showing him the torn posters, which makes Tracy panic. However, Tammy is actually \"confessing\" to Tracy's crime and is then transferred to a private parochial school for girls, which was the original objective of her false confession. Later, McAllister, who is secretly attracted to Linda, kisses her spontaneously the day before the election. Linda asks Jim to rent a motel room for a later rendezvous and he leaves school during a class to prepare the room. However, when he arrives later to pick her up, she is not there. He returns home to find Linda and his wife talking together. Knowing he has been caught, Jim spends the night in his car outside Linda's house. The next morning, McAllister oversees the counting of the election ballots at school. During this, he calls Linda several times, professing his love for her, after a bee sting. Jim's wife kicks him out of the house when he tries to apologize. After all the ballots are counted, Tracy has won by one vote. After seeing Tracy dancing around excitedly in the hall, McAllister deduces that she found out that she won before it was announced. McAllister secretly disposes of two of Tracy’s ballots and then demands a recount, naming Paul as the winner. While McAllister and his student argue about the validity of vote, it is suggested that the tally of protest votes for Tammy exceeded that of either other candidate. When a janitor discovers the two discarded ballots and presents them to the principal, McAllister resigns from his job. Divorced and humiliated, McAllister leaves Nebraska, ultimately choosing to fulfill a longtime dream of moving to New York City, becoming a tour guide at the American Museum of Natural History, where he meets a new woman. Tracy gets accepted into Georgetown University, while Paul gets into the University of Nebraska. Tammy loves her new school, where she has met her new girlfriend. As the film closes, Jim recounts his final encounter with Tracy. After seeing her climb into a limousine with a politician, McAllister is reminded of his friend Dave and what Tracy has done to get where she is. Jim hurls a soda cup at the limousine, then makes a quick getaway. The final scene of the film shows Jim asking questions to some children he is giving a tour to at the Museum, all the while deliberately ignoring an overeager girl, the only one of the group who could answer, as she reminds him of Tracy.",
+ "synopsis_words": 939,
+ "episodes": [
+  {
+   "number": 96,
+   "date": "2019-09-12",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Sean Fennessey",
+   "guests": [
+    "Amanda Dobbins"
+   ],
+   "note": "1999 series (Luminary)"
+  }
+ ],
+ "keywords": [
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "infidelity",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "dark comedy",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "satire",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "jealousy",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "politics",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "teacher",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "ambition",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "motel",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "graduation",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "election",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "feud",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "morality",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "scandal",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "bias",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "crush",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "museum",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "nebraska",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "omaha",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "overachiever",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "trust",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "vandalism",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Matthew Broderick",
+   "films": 2
+  },
+  {
+   "name": "Reese Witherspoon",
+   "films": 3
+  },
+  {
+   "name": "Chris Klein",
+   "films": 2
+  },
+  {
+   "name": "Jessica Campbell",
+   "films": 1
+  },
+  {
+   "name": "Mark Harelik",
+   "films": 1
+  },
+  {
+   "name": "Phil Reeves",
+   "films": 0
+  },
+  {
+   "name": "Molly Hagan",
+   "films": 0
+  },
+  {
+   "name": "Delaney Driscoll",
+   "films": 0
+  },
+  {
+   "name": "Colleen Camp",
+   "films": 0
+  },
+  {
+   "name": "Frankie Ingrassia",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "474a8378-a565-49d3-8462-3b8ed2002a46",
+   "title": "Sideways",
+   "year": 2004,
+   "poster": "zOsaxYLgvZVU7cJBpPn8CuE0MrP.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "ad553d44-f427-43eb-ad39-c3d612392427",
+   "title": "Ferris Bueller's Day Off",
+   "year": 1986,
+   "poster": "9LTQNCvoLsKXP0LtaKAaYVtRaQL.jpg"
+  },
+  {
+   "id": "6a28e59e-f124-4639-ac60-6fddc7f7445a",
+   "title": "American Pie",
+   "year": 1999,
+   "poster": "5P68by2Thn8wHAziyWGEw2O7hco.jpg"
+  },
+  {
+   "id": "62cf44d2-1dd1-4586-9603-8331a3775512",
+   "title": "Cruel Intentions",
+   "year": 1999,
+   "poster": "76cCsRtQ5MJBAqoigojXsLXLJwh.jpg"
+  },
+  {
+   "id": "9df70752-4fc2-4eb0-9453-5ac6fb1e0563",
+   "title": "Legally Blonde",
+   "year": 2001,
+   "poster": "9ohlMrJHQqKhfUKh7Zr3JQqHNLZ.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Election_%281999_film%29",
+  "wikidata": "Q1206261"
+ }
+}

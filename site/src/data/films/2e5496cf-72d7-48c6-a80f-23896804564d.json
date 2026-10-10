@@ -1,0 +1,248 @@
+{
+ "id": "2e5496cf-72d7-48c6-a80f-23896804564d",
+ "title": "Snake Eyes",
+ "year": 1998,
+ "poster": "gsh9mQKRrr4M90XC9Rr0wxefc9u.jpg",
+ "tmdb_id": 8688,
+ "directors": [
+  "Brian de Palma"
+ ],
+ "director_primary": "Brian de Palma",
+ "genres": [
+  "Crime",
+  "Mystery",
+  "Thriller"
+ ],
+ "runtime": 98,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2025-11-10",
+ "last": "2025-11-10",
+ "scores": {
+  "tmdb": 6.204,
+  "rt": 42.0,
+  "ebert": 1.0,
+  "box_office": "$200.0M",
+  "multiple": 1.4232876712328768,
+  "cpi_year": 2024
+ },
+ "plot": "All bets are off when shady homicide cop Rick Santoro witnesses a murder during a boxing match. Determined to solve the crime, he quickly learns that his search for answers will only uncover yet more questions in an ever-widening web of conspiracy, intrigue, and danger.",
+ "synopsis": "Corrupt Atlantic City police detective Rick Santoro attends a boxing match at the Atlantic City Arena, owned by casino owner and businessman Gilbert Powell between Heavyweight champion Lincoln Tyler and a newcomer. Santoro is with his best friend, US Navy Commander Kevin Dunne, who is escorting United States Defense Secretary Charles Kirkland, recently arrived from a trip to Norfolk to get the results of the first test of a new missile guiding system called AirGuard. During the fight, Dunne is distracted by an attractive woman named Serena and his seat is taken by Julia Costello, a mysterious woman, later revealed to be a government research worker, who tries to speak to Kirkland. Before she can, he is shot by a sniper, later revealed to be an allegedly Palestinian terrorist. Dunne kills the shooter, and the police order a lockdown on the Arena. Costello escapes. Santoro believes Costello to be connected to Kirkland's death and starts studying the security tapes in order to find her. In the process, he discovers that Tyler allowed himself to be defeated in order to pay gambling debts to the same woman who tricked Dunne into leaving his post. Believing a conspiracy to be taking place, Santoro tells everything to Dunne, unaware that he is the mastermind behind Kirkland's murder and also Serena's boss. Upon realizing that Santoro might discover everything, Dunne first murders Serena and another soldier he had used to tell Tyler when he should fake being knocked-out and then makes a deal with Tyler to aid him. He and Santoro then try to find Costello, who has taken shelter in the hotel room of a sleazy man named Ned Campbell. Santoro gets to her first and discovers that Dunne is behind everything and that the results of the AirGuard test were faked to ensure its production. Costello discovered the deception and tried to warn Kirkland, but Dunne was waiting for her and arranged the entire assassination attempt in order to kill both her and Kirkland. Santoro hides Costello in a warehouse outside the Arena and confronts Dunne, who tries to bribe Santoro into revealing Costello's location and to look the other way on the whole plan. Santoro is unable to allow someone to be killed so Dunne has Tyler beat him up. Santoro still refuses to speak, so Dunne leaves him alone and follows him to Costello's hideout, just as the Tropical Storm Jezebel breaks out outside. When Santoro and Dunne again meet face-to-face, the water enters the building, washing the badly beaten Santoro and the wounded Costello outside, where the police, tipped off by Santoro, are waiting. They confront Dunne, who, realizing that his plan has failed, commits suicide in front of TV cameras. Santoro is rewarded for his bravery, but the press soon uncovers his illegal dealings and he is fired, abandoned by his wife and his lover, loses the custody of his son and is arrested and eventually convicted. On the day before leaving for jail, Santoro meets Costello, who thanks him for helping her save many soldiers' lives. They kiss and Santoro promises that he'll give her a call after his release in 12-to-18 months. She smiles and leaves, while Santoro muses that the whole ordeal was worth it since he had been on TV.",
+ "synopsis_words": 546,
+ "episodes": [
+  {
+   "number": 431,
+   "date": "2025-11-10",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Tie",
+   "verdict_tone": "hanks",
+   "host": "Bill Simmons",
+   "guests": [
+    "Sean Fennessey",
+    "Van Lathan"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "ambiguous",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "adoring",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "gambling",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "assassination",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "casino",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "bribery",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "dubious",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "whistleblower",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "atlantic city",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "corrupt cop",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "homicide detective",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "naval officer",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "secretary of defense",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "boxing match",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "navy commander",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "political activism",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "woman in jeopardy",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Nicolas Cage",
+   "films": 5
+  },
+  {
+   "name": "Gary Sinise",
+   "films": 4
+  },
+  {
+   "name": "Carla Gugino",
+   "films": 1
+  },
+  {
+   "name": "John Heard",
+   "films": 5
+  },
+  {
+   "name": "Stan Shaw",
+   "films": 1
+  },
+  {
+   "name": "Kevin Dunn",
+   "films": 2
+  },
+  {
+   "name": "Michael Rispoli",
+   "films": 0
+  },
+  {
+   "name": "Joel Fabiani",
+   "films": 0
+  },
+  {
+   "name": "Luis Guzmán",
+   "films": 0
+  },
+  {
+   "name": "David Anthony Higgins",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "affeaa57-dad4-46ef-a63a-39209c06477e",
+   "title": "Body Double",
+   "year": 1984,
+   "poster": "lRFm5P2AdOGpELwm3HHhmUz6k5I.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "b20ebe78-115c-4301-9ced-7f0a6dcb8759",
+   "title": "Big",
+   "year": 1988,
+   "poster": "eWhCDJiwxvx3YXkAFRiHjimnF0j.jpg"
+  },
+  {
+   "id": "431f9203-aace-4c31-b9f9-dd69f964f6ab",
+   "title": "Home Alone",
+   "year": 1990,
+   "poster": "onTSipZ8R3bliBdKfPtsDuHTdlL.jpg"
+  },
+  {
+   "id": "f552c7f1-46d2-4f7e-a154-e7689725571a",
+   "title": "Home Alone 2: Lost in New York",
+   "year": 1992,
+   "poster": "uuitWHpJwxD1wruFl2nZHIb4UGN.jpg"
+  },
+  {
+   "id": "c2929cdd-f05b-4985-8e48-8b055b3ca701",
+   "title": "The Pelican Brief",
+   "year": 1993,
+   "poster": "7B1HS0SqfJR1jbeHS6V0ZWdzLXP.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Snake_Eyes_%281998_film%29",
+  "wikidata": "Q1423334"
+ }
+}

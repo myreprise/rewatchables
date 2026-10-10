@@ -1,0 +1,235 @@
+{
+ "id": "2f2f785c-b885-453d-81c5-495a231ce9df",
+ "title": "The Conjuring",
+ "year": 2013,
+ "poster": "wVYREutTvI2tmxr6ujrHT704wGF.jpg",
+ "tmdb_id": 138843,
+ "directors": [
+  "James Wan"
+ ],
+ "director_primary": "James Wan",
+ "genres": [
+  "Horror",
+  "Thriller"
+ ],
+ "runtime": 112,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2020-07-21",
+ "last": "2020-07-21",
+ "scores": {
+  "tmdb": 7.542,
+  "rt": 86.0,
+  "ebert": null,
+  "box_office": "$432.6M",
+  "multiple": 24.714922923076923,
+  "cpi_year": 2024
+ },
+ "plot": "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse. Forced to confront a powerful entity, the Warrens find themselves caught in the most terrifying case of their lives.",
+ "synopsis": "In 1968, renowned demonologists Ed and Lorraine Warren investigate the Annabelle case, in which friends Debbie and Camilla have a possessed doll. They allowed a spirit, who claimed to be a seven-year-old girl named Annabelle Higgins, to possess the doll, and the hauntings became increasingly disturbing. The Warrens explain that the doll was never possessed; it was only a conduit for a demonic spirit whose goal was to possess one of the friends.\n\nThree years later, in 1971, Roger and Carolyn Perron move into a farmhouse in Harrisville, Rhode Island, with their five daughters: Andrea, Nancy, Christine, Cindy, and April. Their dog, Sadie, refuses to enter the house. The family discovers a boarded-up cellar in the house and paranormal events occur within the first few nights. Every clock in the house stops at 3:07 a.m. Carolyn awakens with new bruises each morning, and Sadie is found dead in the yard. Carolyn and Christine both encounter a malevolent spirit.\n\nCarolyn contacts the Warrens, who conduct an initial investigation, during which Lorraine, a clairvoyant, sees that a dark entity has latched on to the family so that even leaving the house will not free them. To gather evidence, they place cameras and bells around the house with the help of their assistant Drew Thomas and police officer Brad Hamilton. Research reveals that the house once belonged to an accused witch and Satanist named Bathsheba Sherman (a relative of Mary Towne Eastey), who sacrificed her week-old baby to the devil and killed herself in 1863 at 3:07 in the morning after cursing all who take her land. There have since been reports of numerous murders and suicides through the years in the houses that were built on the land.\n\nBathsheba completely possesses Carolyn. In the cellar, Lorraine sees the spirit of a woman whom Bathsheba had possessed long ago and forced to kill her child, realizing she will force Carolyn to do the same. The Warrens conclude they have sufficient evidence to receive authorization from the Catholic Church to perform an exorcism, but Father Gordon explains that approval would have to come directly from the Vatican because the Perron family are not members of the church.\n\nThe Warrens' daughter Judy is attacked by Bathsheba as a warning to the Warrens. The Perron family takes refuge at a motel, but Carolyn, possessed, takes Christine and April back to the house to kill them. Running out of time, Ed, Lorraine, and Brad tie Carolyn to a chair and Ed attempts the exorcism himself. Carolyn escapes and attempts to kill April; Lorraine is able to call to her by reminding her of a family memory, allowing Ed to complete the exorcism and condemn Bathsheba back to Hell.\n\nReturning home, Ed adds the haunted music box from the Perron home to their room of cursed artifacts that they have collected from past cases.",
+ "synopsis_words": 476,
+ "episodes": [
+  {
+   "number": 151,
+   "date": "2020-07-21",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Sean Fennessey"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "1970s",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "sibling relationship",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "ghost",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "possession",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "haunted house",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "exorcism",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "paranormal investigation",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "psychic vision",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "cellar",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "crucifix",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "demonic",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "demonic spirit",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "demonology",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "malevolent spirit",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "rhode island",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Vera Farmiga",
+   "films": 1
+  },
+  {
+   "name": "Patrick Wilson",
+   "films": 2
+  },
+  {
+   "name": "Lili Taylor",
+   "films": 4
+  },
+  {
+   "name": "Ron Livingston",
+   "films": 3
+  },
+  {
+   "name": "Hayley McFarland",
+   "films": 1
+  },
+  {
+   "name": "Sterling Jerins",
+   "films": 0
+  },
+  {
+   "name": "Shanley Caswell",
+   "films": 0
+  },
+  {
+   "name": "Mackenzie Foy",
+   "films": 0
+  },
+  {
+   "name": "Joey King",
+   "films": 0
+  },
+  {
+   "name": "Kyla Deaver",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "3f86adc2-8216-4552-b031-f150a8103174",
+   "title": "Insidious",
+   "year": 2011,
+   "poster": "1egpmVXuXed58TH2UOnX1nATTrf.jpg"
+  },
+  {
+   "id": "da2321f7-1a17-4d2f-a812-12c1742d2daf",
+   "title": "Furious 7",
+   "year": 2015,
+   "poster": "ktofZ9Htrjiy0P6LEowsDaxd3Ri.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "bbe99fca-b8a3-4350-8258-d6e063718627",
+   "title": "Say Anything...",
+   "year": 1989,
+   "poster": "nkucKciFGSRalw6dJtsglWqOXMC.jpg"
+  },
+  {
+   "id": "3bf6a75b-7d77-4ac7-91fa-a0b53f306676",
+   "title": "Rudy",
+   "year": 1993,
+   "poster": "fAbfTCRpjHe2rprXBly55KL1dL9.jpg"
+  },
+  {
+   "id": "fc8233c5-6562-4564-a82f-dee83965c403",
+   "title": "Swingers",
+   "year": 1996,
+   "poster": "rRjWk68kU3a2so4lgr3TKB7Y5vA.jpg"
+  },
+  {
+   "id": "83874a69-dfec-4de4-b8c4-c56ec2330043",
+   "title": "Ransom",
+   "year": 1996,
+   "poster": "4nmOA5ZOY2VlHzwSlKY03sF2JUz.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/The_Conjuring",
+  "wikidata": "Q5540479"
+ }
+}

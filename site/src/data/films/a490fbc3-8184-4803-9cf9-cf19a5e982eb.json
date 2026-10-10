@@ -1,0 +1,301 @@
+{
+ "id": "a490fbc3-8184-4803-9cf9-cf19a5e982eb",
+ "title": "Raiders of the Lost Ark",
+ "year": 1981,
+ "poster": "ceG9VzoRAVGwivFU403Wc3AHRys.jpg",
+ "tmdb_id": 85,
+ "directors": [
+  "Steven Spielberg"
+ ],
+ "director_primary": "Steven Spielberg",
+ "genres": [
+  "Adventure",
+  "Action"
+ ],
+ "runtime": 115,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2021-06-08",
+ "last": "2021-06-08",
+ "scores": {
+  "tmdb": 7.927,
+  "rt": 94.0,
+  "ebert": 4.0,
+  "box_office": "$1.3B",
+  "multiple": 21.662553944444443,
+  "cpi_year": 2024
+ },
+ "plot": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+ "synopsis": "In 1936, archaeologist Indiana Jones braves an ancient Peruvian temple filled with booby traps to retrieve a golden idol. Upon fleeing the temple, Indiana is confronted by rival archaeologist René Belloq and the indigenous Hovitos. Surrounded and outnumbered, Indiana is forced to surrender the idol to Belloq and escapes aboard a waiting Waco seaplane, in the process revealing his fear of snakes. Shortly after returning to the college in the United States where he teaches archaeology, Indiana is interviewed by two Army intelligence agents. They inform him that the Nazis, in their quest for occult power, are searching for his old mentor, Abner Ravenwood, who is the leading expert on the ancient Egyptian city of Tanis and possesses the headpiece of an artifact called the Staff of Ra. Indiana deduces that the Nazis are searching for Tanis because it is believed to be the location of the Ark of the Covenant, the biblical chest built by the Israelites to contain the fragments of the Ten Commandments; the Nazis believe that if they acquire it, their armies will become invincible. The Staff of Ra, meanwhile, is the key to finding the Well of Souls, a secret chamber in which the Ark is buried. The agents subsequently authorize Indiana to recover the Ark before the Nazis. Indiana travels to Nepal, only to find that Ravenwood has died and that the headpiece is in the possession of his daughter, Marion, Indiana's embittered former lover. Indiana offers to buy the headpiece for three thousand dollars, plus two thousand more when they return to the United States. Marion's tavern is suddenly raided by a group of thugs commanded by Nazi agent Toht. The tavern is burned down in the ensuing fight, during which Toht burns his hand on the searing hot headpiece as he tries to grab it. Indiana and Marion escape with the headpiece, with Marion declaring she will accompany Indiana in his search for the Ark so he can repay his debt. They travel to Cairo where they learn from Indiana's friend Sallah, a skilled excavator, that Belloq and the Nazis, led by Colonel Dietrich, are currently digging for the Well of Souls with a replica of the headpiece modeled after the scar on Toht's hand. In a bazaar, Nazi operatives attempt to kidnap Marion and as Indiana chases after them it appears that she dies in an explosion. While deciphering the markings on the headpiece, Indiana and Sallah realize that the Nazis have miscalculated the location of the Well of Souls. Using this to their advantage, they infiltrate the Nazi dig and use the Staff of Ra to determine the location correctly and uncover the Well of Souls, which is filled with snakes. Indiana fends off the snakes and acquires the Ark, but Belloq, Dietrich and the Nazis arrive to take it. They toss Marion into the well with Indiana and seal them in, but they manage to escape. After a fistfight with a giant Nazi mechanic, blowing up a flying wing on the airstrip, and chasing down a convoy of trucks, Indiana takes back the Ark before it can be shipped to Berlin. Indiana and Marion leave Cairo to escort the Ark to England on board a tramp steamer. The next morning, their boat is boarded by Belloq, Dietrich and the Nazis, who once again steal the Ark and kidnap Marion. Indiana stows away on their U-boat and follows them to an isolated island in the Aegean Sea where Belloq plans to test the power of the Ark before presenting it to Hitler. Indiana reveals himself and threatens to destroy the Ark with a rocket-propelled grenade launcher, but Belloq calls his bluff, knowing Indy cannot bear to eradicate an important historical artifact. Indiana surrenders and is tied to a post with Marion as Belloq performs a ceremonial opening of the Ark, which appears to contain nothing but sand. Suddenly, spirits resembling Old Testament Seraphim emerge from the Ark. Aware of the supernatural danger of looking at the opened Ark, Indiana warns Marion to close her eyes. The apparitions suddenly morph into \"angels of death\", and lightning bolts begin flying out of the Ark, gruesomely killing the Nazi soldiers, while Belloq, Dietrich and Toht meet even more gruesome fates. The fires rise into the sky, then fall back down to Earth and the Ark closes with a crack of thunder. Back in Washington, D.C., the Army intelligence agents tell a suspicious Indiana and Brody that the Ark \"is someplace safe\" to be studied by \"top men\". In reality, the Ark is sealed in a wooden crate labeled \"top secret\" and stored in a giant government warehouse filled with countless similar crates.",
+ "synopsis_words": 779,
+ "episodes": [
+  {
+   "number": 206,
+   "date": "2021-06-08",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Sean Fennessey"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "saving the world",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "1930s",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "nazi",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "riddle",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "archaeologist",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "globetrotting",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "adventurer",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "archeology",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "ark of the covenant",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "cairo",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "egypt",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "excavation",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "hat",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "himalaya mountain range",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "leather jacket",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "medallion",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "mediterranean",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "moses",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "nepal",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "religious history",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "swastika",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "ten commandments",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "treasure",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "treasure hunt",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "whip",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Harrison Ford",
+   "films": 7
+  },
+  {
+   "name": "Karen Allen",
+   "films": 3
+  },
+  {
+   "name": "Paul Freeman",
+   "films": 1
+  },
+  {
+   "name": "John Rhys-Davies",
+   "films": 2
+  },
+  {
+   "name": "Ronald Lacey",
+   "films": 1
+  },
+  {
+   "name": "Wolf Kahler",
+   "films": 0
+  },
+  {
+   "name": "Anthony Higgins",
+   "films": 0
+  },
+  {
+   "name": "Denholm Elliott",
+   "films": 2
+  },
+  {
+   "name": "Alfred Molina",
+   "films": 1
+  },
+  {
+   "name": "Vic Tablian",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "6ea29d20-94ba-49cc-9b9a-ee794a926bbf",
+   "title": "Jaws",
+   "year": 1975,
+   "poster": "lxM6kqilAdpdhqUl2biYp5frUxE.jpg"
+  },
+  {
+   "id": "06d7a5b7-84dc-4c7d-a5c1-50e2db675dc9",
+   "title": "Close Encounters of the Third Kind",
+   "year": 1977,
+   "poster": "yaPx3cK9zGFX3SbcKwxWM1QIbUh.jpg"
+  },
+  {
+   "id": "00108e0d-375e-4723-8aee-bc3f4981d9c1",
+   "title": "E.T. the Extra-Terrestrial",
+   "year": 1982,
+   "poster": "an0nD6uq6byfxXCfk6lQBzdL2J1.jpg"
+  },
+  {
+   "id": "b86b28f7-6c7b-49d0-b34e-6284d3661351",
+   "title": "Indiana Jones and the Last Crusade",
+   "year": 1989,
+   "poster": "sizg1AU8f8JDZX4QIgE4pjUMBvx.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "b86b28f7-6c7b-49d0-b34e-6284d3661351",
+   "title": "Indiana Jones and the Last Crusade",
+   "year": 1989,
+   "poster": "sizg1AU8f8JDZX4QIgE4pjUMBvx.jpg"
+  },
+  {
+   "id": "5ab2a3c0-5f82-4431-90f0-85f234707915",
+   "title": "Star Wars",
+   "year": 1977,
+   "poster": "fai0rspsNeJCS69wHNjOdWxcI7P.jpg"
+  },
+  {
+   "id": "0c7b942e-db40-4a73-ba3c-32fc2a5feea9",
+   "title": "Animal House",
+   "year": 1978,
+   "poster": "fWooBbipMRIKeSRhEzmeaDV0T8H.jpg"
+  },
+  {
+   "id": "0110d730-b1bc-4f28-a329-56322642544d",
+   "title": "Cruising",
+   "year": 1980,
+   "poster": "bb9CND0WyfwdHOZY5XmP4Qn8taz.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Raiders_of_the_Lost_Ark",
+  "wikidata": "Q174284"
+ }
+}

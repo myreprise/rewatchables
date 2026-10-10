@@ -1,0 +1,265 @@
+{
+ "id": "6202938a-7755-4fb8-be7f-0d5e9e7a96d5",
+ "title": "Fargo",
+ "year": 1996,
+ "poster": "rt7cpEr1uP6RTZykBFhBTcRaKvG.jpg",
+ "tmdb_id": 275,
+ "directors": [
+  "Joel Coen"
+ ],
+ "director_primary": "Joel Coen",
+ "genres": [
+  "Crime",
+  "Drama",
+  "Thriller"
+ ],
+ "runtime": 98,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2026-03-09",
+ "last": "2026-03-09",
+ "scores": {
+  "tmdb": 7.85,
+  "rt": 94.0,
+  "ebert": 4.0,
+  "box_office": "$121.2M",
+  "multiple": 8.65885357142857,
+  "cpi_year": 2024
+ },
+ "plot": "Jerry, a small-town Minnesota car salesman is bursting at the seams with debt... but he's got a plan. He's going to hire two thugs to kidnap his wife in a scheme to collect a hefty ransom from his wealthy father-in-law. It's going to be a snap and nobody's going to get hurt... until people start dying. Enter Police Chief Marge, a coffee-drinking, parka-wearing - and extremely pregnant - investigator who'll stop at nothing to get her man. And if you think her small-time investigative skills will give the crooks a run for their ransom... you betcha!",
+ "synopsis": "In 1987, Jerome \"Jerry\" Lundegaard is the executive sales manager of a Minneapolis car dealership owned by his father-in-law, Wade Gustafson. Desperate for money, Jerry plans to have his wife, Jean, kidnapped. On the recommendation of dealership mechanic and parolee Shep Proudfoot, Jerry meets Gaear Grimsrud and Carl Showalter at a bar in Fargo, North Dakota. Gaear and Carl agree to kidnap Jean in exchange for a new Oldsmobile Cutlass Ciera and half of the $80,000 ransom Jerry intends to extort from Wade.\n\nBelieving he has secured a $750,000 loan from Wade for a lucrative real estate deal, Jerry unsuccessfully tries to call off the kidnapping. Wade and his accountant Stan Grossman inform Jerry that they never intended Jerry to handle the $750,000 deal, offering him only a modest finder's fee. Carl and Gaear kidnap Jean and transport her to a remote cabin in Moose Lake. A state trooper stops them near Brainerd for not displaying temporary registration tags on the new Oldsmobile. The trooper rejects Carl's clumsy bribe attempt and orders Carl out of the car. When the trooper hears Jean whimpering in the back seat, Gaear shoots him dead, then hunts down and kills two passersby who witnessed the scene.\n\nBrainerd police chief Marge Gunderson, who is seven months pregnant, begins investigating. She correctly infers that the dead trooper was ticketing a car with dealer plates. She later learns that two men driving a dealership vehicle checked into a nearby motel with two call girls and placed a call to Shep. Marge visits Wade's dealership, where Shep feigns ignorance and Jerry nervously insists no cars are missing.\n\nJerry tells Wade the kidnappers have demanded $1 million and will deal only through him. In light of the three murders, Carl demands that Jerry hand over the $80,000 he believes is the entire ransom. Shep finds Carl with a call girl in Shep's Minneapolis apartment and beats him in retaliation for bringing Shep to the police's attention. Carl angrily calls Jerry and demands that he bring the money immediately. Wade insists on delivering the ransom and meets Carl at a parking garage. Wade refuses to hand over the money without seeing his daughter, so Carl shoots him. Wade fires back, wounding Carl in the jaw. Carl kills Wade and a garage attendant, then drives away with the ransom.\n\nOn the way to Moose Lake, Carl discovers the briefcase contains $1 million. He takes out $80,000 to split with Gaear and buries the rest in the snow alongside the highway. Marge returns to Wade's dealership, where an agitated Jerry again insists no cars are missing and tells Marge he will double-check the inventory. Marge sees Jerry driving off the lot and calls the state police.\n\nAt the cabin, Carl finds that Gaear killed Jean because she would not stay quiet. Carl says they should split up and leave immediately, and they argue over who will keep the Ciera. Carl insults Gaear and attempts to leave with the car, but Gaear kills him with an axe. Marge drives to Moose Lake, tipped off by a local bartender who overheard a customer brag about killing someone. She sees the Ciera, then discovers Gaear feeding Carl's body into a woodchipper. Gaear attempts to flee, but Marge shoots him in the leg and arrests him. Shortly after, Jerry is arrested by state troopers at a motel outside Bismarck, North Dakota.\n\nMarge's husband, Norm, tells her the Postal Service has selected his painting of a mallard for a 3-cent postage stamp and complains that the Hautman brothers painting won the competition for a 29-cent stamp. Marge reminds him that smaller denomination stamps make up the difference between the face value of old stamps and the new cost of first-class postage. Norm is reassured, and the couple happily anticipates the birth of their child.",
+ "synopsis_words": 637,
+ "episodes": [
+  {
+   "number": 450,
+   "date": "2026-03-09",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Hanks",
+   "verdict_tone": "hanks",
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Kyle Brandt"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "neo-noir",
+   "reach": 29,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "police",
+   "reach": 22,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "absurd",
+   "reach": 18,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "hilarious",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "kidnapping",
+   "reach": 12,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "dark comedy",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "money",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "macabre",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "complex",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "unsociability",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "cheating",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "winter",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "car dealership",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "police officer",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "ransom",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "false history",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "minneapolis",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "minnesota",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "north dakota",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "salesclerk",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "straightforward",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "woodchipper",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Frances McDormand",
+   "films": 1
+  },
+  {
+   "name": "William H. Macy",
+   "films": 3
+  },
+  {
+   "name": "Steve Buscemi",
+   "films": 3
+  },
+  {
+   "name": "Peter Stormare",
+   "films": 2
+  },
+  {
+   "name": "Harve Presnell",
+   "films": 1
+  },
+  {
+   "name": "John Carroll Lynch",
+   "films": 0
+  },
+  {
+   "name": "Kristin Rudrüd",
+   "films": 0
+  },
+  {
+   "name": "Bruce Bohne",
+   "films": 0
+  },
+  {
+   "name": "Steve Reevis",
+   "films": 0
+  },
+  {
+   "name": "Steve Park",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "ff9387b8-20a2-409c-a91d-89800222c64e",
+   "title": "Reservoir Dogs",
+   "year": 1992,
+   "poster": "xi8Iu6qyTfyZVDVy60raIOYJJmk.jpg"
+  },
+  {
+   "id": "35970a78-957a-4a3c-bc3a-3aaeb91cef92",
+   "title": "Mr. Holland's Opus",
+   "year": 1995,
+   "poster": "kBmwWeSN3ajnYHZ3dSybEobxEPI.jpg"
+  },
+  {
+   "id": "598b1c1d-0890-4233-936e-a94cd3b07e78",
+   "title": "The Big Lebowski",
+   "year": 1998,
+   "poster": "3bv6WAp6BSxxYvB5ozKFUYuRA8C.jpg"
+  },
+  {
+   "id": "1d58bb35-b2e4-40f9-bc3e-4e0a6741c162",
+   "title": "Magnolia",
+   "year": 1999,
+   "poster": "tpfC325Jk6S38VTe5dDWjWtoyxr.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Fargo_%281996_film%29",
+  "wikidata": "Q222720"
+ }
+}

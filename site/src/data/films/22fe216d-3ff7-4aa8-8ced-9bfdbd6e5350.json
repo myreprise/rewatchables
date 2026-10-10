@@ -1,0 +1,253 @@
+{
+ "id": "22fe216d-3ff7-4aa8-8ced-9bfdbd6e5350",
+ "title": "Apollo 13",
+ "year": 1995,
+ "poster": "tVeKscCm2fY1xDXZk8PgnZ87h9S.jpg",
+ "tmdb_id": 568,
+ "directors": [
+  "Ron Howard"
+ ],
+ "director_primary": "Ron Howard",
+ "genres": [
+  "Drama",
+  "History"
+ ],
+ "runtime": 140,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2026-08-24",
+ "last": "2026-08-24",
+ "scores": {
+  "tmdb": 7.463,
+  "rt": 92.0,
+  "ebert": 4.0,
+  "box_office": "$731.2M",
+  "multiple": 6.831498711538462,
+  "cpi_year": 2024
+ },
+ "plot": "The true story of technical troubles that scuttle the Apollo 13 lunar mission in 1970, risking the lives of astronaut Jim Lovell and his crew, with the failed journey turning into a thrilling saga of heroism. Drifting more than 200,000 miles from Earth, the astronauts work furiously with the ground crew to avert tragedy.",
+ "synopsis": "On July 20, 1969, astronaut Jim Lovell hosts a party where guests watch Neil Armstrong's televised first steps on the Moon from Apollo 11. Lovell, who orbited the Moon on Apollo 8, tells his wife Marilyn that he will return to the Moon to walk on its surface.\n\nThree months later, as Lovell is conducting a VIP tour of NASA's Vehicle Assembly Building, his boss Deke Slayton informs him that his crew will fly Apollo 13 instead of 14, swapping flights with Alan Shepard's crew. Lovell, Ken Mattingly, and Fred Haise train for their mission. Days before launch in April 1970, Mattingly is exposed to German measles, and the flight surgeon demands his replacement with Mattingly's backup, Jack Swigert.\n\nLovell resists breaking up his team, but relents when Slayton threatens to bump his crew to a later mission. As the launch date approaches, Marilyn has a nightmare about her husband dying in space, and tells Lovell she will not go to Kennedy Space Center to see him off for an unprecedented fourth launch. She later changes her mind and surprises him.\n\nOn launch day, Flight Director Gene Kranz in Houston's Mission Control Center gives the go for launch. As the Saturn V rocket climbs through the atmosphere, a second stage engine cuts off prematurely, but the craft reaches its Earth parking orbit. After the third stage fires again to send Apollo 13 to the Moon, Swigert performs the maneuver to turn the Command Module Odyssey around to dock with the Lunar Module Aquarius and pull it away from the spent rocket.\n\nThree days into the mission, by order of Mission Control, Swigert turns on the liquid oxygen stirring fans. An electrical short causes a tank to explode, emptying its contents into space and sending the craft tumbling. The other tank is soon found to be leaking. Consumables manager Sy Liebergot convinces Kranz that shutting off two of Odyssey's three fuel cells offers the best chance to stop the leak, but this does not work.\n\nWith only one fuel cell, mission rules dictate the Moon landing be aborted. Lovell and Haise power up Aquarius to use as a \"lifeboat\", while Swigert shuts down Odyssey to save its battery power for the return to Earth. Kranz charges his team with bringing the astronauts home, declaring \"failure is not an option\". Consumables manager John Aaron recruits Mattingly to help him improvise a procedure to restart Odyssey for the landing on Earth.\n\nAs the crew watches the Moon pass beneath them, Lovell laments his lost dream of walking on its surface, then turns his crew's attention to the business of getting home. With Aquarius running on minimal electrical power and rationed water supply, the crew suffers from freezing conditions, and Haise develops a urinary tract infection. Swigert suspects Mission Control is concealing the fact they are doomed; Haise angrily blames Swigert's inexperience for the accident, but Lovell quashes the argument.\n\nAs Aquarius's carbon dioxide filters run out, concentration of the gas approaches a dangerous level. Ground control improvises a \"Rube Goldberg\" device to make the Command Module's incompatible filter cartridges work in the Lunar Module. With Aquarius's navigation systems shut down, the crew makes a vital course correction manually by steering the Lunar Module and controlling its engine.\n\nMattingly and Aaron struggle to find a way to power up the Command Module systems without drawing too much power, and finally read the procedure to Swigert, who restarts Odyssey by drawing the extra power from Aquarius. When the crew jettisons the Service Module, they are surprised by the extent of the damage, raising the possibility that the ablative heat shield was compromised. As they release Aquarius and re-enter the Earth's atmosphere, no one is sure that Odyssey's heat shield is intact.\n\nThe tense period of radio silence due to ionization blackout is longer than normal, but the astronauts report all is well, and the world watches Odyssey splash down and celebrates their return. As helicopters bring the crew aboard the USS Iwo Jima for a hero's welcome, Lovell's voice-over describes the cause of the explosion, and the subsequent careers of Haise, Swigert, Mattingly, Kranz, and himself. He wonders if and when mankind will return to the Moon.",
+ "synopsis_words": 702,
+ "episodes": [
+  {
+   "number": 478,
+   "date": "2026-08-24",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Hanks",
+   "verdict_tone": "hanks",
+   "host": "Bill Simmons",
+   "guests": [
+    "Amanda Dobbins",
+    "Rob Mahoney"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "inspirational",
+   "reach": 14,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "survival",
+   "reach": 12,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "explosion",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "florida",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "race against time",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "rescue",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "space",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "nasa",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "astronaut",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "disaster",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "moon",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "hypothermia",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "spaceman",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "apollo program",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "houston, texas",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "lunar mission",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "spacecraft accident",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Tom Hanks",
+   "films": 11
+  },
+  {
+   "name": "Bill Paxton",
+   "films": 5
+  },
+  {
+   "name": "Kevin Bacon",
+   "films": 5
+  },
+  {
+   "name": "Gary Sinise",
+   "films": 4
+  },
+  {
+   "name": "Ed Harris",
+   "films": 3
+  },
+  {
+   "name": "Kathleen Quinlan",
+   "films": 0
+  },
+  {
+   "name": "Mary Kate Schellhardt",
+   "films": 0
+  },
+  {
+   "name": "Emily Ann Lloyd",
+   "films": 0
+  },
+  {
+   "name": "Miko Hughes",
+   "films": 0
+  },
+  {
+   "name": "Max Elliott Slade",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "d40c870c-94a4-42fc-a04b-1a34a4da8dcd",
+   "title": "Night Shift",
+   "year": 1982,
+   "poster": "iS78MFtMDwWDP748juZQBK57C9o.jpg"
+  },
+  {
+   "id": "39a49d4b-d71c-4f23-a31f-c724689240f3",
+   "title": "Parenthood",
+   "year": 1989,
+   "poster": "29Y6yg0gSurkFYTh54yxDzLBmrT.jpg"
+  },
+  {
+   "id": "83874a69-dfec-4de4-b8c4-c56ec2330043",
+   "title": "Ransom",
+   "year": 1996,
+   "poster": "4nmOA5ZOY2VlHzwSlKY03sF2JUz.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "5bb6f493-044e-4f3c-a5e0-7ba44db09f45",
+   "title": "Forrest Gump",
+   "year": 1994,
+   "poster": "Cw4hIUIAmSYfK9QfaUW5igp9La.jpg"
+  },
+  {
+   "id": "cb4ff773-ea55-4227-a517-cfd097a02d53",
+   "title": "Friday the 13th",
+   "year": 1980,
+   "poster": "uGGpnWHOmWTARVN9wbC1nPxNgps.jpg"
+  },
+  {
+   "id": "9674a3a8-4867-475f-807e-1c237e3b6e0e",
+   "title": "Weird Science",
+   "year": 1985,
+   "poster": "AsFxOHwUlK7mTOkC5p6SySsdEjz.jpg"
+  },
+  {
+   "id": "b20ebe78-115c-4301-9ced-7f0a6dcb8759",
+   "title": "Big",
+   "year": 1988,
+   "poster": "eWhCDJiwxvx3YXkAFRiHjimnF0j.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Apollo_13_%28film%29",
+  "wikidata": "Q106428"
+ }
+}

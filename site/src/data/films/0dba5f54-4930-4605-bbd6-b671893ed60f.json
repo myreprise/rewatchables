@@ -1,0 +1,157 @@
+{
+ "id": "0dba5f54-4930-4605-bbd6-b671893ed60f",
+ "title": "Kicking and Screaming",
+ "year": 1995,
+ "poster": "ynAtSpTou7snNOq32djzILw9VCA.jpg",
+ "tmdb_id": 28387,
+ "directors": [
+  "Jesse Dylan"
+ ],
+ "director_primary": "Jesse Dylan",
+ "genres": [
+  "Comedy",
+  "Drama",
+  "Romance"
+ ],
+ "runtime": 96,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2020-10-06",
+ "last": "2020-10-06",
+ "scores": {
+  "tmdb": 6.187,
+  "rt": 56.00000000000001,
+  "ebert": 3.0,
+  "box_office": "$1.5M",
+  "multiple": null,
+  "cpi_year": 2024
+ },
+ "plot": "After college graduation, Grover's girlfriend Jane tells him she's moving to Prague to study writing. Grover declines to accompany her, deciding instead to move in with several friends, all of whom can't quite work up the inertia to escape their university's pull. Nobody wants to make any big decisions that would radically alter his life, yet none of them wants to end up like Chet, the professional student who tends bar and is in his tenth year of university studies.",
+ "synopsis": "A group of college graduates in the fictional town of Munton refuse to move on with their lives, each in their own peculiar way.",
+ "synopsis_words": 24,
+ "episodes": [
+  {
+   "number": 167,
+   "date": "2020-10-06",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Andy Greenwald"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "friendship",
+   "reach": 22,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "male friendship",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "college",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "campus",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "graduate",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "video store",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Josh Hamilton",
+   "films": 2
+  },
+  {
+   "name": "Olivia D'Abo",
+   "films": 1
+  },
+  {
+   "name": "Chris Eigeman",
+   "films": 2
+  },
+  {
+   "name": "Parker Posey",
+   "films": 2
+  },
+  {
+   "name": "Jason Wiles",
+   "films": 1
+  },
+  {
+   "name": "Cara Buono",
+   "films": 0
+  },
+  {
+   "name": "Carlos Jacott",
+   "films": 0
+  },
+  {
+   "name": "Elliott Gould",
+   "films": 0
+  },
+  {
+   "name": "Eric Stoltz",
+   "films": 0
+  },
+  {
+   "name": "Samuel Gould",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "7996de9b-4a7c-425d-aa4f-951ab4e08331",
+   "title": "Alive",
+   "year": 1993,
+   "poster": "uQACcCZqd7WCTRin9xRIW5gr1bd.jpg"
+  },
+  {
+   "id": "312c46d1-5270-46a8-84cb-b1f44b31ce73",
+   "title": "You've Got Mail",
+   "year": 1998,
+   "poster": "e2uVtH6TpMfUl7WeOM70ezkcjsU.jpg"
+  },
+  {
+   "id": "695247ee-e2fc-4335-923f-3422facd4827",
+   "title": "The Last Days of Disco",
+   "year": 1998,
+   "poster": "lReaAZCsA0GXvJrxzSMsFxwgh6F.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Kicking_and_Screaming_%281995_film%29",
+  "wikidata": "Q3196361"
+ }
+}

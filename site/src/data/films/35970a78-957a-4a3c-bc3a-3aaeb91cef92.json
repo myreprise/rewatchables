@@ -1,0 +1,240 @@
+{
+ "id": "35970a78-957a-4a3c-bc3a-3aaeb91cef92",
+ "title": "Mr. Holland's Opus",
+ "year": 1995,
+ "poster": "kBmwWeSN3ajnYHZ3dSybEobxEPI.jpg",
+ "tmdb_id": 2054,
+ "directors": [
+  "Stephen Herek"
+ ],
+ "director_primary": "Stephen Herek",
+ "genres": [
+  "Drama",
+  "Music"
+ ],
+ "runtime": 143,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2020-12-29",
+ "last": "2020-12-29",
+ "scores": {
+  "tmdb": 6.956,
+  "rt": 75.0,
+  "ebert": 3.5,
+  "box_office": "$218.8M",
+  "multiple": 3.4290322580645163,
+  "cpi_year": 2024
+ },
+ "plot": "In 1965, passionate musician Glenn Holland takes a day job as a high school music teacher, convinced it's just a small obstacle on the road to his true calling: writing a historic opus. As the decades roll by with the composition unwritten but generations of students inspired through his teaching, Holland must redefine his life's purpose.",
+ "synopsis": "In 1965, Glenn Holland is a talented musician and composer who has been relatively successful in the exhausting life of a professional musical performer. However, in an attempt to enjoy more free time with his young wife, Iris, and to enable him to compose a piece of orchestral music, the 30-year-old Holland accepts a teaching position. Unfortunately for Glenn, he is soon forced to realize that his position as a music teacher makes him a marginalized figure in the faculty's hierarchy. For instance, he comes face to face with how seriously he is outranked by the high school's football coach, Bill, who ultimately becomes his best friend. Administrators, such as assistant principal Gene Wolters, dislike him, while others, including principal Helen Jacobs, push him relentlessly. It is Ms. Jacobs' scolding that helps Glenn turn a corner. He entered the teaching profession with a view toward a temporary \"gig,\" running to his car at the end of the day faster than his students could run to theirs. Reluctantly, he begins to see his students as individuals and finds ways to help them excel. The film marks the passing decades with newsreels about Vietnam—corresponding to the tragic combat death of one young man that Holland guided through a stint as marching-band drummer—and the death of John Lennon in 1980. The passage of time and the mysteries of personal growth are a constant underlying theme in this film. Glenn's lack of quality time with Iris becomes problematic when their son, Cole, is diagnosed as deaf. Glenn reacts with hostility to the news that he can never teach the joys of music to his own child. Iris willingly learns American Sign Language to communicate with her son, but Glenn resists. This causes further estrangement within the family. Through three decades, Glenn is closer to students at John F. Kennedy High School than he is to his own son. At one point in the film, he is briefly tempted by the shining talent of a young female student, who invites him to leave his stressful, unsatisfying life and run off to New York. He addresses a series of challenges created by people who are either skeptical of—or hostile towards—the idea of musical excellence within the walls of a typical middle-class American high school. He inspires many students, but never has private time for himself or his family, forever delaying the composition of his own orchestral composition. Ultimately, he reaches an age when it is too late to realistically find financial backing or ever have it performed. In 1995, the adversaries of the Kennedy High music program win a decisive institutional victory. Glenn's longtime adversary Gene Wolters, promoted to school principal when Jacobs retired, works with the school board to eliminate music in the name of necessary budget cuts, thereby leading to Glenn's ignominious dismissal at the age of 60. Glenn is a realist who realizes that his working life is over. He believes that his former students have mostly forgotten him. On his final day as a teacher, the despairing Glenn is led to the school auditorium, where his professional life is surprisingly redeemed. Hearing that their beloved teacher is leaving, hundreds of his pupils have secretly returned to the school to celebrate his life. Glenn's orchestral piece, never before heard in public, has been put before the musicians by his wife and son. One of his most musically challenged students, Gertrude Lang, who has become governor of the state, sits-in with her clarinet. Gertrude and the other alumni ask the retiring teacher to serve as their conductor for the premiere performance of Mr. Holland's Opus. A proud Iris and Cole look on, appreciating the affection and respect that Glenn receives.",
+ "synopsis_words": 616,
+ "episodes": [
+  {
+   "number": 180,
+   "date": "2020-12-29",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Sean Fennessey",
+    "Van Lathan"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "high school",
+   "reach": 29,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "1960s",
+   "reach": 12,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "husband wife relationship",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "father son relationship",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "1990s",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "deaf-mute",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "mentor",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "music teacher",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "sign languages",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "composer",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "disabled",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "forced retirement",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "high school teacher",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "inspiring teacher",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "marching band",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "portland, oregon",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "retirement party",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "teacher student relationship",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "teaching",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Richard Dreyfuss",
+   "films": 4
+  },
+  {
+   "name": "Glenne Headly",
+   "films": 1
+  },
+  {
+   "name": "Jay Thomas",
+   "films": 1
+  },
+  {
+   "name": "Olympia Dukakis",
+   "films": 1
+  },
+  {
+   "name": "William H. Macy",
+   "films": 3
+  },
+  {
+   "name": "Alicia Witt",
+   "films": 0
+  },
+  {
+   "name": "Terrence Howard",
+   "films": 1
+  },
+  {
+   "name": "Damon Whitaker",
+   "films": 0
+  },
+  {
+   "name": "Jean Louisa Kelly",
+   "films": 0
+  },
+  {
+   "name": "Alexandra Boyd",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "6ea29d20-94ba-49cc-9b9a-ee794a926bbf",
+   "title": "Jaws",
+   "year": 1975,
+   "poster": "lxM6kqilAdpdhqUl2biYp5frUxE.jpg"
+  },
+  {
+   "id": "06d7a5b7-84dc-4c7d-a5c1-50e2db675dc9",
+   "title": "Close Encounters of the Third Kind",
+   "year": 1977,
+   "poster": "yaPx3cK9zGFX3SbcKwxWM1QIbUh.jpg"
+  },
+  {
+   "id": "06e2c0a9-f887-497e-8e1f-603ef3cacf01",
+   "title": "What About Bob?",
+   "year": 1991,
+   "poster": "pFCrGGGhV5xeAdvEysv6aSv8T13.jpg"
+  },
+  {
+   "id": "6202938a-7755-4fb8-be7f-0d5e9e7a96d5",
+   "title": "Fargo",
+   "year": 1996,
+   "poster": "rt7cpEr1uP6RTZykBFhBTcRaKvG.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Mr._Holland%27s_Opus",
+  "wikidata": "Q564893"
+ }
+}

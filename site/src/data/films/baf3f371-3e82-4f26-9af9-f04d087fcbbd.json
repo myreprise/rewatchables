@@ -1,0 +1,158 @@
+{
+ "id": "baf3f371-3e82-4f26-9af9-f04d087fcbbd",
+ "title": "About Last Night...",
+ "year": 1986,
+ "poster": "9KqG5OFi3NLJYBbsDSA8pZ3dln.jpg",
+ "tmdb_id": 18169,
+ "directors": [
+  "Edward Zwick"
+ ],
+ "director_primary": "Edward Zwick",
+ "genres": [
+  "Comedy",
+  "Drama",
+  "Romance"
+ ],
+ "runtime": 113,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2026-08-13",
+ "last": "2026-08-13",
+ "scores": {
+  "tmdb": 6.1,
+  "rt": 65.0,
+  "ebert": 4.0,
+  "box_office": "$110.8M",
+  "multiple": 4.55321294117647,
+  "cpi_year": 2024
+ },
+ "plot": "A man and woman meet and try to have a romantic affair, despite their personal problems and the interference of their disapproving friends.",
+ "synopsis": "In Chicago, Daniel \"Danny\" Martin and Bernard \"Bernie\" Litko, two friends and colleagues in their twenties, discuss their sexual escapades. Later, their recreational softball team, sponsored by local bar Mother's, plays against a local advertising agency in Grant Park and wins. Attending this game with her girlfriends is Deborah \"Debbie\" Sullivan, who works at the advertising company and is having an affair with her boss, Steve Carlson.\n\nDebbie catches Danny's eye and they flirt by the beer keg. She and her friends, Joan and Pat, attend the game's afterparty at Mother's, where Debbie again runs into Danny, with whom Pat flirts and to whom Joan takes an immediate dislike. Danny and Debbie wind up back at his apartment and have sex, after which she hastily leaves.\n\nThe next day, Danny calls Debbie at work \"about last night\", and asks her out on a second date, which she accepts. Afterwards, they again end up in bed together and spend the following day exploring the city, whereupon Danny reveals to Debbie that his dream is to quit his job at a restaurant supply company and open his own restaurant. They begin dating more seriously and move in together, heavily disappointing Joan and Bernie, who dislike each other as well.\n\nAs neither has ever been in a serious relationship before, they attempt to navigate cohabitation without much support from their friends. They experience much throughout their relationship: Danny being contacted by a former lover who is married with children, Debbie's boss Steve having difficulty accepting the end of their affair, Joan softening when she begins dating her new boyfriend Gary, a pregnancy scare, and Danny clashing with his boss, who orders him to stop providing supplies to the Swallow, an antiquated diner owned by his client-turned-friend Gus, due to late payments.\n\nDespite having told each other the \"L word\", Danny and Debbie's relationship becomes strained. It reaches a boiling point at a New Year's Eve party at Mother's, where Debbie witnesses a drunken Pat making advances towards Danny, and Joan discovers her boyfriend is married and returning to his wife. Joan tearfully asks Debbie to take her home, to which she agrees, despite Danny's drunken objections. Upon Debbie's return home, Danny expresses his unhappiness and ends their relationship. Debbie immediately moves out of their apartment and back in with Joan.\n\nDanny and Debbie both date other people, but he begins to regret their breakup. Some time later, Danny calls Debbie at work asking for another chance, but she rebuffs him and hangs up on him. When they run into each other at a St. Patrick's Day celebration at Mother's, Danny tells Debbie he made a mistake and still loves her; she insists she has moved on and their relationship is over.\n\nHoping to move on with his life, Danny partners with Gus to revitalize the Swallow into an old-school diner, achieving his dream. That summer, at another softball game, Danny and Bernie see Debbie riding her bicycle through the park with Joan, who encourages her to talk to Danny. She approaches him and they both express regret at how their relationship turned out. As Debbie begins to turn away, Danny asks her out again and suggests they go to a great new place, but she suggests with a smile that they just go to \"some old joint\", signifying that she is aware of his new restaurant. As she rides away on her bicycle, Bernie convinces Danny to run after her, and the camera pans out to see Danny and Debbie passing through the park.",
+ "synopsis_words": 591,
+ "episodes": [
+  {
+   "number": 476,
+   "date": "2026-08-13",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Cruise",
+   "verdict_tone": "cruise",
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Mallory Rubin"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "chicago, illinois",
+   "reach": 19,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "new year's eve",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "relationship problems",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "softball",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Rob Lowe",
+   "films": 3
+  },
+  {
+   "name": "Demi Moore",
+   "films": 6
+  },
+  {
+   "name": "Jim Belushi",
+   "films": 2
+  },
+  {
+   "name": "Elizabeth Perkins",
+   "films": 2
+  },
+  {
+   "name": "George DiCenzo",
+   "films": 1
+  },
+  {
+   "name": "Robin Thomas",
+   "films": 0
+  },
+  {
+   "name": "Donna Gibbons",
+   "films": 0
+  },
+  {
+   "name": "Megan Mullally",
+   "films": 0
+  },
+  {
+   "name": "Michael Alldredge",
+   "films": 0
+  },
+  {
+   "name": "Patricia Duff",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "7263e87c-68fe-4862-98ae-479524765544",
+   "title": "Blood Diamond",
+   "year": 2006,
+   "poster": "sYAUuiWpoXGKHxUfHyjTj7Apj2h.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "77957e7b-570d-4254-b4ba-555dbd791256",
+   "title": "St. Elmo's Fire",
+   "year": 1985,
+   "poster": "g2SL3XHJas7hebZ2hhTrYLpKToD.jpg"
+  },
+  {
+   "id": "41583e7e-a83e-480f-994b-7d6f1e5b56ed",
+   "title": "Thief",
+   "year": 1981,
+   "poster": "bpjRGwfYJ71bU0hNhLIz7g3t6Oy.jpg"
+  },
+  {
+   "id": "b20ebe78-115c-4301-9ced-7f0a6dcb8759",
+   "title": "Big",
+   "year": 1988,
+   "poster": "eWhCDJiwxvx3YXkAFRiHjimnF0j.jpg"
+  },
+  {
+   "id": "24e79ffe-598c-40df-86ef-0ed5035174b9",
+   "title": "Ghost",
+   "year": 1990,
+   "poster": "w9RaPHov8oM5cnzeE27isnFMsvS.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/About_Last_Night_%281986_film%29",
+  "wikidata": "Q1535888"
+ }
+}

@@ -1,0 +1,235 @@
+{
+ "id": "37b2899e-89da-4908-864d-f4140bc94327",
+ "title": "The Doors",
+ "year": 1991,
+ "poster": "x1LM3dzGuG6xOz0aT2e71o11vhu.jpg",
+ "tmdb_id": 10537,
+ "directors": [
+  "Oliver Stone"
+ ],
+ "director_primary": "Oliver Stone",
+ "genres": [
+  "Music",
+  "Drama"
+ ],
+ "runtime": 140,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2021-03-01",
+ "last": "2021-03-01",
+ "scores": {
+  "tmdb": 7.106,
+  "rt": 56.00000000000001,
+  "ebert": 2.5,
+  "box_office": "$79.3M",
+  "multiple": 0.9057077105263158,
+  "cpi_year": 2024
+ },
+ "plot": "The story of the famous and influential 1960s rock band and its lead singer and composer, Jim Morrison.",
+ "synopsis": "In 1949, young Jim Morrison and his family are traveling on a desert highway in New Mexico where they encounter an auto wreck and see an elderly Native American dying by the roadside. In 1965, Jim arrives in California and is assimilated into the Venice Beach culture. During his tenure studying at UCLA, he meets Pamela Courson and they fall in love, becoming a couple. He also meets Ray Manzarek for the first time, as well as Robby Krieger and John Densmore, who form the Doors with Morrison.\n\nJim convinces his bandmates to travel to Death Valley and experience the effects of psychedelic drugs. Returning to Los Angeles, they play several shows at the famous Whisky a Go Go nightclub and develop a rabid fanbase. Jim's onstage antics and lewd performance of the group's song \"The End\" upset the club's owners, and the band is ejected from the venue. After the show, they are approached by producer Paul A. Rothchild and Jac Holzman of Elektra Records and are offered a deal to record their first album. The Doors are soon invited to perform on The Ed Sullivan Show, only to be told by one of the producers that they must change the lyric \"girl we couldn't get much higher\" in the song \"Light My Fire\", due to a reference to drugs. Despite this, Morrison performs the original lyric during the live broadcast and the band is not allowed to perform on the show again.\n\nAs the Doors' success continues, Jim becomes increasingly infatuated with his own image as \"The Lizard King\" and develops an addiction to alcohol and drugs. Jim becomes intimate with rock journalist Patricia Kennealy, who involves him in her witchcraft activities, participating in a mystical handfasting ceremony. Meanwhile, an elder spirit watches these events.\n\nThe rest of the band grows weary of Jim's missed recording sessions and absences at concerts. Jim arrives late and intoxicated at a Miami, Florida concert, becoming increasingly confrontational towards the audience and threatening to expose himself onstage. The incident is a low point for the band, resulting in criminal charges against Jim, cancellations of shows, breakdowns in Jim's personal relationships, and resentment from the other band members.\n\nIn 1970, following a lengthy trial, Jim is found guilty of indecent exposure and ordered to serve time in prison. However, he is allowed to remain free on bail, pending the results of an appeal. Patricia tells Jim that she is pregnant with his child, but Jim convinces her to have an abortion. Jim visits his bandmates for the final time, attending a birthday party hosted by Ray where he wishes the band luck in their future endeavors and gives each of them a copy of his poetry book An American Prayer. As Jim plays in the front garden with the children, he sees that one of them is his childhood self and comments, \"This is the strangest life I've ever known\" (a lyric from the Doors song \"Waiting for the Sun\"), before passing out.\n\nIn 1971, Jim and Pam move to Paris, France, to escape the pressures of the L.A. lifestyle. On the evening of July 3, Pam finds Jim dead in the bathtub of their apartment. He is buried at Père Lachaise Cemetery, beside other famous figures as Oscar Wilde, Marcel Proust and Moliere. Pam also dies three years later at the age of 27.",
+ "synopsis_words": 562,
+ "episodes": [
+  {
+   "number": 191,
+   "date": "2021-03-01",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Chuck Klosterman"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "drugs",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "biography",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "period drama",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "airplane",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "alcoholism",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "singer",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "rock 'n' roll",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "wilderness",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "hallucination",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "hippie",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "lsd",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "poetry",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "addicted",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "joint",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "organ",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Val Kilmer",
+   "films": 6
+  },
+  {
+   "name": "Meg Ryan",
+   "films": 5
+  },
+  {
+   "name": "Kyle MacLachlan",
+   "films": 1
+  },
+  {
+   "name": "Frank Whaley",
+   "films": 1
+  },
+  {
+   "name": "Kevin Dillon",
+   "films": 1
+  },
+  {
+   "name": "Michael Wincott",
+   "films": 0
+  },
+  {
+   "name": "Michael Madsen",
+   "films": 2
+  },
+  {
+   "name": "Josh Evans",
+   "films": 0
+  },
+  {
+   "name": "Dennis Burkley",
+   "films": 0
+  },
+  {
+   "name": "Billy Idol",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "47e266c7-3db1-4ef0-9a86-ca50e08041bc",
+   "title": "Wall Street",
+   "year": 1987,
+   "poster": "2tQYq9ntzn2dEwDIGLBSipYPenv.jpg"
+  },
+  {
+   "id": "2e1db163-7691-4a52-9f7d-3d791f3b16dc",
+   "title": "JFK",
+   "year": 1991,
+   "poster": "r0VWVTYlqdRCK5ZoOdNnHdqM2gt.jpg"
+  },
+  {
+   "id": "2a7fb6e3-d850-443b-bf0e-1a0ce769ae6d",
+   "title": "Any Given Sunday",
+   "year": 1999,
+   "poster": "bysZeUvSPZPJnku4qkHF34CdgMG.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "d182de2d-6138-48ab-9426-6ada559b59ab",
+   "title": "Top Gun",
+   "year": 1986,
+   "poster": "xUuHj3CgmZQ9P2cMaqQs4J0d4Zc.jpg"
+  },
+  {
+   "id": "c5320af0-e4b5-4366-bb03-4cbaabd9c75e",
+   "title": "When Harry Met Sally...",
+   "year": 1989,
+   "poster": "rFOiFUhTMtDetqCGClC9PIgnC1P.jpg"
+  },
+  {
+   "id": "5dc2094a-73e6-44fe-a449-1a9dd68b5e22",
+   "title": "True Romance",
+   "year": 1993,
+   "poster": "39lXk6ud6KiJgGbbWI2PUKS7y2.jpg"
+  },
+  {
+   "id": "d08bfc54-2f2b-4844-b3fa-733277b81458",
+   "title": "Tombstone",
+   "year": 1993,
+   "poster": "wGFCvylul8iEQhJOKfwZGGvXMzA.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/The_Doors_%28film%29",
+  "wikidata": "Q937087"
+ }
+}

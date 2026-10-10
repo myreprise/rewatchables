@@ -1,0 +1,205 @@
+{
+ "id": "a9674799-b5c7-439c-9be8-317220968d76",
+ "title": "The Untouchables",
+ "year": 1987,
+ "poster": "tPq0R4jTO4Ey8ZspFaWK9wGA4Ls.jpg",
+ "tmdb_id": 117,
+ "directors": [
+  "Brian De Palma"
+ ],
+ "director_primary": "Brian De Palma",
+ "genres": [
+  "Crime",
+  "History",
+  "Thriller"
+ ],
+ "runtime": 119,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2022-06-23",
+ "last": "2022-06-23",
+ "scores": {
+  "tmdb": 7.8,
+  "rt": 83.0,
+  "ebert": 2.5,
+  "box_office": "$210.6M",
+  "multiple": 3.05081816,
+  "cpi_year": 2024
+ },
+ "plot": "Elliot Ness, an ambitious prohibition agent, is determined to take down Al Capone. In order to achieve this goal, he forms a group given the nickname “The Untouchables”.",
+ "synopsis": "In 1930, during Prohibition, the notorious gangland boss Al Capone supplies illegal liquor and controls most of Chicago. Bureau of Prohibition agent Eliot Ness has been tasked with halting Capone's activities by hitting a warehouse with crates shipped from Canada, but his first attempt at a liquor raid fails due to corrupt policemen alerting Capone.\n\nHe soon encounters veteran Irish-American officer James Malone, who opposes the rampant corruption and offers to help Ness, suggesting that they find a man from the police academy who is not yet under Capone's influence and still believes in the idealistic aspects of law enforcement. They recruit Italian-American trainee George Stone (born Giuseppe Petri) for his superior marksmanship and integrity. Joined by accountant Oscar Wallace, they successfully raid a Capone liquor warehouse and start to gain positive publicity, with the press dubbing them The Untouchables. During an organizational dinner team meeting, Capone kills the warehouse manager with a baseball bat to warn his other subordinates.\n\nDiscovering that Capone has not filed an income tax return for four years, Wallace suggests trying to build a tax evasion case against him, as Capone's network keeps him well insulated from his other crimes. Crooked alderman John O'Shea offers Ness a bribe to drop his investigation, but Ness refuses. After Capone's enforcer Frank Nitti threatens Ness' family, Ness immediately moves his pregnant wife Catherine and their daughter to a safe house. In a subsequent raid on the Canadian border with the assistance of some Mounties, Ness and his team intercept an incoming liquor shipment, killing several gangsters and capturing a Capone bookkeeper named George, who ends up agreeing to help them testify against his employer. Back in Chicago, Nitti, dressed as a policeman, murders Wallace and George in the elevator of the police station and leaves a taunting message for Ness. Thereupon Ness confronts Capone at the Lexington Hotel after the murders, but Malone intervenes, urging Ness to focus on persuading the district attorney not to dismiss the charges against Capone.\n\nRealizing that police chief Mike Dorsett betrayed Wallace and George earlier on, Malone forces Dorsett to reveal where Capone's accountant Walter Payne is hiding, then tells Ness to meet him to plan their next move. After Malone returns home, Capone's henchmen attack him. He chases one away with a shotgun, but Nitti ambushes him with a Thompson submachine gun before retreating. Ness and Stone arrive to find Malone mortally wounded, but before dying he manages to tell them which train Payne will take to leave town.\n\nAs Ness and Stone await Payne's arrival at Chicago Union Station, Ness notices a young mother with two suitcases and her baby in a carriage laboriously climbing the lobby steps. Ness ultimately decides to assist her, but the gangsters guarding Payne appear just as Ness and the woman reach the top of the stairs, and a bloody shootout occurs. Although outnumbered, Ness and Stone manage to capture Payne alive and kill all the gangsters, keeping both the mother and child unharmed.\n\nWhen Payne testifies at Capone's trial, Ness observes that Capone appears strangely calm. He then sees Nitti is wearing a gun in the courtroom and has a bailiff remove him. Outside the courtroom, Ness searches Nitti and finds a note from Chicago Mayor William Hale Thompson that effectively permits him to carry the weapon. Ness is frustrated until he discovers that Nitti also has a matchbook with Malone's address written inside his coat, which causes Ness to realize that Nitti is Malone's killer. In a panic, Nitti brandishes his gun and shoots the bailiff before fleeing to the courthouse roof. Ness eventually apprehends him and prepares to take him in custody, but then Nitti insults the memory of Malone and gloats that he will escape conviction for the murder; this enrages Ness and instead he tosses Nitti off the roof to his death, avenging both Wallace and Malone.\n\nBack in the courtroom, Stone gives Ness a list – taken from Nitti's coat – which shows that the jurors in the trial are all on Capone's payroll, thereby explaining Capone's calm and overconfident demeanor earlier on. Ness secretly persuades the judge to switch Capone's jury with one hearing an unrelated divorce case, and the judge relents after Ness tricks him into believing that his name is on Capone's payroll as well. This prompts Capone's lawyer to enter a guilty plea against Capone's wishes; as Capone furiously objects in a violent outburst, Ness victoriously taunts him by repeating Malone's motto: \"Never stop fighting until the fight is done. Here endeth the lesson\". Capone is ultimately convicted of tax evasion and sentenced to 11 years in prison.\n\nOn the day of Capone's sentencing, Ness closes up his office and meets up with Stone to part ways with him; he gives Malone's St. Jude medallion and callbox key to Stone as a farewell present. As Ness leaves the police station, a reporter asks him what he will do after the probable repeal of Prohibition; Ness replies \"I think I'll have a drink\" before walking away.",
+ "synopsis_words": 840,
+ "episodes": [
+  {
+   "number": 260,
+   "date": "2022-06-23",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "chicago, illinois",
+   "reach": 19,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "gangster",
+   "reach": 18,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "1930s",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "tough cop",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "baseball bat",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "jury tampering",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "prohibition era",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "tax evasion",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "treasury agent",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "untouchable",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "white suit",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Kevin Costner",
+   "films": 9
+  },
+  {
+   "name": "Sean Connery",
+   "films": 3
+  },
+  {
+   "name": "Robert De Niro",
+   "films": 14
+  },
+  {
+   "name": "Charles Martin Smith",
+   "films": 1
+  },
+  {
+   "name": "Andy Garcia",
+   "films": 4
+  },
+  {
+   "name": "Richard Bradford",
+   "films": 2
+  },
+  {
+   "name": "Jack Kehoe",
+   "films": 0
+  },
+  {
+   "name": "Brad Sullivan",
+   "films": 0
+  },
+  {
+   "name": "Billy Drago",
+   "films": 0
+  },
+  {
+   "name": "Patricia Clarkson",
+   "films": 1
+  }
+ ],
+ "by_director": [
+  {
+   "id": "9eca479e-3929-4642-a686-dc275bd129cf",
+   "title": "Blow Out",
+   "year": 1981,
+   "poster": "uFzMscVLDrTaYd6KXOXlr6dly7w.jpg"
+  },
+  {
+   "id": "43357b01-0c8d-4381-99cb-d7f15c4979c0",
+   "title": "Mission: Impossible",
+   "year": 1996,
+   "poster": "l5uxY5m5OInWpcExIpKG6AR3rgL.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "bf4d623f-ee62-4922-9c43-20c013c5803f",
+   "title": "The Godfather Part II",
+   "year": 1974,
+   "poster": "sSuQTCZwqKrNBNIsksO9IAUoWP9.jpg"
+  },
+  {
+   "id": "1bd1e666-bdee-40c9-a862-b946d9de51f3",
+   "title": "Taxi Driver",
+   "year": 1976,
+   "poster": "ekstpH614fwDX8DUln1a2Opz0N8.jpg"
+  },
+  {
+   "id": "cbbd14c7-180e-4ac5-9276-0e07a8f8532e",
+   "title": "No Way Out",
+   "year": 1987,
+   "poster": "93CzsBvRhg035yvQosRtSsTL19v.jpg"
+  },
+  {
+   "id": "6d94e2c9-1ab4-4df4-88f3-e4927a1d7e3f",
+   "title": "Midnight Run",
+   "year": 1988,
+   "poster": "yx0touyDQ9enWDsFgS4MbBwCSNd.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/The_Untouchables_%28film%29",
+  "wikidata": "Q108525"
+ }
+}

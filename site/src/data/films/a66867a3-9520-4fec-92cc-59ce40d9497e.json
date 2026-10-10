@@ -1,0 +1,211 @@
+{
+ "id": "a66867a3-9520-4fec-92cc-59ce40d9497e",
+ "title": "Robin Hood: Prince of Thieves",
+ "year": 1991,
+ "poster": "hbRnWUNJkKKVN5mkcuC5ooqjE4e.jpg",
+ "tmdb_id": 8367,
+ "directors": [
+  "Kevin Reynolds"
+ ],
+ "director_primary": "Kevin Reynolds",
+ "genres": [
+  "Action",
+  "Adventure",
+  "Drama"
+ ],
+ "runtime": 143,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2023-11-07",
+ "last": "2023-11-07",
+ "scores": {
+  "tmdb": 6.853,
+  "rt": 51.0,
+  "ebert": 2.0,
+  "box_office": "$899.4M",
+  "multiple": 8.13528975,
+  "cpi_year": 2024
+ },
+ "plot": "Nobleman crusader Robin of Locksley breaks out of a Jerusalem prison with the help of Moorish fellow prisoner Azeem and travels back home to England. But upon arrival he discovers his dead father in the ruins of his family estate, killed by the vicious sheriff of Nottingham, Robin and Azeem join forces with outlaws Little John and Will Scarlett to save the kingdom from the sheriff's villainy.",
+ "synopsis": "Robin of Locksley, an English nobleman who joined King Richard \"The Lionheart\" in the Third Crusade, is imprisoned in Jerusalem along with his comrade Peter. Robin escapes, saving the life of a Moor named Azeem in the process, but Peter dies while escaping and has Robin swear to protect his sister Marian. Robin returns to England with Azeem, who has vowed to accompany him until the debt of saving his life is repaid. In England, with King Richard still away, the cruel Sheriff of Nottingham rules over the land, aided by his cousin Guy of Gisbourne, along with the witch Mortianna and the corrupt Bishop of Hereford. At Locksley Castle, Robin's father is killed by the Sheriff's men after refusing to join them. Robin returns to England to find his father dead, his home in ruins, and the Sheriff and his men oppressing the people. While fleeing the Sheriff's forces, Robin and Azeem encounter a band of outlaws hiding in Sherwood Forest, led by Little John. Among the band is Will Scarlet, who holds a belligerent grudge against Robin and does not hesitate to show Robin his true feelings. Robin ultimately assumes command of the group, encourages his men to fight against Nottingham, and trains them to defend themselves. They rob English soldiers and convoys that pass through the forest, then distribute the stolen wealth among the poor. One of their early targets is Friar Tuck, who subsequently joins these Merry Men, and Marian also begins to sympathize with the band and renders Robin any aid she can muster. Robin’s successes infuriate the Sheriff, who increases the maltreatment of the people, resulting in more support for Robin Hood. Hiring Celtic warriors from Scotland to bolster his forces, the Sheriff manages to locate the outlaws' hideout and launches an attack, destroying the forest refuge. He confines Marian when she tries to summon help from France. The Sheriff proposes to Marian, claiming that if she accepts, he will spare the lives of the captured outlaws. Nevertheless, several of the rebels are due to be executed by hanging as part of the wedding celebration. Among the captured is Will Scarlett, whom seemingly makes a deal with Sheriff to find and kill Robin in order to be set free. Will meets back with Robin and a handful of his most trusted aides who survived the assault by the Celts. Instead of attacking Robin, Will informs him of the Sheriff's plans to marry Marian and execute Robin's men. Will still continues to take out his anger against Robin, to which Robin then questions Will as to why he hates him so much. Will then reveals himself to be Robin's younger illegitimate half-brother; Will's mother was a peasant woman with whom Robin's father took comfort after his mother died. However, Robin's anger toward his father caused him to separate from her and leave Will fatherless. Despite Robin's anger toward his father for being with another woman, he is overjoyed to learn that he has a brother and embraces Will. On the day of the wedding and hangings, Robin and his men storm Nottingham Castle, freeing the prisoners. Although Robin's band originally planned to free their friends and retreat, Azeem reveals himself and his willingness to fight the Sheriff, turning the peasants to revolt. After a fierce fight, Robin kills the Sheriff but is attacked by Mortianna, who charges with a spear. Azeem slays Mortianna, fulfilling his vow to repay his life debt to Robin. Tuck also kills the Bishop by defenestrating him after learning of his corruption and treachery. Robin and Marian profess their love for each other and marry in the forest. Their wedding is briefly interrupted by the return of King Richard, who blesses the marriage and thanks Robin for his deeds.",
+ "synopsis_words": 628,
+ "episodes": [
+  {
+   "number": 332,
+   "date": "2023-11-07",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Van Lathan"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "thief",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "bow and arrow",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "the crusades",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "12th century",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "archer",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "crusade",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "england",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "folk hero",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "friar",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "helping the poor",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "living in the woods",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "nottingham",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "robin hood",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "sherwood forest",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Kevin Costner",
+   "films": 9
+  },
+  {
+   "name": "Morgan Freeman",
+   "films": 4
+  },
+  {
+   "name": "Mary Elizabeth Mastrantonio",
+   "films": 2
+  },
+  {
+   "name": "Christian Slater",
+   "films": 4
+  },
+  {
+   "name": "Alan Rickman",
+   "films": 2
+  },
+  {
+   "name": "Geraldine McEwan",
+   "films": 0
+  },
+  {
+   "name": "Michael McShane",
+   "films": 0
+  },
+  {
+   "name": "Brian Blessed",
+   "films": 0
+  },
+  {
+   "name": "Michael Wincott",
+   "films": 0
+  },
+  {
+   "name": "Nick Brimble",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "14e99924-442f-4d27-84bd-40b047c969d2",
+   "title": "The Legend of Billie Jean",
+   "year": 1985,
+   "poster": "x2u2YtbJ9XySs3MdaIly8Gfp66.jpg"
+  },
+  {
+   "id": "3c90894d-9490-4574-b7e1-043b8536782e",
+   "title": "The Color of Money",
+   "year": 1986,
+   "poster": "dVdnHmdQu3JtLAAksjTmTEF76gD.jpg"
+  },
+  {
+   "id": "a9674799-b5c7-439c-9be8-317220968d76",
+   "title": "The Untouchables",
+   "year": 1987,
+   "poster": "tPq0R4jTO4Ey8ZspFaWK9wGA4Ls.jpg"
+  },
+  {
+   "id": "cbbd14c7-180e-4ac5-9276-0e07a8f8532e",
+   "title": "No Way Out",
+   "year": 1987,
+   "poster": "93CzsBvRhg035yvQosRtSsTL19v.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Robin_Hood%3A_Prince_of_Thieves",
+  "wikidata": "Q486822"
+ }
+}

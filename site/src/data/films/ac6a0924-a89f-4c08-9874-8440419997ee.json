@@ -1,0 +1,190 @@
+{
+ "id": "ac6a0924-a89f-4c08-9874-8440419997ee",
+ "title": "Dirty Work",
+ "year": 1998,
+ "poster": "r6OcS6TQCHal2wHooJhHWSlFzfd.jpg",
+ "tmdb_id": 14577,
+ "directors": [
+  "Bob Saget"
+ ],
+ "director_primary": "Bob Saget",
+ "genres": [
+  "Comedy"
+ ],
+ "runtime": 82,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2021-09-21",
+ "last": "2021-09-21",
+ "scores": {
+  "tmdb": 6.219,
+  "rt": 14.000000000000002,
+  "ebert": null,
+  "box_office": null,
+  "multiple": null,
+  "cpi_year": 2024
+ },
+ "plot": "Unemployed and recently dumped, Mitch and his buddy Sam start a revenge-for-hire business to raise the $50,000 that Sam's father needs to get a heart transplant.",
+ "synopsis": "Growing up, friends Mitch Weaver and Sam McKenna are taught by Sam's no-nonsense father, \"Pops\" McKenna, not to \"take crap from anyone.\" To that end, the pair plant a bunch of guns in the school bully's desk and have him arrested for gun possession. Next, they catch a kid-fondling crossing guard in the act, after having applied Krazy Glue to the back of Mitch's pants.\n\nAs adults, after losing fourteen jobs in three months and being dumped by his girlfriend, Mitch moves in with Sam and Pops. Shortly after, Pops has a heart attack. In the hospital, Pops confides that, because of their parents' swinging lifestyle, he is also Mitch's father, meaning that Mitch and Sam are half-brothers. Dr. Farthing, a hopeless gambler, agrees to raise Mr. McKenna's position on the heart transplant waiting list if he is paid $50,000, to pay off his bookie. Mitch and Sam get jobs in a cinema with an abusive manager and exact their revenge by showing a gay pornographic film to a packed house and get their manager fired. The other workers congratulate them and suggest they go into business.\n\nMitch and Sam open \"Dirty Work\", a revenge-for-hire business. Mitch falls for a woman named Kathy who works for a hot-tempered used car dealer. After publicly humiliating him during a live television commercial, the duo exacts increasingly lucrative reprisals for satisfied customers, until they cross paths with duplicitous local property developer, Travis Cole. Cole tricks them into destroying \"his\" apartment building (actually owned by Mr. John Kirkpatrick, the landlord), promising to pay them enough to save Pops. Afterwards, Cole reneges, revealing that he is not the owner and that he had them vandalize the building so that he could buy it cheaply, evict the tenants (including Kathy's grandmother), and build a parking lot for his beloved opera house. Unbeknownst to Cole, Mitch's tape recorder captures the confession.\n\nMitch and Sam plot their revenge on Cole, using the tape to set up an elaborate trap. Using skunks, an army of prostitutes, homeless men, their friend Jimmy, brownies with hallucinogenic additives, and Pops, they ruin the opening night of Don Giovanni, an opera sponsored prominently by Cole. With the media present, Mitch plays back Cole's confession over the theater's sound system. Cole sees that his public image is being ruined and agrees to pay the $50,000. In the end, Cole is punched in the stomach and arrested, while his dog is sexually assaulted by a skunk. Pops gets his operation, and Mitch gets the girl. Dr. Farthing overcomes his gambling addiction, but gets killed by the bookies anyway.",
+ "synopsis_words": 433,
+ "episodes": [
+  {
+   "number": 221,
+   "date": "2021-09-21",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Sean Fennessey"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "revenge",
+   "reach": 31,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "prostitute",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "drug dealing",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "car dealership",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "gambling debt",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "tape recorder",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "bookie",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "bulldozer",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "heart transplant",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "homelessness",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "opera house",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Norm Macdonald",
+   "films": 1
+  },
+  {
+   "name": "Artie Lange",
+   "films": 1
+  },
+  {
+   "name": "Jack Warden",
+   "films": 7
+  },
+  {
+   "name": "Traylor Howard",
+   "films": 1
+  },
+  {
+   "name": "Christopher McDonald",
+   "films": 2
+  },
+  {
+   "name": "Chevy Chase",
+   "films": 4
+  },
+  {
+   "name": "Don Rickles",
+   "films": 2
+  },
+  {
+   "name": "Polly Shannon",
+   "films": 0
+  },
+  {
+   "name": "David Koechner",
+   "films": 0
+  },
+  {
+   "name": "Rebecca Romijn",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "5bb600ec-6651-4c6b-b077-2ac5f1dc0240",
+   "title": "Shampoo",
+   "year": 1975,
+   "poster": "6jmFvXPV6OhtX3AkAVnH7rwdeUJ.jpg"
+  },
+  {
+   "id": "64b135b2-a659-40d5-937e-fe5b5c34f1af",
+   "title": "All the President's Men",
+   "year": 1976,
+   "poster": "pCe6lfLxt1B58zPD4lgQrlnDS2j.jpg"
+  },
+  {
+   "id": "4e78bf95-6044-4714-ae6b-d036a70bec50",
+   "title": "Heaven Can Wait",
+   "year": 1978,
+   "poster": "h1yOiO9cow6gwmGxSAWvPdY4lhJ.jpg"
+  },
+  {
+   "id": "98e581be-053e-47c8-98d7-27b5139874dd",
+   "title": "...And Justice for All",
+   "year": 1979,
+   "poster": "fGFkpJUsouxxBGWfYqeuJfH210T.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Dirty_Work_%281998_film%29",
+  "wikidata": "Q1228304"
+ }
+}

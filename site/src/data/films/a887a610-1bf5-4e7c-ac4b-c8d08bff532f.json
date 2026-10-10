@@ -1,0 +1,218 @@
+{
+ "id": "a887a610-1bf5-4e7c-ac4b-c8d08bff532f",
+ "title": "Another 48 Hrs.",
+ "year": 1990,
+ "poster": "ixeygHHDsuzsg67H1IPTc3Qp8cR.jpg",
+ "tmdb_id": 11595,
+ "directors": [
+  "Walter Hill"
+ ],
+ "director_primary": "Walter Hill",
+ "genres": [
+  "Action",
+  "Comedy",
+  "Crime"
+ ],
+ "runtime": 95,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2026-01-21",
+ "last": "2026-01-21",
+ "scores": {
+  "tmdb": 6.0,
+  "rt": 19.0,
+  "ebert": 2.0,
+  "box_office": "$368.5M",
+  "multiple": 4.039973,
+  "cpi_year": 2024
+ },
+ "plot": "For the past four years, San Francisco cop Jack Cates has been after an unidentified drug kingpin who calls himself the Ice Man. Jack finds a picture that proves that the Ice Man has put a price on the head of Reggie Hammond, who is scheduled to be released from prison on the next day.",
+ "synopsis": "For the past four years, veteran San Francisco Police Inspector Jack Cates has been after a drug kingpin who calls himself the \"Ice Man.\" At the Hunter's Point Raceway, Jack confronts Tyrone Burroughs and Arthur Brock. Jack kills Brock in a shootout, while Burroughs escapes. Despite killing Brock in self-defense, Jack is now under investigation, because Brock's gun can't be found at the scene. Lt. Blake Wilson from the Internal Affairs Division refuses to believe that the Ice Man even exists. He becomes determined to prosecute Jack on a third-degree manslaughter charge. At the raceway, near where he shot Brock, Jack finds a picture that indicates that the Ice Man has put a price on the head of Reggie Hammond, who is scheduled to be released from prison the next day.\n\nDespite his claims of being innocent, Reggie has completed an extra five years in prison for robbing a prison payroll, which he had started serving after his original two-year sentence was up. As Reggie is released on the next day, Jack tries to convince him to help him clear his name and find the Ice Man. Reggie requests that Jack gives him the $500,000 that Jack has been holding on to for him and let him get back to his life. Jack refuses to give the money unless Reggie helps him.\n\nAfter Jack gets shot at a diner, and the bus transporting Reggie out of the prison is attacked by two bikers, Jack forces Reggie to help him by having the hospital release him into his custody. Reggie recognizes the biker who shot Jack as Richard \"Cherry\" Ganz, the brother of Albert Ganz, the escaped convict that Jack killed years earlier. Cherry (who Reggie says, \"makes (Albert) Ganz look like Gandhi\") and his partner Willie Hickok, the other biker, are the hitmen that the Ice Man has hired to kill Reggie, while Cherry also wants to kill Jack as revenge for Jack killing Albert. Reggie also admits to Jack that the Ice Man was the drug dealer that Reggie and his former gang—Albert, Billy Bear, Luther, and Henry Wong—stole the $500,000 from years ago.\n\nBurroughs, who works for the Ice Man, was trying to hire Brock as insurance, just in case Cherry and Hickok fail to kill Reggie. When the Ice Man kills Hickok's and Cherry's primary contact man, Malcolm Price, Hickok and Cherry, knowing that Burroughs works for the Ice Man, both kill Burroughs in retaliation. Reggie finally admits to Jack that the reason the Ice Man put a hit out on Reggie is because he's seen the Ice Man's face and can identify him.\n\nReggie owes money to Kirkland Smith, an inmate who protected him from the Ice Man's hitmen in prison. Reggie goes to the goodwill store where Kirkland's daughter Amy works, so he can give her the money that he owes to Kirkland, but the two are captured by Cherry and Hickok and taken to a local nightclub called the Bird Cage, in San Francisco's North Beach neighborhood. Inspector Frank Cruise (Ed O'Ross) arrives and orders Cherry and Hickok to kill Reggie and Amy. Before that can happen, Jack shows up as Reggie identifies the Ice Man as Inspector Ben Kehoe -- Jack's friend and fellow officer—with Cruise serving as Kehoe's accomplice. Kehoe had Cruise pick Brock's gun up at the track so it wouldn't be found, because Kehoe believed that Jack was getting too close to identifying him as the Ice Man.\n\nA shootout ensues, with Jack wounding Hickok and Cherry, and killing Cruise. After Reggie kills Hickok and Cherry, he is held captive by Kehoe and used as a human shield. Reggie, angry about how horribly his day has gone, sarcastically begs Jack to shoot him. Jack, seeing a way to get Reggie out of Kehoe's grip, fires a shot into Reggie's shoulder, wounding him, and then kills Kehoe by shooting him. Before Reggie is transported to the hospital, Jack lets him know of the $500,000 that he took off of Kehoe. As the ambulance leaves with Reggie, Jack realizes that Reggie has again stolen his lighter. They both laugh about it—Reggie in the ambulance, and Jack standing with Amy outside the Bird Cage club.",
+ "synopsis_words": 702,
+ "episodes": [
+  {
+   "number": 443,
+   "date": "2026-01-21",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Hanks",
+   "verdict_tone": "hanks",
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Van Lathan"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "shootout",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "prison",
+   "reach": 16,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "investigation",
+   "reach": 14,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "nostalgic",
+   "reach": 13,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "buddy cop",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "drug dealer",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "betrayal",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "san francisco, california",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "convict",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "gas station",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "tough cop",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "motorcycle",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "blast",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Eddie Murphy",
+   "films": 7
+  },
+  {
+   "name": "Nick Nolte",
+   "films": 5
+  },
+  {
+   "name": "Brion James",
+   "films": 2
+  },
+  {
+   "name": "Kevin Tighe",
+   "films": 1
+  },
+  {
+   "name": "Ed O'Ross",
+   "films": 1
+  },
+  {
+   "name": "David Anthony Marshall",
+   "films": 0
+  },
+  {
+   "name": "Andrew Divoff",
+   "films": 1
+  },
+  {
+   "name": "Bernie Casey",
+   "films": 0
+  },
+  {
+   "name": "Brent Jennings",
+   "films": 0
+  },
+  {
+   "name": "Ted Markland",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "b91c0ac6-22f2-4169-8c07-30042c4df84f",
+   "title": "The Warriors",
+   "year": 1979,
+   "poster": "d6YZpBq4BhQr1K985J3CuL1cA8J.jpg"
+  },
+  {
+   "id": "cacdb33c-3450-4253-82a8-af3a9df5fea8",
+   "title": "48 Hrs.",
+   "year": 1982,
+   "poster": "rvvjXHzEDBIvIVDBHNOwHS7hVPu.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "cacdb33c-3450-4253-82a8-af3a9df5fea8",
+   "title": "48 Hrs.",
+   "year": 1982,
+   "poster": "rvvjXHzEDBIvIVDBHNOwHS7hVPu.jpg"
+  },
+  {
+   "id": "6085d03c-dc59-4089-b3dc-8f7d252d0ff7",
+   "title": "Trading Places",
+   "year": 1983,
+   "poster": "8mBuLCOcpWnmYtZc4aqtvDXslv6.jpg"
+  },
+  {
+   "id": "13c9dbc6-ab80-4331-b40f-aa2f5fc674dc",
+   "title": "Beverly Hills Cop",
+   "year": 1984,
+   "poster": "eBJEvKkhQ0tUt1dBAcTEYW6kCle.jpg"
+  },
+  {
+   "id": "8087ef6e-d0c4-4270-a6b2-92f93e22ea1e",
+   "title": "Beverly Hills Cop II",
+   "year": 1987,
+   "poster": "egDakU8O5yUwpUJP9IMAUVtIDll.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Another_48_Hrs.",
+  "wikidata": "Q645263"
+ }
+}

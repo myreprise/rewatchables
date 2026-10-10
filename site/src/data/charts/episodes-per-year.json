@@ -23,7 +23,7 @@
    },
    "text": {
     "dtype": "f8",
-    "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAADJAAAAAAAAAQEAAAAAAAIBNQAAAAAAAwFBAAAAAAACASkAAAAAAAIBKQAAAAAAAgEpAAAAAAAAATEAAAAAAAABJQAAAAAAAgERA"
+    "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAADJAAAAAAAAAQEAAAAAAAIBNQAAAAAAAwFBAAAAAAACASkAAAAAAAIBKQAAAAAAAgEpAAAAAAAAATEAAAAAAAABJQAAAAAAAgEVA"
    },
    "textfont": {
     "family": "IBM Plex Mono, ui-monospace, monospace",
@@ -36,7 +36,7 @@
    },
    "y": {
     "dtype": "i1",
-    "bdata": "AQISIDtDNTU1ODIp"
+    "bdata": "AQISIDtDNTU1ODIr"
    },
    "type": "bar",
    "showlegend": false
@@ -555,7 +555,7 @@
     "showarrow": false,
     "text": "to date",
     "x": 2026,
-    "y": 41,
+    "y": 43,
     "yshift": 26
    }
   ],

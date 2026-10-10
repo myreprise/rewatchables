@@ -1,0 +1,179 @@
+{
+ "id": "a74cfa53-0a74-4228-8222-5adbb6fc2192",
+ "title": "Searching for Bobby Fischer",
+ "year": 1993,
+ "poster": "oAJpHkMpfXiFY9F3HocIz9fhHLc.jpg",
+ "tmdb_id": 14291,
+ "directors": [
+  "Steven Zaillian"
+ ],
+ "director_primary": "Steven Zaillian",
+ "genres": [
+  "Drama"
+ ],
+ "runtime": 110,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2024-01-02",
+ "last": "2024-01-02",
+ "scores": {
+  "tmdb": 7.069,
+  "rt": 100.0,
+  "ebert": 4.0,
+  "box_office": "$15.8M",
+  "multiple": 0.6055319166666666,
+  "cpi_year": 2024
+ },
+ "plot": "A seven-year-old chess prodigy refuses to harden himself in order to become a champion like the famous but unlikable Bobby Fischer.",
+ "synopsis": "Seven-year-old Josh Waitzkin becomes fascinated with the chess players in New York City's Washington Square Park. His mother, Bonnie, is initially uncomfortable with his interest, as the games in the park are rife with illegal gambling and homeless players, but eventually allows Josh to play a game with a disheveled player (who charges $5 to play the game). Although Josh loses, Bonnie is amazed that he understands the rules of chess, despite having never been taught them. Another park player, Vinnie Livermore, alerts Bonnie to Josh's advanced talent in the game.\n\nJosh's father, Fred, asks to play a game with his son and swiftly defeats him. It emerges, however, that Josh deliberately lost to spare his father's feelings. When Fred prompts Josh to play a rematch honestly, Josh effortlessly defeats him.\n\nA friendship blooms between Josh and Vinnie, who becomes a mentor. Fred requests the services of Bruce Pandolfini as a formal chess tutor for his son. Bruce takes an immediate liking to Josh, but disapproves of many of Josh's maverick tactics, adopted from Vinnie's tutelage. In particular, Bruce disapproves of Josh's tendency to bring out his queen too early, and warns Fred that such careless tactics will weaken Josh's performance in organized chess tournaments.\n\nAgainst Bruce's advice, Fred enrolls Josh in a chess tournament. Josh wins, the first in a slew of tournament victories for him. Fred develops an unhealthy obsession with Josh's chess career, causing friction between Fred, Bonnie, and Josh's school teacher. Josh, upset by the changes he has noticed in his father, begins losing tournaments.\n\nAs a remedy, Fred dedicates Josh entirely to Bruce's teaching regimen, and at Bruce's request, Josh is forbidden from playing any more games with Vinnie. Bruce's relationship with Josh grows cold and misanthropic as Bruce seeks to harden Josh's competitiveness. When Bruce berates Josh by showering him in \"meaningless Xeroxes\" of a certificate that Bruce had previously told Josh was a special award, Bonnie kicks Bruce out of the house.\n\nFred and Josh reconcile, with Fred assuring Josh that he loves his son, even if he is not a chess champion. And when Josh is allowed to resume playing chess with Vinnie, his enthusiasm for the game returns.\n\nJosh attends the National Chess Championship, where he and Bruce reconcile. In the final tournament game, Josh is paired against Jonathan Poe, another young prodigy whose talent has intimidated Josh. The game is a back-and-forth struggle: Josh's use of Vinnie's reckless tactics causes him to lose his queen early in the game, but he follows up with more tactics to win Jonathan's queen. The game continues into a complex endgame. After an overconfident move from Jonathan, Josh remembers Bruce's disciplined teachings, and uses them to calculate a path to an assured victory. Before executing the sequence, he offers his opponent a draw. Jonathan, insulted, and not realizing his own predicament, refuses. Josh plays out a winning combination and wins the game.",
+ "synopsis_words": 488,
+ "episodes": [
+  {
+   "number": 339,
+   "date": "2024-01-02",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Van Lathan",
+    "Charles Holmes"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "child prodigy",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "hustler",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "chess",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "chess champion",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "chess match",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "chess tournament",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "playing chess",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "pressure to perform",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Max Pomeranc",
+   "films": 1
+  },
+  {
+   "name": "Joe Mantegna",
+   "films": 1
+  },
+  {
+   "name": "Joan Allen",
+   "films": 4
+  },
+  {
+   "name": "Ben Kingsley",
+   "films": 2
+  },
+  {
+   "name": "Laurence Fishburne",
+   "films": 6
+  },
+  {
+   "name": "Michael Nirenberg",
+   "films": 0
+  },
+  {
+   "name": "Robert Stephens",
+   "films": 0
+  },
+  {
+   "name": "David Paymer",
+   "films": 1
+  },
+  {
+   "name": "Hal Scardino",
+   "films": 0
+  },
+  {
+   "name": "William H. Macy",
+   "films": 3
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "0afb6338-f736-4a9d-80c0-554d45304845",
+   "title": "King of New York",
+   "year": 1990,
+   "poster": "1MyH4MJAJZJbb6wDVeOc2bTECtK.jpg"
+  },
+  {
+   "id": "0c054a11-8508-462f-87f4-44a16bd9790e",
+   "title": "Boyz n the Hood",
+   "year": 1991,
+   "poster": "kaS8BkTZESnkoB5i1zRQ02FIRGk.jpg"
+  },
+  {
+   "id": "c84e71bb-f7ae-4a93-af0a-a32d463be874",
+   "title": "Species",
+   "year": 1995,
+   "poster": "cT5wdyo8kT7dycqjrolJ2sHWkFx.jpg"
+  },
+  {
+   "id": "d1beb5f3-4a3c-45a0-827b-1b3bf85aa247",
+   "title": "Face/Off",
+   "year": 1997,
+   "poster": "69Xzn8UdPbVnmqSChKz2RTpoNfB.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Searching_for_Bobby_Fischer",
+  "wikidata": "Q663528"
+ }
+}

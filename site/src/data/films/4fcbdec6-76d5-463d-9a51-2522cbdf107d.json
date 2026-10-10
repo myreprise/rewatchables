@@ -1,0 +1,247 @@
+{
+ "id": "4fcbdec6-76d5-463d-9a51-2522cbdf107d",
+ "title": "Lethal Weapon",
+ "year": 1987,
+ "poster": "6gt44oqb4nE8vflPElffeGwsHVl.jpg",
+ "tmdb_id": 941,
+ "directors": [
+  "Richard Donner"
+ ],
+ "director_primary": "Richard Donner",
+ "genres": [
+  "Action",
+  "Thriller",
+  "Crime"
+ ],
+ "runtime": 110,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2021-04-06",
+ "last": "2021-04-06",
+ "scores": {
+  "tmdb": 7.303,
+  "rt": 80.0,
+  "ebert": 4.0,
+  "box_office": "$331.9M",
+  "multiple": 8.013808466666667,
+  "cpi_year": 2024
+ },
+ "plot": "A veteran cop and an unstable detective become partners who must put their differences aside in order to bring down a heroin-smuggling ring run by ex-Special Forces.",
+ "synopsis": "L.A.P.D. Homicide Sergeant Roger Murtaugh is worried about getting old, having recently celebrated his 50th birthday. He receives a message from Michael Hunsaker (Tom Atkins, an old Vietnam War friend who Murtaugh realizes he has not seen in over 12 years. Before he can meet him, he is called to investigate a suicide and learns that the victim is Hunsaker's daughter, Amanda. Elsewhere, L.A.P.D. Narcotics Sergeant Martin Riggs, who is suicidal following the recent death of his wife in a traffic accident, nearly kills a disarmed suspect after flying into a psychotic rage during a drug bust. Wary of his behavior, Riggs' superiors transfer him to Homicide, making him and Murtaugh reluctant partners. Amanda's autopsy results show that she had taken drugs laced with drain cleaner. Even though she jumped to her death, she would have died within minutes anyway – making her death a homicide. After informing her distraught father, who claims he was trying to contact Murtaugh to help Amanda get out of the underworld of drugs, prostitution and hardcore pornography, Riggs and Murtaugh question a pimp Amanda was connected to. Finding a drug lab on the premises, they engage in a brief gunfight, killing the pimp. Having found the drugs and with the pimp dead, Murtaugh assumes the case is now closed, but Riggs finds it suspicious that the only witness to Amanda's suicide was a prostitute named Dixie, who was working away from her usual \"stroll\". They deduce that Dixie poisoned Amanda and then posed as a witness to cover her crime. Riggs and Murtaugh head to Dixie's home to question her, but her house explodes just as they arrive. Riggs—who served in the US Army Special Forces during the Vietnam War—finds part of the bomb, a mercury switch which only a professional would use. A neighborhood child remembers seeing a man with blond hair at Dixie's earlier who had a Special Forces tattoo similar to Riggs's own. Seeing a connection, they deduce that Hunsaker knows more than he has admitted and Murtaugh confronts him at Amanda's wake. Hunsaker admits that for more than two years he has been involved in a heroin-smuggling operation run by ex-special operations troops from the Vietnam War, known as \"Shadow Company\". The scheme is masterminded by a retired general, Peter McAllister —the former commander of Shadow Company—and his chief enforcer, Mr. Joshua. Hunsaker was laundering the profits through his bank. McAllister had ordered Amanda's murder when Michael unsuccessfully tried to alert Murtaugh to the scheme in an attempt to get out of the business. As Murtaugh attempts to make Hunsaker reveal the entirety of his operation, Joshua makes a surprise appearance in a helicopter and shoots Hunsaker, killing him. As Riggs and Murtaugh attempt to investigate Dixie's connection, Joshua and the increasingly violent members of Shadow Company attempt to kill Riggs and later kidnap Murtaugh's daughter, Rianne. Using Riggs's presumed dead status to their advantage, Murtaugh agrees to meet Shadow Company at El Mirage Lake to exchange himself for Rianne, knowing Shadow Company's plan is to kill them all anyway. As Riggs provides sniper cover from a distance, Roger attempts to make Rianne flee, but ultimately all three are captured. McAllister tortures Murtaugh for information regarding the heroin shipment by having his henchmen beat him and rub salt into his bullet wound. McAllister demands to know which of their drug shipments have been compromised eventually threatening Rianne when Murtaugh refuses to give in. Joshua has Riggs brutally tortured with electric shocks for information, but Riggs later escapes and then rescues both Murtaugh and Rianne. The pair then fight their way free of their prison, finding themselves in a downtown L.A. nightclub. Riggs chases Joshua on to the street and attempts to cut him off on the freeway, though Joshua ultimately escapes. Murtaugh finds McAllister trying to flee in his car. Taking out McAllister's driver, Murtaugh watches as the car crashes on Hollywood Boulevard and is destroyed by a live hand grenade. Riggs and Murtaugh then go to Murtaugh's home, knowing Joshua will go there to attack Murtaugh's family, who are absent. While Joshua is arrested and led away without incident, Riggs, wanting revenge, proposes \"a shot at the title\", which Joshua eagerly accepts. Sanctioned by Murtaugh, Riggs beats Joshua in hand-to-hand combat on the front lawn. As he's being arrested, Joshua overpowers the two officers and attempts to shoot Riggs. Riggs and Murtaugh both draw and fire, killing Joshua. After a visit to his wife's grave, Riggs spends Christmas Day at the Murtaugh home with his new partner's family; Riggs brings his dog Sam to be a friend to the Murtaugh family cat, Burbank. Riggs also gives Murtaugh a symbolic gift: the unfired hollow-point bullet which he had been saving to commit suicide, as he does not need it anymore.",
+ "synopsis_words": 800,
+ "episodes": [
+  {
+   "number": 197,
+   "date": "2021-04-06",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "intense",
+   "reach": 23,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "police",
+   "reach": 22,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "action hero",
+   "reach": 21,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "christmas",
+   "reach": 14,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "buddy cop",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "showdown",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "lapd",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "police detective",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "mixed martial arts (mma)",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "buddy comedy",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "maverick cop",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "self-destruction",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "death of wife",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "ex soldier",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "homicide detective",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "shooting",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "cops",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Mel Gibson",
+   "films": 3
+  },
+  {
+   "name": "Danny Glover",
+   "films": 3
+  },
+  {
+   "name": "Gary Busey",
+   "films": 3
+  },
+  {
+   "name": "Mitchell Ryan",
+   "films": 1
+  },
+  {
+   "name": "Tom Atkins",
+   "films": 1
+  },
+  {
+   "name": "Darlene Love",
+   "films": 0
+  },
+  {
+   "name": "Traci Wolfe",
+   "films": 0
+  },
+  {
+   "name": "Jackie Swanson",
+   "films": 0
+  },
+  {
+   "name": "Damon Hines",
+   "films": 0
+  },
+  {
+   "name": "Ebonie Smith",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "ec2a1b04-cc4a-4442-bf74-33bb9ec11a2b",
+   "title": "The Omen",
+   "year": 1976,
+   "poster": "mDcjjEu1fMNmsXi4l4D8IftlTix.jpg"
+  },
+  {
+   "id": "4ffd0fe8-a4fa-4555-89e0-d53f6d2ba60f",
+   "title": "Lethal Weapon 2",
+   "year": 1989,
+   "poster": "1EEIUw0tkX7AJZ1ikZrtKZZKlC6.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "4ffd0fe8-a4fa-4555-89e0-d53f6d2ba60f",
+   "title": "Lethal Weapon 2",
+   "year": 1989,
+   "poster": "1EEIUw0tkX7AJZ1ikZrtKZZKlC6.jpg"
+  },
+  {
+   "id": "9ea9b067-7942-4c3e-a1d3-289ab6de7f2e",
+   "title": "Point Break",
+   "year": 1991,
+   "poster": "tlbERIghrQ4oofqlbF7H0K0EYnx.jpg"
+  },
+  {
+   "id": "70a4d236-97c6-4e01-bac3-c4116c6ec6e3",
+   "title": "Under Siege",
+   "year": 1992,
+   "poster": "7tzVzgGKhLsQoiyDh2tiGcPeTpH.jpg"
+  },
+  {
+   "id": "83874a69-dfec-4de4-b8c4-c56ec2330043",
+   "title": "Ransom",
+   "year": 1996,
+   "poster": "4nmOA5ZOY2VlHzwSlKY03sF2JUz.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Lethal_Weapon",
+  "wikidata": "Q462447"
+ }
+}

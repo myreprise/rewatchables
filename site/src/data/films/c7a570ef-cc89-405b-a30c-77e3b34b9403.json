@@ -1,0 +1,229 @@
+{
+ "id": "c7a570ef-cc89-405b-a30c-77e3b34b9403",
+ "title": "The Grand Budapest Hotel",
+ "year": 2014,
+ "poster": "eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
+ "tmdb_id": 120467,
+ "directors": [
+  "Wes Anderson"
+ ],
+ "director_primary": "Wes Anderson",
+ "genres": [
+  "Comedy",
+  "Drama"
+ ],
+ "runtime": 100,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2024-08-13",
+ "last": "2024-08-13",
+ "scores": {
+  "tmdb": 8.025,
+  "rt": 92.0,
+  "ebert": null,
+  "box_office": "$231.4M",
+  "multiple": 5.8200106,
+  "cpi_year": 2024
+ },
+ "plot": "The Grand Budapest Hotel tells of a legendary concierge at a famous European hotel between the wars and his friendship with a young employee who becomes his trusted protégé. The story involves the theft and recovery of a priceless Renaissance painting, the battle for an enormous family fortune and the slow and then sudden upheavals that transformed Europe during the first half of the 20th century.",
+ "synopsis": "In a cemetery in the former nation of Zubrowka, a young woman visits the shrine of a renowned writer, known simply as \"Author\", carrying a copy of his bestselling novel The Grand Budapest Hotel. The book, written in 1985, recounts the author's 1968 visit to the once lavish, then drab Grand Budapest Hotel during a bout of writer's block. There he meets its proprietor, Zero Moustafa, who divulges his rags to riches story over dinner.\n\nIn 1932, Zero flees his war-ravaged country to work as a lobby boy for Monsieur Gustave H., the philandering concierge at the Grand Budapest Hotel. Gustave seduces the hotel's old, wealthy residents, including dowager Madame D., with whom he has had a nearly two-decade affair. Shortly after her last visit, Gustave learns from Zero that Madame D. has mysteriously died. He and Zero visit Schloss Lutz, her estate, to pay their respects; they encounter her surviving relatives at the reading of her will by her attorney, Deputy Vilmos Kovacs. Kovacs announces that she has bequeathed a famous Renaissance painting, Boy with Apple, to Gustave. Madame's son, Dmitri, is outraged and demands Gustave's arrest. Gustave and Zero abscond with the painting.\n\nMadame D.'s butler, Serge, makes a deposition implicating Gustave in her death. He goes into hiding and Gustave is arrested on suspicion of murder. Gustave befriends a gang during his imprisonment, and the men plot their escape. He has Zero place digging tools inside pastries made by Mendl's apprentice baker, Zero's girlfriend, Agatha. Gustave and the others dig their way out and disperse. Dmitri deploys his hitman, J. G. Jopling, to kill Kovacs and Serge's sister, who conceals her brother's whereabouts.\n\nWhen Zero and Gustave are reunited, they set out to prove Gustave's innocence with the assistance of a fraternity of concierges known as the Society of the Crossed Keys. They locate Serge, and a meeting is orchestrated for the three. Zero and Gustave learn Serge was pressured to frame Gustave by Dmitri to cover up evidence incriminating Dmitri as the true perpetrator of Madame D.'s murder. Serge tells them that Madame D. had a missing second will which would only become effective if she was murdered. Jopling arrives and kills Serge, leaving Gustave and Zero without a witness. After a chase, Gustave dangles off a cliff at Jopling's mercy. Zero rescues Gustave by pushing Jopling off the cliff, and the two men flee, closely trailed by Zubrowkan police.\n\nGustave, Zero, and Agatha arrive at the Grand Budapest to find it converted into a military headquarters. Agatha sneaks in to retrieve Boy with Apple; as she is leaving, Dmitri enters the hotel and spots her with the painting. Gustave and Zero rush to save Agatha from Dmitri. He opens fire on them, initiating a melee with Zubrowkan troops. Agatha's attempt to escape leaves her and Zero hanging from a balcony before falling, safely, into a van full of pastries.\n\nMadame's second will, which makes Gustave the beneficiary of her fortune, is found attached to the back of Boy with Apple. Gustave is exonerated in court, after which Dmitri disappears. Zero takes over as concierge and marries Agatha in a ceremony officiated by Gustave. While traveling by train, the three encounter thuggish soldiers who try to arrest Zero, but Gustave attempts to fend them off and they shoot him dead. Zero inherits Gustave's fortune and retains the hotel in memory of Agatha, who died from Prussian grippe with their infant son.",
+ "synopsis_words": 575,
+ "episodes": [
+  {
+   "number": 369,
+   "date": "2024-08-13",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Hanks",
+   "verdict_tone": "hanks",
+   "host": "Chris Ryan",
+   "guests": [
+    "Sean Fennessey",
+    "Andy Greenwald"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "hilarious",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "1960s",
+   "reach": 12,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "period drama",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "gunfight",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "1930s",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "mentor protégé relationship",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "theft",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "author",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "hotel",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "painting",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "bellhop  ",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "eastern europe",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "european",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "hotel lobby",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "renaissance painting",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "wartime",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Ralph Fiennes",
+   "films": 3
+  },
+  {
+   "name": "F. Murray Abraham",
+   "films": 1
+  },
+  {
+   "name": "Tony Revolori",
+   "films": 1
+  },
+  {
+   "name": "Adrien Brody",
+   "films": 1
+  },
+  {
+   "name": "Willem Dafoe",
+   "films": 5
+  },
+  {
+   "name": "Mathieu Amalric",
+   "films": 0
+  },
+  {
+   "name": "Jeff Goldblum",
+   "films": 3
+  },
+  {
+   "name": "Harvey Keitel",
+   "films": 3
+  },
+  {
+   "name": "Jude Law",
+   "films": 3
+  },
+  {
+   "name": "Bill Murray",
+   "films": 6
+  }
+ ],
+ "by_director": [
+  {
+   "id": "83d24e6a-0244-496b-8010-05a7516e21f9",
+   "title": "The Royal Tenenbaums",
+   "year": 2001,
+   "poster": "nG7hZJn7wQTSDCQT39Gy3s3tbrp.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "aa962214-fe9c-4798-a197-d68dcd70bdaa",
+   "title": "To Live and Die in L.A.",
+   "year": 1985,
+   "poster": "2iW3pSihBIhXjnBQmUJ0mAiZbB5.jpg"
+  },
+  {
+   "id": "f319783e-e185-4f3c-ad50-97209f12bf3d",
+   "title": "Quiz Show",
+   "year": 1994,
+   "poster": "yoGJo1h3Hl2exXPVcG9UXWDENtX.jpg"
+  },
+  {
+   "id": "fcc76e89-cdcb-42e3-b7ac-aa8d073dae38",
+   "title": "Spider-Man",
+   "year": 2002,
+   "poster": "or6XJBVpcEbIkma0V9zshnbEtx4.jpg"
+  },
+  {
+   "id": "74ba52bb-7482-4461-826d-4ec77cf0878c",
+   "title": "Inside Man",
+   "year": 2006,
+   "poster": "ffMUgkDZICNiyaws1Jkv8qG8uFW.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/The_Grand_Budapest_Hotel",
+  "wikidata": "Q3521099"
+ }
+}

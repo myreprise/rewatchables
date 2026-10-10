@@ -1,0 +1,197 @@
+{
+ "id": "f7d3ca04-da0b-48db-95d5-25e46b81c08b",
+ "title": "Kindergarten Cop",
+ "year": 1990,
+ "poster": "nKnHWwkXyvhzCYWm3FyRAv3qBrl.jpg",
+ "tmdb_id": 951,
+ "directors": [
+  "Ivan Reitman"
+ ],
+ "director_primary": "Ivan Reitman",
+ "genres": [
+  "Comedy"
+ ],
+ "runtime": 111,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2026-04-20",
+ "last": "2026-04-20",
+ "scores": {
+  "tmdb": 6.135,
+  "rt": 54.0,
+  "ebert": 3.0,
+  "box_office": "$484.7M",
+  "multiple": 13.463845866666666,
+  "cpi_year": 2024
+ },
+ "plot": "Hard-edged cop John Kimble gets more than he bargained for when he goes undercover as a kindergarten teacher to get the goods on a brutal drug lord while at the same time protecting the man's young son. Pitted against a class of boisterous moppets whose antics try his patience and test his mettle, Kimble may have met his match … in more ways than one.",
+ "synopsis": "After years of pursuing drug dealer Cullen Crisp, Los Angeles Police Detective John Kimble has him on a murder charge after Crisp shot and killed an informant who had given him information regarding the whereabouts of his ex-wife, Rachel Myatt Crisp, and his son Cullen Jr. However, the only witness, a drug-addicted girl named Cindy, the informant's girlfriend who was hidden at the time of the murder, is deemed too unreliable to put Crisp up for a permanent prison charge as she changes her mind about testifying, so Rachel Myatt has to be found and persuaded to testify. Kimble, accompanied by Detective Phoebe O'Hara, a former teacher, goes undercover in Astoria, Oregon, to find Crisp's ex-wife Rachel. It is believed that Rachel stole millions of dollars from Crisp before fleeing. The detectives plan to offer her a deal to testify against Cullen in exchange for immunity. O'Hara is to act as the substitute teacher in the son's kindergarten class at Astoria Elementary School, while Kimble is to discover the identity of the mother. Unfortunately, O'Hara, who is hypoglycemic, falls ill with a terrible case of stomach flu at the last moment, so Kimble takes the teacher's job. The school principal, Miss Schlowski, is suspicious, but Kimble adapts progressively to his new status even though he has no formal teaching experience. Using his pet ferret as a class mascot, his police training as a model for structure of the classes, and positive reinforcement, he becomes a much-admired and cherished figure to the children. In turn, Kimble begins to love his cover job and his young charges, to the point where he personally deals with a case of child abuse. He first speaks to the cowardly mother and tells her to warn her husband that he will press charges if he abuses their child again, and when the father takes no notice, Kimble assaults him in front of some students, finally winning Miss Schlowski's favor. One of Kimble's students is a boy named Dominic. Kimble becomes fond of Dominic's mother, Joyce Palmieri, who also works at the school. Joyce, like many other of the students' mothers, is estranged from her husband, so that she will not speak of him. This raises Kimble's suspicions. In a series of conversations with the gradually more trusting Joyce, Kimble slowly deduces that she has to be Rachel Crisp and that Dominic is Crisp's son. O'Hara has been posing as Kimble's sister and agrees with his deductions. Joyce reveals that she never stole any of Crisp's money: it was a lie he told to incite the underworld to find her for him. Meanwhile, back in California, Cindy dies after using spiked cocaine provided by Crisp's mother, Eleanor Crisp. The case against Crisp is dismissed because the prosecution has no other evidence. Crisp is freed from prison and he and his mother immediately head to Astoria, where they begin looking for the child using the information from the informant. They identify Crisp's ex-wife and Crisp starts a fire in the library at the school in order to grab his son in the chaos, but he is seen. Crisp takes his own son hostage when Kimble confronts him, but Crisp is bitten by the ferret and Dominic wriggles free. Crisp shoots Kimble in the knee but Kimble shoots and kills Crisp before he can hurt Dominic. Meanwhile, noticing that O'Hara is trying to help Kimble apprehend her son, Eleanor knocks over O'Hara with her rental car. She ventures into the school, finds Kimble, and shoots him in the shoulder, but then discovers her dead son's body. Before she can shoot Kimble again and kill him, O'Hara arrives on the scene and knocks her unconscious with a baseball bat. Crisp's mother is arrested, while the unconscious Kimble is hospitalized. During Kimble's recovery, O'Hara and her chef fiancé invite him to their wedding. After Kimble recovers, he decides to retire from the police force and returns to teaching at the school. The kids are very happy to see him, and Joyce comes into the classroom and kisses him in front of all of the kids.",
+ "synopsis_words": 684,
+ "episodes": [
+  {
+   "number": 457,
+   "date": "2026-04-20",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Cruise",
+   "verdict_tone": "cruise",
+   "host": "Bill Simmons",
+   "guests": [
+    "Kyle Brandt"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "police",
+   "reach": 22,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "dying and death",
+   "reach": 13,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "drug dealer",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "teacher",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "crime fighter",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "kiss",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "education",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "kindergarten",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Arnold Schwarzenegger",
+   "films": 8
+  },
+  {
+   "name": "Penelope Ann Miller",
+   "films": 1
+  },
+  {
+   "name": "Pamela Reed",
+   "films": 2
+  },
+  {
+   "name": "Linda Hunt",
+   "films": 1
+  },
+  {
+   "name": "Richard Tyson",
+   "films": 1
+  },
+  {
+   "name": "Carroll Baker",
+   "films": 0
+  },
+  {
+   "name": "Joseph Cousins",
+   "films": 0
+  },
+  {
+   "name": "Christian Cousins",
+   "films": 0
+  },
+  {
+   "name": "Cathy Moriarty",
+   "films": 0
+  },
+  {
+   "name": "Park Overall",
+   "films": 1
+  }
+ ],
+ "by_director": [
+  {
+   "id": "1d5cf561-5e4b-4e6c-8eab-181bdbcdae39",
+   "title": "Stripes",
+   "year": 1981,
+   "poster": "toyyN62VLUXoUudFbHPdrrmRFSZ.jpg"
+  },
+  {
+   "id": "0ce404c8-c03e-4140-8d09-3b53e9359669",
+   "title": "Ghostbusters",
+   "year": 1984,
+   "poster": "7E8nLijS9AwwUEPu2oFYOVKhdFA.jpg"
+  },
+  {
+   "id": "bb17b78a-1c5a-4af6-8651-ef00a484f76b",
+   "title": "Dave",
+   "year": 1993,
+   "poster": "n7wQlcexeER5bW7DvV8sji2vRRH.jpg"
+  },
+  {
+   "id": "78a4da0b-407a-4886-bc25-571f68c2524b",
+   "title": "Draft Day",
+   "year": 2014,
+   "poster": "bnl2ocjS1io4UCPhjoFuPKmJ9bf.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "1a546650-619e-4230-b8c7-fa8e3da9733c",
+   "title": "The Terminator",
+   "year": 1984,
+   "poster": "qvktm0BHcnmDpul4Hz01GIazWPr.jpg"
+  },
+  {
+   "id": "695c2a95-5a11-4f9c-8cc4-4db7fd02b382",
+   "title": "Commando",
+   "year": 1985,
+   "poster": "ollPAAAgZ7euU8VisfqU3cuXhZ6.jpg"
+  },
+  {
+   "id": "2dda4b44-6823-4110-b3e2-eea8dcb726f9",
+   "title": "Predator",
+   "year": 1987,
+   "poster": "k3mW4qfJo6SKqe6laRyNGnbB9n5.jpg"
+  },
+  {
+   "id": "1af6c7b7-eb61-424c-94ed-3fd99b690ff0",
+   "title": "The Running Man",
+   "year": 1987,
+   "poster": "GTAUOhO4BN0peJVvxGEQydJvUO.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Kindergarten_Cop",
+  "wikidata": "Q257630"
+ }
+}

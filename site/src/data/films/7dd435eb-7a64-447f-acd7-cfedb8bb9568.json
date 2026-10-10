@@ -1,0 +1,332 @@
+{
+ "id": "7dd435eb-7a64-447f-acd7-cfedb8bb9568",
+ "title": "Heat",
+ "year": 1995,
+ "poster": "gKaePbkEkaqvMtw74EyhhkfCKKh.jpg",
+ "tmdb_id": 949,
+ "directors": [
+  "Michael Mann"
+ ],
+ "director_primary": "Michael Mann",
+ "genres": [
+  "Crime",
+  "Drama",
+  "Action"
+ ],
+ "runtime": 170,
+ "revisited": true,
+ "episodes_featured": 3,
+ "first": "2015-12-22",
+ "last": "2021-11-02",
+ "scores": {
+  "tmdb": 7.945,
+  "rt": 83.0,
+  "ebert": 3.5,
+  "box_office": "$385.7M",
+  "multiple": 3.1233333333333335,
+  "cpi_year": 2024
+ },
+ "plot": "Obsessive master thief Neil McCauley leads a top-notch crew on various daring heists throughout Los Angeles while determined detective Vincent Hanna pursues him without rest. Each man recognizes and respects the ability and the dedication of the other even though they are aware their cat-and-mouse game may end in violence.",
+ "synopsis": "Career criminal Neil McCauley and his crew—Chris Shiherlis, Michael Cheritto, Trejo, and new member Waingro (Kevin Gage —perpetrate an armored car heist, stealing $1.6 million in bearer bonds from money launderer Roger Van Zant. During the heist, Waingro impulsively kills one of the guards, forcing the crew to eliminate the remaining two guards out of necessity. An infuriated McCauley tries to kill Waingro afterwards, but he escapes. McCauley's fence Nate sets up a meeting with Van Zant to sell the bonds back. Van Zant ostensibly agrees but instructs his men to kill McCauley as a warning to other thieves. With backup from his crew, McCauley thwarts the ambush and vows revenge. Lieutenant Vincent Hanna of the LAPD Robbery-Homicide Division heads the investigation of the armored car heist and learns McCauley's crew plans to rob a precious metals depository next. Hanna and his unit stake out the depository, but when an officer inadvertently makes a noise, McCauley is tipped off, and the crew abandons the robbery. Despite the police surveillance, McCauley and his crew decide to go through with a bank holdup with an estimated $12 million payoff. Waingro is revealed to be a serial killer of prostitutes, with his latest victim falling under Hanna's jurisdiction. Hanna discovers that his wife Justine is having an affair and moves to a hotel, and McCauley catches Charlene Shiherlis cheating on Chris with Alan Marciano, a Las Vegas liquor salesman with a criminal past. Hanna deliberately intercepts McCauley during a surveillance operation and invites him to coffee, where he concedes the problems of his personal life; his concern for his depressed stepdaughter Lauren and the failure of his third marriage due to his obsession with work. Likewise, McCauley confesses that life as a criminal forbids attachments and stresses mobility, making his relationship with his girlfriend Eady tenuous. Having met face to face, Hanna and McCauley share a mutual respect but readily admit that neither will hesitate to kill the other if the circumstances demand it. Trejo is compromised just hours before the bank robbery. In need of a new getaway driver, McCauley recruits Donald Breeden, an ex-convict frustrated with his demoralizing position as a short order cook at a diner. Hanna's unit is alerted to the robbery in-progress by a confidential informant and surprises McCauley's crew as they exit the bank. Cherrito, Breeden, and several police officers, including Detective Bosko, are killed in the ensuing shootout. McCauley narrowly escapes with an injured Chris, who had been shot in the shoulder by Detective Cassals, and leaves him with a doctor to treat his wounds. He tracks down Trejo, whom he finds at his home beaten to a bloody pulp. Trejo admits that Van Zant's men called in the tip on the robbery from information Waingro provided. McCauley finishes off Trejo at his own request, then hunts down and kills Van Zant. He makes new arrangements to flee to New Zealand with Eady, who is now fully aware of his criminal activities. The police surveil Waingro in a hotel near Los Angeles International Airport, and Hanna attempts to bait McCauley into coming out of hiding by releasing Waingro's whereabouts to the network of bookies, bail bondsmen, and snitches he hopes will spread the word. Charlene leaves Chris and goes with Marciano to a police safe house, where Sergeant Drucker threatens to charge her as an accomplice and to send her son to a foster home if she does not betray Chris to the police. Charlene initially agrees, but, when Chris shows up in disguise, she surreptitiously warns him about the police presence, and he slips through the dragnet. Hanna finds Lauren unconscious in his hotel room from a suicide attempt and rushes her to the hospital. As he and Justine wait in the lobby for the news of her recovery, they admit their marriage will never work. McCauley and Eady are en route to the airport when Nate calls with Waingro's location, and the temptation proves to be too much for the normally disciplined McCauley, who risks his assured freedom by detouring to exact his revenge. McCauley infiltrates the hotel, creates a distraction by pulling a fire alarm, and kills Waingro. Moments away from escape, he is forced to abandon Eady when he spots Hanna approaching in the crowd. Hanna chases McCauley into a field outside the LAX freight terminal, and mortally wounds him. He then holds McCauley's hand as he dies.",
+ "synopsis_words": 736,
+ "episodes": [
+  {
+   "number": 1,
+   "date": "2015-12-22",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan"
+   ],
+   "note": null
+  },
+  {
+   "number": 116,
+   "date": "2020-01-24",
+   "gap_before": "4 yr 1 mo later",
+   "is_revisit": true,
+   "revisit_sequence": 2,
+   "revisit_kind": "regular",
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan"
+   ],
+   "note": null
+  },
+  {
+   "number": 227,
+   "date": "2021-11-02",
+   "gap_before": "1 yr 9 mo later",
+   "is_revisit": true,
+   "revisit_sequence": 3,
+   "revisit_kind": "regular",
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Michael Mann"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "neo-noir",
+   "reach": 29,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "gangster",
+   "reach": 18,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "detective",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "heist",
+   "reach": 16,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "bold",
+   "reach": 15,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "remake",
+   "reach": 13,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "assertive",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "betrayal",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "obsession",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "chase",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "thief",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "bank robbery",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "gang",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "robbery",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "authoritarian",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "criminal mastermind",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "ex-con",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "loner",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "cat and mouse",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "crime epic",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "one last job",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "bank job",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "honor",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Al Pacino",
+   "films": 13
+  },
+  {
+   "name": "Robert De Niro",
+   "films": 14
+  },
+  {
+   "name": "Val Kilmer",
+   "films": 6
+  },
+  {
+   "name": "Jon Voight",
+   "films": 6
+  },
+  {
+   "name": "Tom Sizemore",
+   "films": 2
+  },
+  {
+   "name": "Diane Venora",
+   "films": 1
+  },
+  {
+   "name": "Amy Brenneman",
+   "films": 0
+  },
+  {
+   "name": "Ashley Judd",
+   "films": 1
+  },
+  {
+   "name": "Mykelti Williamson",
+   "films": 2
+  },
+  {
+   "name": "Wes Studi",
+   "films": 1
+  }
+ ],
+ "by_director": [
+  {
+   "id": "41583e7e-a83e-480f-994b-7d6f1e5b56ed",
+   "title": "Thief",
+   "year": 1981,
+   "poster": "bpjRGwfYJ71bU0hNhLIz7g3t6Oy.jpg"
+  },
+  {
+   "id": "4d203326-5870-42dc-9c41-97563be3f060",
+   "title": "Manhunter",
+   "year": 1986,
+   "poster": "6rb24x39vV8n5301IelC8rCPJTH.jpg"
+  },
+  {
+   "id": "30392b4b-426d-40a8-917d-64d83cdc4175",
+   "title": "The Last of the Mohicans",
+   "year": 1992,
+   "poster": "qzJMPWRtZveBkxXOv3ucWhoJuyj.jpg"
+  },
+  {
+   "id": "0db9ad6b-bfb3-47a4-bc58-09e8682f30be",
+   "title": "The Insider",
+   "year": 1999,
+   "poster": "w695X0FvTlBCS7GSLHNILnrfqPm.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "bf4d623f-ee62-4922-9c43-20c013c5803f",
+   "title": "The Godfather Part II",
+   "year": 1974,
+   "poster": "sSuQTCZwqKrNBNIsksO9IAUoWP9.jpg"
+  },
+  {
+   "id": "328df319-4c81-499c-bb78-61466ad540f2",
+   "title": "The Godfather",
+   "year": 1972,
+   "poster": "3bhkrj58Vtu7enYsRolD1fZdja1.jpg"
+  },
+  {
+   "id": "9109a2e6-024e-43a1-93ff-8cac0bd4a099",
+   "title": "Deliverance",
+   "year": 1972,
+   "poster": "2TrAzNJlHyNYYSkQf6asg3rs2Xr.jpg"
+  },
+  {
+   "id": "1bd1e666-bdee-40c9-a862-b946d9de51f3",
+   "title": "Taxi Driver",
+   "year": 1976,
+   "poster": "ekstpH614fwDX8DUln1a2Opz0N8.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Heat_%281995_film%29",
+  "wikidata": "Q42198"
+ }
+}

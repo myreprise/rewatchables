@@ -1,0 +1,191 @@
+{
+ "id": "78a4da0b-407a-4886-bc25-571f68c2524b",
+ "title": "Draft Day",
+ "year": 2014,
+ "poster": "bnl2ocjS1io4UCPhjoFuPKmJ9bf.jpg",
+ "tmdb_id": 200505,
+ "directors": [
+  "Ivan Reitman"
+ ],
+ "director_primary": "Ivan Reitman",
+ "genres": [
+  "Drama"
+ ],
+ "runtime": 110,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2020-05-14",
+ "last": "2020-05-14",
+ "scores": {
+  "tmdb": 6.71,
+  "rt": 60.0,
+  "ebert": null,
+  "box_office": "$38.2M",
+  "multiple": 1.1532458,
+  "cpi_year": 2024
+ },
+ "plot": "At the NFL Draft, general manager Sonny Weaver has the opportunity to rebuild his team when he trades for the number one pick. He must decide what he's willing to sacrifice on a life-changing day for a few hundred young men with NFL dreams.",
+ "synopsis": "On the morning of the 2014 NFL draft, Cleveland Browns general manager Sonny Weaver Jr. must decide how to use the seventh overall pick to improve the team, but he has other problems on his mind. His semi-secret girlfriend Ali Parker, the team's salary cap analyst, is pregnant, and the recent death of Sonny's father causes tension with his mother. Sonny had fired his father, a legendary coach for the Browns, which he later admits was for his mother's sake because his father refused to retire even with failing health.\n\nThe Seattle Seahawks hold the first overall draft pick, which general manager Tom Michaels offers to trade to Sonny; this would allow the Browns to draft highly-rated Wisconsin quarterback Bo Callahan. Sonny initially declines, but after being pressured by team owner Anthony Molina to make a \"big-splash\", reluctantly agrees to the deal, trading away the Browns' first-round draft picks for the current draft plus the next two years. The unexpected opportunity to obtain Callahan excites Browns fans, but splits the team's front office and players. Particularly incensed are Browns head coach Vince Penn, who had wanted to draft Florida State running back Ray Jennings for his system offense, and current quarterback Brian Drew, who had led the team to a 5–1 start the previous year before being injured.\n\nThe trade goes public after a tweet by Ohio State linebacker Vontae Mack, who had been Sonny's original choice as first pick. Mack tells Sonny to rewatch game footage of him and Callahan playing against each other. Although Wisconsin won, Mack had four quarterback sacks on Callahan and forced a fumble that Mack recovered for a touchdown. Callahan's only major offensive victory took place after Mack was ejected after giving a fan (his sister) a ball after his touchdown. Sonny begins to have doubts about Callahan's ability under pressure, and the Browns' investigations also bring Callahan's character into question. Weaver also turns down a proposed trade for the pick from the Buffalo Bills, as well as an inquiry from the Kansas City Chiefs about the availability of Drew.\n\nWhen the draft begins that evening, Sonny agonizes over the choice before drafting Mack at number one. Roger Goodell's announcement of the selection shocks the rest of the league, and disrupts many of their plans for their own picks. Molina is irate and flies back to Cleveland, intent on firing Sonny. Penn is also incensed and threatens to resign.\n\nRumors spread about Callahan as other teams avoid selecting him. However, the Seahawks are still in contention to select Callahan with the seventh pick, and Sonny senses an opportunity. He convinces the rookie general manager of the Jacksonville Jaguars to trade him their pick at six in exchange for the Browns' second-round draft picks over the next three drafts. Sonny then calls Michaels; in return for passing on Callahan, Sonny demands his first-round picks back, along with punt returner David Putney. After fraught negotiations, the Seahawks seal the deal and choose Callahan with the sixth pick. With his now-restored seventh pick, Sonny appeases Penn and Molina by selecting Jennings, himself the son of former Browns player Earl Jennings.\n\nMolina and his team celebrate an outstanding draft for the Browns. After the draft party, Sonny reconciles with his mother over his excellent draft performance and her soon-to-be first grandchild. Four months later, Sonny and Ali watch as the Browns make their season debut, with Mack and Jennings in the lineup.",
+ "synopsis_words": 574,
+ "episodes": [
+  {
+   "number": 140,
+   "date": "2020-05-14",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Mallory Rubin"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "sports",
+   "reach": 47,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "american football",
+   "reach": 13,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "nfl (national football league)",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "cleveland",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "cleveland browns",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "draft day",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Kevin Costner",
+   "films": 9
+  },
+  {
+   "name": "Jennifer Garner",
+   "films": 2
+  },
+  {
+   "name": "Denis Leary",
+   "films": 1
+  },
+  {
+   "name": "Chadwick Boseman",
+   "films": 1
+  },
+  {
+   "name": "Frank Langella",
+   "films": 2
+  },
+  {
+   "name": "Josh Pence",
+   "films": 0
+  },
+  {
+   "name": "Arian Foster",
+   "films": 0
+  },
+  {
+   "name": "Terry Crews",
+   "films": 0
+  },
+  {
+   "name": "Ellen Burstyn",
+   "films": 1
+  },
+  {
+   "name": "Sean Combs",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "1d5cf561-5e4b-4e6c-8eab-181bdbcdae39",
+   "title": "Stripes",
+   "year": 1981,
+   "poster": "toyyN62VLUXoUudFbHPdrrmRFSZ.jpg"
+  },
+  {
+   "id": "0ce404c8-c03e-4140-8d09-3b53e9359669",
+   "title": "Ghostbusters",
+   "year": 1984,
+   "poster": "7E8nLijS9AwwUEPu2oFYOVKhdFA.jpg"
+  },
+  {
+   "id": "f7d3ca04-da0b-48db-95d5-25e46b81c08b",
+   "title": "Kindergarten Cop",
+   "year": 1990,
+   "poster": "nKnHWwkXyvhzCYWm3FyRAv3qBrl.jpg"
+  },
+  {
+   "id": "bb17b78a-1c5a-4af6-8651-ef00a484f76b",
+   "title": "Dave",
+   "year": 1993,
+   "poster": "n7wQlcexeER5bW7DvV8sji2vRRH.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "a9674799-b5c7-439c-9be8-317220968d76",
+   "title": "The Untouchables",
+   "year": 1987,
+   "poster": "tPq0R4jTO4Ey8ZspFaWK9wGA4Ls.jpg"
+  },
+  {
+   "id": "cbbd14c7-180e-4ac5-9276-0e07a8f8532e",
+   "title": "No Way Out",
+   "year": 1987,
+   "poster": "93CzsBvRhg035yvQosRtSsTL19v.jpg"
+  },
+  {
+   "id": "69696007-385d-4ac6-b86e-5438374436cf",
+   "title": "Field of Dreams",
+   "year": 1989,
+   "poster": "oeM7nAw6FVFICwUaXKCRkDsKjqO.jpg"
+  },
+  {
+   "id": "2e1db163-7691-4a52-9f7d-3d791f3b16dc",
+   "title": "JFK",
+   "year": 1991,
+   "poster": "r0VWVTYlqdRCK5ZoOdNnHdqM2gt.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Draft_Day",
+  "wikidata": "Q15985322"
+ }
+}
