@@ -1,0 +1,235 @@
+{
+ "id": "working-girl-1988",
+ "title": "Working Girl",
+ "year": 1988,
+ "poster": "q2jfFzZvAzjTaArQR0tjilIZ5aJ.jpg",
+ "tmdb_id": 3525,
+ "directors": [
+  "Mike Nichols"
+ ],
+ "director_primary": "Mike Nichols",
+ "genres": [
+  "Comedy",
+  "Romance",
+  "Drama"
+ ],
+ "runtime": 114,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2025-06-09",
+ "last": "2025-06-09",
+ "scores": {
+  "tmdb": 6.601,
+  "rt": 83.0,
+  "ebert": 4.0,
+  "box_office": "$273.6M",
+  "multiple": 3.6847726785714285,
+  "cpi_year": 2024
+ },
+ "plot": "When a secretary's idea is stolen by her boss, she takes a risky chance to reclaim it by impersonating him and running the project from his position.",
+ "synopsis": "Tess McGill is a working-class woman from Staten Island who dreams of climbing the corporate ladder to an executive position. Having earned a business degree via night school, she works as a secretary at a stockbroker firm in lower Manhattan. There, Tess's boss and male co-workers treat her like a bimbo, despite benefiting from her intelligence and business instincts. After one humiliation too many from her scornful boss (he fixes her up with a rival executive, who only wants to do cocaine and have sex), Tess retaliates by posting on a VDT what she thinks of him and of what he's done. This greatly amuses Tess's colleagues, but also gets her fired.\n\nShortly thereafter, Tess lands another job, this time as an administrative assistant to Katharine Parker, an associate partner at the mergers-and-acquisitions firm Petty Marsh. At first, Katharine seems supportive of Tess, encouraging her to share ideas. Eventually, however, she insists that Tess's proposed purchase of a radio network by Trask Industries would not work out.\n\nWhen Katharine breaks her leg skiing, she asks Tess to house-sit. While there, Tess discovers meeting notes which reveal Katharine's intention to pass off the Trask Industries idea as her own. Returning home, Tess finds her live-in boyfriend having sex with another woman. Tess dumps him. With Katharine still in the hospital, Tess uses her boss's connections to ramrod the Trask proposal. With help from her friend Cyn, Tess gives herself a makeover, borrowing from Katharine's stylish wardrobe to look more professional.\n\nTess schedules a meeting with Jack Trainer, a mergers-and-acquisitions associate from another company. The night before the meeting, she attends (on Katharine's behalf) a dinner hosted by Trainer's firm. Trainer is attracted to Tess, and approaches her at the bar. Yet Jack does not reveal his name, even after she asks directly whether he knows the man she's slated to meet with (himself). Trainer brings Tess to his apartment, after she passes out in a cab from a combination of Valium and alcohol.\n\nTess leaves early the next day, believing that they slept together. Arriving for her meeting with Trainer and his associates, she is surprised to recognize him from the previous night. They both feign non-recognition. After the meeting, Tess worries that her deal has failed, until Jack arrives at Tess's office. He assures her that they did not sleep together, and that he wants to move forward with her idea. Together, they prepare the financials for her merger proposal, which they present successfully to Trask. Tess and Jack celebrate by giving in to their attraction, and ending up in bed. Thereafter, Tess discovers that Jack has been involved with Katharine, but was planning to break up with her when she went skiing and got injured.\n\nKatharine returns home on the day of the merger meeting. While Tess is helping her get settled, Katharine brings up the Trask merger, claiming she was intent on taking it to Jack, and on eventually giving Tess credit for it. Katharine adds that Jack's strict ethical code has prevented him from looking at another's ideas without verifying the source, ever since he was accused of stealing himself. Jack arrives in response to a call from Katharine, who unsuccessfully tries to seduce him. Tess avoids running into Jack at Katharine's apartment, but accidentally leaves her notebook there before she departs for the meeting. Katharine discovers Tess's deception by finding the notebook, which includes Jack's phone numbers and the scheduled merger meeting.\n\nAt the meeting, Tess brings up what Katharine told her about Jack's ethical code, and about his being accused of stealing. Jack insists that it was all a lie. Then Katharine crashes the meeting and outs Tess as her secretary. She accuses Tess of stealing the Trask merger idea. Unable to defend herself, Tess apologizes profusely and leaves.\n\nTess returns to Petty Marsh a day later, intent on cleaning out her desk. Instead she encounters Jack, Katharine, Trask, and members of Trask's board. Jack sticks up for Tess, who points out a news item which presents a possible risk to the merger's success. In an elevator pitch she explains to Trask what inspired her plan for his radio acquisition. Trask confronts Katharine, who, when she is unable to explain where Tess's plan came from, is fired.\n\nTess lands an entry-level job with Trask Industries. She also moves in with Jack. On her first day at Trask, Tess meets a colleague named Alice, whom she takes for her new supervisor. Alice explains that she is actually Tess's secretary. Tess makes it very clear that she considers Alice a colleague, thus proving herself very different from Katharine. At the first opportunity, Tess calls Cyn from her new office and tells her that she has made it.",
+ "synopsis_words": 790,
+ "episodes": [
+  {
+   "number": 409,
+   "date": "2025-06-09",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Hanks",
+   "verdict_tone": "hanks",
+   "host": "Bill Simmons",
+   "guests": [
+    "Amanda Dobbins",
+    "Joanna Robinson"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "female protagonist",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "love triangle",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "boss",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "employee",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "business",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "career woman",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "clerk",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "determination",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "empowerment",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "female empowerment",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "feminism",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "idea",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "reclaim",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "staten island, new york city",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "stolen",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "strong woman",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "working woman",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Melanie Griffith",
+   "films": 3
+  },
+  {
+   "name": "Harrison Ford",
+   "films": 7
+  },
+  {
+   "name": "Sigourney Weaver",
+   "films": 6
+  },
+  {
+   "name": "Alec Baldwin",
+   "films": 5
+  },
+  {
+   "name": "Joan Cusack",
+   "films": 1
+  },
+  {
+   "name": "Philip Bosco",
+   "films": 1
+  },
+  {
+   "name": "Nora Dunn",
+   "films": 0
+  },
+  {
+   "name": "Oliver Platt",
+   "films": 1
+  },
+  {
+   "name": "James Lally",
+   "films": 0
+  },
+  {
+   "name": "Kevin Spacey",
+   "films": 4
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "star-wars-1977",
+   "title": "Star Wars",
+   "year": 1977,
+   "poster": "fai0rspsNeJCS69wHNjOdWxcI7P.jpg"
+  },
+  {
+   "id": "alien-1979",
+   "title": "Alien",
+   "year": 1979,
+   "poster": "vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg"
+  },
+  {
+   "id": "raiders-of-the-lost-ark-1981",
+   "title": "Raiders of the Lost Ark",
+   "year": 1981,
+   "poster": "ceG9VzoRAVGwivFU403Wc3AHRys.jpg"
+  },
+  {
+   "id": "body-double-1984",
+   "title": "Body Double",
+   "year": 1984,
+   "poster": "lRFm5P2AdOGpELwm3HHhmUz6k5I.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Working_Girl",
+  "wikidata": "Q126183"
+ }
+}

@@ -1,0 +1,161 @@
+{
+ "id": "what-about-bob-1991",
+ "title": "What About Bob?",
+ "year": 1991,
+ "poster": "pFCrGGGhV5xeAdvEysv6aSv8T13.jpg",
+ "tmdb_id": 10276,
+ "directors": [
+  "Frank Oz"
+ ],
+ "director_primary": "Frank Oz",
+ "genres": [
+  "Comedy"
+ ],
+ "runtime": 100,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2021-05-04",
+ "last": "2021-05-04",
+ "scores": {
+  "tmdb": 6.886,
+  "rt": 82.0,
+  "ebert": null,
+  "box_office": "$146.7M",
+  "multiple": 1.8202857142857143,
+  "cpi_year": 2024
+ },
+ "plot": "Before going on vacation, self-involved psychiatrist Dr. Leo Marvin has the misfortune of taking on a new patient: Bob Wiley. An exemplar of neediness and a compendium of phobias, Bob follows Marvin to his family's country house. Dr. Marvin tries to get him to leave; the trouble is, everyone loves Bob. As his oblivious patient makes himself at home, Dr. Marvin loses his professional composure and, before long, may be ready for the loony bin himself.",
+ "synopsis": "In New York City, neurotic and multiphobic Bob Wiley spends his life in a near-constant state of distress. Exasperated by Bob's high-maintenance needs, his therapist closes his practice and refers Bob to the egotistical and controlling Dr. Leo Marvin, who believes his new self-help book, Baby Steps, will make him famous. Leo gives Bob a copy of Baby Steps and makes an appointment to see him following the Marvin family's vacation. Unable to cope without regular reassurance, Bob repeatedly calls Leo's telephone exchange in failed attempts to deduce his location. Bob then visits the exchange while posing as a detective investigating Bob's suicide and learns that the Marvins are at Lake Winnipesaukee, New Hampshire.\n\nBob travels there by bus, irritating fellow passengers with his habits. He encounters Leo, who agrees to call Bob at a local coffee shop if he then returns home. Out of spite, the shop owners—the Guttmans, whom Leo had outbid for their dream lake house—take Bob to Leo's doorstep. There, Bob meets Leo's wife, Fay, teenage daughter Anna, and young son Siggy, all of whom are charmed by his eccentric personality, to Leo's irritation. Hoping to be rid of him, Leo advises Bob to take a vacation from his problems and return to the city. Bob, having never been on vacation, takes the advice literally and stays at Lake Winnipesaukee.\n\nBob unintentionally bonds with Leo's family: he faces his fear of sailing after Anna ties him to a boat's mast, inadvertently gives Siggy the confidence to dive into the lake—which Leo had failed to achieve—and overcomes his germophobia. After Leo pushes Bob into the lake, Fay forces him to apologize and invites Bob to dinner. Oblivious to Leo's hostility, Bob accepts as he believes the events are part of Leo's radical therapy. A thunderstorm forces Bob to spend the night. The following morning, the Good Morning America television crew arrive to interview Leo about Baby Steps and, despite Leo's reluctance, features Bob in the interview as an example of the book's success. Leo humiliates himself during the interview by giving stilted and nervous responses while Bob speaks highly of the Marvins and the book, unwittingly stealing the spotlight.\n\nInfuriated, Leo attempts to have Bob institutionalized, but he quickly befriends the hospital staff, who are convinced he is sane. Leo then abandons Bob in a remote location, but Bob hitches a ride back to the lake house while various mishaps delay Leo. A disheveled Leo returns after nightfall, but is happily surprised by a crowd awaiting him for his birthday, including his sister Lily. When Bob appears and puts his arm around Lily, Leo snaps and tackles him. Leo is sedated and his family reluctantly asks Bob to leave due to Leo's seemingly irrational anger towards him.\n\nA manic Leo sneaks out, steals explosives from the general store, straps them to Bob, and abandons him in the woods, dubbing the experience \"death therapy\". Believing the explosives are a metaphor for his problems, Bob frees himself of his remaining fears. He reunites with the Marvins and praises Leo for curing him. Leo worriedly enquires about the whereabouts of the explosives, which Bob has stored under the lake house. The house explodes, to the observing Guttmans' delight; shocked, Leo is rendered catatonic and institutionalized.\n\nSome time later, Bob marries Lily and, upon their pronouncement as husband and wife, Leo snaps out of his catatonic state and screams, \"No!\", but the sentiment is lost in the family's excitement at his recovery. A closing text reveals that Bob went back to school and became a psychologist, then wrote a best-selling book titled Death Therapy, for which Leo is suing him for the rights.",
+ "synopsis_words": 612,
+ "episodes": [
+  {
+   "number": 201,
+   "date": "2021-05-04",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Sean Fennessey",
+    "Van Lathan"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "psychiatrist",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "family holiday",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "farce",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "new hampshire",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "idiot",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "neurosis",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Bill Murray",
+   "films": 6
+  },
+  {
+   "name": "Richard Dreyfuss",
+   "films": 4
+  },
+  {
+   "name": "Julie Hagerty",
+   "films": 2
+  },
+  {
+   "name": "Charlie Korsmo",
+   "films": 2
+  },
+  {
+   "name": "Kathryn Erbe",
+   "films": 1
+  },
+  {
+   "name": "Tom Aldredge",
+   "films": 0
+  },
+  {
+   "name": "Susan Willis",
+   "films": 0
+  },
+  {
+   "name": "Roger Bowen",
+   "films": 0
+  },
+  {
+   "name": "Fran Brill",
+   "films": 0
+  },
+  {
+   "name": "Brian Reddy",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "jaws-1975",
+   "title": "Jaws",
+   "year": 1975,
+   "poster": "lxM6kqilAdpdhqUl2biYp5frUxE.jpg"
+  },
+  {
+   "id": "close-encounters-of-the-third-kind-1977",
+   "title": "Close Encounters of the Third Kind",
+   "year": 1977,
+   "poster": "yaPx3cK9zGFX3SbcKwxWM1QIbUh.jpg"
+  },
+  {
+   "id": "airplane-1980",
+   "title": "Airplane!",
+   "year": 1980,
+   "poster": "7Q3efxd3AF1vQjlSxnlerSA7RzN.jpg"
+  },
+  {
+   "id": "caddyshack-1980",
+   "title": "Caddyshack",
+   "year": 1980,
+   "poster": "lXnNz7zOXCsftMDVoU3VSo0Eioi.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/What_About_Bob%3F",
+  "wikidata": "Q998377"
+ }
+}

@@ -1,0 +1,264 @@
+{
+ "id": "dead-poets-society-1989",
+ "title": "Dead Poets Society",
+ "year": 1989,
+ "poster": "tNvKkSnnn4Z6RCBThyK1gfCSSvv.jpg",
+ "tmdb_id": 207,
+ "directors": [
+  "Peter Weir"
+ ],
+ "director_primary": "Peter Weir",
+ "genres": [
+  "Drama"
+ ],
+ "runtime": 129,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2019-06-11",
+ "last": "2019-06-11",
+ "scores": {
+  "tmdb": 8.296,
+  "rt": 85.0,
+  "ebert": 2.0,
+  "box_office": "$596.7M",
+  "multiple": 14.381714390243902,
+  "cpi_year": 2024
+ },
+ "plot": "At an elite, old-fashioned boarding school in New England, a passionate English teacher inspires his students to rebel against convention and seize the potential of every day, courting the disdain of the stern headmaster.",
+ "synopsis": "Neil Perry, Todd Anderson, Knox Overstreet, Charlie Dalton, Richard Cameron, Steven Meeks, and Gerard Pitts are senior students of the Welton Academy, an elite prep school, whose ethos is defined by the headmaster Gale Nolan as \"tradition, honor, discipline and excellence\". Both Neil and Todd are under harsh parental pressure to become a doctor and a lawyer respectively, but Todd wants to be a writer, and Neil discovers a passion for acting. The teaching methods of their new English teacher, John Keating, are unorthodox by Welton standards, whistling the 1812 Overture and taking them out of the classroom to focus on the idea of carpe diem. He tells the students that they may call him \"O Captain! My Captain!,\" in reference to a Walt Whitman poem, if they feel daring. In another class, Keating has Neil read the introduction to their poetry textbook, prescribing a mathematical formula to rate the quality of poetry which Keating finds ridiculous, and he instructs his pupils to rip the introduction out of their books, to the amazement of one of his colleagues. Later he has the students stand on his desk in order to look at the world in a different way. The boys discover that Keating was a former student at Welton and decide to secretly revive the school literary club, the \"Dead Poets Society,\" to which Keating had belonged, meeting in a cave off the school grounds. Due to self-consciousness, Todd fails to complete a writing assignment and Keating takes him through an exercise in self-expression, realizing the potential he possesses. Charlie publishes an unauthorized article in the school newspaper, asserting that girls should be admitted to Welton. At the resulting school inquiry, he offers a phone call from God in support, incurring the headmaster's wrath. After being lectured by Headmaster Nolan about his teaching methods, Keating tells the boys to \"be wise, not stupid\" about protesting against the system. Knox meets and falls in love with a girl named Chris, using his new-found love of poetry to woo her. He presents one of these poems in class, and is applauded by Keating for writing a heartfelt poem on love. Knox travels to Chris's public school and recites his poem to her, later convincing her to go to a play with him. Neil wants to be an actor but knows his father will disapprove. Without his father's knowledge, he auditions for the role of Puck in a production of A Midsummer Night's Dream. His father finds out and orders Neil to withdraw. Neil asks Keating for advice and is advised to talk to his father and make him understand how he feels, but Neil cannot muster the courage to do so. Instead he goes against his father's wishes. His father shows up at the end of the play, furious. He takes Neil home and tells him that he intends to enroll him in a military school to prepare him for Harvard University and a career in medicine. Unable to cope with the future that awaits him or to make his father understand his feelings, Neil commits suicide. At the request of Neil's parents, the headmaster launches an investigation. Cameron meets the school governors and board of regents. Later, confronted by Charlie, Cameron admits that he squealed on them and made Keating the scapegoat, and urges the rest of them to let Keating take the fall. Charlie punches Cameron and is later expelled. Todd is called to Nolan's office, where his parents are waiting. Nolan forces Todd to admit to being a member of the Dead Poets Society, and makes him sign a document blaming Keating for abusing his authority, inciting the boys to restart the club, and encouraging Neil to flout his father's wishes. Todd sees the other boys' signatures already on the document, and is threatened by his father to sign it. Keating is subsequently fired. The boys return to English class, now being taught by Nolan, who has the boys read the introductory essay only to find that they had all ripped it out. Keating enters the room to retrieve a few belongings. Todd reveals that the boys were intimidated into signing the denunciation. Nolan orders Todd to be quiet and demands that Keating leave. As Keating is about to exit, Todd for the first time breaks his reserve, calls out \"O Captain! My Captain!\" and stands on his desk. Nolan warns Todd to sit down or face expulsion. Much of the class, including Knox, Meeks, and Pitts, climb onto their desks and look to Keating, ignoring Nolan's orders until he gives up. Keating leaves visibly touched.",
+ "synopsis_words": 767,
+ "episodes": [
+  {
+   "number": 79,
+   "date": "2019-06-11",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Mallory Rubin"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "friendship",
+   "reach": 22,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "dramatic",
+   "reach": 18,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "teenager",
+   "reach": 12,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "1950s",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "thoughtful",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "powerful",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "teacher",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "philosophical",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "preparatory school",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "introspective",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "new england",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "professor",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "depressing",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "individual",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "literature",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "philosophy",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "poetry",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "school play",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "schoolteacher",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "vermont",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  }
+ ],
+ "cast": [
+  {
+   "name": "Robin Williams",
+   "films": 3
+  },
+  {
+   "name": "Robert Sean Leonard",
+   "films": 1
+  },
+  {
+   "name": "Ethan Hawke",
+   "films": 7
+  },
+  {
+   "name": "Josh Charles",
+   "films": 1
+  },
+  {
+   "name": "Gale Hansen",
+   "films": 1
+  },
+  {
+   "name": "Dylan Kussman",
+   "films": 0
+  },
+  {
+   "name": "Allelon Ruggiero",
+   "films": 0
+  },
+  {
+   "name": "James Waterston",
+   "films": 0
+  },
+  {
+   "name": "Norman Lloyd",
+   "films": 0
+  },
+  {
+   "name": "Kurtwood Smith",
+   "films": 1
+  }
+ ],
+ "by_director": [
+  {
+   "id": "witness-1985",
+   "title": "Witness",
+   "year": 1985,
+   "poster": "kOymD1rChAMykmDVEzJpIh4OYS7.jpg"
+  },
+  {
+   "id": "the-truman-show-1998",
+   "title": "The Truman Show",
+   "year": 1998,
+   "poster": "vuza0WqY239yBXOadKlGwJsZJFE.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "alive-1993",
+   "title": "Alive",
+   "year": 1993,
+   "poster": "uQACcCZqd7WCTRin9xRIW5gr1bd.jpg"
+  },
+  {
+   "id": "mrs-doubtfire-1993",
+   "title": "Mrs. Doubtfire",
+   "year": 1993,
+   "poster": "shHrSmXS5140o6sQzgzXxn3KqSm.jpg"
+  },
+  {
+   "id": "reality-bites-1994",
+   "title": "Reality Bites",
+   "year": 1994,
+   "poster": "qGDhodtpkpxkrFqokenGNJlzt6w.jpg"
+  },
+  {
+   "id": "before-sunrise-1995",
+   "title": "Before Sunrise",
+   "year": 1995,
+   "poster": "kf1Jb1c2JAOqjuzA3H4oDM263uB.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Dead_Poets_Society",
+  "wikidata": "Q106316"
+ }
+}

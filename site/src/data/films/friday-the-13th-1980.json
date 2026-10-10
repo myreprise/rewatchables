@@ -1,0 +1,257 @@
+{
+ "id": "friday-the-13th-1980",
+ "title": "Friday the 13th",
+ "year": 1980,
+ "poster": "uGGpnWHOmWTARVN9wbC1nPxNgps.jpg",
+ "tmdb_id": 4488,
+ "directors": [
+  "Sean S. Cunningham"
+ ],
+ "director_primary": "Sean S. Cunningham",
+ "genres": [
+  "Horror"
+ ],
+ "runtime": 95,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2026-10-12",
+ "last": "2026-10-12",
+ "scores": {
+  "tmdb": 6.4,
+  "rt": 48.0,
+  "ebert": null,
+  "box_office": "$152.0M",
+  "multiple": 72.59109090909091,
+  "cpi_year": 2024
+ },
+ "plot": "Camp counselors are stalked and murdered by an unknown assailant while trying to reopen a summer camp that was the site of a child's drowning.",
+ "synopsis": "In 1958 at Camp Crystal Lake, camp counselors Barry and Claudette sneak away from other counselors for a late night rendezvous in a supply shed. An unseen assailant attacks and murders them.\n\nOn Friday, June 13, 1979, camp counselor and cook Annie hitchhikes with truck driver Enos toward the reopened Camp Crystal Lake. Enos warns her about the camp's troubled past, beginning when a young boy drowned in Crystal Lake in 1957. After Enos drops Annie off at a crossroads, she hitches another ride from an unseen person driving a Jeep. After the driver passes the camp entrance, Annie becomes fearful and leaps from the vehicle, fleeing into the woods where the driver eventually slashes her throat.\n\nCounselors Ned, Jack, Bill, Marcie, Brenda, and Alice arrive at the camp. Alice, along with owner Steve Christy, refurbish the cabins and prepare for incoming campers. As a thunderstorm approaches, Steve leaves for supplies. Ned sees a cloaked figure walk into a cabin and follows. Later, while Jack and Marcie have sex, they are unaware of Ned's dead body above them in the bunk bed. When Marcie leaves the cabin for the public bathroom, the killer pierces Jack's throat with an arrow before following Marcie into the bathroom and killing her with an axe. After playing strip Monopoly with Alice and Bill, Brenda returns to her cabin. She is lured outside by a little boy's voice calling for help and ventures toward the camp's archery range, where the floodlights suddenly turn on and she is attacked offscreen by the killer.\n\nAlice hears Brenda screaming. Worried by their friends' disappearances, Alice and Bill investigate. They find a bloodied axe in Brenda's bed, and the phones disconnected. Steve returns and, at the camp's entrance, recognizes the unseen killer, who stabs him. When the power goes out, Bill goes to check on the generator. Alice later finds his body pinned to the door with arrows. She flees to the main cabin and barricades herself inside, before the killer hurls Brenda's body through a window.\n\nMrs. Voorhees, a middle-aged woman who claims to be a friend of the Christys, arrives at the camp. She reveals that it is her son Jason's birthday and that he was the young boy who drowned in 1957. She blames his death on the counselors who failed to supervise him, instead having sex. Revealing herself as the killer, she brutally attacks Alice. Alice flees, discovering the bodies of Annie and Steve in the process. Following a chase throughout the camp and several physical altercations, Mrs. Voorhees finally confronts Alice on the lakeshore. The two struggle until Alice decapitates Mrs. Voorhees with a machete. Exhausted, Alice seeks refuge inside a canoe, which she pushes out onto the lake, and falls asleep.\n\nAt dawn, police officers arrive moments before Jason's decomposing corpse rises from the lake and pulls Alice underwater. She then awakens in a hospital, surrounded by a police sergeant and medical staff. The sergeant says that there was no sign of a boy at the lake. Alice replies, \"Then he's still there.\"",
+ "synopsis_words": 510,
+ "episodes": [
+  {
+   "number": 485,
+   "date": "2026-10-12",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Van Lathan"
+   ],
+   "note": "Raj did not write a review but both Siskel & Ebert loathed the Friday the 13th films"
+  }
+ ],
+ "keywords": [
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "revenge",
+   "reach": 31,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "suspenseful",
+   "reach": 30,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "serial killer",
+   "reach": 14,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "antagonistic",
+   "reach": 13,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "teenager",
+   "reach": 12,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "1950s",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "halloween",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "stalking",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "villain",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "sadism",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "slasher",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "b-horror",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "summer",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "cabin",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "drowning",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "lake",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "new jersey",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "woods",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "camp",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "series of murders",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "summer camp",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Adrienne King",
+   "films": 1
+  },
+  {
+   "name": "Kevin Bacon",
+   "films": 5
+  },
+  {
+   "name": "Jeannine Taylor",
+   "films": 1
+  },
+  {
+   "name": "Harry Crosby",
+   "films": 1
+  },
+  {
+   "name": "Laurie Bartram",
+   "films": 1
+  },
+  {
+   "name": "Mark Nelson",
+   "films": 0
+  },
+  {
+   "name": "Betsy Palmer",
+   "films": 0
+  },
+  {
+   "name": "Peter Brouwer",
+   "films": 0
+  },
+  {
+   "name": "Robbi Morgan",
+   "films": 0
+  },
+  {
+   "name": "Rex Everhart",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "jfk-1991",
+   "title": "JFK",
+   "year": 1991,
+   "poster": "r0VWVTYlqdRCK5ZoOdNnHdqM2gt.jpg"
+  },
+  {
+   "id": "a-few-good-men-1992",
+   "title": "A Few Good Men",
+   "year": 1992,
+   "poster": "rLOk4z9zL1tTukIYV56P94aZXKk.jpg"
+  },
+  {
+   "id": "apollo-13-1995",
+   "title": "Apollo 13",
+   "year": 1995,
+   "poster": "tVeKscCm2fY1xDXZk8PgnZ87h9S.jpg"
+  },
+  {
+   "id": "wild-things-1998",
+   "title": "Wild Things",
+   "year": 1998,
+   "poster": "wrcTDD9T7Ga5c9MW7kaOo2qwIvW.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Friday_the_13th_%281980_film%29",
+  "wikidata": "Q1243029"
+ }
+}

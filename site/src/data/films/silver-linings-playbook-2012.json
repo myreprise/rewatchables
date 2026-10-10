@@ -1,0 +1,295 @@
+{
+ "id": "silver-linings-playbook-2012",
+ "title": "Silver Linings Playbook",
+ "year": 2012,
+ "poster": "fhHB1uvfFKKFbj6bTKE8xdtsjKi.jpg",
+ "tmdb_id": 82693,
+ "directors": [
+  "David O. Russell"
+ ],
+ "director_primary": "David O. Russell",
+ "genres": [
+  "Drama",
+  "Comedy",
+  "Romance"
+ ],
+ "runtime": 122,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2024-01-16",
+ "last": "2024-01-16",
+ "scores": {
+  "tmdb": 7.2,
+  "rt": 92.0,
+  "ebert": 3.5,
+  "box_office": "$323.0M",
+  "multiple": 11.257735857142857,
+  "cpi_year": 2024
+ },
+ "plot": "After losing his job and wife, and spending time in an institution, a former teacher winds up living with his parents. He wants to rebuild his life and reconcile with his wife, but his father would be happy if he shared his obsession with the Philadelphia Eagles. Things get complicated when he meets Tiffany Maxwell who offers to help him reconnect with his wife if he will do something very important for her in exchange.",
+ "synopsis": "After 8 months' treatment in a psychiatric hospital in Baltimore for bipolar disorder, Patrizio \"Pat\" Solitano Jr. is released into the care of his parents, Patrizio Sr. and Dolores, at his childhood home in Upper Darby Township, Pennsylvania. His primary focus is to reconcile with his ex-wife, Nikki. She has moved away and obtained a restraining order against him after he found her in the shower with another man and badly beat him.\n\nPat's therapist, Cliff Patel, tries to convince him to keep taking his medication because a repeat of his violent outbursts might send him back to the hospital in Baltimore. Pat tells him that he has a new outlook on life: He attempts to see the good, or silver lining, in all that he experiences. Meanwhile, Pat experiences a series of anxiety attacks, sometimes triggered by hearing \"My Cherie Amour\" by Stevie Wonder, other times he imagines hearing the song during an anxiety attack.\n\nPat attends dinner at his best friend Ronnie's house, where Ronnie's sister-in-law, Tiffany Maxwell, a widow with an unnamed disorder, is also a guest. They connect, talking about different psychiatric medications they have taken to manage their mental illnesses. She tries to offer him casual sex, but Pat is focused on getting Nikki back. Trying to get closer to him, Tiffany offers to deliver a letter to Nikki if, in return, he partners with her in an upcoming dance competition. Convinced that helping Tiffany will show Nikki he has changed and has developed sensitivity to others, Pat agrees. Pat and Tiffany start practicing over the following weeks.\n\nHoping to open a restaurant, Patrizio Sr. has resorted to illegal bookmaking. Having bet most of his money on a Philadelphia Eagles game, Patrizio asks Pat to attend for good luck, irrationally believing Pat's attention to the game affects its outcome. Pat points out this is OCD ideation but appeases his father. Pat asks Tiffany for time off from practice to attend the game. She gives him a typed reply from Nikki, which cautiously hints they may be able to reconcile. Before entering the stadium, Pat and his brother Jake get into a fight with racist fans and are arrested. The Eagles lose the game, and Patrizio Sr. is furious.\n\nWhen Patrizio Sr. claims that the Eagles lost because of Tiffany's newfound involvement in Pat's life, Tiffany refutes his allegations by pointing out that Philadelphia sports teams had done better whenever she and Pat were together. Convinced, Patrizio makes a parlay with his friend Randy: If the Eagles win their week 16 game against the Dallas Cowboys and Tiffany and Pat score five out of ten in their dance competition, he will win back double the money he lost on the first bet.\n\nPat is reluctant, but Tiffany, Dolores, and Patrizio conspire to persuade him to dance in the competition, telling him Nikki will be there. Noticing that the letter from Nikki includes the phrase \"If it's me reading the signs...\", frequently used by Tiffany, he realizes that Tiffany fabricated the letter. Tiffany, Pat, and their friends and family arrive at the competition on the night of the football game. Tiffany despairs when she sees Nikki in the audience, invited by Ronnie and his wife Veronica. They want Nikki to lift her restraining order on Pat, giving them the chance to reconcile. Tiffany starts to drink heavily at the bar.\n\nPat finds Tiffany moments before their turn and drags her onto the dance floor. They begin their routine as the Eagles defeat the Cowboys. After their set, Tiffany and Pat receive an average score of exactly 5.0 points amid cheers from friends and family and confused looks from the crowd. Pat approaches Nikki and whispers into her ear. Seeing this, Tiffany runs off. Pat Sr. tells his son that unlike Nikki, Tiffany really loves him, and he should not let her go, as it would haunt him for the rest of his life. Pat catches Tiffany and hands her a letter in which he admits to knowing she forged the letter earlier. He confesses that he loved her from the moment they became acquainted, but that it took him a long time to realize and accept it. They share a kiss. Patrizio opens a restaurant with the money he has won, and Pat and Tiffany begin a relationship, no longer wearing their wedding rings.",
+ "synopsis_words": 727,
+ "episodes": [
+  {
+   "number": 341,
+   "date": "2024-01-16",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Chris Ryan",
+   "guests": [
+    "Andy Greenwald",
+    "Zach Baron"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "friendship",
+   "reach": 22,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "infidelity",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "philadelphia, pennsylvania",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "cheerful",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "italian american",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "father son relationship",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "depression",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "ex-wife",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "mental illness",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "dance competition",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "dancing",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "mental institution",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "obsessed fan",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "widow",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "adulterous wife",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "death of husband",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "football fans",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "former teacher",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "institutionalization",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "letter",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "obsessed with a woman",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "philadelphia eagles",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "release from psychiatric institution",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "sports gambling",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "superstition",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "therapy",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "unfaithful wife",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Bradley Cooper",
+   "films": 4
+  },
+  {
+   "name": "Jennifer Lawrence",
+   "films": 1
+  },
+  {
+   "name": "Robert De Niro",
+   "films": 14
+  },
+  {
+   "name": "Jacki Weaver",
+   "films": 1
+  },
+  {
+   "name": "Anupam Kher",
+   "films": 1
+  },
+  {
+   "name": "Chris Tucker",
+   "films": 1
+  },
+  {
+   "name": "Julia Stiles",
+   "films": 1
+  },
+  {
+   "name": "Shea Whigham",
+   "films": 0
+  },
+  {
+   "name": "John Ortiz",
+   "films": 1
+  },
+  {
+   "name": "Paul Herman",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "limitless-2011",
+   "title": "Limitless",
+   "year": 2011,
+   "poster": "kCokPP4WCQRrrAuZ7FcpIyHr8b2.jpg"
+  },
+  {
+   "id": "the-godfather-part-ii-1974",
+   "title": "The Godfather Part II",
+   "year": 1974,
+   "poster": "sSuQTCZwqKrNBNIsksO9IAUoWP9.jpg"
+  },
+  {
+   "id": "taxi-driver-1976",
+   "title": "Taxi Driver",
+   "year": 1976,
+   "poster": "ekstpH614fwDX8DUln1a2Opz0N8.jpg"
+  },
+  {
+   "id": "the-untouchables-1987",
+   "title": "The Untouchables",
+   "year": 1987,
+   "poster": "tPq0R4jTO4Ey8ZspFaWK9wGA4Ls.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Silver_Linings_Playbook",
+  "wikidata": "Q116845"
+ }
+}

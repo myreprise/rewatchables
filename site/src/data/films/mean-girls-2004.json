@@ -1,0 +1,270 @@
+{
+ "id": "mean-girls-2004",
+ "title": "Mean Girls",
+ "year": 2004,
+ "poster": "2ZkuQXvVhh45uSvkBej4S7Ix1NJ.jpg",
+ "tmdb_id": 10625,
+ "directors": [
+  "Samantha Jayne; Arturo Perez Jr."
+ ],
+ "director_primary": "Samantha Jayne; Arturo Perez Jr.",
+ "genres": [
+  "Drama",
+  "Comedy"
+ ],
+ "runtime": 97,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2019-04-29",
+ "last": "2019-04-29",
+ "scores": {
+  "tmdb": 7.227,
+  "rt": 84.0,
+  "ebert": 3.0,
+  "box_office": "$216.2M",
+  "multiple": 7.658532470588235,
+  "cpi_year": 2024
+ },
+ "plot": "Cady Heron is a hit with The Plastics, the A-list girl clique at her new school, until she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George.",
+ "synopsis": "Cady is the 16-year-old homeschooled daughter of zoologist parents. They have returned to the US after residing in Africa for many years. Cady is unprepared for her first day of public high school. With the help of Janis and Damien, Cady learns about the various cliques. She is warned to avoid the school's most exclusive clique, the Plastics, the reigning trio of girls led by the queen bee Regina George. The Plastics take an interest in Cady, inviting her to sit with them at lunch and go shopping with them after school. Upon realizing that Cady has been accepted into the Plastics, Janis hatches a plan to get revenge on Regina, using Cady to infiltrate the Plastics. Having ingratiated herself with the Plastics per Janis' plan, Cady learns about the \"Burn Book\", a top secret notebook of Regina's filled with vicious rumors, secrets, and gossip about all the other girls in their class. Cady soon falls in love with Regina's ex-boyfriend Aaron Samuels (Jonathan Bennett, whom Regina successfully steals back from Cady in a fit of jealousy. Hurt and frustrated, Cady continues with Janis' plan which involves cutting off Regina's \"resources\", which include separating her from her boyfriend Aaron, destroying her beauty, and turning Regina's fellow Plastics, insecure rich girl Gretchen Wieners and sweet but ditzy Karen Smith, against her. At first, the trio's plans backfire, and worse, even increases Regina's popularity. Cady then starts pretending failure at math to get Aaron's attention and soon choreographs Aaron's breakup with Regina by confessing Regina's infidelity with another boy. Cady also tricks Regina into eating high-calorie nutrition bars by claiming that they actually help one lose weight. She also turns Gretchen against Regina by making her think Regina thinks of Cady as a better friend instead of her. In her efforts to get revenge on Regina, Cady gradually loses her individual personality and remakes herself in the image of Regina. Her act soon becomes reality and she becomes as spiteful as Regina, abandoning Janis and Damien in the process and focusing more on her image. Regina strikes back, spreading the entire contents of her Burn Book around the school, inciting a riot. To avoid suspicion, Regina also inserts a fake slander of herself in the book in order to focus blame on Cady, Gretchen, and Karen. The riot is eventually quelled by Principal Duvall. Math teacher Ms. Norbury, who also appeared in the Burn Book in which Cady slandered her by saying that she sold drugs, makes the girls realize that all of them are guilty of hurting their peers. She has each girl confess and apologize to the rest of the girls. When Janis' turn came, Regina made an insulting joke about her sexuality, to which the crowd laughs at. Janis retaliates by confessing her plan to destroy Regina with Cady's help and openly mocks Regina with the support of the entire school. Regina storms out, pursued by an apologetic Cady, and gets hit by a school bus in her haste. Rumors circulate that Cady intentionally pushed Regina in front of the bus. Now without friends, shunned by Aaron, and distrusted by everyone at school, even being distrusted by her own parents, Cady decides to make amends by taking full blame for the Burn Book. Though severely punished by her confession, her guilt dissolves and she returns to her old personality. As part of her punishment and her reformation, she joins the Mathletes, which Damien and Regina both described earlier as \"social suicide,\" in their competition. There, Cady has an epiphany while competing against a very unattractive girl, realizing that even if she made fun of the girl's appearance it would not stop the girl from beating her. At the Spring Fling dance, Cady is elected Spring Fling Queen, but in her acceptance speech, she declares her victory is meaningless: they are all wonderful in their own way and thus the victory belongs to everyone. As a symbolic gesture, she breaks her tiara and distributes the pieces to her classmates. Cady makes up with Janis and Damien, reconciles with Aaron, and reaches a truce with the Plastics. The film ends with the Plastics disbanding by the start of the new school year: Regina joins the lacrosse team as a way to channel her anger positively, Karen becomes the school weather girl, Gretchen joins the \"Cool Asians\" clique and is their biggest follower, and Cady dates Aaron as well as hanging out with Damien, and Janis, who starts a relationship with Cady's fellow mathlete Kevin. Cady reflects that the \"Girl World\" she lives in is at peace.",
+ "synopsis_words": 765,
+ "episodes": [
+  {
+   "number": 69,
+   "date": "2019-04-29",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Juliet Litman",
+    "Amanda Dobbins"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "coming of age",
+   "reach": 24,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "teenager",
+   "reach": 12,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "audacious",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "teen comedy",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "best friend",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "fish out of water",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "bullying",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "female friendship",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "clique",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "gossip",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "illinois",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "math genius",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "prom",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "public humiliation",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "teenage life",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "exploitation of friendship",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "female bully",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "former best friend",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "high school rivalry",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "manipulative friend",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "math teacher",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "new girl at school",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "teenage friendship",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "teenage girl",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Lindsay Lohan",
+   "films": 1
+  },
+  {
+   "name": "Rachel McAdams",
+   "films": 4
+  },
+  {
+   "name": "Lizzy Caplan",
+   "films": 1
+  },
+  {
+   "name": "Lacey Chabert",
+   "films": 1
+  },
+  {
+   "name": "Amanda Seyfried",
+   "films": 1
+  },
+  {
+   "name": "Daniel Franzese",
+   "films": 0
+  },
+  {
+   "name": "Jonathan Bennett",
+   "films": 0
+  },
+  {
+   "name": "Rajiv Surendra",
+   "films": 0
+  },
+  {
+   "name": "Tina Fey",
+   "films": 0
+  },
+  {
+   "name": "Tim Meadows",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "the-notebook-2004",
+   "title": "The Notebook",
+   "year": 2004,
+   "poster": "rNzQyW4f8B8cQeg7Dgj3n6eT5k9.jpg"
+  },
+  {
+   "id": "wedding-crashers-2005",
+   "title": "Wedding Crashers",
+   "year": 2005,
+   "poster": "lFM3lk2zVzC1YFnKm0r6LbFPyRu.jpg"
+  },
+  {
+   "id": "spotlight-2015",
+   "title": "Spotlight",
+   "year": 2015,
+   "poster": "8DPGG400FgaFWaqcv11n8mRd2NG.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Mean_Girls",
+  "wikidata": "Q631103"
+ }
+}

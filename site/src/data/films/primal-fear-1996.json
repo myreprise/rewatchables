@@ -1,0 +1,271 @@
+{
+ "id": "primal-fear-1996",
+ "title": "Primal Fear",
+ "year": 1996,
+ "poster": "qJf2TzE8nRTFbFMPJNW6c8mI0KU.jpg",
+ "tmdb_id": 1592,
+ "directors": [
+  "Gregory Hoblit"
+ ],
+ "director_primary": "Gregory Hoblit",
+ "genres": [
+  "Crime",
+  "Drama",
+  "Thriller"
+ ],
+ "runtime": 130,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2023-07-04",
+ "last": "2023-07-04",
+ "scores": {
+  "tmdb": 7.659,
+  "rt": 77.0,
+  "ebert": 3.5,
+  "box_office": "$205.2M",
+  "multiple": 3.4205394333333334,
+  "cpi_year": 2024
+ },
+ "plot": "Defense attorney Martin Vail takes on jobs for money and prestige rather than any sense of the greater good. His latest case involves an altar boy, accused of brutally murdering the archbishop of Chicago. Vail finds himself up against his ex-pupil and ex-lover, but as the case progresses and the Church's dark secrets are revealed, Vail finds that what appeared a simple case takes on a darker, more dangerous aspect.",
+ "synopsis": "Martin Vail is an arrogant Chicago defense attorney, known for defending undesirable but high-profile clients, including alleged mob boss Joey Piñero. Vail was previously a state prosecuting attorney, but after finding it to be a dead-end career, he became a defense attorney. Fond of the spotlight, Vail is profiled for a magazine cover story, then attempts to rekindle a casual relationship with a former colleague, prosecutor Janet Venable.\n\nPublicly beloved Archbishop Rushman is found murdered and mutilated in his bedroom. Aaron Stampler, a 19-year-old altar boy from Kentucky, is caught fleeing the scene covered in blood and subsequently charged with murder. Vail offers to defend him pro bono. The meek, stuttering Aaron claims to be innocent, but is prone to amnesia and unable to remember what happened about the murder. He claims a third person was in the room. Vail believes Aaron, while the state's attorney, John Shaughnessy, assigns Venable to prosecute the case and pursue the death penalty. At Aaron's apartment, Vail's investigator, Tommy Goodman, is attacked by another altar boy, Alex, who flees. Neuropsychologist Dr. Molly Arrington interviews Aaron about his difficult childhood, his memory lapses, and his missing girlfriend, Linda.\n\nWith help from Piñero, Vail discovers that powerful civic leaders, including Shaughnessy, lost millions in real estate investments due to Rushman's decision not to develop church-owned land, which includes a pro bono clinic owned and operated by Piñero. A passage linked to The Scarlet Letter was carved into Rushman's chest, which the police interpret as the murder motive and denouncing the archbishop as \"two-faced\". Vail and Goodman find Alex, who claims he was searching for an incriminating VHS cassette in Aaron's apartment. Removing the tape from the archbishop's closet at the crime scene, thus not properly entering it into the chain of custody, Vail and his team discover footage filmed by the archbishop in which he coerces Aaron, Linda, and Alex to engage in sexual acts. Vail and his team assume that Rushman threatened the youths with eviction from their group home, providing a motive for Aaron to murder Rushman.\n\nVail angrily confronts Aaron about concealing information, but he denies the accusations, becoming increasingly distressed as he continues to press him. Aaron's demeanor abruptly shifts from deferential to aggressive, and he chastises Vail for \"scaring off\" Aaron. This violent personality, calling himself Roy, admits to killing the archbishop but threatens Vail not to introduce the tape at trial. Suddenly, he reverts to Aaron's docile personality, with no recollection of the episode. Dr. Arrington concludes that Aaron has dissociative identity disorder caused by years of abuse by both his father and, later, Rushman. Vail grows conflicted, knowing that he could acquit his client via an insanity defense, but he cannot legally change his strategy mid-trial.\n\nVail delivers the evidence anonymously to Venable, forcing her to use the tape as proof of Aaron's motive, at the risk of tarnishing the archbishop and generating sympathy for Aaron. Shaughnessy demands that she destroy the evidence, but she refuses and introduces it in court. Piñero is discovered murdered, and Vail surprises the court by calling Shaughnessy as a witness. Vail suggests he resented the archbishop for stopping the $60 million land development deal, and accuses him of concealing previous evidence of the archbishop's sexual predation, and being complicit in Piñero's death.\n\nThe judge intervenes and fines Vail for using the courtroom for his personal vendettas. She also dismisses Dr. Arrington's testimony as it leans too close to an insanity plea. Vail calls Aaron to the stand, intentionally triggering him to become Roy, who screams obscenities and assaults Venable. The judge dismisses the jury in favor of a bench trial to declare Aaron not guilty by reason of insanity. Vail informs Aaron that he will be remanded to a psychiatric hospital for treatment and likely released. When Aaron expresses remorse for injuring Venable's neck, Vail realizes Aaron was aware of his actions during the attack, contradicting his supposed amnesia. Aaron commends the attorney for his insight; he brags he murdered Linda and Rushman without remorse and  reveals there was never an \"Aaron\". Vail leaves the courthouse through a back door, stunned and disillusioned.",
+ "synopsis_words": 690,
+ "episodes": [
+  {
+   "number": 315,
+   "date": "2023-07-04",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Sean Fennessey"
+   ],
+   "note": "Courtroom Month; CR confirms A Few Good Men was Rewatchable no.1"
+  }
+ ],
+ "keywords": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "suspenseful",
+   "reach": 30,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "chicago, illinois",
+   "reach": 19,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "lawyer",
+   "reach": 15,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "psychopath",
+   "reach": 14,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "corruption",
+   "reach": 12,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "whodunit",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "legal thriller",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "manipulation",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "courtroom drama",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "child abuse",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "court",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "psychiatrist",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "court case",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "harsh",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "legal drama",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "mental illness",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "taunting",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "capital punishment",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "altar boy",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "bishop",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "death penalty",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "murder trial",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "pornographic video",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Richard Gere",
+   "films": 6
+  },
+  {
+   "name": "Laura Linney",
+   "films": 2
+  },
+  {
+   "name": "Edward Norton",
+   "films": 5
+  },
+  {
+   "name": "John Mahoney",
+   "films": 3
+  },
+  {
+   "name": "Alfre Woodard",
+   "films": 2
+  },
+  {
+   "name": "Frances McDormand",
+   "films": 1
+  },
+  {
+   "name": "Terry O'Quinn",
+   "films": 0
+  },
+  {
+   "name": "Andre Braugher",
+   "films": 0
+  },
+  {
+   "name": "Steven Bauer",
+   "films": 1
+  },
+  {
+   "name": "Joe Spano",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "american-gigolo-1980",
+   "title": "American Gigolo",
+   "year": 1980,
+   "poster": "igXGCwti23PHOjLKQX6eGIGzQiJ.jpg"
+  },
+  {
+   "id": "an-officer-and-a-gentleman-1982",
+   "title": "An Officer and a Gentleman",
+   "year": 1982,
+   "poster": "69adZbLeRk5TNQ3e0008dMnde9p.jpg"
+  },
+  {
+   "id": "say-anything-1989",
+   "title": "Say Anything...",
+   "year": 1989,
+   "poster": "nkucKciFGSRalw6dJtsglWqOXMC.jpg"
+  },
+  {
+   "id": "internal-affairs-1990",
+   "title": "Internal Affairs",
+   "year": 1990,
+   "poster": "A4pH8DiNFEf2AgXkM4zk3ZpblV.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Primal_Fear_%28film%29",
+  "wikidata": "Q822057"
+ }
+}

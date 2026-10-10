@@ -1,0 +1,197 @@
+{
+ "id": "chef-2014",
+ "title": "Chef",
+ "year": 2014,
+ "poster": "hyp8EXDmO4dSC8V6Q5jU7gD1kcg.jpg",
+ "tmdb_id": 212778,
+ "directors": [
+  "Jon Favreau"
+ ],
+ "director_primary": "Jon Favreau",
+ "genres": [
+  "Comedy"
+ ],
+ "runtime": 114,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2023-05-09",
+ "last": "2023-05-09",
+ "scores": {
+  "tmdb": 7.111,
+  "rt": 87.0,
+  "ebert": null,
+  "box_office": "$66.8M",
+  "multiple": 4.585517727272728,
+  "cpi_year": 2024
+ },
+ "plot": "When Chef Carl Casper suddenly quits his job at a prominent Los Angeles restaurant after refusing to compromise his creative integrity for its controlling owner, he is left to figure out what's next. Finding himself in Miami, he teams up with his ex-wife, his friend and his son to launch a food truck. Taking to the road, Chef Carl goes back to his roots to reignite his passion for the kitchen -- and zest for life and love.",
+ "synopsis": "Miami-born Carl Casper is the head chef at Gauloises, an upscale restaurant in Brentwood, Los Angeles. Though well-liked by his kitchen staff and hostess Molly, he frequently clashes with the restaurant's owner, Riva, who insists on a safe, traditional menu rather than the innovative cuisine Carl longs to create. Outside the kitchen, Carl has strained relationships with his wealthy ex-wife, Inez, and their tech-savvy preteen son, Percy. When renowned food critic and blogger Ramsey Michel plans a visit, Carl hopes to impress him with a bold new menu. At the last minute, however, Riva forces him to serve the restaurant's standard fare instead, leading to a scathing review. Carl sends Ramsey an angry reply on Twitter, unaware that his comments are public, and quickly becomes an online sensation.\n\nDetermined to redeem himself, Carl develops a new menu and invites Ramsey back for a rematch. But on the night of the event, Riva once again demands that Carl abandon his creative vision and prepare the traditional menu. A furious Carl quits on the spot. At home, Carl channels his frustration into cooking the meal he had wanted to serve. Meanwhile, Ramsey is dismayed to receive the same uninspired dishes he was given before and, learning that Carl quit before honoring their challenge, publicly mocks him as a coward. Enraged, Carl confronts Ramsey at the restaurant, and videos of Carl's ensuing meltdown go viral, leaving him humiliated and effectively unemployable.\n\nSeeking a fresh start, Carl reluctantly accepts Inez's invitation to join her and Percy on a trip to Miami, where he rediscovers his passion for Cuban cuisine. Encouraged by Inez, her other ex-husband, Marvin, offers Carl a rundown Grumman food truck as a way to rebuild his career. Carl and Percy bond while restoring the truck and shopping for supplies. Carl's former line cook, Martin, turns down a promotion at Gauloises to join the venture. Carl, Martin, and Percy set off on a cross-country journey back to Los Angeles, serving Cuban sandwiches and yuca fries from the truck. Percy uses social media to build a following, and the business gains momentum with successful stops in New Orleans and Austin, where Carl incorporates local flavors into daily specials such as po’ boys, beignets, and barbecued brisket.\n\nBy the time they reach Los Angeles, Carl has rebuilt both his career and his relationship with Percy. Ramsey visits the food truck and explains his harsh review: as an early admirer of Carl's work, he was disappointed by a meal that he felt was far below the chef's abilities. Impressed by Carl's renewed creativity and passion, Ramsey offers to finance a new restaurant where Carl will have complete artistic freedom. Six months later, the new restaurant is thriving, and Carl and Inez celebrate their remarriage there, surrounded by family and friends.",
+ "synopsis_words": 465,
+ "episodes": [
+  {
+   "number": 307,
+   "date": "2023-05-09",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "David Chang"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "parent child relationship",
+   "reach": 16,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "road trip",
+   "reach": 13,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "affectation",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "ex-husband ex-wife relationship",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "semi autobiographical",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "social media",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "chef",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "food",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "food truck",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "restaurant owner",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "twitter",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Jon Favreau",
+   "films": 3
+  },
+  {
+   "name": "John Leguizamo",
+   "films": 1
+  },
+  {
+   "name": "Bobby Cannavale",
+   "films": 1
+  },
+  {
+   "name": "Emjay Anthony",
+   "films": 1
+  },
+  {
+   "name": "Scarlett Johansson",
+   "films": 2
+  },
+  {
+   "name": "Dustin Hoffman",
+   "films": 4
+  },
+  {
+   "name": "Sofía Vergara",
+   "films": 0
+  },
+  {
+   "name": "Oliver Platt",
+   "films": 1
+  },
+  {
+   "name": "Amy Sedaris",
+   "films": 0
+  },
+  {
+   "name": "Robert Downey Jr.",
+   "films": 3
+  }
+ ],
+ "by_director": [
+  {
+   "id": "iron-man-2008",
+   "title": "Iron Man",
+   "year": 2008,
+   "poster": "78lPtwv72eTNqFW9COBYI0dWDJa.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "rudy-1993",
+   "title": "Rudy",
+   "year": 1993,
+   "poster": "fAbfTCRpjHe2rprXBly55KL1dL9.jpg"
+  },
+  {
+   "id": "swingers-1996",
+   "title": "Swingers",
+   "year": 1996,
+   "poster": "rRjWk68kU3a2so4lgr3TKB7Y5vA.jpg"
+  },
+  {
+   "id": "lost-in-translation-2003",
+   "title": "Lost in Translation",
+   "year": 2003,
+   "poster": "3jCLmYDIIiSMPujbwygNpqdpM8N.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Chef_%282014_film%29",
+  "wikidata": "Q15046490"
+ }
+}

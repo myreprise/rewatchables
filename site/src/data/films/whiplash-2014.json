@@ -1,0 +1,264 @@
+{
+ "id": "whiplash-2014",
+ "title": "Whiplash",
+ "year": 2014,
+ "poster": "7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+ "tmdb_id": 244786,
+ "directors": [
+  "Damien Chazelle"
+ ],
+ "director_primary": "Damien Chazelle",
+ "genres": [
+  "Drama",
+  "Music",
+  "Thriller"
+ ],
+ "runtime": 107,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2023-02-21",
+ "last": "2023-02-21",
+ "scores": {
+  "tmdb": 8.375,
+  "rt": 94.0,
+  "ebert": null,
+  "box_office": "$66.7M",
+  "multiple": 15.244692121212122,
+  "cpi_year": 2024
+ },
+ "plot": "Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity.",
+ "synopsis": "Andrew Neiman, a 19-year-old jazz drummer, attends the prestigious Shaffer Conservatory in New York City. Terence Fletcher, the conductor of Shaffer's most prestigious ensemble, overhears Andrew practicing and prompts him to play rudiments and a double-time swing beat. Apparently unimpressed, Fletcher leaves, but later recruits him to perform in his ensemble as a backup for the core drummer, Carl Tanner. On his first day in Fletcher's class, however, Andrew quickly discovers that Fletcher is relentlessly strict and abuses students verbally, physically, and psychologically. When Andrew apparently fails to keep tempo on Hank Levy's \"Whiplash\" during his first ensemble rehearsal, Fletcher throws a chair at him, repeatedly slaps his face, and berates him. Determined to impress Fletcher, Andrew excessively practices, often until his hands bleed.\n\nAfter their first set at a jazz competition, Andrew misplaces Tanner's sheet music. Tanner cannot play without the sheets, so Fletcher allows Andrew to perform; Shaffer wins the competition. Fletcher promotes Andrew to core drummer, but abruptly reassigns the position to Ryan Connolly, a drummer from Andrew's previous ensemble within Shaffer. Andrew's single-mindedness toward music leads to him clashing with his family and breaking up with his girlfriend Nicole. One day, Fletcher begins rehearsal by announcing that Sean Casey, a former member of the Studio Band, has died in a car crash. He then pushes the three drummers to play at a faster tempo on \"Caravan\", keeping them for a grueling five-hour practice. Andrew earns the core position back after he is the only one able to perform on tempo.\n\nAndrew's bus gets a flat tire on his way to the next competition. He rents a car, but arrives late and forgets his drumsticks at the rental office. Andrew races back and retrieves them, but his car is hit by a truck on the way back. An injured Andrew runs to the theater, arriving bloodied and weak as the ensemble enters the stage. He struggles to keep tempo and Fletcher halts the performance to dismiss him. Enraged, Andrew attacks Fletcher onstage and is expelled from Shaffer. At the request of his father Jim, Andrew meets a lawyer representing Casey's parents, who explain that Casey did not die in a car crash, but actually hanged himself after suffering from depression and anxiety due to Fletcher's abuse; his parents want Fletcher held accountable. Andrew agrees to anonymously testify against Fletcher.\n\nMonths later, Andrew, having abandoned drumming altogether, encounters Fletcher playing piano at a jazz club. They have a conversation over drinks, during which Fletcher says that he was let go from Shaffer after someone complained about his conduct and admits he was harsh, but insists his methods were necessary to motivate students. He cites a story where Jo Jones allegedly threw a cymbal at Charlie Parker to argue that the next transformative jazz musician would never let themselves be discouraged. Fletcher invites Andrew to perform with his professional band at a New York JVC Jazz Festival, playing the same pieces from Shaffer; Andrew accepts. He calls Nicole to invite her to the event, but learns she has a new boyfriend.\n\nAt the festival, Fletcher reveals to Andrew that he knows Andrew testified against him; as revenge, he leads the band into Tim Simonec's \"Upswingin'\", a song that Andrew does not know nor has the sheet to. After a disastrous performance, a humiliated Andrew walks offstage. After Jim embraces him, Andrew returns to the stage, reclaims the drum kit, and cuts off Fletcher by cueing the band into \"Caravan\". Fletcher, though angered, resumes conducting. Towards the end of \"Caravan\", Andrew improvises a lengthy solo. Fletcher nods in approval before cueing the final chord.",
+ "synopsis_words": 604,
+ "episodes": [
+  {
+   "number": 296,
+   "date": "2023-02-21",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Sean Fennessey"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "aggressive",
+   "reach": 18,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "bold",
+   "reach": 15,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "romantic",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "angry",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "anxious",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "obsession",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "musician",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "young adult",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "based on short film",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "jazz",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "music teacher",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "psychological drama",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "public humiliation",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "conservatory",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "disapproving",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "drummer",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "drums",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "emotional abuse",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "enraged",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "jazz band",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "montage",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "music school",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "perfectionist",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "verbal abuse",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Miles Teller",
+   "films": 2
+  },
+  {
+   "name": "J.K. Simmons",
+   "films": 1
+  },
+  {
+   "name": "Paul Reiser",
+   "films": 2
+  },
+  {
+   "name": "Melissa Benoist",
+   "films": 1
+  },
+  {
+   "name": "Austin Stowell",
+   "films": 1
+  },
+  {
+   "name": "Nate Lang",
+   "films": 0
+  },
+  {
+   "name": "Chris Mulkey",
+   "films": 0
+  },
+  {
+   "name": "Damon Gupton",
+   "films": 0
+  },
+  {
+   "name": "Suanne Spoke",
+   "films": 0
+  },
+  {
+   "name": "Max Kasch",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "aliens-1986",
+   "title": "Aliens",
+   "year": 1986,
+   "poster": "r1x5JGpyqZU8PYhbs4UcrO1Xb6x.jpg"
+  },
+  {
+   "id": "top-gun-maverick-2022",
+   "title": "Top Gun: Maverick",
+   "year": 2022,
+   "poster": "n0YuM4f5lvGAP6MAW2kBIzugXnc.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Whiplash_%282014_film%29",
+  "wikidata": "Q15648198"
+ }
+}

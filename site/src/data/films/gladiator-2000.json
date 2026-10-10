@@ -1,0 +1,309 @@
+{
+ "id": "gladiator-2000",
+ "title": "Gladiator",
+ "year": 2000,
+ "poster": "wN2xWp1eIwCKOD0BHTcErTBv1Uq.jpg",
+ "tmdb_id": 98,
+ "directors": [
+  "Ridley Scott"
+ ],
+ "director_primary": "Ridley Scott",
+ "genres": [
+  "Action",
+  "Drama",
+  "Adventure"
+ ],
+ "runtime": 155,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2020-05-05",
+ "last": "2020-05-05",
+ "scores": {
+  "tmdb": 8.231,
+  "rt": 80.0,
+  "ebert": 2.0,
+  "box_office": "$848.0M",
+  "multiple": 4.519575223300971,
+  "cpi_year": 2024
+ },
+ "plot": "After the death of Emperor Marcus Aurelius, his devious son takes power and demotes Maximus, one of Rome's most capable generals who Marcus preferred. Eventually, Maximus is forced to become a gladiator and battle to the death against other men for the amusement of paying audiences.",
+ "synopsis": "In 180 AD, the Roman general Maximus Decimus Meridius intends to return home after he leads the Roman army to victory against Germanic tribes near Vindobona. Emperor Marcus Aurelius tells Maximus that his own son, Commodus, is unfit to rule and that he wishes Maximus to succeed him, as regent, to restore the Roman Republic. Angered by this decision, Commodus secretly assassinates his father.\n\nCommodus proclaims himself the new emperor and requests loyalty from Maximus, who refuses. Maximus is arrested by Praetorian Guards led by Quintus, who tells Maximus that he and his family will die. Maximus kills his captors and, wounded, rides for his home near Turgalium, where he finds his wife and son murdered. Maximus buries them, then collapses from his injuries. He is found by slave traders, who take him to Zuccabar and sell him to the gladiator trainer Proximo.\n\nMaximus fights in local tournaments, his combat skills helping him win matches and gain popularity. He earns the nickname \"the Spaniard\" and befriends Juba, a gladiator from Carthage, and Hagen, a gladiator from Germania. In Rome, Commodus organizes 150 days of gladiatorial games to commemorate his father and win the approval of the Roman public. Upon hearing this, Proximo reveals to Maximus that he was once a gladiator who was freed by Marcus Aurelius, and advises him to \"win the crowd\" to gain his freedom.\n\nProximo takes his gladiators to fight in Rome's Colosseum. Disguised in a masked helmet, Maximus debuts in the arena as a Carthaginian in a re-enactment of the Battle of Zama. Unexpectedly, he leads his side to victory and wins the crowd's support. Commodus and his young nephew, Lucius, enter the Colosseum to offer their congratulations. Seeing Lucius, Maximus refrains from attacking Commodus, who orders him to reveal his identity. Maximus removes his helmet and declares he will seek vengeance on Commodus, who is compelled by the crowd to let Maximus live. That evening, Maximus is visited by Lucilla, his former lover and Commodus' sister. Distrusting her, Maximus refuses her help.\n\nCommodus arranges a duel between Maximus and Tigris of Gaul, an undefeated gladiator. Several tigers are set upon Maximus, but he prevails. At the crowd's desire, Commodus orders Maximus to kill Tigris, but Maximus spares his life in defiance. In response, the crowd chants \"Maximus the Merciful\", which angers Commodus. To provoke Maximus, Commodus taunts him about the murder of his family, but Maximus resists the urge to strike him. Increasingly paranoid, Commodus instructs his advisor, Falco, to have every senator followed, and refuses to have Maximus killed for fear he will become a martyr.\n\nMaximus discovers from Cicero, his ex-orderly, that his former legions remain loyal to him. He secretly meets with Lucilla and Gracchus, an influential senator. They agree to help Maximus escape from Rome to join his legions in Ostia, which will enable him to oust Commodus and hand power back to the Roman Senate. Soon after, the Praetorians arrest Gracchus. Lucilla meets Maximus at night to arrange his escape and they share a kiss. Lucius accidentally hints at the conspiracy, and Commodus threatens him and Lucilla. Commodus sends the Praetorians to attack the gladiators' barracks, and during the battle Proximo and his men sacrifice themselves to enable Maximus to flee. Maximus makes it to the rendezvous point with Cicero, but Commodus' soldiers kill Cicero and capture Maximus.\n\nCommodus demands that Lucilla provide him with an heir. He challenges Maximus to a duel in the Colosseum to win back public approval, and stabs him before the match to gain an advantage. Despite his injury, Maximus disarms Commodus during the duel. After Quintus and the Praetorians refuse to help Commodus, he unsheathes a hidden knife, but Maximus overpowers him and kills him. Before Maximus succumbs to his injuries, he asks for political reforms, the emancipation of his gladiator allies, and the reinstatement of Gracchus as a senator. As he dies, Maximus envisions reuniting with his wife and son in the afterlife. His friends and allies honor him as \"a soldier of Rome\" and carry his body out of the arena. That night, Juba visits the Colosseum and buries figurines of Maximus' wife and son at the spot where Maximus died.",
+ "synopsis_words": 700,
+ "episodes": [
+  {
+   "number": 137,
+   "date": "2020-05-05",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Shea Serrano",
+    "Jason Concepcion"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "revenge",
+   "reach": 31,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "parent child relationship",
+   "reach": 16,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "period drama",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "historical fiction",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "rome, italy",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "combat",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "grim",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "slavery",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "2nd century",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "ancient rome",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "ancient world",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "antiquity",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "arena",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "barbarian horde",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "battlefield",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "chariot",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "commodus",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "emperor",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "gladiador",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "gladiator",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "maximus",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "philosopher",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "roman empire",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "senate",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "slave auction",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "successor",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Russell Crowe",
+   "films": 6
+  },
+  {
+   "name": "Joaquin Phoenix",
+   "films": 2
+  },
+  {
+   "name": "Connie Nielsen",
+   "films": 1
+  },
+  {
+   "name": "Oliver Reed",
+   "films": 1
+  },
+  {
+   "name": "Richard Harris",
+   "films": 2
+  },
+  {
+   "name": "Derek Jacobi",
+   "films": 0
+  },
+  {
+   "name": "Djimon Hounsou",
+   "films": 1
+  },
+  {
+   "name": "David Schofield",
+   "films": 0
+  },
+  {
+   "name": "John Shrapnel",
+   "films": 0
+  },
+  {
+   "name": "Tomas Arana",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "alien-1979",
+   "title": "Alien",
+   "year": 1979,
+   "poster": "vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg"
+  },
+  {
+   "id": "someone-to-watch-over-me-1987",
+   "title": "Someone to Watch Over Me",
+   "year": 1987,
+   "poster": "7Vqw29y8pkoHaVtwkQcQhBK9oTY.jpg"
+  },
+  {
+   "id": "american-gangster-2007",
+   "title": "American Gangster",
+   "year": 2007,
+   "poster": "sX9idXDqRUxE5ffww3n3RV5gL55.jpg"
+  },
+  {
+   "id": "the-martian-2015",
+   "title": "The Martian",
+   "year": 2015,
+   "poster": "fASz8A0yFE3QB6LgGoOfwvFSseV.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "unforgiven-1992",
+   "title": "Unforgiven",
+   "year": 1992,
+   "poster": "54roTwbX9fltg85zjsmrooXAs12.jpg"
+  },
+  {
+   "id": "l-a-confidential-1997",
+   "title": "L.A. Confidential",
+   "year": 1997,
+   "poster": "lWCgf5sD5FpMljjpkRhcC8pXcch.jpg"
+  },
+  {
+   "id": "8mm-1999",
+   "title": "8MM",
+   "year": 1999,
+   "poster": "mhr9xRpjOBqlBjgDwtiOx6FsLvV.jpg"
+  },
+  {
+   "id": "the-insider-1999",
+   "title": "The Insider",
+   "year": 1999,
+   "poster": "w695X0FvTlBCS7GSLHNILnrfqPm.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Gladiator_%282000_film%29",
+  "wikidata": "Q128518"
+ }
+}

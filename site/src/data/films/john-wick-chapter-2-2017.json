@@ -1,0 +1,248 @@
+{
+ "id": "john-wick-chapter-2-2017",
+ "title": "John Wick: Chapter 2",
+ "year": 2017,
+ "poster": "hXWBc0ioZP3cN4zCu6SN3YHXZVO.jpg",
+ "tmdb_id": 324552,
+ "directors": [
+  "Chad Stahelski"
+ ],
+ "director_primary": "Chad Stahelski",
+ "genres": [
+  "Action",
+  "Thriller",
+  "Crime"
+ ],
+ "runtime": 122,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2019-05-13",
+ "last": "2019-05-13",
+ "scores": {
+  "tmdb": 7.345,
+  "rt": 89.0,
+  "ebert": null,
+  "box_office": "$219.6M",
+  "multiple": 4.288497175,
+  "cpi_year": 2024
+ },
+ "plot": "John Wick is forced out of retirement by a former associate looking to seize control of a shadowy international assassins’ guild. Bound by a blood oath to aid him, Wick travels to Rome and does battle against some of the world’s most dangerous killers.",
+ "synopsis": "John Wick infiltrates a smuggling compound run by Abram Tarasov, who is highly strung following the recent deaths of his nephew Iosef and brother Viggo at John's hands. There, he recovers his stolen Boss 429 Mustang and defeats all of Abram's men in a violent rampage, but spares Abram himself under the promise of peace. Returning home, he sends his Mustang off to be repaired by Aurelio and attempts to restart his life of quietude.\n\nThat night, John is visited by the Camorra crime boss Santino D'Antonio, who, given John's brief return from retirement, is now seeking his services. John is bound by a \"marker\" (a medallion symbolizing a blood oath) with Santino, who had helped him complete the \"impossible task\" that allowed him to retire and marry Helen. Nevertheless, John refuses, prompting Santino to destroy his house with a grenade launcher. After surviving Santino's attack, he travels to the Continental Hotel in New York City, where Winston reminds him that the underworld has two unbreakable rules: no \"conducting business\" (i.e., assassinations) on Continental grounds, and honoring the marker. To avoid a death sentence, John reluctantly accepts Santino's marker and is tasked with assassinating Santino's sister Gianna, allowing Santino to claim her seat at the \"High Table,\" a council of twelve high-level crime bosses in the underworld. Santino sends Ares, his mute bodyguard, to observe John's mission.\n\nIn Rome, Italy, John makes his way through Gianna's coronation and finds her in her dressing room. Faced with certain death, she chooses to slit her wrists, after which he shoots her in the head to end her suffering and fulfill Santino's marker. While leaving the site, John is attacked by Gianna's bodyguard, Cassian, forcing him to flee to the nearby catacombs, where he is double-crossed by Ares, who intends to kill him to tie up loose ends on Santino's behalf. After killing most of Ares' henchmen, Cassian again pursues John, with the ensuing fight leading them into the Rome Continental, where they are stopped from \"conducting business\". John explains that he was forced to kill Gianna due to her brother's marker. Cassian, while understanding, tells him that he cannot let the assassination go unpunished, but promises to grant him a quick death.\n\nThe Rome Continental's manager, Julius, gives John safe passage back to New York. Santino has opened a contract to have John assassinated, ostensibly to avenge his sister's death. As John fights off numerous assassins, Winston visits Santino and confirms the marker's fulfillment, thus freeing John from being unable to defy or harm Santino.\n\nIn the New York City Subway, John encounters Cassian, and the two men engage in a grueling melee that ends with Cassian being stabbed in the aorta and left for dead. Now severely injured, John seeks aid from an underground crime boss known as the \"Bowery King.\" Intrigued by his intent to kill a member of the High Table, the Bowery King sportingly gives John a Kimber M1911 pistol with seven bullets—one for each million of the contract. He also directs him to an art museum, where Santino holds a gala. John attacks the museum and kills all of Santino's subordinates, including Ares, whose actions buy time for Santino to escape to the Continental, where he boasts about remaining in sanctuary indefinitely. Despite Winston's calls for restraint, John executes Santino in the Continental lounge.\n\nThe next day, Winston meets with John and explains that the Camorra has doubled the bounty on John's head, offering it globally. Further, for \"conducting business\" on Continental grounds, per the High Table's rules, Winston is forced to declare John \"excommunicado,\" terminating his privileges and access to underworld resources. However, due to their friendship, Winston delays the excommunicado status by one hour and provides him with a marker for future use. Before leaving, John tells Winston to warn every High Table assassin that he will kill everyone who tries to hunt him down. As John departs, Winston formally initiates the excommunicado contract process, setting it to go live in one hour. Increasingly tense, John begins running as phones around him start to ring.",
+ "synopsis_words": 680,
+ "episodes": [
+  {
+   "number": 72,
+   "date": "2019-05-13",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Sean Fennessey"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "revenge",
+   "reach": 31,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "neo-noir",
+   "reach": 29,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "sequel",
+   "reach": 28,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "shootout",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "martial arts",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "assassin",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "hitman",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "dog",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "hand to hand combat",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "rome, italy",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "secret organization",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "code of honor",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "continental hotel",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "dark",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "guns",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "handshake",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "precision shooting",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "roof",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "roof-top",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Keanu Reeves",
+   "films": 8
+  },
+  {
+   "name": "Common",
+   "films": 1
+  },
+  {
+   "name": "Laurence Fishburne",
+   "films": 6
+  },
+  {
+   "name": "Riccardo Scamarcio",
+   "films": 1
+  },
+  {
+   "name": "Ruby Rose",
+   "films": 1
+  },
+  {
+   "name": "Lance Reddick",
+   "films": 0
+  },
+  {
+   "name": "Peter Stormare",
+   "films": 2
+  },
+  {
+   "name": "Bridget Moynahan",
+   "films": 0
+  },
+  {
+   "name": "Franco Nero",
+   "films": 1
+  },
+  {
+   "name": "John Leguizamo",
+   "films": 1
+  }
+ ],
+ "by_director": [
+  {
+   "id": "john-wick-2014",
+   "title": "John Wick",
+   "year": 2014,
+   "poster": "wXqWR7dHncNRbxoEGybEy7QTe9h.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "the-matrix-1999",
+   "title": "The Matrix",
+   "year": 1999,
+   "poster": "dXNAPwY7VrqMAo51EKhhCJfaGb5.jpg"
+  },
+  {
+   "id": "king-of-new-york-1990",
+   "title": "King of New York",
+   "year": 1990,
+   "poster": "1MyH4MJAJZJbb6wDVeOc2bTECtK.jpg"
+  },
+  {
+   "id": "boyz-n-the-hood-1991",
+   "title": "Boyz n the Hood",
+   "year": 1991,
+   "poster": "kaS8BkTZESnkoB5i1zRQ02FIRGk.jpg"
+  },
+  {
+   "id": "point-break-1991",
+   "title": "Point Break",
+   "year": 1991,
+   "poster": "tlbERIghrQ4oofqlbF7H0K0EYnx.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/John_Wick%3A_Chapter_2",
+  "wikidata": "Q21451640"
+ }
+}

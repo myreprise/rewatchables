@@ -1,0 +1,217 @@
+{
+ "id": "tombstone-1993",
+ "title": "Tombstone",
+ "year": 1993,
+ "poster": "wGFCvylul8iEQhJOKfwZGGvXMzA.jpg",
+ "tmdb_id": 11969,
+ "directors": [
+  "George P. Cosmatos"
+ ],
+ "director_primary": "George P. Cosmatos",
+ "genres": [
+  "Western",
+  "Action"
+ ],
+ "runtime": 130,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2018-12-24",
+ "last": "2018-12-24",
+ "scores": {
+  "tmdb": 7.581,
+  "rt": 74.0,
+  "ebert": null,
+  "box_office": "$158.9M",
+  "multiple": 2.9282026,
+  "cpi_year": 2024
+ },
+ "plot": "Legendary marshal Wyatt Earp, now a weary gunfighter, joins his brothers Morgan and Virgil to pursue their collective fortune in the thriving mining town of Tombstone. But Earp is forced to don a badge again and get help from his notorious pal Doc Holliday when a gang of renegade brigands and rustlers begins terrorizing the town.",
+ "synopsis": "Wyatt Earp, a retired peace officer, reunites with his brothers Virgil and Morgan in Tucson, Arizona, where they venture on toward Tombstone, a small but growing mining town, to settle down. There they encounter Wyatt's friend Doc Holliday, a Southern gambler and expert gunslinger, who seeks relief from his tuberculosis in Arizona's drier climate. Also newly arrived in Tombstone with a traveling theatre troupe are Josephine Marcus and Mr. Fabian. The married Wyatt attempts to resist a strong attraction to Josephine. Wyatt's wife, Mattie Blaylock, is becoming dependent on laudanum. Just as Wyatt and his brothers begin to benefit from a stake in a gambling emporium and saloon, they have their first encounter with a band of outlaws called the Cowboys. Led by \"Curly Bill\" Brocious, the Cowboys are identifiable by the red sashes worn around their waist. Conflict is narrowly avoided upon Wyatt's insistence that he is retired and no longer interested in a career enforcing the law. This is also the first face-to-face meeting for Holliday and Johnny Ringo, who take an immediate dislike to one another. As tensions rise, Wyatt is pressured to help rid the town of the Cowboys. Shooting aimlessly after a visit to an opium house, Curly Bill is ordered by Marshal White to relinquish his firearms. Curly Bill shoots the marshal and is forcibly taken into custody by Wyatt. The arrest infuriates Ike Clanton and the other Cowboys, who threaten Wyatt, his brothers, and Doc. Curly Bill stands trial, but is found not guilty due to lack of witnesses. Virgil, unable to tolerate lawlessness, becomes the new marshal and imposes a weapons ban within the city limits. This leads to the legendary gunfight at the O.K. Corral, in which Billy Clanton, Frank McLaury, and Tom McLaury are killed, Virgil and Morgan are wounded, and the allegiance of county sheriff Johnny Behan to the Cowboys is made clear. As retribution for the Cowboy deaths, Wyatt's brothers are ambushed: Morgan is killed, while Virgil is maimed. A despondent Wyatt and his family leave Tombstone and board a train. Followed by Ike Clanton and Frank Stilwell, Wyatt sees that his family leaves safely, and then surprises the assassins who had come to kill them. Stilwell is killed, but Wyatt lets Clanton return to send a message. Wyatt announces that he is a U.S. Marshal and that he intends to kill any man he sees wearing a red sash. Wyatt, Doc, a reformed Cowboy named Sherman McMasters, and allies Texas Jack Vermillion and Turkey Creek Jack Johnson, join forces to administer justice. Wyatt and his posse are ambushed by the Cowboys in a riverside forest. Wyatt wades out into the river and engages in a gunfight which ends with Wyatt killing Brocious. Johnny Ringo then becomes the head of the Cowboys. Doc's health is worsening and they depend on the accommodations of Henry Hooker. At Hooker's ranch, they encounter Josephine, learning that Mr. Fabian was shot by Cowboys who tried to steal Josephine's watch. Wyatt finally realizes he wants to be with Josephine, but is unable to commit to her because of his ongoing fight against the Cowboys. Ringo sends a messenger to the ranch telling Wyatt that he wants a showdown to end the hostilities and Wyatt agrees. Doc knows he is a better match for Ringo, but is in no condition for a gunfight. Wyatt sets off for the showdown, not knowing that Doc has already beat him to the scene. Doc confronts a surprised Ringo, saying they are just finishing their previous challenge \"to play for blood\". Doc gets the first shot off, hitting Ringo, and killing him. Wyatt runs when he hears the gunshot only to encounter Doc. They then press on to finish the job of eliminating the Cowboys, although Ike Clanton escapes their vengeance after he throws down his red sash. Doc is later sent to a sanatorium in Glenwood Springs, Colorado. After a visit from Wyatt, Doc looks at his bare feet and the condition of the bed in which he is lying: realizing he is about to die with his boots off, he passes away peacefully, muttering \"I'll be damned. Oh, this is funny.\" At Doc's urging, Wyatt pursues Josephine, locating her in Denver. Robert Mitchum narrates an account of their long marriage, ending with Wyatt's death in Los Angeles in 1929.",
+ "synopsis_words": 723,
+ "episodes": [
+  {
+   "number": 53,
+   "date": "2018-12-24",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Sean Fennessey"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "19th century",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "right and justice",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "arizona",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "gambler",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "historical figure",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "doc holliday",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "gunfighter",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "ok corral",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "retirement",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "saloon",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "tombstone arizona",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "tuberculosis",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "wyatt earp",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Kurt Russell",
+   "films": 4
+  },
+  {
+   "name": "Val Kilmer",
+   "films": 6
+  },
+  {
+   "name": "Michael Biehn",
+   "films": 3
+  },
+  {
+   "name": "Powers Boothe",
+   "films": 2
+  },
+  {
+   "name": "Robert John Burke",
+   "films": 1
+  },
+  {
+   "name": "Dana Delany",
+   "films": 0
+  },
+  {
+   "name": "Sam Elliott",
+   "films": 2
+  },
+  {
+   "name": "Stephen Lang",
+   "films": 0
+  },
+  {
+   "name": "Terry O'Quinn",
+   "films": 0
+  },
+  {
+   "name": "Joanna Pacula",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "rambo-first-blood-part-ii-1985",
+   "title": "Rambo: First Blood Part II",
+   "year": 1985,
+   "poster": "fVwRtWqEPdsCH21BVDGqgkAQcff.jpg"
+  },
+  {
+   "id": "cobra-1986",
+   "title": "Cobra",
+   "year": 1986,
+   "poster": "jCxfbTh8JvJil5edhNywxaTHoWv.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "escape-from-new-york-1981",
+   "title": "Escape from New York",
+   "year": 1981,
+   "poster": "vH9llaphjAssRGi0k7e75tD40Ce.jpg"
+  },
+  {
+   "id": "the-terminator-1984",
+   "title": "The Terminator",
+   "year": 1984,
+   "poster": "qvktm0BHcnmDpul4Hz01GIazWPr.jpg"
+  },
+  {
+   "id": "aliens-1986",
+   "title": "Aliens",
+   "year": 1986,
+   "poster": "r1x5JGpyqZU8PYhbs4UcrO1Xb6x.jpg"
+  },
+  {
+   "id": "top-gun-1986",
+   "title": "Top Gun",
+   "year": 1986,
+   "poster": "xUuHj3CgmZQ9P2cMaqQs4J0d4Zc.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Tombstone_%28film%29",
+  "wikidata": "Q1420651"
+ }
+}

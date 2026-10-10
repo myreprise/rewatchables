@@ -1,0 +1,169 @@
+{
+ "id": "broadcast-news-1987",
+ "title": "Broadcast News",
+ "year": 1987,
+ "poster": "kQNR1Lc0qAF5xuBySpDn481KVjb.jpg",
+ "tmdb_id": 12626,
+ "directors": [
+  "James L. Brooks"
+ ],
+ "director_primary": "James L. Brooks",
+ "genres": [
+  "Comedy",
+  "Romance"
+ ],
+ "runtime": 133,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2019-03-11",
+ "last": "2019-03-11",
+ "scores": {
+  "tmdb": 6.782,
+  "rt": 98.0,
+  "ebert": 4.0,
+  "box_office": "$185.9M",
+  "multiple": 3.366525,
+  "cpi_year": 2024
+ },
+ "plot": "A high-strung news producer finds herself in a love triangle between a talented but self-doubting reporter and a charming news anchor who embodies the growing trivialization of news that she is determined to fight against.",
+ "synopsis": "Jane Craig is a news producer who is passionate about reporting and abhors the trend towards soft news in broadcasts. Her best friend and collaborator, Aaron Altman, is a writer and reporter lacking in social skills. The two work in the Washington, D.C. bureau of a national TV network. The bureau hires Tom Grunick, a local news anchor who is handsome, likable, and telegenic but lacks news experience and isn't especially bright.\n\nAaron and Jane go to Nicaragua to report on the Contras and get caught up in a shooting battle between them and the Sandinista rebels, bringing home footage that wins the approval of their national anchor. At an office party, news arrives of a Libyan plane having bombed a U.S. military base in Italy. The network chief decides to air a special report, with Tom as anchor and Jane as executive producer. Aaron is devastated at Tom's selection. Watching from his home, he calls Jane with pertinent information, which she feeds to Tom through his earpiece. With the combination of Tom's on-camera poise and Jane's hard-news skills, the report is a great success. Their teamwork also intensifies their mutual attraction.\n\nWanting to complete a story without outside assistance, Tom creates a piece on date rape that includes an interview with a rape victim, where Tom is shown tearing up in reaction. In the face of potential layoffs, Aaron receives an opportunity to anchor the weekend news due to most of his colleagues going to the White House Correspondents' Dinner. He seeks advice from Tom, who encourages Aaron to be more salesman-like in his approach. Aaron takes Tom's advice but during the broadcast begins sweating uncontrollably, resulting in a disastrous broadcast. Meanwhile, Jane and Tom progress romantically at the White House Correspondents' Dinner.  But before things get more involved, Jane leaves to console Aaron. The two have a heated argument, where Aaron tells Jane that Tom represents everything she hates about the direction of news media. He also tells Jane that he is in love with her.\n\nThe layoffs hit the network, resulting in many colleagues losing their jobs. Tom is moved to the London office, indicating that he is being groomed for a national anchor position; Jane is promoted to bureau chief. Tom and Jane agree to take a romantic getaway together before starting their new jobs. Aaron tells Jane he plans to take a job at a television station in Portland, Oregon. Before he leaves, Aaron  tells Jane that Tom's tears during his date-rape piece were staged; reviewing the footage, Jane realizes that he is correct. Jane confronts Tom at the airport, arguing that his actions were a breach of journalistic ethics and that she cannot in good conscience become involved with him. Tom rebuffs these claims but relents, leaving a devastated Jane behind.\n\nSeven years later, the trio meet again; Tom has taken over as national anchor, Aaron has a wife and child, and Jane has a new boyfriend. Jane plans to take a managing editor role for the network in New York, working with Tom again. Tom leaves after Jane declines a dinner invitation with him and his fiancée, while she and Aaron catch up on their respective lives.",
+ "synopsis_words": 534,
+ "episodes": [
+  {
+   "number": 63,
+   "date": "2019-03-11",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Sean Fennessey",
+    "Chuck Klosterman"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "journalist",
+   "reach": 12,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "washington dc, usa",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "journalism",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "love triangle",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "television producer",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "neurotic",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "workaholic",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "tv news anchor",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Holly Hunter",
+   "films": 1
+  },
+  {
+   "name": "William Hurt",
+   "films": 3
+  },
+  {
+   "name": "Albert Brooks",
+   "films": 1
+  },
+  {
+   "name": "Robert Prosky",
+   "films": 2
+  },
+  {
+   "name": "Lois Chiles",
+   "films": 1
+  },
+  {
+   "name": "Joan Cusack",
+   "films": 1
+  },
+  {
+   "name": "Peter Hackes",
+   "films": 0
+  },
+  {
+   "name": "Christian Clemenson",
+   "films": 0
+  },
+  {
+   "name": "Jack Nicholson",
+   "films": 4
+  },
+  {
+   "name": "Robert Katims",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "body-heat-1981",
+   "title": "Body Heat",
+   "year": 1981,
+   "poster": "5LipPcaW1J9IjAP7TOTesw8OcMS.jpg"
+  },
+  {
+   "id": "thief-1981",
+   "title": "Thief",
+   "year": 1981,
+   "poster": "bpjRGwfYJ71bU0hNhLIz7g3t6Oy.jpg"
+  },
+  {
+   "id": "the-big-chill-1983",
+   "title": "The Big Chill",
+   "year": 1983,
+   "poster": "rU8kjMEL5Mn0EWm3gOShPHBEZ4l.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Broadcast_News_%28film%29",
+  "wikidata": "Q1539062"
+ }
+}

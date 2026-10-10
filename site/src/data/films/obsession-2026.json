@@ -1,0 +1,179 @@
+{
+ "id": "obsession-2026",
+ "title": "Obsession",
+ "year": 2026,
+ "poster": "bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
+ "tmdb_id": 1339713,
+ "directors": [
+  "Curry Barker"
+ ],
+ "director_primary": "Curry Barker",
+ "genres": [
+  "Horror",
+  "Thriller"
+ ],
+ "runtime": 109,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2026-07-27",
+ "last": "2026-07-27",
+ "scores": {
+  "tmdb": 8.207,
+  "rt": 94.0,
+  "ebert": null,
+  "box_office": "$480.7M",
+  "multiple": 674.2622866666667,
+  "cpi_year": 2024
+ },
+ "plot": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
+ "synopsis": "Baron \"Bear\" Bailey harbors romantic feelings for his friend Nikki Freeman. The two work at a music store with their friends Ian and Sarah. Bear returns home one night to find his cat, Sandy, dead after consuming oxycodone. He later visits a crystal shop to buy Nikki a replacement crystal necklace, but instead buys her a \"One Wish Willow\", a novelty toy that claims to grant someone one wish when broken. After a group hangout that night, Nikki asks Bear if he likes her, but he is unable to admit his feelings. Frustrated, he breaks the One Wish Willow and wishes that Nikki loved him more than anyone in the world. Nikki immediately reappears and asks to stay with Bear, saying her estranged father is dying of cancer. In bed, Nikki kisses Bear but abruptly screams and pulls back.\n\nThe next morning, Nikki creates a memorial with Sandy's remains, and later explains her erratic behavior was the result of MDMA. After confessing their mutual feelings, they begin happily dating. During a date, Ian calls Bear and reveals that Nikki had told Sarah that she saw Bear as her \"little brother\" shortly before they began dating, and that she lied about her father's cancer. Bear questions Nikki about this, and she reacts with sudden defensiveness and anger. That night, Bear awakens to Nikki watching him sleep, and she cries hysterically, accusing him of not loving her.\n\nThe next day, Bear discovers that Nikki has duct taped the door shut in an attempt to keep him home, and later discovers the sandwich she prepared him was made using Sandy's remains. When Bear calls One Wish Willow's customer service to alter his wish, they say the wish will only expire when he dies before putting a screaming Nikki on the line, causing Bear to hang up in panic. He returns home to find that Nikki stood in place all day awaiting his return, and is covered in bodily fluids.\n\nNikki accompanies Bear to a party at Ian's house, against the latter's wishes. During a Jenga drinking game, Nikki recites a violent, incestuous retelling of \"Hansel and Gretel\" that she has written. Bear draws a block daring him to kiss the person to his left, who is Sarah. Nikki ousts Sarah from her seat and kisses Bear instead, before suddenly screaming and stabbing herself with a broken bottle. Bear drives Nikki to the hospital, but brings her back home after she refuses treatment.\n\nThat night, Sarah texts Bear to meet at the park. As Bear attempts to leave, a lucid Nikki speaks, claiming her obsessive personality is asleep, and begs Bear to kill her. He refuses, offended that she would rather die than continue to be with him. At the park, Sarah reveals that Ian and Nikki had been casually hooking up for two years and expresses concern that Nikki is using him for revenge against Ian. After Sarah hints at her own attraction to Bear, Nikki suddenly smashes the car window and repeatedly slams Sarah's head into a brick, killing her. After they move the body, Nikki instructs Bear to go home while she disposes of it.\n\nBear buys the remaining One Wish Willows from the shop to reverse his wish, but is unable to break one. He explains everything to Ian and begs him to undo the wish. Ian sarcastically wishes for a billion dollars instead, causing cash to rain from the ceiling. Bear returns home with the last One Wish Willow to get Nikki to reverse his wish and discovers Sarah's mutilated corpse. Nikki, dressed like Sarah, then threatens Bear and herself at gunpoint. Ian arrives and is immediately shot dead by Nikki. Bear locks himself in the bathroom and prepares to shoot himself but is unable to go through with it. He instead consuming the remaining oxycodone before immediately changing mind and tries to induce vomiting just as Nikki breaks the last One Wish Willow. Under her wish's influence, Bear exits the bathroom and kisses Nikki before dying from the overdose. Heartbroken, Nikki prepares to shoot herself, but Bear's death causes her to regain control of herself. Horrified by the carnage surrounding her, Nikki wails hysterically.",
+ "synopsis_words": 696,
+ "episodes": [
+  {
+   "number": 473,
+   "date": "2026-07-27",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Hanks",
+   "verdict_tone": "hanks",
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Joanna Robinson"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "obsession",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "supernatural horror",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "possession",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "psychological horror",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "supernatural",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "couple",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "wish",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "absurdism",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "cursed object",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "independent film",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "psychological",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "self-harm",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "unrequited love",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Michael Johnston",
+   "films": 1
+  },
+  {
+   "name": "Inde Navarrette",
+   "films": 1
+  },
+  {
+   "name": "Cooper Tomlinson",
+   "films": 1
+  },
+  {
+   "name": "Megan Lawless",
+   "films": 1
+  },
+  {
+   "name": "Andy Richter",
+   "films": 1
+  },
+  {
+   "name": "Haley Fitzgerald",
+   "films": 0
+  },
+  {
+   "name": "Darin Toonder",
+   "films": 0
+  },
+  {
+   "name": "Anthony Pavone",
+   "films": 0
+  },
+  {
+   "name": "Justice",
+   "films": 0
+  },
+  {
+   "name": "Anthony Casabianca",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Obsession_%282025_film%29",
+  "wikidata": "Q136163067"
+ }
+}

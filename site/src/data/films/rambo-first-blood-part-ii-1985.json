@@ -1,0 +1,302 @@
+{
+ "id": "rambo-first-blood-part-ii-1985",
+ "title": "Rambo: First Blood Part II",
+ "year": 1985,
+ "poster": "fVwRtWqEPdsCH21BVDGqgkAQcff.jpg",
+ "tmdb_id": 1369,
+ "directors": [
+  "George P. Cosmatos"
+ ],
+ "director_primary": "George P. Cosmatos",
+ "genres": [
+  "Action",
+  "Adventure",
+  "Thriller",
+  "War"
+ ],
+ "runtime": 96,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2026-09-14",
+ "last": "2026-09-14",
+ "scores": {
+  "tmdb": 6.67,
+  "rt": 33.0,
+  "ebert": null,
+  "box_office": "$875.8M",
+  "multiple": 6.827282545454546,
+  "cpi_year": 2024
+ },
+ "plot": "John Rambo is released from prison by the government for a top-secret covert mission to the last place on Earth he'd want to return - the jungles of Vietnam.",
+ "synopsis": "Three years after the incident in Hope, Washington, former U.S. Army Green Beret John Rambo is imprisoned at a penal labor facility. He is met by Colonel Sam Trautman, his commanding officer during the Vietnam War. Trautman explains that the U.S. government is under pressure because of reports that POWs are still being held in Vietnam. To placate the public, a solo infiltration mission has been approved to confirm these reports, and Rambo's name was suggested as he is versed with the POW camp. Rambo agrees to take the mission in exchange for a presidential pardon.\n\nIn Thailand, Rambo and Trautman meet helicopter pilot Michael Ericson, his partner Lifer, and Marshall Roger Murdock, the bureaucrat overseeing the operation. He is instructed to take pictures of a suspected POW camp, but not to engage enemy personnel or attempt a rescue. Trautman is the only person involved in the operation whom Rambo trusts due to his suspicions of Murdock's motives.\n\nDuring his aerial insertion, Rambo's parachute gets caught. He is forced to cut himself free and jettison most of his gear, leaving him only with knives and a bow and arrow. His assigned contact, Vietnamese intelligence agent Co Bao, arranges for local river pirates to take them upriver. Rambo reaches the Vietnamese camp, which is commanded by Captain Vinh and Lieutenant Tay. Rambo confirms the presence of POWs. Against orders, he frees one of the POWs, Banks.\n\nRambo, Co and Banks attempt to withdraw, but the river pirates betray them as a Vietnamese gunboat closes in. Rambo kills the pirates and disables the gunboat with an RPG. Before reaching an extraction point, Rambo and Banks separate from Co. Under mortar attack, they are spotted by Trautman aboard a rescue helicopter with Ericson and Lifer. Trautman informs Murdock, but Murdock responds by ordering Ericson to abort the rescue. Lifer holds Trautman at gunpoint, and Rambo and Banks can only watch as the helicopter abandons them before they are captured by the Vietnamese. Back at the base, Trautman confronts Murdock with the accusation that the mission was a sham, and any evidence of POWs would have been ignored. Murdock says that the discovery of POWs would have forced the United States to expend resources, or possibly even start another war to secure the release of \"a bunch of forgotten ghosts.\"\n\nAt the POW camp, Rambo learns that the Vietnamese are being assisted by the Soviet military. Soviet liaison Lieutenant Colonel Sergei Podovsky and his right-hand man, Sergeant Yushin, abuse and interrogate Rambo. Podovsky demands that he broadcast a message to Murdock as a warning against further rescue missions. Rambo refuses and is tortured with electric shocks. He relents when Banks is brought in and threatened with eye-gouging. Rambo dials in a secret radio frequency to contact his base but threatens Murdock for his treachery, henceforth he says to him, \"I'm coming to get you.\" Rambo then overpowers his captors and escapes with the help of Co, who managed to infiltrate the camp. Both are on the run, and Rambo agrees to take Co to the United States. But later, Co is shot by Lieutenant Tay. Rambo promises a dying Co that he will remember her and buries her in the mud, cutting a red headband from her dress and donning her necklace.\n\nRambo begins to kill the Russians and Vietnamese soldiers by guerilla tactics and weaponry, and kills Tay with an explosive-tipped arrow, avenging Co's death. Yushin attacks him from a helicopter, but Rambo climbs on board and throws him to his death, hijacks the helicopter, and uses it to bombard the POW camp. He frees Banks and other POWs. They board the captured helicopter, but are pursued by Podovsky in a Mil Mi-24 attack helicopter. Rambo fakes a crash to trick Podovsky, then kills him by destroying his helicopter with a rocket launcher.\n\nRambo and the POWs return to base. Rambo hits Ericson for abandoning him, then destroys all of their computer equipment in the mission control room. He one last time threatens Murdock and demands that the other POWs be rescued. Trautman tries to convince Rambo to return to a peaceful life at home but Rambo refuses, saying that he wants the country to care for its soldiers, just like how they care for the country. Trautman then asks Rambo how he would live, to which Rambo replies \"day by day\" as he walks off into the distance.",
+ "synopsis_words": 736,
+ "episodes": [
+  {
+   "number": 481,
+   "date": "2026-09-14",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Kyle Brandt"
+   ],
+   "note": "Raj did not write a review but gave it a thumbs up on TV"
+  }
+ ],
+ "keywords": [
+  {
+   "word": "revenge",
+   "reach": 31,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "sequel",
+   "reach": 28,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "explosion",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "chase",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "vietnam veteran",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "helicopter",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "torture",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "vietnam",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "vietnam war",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "agent",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "government",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "photography",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "prisoner",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "soldier",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "us army",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "bow and arrow",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "forest",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "leech",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "liberation of prisoners",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "submachine gun",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "denunciation",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "electrical torture",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "exploding body",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "liberation",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "machinegun",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "prisoner of war",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "russian army",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Sylvester Stallone",
+   "films": 13
+  },
+  {
+   "name": "Richard Crenna",
+   "films": 3
+  },
+  {
+   "name": "Charles Napier",
+   "films": 1
+  },
+  {
+   "name": "Steven Berkoff",
+   "films": 1
+  },
+  {
+   "name": "Julia Nickson",
+   "films": 1
+  },
+  {
+   "name": "Martin Kove",
+   "films": 1
+  },
+  {
+   "name": "George Cheung",
+   "films": 0
+  },
+  {
+   "name": "Andy Wood",
+   "films": 0
+  },
+  {
+   "name": "William Ghent",
+   "films": 0
+  },
+  {
+   "name": "Vojislav Govedarica",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "cobra-1986",
+   "title": "Cobra",
+   "year": 1986,
+   "poster": "jCxfbTh8JvJil5edhNywxaTHoWv.jpg"
+  },
+  {
+   "id": "tombstone-1993",
+   "title": "Tombstone",
+   "year": 1993,
+   "poster": "wGFCvylul8iEQhJOKfwZGGvXMzA.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "first-blood-1982",
+   "title": "First Blood",
+   "year": 1982,
+   "poster": "a9sa6ERZCpplbPEO7OMWE763CLD.jpg"
+  },
+  {
+   "id": "rocky-1976",
+   "title": "Rocky",
+   "year": 1976,
+   "poster": "xSI0dbKLDETwhiVUy6hGE8KXUln.jpg"
+  },
+  {
+   "id": "rocky-ii-1979",
+   "title": "Rocky II",
+   "year": 1979,
+   "poster": "nMaiiu0CzT77U4JZkUYV7KqdAjK.jpg"
+  },
+  {
+   "id": "body-heat-1981",
+   "title": "Body Heat",
+   "year": 1981,
+   "poster": "5LipPcaW1J9IjAP7TOTesw8OcMS.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Rambo%3A_First_Blood_Part_II",
+  "wikidata": "Q319783"
+ }
+}

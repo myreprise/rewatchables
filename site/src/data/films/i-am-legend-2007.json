@@ -1,0 +1,246 @@
+{
+ "id": "i-am-legend-2007",
+ "title": "I Am Legend",
+ "year": 2007,
+ "poster": "iPDkaSdKk2jRLTM65UOEoKtsIZ8.jpg",
+ "tmdb_id": 6479,
+ "directors": [
+  "Francis Lawrence"
+ ],
+ "director_primary": "Francis Lawrence",
+ "genres": [
+  "Drama",
+  "Science Fiction",
+  "Thriller"
+ ],
+ "runtime": 101,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2022-12-20",
+ "last": "2022-12-20",
+ "scores": {
+  "tmdb": 7.223,
+  "rt": 68.0,
+  "ebert": 3.0,
+  "box_office": "$885.9M",
+  "multiple": 3.90273368,
+  "cpi_year": 2024
+ },
+ "plot": "Robert Neville is a scientist who was unable to stop the spread of the terrible virus that was incurable and man-made. Immune, Neville is now the last human survivor in what is left of New York City and perhaps the world. For three years, Neville has faithfully sent out daily radio messages, desperate to find any other survivors who might be out there. But he is not alone.",
+ "synopsis": "In September 2012, military virologist Lieutenant Colonel Robert Neville is the last healthy and immune human in New York City. A genetically-engineered variant of the measles virus created by Dr. Alice Krippin, meant as a cure for cancer, had mutated into a lethal strain. It spread throughout the world, killing 90% of humanity. Most survivors became predatory, vampiric beingsThe DVD/Blu-Ray subtitles refer to the infected as hemocytes – actually a cell type found in an insect's immune system. called \"Darkseekers\" that emerge after dusk to prey on those immune to the virus. In December 2009, Neville had lost his wife Zoe and daughter Marley in a helicopter accident during a chaotic quarantine of Manhattan. Neville's daily routine includes experimenting on infected rats to find a cure for the virus and trips through a decaying Manhattan to collect supplies or hunt for deer. He keeps vigil each day for a response to his recorded AM radio broadcasts, which instruct any survivors to meet him at midday at the South Street Seaport. Neville's isolation is broken only by the companionship of his pet German Shepherd Samantha and interaction with mannequins he has set up as patrons of a video store. To test a treatment, Neville sets a snare trap and captures an infected woman. An enraged mutated alpha male attempts to rescue her, but is driven back by the sunlight. In the laboratory in his heavily fortified Washington Square Park home, Neville tries the new serum on the infected woman, seemingly without success. The next day, after finding one of his mannequins moved out in the street in front of Grand Central Terminal, Neville is caught in a snare trap and passes out. He regains consciousness at dusk and frees himself, but a pack of infected dogs attack Neville and Sam. Although Neville and Sam kill the dogs, an infected dog bites Sam during the fight. Neville brings Sam home and attempts to save the dog by injecting a strain of his serum, but it is too late, as Sam starts to mutate, which then forces Neville to kill her. Overwhelmed by grief and rage of the loss of his dog, Neville attacks a group of the infected on the seaport the following night with his SUV. He kills many, but they overwhelm and nearly kill him before he is rescued by a pair of immune humans, a woman named Anna and a boy named Ethan, who followed his radio broadcasts. Anna and Ethan take him back to his home. Anna explains that they are making their way to a survivors' camp in Bethel, Vermont. Neville does not believe that such a camp exists and expresses doubt when Anna says that God told her about it. The following night, the alpha male leads an infected mob in an attack on Neville's house. Anna, who was unaware of Neville's precautions in covering his scent outside the house, inadvertently allowed the infected to follow their trail. As the infected charge the house, Neville stops the first wave with claymore mines, but finds himself defenseless against the second wave. As Neville tries to find Anna and Ethan, an infected enters and attacks him. The infected retreats upstairs and begins tearing a hole in the roof so others can get in. After Neville saves Anna and Ethan, they retreat into the laboratory. They seal themselves in a reinforced plexiglass room with the infected woman, and discover that Neville's treatment is working; the subject looks much more human. The infected break in and the alpha male begins to throw himself against the plexiglass, cracking it. Neville draws a vial of the infected woman's blood and gives it to Anna before shutting them inside a coal chute in the back of the lab. He detonates an M67 grenade to destroy the attackers at the cost of his own life. Anna and Ethan arrive at the survivors' colony, where Anna hands over the antidote. Anna later states that the survivors are Neville's legacy, as his fight for a cure became legend.",
+ "synopsis_words": 672,
+ "episodes": [
+  {
+   "number": 287,
+   "date": "2022-12-20",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Van Lathan"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "dystopia",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "admiring",
+   "reach": 15,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "survival",
+   "reach": 12,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "saving the world",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "desperate",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "loneliness",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "post-apocalyptic future",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "end of the world",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "matter of life and death",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "pets",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "alone",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "infection",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "pandemic",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "virus",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "helplessness",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "lost civilization",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "zombie",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Will Smith",
+   "films": 7
+  },
+  {
+   "name": "Alice Braga",
+   "films": 1
+  },
+  {
+   "name": "Charlie Tahan",
+   "films": 1
+  },
+  {
+   "name": "Dash Mihok",
+   "films": 1
+  },
+  {
+   "name": "Salli Richardson-Whitfield",
+   "films": 1
+  },
+  {
+   "name": "Willow Smith",
+   "films": 0
+  },
+  {
+   "name": "Emma Thompson",
+   "films": 0
+  },
+  {
+   "name": "Darrell Foster",
+   "films": 0
+  },
+  {
+   "name": "Joanna Numata",
+   "films": 0
+  },
+  {
+   "name": "Samuel Glen",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "bad-boys-1995",
+   "title": "Bad Boys",
+   "year": 1995,
+   "poster": "x1ygBecKHfXX4M2kRhmFKWfWbJc.jpg"
+  },
+  {
+   "id": "independence-day-1996",
+   "title": "Independence Day",
+   "year": 1996,
+   "poster": "p0BPQGSPoSa8Ml0DAf2mB2kCU0R.jpg"
+  },
+  {
+   "id": "enemy-of-the-state-1998",
+   "title": "Enemy of the State",
+   "year": 1998,
+   "poster": "x9pXrMKLsBGGOFyyZ0Gwt9YpVub.jpg"
+  },
+  {
+   "id": "ali-2001",
+   "title": "Ali",
+   "year": 2001,
+   "poster": "32l3FaCzs8cXWps6hkgNJAcOsP.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/I_Am_Legend_%28film%29",
+  "wikidata": "Q212689"
+ }
+}

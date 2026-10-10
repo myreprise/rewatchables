@@ -1,0 +1,187 @@
+{
+ "id": "ace-ventura-pet-detective-1994",
+ "title": "Ace Ventura: Pet Detective",
+ "year": 1994,
+ "poster": "pqiRuETmuSybfnVZ7qyeoXhQyN1.jpg",
+ "tmdb_id": 3049,
+ "directors": [
+  "Tom Shadyac"
+ ],
+ "director_primary": "Tom Shadyac",
+ "genres": [
+  "Comedy",
+  "Crime",
+  "Mystery"
+ ],
+ "runtime": 86,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2026-02-09",
+ "last": "2026-02-09",
+ "scores": {
+  "tmdb": 6.581,
+  "rt": 47.0,
+  "ebert": 1.0,
+  "box_office": "$227.0M",
+  "multiple": 7.1478264,
+  "cpi_year": 2024
+ },
+ "plot": "He's Ace Ventura: Pet Detective. The Ace is on the case to find the Miami Dolphins' missing mascot and quarterback Dan Marino. He goes eyeball to eyeball with a man-eating shark, stakes out the Miami Dolphins and woos and wows the ladies. Whether he's undercover, under fire or underwater, he always gets his man… or beast!",
+ "synopsis": "Ace Ventura is a private investigator living in Miami, Florida, who specializes in retrieval of tame or captive animals. Despite the success of his methods, he does not often receive many assignments and therefore cannot pay rent or repair his battered 1970s Chevrolet Monte Carlo; whereas his eccentricities make him the laughingstock of the Miami-Dade Police Department. At Joe Robbie Stadium, Snowflake, a bottlenose dolphin mascot of the Miami Dolphins, is kidnapped two weeks before the team is due to play in the imminent Super Bowl. Dolphins owner Mr. Riddle, believing the team will fear to lose the Super Bowl unless Snowflake is returned, orders his head of operations, Roger Podacter (Troy Evans, and chief publicist Melissa Robinson to find Snowflake. Ventura is hired to solve the case and discovers his first clue in the form of a rare triangular-cut orange amber stone, which he speculates to have fallen from a 1984 AFC Championship ring. Ventura then tries to find his culprit by tricking each member of the championship squad into showing their rings; the attempt fails. Later, Podacter mysteriously falls to his death from his apartment, which Robinson and Ventura go to investigate. Although Miami Police Lt. Lois Einhorn insists it was suicide, Ventura proves it was murder, embarrassing her. While trying to find how Podacter's death is connected to Snowflake's disappearance, Ace learns of a former Dolphins kicker named Ray Finkle, whom he missed during his earlier investigation. Finkle had missed the potentially game-winning field goal kick at the end of Super Bowl XVII, causing the Dolphins to lose the game and his own career to fail, also upon learning that the team gave Snowflake his number and taught him how to kick a field goal, to which Finkle found as an insult. Having discovered Finkle's obsession with fellow-player Dan Marino, whom the kicker blames for his loss, Ventura is sure Finkle is the culprit, but cannot find him. Ace and Melissa go to a mental hospital where Finkle was last seen; where under the guise of a mental patient, Ace searches Finkle's belongings and discovers a newspaper article about a missing woman, coincidentally named Lois Einhorn. Studying this, Ventura realizes to his disgust that Lt. Lois Einhorn is Finkle in disguise. Ventura then follows Finkle to an abandoned dock, where he finds a kidnapped Marino and Snowflake. When the police arrive, Finkle orders the cops to shoot Ace; whereupon Ace tries to expose Finkle by ripping off her clothes, but fails until assisted by Marino, to which also concludes, with the evidence of a love letter, Finkle murdered Podacter because he learned who Einhorn was. Marino and Snowflake return in time for the Super Bowl XXVII between the Miami Dolphins and Philadelphia Eagles. At halftime, Ventura attempts to capture an albino pigeon that was the subject of another case he is handling, but is prevented by Swoop, the Eagles' mascot. Enraged, Ventura beats the mascot, while being thanked on the JumboTron for saving Marino and Snowflake.",
+ "synopsis_words": 499,
+ "episodes": [
+  {
+   "number": 446,
+   "date": "2026-02-09",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Hanks",
+   "verdict_tone": "hanks",
+   "host": "Bill Simmons",
+   "guests": [
+    "Zach Lowe",
+    "Craig Horlbeck"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "detective",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "private detective",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "slapstick comedy",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "miami, florida",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "pets",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "stupidity",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "animals",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "dolphin",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "human animal relationship",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "mascot",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Jim Carrey",
+   "films": 3
+  },
+  {
+   "name": "Courteney Cox",
+   "films": 1
+  },
+  {
+   "name": "Sean Young",
+   "films": 3
+  },
+  {
+   "name": "Tone Loc",
+   "films": 1
+  },
+  {
+   "name": "Dan Marino",
+   "films": 1
+  },
+  {
+   "name": "Noble Willingham",
+   "films": 1
+  },
+  {
+   "name": "Troy Evans",
+   "films": 0
+  },
+  {
+   "name": "Raynor Scheine",
+   "films": 0
+  },
+  {
+   "name": "Udo Kier",
+   "films": 0
+  },
+  {
+   "name": "Frank Adonis",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "stripes-1981",
+   "title": "Stripes",
+   "year": 1981,
+   "poster": "toyyN62VLUXoUudFbHPdrrmRFSZ.jpg"
+  },
+  {
+   "id": "no-way-out-1987",
+   "title": "No Way Out",
+   "year": 1987,
+   "poster": "93CzsBvRhg035yvQosRtSsTL19v.jpg"
+  },
+  {
+   "id": "dumb-and-dumber-1994",
+   "title": "Dumb and Dumber",
+   "year": 1994,
+   "poster": "4LdpBXiCyGKkR8FGHgjKlphrfUc.jpg"
+  },
+  {
+   "id": "the-truman-show-1998",
+   "title": "The Truman Show",
+   "year": 1998,
+   "poster": "vuza0WqY239yBXOadKlGwJsZJFE.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Ace_Ventura%3A_Pet_Detective",
+  "wikidata": "Q340138"
+ }
+}

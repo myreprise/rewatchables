@@ -1,0 +1,241 @@
+{
+ "id": "no-way-out-1987",
+ "title": "No Way Out",
+ "year": 1987,
+ "poster": "93CzsBvRhg035yvQosRtSsTL19v.jpg",
+ "tmdb_id": 10083,
+ "directors": [
+  "Roger Donaldson"
+ ],
+ "director_primary": "Roger Donaldson",
+ "genres": [
+  "Thriller",
+  "Drama"
+ ],
+ "runtime": 114,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2024-07-23",
+ "last": "2024-07-23",
+ "scores": {
+  "tmdb": 6.849,
+  "rt": 92.0,
+  "ebert": 4.0,
+  "box_office": "$98.1M",
+  "multiple": 2.367301,
+  "cpi_year": 2024
+ },
+ "plot": "Navy Lt. Tom Farrell meets a young woman, Susan Atwell, and they share a passionate fling. Farrell then finds out that his superior, Defense Secretary David Brice, is also romantically involved with Atwell. When the young woman turns up dead, Farrell is put in charge of the murder investigation. He begins to uncover shocking clues about the case, but when details of his encounter with Susan surface, he becomes a suspect as well.",
+ "synopsis": "In a house near the Pentagon, Lieutenant Commander Tom Farrell of the Office of Naval Intelligence is under interrogation, asked how he came to meet Secretary of Defense David Brice.\n\nSix months earlier, Farrell is invited to an inaugural ball by his college friend Scott Pritchard, who glowingly introduces his boss, Secretary Brice. There, he meets Susan Atwell, and they spend a night of passion just before he ships out for the Philippines. Brice recalls Farrell to manage interactions with the CIA. Returning to Washington, D.C. for the assignment, he reunites with his old landlord, and his friend Sam Hesselman, who manages the Pentagon's computer center.\n\nFarrell and Atwell become lovers and spend time together, even after she reveals she is also Brice's mistress, which both he and Pritchard disapprove of. Upon returning from a romantic weekend away, Brice unexpectedly visits Atwell's apartment, forcing Farrell to slip away reluctantly. Furious that Atwell has another lover, Brice strikes her, causing her to fall over an upstairs railing to her death. Distraught, he goes to Pritchard, who then meticulously removes all evidence of Brice from Atwell's apartment, including an indiscernible negative of a Polaroid photograph she had taken of Farrell.\n\nPritchard schemes to conflate Atwell's lover with a long-rumored KGB sleeper agent code-named Yuri – invoking \"Yuri\" puts the entire department's focus on finding Atwell's lover. Thereby he would then be killed before the investigation reached Brice's involvement with Atwell. After confirming Atwell never photographed Brice, he plants the Polaroid negative with the other evidence collected from her apartment.\n\nShocked to learn of Atwell's death, Farrell realizes that the evidence implicates himself. His position becomes more endangered when Pritchard informs him of their plot to kill Atwell's lover. The CIA are puzzled by the resources allocated to the investigation and quickly conclude that Pritchard, being homosexual, could not be Atwell's lover.\n\nHesselman commences a computer image enhancement of the weak photograph, a process that can take days. Army CID Officers turn in a Moroccan jewel box to Farrell that Brice had gifted Atwell. Farrell requests Hesselman search the State Department's computers for Brice's declaration of receipt of the foreign gift. Pritchard and Farrell question Atwell's friend Nina Beka, who reveals she knew Brice was seeing Atwell, but keeps Farrell's involvement secret. Pritchard sends two assassins to eliminate her, but Farrell chases them and saves her.\n\nAs the computer slowly reveals features in the photograph, Farrell confides in Hesselman that he is the person in the photo, and that he was in love with Atwell. He convinces him to delay the image enhancement to buy time. The CID bring in two witnesses who can identify Atwell's lover; one of them spots Farrell across the hall, confirming to the investigators that \"Yuri\" is inside the Pentagon, so they commence a room-by-room search, which Farrell narrowly eludes by climbing into a ceiling vent in his office.\n\nUnder pressure to clear himself, Farrell informs Hesselman of Brice's guilt and his incriminating gift to Atwell. He then desperately persuades him to insert into the computer registry a fake declaration of receipt of the Moroccan jewel box. Concerned at Farrell's behavior, Hesselman consults Pritchard in private, who shoots him dead.\n\nFarrell evades Pritchard's assassins, and confronts Brice with a printout of the foreign gift registry. Pritchard implicates Farrell for the two murders and pulls a gun on him. Comprehending that Pritchard really killed Hesselman, Brice comes to his senses and separates them. He suggests Pritchard take the fall for Atwell's murder with the motive being Pritchard's infatuation with Brice and jealousy of his time spent with her.\n\nPritchard is devastated at Brice's betrayal, his callous revelation of his insecurities, and his change of allegiance to Farrell. He shoots himself and Brice indicates to the investigators that Pritchard is Yuri, concluding the search. Farrell sends the printout to the CIA director Marshall, and leaves as the finished photograph reveals him as Atwell's lover.\n\nSitting at Atwell's grave, Farrell is picked up by a pair of operatives and interrogated at the house. His landlord Schiller is revealed to be his handler – all of them are Soviet agents, and Farrell turns out to in fact be \"Yuri\", a deep-cover spy serving as a high-level mole. He is offered a chance to return to the Soviet Union, but he declines and leaves.",
+ "synopsis_words": 721,
+ "episodes": [
+  {
+   "number": 366,
+   "date": "2024-07-23",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Cruise",
+   "verdict_tone": "cruise",
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Sean Fennessey"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "remake",
+   "reach": 13,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "washington dc, usa",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "u.s. navy",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "homicide",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "espionage",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "limousine",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "mole",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "secretary of defense",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "cold war era",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "deep cover",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "enlarged picture",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "international espionage",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "minister",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "pentagon",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "photographic evidence",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "soviet spy",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "spy thriller",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Kevin Costner",
+   "films": 9
+  },
+  {
+   "name": "Gene Hackman",
+   "films": 8
+  },
+  {
+   "name": "Sean Young",
+   "films": 3
+  },
+  {
+   "name": "Will Patton",
+   "films": 3
+  },
+  {
+   "name": "Howard Duff",
+   "films": 2
+  },
+  {
+   "name": "George Dzundza",
+   "films": 3
+  },
+  {
+   "name": "Jason Bernard",
+   "films": 0
+  },
+  {
+   "name": "Iman",
+   "films": 0
+  },
+  {
+   "name": "Fred Thompson",
+   "films": 0
+  },
+  {
+   "name": "Leon Russom",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "cocktail-1988",
+   "title": "Cocktail",
+   "year": 1988,
+   "poster": "jFRhEPhtsln9tDwzMdZN3OlhUob.jpg"
+  },
+  {
+   "id": "species-1995",
+   "title": "Species",
+   "year": 1995,
+   "poster": "cT5wdyo8kT7dycqjrolJ2sHWkFx.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "kramer-vs-kramer-1979",
+   "title": "Kramer vs. Kramer",
+   "year": 1979,
+   "poster": "3CUP5V5SWfHSK4qvkZF7lMNyugY.jpg"
+  },
+  {
+   "id": "stripes-1981",
+   "title": "Stripes",
+   "year": 1981,
+   "poster": "toyyN62VLUXoUudFbHPdrrmRFSZ.jpg"
+  },
+  {
+   "id": "hoosiers-1986",
+   "title": "Hoosiers",
+   "year": 1986,
+   "poster": "dHpjZQXEdoi1xNLubM1rPmTHJYz.jpg"
+  },
+  {
+   "id": "the-untouchables-1987",
+   "title": "The Untouchables",
+   "year": 1987,
+   "poster": "tPq0R4jTO4Ey8ZspFaWK9wGA4Ls.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/No_Way_Out_%281987_film%29",
+  "wikidata": "Q1473878"
+ }
+}

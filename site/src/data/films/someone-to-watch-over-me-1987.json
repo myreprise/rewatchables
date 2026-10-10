@@ -1,0 +1,181 @@
+{
+ "id": "someone-to-watch-over-me-1987",
+ "title": "Someone to Watch Over Me",
+ "year": 1987,
+ "poster": "7Vqw29y8pkoHaVtwkQcQhBK9oTY.jpg",
+ "tmdb_id": 31650,
+ "directors": [
+  "Ridley Scott"
+ ],
+ "director_primary": "Ridley Scott",
+ "genres": [
+  "Drama",
+  "Romance",
+  "Thriller"
+ ],
+ "runtime": 103,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2025-04-28",
+ "last": "2025-04-28",
+ "scores": {
+  "tmdb": 5.847,
+  "rt": 65.0,
+  "ebert": 2.0,
+  "box_office": "$28.4M",
+  "multiple": 0.6046205294117647,
+  "cpi_year": 2024
+ },
+ "plot": "Claire Gregory, an upper class New York personality, witnesses a murder in a luxurious nightclub. Detective Mike Keegan, recently promoted, is assigned to protect her.",
+ "synopsis": "Socialite Claire Gregory attends a party and art show sponsored by one of her oldest friends, Winn Hockings. Accompanying her is her straitlaced boyfriend named Neil Steinhart. In another part of town, there is a party for newly appointed detective Mike Keegan. Winn makes a little fun of Neil and Claire defends him. Winn then asks Claire to meet him in the basement for a special preview. Meanwhile, the friend is accosted by a former partner called Joey Venza. He is angry because Winn had not come to him to borrow money for his new art studio. After a short argument, he stabs Winn to death. Claire witnesses the killing as she steps out of the elevator; she screams and is spotted by Venza. He pursues her, but she manages to get back into the elevator just in time. The police are called in and the new detective Keegan is there. He immediately falls for Claire. Along with fellow cops, he is assigned to protect Claire until she can make a positive ID of Venza and testify in court. Keegan is determined to protect Claire and goes to extremes to do so. Venza makes numerous threats and attempts on her life, nearly succeeding at one point. Keegan and his wife Ellie separate over his involvement in the case. He and Claire acknowledge their love but Keegan cannot bring himself to simply abandon his family. At the end, Venza, who draws out Keegan by taking his family hostage, is shot by Ellie and killed. Claire breaks up with her staid boyfriend and intends to go to Europe to get over Keegan, who returns to his wife and son.",
+ "synopsis_words": 277,
+ "episodes": [
+  {
+   "number": 403,
+   "date": "2025-04-28",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Hanks",
+   "verdict_tone": "hanks",
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "detective",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "marriage",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "socialite",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Tom Berenger",
+   "films": 5
+  },
+  {
+   "name": "Mimi Rogers",
+   "films": 2
+  },
+  {
+   "name": "Lorraine Bracco",
+   "films": 2
+  },
+  {
+   "name": "Jerry Orbach",
+   "films": 2
+  },
+  {
+   "name": "John Rubinstein",
+   "films": 1
+  },
+  {
+   "name": "Andreas Katsulas",
+   "films": 0
+  },
+  {
+   "name": "Tony DiBenedetto",
+   "films": 0
+  },
+  {
+   "name": "James E. Moriarty",
+   "films": 0
+  },
+  {
+   "name": "Mark Moses",
+   "films": 0
+  },
+  {
+   "name": "Daniel Hugh Kelly",
+   "films": 1
+  }
+ ],
+ "by_director": [
+  {
+   "id": "alien-1979",
+   "title": "Alien",
+   "year": 1979,
+   "poster": "vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg"
+  },
+  {
+   "id": "gladiator-2000",
+   "title": "Gladiator",
+   "year": 2000,
+   "poster": "wN2xWp1eIwCKOD0BHTcErTBv1Uq.jpg"
+  },
+  {
+   "id": "american-gangster-2007",
+   "title": "American Gangster",
+   "year": 2007,
+   "poster": "sX9idXDqRUxE5ffww3n3RV5gL55.jpg"
+  },
+  {
+   "id": "the-martian-2015",
+   "title": "The Martian",
+   "year": 2015,
+   "poster": "fASz8A0yFE3QB6LgGoOfwvFSseV.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "eddie-and-the-cruisers-1983",
+   "title": "Eddie and the Cruisers",
+   "year": 1983,
+   "poster": "qohqTtk33FlEoeb3zYLEAUGSO0E.jpg"
+  },
+  {
+   "id": "the-big-chill-1983",
+   "title": "The Big Chill",
+   "year": 1983,
+   "poster": "rU8kjMEL5Mn0EWm3gOShPHBEZ4l.jpg"
+  },
+  {
+   "id": "major-league-1989",
+   "title": "Major League",
+   "year": 1989,
+   "poster": "ypUedY9zX4nGGf1lQv1UGc8PhPA.jpg"
+  },
+  {
+   "id": "goodfellas-1990",
+   "title": "GoodFellas",
+   "year": 1990,
+   "poster": "9OkCLM73MIU2CrKZbqiT8Ln1wY2.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Someone_to_Watch_Over_Me_%28film%29",
+  "wikidata": "Q1195568"
+ }
+}

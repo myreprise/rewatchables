@@ -1,0 +1,337 @@
+{
+ "id": "ghostbusters-1984",
+ "title": "Ghostbusters",
+ "year": 1984,
+ "poster": "7E8nLijS9AwwUEPu2oFYOVKhdFA.jpg",
+ "tmdb_id": 620,
+ "directors": [
+  "Ivan Reitman"
+ ],
+ "director_primary": "Ivan Reitman",
+ "genres": [
+  "Comedy",
+  "Fantasy"
+ ],
+ "runtime": 105,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2026-04-27",
+ "last": "2026-04-27",
+ "scores": {
+  "tmdb": 7.498,
+  "rt": 95.0,
+  "ebert": 3.5,
+  "box_office": "$895.6M",
+  "multiple": 9.888004,
+  "cpi_year": 2024
+ },
+ "plot": "After losing their university jobs, three parapsychologists start a ghost-catching business in New York City and uncover a supernatural threat that could destroy the world.",
+ "synopsis": "After Columbia University parapsychology professors Peter Venkman, Ray Stantz, and Egon Spengler experience their first encounter with a ghost at the New York Public Library, the university dean dismisses the credibility of their paranormal-focused research and fires them. The trio responds by establishing \"Ghostbusters\", a paranormal investigation and elimination service operating out of a disused firehouse. They develop high-tech nuclear-powered equipment to capture and contain ghosts, although business is initially slow.\n\nFollowing a paranormal encounter in her apartment, cellist Dana Barrett visits the Ghostbusters. She recounts witnessing a demonic dog-like creature in her refrigerator utter a single word: \"Zuul\". Ray and Egon research Zuul and details of Dana's building while Peter inspects her apartment and unsuccessfully attempts to seduce her. The Ghostbusters are hired to remove a gluttonous ghost from the Sedgewick Hotel. Having failed to properly test their equipment, Egon warns the group that crossing the energy streams of their proton pack weapons could cause a catastrophic explosion. They capture the ghost and deposit it in an ecto-containment unit under the firehouse. Supernatural activity rapidly increases across the city and the Ghostbusters become famous; they hire a fourth member, Winston Zeddemore, to cope with the growing demand.\n\nSuspicious of the Ghostbusters, Environmental Protection Agency inspector Walter Peck asks to evaluate their equipment, but Peter rebuffs him. Egon warns that the containment unit is nearing capacity and supernatural energy is surging across the city. Peter meets with Dana and informs her that Zuul was a demigod worshipped as a servant to \"Gozer the Gozerian\", a shapeshifting god of destruction. Upon returning home, Dana is possessed by Zuul; a similar entity possesses her neighbor, Louis Tully. Peter arrives and finds the possessed Dana/Zuul claiming to be \"the Gatekeeper\". Louis is brought to Egon by police officers and claims that he is \"Vinz Clortho, the Keymaster\". The Ghostbusters agree that they must keep the pair separated.\n\nThe next morning, Peck returns with law enforcement and city workers to have the Ghostbusters arrested. Against their warnings, he deactivates the containment unit, causing an explosion that releases the captured ghosts. Louis/Vinz escapes in the confusion and makes his way to the apartment building to join Dana/Zuul. In jail, Ray and Egon reveal that Ivo Shandor, leader of a Gozer-worshipping cult in the early 20th century, designed Dana's building to function as an antenna to attract and concentrate spiritual energy to summon Gozer and bring about the apocalypse. Faced with supernatural chaos across the city, the Ghostbusters convince the mayor to release them.\n\nThe Ghostbusters travel to a hidden temple located on top of the building as Dana/Zuul and Louis/Vinz open the gate between dimensions and transform into demonic dogs. Gozer appears as a woman and attacks the Ghostbusters, then disappears when they attempt to retaliate, with its disembodied voice demanding the Ghostbusters \"choose the form of the destructor\". Ray inadvertently recalls a beloved corporate mascot from his childhood, and Gozer reappears as a gigantic Stay Puft Marshmallow Man that begins destroying the city. Against his earlier advice, Egon instructs the team to cross their proton energy streams at the dimensional gate. The resulting explosion destroys Gozer's avatar, banishing it back to its dimension, and closes the gateway. The Ghostbusters then rescue Dana and Louis from the wreckage and are welcomed on the street as heroes.",
+ "synopsis_words": 551,
+ "episodes": [
+  {
+   "number": 458,
+   "date": "2026-04-27",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Hanks",
+   "verdict_tone": "hanks",
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Van Lathan"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "duringcreditsstinger",
+   "reach": 27,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "nostalgic",
+   "reach": 13,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "ghost",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "nerd",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "possession",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "urban setting",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "paranormal phenomena",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "super power",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "supernatural",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "enchant",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "satirical",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "witty",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "ghostbuster",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "haunting",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "paranormal investigation",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "receptionist",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "world trade center",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "environmental protection agency",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "fighting supernatural",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "gatekeeper",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "ghostbusters",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "giant monster",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "horror spoof",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "hybrid",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "library",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "loser",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "monsters",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "mythology",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "slime",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Bill Murray",
+   "films": 6
+  },
+  {
+   "name": "Dan Aykroyd",
+   "films": 4
+  },
+  {
+   "name": "Sigourney Weaver",
+   "films": 6
+  },
+  {
+   "name": "Harold Ramis",
+   "films": 2
+  },
+  {
+   "name": "Rick Moranis",
+   "films": 2
+  },
+  {
+   "name": "Annie Potts",
+   "films": 0
+  },
+  {
+   "name": "William Atherton",
+   "films": 0
+  },
+  {
+   "name": "Ernie Hudson",
+   "films": 1
+  },
+  {
+   "name": "David Margulies",
+   "films": 0
+  },
+  {
+   "name": "Steven Tash",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "stripes-1981",
+   "title": "Stripes",
+   "year": 1981,
+   "poster": "toyyN62VLUXoUudFbHPdrrmRFSZ.jpg"
+  },
+  {
+   "id": "kindergarten-cop-1990",
+   "title": "Kindergarten Cop",
+   "year": 1990,
+   "poster": "nKnHWwkXyvhzCYWm3FyRAv3qBrl.jpg"
+  },
+  {
+   "id": "dave-1993",
+   "title": "Dave",
+   "year": 1993,
+   "poster": "n7wQlcexeER5bW7DvV8sji2vRRH.jpg"
+  },
+  {
+   "id": "draft-day-2014",
+   "title": "Draft Day",
+   "year": 2014,
+   "poster": "bnl2ocjS1io4UCPhjoFuPKmJ9bf.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "stripes-1981",
+   "title": "Stripes",
+   "year": 1981,
+   "poster": "toyyN62VLUXoUudFbHPdrrmRFSZ.jpg"
+  },
+  {
+   "id": "alien-1979",
+   "title": "Alien",
+   "year": 1979,
+   "poster": "vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg"
+  },
+  {
+   "id": "caddyshack-1980",
+   "title": "Caddyshack",
+   "year": 1980,
+   "poster": "lXnNz7zOXCsftMDVoU3VSo0Eioi.jpg"
+  },
+  {
+   "id": "the-blues-brothers-1980",
+   "title": "The Blues Brothers",
+   "year": 1980,
+   "poster": "b0hq1d2d7FIvRGNLewKLm79JNTK.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Ghostbusters",
+  "wikidata": "Q108745"
+ }
+}

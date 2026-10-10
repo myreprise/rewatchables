@@ -1,0 +1,279 @@
+{
+ "id": "high-fidelity-2000",
+ "title": "High Fidelity",
+ "year": 2000,
+ "poster": "e2LZGB62GMhv3Fo8tDZjY87I81a.jpg",
+ "tmdb_id": 243,
+ "directors": [
+  "Stephen Frears"
+ ],
+ "director_primary": "Stephen Frears",
+ "genres": [
+  "Drama",
+  "Comedy",
+  "Romance",
+  "Music"
+ ],
+ "runtime": 113,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2025-12-15",
+ "last": "2025-12-15",
+ "scores": {
+  "tmdb": 7.1,
+  "rt": 91.0,
+  "ebert": 4.0,
+  "box_office": "$85.8M",
+  "multiple": 1.57,
+  "cpi_year": 2024
+ },
+ "plot": "After his long-time girlfriend dumps him, a thirty-year-old record store owner seeks to understand why he is unlucky in love while recounting his \"top five breakups of all time\".",
+ "synopsis": "Rob Gordon is a music enthusiast who is despondent after being abruptly dumped by Laura, his live-in girlfriend of two years.\n\nBy day, Rob manages Championship Vinyl, a record store in Chicago's Wicker Park neighborhood, where he and his employees, Dick and Barry, indulge in their encyclopedic musical knowledge. They compile \"Top 5\" lists for every imaginable occasion, mock their few customers' tastes, and occasionally sell records. Rob compiles a list of his top 5 most memorable breakups, not including his breakup with Laura.\n\nAfter Laura's friend Liz confronts Rob about their breakup, Rob describes how he once borrowed a large sum of money from Laura and also cheated on her, not knowing that Laura was pregnant, prompting her to secretly abort the baby while they reconciled. After Rob's mother calls him out on his doomed relationships, he decides on a journey to understand his relationship failures by reconnecting with his former partners on the Top 5 list.\n\nNumber 1 on the list is Allison, a girl he kissed in middle school, only for her to kiss a different boy the next day. Rob discovers she went on to marry the other boy, convincing him that he and Allison were never meant to be together. Number 2 is Penny Hardwick, his high school girlfriend who he dumped after she routinely refused to be intimate with him, only to sleep with another guy shortly afterward. He meets with her over a movie and dinner, only to discover that the sexual encounter was borderline non-consensual; Penny points out that he rejected her; not the other way around. Rob takes solace in knowing it was his own insecurity that caused the breakup. Number 3 is a trendy girl named Charlie Nicholson and his most serious relationship. Rob felt insecure around her and eventually got dumped for someone in her league, which sent him into a deep depression. He learns that she never married or had children; when they meet at a party, he realizes she is vain and elitist, allowing him to move on. Finally, Rob meets with Number 4, Sarah Kendrew, with whom he shared a post-breakup relationship after Charlie, only for her to meet another man. Reuniting with her, he discovers that she is mentally unwell and thus routinely sabotages her relationships. He later admits to himself that his breakup with Laura belongs on his Top 5 list.\n\nRob realizes that Laura has started seeing Ian, a lifestyle guru and their former upstairs neighbor. This makes him extremely insecure, and he resorts to stalking until Ian confronts him. Laura waits for Rob outside of his store when he gets off, and returns to his apartment with him to gather more of her things. Rob leaves to give her privacy and has a one-night stand with Marie, a singer who is also getting over a breakup.\n\nLaura's father, who was fond of Rob, dies. Attending the funeral, Rob realizes he has never truly committed to Laura, neglecting both their relationship and his own future in the process. Laura, feeling depressed after her father's death, gets back together with Rob.\n\nRob meets a music columnist and develops a crush on her. While making a mixtape for her, he wonders whether he is simply jumping from one attraction to another. In a heartfelt conversation with Laura, Rob acknowledges that other women are mere fantasies, while Laura is his reality, someone he never tires of. He proposes to her, and although she thanks him for asking, she encourages him to revisit his passion for DJing.\n\nRob publishes an album by Vince and Justin, two teenagers who had previously caused trouble in his store. At a celebration for the release of the album organized by Laura, Barry's band performs \"Let's Get It On\" and are well-received, surprising Rob. Rob creates a mixtape for Laura, showing his intent to make her happy.",
+ "synopsis_words": 645,
+ "episodes": [
+  {
+   "number": 436,
+   "date": "2025-12-15",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Hanks",
+   "verdict_tone": "hanks",
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Joanna Robinson",
+    "Rob Mahoney"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "chicago, illinois",
+   "reach": 19,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "flashback",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "thoughtful",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "ex-girlfriend",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "break-up",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "breaking the fourth wall",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "earnest",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "falling in love",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "rock 'n' roll",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "witty",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "disc jockey",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "fear of commitment",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "relationship problems",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "breaking up with boyfriend",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "dating history",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "music culture",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "music journalist",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "music record",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "music scene",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "pop",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "record",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "record album",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "record label",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "record store",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "top five",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "John Cusack",
+   "films": 4
+  },
+  {
+   "name": "Iben Hjejle",
+   "films": 1
+  },
+  {
+   "name": "Todd Louiso",
+   "films": 1
+  },
+  {
+   "name": "Jack Black",
+   "films": 3
+  },
+  {
+   "name": "Lisa Bonet",
+   "films": 1
+  },
+  {
+   "name": "Catherine Zeta-Jones",
+   "films": 1
+  },
+  {
+   "name": "Joan Cusack",
+   "films": 1
+  },
+  {
+   "name": "Tim Robbins",
+   "films": 3
+  },
+  {
+   "name": "Chris Rehmann",
+   "films": 0
+  },
+  {
+   "name": "Ben Carr",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "the-sure-thing-1985",
+   "title": "The Sure Thing",
+   "year": 1985,
+   "poster": "a9cuohQn5kczi4htWZAZjEZvXkZ.jpg"
+  },
+  {
+   "id": "say-anything-1989",
+   "title": "Say Anything...",
+   "year": 1989,
+   "poster": "nkucKciFGSRalw6dJtsglWqOXMC.jpg"
+  },
+  {
+   "id": "con-air-1997",
+   "title": "Con Air",
+   "year": 1997,
+   "poster": "kOKjgrEzGOP92rVQ6srA9jtp60l.jpg"
+  },
+  {
+   "id": "the-holiday-2006",
+   "title": "The Holiday",
+   "year": 2006,
+   "poster": "h1ITOpvJN3Tw4Sy60w2QTfYMvdd.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/High_Fidelity_%28film%29",
+  "wikidata": "Q1473804"
+ }
+}

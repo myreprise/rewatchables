@@ -1,0 +1,186 @@
+{
+ "id": "my-best-friends-wedding-1997",
+ "title": "My Best Friend's Wedding",
+ "year": 1997,
+ "poster": "b5g4bp8gS5ovMyR5439AII6zQ3n.jpg",
+ "tmdb_id": 8874,
+ "directors": [
+  "P. J. Hogan"
+ ],
+ "director_primary": "P. J. Hogan",
+ "genres": [
+  "Comedy",
+  "Romance"
+ ],
+ "runtime": 105,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2018-08-09",
+ "last": "2018-08-09",
+ "scores": {
+  "tmdb": 6.563,
+  "rt": 74.0,
+  "ebert": 3.0,
+  "box_office": "$585.0M",
+  "multiple": 7.876015921052631,
+  "cpi_year": 2024
+ },
+ "plot": "When she receives word that her longtime platonic pal Michael O'Neal is getting married to debutante Kimberly Wallace, food critic Julianne Potter realizes her true feelings for Michael -- and sets out to sabotage the wedding.",
+ "synopsis": "Three weeks before her 28th birthday, New York City food critic Julianne \"Jules\" Potter receives a call from her lifelong friend Michael O'Neal, a Chicago sportswriter. Years earlier, the two agreed that if they were both unmarried by age 28, they would marry each other. Michael tells her that in four days, he will marry the beautiful Kimmy Wallace, a college student eight years his junior whose father owns the Chicago White Sox. Realizing she is in love with him, Jules resolves to sabotage his wedding. Arriving in Chicago, she reunites with Michael and meets Kimmy, who asks her to be the maid of honor. Jules schemes to break up the couple, but her attempt to humiliate Kimmy at a karaoke bar backfires. She manipulates Kimmy into asking her father to offer Michael a job, which Jules knows will anger Michael, but this fails as well.\n\nFrustrated, Jules begs her friend George Downes for help, and he flies to Chicago. On George's advice, Jules prepares to tell Michael how much she loves him but instead tells him that she is engaged to George, hoping to make Michael jealous. George, who is gay, plays along but embarrasses Jules at lunch with the wedding party, singing \"I Say a Little Prayer\" as the whole restaurant joins in. George flies home, and Jules tells Michael that her \"relationship\" with George is over. Michael admits to feeling jealous and gives her the chance to confess her feelings, but she lets the moment pass. They share a dance as Michael sings their song, \"The Way You Look Tonight\".\n\nThe day before the wedding, at Kimmy's father's office, Jules uses his email account to forge a message from him to Michael's boss, asking that Michael be fired to allow Kimmy's father to hire him at Kimmy's insistence. She saves the message rather than send it. Jules lies to enlist Michael's help saying she used Walter's office for her job, but they find the office locked. Returning to Jules' hotel, Michael receives a message from his boss notifying him of the email because Walter's secretary  sent it because Walter told her he had emails on his computer he wrote over lunch and to send them out. Furious, he calls Kimmy, calling off the wedding.\n\nThe next morning, Jules discovers that neither Michael nor Kimmy have told anyone else that the wedding is off. She tries to manipulate the couple into breaking up for good, but Michael and Kimmy decide to get married after all. Jules finally confesses her love to Michael and passionately kisses him. Kimmy witnesses this and drives away distraught, pursued by Michael, who in turn is pursued by Jules in a caterer's truck. Jules calls George while driving and explains the situation, who assures her that Michael loves Kimmy and Jules has now a brief opportunity to ensure the couple are reconciled before the scheduled time of the wedding. Finding Michael at Chicago Union Station, Jules confesses to writing the email to his boss that accidentally got sent by Walter's secretary just to win Michael back. Although angry with her Michael forgives her and tells her that here at the station is where he proposed to Kimmy and she accepted, and they split up to look for Kimmy.\n\nJules finds Kimmy in the bathroom of Comiskey Park. Amid a crowd of onlookers, Kimmy confronts Jules for interfering with Michael. Jules apologizes, assuring Kimmy that Michael truly loves her, and they reconcile. The wedding proceeds, and at the reception, Jules gives a heartfelt speech as Kimmy's maid of honor. Jules allows the newlyweds to temporarily have \"The Way You Look Tonight\" as their song until they find their own song. Jules and Michael share their goodbyes, both finally moving on. On the phone with George, Jules is surprised to see him at the reception, and they dance together.",
+ "synopsis_words": 643,
+ "episodes": [
+  {
+   "number": 43,
+   "date": "2018-08-09",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Juliet Litman",
+    "Amanda Dobbins"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "chicago, illinois",
+   "reach": 19,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "love of one's life",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "wedding",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "new love",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "secret love",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "rehearsal dinner",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "restaurant critic",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "man woman relationship",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "relationship sabotage",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "wedding reception",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Julia Roberts",
+   "films": 7
+  },
+  {
+   "name": "Dermot Mulroney",
+   "films": 1
+  },
+  {
+   "name": "Cameron Diaz",
+   "films": 5
+  },
+  {
+   "name": "Rupert Everett",
+   "films": 1
+  },
+  {
+   "name": "Philip Bosco",
+   "films": 1
+  },
+  {
+   "name": "M. Emmet Walsh",
+   "films": 1
+  },
+  {
+   "name": "Rachel Griffiths",
+   "films": 0
+  },
+  {
+   "name": "Carrie Preston",
+   "films": 0
+  },
+  {
+   "name": "Susan Sullivan",
+   "films": 0
+  },
+  {
+   "name": "Christopher Masterson",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "pretty-woman-1990",
+   "title": "Pretty Woman",
+   "year": 1990,
+   "poster": "hVHUfT801LQATGd26VPzhorIYza.jpg"
+  },
+  {
+   "id": "sleeping-with-the-enemy-1991",
+   "title": "Sleeping with the Enemy",
+   "year": 1991,
+   "poster": "zaUkndJP8IClB1gMsbw13PoVeLS.jpg"
+  },
+  {
+   "id": "the-pelican-brief-1993",
+   "title": "The Pelican Brief",
+   "year": 1993,
+   "poster": "7B1HS0SqfJR1jbeHS6V0ZWdzLXP.jpg"
+  },
+  {
+   "id": "shes-the-one-1996",
+   "title": "She's the One",
+   "year": 1996,
+   "poster": "wNd6qM8Qa8tLFOiUOiEivh0qBkH.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/My_Best_Friend%27s_Wedding",
+  "wikidata": "Q918380"
+ }
+}

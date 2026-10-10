@@ -1,0 +1,182 @@
+{
+ "id": "forgetting-sarah-marshall-2008",
+ "title": "Forgetting Sarah Marshall",
+ "year": 2008,
+ "poster": "d4elOzyhNWVlxpG7BwigrumkFTe.jpg",
+ "tmdb_id": 9870,
+ "directors": [
+  "Nicholas Stoller"
+ ],
+ "director_primary": "Nicholas Stoller",
+ "genres": [
+  "Comedy",
+  "Romance",
+  "Drama"
+ ],
+ "runtime": 111,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2019-03-04",
+ "last": "2019-03-04",
+ "scores": {
+  "tmdb": 6.505,
+  "rt": 84.0,
+  "ebert": null,
+  "box_office": "$153.2M",
+  "multiple": 3.5057705,
+  "cpi_year": 2024
+ },
+ "plot": "When actress Sarah Marshall dumps aspiring musician Peter Bretter for rock star Aldous Snow, Peter's world comes crashing down. His best friend Brian suggests that Peter should get away from everything and to fly off to Hawaii to escape all his problems. After arriving in Hawaii and meeting the beautiful receptionist Rachel Jansen, Peter is shocked to see not only Aldous in Hawaii, but also Sarah.",
+ "synopsis": "Composer Peter Bretter is devastated when his girlfriend of five years, television actress Sarah Marshall, dumps him out of the blue. To get over her, he decides to take a trip to Oahu, Hawaii, a place Sarah used to talk about a lot. However, Peter's hopes for a relaxing getaway are ruined when he learns that Sarah and her new boyfriend, British rock star Aldous Snow, are staying at the same resort. Rachel Jansen, a hotel concierge, takes pity on Peter and offers him a complimentary suite.\n\nPeter's heartbreak is aggravated by awkward run-ins with Sarah and Aldous, and by the sight of vacationing couples at the resort. Things improve when he begins spending time with Rachel and developing feelings for her. While hanging out one night, Peter confesses to Rachel that he hates his day job of composing music for television shows and that his true passion is writing a Dracula puppet rock opera. At a bar, Rachel volunteers Peter to perform a song from the opera and cheers him on as he performs the number. On a hike one day, Rachel dares Peter to jump off a cliff into the ocean. He starts to jump but gets caught in some vines, and is left dangling off the edge. After Rachel prods him to let go, he lands safely in the water, and she kisses him.\n\nMeanwhile, the relationship between Sarah and Aldous is showing signs of trouble. This is exacerbated by the news that Sarah's newest television show has been canceled and that Aldous is about to embark on an 18-month world tour with his band. At the same time, Peter's room is needed by new occupants, so he is placed in the suite next to Sarah's. When Aldous and Peter run into each other while surfing one day, Aldous lets slip that he and Sarah began having sex a full year before she broke up with Peter. When Peter confronts Sarah about this, she reveals she felt emotionally disconnected from him, and that she could no longer save their relationship.\n\nSarah becomes aware of the budding romance between Peter and Rachel and starts to feel jealous, while Peter realizes that his former relationship with Sarah was not as good as he thought it was. The two couples share an awkward, drunken dinner. Afterwards, Peter takes Rachel back to his room and they begin to have sex. Hearing them through the wall, Sarah tries to compete with them by initiating sex with Aldous and moaning loudly. When Aldous realizes Sarah is trying to provoke a reaction from Peter, he pushes her off and tells her she is not over her ex. They bicker furiously, prompting Aldous to end their relationship.\n\nThe next day, Peter learns Aldous has broken up with Sarah and is flying back to England. Peter goes to Sarah's room to console her, when Sarah admits she still loves him and wants to reconcile. They begin to have sex, but Peter abruptly ends it because of his feelings for Rachel. Peter immediately goes to Rachel to confess what happened, but she is hurt and demands that he leave and never contact her again. Before leaving, he goes to the bar they visited and removes a topless photo of her that was hung in the restroom's collage without her consent. Peter returns the photo to Rachel, bruised from a beating by the bar owner.\n\nPeter flies back to Los Angeles and, after a period of sadness and self-loathing, begins working on his Dracula puppet opera. He invites Rachel to the opening night. Although extremely hesitant at first, Rachel eventually decides to attend. After the successful performance, she congratulates Peter and tells him she is looking into staying in the area. She leaves so Peter can bask in the success of his show, but quickly returns to Peter's dressing room to tell him she misses him. They embrace and kiss.",
+ "synopsis_words": 652,
+ "episodes": [
+  {
+   "number": 62,
+   "date": "2019-03-04",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Sean Fennessey"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "ex-girlfriend",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "vacation",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "break-up",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "celebrity",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "one-night stand",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "beauty",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "dumped",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "hawaii",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "rock star",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Jason Segel",
+   "films": 2
+  },
+  {
+   "name": "Kristen Bell",
+   "films": 1
+  },
+  {
+   "name": "Mila Kunis",
+   "films": 1
+  },
+  {
+   "name": "Russell Brand",
+   "films": 1
+  },
+  {
+   "name": "Bill Hader",
+   "films": 3
+  },
+  {
+   "name": "Jonah Hill",
+   "films": 4
+  },
+  {
+   "name": "Liz Cackowski",
+   "films": 0
+  },
+  {
+   "name": "Jack McBrayer",
+   "films": 0
+  },
+  {
+   "name": "Maria Thayer",
+   "films": 0
+  },
+  {
+   "name": "Paul Rudd",
+   "films": 3
+  }
+ ],
+ "by_director": [
+  {
+   "id": "neighbors-2014",
+   "title": "Neighbors",
+   "year": 2014,
+   "poster": "sN1RU08CMi8xkRIibremh3AOdgw.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "knocked-up-2007",
+   "title": "Knocked Up",
+   "year": 2007,
+   "poster": "b4OaXw2MW97VvIiZE0Sbn1NfxSh.jpg"
+  },
+  {
+   "id": "superbad-2007",
+   "title": "Superbad",
+   "year": 2007,
+   "poster": "ek8e8txUyUwd2BNqj6lFEerJfbq.jpg"
+  },
+  {
+   "id": "adventureland-2009",
+   "title": "Adventureland",
+   "year": 2009,
+   "poster": "eeSJNAR1aWcgANq26KWIHm3cbyB.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Forgetting_Sarah_Marshall",
+  "wikidata": "Q201379"
+ }
+}

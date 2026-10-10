@@ -1,0 +1,237 @@
+{
+ "id": "mr-and-mrs-smith-2005",
+ "title": "Mr. & Mrs. Smith",
+ "year": 2005,
+ "poster": "kjD700RtyhveN3ZbOnSvUSne0Qj.jpg",
+ "tmdb_id": 787,
+ "directors": [
+  "Doug Liman"
+ ],
+ "director_primary": "Doug Liman",
+ "genres": [
+  "Action",
+  "Comedy",
+  "Drama",
+  "Thriller"
+ ],
+ "runtime": 120,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2023-11-21",
+ "last": "2023-11-21",
+ "scores": {
+  "tmdb": 6.694,
+  "rt": 60.0,
+  "ebert": 3.0,
+  "box_office": "$782.7M",
+  "multiple": 4.429887690909091,
+  "cpi_year": 2024
+ },
+ "plot": "A husband and wife struggle to keep their marriage alive until they realize they are both secretly working as assassins. Now, their respective assignments require them to kill each other.",
+ "synopsis": "The film opens with John and Jane Smith answering questions during marriage counseling. The couple has been married for \"five or six\" years, but their marriage is suffering to the point that they cannot remember the last time they had sex. They tell the story of their first meeting in Bogotá, Colombia, where they met while both were secretly on the run from Colombian authorities; since the authorities were looking for tourists traveling alone after a recent heist, the two claimed to be together to avoid being questioned. They quickly fell in love and were married. John later states in the end that Jane \"looked like Christmas morning\" to him on the day they met. In reality, John and Jane are both skilled assassins working for different firms, both among the best in their field. Each is concealing their true profession from their spouse. Under these cover stories, John and Jane balance their apparently mundane marriage – which both of them find after a few years to be growing dull and suffocating – with their secretive work. When both are assigned to kill prisoner Benjamin \"The Tank\" Danz during a transfer, they encounter each other on the job and the hit ends up being botched. After their respective companies find out about the botched hit, they are assigned to discover and eliminate the other. After a few \"mild\" attempts on each other's lives, fueled by a mutual sense of betrayal, the marital spat culminates in a high-octane fight in the Smith house. After a long, evenly-matched fight, with their house shot to shambles, they wind up with guns in each other's faces. John balks, and lays his gun down; Jane finds she cannot shoot her spouse either, and both succumb to their love instead. Mr. and Mrs. Smith reunite and make love for the first time in a long time. The newly-rekindled Smith partnership is quickly threatened by their employers, who have now decided to eliminate the couple. John's best friend and coworker, Eddie, turns down a bounty of $400,000 for each Smith, but John and Jane find themselves under fire from an army of assassins. Fending off an attack which blows up their house, the Smiths steal their neighbor's minivan and successfully destroy their attackers' three pursuing armored BMWs saloons, all while bickering over their fighting styles and newly-discovered personal secrets. After meeting with Eddie, the Smiths decide to fight together to preserve their marriage. They kidnap Danz from his high-security prison in order to give their employers something they want more than the Smiths. Danz reveals that he was merely bait, hired jointly by their employers after it was discovered that the Smiths were married, in the hopes of having one Smith kill the other. John and Jane forgo their separate contingency plans and make their stand together. In the final fight scene of the film, the Smiths – now working smoothly together as a team – defeat an extended attack by a large force of armed personnel during a long shoot-out inside a department store. The film ends with the couple meeting the marriage counselor again, where the Smiths state how much their marriage has thrived and how happy they really are, with John motioning a subtle \"10\" when asked about the \"sex question\" once more.",
+ "synopsis_words": 549,
+ "episodes": [
+  {
+   "number": 334,
+   "date": "2023-11-21",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Amanda Dobbins"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "assassin",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "gunfight",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "hitman",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "marriage crisis",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "secret identity",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "bomb",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "gun",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "marriage",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "secret agent",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "married couple",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "assault rifle",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "dysfunctional marriage",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "bullet wound",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "decoy",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "embarrassed",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Angelina Jolie",
+   "films": 1
+  },
+  {
+   "name": "Brad Pitt",
+   "films": 9
+  },
+  {
+   "name": "Vince Vaughn",
+   "films": 6
+  },
+  {
+   "name": "Adam Brody",
+   "films": 1
+  },
+  {
+   "name": "Kerry Washington",
+   "films": 1
+  },
+  {
+   "name": "Keith David",
+   "films": 1
+  },
+  {
+   "name": "Chris Weitz",
+   "films": 0
+  },
+  {
+   "name": "Rachael Huntley",
+   "films": 0
+  },
+  {
+   "name": "Michelle Monaghan",
+   "films": 0
+  },
+  {
+   "name": "Stephanie March",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "swingers-1996",
+   "title": "Swingers",
+   "year": 1996,
+   "poster": "rRjWk68kU3a2so4lgr3TKB7Y5vA.jpg"
+  },
+  {
+   "id": "the-bourne-identity-2002",
+   "title": "The Bourne Identity",
+   "year": 2002,
+   "poster": "aP8swke3gmowbkfZ6lmNidu0y9p.jpg"
+  },
+  {
+   "id": "edge-of-tomorrow-2014",
+   "title": "Edge of Tomorrow",
+   "year": 2014,
+   "poster": "nBM9MMa2WCwvMG4IJ3eiGUdbPe6.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "se7en-1995",
+   "title": "Se7en",
+   "year": 1995,
+   "poster": "191nKfP0ehp3uIvWqgPbFmI4lv9.jpg"
+  },
+  {
+   "id": "swingers-1996",
+   "title": "Swingers",
+   "year": 1996,
+   "poster": "rRjWk68kU3a2so4lgr3TKB7Y5vA.jpg"
+  },
+  {
+   "id": "fight-club-1999",
+   "title": "Fight Club",
+   "year": 1999,
+   "poster": "jSziioSwPVrOy9Yow3XhWIBDjq1.jpg"
+  },
+  {
+   "id": "domestic-disturbance-2001",
+   "title": "Domestic Disturbance",
+   "year": 2001,
+   "poster": "quRhjnXAuIn04VmgM84nmKzt79J.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Mr._%26_Mrs._Smith_%282005_film%29",
+  "wikidata": "Q191040"
+ }
+}

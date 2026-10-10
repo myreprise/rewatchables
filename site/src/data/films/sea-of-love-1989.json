@@ -1,0 +1,188 @@
+{
+ "id": "sea-of-love-1989",
+ "title": "Sea of Love",
+ "year": 1989,
+ "poster": "vJ88WmJ12eAK9CRb3cggn9CJthH.jpg",
+ "tmdb_id": 12150,
+ "directors": [
+  "Harold Becker"
+ ],
+ "director_primary": "Harold Becker",
+ "genres": [
+  "Crime",
+  "Drama",
+  "Romance"
+ ],
+ "runtime": 113,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2023-12-05",
+ "last": "2023-12-05",
+ "scores": {
+  "tmdb": 6.6,
+  "rt": 75.0,
+  "ebert": 3.0,
+  "box_office": "$280.5M",
+  "multiple": 5.835763842105263,
+  "cpi_year": 2024
+ },
+ "plot": "Seen-it-all New York detective Frank Keller is unsettled - he has done twenty years on the force and could retire, and he hasn't come to terms with his wife leaving him for a colleague. Joining up with an officer from another part of town to investigate a series of murders linked by the lonely hearts columns he finds he is getting seriously and possibly dangerously involved with Helen, one of the main suspects.",
+ "synopsis": "New York City homicide detective Frank Keller is a burned-out alcoholic. His wife left him and married one of his colleagues, and he is depressed about reaching his twentieth year on the police force. He is assigned to investigate the murder of a man in Manhattan who has been shot while face down in his bed, naked, and listening to an old 45 rpm record of the 1959 hit \"Sea of Love\". Keller has three clues: a lipstick-smeared cigarette, a want ad that the dead man placed in a newspaper, and fingerprints of the perpetrator.\n\nA second man dies in the same manner in Queens. Detective Sherman Touhey from the local precinct suggests that he and Frank collaborate. Both victims had placed rhyming ads in the lonely-hearts column of the newspaper, seeking dates. The detectives track down Raymond Brown, the only other man with a rhyming ad. He is a married man who admits placing the ad but swears that he threw away all the letters and never saw anyone.\n\nFrank intends to place a rhyming ad in the paper, meet women who respond in a restaurant, and take the prints from their drinking glasses. Frank's precinct chief is skeptical but reconsiders when Brown turns up dead in the same manner as the other two murder victims. Frank has dinner with several women, while Sherman, posing as a waiter, puts their glasses into evidence bags. One woman, divorcée Helen Cruger, shows no interest in Frank and leaves without taking a drink, so Frank is unable to get her fingerprints. Frank bumps into her again at a supermarket, but this time, she is more friendly. Helen manages a chic upscale shoe store, but Frank does not reveal his true occupation.\n\nFrank and Helen go to his place against his better judgment and a warning from Sherman. They become passionate, but Frank panics when he finds a gun in her purse. Helen explains that she keeps the starting pistol because she has been frightened lately. Frank apologizes, and they have sex. The couple begin a romance. He has a chance to obtain Helen's fingerprints on a glass but chooses to wipe the glass clean. Their relationship becomes strained when she discovers that he is a police officer. One night, when he is drunk, he almost tells Helen that they were involved in a sting. He starts to confess his feelings for her, but discovers that she responded to each of the victims' ads. When he confronts her, Helen refuses to admit to anything. He tells her to leave.\n\nMoments later, the real killer bursts into the apartment: Helen's ex-husband Terry, who has been stalking Helen and killing the men she dates. At gunpoint, he makes Frank lie on his bed and show how he made love to Helen as he had done to his other victims before murdering them. Frank manages to overpower Terry and tries to call the police, but Terry lunges at him and, in the ensuing struggle, Terry is thrown through the bedroom window to his death.\n\nSeveral weeks later, a newly sober Frank meets Sherman in a bar and reunites with Helen. She forgives him, and they resume their relationship.",
+ "synopsis_words": 532,
+ "episodes": [
+  {
+   "number": 335,
+   "date": "2023-12-05",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Wosny Lambre"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "new york city",
+   "reach": 49,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "murder",
+   "reach": 36,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "neo-noir",
+   "reach": 29,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "police",
+   "reach": 22,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "detective",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "serial killer",
+   "reach": 14,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "alcohol",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "newspaper",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  }
+ ],
+ "cast": [
+  {
+   "name": "Al Pacino",
+   "films": 13
+  },
+  {
+   "name": "Ellen Barkin",
+   "films": 2
+  },
+  {
+   "name": "John Goodman",
+   "films": 5
+  },
+  {
+   "name": "Michael Rooker",
+   "films": 3
+  },
+  {
+   "name": "William Hickey",
+   "films": 1
+  },
+  {
+   "name": "Richard Jenkins",
+   "films": 1
+  },
+  {
+   "name": "Paul Calderon",
+   "films": 0
+  },
+  {
+   "name": "Gene Canfield",
+   "films": 0
+  },
+  {
+   "name": "Larry Joshua",
+   "films": 0
+  },
+  {
+   "name": "John Spencer",
+   "films": 1
+  }
+ ],
+ "by_director": [
+  {
+   "id": "vision-quest-1985",
+   "title": "Vision Quest",
+   "year": 1985,
+   "poster": "l3g4e6ocqGA8aNL1hIrIVWLkljL.jpg"
+  },
+  {
+   "id": "domestic-disturbance-2001",
+   "title": "Domestic Disturbance",
+   "year": 2001,
+   "poster": "quRhjnXAuIn04VmgM84nmKzt79J.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "the-godfather-1972",
+   "title": "The Godfather",
+   "year": 1972,
+   "poster": "3bhkrj58Vtu7enYsRolD1fZdja1.jpg"
+  },
+  {
+   "id": "the-godfather-part-ii-1974",
+   "title": "The Godfather Part II",
+   "year": 1974,
+   "poster": "sSuQTCZwqKrNBNIsksO9IAUoWP9.jpg"
+  },
+  {
+   "id": "and-justice-for-all-1979",
+   "title": "...And Justice for All",
+   "year": 1979,
+   "poster": "fGFkpJUsouxxBGWfYqeuJfH210T.jpg"
+  },
+  {
+   "id": "cruising-1980",
+   "title": "Cruising",
+   "year": 1980,
+   "poster": "bb9CND0WyfwdHOZY5XmP4Qn8taz.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Sea_of_Love_%28film%29",
+  "wikidata": "Q510180"
+ }
+}

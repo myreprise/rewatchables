@@ -1,0 +1,267 @@
+{
+ "id": "crimson-tide-1995",
+ "title": "Crimson Tide",
+ "year": 1995,
+ "poster": "21nqRJ6ofEgVvEl68J4O9V26Xzy.jpg",
+ "tmdb_id": 8963,
+ "directors": [
+  "Tony Scott"
+ ],
+ "director_primary": "Tony Scott",
+ "genres": [
+  "Thriller",
+  "Action",
+  "Drama",
+  "War"
+ ],
+ "runtime": 116,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2020-05-12",
+ "last": "2020-05-12",
+ "scores": {
+  "tmdb": 7.181,
+  "rt": 89.0,
+  "ebert": 3.5,
+  "box_office": "$324.0M",
+  "multiple": 2.969569716981132,
+  "cpi_year": 2024
+ },
+ "plot": "After the Cold War, a breakaway Russian republic with nuclear warheads becomes a possible worldwide threat. U.S. submarine Capt. Frank Ramsey signs on a relatively green but highly recommended Lt. Cmdr. Ron Hunter to the USS Alabama, which may be the only ship able to stop a possible Armageddon. When Ramsey insists that the Alabama must act aggressively, Hunter, fearing they will start rather than stop a disaster, leads a potential mutiny to stop him.",
+ "synopsis": "In post-Soviet Russia, civil war erupts as a result of the ongoing conflict in Chechnya. Military units loyal to Vladimir Radchenko, a Russian ultra-nationalist rebel, take control of a nuclear missile installation in the Russian Far East near the Chinese and North Korean borders and threaten nuclear war if confronted.\n\nUSS Alabama, a U.S. Navy submarine, is dispatched on patrol with orders to launch a pre-emptive nuclear strike if Radchenko fuels his missiles. Combat-hardened veteran Captain Frank Ramsey chooses Lieutenant Commander Ron Hunter, who has an extensive education in military history and tactics but no combat experience, as his new XO.\n\nTensions arise between the headstrong Ramsey and the more analytical and cautious Hunter, exacerbated by Ramsey's decision to order a missile drill amidst the chaos caused by a galley fire that results in the death of the chief mess officer. Hunter helps fight the fire and discreetly questions the decision but is chastised by Ramsey for the appearance of discord.\n\nAlabama receives an Emergency Action Message ordering a missile launch against the Russian base. As Alabama prepares to fire, a second radio message is detected before a rebel Russian Akula-class submarine attacks, damaging the boat’s radio and leaving the message incomplete.\n\nWith the last confirmed order being to launch, Ramsey decides to proceed. Hunter disagrees, believing the partial second message may be a retraction. When Hunter refuses to consent as is required for a launch to be authorized, Ramsey tries to relieve him of duty. Hunter orders Ramsey arrested for attempting to circumvent two-man protocol. The Chief of the Boat sides with Hunter and has Ramsey relieved of command and confined to his stateroom, putting Hunter in charge.\n\nThe Russian submarine attacks Alabama again. Alabama emerges victorious but is damaged when a torpedo detonates next to her hull. The main propulsion system is disabled, and the bilge bay begins flooding. As the crew tries to restore propulsion, Hunter orders the sealing of the bilge with sailors trapped inside, saving Alabama at the expense of the men. Propulsion is restored before Alabama reaches hull-crush depth.\n\nOfficers and crew loyal to Ramsey unite and stage a mutiny. They retake the control room, confining Hunter, the Chief of the Boat, and some others to the officers' mess. Repairs to the radio continue, but Ramsey is determined to proceed without waiting for verification. Hunter escapes his arrest and prepares to retake the ship. He gains the support of weapons officer Peter Ince in the missile control room, further delaying the launch and leading Ramsey to go there. Hunter's party storms Alabama's command center, removing the captain's missile key. Ramsey and his men return, resulting in an armed Mexican standoff. With news that the radio will soon be repaired, Ramsey and Hunter agree to wait until the deadline for a preemptive missile launch to be effective.\n\nCommunications are eventually restored, revealing the full message from the second transmission – a retraction ordering that the missile launch be aborted because Radchenko's rebellion has been quelled. Ramsey turns the conn over to Hunter and returns to his cabin.\n\nThe two men are put before a tribunal at Naval Station Pearl Harbor to answer for their actions. The tribunal concludes that both men were right and both men were wrong, and Hunter's actions were deemed lawfully justified and in the best interests of the United States. Unofficially, the tribunal reprimands both men for failing to resolve their differences. Thanks to Ramsey's personal recommendation, the tribunal agrees to grant Hunter command of his own sub while allowing Ramsey to save face via an early retirement with full honors. Outside, Hunter meets with Ramsey to express his gratitude, and the two men part ways amicably.\n\nA textual epilogue states that as of January 1996, only the President has the authority to launch nuclear missiles.",
+ "synopsis_words": 635,
+ "episodes": [
+  {
+   "number": 139,
+   "date": "2020-05-12",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Sean Fennessey"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "suspenseful",
+   "reach": 30,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "terrorism",
+   "reach": 15,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "commanding",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "military",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "u.s. navy",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "aircraft carrier",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "embassy",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "missile",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "moral dilemma",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "nuclear missile",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "submarine",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "battle for power",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "chain of command",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "direct",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "launch code",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "mutiny",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "nuclear submarine",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "post cold war",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "sonar",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Denzel Washington",
+   "films": 12
+  },
+  {
+   "name": "Gene Hackman",
+   "films": 8
+  },
+  {
+   "name": "Matt Craven",
+   "films": 1
+  },
+  {
+   "name": "George Dzundza",
+   "films": 3
+  },
+  {
+   "name": "Viggo Mortensen",
+   "films": 1
+  },
+  {
+   "name": "James Gandolfini",
+   "films": 1
+  },
+  {
+   "name": "Rocky Carroll",
+   "films": 0
+  },
+  {
+   "name": "Jaime Gomez",
+   "films": 0
+  },
+  {
+   "name": "Michael Milhoan",
+   "films": 0
+  },
+  {
+   "name": "Scott Burkholder",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "top-gun-1986",
+   "title": "Top Gun",
+   "year": 1986,
+   "poster": "xUuHj3CgmZQ9P2cMaqQs4J0d4Zc.jpg"
+  },
+  {
+   "id": "beverly-hills-cop-ii-1987",
+   "title": "Beverly Hills Cop II",
+   "year": 1987,
+   "poster": "egDakU8O5yUwpUJP9IMAUVtIDll.jpg"
+  },
+  {
+   "id": "days-of-thunder-1990",
+   "title": "Days of Thunder",
+   "year": 1990,
+   "poster": "8UvcoeMJag8UWGF8sg7eYspzq0Q.jpg"
+  },
+  {
+   "id": "the-last-boy-scout-1991",
+   "title": "The Last Boy Scout",
+   "year": 1991,
+   "poster": "glPswihcZYoAQ4YM2uJF4UACy8T.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "hoosiers-1986",
+   "title": "Hoosiers",
+   "year": 1986,
+   "poster": "dHpjZQXEdoi1xNLubM1rPmTHJYz.jpg"
+  },
+  {
+   "id": "no-way-out-1987",
+   "title": "No Way Out",
+   "year": 1987,
+   "poster": "93CzsBvRhg035yvQosRtSsTL19v.jpg"
+  },
+  {
+   "id": "basic-instinct-1992",
+   "title": "Basic Instinct",
+   "year": 1992,
+   "poster": "76Ts0yoHk8kVQj9MMnoMixhRWoh.jpg"
+  },
+  {
+   "id": "unforgiven-1992",
+   "title": "Unforgiven",
+   "year": 1992,
+   "poster": "54roTwbX9fltg85zjsmrooXAs12.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Crimson_Tide_%28film%29",
+  "wikidata": "Q1140085"
+ }
+}

@@ -10,7 +10,7 @@
  },
  "latest": [
   {
-   "id": "cb4ff773-ea55-4227-a517-cfd097a02d53",
+   "id": "friday-the-13th-1980",
    "title": "Friday the 13th",
    "year": 1980,
    "poster": "uGGpnWHOmWTARVN9wbC1nPxNgps.jpg",
@@ -18,7 +18,7 @@
    "aired": "2026-10-12"
   },
   {
-   "id": "fa51f50e-3344-433a-ba39-f2f55375949d",
+   "id": "the-texas-chain-saw-massacre-1974",
    "title": "The Texas Chain Saw Massacre",
    "year": 1974,
    "poster": "mpgkRPH1GNkMCgdPk2OMyHzAks7.jpg",
@@ -26,7 +26,7 @@
    "aired": "2026-10-05"
   },
   {
-   "id": "0bf5cf58-b3e8-4299-ad93-07ccf236fc74",
+   "id": "13-going-on-30-2004",
    "title": "13 Going on 30",
    "year": 2004,
    "poster": "iNZdSIfhSCMtRILDNyhLn8UKeSG.jpg",
@@ -34,7 +34,7 @@
    "aired": "2026-09-28"
   },
   {
-   "id": "310344c5-1be7-4281-9bf7-1983a097daed",
+   "id": "law-abiding-citizen-2009",
    "title": "Law Abiding Citizen",
    "year": 2009,
    "poster": "fcEXcip7v0O1ndV4VUdFqJSqbOg.jpg",
@@ -42,7 +42,7 @@
    "aired": "2026-09-21"
   },
   {
-   "id": "684fe67c-dfb5-4e59-aa33-145a504a64a4",
+   "id": "rambo-first-blood-part-ii-1985",
    "title": "Rambo: First Blood Part II",
    "year": 1985,
    "poster": "fVwRtWqEPdsCH21BVDGqgkAQcff.jpg",
@@ -50,7 +50,7 @@
    "aired": "2026-09-14"
   },
   {
-   "id": "d2345571-7b00-41cb-b96f-86b5565ce0b2",
+   "id": "talladega-nights-the-ballad-of-ricky-bobby-2006",
    "title": "Talladega Nights: The Ballad of Ricky Bobby",
    "year": 2006,
    "poster": "3iCiTqsmJz1mO85AHzTiHNkRmb6.jpg",
@@ -58,7 +58,7 @@
    "aired": "2026-09-07"
   },
   {
-   "id": "e969a4fe-9ca4-4a3c-89bf-d60d10e7e549",
+   "id": "aliens-1986",
    "title": "Aliens",
    "year": 1986,
    "poster": "r1x5JGpyqZU8PYhbs4UcrO1Xb6x.jpg",
@@ -66,7 +66,7 @@
    "aired": "2026-08-31"
   },
   {
-   "id": "22fe216d-3ff7-4aa8-8ced-9bfdbd6e5350",
+   "id": "apollo-13-1995",
    "title": "Apollo 13",
    "year": 1995,
    "poster": "tVeKscCm2fY1xDXZk8PgnZ87h9S.jpg",
@@ -111,7 +111,7 @@
  "anchor_episodes": 442,
  "came_back_to": [
   {
-   "id": "7dd435eb-7a64-447f-acd7-cfedb8bb9568",
+   "id": "heat-1995",
    "title": "Heat",
    "year": 1995,
    "poster": "gKaePbkEkaqvMtw74EyhhkfCKKh.jpg",
@@ -119,7 +119,7 @@
    "last": "2021-11-02"
   },
   {
-   "id": "24190bc3-9b3e-47e7-938a-d8c1f5da7bb2",
+   "id": "speed-1994",
    "title": "Speed",
    "year": 1994,
    "poster": "82PkCE4R95KhHICUDF7G4Ly2z3l.jpg",
@@ -127,7 +127,7 @@
    "last": "2026-08-17"
   },
   {
-   "id": "e32f93d7-296d-4a74-90d2-130be6655978",
+   "id": "basic-instinct-1992",
    "title": "Basic Instinct",
    "year": 1992,
    "poster": "76Ts0yoHk8kVQj9MMnoMixhRWoh.jpg",
@@ -135,7 +135,7 @@
    "last": "2026-04-13"
   },
   {
-   "id": "cf7b9577-3469-4963-afdc-bb237c2c1d27",
+   "id": "zodiac-2007",
    "title": "Zodiac",
    "year": 2007,
    "poster": "6YmeO4pB7XTh8P8F960O1uA14JO.jpg",
@@ -143,7 +143,7 @@
    "last": "2026-01-26"
   },
   {
-   "id": "c6e387e0-4dac-44b0-9e04-2b6c00715a47",
+   "id": "good-will-hunting-1997",
    "title": "Good Will Hunting",
    "year": 1997,
    "poster": "z2FnLKpFi1HPO7BEJxdkv6hpJSU.jpg",
@@ -151,7 +151,7 @@
    "last": "2025-03-31"
   },
   {
-   "id": "694e6b81-0b7a-4b36-92c9-0408335fc4b0",
+   "id": "blue-chips-1994",
    "title": "Blue Chips",
    "year": 1994,
    "poster": "tO71i4Ob64tchCRBB5MoqonPKAF.jpg",
@@ -159,7 +159,7 @@
    "last": "2025-03-24"
   },
   {
-   "id": "112cabbe-f72e-4dab-92f8-26a1a833991d",
+   "id": "den-of-thieves-2018",
    "title": "Den of Thieves",
    "year": 2018,
    "poster": "dAP5NpkrMMczir5dUPjRR6ywqgz.jpg",
@@ -167,7 +167,7 @@
    "last": "2025-01-06"
   },
   {
-   "id": "e43cf168-c9af-4ad7-9473-dd1807b8510b",
+   "id": "the-silence-of-the-lambs-1991",
    "title": "The Silence of the Lambs",
    "year": 1991,
    "poster": "uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
@@ -175,7 +175,7 @@
    "last": "2024-10-15"
   },
   {
-   "id": "1bf45e92-8bdd-481f-b2cb-0667d600abda",
+   "id": "jerry-maguire-1996",
    "title": "Jerry Maguire",
    "year": 1996,
    "poster": "lABvGN7fDk5ifnwZoxij6G96t2w.jpg",
@@ -183,7 +183,7 @@
    "last": "2024-05-13"
   },
   {
-   "id": "216ec46e-f30a-45b8-81b7-6584cce6f6e9",
+   "id": "rounders-1998",
    "title": "Rounders",
    "year": 1998,
    "poster": "mqbMwYGwIChnaCO55h7v8DG8Wwy.jpg",
@@ -191,7 +191,7 @@
    "last": "2024-02-27"
   },
   {
-   "id": "5503707e-fd8d-4dad-a527-e63834b64993",
+   "id": "creed-2015",
    "title": "Creed",
    "year": 2015,
    "poster": "1BfTsk5VWuw8FCocAhCyqnRbEzq.jpg",
@@ -199,7 +199,7 @@
    "last": "2024-02-20"
   },
   {
-   "id": "5bb6f493-044e-4f3c-a5e0-7ba44db09f45",
+   "id": "forrest-gump-1994",
    "title": "Forrest Gump",
    "year": 1994,
    "poster": "Cw4hIUIAmSYfK9QfaUW5igp9La.jpg",
@@ -207,7 +207,7 @@
    "last": "2024-02-13"
   },
   {
-   "id": "ef9f5ca5-3fac-48aa-95ae-8cb5aa83f131",
+   "id": "the-fugitive-1993",
    "title": "The Fugitive",
    "year": 1993,
    "poster": "b3rEtLKyOnF89mcK75GXDXdmOEf.jpg",
@@ -215,7 +215,7 @@
    "last": "2024-02-06"
   },
   {
-   "id": "4f833fd6-e6a7-43f1-b05d-d4ef6d430fc2",
+   "id": "a-few-good-men-1992",
    "title": "A Few Good Men",
    "year": 1992,
    "poster": "rLOk4z9zL1tTukIYV56P94aZXKk.jpg",
@@ -223,7 +223,7 @@
    "last": "2023-07-31"
   },
   {
-   "id": "8e48da9c-0098-410e-979e-9c952cea1158",
+   "id": "titanic-1997",
    "title": "Titanic",
    "year": 1997,
    "poster": "9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
@@ -231,7 +231,7 @@
    "last": "2022-03-15"
   },
   {
-   "id": "fd987db9-d691-44da-8649-a17ad09075e0",
+   "id": "the-departed-2006",
    "title": "The Departed",
    "year": 2006,
    "poster": "nT97ifVT2J1yMQmeq20Qblg61T.jpg",

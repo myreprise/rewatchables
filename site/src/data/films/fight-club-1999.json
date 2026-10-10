@@ -1,0 +1,234 @@
+{
+ "id": "fight-club-1999",
+ "title": "Fight Club",
+ "year": 1999,
+ "poster": "jSziioSwPVrOy9Yow3XhWIBDjq1.jpg",
+ "tmdb_id": 550,
+ "directors": [
+  "David Fincher"
+ ],
+ "director_primary": "David Fincher",
+ "genres": [
+  "Drama",
+  "Thriller"
+ ],
+ "runtime": 139,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2021-07-20",
+ "last": "2021-07-20",
+ "scores": {
+  "tmdb": 8.437,
+  "rt": 81.0,
+  "ebert": 2.0,
+  "box_office": "$189.9M",
+  "multiple": 1.6008532222222223,
+  "cpi_year": 2024
+ },
+ "plot": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+ "synopsis": "The unnamed Narrator works an office job as an insurance claims examiner/insurance investigator. He sees a doctor for his disordered sleep, complaining that he falls asleep unexpectedly and wakes up in unfamiliar places. The doctor suggests he attend a testicular cancer support group to see what actual pain looks like. The Narrator does so, and finds that the honesty and vulnerability he experiences there improve his sleep. He begins attending other support groups and encounters Marla Singer, another impostor, whose presence unnerves him. After a confrontation, the two agree to split the groups they attend.\n\nThe Narrator meets luxury soap salesman Tyler Durden on a business flight. Upon returning home, the Narrator finds his apartment destroyed in an explosion, and calls Tyler. They meet at a bar, where Tyler criticizes the Narrator's consumerist lifestyle and mocks him for not directly asking for a place to stay. Tyler agrees the Narrator can stay with him, but first asks a favor: for the Narrator to punch him as hard as he can. The Narrator does so, instigating an agreeable exchange of painful blows. At Tyler's large and decrepit house, they start an underground \"Fight Club\" at the bar, as a way for men to reclaim control of their lives.\n\nTyler saves Marla from an overdose, leading to a sexual relationship, while the Narrator remains cold to her. Tyler has the Narrator promise not to talk to Marla about him.\n\nHis experiences at Fight Club transform the Narrator, and he grows increasingly disillusioned with his career. He extorts his boss by beating himself up in his boss's office, staging it as if the boss had assaulted him, and uses the hush money to expand Fight Club. He attracts new members, including his cancer support group friend, Robert \"Bob\" Paulsen. Tyler transforms the club into Project Mayhem, which commits increasingly destructive anti-capitalist acts. The Narrator confronts Tyler, who confesses to exploding the Narrator's apartment to free him from his consumerist lifestyle. They argue, then Tyler goes missing. When the police kill Bob during a Project Mayhem mission, the Narrator tries to dismantle Project Mayhem and discovers its nationwide reach.\n\nAcross several cities, the Narrator finds local chapters and asks if they have seen Tyler, but they give evasive and confusing answers until one member identifies the Narrator as Mr. Durden. The Narrator calls Marla to enquire about their relationship; she calls him Tyler. Once she hangs up, Tyler appears in the room with the Narrator and rebukes him for involving Marla. The Narrator realizes he and Tyler are the same person, with Tyler taking control during the Narrator's apparent narcolepsy.\n\nThe Narrator discovers Project Mayhem's ultimate objective: to erase all debt records by blowing up the skyscrapers of consumer credit companies. He warns Marla to stay away from him and goes to alert the police, but finds the officers are themselves Project Mayhem members. They attempt to castrate him on Tyler's orders. The Narrator escapes and disarms one of the bombs, prompting Tyler to attack him.\n\nThe Narrator reasons that Tyler's gun must be in his own hand, and finds that he is now holding it. He shoots himself in the cheek, \"killing\" Tyler but leaving the Narrator alive. He and Marla hold hands and watch the skyline as buildings collapse.",
+ "synopsis_words": 547,
+ "episodes": [
+  {
+   "number": 212,
+   "date": "2021-07-20",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "dystopia",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "fight",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "breaking the fourth wall",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "dual identity",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "rage and hate",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "alter ego",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "insomnia",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "nihilism",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "dissociative identity disorder",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "quitting a job",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "self destructiveness",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "split personality",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "support group",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Edward Norton",
+   "films": 5
+  },
+  {
+   "name": "Brad Pitt",
+   "films": 9
+  },
+  {
+   "name": "Helena Bonham Carter",
+   "films": 1
+  },
+  {
+   "name": "Meat Loaf",
+   "films": 1
+  },
+  {
+   "name": "Jared Leto",
+   "films": 2
+  },
+  {
+   "name": "Zach Grenier",
+   "films": 0
+  },
+  {
+   "name": "Holt McCallany",
+   "films": 1
+  },
+  {
+   "name": "Eion Bailey",
+   "films": 0
+  },
+  {
+   "name": "Richmond Arquette",
+   "films": 0
+  },
+  {
+   "name": "David Andrews",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "se7en-1995",
+   "title": "Se7en",
+   "year": 1995,
+   "poster": "191nKfP0ehp3uIvWqgPbFmI4lv9.jpg"
+  },
+  {
+   "id": "the-game-1997",
+   "title": "The Game",
+   "year": 1997,
+   "poster": "4UOa079915QjiTA2u5hT2yKVgUu.jpg"
+  },
+  {
+   "id": "panic-room-2002",
+   "title": "Panic Room",
+   "year": 2002,
+   "poster": "hANYbvfwxmkC9E4yY6YyJxYxlSJ.jpg"
+  },
+  {
+   "id": "zodiac-2007",
+   "title": "Zodiac",
+   "year": 2007,
+   "poster": "6YmeO4pB7XTh8P8F960O1uA14JO.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "se7en-1995",
+   "title": "Se7en",
+   "year": 1995,
+   "poster": "191nKfP0ehp3uIvWqgPbFmI4lv9.jpg"
+  },
+  {
+   "id": "primal-fear-1996",
+   "title": "Primal Fear",
+   "year": 1996,
+   "poster": "qJf2TzE8nRTFbFMPJNW6c8mI0KU.jpg"
+  },
+  {
+   "id": "rounders-1998",
+   "title": "Rounders",
+   "year": 1998,
+   "poster": "mqbMwYGwIChnaCO55h7v8DG8Wwy.jpg"
+  },
+  {
+   "id": "oceans-eleven-2001",
+   "title": "Ocean's Eleven",
+   "year": 2001,
+   "poster": "hQQCdZrsHtZyR6NbKH2YyCqd2fR.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Fight_Club",
+  "wikidata": "Q190050"
+ }
+}

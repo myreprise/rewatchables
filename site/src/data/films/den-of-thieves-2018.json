@@ -1,0 +1,269 @@
+{
+ "id": "den-of-thieves-2018",
+ "title": "Den of Thieves",
+ "year": 2018,
+ "poster": "dAP5NpkrMMczir5dUPjRR6ywqgz.jpg",
+ "tmdb_id": 449443,
+ "directors": [
+  "Christian Gudegast"
+ ],
+ "director_primary": "Christian Gudegast",
+ "genres": [
+  "Crime",
+  "Thriller",
+  "Action"
+ ],
+ "runtime": 140,
+ "revisited": false,
+ "episodes_featured": 2,
+ "first": "2019-10-14",
+ "last": "2025-01-06",
+ "scores": {
+  "tmdb": 6.873,
+  "rt": 41.0,
+  "ebert": null,
+  "box_office": "$100.6M",
+  "multiple": 2.6836540666666666,
+  "cpi_year": 2024
+ },
+ "plot": "A gritty crime saga which follows the lives of an elite unit of the LA County Sheriff's Dept. and the state's most successful bank robbery crew as the outlaws plan a seemingly impossible heist on the Federal Reserve Bank.",
+ "synopsis": "In Los Angeles, a team of ex-MARSOC Marines led by Ray Merrimen hijack an armored truck. The ensuing shootout with police leaves several dead, including one of Merrimen's crew, as the hijackers escape with an empty truck. Los Angeles County Sheriff's Department Detective Nick \"Big Nick\" O'Brien and his team, the Major Crimes Unit, investigate the robbery, making the recently paroled Merrimen his prime suspect. Nick's team kidnaps Donnie Wilson, a bartender who confesses to acting as the thieves' unarmed getaway driver. He describes a large sum of cash stolen from a stadium by the crew but denies knowing their plans and is released.\n\nMerrimen and his crew prepare to rob the heavily guarded Federal Reserve. With approximately $30 million in old bills removed from circulation daily, they plan to steal the untraceable money before it is shredded. Nick's team tails Donnie, who is hired as a Chinese food delivery driver, allowing him to deliver inside the Federal Reserve. When Nick recognizes Donnie at a restaurant, Merrimen's crew suspects Donnie is an informant. Interrogated at gunpoint, he admits that Nick questioned him; to his surprise, Merrimen orders him to tell Nick when the heist is taking place. Donnie informs Nick but denies knowing the location. Merrimen's girlfriend seduces Nick and, on Merrimen's instructions, reveals the crew will be robbing a bank in Pico Rivera.\n\nOn the day of the heist, as Nick's team waits nearby running surveillance, Merrimen's crew takes the Pico Rivera Savings & Loan bank hostage, demanding a ransom and a helicopter. When the FBI attempts to negotiate, the crew appears to execute a female hostage. The thieves access the vault and detonate explosives inside, leading Nick to realize this is not their usual M.O.. He impatiently storms the bank himself to find the hostages alive, bound, and hooded. In contrast, the thieves have blown their way into the sewers and escaped.\n\nMerrimen and his right-hand man Enson infiltrate the Federal Reserve, using the stolen armored truck and stadium money to pose as security guards dropping off cash. Donnie, hidden inside a cart of cash, is wheeled inside a counting room as the thieves disrupt the room's power, making it seem like a common brownout. The employees are briefly sent away, and Donnie triggers an electromagnetic pulse to disable the room's cameras as he sends the bills earmarked for shredding safely down the trash chute. Crawling through an air duct to the restroom, he leaves the building in his delivery uniform as Merrimen and Enson depart.\n\nA garbage truck picks up the trash containing the money, which the thieves intercept. Nick's team captures Donnie and beats him into revealing Merrimen's escape route. Stuck in traffic, Merrimen's crew spots Nick's team approaching and exchange fire; Deputy \"Borracho\" and thief Bosco are killed. Fleeing on foot with Nick in close pursuit, Enson is killed, and Merrimen is fatally wounded by Nick, who stays by his side until he dies. Instead of the money, only bags of shredded paper are found in Merrimen's vehicle, and the FBI informs Nick that all currency is accounted for at the Federal Reserve while Donnie has escaped.\n\nNick revisits Donnie's bar only to learn he has quit. Noticing the bar is frequented by Federal Reserve employees and spotting a picture of Donnie and his friends, Nick realizes Donnie is the heist's true mastermind: gathering information from bar patrons, he was able to plan the entire robbery. He recruited his friends to intercept the money and double-cross Merrimen's crew. Having shipped the money offshore to Panama and escaped to London with his accomplices, Donnie is now working at another bar across from a diamond exchange – his next target.",
+ "synopsis_words": 613,
+ "episodes": [
+  {
+   "number": 105,
+   "date": "2019-10-14",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Shea Serrano"
+   ],
+   "note": null
+  },
+  {
+   "number": 388,
+   "date": "2025-01-06",
+   "gap_before": "5 yr 2 mo later",
+   "is_revisit": true,
+   "revisit_sequence": 2,
+   "revisit_kind": "regular",
+   "verdict": "Hanks",
+   "verdict_tone": "hanks",
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan",
+    "Van Lathan"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "intense",
+   "reach": 23,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "fbi",
+   "reach": 20,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "aggressive",
+   "reach": 18,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "detective",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "shootout",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "heist",
+   "reach": 16,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "investigation",
+   "reach": 14,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "death",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "police brutality",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "strip club",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "bank robbery",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "divorce",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "bar",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "hostage situation",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "assault rifle",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "ex military",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "ex-marine",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "armored truck",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "deputy sheriff",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "domineering",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "donut",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "donut shop",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "security",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Gerard Butler",
+   "films": 2
+  },
+  {
+   "name": "Pablo Schreiber",
+   "films": 1
+  },
+  {
+   "name": "O'Shea Jackson Jr.",
+   "films": 1
+  },
+  {
+   "name": "50 Cent",
+   "films": 1
+  },
+  {
+   "name": "Meadow Williams",
+   "films": 1
+  },
+  {
+   "name": "Maurice Compte",
+   "films": 0
+  },
+  {
+   "name": "Brian Van Holt",
+   "films": 0
+  },
+  {
+   "name": "Evan Jones",
+   "films": 0
+  },
+  {
+   "name": "Mo McRae",
+   "films": 0
+  },
+  {
+   "name": "Kaiwi Lyman",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "law-abiding-citizen-2009",
+   "title": "Law Abiding Citizen",
+   "year": 2009,
+   "poster": "fcEXcip7v0O1ndV4VUdFqJSqbOg.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Den_of_Thieves_%28film%29",
+  "wikidata": "Q28860130"
+ }
+}

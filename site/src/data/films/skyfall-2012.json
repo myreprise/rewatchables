@@ -1,0 +1,241 @@
+{
+ "id": "skyfall-2012",
+ "title": "Skyfall",
+ "year": 2012,
+ "poster": "d0IVecFQvsGdSbnMAHqiYsNYaJT.jpg",
+ "tmdb_id": 37724,
+ "directors": [
+  "Sam Mendes"
+ ],
+ "director_primary": "Sam Mendes",
+ "genres": [
+  "Action",
+  "Adventure",
+  "Thriller"
+ ],
+ "runtime": 143,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2019-11-20",
+ "last": "2019-11-20",
+ "scores": {
+  "tmdb": 7.265,
+  "rt": 92.0,
+  "ebert": 4.0,
+  "box_office": "$1.5B",
+  "multiple": 5.54297088,
+  "cpi_year": 2024
+ },
+ "plot": "When Bond's latest assignment goes gravely wrong, agents around the world are exposed and MI6 headquarters is attacked. While M faces challenges to her authority and position from Gareth Mallory, the new Chairman of the Intelligence and Security Committee, it's up to Bond, aided only by field agent Eve, to locate the mastermind behind the attack.",
+ "synopsis": "In Istanbul, MI6 agents James Bond and Eve Moneypenny pursue mercenary Patrice, who has stolen a hard drive containing details of undercover NATO agents. As Bond and Patrice fight on the roof of a moving train, M orders Moneypenny to shoot Patrice, despite not having a clear shot; Moneypenny inadvertently hits Bond, who falls into a river. Bond is presumed dead and Patrice escapes with the hard drive.\n\nThree months later, due to a public inquiry into M's handling of the stolen hard drive, she is pressured to retire by Gareth Mallory, the chairman of the Intelligence and Security Committee of Parliament and a former SAS officer. However, she remains adamant that she is still useful. On her way back to MI6, MI6's servers are hacked, and M receives a taunting computer message moments before the MI6 building explodes. Bond, who used his presumed death to retire, learns of the attack and returns to service in London. He fails a series of physical, medical, and psychological examinations, but M approves his return to the field, ordering him to identify Patrice's employer, recover the hard drive, and kill Patrice. Bond meets Q, MI6's new quartermaster, who gives him a radio beacon and a Walther PPK pistol.\n\nIn Shanghai, Bond follows Patrice and sees him kill a target. They fight, and Patrice dies before Bond can learn his employer's identity. Bond finds a casino token Patrice intended to cash in for the assassination, leading him to a casino in Macau. Moneypenny joins Bond's investigation on Mallory's orders. Bond is approached by Sévérine, Patrice's accomplice. Recognising her tattoo, he concludes she was a sex slave \"rescued\" by a criminal who now employs her, a man Bond wishes to meet. She warns him he is targeted by her bodyguards, but promises to help if Bond kills her employer. Bond thwarts the attack and joins Sévérine on her yacht. They travel to an abandoned island off the coast of Macau, where the crew captures and delivers them to Sévérine's employer, Raoul Silva. Silva, a former MI6 agent, turned to cyberterrorism and orchestrated the attack on MI6. Silva kills Sévérine. Bond uses Q's radio beacon to alert MI6 reinforcements, who capture Silva for rendition to Britain.\n\nAt MI6's new underground headquarters, Q attempts to decrypt Silva's laptop, but inadvertently gives it access to the MI6 servers which open all the security doors, allowing Silva to escape. Bond and Q conclude that Silva wanted to be captured as part of a plan to kill M, whom he hates for disavowing and betraying him to the Chinese government during the handover of Hong Kong in 1997, leaving him to be tortured and end up disfigured by a suicide attempt by hydrogen cyanide. Realising Silva has escaped, Bond chases him through the London Underground and thwarts Silva's attack at a Parliament inquiry where M is present, though Silva escapes again.\n\nInstructing Q and Bill Tanner to leave an electronic trail for Silva to follow, Bond uses his Aston Martin DB5 to take M to Skyfall, his childhood home in the Scottish Highlands. They meet Skyfall's old gamekeeper Kincade, and the trio rigs the house with booby traps. When Silva's men arrive, Bond, M, and Kincade kill most of them, but M is wounded. Silva arrives by helicopter with more men and heavy weapons, so Bond sends M and Kincade through a priest hole to hide in a nearby chapel and rigs propane tanks to explode. As the house and the helicopter are destroyed, Bond escapes down the same tunnel.\n\nSilva survives the destruction of the house, following Kincade and M to the chapel. Confronting M, Silva forces his gun into her hand and presses his temple to hers, begging her to kill them both. Bond arrives and kills Silva by throwing a knife into his back. M then succumbs to her wounds and dies in Bond's arms.\n\nFollowing M's funeral, Moneypenny formally introduces herself to Bond and tells him she is retiring from fieldwork to become secretary for Mallory, the newly appointed M. Bond meets Mallory and tells him he is ready to get back to work.",
+ "synopsis_words": 688,
+ "episodes": [
+  {
+   "number": 108,
+   "date": "2019-11-20",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Chris Ryan",
+   "guests": [
+    "Sean Fennessey",
+    "Amanda Dobbins"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "intense",
+   "reach": 23,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "spy",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "secret agent",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "sociopath",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "vibrant",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "art gallery",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "james bond",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "mi6",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "booby trap",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "british secret service",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "globetrotting",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "hacking",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "killer",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "aston martin",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "helicopter crash",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "macao",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "police impersonator",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "scottish highlands",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "uzi",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Daniel Craig",
+   "films": 2
+  },
+  {
+   "name": "Judi Dench",
+   "films": 2
+  },
+  {
+   "name": "Javier Bardem",
+   "films": 3
+  },
+  {
+   "name": "Ralph Fiennes",
+   "films": 3
+  },
+  {
+   "name": "Naomie Harris",
+   "films": 2
+  },
+  {
+   "name": "Bérénice Marlohe",
+   "films": 0
+  },
+  {
+   "name": "Albert Finney",
+   "films": 0
+  },
+  {
+   "name": "Ben Whishaw",
+   "films": 0
+  },
+  {
+   "name": "Rory Kinnear",
+   "films": 0
+  },
+  {
+   "name": "Ola Rapace",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "casino-royale-2006",
+   "title": "Casino Royale",
+   "year": 2006,
+   "poster": "lMrxYKKhd4lqRzwUHAy5gcx9PSO.jpg"
+  },
+  {
+   "id": "quiz-show-1994",
+   "title": "Quiz Show",
+   "year": 1994,
+   "poster": "yoGJo1h3Hl2exXPVcG9UXWDENtX.jpg"
+  },
+  {
+   "id": "miami-vice-2006",
+   "title": "Miami Vice",
+   "year": 2006,
+   "poster": "iJPSls4taB09EUKtLj6FjFSprb3.jpg"
+  },
+  {
+   "id": "no-country-for-old-men-2007",
+   "title": "No Country for Old Men",
+   "year": 2007,
+   "poster": "6d5XOczc226jECq0LIX0siKtgHR.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Skyfall",
+  "wikidata": "Q4941"
+ }
+}

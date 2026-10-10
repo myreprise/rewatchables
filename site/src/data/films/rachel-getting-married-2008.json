@@ -1,0 +1,193 @@
+{
+ "id": "rachel-getting-married-2008",
+ "title": "Rachel Getting Married",
+ "year": 2008,
+ "poster": "bumaq3lqe4YSsq6LlYoge7e9ABk.jpg",
+ "tmdb_id": 14976,
+ "directors": [
+  "Jonathan Demme"
+ ],
+ "director_primary": "Jonathan Demme",
+ "genres": [
+  "Drama",
+  "Romance"
+ ],
+ "runtime": 113,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2022-02-08",
+ "last": "2022-02-08",
+ "scores": {
+  "tmdb": 6.301,
+  "rt": 85.0,
+  "ebert": 4.0,
+  "box_office": "$24.7M",
+  "multiple": 1.4114973333333334,
+  "cpi_year": 2024
+ },
+ "plot": "A young woman who has been in and out from rehab for the past 10 years returns home for the weekend for her sister's wedding.",
+ "synopsis": "Kym is released from rehab for a few days so she can go home to attend the wedding of her sister Rachel. At home, the atmosphere is strained between Kym and her family members as they struggle to reconcile themselves with her past and present. Kym's father shows intense concern for her well-being and whereabouts, which Kym interprets as mistrust. She also resents her sister's choice of her best friend Emma, rather than Kym, to be her maid of honor. Rachel, for her part, resents the attention her sister's drug addiction is drawing away from her wedding, a resentment that comes to a head at the rehearsal dinner, where Kym, amid toasts from friends and family, takes the microphone to offer an apology for her past actions, as part of her twelve-step program. Underlying the family's dynamic is a tragedy that occurred years previously, which Kym retells at a Narcotics Anonymous meeting. As a teenager, Kym was responsible for the death of her young brother Ethan, who was left in her care one day; driving home from a nearby park, an intoxicated Kym had lost control of the car, driving over a bridge and into a lake, where her brother drowned. The day before the wedding, as Rachel, Kym, and the other bridesmaids are getting their hair done, Kym is approached by a man whom she knew from an earlier stint in rehab. He thanks her for the strength she gave him through a story about having been molested by an uncle and having cared for her sister, who was anorexic. Rachel, hearing this, storms out. The story, it turns out, was all a lie — an apparent attempt by Kym to evade responsibility for her addiction. The sisters' fight comes to a head later that night at their father's house, when Kym comes home. As it turns out, Rachel still blames her for Ethan's death, despite their father's attempt to calm them down. This causes Kym to leave, after eventually admitting to being high while she was a teen. She heads to their mother Abby's house, hoping to find solace with her after a fight with Rachel. However, a fight breaks out between them when Kym learns the truth about her mother also being responsible for Ethan's death. She confronts Abby and demands to know why she left him in her care while she was under the influence instead of leaving him with Rachel. Kym soon realizes that Abby is denying any responsibility she has for his death. She tells her that she was good to Ethan and that Rachel is wrong in accusing her for his death. Once Kym tells her mother that she was also responsible for Ethan's death, Abby is furious and slaps Kym in the face. Furious, Kym hits Abby back and runs off again in her father's car. While driving away, Kym is seen crying because, while she started to accept responsibility for what she has done under the influence, her mother has failed to do the same. This time, Kym intentionally crashes her father's car into a giant rock, and spends the night in the wreck. The next morning, the day of the wedding, Kym is awoken by police. After passing a sobriety test, she gets a ride home. She makes her way to Rachel's room, as Rachel prepares for the wedding. Seeing Kym's bruised face from a fight she had with their mother prompts her anger of the previous night to vanish, and Rachel tenderly bathes and dresses her sister. Amid a festive Indian theme, Rachel and her fiancee are wed. Kym is the maid of honor, and is overcome with emotion as the couple exchanges their vows. Kym tries to enjoy herself throughout the wedding reception but continues to feel out of place and is nagged by the unresolved dispute with her mother. Ultimately, her mother leaves the party early, despite Rachel's effort to bring the two together, and the gulf between Kym and Abby is left unreconciled. The next morning, Kym must return to rehab. As she is leaving, Rachel runs out of the house to hug her.",
+ "synopsis_words": 688,
+ "episodes": [
+  {
+   "number": 240,
+   "date": "2022-02-08",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Amanda Dobbins",
+    "Wesley Morris"
+   ],
+   "note": "\"Fucked up Family February\" month"
+  }
+ ],
+ "keywords": [
+  {
+   "word": "wedding",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "sibling relationship",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "drug addiction",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "connecticut",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "drug rehabilitation",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "maid of honor",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "rehearsal dinner",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "sister",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "interracial marriage",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "sister sister relationship",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Anne Hathaway",
+   "films": 3
+  },
+  {
+   "name": "Rosemarie DeWitt",
+   "films": 1
+  },
+  {
+   "name": "Bill Irwin",
+   "films": 1
+  },
+  {
+   "name": "Debra Winger",
+   "films": 2
+  },
+  {
+   "name": "Tunde Adebimpe",
+   "films": 1
+  },
+  {
+   "name": "Mather Zickel",
+   "films": 0
+  },
+  {
+   "name": "Anna Deavere Smith",
+   "films": 1
+  },
+  {
+   "name": "Anisa George",
+   "films": 0
+  },
+  {
+   "name": "Robyn Hitchcock",
+   "films": 0
+  },
+  {
+   "name": "'Sister' Carol East",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "the-silence-of-the-lambs-1991",
+   "title": "The Silence of the Lambs",
+   "year": 1991,
+   "poster": "uS9m8OBk1A8eM9I042bx8XXpqAq.jpg"
+  },
+  {
+   "id": "philadelphia-1993",
+   "title": "Philadelphia",
+   "year": 1993,
+   "poster": "tFe5Yoo5zT495okA49bq1vPPkiV.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "an-officer-and-a-gentleman-1982",
+   "title": "An Officer and a Gentleman",
+   "year": 1982,
+   "poster": "69adZbLeRk5TNQ3e0008dMnde9p.jpg"
+  },
+  {
+   "id": "brokeback-mountain-2005",
+   "title": "Brokeback Mountain",
+   "year": 2005,
+   "poster": "aByfQOQBNa4CMFwIgq3QrqY2ZHh.jpg"
+  },
+  {
+   "id": "the-devil-wears-prada-2006",
+   "title": "The Devil Wears Prada",
+   "year": 2006,
+   "poster": "8912AsVuS7Sj915apArUFbv6F9L.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Rachel_Getting_Married",
+  "wikidata": "Q1117613"
+ }
+}

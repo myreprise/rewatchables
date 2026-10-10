@@ -1,0 +1,263 @@
+{
+ "id": "along-came-polly-2004",
+ "title": "Along Came Polly",
+ "year": 2004,
+ "poster": "7Tp16THdpHkMrqgoiDresDz9CWL.jpg",
+ "tmdb_id": 5966,
+ "directors": [
+  "John Hamburg"
+ ],
+ "director_primary": "John Hamburg",
+ "genres": [
+  "Comedy",
+  "Romance"
+ ],
+ "runtime": 90,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2024-05-07",
+ "last": "2024-05-07",
+ "scores": {
+  "tmdb": 6.031,
+  "rt": 27.0,
+  "ebert": 2.0,
+  "box_office": "$296.1M",
+  "multiple": 4.245238095238095,
+  "cpi_year": 2024
+ },
+ "plot": "Reuben Feffer is a guy who's spent his entire life playing it safe. Polly Prince is irresistible as a free-spirit who lives for the thrill of the moment. When these two comically mismatched souls collide, Reuben's world is turned upside down, as he makes an uproarious attempt to change his life from middle-of-the-road to totally-out-there.",
+ "synopsis": "Reuben Feffer, a risk assessment expert for a large-life insurance company, is celebrating his honeymoon with his new wife, Lisa Kramer, on the island of Saint Barthélemy. However, he catches her having sex with Claude, a scuba instructor who had walked by completely naked, causing Lisa to yap with laughter when she saw that he had an extremely large penis. Lisa claims to be in love with Claude and chooses to stay in Saint Barthélemy with him.\n\nReuben returns home to New York alone and attempts to piece his life back together. While at an art gallery with his friend Sandy Lyle, he runs into former middle school classmate Polly Prince.\n\nReuben asks out Polly, and she invites him to dinner at an elegant Moroccan restaurant, which he agrees to despite having irritable bowel syndrome. The date ends badly when Reuben clogs Polly's toilet. On their second date, they go salsa dancing. Polly dances provocatively with her friend Javier, and Reuben admits to being uncomfortable, explaining that he actually hates spicy food and generally avoids \"risky\" behaviors that she clearly enjoys. Despite this, Polly takes him home, and they have sex.\n\nPolly and Reuben continue to see each other regularly. Reuben finds himself challenged to experience new things as well as by Leland Van Lew, an adventurous CEO who wants Reuben's company to insure him so that he can maintain control of his company. Reuben also asks Javier to teach him to dance salsa, which allows him to surprise and charm Polly when they return to the salsa club.\n\nWhen Lisa returns hoping to reconcile with Reuben, Polly is spooked by Reuben referring to her as his girlfriend. Reuben tells Lisa he doesn't want her back and she has to leave. He enters information about them both into a computer insurance program which measures risk. It tilts the decision toward Polly. The results suggest that, despite his numerous blunders with her, she is the least risky choice for him.\n\nVan Lew brings Reuben and Polly along on a sailing trip. As the two take shelter below deck during a storm, Polly learns of the risk assessment and argues with Reuben. She rejects his proposal to move in together, and she says that he would be better off going back to Lisa.\n\nBack home, Reuben is despondent over losing Polly and invites Lisa to Sandy's opening show. While there, he learns that Polly is leaving New York in a few hours. At the same time, he is urgently called into work to give his risk analysis presentation on Van Lew.\n\nAfter a speech given by his father, Irving, to Sandy about not living in the past, Reuben realizes he wants to be with Polly and not Lisa. Reuben rushes to her apartment to stop her from leaving. Meanwhile, Sandy fills in for Reuben for his risk analysis presentation on Leland and successfully convinces the board to insure him.\n\nReuben catches up with Polly and tries to persuade her to stay. Since she still is not sure they are compatible, he eats food off the ground to prove he is capable of taking risks. Polly is finally convinced and ends up dating Reuben. Both agree to take their relationship step-by-step and not rush into marriage.\n\nA year later, Reuben and Polly vacation on the same beach in Saint Barthélemy. He has loosened up more, while Polly has become more comfortable with commitment. They encounter Claude, but instead of being angry, Reuben thanks him for setting off the course of events that led him here before heading fully naked into the water with Polly to join Leland on his new boat.",
+ "synopsis_words": 608,
+ "episodes": [
+  {
+   "number": 355,
+   "date": "2024-05-07",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Hanks",
+   "verdict_tone": "hanks",
+   "host": "Bill Simmons",
+   "guests": [
+    "Sean Fennessey"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "los angeles, california",
+   "reach": 49,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "amused",
+   "reach": 26,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "romantic",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "romcom",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "opposites attract",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "art gallery",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "beach",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "bride",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "chance",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "long island, new york",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "neurotic",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "scuba diving",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "bagpipe",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "caribbean sea",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "chance meeting",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "commitment",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "dance class",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "dance club",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "ferret",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "honeymoon",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "insurance risk manager",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "risk",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "unfaithfulness",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Ben Stiller",
+   "films": 7
+  },
+  {
+   "name": "Jennifer Aniston",
+   "films": 3
+  },
+  {
+   "name": "Philip Seymour Hoffman",
+   "films": 6
+  },
+  {
+   "name": "Debra Messing",
+   "films": 1
+  },
+  {
+   "name": "Alec Baldwin",
+   "films": 5
+  },
+  {
+   "name": "Hank Azaria",
+   "films": 0
+  },
+  {
+   "name": "Bryan Brown",
+   "films": 1
+  },
+  {
+   "name": "Jsu Garcia",
+   "films": 0
+  },
+  {
+   "name": "Michele Lee",
+   "films": 0
+  },
+  {
+   "name": "Bob Dishy",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "working-girl-1988",
+   "title": "Working Girl",
+   "year": 1988,
+   "poster": "q2jfFzZvAzjTaArQR0tjilIZ5aJ.jpg"
+  },
+  {
+   "id": "glengarry-glen-ross-1992",
+   "title": "Glengarry Glen Ross",
+   "year": 1992,
+   "poster": "zcaEDx8KlVfh4vKfMNLhiSi5Oz4.jpg"
+  },
+  {
+   "id": "scent-of-a-woman-1992",
+   "title": "Scent of a Woman",
+   "year": 1992,
+   "poster": "4adI7IaveWb7EidYXfLb3MK3CgO.jpg"
+  },
+  {
+   "id": "reality-bites-1994",
+   "title": "Reality Bites",
+   "year": 1994,
+   "poster": "qGDhodtpkpxkrFqokenGNJlzt6w.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Along_Came_Polly",
+  "wikidata": "Q426396"
+ }
+}

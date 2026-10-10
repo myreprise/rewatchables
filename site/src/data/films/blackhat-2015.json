@@ -1,0 +1,270 @@
+{
+ "id": "blackhat-2015",
+ "title": "Blackhat",
+ "year": 2015,
+ "poster": "7zu6HPnKPjNA7NuR4DGRdaH0PdX.jpg",
+ "tmdb_id": 201088,
+ "directors": [
+  "Michael Mann"
+ ],
+ "director_primary": "Michael Mann",
+ "genres": [
+  "Crime",
+  "Thriller",
+  "Action"
+ ],
+ "runtime": 133,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2023-09-12",
+ "last": "2023-09-12",
+ "scores": {
+  "tmdb": 5.522,
+  "rt": 33.0,
+  "ebert": null,
+  "box_office": "$23.5M",
+  "multiple": 0.25361342857142855,
+  "cpi_year": 2024
+ },
+ "plot": "Nicholas Hathaway, a furloughed convict, and his American and Chinese partners hunt a high-level cybercrime network from Chicago to Los Angeles to Hong Kong to Jakarta. As Hathaway closes in, the stakes become personal as he discovers that the attack on a Chinese nuclear power plant was just the beginning.",
+ "synopsis": "Note: The plot synopsis refers to the theatrical cut of the film. Differences between the theatrical and director's cut are noted in the Release section.\n\nA nuclear plant in Hong Kong goes into meltdown when a hacker causes the coolant pumps to overheat and explode. Soon after, the Chicago Mercantile Exchange is hacked, causing soy futures to rise. The Chinese government and FBI determine that the hack was performed using a remote access tool. Captain Chen Dawai of the People's Liberation Army cyberwarfare unit is tasked with finding the hacker and enlists the aid of his sister Lien, a networking engineer. He meets with FBI Special Agent Carol Barrett in Los Angeles and reveals core parts of the code in the tool was written by himself and Nicholas Hathaway, his college roommate, during their time at MIT. Dawai requests that Hathaway, who is in prison for hacking banks, be offered a temporary release in exchange for his services. Hathaway, knowing how necessary he is to the investigation, demands new terms: his prison sentence commuted if his assistance leads to the hacker's identification and capture. He is required to wear an ankle bracelet monitor and be accompanied by deputy U.S. Marshal Mark Jessup.\n\nHathaway manipulates the update system on Jessup's phone GPS that tracks his location, allowing him to follow his own lead and arrange a meeting with the hacker's partner at a restaurant. While they wait, he tells Lien about his past, but the partner does not arrive. Hathaway discovers a camera watching them and, following it to the connected computer, messages the hacker that he is now on his trail.\n\nClues uncovered by Dawai and Barrett lead the team to Hong Kong, where they work with Police Inspector Alex Trang. The team traces the stock trade money to a paramilitary operative named Elias Kassar. Hathaway, Jessup, Chen, and Trang, along with a Special Duties Unit team, raid Kassar's hideout, and a shootout ensues in a drainage tunnel, resulting in the deaths of Trang and several officers as Kassar and his men escape.\n\nThe nuclear plant has stabilized enough to have a data drive recovered from the control room, but it is corrupted by radiation. The National Security Agency's Black Widow software has the ability to repair the data, but they refuse to allow the Chinese access. Reluctantly sanctioned by Barrett, Hathaway hacks into the NSA and uses Black Widow, discovering that the hacker's server is based in Jakarta. Lien finds out the hacker has been buying high-resolution satellite photos of a site near Seri Manjung, Malaysia.\n\nFor his illegal hack, the NSA and FBI demand Hathaway's return to prison. Dawai's superiors advise him to turn Hathaway over to the U.S. government, but he instead alerts Hathaway to their plans. Meanwhile, one of Kassar's men secretly plants a tracking device on Dawai's car. As Hathaway and Lien, who have become romantically involved, argue about his fleeing alone, Dawai is blown up by a rocket launched by Kassar; Barrett and Jessup, arriving on the scene, manage to shoot several of Kassar's men before they are both killed. Lien and Hathaway escape on a subway train, and she uses her connections to charter a plane to Malaysia.\n\nHathaway deduces that the hacker's attack at the nuclear plant was merely a test for a later plan: to sabotage a large dam and destroy several major tin mines in Malaysia, allowing the hacker to make a profit buying tin options. In Jakarta, he hacks into a bank's computer and transfers the hacker's funds into Hathaway's Swiss bank account, then forcing the hacker, Sadak, to contact him. Sadak and Hathaway agree to meet and discuss a partnership; Hathaway anticipates a double-cross and arms himself with makeshift weapons and body armor which he conceals under his clothes.\n\nThough Hathaway insists Sadak and Kassar come alone, they bring their henchmen. Lien spots them and alerts Hathaway, who orders them to a new location in a park during a large religious procession. Hathaway trails them but is caught at gunpoint by Kassar. As he is being frisked, Hathaway blindsides and stabs Kassar to death with a sharpened screwdriver. Sadak's men catch up and a firefight ensues; Hathaway is shot several times but manages to kill the reinforcements. Sadak stabs Hathaway with a knife before Hathaway kills him. He reunites with Lien, who treats his wounds, before they leave Indonesia.",
+ "synopsis_words": 731,
+ "episodes": [
+  {
+   "number": 324,
+   "date": "2023-09-12",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "shootout",
+   "reach": 17,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "terrorism",
+   "reach": 15,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "conspiracy",
+   "reach": 13,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "on the run",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "betrayal",
+   "reach": 9,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "anti hero",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "race against time",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "one against many",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "fugitive",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "hacker",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "terrorist plot",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "cat and mouse",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "computer",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "computer virus",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "cyber thriller",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "hacking",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "national security agency (nsa)",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "technology",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "chinese military",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "cyber terrorism",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "cybercrime",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "malaysia",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "nuclear power plant",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "stock exchange",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Chris Hemsworth",
+   "films": 1
+  },
+  {
+   "name": "Tang Wei",
+   "films": 1
+  },
+  {
+   "name": "Leehom Wang",
+   "films": 1
+  },
+  {
+   "name": "Viola Davis",
+   "films": 1
+  },
+  {
+   "name": "Holt McCallany",
+   "films": 1
+  },
+  {
+   "name": "Andy On Chi-Kit",
+   "films": 0
+  },
+  {
+   "name": "Yorick van Wageningen",
+   "films": 0
+  },
+  {
+   "name": "John Ortiz",
+   "films": 1
+  },
+  {
+   "name": "Ritchie Coster",
+   "films": 0
+  },
+  {
+   "name": "Christian Borle",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "thief-1981",
+   "title": "Thief",
+   "year": 1981,
+   "poster": "bpjRGwfYJ71bU0hNhLIz7g3t6Oy.jpg"
+  },
+  {
+   "id": "manhunter-1986",
+   "title": "Manhunter",
+   "year": 1986,
+   "poster": "6rb24x39vV8n5301IelC8rCPJTH.jpg"
+  },
+  {
+   "id": "the-last-of-the-mohicans-1992",
+   "title": "The Last of the Mohicans",
+   "year": 1992,
+   "poster": "qzJMPWRtZveBkxXOv3ucWhoJuyj.jpg"
+  },
+  {
+   "id": "heat-1995",
+   "title": "Heat",
+   "year": 1995,
+   "poster": "gKaePbkEkaqvMtw74EyhhkfCKKh.jpg"
+  }
+ ],
+ "shared_cast": [],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Blackhat_%28film%29",
+  "wikidata": "Q13424932"
+ }
+}

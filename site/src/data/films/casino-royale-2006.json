@@ -1,0 +1,224 @@
+{
+ "id": "casino-royale-2006",
+ "title": "Casino Royale",
+ "year": 2006,
+ "poster": "lMrxYKKhd4lqRzwUHAy5gcx9PSO.jpg",
+ "tmdb_id": 36557,
+ "directors": [
+  "Martin Campbell"
+ ],
+ "director_primary": "Martin Campbell",
+ "genres": [
+  "Adventure",
+  "Action",
+  "Thriller"
+ ],
+ "runtime": 144,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2023-06-02",
+ "last": "2023-06-02",
+ "scores": {
+  "tmdb": 7.576,
+  "rt": 94.0,
+  "ebert": 4.0,
+  "box_office": "$932.1M",
+  "multiple": 3.9936397333333336,
+  "cpi_year": 2024
+ },
+ "plot": "Le Chiffre, a banker to the world's terrorists, is scheduled to participate in a high-stakes poker game in Montenegro, where he intends to use his winnings to establish his financial grip on the terrorist market. M sends Bond—on his maiden mission as a 00 Agent—to attend this game and prevent Le Chiffre from winning. With the help of Vesper Lynd and Felix Leiter, Bond enters the most important poker game in his already dangerous career.",
+ "synopsis": "MI6 operative James Bond is promoted to 00 agent after assassinating traitorous MI6 section chief Dryden and his contact in Prague. In Uganda, Mr. White introduces Steven Obanno, a commander of the Lord's Resistance Army, to Le Chiffre, an Albanian private banker to terrorists. Obanno entrusts Le Chiffre with $100 million to invest. Planning a terrorist attack on aerospace manufacturer Skyfleet, Le Chiffre uses Obanno's money to short the company's stock.\n\nIn Madagascar, Bond destroys an embassy while capturing and then killing a bomb maker named Mollaka. M, the head of MI6, chastises Bond for causing an international incident and ignoring her orders to take Mollaka alive. Information on Mollaka's phone leads Bond to corrupt Greek official Alex Dimitrios, who had hired Mollaka at Le Chiffre's request to bomb Skyfleet's prototype airliner. In the Bahamas, Bond seduces Dimitrios' wife and learns that he is going to Miami International Airport. He follows Dimitrios there and kills him, then chases down the new bomber Dimitrios had hired and prevents the destruction of the airliner. With Skyfleet's prototype secure, Le Chiffre's stock shorting scheme fails, losing over $100 million.\n\nTo recoup his clients' money, Le Chiffre organises a Texas hold 'em tournament at the Casino Royale in Montenegro. MI6 enters Bond—the agency's best poker player—in the tournament, believing a defeat will force Le Chiffre to seek asylum with the British government in exchange for information on his clients. Bond is paired with Vesper Lynd, a British Treasury agent overseeing the $10 million buy-in. They meet their contact, French secret service agent René Mathis, in Montenegro. Obanno, furious over his failed investment, threatens Le Chiffre, but allows him to continue playing to win back the money. Obanno and his bodyguard discover and attack an eavesdropping Bond, who kills them both.\n\nBond grows confident when he detects Le Chiffre's tell, but loses his $10 million stake after Le Chiffre is tipped off. Vesper refuses to authorise an additional $5 million for Bond to continue, but fellow player and CIA agent Felix Leiter stakes Bond the money in exchange for letting the CIA arrest Le Chiffre. Le Chiffre's lover, Valenka, poisons Bond's drink, but Vesper rescues him. Bond returns to the game and wins the tournament. A desperate Le Chiffre kidnaps Vesper to trap Bond and takes them to an abandoned ship. He tortures Bond to reveal the password to the bank account holding his winnings, but Bond resists. White bursts in and kills Le Chiffre, but spares Bond and Vesper.\n\nBond awakens in hospital and recovers with Vesper at his side. He has Mathis arrested, believing that he had tipped off Le Chiffre about his tell. Bond falls in love with Vesper and resigns from MI6; the couple sail to Venice. When M reveals that his winnings were never transferred to the British treasury, Bond realises that Vesper has betrayed him and he tracks her to an exchange of the money. Gunmen spot him and take her captive inside a gutted Venetian palace undergoing restoration and supported by large flotation devices. Bond destroys the flotation devices, causing the palace to lurch and sink into the Grand Canal. While he kills the shooters, Vesper is trapped in an elevator cage as it submerges. Bond dives in to rescue her, but she locks herself in to prevent him and she drowns. Bond later fails to resuscitate her, and White escapes with the money.\n\nM informs Bond, who has returned to service, that the organisation behind Le Chiffre threatened to kill Vesper's lover unless she became a double agent. When Bond denounces Vesper as a traitor, M reasons that she likely made a deal with White by trading the winnings for Bond's life. Realising Vesper left her phone to help him, Bond checks her contacts and locates White at an estate in Lake Como. He shoots White in the leg to disable him and introduces himself: \"The name's Bond, James Bond.\"",
+ "synopsis_words": 653,
+ "episodes": [
+  {
+   "number": 310,
+   "date": "2023-06-02",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Amanda Dobbins",
+    "Sean Fennessey"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "suspenseful",
+   "reach": 30,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "dramatic",
+   "reach": 18,
+   "band": "b3",
+   "live": true
+  },
+  {
+   "word": "terrorism",
+   "reach": 15,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "spy",
+   "reach": 11,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "money",
+   "reach": 8,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "casino",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "italy",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "earnest",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "poker",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "torture",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "james bond",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "mi6",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "action",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "british secret service",
+   "reach": 2,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "adventure",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "banker",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "montenegro",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Daniel Craig",
+   "films": 2
+  },
+  {
+   "name": "Eva Green",
+   "films": 1
+  },
+  {
+   "name": "Mads Mikkelsen",
+   "films": 1
+  },
+  {
+   "name": "Judi Dench",
+   "films": 2
+  },
+  {
+   "name": "Jeffrey Wright",
+   "films": 1
+  },
+  {
+   "name": "Giancarlo Giannini",
+   "films": 0
+  },
+  {
+   "name": "Caterina Murino",
+   "films": 0
+  },
+  {
+   "name": "Simon Abkarian",
+   "films": 0
+  },
+  {
+   "name": "Isaach de Bankolé",
+   "films": 0
+  },
+  {
+   "name": "Jesper Christensen",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "goldeneye-1995",
+   "title": "GoldenEye",
+   "year": 1995,
+   "poster": "z0ljRnNxIO7CRBhLEO0DvLgAFPR.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "skyfall-2012",
+   "title": "Skyfall",
+   "year": 2012,
+   "poster": "d0IVecFQvsGdSbnMAHqiYsNYaJT.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Casino_Royale_%282006_film%29",
+  "wikidata": "Q151904"
+ }
+}

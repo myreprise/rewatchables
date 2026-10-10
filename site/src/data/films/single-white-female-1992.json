@@ -1,0 +1,203 @@
+{
+ "id": "single-white-female-1992",
+ "title": "Single White Female",
+ "year": 1992,
+ "poster": "yPGK58CcAM8NAX8ycR1jdjo2wiE.jpg",
+ "tmdb_id": 9605,
+ "directors": [
+  "Barbet Schroeder"
+ ],
+ "director_primary": "Barbet Schroeder",
+ "genres": [
+  "Thriller"
+ ],
+ "runtime": 108,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2026-06-08",
+ "last": "2026-06-08",
+ "scores": {
+  "tmdb": 6.307,
+  "rt": 53.0,
+  "ebert": 4.0,
+  "box_office": "$107.4M",
+  "multiple": 3.001087625,
+  "cpi_year": 2024
+ },
+ "plot": "Having recently split from her fiancé, Allison Jones welcomes new roommate Hedra Carlson. The young women quickly form a bond, but soon Allison begins to notice not all’s well with her new tenant.",
+ "synopsis": "New York City software designer Allison \"Allie\" Jones is engaged to Sam Rawson. Sam's ex-wife calls, and when it is revealed that he slept with her recently, Allie throws him out, breaking off their engagement. Her neighbor, aspiring actor Graham Knox, comforts her. The next morning, Allie attends a business lunch with Mitchell Myerson, a fashion house owner looking to buy her revolutionary new program. He pressures her into significantly reducing the price; as he is her first and only client, she accepts.\n\nAllie advertises for a new roommate and settles on Hedra Carlson, whom she nicknames \"Hedy,\" and they become friends. Hedy explains that her twin was stillborn and she is alone in the world. Hedy erases Sam's voicemail asking Allie to reconcile with him and buys a puppy named Buddy to console Allie, but becomes jealous when Sam wins Allie back and they seek a new apartment for themselves. Perceiving Allie as having rejected her, Hedy is upset and becomes further frustrated when Buddy does not come to her even when she coaxes him. Allie and Sam later find Buddy's corpse on the ground below her apartment's window. Returning to the apartment, Allie sees that the window was open with a gap wide enough for Buddy to get through. Hedy claims that Buddy's death was an accident because she had thought the bars outside the window had been fixed.\n\nAs Allie prepares for an evening meeting at Mitchell's company, she discovers that Hedy has bought copies of much of Allie's clothing. After the meeting, Mitchell tries to coerce Allie into performing sexual acts upon completing their deal, threatening to warn off future clients and not pay her, but she fights back and escapes. Seeing how distraught Allie is, Hedy calls Mitchell and threatens him. To comfort Allie, Hedy takes her to get a haircut, but after Hedy reveals that she has gotten a haircut and coloring to perfectly match Allie's, Allie is unnerved. That night, Allie follows Hedy to an underground sex club and witnesses Hedy using her name. Allie finds a shoebox containing letters addressed to Ellen Besch – Hedy's real name – along with a letter from Sam to Allie and a newspaper clipping on the drowning of Hedy's twin sister Judy when she was nine.\n\nDisturbed by Hedy's behavior, Allie goes to Graham's apartment to seek advice. While she tells him the truth about Hedy, they are unaware that Hedy is listening. Hedy sneaks into Graham's apartment and, after Allie leaves, attacks Graham. When Sam returns the following night, Hedy goes to his hotel room, impersonates Allie, and performs oral sex on him. She begs him to leave Allie alone, but he refuses and insists on telling Allie the truth. Furious, Hedy kills him by stabbing him in the eye with her stiletto heel.\n\nThe following morning, Hedy is cleaning the apartment and moving her belongings out. Seeing a news report on Sam's death and finding the bloody stilettos, Allie realizes what has happened and tries to leave, but Hedy takes her hostage at gunpoint, explaining that everyone will believe Allie killed Sam. She reveals her intention to destroy Allie's reputation and force her to accept a role as Hedy’s new \"sister.\"\n\nMitchell discovers that his accounting files are being erased by Allie's computer program and rushes to find Allie. He finds her bound and gagged with duct tape, but while he attempts to free her, Hedy shoots and kills him. She orders Allie to kill herself by swallowing pills, but Allie resists and fights back while trying to flee Graham's apartment. Graham regains consciousness and attacks Hedy before collapsing. Hedy shoots Allie in the shoulder, chases her, and seemingly strangles her to death in the elevator. She plans to dispose of the body in the basement incinerator, but Allie, having faked her death, tricks Hedy with a decoy before fatally stabbing her; Hedy collapses at Allie's feet and dies. In an epilogue, Allie narrates that she has finally moved on. She forgives Hedy for killing Sam and tries to forgive herself for the death of Hedy.",
+ "synopsis_words": 682,
+ "episodes": [
+  {
+   "number": 465,
+   "date": "2026-06-08",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Cruise",
+   "verdict_tone": "cruise",
+   "host": "Bill Simmons",
+   "guests": [
+    "Van Lathan",
+    "Mallory Rubin"
+   ],
+   "note": "From Hell' month"
+  }
+ ],
+ "keywords": [
+  {
+   "word": "based on novel or book",
+   "reach": 66,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "desperate",
+   "reach": 6,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "stalker",
+   "reach": 4,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "mental illness",
+   "reach": 3,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "basement",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "business card",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "ice cream",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "lesbian relationship",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "photograph",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "puppy",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "remote control",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "software",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "stairway",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  },
+  {
+   "word": "surprise party",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Bridget Fonda",
+   "films": 2
+  },
+  {
+   "name": "Jennifer Jason Leigh",
+   "films": 2
+  },
+  {
+   "name": "Steven Weber",
+   "films": 1
+  },
+  {
+   "name": "Peter Friedman",
+   "films": 1
+  },
+  {
+   "name": "Stephen Tobolowsky",
+   "films": 2
+  },
+  {
+   "name": "Frances Bay",
+   "films": 1
+  },
+  {
+   "name": "Tara Karsian",
+   "films": 0
+  },
+  {
+   "name": "Christiana Capetillo",
+   "films": 0
+  },
+  {
+   "name": "Jessica Lundy",
+   "films": 0
+  },
+  {
+   "name": "Renée Estevez",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "fast-times-at-ridgemont-high-1982",
+   "title": "Fast Times at Ridgemont High",
+   "year": 1982,
+   "poster": "e15rmfjf0m6EGLe4MnNhwD3Dd1W.jpg"
+  },
+  {
+   "id": "singles-1992",
+   "title": "Singles",
+   "year": 1992,
+   "poster": "4T7OKBdkNBorRKWw7VSeuA225z1.jpg"
+  },
+  {
+   "id": "groundhog-day-1993",
+   "title": "Groundhog Day",
+   "year": 1993,
+   "poster": "gCgt1WARPZaXnq523ySQEUKinCs.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Single_White_Female",
+  "wikidata": "Q1542371"
+ }
+}

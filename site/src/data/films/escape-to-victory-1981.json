@@ -1,0 +1,155 @@
+{
+ "id": "escape-to-victory-1981",
+ "title": "Escape to Victory",
+ "year": 1981,
+ "poster": "3j6H0dnbvjNXLK1l9nKguXw5vvO.jpg",
+ "tmdb_id": 17360,
+ "directors": [
+  "John Huston"
+ ],
+ "director_primary": "John Huston",
+ "genres": [
+  "Drama",
+  "War"
+ ],
+ "runtime": 116,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2021-08-03",
+ "last": "2021-08-03",
+ "scores": {
+  "tmdb": 6.881,
+  "rt": 70.0,
+  "ebert": null,
+  "box_office": "$94.7M",
+  "multiple": 2.7453418,
+  "cpi_year": 2024
+ },
+ "plot": "A group of POWs in a German prison camp during World War II play the German National Soccer Team in this powerful film depicting the role of prisoners during wartime.",
+ "synopsis": "A team of Allied prisoners of war (POWs), coached and led by English Captain John Colby, a professional footballer for West Ham United before the war, agree to play an exhibition match against a German team, only to find themselves involved in a German propaganda stunt.\n\nColby is the captain and essentially the manager of the team and thus chooses his squad of players. Another POW, Robert Hatch, an American who is serving with the Canadian Army, is not initially chosen, but eventually nags the reluctant Colby into letting him on the team as the team's trainer, as Hatch needs to be with the team to facilitate his upcoming escape attempt.\n\nColby's superior officers repeatedly try to convince him to use the match as an opportunity for an escape attempt, but Colby consistently refuses, fearing that such an attempt will only result in getting his players killed. Meanwhile, Hatch has been planning his unrelated escape attempt, and Colby's superiors agree to help him if he in return agrees to journey to Paris, contact the French Resistance and try to convince them to help the football team escape.\n\nHatch succeeds in escaping the prison camp and finding the Resistance in Paris. The Resistance initially believes it will be too risky to aid the team's escape, but once they realise the game will be at the Colombes Stadium, they plan the escape using a tunnel from the Parisian sewer system to the showers in the players' changing room. They convince Hatch to let himself be recaptured so that he can pass this information back to the leading British officers at the prison camp.\n\nHatch is indeed recaptured. However, he is placed in solitary confinement, and thus the prisoners do not know if the French underground will help them. Colby tells the Germans that he needs Hatch on the team because Hatch is the backup goalkeeper and the starting goalkeeper has broken his arm. Colby himself actually has to break the starting goalkeeper's arm because the Germans want proof of the injury before they will allow Hatch to join the Allied lineup.\n\nIn the end, the POWs can leave the German camp only to play the match; they are to be imprisoned again afterward. The resistance's tunnelers break through to the Allied dressing room at halftime with the POWs trailing, 4–1. However, the team  persuades Hatch to return to the pitch for the second half rather than lead the escape as planned.\n\nDespite the match officials being heavily biased towards the Germans, and the German team causing several deliberate injuries to the Allied players, a 4–4 draw is achieved after great performances from Luis Fernandez, Carlos Rey and Terry Brady. Hatch plays goalkeeper and makes excellent saves, including a save of a penalty kick as time expires to deny the Germans the win. An Allied goal had been blatantly disallowed earlier in the match, so the POWs should have won, 5–4.\n\nAfter Hatch preserves the draw, the crowd storms the field and swarms the players. Some of the spectators help the Allied players disguise themselves in the chaos with coats and other clothing so that they can escape, and they all burst through the gates to freedom.",
+ "synopsis_words": 534,
+ "episodes": [
+  {
+   "number": 214,
+   "date": "2021-08-03",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": null,
+   "verdict_tone": null,
+   "host": "Bill Simmons",
+   "guests": [
+    "Chris Ryan"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "sports",
+   "reach": 47,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "escape",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "nazi",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "world war ii",
+   "reach": 5,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "football (soccer)",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Sylvester Stallone",
+   "films": 13
+  },
+  {
+   "name": "Michael Caine",
+   "films": 2
+  },
+  {
+   "name": "Max von Sydow",
+   "films": 3
+  },
+  {
+   "name": "Pelé",
+   "films": 1
+  },
+  {
+   "name": "Daniel Massey",
+   "films": 1
+  },
+  {
+   "name": "Tim Pigott-Smith",
+   "films": 0
+  },
+  {
+   "name": "Maurice Roëves",
+   "films": 0
+  },
+  {
+   "name": "Julian Curry",
+   "films": 0
+  },
+  {
+   "name": "Clive Merrison",
+   "films": 0
+  },
+  {
+   "name": "Bobby Moore",
+   "films": 0
+  }
+ ],
+ "by_director": [],
+ "shared_cast": [
+  {
+   "id": "the-exorcist-1973",
+   "title": "The Exorcist",
+   "year": 1973,
+   "poster": "5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg"
+  },
+  {
+   "id": "rocky-1976",
+   "title": "Rocky",
+   "year": 1976,
+   "poster": "xSI0dbKLDETwhiVUy6hGE8KXUln.jpg"
+  },
+  {
+   "id": "rocky-ii-1979",
+   "title": "Rocky II",
+   "year": 1979,
+   "poster": "nMaiiu0CzT77U4JZkUYV7KqdAjK.jpg"
+  },
+  {
+   "id": "first-blood-1982",
+   "title": "First Blood",
+   "year": 1982,
+   "poster": "a9sa6ERZCpplbPEO7OMWE763CLD.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Escape_to_Victory",
+  "wikidata": "Q696122"
+ }
+}

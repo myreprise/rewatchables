@@ -1,0 +1,174 @@
+{
+ "id": "rudy-1993",
+ "title": "Rudy",
+ "year": 1993,
+ "poster": "fAbfTCRpjHe2rprXBly55KL1dL9.jpg",
+ "tmdb_id": 14534,
+ "directors": [
+  "David Anspaugh"
+ ],
+ "director_primary": "David Anspaugh",
+ "genres": [
+  "Drama",
+  "History"
+ ],
+ "runtime": 114,
+ "revisited": false,
+ "episodes_featured": 1,
+ "first": "2024-08-22",
+ "last": "2024-08-22",
+ "scores": {
+  "tmdb": 7.345,
+  "rt": 78.0,
+  "ebert": 3.5,
+  "box_office": "$49.5M",
+  "multiple": 1.9,
+  "cpi_year": 2024
+ },
+ "plot": "Rudy grew up in a steel mill town where most people ended up working, but wanted to play football at Notre Dame instead. There were only a couple of problems. His grades were a little low, his athletic skills were poor, and he was only half the size of the other players. But he had the drive and the spirit of 5 people and has set his sights upon joining the team.",
+ "synopsis": "In the 1960s in Joliet, Illinois, Daniel Eugene \"Rudy\" Ruettiger dreams of playing football at Notre Dame. However, he lacks the grades and money to attend the university along with the talent and physical stature to play major college football. After high school, Rudy works at a steel mill with his Notre Dame fan father and his older brothers, John and Frank. After Rudy's supportive best friend Pete is killed in a mill explosion, Rudy decides to follow his dream.\n\nIn 1972, Rudy visits Notre Dame but is academically ineligible to enroll. With the help of local priest and former Notre Dame president Father John Cavanaugh, Rudy enrolls at nearby Holy Cross College, hoping to transfer. At Notre Dame Stadium, Rudy meets Fortune, the head groundskeeper. Initially indifferent to Rudy's plight, Fortune later leaves him blankets and a key to the office, giving Rudy a place to stay on campus. Rudy learns that despite working at the stadium for years, Fortune has never seen a Notre Dame football game.\n\nRudy befriends teaching assistant D-Bob, who helps him study in return for Rudy's helping him socially with girls. D-Bob tests Rudy for a learning disability, and the results indicate that Rudy has dyslexia. Despite his difficulties, Rudy works hard to become a better student. At Christmas, he returns home to find that his family appreciates his college academic achievements, but Frank still mocks Rudy for his attempts to play college football. Rudy persists, and even losing his girlfriend Sherry to his older brother Johnny does not deter him.\n\nAfter two years at Holy Cross and three rejections for admission to Notre Dame, Rudy is finally accepted and attends football tryouts in the hope of making the team as a \"walk-on\". Assistant coach Warren warns the walk-ons that 35 scholarship players will not even make the \"dress roster\" of players who take the field during games. However, Coach Joe Yonto notices Rudy's determination and gives him a spot on the daily practice squad. Rudy tells Fortune and persuades him to promise to see Rudy's first game.\n\nRudy's hard work and dedication in practice convince head coach Ara Parseghian to let him suit up for one home game in his senior year. However, Parseghian retires following the 1974 season and is replaced by former Green Bay Packers head coach Dan Devine, who refuses to put Rudy on the game-day roster. Frustrated by not being on the dress list for the last home game, Rudy quits the team.\n\nFortune finds a distraught Rudy and reveals that he had actually played for Notre Dame years earlier. However, Fortune quit the team because he felt that his race kept him from playing; he has regretted this decision ever since. Reminded by Fortune that he has nothing to prove to anyone but himself and would forever regret quitting, Rudy returns to the team. When new head coach Dan Devine balks at allowing Rudy to dress for a game despite Parseghian's earlier promise, all of Rudy's fellow seniors line up and lay their jerseys on Devine's desk, requesting that Rudy be allowed to dress for the season's final game. Devine relents and lets Rudy suit up against Georgia Tech.\n\nWith Rudy's family and D-Bob in attendance, Steele invites Rudy to lead the team onto the field, and Fortune is there to see the game as promised. With Notre Dame leading 17–3 late in the fourth quarter, Devine sends all the seniors into the game except Rudy, despite Steele's and the assistant coaches' urging. Fans are aware of Rudy's goal from a story in the student newspaper, and a \"Rudy!\" chant begins in the stadium. Hearing this, the Notre Dame offense, led by tailback Jamie O'Hara, ignores Devine's call for victory formation and scores a quick touchdown. This gives defensive player Rudy a chance to get in the game and be entered onto the Fighting Irish roster. Devine finally lets Rudy play on the Notre Dame kickoff to Georgia Tech. Rudy stays in for the final play, sacks the Georgia Tech quarterback, and is carried off the field on his teammates' shoulders to cheers from the stadium.\n\nAn epilogue states that since 1975, no other Notre Dame player has been carried off the field as of the time of the film's release in 1993. Rudy graduated in 1976, and five of his younger brothers went on to earn college degrees.",
+ "synopsis_words": 731,
+ "episodes": [
+  {
+   "number": 370,
+   "date": "2024-08-22",
+   "gap_before": null,
+   "is_revisit": false,
+   "revisit_sequence": 1,
+   "revisit_kind": null,
+   "verdict": "Cruise",
+   "verdict_tone": "cruise",
+   "host": "Bill Simmons",
+   "guests": [
+    "Kyle Brandt"
+   ],
+   "note": null
+  }
+ ],
+ "keywords": [
+  {
+   "word": "sports",
+   "reach": 47,
+   "band": "b1",
+   "live": true
+  },
+  {
+   "word": "based on true story",
+   "reach": 25,
+   "band": "b2",
+   "live": true
+  },
+  {
+   "word": "american football",
+   "reach": 13,
+   "band": "b4",
+   "live": true
+  },
+  {
+   "word": "biography",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "underdog",
+   "reach": 10,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "family relationships",
+   "reach": 7,
+   "band": "b5",
+   "live": true
+  },
+  {
+   "word": "aspiration",
+   "reach": 1,
+   "band": "b5",
+   "live": false
+  }
+ ],
+ "cast": [
+  {
+   "name": "Sean Astin",
+   "films": 3
+  },
+  {
+   "name": "Jon Favreau",
+   "films": 3
+  },
+  {
+   "name": "Ned Beatty",
+   "films": 2
+  },
+  {
+   "name": "Lili Taylor",
+   "films": 4
+  },
+  {
+   "name": "Charles S. Dutton",
+   "films": 1
+  },
+  {
+   "name": "Vince Vaughn",
+   "films": 6
+  },
+  {
+   "name": "Greta Lind",
+   "films": 0
+  },
+  {
+   "name": "Christopher Reed",
+   "films": 0
+  },
+  {
+   "name": "Deborah Wittenberg",
+   "films": 0
+  },
+  {
+   "name": "Kevin Duda",
+   "films": 0
+  }
+ ],
+ "by_director": [
+  {
+   "id": "hoosiers-1986",
+   "title": "Hoosiers",
+   "year": 1986,
+   "poster": "dHpjZQXEdoi1xNLubM1rPmTHJYz.jpg"
+  }
+ ],
+ "shared_cast": [
+  {
+   "id": "deliverance-1972",
+   "title": "Deliverance",
+   "year": 1972,
+   "poster": "2TrAzNJlHyNYYSkQf6asg3rs2Xr.jpg"
+  },
+  {
+   "id": "say-anything-1989",
+   "title": "Say Anything...",
+   "year": 1989,
+   "poster": "nkucKciFGSRalw6dJtsglWqOXMC.jpg"
+  },
+  {
+   "id": "the-war-of-the-roses-1989",
+   "title": "The War of the Roses",
+   "year": 1989,
+   "poster": "9VWwYsuXhRImUtrJGvN6bYJB2He.jpg"
+  },
+  {
+   "id": "toy-soldiers-1991",
+   "title": "Toy Soldiers",
+   "year": 1991,
+   "poster": "nL3ccvqU1Wq1j31feHWAydzpbr2.jpg"
+  }
+ ],
+ "provenance": {
+  "confidence": "high",
+  "enriched": "2026-10-10",
+  "wikipedia": "https://en.wikipedia.org/wiki/Rudy_%28film%29",
+  "wikidata": "Q3107519"
+ }
+}
