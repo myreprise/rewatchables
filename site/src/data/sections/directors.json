@@ -1,0 +1,4518 @@
+{
+ "tiles": {
+  "directors": 260,
+  "one": 161,
+  "two_plus": 99,
+  "four_plus": 20,
+  "films": 460
+ },
+ "figures": {
+  "leaderboard": {
+   "data": [
+    {
+     "hovertemplate": "films=%{text}<br>director=%{y}<extra></extra>",
+     "legendgroup": "",
+     "marker": {
+      "color": "#17A87C",
+      "pattern": {
+       "shape": ""
+      }
+     },
+     "name": "",
+     "orientation": "h",
+     "showlegend": false,
+     "text": {
+      "dtype": "f8",
+      "bdata": "AAAAAAAAIkAAAAAAAAAiQAAAAAAAACJAAAAAAAAAIEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAGEAAAAAAAAAUQAAAAAAAABRAAAAAAAAAFEAAAAAAAAAQQAAAAAAAABBAAAAAAAAAEEAAAAAAAAAQQAAAAAAAABBAAAAAAAAAEEAAAAAAAAAQQAAAAAAAABBAAAAAAAAAEEAAAAAAAAAQQA=="
+     },
+     "textposition": "outside",
+     "x": {
+      "dtype": "i1",
+      "bdata": "CQkJCAcHBgUFBQQEBAQEBAQEBAQ="
+     },
+     "xaxis": "x",
+     "y": [
+      "Michael Mann",
+      "Steven Spielberg",
+      "Tony Scott",
+      "Martin Scorsese",
+      "Rob Reiner",
+      "David Fincher",
+      "Robert Zemeckis",
+      "Ridley Scott",
+      "James Cameron",
+      "Ivan Reitman",
+      "Christopher Nolan",
+      "Doug Liman",
+      "Ron Howard",
+      "John Landis",
+      "Quentin Tarantino",
+      "William Friedkin",
+      "John Hughes",
+      "Spike Lee",
+      "Oliver Stone",
+      "Steven Soderbergh"
+     ],
+     "yaxis": "y",
+     "type": "bar",
+     "cliponaxis": false
+    }
+   ],
+   "layout": {
+    "template": {
+     "data": {
+      "candlestick": [
+       {
+        "decreasing": {
+         "line": {
+          "color": "#000033"
+         }
+        },
+        "increasing": {
+         "line": {
+          "color": "#000032"
+         }
+        },
+        "type": "candlestick"
+       }
+      ],
+      "contourcarpet": [
+       {
+        "colorscale": [
+         [
+          0.0,
+          "#000011"
+         ],
+         [
+          0.1111111111111111,
+          "#000012"
+         ],
+         [
+          0.2222222222222222,
+          "#000013"
+         ],
+         [
+          0.3333333333333333,
+          "#000014"
+         ],
+         [
+          0.4444444444444444,
+          "#000015"
+         ],
+         [
+          0.5555555555555556,
+          "#000016"
+         ],
+         [
+          0.6666666666666666,
+          "#000017"
+         ],
+         [
+          0.7777777777777778,
+          "#000018"
+         ],
+         [
+          0.8888888888888888,
+          "#000019"
+         ],
+         [
+          1.0,
+          "#000020"
+         ]
+        ],
+        "type": "contourcarpet"
+       }
+      ],
+      "contour": [
+       {
+        "colorscale": [
+         [
+          0.0,
+          "#000011"
+         ],
+         [
+          0.1111111111111111,
+          "#000012"
+         ],
+         [
+          0.2222222222222222,
+          "#000013"
+         ],
+         [
+          0.3333333333333333,
+          "#000014"
+         ],
+         [
+          0.4444444444444444,
+          "#000015"
+         ],
+         [
+          0.5555555555555556,
+          "#000016"
+         ],
+         [
+          0.6666666666666666,
+          "#000017"
+         ],
+         [
+          0.7777777777777778,
+          "#000018"
+         ],
+         [
+          0.8888888888888888,
+          "#000019"
+         ],
+         [
+          1.0,
+          "#000020"
+         ]
+        ],
+        "type": "contour"
+       }
+      ],
+      "heatmap": [
+       {
+        "colorscale": [
+         [
+          0.0,
+          "#000011"
+         ],
+         [
+          0.1111111111111111,
+          "#000012"
+         ],
+         [
+          0.2222222222222222,
+          "#000013"
+         ],
+         [
+          0.3333333333333333,
+          "#000014"
+         ],
+         [
+          0.4444444444444444,
+          "#000015"
+         ],
+         [
+          0.5555555555555556,
+          "#000016"
+         ],
+         [
+          0.6666666666666666,
+          "#000017"
+         ],
+         [
+          0.7777777777777778,
+          "#000018"
+         ],
+         [
+          0.8888888888888888,
+          "#000019"
+         ],
+         [
+          1.0,
+          "#000020"
+         ]
+        ],
+        "type": "heatmap"
+       }
+      ],
+      "histogram2d": [
+       {
+        "colorscale": [
+         [
+          0.0,
+          "#000011"
+         ],
+         [
+          0.1111111111111111,
+          "#000012"
+         ],
+         [
+          0.2222222222222222,
+          "#000013"
+         ],
+         [
+          0.3333333333333333,
+          "#000014"
+         ],
+         [
+          0.4444444444444444,
+          "#000015"
+         ],
+         [
+          0.5555555555555556,
+          "#000016"
+         ],
+         [
+          0.6666666666666666,
+          "#000017"
+         ],
+         [
+          0.7777777777777778,
+          "#000018"
+         ],
+         [
+          0.8888888888888888,
+          "#000019"
+         ],
+         [
+          1.0,
+          "#000020"
+         ]
+        ],
+        "type": "histogram2d"
+       }
+      ],
+      "icicle": [
+       {
+        "textfont": {
+         "color": "white"
+        },
+        "type": "icicle"
+       }
+      ],
+      "sankey": [
+       {
+        "textfont": {
+         "color": "#000036"
+        },
+        "type": "sankey"
+       }
+      ],
+      "scatter": [
+       {
+        "marker": {
+         "line": {
+          "width": 0
+         }
+        },
+        "type": "scatter"
+       }
+      ],
+      "table": [
+       {
+        "cells": {
+         "fill": {
+          "color": "#000038"
+         },
+         "font": {
+          "color": "#000037"
+         },
+         "line": {
+          "color": "#000039"
+         }
+        },
+        "header": {
+         "fill": {
+          "color": "#000040"
+         },
+         "font": {
+          "color": "#000036"
+         },
+         "line": {
+          "color": "#000039"
+         }
+        },
+        "type": "table"
+       }
+      ],
+      "waterfall": [
+       {
+        "connector": {
+         "line": {
+          "color": "#000036",
+          "width": 2
+         }
+        },
+        "decreasing": {
+         "marker": {
+          "color": "#000033"
+         }
+        },
+        "increasing": {
+         "marker": {
+          "color": "#000032"
+         }
+        },
+        "totals": {
+         "marker": {
+          "color": "#000034"
+         }
+        },
+        "type": "waterfall"
+       }
+      ]
+     },
+     "layout": {
+      "coloraxis": {
+       "colorscale": [
+        [
+         0.0,
+         "#000011"
+        ],
+        [
+         0.1111111111111111,
+         "#000012"
+        ],
+        [
+         0.2222222222222222,
+         "#000013"
+        ],
+        [
+         0.3333333333333333,
+         "#000014"
+        ],
+        [
+         0.4444444444444444,
+         "#000015"
+        ],
+        [
+         0.5555555555555556,
+         "#000016"
+        ],
+        [
+         0.6666666666666666,
+         "#000017"
+        ],
+        [
+         0.7777777777777778,
+         "#000018"
+        ],
+        [
+         0.8888888888888888,
+         "#000019"
+        ],
+        [
+         1.0,
+         "#000020"
+        ]
+       ]
+      },
+      "colorscale": {
+       "diverging": [
+        [
+         0.0,
+         "#000021"
+        ],
+        [
+         0.1,
+         "#000022"
+        ],
+        [
+         0.2,
+         "#000023"
+        ],
+        [
+         0.3,
+         "#000024"
+        ],
+        [
+         0.4,
+         "#000025"
+        ],
+        [
+         0.5,
+         "#000026"
+        ],
+        [
+         0.6,
+         "#000027"
+        ],
+        [
+         0.7,
+         "#000028"
+        ],
+        [
+         0.8,
+         "#000029"
+        ],
+        [
+         0.9,
+         "#000030"
+        ],
+        [
+         1.0,
+         "#000031"
+        ]
+       ],
+       "sequential": [
+        [
+         0.0,
+         "#000011"
+        ],
+        [
+         0.1111111111111111,
+         "#000012"
+        ],
+        [
+         0.2222222222222222,
+         "#000013"
+        ],
+        [
+         0.3333333333333333,
+         "#000014"
+        ],
+        [
+         0.4444444444444444,
+         "#000015"
+        ],
+        [
+         0.5555555555555556,
+         "#000016"
+        ],
+        [
+         0.6666666666666666,
+         "#000017"
+        ],
+        [
+         0.7777777777777778,
+         "#000018"
+        ],
+        [
+         0.8888888888888888,
+         "#000019"
+        ],
+        [
+         1.0,
+         "#000020"
+        ]
+       ],
+       "sequentialminus": [
+        [
+         0.0,
+         "#000011"
+        ],
+        [
+         0.1111111111111111,
+         "#000012"
+        ],
+        [
+         0.2222222222222222,
+         "#000013"
+        ],
+        [
+         0.3333333333333333,
+         "#000014"
+        ],
+        [
+         0.4444444444444444,
+         "#000015"
+        ],
+        [
+         0.5555555555555556,
+         "#000016"
+        ],
+        [
+         0.6666666666666666,
+         "#000017"
+        ],
+        [
+         0.7777777777777778,
+         "#000018"
+        ],
+        [
+         0.8888888888888888,
+         "#000019"
+        ],
+        [
+         1.0,
+         "#000020"
+        ]
+       ]
+      },
+      "colorway": [
+       "#000001",
+       "#000002",
+       "#000003",
+       "#000004",
+       "#000005",
+       "#000006",
+       "#000007",
+       "#000008",
+       "#000009",
+       "#000010"
+      ]
+     }
+    },
+    "xaxis": {
+     "anchor": "y",
+     "domain": [
+      0.0,
+      1.0
+     ],
+     "title": {
+      "text": "Films covered"
+     },
+     "gridcolor": "#262B28",
+     "zerolinecolor": "#262B28",
+     "linecolor": "#262B28"
+    },
+    "yaxis": {
+     "anchor": "x",
+     "domain": [
+      0.0,
+      1.0
+     ],
+     "title": {
+      "text": ""
+     },
+     "autorange": "reversed",
+     "gridcolor": "#262B28",
+     "zerolinecolor": "#262B28",
+     "linecolor": "#262B28"
+    },
+    "legend": {
+     "tracegroupgap": 0,
+     "bgcolor": "#101211",
+     "bordercolor": "#262B28",
+     "borderwidth": 1
+    },
+    "margin": {
+     "t": 30,
+     "r": 20,
+     "b": 40,
+     "l": 60
+    },
+    "barmode": "relative",
+    "height": 610,
+    "font": {
+     "color": "#F2EFE6",
+     "family": "Archivo, Helvetica Neue, Arial, sans-serif"
+    },
+    "title": {
+     "font": {
+      "color": "#F2EFE6"
+     },
+     "text": ""
+    },
+    "hoverlabel": {
+     "font": {
+      "color": "#F2EFE6",
+      "family": "IBM Plex Mono, ui-monospace, monospace"
+     },
+     "bgcolor": "#171A18",
+     "bordercolor": "#333934"
+    },
+    "paper_bgcolor": "#0B0D0C",
+    "plot_bgcolor": "#101211",
+    "showlegend": false
+   }
+  },
+  "scatter": {
+   "data": [
+    {
+     "customdata": [
+      [
+       "Adam McKay",
+       2,
+       103.0
+      ],
+      [
+       "Adrian Lyne",
+       3,
+       120.0
+      ],
+      [
+       "Alan J. Pakula",
+       2,
+       139.5
+      ],
+      [
+       "Alexander Payne",
+       2,
+       115.0
+      ],
+      [
+       "Amy Heckerling",
+       2,
+       93.5
+      ],
+      [
+       "Andrew Davis",
+       2,
+       116.5
+      ],
+      [
+       "Ang Lee",
+       2,
+       123.5
+      ],
+      [
+       "Antoine Fuqua",
+       3,
+       126.0
+      ],
+      [
+       "Barry Levinson",
+       3,
+       133.0
+      ],
+      [
+       "Ben Affleck",
+       2,
+       122.5
+      ],
+      [
+       "Ben Stiller",
+       2,
+       102.5
+      ],
+      [
+       "Brian De Palma",
+       3,
+       112.66666666666667
+      ],
+      [
+       "Brian Robbins",
+       2,
+       106.0
+      ],
+      [
+       "Brian de Palma",
+       2,
+       106.0
+      ],
+      [
+       "Cameron Crowe",
+       3,
+       112.66666666666667
+      ],
+      [
+       "Chad Stahelski",
+       2,
+       111.5
+      ],
+      [
+       "Chris Columbus",
+       3,
+       116.0
+      ],
+      [
+       "Christopher Nolan",
+       4,
+       130.0
+      ],
+      [
+       "Coen Brothers",
+       2,
+       119.5
+      ],
+      [
+       "Curtis Hanson",
+       2,
+       124.0
+      ],
+      [
+       "David Anspaugh",
+       2,
+       114.0
+      ],
+      [
+       "David Fincher",
+       7,
+       133.28571428571428
+      ],
+      [
+       "David S. Ward",
+       2,
+       109.5
+      ],
+      [
+       "Dennis Dugan",
+       2,
+       92.5
+      ],
+      [
+       "Doug Liman",
+       4,
+       112.25
+      ],
+      [
+       "Edward Zwick",
+       2,
+       128.0
+      ],
+      [
+       "F. Gary Gray",
+       3,
+       103.33333333333333
+      ],
+      [
+       "Francis Ford Coppola",
+       3,
+       179.66666666666666
+      ],
+      [
+       "Gavin O'Connor",
+       2,
+       137.5
+      ],
+      [
+       "George P. Cosmatos",
+       3,
+       104.33333333333333
+      ],
+      [
+       "George Roy Hill",
+       3,
+       121.0
+      ],
+      [
+       "Glenn Ficarra; John Requa",
+       2,
+       111.5
+      ],
+      [
+       "Greg Mottola",
+       2,
+       110.0
+      ],
+      [
+       "Harold Becker",
+       3,
+       102.33333333333333
+      ],
+      [
+       "Harold Ramis",
+       3,
+       99.33333333333333
+      ],
+      [
+       "Ivan Reitman",
+       5,
+       108.4
+      ],
+      [
+       "James Cameron",
+       5,
+       143.4
+      ],
+      [
+       "James Wan",
+       3,
+       117.33333333333333
+      ],
+      [
+       "Jay Roach",
+       3,
+       97.33333333333333
+      ],
+      [
+       "Joel Schumacher",
+       3,
+       126.66666666666667
+      ],
+      [
+       "John Carpenter",
+       3,
+       94.33333333333333
+      ],
+      [
+       "John G. Avildsen",
+       3,
+       120.0
+      ],
+      [
+       "John Hughes",
+       4,
+       96.5
+      ],
+      [
+       "John Landis",
+       4,
+       118.75
+      ],
+      [
+       "John McTiernan",
+       3,
+       122.33333333333333
+      ],
+      [
+       "John Schlesinger",
+       2,
+       114.0
+      ],
+      [
+       "John Singleton",
+       2,
+       120.0
+      ],
+      [
+       "Jon Favreau",
+       2,
+       120.0
+      ],
+      [
+       "Jonathan Demme",
+       3,
+       119.33333333333333
+      ],
+      [
+       "Joseph Kosinski",
+       2,
+       143.5
+      ],
+      [
+       "Joseph Ruben",
+       2,
+       93.0
+      ],
+      [
+       "Judd Apatow",
+       2,
+       122.5
+      ],
+      [
+       "Lawrence Kasdan",
+       2,
+       109.0
+      ],
+      [
+       "Martin Brest",
+       3,
+       129.0
+      ],
+      [
+       "Martin Campbell",
+       2,
+       137.0
+      ],
+      [
+       "Martin Scorsese",
+       8,
+       139.125
+      ],
+      [
+       "Michael Bay",
+       3,
+       135.66666666666666
+      ],
+      [
+       "Michael Mann",
+       9,
+       136.11111111111111
+      ],
+      [
+       "Michael Ritchie",
+       2,
+       100.0
+      ],
+      [
+       "Nancy Meyers",
+       2,
+       128.5
+      ],
+      [
+       "Nicholas Stoller",
+       2,
+       104.0
+      ],
+      [
+       "Nora Ephron",
+       2,
+       112.0
+      ],
+      [
+       "Norman Jewison",
+       2,
+       122.0
+      ],
+      [
+       "Oliver Stone",
+       4,
+       154.5
+      ],
+      [
+       "Paul Schrader",
+       2,
+       112.5
+      ],
+      [
+       "Paul Thomas Anderson",
+       3,
+       167.66666666666666
+      ],
+      [
+       "Paul Verhoeven",
+       3,
+       114.33333333333333
+      ],
+      [
+       "Penny Marshall",
+       2,
+       116.0
+      ],
+      [
+       "Peter Hyams",
+       2,
+       109.0
+      ],
+      [
+       "Peter Weir",
+       3,
+       114.66666666666667
+      ],
+      [
+       "Phil Alden Robinson",
+       2,
+       115.0
+      ],
+      [
+       "Quentin Tarantino",
+       4,
+       142.0
+      ],
+      [
+       "Renny Harlin",
+       2,
+       118.5
+      ],
+      [
+       "Richard Donner",
+       3,
+       111.66666666666667
+      ],
+      [
+       "Richard Linklater",
+       3,
+       94.33333333333333
+      ],
+      [
+       "Rick Rosenthal",
+       2,
+       107.5
+      ],
+      [
+       "Ridley Scott",
+       5,
+       134.6
+      ],
+      [
+       "Rob Reiner",
+       7,
+       105.28571428571429
+      ],
+      [
+       "Robert Redford",
+       2,
+       128.5
+      ],
+      [
+       "Robert Zemeckis",
+       6,
+       129.5
+      ],
+      [
+       "Roger Donaldson",
+       3,
+       108.66666666666667
+      ],
+      [
+       "Ron Howard",
+       4,
+       122.75
+      ],
+      [
+       "Ron Shelton",
+       2,
+       125.0
+      ],
+      [
+       "Ryan Coogler",
+       2,
+       135.5
+      ],
+      [
+       "Sam Raimi",
+       2,
+       129.5
+      ],
+      [
+       "Spike Lee",
+       4,
+       130.0
+      ],
+      [
+       "Stanley Kubrick",
+       3,
+       150.66666666666666
+      ],
+      [
+       "Steven Soderbergh",
+       4,
+       117.5
+      ],
+      [
+       "Steven Spielberg",
+       9,
+       133.33333333333334
+      ],
+      [
+       "Sydney Pollack",
+       2,
+       131.0
+      ],
+      [
+       "Sylvester Stallone",
+       3,
+       103.33333333333333
+      ],
+      [
+       "Taylor Hackford",
+       3,
+       134.33333333333334
+      ],
+      [
+       "Tobe Hooper",
+       2,
+       98.5
+      ],
+      [
+       "Todd Phillips",
+       2,
+       96.0
+      ],
+      [
+       "Tony Scott",
+       9,
+       115.33333333333333
+      ],
+      [
+       "Walter Hill",
+       3,
+       95.0
+      ],
+      [
+       "Wes Anderson",
+       2,
+       105.0
+      ],
+      [
+       "William Friedkin",
+       4,
+       112.0
+      ],
+      [
+       "Wolfgang Petersen",
+       2,
+       129.0
+      ]
+     ],
+     "hovertemplate": "<b>%{customdata[0]}</b><br>%{customdata[1]} films<br>avg TMDB %{y:.2f}<br>avg runtime %{customdata[2]:.0f} min<extra></extra>",
+     "legendgroup": "",
+     "marker": {
+      "color": {
+       "dtype": "f8",
+       "bdata": "VOOlm8TgGUBQRm/LWp0aQHJoke18fxxAyHa+nxrvG0D6fmq8dBMcQEoMAiuHlhtAxCCwcmhRHUBEREREREQdQGdmZmZm5htAoBov3SQGHUBI4XoUrocaQGGeqH8jlB1AUI2XbhJDGUCkcD0K1+MZQJ3vp8ZLNxtABFYOLbKdHUDpJjEIrJwcQGq8dJMYRCBAxCCwcmiRH0CBlUOLbGcdQHA9CtejsBxADQIrhxbZHkCOl24Sg8AaQBSuR+F6VBpAXrpJDAKrHEDEILByaFEbQNv5fmq8dBxA50LSlIpzIEBuEoPAyuEdQFH/RiijNxtABci95kLSHUAlBoGVQ0scQNejcD0KVxtADbsC5F7zGEDv7u7u7m4cQEhQ/Bhz1xpA2l92Tx4WH0BkggfzRP0cQPiaC0lTKhpA50LSlIqzGkCd76fGSzcdQDVeukkMghxAqvHSTWIQHUCBlUOLbMccQHDLWh0TPB5A0SLb+X7qGkAxCKwcWuQbQMzMzMzMjB1AgNxrLiTNHUCe76fGS/cfQPyp8dJNohpAnu+nxkt3GUAehetRuJ4bQMi95kLSlB1Ag8DKoUX2HEAj2/l+aiwfQA/mifo3whtArrTuW/zPG0BSuB6F61EbQGDl0CLbORtArBxaZDtfGUBmZmZmZuYaQJ7vp8ZLtxpAO99PjZeuHED2KFyPwvUZQHDLWh0TPB9AJzEIrBzaHEBiEFg5tMgcQFCNl24SQxhAy+htWatjH0BSuB6F6xEcQFpkO99PHSBA001iEFj5GkBnHz7DrgAdQHUFyL3mwh5ARIts5/spG0AK16NwPQoeQLLgADfMUh1A4noUrkdhHUDDrgC511weQHcFyL3mQhlA6Pup8dLtGkCDwMqhRXYZQEoMAiuH1h1AlkOLbOd7G0ByaJHtfD8dQKRwPQrXox9APQrXo3BdG0D+Z2sIPw8fQLTIdr6fGhxAG3YFyL1mHECdNtBpA50bQAAAAAAAAB1A0SLb+X7qG0BQIIqNKuEbQL+fGi/dJBtAaJHtfD/1HkCUGARWDo0bQOxRuB6F6xpA"
+      },
+      "coloraxis": "coloraxis",
+      "size": {
+       "dtype": "f8",
+       "bdata": "AAAAAADAWUAAAAAAAABeQAAAAAAAcGFAAAAAAADAXEAAAAAAAGBXQAAAAAAAIF1AAAAAAADgXkAAAAAAAIBfQAAAAAAAoGBAAAAAAACgXkAAAAAAAKBZQKuqqqqqKlxAAAAAAACAWkAAAAAAAIBaQKuqqqqqKlxAAAAAAADgW0AAAAAAAABdQAAAAAAAQGBAAAAAAADgXUAAAAAAAABfQAAAAAAAgFxAkiRJkiSpYEAAAAAAAGBbQAAAAAAAIFdAAAAAAAAQXEAAAAAAAABgQFVVVVVV1VlAVVVVVVV1ZkAAAAAAADBhQFVVVVVVFVpAAAAAAABAXkAAAAAAAOBbQAAAAAAAgFtAVVVVVVWVWUBVVVVVVdVYQJqZmZmZGVtAzczMzMzsYUBVVVVVVVVdQFVVVVVVVVhAq6qqqqqqX0BVVVVVVZVXQAAAAAAAAF5AAAAAAAAgWEAAAAAAALBdQFVVVVVVlV5AAAAAAACAXEAAAAAAAABeQAAAAAAAAF5AVVVVVVXVXUAAAAAAAPBhQAAAAAAAQFdAAAAAAACgXkAAAAAAAEBbQAAAAAAAIGBAAAAAAAAgYUAAAAAAAGRhQFVVVVVV9WBAOY7jOI4DYUAAAAAAAABZQAAAAAAAEGBAAAAAAAAAWkAAAAAAAABcQAAAAAAAgF5AAAAAAABQY0AAAAAAACBcQFVVVVVV9WRAVVVVVVWVXEAAAAAAAABdQAAAAAAAQFtAq6qqqqqqXEAAAAAAAMBcQAAAAAAAwGFAAAAAAACgXUCrqqqqqupbQFVVVVVVlVdAAAAAAADgWkAzMzMzM9NgQCVJkiRJUlpAAAAAAAAQYEAAAAAAADBgQKuqqqqqKltAAAAAAACwXkAAAAAAAEBfQAAAAAAA8GBAAAAAAAAwYEAAAAAAAEBgQFVVVVVV1WJAAAAAAABgXUCrqqqqqqpgQAAAAAAAYGBAVVVVVVXVWUCrqqqqqspgQAAAAAAAoFhAAAAAAAAAWEBVVVVVVdVcQAAAAAAAwFdAAAAAAABAWkAAAAAAAABcQAAAAAAAIGBA"
+      },
+      "sizemode": "area",
+      "sizeref": 0.44916666666666666,
+      "symbol": "circle"
+     },
+     "mode": "markers+text",
+     "name": "",
+     "orientation": "v",
+     "showlegend": false,
+     "text": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Christopher Nolan",
+      "",
+      "",
+      "",
+      "David Fincher",
+      "",
+      "",
+      "Doug Liman",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Ivan Reitman",
+      "James Cameron",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "John Hughes",
+      "John Landis",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Martin Scorsese",
+      "",
+      "Michael Mann",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Oliver Stone",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Quentin Tarantino",
+      "",
+      "",
+      "",
+      "",
+      "Ridley Scott",
+      "Rob Reiner",
+      "",
+      "Robert Zemeckis",
+      "",
+      "Ron Howard",
+      "",
+      "",
+      "",
+      "Spike Lee",
+      "",
+      "Steven Soderbergh",
+      "Steven Spielberg",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Tony Scott",
+      "",
+      "",
+      "William Friedkin",
+      ""
+     ],
+     "x": {
+      "dtype": "i1",
+      "bdata": "AgMCAgICAgMDAgIDAgIDAgMEAgICBwICBAIDAwIDAwICAwMFBQMDAwMDBAQDAgICAwICAgIDAggDCQICAgICBAIDAwICAwIEAgMDAgUHAgYDBAICAgQDBAkCAwMCAgkDAgQC"
+     },
+     "xaxis": "x",
+     "y": {
+      "dtype": "f8",
+      "bdata": "VOOlm8TgGUBQRm/LWp0aQHJoke18fxxAyHa+nxrvG0D6fmq8dBMcQEoMAiuHlhtAxCCwcmhRHUBEREREREQdQGdmZmZm5htAoBov3SQGHUBI4XoUrocaQGGeqH8jlB1AUI2XbhJDGUCkcD0K1+MZQJ3vp8ZLNxtABFYOLbKdHUDpJjEIrJwcQGq8dJMYRCBAxCCwcmiRH0CBlUOLbGcdQHA9CtejsBxADQIrhxbZHkCOl24Sg8AaQBSuR+F6VBpAXrpJDAKrHEDEILByaFEbQNv5fmq8dBxA50LSlIpzIEBuEoPAyuEdQFH/RiijNxtABci95kLSHUAlBoGVQ0scQNejcD0KVxtADbsC5F7zGEDv7u7u7m4cQEhQ/Bhz1xpA2l92Tx4WH0BkggfzRP0cQPiaC0lTKhpA50LSlIqzGkCd76fGSzcdQDVeukkMghxAqvHSTWIQHUCBlUOLbMccQHDLWh0TPB5A0SLb+X7qGkAxCKwcWuQbQMzMzMzMjB1AgNxrLiTNHUCe76fGS/cfQPyp8dJNohpAnu+nxkt3GUAehetRuJ4bQMi95kLSlB1Ag8DKoUX2HEAj2/l+aiwfQA/mifo3whtArrTuW/zPG0BSuB6F61EbQGDl0CLbORtArBxaZDtfGUBmZmZmZuYaQJ7vp8ZLtxpAO99PjZeuHED2KFyPwvUZQHDLWh0TPB9AJzEIrBzaHEBiEFg5tMgcQFCNl24SQxhAy+htWatjH0BSuB6F6xEcQFpkO99PHSBA001iEFj5GkBnHz7DrgAdQHUFyL3mwh5ARIts5/spG0AK16NwPQoeQLLgADfMUh1A4noUrkdhHUDDrgC511weQHcFyL3mQhlA6Pup8dLtGkCDwMqhRXYZQEoMAiuH1h1AlkOLbOd7G0ByaJHtfD8dQKRwPQrXox9APQrXo3BdG0D+Z2sIPw8fQLTIdr6fGhxAG3YFyL1mHECdNtBpA50bQAAAAAAAAB1A0SLb+X7qG0BQIIqNKuEbQL+fGi/dJBtAaJHtfD/1HkCUGARWDo0bQOxRuB6F6xpA"
+     },
+     "yaxis": "y",
+     "type": "scatter",
+     "textfont": {
+      "size": 9
+     },
+     "textposition": "top center"
+    }
+   ],
+   "layout": {
+    "template": {
+     "data": {
+      "candlestick": [
+       {
+        "decreasing": {
+         "line": {
+          "color": "#000033"
+         }
+        },
+        "increasing": {
+         "line": {
+          "color": "#000032"
+         }
+        },
+        "type": "candlestick"
+       }
+      ],
+      "contourcarpet": [
+       {
+        "colorscale": [
+         [
+          0.0,
+          "#000011"
+         ],
+         [
+          0.1111111111111111,
+          "#000012"
+         ],
+         [
+          0.2222222222222222,
+          "#000013"
+         ],
+         [
+          0.3333333333333333,
+          "#000014"
+         ],
+         [
+          0.4444444444444444,
+          "#000015"
+         ],
+         [
+          0.5555555555555556,
+          "#000016"
+         ],
+         [
+          0.6666666666666666,
+          "#000017"
+         ],
+         [
+          0.7777777777777778,
+          "#000018"
+         ],
+         [
+          0.8888888888888888,
+          "#000019"
+         ],
+         [
+          1.0,
+          "#000020"
+         ]
+        ],
+        "type": "contourcarpet"
+       }
+      ],
+      "contour": [
+       {
+        "colorscale": [
+         [
+          0.0,
+          "#000011"
+         ],
+         [
+          0.1111111111111111,
+          "#000012"
+         ],
+         [
+          0.2222222222222222,
+          "#000013"
+         ],
+         [
+          0.3333333333333333,
+          "#000014"
+         ],
+         [
+          0.4444444444444444,
+          "#000015"
+         ],
+         [
+          0.5555555555555556,
+          "#000016"
+         ],
+         [
+          0.6666666666666666,
+          "#000017"
+         ],
+         [
+          0.7777777777777778,
+          "#000018"
+         ],
+         [
+          0.8888888888888888,
+          "#000019"
+         ],
+         [
+          1.0,
+          "#000020"
+         ]
+        ],
+        "type": "contour"
+       }
+      ],
+      "heatmap": [
+       {
+        "colorscale": [
+         [
+          0.0,
+          "#000011"
+         ],
+         [
+          0.1111111111111111,
+          "#000012"
+         ],
+         [
+          0.2222222222222222,
+          "#000013"
+         ],
+         [
+          0.3333333333333333,
+          "#000014"
+         ],
+         [
+          0.4444444444444444,
+          "#000015"
+         ],
+         [
+          0.5555555555555556,
+          "#000016"
+         ],
+         [
+          0.6666666666666666,
+          "#000017"
+         ],
+         [
+          0.7777777777777778,
+          "#000018"
+         ],
+         [
+          0.8888888888888888,
+          "#000019"
+         ],
+         [
+          1.0,
+          "#000020"
+         ]
+        ],
+        "type": "heatmap"
+       }
+      ],
+      "histogram2d": [
+       {
+        "colorscale": [
+         [
+          0.0,
+          "#000011"
+         ],
+         [
+          0.1111111111111111,
+          "#000012"
+         ],
+         [
+          0.2222222222222222,
+          "#000013"
+         ],
+         [
+          0.3333333333333333,
+          "#000014"
+         ],
+         [
+          0.4444444444444444,
+          "#000015"
+         ],
+         [
+          0.5555555555555556,
+          "#000016"
+         ],
+         [
+          0.6666666666666666,
+          "#000017"
+         ],
+         [
+          0.7777777777777778,
+          "#000018"
+         ],
+         [
+          0.8888888888888888,
+          "#000019"
+         ],
+         [
+          1.0,
+          "#000020"
+         ]
+        ],
+        "type": "histogram2d"
+       }
+      ],
+      "icicle": [
+       {
+        "textfont": {
+         "color": "white"
+        },
+        "type": "icicle"
+       }
+      ],
+      "sankey": [
+       {
+        "textfont": {
+         "color": "#000036"
+        },
+        "type": "sankey"
+       }
+      ],
+      "scatter": [
+       {
+        "marker": {
+         "line": {
+          "width": 0
+         }
+        },
+        "type": "scatter"
+       }
+      ],
+      "table": [
+       {
+        "cells": {
+         "fill": {
+          "color": "#000038"
+         },
+         "font": {
+          "color": "#000037"
+         },
+         "line": {
+          "color": "#000039"
+         }
+        },
+        "header": {
+         "fill": {
+          "color": "#000040"
+         },
+         "font": {
+          "color": "#000036"
+         },
+         "line": {
+          "color": "#000039"
+         }
+        },
+        "type": "table"
+       }
+      ],
+      "waterfall": [
+       {
+        "connector": {
+         "line": {
+          "color": "#000036",
+          "width": 2
+         }
+        },
+        "decreasing": {
+         "marker": {
+          "color": "#000033"
+         }
+        },
+        "increasing": {
+         "marker": {
+          "color": "#000032"
+         }
+        },
+        "totals": {
+         "marker": {
+          "color": "#000034"
+         }
+        },
+        "type": "waterfall"
+       }
+      ]
+     },
+     "layout": {
+      "coloraxis": {
+       "colorscale": [
+        [
+         0.0,
+         "#000011"
+        ],
+        [
+         0.1111111111111111,
+         "#000012"
+        ],
+        [
+         0.2222222222222222,
+         "#000013"
+        ],
+        [
+         0.3333333333333333,
+         "#000014"
+        ],
+        [
+         0.4444444444444444,
+         "#000015"
+        ],
+        [
+         0.5555555555555556,
+         "#000016"
+        ],
+        [
+         0.6666666666666666,
+         "#000017"
+        ],
+        [
+         0.7777777777777778,
+         "#000018"
+        ],
+        [
+         0.8888888888888888,
+         "#000019"
+        ],
+        [
+         1.0,
+         "#000020"
+        ]
+       ]
+      },
+      "colorscale": {
+       "diverging": [
+        [
+         0.0,
+         "#000021"
+        ],
+        [
+         0.1,
+         "#000022"
+        ],
+        [
+         0.2,
+         "#000023"
+        ],
+        [
+         0.3,
+         "#000024"
+        ],
+        [
+         0.4,
+         "#000025"
+        ],
+        [
+         0.5,
+         "#000026"
+        ],
+        [
+         0.6,
+         "#000027"
+        ],
+        [
+         0.7,
+         "#000028"
+        ],
+        [
+         0.8,
+         "#000029"
+        ],
+        [
+         0.9,
+         "#000030"
+        ],
+        [
+         1.0,
+         "#000031"
+        ]
+       ],
+       "sequential": [
+        [
+         0.0,
+         "#000011"
+        ],
+        [
+         0.1111111111111111,
+         "#000012"
+        ],
+        [
+         0.2222222222222222,
+         "#000013"
+        ],
+        [
+         0.3333333333333333,
+         "#000014"
+        ],
+        [
+         0.4444444444444444,
+         "#000015"
+        ],
+        [
+         0.5555555555555556,
+         "#000016"
+        ],
+        [
+         0.6666666666666666,
+         "#000017"
+        ],
+        [
+         0.7777777777777778,
+         "#000018"
+        ],
+        [
+         0.8888888888888888,
+         "#000019"
+        ],
+        [
+         1.0,
+         "#000020"
+        ]
+       ],
+       "sequentialminus": [
+        [
+         0.0,
+         "#000011"
+        ],
+        [
+         0.1111111111111111,
+         "#000012"
+        ],
+        [
+         0.2222222222222222,
+         "#000013"
+        ],
+        [
+         0.3333333333333333,
+         "#000014"
+        ],
+        [
+         0.4444444444444444,
+         "#000015"
+        ],
+        [
+         0.5555555555555556,
+         "#000016"
+        ],
+        [
+         0.6666666666666666,
+         "#000017"
+        ],
+        [
+         0.7777777777777778,
+         "#000018"
+        ],
+        [
+         0.8888888888888888,
+         "#000019"
+        ],
+        [
+         1.0,
+         "#000020"
+        ]
+       ]
+      },
+      "colorway": [
+       "#000001",
+       "#000002",
+       "#000003",
+       "#000004",
+       "#000005",
+       "#000006",
+       "#000007",
+       "#000008",
+       "#000009",
+       "#000010"
+      ]
+     }
+    },
+    "xaxis": {
+     "anchor": "y",
+     "domain": [
+      0.0,
+      1.0
+     ],
+     "title": {
+      "text": "Films covered"
+     },
+     "gridcolor": "#262B28",
+     "zerolinecolor": "#262B28",
+     "linecolor": "#262B28"
+    },
+    "yaxis": {
+     "anchor": "x",
+     "domain": [
+      0.0,
+      1.0
+     ],
+     "title": {
+      "text": "Avg TMDB rating"
+     },
+     "gridcolor": "#262B28",
+     "zerolinecolor": "#262B28",
+     "linecolor": "#262B28"
+    },
+    "coloraxis": {
+     "colorbar": {
+      "title": {
+       "text": "Avg TMDB rating"
+      }
+     },
+     "colorscale": [
+      [
+       0.0,
+       "#0D6249"
+      ],
+      [
+       0.2,
+       "#14906C"
+      ],
+      [
+       0.4,
+       "#1CBD8C"
+      ],
+      [
+       0.6,
+       "#43D9A7"
+      ],
+      [
+       0.8,
+       "#79E9C2"
+      ],
+      [
+       1.0,
+       "#B6F5DC"
+      ]
+     ],
+     "showscale": false
+    },
+    "legend": {
+     "tracegroupgap": 0,
+     "itemsizing": "constant",
+     "bgcolor": "#101211",
+     "bordercolor": "#262B28",
+     "borderwidth": 1
+    },
+    "margin": {
+     "t": 30,
+     "r": 20,
+     "b": 40,
+     "l": 60
+    },
+    "font": {
+     "color": "#F2EFE6",
+     "family": "Archivo, Helvetica Neue, Arial, sans-serif"
+    },
+    "title": {
+     "font": {
+      "color": "#F2EFE6"
+     },
+     "text": ""
+    },
+    "hoverlabel": {
+     "font": {
+      "color": "#F2EFE6",
+      "family": "IBM Plex Mono, ui-monospace, monospace"
+     },
+     "bgcolor": "#171A18",
+     "bordercolor": "#333934"
+    },
+    "paper_bgcolor": "#0B0D0C",
+    "plot_bgcolor": "#101211",
+    "showlegend": false
+   }
+  }
+ },
+ "spotlight": [
+  {
+   "name": "Michael Mann",
+   "id": "michael-mann",
+   "films": 9
+  },
+  {
+   "name": "Steven Spielberg",
+   "id": "steven-spielberg",
+   "films": 9
+  },
+  {
+   "name": "Tony Scott",
+   "id": "tony-scott",
+   "films": 9
+  },
+  {
+   "name": "Martin Scorsese",
+   "id": "martin-scorsese",
+   "films": 8
+  },
+  {
+   "name": "Rob Reiner",
+   "id": "rob-reiner",
+   "films": 7
+  },
+  {
+   "name": "David Fincher",
+   "id": "david-fincher",
+   "films": 7
+  },
+  {
+   "name": "Robert Zemeckis",
+   "id": "robert-zemeckis",
+   "films": 6
+  },
+  {
+   "name": "Ridley Scott",
+   "id": "ridley-scott",
+   "films": 5
+  },
+  {
+   "name": "James Cameron",
+   "id": "james-cameron",
+   "films": 5
+  },
+  {
+   "name": "Ivan Reitman",
+   "id": "ivan-reitman",
+   "films": 5
+  },
+  {
+   "name": "Christopher Nolan",
+   "id": "christopher-nolan",
+   "films": 4
+  },
+  {
+   "name": "Doug Liman",
+   "id": "doug-liman",
+   "films": 4
+  },
+  {
+   "name": "Ron Howard",
+   "id": "ron-howard",
+   "films": 4
+  },
+  {
+   "name": "John Landis",
+   "id": "john-landis",
+   "films": 4
+  },
+  {
+   "name": "Quentin Tarantino",
+   "id": "quentin-tarantino",
+   "films": 4
+  },
+  {
+   "name": "William Friedkin",
+   "id": "william-friedkin",
+   "films": 4
+  },
+  {
+   "name": "John Hughes",
+   "id": "john-hughes",
+   "films": 4
+  },
+  {
+   "name": "Spike Lee",
+   "id": "spike-lee",
+   "films": 4
+  },
+  {
+   "name": "Oliver Stone",
+   "id": "oliver-stone",
+   "films": 4
+  },
+  {
+   "name": "Steven Soderbergh",
+   "id": "steven-soderbergh",
+   "films": 4
+  }
+ ],
+ "table": [
+  {
+   "name": "Steven Spielberg",
+   "id": "steven-spielberg",
+   "films": 9,
+   "tmdb": 7.76,
+   "rt": 93,
+   "runtime": 133,
+   "first": 1975,
+   "last": 2002
+  },
+  {
+   "name": "Tony Scott",
+   "id": "tony-scott",
+   "films": 9,
+   "tmdb": 6.97,
+   "rt": 63,
+   "runtime": 115,
+   "first": 1986,
+   "last": 2010
+  },
+  {
+   "name": "Michael Mann",
+   "id": "michael-mann",
+   "films": 9,
+   "tmdb": 6.95,
+   "rt": 75,
+   "runtime": 136,
+   "first": 1981,
+   "last": 2015
+  },
+  {
+   "name": "Martin Scorsese",
+   "id": "martin-scorsese",
+   "films": 8,
+   "tmdb": 7.79,
+   "rt": 86,
+   "runtime": 139,
+   "first": 1976,
+   "last": 2013
+  },
+  {
+   "name": "David Fincher",
+   "id": "david-fincher",
+   "films": 7,
+   "tmdb": 7.71,
+   "rt": 85,
+   "runtime": 133,
+   "first": 1995,
+   "last": 2014
+  },
+  {
+   "name": "Rob Reiner",
+   "id": "rob-reiner",
+   "films": 7,
+   "tmdb": 7.33,
+   "rt": 89,
+   "runtime": 105,
+   "first": 1985,
+   "last": 1995
+  },
+  {
+   "name": "Robert Zemeckis",
+   "id": "robert-zemeckis",
+   "films": 6,
+   "tmdb": 7.59,
+   "rt": 74,
+   "runtime": 130,
+   "first": 1985,
+   "last": 2012
+  },
+  {
+   "name": "James Cameron",
+   "id": "james-cameron",
+   "films": 5,
+   "tmdb": 7.77,
+   "rt": 88,
+   "runtime": 143,
+   "first": 1984,
+   "last": 1997
+  },
+  {
+   "name": "Ridley Scott",
+   "id": "ridley-scott",
+   "films": 5,
+   "tmdb": 7.51,
+   "rt": 82,
+   "runtime": 135,
+   "first": 1979,
+   "last": 2015
+  },
+  {
+   "name": "Ivan Reitman",
+   "id": "ivan-reitman",
+   "films": 5,
+   "tmdb": 6.71,
+   "rt": 78,
+   "runtime": 108,
+   "first": 1981,
+   "last": 2014
+  },
+  {
+   "name": "Christopher Nolan",
+   "id": "christopher-nolan",
+   "films": 4,
+   "tmdb": 8.13,
+   "rt": 92,
+   "runtime": 130,
+   "first": 2000,
+   "last": 2017
+  },
+  {
+   "name": "Quentin Tarantino",
+   "id": "quentin-tarantino",
+   "films": 4,
+   "tmdb": 8.06,
+   "rt": 89,
+   "runtime": 142,
+   "first": 1992,
+   "last": 2019
+  },
+  {
+   "name": "Spike Lee",
+   "id": "spike-lee",
+   "films": 4,
+   "tmdb": 7.31,
+   "rt": 84,
+   "runtime": 130,
+   "first": 1989,
+   "last": 2006
+  },
+  {
+   "name": "John Hughes",
+   "id": "john-hughes",
+   "films": 4,
+   "tmdb": 7.27,
+   "rt": 81,
+   "runtime": 96,
+   "first": 1985,
+   "last": 1987
+  },
+  {
+   "name": "John Landis",
+   "id": "john-landis",
+   "films": 4,
+   "tmdb": 7.19,
+   "rt": 81,
+   "runtime": 119,
+   "first": 1978,
+   "last": 1988
+  },
+  {
+   "name": "Oliver Stone",
+   "id": "oliver-stone",
+   "films": 4,
+   "tmdb": 7.17,
+   "rt": 68,
+   "runtime": 154,
+   "first": 1987,
+   "last": 1999
+  },
+  {
+   "name": "Doug Liman",
+   "id": "doug-liman",
+   "films": 4,
+   "tmdb": 7.17,
+   "rt": 81,
+   "runtime": 112,
+   "first": 1996,
+   "last": 2014
+  },
+  {
+   "name": "William Friedkin",
+   "id": "william-friedkin",
+   "films": 4,
+   "tmdb": 6.89,
+   "rt": 64,
+   "runtime": 112,
+   "first": 1973,
+   "last": 1994
+  },
+  {
+   "name": "Steven Soderbergh",
+   "id": "steven-soderbergh",
+   "films": 4,
+   "tmdb": 6.84,
+   "rt": 79,
+   "runtime": 118,
+   "first": 1998,
+   "last": 2011
+  },
+  {
+   "name": "Ron Howard",
+   "id": "ron-howard",
+   "films": 4,
+   "tmdb": 6.73,
+   "rt": 88,
+   "runtime": 123,
+   "first": 1982,
+   "last": 1996
+  },
+  {
+   "name": "Francis Ford Coppola",
+   "id": null,
+   "films": 3,
+   "tmdb": 8.23,
+   "rt": 86,
+   "runtime": 180,
+   "first": 1972,
+   "last": 1990
+  },
+  {
+   "name": "Stanley Kubrick",
+   "id": null,
+   "films": 3,
+   "tmdb": 7.91,
+   "rt": 83,
+   "runtime": 151,
+   "first": 1968,
+   "last": 1999
+  },
+  {
+   "name": "Peter Weir",
+   "id": null,
+   "films": 3,
+   "tmdb": 7.85,
+   "rt": 91,
+   "runtime": 115,
+   "first": 1985,
+   "last": 1998
+  },
+  {
+   "name": "Paul Thomas Anderson",
+   "id": null,
+   "films": 3,
+   "tmdb": 7.81,
+   "rt": 89,
+   "runtime": 168,
+   "first": 1997,
+   "last": 2007
+  },
+  {
+   "name": "Richard Linklater",
+   "id": null,
+   "films": 3,
+   "tmdb": 7.69,
+   "rt": 96,
+   "runtime": 94,
+   "first": 1993,
+   "last": 2004
+  },
+  {
+   "name": "John McTiernan",
+   "id": null,
+   "films": 3,
+   "tmdb": 7.56,
+   "rt": 78,
+   "runtime": 122,
+   "first": 1987,
+   "last": 1995
+  },
+  {
+   "name": "George Roy Hill",
+   "id": null,
+   "films": 3,
+   "tmdb": 7.46,
+   "rt": 90,
+   "runtime": 121,
+   "first": 1969,
+   "last": 1977
+  },
+  {
+   "name": "Jonathan Demme",
+   "id": null,
+   "films": 3,
+   "tmdb": 7.45,
+   "rt": 87,
+   "runtime": 119,
+   "first": 1991,
+   "last": 2008
+  },
+  {
+   "name": "Martin Brest",
+   "id": null,
+   "films": 3,
+   "tmdb": 7.4,
+   "rt": 87,
+   "runtime": 129,
+   "first": 1984,
+   "last": 1992
+  },
+  {
+   "name": "Brian De Palma",
+   "id": null,
+   "films": 3,
+   "tmdb": 7.39,
+   "rt": 79,
+   "runtime": 113,
+   "first": 1981,
+   "last": 1996
+  },
+  {
+   "name": "Antoine Fuqua",
+   "id": null,
+   "films": 3,
+   "tmdb": 7.32,
+   "rt": 61,
+   "runtime": 126,
+   "first": 2001,
+   "last": 2014
+  },
+  {
+   "name": "John Carpenter",
+   "id": null,
+   "films": 3,
+   "tmdb": 7.3,
+   "rt": 90,
+   "runtime": 94,
+   "first": 1978,
+   "last": 1988
+  },
+  {
+   "name": "Richard Donner",
+   "id": null,
+   "films": 3,
+   "tmdb": 7.25,
+   "rt": 82,
+   "runtime": 112,
+   "first": 1976,
+   "last": 1989
+  },
+  {
+   "name": "James Wan",
+   "id": null,
+   "films": 3,
+   "tmdb": 7.25,
+   "rt": 78,
+   "runtime": 117,
+   "first": 2011,
+   "last": 2015
+  },
+  {
+   "name": "Paul Verhoeven",
+   "id": null,
+   "films": 3,
+   "tmdb": 7.21,
+   "rt": 76,
+   "runtime": 114,
+   "first": 1987,
+   "last": 1992
+  },
+  {
+   "name": "Chris Columbus",
+   "id": null,
+   "films": 3,
+   "tmdb": 7.15,
+   "rt": 57,
+   "runtime": 116,
+   "first": 1990,
+   "last": 1993
+  },
+  {
+   "name": "John G. Avildsen",
+   "id": null,
+   "films": 3,
+   "tmdb": 7.13,
+   "rt": 77,
+   "runtime": 120,
+   "first": 1976,
+   "last": 1986
+  },
+  {
+   "name": "F. Gary Gray",
+   "id": null,
+   "films": 3,
+   "tmdb": 7.11,
+   "rt": 58,
+   "runtime": 103,
+   "first": 1995,
+   "last": 2009
+  },
+  {
+   "name": "Harold Ramis",
+   "id": null,
+   "films": 3,
+   "tmdb": 7.11,
+   "rt": 87,
+   "runtime": 99,
+   "first": 1980,
+   "last": 1993
+  },
+  {
+   "name": "Sylvester Stallone",
+   "id": null,
+   "films": 3,
+   "tmdb": 7.1,
+   "rt": 58,
+   "runtime": 103,
+   "first": 1979,
+   "last": 1985
+  },
+  {
+   "name": "Barry Levinson",
+   "id": null,
+   "films": 3,
+   "tmdb": 6.98,
+   "rt": 77,
+   "runtime": 133,
+   "first": 1984,
+   "last": 1994
+  },
+  {
+   "name": "Michael Bay",
+   "id": null,
+   "films": 3,
+   "tmdb": 6.94,
+   "rt": 51,
+   "runtime": 136,
+   "first": 1995,
+   "last": 1998
+  },
+  {
+   "name": "Taylor Hackford",
+   "id": null,
+   "films": 3,
+   "tmdb": 6.9,
+   "rt": 60,
+   "runtime": 134,
+   "first": 1982,
+   "last": 2000
+  },
+  {
+   "name": "George P. Cosmatos",
+   "id": null,
+   "films": 3,
+   "tmdb": 6.8,
+   "rt": 41,
+   "runtime": 104,
+   "first": 1985,
+   "last": 1993
+  },
+  {
+   "name": "Cameron Crowe",
+   "id": null,
+   "films": 3,
+   "tmdb": 6.8,
+   "rt": 87,
+   "runtime": 113,
+   "first": 1989,
+   "last": 1996
+  },
+  {
+   "name": "Walter Hill",
+   "id": null,
+   "films": 3,
+   "tmdb": 6.79,
+   "rt": 66,
+   "runtime": 95,
+   "first": 1979,
+   "last": 1990
+  },
+  {
+   "name": "Joel Schumacher",
+   "id": null,
+   "films": 3,
+   "tmdb": 6.68,
+   "rt": 45,
+   "runtime": 127,
+   "first": 1985,
+   "last": 1999
+  },
+  {
+   "name": "Adrian Lyne",
+   "id": null,
+   "films": 3,
+   "tmdb": 6.65,
+   "rt": 53,
+   "runtime": 120,
+   "first": 1987,
+   "last": 2002
+  },
+  {
+   "name": "Jay Roach",
+   "id": null,
+   "films": 3,
+   "tmdb": 6.54,
+   "rt": 70,
+   "runtime": 97,
+   "first": 1997,
+   "last": 2000
+  },
+  {
+   "name": "Roger Donaldson",
+   "id": null,
+   "films": 3,
+   "tmdb": 6.32,
+   "rt": 48,
+   "runtime": 109,
+   "first": 1987,
+   "last": 1995
+  },
+  {
+   "name": "Harold Becker",
+   "id": null,
+   "films": 3,
+   "tmdb": 6.24,
+   "rt": 53,
+   "runtime": 102,
+   "first": 1985,
+   "last": 2001
+  },
+  {
+   "name": "Joseph Kosinski",
+   "id": null,
+   "films": 2,
+   "tmdb": 7.99,
+   "rt": 90,
+   "runtime": 144,
+   "first": 2022,
+   "last": 2025
+  },
+  {
+   "name": "Coen Brothers",
+   "id": null,
+   "films": 2,
+   "tmdb": 7.89,
+   "rt": 86,
+   "runtime": 120,
+   "first": 1998,
+   "last": 2007
+  },
+  {
+   "name": "Wes Anderson",
+   "id": null,
+   "films": 2,
+   "tmdb": 7.74,
+   "rt": 86,
+   "runtime": 105,
+   "first": 2001,
+   "last": 2014
+  },
+  {
+   "name": "Gavin O'Connor",
+   "id": null,
+   "films": 2,
+   "tmdb": 7.47,
+   "rt": 82,
+   "runtime": 138,
+   "first": 2004,
+   "last": 2011
+  },
+  {
+   "name": "Ryan Coogler",
+   "id": null,
+   "films": 2,
+   "tmdb": 7.46,
+   "rt": 96,
+   "runtime": 136,
+   "first": 2015,
+   "last": 2025
+  },
+  {
+   "name": "Chad Stahelski",
+   "id": null,
+   "films": 2,
+   "tmdb": 7.4,
+   "rt": 88,
+   "runtime": 112,
+   "first": 2014,
+   "last": 2017
+  },
+  {
+   "name": "Jon Favreau",
+   "id": null,
+   "films": 2,
+   "tmdb": 7.39,
+   "rt": 90,
+   "runtime": 120,
+   "first": 2008,
+   "last": 2014
+  },
+  {
+   "name": "Curtis Hanson",
+   "id": null,
+   "films": 2,
+   "tmdb": 7.35,
+   "rt": 83,
+   "runtime": 124,
+   "first": 1992,
+   "last": 1997
+  },
+  {
+   "name": "Robert Redford",
+   "id": null,
+   "films": 2,
+   "tmdb": 7.35,
+   "rt": 93,
+   "runtime": 128,
+   "first": 1980,
+   "last": 1994
+  },
+  {
+   "name": "Ang Lee",
+   "id": null,
+   "films": 2,
+   "tmdb": 7.33,
+   "rt": 87,
+   "runtime": 124,
+   "first": 1997,
+   "last": 2005
+  },
+  {
+   "name": "Ben Affleck",
+   "id": null,
+   "films": 2,
+   "tmdb": 7.26,
+   "rt": 94,
+   "runtime": 122,
+   "first": 2010,
+   "last": 2012
+  },
+  {
+   "name": "Tobe Hooper",
+   "id": null,
+   "films": 2,
+   "tmdb": 7.25,
+   "rt": 86,
+   "runtime": 98,
+   "first": 1974,
+   "last": 1982
+  },
+  {
+   "name": "Martin Campbell",
+   "id": null,
+   "films": 2,
+   "tmdb": 7.24,
+   "rt": 87,
+   "runtime": 137,
+   "first": 1995,
+   "last": 2006
+  },
+  {
+   "name": "Penny Marshall",
+   "id": null,
+   "films": 2,
+   "tmdb": 7.2,
+   "rt": 90,
+   "runtime": 116,
+   "first": 1988,
+   "last": 1992
+  },
+  {
+   "name": "David Anspaugh",
+   "id": null,
+   "films": 2,
+   "tmdb": 7.17,
+   "rt": 84,
+   "runtime": 114,
+   "first": 1986,
+   "last": 1993
+  },
+  {
+   "name": "Alan J. Pakula",
+   "id": null,
+   "films": 2,
+   "tmdb": 7.12,
+   "rt": 74,
+   "runtime": 140,
+   "first": 1976,
+   "last": 1993
+  },
+  {
+   "name": "Glenn Ficarra; John Requa",
+   "id": null,
+   "films": 2,
+   "tmdb": 7.07,
+   "rt": 68,
+   "runtime": 112,
+   "first": 2011,
+   "last": 2015
+  },
+  {
+   "name": "Sydney Pollack",
+   "id": null,
+   "films": 2,
+   "tmdb": 7.03,
+   "rt": 84,
+   "runtime": 131,
+   "first": 1972,
+   "last": 1993
+  },
+  {
+   "name": "Amy Heckerling",
+   "id": null,
+   "films": 2,
+   "tmdb": 7.02,
+   "rt": 80,
+   "runtime": 94,
+   "first": 1982,
+   "last": 1995
+  },
+  {
+   "name": "Phil Alden Robinson",
+   "id": null,
+   "films": 2,
+   "tmdb": 7.02,
+   "rt": 84,
+   "runtime": 115,
+   "first": 1989,
+   "last": 1992
+  },
+  {
+   "name": "Alexander Payne",
+   "id": null,
+   "films": 2,
+   "tmdb": 6.98,
+   "rt": 94,
+   "runtime": 115,
+   "first": 1999,
+   "last": 2004
+  },
+  {
+   "name": "Todd Phillips",
+   "id": null,
+   "films": 2,
+   "tmdb": 6.98,
+   "rt": 70,
+   "runtime": 96,
+   "first": 2003,
+   "last": 2009
+  },
+  {
+   "name": "John Singleton",
+   "id": null,
+   "films": 2,
+   "tmdb": 6.97,
+   "rt": 71,
+   "runtime": 120,
+   "first": 1991,
+   "last": 1995
+  },
+  {
+   "name": "Lawrence Kasdan",
+   "id": null,
+   "films": 2,
+   "tmdb": 6.9,
+   "rt": 82,
+   "runtime": 109,
+   "first": 1981,
+   "last": 1983
+  },
+  {
+   "name": "Andrew Davis",
+   "id": null,
+   "films": 2,
+   "tmdb": 6.9,
+   "rt": 90,
+   "runtime": 116,
+   "first": 1992,
+   "last": 1993
+  },
+  {
+   "name": "Sam Raimi",
+   "id": null,
+   "films": 2,
+   "tmdb": 6.87,
+   "rt": 68,
+   "runtime": 130,
+   "first": 1999,
+   "last": 2002
+  },
+  {
+   "name": "Greg Mottola",
+   "id": null,
+   "films": 2,
+   "tmdb": 6.83,
+   "rt": 88,
+   "runtime": 110,
+   "first": 2007,
+   "last": 2009
+  },
+  {
+   "name": "Michael Ritchie",
+   "id": null,
+   "films": 2,
+   "tmdb": 6.83,
+   "rt": 88,
+   "runtime": 100,
+   "first": 1976,
+   "last": 1985
+  },
+  {
+   "name": "Edward Zwick",
+   "id": null,
+   "films": 2,
+   "tmdb": 6.83,
+   "rt": 64,
+   "runtime": 128,
+   "first": 1986,
+   "last": 2006
+  },
+  {
+   "name": "Nancy Meyers",
+   "id": null,
+   "films": 2,
+   "tmdb": 6.81,
+   "rt": 54,
+   "runtime": 128,
+   "first": 2006,
+   "last": 2009
+  },
+  {
+   "name": "Rick Rosenthal",
+   "id": null,
+   "films": 2,
+   "tmdb": 6.79,
+   "rt": 62,
+   "runtime": 108,
+   "first": 1981,
+   "last": 1983
+  },
+  {
+   "name": "Renny Harlin",
+   "id": null,
+   "films": 2,
+   "tmdb": 6.74,
+   "rt": 68,
+   "runtime": 118,
+   "first": 1990,
+   "last": 1993
+  },
+  {
+   "name": "Wolfgang Petersen",
+   "id": null,
+   "films": 2,
+   "tmdb": 6.73,
+   "rt": 71,
+   "runtime": 129,
+   "first": 1993,
+   "last": 2000
+  },
+  {
+   "name": "John Schlesinger",
+   "id": null,
+   "films": 2,
+   "tmdb": 6.73,
+   "rt": 67,
+   "runtime": 114,
+   "first": 1976,
+   "last": 1990
+  },
+  {
+   "name": "Nora Ephron",
+   "id": null,
+   "films": 2,
+   "tmdb": 6.72,
+   "rt": 72,
+   "runtime": 112,
+   "first": 1993,
+   "last": 1998
+  },
+  {
+   "name": "David S. Ward",
+   "id": null,
+   "films": 2,
+   "tmdb": 6.69,
+   "rt": 63,
+   "runtime": 110,
+   "first": 1989,
+   "last": 1993
+  },
+  {
+   "name": "Norman Jewison",
+   "id": null,
+   "films": 2,
+   "tmdb": 6.68,
+   "rt": 68,
+   "runtime": 122,
+   "first": 1975,
+   "last": 1979
+  },
+  {
+   "name": "Joseph Ruben",
+   "id": null,
+   "films": 2,
+   "tmdb": 6.66,
+   "rt": 25,
+   "runtime": 93,
+   "first": 1991,
+   "last": 1993
+  },
+  {
+   "name": "Ben Stiller",
+   "id": null,
+   "films": 2,
+   "tmdb": 6.63,
+   "rt": 72,
+   "runtime": 102,
+   "first": 1994,
+   "last": 2008
+  },
+  {
+   "name": "Dennis Dugan",
+   "id": null,
+   "films": 2,
+   "tmdb": 6.58,
+   "rt": 50,
+   "runtime": 92,
+   "first": 1996,
+   "last": 1999
+  },
+  {
+   "name": "Paul Schrader",
+   "id": null,
+   "films": 2,
+   "tmdb": 6.49,
+   "rt": 76,
+   "runtime": 112,
+   "first": 1979,
+   "last": 1980
+  },
+  {
+   "name": "Brian de Palma",
+   "id": null,
+   "films": 2,
+   "tmdb": 6.47,
+   "rt": 60,
+   "runtime": 106,
+   "first": 1984,
+   "last": 1998
+  },
+  {
+   "name": "Adam McKay",
+   "id": null,
+   "films": 2,
+   "tmdb": 6.47,
+   "rt": 62,
+   "runtime": 103,
+   "first": 2006,
+   "last": 2008
+  },
+  {
+   "name": "Judd Apatow",
+   "id": null,
+   "films": 2,
+   "tmdb": 6.37,
+   "rt": 88,
+   "runtime": 122,
+   "first": 2005,
+   "last": 2007
+  },
+  {
+   "name": "Ron Shelton",
+   "id": null,
+   "films": 2,
+   "tmdb": 6.37,
+   "rt": 74,
+   "runtime": 125,
+   "first": 1992,
+   "last": 1996
+  },
+  {
+   "name": "Nicholas Stoller",
+   "id": null,
+   "films": 2,
+   "tmdb": 6.34,
+   "rt": 78,
+   "runtime": 104,
+   "first": 2008,
+   "last": 2014
+  },
+  {
+   "name": "Brian Robbins",
+   "id": null,
+   "films": 2,
+   "tmdb": 6.32,
+   "rt": 43,
+   "runtime": 106,
+   "first": 1999,
+   "last": 2001
+  },
+  {
+   "name": "Peter Hyams",
+   "id": null,
+   "films": 2,
+   "tmdb": 6.07,
+   "rt": 57,
+   "runtime": 109,
+   "first": 1986,
+   "last": 1995
+  },
+  {
+   "name": "Frank Darabont",
+   "id": null,
+   "films": 1,
+   "tmdb": 8.73,
+   "rt": 89,
+   "runtime": 142,
+   "first": 1994,
+   "last": 1994
+  },
+  {
+   "name": "Damien Chazelle",
+   "id": null,
+   "films": 1,
+   "tmdb": 8.38,
+   "rt": 94,
+   "runtime": 107,
+   "first": 2014,
+   "last": 2014
+  },
+  {
+   "name": "Wachowskis",
+   "id": null,
+   "films": 1,
+   "tmdb": 8.26,
+   "rt": 83,
+   "runtime": 136,
+   "first": 1999,
+   "last": 1999
+  },
+  {
+   "name": "Curry Barker",
+   "id": null,
+   "films": 1,
+   "tmdb": 8.21,
+   "rt": 94,
+   "runtime": 109,
+   "first": 2026,
+   "last": 2026
+  },
+  {
+   "name": "George Lucas",
+   "id": null,
+   "films": 1,
+   "tmdb": 8.21,
+   "rt": 94,
+   "runtime": 121,
+   "first": 1977,
+   "last": 1977
+  },
+  {
+   "name": "Bryan Singer",
+   "id": null,
+   "films": 1,
+   "tmdb": 8.16,
+   "rt": 87,
+   "runtime": 106,
+   "first": 1995,
+   "last": 1995
+  },
+  {
+   "name": "Gus Van Sant",
+   "id": null,
+   "films": 1,
+   "tmdb": 8.16,
+   "rt": 97,
+   "runtime": 127,
+   "first": 1997,
+   "last": 1997
+  },
+  {
+   "name": "John Lasseter",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.99,
+   "rt": 100,
+   "runtime": 81,
+   "first": 1995,
+   "last": 1995
+  },
+  {
+   "name": "Danny Boyle",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.96,
+   "rt": 90,
+   "runtime": 94,
+   "first": 1996,
+   "last": 1996
+  },
+  {
+   "name": "M. Night Shyamalan",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.95,
+   "rt": 86,
+   "runtime": 107,
+   "first": 1999,
+   "last": 1999
+  },
+  {
+   "name": "Clint Eastwood",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.91,
+   "rt": 96,
+   "runtime": 130,
+   "first": 1992,
+   "last": 1992
+  },
+  {
+   "name": "Robert De Niro",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.9,
+   "rt": 97,
+   "runtime": 121,
+   "first": 1993,
+   "last": 1993
+  },
+  {
+   "name": "Nick Cassavetes",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.89,
+   "rt": 54,
+   "runtime": 123,
+   "first": 2004,
+   "last": 2004
+  },
+  {
+   "name": "Joel Coen",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.85,
+   "rt": 94,
+   "runtime": 98,
+   "first": 1996,
+   "last": 1996
+  },
+  {
+   "name": "Tom McCarthy",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.81,
+   "rt": 97,
+   "runtime": 129,
+   "first": 2015,
+   "last": 2015
+  },
+  {
+   "name": "Boaz Yakin",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.66,
+   "rt": 71,
+   "runtime": 113,
+   "first": 2000,
+   "last": 2000
+  },
+  {
+   "name": "Gregory Hoblit",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.66,
+   "rt": 77,
+   "runtime": 130,
+   "first": 1996,
+   "last": 1996
+  },
+  {
+   "name": "George Miller",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.64,
+   "rt": 97,
+   "runtime": 121,
+   "first": 2015,
+   "last": 2015
+  },
+  {
+   "name": "Jordan Peele",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.62,
+   "rt": 98,
+   "runtime": 104,
+   "first": 2017,
+   "last": 2017
+  },
+  {
+   "name": "Gil Junger",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.6,
+   "rt": 71,
+   "runtime": 97,
+   "first": 1999,
+   "last": 1999
+  },
+  {
+   "name": "Robert Benton",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.57,
+   "rt": 90,
+   "runtime": 105,
+   "first": 1979,
+   "last": 1979
+  },
+  {
+   "name": "David Mickey Evans",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.56,
+   "rt": 65,
+   "runtime": 101,
+   "first": 1993,
+   "last": 1993
+  },
+  {
+   "name": "Kenneth Lonergan",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.55,
+   "rt": 96,
+   "runtime": 138,
+   "first": 2016,
+   "last": 2016
+  },
+  {
+   "name": "Ted Kotcheff",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.52,
+   "rt": 86,
+   "runtime": 93,
+   "first": 1982,
+   "last": 1982
+  },
+  {
+   "name": "Bradley Cooper",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.5,
+   "rt": 90,
+   "runtime": 136,
+   "first": 2018,
+   "last": 2018
+  },
+  {
+   "name": "Jonathan Lynn",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.5,
+   "rt": 85,
+   "runtime": 119,
+   "first": 1992,
+   "last": 1992
+  },
+  {
+   "name": "Sidney Lumet",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.47,
+   "rt": 88,
+   "runtime": 129,
+   "first": 1982,
+   "last": 1982
+  },
+  {
+   "name": "Christopher McQuarrie",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.45,
+   "rt": 98,
+   "runtime": 147,
+   "first": 2018,
+   "last": 2018
+  },
+  {
+   "name": "Garry Marshall",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.44,
+   "rt": 64,
+   "runtime": 120,
+   "first": 1990,
+   "last": 1990
+  },
+  {
+   "name": "David Frankel",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.44,
+   "rt": 75,
+   "runtime": 109,
+   "first": 2006,
+   "last": 2006
+  },
+  {
+   "name": "Wes Craven",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.43,
+   "rt": 77,
+   "runtime": 112,
+   "first": 1996,
+   "last": 1996
+  },
+  {
+   "name": "Denis Villeneuve",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.43,
+   "rt": 91,
+   "runtime": 122,
+   "first": 2015,
+   "last": 2015
+  },
+  {
+   "name": "Pierre Morel",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.41,
+   "rt": 60,
+   "runtime": 94,
+   "first": 2008,
+   "last": 2008
+  },
+  {
+   "name": "Mike Judge",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.38,
+   "rt": 81,
+   "runtime": 90,
+   "first": 1999,
+   "last": 1999
+  },
+  {
+   "name": "Sophia Coppola",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.38,
+   "rt": 95,
+   "runtime": 102,
+   "first": 2003,
+   "last": 2003
+  },
+  {
+   "name": "Randal Kleiser",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.37,
+   "rt": 66,
+   "runtime": 110,
+   "first": 1978,
+   "last": 1978
+  },
+  {
+   "name": "Gina Prince-Bythewood",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.35,
+   "rt": 85,
+   "runtime": 125,
+   "first": 2000,
+   "last": 2000
+  },
+  {
+   "name": "John Boorman",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.31,
+   "rt": 89,
+   "runtime": 109,
+   "first": 1972,
+   "last": 1972
+  },
+  {
+   "name": "Ari Aster",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.3,
+   "rt": 90,
+   "runtime": 128,
+   "first": 2018,
+   "last": 2018
+  },
+  {
+   "name": "James Foley",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.3,
+   "rt": 95,
+   "runtime": 100,
+   "first": 1992,
+   "last": 1992
+  },
+  {
+   "name": "Jim Abrahams; David Zucker; Jerry Zucker",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.3,
+   "rt": 97,
+   "runtime": 88,
+   "first": 1980,
+   "last": 1980
+  },
+  {
+   "name": "Bennett Miller",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.3,
+   "rt": 94,
+   "runtime": 134,
+   "first": 2011,
+   "last": 2011
+  },
+  {
+   "name": "David Zucker",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.28,
+   "rt": 86,
+   "runtime": 86,
+   "first": 1988,
+   "last": 1988
+  },
+  {
+   "name": "Jason Moore",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.27,
+   "rt": 81,
+   "runtime": 112,
+   "first": 2012,
+   "last": 2012
+  },
+  {
+   "name": "Roger Michell",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.26,
+   "rt": 84,
+   "runtime": 124,
+   "first": 1999,
+   "last": 1999
+  },
+  {
+   "name": "Sam Mendes",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.26,
+   "rt": 92,
+   "runtime": 143,
+   "first": 2012,
+   "last": 2012
+  },
+  {
+   "name": "Jerry Zucker",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.25,
+   "rt": 75,
+   "runtime": 127,
+   "first": 1990,
+   "last": 1990
+  },
+  {
+   "name": "Justin Lin",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.24,
+   "rt": 78,
+   "runtime": 131,
+   "first": 2011,
+   "last": 2011
+  },
+  {
+   "name": "Tim Burton",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.23,
+   "rt": 77,
+   "runtime": 126,
+   "first": 1989,
+   "last": 1989
+  },
+  {
+   "name": "Jeremiah S. Chechik",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.23,
+   "rt": 72,
+   "runtime": 97,
+   "first": 1989,
+   "last": 1989
+  },
+  {
+   "name": "Samantha Jayne; Arturo Perez Jr.",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.23,
+   "rt": 84,
+   "runtime": 97,
+   "first": 2004,
+   "last": 2004
+  },
+  {
+   "name": "Francis Lawrence",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.22,
+   "rt": 68,
+   "runtime": 101,
+   "first": 2007,
+   "last": 2007
+  },
+  {
+   "name": "Paul Haggis",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.21,
+   "rt": 73,
+   "runtime": 112,
+   "first": 2005,
+   "last": 2005
+  },
+  {
+   "name": "Ernest Dickerson",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.21,
+   "rt": 81,
+   "runtime": 96,
+   "first": 1992,
+   "last": 1992
+  },
+  {
+   "name": "Neil Burger",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.2,
+   "rt": 68,
+   "runtime": 106,
+   "first": 2011,
+   "last": 2011
+  },
+  {
+   "name": "David O. Russell",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.2,
+   "rt": 92,
+   "runtime": 122,
+   "first": 2012,
+   "last": 2012
+  },
+  {
+   "name": "Jan De Bont",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.2,
+   "rt": 95,
+   "runtime": 116,
+   "first": 1994,
+   "last": 1994
+  },
+  {
+   "name": "Anthony Minghella",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.2,
+   "rt": 85,
+   "runtime": 140,
+   "first": 1999,
+   "last": 1999
+  },
+  {
+   "name": "Robert Altman",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.19,
+   "rt": 97,
+   "runtime": 124,
+   "first": 1992,
+   "last": 1992
+  },
+  {
+   "name": "Kathryn Bigelow",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.15,
+   "rt": 70,
+   "runtime": 122,
+   "first": 1991,
+   "last": 1991
+  },
+  {
+   "name": "Peter Yates",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.15,
+   "rt": 95,
+   "runtime": 101,
+   "first": 1979,
+   "last": 1979
+  },
+  {
+   "name": "Shane Black",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.13,
+   "rt": 91,
+   "runtime": 116,
+   "first": 2016,
+   "last": 2016
+  },
+  {
+   "name": "Allan Moyle",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.1,
+   "rt": 82,
+   "runtime": 102,
+   "first": 1990,
+   "last": 1990
+  },
+  {
+   "name": "Stephen Frears",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.1,
+   "rt": 91,
+   "runtime": 113,
+   "first": 2000,
+   "last": 2000
+  },
+  {
+   "name": "Jeff Pollack",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.07,
+   "rt": 50,
+   "runtime": 96,
+   "first": 1994,
+   "last": 1994
+  },
+  {
+   "name": "Steven Zaillian",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.07,
+   "rt": 100,
+   "runtime": 110,
+   "first": 1993,
+   "last": 1993
+  },
+  {
+   "name": "Newt Arnold",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.07,
+   "rt": 48,
+   "runtime": 92,
+   "first": 1988,
+   "last": 1988
+  },
+  {
+   "name": "John Woo",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.06,
+   "rt": 93,
+   "runtime": 139,
+   "first": 1997,
+   "last": 1997
+  },
+  {
+   "name": "Jon Turteltaub",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.04,
+   "rt": 81,
+   "runtime": 103,
+   "first": 1995,
+   "last": 1995
+  },
+  {
+   "name": "John Dahl",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.02,
+   "rt": 64,
+   "runtime": 121,
+   "first": 1998,
+   "last": 1998
+  },
+  {
+   "name": "Rob Cohen",
+   "id": null,
+   "films": 1,
+   "tmdb": 7.0,
+   "rt": 55,
+   "runtime": 106,
+   "first": 2001,
+   "last": 2001
+  },
+  {
+   "name": "John N. Smith",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.98,
+   "rt": 34,
+   "runtime": 99,
+   "first": 1995,
+   "last": 1995
+  },
+  {
+   "name": "Ric Roman Waugh",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.97,
+   "rt": 69,
+   "runtime": 121,
+   "first": 2017,
+   "last": 2017
+  },
+  {
+   "name": "John Frankenheimer",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.97,
+   "rt": 70,
+   "runtime": 122,
+   "first": 1998,
+   "last": 1998
+  },
+  {
+   "name": "Stephen Herek",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.96,
+   "rt": 75,
+   "runtime": 143,
+   "first": 1995,
+   "last": 1995
+  },
+  {
+   "name": "Michael Winner",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.93,
+   "rt": 66,
+   "runtime": 93,
+   "first": 1974,
+   "last": 1974
+  },
+  {
+   "name": "Nima Nourizadeh",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.92,
+   "rt": 28,
+   "runtime": 88,
+   "first": 2012,
+   "last": 2012
+  },
+  {
+   "name": "Roland Emmerich",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.92,
+   "rt": 68,
+   "runtime": 145,
+   "first": 1996,
+   "last": 1996
+  },
+  {
+   "name": "Danny DeVito",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.92,
+   "rt": 83,
+   "runtime": 116,
+   "first": 1989,
+   "last": 1989
+  },
+  {
+   "name": "Peter Berg",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.9,
+   "rt": 82,
+   "runtime": 118,
+   "first": 2004,
+   "last": 2004
+  },
+  {
+   "name": "Christopher Guest",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.89,
+   "rt": 93,
+   "runtime": 91,
+   "first": 2000,
+   "last": 2000
+  },
+  {
+   "name": "Frank Oz",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.89,
+   "rt": 82,
+   "runtime": 100,
+   "first": 1991,
+   "last": 1991
+  },
+  {
+   "name": "Frank Marshall",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.88,
+   "rt": 63,
+   "runtime": 127,
+   "first": 1993,
+   "last": 1993
+  },
+  {
+   "name": "Steve Rash",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.88,
+   "rt": 50,
+   "runtime": 94,
+   "first": 1987,
+   "last": 1987
+  },
+  {
+   "name": "John Huston",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.88,
+   "rt": 70,
+   "runtime": 116,
+   "first": 1981,
+   "last": 1981
+  },
+  {
+   "name": "Christian Gudegast",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.87,
+   "rt": 41,
+   "runtime": 140,
+   "first": 2018,
+   "last": 2018
+  },
+  {
+   "name": "Lee Tamahori",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.86,
+   "rt": 62,
+   "runtime": 117,
+   "first": 1997,
+   "last": 1997
+  },
+  {
+   "name": "J. C. Chandor",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.86,
+   "rt": 87,
+   "runtime": 107,
+   "first": 2011,
+   "last": 2011
+  },
+  {
+   "name": "Kevin Reynolds",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.85,
+   "rt": 51,
+   "runtime": 143,
+   "first": 1991,
+   "last": 1991
+  },
+  {
+   "name": "Roger Kumble",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.82,
+   "rt": 54,
+   "runtime": 97,
+   "first": 1999,
+   "last": 1999
+  },
+  {
+   "name": "James Mangold",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.82,
+   "rt": 75,
+   "runtime": 104,
+   "first": 1997,
+   "last": 1997
+  },
+  {
+   "name": "Robert Luketic",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.82,
+   "rt": 72,
+   "runtime": 96,
+   "first": 2001,
+   "last": 2001
+  },
+  {
+   "name": "Will Gluck",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.8,
+   "rt": 85,
+   "runtime": 93,
+   "first": 2010,
+   "last": 2010
+  },
+  {
+   "name": "Gary Winick",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.8,
+   "rt": 65,
+   "runtime": 98,
+   "first": 2004,
+   "last": 2004
+  },
+  {
+   "name": "Peter Segal",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.8,
+   "rt": 39,
+   "runtime": 98,
+   "first": 1995,
+   "last": 1995
+  },
+  {
+   "name": "Tony Gilroy",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.79,
+   "rt": 90,
+   "runtime": 120,
+   "first": 2007,
+   "last": 2007
+  },
+  {
+   "name": "Larry Charles",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.79,
+   "rt": 90,
+   "runtime": 84,
+   "first": 2006,
+   "last": 2006
+  },
+  {
+   "name": "Simon West",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.79,
+   "rt": 58,
+   "runtime": 116,
+   "first": 1997,
+   "last": 1997
+  },
+  {
+   "name": "James L. Brooks",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.78,
+   "rt": 98,
+   "runtime": 133,
+   "first": 1987,
+   "last": 1987
+  },
+  {
+   "name": "Rowdy Herrington",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.77,
+   "rt": 44,
+   "runtime": 114,
+   "first": 1989,
+   "last": 1989
+  },
+  {
+   "name": "Abel Ferrara",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.76,
+   "rt": 73,
+   "runtime": 103,
+   "first": 1990,
+   "last": 1990
+  },
+  {
+   "name": "Robert Aldrich",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.74,
+   "rt": 76,
+   "runtime": 121,
+   "first": 1974,
+   "last": 1974
+  },
+  {
+   "name": "John Badham",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.73,
+   "rt": 82,
+   "runtime": 118,
+   "first": 1977,
+   "last": 1977
+  },
+  {
+   "name": "Mario Van Peebles",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.73,
+   "rt": 81,
+   "runtime": 101,
+   "first": 1991,
+   "last": 1991
+  },
+  {
+   "name": "Howard Deutch",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.71,
+   "rt": 41,
+   "runtime": 118,
+   "first": 2000,
+   "last": 2000
+  },
+  {
+   "name": "Mark L. Lester",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.71,
+   "rt": 68,
+   "runtime": 90,
+   "first": 1985,
+   "last": 1985
+  },
+  {
+   "name": "Mick Jackson",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.71,
+   "rt": 38,
+   "runtime": 129,
+   "first": 1992,
+   "last": 1992
+  },
+  {
+   "name": "Albert Magnoli",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.7,
+   "rt": 72,
+   "runtime": 111,
+   "first": 1984,
+   "last": 1984
+  },
+  {
+   "name": "Penelope Spheeris",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.68,
+   "rt": 79,
+   "runtime": 94,
+   "first": 1992,
+   "last": 1992
+  },
+  {
+   "name": "Martin Davidson",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.66,
+   "rt": 38,
+   "runtime": 95,
+   "first": 1983,
+   "last": 1983
+  },
+  {
+   "name": "Peter Farrelly",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.66,
+   "rt": 67,
+   "runtime": 107,
+   "first": 1994,
+   "last": 1994
+  },
+  {
+   "name": "Warren Beatty; Buck Henry",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.66,
+   "rt": 86,
+   "runtime": 101,
+   "first": 1978,
+   "last": 1978
+  },
+  {
+   "name": "David Gordon Green",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.64,
+   "rt": 68,
+   "runtime": 112,
+   "first": 2008,
+   "last": 2008
+  },
+  {
+   "name": "Bobby Farrelly; Peter Farrelly",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.64,
+   "rt": 84,
+   "runtime": 120,
+   "first": 1998,
+   "last": 1998
+  },
+  {
+   "name": "Paul Weitz",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.62,
+   "rt": 62,
+   "runtime": 95,
+   "first": 1999,
+   "last": 1999
+  },
+  {
+   "name": "Mike Nichols",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.6,
+   "rt": 83,
+   "runtime": 114,
+   "first": 1988,
+   "last": 1988
+  },
+  {
+   "name": "Matthew Robbins",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.6,
+   "rt": 39,
+   "runtime": 95,
+   "first": 1985,
+   "last": 1985
+  },
+  {
+   "name": "Paul Brickman",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.59,
+   "rt": 93,
+   "runtime": 98,
+   "first": 1983,
+   "last": 1983
+  },
+  {
+   "name": "Andy Tennant",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.58,
+   "rt": 68,
+   "runtime": 118,
+   "first": 2005,
+   "last": 2005
+  },
+  {
+   "name": "Tom Shadyac",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.58,
+   "rt": 47,
+   "runtime": 86,
+   "first": 1994,
+   "last": 1994
+  },
+  {
+   "name": "Jan de Bont",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.57,
+   "rt": 67,
+   "runtime": 113,
+   "first": 1996,
+   "last": 1996
+  },
+  {
+   "name": "P. J. Hogan",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.56,
+   "rt": 74,
+   "runtime": 105,
+   "first": 1997,
+   "last": 1997
+  },
+  {
+   "name": "Stan Dragoti",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.56,
+   "rt": 77,
+   "runtime": 91,
+   "first": 1983,
+   "last": 1983
+  },
+  {
+   "name": "Paul Michael Glaser",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.54,
+   "rt": 66,
+   "runtime": 101,
+   "first": 1987,
+   "last": 1987
+  },
+  {
+   "name": "Andrei Konchalovsky; Albert Magnoli",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.51,
+   "rt": 31,
+   "runtime": 104,
+   "first": 1989,
+   "last": 1989
+  },
+  {
+   "name": "Paul Feig",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.51,
+   "rt": 89,
+   "runtime": 125,
+   "first": 2011,
+   "last": 2011
+  },
+  {
+   "name": "Robert Mandel",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.51,
+   "rt": 61,
+   "runtime": 106,
+   "first": 1992,
+   "last": 1992
+  },
+  {
+   "name": "David Dobkin",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.5,
+   "rt": 75,
+   "runtime": 119,
+   "first": 2005,
+   "last": 2005
+  },
+  {
+   "name": "Daniel Petrie",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.5,
+   "rt": 41,
+   "runtime": 112,
+   "first": 1991,
+   "last": 1991
+  },
+  {
+   "name": "Charles Shyer",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.48,
+   "rt": 70,
+   "runtime": 105,
+   "first": 1991,
+   "last": 1991
+  },
+  {
+   "name": "Menahem Golan",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.47,
+   "rt": 32,
+   "runtime": 94,
+   "first": 1987,
+   "last": 1987
+  },
+  {
+   "name": "Ron Underwood",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.46,
+   "rt": 87,
+   "runtime": 114,
+   "first": 1991,
+   "last": 1991
+  },
+  {
+   "name": "Lisa Gottlieb",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.42,
+   "rt": 57,
+   "runtime": 100,
+   "first": 1985,
+   "last": 1985
+  },
+  {
+   "name": "Rawson Marshall Thurber",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.4,
+   "rt": 72,
+   "runtime": 92,
+   "first": 2004,
+   "last": 2004
+  },
+  {
+   "name": "Sean S. Cunningham",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.4,
+   "rt": 48,
+   "runtime": 95,
+   "first": 1980,
+   "last": 1980
+  },
+  {
+   "name": "John McNaughton",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.38,
+   "rt": 65,
+   "runtime": 108,
+   "first": 1998,
+   "last": 1998
+  },
+  {
+   "name": "Eduardo Sánchez; Daniel Myrick",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.37,
+   "rt": 86,
+   "runtime": 81,
+   "first": 1999,
+   "last": 1999
+  },
+  {
+   "name": "Mike Figgis",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.37,
+   "rt": 79,
+   "runtime": 115,
+   "first": 1990,
+   "last": 1990
+  },
+  {
+   "name": "Barbet Schroeder",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.31,
+   "rt": 53,
+   "runtime": 108,
+   "first": 1992,
+   "last": 1992
+  },
+  {
+   "name": "Whit Stillman",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.3,
+   "rt": 73,
+   "runtime": 113,
+   "first": 1998,
+   "last": 1998
+  },
+  {
+   "name": "Deborah Kaplan; Harry Elfont",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.25,
+   "rt": 42,
+   "runtime": 100,
+   "first": 1998,
+   "last": 1998
+  },
+  {
+   "name": "James DeMonaco",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.25,
+   "rt": 41,
+   "runtime": 85,
+   "first": 2013,
+   "last": 2013
+  },
+  {
+   "name": "Seth Rogen; Evan Goldberg",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.23,
+   "rt": 82,
+   "runtime": 106,
+   "first": 2013,
+   "last": 2013
+  },
+  {
+   "name": "Bob Saget",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.22,
+   "rt": 14,
+   "runtime": 82,
+   "first": 1998,
+   "last": 1998
+  },
+  {
+   "name": "Rod Daniel",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.21,
+   "rt": 46,
+   "runtime": 92,
+   "first": 1985,
+   "last": 1985
+  },
+  {
+   "name": "Jesse Dylan",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.19,
+   "rt": 56,
+   "runtime": 96,
+   "first": 1995,
+   "last": 1995
+  },
+  {
+   "name": "John Flynn",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.18,
+   "rt": 23,
+   "runtime": 91,
+   "first": 1991,
+   "last": 1991
+  },
+  {
+   "name": "Dwight H. Little",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.17,
+   "rt": 39,
+   "runtime": 88,
+   "first": 1988,
+   "last": 1988
+  },
+  {
+   "name": "Raja Gosnell",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.16,
+   "rt": 55,
+   "runtime": 107,
+   "first": 1999,
+   "last": 1999
+  },
+  {
+   "name": "George Sluizer",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.16,
+   "rt": 49,
+   "runtime": 109,
+   "first": 1993,
+   "last": 1993
+  },
+  {
+   "name": "Shana Feste",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.13,
+   "rt": 22,
+   "runtime": 117,
+   "first": 2010,
+   "last": 2010
+  },
+  {
+   "name": "Phillip Noyce",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.11,
+   "rt": 30,
+   "runtime": 116,
+   "first": 1997,
+   "last": 1997
+  },
+  {
+   "name": "Thomas Schlamme",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.1,
+   "rt": 55,
+   "runtime": 93,
+   "first": 1993,
+   "last": 1993
+  },
+  {
+   "name": "D.J. Caruso",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.06,
+   "rt": 22,
+   "runtime": 122,
+   "first": 2005,
+   "last": 2005
+  },
+  {
+   "name": "Hal Ashby",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.05,
+   "rt": 75,
+   "runtime": 110,
+   "first": 1975,
+   "last": 1975
+  },
+  {
+   "name": "Rupert Wyatt",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.05,
+   "rt": 43,
+   "runtime": 111,
+   "first": 2014,
+   "last": 2014
+  },
+  {
+   "name": "Jeannot Szwarc",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.04,
+   "rt": 56,
+   "runtime": 117,
+   "first": 1978,
+   "last": 1978
+  },
+  {
+   "name": "John Hamburg",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.03,
+   "rt": 27,
+   "runtime": 90,
+   "first": 2004,
+   "last": 2004
+  },
+  {
+   "name": "Bruce Malmuth",
+   "id": null,
+   "films": 1,
+   "tmdb": 6.0,
+   "rt": 33,
+   "runtime": 95,
+   "first": 1990,
+   "last": 1990
+  },
+  {
+   "name": "Reginald Hudlin",
+   "id": null,
+   "films": 1,
+   "tmdb": 5.68,
+   "rt": 49,
+   "runtime": 117,
+   "first": 1992,
+   "last": 1992
+  },
+  {
+   "name": "Edward Burns",
+   "id": null,
+   "films": 1,
+   "tmdb": 5.5,
+   "rt": 63,
+   "runtime": 96,
+   "first": 1996,
+   "last": 1996
+  }
+ ]
+}

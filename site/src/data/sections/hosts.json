@@ -1,0 +1,3468 @@
+{
+ "anchor": "Bill Simmons",
+ "episodes": 487,
+ "with_anchor": 442,
+ "anchor_hosted": 441,
+ "without_anchor": 45,
+ "everyone_else": 62,
+ "five_or_more": 18,
+ "bench_floor": 3,
+ "bench": [
+  {
+   "name": "Chris Ryan",
+   "id": "chris-ryan",
+   "episodes": 287,
+   "share": 58.9,
+   "hosted": 21,
+   "first": "2015-12-22",
+   "last": "2026-10-12"
+  },
+  {
+   "name": "Sean Fennessey",
+   "id": "sean-fennessey",
+   "episodes": 180,
+   "share": 37.0,
+   "hosted": 7,
+   "first": "2017-10-12",
+   "last": "2026-08-31"
+  },
+  {
+   "name": "Van Lathan",
+   "id": "van-lathan",
+   "episodes": 78,
+   "share": 16.0,
+   "hosted": 1,
+   "first": "2020-02-19",
+   "last": "2026-10-12"
+  },
+  {
+   "name": "Amanda Dobbins",
+   "id": "amanda-dobbins",
+   "episodes": 44,
+   "share": 9.0,
+   "hosted": 0,
+   "first": "2017-08-10",
+   "last": "2026-08-24"
+  },
+  {
+   "name": "Mallory Rubin",
+   "id": "mallory-rubin",
+   "episodes": 42,
+   "share": 8.6,
+   "hosted": 0,
+   "first": "2018-02-03",
+   "last": "2026-08-13"
+  },
+  {
+   "name": "Shea Serrano",
+   "id": "shea-serrano",
+   "episodes": 34,
+   "share": 7.0,
+   "hosted": 0,
+   "first": "2017-08-24",
+   "last": "2024-09-17"
+  },
+  {
+   "name": "Kyle Brandt",
+   "id": "kyle-brandt",
+   "episodes": 31,
+   "share": 6.4,
+   "hosted": 0,
+   "first": "2020-08-06",
+   "last": "2026-09-14"
+  },
+  {
+   "name": "Juliet Litman",
+   "id": "juliet-litman",
+   "episodes": 30,
+   "share": 6.2,
+   "hosted": 12,
+   "first": "2016-12-23",
+   "last": "2026-09-28"
+  },
+  {
+   "name": "Wesley Morris",
+   "id": "wesley-morris",
+   "episodes": 25,
+   "share": 5.1,
+   "hosted": 0,
+   "first": "2018-02-27",
+   "last": "2026-07-13"
+  },
+  {
+   "name": "Jason Concepcion",
+   "id": "jason-concepcion",
+   "episodes": 19,
+   "share": 3.9,
+   "hosted": 1,
+   "first": "2017-08-24",
+   "last": "2024-09-10"
+  },
+  {
+   "name": "Craig Horlbeck",
+   "id": "craig-horlbeck",
+   "episodes": 12,
+   "share": 2.5,
+   "hosted": 3,
+   "first": "2022-06-07",
+   "last": "2026-09-21"
+  },
+  {
+   "name": "Ryen Russillo",
+   "id": "ryen-russillo",
+   "episodes": 12,
+   "share": 2.5,
+   "hosted": 0,
+   "first": "2019-08-01",
+   "last": "2025-03-31"
+  },
+  {
+   "name": "Joanna Robinson",
+   "id": "joanna-robinson",
+   "episodes": 9,
+   "share": 1.8,
+   "hosted": 0,
+   "first": "2025-02-24",
+   "last": "2026-07-27"
+  },
+  {
+   "name": "Andy Greenwald",
+   "id": "andy-greenwald",
+   "episodes": 9,
+   "share": 1.8,
+   "hosted": 0,
+   "first": "2017-11-02",
+   "last": "2026-03-30"
+  },
+  {
+   "name": "Brian Koppelman",
+   "id": "brian-koppelman",
+   "episodes": 9,
+   "share": 1.8,
+   "hosted": 0,
+   "first": "2019-12-16",
+   "last": "2025-10-20"
+  },
+  {
+   "name": "Mina Kimes",
+   "id": "mina-kimes",
+   "episodes": 7,
+   "share": 1.4,
+   "hosted": 0,
+   "first": "2020-08-04",
+   "last": "2026-07-20"
+  },
+  {
+   "name": "Cousin Sal",
+   "id": "cousin-sal",
+   "episodes": 5,
+   "share": 1.0,
+   "hosted": 0,
+   "first": "2020-04-03",
+   "last": "2025-11-24"
+  },
+  {
+   "name": "K. Austin Collins",
+   "id": "k-austin-collins",
+   "episodes": 5,
+   "share": 1.0,
+   "hosted": 0,
+   "first": "2017-09-28",
+   "last": "2018-03-14"
+  },
+  {
+   "name": "Wosny Lambre",
+   "id": "wosny-lambre",
+   "episodes": 4,
+   "share": 0.8,
+   "hosted": 0,
+   "first": "2022-01-11",
+   "last": "2024-12-09"
+  },
+  {
+   "name": "Logan Murdock",
+   "id": "logan-murdock",
+   "episodes": 4,
+   "share": 0.8,
+   "hosted": 0,
+   "first": "2020-08-13",
+   "last": "2023-04-04"
+  },
+  {
+   "name": "Andrew Gruttadaro",
+   "id": "andrew-gruttadaro",
+   "episodes": 4,
+   "share": 0.8,
+   "hosted": 0,
+   "first": "2018-01-09",
+   "last": "2019-06-24"
+  },
+  {
+   "name": "Danny Heifetz",
+   "id": "danny-heifetz",
+   "episodes": 3,
+   "share": 0.6,
+   "hosted": 0,
+   "first": "2022-10-18",
+   "last": "2026-09-07"
+  },
+  {
+   "name": "Danny Kelly",
+   "id": "danny-kelly",
+   "episodes": 3,
+   "share": 0.6,
+   "hosted": 0,
+   "first": "2022-10-18",
+   "last": "2026-09-07"
+  },
+  {
+   "name": "Rob Mahoney",
+   "id": "rob-mahoney",
+   "episodes": 3,
+   "share": 0.6,
+   "hosted": 0,
+   "first": "2025-12-15",
+   "last": "2026-08-24"
+  },
+  {
+   "name": "Bill's Dad",
+   "id": "bills-dad",
+   "episodes": 3,
+   "share": 0.6,
+   "hosted": 0,
+   "first": "2019-09-25",
+   "last": "2025-10-06"
+  },
+  {
+   "name": "Bill Hader",
+   "id": "bill-hader",
+   "episodes": 3,
+   "share": 0.6,
+   "hosted": 0,
+   "first": "2019-07-03",
+   "last": "2025-09-22"
+  },
+  {
+   "name": "Joe House",
+   "id": "joe-house",
+   "episodes": 3,
+   "share": 0.6,
+   "hosted": 0,
+   "first": "2019-05-09",
+   "last": "2025-09-15"
+  },
+  {
+   "name": "Chuck Klosterman",
+   "id": "chuck-klosterman",
+   "episodes": 3,
+   "share": 0.6,
+   "hosted": 0,
+   "first": "2019-02-26",
+   "last": "2021-03-01"
+  },
+  {
+   "name": "Quentin Tarantino",
+   "id": "quentin-tarantino",
+   "episodes": 3,
+   "share": 0.6,
+   "hosted": 0,
+   "first": "2019-12-20",
+   "last": "2020-01-16"
+  },
+  {
+   "name": "Rembert Browne",
+   "id": "rembert-browne",
+   "episodes": 3,
+   "share": 0.6,
+   "hosted": 0,
+   "first": "2017-02-01",
+   "last": "2019-10-07"
+  },
+  {
+   "name": "David Shoemaker",
+   "id": "david-shoemaker",
+   "episodes": 3,
+   "share": 0.6,
+   "hosted": 0,
+   "first": "2018-03-09",
+   "last": "2018-06-14"
+  }
+ ],
+ "off_bench": 31,
+ "once": 27,
+ "most_episodes": 287,
+ "when_top": 15,
+ "ring_top": 12,
+ "figures": {
+  "who_is_on_when": {
+   "data": [
+    {
+     "colorbar": {
+      "outlinewidth": 0,
+      "thickness": 10,
+      "tickfont": {
+       "color": "#9AA39D"
+      },
+      "ticksuffix": "%"
+     },
+     "colorscale": [
+      [
+       0,
+       "#171A18"
+      ],
+      [
+       0.001,
+       "#0D6249"
+      ],
+      [
+       0.2,
+       "#14906C"
+      ],
+      [
+       0.4,
+       "#1CBD8C"
+      ],
+      [
+       0.6,
+       "#43D9A7"
+      ],
+      [
+       0.8,
+       "#79E9C2"
+      ],
+      [
+       1,
+       "#B6F5DC"
+      ]
+     ],
+     "customdata": {
+      "dtype": "i1",
+      "bdata": "AQECAgsSFCAeOyhDHjUbNSM1JDgdMhorAAEBAgMSBSAIOwJDATUFNQM1ATgAMgErAAEAAgQSBCAOOwZDAzUCNQY1AjgCMgErAAEAAgQSBSAIOwhDBTUDNQA1ATgAMgArAAEAAgUSBiAEOwNDADUANQA1ATgAMgArAAEAAgMSFiAgOxlDETUTNRQ1FDgLMgsrAAEAAgISACAAOwJDAjUANQA1AjgAMgErAAEAAgASAiAJOwRDATUHNQQ1BzgDMgUrAAEAAgASAiADOwVDAjUFNQM1AjgCMgErAAEAAgASACACOwRDAzUBNQE1ADgBMgArAAEAAgASACABOwFDAzUCNQA1ADgCMgArAAEAAgASACAAOwhDCjUJNQk1DjgPMg0rAAEAAgASACAAOwNDAzUBNQQ1BzgHMgYrAAEAAgASACAAOwBDADUENQI1AjgBMgMrAAEAAgASACAAOwBDADUANQA1ADgGMgMr",
+      "shape": "15, 12, 2"
+     },
+     "hovertemplate": "%{y}, %{x}<br>%{customdata[0]:.0f} of %{customdata[1]:.0f} episodes (%{z:.0f}%)<extra></extra>",
+     "x": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+     ],
+     "xgap": 2,
+     "y": [
+      "Chris Ryan",
+      "Juliet Litman",
+      "Amanda Dobbins",
+      "Shea Serrano",
+      "Jason Concepcion",
+      "Sean Fennessey",
+      "Andy Greenwald",
+      "Mallory Rubin",
+      "Wesley Morris",
+      "Ryen Russillo",
+      "Brian Koppelman",
+      "Van Lathan",
+      "Kyle Brandt",
+      "Craig Horlbeck",
+      "Joanna Robinson"
+     ],
+     "ygap": 2,
+     "z": {
+      "dtype": "f8",
+      "bdata": "AAAAAAAAWUAAAAAAAABZQOQ4juM4jk5AAAAAAABAT0A0nNR9eWxJQBoT6YHK2U1A463sc0hNTECzzyE1wXhJQG9ln0NqglBAJUmSJEkSUED///////9MQI64I+6IO05AAAAAAAAAAAAAAAAAAABJQKqqqqqqqjBAAAAAAABAL0AEDSd1Xx4rQEgPVM5u4QdAruxzSE0w/j/tc0hNMN4iQIPxVvY5pBZAJEmSJEmS/D8AAAAAAAAAAKesKWvKmgJAAAAAAAAAAAAAAAAAAAAAAI7jOI7jODZAAAAAAAAAKUBkK4KGk7o3QHYLvxoT6SFAg/FW9jmkFkCu7HNITTAOQIPxVvY5pCZAJEmSJEmSDEAAAAAAAAAQQKesKWvKmgJAAAAAAAAAAAAAAAAAAAAAAI7jOI7jODZAAAAAAABAL0AEDSd1Xx4rQEgPVM5u4SdA7XNITTDeIkCD8Vb2OaQWQAAAAAAAAAAAJEmSJEmS/D8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHIcx3EcxztAAAAAAADAMkAEDSd1Xx4bQHYLvxoT6RFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJEmSJEmS/D8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKqqqqqqqjBAAAAAAAAwUUAEDSd1Xx5LQPGrMZEeqEJAvJV9DqkJQECH1ATjrexBQO1zSE0w3kJAt23btm3bQUAAAAAAAAA2QGZNWVPWlDlAAAAAAAAAAAAAAAAAAAAAAI7jOI7jOCZAAAAAAAAAAAAAAAAAAAAAAEgPVM5u4QdAruxzSE0wDkAAAAAAAAAAAAAAAAAAAAAAJEmSJEmSDEAAAAAAAAAAAKesKWvKmgJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGUCl7stjK4IuQEgPVM5u4RdAruxzSE0w/j8Yb2WfQ2oqQK7sc0hNMB5AAAAAAAAAKUAAAAAAAAAYQNAX9AV9QSdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGUDESd2Xx1YUQBoT6YHK2R1AruxzSE0wDkDtc0hNMN4iQIPxVvY5pBZAJEmSJEmSDEAAAAAAAAAQQKesKWvKmgJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEDSd1Xx4LQEgPVM5u4RdAg/FW9jmkFkCu7HNITTD+P67sc0hNMP4/AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEDSd1Xx77P0gPVM5u4fc/g/FW9jmkFkCu7HNITTAOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEgPVM5u4SdA7XNITTDeMkAiNcF4K/swQCI1wXgr+zBAAAAAAAAAOUAAAAAAAAA+QI64I+6IOz5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHYLvxoT6RFAg/FW9jmkFkCu7HNITTD+P67sc0hNMB5AAAAAAAAAKUABAAAAAAAsQPqCvqAv6CtAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACu7HNITTAeQK7sc0hNMA5AJEmSJEmSDEAAAAAAAAAAQPqCvqAv6BtAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoQPqCvqAv6BtA",
+      "shape": "15, 12"
+     },
+     "zmax": 80,
+     "zmin": 0,
+     "type": "heatmap",
+     "showlegend": false
+    }
+   ],
+   "layout": {
+    "template": {
+     "data": {
+      "candlestick": [
+       {
+        "decreasing": {
+         "line": {
+          "color": "#000033"
+         }
+        },
+        "increasing": {
+         "line": {
+          "color": "#000032"
+         }
+        },
+        "type": "candlestick"
+       }
+      ],
+      "contourcarpet": [
+       {
+        "colorscale": [
+         [
+          0.0,
+          "#000011"
+         ],
+         [
+          0.1111111111111111,
+          "#000012"
+         ],
+         [
+          0.2222222222222222,
+          "#000013"
+         ],
+         [
+          0.3333333333333333,
+          "#000014"
+         ],
+         [
+          0.4444444444444444,
+          "#000015"
+         ],
+         [
+          0.5555555555555556,
+          "#000016"
+         ],
+         [
+          0.6666666666666666,
+          "#000017"
+         ],
+         [
+          0.7777777777777778,
+          "#000018"
+         ],
+         [
+          0.8888888888888888,
+          "#000019"
+         ],
+         [
+          1.0,
+          "#000020"
+         ]
+        ],
+        "type": "contourcarpet"
+       }
+      ],
+      "contour": [
+       {
+        "colorscale": [
+         [
+          0.0,
+          "#000011"
+         ],
+         [
+          0.1111111111111111,
+          "#000012"
+         ],
+         [
+          0.2222222222222222,
+          "#000013"
+         ],
+         [
+          0.3333333333333333,
+          "#000014"
+         ],
+         [
+          0.4444444444444444,
+          "#000015"
+         ],
+         [
+          0.5555555555555556,
+          "#000016"
+         ],
+         [
+          0.6666666666666666,
+          "#000017"
+         ],
+         [
+          0.7777777777777778,
+          "#000018"
+         ],
+         [
+          0.8888888888888888,
+          "#000019"
+         ],
+         [
+          1.0,
+          "#000020"
+         ]
+        ],
+        "type": "contour"
+       }
+      ],
+      "heatmap": [
+       {
+        "colorscale": [
+         [
+          0.0,
+          "#000011"
+         ],
+         [
+          0.1111111111111111,
+          "#000012"
+         ],
+         [
+          0.2222222222222222,
+          "#000013"
+         ],
+         [
+          0.3333333333333333,
+          "#000014"
+         ],
+         [
+          0.4444444444444444,
+          "#000015"
+         ],
+         [
+          0.5555555555555556,
+          "#000016"
+         ],
+         [
+          0.6666666666666666,
+          "#000017"
+         ],
+         [
+          0.7777777777777778,
+          "#000018"
+         ],
+         [
+          0.8888888888888888,
+          "#000019"
+         ],
+         [
+          1.0,
+          "#000020"
+         ]
+        ],
+        "type": "heatmap"
+       }
+      ],
+      "histogram2d": [
+       {
+        "colorscale": [
+         [
+          0.0,
+          "#000011"
+         ],
+         [
+          0.1111111111111111,
+          "#000012"
+         ],
+         [
+          0.2222222222222222,
+          "#000013"
+         ],
+         [
+          0.3333333333333333,
+          "#000014"
+         ],
+         [
+          0.4444444444444444,
+          "#000015"
+         ],
+         [
+          0.5555555555555556,
+          "#000016"
+         ],
+         [
+          0.6666666666666666,
+          "#000017"
+         ],
+         [
+          0.7777777777777778,
+          "#000018"
+         ],
+         [
+          0.8888888888888888,
+          "#000019"
+         ],
+         [
+          1.0,
+          "#000020"
+         ]
+        ],
+        "type": "histogram2d"
+       }
+      ],
+      "icicle": [
+       {
+        "textfont": {
+         "color": "white"
+        },
+        "type": "icicle"
+       }
+      ],
+      "sankey": [
+       {
+        "textfont": {
+         "color": "#000036"
+        },
+        "type": "sankey"
+       }
+      ],
+      "scatter": [
+       {
+        "marker": {
+         "line": {
+          "width": 0
+         }
+        },
+        "type": "scatter"
+       }
+      ],
+      "table": [
+       {
+        "cells": {
+         "fill": {
+          "color": "#000038"
+         },
+         "font": {
+          "color": "#000037"
+         },
+         "line": {
+          "color": "#000039"
+         }
+        },
+        "header": {
+         "fill": {
+          "color": "#000040"
+         },
+         "font": {
+          "color": "#000036"
+         },
+         "line": {
+          "color": "#000039"
+         }
+        },
+        "type": "table"
+       }
+      ],
+      "waterfall": [
+       {
+        "connector": {
+         "line": {
+          "color": "#000036",
+          "width": 2
+         }
+        },
+        "decreasing": {
+         "marker": {
+          "color": "#000033"
+         }
+        },
+        "increasing": {
+         "marker": {
+          "color": "#000032"
+         }
+        },
+        "totals": {
+         "marker": {
+          "color": "#000034"
+         }
+        },
+        "type": "waterfall"
+       }
+      ]
+     },
+     "layout": {
+      "coloraxis": {
+       "colorscale": [
+        [
+         0.0,
+         "#000011"
+        ],
+        [
+         0.1111111111111111,
+         "#000012"
+        ],
+        [
+         0.2222222222222222,
+         "#000013"
+        ],
+        [
+         0.3333333333333333,
+         "#000014"
+        ],
+        [
+         0.4444444444444444,
+         "#000015"
+        ],
+        [
+         0.5555555555555556,
+         "#000016"
+        ],
+        [
+         0.6666666666666666,
+         "#000017"
+        ],
+        [
+         0.7777777777777778,
+         "#000018"
+        ],
+        [
+         0.8888888888888888,
+         "#000019"
+        ],
+        [
+         1.0,
+         "#000020"
+        ]
+       ]
+      },
+      "colorscale": {
+       "diverging": [
+        [
+         0.0,
+         "#000021"
+        ],
+        [
+         0.1,
+         "#000022"
+        ],
+        [
+         0.2,
+         "#000023"
+        ],
+        [
+         0.3,
+         "#000024"
+        ],
+        [
+         0.4,
+         "#000025"
+        ],
+        [
+         0.5,
+         "#000026"
+        ],
+        [
+         0.6,
+         "#000027"
+        ],
+        [
+         0.7,
+         "#000028"
+        ],
+        [
+         0.8,
+         "#000029"
+        ],
+        [
+         0.9,
+         "#000030"
+        ],
+        [
+         1.0,
+         "#000031"
+        ]
+       ],
+       "sequential": [
+        [
+         0.0,
+         "#000011"
+        ],
+        [
+         0.1111111111111111,
+         "#000012"
+        ],
+        [
+         0.2222222222222222,
+         "#000013"
+        ],
+        [
+         0.3333333333333333,
+         "#000014"
+        ],
+        [
+         0.4444444444444444,
+         "#000015"
+        ],
+        [
+         0.5555555555555556,
+         "#000016"
+        ],
+        [
+         0.6666666666666666,
+         "#000017"
+        ],
+        [
+         0.7777777777777778,
+         "#000018"
+        ],
+        [
+         0.8888888888888888,
+         "#000019"
+        ],
+        [
+         1.0,
+         "#000020"
+        ]
+       ],
+       "sequentialminus": [
+        [
+         0.0,
+         "#000011"
+        ],
+        [
+         0.1111111111111111,
+         "#000012"
+        ],
+        [
+         0.2222222222222222,
+         "#000013"
+        ],
+        [
+         0.3333333333333333,
+         "#000014"
+        ],
+        [
+         0.4444444444444444,
+         "#000015"
+        ],
+        [
+         0.5555555555555556,
+         "#000016"
+        ],
+        [
+         0.6666666666666666,
+         "#000017"
+        ],
+        [
+         0.7777777777777778,
+         "#000018"
+        ],
+        [
+         0.8888888888888888,
+         "#000019"
+        ],
+        [
+         1.0,
+         "#000020"
+        ]
+       ]
+      },
+      "colorway": [
+       "#000001",
+       "#000002",
+       "#000003",
+       "#000004",
+       "#000005",
+       "#000006",
+       "#000007",
+       "#000008",
+       "#000009",
+       "#000010"
+      ]
+     }
+    },
+    "font": {
+     "color": "#F2EFE6",
+     "family": "Archivo, Helvetica Neue, Arial, sans-serif"
+    },
+    "title": {
+     "font": {
+      "color": "#F2EFE6"
+     },
+     "text": ""
+    },
+    "legend": {
+     "bgcolor": "#101211",
+     "bordercolor": "#262B28",
+     "borderwidth": 1
+    },
+    "xaxis": {
+     "gridcolor": "#0B0D0C",
+     "zerolinecolor": "#262B28",
+     "linecolor": "#262B28",
+     "tickvals": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+     ],
+     "title": {
+      "text": ""
+     },
+     "ticktext": [
+      "2015<br>1 eps",
+      "2016<br>2 eps",
+      "2017<br>18 eps",
+      "2018<br>32 eps",
+      "2019<br>59 eps",
+      "2020<br>67 eps",
+      "2021<br>53 eps",
+      "2022<br>53 eps",
+      "2023<br>53 eps",
+      "2024<br>56 eps",
+      "2025<br>50 eps",
+      "2026<br>43 eps"
+     ]
+    },
+    "yaxis": {
+     "gridcolor": "#0B0D0C",
+     "zerolinecolor": "#262B28",
+     "linecolor": "#262B28",
+     "autorange": "reversed",
+     "title": {
+      "text": ""
+     }
+    },
+    "margin": {
+     "t": 30,
+     "r": 20,
+     "b": 40,
+     "l": 60
+    },
+    "hoverlabel": {
+     "font": {
+      "color": "#F2EFE6",
+      "family": "IBM Plex Mono, ui-monospace, monospace"
+     },
+     "bgcolor": "#171A18",
+     "bordercolor": "#333934"
+    },
+    "paper_bgcolor": "#0B0D0C",
+    "plot_bgcolor": "#101211",
+    "showlegend": false,
+    "height": 570
+   }
+  },
+  "who_sits_together": {
+   "data": [
+    {
+     "colorscale": [
+      [
+       0,
+       "#171A18"
+      ],
+      [
+       0.001,
+       "#0D6249"
+      ],
+      [
+       1,
+       "#14906C"
+      ]
+     ],
+     "customdata": {
+      "dtype": "f8",
+      "bdata": "AAAAAAAA+H8AAAAAAABhQAAAAAAAgERAAAAAAAAAHEAAAAAAAAAxQAAAAAAAAC5AAAAAAAAAFEAAAAAAAAAAQAAAAAAAABhAAAAAAAAAKEAAAAAAAAAQQAAAAAAAABhAAAAAAAAAYUAAAAAAAAD4fwAAAAAAACZAAAAAAAAAIkAAAAAAAAAsQAAAAAAAABxAAAAAAAAAAAAAAAAAAADwPwAAAAAAACBAAAAAAAAAJEAAAAAAAAAAAAAAAAAAAABAAAAAAACAREAAAAAAAAAmQAAAAAAAAPh/AAAAAAAA8D8AAAAAAAAQQAAAAAAAAPA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAAHEAAAAAAAAAiQAAAAAAAAPA/AAAAAAAA+H8AAAAAAADwPwAAAAAAAABAAAAAAAAAAAAAAAAAAAA2QAAAAAAAAPA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMUAAAAAAAAAsQAAAAAAAABBAAAAAAAAA8D8AAAAAAAD4fwAAAAAAAAhAAAAAAAAAAAAAAAAAAADwPwAAAAAAAABAAAAAAAAACEAAAAAAAADwPwAAAAAAAAAAAAAAAAAALkAAAAAAAAAcQAAAAAAAAPA/AAAAAAAAAEAAAAAAAAAIQAAAAAAAAPh/AAAAAAAAAEAAAAAAAADwPwAAAAAAAAAAAAAAAAAAJEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA+H8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPA/AAAAAAAAAEAAAAAAAADwPwAAAAAAAAAAAAAAAAAANkAAAAAAAADwPwAAAAAAAPA/AAAAAAAAAAAAAAAAAAD4fwAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAAGEAAAAAAAAAgQAAAAAAAABBAAAAAAAAA8D8AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPh/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKEAAAAAAAAAkQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIQAAAAAAAACRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+H8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4fwAAAAAAAAAAAAAAAAAAGEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPh/",
+      "shape": "12, 12"
+     },
+     "hoverongaps": false,
+     "hovertemplate": "%{y} + %{x}<br>%{customdata:.0f} episodes together<extra></extra>",
+     "showscale": false,
+     "text": [
+      [
+       "",
+       "136",
+       "41",
+       "7",
+       "17",
+       "15",
+       "5",
+       "2",
+       "6",
+       "12",
+       "4",
+       "6"
+      ],
+      [
+       "136",
+       "",
+       "11",
+       "9",
+       "14",
+       "7",
+       "",
+       "1",
+       "8",
+       "10",
+       "",
+       "2"
+      ],
+      [
+       "41",
+       "11",
+       "",
+       "1",
+       "4",
+       "1",
+       "",
+       "",
+       "4",
+       "",
+       "1",
+       ""
+      ],
+      [
+       "7",
+       "9",
+       "1",
+       "",
+       "1",
+       "2",
+       "",
+       "22",
+       "1",
+       "",
+       "",
+       ""
+      ],
+      [
+       "17",
+       "14",
+       "4",
+       "1",
+       "",
+       "3",
+       "",
+       "1",
+       "2",
+       "3",
+       "1",
+       ""
+      ],
+      [
+       "15",
+       "7",
+       "1",
+       "2",
+       "3",
+       "",
+       "2",
+       "1",
+       "",
+       "10",
+       "",
+       ""
+      ],
+      [
+       "5",
+       "",
+       "",
+       "",
+       "",
+       "2",
+       "",
+       "",
+       "",
+       "",
+       "",
+       "1"
+      ],
+      [
+       "2",
+       "1",
+       "",
+       "22",
+       "1",
+       "1",
+       "",
+       "",
+       "",
+       "",
+       "1",
+       ""
+      ],
+      [
+       "6",
+       "8",
+       "4",
+       "1",
+       "2",
+       "",
+       "",
+       "",
+       "",
+       "",
+       "",
+       ""
+      ],
+      [
+       "12",
+       "10",
+       "",
+       "",
+       "3",
+       "10",
+       "",
+       "",
+       "",
+       "",
+       "",
+       ""
+      ],
+      [
+       "4",
+       "",
+       "1",
+       "",
+       "1",
+       "",
+       "",
+       "1",
+       "",
+       "",
+       "",
+       ""
+      ],
+      [
+       "6",
+       "2",
+       "",
+       "",
+       "",
+       "",
+       "1",
+       "",
+       "",
+       "",
+       "",
+       ""
+      ]
+     ],
+     "textfont": {
+      "color": "#F2EFE6",
+      "size": 11
+     },
+     "texttemplate": "%{text}",
+     "x": [
+      "Chris Ryan",
+      "Sean Fennessey",
+      "Van Lathan",
+      "Amanda Dobbins",
+      "Mallory Rubin",
+      "Shea Serrano",
+      "Kyle Brandt",
+      "Juliet Litman",
+      "Wesley Morris",
+      "Jason Concepcion",
+      "Craig Horlbeck",
+      "Ryen Russillo"
+     ],
+     "xgap": 2,
+     "y": [
+      "Chris Ryan",
+      "Sean Fennessey",
+      "Van Lathan",
+      "Amanda Dobbins",
+      "Mallory Rubin",
+      "Shea Serrano",
+      "Kyle Brandt",
+      "Juliet Litman",
+      "Wesley Morris",
+      "Jason Concepcion",
+      "Craig Horlbeck",
+      "Ryen Russillo"
+     ],
+     "ygap": 2,
+     "z": {
+      "dtype": "f8",
+      "bdata": "AAAAAAAA+H+io7MN5VInQAD/n5nMnBlA6vjSqX8qBUAH7a9mD34QQNpOT7He+w5AqPSXm3fjAUDNO39mnqD2Py4hCRSOmANAqkxY6Hq2C0AAAAAAAAAAQC4hCRSOmANAoqOzDeVSJ0AAAAAAAAD4fzRv/ZNyiApAAAAAAAAACEBJP2gR6u4NQOr40ql/KgVAAAAAAAAAAAAAAAAAAADwP807f2aeoAZAU1vaOlhMCUAAAAAAAAAAAM07f2aeoPY/AP+fmcycGUA0b/2TcogKQAAAAAAAAPh/AAAAAAAA8D8AAAAAAAAAQAAAAAAAAPA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAA6vjSqX8qBUAAAAAAAAAIQAAAAAAAAPA/AAAAAAAA+H8AAAAAAADwP807f2aeoPY/AAAAAAAAAACnVlRZ/MISQAAAAAAAAPA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB+2vZg9+EEBJP2gR6u4NQAAAAAAAAABAAAAAAAAA8D8AAAAAAAD4f6pMWOh6tvs/AAAAAAAAAAAAAAAAAADwP807f2aeoPY/qkxY6Hq2+z8AAAAAAADwPwAAAAAAAAAA2k5Psd77DkDq+NKpfyoFQAAAAAAAAPA/zTt/Zp6g9j+qTFjoerb7PwAAAAAAAPh/zTt/Zp6g9j8AAAAAAADwPwAAAAAAAAAAU1vaOlhMCUAAAAAAAAAAAAAAAAAAAAAAqPSXm3fjAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM07f2aeoPY/AAAAAAAA+H8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPA/zTt/Zp6g9j8AAAAAAADwPwAAAAAAAAAAp1ZUWfzCEkAAAAAAAADwPwAAAAAAAPA/AAAAAAAAAAAAAAAAAAD4fwAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAALiEJFI6YA0DNO39mnqAGQAAAAAAAAABAAAAAAAAA8D/NO39mnqD2PwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPh/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqkxY6Hq2C0BTW9o6WEwJQAAAAAAAAAAAAAAAAAAAAACqTFjoerb7P1Nb2jpYTAlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+H8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4fwAAAAAAAAAALiEJFI6YA0DNO39mnqD2PwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPh/",
+      "shape": "12, 12"
+     },
+     "type": "heatmap",
+     "showlegend": false
+    }
+   ],
+   "layout": {
+    "template": {
+     "data": {
+      "candlestick": [
+       {
+        "decreasing": {
+         "line": {
+          "color": "#000033"
+         }
+        },
+        "increasing": {
+         "line": {
+          "color": "#000032"
+         }
+        },
+        "type": "candlestick"
+       }
+      ],
+      "contourcarpet": [
+       {
+        "colorscale": [
+         [
+          0.0,
+          "#000011"
+         ],
+         [
+          0.1111111111111111,
+          "#000012"
+         ],
+         [
+          0.2222222222222222,
+          "#000013"
+         ],
+         [
+          0.3333333333333333,
+          "#000014"
+         ],
+         [
+          0.4444444444444444,
+          "#000015"
+         ],
+         [
+          0.5555555555555556,
+          "#000016"
+         ],
+         [
+          0.6666666666666666,
+          "#000017"
+         ],
+         [
+          0.7777777777777778,
+          "#000018"
+         ],
+         [
+          0.8888888888888888,
+          "#000019"
+         ],
+         [
+          1.0,
+          "#000020"
+         ]
+        ],
+        "type": "contourcarpet"
+       }
+      ],
+      "contour": [
+       {
+        "colorscale": [
+         [
+          0.0,
+          "#000011"
+         ],
+         [
+          0.1111111111111111,
+          "#000012"
+         ],
+         [
+          0.2222222222222222,
+          "#000013"
+         ],
+         [
+          0.3333333333333333,
+          "#000014"
+         ],
+         [
+          0.4444444444444444,
+          "#000015"
+         ],
+         [
+          0.5555555555555556,
+          "#000016"
+         ],
+         [
+          0.6666666666666666,
+          "#000017"
+         ],
+         [
+          0.7777777777777778,
+          "#000018"
+         ],
+         [
+          0.8888888888888888,
+          "#000019"
+         ],
+         [
+          1.0,
+          "#000020"
+         ]
+        ],
+        "type": "contour"
+       }
+      ],
+      "heatmap": [
+       {
+        "colorscale": [
+         [
+          0.0,
+          "#000011"
+         ],
+         [
+          0.1111111111111111,
+          "#000012"
+         ],
+         [
+          0.2222222222222222,
+          "#000013"
+         ],
+         [
+          0.3333333333333333,
+          "#000014"
+         ],
+         [
+          0.4444444444444444,
+          "#000015"
+         ],
+         [
+          0.5555555555555556,
+          "#000016"
+         ],
+         [
+          0.6666666666666666,
+          "#000017"
+         ],
+         [
+          0.7777777777777778,
+          "#000018"
+         ],
+         [
+          0.8888888888888888,
+          "#000019"
+         ],
+         [
+          1.0,
+          "#000020"
+         ]
+        ],
+        "type": "heatmap"
+       }
+      ],
+      "histogram2d": [
+       {
+        "colorscale": [
+         [
+          0.0,
+          "#000011"
+         ],
+         [
+          0.1111111111111111,
+          "#000012"
+         ],
+         [
+          0.2222222222222222,
+          "#000013"
+         ],
+         [
+          0.3333333333333333,
+          "#000014"
+         ],
+         [
+          0.4444444444444444,
+          "#000015"
+         ],
+         [
+          0.5555555555555556,
+          "#000016"
+         ],
+         [
+          0.6666666666666666,
+          "#000017"
+         ],
+         [
+          0.7777777777777778,
+          "#000018"
+         ],
+         [
+          0.8888888888888888,
+          "#000019"
+         ],
+         [
+          1.0,
+          "#000020"
+         ]
+        ],
+        "type": "histogram2d"
+       }
+      ],
+      "icicle": [
+       {
+        "textfont": {
+         "color": "white"
+        },
+        "type": "icicle"
+       }
+      ],
+      "sankey": [
+       {
+        "textfont": {
+         "color": "#000036"
+        },
+        "type": "sankey"
+       }
+      ],
+      "scatter": [
+       {
+        "marker": {
+         "line": {
+          "width": 0
+         }
+        },
+        "type": "scatter"
+       }
+      ],
+      "table": [
+       {
+        "cells": {
+         "fill": {
+          "color": "#000038"
+         },
+         "font": {
+          "color": "#000037"
+         },
+         "line": {
+          "color": "#000039"
+         }
+        },
+        "header": {
+         "fill": {
+          "color": "#000040"
+         },
+         "font": {
+          "color": "#000036"
+         },
+         "line": {
+          "color": "#000039"
+         }
+        },
+        "type": "table"
+       }
+      ],
+      "waterfall": [
+       {
+        "connector": {
+         "line": {
+          "color": "#000036",
+          "width": 2
+         }
+        },
+        "decreasing": {
+         "marker": {
+          "color": "#000033"
+         }
+        },
+        "increasing": {
+         "marker": {
+          "color": "#000032"
+         }
+        },
+        "totals": {
+         "marker": {
+          "color": "#000034"
+         }
+        },
+        "type": "waterfall"
+       }
+      ]
+     },
+     "layout": {
+      "coloraxis": {
+       "colorscale": [
+        [
+         0.0,
+         "#000011"
+        ],
+        [
+         0.1111111111111111,
+         "#000012"
+        ],
+        [
+         0.2222222222222222,
+         "#000013"
+        ],
+        [
+         0.3333333333333333,
+         "#000014"
+        ],
+        [
+         0.4444444444444444,
+         "#000015"
+        ],
+        [
+         0.5555555555555556,
+         "#000016"
+        ],
+        [
+         0.6666666666666666,
+         "#000017"
+        ],
+        [
+         0.7777777777777778,
+         "#000018"
+        ],
+        [
+         0.8888888888888888,
+         "#000019"
+        ],
+        [
+         1.0,
+         "#000020"
+        ]
+       ]
+      },
+      "colorscale": {
+       "diverging": [
+        [
+         0.0,
+         "#000021"
+        ],
+        [
+         0.1,
+         "#000022"
+        ],
+        [
+         0.2,
+         "#000023"
+        ],
+        [
+         0.3,
+         "#000024"
+        ],
+        [
+         0.4,
+         "#000025"
+        ],
+        [
+         0.5,
+         "#000026"
+        ],
+        [
+         0.6,
+         "#000027"
+        ],
+        [
+         0.7,
+         "#000028"
+        ],
+        [
+         0.8,
+         "#000029"
+        ],
+        [
+         0.9,
+         "#000030"
+        ],
+        [
+         1.0,
+         "#000031"
+        ]
+       ],
+       "sequential": [
+        [
+         0.0,
+         "#000011"
+        ],
+        [
+         0.1111111111111111,
+         "#000012"
+        ],
+        [
+         0.2222222222222222,
+         "#000013"
+        ],
+        [
+         0.3333333333333333,
+         "#000014"
+        ],
+        [
+         0.4444444444444444,
+         "#000015"
+        ],
+        [
+         0.5555555555555556,
+         "#000016"
+        ],
+        [
+         0.6666666666666666,
+         "#000017"
+        ],
+        [
+         0.7777777777777778,
+         "#000018"
+        ],
+        [
+         0.8888888888888888,
+         "#000019"
+        ],
+        [
+         1.0,
+         "#000020"
+        ]
+       ],
+       "sequentialminus": [
+        [
+         0.0,
+         "#000011"
+        ],
+        [
+         0.1111111111111111,
+         "#000012"
+        ],
+        [
+         0.2222222222222222,
+         "#000013"
+        ],
+        [
+         0.3333333333333333,
+         "#000014"
+        ],
+        [
+         0.4444444444444444,
+         "#000015"
+        ],
+        [
+         0.5555555555555556,
+         "#000016"
+        ],
+        [
+         0.6666666666666666,
+         "#000017"
+        ],
+        [
+         0.7777777777777778,
+         "#000018"
+        ],
+        [
+         0.8888888888888888,
+         "#000019"
+        ],
+        [
+         1.0,
+         "#000020"
+        ]
+       ]
+      },
+      "colorway": [
+       "#000001",
+       "#000002",
+       "#000003",
+       "#000004",
+       "#000005",
+       "#000006",
+       "#000007",
+       "#000008",
+       "#000009",
+       "#000010"
+      ]
+     }
+    },
+    "font": {
+     "color": "#F2EFE6",
+     "family": "Archivo, Helvetica Neue, Arial, sans-serif"
+    },
+    "title": {
+     "font": {
+      "color": "#F2EFE6"
+     },
+     "text": ""
+    },
+    "legend": {
+     "bgcolor": "#101211",
+     "bordercolor": "#262B28",
+     "borderwidth": 1
+    },
+    "xaxis": {
+     "gridcolor": "#0B0D0C",
+     "zerolinecolor": "#262B28",
+     "linecolor": "#262B28",
+     "tickangle": -40,
+     "title": {
+      "text": ""
+     }
+    },
+    "yaxis": {
+     "gridcolor": "#0B0D0C",
+     "zerolinecolor": "#262B28",
+     "linecolor": "#262B28",
+     "autorange": "reversed",
+     "title": {
+      "text": ""
+     }
+    },
+    "margin": {
+     "t": 30,
+     "r": 20,
+     "b": 40,
+     "l": 60
+    },
+    "hoverlabel": {
+     "font": {
+      "color": "#F2EFE6",
+      "family": "IBM Plex Mono, ui-monospace, monospace"
+     },
+     "bgcolor": "#171A18",
+     "bordercolor": "#333934"
+    },
+    "paper_bgcolor": "#0B0D0C",
+    "plot_bgcolor": "#101211",
+    "showlegend": false,
+    "height": 538
+   }
+  }
+ },
+ "lineups": [
+  {
+   "lineup": "Chris Ryan + Sean Fennessey",
+   "episodes": 95
+  },
+  {
+   "lineup": "Chris Ryan",
+   "episodes": 51
+  },
+  {
+   "lineup": "Chris Ryan + Van Lathan",
+   "episodes": 32
+  },
+  {
+   "lineup": "Kyle Brandt",
+   "episodes": 21
+  },
+  {
+   "lineup": "Amanda Dobbins + Juliet Litman",
+   "episodes": 15
+  },
+  {
+   "lineup": "Van Lathan",
+   "episodes": 12
+  },
+  {
+   "lineup": "Sean Fennessey",
+   "episodes": 9
+  },
+  {
+   "lineup": "Chris Ryan + Shea Serrano",
+   "episodes": 8
+  },
+  {
+   "lineup": "Chris Ryan + Mallory Rubin + Sean Fennessey",
+   "episodes": 8
+  },
+  {
+   "lineup": "Mallory Rubin",
+   "episodes": 8
+  }
+ ],
+ "regulars": [
+  {
+   "name": "Chris Ryan",
+   "id": "chris-ryan",
+   "episodes": 287,
+   "leans": [
+    {
+     "text": "Comedy 26% vs 45%",
+     "up": false
+    },
+    {
+     "text": "Romance 12% vs 31%",
+     "up": false
+    },
+    {
+     "text": "Thriller 44% vs 26%",
+     "up": true
+    },
+    {
+     "text": "RT +7 pts",
+     "up": true
+    },
+    {
+     "text": "Crime 31% vs 20%",
+     "up": true
+    }
+   ]
+  },
+  {
+   "name": "Sean Fennessey",
+   "id": "sean-fennessey",
+   "episodes": 180,
+   "leans": [
+    {
+     "text": "RT +11 pts",
+     "up": true
+    },
+    {
+     "text": "Action 16% vs 30%",
+     "up": false
+    },
+    {
+     "text": "Romance 12% vs 24%",
+     "up": false
+    }
+   ]
+  },
+  {
+   "name": "Van Lathan",
+   "id": "van-lathan",
+   "episodes": 78,
+   "leans": [
+    {
+     "text": "RT -6 pts",
+     "up": false
+    }
+   ]
+  },
+  {
+   "name": "Amanda Dobbins",
+   "id": "amanda-dobbins",
+   "episodes": 44,
+   "leans": [
+    {
+     "text": "Comedy 61% vs 31%",
+     "up": true
+    },
+    {
+     "text": "Romance 59% vs 16%",
+     "up": true
+    },
+    {
+     "text": "Action 7% vs 27%",
+     "up": false
+    },
+    {
+     "text": "films 5 yr newer",
+     "up": false
+    },
+    {
+     "text": "Crime 9% vs 28%",
+     "up": false
+    },
+    {
+     "text": "Thriller 18% vs 38%",
+     "up": false
+    }
+   ]
+  },
+  {
+   "name": "Mallory Rubin",
+   "id": "mallory-rubin",
+   "episodes": 42,
+   "leans": [
+    {
+     "text": "Drama 79% vs 53%",
+     "up": true
+    },
+    {
+     "text": "Action 7% vs 27%",
+     "up": false
+    },
+    {
+     "text": "Crime 10% vs 28%",
+     "up": false
+    }
+   ]
+  },
+  {
+   "name": "Shea Serrano",
+   "id": "shea-serrano",
+   "episodes": 34,
+   "leans": [
+    {
+     "text": "Action 71% vs 22%",
+     "up": true
+    },
+    {
+     "text": "Drama 29% vs 57%",
+     "up": false
+    },
+    {
+     "text": "films 6 yr newer",
+     "up": false
+    },
+    {
+     "text": "Romance 3% vs 21%",
+     "up": false
+    },
+    {
+     "text": "Comedy 15% vs 36%",
+     "up": false
+    },
+    {
+     "text": "Thriller 56% vs 35%",
+     "up": true
+    }
+   ]
+  },
+  {
+   "name": "Kyle Brandt",
+   "id": "kyle-brandt",
+   "episodes": 31,
+   "leans": [
+    {
+     "text": "films 8 yr older",
+     "up": true
+    },
+    {
+     "text": "RT -20 pts",
+     "up": false
+    },
+    {
+     "text": "Action 58% vs 23%",
+     "up": true
+    },
+    {
+     "text": "Adventure 29% vs 8%",
+     "up": true
+    }
+   ]
+  },
+  {
+   "name": "Juliet Litman",
+   "id": "juliet-litman",
+   "episodes": 30,
+   "leans": [
+    {
+     "text": "Comedy 77% vs 31%",
+     "up": true
+    },
+    {
+     "text": "Romance 80% vs 16%",
+     "up": true
+    },
+    {
+     "text": "Thriller 3% vs 39%",
+     "up": false
+    },
+    {
+     "text": "Action 0% vs 27%",
+     "up": false
+    },
+    {
+     "text": "Crime 3% vs 28%",
+     "up": false
+    },
+    {
+     "text": "films 5 yr newer",
+     "up": false
+    }
+   ]
+  },
+  {
+   "name": "Wesley Morris",
+   "id": "wesley-morris",
+   "episodes": 25,
+   "leans": []
+  },
+  {
+   "name": "Jason Concepcion",
+   "id": "jason-concepcion",
+   "episodes": 19,
+   "leans": [
+    {
+     "text": "Action 74% vs 23%",
+     "up": true
+    },
+    {
+     "text": "Adventure 32% vs 8%",
+     "up": true
+    }
+   ]
+  }
+ ],
+ "quiet": [
+  "Wesley Morris"
+ ],
+ "lean_floor": 15,
+ "genre_floor": 40,
+ "genres_tested": 7,
+ "comparisons": 90,
+ "held": 36,
+ "n_perm": 4000,
+ "lean_q": 0.05,
+ "all_comparisons": [
+  {
+   "name": "Amanda Dobbins",
+   "id": "amanda-dobbins",
+   "measure": "Comedy share",
+   "episodes": 44,
+   "theirs": "61%",
+   "others": "31%",
+   "gap": "+30 pts",
+   "p": 0.0002,
+   "q": 0.0017,
+   "shown": true
+  },
+  {
+   "name": "Amanda Dobbins",
+   "id": "amanda-dobbins",
+   "measure": "Romance share",
+   "episodes": 44,
+   "theirs": "59%",
+   "others": "16%",
+   "gap": "+43 pts",
+   "p": 0.0002,
+   "q": 0.0017,
+   "shown": true
+  },
+  {
+   "name": "Chris Ryan",
+   "id": "chris-ryan",
+   "measure": "Comedy share",
+   "episodes": 287,
+   "theirs": "26%",
+   "others": "45%",
+   "gap": "-19 pts",
+   "p": 0.0002,
+   "q": 0.0017,
+   "shown": true
+  },
+  {
+   "name": "Chris Ryan",
+   "id": "chris-ryan",
+   "measure": "Romance share",
+   "episodes": 287,
+   "theirs": "12%",
+   "others": "31%",
+   "gap": "-19 pts",
+   "p": 0.0002,
+   "q": 0.0017,
+   "shown": true
+  },
+  {
+   "name": "Chris Ryan",
+   "id": "chris-ryan",
+   "measure": "Thriller share",
+   "episodes": 287,
+   "theirs": "44%",
+   "others": "26%",
+   "gap": "+18 pts",
+   "p": 0.0002,
+   "q": 0.0017,
+   "shown": true
+  },
+  {
+   "name": "Jason Concepcion",
+   "id": "jason-concepcion",
+   "measure": "Action share",
+   "episodes": 19,
+   "theirs": "74%",
+   "others": "23%",
+   "gap": "+51 pts",
+   "p": 0.0002,
+   "q": 0.0017,
+   "shown": true
+  },
+  {
+   "name": "Juliet Litman",
+   "id": "juliet-litman",
+   "measure": "Comedy share",
+   "episodes": 30,
+   "theirs": "77%",
+   "others": "31%",
+   "gap": "+45 pts",
+   "p": 0.0002,
+   "q": 0.0017,
+   "shown": true
+  },
+  {
+   "name": "Juliet Litman",
+   "id": "juliet-litman",
+   "measure": "Romance share",
+   "episodes": 30,
+   "theirs": "80%",
+   "others": "16%",
+   "gap": "+64 pts",
+   "p": 0.0002,
+   "q": 0.0017,
+   "shown": true
+  },
+  {
+   "name": "Juliet Litman",
+   "id": "juliet-litman",
+   "measure": "Thriller share",
+   "episodes": 30,
+   "theirs": "3%",
+   "others": "39%",
+   "gap": "-35 pts",
+   "p": 0.0002,
+   "q": 0.0017,
+   "shown": true
+  },
+  {
+   "name": "Kyle Brandt",
+   "id": "kyle-brandt",
+   "measure": "Film age at airing",
+   "episodes": 31,
+   "theirs": "33.9 yr",
+   "others": "26.0 yr",
+   "gap": "+7.9 yr",
+   "p": 0.0002,
+   "q": 0.0017,
+   "shown": true
+  },
+  {
+   "name": "Kyle Brandt",
+   "id": "kyle-brandt",
+   "measure": "RT score",
+   "episodes": 31,
+   "theirs": "56%",
+   "others": "76%",
+   "gap": "-20 pts",
+   "p": 0.0002,
+   "q": 0.0017,
+   "shown": true
+  },
+  {
+   "name": "Sean Fennessey",
+   "id": "sean-fennessey",
+   "measure": "RT score",
+   "episodes": 180,
+   "theirs": "82%",
+   "others": "71%",
+   "gap": "+11 pts",
+   "p": 0.0002,
+   "q": 0.0017,
+   "shown": true
+  },
+  {
+   "name": "Shea Serrano",
+   "id": "shea-serrano",
+   "measure": "Action share",
+   "episodes": 34,
+   "theirs": "71%",
+   "others": "22%",
+   "gap": "+49 pts",
+   "p": 0.0002,
+   "q": 0.0017,
+   "shown": true
+  },
+  {
+   "name": "Chris Ryan",
+   "id": "chris-ryan",
+   "measure": "RT score",
+   "episodes": 287,
+   "theirs": "78%",
+   "others": "70%",
+   "gap": "+7 pts",
+   "p": 0.0005,
+   "q": 0.003,
+   "shown": true
+  },
+  {
+   "name": "Kyle Brandt",
+   "id": "kyle-brandt",
+   "measure": "Action share",
+   "episodes": 31,
+   "theirs": "58%",
+   "others": "23%",
+   "gap": "+35 pts",
+   "p": 0.0005,
+   "q": 0.003,
+   "shown": true
+  },
+  {
+   "name": "Sean Fennessey",
+   "id": "sean-fennessey",
+   "measure": "Action share",
+   "episodes": 180,
+   "theirs": "16%",
+   "others": "30%",
+   "gap": "-14 pts",
+   "p": 0.0007,
+   "q": 0.0042,
+   "shown": true
+  },
+  {
+   "name": "Juliet Litman",
+   "id": "juliet-litman",
+   "measure": "Action share",
+   "episodes": 30,
+   "theirs": "0%",
+   "others": "27%",
+   "gap": "-27 pts",
+   "p": 0.001,
+   "q": 0.0053,
+   "shown": true
+  },
+  {
+   "name": "Kyle Brandt",
+   "id": "kyle-brandt",
+   "measure": "Adventure share",
+   "episodes": 31,
+   "theirs": "29%",
+   "others": "8%",
+   "gap": "+21 pts",
+   "p": 0.0015,
+   "q": 0.0075,
+   "shown": true
+  },
+  {
+   "name": "Sean Fennessey",
+   "id": "sean-fennessey",
+   "measure": "Romance share",
+   "episodes": 180,
+   "theirs": "12%",
+   "others": "24%",
+   "gap": "-12 pts",
+   "p": 0.0017,
+   "q": 0.0083,
+   "shown": true
+  },
+  {
+   "name": "Mallory Rubin",
+   "id": "mallory-rubin",
+   "measure": "Drama share",
+   "episodes": 42,
+   "theirs": "79%",
+   "others": "53%",
+   "gap": "+26 pts",
+   "p": 0.0022,
+   "q": 0.0101,
+   "shown": true
+  },
+  {
+   "name": "Shea Serrano",
+   "id": "shea-serrano",
+   "measure": "Drama share",
+   "episodes": 34,
+   "theirs": "29%",
+   "others": "57%",
+   "gap": "-27 pts",
+   "p": 0.0027,
+   "q": 0.0118,
+   "shown": true
+  },
+  {
+   "name": "Amanda Dobbins",
+   "id": "amanda-dobbins",
+   "measure": "Action share",
+   "episodes": 44,
+   "theirs": "7%",
+   "others": "27%",
+   "gap": "-20 pts",
+   "p": 0.0042,
+   "q": 0.0174,
+   "shown": true
+  },
+  {
+   "name": "Amanda Dobbins",
+   "id": "amanda-dobbins",
+   "measure": "Film age at airing",
+   "episodes": 44,
+   "theirs": "21.9 yr",
+   "others": "27.0 yr",
+   "gap": "-5.1 yr",
+   "p": 0.005,
+   "q": 0.0187,
+   "shown": true
+  },
+  {
+   "name": "Shea Serrano",
+   "id": "shea-serrano",
+   "measure": "Film age at airing",
+   "episodes": 34,
+   "theirs": "21.3 yr",
+   "others": "26.9 yr",
+   "gap": "-5.6 yr",
+   "p": 0.005,
+   "q": 0.0187,
+   "shown": true
+  },
+  {
+   "name": "Chris Ryan",
+   "id": "chris-ryan",
+   "measure": "Crime share",
+   "episodes": 287,
+   "theirs": "31%",
+   "others": "20%",
+   "gap": "+12 pts",
+   "p": 0.0052,
+   "q": 0.0189,
+   "shown": true
+  },
+  {
+   "name": "Jason Concepcion",
+   "id": "jason-concepcion",
+   "measure": "Adventure share",
+   "episodes": 19,
+   "theirs": "32%",
+   "others": "8%",
+   "gap": "+23 pts",
+   "p": 0.0055,
+   "q": 0.019,
+   "shown": true
+  },
+  {
+   "name": "Mallory Rubin",
+   "id": "mallory-rubin",
+   "measure": "Action share",
+   "episodes": 42,
+   "theirs": "7%",
+   "others": "27%",
+   "gap": "-20 pts",
+   "p": 0.0057,
+   "q": 0.0192,
+   "shown": true
+  },
+  {
+   "name": "Juliet Litman",
+   "id": "juliet-litman",
+   "measure": "Crime share",
+   "episodes": 30,
+   "theirs": "3%",
+   "others": "28%",
+   "gap": "-25 pts",
+   "p": 0.0067,
+   "q": 0.0209,
+   "shown": true
+  },
+  {
+   "name": "Van Lathan",
+   "id": "van-lathan",
+   "measure": "RT score",
+   "episodes": 78,
+   "theirs": "69%",
+   "others": "76%",
+   "gap": "-6 pts",
+   "p": 0.0067,
+   "q": 0.0209,
+   "shown": true
+  },
+  {
+   "name": "Amanda Dobbins",
+   "id": "amanda-dobbins",
+   "measure": "Crime share",
+   "episodes": 44,
+   "theirs": "9%",
+   "others": "28%",
+   "gap": "-19 pts",
+   "p": 0.0087,
+   "q": 0.0262,
+   "shown": true
+  },
+  {
+   "name": "Mallory Rubin",
+   "id": "mallory-rubin",
+   "measure": "Crime share",
+   "episodes": 42,
+   "theirs": "10%",
+   "others": "28%",
+   "gap": "-19 pts",
+   "p": 0.0105,
+   "q": 0.0305,
+   "shown": true
+  },
+  {
+   "name": "Shea Serrano",
+   "id": "shea-serrano",
+   "measure": "Romance share",
+   "episodes": 34,
+   "theirs": "3%",
+   "others": "21%",
+   "gap": "-18 pts",
+   "p": 0.0122,
+   "q": 0.0344,
+   "shown": true
+  },
+  {
+   "name": "Amanda Dobbins",
+   "id": "amanda-dobbins",
+   "measure": "Thriller share",
+   "episodes": 44,
+   "theirs": "18%",
+   "others": "38%",
+   "gap": "-20 pts",
+   "p": 0.013,
+   "q": 0.0354,
+   "shown": true
+  },
+  {
+   "name": "Shea Serrano",
+   "id": "shea-serrano",
+   "measure": "Comedy share",
+   "episodes": 34,
+   "theirs": "15%",
+   "others": "36%",
+   "gap": "-21 pts",
+   "p": 0.0135,
+   "q": 0.0357,
+   "shown": true
+  },
+  {
+   "name": "Juliet Litman",
+   "id": "juliet-litman",
+   "measure": "Film age at airing",
+   "episodes": 30,
+   "theirs": "21.6 yr",
+   "others": "26.9 yr",
+   "gap": "-5.3 yr",
+   "p": 0.0145,
+   "q": 0.0373,
+   "shown": true
+  },
+  {
+   "name": "Shea Serrano",
+   "id": "shea-serrano",
+   "measure": "Thriller share",
+   "episodes": 34,
+   "theirs": "56%",
+   "others": "35%",
+   "gap": "+21 pts",
+   "p": 0.015,
+   "q": 0.0375,
+   "shown": true
+  },
+  {
+   "name": "Shea Serrano",
+   "id": "shea-serrano",
+   "measure": "Adventure share",
+   "episodes": 34,
+   "theirs": "21%",
+   "others": "8%",
+   "gap": "+12 pts",
+   "p": 0.029,
+   "q": 0.0705,
+   "shown": false
+  },
+  {
+   "name": "Sean Fennessey",
+   "id": "sean-fennessey",
+   "measure": "Crime share",
+   "episodes": 180,
+   "theirs": "32%",
+   "others": "23%",
+   "gap": "+9 pts",
+   "p": 0.034,
+   "q": 0.0805,
+   "shown": false
+  },
+  {
+   "name": "Jason Concepcion",
+   "id": "jason-concepcion",
+   "measure": "Film age at airing",
+   "episodes": 19,
+   "theirs": "21.2 yr",
+   "others": "26.8 yr",
+   "gap": "-5.6 yr",
+   "p": 0.0357,
+   "q": 0.0825,
+   "shown": false
+  },
+  {
+   "name": "Chris Ryan",
+   "id": "chris-ryan",
+   "measure": "Action share",
+   "episodes": 287,
+   "theirs": "29%",
+   "others": "20%",
+   "gap": "+9 pts",
+   "p": 0.0382,
+   "q": 0.086,
+   "shown": false
+  },
+  {
+   "name": "Wesley Morris",
+   "id": "wesley-morris",
+   "measure": "Romance share",
+   "episodes": 25,
+   "theirs": "36%",
+   "others": "19%",
+   "gap": "+17 pts",
+   "p": 0.044,
+   "q": 0.0966,
+   "shown": false
+  },
+  {
+   "name": "Jason Concepcion",
+   "id": "jason-concepcion",
+   "measure": "Comedy share",
+   "episodes": 19,
+   "theirs": "11%",
+   "others": "35%",
+   "gap": "-25 pts",
+   "p": 0.0465,
+   "q": 0.0996,
+   "shown": false
+  },
+  {
+   "name": "Jason Concepcion",
+   "id": "jason-concepcion",
+   "measure": "Drama share",
+   "episodes": 19,
+   "theirs": "32%",
+   "others": "56%",
+   "gap": "-24 pts",
+   "p": 0.0582,
+   "q": 0.1201,
+   "shown": false
+  },
+  {
+   "name": "Wesley Morris",
+   "id": "wesley-morris",
+   "measure": "Action share",
+   "episodes": 25,
+   "theirs": "8%",
+   "others": "26%",
+   "gap": "-18 pts",
+   "p": 0.0587,
+   "q": 0.1201,
+   "shown": false
+  },
+  {
+   "name": "Kyle Brandt",
+   "id": "kyle-brandt",
+   "measure": "Thriller share",
+   "episodes": 31,
+   "theirs": "52%",
+   "others": "35%",
+   "gap": "+16 pts",
+   "p": 0.082,
+   "q": 0.164,
+   "shown": false
+  },
+  {
+   "name": "Van Lathan",
+   "id": "van-lathan",
+   "measure": "Romance share",
+   "episodes": 78,
+   "theirs": "13%",
+   "others": "21%",
+   "gap": "-8 pts",
+   "p": 0.0865,
+   "q": 0.1692,
+   "shown": false
+  },
+  {
+   "name": "Kyle Brandt",
+   "id": "kyle-brandt",
+   "measure": "Drama share",
+   "episodes": 31,
+   "theirs": "39%",
+   "others": "56%",
+   "gap": "-17 pts",
+   "p": 0.0972,
+   "q": 0.1862,
+   "shown": false
+  },
+  {
+   "name": "Van Lathan",
+   "id": "van-lathan",
+   "measure": "Film age at airing",
+   "episodes": 78,
+   "theirs": "28.4 yr",
+   "others": "26.2 yr",
+   "gap": "+2.2 yr",
+   "p": 0.1177,
+   "q": 0.2207,
+   "shown": false
+  },
+  {
+   "name": "Van Lathan",
+   "id": "van-lathan",
+   "measure": "Comedy share",
+   "episodes": 78,
+   "theirs": "27%",
+   "others": "35%",
+   "gap": "-9 pts",
+   "p": 0.1517,
+   "q": 0.2776,
+   "shown": false
+  },
+  {
+   "name": "Wesley Morris",
+   "id": "wesley-morris",
+   "measure": "Adventure share",
+   "episodes": 25,
+   "theirs": "0%",
+   "others": "10%",
+   "gap": "-10 pts",
+   "p": 0.1542,
+   "q": 0.2776,
+   "shown": false
+  },
+  {
+   "name": "Sean Fennessey",
+   "id": "sean-fennessey",
+   "measure": "Drama share",
+   "episodes": 180,
+   "theirs": "52%",
+   "others": "57%",
+   "gap": "-5 pts",
+   "p": 0.2964,
+   "q": 0.5063,
+   "shown": false
+  },
+  {
+   "name": "Amanda Dobbins",
+   "id": "amanda-dobbins",
+   "measure": "Adventure share",
+   "episodes": 44,
+   "theirs": "5%",
+   "others": "10%",
+   "gap": "-5 pts",
+   "p": 0.2969,
+   "q": 0.5063,
+   "shown": false
+  },
+  {
+   "name": "Mallory Rubin",
+   "id": "mallory-rubin",
+   "measure": "Film age at airing",
+   "episodes": 42,
+   "theirs": "28.3 yr",
+   "others": "26.4 yr",
+   "gap": "+2.0 yr",
+   "p": 0.2982,
+   "q": 0.5063,
+   "shown": false
+  },
+  {
+   "name": "Van Lathan",
+   "id": "van-lathan",
+   "measure": "Thriller share",
+   "episodes": 78,
+   "theirs": "31%",
+   "others": "37%",
+   "gap": "-7 pts",
+   "p": 0.3039,
+   "q": 0.5065,
+   "shown": false
+  },
+  {
+   "name": "Mallory Rubin",
+   "id": "mallory-rubin",
+   "measure": "Romance share",
+   "episodes": 42,
+   "theirs": "26%",
+   "others": "19%",
+   "gap": "+7 pts",
+   "p": 0.3172,
+   "q": 0.5109,
+   "shown": false
+  },
+  {
+   "name": "Mallory Rubin",
+   "id": "mallory-rubin",
+   "measure": "Comedy share",
+   "episodes": 42,
+   "theirs": "26%",
+   "others": "35%",
+   "gap": "-9 pts",
+   "p": 0.3179,
+   "q": 0.5109,
+   "shown": false
+  },
+  {
+   "name": "Shea Serrano",
+   "id": "shea-serrano",
+   "measure": "RT score",
+   "episodes": 34,
+   "theirs": "72%",
+   "others": "75%",
+   "gap": "-3 pts",
+   "p": 0.3244,
+   "q": 0.5122,
+   "shown": false
+  },
+  {
+   "name": "Juliet Litman",
+   "id": "juliet-litman",
+   "measure": "Adventure share",
+   "episodes": 30,
+   "theirs": "3%",
+   "others": "10%",
+   "gap": "-6 pts",
+   "p": 0.3369,
+   "q": 0.5228,
+   "shown": false
+  },
+  {
+   "name": "Wesley Morris",
+   "id": "wesley-morris",
+   "measure": "Crime share",
+   "episodes": 25,
+   "theirs": "36%",
+   "others": "26%",
+   "gap": "+10 pts",
+   "p": 0.3529,
+   "q": 0.5383,
+   "shown": false
+  },
+  {
+   "name": "Jason Concepcion",
+   "id": "jason-concepcion",
+   "measure": "Romance share",
+   "episodes": 19,
+   "theirs": "11%",
+   "others": "20%",
+   "gap": "-10 pts",
+   "p": 0.3982,
+   "q": 0.5972,
+   "shown": false
+  },
+  {
+   "name": "Juliet Litman",
+   "id": "juliet-litman",
+   "measure": "Drama share",
+   "episodes": 30,
+   "theirs": "47%",
+   "others": "55%",
+   "gap": "-9 pts",
+   "p": 0.4479,
+   "q": 0.6608,
+   "shown": false
+  },
+  {
+   "name": "Chris Ryan",
+   "id": "chris-ryan",
+   "measure": "Drama share",
+   "episodes": 287,
+   "theirs": "56%",
+   "others": "53%",
+   "gap": "+3 pts",
+   "p": 0.5099,
+   "q": 0.7401,
+   "shown": false
+  },
+  {
+   "name": "Wesley Morris",
+   "id": "wesley-morris",
+   "measure": "RT score",
+   "episodes": 25,
+   "theirs": "77%",
+   "others": "75%",
+   "gap": "+3 pts",
+   "p": 0.5404,
+   "q": 0.7719,
+   "shown": false
+  },
+  {
+   "name": "Kyle Brandt",
+   "id": "kyle-brandt",
+   "measure": "Comedy share",
+   "episodes": 31,
+   "theirs": "29%",
+   "others": "34%",
+   "gap": "-5 pts",
+   "p": 0.5654,
+   "q": 0.7832,
+   "shown": false
+  },
+  {
+   "name": "Sean Fennessey",
+   "id": "sean-fennessey",
+   "measure": "Film age at airing",
+   "episodes": 180,
+   "theirs": "26.1 yr",
+   "others": "26.8 yr",
+   "gap": "-0.6 yr",
+   "p": 0.5656,
+   "q": 0.7832,
+   "shown": false
+  },
+  {
+   "name": "Jason Concepcion",
+   "id": "jason-concepcion",
+   "measure": "RT score",
+   "episodes": 19,
+   "theirs": "77%",
+   "others": "75%",
+   "gap": "+2 pts",
+   "p": 0.6146,
+   "q": 0.8333,
+   "shown": false
+  },
+  {
+   "name": "Van Lathan",
+   "id": "van-lathan",
+   "measure": "Drama share",
+   "episodes": 78,
+   "theirs": "58%",
+   "others": "54%",
+   "gap": "+3 pts",
+   "p": 0.6203,
+   "q": 0.8333,
+   "shown": false
+  },
+  {
+   "name": "Jason Concepcion",
+   "id": "jason-concepcion",
+   "measure": "Thriller share",
+   "episodes": 19,
+   "theirs": "42%",
+   "others": "36%",
+   "gap": "+6 pts",
+   "p": 0.6388,
+   "q": 0.8378,
+   "shown": false
+  },
+  {
+   "name": "Mallory Rubin",
+   "id": "mallory-rubin",
+   "measure": "RT score",
+   "episodes": 42,
+   "theirs": "76%",
+   "others": "75%",
+   "gap": "+1 pts",
+   "p": 0.6423,
+   "q": 0.8378,
+   "shown": false
+  },
+  {
+   "name": "Van Lathan",
+   "id": "van-lathan",
+   "measure": "Crime share",
+   "episodes": 78,
+   "theirs": "24%",
+   "others": "27%",
+   "gap": "-3 pts",
+   "p": 0.6748,
+   "q": 0.8573,
+   "shown": false
+  },
+  {
+   "name": "Wesley Morris",
+   "id": "wesley-morris",
+   "measure": "Drama share",
+   "episodes": 25,
+   "theirs": "60%",
+   "others": "55%",
+   "gap": "+5 pts",
+   "p": 0.6828,
+   "q": 0.8573,
+   "shown": false
+  },
+  {
+   "name": "Kyle Brandt",
+   "id": "kyle-brandt",
+   "measure": "Crime share",
+   "episodes": 31,
+   "theirs": "23%",
+   "others": "27%",
+   "gap": "-4 pts",
+   "p": 0.6858,
+   "q": 0.8573,
+   "shown": false
+  },
+  {
+   "name": "Sean Fennessey",
+   "id": "sean-fennessey",
+   "measure": "Comedy share",
+   "episodes": 180,
+   "theirs": "33%",
+   "others": "35%",
+   "gap": "-2 pts",
+   "p": 0.6988,
+   "q": 0.8616,
+   "shown": false
+  },
+  {
+   "name": "Mallory Rubin",
+   "id": "mallory-rubin",
+   "measure": "Thriller share",
+   "episodes": 42,
+   "theirs": "33%",
+   "others": "37%",
+   "gap": "-3 pts",
+   "p": 0.7353,
+   "q": 0.8921,
+   "shown": false
+  },
+  {
+   "name": "Sean Fennessey",
+   "id": "sean-fennessey",
+   "measure": "Adventure share",
+   "episodes": 180,
+   "theirs": "10%",
+   "others": "9%",
+   "gap": "+1 pts",
+   "p": 0.7488,
+   "q": 0.8921,
+   "shown": false
+  },
+  {
+   "name": "Sean Fennessey",
+   "id": "sean-fennessey",
+   "measure": "Thriller share",
+   "episodes": 180,
+   "theirs": "37%",
+   "others": "36%",
+   "gap": "+1 pts",
+   "p": 0.7611,
+   "q": 0.8921,
+   "shown": false
+  },
+  {
+   "name": "Van Lathan",
+   "id": "van-lathan",
+   "measure": "Action share",
+   "episodes": 78,
+   "theirs": "27%",
+   "others": "25%",
+   "gap": "+2 pts",
+   "p": 0.7708,
+   "q": 0.8921,
+   "shown": false
+  },
+  {
+   "name": "Mallory Rubin",
+   "id": "mallory-rubin",
+   "measure": "Adventure share",
+   "episodes": 42,
+   "theirs": "7%",
+   "others": "9%",
+   "gap": "-2 pts",
+   "p": 0.7761,
+   "q": 0.8921,
+   "shown": false
+  },
+  {
+   "name": "Juliet Litman",
+   "id": "juliet-litman",
+   "measure": "RT score",
+   "episodes": 30,
+   "theirs": "74%",
+   "others": "75%",
+   "gap": "-1 pts",
+   "p": 0.7831,
+   "q": 0.8921,
+   "shown": false
+  },
+  {
+   "name": "Kyle Brandt",
+   "id": "kyle-brandt",
+   "measure": "Romance share",
+   "episodes": 31,
+   "theirs": "23%",
+   "others": "20%",
+   "gap": "+3 pts",
+   "p": 0.8298,
+   "q": 0.9043,
+   "shown": false
+  },
+  {
+   "name": "Shea Serrano",
+   "id": "shea-serrano",
+   "measure": "Crime share",
+   "episodes": 34,
+   "theirs": "29%",
+   "others": "26%",
+   "gap": "+3 pts",
+   "p": 0.8348,
+   "q": 0.9043,
+   "shown": false
+  },
+  {
+   "name": "Wesley Morris",
+   "id": "wesley-morris",
+   "measure": "Comedy share",
+   "episodes": 25,
+   "theirs": "32%",
+   "others": "34%",
+   "gap": "-2 pts",
+   "p": 0.8383,
+   "q": 0.9043,
+   "shown": false
+  },
+  {
+   "name": "Wesley Morris",
+   "id": "wesley-morris",
+   "measure": "Thriller share",
+   "episodes": 25,
+   "theirs": "40%",
+   "others": "36%",
+   "gap": "+4 pts",
+   "p": 0.841,
+   "q": 0.9043,
+   "shown": false
+  },
+  {
+   "name": "Chris Ryan",
+   "id": "chris-ryan",
+   "measure": "Film age at airing",
+   "episodes": 287,
+   "theirs": "26.6 yr",
+   "others": "26.4 yr",
+   "gap": "+0.2 yr",
+   "p": 0.844,
+   "q": 0.9043,
+   "shown": false
+  },
+  {
+   "name": "Amanda Dobbins",
+   "id": "amanda-dobbins",
+   "measure": "Drama share",
+   "episodes": 44,
+   "theirs": "57%",
+   "others": "55%",
+   "gap": "+2 pts",
+   "p": 0.868,
+   "q": 0.9191,
+   "shown": false
+  },
+  {
+   "name": "Chris Ryan",
+   "id": "chris-ryan",
+   "measure": "Adventure share",
+   "episodes": 287,
+   "theirs": "9%",
+   "others": "10%",
+   "gap": "-0 pts",
+   "p": 0.88,
+   "q": 0.9194,
+   "shown": false
+  },
+  {
+   "name": "Wesley Morris",
+   "id": "wesley-morris",
+   "measure": "Film age at airing",
+   "episodes": 25,
+   "theirs": "26.2 yr",
+   "others": "26.6 yr",
+   "gap": "-0.4 yr",
+   "p": 0.8888,
+   "q": 0.9194,
+   "shown": false
+  },
+  {
+   "name": "Amanda Dobbins",
+   "id": "amanda-dobbins",
+   "measure": "RT score",
+   "episodes": 44,
+   "theirs": "75%",
+   "others": "75%",
+   "gap": "+0 pts",
+   "p": 0.9463,
+   "q": 0.9678,
+   "shown": false
+  },
+  {
+   "name": "Jason Concepcion",
+   "id": "jason-concepcion",
+   "measure": "Crime share",
+   "episodes": 19,
+   "theirs": "26%",
+   "others": "26%",
+   "gap": "-0 pts",
+   "p": 1.0,
+   "q": 1.0,
+   "shown": false
+  },
+  {
+   "name": "Van Lathan",
+   "id": "van-lathan",
+   "measure": "Adventure share",
+   "episodes": 78,
+   "theirs": "9%",
+   "others": "9%",
+   "gap": "-0 pts",
+   "p": 1.0,
+   "q": 1.0,
+   "shown": false
+  }
+ ],
+ "without": [
+  {
+   "host": "Chris Ryan",
+   "id": "chris-ryan",
+   "episodes": [
+    {
+     "id": "the-dark-knight-2008",
+     "title": "The Dark Knight",
+     "year": 2008,
+     "poster": "qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+     "episode": 18,
+     "aired": "2017-11-16"
+    },
+    {
+     "id": "zodiac-2007",
+     "title": "Zodiac",
+     "year": 2007,
+     "poster": "6YmeO4pB7XTh8P8F960O1uA14JO.jpg",
+     "episode": 21,
+     "aired": "2017-12-14"
+    },
+    {
+     "id": "the-big-lebowski-1998",
+     "title": "The Big Lebowski",
+     "year": 1998,
+     "poster": "3bv6WAp6BSxxYvB5ozKFUYuRA8C.jpg",
+     "episode": 27,
+     "aired": "2018-03-09"
+    },
+    {
+     "id": "michael-clayton-2007",
+     "title": "Michael Clayton",
+     "year": 2007,
+     "poster": "hhkW4yVIGo8Bee3UITKvqOvhNMG.jpg",
+     "episode": 30,
+     "aired": "2018-03-29"
+    },
+    {
+     "id": "oceans-eleven-2001",
+     "title": "Ocean's Eleven",
+     "year": 2001,
+     "poster": "hQQCdZrsHtZyR6NbKH2YyCqd2fR.jpg",
+     "episode": 34,
+     "aired": "2018-06-07"
+    },
+    {
+     "id": "mission-impossible-1996",
+     "title": "Mission: Impossible",
+     "year": 1996,
+     "poster": "l5uxY5m5OInWpcExIpKG6AR3rgL.jpg",
+     "episode": 41,
+     "aired": "2018-07-26"
+    },
+    {
+     "id": "mad-max-fury-road-2015",
+     "title": "Mad Max: Fury Road",
+     "year": 2015,
+     "poster": "ulcAi4dKpAjHwYGS08vNyx9H6I9.jpg",
+     "episode": 45,
+     "aired": "2018-08-23"
+    },
+    {
+     "id": "the-matrix-1999",
+     "title": "The Matrix",
+     "year": 1999,
+     "poster": "dXNAPwY7VrqMAo51EKhhCJfaGb5.jpg",
+     "episode": 81,
+     "aired": "2019-06-20"
+    },
+    {
+     "id": "inglourious-basterds-2009",
+     "title": "Inglourious Basterds",
+     "year": 2009,
+     "poster": "aupnPtagH9JVBuMrGEanf4iqXEQ.jpg",
+     "episode": 85,
+     "aired": "2019-07-15"
+    },
+    {
+     "id": "skyfall-2012",
+     "title": "Skyfall",
+     "year": 2012,
+     "poster": "d0IVecFQvsGdSbnMAHqiYsNYaJT.jpg",
+     "episode": 108,
+     "aired": "2019-11-20"
+    },
+    {
+     "id": "the-wolf-of-wall-street-2013",
+     "title": "The Wolf of Wall Street",
+     "year": 2013,
+     "poster": "kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg",
+     "episode": 109,
+     "aired": "2019-12-03"
+    },
+    {
+     "id": "dunkirk-2017",
+     "title": "Dunkirk",
+     "year": 2017,
+     "poster": "b4Oe15CGLL61Ped0RAS9JpqdmCt.jpg",
+     "episode": 112,
+     "aired": "2019-12-20"
+    },
+    {
+     "id": "oceans-twelve-2004",
+     "title": "Ocean's Twelve",
+     "year": 2004,
+     "poster": "pE5anFf7nf6ah7V3VRezQ1KSovi.jpg",
+     "episode": 121,
+     "aired": "2020-03-05"
+    },
+    {
+     "id": "edge-of-tomorrow-2014",
+     "title": "Edge of Tomorrow",
+     "year": 2014,
+     "poster": "nBM9MMa2WCwvMG4IJ3eiGUdbPe6.jpg",
+     "episode": 125,
+     "aired": "2020-03-23"
+    },
+    {
+     "id": "home-alone-1990",
+     "title": "Home Alone",
+     "year": 1990,
+     "poster": "onTSipZ8R3bliBdKfPtsDuHTdlL.jpg",
+     "episode": 174,
+     "aired": "2020-11-17"
+    },
+    {
+     "id": "the-royal-tenenbaums-2001",
+     "title": "The Royal Tenenbaums",
+     "year": 2001,
+     "poster": "nG7hZJn7wQTSDCQT39Gy3s3tbrp.jpg",
+     "episode": 182,
+     "aired": "2021-01-12"
+    },
+    {
+     "id": "trainspotting-1996",
+     "title": "Trainspotting",
+     "year": 1996,
+     "poster": "1jUC02qsqS2NxBMFarbIhcQtazV.jpg",
+     "episode": 222,
+     "aired": "2021-09-28"
+    },
+    {
+     "id": "glengarry-glen-ross-1992",
+     "title": "Glengarry Glen Ross",
+     "year": 1992,
+     "poster": "zcaEDx8KlVfh4vKfMNLhiSi5Oz4.jpg",
+     "episode": 277,
+     "aired": "2022-10-11"
+    },
+    {
+     "id": "silver-linings-playbook-2012",
+     "title": "Silver Linings Playbook",
+     "year": 2012,
+     "poster": "fhHB1uvfFKKFbj6bTKE8xdtsjKi.jpg",
+     "episode": 341,
+     "aired": "2024-01-16"
+    },
+    {
+     "id": "the-grand-budapest-hotel-2014",
+     "title": "The Grand Budapest Hotel",
+     "year": 2014,
+     "poster": "eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
+     "episode": 369,
+     "aired": "2024-08-13"
+    }
+   ]
+  },
+  {
+   "host": "Juliet Litman",
+   "id": "juliet-litman",
+   "episodes": [
+    {
+     "id": "youve-got-mail-1998",
+     "title": "You've Got Mail",
+     "year": 1998,
+     "poster": "e2uVtH6TpMfUl7WeOM70ezkcjsU.jpg",
+     "episode": 10,
+     "aired": "2017-08-31"
+    },
+    {
+     "id": "titanic-1997",
+     "title": "Titanic",
+     "year": 1997,
+     "poster": "9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
+     "episode": 13,
+     "aired": "2017-09-28"
+    },
+    {
+     "id": "clueless-1995",
+     "title": "Clueless",
+     "year": 1995,
+     "poster": "8AwVTcgpTnmeOs4TdTWqcFDXEsA.jpg",
+     "episode": 14,
+     "aired": "2017-10-05"
+    },
+    {
+     "id": "10-things-i-hate-about-you-1999",
+     "title": "10 Things I Hate About You",
+     "year": 1999,
+     "poster": "ujERk3aKABXU3NDXOAxEQYTHe9A.jpg",
+     "episode": 22,
+     "aired": "2018-01-09"
+    },
+    {
+     "id": "the-princess-bride-1987",
+     "title": "The Princess Bride",
+     "year": 1987,
+     "poster": "2FC9L9MrjBoGHYjYZjdWQdopVYb.jpg",
+     "episode": 31,
+     "aired": "2018-04-11"
+    },
+    {
+     "id": "notting-hill-1999",
+     "title": "Notting Hill",
+     "year": 1999,
+     "poster": "hHRIf2XHeQMbyRb3HUx19SF5Ujw.jpg",
+     "episode": 73,
+     "aired": "2019-05-16"
+    },
+    {
+     "id": "the-notebook-2004",
+     "title": "The Notebook",
+     "year": 2004,
+     "poster": "rNzQyW4f8B8cQeg7Dgj3n6eT5k9.jpg",
+     "episode": 82,
+     "aired": "2019-06-24"
+    },
+    {
+     "id": "the-holiday-2006",
+     "title": "The Holiday",
+     "year": 2006,
+     "poster": "h1ITOpvJN3Tw4Sy60w2QTfYMvdd.jpg",
+     "episode": 107,
+     "aired": "2019-11-13"
+    },
+    {
+     "id": "while-you-were-sleeping-1995",
+     "title": "While You Were Sleeping",
+     "year": 1995,
+     "poster": "qNGO3ETcNwlWqK2kNRpbJSJRlos.jpg",
+     "episode": 136,
+     "aired": "2020-05-01"
+    },
+    {
+     "id": "easy-a-2010",
+     "title": "Easy A",
+     "year": 2010,
+     "poster": "v5f1qO6NJnxWgONgkYg21TW39DT.jpg",
+     "episode": 164,
+     "aired": "2020-09-17"
+    },
+    {
+     "id": "pitch-perfect-2012",
+     "title": "Pitch Perfect",
+     "year": 2012,
+     "poster": "gsFoJk9g8W3zgaipRrrURk7LbiF.jpg",
+     "episode": 276,
+     "aired": "2022-10-04"
+    },
+    {
+     "id": "notting-hill-1999",
+     "title": "Notting Hill",
+     "year": 1999,
+     "poster": "hHRIf2XHeQMbyRb3HUx19SF5Ujw.jpg",
+     "episode": 73,
+     "aired": "2024-07-19"
+    }
+   ]
+  },
+  {
+   "host": "Sean Fennessey",
+   "id": "sean-fennessey",
+   "episodes": [
+    {
+     "id": "jurassic-park-1993",
+     "title": "Jurassic Park",
+     "year": 1993,
+     "poster": "63viWuPfYQjRYLSZSZNq7dglJP5.jpg",
+     "episode": 35,
+     "aired": "2018-06-14"
+    },
+    {
+     "id": "office-space-1999",
+     "title": "Office Space",
+     "year": 1999,
+     "poster": "iEmTwOkUaLziMQCUZii5wPQBIAO.jpg",
+     "episode": 78,
+     "aired": "2019-06-06"
+    },
+    {
+     "id": "the-sixth-sense-1999",
+     "title": "The Sixth Sense",
+     "year": 1999,
+     "poster": "vOyfUXNFSnaTk7Vk5AjpsKTUWsu.jpg",
+     "episode": 80,
+     "aired": "2019-06-13"
+    },
+    {
+     "id": "do-the-right-thing-1989",
+     "title": "Do the Right Thing",
+     "year": 1989,
+     "poster": "63rmSDPahrH7C1gEFYzRuIBAN9W.jpg",
+     "episode": 93,
+     "aired": "2019-08-26"
+    },
+    {
+     "id": "election-1999",
+     "title": "Election",
+     "year": 1999,
+     "poster": "fbo0IYzBc32dD5SjFzKIgfp4O4F.jpg",
+     "episode": 96,
+     "aired": "2019-09-12"
+    },
+    {
+     "id": "toy-story-1995",
+     "title": "Toy Story",
+     "year": 1995,
+     "poster": "uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg",
+     "episode": 173,
+     "aired": "2020-11-10"
+    },
+    {
+     "id": "the-sixth-sense-1999",
+     "title": "The Sixth Sense",
+     "year": 1999,
+     "poster": "vOyfUXNFSnaTk7Vk5AjpsKTUWsu.jpg",
+     "episode": 80,
+     "aired": "2024-09-10"
+    }
+   ]
+  },
+  {
+   "host": "Craig Horlbeck",
+   "id": "craig-horlbeck",
+   "episodes": [
+    {
+     "id": "pineapple-express-2008",
+     "title": "Pineapple Express",
+     "year": 2008,
+     "poster": "6E50WjeOYjDZg9HXgPjYdGtY2jG.jpg",
+     "episode": 278,
+     "aired": "2022-10-18"
+    },
+    {
+     "id": "dodgeball-a-true-underdog-story-2004",
+     "title": "DodgeBall: A True Underdog Story",
+     "year": 2004,
+     "poster": "r8KbNHkkwFXLjV1suGwm0Qjure5.jpg",
+     "episode": 368,
+     "aired": "2024-08-06"
+    },
+    {
+     "id": "talladega-nights-the-ballad-of-ricky-bobby-2006",
+     "title": "Talladega Nights: The Ballad of Ricky Bobby",
+     "year": 2006,
+     "poster": "3iCiTqsmJz1mO85AHzTiHNkRmb6.jpg",
+     "episode": 480,
+     "aired": "2026-09-07"
+    }
+   ]
+  },
+  {
+   "host": "Donnie Kwak",
+   "id": "donnie-kwak",
+   "episodes": [
+    {
+     "id": "friday-1995",
+     "title": "Friday",
+     "year": 1995,
+     "poster": "3Ya1RurP2NqaYoiok4DmfO41rCC.jpg",
+     "episode": 19,
+     "aired": "2017-11-30"
+    }
+   ]
+  },
+  {
+   "host": "Jason Concepcion",
+   "id": "jason-concepcion",
+   "episodes": [
+    {
+     "id": "inception-2010",
+     "title": "Inception",
+     "year": 2010,
+     "poster": "xlaY2zyzMfkhk0HSC5VUwzoZPU1.jpg",
+     "episode": 29,
+     "aired": "2018-03-22"
+    }
+   ]
+  },
+  {
+   "host": "Van Lathan",
+   "id": "van-lathan",
+   "episodes": [
+    {
+     "id": "spider-man-2002",
+     "title": "Spider-Man",
+     "year": 2002,
+     "poster": "or6XJBVpcEbIkma0V9zshnbEtx4.jpg",
+     "episode": 250,
+     "aired": "2022-04-19"
+    }
+   ]
+  }
+ ]
+}
