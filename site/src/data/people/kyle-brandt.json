@@ -287,15 +287,15 @@
  "lean_floor": 15,
  "leans": [
   {
+   "text": "films 8 yr older",
+   "up": true
+  },
+  {
    "text": "RT -20 pts",
    "up": false
   },
   {
    "text": "Action 58% vs 23%",
-   "up": true
-  },
-  {
-   "text": "films 8 yr older",
    "up": true
   },
   {

@@ -2340,20 +2340,20 @@
  "lean_floor": 15,
  "leans": [
   {
-   "text": "RT +7 pts",
-   "up": true
-  },
-  {
-   "text": "Thriller 44% vs 26%",
-   "up": true
-  },
-  {
    "text": "Comedy 26% vs 45%",
    "up": false
   },
   {
    "text": "Romance 12% vs 31%",
    "up": false
+  },
+  {
+   "text": "Thriller 44% vs 26%",
+   "up": true
+  },
+  {
+   "text": "RT +7 pts",
+   "up": true
   },
   {
    "text": "Crime 31% vs 20%",
