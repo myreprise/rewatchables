@@ -9,4 +9,6 @@ the Streamlit sections call, so the two front ends print the same numbers:
   overview   the front page and its chart
   keywords   the Keywords section and one file per keyword page
   people     the person index and one file per person page
+  sections   one file per chart section: Ratings, Box Office, Timeline,
+             Genres, Cruise vs. Hanks
 """

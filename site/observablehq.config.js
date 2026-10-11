@@ -23,10 +23,23 @@ export default {
   title: "Rewatchables Explorer",
   root: "src",
   style: "site.css",
+  // Grouped as the app's sidebar is (state.NAV). Sections the site does not
+  // have yet are left out rather than shown empty.
   pages: [
     {name: "Overview", path: "/"},
     {name: "Movie Explorer", path: "/films"},
-    {name: "Keywords", path: "/keywords"}
+    {name: "The films", open: true, pages: [
+      {name: "Genres", path: "/genres"},
+      {name: "Keywords", path: "/keywords"},
+      {name: "Ratings", path: "/ratings"},
+      {name: "Box Office", path: "/boxoffice"}
+    ]},
+    {name: "The show", open: true, pages: [
+      {name: "Timeline & Revisits", path: "/timeline"}
+    ]},
+    {name: "The bits", open: true, pages: [
+      {name: "Cruise vs. Hanks", path: "/verdicts"}
+    ]}
   ],
   dynamicPaths: [
     ...films.map((f) => `/movie/${f.id}`),

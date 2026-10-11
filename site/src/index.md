@@ -7,10 +7,7 @@ title: Overview
 // same Python functions in pipeline step 15; this page only lays them out.
 import {fmt, filmCard, grid, gridNote, masthead, note, posterUrl, rings,
         statRail, statTile, tape} from "./components/ui.js";
-// The cartesian partial bundle: every trace type the app draws (bar, box,
-// heatmap, histogram, image, pie, scatter) at a third of the full bundle's
-// size, 500 KB gzipped against 1.48 MB. Pinned so a build is reproducible.
-import Plotly from "npm:plotly.js-cartesian-dist-min@4.1.2";
+import {plot} from "./components/plot.js";
 
 const ov = FileAttachment("data/overview.json").json();
 const films = FileAttachment("data/films.json").json();
@@ -66,12 +63,7 @@ display(grid(ov.came_back_to.map((f) =>
 display(tape("Episodes per year"));
 // The figure is the app's own: built by overview.episodes_per_year in Python
 // and exported as Plotly JSON, so only the width is decided here.
-const chart = resize((width) => {
-  const div = document.createElement("div");
-  Plotly.newPlot(div, episodesPerYear.data, {...episodesPerYear.layout, width},
-                 {displayModeBar: false, responsive: false});
-  return div;
-});
+const chart = resize((width) => plot(episodesPerYear, width));
 const r = ov.reading;
 display(html`<div class="rw-split">
   <div>${chart}</div>

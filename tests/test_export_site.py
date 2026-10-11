@@ -240,12 +240,16 @@ def test_export_survives_a_rebuild_that_reissues_every_movie_id(ctx, exported, t
         frame["movie_id"] = frame["movie_id"].map(fresh).fillna(frame["movie_id"])
         return frame
 
-    # Shuffled too: a rebuild inserts the films in whatever order it reaches them.
+    # Shuffled too: a rebuild inserts the films in whatever order it reaches
+    # them, and the links query has no ORDER BY, so its rows move as well.
+    def shuffle(frame):
+        return reissue(frame).sample(frac=1, random_state=7)
+
     rebuilt = dataclasses.replace(
         ctx,
-        movies=reissue(ctx.movies).sample(frac=1, random_state=7),
-        links=reissue(ctx.links), merged=reissue(ctx.merged),
-        cruise_hanks=reissue(ctx.cruise_hanks), rated=reissue(ctx.rated),
+        movies=shuffle(ctx.movies),
+        links=shuffle(ctx.links), merged=shuffle(ctx.merged),
+        cruise_hanks=shuffle(ctx.cruise_hanks), rated=reissue(ctx.rated),
     )
     again = tmp_path / "data"
     export_site.export(rebuilt, out=again, theme_dest=None)
@@ -352,6 +356,18 @@ def test_every_link_lands_on_a_page(exported):
     overview = _strict_load(exported / "overview.json")
     assert {r["id"] for r in overview["regulars"]} <= people
 
+    def linked(rows):
+        return {r["id"] for r in rows if r.get("id")}
+
+    sections = _pages(exported, "sections")
+    for rows in (sections["ratings"]["critics_love"], sections["ratings"]["audiences_love"],
+                 sections["boxoffice"]["best"], sections["boxoffice"]["worst"],
+                 sections["boxoffice"]["table"], sections["timeline"]["oldest"],
+                 sections["timeline"]["revisited"], sections["verdicts"]["ledger"],
+                 sections["verdicts"]["cruise"]["rail"]):
+        assert linked(rows) <= films
+    assert linked(sections["verdicts"]["guests"]) <= people
+
 
 @live
 def test_film_rows_carry_the_explorers_ratings(ctx, exported):
@@ -364,3 +380,51 @@ def test_film_rows_carry_the_explorers_ratings(ctx, exported):
         else:
             assert row["rt"] == pytest.approx(m["tomatoes_avg"] * 100, abs=0.05)
         assert row["director"] == m["director_primary"]
+
+
+# ── Chart sections ────────────────────────────────────────────────────────────
+
+SECTION_FIGURES = {
+    "ratings": {"rt", "ebert", "tmdb", "rt_vs_tmdb", "rt_by_genre"},
+    "boxoffice": {"by_decade", "cost_vs_gross", "money_vs_rating", "by_genre"},
+    "timeline": {"per_year", "decade_genre", "age", "rating_by_decade", "genre_strip",
+                 "revisits", "revisit_gaps", "revisit_genres"},
+    "genres": {"frequency", "share", "by_decade", "co_occurrence"},
+    "verdicts": {"running_margin", "genre_lean"},
+}
+
+
+@live
+def test_every_section_ships_every_chart(exported):
+    pages = _pages(exported, "sections")
+    assert set(pages) == set(SECTION_FIGURES)
+    for name, figs in SECTION_FIGURES.items():
+        assert set(pages[name]["figures"]) == figs, name
+        for fig in pages[name]["figures"].values():
+            assert fig is None or fig["data"], name
+
+
+@live
+def test_section_numbers_are_the_apps(ctx, exported):
+    from rewatchables.app.sections import boxoffice, ratings, timeline, verdicts
+
+    pages = _pages(exported, "sections")
+    s = boxoffice.summary(ctx.movies)
+    out = pages["boxoffice"]["summary"]
+    assert (out["with_gross"], out["under_break_even"], out["merit_films"]) == (
+        s["with_gross"], s["under_break_even"], s["merit_films"])
+    assert out["rho"] == round(s["rho"], 2)
+    assert len(pages["boxoffice"]["table"]) == s["with_gross"]
+
+    critic, _ = ratings.divergence(ctx.merged)
+    assert [r["title"] for r in pages["ratings"]["critics_love"]] == list(critic["title"])
+
+    assert len(pages["timeline"]["revisited"]) == len(timeline.revisited_films(ctx.movies))
+
+    v = pages["verdicts"]
+    assert v["standing"] == verdicts.standing(ctx.cruise_hanks)
+    assert len(v["ledger"]) == len(ctx.cruise_hanks)
+    _, lead_changes = verdicts.running_margin(ctx.cruise_hanks)
+    assert v["lead_changes"] == lead_changes
+    numbers = [x["episode"] for x in v["ledger"]]
+    assert numbers == sorted(numbers, reverse=True)

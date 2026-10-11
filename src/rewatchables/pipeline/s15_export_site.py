@@ -21,6 +21,7 @@ site_export package, one module per kind; this step runs them and writes:
   site/src/data/keywords/<slug>.json   one file per keyword on 2+ films
   site/src/data/people.json            everyone in the room, for the lookup
   site/src/data/people/<slug>.json     one file per person
+  site/src/data/sections/<name>.json   each chart section's figures, numbers and tables
   site/src/theme.css                   a copy of the app's stylesheet
 
 Every page lives at an address made from its name: /movie/heat-1995,
@@ -47,6 +48,7 @@ from rewatchables.pipeline.site_export.films import film_pages, film_rows
 from rewatchables.pipeline.site_export.keywords import keyword_pages, keywords_index
 from rewatchables.pipeline.site_export.overview import charts, overview
 from rewatchables.pipeline.site_export.people import people_pages
+from rewatchables.pipeline.site_export.sections import section_pages
 
 logger = logging.getLogger(__name__)
 
@@ -79,6 +81,7 @@ def export(ctx, out=DATA_OUT, theme_dest=SITE_SRC / "theme.css"):
         "films": write_pages(out / "films", film_pages(ctx, addresses)),
         "keywords": write_pages(out / "keywords", keyword_pages(ctx, addresses)),
         "people": write_pages(out / "people", person_pages),
+        "sections": write_pages(out / "sections", section_pages(ctx, addresses)),
     }
     if theme_dest is not None:
         copy_theme(theme_dest)

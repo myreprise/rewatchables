@@ -83,10 +83,13 @@ export function filmHref(id, base) {
   return `${base}movie/${id}`;
 }
 
-export function filmCard(film, subtitle, base) {
+// `tone` ("cruise", "hanks", "tie") adds the app's verdict band under the art.
+// The caption is expected to say the same in words.
+export function filmCard(film, subtitle, base, tone = "") {
   return html`<a class="rw-cardlink" href=${filmHref(film.id, base)}>
     <div class="poster-card">
       ${plate(film, "w185", "poster-img")}
+      ${tone ? html`<div class=${`poster-rule ${tone}`}></div>` : ""}
       <div class="poster-label"><strong>${film.title}</strong><span>${subtitle ?? ""}</span></div>
     </div>
   </a>`;
@@ -203,4 +206,18 @@ export function readTrail(id) {
   } catch {
     return null;
   }
+}
+
+// A film's title, linked to its page when it has one.
+export function filmLink(film, base) {
+  return film.id ? html`<a href=${filmHref(film.id, base)}>${film.title}</a>` : film.title;
+}
+
+// A plain table, for the app's small st.dataframe tables. `columns` is
+// [[header, row => cell, "num"?], ...]; a "num" column is right-aligned.
+export function table(rows, columns) {
+  return html`<div class="rw-table-wrap"><table class="rw-table">
+    <thead><tr>${columns.map(([h, , num]) => html`<th class=${num ? "num" : ""}>${h}</th>`)}</tr></thead>
+    <tbody>${rows.map((r) => html`<tr>${columns.map(([, cell, num]) => html`<td class=${num ? "num" : ""}>${cell(r)}</td>`)}</tr>`)}</tbody>
+  </table></div>`;
 }

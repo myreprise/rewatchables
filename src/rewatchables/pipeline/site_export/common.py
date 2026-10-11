@@ -76,6 +76,11 @@ def write_pages(folder, pages):
     return len(keep)
 
 
+def figure(fig):
+    """A Plotly figure as the JSON Plotly.js draws, or None for no figure."""
+    return None if fig is None else json.loads(fig.to_json())
+
+
 def blurb(text, limit=BLURB_CHARS):
     """A summary cut at a word boundary, as the overview spotlight cuts it."""
     text = text or ""
@@ -121,7 +126,24 @@ def prepare(ctx):
     movies = movies.sort_values(["year", "slug"], kind="mergesort").reset_index(drop=True)
     keywords = build_keyword_index(movies)
     reach = {word: len(ids) for word, ids in keywords.items()}
-    ctx = dataclasses.replace(ctx, movies=movies, keywords=keywords, reach=reach)
+    slugs = dict(zip(movies["movie_id"], movies["slug"]))
+
+    # The episode frames too. The links query has no ORDER BY, so its rows
+    # come back in whatever order step 06 inserted them, and a chart drawn
+    # from them lists its points in that order. By airing, then the film's
+    # address for the rare day with two.
+    def by_airing(frame, date_col, number_col):
+        key = frame["movie_id"].map(slugs).fillna("")
+        return (frame.assign(_film=key)
+                .sort_values([date_col, number_col, "_film"], kind="mergesort")
+                .drop(columns="_film").reset_index(drop=True))
+
+    ctx = dataclasses.replace(
+        ctx, movies=movies, keywords=keywords, reach=reach,
+        links=by_airing(ctx.links, "episode_date", "episode_number"),
+        merged=by_airing(ctx.merged, "episode_date", "episode_number"),
+        cruise_hanks=by_airing(ctx.cruise_hanks, "episode_date", "episode_number"),
+    )
 
     room = room_long(ctx.merged, "raw_episode_id")
     people = set(room["person"]) - {ANCHOR}

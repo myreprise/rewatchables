@@ -101,7 +101,7 @@ def lean_chips(rows):
     return "".join(
         f'<span class="badge{" badge-mint" if r.diff > 0 else ""}">'
         f"{lean_phrase(r.metric, r.mean_in, r.mean_out, r.diff)}</span>"
-        for r in rows.sort_values("q").itertuples()
+        for r in rows.sort_values(["q", "metric"], kind="mergesort").itertuples()
     )
 
 

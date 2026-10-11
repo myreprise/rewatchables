@@ -40,7 +40,8 @@ def person_page(name, ctx, addresses, others, board, regulars, held):
     ids = set(shelf["raw_episode_id"])
     company = sits_with(others, ids, name)
     tally = verdict_tally(ctx.merged, ids)
-    mine = held[held["person"] == name].sort_values("q")
+    # Ties on q break on the measure's name, as lean_chips breaks them.
+    mine = held[held["person"] == name].sort_values(["q", "metric"], kind="mergesort")
 
     return {
         "name": name,

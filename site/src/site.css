@@ -122,3 +122,35 @@ details.rw-filter-more .rw-filters { margin: 6px 0; }
 form[class^="inputs-"] input[type="checkbox"] { accent-color: var(--mint); }
 /* In the app each band heading sits in its own Streamlit block, which spaces it. */
 .rw-kw-field + .rw-kw-legend, .rw-kw-legend { margin-top: 14px; }
+
+/* ── Chart sections ───────────────────────────────────────────────────── */
+/* st.columns for charts side by side. */
+.rw-cols { display: grid; gap: 20px; align-items: start; }
+.rw-cols.c3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.rw-cols.c2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.rw-cols.c32 { grid-template-columns: 3fr 2fr; }
+.rw-cols > * { min-width: 0; }
+@media (max-width: 860px) { .rw-cols.c3, .rw-cols.c2, .rw-cols.c32 { grid-template-columns: 1fr; } }
+
+/* The app's st.dataframe tables, as plain tables. */
+.rw-table-wrap { overflow-x: auto; margin: 6px 0 10px; }
+.rw-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.rw-table th {
+  text-align: left; font-family: var(--monospace); font-size: 10px; font-weight: 500;
+  letter-spacing: .1em; text-transform: uppercase; color: var(--txt-2);
+  border-bottom: 1px solid var(--line-2); padding: 6px 10px 6px 0;
+}
+.rw-table td { border-bottom: 1px solid var(--line); padding: 6px 10px 6px 0; color: var(--tape-2); }
+.rw-table .num { text-align: right; font-variant-numeric: tabular-nums; }
+.rw-table a { text-decoration: none; color: var(--tape) !important; }
+.rw-table a:hover { color: var(--mint) !important; }
+.rw-sub { font-family: 'Archivo', sans-serif; font-weight: 600; font-size: 14px; color: var(--tape); margin: 6px 0; }
+.ch-guest .gn a { text-decoration: none; }
+.ch-guest .gn a:hover { color: var(--mint) !important; }
+.rw-cols.c4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+@media (max-width: 860px) { .rw-cols.c4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+/* The ledger's grid: six across, as in the app, since its caption carries an
+   episode number as well as a year. */
+.rw-grid.six { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+@media (max-width: 1100px) { .rw-grid.six { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .rw-grid.six { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
