@@ -5,7 +5,10 @@
  "poster": "2rM7fQKpb7cs1Iq7IBqub9LFDzJ.jpg",
  "tmdb_id": 621,
  "directors": [
-  "Randal Kleiser"
+  {
+   "name": "Randal Kleiser",
+   "id": "randal-kleiser"
+  }
  ],
  "director_primary": "Randal Kleiser",
  "genres": [
@@ -319,43 +322,53 @@
  "cast": [
   {
    "name": "Olivia Newton-John",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "John Travolta",
-   "films": 6
+   "films": 6,
+   "id": "john-travolta"
   },
   {
    "name": "Stockard Channing",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jeff Conaway",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Barry Pearl",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Michael Tucci",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kelly Ward",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Didi Conn",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jamie Donnelly",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Dinah Manoff",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

@@ -5,7 +5,10 @@
  "poster": "5ZzBGpxy55OQzHxKVY11IpY6a0o.jpg",
  "tmdb_id": 1813,
  "directors": [
-  "Taylor Hackford"
+  {
+   "name": "Taylor Hackford",
+   "id": "taylor-hackford"
+  }
  ],
  "director_primary": "Taylor Hackford",
  "genres": [
@@ -236,43 +239,53 @@
  "cast": [
   {
    "name": "Keanu Reeves",
-   "films": 8
+   "films": 8,
+   "id": "keanu-reeves"
   },
   {
    "name": "Al Pacino",
-   "films": 13
+   "films": 13,
+   "id": "al-pacino"
   },
   {
    "name": "Charlize Theron",
-   "films": 3
+   "films": 3,
+   "id": "charlize-theron"
   },
   {
    "name": "Jeffrey Jones",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Judith Ivey",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Connie Nielsen",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Craig T. Nelson",
-   "films": 1
+   "films": 1,
+   "id": "craig-t-nelson"
   },
   {
    "name": "Tamara Tunie",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ruben Santiago-Hudson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Debra Monk",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

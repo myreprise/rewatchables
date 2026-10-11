@@ -5,7 +5,10 @@
  "poster": "2L3Cn0CizbSy2E9KJt1SiOSyb6p.jpg",
  "tmdb_id": 2655,
  "directors": [
-  "Robert Zemeckis"
+  {
+   "name": "Robert Zemeckis",
+   "id": "robert-zemeckis"
+  }
  ],
  "director_primary": "Robert Zemeckis",
  "genres": [
@@ -237,43 +240,53 @@
  "cast": [
   {
    "name": "Michelle Pfeiffer",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Harrison Ford",
-   "films": 7
+   "films": 7,
+   "id": "harrison-ford"
   },
   {
    "name": "Diana Scarwid",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "James Remar",
-   "films": 3
+   "films": 3,
+   "id": "james-remar"
   },
   {
    "name": "Miranda Otto",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ray Baker",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Wendy Crewson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Amber Valletta",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Katharine Towne",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Victoria Bidewell",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

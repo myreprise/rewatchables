@@ -5,7 +5,10 @@
  "poster": "or6XJBVpcEbIkma0V9zshnbEtx4.jpg",
  "tmdb_id": 557,
  "directors": [
-  "Sam Raimi"
+  {
+   "name": "Sam Raimi",
+   "id": "sam-raimi"
+  }
  ],
  "director_primary": "Sam Raimi",
  "genres": [
@@ -175,43 +178,53 @@
  "cast": [
   {
    "name": "Tobey Maguire",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Willem Dafoe",
-   "films": 5
+   "films": 5,
+   "id": "willem-dafoe"
   },
   {
    "name": "Kirsten Dunst",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "James Franco",
-   "films": 3
+   "films": 3,
+   "id": "james-franco"
   },
   {
    "name": "Cliff Robertson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Rosemary Harris",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "J.K. Simmons",
-   "films": 1
+   "films": 1,
+   "id": "j-k-simmons"
   },
   {
    "name": "Joe Manganiello",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Gerry Becker",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Bill Nunn",
-   "films": 0
+   "films": 0,
+   "id": "bill-nunn"
   }
  ],
  "by_director": [

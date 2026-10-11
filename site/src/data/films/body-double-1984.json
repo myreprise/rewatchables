@@ -5,7 +5,10 @@
  "poster": "lRFm5P2AdOGpELwm3HHhmUz6k5I.jpg",
  "tmdb_id": 11507,
  "directors": [
-  "Brian de Palma"
+  {
+   "name": "Brian de Palma",
+   "id": "brian-de-palma-2"
+  }
  ],
  "director_primary": "Brian de Palma",
  "genres": [
@@ -187,43 +190,53 @@
  "cast": [
   {
    "name": "Craig Wasson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Melanie Griffith",
-   "films": 3
+   "films": 3,
+   "id": "melanie-griffith"
   },
   {
    "name": "Gregg Henry",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Deborah Shelton",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Guy Boyd",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Dennis Franz",
-   "films": 1
+   "films": 1,
+   "id": "dennis-franz"
   },
   {
    "name": "David Haskell",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Rebecca Stanley",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Al Israel",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Douglas Warhit",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

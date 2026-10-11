@@ -5,7 +5,10 @@
  "poster": "eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
  "tmdb_id": 120467,
  "directors": [
-  "Wes Anderson"
+  {
+   "name": "Wes Anderson",
+   "id": "wes-anderson"
+  }
  ],
  "director_primary": "Wes Anderson",
  "genres": [
@@ -172,43 +175,53 @@
  "cast": [
   {
    "name": "Ralph Fiennes",
-   "films": 3
+   "films": 3,
+   "id": "ralph-fiennes"
   },
   {
    "name": "F. Murray Abraham",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Tony Revolori",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Adrien Brody",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Willem Dafoe",
-   "films": 5
+   "films": 5,
+   "id": "willem-dafoe"
   },
   {
    "name": "Mathieu Amalric",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jeff Goldblum",
-   "films": 3
+   "films": 3,
+   "id": "jeff-goldblum"
   },
   {
    "name": "Harvey Keitel",
-   "films": 3
+   "films": 3,
+   "id": "harvey-keitel"
   },
   {
    "name": "Jude Law",
-   "films": 3
+   "films": 3,
+   "id": "jude-law"
   },
   {
    "name": "Bill Murray",
-   "films": 6
+   "films": 6,
+   "id": "bill-murray"
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "6jmFvXPV6OhtX3AkAVnH7rwdeUJ.jpg",
  "tmdb_id": 31121,
  "directors": [
-  "Hal Ashby"
+  {
+   "name": "Hal Ashby",
+   "id": "hal-ashby"
+  }
  ],
  "director_primary": "Hal Ashby",
  "genres": [
@@ -116,43 +119,53 @@
  "cast": [
   {
    "name": "Warren Beatty",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Julie Christie",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Goldie Hawn",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Lee Grant",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jack Warden",
-   "films": 7
+   "films": 7,
+   "id": "jack-warden"
   },
   {
    "name": "Tony Bill",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "George Furth",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jay Robinson",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ann Weldon",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Luana Anders",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

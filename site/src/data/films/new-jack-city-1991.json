@@ -5,7 +5,10 @@
  "poster": "k9VjzXyGElRAxXyXgPvtRRSznyL.jpg",
  "tmdb_id": 10952,
  "directors": [
-  "Mario Van Peebles"
+  {
+   "name": "Mario Van Peebles",
+   "id": "mario-van-peebles"
+  }
  ],
  "director_primary": "Mario Van Peebles",
  "genres": [
@@ -131,43 +134,53 @@
  "cast": [
   {
    "name": "Wesley Snipes",
-   "films": 3
+   "films": 3,
+   "id": "wesley-snipes"
   },
   {
    "name": "Ice-T",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Allen Payne",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Chris Rock",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Mario Van Peebles",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Michael Michele",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Bill Nunn",
-   "films": 0
+   "films": 0,
+   "id": "bill-nunn"
   },
   {
    "name": "Russell Wong",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Bill Cobbs",
-   "films": 1
+   "films": 1,
+   "id": "bill-cobbs"
   },
   {
    "name": "Christopher Williams",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

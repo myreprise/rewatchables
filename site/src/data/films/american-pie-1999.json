@@ -5,7 +5,10 @@
  "poster": "5P68by2Thn8wHAziyWGEw2O7hco.jpg",
  "tmdb_id": 2105,
  "directors": [
-  "Paul Weitz"
+  {
+   "name": "Paul Weitz",
+   "id": "paul-weitz"
+  }
  ],
  "director_primary": "Paul Weitz",
  "genres": [
@@ -190,43 +193,53 @@
  "cast": [
   {
    "name": "Jason Biggs",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Chris Klein",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Thomas Ian Nicholas",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Alyson Hannigan",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Shannon Elizabeth",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Tara Reid",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Eddie Kaye Thomas",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Seann William Scott",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Eugene Levy",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Natasha Lyonne",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

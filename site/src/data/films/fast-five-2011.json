@@ -5,7 +5,10 @@
  "poster": "gEfQjjQwY7fh5bI4GlG0RrBu7Pz.jpg",
  "tmdb_id": 51497,
  "directors": [
-  "Justin Lin"
+  {
+   "name": "Justin Lin",
+   "id": "justin-lin"
+  }
  ],
  "director_primary": "Justin Lin",
  "genres": [
@@ -197,43 +200,53 @@
  "cast": [
   {
    "name": "Vin Diesel",
-   "films": 3
+   "films": 3,
+   "id": "vin-diesel"
   },
   {
    "name": "Paul Walker",
-   "films": 4
+   "films": 4,
+   "id": "paul-walker"
   },
   {
    "name": "Jordana Brewster",
-   "films": 2
+   "films": 2,
+   "id": "jordana-brewster"
   },
   {
    "name": "Tyrese Gibson",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Ludacris",
-   "films": 1
+   "films": 1,
+   "id": "ludacris"
   },
   {
    "name": "Matt Schulze",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Sung Kang",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Gal Gadot",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Tego Calderon",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Don Omar",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

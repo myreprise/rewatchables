@@ -5,7 +5,10 @@
  "poster": "shHrSmXS5140o6sQzgzXxn3KqSm.jpg",
  "tmdb_id": 788,
  "directors": [
-  "Chris Columbus"
+  {
+   "name": "Chris Columbus",
+   "id": "chris-columbus"
+  }
  ],
  "director_primary": "Chris Columbus",
  "genres": [
@@ -166,43 +169,53 @@
  "cast": [
   {
    "name": "Robin Williams",
-   "films": 3
+   "films": 3,
+   "id": "robin-williams"
   },
   {
    "name": "Sally Field",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Lisa Jakub",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Matthew Lawrence",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Mara Wilson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Pierce Brosnan",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Robert Prosky",
-   "films": 2
+   "films": 2,
+   "id": "robert-prosky"
   },
   {
    "name": "Anne Haney",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Harvey Fierstein",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Scott Capurro",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "2TrAzNJlHyNYYSkQf6asg3rs2Xr.jpg",
  "tmdb_id": 10669,
  "directors": [
-  "John Boorman"
+  {
+   "name": "John Boorman",
+   "id": "john-boorman"
+  }
  ],
  "director_primary": "John Boorman",
  "genres": [
@@ -152,43 +155,53 @@
  "cast": [
   {
    "name": "Jon Voight",
-   "films": 6
+   "films": 6,
+   "id": "jon-voight"
   },
   {
    "name": "Burt Reynolds",
-   "films": 3
+   "films": 3,
+   "id": "burt-reynolds"
   },
   {
    "name": "Ned Beatty",
-   "films": 2
+   "films": 2,
+   "id": "ned-beatty"
   },
   {
    "name": "Ronny Cox",
-   "films": 5
+   "films": 5,
+   "id": "ronny-cox"
   },
   {
    "name": "Ed Ramey",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Billy Redden",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Seamon Glass",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Randall Deal",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Bill McKinney",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Herbert 'Cowboy' Coward",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

@@ -5,7 +5,10 @@
  "poster": "gsFoJk9g8W3zgaipRrrURk7LbiF.jpg",
  "tmdb_id": 114150,
  "directors": [
-  "Jason Moore"
+  {
+   "name": "Jason Moore",
+   "id": "jason-moore"
+  }
  ],
  "director_primary": "Jason Moore",
  "genres": [
@@ -180,43 +183,53 @@
  "cast": [
   {
    "name": "Anna Kendrick",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Anna Camp",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Brittany Snow",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Skylar Astin",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Rebel Wilson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ester Dean",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Hana Mae Lee",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Adam Devine",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Elizabeth Banks",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ben Platt",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

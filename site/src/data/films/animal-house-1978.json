@@ -5,7 +5,10 @@
  "poster": "fWooBbipMRIKeSRhEzmeaDV0T8H.jpg",
  "tmdb_id": 8469,
  "directors": [
-  "John Landis"
+  {
+   "name": "John Landis",
+   "id": "john-landis"
+  }
  ],
  "director_primary": "John Landis",
  "genres": [
@@ -118,43 +121,53 @@
  "cast": [
   {
    "name": "John Belushi",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Karen Allen",
-   "films": 3
+   "films": 3,
+   "id": "karen-allen"
   },
   {
    "name": "Tom Hulce",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Stephen Furst",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Mark Metcalf",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Mary Louise Weller",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Martha Smith",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "John Vernon",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "James Daughton",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kevin Bacon",
-   "films": 5
+   "films": 5,
+   "id": "kevin-bacon"
   }
  ],
  "by_director": [

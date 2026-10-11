@@ -5,7 +5,10 @@
  "poster": "qtO57obCJuUBS0en3HLgFgZ19Xk.jpg",
  "tmdb_id": 50839,
  "directors": [
-  "J. C. Chandor"
+  {
+   "name": "J. C. Chandor",
+   "id": "j-c-chandor"
+  }
  ],
  "director_primary": "J. C. Chandor",
  "genres": [
@@ -144,43 +147,53 @@
  "cast": [
   {
    "name": "Kevin Spacey",
-   "films": 4
+   "films": 4,
+   "id": "kevin-spacey"
   },
   {
    "name": "Zachary Quinto",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Paul Bettany",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jeremy Irons",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Simon Baker",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Penn Badgley",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Demi Moore",
-   "films": 6
+   "films": 6,
+   "id": "demi-moore"
   },
   {
    "name": "Stanley Tucci",
-   "films": 1
+   "films": 1,
+   "id": "stanley-tucci"
   },
   {
    "name": "Ashley Williams",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Mary McDonnell",
-   "films": 2
+   "films": 2,
+   "id": "mary-mcdonnell"
   }
  ],
  "by_director": [],

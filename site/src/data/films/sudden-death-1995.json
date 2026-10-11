@@ -5,7 +5,10 @@
  "poster": "4Snihptli0we9I4W5QfufOdHSeV.jpg",
  "tmdb_id": 9091,
  "directors": [
-  "Peter Hyams"
+  {
+   "name": "Peter Hyams",
+   "id": "peter-hyams"
+  }
  ],
  "director_primary": "Peter Hyams",
  "genres": [
@@ -107,43 +110,53 @@
  "cast": [
   {
    "name": "Jean-Claude Van Damme",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Powers Boothe",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Raymond J. Barry",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Whittni Wright",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ross Malinger",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Dorian Harewood",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kate McNeil",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Michael Gaston",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Audra Lindley",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Brian Delate",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

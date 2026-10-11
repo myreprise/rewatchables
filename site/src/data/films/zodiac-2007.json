@@ -5,7 +5,10 @@
  "poster": "6YmeO4pB7XTh8P8F960O1uA14JO.jpg",
  "tmdb_id": 1949,
  "directors": [
-  "David Fincher"
+  {
+   "name": "David Fincher",
+   "id": "david-fincher"
+  }
  ],
  "director_primary": "David Fincher",
  "genres": [
@@ -310,43 +313,53 @@
  "cast": [
   {
    "name": "Jake Gyllenhaal",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Mark Ruffalo",
-   "films": 4
+   "films": 4,
+   "id": "mark-ruffalo"
   },
   {
    "name": "Anthony Edwards",
-   "films": 3
+   "films": 3,
+   "id": "anthony-edwards"
   },
   {
    "name": "Robert Downey Jr.",
-   "films": 3
+   "films": 3,
+   "id": "robert-downey-jr"
   },
   {
    "name": "Chloë Sevigny",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Elias Koteas",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "John Carroll Lynch",
-   "films": 0
+   "films": 0,
+   "id": "john-carroll-lynch"
   },
   {
    "name": "Brian Cox",
-   "films": 3
+   "films": 3,
+   "id": "brian-cox"
   },
   {
    "name": "Dermot Mulroney",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Charles Fleischer",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

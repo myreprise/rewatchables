@@ -5,7 +5,10 @@
  "poster": "69Xzn8UdPbVnmqSChKz2RTpoNfB.jpg",
  "tmdb_id": 754,
  "directors": [
-  "John Woo"
+  {
+   "name": "John Woo",
+   "id": "john-woo"
+  }
  ],
  "director_primary": "John Woo",
  "genres": [
@@ -282,43 +285,53 @@
  "cast": [
   {
    "name": "John Travolta",
-   "films": 6
+   "films": 6,
+   "id": "john-travolta"
   },
   {
    "name": "Nicolas Cage",
-   "films": 5
+   "films": 5,
+   "id": "nicolas-cage"
   },
   {
    "name": "Joan Allen",
-   "films": 4
+   "films": 4,
+   "id": "joan-allen"
   },
   {
    "name": "Alessandro Nivola",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Gina Gershon",
-   "films": 1
+   "films": 1,
+   "id": "gina-gershon"
   },
   {
    "name": "Dominique Swain",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Nick Cassavetes",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Harve Presnell",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Colm Feore",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "John Carroll Lynch",
-   "films": 0
+   "films": 0,
+   "id": "john-carroll-lynch"
   }
  ],
  "by_director": [],

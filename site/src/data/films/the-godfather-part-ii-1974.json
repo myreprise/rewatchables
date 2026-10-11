@@ -5,7 +5,10 @@
  "poster": "sSuQTCZwqKrNBNIsksO9IAUoWP9.jpg",
  "tmdb_id": 240,
  "directors": [
-  "Francis Ford Coppola"
+  {
+   "name": "Francis Ford Coppola",
+   "id": "francis-ford-coppola"
+  }
  ],
  "director_primary": "Francis Ford Coppola",
  "genres": [
@@ -239,43 +242,53 @@
  "cast": [
   {
    "name": "Al Pacino",
-   "films": 13
+   "films": 13,
+   "id": "al-pacino"
   },
   {
    "name": "Robert Duvall",
-   "films": 4
+   "films": 4,
+   "id": "robert-duvall"
   },
   {
    "name": "Diane Keaton",
-   "films": 3
+   "films": 3,
+   "id": "diane-keaton"
   },
   {
    "name": "Robert De Niro",
-   "films": 14
+   "films": 14,
+   "id": "robert-de-niro"
   },
   {
    "name": "John Cazale",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Talia Shire",
-   "films": 5
+   "films": 5,
+   "id": "talia-shire"
   },
   {
    "name": "Lee Strasberg",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Michael V. Gazzo",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "G.D. Spradlin",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Richard Bright",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

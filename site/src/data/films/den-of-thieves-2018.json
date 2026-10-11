@@ -5,7 +5,10 @@
  "poster": "dAP5NpkrMMczir5dUPjRR6ywqgz.jpg",
  "tmdb_id": 449443,
  "directors": [
-  "Christian Gudegast"
+  {
+   "name": "Christian Gudegast",
+   "id": "christian-gudegast"
+  }
  ],
  "director_primary": "Christian Gudegast",
  "genres": [
@@ -254,43 +257,53 @@
  "cast": [
   {
    "name": "Gerard Butler",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Pablo Schreiber",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "O'Shea Jackson Jr.",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "50 Cent",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Meadow Williams",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Maurice Compte",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Brian Van Holt",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Evan Jones",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Mo McRae",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kaiwi Lyman",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

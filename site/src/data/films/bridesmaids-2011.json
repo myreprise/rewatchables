@@ -5,7 +5,10 @@
  "poster": "gJtA7hYsBMQ7EM3sPBMUdBfU7a0.jpg",
  "tmdb_id": 55721,
  "directors": [
-  "Paul Feig"
+  {
+   "name": "Paul Feig",
+   "id": "paul-feig"
+  }
  ],
  "director_primary": "Paul Feig",
  "genres": [
@@ -228,43 +231,53 @@
  "cast": [
   {
    "name": "Kristen Wiig",
-   "films": 3
+   "films": 3,
+   "id": "kristen-wiig"
   },
   {
    "name": "Maya Rudolph",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Rose Byrne",
-   "films": 3
+   "films": 3,
+   "id": "rose-byrne"
   },
   {
    "name": "Chris O'Dowd",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Melissa McCarthy",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Wendi McLendon-Covey",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ellie Kemper",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jill Clayburgh",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Matt Lucas",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Rebel Wilson",
-   "films": 1
+   "films": 1,
+   "id": null
   }
  ],
  "by_director": [],

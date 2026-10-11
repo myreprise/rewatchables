@@ -5,7 +5,10 @@
  "poster": "jFRhEPhtsln9tDwzMdZN3OlhUob.jpg",
  "tmdb_id": 7520,
  "directors": [
-  "Roger Donaldson"
+  {
+   "name": "Roger Donaldson",
+   "id": "roger-donaldson"
+  }
  ],
  "director_primary": "Roger Donaldson",
  "genres": [
@@ -110,43 +113,53 @@
  "cast": [
   {
    "name": "Tom Cruise",
-   "films": 17
+   "films": 17,
+   "id": "tom-cruise"
   },
   {
    "name": "Bryan Brown",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Elisabeth Shue",
-   "films": 4
+   "films": 4,
+   "id": "elisabeth-shue"
   },
   {
    "name": "Lisa Banes",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Kelly Lynch",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Gina Gershon",
-   "films": 1
+   "films": 1,
+   "id": "gina-gershon"
   },
   {
    "name": "Ron Dean",
-   "films": 0
+   "films": 0,
+   "id": "ron-dean"
   },
   {
    "name": "Ellen Foley",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Chris Owens",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Louis Ferreira",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

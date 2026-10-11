@@ -5,7 +5,10 @@
  "poster": "A4pH8DiNFEf2AgXkM4zk3ZpblV.jpg",
  "tmdb_id": 11060,
  "directors": [
-  "Mike Figgis"
+  {
+   "name": "Mike Figgis",
+   "id": "mike-figgis"
+  }
  ],
  "director_primary": "Mike Figgis",
  "genres": [
@@ -109,43 +112,53 @@
  "cast": [
   {
    "name": "Richard Gere",
-   "films": 6
+   "films": 6,
+   "id": "richard-gere"
   },
   {
    "name": "Andy Garcia",
-   "films": 4
+   "films": 4,
+   "id": "andy-garcia"
   },
   {
    "name": "Nancy Travis",
-   "films": 3
+   "films": 3,
+   "id": "nancy-travis"
   },
   {
    "name": "Laurie Metcalf",
-   "films": 1
+   "films": 1,
+   "id": "laurie-metcalf"
   },
   {
    "name": "Richard Bradford",
-   "films": 2
+   "films": 2,
+   "id": "richard-bradford"
   },
   {
    "name": "William Baldwin",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Michael Beach",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Katherine Borowitz",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Faye Grant",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "John Kapelos",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

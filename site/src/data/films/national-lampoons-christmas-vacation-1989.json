@@ -5,7 +5,10 @@
  "poster": "oat42hUw8XzKYUmfy0YLAxYd484.jpg",
  "tmdb_id": 5825,
  "directors": [
-  "Jeremiah S. Chechik"
+  {
+   "name": "Jeremiah S. Chechik",
+   "id": "jeremiah-s-chechik"
+  }
  ],
  "director_primary": "Jeremiah S. Chechik",
  "genres": [
@@ -189,43 +192,53 @@
  "cast": [
   {
    "name": "Chevy Chase",
-   "films": 4
+   "films": 4,
+   "id": "chevy-chase"
   },
   {
    "name": "Beverly D'Angelo",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Juliette Lewis",
-   "films": 2
+   "films": 2,
+   "id": "juliette-lewis"
   },
   {
    "name": "Johnny Galecki",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "John Randolph",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Diane Ladd",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "E.G. Marshall",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Doris Roberts",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Julia Louis-Dreyfus",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Randy Quaid",
-   "films": 3
+   "films": 3,
+   "id": "randy-quaid"
   }
  ],
  "by_director": [],

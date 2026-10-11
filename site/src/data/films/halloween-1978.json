@@ -5,7 +5,10 @@
  "poster": "wijlZ3HaYMvlDTPqJoTCWKFkCPU.jpg",
  "tmdb_id": 948,
  "directors": [
-  "John Carpenter"
+  {
+   "name": "John Carpenter",
+   "id": "john-carpenter"
+  }
  ],
  "director_primary": "John Carpenter",
  "genres": [
@@ -147,43 +150,53 @@
  "cast": [
   {
    "name": "Donald Pleasence",
-   "films": 4
+   "films": 4,
+   "id": "donald-pleasence"
   },
   {
    "name": "Jamie Lee Curtis",
-   "films": 3
+   "films": 3,
+   "id": "jamie-lee-curtis"
   },
   {
    "name": "Nancy Kyes",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "P. J. Soles",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Charles Cyphers",
-   "films": 2
+   "films": 2,
+   "id": "charles-cyphers"
   },
   {
    "name": "Kyle Richards",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Brian Andrews",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "John Michael Graham",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Nancy Stephens",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Arthur Malet",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

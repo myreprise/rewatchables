@@ -1269,12 +1269,12 @@
  "collaborators": [
   {
    "name": "Sylvester Stallone",
-   "id": null,
+   "id": "sylvester-stallone",
    "films": 3
   },
   {
    "name": "George P. Cosmatos",
-   "id": null,
+   "id": "george-p-cosmatos",
    "films": 2
   }
  ],

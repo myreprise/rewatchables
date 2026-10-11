@@ -5,7 +5,10 @@
  "poster": "tFXcEccSQMf3lfhfXKSU9iRBpa3.jpg",
  "tmdb_id": 419430,
  "directors": [
-  "Jordan Peele"
+  {
+   "name": "Jordan Peele",
+   "id": "jordan-peele"
+  }
  ],
  "director_primary": "Jordan Peele",
  "genres": [
@@ -198,43 +201,53 @@
  "cast": [
   {
    "name": "Daniel Kaluuya",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Allison Williams",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Catherine Keener",
-   "films": 2
+   "films": 2,
+   "id": "catherine-keener"
   },
   {
    "name": "Bradley Whitford",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Caleb Landry Jones",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Marcus Henderson",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Betty Gabriel",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "LaKeith Stanfield",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Stephen Root",
-   "films": 0
+   "films": 0,
+   "id": "stephen-root"
   },
   {
    "name": "Lil Rel Howery",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

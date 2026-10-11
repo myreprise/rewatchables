@@ -5,7 +5,10 @@
  "poster": "uqw16i2kmwVqkJHzjzbDU4xZ0Pl.jpg",
  "tmdb_id": 1371,
  "directors": [
-  "Sylvester Stallone"
+  {
+   "name": "Sylvester Stallone",
+   "id": "sylvester-stallone"
+  }
  ],
  "director_primary": "Sylvester Stallone",
  "genres": [
@@ -199,43 +202,53 @@
  "cast": [
   {
    "name": "Sylvester Stallone",
-   "films": 13
+   "films": 13,
+   "id": "sylvester-stallone"
   },
   {
    "name": "Talia Shire",
-   "films": 5
+   "films": 5,
+   "id": "talia-shire"
   },
   {
    "name": "Burt Young",
-   "films": 4
+   "films": 4,
+   "id": "burt-young"
   },
   {
    "name": "Carl Weathers",
-   "films": 6
+   "films": 6,
+   "id": "carl-weathers"
   },
   {
    "name": "Mr. T",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Burgess Meredith",
-   "films": 2
+   "films": 2,
+   "id": "burgess-meredith"
   },
   {
    "name": "Tony Burton",
-   "films": 0
+   "films": 0,
+   "id": "tony-burton"
   },
   {
    "name": "Hulk Hogan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ina Fried",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Al Silvani",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

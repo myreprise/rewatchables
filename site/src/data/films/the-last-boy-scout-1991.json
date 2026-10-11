@@ -5,7 +5,10 @@
  "poster": "glPswihcZYoAQ4YM2uJF4UACy8T.jpg",
  "tmdb_id": 9319,
  "directors": [
-  "Tony Scott"
+  {
+   "name": "Tony Scott",
+   "id": "tony-scott"
+  }
  ],
  "director_primary": "Tony Scott",
  "genres": [
@@ -203,43 +206,53 @@
  "cast": [
   {
    "name": "Bruce Willis",
-   "films": 7
+   "films": 7,
+   "id": "bruce-willis"
   },
   {
    "name": "Damon Wayans",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Chelsea Field",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Noble Willingham",
-   "films": 1
+   "films": 1,
+   "id": "noble-willingham"
   },
   {
    "name": "Taylor Negron",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Danielle Harris",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Halle Berry",
-   "films": 2
+   "films": 2,
+   "id": "halle-berry"
   },
   {
    "name": "Bruce McGill",
-   "films": 1
+   "films": 1,
+   "id": "bruce-mcgill"
   },
   {
    "name": "Badja Djola",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kim Coates",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

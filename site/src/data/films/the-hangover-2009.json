@@ -5,7 +5,10 @@
  "poster": "A0uS9rHR56FeBtpjVki16M5xxSW.jpg",
  "tmdb_id": 18785,
  "directors": [
-  "Todd Phillips"
+  {
+   "name": "Todd Phillips",
+   "id": "todd-phillips"
+  }
  ],
  "director_primary": "Todd Phillips",
  "genres": [
@@ -157,43 +160,53 @@
  "cast": [
   {
    "name": "Bradley Cooper",
-   "films": 4
+   "films": 4,
+   "id": "bradley-cooper"
   },
   {
    "name": "Ed Helms",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Zach Galifianakis",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Justin Bartha",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Heather Graham",
-   "films": 3
+   "films": 3,
+   "id": "heather-graham"
   },
   {
    "name": "Sasha Barrese",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jeffrey Tambor",
-   "films": 0
+   "films": 0,
+   "id": "jeffrey-tambor"
   },
   {
    "name": "Ken Jeong",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Rachael Harris",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Mike Tyson",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

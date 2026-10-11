@@ -5,7 +5,10 @@
  "poster": "ylA7E5Md21aqgzxbwa2dFxX8LKV.jpg",
  "tmdb_id": 11009,
  "directors": [
-  "John Badham"
+  {
+   "name": "John Badham",
+   "id": "john-badham"
+  }
  ],
  "director_primary": "John Badham",
  "genres": [
@@ -132,43 +135,53 @@
  "cast": [
   {
    "name": "John Travolta",
-   "films": 6
+   "films": 6,
+   "id": "john-travolta"
   },
   {
    "name": "Karen Lynn Gorney",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Barry Miller",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Joseph Cali",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Paul Pape",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Donna Pescow",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Bruce Ornstein",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Julie Bovasso",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Martin Shakar",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Sam Coppola",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

@@ -5,7 +5,10 @@
  "poster": "k5dvEA7ajd90mf3KrF6m6LnYXOv.jpg",
  "tmdb_id": 11590,
  "directors": [
-  "George Roy Hill"
+  {
+   "name": "George Roy Hill",
+   "id": "george-roy-hill"
+  }
  ],
  "director_primary": "George Roy Hill",
  "genres": [
@@ -95,43 +98,53 @@
  "cast": [
   {
    "name": "Paul Newman",
-   "films": 5
+   "films": 5,
+   "id": "paul-newman"
   },
   {
    "name": "Strother Martin",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Michael Ontkean",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jennifer Warren",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Lindsay Crouse",
-   "films": 1
+   "films": 1,
+   "id": "lindsay-crouse"
   },
   {
    "name": "Jerry Houser",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Andrew Duncan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jeff Carlson",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Steve Carlson",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "David Hanson",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

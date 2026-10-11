@@ -5,7 +5,10 @@
  "poster": "kBmwWeSN3ajnYHZ3dSybEobxEPI.jpg",
  "tmdb_id": 2054,
  "directors": [
-  "Stephen Herek"
+  {
+   "name": "Stephen Herek",
+   "id": "stephen-herek"
+  }
  ],
  "director_primary": "Stephen Herek",
  "genres": [
@@ -193,43 +196,53 @@
  "cast": [
   {
    "name": "Richard Dreyfuss",
-   "films": 4
+   "films": 4,
+   "id": "richard-dreyfuss"
   },
   {
    "name": "Glenne Headly",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jay Thomas",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Olympia Dukakis",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "William H. Macy",
-   "films": 3
+   "films": 3,
+   "id": "william-h-macy"
   },
   {
    "name": "Alicia Witt",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Terrence Howard",
-   "films": 1
+   "films": 1,
+   "id": "terrence-howard"
   },
   {
    "name": "Damon Whitaker",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jean Louisa Kelly",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Alexandra Boyd",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

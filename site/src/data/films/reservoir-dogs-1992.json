@@ -5,7 +5,10 @@
  "poster": "xi8Iu6qyTfyZVDVy60raIOYJJmk.jpg",
  "tmdb_id": 500,
  "directors": [
-  "Quentin Tarantino"
+  {
+   "name": "Quentin Tarantino",
+   "id": "quentin-tarantino"
+  }
  ],
  "director_primary": "Quentin Tarantino",
  "genres": [
@@ -200,43 +203,53 @@
  "cast": [
   {
    "name": "Harvey Keitel",
-   "films": 3
+   "films": 3,
+   "id": "harvey-keitel"
   },
   {
    "name": "Tim Roth",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Michael Madsen",
-   "films": 2
+   "films": 2,
+   "id": "michael-madsen"
   },
   {
    "name": "Chris Penn",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Steve Buscemi",
-   "films": 3
+   "films": 3,
+   "id": "steve-buscemi"
   },
   {
    "name": "Lawrence Tierney",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Randy Brooks",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kirk Baltz",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Edward Bunker",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Quentin Tarantino",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "5tXJ9ctuyEOMUFLaeqRisbXowWs.jpg",
  "tmdb_id": 1597,
  "directors": [
-  "Jay Roach"
+  {
+   "name": "Jay Roach",
+   "id": "jay-roach"
+  }
  ],
  "director_primary": "Jay Roach",
  "genres": [
@@ -161,43 +164,53 @@
  "cast": [
   {
    "name": "Ben Stiller",
-   "films": 7
+   "films": 7,
+   "id": "ben-stiller"
   },
   {
    "name": "Robert De Niro",
-   "films": 14
+   "films": 14,
+   "id": "robert-de-niro"
   },
   {
    "name": "Teri Polo",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Blythe Danner",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Nicole DeHuff",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jon Abrahams",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Owen Wilson",
-   "films": 1
+   "films": 1,
+   "id": "owen-wilson"
   },
   {
    "name": "James Rebhorn",
-   "films": 2
+   "films": 2,
+   "id": "james-rebhorn"
   },
   {
    "name": "Tom McCarthy",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Phyllis George",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

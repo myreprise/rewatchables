@@ -5,7 +5,10 @@
  "poster": "fhHB1uvfFKKFbj6bTKE8xdtsjKi.jpg",
  "tmdb_id": 82693,
  "directors": [
-  "David O. Russell"
+  {
+   "name": "David O. Russell",
+   "id": "david-o-russell"
+  }
  ],
  "director_primary": "David O. Russell",
  "genres": [
@@ -257,43 +260,53 @@
  "cast": [
   {
    "name": "Bradley Cooper",
-   "films": 4
+   "films": 4,
+   "id": "bradley-cooper"
   },
   {
    "name": "Jennifer Lawrence",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Robert De Niro",
-   "films": 14
+   "films": 14,
+   "id": "robert-de-niro"
   },
   {
    "name": "Jacki Weaver",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Anupam Kher",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Chris Tucker",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Julia Stiles",
-   "films": 1
+   "films": 1,
+   "id": "julia-stiles"
   },
   {
    "name": "Shea Whigham",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "John Ortiz",
-   "films": 1
+   "films": 1,
+   "id": "john-ortiz"
   },
   {
    "name": "Paul Herman",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

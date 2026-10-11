@@ -5,7 +5,10 @@
  "poster": "uAR0AWqhQL1hQa69UDEbb2rE5Wx.jpg",
  "tmdb_id": 694,
  "directors": [
-  "Stanley Kubrick"
+  {
+   "name": "Stanley Kubrick",
+   "id": "stanley-kubrick"
+  }
  ],
  "director_primary": "Stanley Kubrick",
  "genres": [
@@ -361,43 +364,53 @@
  "cast": [
   {
    "name": "Jack Nicholson",
-   "films": 4
+   "films": 4,
+   "id": "jack-nicholson"
   },
   {
    "name": "Shelley Duvall",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Danny Lloyd",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Scatman Crothers",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Barry Nelson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Philip Stone",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Joe Turkel",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Anne Jackson",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Tony Burton",
-   "films": 0
+   "films": 0,
+   "id": "tony-burton"
   },
   {
    "name": "Lia Beldam",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

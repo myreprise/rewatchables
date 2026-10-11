@@ -5,7 +5,10 @@
  "poster": "3Ya1RurP2NqaYoiok4DmfO41rCC.jpg",
  "tmdb_id": 10634,
  "directors": [
-  "F. Gary Gray"
+  {
+   "name": "F. Gary Gray",
+   "id": "f-gary-gray"
+  }
  ],
  "director_primary": "F. Gary Gray",
  "genres": [
@@ -158,43 +161,53 @@
  "cast": [
   {
    "name": "Ice Cube",
-   "films": 3
+   "films": 3,
+   "id": "ice-cube"
   },
   {
    "name": "Chris Tucker",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Nia Long",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Tommy Lister Jr.",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "John Witherspoon",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Anna Maria Horsford",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Regina King",
-   "films": 1
+   "films": 1,
+   "id": "regina-king"
   },
   {
    "name": "Paula Jai Parker",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Faizon Love",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "DJ Pooh",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

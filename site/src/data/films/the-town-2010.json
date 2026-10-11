@@ -5,7 +5,10 @@
  "poster": "3NIzyXkfylsjflRKSz8Fts3lXzm.jpg",
  "tmdb_id": 23168,
  "directors": [
-  "Ben Affleck"
+  {
+   "name": "Ben Affleck",
+   "id": "ben-affleck"
+  }
  ],
  "director_primary": "Ben Affleck",
  "genres": [
@@ -243,43 +246,53 @@
  "cast": [
   {
    "name": "Ben Affleck",
-   "films": 5
+   "films": 5,
+   "id": "ben-affleck"
   },
   {
    "name": "Jeremy Renner",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Rebecca Hall",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jon Hamm",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Blake Lively",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "George Carroll",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Pete Postlethwaite",
-   "films": 0
+   "films": 0,
+   "id": "pete-postlethwaite"
   },
   {
    "name": "Owen Burke",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Titus Welliver",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Chris Cooper",
-   "films": 1
+   "films": 1,
+   "id": null
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "oAJpHkMpfXiFY9F3HocIz9fhHLc.jpg",
  "tmdb_id": 14291,
  "directors": [
-  "Steven Zaillian"
+  {
+   "name": "Steven Zaillian",
+   "id": "steven-zaillian"
+  }
  ],
  "director_primary": "Steven Zaillian",
  "genres": [
@@ -122,43 +125,53 @@
  "cast": [
   {
    "name": "Max Pomeranc",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Joe Mantegna",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Joan Allen",
-   "films": 4
+   "films": 4,
+   "id": "joan-allen"
   },
   {
    "name": "Ben Kingsley",
-   "films": 2
+   "films": 2,
+   "id": "ben-kingsley"
   },
   {
    "name": "Laurence Fishburne",
-   "films": 6
+   "films": 6,
+   "id": "laurence-fishburne"
   },
   {
    "name": "Michael Nirenberg",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Robert Stephens",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "David Paymer",
-   "films": 1
+   "films": 1,
+   "id": "david-paymer"
   },
   {
    "name": "Hal Scardino",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "William H. Macy",
-   "films": 3
+   "films": 3,
+   "id": "william-h-macy"
   }
  ],
  "by_director": [],

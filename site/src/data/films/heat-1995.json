@@ -5,7 +5,10 @@
  "poster": "gKaePbkEkaqvMtw74EyhhkfCKKh.jpg",
  "tmdb_id": 949,
  "directors": [
-  "Michael Mann"
+  {
+   "name": "Michael Mann",
+   "id": "michael-mann"
+  }
  ],
  "director_primary": "Michael Mann",
  "genres": [
@@ -278,43 +281,53 @@
  "cast": [
   {
    "name": "Al Pacino",
-   "films": 13
+   "films": 13,
+   "id": "al-pacino"
   },
   {
    "name": "Robert De Niro",
-   "films": 14
+   "films": 14,
+   "id": "robert-de-niro"
   },
   {
    "name": "Val Kilmer",
-   "films": 6
+   "films": 6,
+   "id": "val-kilmer"
   },
   {
    "name": "Jon Voight",
-   "films": 6
+   "films": 6,
+   "id": "jon-voight"
   },
   {
    "name": "Tom Sizemore",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Diane Venora",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Amy Brenneman",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ashley Judd",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Mykelti Williamson",
-   "films": 2
+   "films": 2,
+   "id": "mykelti-williamson"
   },
   {
    "name": "Wes Studi",
-   "films": 1
+   "films": 1,
+   "id": null
   }
  ],
  "by_director": [

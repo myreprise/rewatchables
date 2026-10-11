@@ -5,7 +5,10 @@
  "poster": "nmtMNxslljllSTVtt7VIOXdxSZp.jpg",
  "tmdb_id": 9569,
  "directors": [
-  "Bruce Malmuth"
+  {
+   "name": "Bruce Malmuth",
+   "id": "bruce-malmuth"
+  }
  ],
  "director_primary": "Bruce Malmuth",
  "genres": [
@@ -177,43 +180,53 @@
  "cast": [
   {
    "name": "Steven Seagal",
-   "films": 3
+   "films": 3,
+   "id": "steven-seagal"
   },
   {
    "name": "Kelly LeBrock",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "William Sadler",
-   "films": 3
+   "films": 3,
+   "id": "william-sadler"
   },
   {
    "name": "Frederick Coffin",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Bonnie Burroughs",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Andrew Bloch",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Branscombe Richmond",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Charles Boswell",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Zachary Rosencrantz",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Lou Beatty Jr.",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

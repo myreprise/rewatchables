@@ -5,7 +5,10 @@
  "poster": "tPq0R4jTO4Ey8ZspFaWK9wGA4Ls.jpg",
  "tmdb_id": 117,
  "directors": [
-  "Brian De Palma"
+  {
+   "name": "Brian De Palma",
+   "id": "brian-de-palma"
+  }
  ],
  "director_primary": "Brian De Palma",
  "genres": [
@@ -134,43 +137,53 @@
  "cast": [
   {
    "name": "Kevin Costner",
-   "films": 9
+   "films": 9,
+   "id": "kevin-costner"
   },
   {
    "name": "Sean Connery",
-   "films": 3
+   "films": 3,
+   "id": "sean-connery"
   },
   {
    "name": "Robert De Niro",
-   "films": 14
+   "films": 14,
+   "id": "robert-de-niro"
   },
   {
    "name": "Charles Martin Smith",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Andy Garcia",
-   "films": 4
+   "films": 4,
+   "id": "andy-garcia"
   },
   {
    "name": "Richard Bradford",
-   "films": 2
+   "films": 2,
+   "id": "richard-bradford"
   },
   {
    "name": "Jack Kehoe",
-   "films": 0
+   "films": 0,
+   "id": "jack-kehoe"
   },
   {
    "name": "Brad Sullivan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Billy Drago",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Patricia Clarkson",
-   "films": 1
+   "films": 1,
+   "id": "patricia-clarkson"
   }
  ],
  "by_director": [

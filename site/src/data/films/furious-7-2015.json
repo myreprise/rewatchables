@@ -5,7 +5,10 @@
  "poster": "ktofZ9Htrjiy0P6LEowsDaxd3Ri.jpg",
  "tmdb_id": 168259,
  "directors": [
-  "James Wan"
+  {
+   "name": "James Wan",
+   "id": "james-wan"
+  }
  ],
  "director_primary": "James Wan",
  "genres": [
@@ -141,43 +144,53 @@
  "cast": [
   {
    "name": "Vin Diesel",
-   "films": 3
+   "films": 3,
+   "id": "vin-diesel"
   },
   {
    "name": "Paul Walker",
-   "films": 4
+   "films": 4,
+   "id": "paul-walker"
   },
   {
    "name": "Dwayne Johnson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Michelle Rodriguez",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Tyrese Gibson",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Ludacris",
-   "films": 1
+   "films": 1,
+   "id": "ludacris"
   },
   {
    "name": "Jordana Brewster",
-   "films": 2
+   "films": 2,
+   "id": "jordana-brewster"
   },
   {
    "name": "Jason Statham",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Kurt Russell",
-   "films": 4
+   "films": 4,
+   "id": "kurt-russell"
   },
   {
    "name": "Nathalie Emmanuel",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

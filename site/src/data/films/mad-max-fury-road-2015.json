@@ -5,7 +5,10 @@
  "poster": "ulcAi4dKpAjHwYGS08vNyx9H6I9.jpg",
  "tmdb_id": 76341,
  "directors": [
-  "George Miller"
+  {
+   "name": "George Miller",
+   "id": "george-miller"
+  }
  ],
  "director_primary": "George Miller",
  "genres": [
@@ -198,43 +201,53 @@
  "cast": [
   {
    "name": "Tom Hardy",
-   "films": 4
+   "films": 4,
+   "id": "tom-hardy"
   },
   {
    "name": "Charlize Theron",
-   "films": 3
+   "films": 3,
+   "id": "charlize-theron"
   },
   {
    "name": "Nicholas Hoult",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Hugh Keays-Byrne",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Josh Helman",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Nathan Jones",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Zoë Kravitz",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Rosie Huntington-Whiteley",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Riley Keough",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Abbey Lee",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

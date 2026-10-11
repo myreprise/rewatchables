@@ -5,7 +5,10 @@
  "poster": "kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg",
  "tmdb_id": 106646,
  "directors": [
-  "Martin Scorsese"
+  {
+   "name": "Martin Scorsese",
+   "id": "martin-scorsese"
+  }
  ],
  "director_primary": "Martin Scorsese",
  "genres": [
@@ -250,43 +253,53 @@
  "cast": [
   {
    "name": "Leonardo DiCaprio",
-   "films": 7
+   "films": 7,
+   "id": "leonardo-dicaprio"
   },
   {
    "name": "Jonah Hill",
-   "films": 4
+   "films": 4,
+   "id": "jonah-hill"
   },
   {
    "name": "Margot Robbie",
-   "films": 3
+   "films": 3,
+   "id": "margot-robbie"
   },
   {
    "name": "Matthew McConaughey",
-   "films": 4
+   "films": 4,
+   "id": "matthew-mcconaughey"
   },
   {
    "name": "Kyle Chandler",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Rob Reiner",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jon Bernthal",
-   "films": 2
+   "films": 2,
+   "id": "jon-bernthal"
   },
   {
    "name": "Jon Favreau",
-   "films": 3
+   "films": 3,
+   "id": "jon-favreau"
   },
   {
    "name": "Jean Dujardin",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Joanna Lumley",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

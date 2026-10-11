@@ -5,7 +5,10 @@
  "poster": "rB7OvMmjcBFoogleORaUqrRgp8g.jpg",
  "tmdb_id": 10478,
  "directors": [
-  "Ron Shelton"
+  {
+   "name": "Ron Shelton",
+   "id": "ron-shelton"
+  }
  ],
  "director_primary": "Ron Shelton",
  "genres": [
@@ -186,43 +189,53 @@
  "cast": [
   {
    "name": "Kevin Costner",
-   "films": 9
+   "films": 9,
+   "id": "kevin-costner"
   },
   {
    "name": "Rene Russo",
-   "films": 4
+   "films": 4,
+   "id": "rene-russo"
   },
   {
    "name": "Don Johnson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Cheech Marin",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Linda Hart",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Dennis Burkley",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Rex Linn",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Lou Myers",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Richard Lineback",
-   "films": 0
+   "films": 0,
+   "id": "richard-lineback"
   },
   {
    "name": "George Perez",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

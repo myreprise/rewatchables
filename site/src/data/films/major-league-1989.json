@@ -5,7 +5,10 @@
  "poster": "ypUedY9zX4nGGf1lQv1UGc8PhPA.jpg",
  "tmdb_id": 9942,
  "directors": [
-  "David S. Ward"
+  {
+   "name": "David S. Ward",
+   "id": "david-s-ward"
+  }
  ],
  "director_primary": "David S. Ward",
  "genres": [
@@ -153,43 +156,53 @@
  "cast": [
   {
    "name": "Tom Berenger",
-   "films": 5
+   "films": 5,
+   "id": "tom-berenger"
   },
   {
    "name": "Charlie Sheen",
-   "films": 2
+   "films": 2,
+   "id": "charlie-sheen"
   },
   {
    "name": "Corbin Bernsen",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Margaret Whitton",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "James Gammon",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Rene Russo",
-   "films": 4
+   "films": 4,
+   "id": "rene-russo"
   },
   {
    "name": "Wesley Snipes",
-   "films": 3
+   "films": 3,
+   "id": "wesley-snipes"
   },
   {
    "name": "Charles Cyphers",
-   "films": 2
+   "films": 2,
+   "id": "charles-cyphers"
   },
   {
    "name": "Chelcie Ross",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Dennis Haysbert",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

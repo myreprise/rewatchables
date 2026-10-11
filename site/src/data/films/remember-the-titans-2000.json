@@ -5,7 +5,10 @@
  "poster": "825ohvC4wZ3gCuncCaqkWeQnK8h.jpg",
  "tmdb_id": 10637,
  "directors": [
-  "Boaz Yakin"
+  {
+   "name": "Boaz Yakin",
+   "id": "boaz-yakin"
+  }
  ],
  "director_primary": "Boaz Yakin",
  "genres": [
@@ -206,43 +209,53 @@
  "cast": [
   {
    "name": "Denzel Washington",
-   "films": 12
+   "films": 12,
+   "id": "denzel-washington"
   },
   {
    "name": "Will Patton",
-   "films": 3
+   "films": 3,
+   "id": "will-patton"
   },
   {
    "name": "Wood Harris",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ryan Hurst",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Donald Faison",
-   "films": 2
+   "films": 2,
+   "id": "donald-faison"
   },
   {
    "name": "Craig Kirkwood",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ethan Suplee",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kip Pardue",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Hayden Panettiere",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Nicole Ari Parker",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

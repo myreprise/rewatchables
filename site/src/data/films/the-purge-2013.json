@@ -5,7 +5,10 @@
  "poster": "46X1ei9uf13nkkr0OhWldGyr5Uh.jpg",
  "tmdb_id": 158015,
  "directors": [
-  "James DeMonaco"
+  {
+   "name": "James DeMonaco",
+   "id": "james-demonaco"
+  }
  ],
  "director_primary": "James DeMonaco",
  "genres": [
@@ -162,43 +165,53 @@
  "cast": [
   {
    "name": "Ethan Hawke",
-   "films": 7
+   "films": 7,
+   "id": "ethan-hawke"
   },
   {
    "name": "Lena Headey",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Max Burkholder",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Adelaide Kane",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Edwin Hodge",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Rhys Wakefield",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Tony Oller",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Arija Bareikis",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Tom Yi",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Chris Mulkey",
-   "films": 0
+   "films": 0,
+   "id": "chris-mulkey"
   }
  ],
  "by_director": [],

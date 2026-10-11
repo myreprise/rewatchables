@@ -5,7 +5,10 @@
  "poster": "e15rmfjf0m6EGLe4MnNhwD3Dd1W.jpg",
  "tmdb_id": 13342,
  "directors": [
-  "Amy Heckerling"
+  {
+   "name": "Amy Heckerling",
+   "id": "amy-heckerling"
+  }
  ],
  "director_primary": "Amy Heckerling",
  "genres": [
@@ -208,43 +211,53 @@
  "cast": [
   {
    "name": "Sean Penn",
-   "films": 3
+   "films": 3,
+   "id": "sean-penn"
   },
   {
    "name": "Jennifer Jason Leigh",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Judge Reinhold",
-   "films": 3
+   "films": 3,
+   "id": "judge-reinhold"
   },
   {
    "name": "Phoebe Cates",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Brian Backer",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Robert Romanus",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ray Walston",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Scott Thomson",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Vincent Schiavelli",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Amanda Wyss",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "qJ2tW6WMUDux911r6m7haRef0WH.jpg",
  "tmdb_id": 155,
  "directors": [
-  "Christopher Nolan"
+  {
+   "name": "Christopher Nolan",
+   "id": "christopher-nolan"
+  }
  ],
  "director_primary": "Christopher Nolan",
  "genres": [
@@ -187,43 +190,53 @@
  "cast": [
   {
    "name": "Christian Bale",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Heath Ledger",
-   "films": 3
+   "films": 3,
+   "id": "heath-ledger"
   },
   {
    "name": "Aaron Eckhart",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Michael Caine",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Maggie Gyllenhaal",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Gary Oldman",
-   "films": 2
+   "films": 2,
+   "id": "gary-oldman"
   },
   {
    "name": "Morgan Freeman",
-   "films": 4
+   "films": 4,
+   "id": "morgan-freeman"
   },
   {
    "name": "Monique Gabriela Curnen",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ron Dean",
-   "films": 0
+   "films": 0,
+   "id": "ron-dean"
   },
   {
    "name": "Cillian Murphy",
-   "films": 1
+   "films": 1,
+   "id": "cillian-murphy"
   }
  ],
  "by_director": [

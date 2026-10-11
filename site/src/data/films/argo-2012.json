@@ -5,7 +5,10 @@
  "poster": "m5gPWFZFIp4UJFABgWyLkbXv8GX.jpg",
  "tmdb_id": 68734,
  "directors": [
-  "Ben Affleck"
+  {
+   "name": "Ben Affleck",
+   "id": "ben-affleck"
+  }
  ],
  "director_primary": "Ben Affleck",
  "genres": [
@@ -147,43 +150,53 @@
  "cast": [
   {
    "name": "Ben Affleck",
-   "films": 5
+   "films": 5,
+   "id": "ben-affleck"
   },
   {
    "name": "Bryan Cranston",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Alan Arkin",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "John Goodman",
-   "films": 5
+   "films": 5,
+   "id": "john-goodman"
   },
   {
    "name": "Victor Garber",
-   "films": 3
+   "films": 3,
+   "id": "victor-garber"
   },
   {
    "name": "Tate Donovan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Clea DuVall",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Scoot McNairy",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Rory Cochrane",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Christopher Denham",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

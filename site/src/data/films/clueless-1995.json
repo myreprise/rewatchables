@@ -5,7 +5,10 @@
  "poster": "8AwVTcgpTnmeOs4TdTWqcFDXEsA.jpg",
  "tmdb_id": 9603,
  "directors": [
-  "Amy Heckerling"
+  {
+   "name": "Amy Heckerling",
+   "id": "amy-heckerling"
+  }
  ],
  "director_primary": "Amy Heckerling",
  "genres": [
@@ -179,43 +182,53 @@
  "cast": [
   {
    "name": "Alicia Silverstone",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Stacey Dash",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Brittany Murphy",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Paul Rudd",
-   "films": 3
+   "films": 3,
+   "id": "paul-rudd"
   },
   {
    "name": "Donald Faison",
-   "films": 2
+   "films": 2,
+   "id": "donald-faison"
   },
   {
    "name": "Elisa Donovan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Breckin Meyer",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jeremy Sisto",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Dan Hedaya",
-   "films": 1
+   "films": 1,
+   "id": "dan-hedaya"
   },
   {
    "name": "Aida Linares",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

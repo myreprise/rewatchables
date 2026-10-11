@@ -5,7 +5,10 @@
  "poster": "rt7cpEr1uP6RTZykBFhBTcRaKvG.jpg",
  "tmdb_id": 275,
  "directors": [
-  "Joel Coen"
+  {
+   "name": "Joel Coen",
+   "id": "joel-coen"
+  }
  ],
  "director_primary": "Joel Coen",
  "genres": [
@@ -222,43 +225,53 @@
  "cast": [
   {
    "name": "Frances McDormand",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "William H. Macy",
-   "films": 3
+   "films": 3,
+   "id": "william-h-macy"
   },
   {
    "name": "Steve Buscemi",
-   "films": 3
+   "films": 3,
+   "id": "steve-buscemi"
   },
   {
    "name": "Peter Stormare",
-   "films": 2
+   "films": 2,
+   "id": "peter-stormare"
   },
   {
    "name": "Harve Presnell",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "John Carroll Lynch",
-   "films": 0
+   "films": 0,
+   "id": "john-carroll-lynch"
   },
   {
    "name": "Kristin Rudrüd",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Bruce Bohne",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Steve Reevis",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Steve Park",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

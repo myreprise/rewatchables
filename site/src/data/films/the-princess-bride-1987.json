@@ -5,7 +5,10 @@
  "poster": "2FC9L9MrjBoGHYjYZjdWQdopVYb.jpg",
  "tmdb_id": 2493,
  "directors": [
-  "Rob Reiner"
+  {
+   "name": "Rob Reiner",
+   "id": "rob-reiner"
+  }
  ],
  "director_primary": "Rob Reiner",
  "genres": [
@@ -226,43 +229,53 @@
  "cast": [
   {
    "name": "Cary Elwes",
-   "films": 3
+   "films": 3,
+   "id": "cary-elwes"
   },
   {
    "name": "Robin Wright",
-   "films": 3
+   "films": 3,
+   "id": "robin-wright"
   },
   {
    "name": "Mandy Patinkin",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Chris Sarandon",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Christopher Guest",
-   "films": 2
+   "films": 2,
+   "id": "christopher-guest"
   },
   {
    "name": "Wallace Shawn",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "André Roussimoff",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Fred Savage",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Peter Falk",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Peter Cook",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

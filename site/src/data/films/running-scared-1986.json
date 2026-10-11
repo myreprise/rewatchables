@@ -5,7 +5,10 @@
  "poster": "nSiRjhc7aTVPonXAhmTZAPqd2jT.jpg",
  "tmdb_id": 15698,
  "directors": [
-  "Peter Hyams"
+  {
+   "name": "Peter Hyams",
+   "id": "peter-hyams"
+  }
  ],
  "director_primary": "Peter Hyams",
  "genres": [
@@ -184,43 +187,53 @@
  "cast": [
   {
    "name": "Gregory Hines",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Billy Crystal",
-   "films": 3
+   "films": 3,
+   "id": "billy-crystal"
   },
   {
    "name": "Steven Bauer",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Darlanne Fluegel",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Joe Pantoliano",
-   "films": 6
+   "films": 6,
+   "id": "joe-pantoliano"
   },
   {
    "name": "Dan Hedaya",
-   "films": 1
+   "films": 1,
+   "id": "dan-hedaya"
   },
   {
    "name": "Jon Gries",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Tracy Reed",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jimmy Smits",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "John DiSanti",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "yPGK58CcAM8NAX8ycR1jdjo2wiE.jpg",
  "tmdb_id": 9605,
  "directors": [
-  "Barbet Schroeder"
+  {
+   "name": "Barbet Schroeder",
+   "id": "barbet-schroeder"
+  }
  ],
  "director_primary": "Barbet Schroeder",
  "genres": [
@@ -157,43 +160,53 @@
  "cast": [
   {
    "name": "Bridget Fonda",
-   "films": 2
+   "films": 2,
+   "id": "bridget-fonda"
   },
   {
    "name": "Jennifer Jason Leigh",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Steven Weber",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Peter Friedman",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Stephen Tobolowsky",
-   "films": 2
+   "films": 2,
+   "id": "stephen-tobolowsky"
   },
   {
    "name": "Frances Bay",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Tara Karsian",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Christiana Capetillo",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jessica Lundy",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Renée Estevez",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

@@ -5,7 +5,10 @@
  "poster": "9KqG5OFi3NLJYBbsDSA8pZ3dln.jpg",
  "tmdb_id": 18169,
  "directors": [
-  "Edward Zwick"
+  {
+   "name": "Edward Zwick",
+   "id": "edward-zwick"
+  }
  ],
  "director_primary": "Edward Zwick",
  "genres": [
@@ -89,43 +92,53 @@
  "cast": [
   {
    "name": "Rob Lowe",
-   "films": 3
+   "films": 3,
+   "id": "rob-lowe"
   },
   {
    "name": "Demi Moore",
-   "films": 6
+   "films": 6,
+   "id": "demi-moore"
   },
   {
    "name": "Jim Belushi",
-   "films": 2
+   "films": 2,
+   "id": "jim-belushi"
   },
   {
    "name": "Elizabeth Perkins",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "George DiCenzo",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Robin Thomas",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Donna Gibbons",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Megan Mullally",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Michael Alldredge",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Patricia Duff",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

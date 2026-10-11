@@ -5,7 +5,10 @@
  "poster": "lxM6kqilAdpdhqUl2biYp5frUxE.jpg",
  "tmdb_id": 578,
  "directors": [
-  "Steven Spielberg"
+  {
+   "name": "Steven Spielberg",
+   "id": "steven-spielberg"
+  }
  ],
  "director_primary": "Steven Spielberg",
  "genres": [
@@ -243,43 +246,53 @@
  "cast": [
   {
    "name": "Roy Scheider",
-   "films": 3
+   "films": 3,
+   "id": "roy-scheider"
   },
   {
    "name": "Robert Shaw",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Richard Dreyfuss",
-   "films": 4
+   "films": 4,
+   "id": "richard-dreyfuss"
   },
   {
    "name": "Lorraine Gary",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Murray Hamilton",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Carl Gottlieb",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jeffrey Kramer",
-   "films": 2
+   "films": 2,
+   "id": "jeffrey-kramer"
   },
   {
    "name": "Susan Backlinie",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jonathan Filley",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ted Grossman",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

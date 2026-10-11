@@ -5,7 +5,10 @@
  "poster": "lUPDGT3lyRrq8SvWuNWG2DP64bR.jpg",
  "tmdb_id": 57214,
  "directors": [
-  "Nima Nourizadeh"
+  {
+   "name": "Nima Nourizadeh",
+   "id": "nima-nourizadeh"
+  }
  ],
  "director_primary": "Nima Nourizadeh",
  "genres": [
@@ -122,43 +125,53 @@
  "cast": [
   {
    "name": "Thomas Mann",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Oliver Cooper",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jonathan Daniel Brown",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Dax Flame",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Kirby Bliss Blanton",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Brady Hender",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Nick Nervies",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Alexis Knapp",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Miles Teller",
-   "films": 2
+   "films": 2,
+   "id": "miles-teller"
   },
   {
    "name": "Peter MacKenzie",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

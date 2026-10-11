@@ -5,7 +5,10 @@
  "poster": "dXNAPwY7VrqMAo51EKhhCJfaGb5.jpg",
  "tmdb_id": 603,
  "directors": [
-  "Wachowskis"
+  {
+   "name": "Wachowskis",
+   "id": "wachowskis"
+  }
  ],
  "director_primary": "Wachowskis",
  "genres": [
@@ -169,43 +172,53 @@
  "cast": [
   {
    "name": "Keanu Reeves",
-   "films": 8
+   "films": 8,
+   "id": "keanu-reeves"
   },
   {
    "name": "Laurence Fishburne",
-   "films": 6
+   "films": 6,
+   "id": "laurence-fishburne"
   },
   {
    "name": "Carrie-Anne Moss",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Hugo Weaving",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Gloria Foster",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Joe Pantoliano",
-   "films": 6
+   "films": 6,
+   "id": "joe-pantoliano"
   },
   {
    "name": "Marcus Chong",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Julian Arahanga",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Matt Doran",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Belinda McClory",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

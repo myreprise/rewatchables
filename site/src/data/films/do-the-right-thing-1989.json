@@ -5,7 +5,10 @@
  "poster": "63rmSDPahrH7C1gEFYzRuIBAN9W.jpg",
  "tmdb_id": 925,
  "directors": [
-  "Spike Lee"
+  {
+   "name": "Spike Lee",
+   "id": "spike-lee"
+  }
  ],
  "director_primary": "Spike Lee",
  "genres": [
@@ -216,43 +219,53 @@
  "cast": [
   {
    "name": "Danny Aiello",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ossie Davis",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ruby Dee",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Richard Edson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Giancarlo Esposito",
-   "films": 1
+   "films": 1,
+   "id": "giancarlo-esposito"
   },
   {
    "name": "Spike Lee",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Bill Nunn",
-   "films": 0
+   "films": 0,
+   "id": "bill-nunn"
   },
   {
    "name": "John Turturro",
-   "films": 4
+   "films": 4,
+   "id": "john-turturro"
   },
   {
    "name": "Paul Benjamin",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Frankie Faison",
-   "films": 0
+   "films": 0,
+   "id": "frankie-faison"
   }
  ],
  "by_director": [

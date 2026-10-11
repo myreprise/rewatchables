@@ -5,7 +5,10 @@
  "poster": "g2SL3XHJas7hebZ2hhTrYLpKToD.jpg",
  "tmdb_id": 11557,
  "directors": [
-  "Joel Schumacher"
+  {
+   "name": "Joel Schumacher",
+   "id": "joel-schumacher"
+  }
  ],
  "director_primary": "Joel Schumacher",
  "genres": [
@@ -78,43 +81,53 @@
  "cast": [
   {
    "name": "Andrew McCarthy",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Emilio Estevez",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Rob Lowe",
-   "films": 3
+   "films": 3,
+   "id": "rob-lowe"
   },
   {
    "name": "Demi Moore",
-   "films": 6
+   "films": 6,
+   "id": "demi-moore"
   },
   {
    "name": "Judd Nelson",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Ally Sheedy",
-   "films": 1
+   "films": 1,
+   "id": "ally-sheedy"
   },
   {
    "name": "Mare Winningham",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Martin Balsam",
-   "films": 1
+   "films": 1,
+   "id": "martin-balsam"
   },
   {
    "name": "Andie MacDowell",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Joyce Van Patten",
-   "films": 1
+   "films": 1,
+   "id": null
   }
  ],
  "by_director": [

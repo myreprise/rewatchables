@@ -5,7 +5,10 @@
  "poster": "hXWBc0ioZP3cN4zCu6SN3YHXZVO.jpg",
  "tmdb_id": 324552,
  "directors": [
-  "Chad Stahelski"
+  {
+   "name": "Chad Stahelski",
+   "id": "chad-stahelski"
+  }
  ],
  "director_primary": "Chad Stahelski",
  "genres": [
@@ -194,43 +197,53 @@
  "cast": [
   {
    "name": "Keanu Reeves",
-   "films": 8
+   "films": 8,
+   "id": "keanu-reeves"
   },
   {
    "name": "Common",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Laurence Fishburne",
-   "films": 6
+   "films": 6,
+   "id": "laurence-fishburne"
   },
   {
    "name": "Riccardo Scamarcio",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ruby Rose",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Lance Reddick",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Peter Stormare",
-   "films": 2
+   "films": 2,
+   "id": "peter-stormare"
   },
   {
    "name": "Bridget Moynahan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Franco Nero",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "John Leguizamo",
-   "films": 1
+   "films": 1,
+   "id": null
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "d4elOzyhNWVlxpG7BwigrumkFTe.jpg",
  "tmdb_id": 9870,
  "directors": [
-  "Nicholas Stoller"
+  {
+   "name": "Nicholas Stoller",
+   "id": "nicholas-stoller"
+  }
  ],
  "director_primary": "Nicholas Stoller",
  "genres": [
@@ -124,43 +127,53 @@
  "cast": [
   {
    "name": "Jason Segel",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Kristen Bell",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Mila Kunis",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Russell Brand",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Bill Hader",
-   "films": 3
+   "films": 3,
+   "id": "bill-hader"
   },
   {
    "name": "Jonah Hill",
-   "films": 4
+   "films": 4,
+   "id": "jonah-hill"
   },
   {
    "name": "Liz Cackowski",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jack McBrayer",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Maria Thayer",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Paul Rudd",
-   "films": 3
+   "films": 3,
+   "id": "paul-rudd"
   }
  ],
  "by_director": [

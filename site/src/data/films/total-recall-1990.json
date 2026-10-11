@@ -5,7 +5,10 @@
  "poster": "wVbeL6fkbTKSmNfalj4VoAUUqJv.jpg",
  "tmdb_id": 861,
  "directors": [
-  "Paul Verhoeven"
+  {
+   "name": "Paul Verhoeven",
+   "id": "paul-verhoeven"
+  }
  ],
  "director_primary": "Paul Verhoeven",
  "genres": [
@@ -243,43 +246,53 @@
  "cast": [
   {
    "name": "Arnold Schwarzenegger",
-   "films": 8
+   "films": 8,
+   "id": "arnold-schwarzenegger"
   },
   {
    "name": "Rachel Ticotin",
-   "films": 1
+   "films": 1,
+   "id": "rachel-ticotin"
   },
   {
    "name": "Sharon Stone",
-   "films": 3
+   "films": 3,
+   "id": "sharon-stone"
   },
   {
    "name": "Michael Ironside",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Marshall Bell",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Michael Champion",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Mel Johnson Jr.",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Roy Brocksmith",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Rosemary Dunsmore",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ronny Cox",
-   "films": 5
+   "films": 5,
+   "id": "ronny-cox"
   }
  ],
  "by_director": [

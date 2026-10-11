@@ -5,7 +5,10 @@
  "poster": "3jCLmYDIIiSMPujbwygNpqdpM8N.jpg",
  "tmdb_id": 153,
  "directors": [
-  "Sophia Coppola"
+  {
+   "name": "Sophia Coppola",
+   "id": "sophia-coppola"
+  }
  ],
  "director_primary": "Sophia Coppola",
  "genres": [
@@ -218,43 +221,53 @@
  "cast": [
   {
    "name": "Bill Murray",
-   "films": 6
+   "films": 6,
+   "id": "bill-murray"
   },
   {
    "name": "Scarlett Johansson",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Giovanni Ribisi",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Anna Faris",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Akiko Takeshita",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Kazuyoshi Minamimagoe",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kazuko Shibata",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Take",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ryuichiro Baba",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Akira Yamaguchi",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

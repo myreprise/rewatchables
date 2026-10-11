@@ -5,7 +5,10 @@
  "poster": "z0ljRnNxIO7CRBhLEO0DvLgAFPR.jpg",
  "tmdb_id": 710,
  "directors": [
-  "Martin Campbell"
+  {
+   "name": "Martin Campbell",
+   "id": "martin-campbell"
+  }
  ],
  "director_primary": "Martin Campbell",
  "genres": [
@@ -173,43 +176,53 @@
  "cast": [
   {
    "name": "Pierce Brosnan",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Sean Bean",
-   "films": 1
+   "films": 1,
+   "id": "sean-bean"
   },
   {
    "name": "Izabella Scorupco",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Famke Janssen",
-   "films": 2
+   "films": 2,
+   "id": "famke-janssen"
   },
   {
    "name": "Joe Don Baker",
-   "films": 3
+   "films": 3,
+   "id": "joe-don-baker"
   },
   {
    "name": "Judi Dench",
-   "films": 2
+   "films": 2,
+   "id": "judi-dench"
   },
   {
    "name": "Robbie Coltrane",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Tchéky Karyo",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Gottfried John",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Alan Cumming",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

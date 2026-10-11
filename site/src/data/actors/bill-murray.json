@@ -1241,7 +1241,7 @@
  "collaborators": [
   {
    "name": "Harold Ramis",
-   "id": null,
+   "id": "harold-ramis",
    "films": 2
   },
   {
@@ -1251,7 +1251,7 @@
   },
   {
    "name": "Wes Anderson",
-   "id": null,
+   "id": "wes-anderson",
    "films": 2
   }
  ],

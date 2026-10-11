@@ -5,7 +5,10 @@
  "poster": "v49q7AMR3pB4M762woWB1NYMCLF.jpg",
  "tmdb_id": 1389,
  "directors": [
-  "Steven Soderbergh"
+  {
+   "name": "Steven Soderbergh",
+   "id": "steven-soderbergh"
+  }
  ],
  "director_primary": "Steven Soderbergh",
  "genres": [
@@ -110,43 +113,53 @@
  "cast": [
   {
    "name": "George Clooney",
-   "films": 5
+   "films": 5,
+   "id": "george-clooney"
   },
   {
    "name": "Jennifer Lopez",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ving Rhames",
-   "films": 5
+   "films": 5,
+   "id": "ving-rhames"
   },
   {
    "name": "Don Cheadle",
-   "films": 3
+   "films": 3,
+   "id": "don-cheadle"
   },
   {
    "name": "Steve Zahn",
-   "films": 2
+   "films": 2,
+   "id": "steve-zahn"
   },
   {
    "name": "Dennis Farina",
-   "films": 2
+   "films": 2,
+   "id": "dennis-farina"
   },
   {
    "name": "Catherine Keener",
-   "films": 2
+   "films": 2,
+   "id": "catherine-keener"
   },
   {
    "name": "Isaiah Washington",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Albert Brooks",
-   "films": 1
+   "films": 1,
+   "id": "albert-brooks"
   },
   {
    "name": "Luis Guzmán",
-   "films": 0
+   "films": 0,
+   "id": "luis-guzman"
   }
  ],
  "by_director": [

@@ -1241,12 +1241,12 @@
  "collaborators": [
   {
    "name": "Richard Dreyfuss",
-   "id": null,
+   "id": "richard-dreyfuss",
    "films": 2
   },
   {
    "name": "Harrison Ford",
-   "id": null,
+   "id": "harrison-ford",
    "films": 2
   },
   {
@@ -1256,7 +1256,7 @@
   },
   {
    "name": "Denholm Elliott",
-   "id": null,
+   "id": "denholm-elliott",
    "films": 2
   },
   {

@@ -5,7 +5,10 @@
  "poster": "eeSJNAR1aWcgANq26KWIHm3cbyB.jpg",
  "tmdb_id": 16614,
  "directors": [
-  "Greg Mottola"
+  {
+   "name": "Greg Mottola",
+   "id": "greg-mottola"
+  }
  ],
  "director_primary": "Greg Mottola",
  "genres": [
@@ -148,43 +151,53 @@
  "cast": [
   {
    "name": "Jesse Eisenberg",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Kristen Stewart",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Martin Starr",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Kristen Wiig",
-   "films": 3
+   "films": 3,
+   "id": "kristen-wiig"
   },
   {
    "name": "Bill Hader",
-   "films": 3
+   "films": 3,
+   "id": "bill-hader"
   },
   {
    "name": "Ryan Reynolds",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Margarita Levieva",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jack Gilpin",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Josh Pais",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Wendie Malick",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "lXnNz7zOXCsftMDVoU3VSo0Eioi.jpg",
  "tmdb_id": 11977,
  "directors": [
-  "Harold Ramis"
+  {
+   "name": "Harold Ramis",
+   "id": "harold-ramis"
+  }
  ],
  "director_primary": "Harold Ramis",
  "genres": [
@@ -125,43 +128,53 @@
  "cast": [
   {
    "name": "Chevy Chase",
-   "films": 4
+   "films": 4,
+   "id": "chevy-chase"
   },
   {
    "name": "Rodney Dangerfield",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ted Knight",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Bill Murray",
-   "films": 6
+   "films": 6,
+   "id": "bill-murray"
   },
   {
    "name": "Michael O'Keefe",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Sarah Holcomb",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Cindy Morgan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Albert Salmi",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Scott Colomby",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Dan Resin",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

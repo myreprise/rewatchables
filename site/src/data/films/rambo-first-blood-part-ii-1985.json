@@ -5,7 +5,10 @@
  "poster": "fVwRtWqEPdsCH21BVDGqgkAQcff.jpg",
  "tmdb_id": 1369,
  "directors": [
-  "George P. Cosmatos"
+  {
+   "name": "George P. Cosmatos",
+   "id": "george-p-cosmatos"
+  }
  ],
  "director_primary": "George P. Cosmatos",
  "genres": [
@@ -247,43 +250,53 @@
  "cast": [
   {
    "name": "Sylvester Stallone",
-   "films": 13
+   "films": 13,
+   "id": "sylvester-stallone"
   },
   {
    "name": "Richard Crenna",
-   "films": 3
+   "films": 3,
+   "id": "richard-crenna"
   },
   {
    "name": "Charles Napier",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Steven Berkoff",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Julia Nickson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Martin Kove",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "George Cheung",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Andy Wood",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "William Ghent",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Vojislav Govedarica",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

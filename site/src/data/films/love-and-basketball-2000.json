@@ -5,7 +5,10 @@
  "poster": "zNZWNX19FZ5QyedprVM0ldsXFiP.jpg",
  "tmdb_id": 14736,
  "directors": [
-  "Gina Prince-Bythewood"
+  {
+   "name": "Gina Prince-Bythewood",
+   "id": "gina-prince-bythewood"
+  }
  ],
  "director_primary": "Gina Prince-Bythewood",
  "genres": [
@@ -148,43 +151,53 @@
  "cast": [
   {
    "name": "Sanaa Lathan",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Omar Epps",
-   "films": 4
+   "films": 4,
+   "id": "omar-epps"
   },
   {
    "name": "Chris Warren",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Kyla Pratt",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Alfre Woodard",
-   "films": 2
+   "films": 2,
+   "id": "alfre-woodard"
   },
   {
    "name": "Regina Hall",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Glenndon Chatman",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jess Willard",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Naykia Harris",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Harry Lennix",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

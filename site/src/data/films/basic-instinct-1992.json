@@ -5,7 +5,10 @@
  "poster": "76Ts0yoHk8kVQj9MMnoMixhRWoh.jpg",
  "tmdb_id": 402,
  "directors": [
-  "Paul Verhoeven"
+  {
+   "name": "Paul Verhoeven",
+   "id": "paul-verhoeven"
+  }
  ],
  "director_primary": "Paul Verhoeven",
  "genres": [
@@ -257,43 +260,53 @@
  "cast": [
   {
    "name": "Michael Douglas",
-   "films": 7
+   "films": 7,
+   "id": "michael-douglas"
   },
   {
    "name": "Sharon Stone",
-   "films": 3
+   "films": 3,
+   "id": "sharon-stone"
   },
   {
    "name": "George Dzundza",
-   "films": 3
+   "films": 3,
+   "id": "george-dzundza"
   },
   {
    "name": "Jeanne Tripplehorn",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Denis Arndt",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Leilani Sarelle",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Bruce A. Young",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Chelcie Ross",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Dorothy Malone",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Wayne Knight",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

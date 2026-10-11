@@ -5,7 +5,10 @@
  "poster": "9050VGrYjYrEjpOvDZVAngLbg1f.jpg",
  "tmdb_id": 2667,
  "directors": [
-  "Eduardo Sánchez; Daniel Myrick"
+  {
+   "name": "Eduardo Sánchez; Daniel Myrick",
+   "id": "eduardo-sanchez-daniel-myrick"
+  }
  ],
  "director_primary": "Eduardo Sánchez; Daniel Myrick",
  "genres": [
@@ -252,43 +255,53 @@
  "cast": [
   {
    "name": "Rei Hance",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Joshua Leonard",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Michael C. Williams",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Bob Griffin",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jim King",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Sandra Sánchez",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ed Swanson",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Patricia DeCou",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Mark Mason",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Susie Gooch",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

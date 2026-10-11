@@ -5,7 +5,10 @@
  "poster": "rvvjXHzEDBIvIVDBHNOwHS7hVPu.jpg",
  "tmdb_id": 150,
  "directors": [
-  "Walter Hill"
+  {
+   "name": "Walter Hill",
+   "id": "walter-hill"
+  }
  ],
  "director_primary": "Walter Hill",
  "genres": [
@@ -141,43 +144,53 @@
  "cast": [
   {
    "name": "Nick Nolte",
-   "films": 5
+   "films": 5,
+   "id": "nick-nolte"
   },
   {
    "name": "Eddie Murphy",
-   "films": 7
+   "films": 7,
+   "id": "eddie-murphy"
   },
   {
    "name": "Annette O'Toole",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Frank McRae",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "James Remar",
-   "films": 3
+   "films": 3,
+   "id": "james-remar"
   },
   {
    "name": "David Patrick Kelly",
-   "films": 1
+   "films": 1,
+   "id": "david-patrick-kelly"
   },
   {
    "name": "Sonny Landham",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Brion James",
-   "films": 2
+   "films": 2,
+   "id": "brion-james"
   },
   {
    "name": "Kerry Sherman",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jonathan Banks",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

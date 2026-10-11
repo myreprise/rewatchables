@@ -1220,12 +1220,12 @@
  "collaborators": [
   {
    "name": "Michael J. Fox",
-   "id": null,
+   "id": "michael-j-fox",
    "films": 2
   },
   {
    "name": "Christopher Lloyd",
-   "id": null,
+   "id": "christopher-lloyd",
    "films": 2
   },
   {

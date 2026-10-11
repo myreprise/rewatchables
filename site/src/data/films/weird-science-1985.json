@@ -5,7 +5,10 @@
  "poster": "AsFxOHwUlK7mTOkC5p6SySsdEjz.jpg",
  "tmdb_id": 11814,
  "directors": [
-  "John Hughes"
+  {
+   "name": "John Hughes",
+   "id": "john-hughes"
+  }
  ],
  "director_primary": "John Hughes",
  "genres": [
@@ -135,43 +138,53 @@
  "cast": [
   {
    "name": "Anthony Michael Hall",
-   "films": 3
+   "films": 3,
+   "id": "anthony-michael-hall"
   },
   {
    "name": "Ilan Mitchell-Smith",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Kelly LeBrock",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Bill Paxton",
-   "films": 5
+   "films": 5,
+   "id": "bill-paxton"
   },
   {
    "name": "Suzanne Snyder",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Judie Aronson",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Barbara Lang",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ivor Barry",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ann Coyle",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Robert Downey Jr.",
-   "films": 3
+   "films": 3,
+   "id": "robert-downey-jr"
   }
  ],
  "by_director": [

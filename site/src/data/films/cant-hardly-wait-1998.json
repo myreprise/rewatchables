@@ -5,7 +5,10 @@
  "poster": "r3a5gGWfS0SDS9nriNrJzSSrErf.jpg",
  "tmdb_id": 15037,
  "directors": [
-  "Deborah Kaplan; Harry Elfont"
+  {
+   "name": "Deborah Kaplan; Harry Elfont",
+   "id": "deborah-kaplan-harry-elfont"
+  }
  ],
  "director_primary": "Deborah Kaplan; Harry Elfont",
  "genres": [
@@ -245,43 +248,53 @@
  "cast": [
   {
    "name": "Jennifer Love Hewitt",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ethan Embry",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Charlie Korsmo",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Lauren Ambrose",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Peter Facinelli",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Seth Green",
-   "films": 2
+   "films": 2,
+   "id": "seth-green"
   },
   {
    "name": "Michelle Brookhurst",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Alexander Martin",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Erik Palladino",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Channon Roe",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

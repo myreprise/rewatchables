@@ -5,7 +5,10 @@
  "poster": "igXGCwti23PHOjLKQX6eGIGzQiJ.jpg",
  "tmdb_id": 2768,
  "directors": [
-  "Paul Schrader"
+  {
+   "name": "Paul Schrader",
+   "id": "paul-schrader"
+  }
  ],
  "director_primary": "Paul Schrader",
  "genres": [
@@ -117,43 +120,53 @@
  "cast": [
   {
    "name": "Richard Gere",
-   "films": 6
+   "films": 6,
+   "id": "richard-gere"
   },
   {
    "name": "Lauren Hutton",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Héctor Elizondo",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Nina van Pallandt",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Bill Duke",
-   "films": 2
+   "films": 2,
+   "id": "bill-duke"
   },
   {
    "name": "Brian Davies",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "K Callan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Tom Stewart",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Patricia Carr",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "David Cryer",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

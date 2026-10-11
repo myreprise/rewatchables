@@ -5,7 +5,10 @@
  "poster": "zcaEDx8KlVfh4vKfMNLhiSi5Oz4.jpg",
  "tmdb_id": 9504,
  "directors": [
-  "James Foley"
+  {
+   "name": "James Foley",
+   "id": "james-foley"
+  }
  ],
  "director_primary": "James Foley",
  "genres": [
@@ -211,43 +214,53 @@
  "cast": [
   {
    "name": "Al Pacino",
-   "films": 13
+   "films": 13,
+   "id": "al-pacino"
   },
   {
    "name": "Jack Lemmon",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Alec Baldwin",
-   "films": 5
+   "films": 5,
+   "id": "alec-baldwin"
   },
   {
    "name": "Alan Arkin",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Ed Harris",
-   "films": 3
+   "films": 3,
+   "id": "ed-harris"
   },
   {
    "name": "Kevin Spacey",
-   "films": 4
+   "films": 4,
+   "id": "kevin-spacey"
   },
   {
    "name": "Jonathan Pryce",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Bruce Altman",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jude Ciccolella",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Paul Butler",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

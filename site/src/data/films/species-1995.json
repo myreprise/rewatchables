@@ -5,7 +5,10 @@
  "poster": "cT5wdyo8kT7dycqjrolJ2sHWkFx.jpg",
  "tmdb_id": 9348,
  "directors": [
-  "Roger Donaldson"
+  {
+   "name": "Roger Donaldson",
+   "id": "roger-donaldson"
+  }
  ],
  "director_primary": "Roger Donaldson",
  "genres": [
@@ -215,43 +218,53 @@
  "cast": [
   {
    "name": "Natasha Henstridge",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ben Kingsley",
-   "films": 2
+   "films": 2,
+   "id": "ben-kingsley"
   },
   {
    "name": "Michael Madsen",
-   "films": 2
+   "films": 2,
+   "id": "michael-madsen"
   },
   {
    "name": "Marg Helgenberger",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Alfred Molina",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Forest Whitaker",
-   "films": 2
+   "films": 2,
+   "id": "forest-whitaker"
   },
   {
    "name": "Michelle Williams",
-   "films": 2
+   "films": 2,
+   "id": "michelle-williams"
   },
   {
    "name": "Jordan Lund",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Herta Ware",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "William Utay",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

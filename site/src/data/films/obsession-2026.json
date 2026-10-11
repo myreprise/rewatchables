@@ -5,7 +5,10 @@
  "poster": "bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
  "tmdb_id": 1339713,
  "directors": [
-  "Curry Barker"
+  {
+   "name": "Curry Barker",
+   "id": "curry-barker"
+  }
  ],
  "director_primary": "Curry Barker",
  "genres": [
@@ -151,43 +154,53 @@
  "cast": [
   {
    "name": "Michael Johnston",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Inde Navarrette",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Cooper Tomlinson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Megan Lawless",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Andy Richter",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Haley Fitzgerald",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Darin Toonder",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Anthony Pavone",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Justice",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Anthony Casabianca",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

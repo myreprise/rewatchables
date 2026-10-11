@@ -5,7 +5,10 @@
  "poster": "vkQmzaSuDj8QyXmwNhCceCAmwUe.jpg",
  "tmdb_id": 13763,
  "directors": [
-  "Albert Magnoli"
+  {
+   "name": "Albert Magnoli",
+   "id": "albert-magnoli"
+  }
  ],
  "director_primary": "Albert Magnoli",
  "genres": [
@@ -106,43 +109,53 @@
  "cast": [
   {
    "name": "Prince",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Apollonia Kotero",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Morris Day",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jerome Benton",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Olga Karlatos",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Clarence Williams III",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Billy Sparks",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Wendy Melvoin",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Lisa Coleman",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Bobby Z",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

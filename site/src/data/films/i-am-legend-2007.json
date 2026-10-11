@@ -5,7 +5,10 @@
  "poster": "iPDkaSdKk2jRLTM65UOEoKtsIZ8.jpg",
  "tmdb_id": 6479,
  "directors": [
-  "Francis Lawrence"
+  {
+   "name": "Francis Lawrence",
+   "id": "francis-lawrence"
+  }
  ],
  "director_primary": "Francis Lawrence",
  "genres": [
@@ -197,43 +200,53 @@
  "cast": [
   {
    "name": "Will Smith",
-   "films": 7
+   "films": 7,
+   "id": "will-smith"
   },
   {
    "name": "Alice Braga",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Charlie Tahan",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Dash Mihok",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Salli Richardson-Whitfield",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Willow Smith",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Emma Thompson",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Darrell Foster",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Joanna Numata",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Samuel Glen",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

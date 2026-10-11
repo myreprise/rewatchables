@@ -5,7 +5,10 @@
  "poster": "9e8cp3ho2aZrHMFgitysCoJxXwP.jpg",
  "tmdb_id": 8984,
  "directors": [
-  "Barry Levinson"
+  {
+   "name": "Barry Levinson",
+   "id": "barry-levinson"
+  }
  ],
  "director_primary": "Barry Levinson",
  "genres": [
@@ -117,43 +120,53 @@
  "cast": [
   {
    "name": "Michael Douglas",
-   "films": 7
+   "films": 7,
+   "id": "michael-douglas"
   },
   {
    "name": "Demi Moore",
-   "films": 6
+   "films": 6,
+   "id": "demi-moore"
   },
   {
    "name": "Donald Sutherland",
-   "films": 2
+   "films": 2,
+   "id": "donald-sutherland"
   },
   {
    "name": "Dylan Baker",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Jacqueline Kim",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Roma Maffia",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Caroline Goodall",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Rosemary Forsyth",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Dennis Miller",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Suzie Plakson",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

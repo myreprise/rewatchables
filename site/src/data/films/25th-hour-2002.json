@@ -5,7 +5,10 @@
  "poster": "uW7tTRElr2tRhmAVESzvHy4ByXg.jpg",
  "tmdb_id": 1429,
  "directors": [
-  "Spike Lee"
+  {
+   "name": "Spike Lee",
+   "id": "spike-lee"
+  }
  ],
  "director_primary": "Spike Lee",
  "genres": [
@@ -203,43 +206,53 @@
  "cast": [
   {
    "name": "Edward Norton",
-   "films": 5
+   "films": 5,
+   "id": "edward-norton"
   },
   {
    "name": "Philip Seymour Hoffman",
-   "films": 6
+   "films": 6,
+   "id": "philip-seymour-hoffman"
   },
   {
    "name": "Barry Pepper",
-   "films": 2
+   "films": 2,
+   "id": "barry-pepper"
   },
   {
    "name": "Rosario Dawson",
-   "films": 3
+   "films": 3,
+   "id": "rosario-dawson"
   },
   {
    "name": "Anna Paquin",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Brian Cox",
-   "films": 3
+   "films": 3,
+   "id": "brian-cox"
   },
   {
    "name": "Isiah Whitlock Jr.",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Tony Siragusa",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Levan Uchaneishvili",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Tony Devon",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "eSkjK4kctyrWpFhxl35GPvSs6tI.jpg",
  "tmdb_id": 9654,
  "directors": [
-  "F. Gary Gray"
+  {
+   "name": "F. Gary Gray",
+   "id": "f-gary-gray"
+  }
  ],
  "director_primary": "F. Gary Gray",
  "genres": [
@@ -242,43 +245,53 @@
  "cast": [
   {
    "name": "Mark Wahlberg",
-   "films": 6
+   "films": 6,
+   "id": "mark-wahlberg"
   },
   {
    "name": "Charlize Theron",
-   "films": 3
+   "films": 3,
+   "id": "charlize-theron"
   },
   {
    "name": "Edward Norton",
-   "films": 5
+   "films": 5,
+   "id": "edward-norton"
   },
   {
    "name": "Seth Green",
-   "films": 2
+   "films": 2,
+   "id": "seth-green"
   },
   {
    "name": "Jason Statham",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Yasiin Bey",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Donald Sutherland",
-   "films": 2
+   "films": 2,
+   "id": "donald-sutherland"
   },
   {
    "name": "Olek Krupa",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Boris Lee Krutonog",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Fausto Callegarini",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

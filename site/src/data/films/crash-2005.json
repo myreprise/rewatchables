@@ -5,7 +5,10 @@
  "poster": "86BdPC6RDX88NC880pLidKn2LCj.jpg",
  "tmdb_id": 1640,
  "directors": [
-  "Paul Haggis"
+  {
+   "name": "Paul Haggis",
+   "id": "paul-haggis"
+  }
  ],
  "director_primary": "Paul Haggis",
  "genres": [
@@ -206,43 +209,53 @@
  "cast": [
   {
    "name": "Don Cheadle",
-   "films": 3
+   "films": 3,
+   "id": "don-cheadle"
   },
   {
    "name": "Sandra Bullock",
-   "films": 5
+   "films": 5,
+   "id": "sandra-bullock"
   },
   {
    "name": "Brendan Fraser",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Matt Dillon",
-   "films": 4
+   "films": 4,
+   "id": "matt-dillon"
   },
   {
    "name": "Jennifer Esposito",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Michael Peña",
-   "films": 2
+   "films": 2,
+   "id": "michael-pena"
   },
   {
    "name": "Terrence Howard",
-   "films": 1
+   "films": 1,
+   "id": "terrence-howard"
   },
   {
    "name": "Thandiwe Newton",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ludacris",
-   "films": 1
+   "films": 1,
+   "id": "ludacris"
   },
   {
    "name": "Larenz Tate",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

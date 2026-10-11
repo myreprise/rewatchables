@@ -5,7 +5,10 @@
  "poster": "qL0IooP0bjXy0KXl9KEyPo22ll0.jpg",
  "tmdb_id": 39538,
  "directors": [
-  "Steven Soderbergh"
+  {
+   "name": "Steven Soderbergh",
+   "id": "steven-soderbergh"
+  }
  ],
  "director_primary": "Steven Soderbergh",
  "genres": [
@@ -166,43 +169,53 @@
  "cast": [
   {
    "name": "Marion Cotillard",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Matt Damon",
-   "films": 10
+   "films": 10,
+   "id": "matt-damon"
   },
   {
    "name": "Laurence Fishburne",
-   "films": 6
+   "films": 6,
+   "id": "laurence-fishburne"
   },
   {
    "name": "Jude Law",
-   "films": 3
+   "films": 3,
+   "id": "jude-law"
   },
   {
    "name": "Kate Winslet",
-   "films": 3
+   "films": 3,
+   "id": "kate-winslet"
   },
   {
    "name": "Jennifer Ehle",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Gwyneth Paltrow",
-   "films": 5
+   "films": 5,
+   "id": "gwyneth-paltrow"
   },
   {
    "name": "Bryan Cranston",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Elliott Gould",
-   "films": 0
+   "films": 0,
+   "id": "elliott-gould"
   },
   {
    "name": "Chin Han",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

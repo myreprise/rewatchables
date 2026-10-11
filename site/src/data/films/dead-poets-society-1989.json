@@ -5,7 +5,10 @@
  "poster": "tNvKkSnnn4Z6RCBThyK1gfCSSvv.jpg",
  "tmdb_id": 207,
  "directors": [
-  "Peter Weir"
+  {
+   "name": "Peter Weir",
+   "id": "peter-weir"
+  }
  ],
  "director_primary": "Peter Weir",
  "genres": [
@@ -206,43 +209,53 @@
  "cast": [
   {
    "name": "Robin Williams",
-   "films": 3
+   "films": 3,
+   "id": "robin-williams"
   },
   {
    "name": "Robert Sean Leonard",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ethan Hawke",
-   "films": 7
+   "films": 7,
+   "id": "ethan-hawke"
   },
   {
    "name": "Josh Charles",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Gale Hansen",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Dylan Kussman",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Allelon Ruggiero",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "James Waterston",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Norman Lloyd",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kurtwood Smith",
-   "films": 1
+   "films": 1,
+   "id": null
   }
  ],
  "by_director": [

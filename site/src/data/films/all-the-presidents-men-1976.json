@@ -5,7 +5,10 @@
  "poster": "pCe6lfLxt1B58zPD4lgQrlnDS2j.jpg",
  "tmdb_id": 891,
  "directors": [
-  "Alan J. Pakula"
+  {
+   "name": "Alan J. Pakula",
+   "id": "alan-j-pakula"
+  }
  ],
  "director_primary": "Alan J. Pakula",
  "genres": [
@@ -173,43 +176,53 @@
  "cast": [
   {
    "name": "Dustin Hoffman",
-   "films": 4
+   "films": 4,
+   "id": "dustin-hoffman"
   },
   {
    "name": "Robert Redford",
-   "films": 7
+   "films": 7,
+   "id": "robert-redford"
   },
   {
    "name": "Jack Warden",
-   "films": 7
+   "films": 7,
+   "id": "jack-warden"
   },
   {
    "name": "Martin Balsam",
-   "films": 1
+   "films": 1,
+   "id": "martin-balsam"
   },
   {
    "name": "Hal Holbrook",
-   "films": 2
+   "films": 2,
+   "id": "hal-holbrook"
   },
   {
    "name": "Jason Robards",
-   "films": 2
+   "films": 2,
+   "id": "jason-robards"
   },
   {
    "name": "Jane Alexander",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Meredith Baxter",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ned Beatty",
-   "films": 2
+   "films": 2,
+   "id": "ned-beatty"
   },
   {
    "name": "Stephen Collins",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

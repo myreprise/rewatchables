@@ -5,7 +5,10 @@
  "poster": "1jUC02qsqS2NxBMFarbIhcQtazV.jpg",
  "tmdb_id": 627,
  "directors": [
-  "Danny Boyle"
+  {
+   "name": "Danny Boyle",
+   "id": "danny-boyle"
+  }
  ],
  "director_primary": "Danny Boyle",
  "genres": [
@@ -252,43 +255,53 @@
  "cast": [
   {
    "name": "Ewan McGregor",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ewen Bremner",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jonny Lee Miller",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Kevin McKidd",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Robert Carlyle",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Kelly Macdonald",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Peter Mullan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "James Cosmo",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Eileen Nicholas",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Susan Vidler",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

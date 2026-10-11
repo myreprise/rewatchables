@@ -5,7 +5,10 @@
  "poster": "buqmCdFQEWwEpL3agGgg2GVjN2d.jpg",
  "tmdb_id": 1572,
  "directors": [
-  "John McTiernan"
+  {
+   "name": "John McTiernan",
+   "id": "john-mctiernan"
+  }
  ],
  "director_primary": "John McTiernan",
  "genres": [
@@ -263,43 +266,53 @@
  "cast": [
   {
    "name": "Bruce Willis",
-   "films": 7
+   "films": 7,
+   "id": "bruce-willis"
   },
   {
    "name": "Jeremy Irons",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Samuel L. Jackson",
-   "films": 3
+   "films": 3,
+   "id": "samuel-l-jackson"
   },
   {
    "name": "Larry Bryggman",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Graham Greene",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Anthony Peck",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Nicholas Wyman",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kevin Chamberlin",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Colleen Camp",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Sam Phillips",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

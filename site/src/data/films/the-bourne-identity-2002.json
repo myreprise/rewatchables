@@ -5,7 +5,10 @@
  "poster": "aP8swke3gmowbkfZ6lmNidu0y9p.jpg",
  "tmdb_id": 2501,
  "directors": [
-  "Doug Liman"
+  {
+   "name": "Doug Liman",
+   "id": "doug-liman"
+  }
  ],
  "director_primary": "Doug Liman",
  "genres": [
@@ -253,43 +256,53 @@
  "cast": [
   {
    "name": "Matt Damon",
-   "films": 10
+   "films": 10,
+   "id": "matt-damon"
   },
   {
    "name": "Franka Potente",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Chris Cooper",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Clive Owen",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Brian Cox",
-   "films": 3
+   "films": 3,
+   "id": "brian-cox"
   },
   {
    "name": "Adewale Akinnuoye-Agbaje",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Gabriel Mann",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Julia Stiles",
-   "films": 1
+   "films": 1,
+   "id": "julia-stiles"
   },
   {
    "name": "Walton Goggins",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Josh Hamilton",
-   "films": 2
+   "films": 2,
+   "id": "josh-hamilton"
   }
  ],
  "by_director": [

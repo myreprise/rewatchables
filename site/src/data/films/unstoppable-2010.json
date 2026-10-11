@@ -5,7 +5,10 @@
  "poster": "zKvHwL0GqLOear8rTnUPSTRYY0r.jpg",
  "tmdb_id": 44048,
  "directors": [
-  "Tony Scott"
+  {
+   "name": "Tony Scott",
+   "id": "tony-scott"
+  }
  ],
  "director_primary": "Tony Scott",
  "genres": [
@@ -214,43 +217,53 @@
  "cast": [
   {
    "name": "Denzel Washington",
-   "films": 12
+   "films": 12,
+   "id": "denzel-washington"
   },
   {
    "name": "Chris Pine",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Rosario Dawson",
-   "films": 3
+   "films": 3,
+   "id": "rosario-dawson"
   },
   {
    "name": "Kevin Dunn",
-   "films": 2
+   "films": 2,
+   "id": "kevin-dunn"
   },
   {
    "name": "Kevin Corrigan",
-   "films": 1
+   "films": 1,
+   "id": "kevin-corrigan"
   },
   {
    "name": "Lew Temple",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kevin Chapman",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ethan Suplee",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "T.J. Miller",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jessy Schram",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

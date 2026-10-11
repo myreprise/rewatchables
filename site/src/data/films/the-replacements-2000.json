@@ -5,7 +5,10 @@
  "poster": "6qerI41HqkdRlio1sG0d5HLZcFN.jpg",
  "tmdb_id": 10393,
  "directors": [
-  "Howard Deutch"
+  {
+   "name": "Howard Deutch",
+   "id": "howard-deutch"
+  }
  ],
  "director_primary": "Howard Deutch",
  "genres": [
@@ -97,43 +100,53 @@
  "cast": [
   {
    "name": "Keanu Reeves",
-   "films": 8
+   "films": 8,
+   "id": "keanu-reeves"
   },
   {
    "name": "Gene Hackman",
-   "films": 8
+   "films": 8,
+   "id": "gene-hackman"
   },
   {
    "name": "Brooke Langton",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Orlando Jones",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Faizon Love",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jon Favreau",
-   "films": 3
+   "films": 3,
+   "id": "jon-favreau"
   },
   {
    "name": "Rhys Ifans",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Keith David",
-   "films": 1
+   "films": 1,
+   "id": "keith-david"
   },
   {
    "name": "Ace Yonamine",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Troy Winbush",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

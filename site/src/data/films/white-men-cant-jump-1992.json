@@ -5,7 +5,10 @@
  "poster": "jnI05Z2Cm9ACEJo8FGen7tdHKLl.jpg",
  "tmdb_id": 10158,
  "directors": [
-  "Ron Shelton"
+  {
+   "name": "Ron Shelton",
+   "id": "ron-shelton"
+  }
  ],
  "director_primary": "Ron Shelton",
  "genres": [
@@ -158,43 +161,53 @@
  "cast": [
   {
    "name": "Woody Harrelson",
-   "films": 3
+   "films": 3,
+   "id": "woody-harrelson"
   },
   {
    "name": "Wesley Snipes",
-   "films": 3
+   "films": 3,
+   "id": "wesley-snipes"
   },
   {
    "name": "Rosie Perez",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Tyra Ferrell",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Cylk Cozart",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Marques Johnson",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kadeem Hardison",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ernest Harden Jr.",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "John Marshall Jones",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "David Roberson",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

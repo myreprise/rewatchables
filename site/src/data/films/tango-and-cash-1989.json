@@ -5,7 +5,10 @@
  "poster": "jxxxjTu87OSmQYkMFF7MgOEDXRn.jpg",
  "tmdb_id": 9618,
  "directors": [
-  "Andrei Konchalovsky; Albert Magnoli"
+  {
+   "name": "Andrei Konchalovsky; Albert Magnoli",
+   "id": "andrei-konchalovsky-albert-magnoli"
+  }
  ],
  "director_primary": "Andrei Konchalovsky; Albert Magnoli",
  "genres": [
@@ -93,43 +96,53 @@
  "cast": [
   {
    "name": "Sylvester Stallone",
-   "films": 13
+   "films": 13,
+   "id": "sylvester-stallone"
   },
   {
    "name": "Kurt Russell",
-   "films": 4
+   "films": 4,
+   "id": "kurt-russell"
   },
   {
    "name": "Teri Hatcher",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jack Palance",
-   "films": 1
+   "films": 1,
+   "id": "jack-palance"
   },
   {
    "name": "Brion James",
-   "films": 2
+   "films": 2,
+   "id": "brion-james"
   },
   {
    "name": "James Hong",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Marc Alaimo",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Philip Tan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Michael J. Pollard",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Robert Z'Dar",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

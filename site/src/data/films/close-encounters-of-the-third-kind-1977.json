@@ -5,7 +5,10 @@
  "poster": "yaPx3cK9zGFX3SbcKwxWM1QIbUh.jpg",
  "tmdb_id": 840,
  "directors": [
-  "Steven Spielberg"
+  {
+   "name": "Steven Spielberg",
+   "id": "steven-spielberg"
+  }
  ],
  "director_primary": "Steven Spielberg",
  "genres": [
@@ -312,43 +315,53 @@
  "cast": [
   {
    "name": "Richard Dreyfuss",
-   "films": 4
+   "films": 4,
+   "id": "richard-dreyfuss"
   },
   {
    "name": "François Truffaut",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Teri Garr",
-   "films": 3
+   "films": 3,
+   "id": "teri-garr"
   },
   {
    "name": "Melinda Dillon",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Bob Balaban",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "J. Patrick McNamara",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Warren J. Kemmerling",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Roberts Blossom",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Phil Dodds",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Cary Guffey",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

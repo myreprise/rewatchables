@@ -5,7 +5,10 @@
  "poster": "vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
  "tmdb_id": 680,
  "directors": [
-  "Quentin Tarantino"
+  {
+   "name": "Quentin Tarantino",
+   "id": "quentin-tarantino"
+  }
  ],
  "director_primary": "Quentin Tarantino",
  "genres": [
@@ -173,43 +176,53 @@
  "cast": [
   {
    "name": "John Travolta",
-   "films": 6
+   "films": 6,
+   "id": "john-travolta"
   },
   {
    "name": "Samuel L. Jackson",
-   "films": 3
+   "films": 3,
+   "id": "samuel-l-jackson"
   },
   {
    "name": "Uma Thurman",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Bruce Willis",
-   "films": 7
+   "films": 7,
+   "id": "bruce-willis"
   },
   {
    "name": "Ving Rhames",
-   "films": 5
+   "films": 5,
+   "id": "ving-rhames"
   },
   {
    "name": "Harvey Keitel",
-   "films": 3
+   "films": 3,
+   "id": "harvey-keitel"
   },
   {
    "name": "Eric Stoltz",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Tim Roth",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Amanda Plummer",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Maria de Medeiros",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

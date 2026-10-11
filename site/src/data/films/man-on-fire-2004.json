@@ -5,7 +5,10 @@
  "poster": "grCGLCcTHv9TChibzOwzUpykcjB.jpg",
  "tmdb_id": 9509,
  "directors": [
-  "Tony Scott"
+  {
+   "name": "Tony Scott",
+   "id": "tony-scott"
+  }
  ],
  "director_primary": "Tony Scott",
  "genres": [
@@ -253,43 +256,53 @@
  "cast": [
   {
    "name": "Denzel Washington",
-   "films": 12
+   "films": 12,
+   "id": "denzel-washington"
   },
   {
    "name": "Dakota Fanning",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Christopher Walken",
-   "films": 4
+   "films": 4,
+   "id": "christopher-walken"
   },
   {
    "name": "Radha Mitchell",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Marc Anthony",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Giancarlo Giannini",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Rachel Ticotin",
-   "films": 1
+   "films": 1,
+   "id": "rachel-ticotin"
   },
   {
    "name": "Mickey Rourke",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Roberto Sosa",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jesús Ochoa",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

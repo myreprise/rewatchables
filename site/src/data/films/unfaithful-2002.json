@@ -5,7 +5,10 @@
  "poster": "bjiHEhuiwhIygzjczbTPAA07cGc.jpg",
  "tmdb_id": 2251,
  "directors": [
-  "Adrian Lyne"
+  {
+   "name": "Adrian Lyne",
+   "id": "adrian-lyne"
+  }
  ],
  "director_primary": "Adrian Lyne",
  "genres": [
@@ -106,43 +109,53 @@
  "cast": [
   {
    "name": "Diane Lane",
-   "films": 3
+   "films": 3,
+   "id": "diane-lane"
   },
   {
    "name": "Richard Gere",
-   "films": 6
+   "films": 6,
+   "id": "richard-gere"
   },
   {
    "name": "Olivier Martinez",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Erik Per Sullivan",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Željko Ivanek",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Gary Basaraba",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kate Burton",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Margaret Colin",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Chad Lowe",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Dominic Chianese",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

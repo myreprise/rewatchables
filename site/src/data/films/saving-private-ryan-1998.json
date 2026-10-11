@@ -5,7 +5,10 @@
  "poster": "uqx37cS8cpHg8U35f9U5IBlrCV3.jpg",
  "tmdb_id": 857,
  "directors": [
-  "Steven Spielberg"
+  {
+   "name": "Steven Spielberg",
+   "id": "steven-spielberg"
+  }
  ],
  "director_primary": "Steven Spielberg",
  "genres": [
@@ -187,43 +190,53 @@
  "cast": [
   {
    "name": "Tom Hanks",
-   "films": 11
+   "films": 11,
+   "id": "tom-hanks"
   },
   {
    "name": "Tom Sizemore",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Edward Burns",
-   "films": 2
+   "films": 2,
+   "id": "edward-burns"
   },
   {
    "name": "Barry Pepper",
-   "films": 2
+   "films": 2,
+   "id": "barry-pepper"
   },
   {
    "name": "Adam Goldberg",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Vin Diesel",
-   "films": 3
+   "films": 3,
+   "id": "vin-diesel"
   },
   {
    "name": "Giovanni Ribisi",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jeremy Davies",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Matt Damon",
-   "films": 10
+   "films": 10,
+   "id": "matt-damon"
   },
   {
    "name": "Ted Danson",
-   "films": 1
+   "films": 1,
+   "id": null
   }
  ],
  "by_director": [

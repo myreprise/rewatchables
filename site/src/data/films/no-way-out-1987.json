@@ -5,7 +5,10 @@
  "poster": "93CzsBvRhg035yvQosRtSsTL19v.jpg",
  "tmdb_id": 10083,
  "directors": [
-  "Roger Donaldson"
+  {
+   "name": "Roger Donaldson",
+   "id": "roger-donaldson"
+  }
  ],
  "director_primary": "Roger Donaldson",
  "genres": [
@@ -179,43 +182,53 @@
  "cast": [
   {
    "name": "Kevin Costner",
-   "films": 9
+   "films": 9,
+   "id": "kevin-costner"
   },
   {
    "name": "Gene Hackman",
-   "films": 8
+   "films": 8,
+   "id": "gene-hackman"
   },
   {
    "name": "Sean Young",
-   "films": 3
+   "films": 3,
+   "id": "sean-young"
   },
   {
    "name": "Will Patton",
-   "films": 3
+   "films": 3,
+   "id": "will-patton"
   },
   {
    "name": "Howard Duff",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "George Dzundza",
-   "films": 3
+   "films": 3,
+   "id": "george-dzundza"
   },
   {
    "name": "Jason Bernard",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Iman",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Fred Thompson",
-   "films": 0
+   "films": 0,
+   "id": "fred-thompson"
   },
   {
    "name": "Leon Russom",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

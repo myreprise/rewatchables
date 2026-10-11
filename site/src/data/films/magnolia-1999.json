@@ -5,7 +5,10 @@
  "poster": "tpfC325Jk6S38VTe5dDWjWtoyxr.jpg",
  "tmdb_id": 334,
  "directors": [
-  "Paul Thomas Anderson"
+  {
+   "name": "Paul Thomas Anderson",
+   "id": "paul-thomas-anderson"
+  }
  ],
  "director_primary": "Paul Thomas Anderson",
  "genres": [
@@ -196,43 +199,53 @@
  "cast": [
   {
    "name": "Tom Cruise",
-   "films": 17
+   "films": 17,
+   "id": "tom-cruise"
   },
   {
    "name": "Philip Baker Hall",
-   "films": 2
+   "films": 2,
+   "id": "philip-baker-hall"
   },
   {
    "name": "Philip Seymour Hoffman",
-   "films": 6
+   "films": 6,
+   "id": "philip-seymour-hoffman"
   },
   {
    "name": "Julianne Moore",
-   "films": 4
+   "films": 4,
+   "id": "julianne-moore"
   },
   {
    "name": "William H. Macy",
-   "films": 3
+   "films": 3,
+   "id": "william-h-macy"
   },
   {
    "name": "John C. Reilly",
-   "films": 5
+   "films": 5,
+   "id": "john-c-reilly"
   },
   {
    "name": "Melora Walters",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jeremy Blackman",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jason Robards",
-   "films": 2
+   "films": 2,
+   "id": "jason-robards"
   },
   {
    "name": "Melinda Dillon",
-   "films": 1
+   "films": 1,
+   "id": null
   }
  ],
  "by_director": [

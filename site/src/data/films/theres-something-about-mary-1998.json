@@ -5,7 +5,10 @@
  "poster": "slJD1Dvnsf15LoeqhERsyzisAdn.jpg",
  "tmdb_id": 544,
  "directors": [
-  "Bobby Farrelly; Peter Farrelly"
+  {
+   "name": "Bobby Farrelly; Peter Farrelly",
+   "id": "bobby-farrelly-peter-farrelly"
+  }
  ],
  "director_primary": "Bobby Farrelly; Peter Farrelly",
  "genres": [
@@ -123,43 +126,53 @@
  "cast": [
   {
    "name": "Cameron Diaz",
-   "films": 5
+   "films": 5,
+   "id": "cameron-diaz"
   },
   {
    "name": "Matt Dillon",
-   "films": 4
+   "films": 4,
+   "id": "matt-dillon"
   },
   {
    "name": "Ben Stiller",
-   "films": 7
+   "films": 7,
+   "id": "ben-stiller"
   },
   {
    "name": "Lee Evans",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Chris Elliott",
-   "films": 2
+   "films": 2,
+   "id": "chris-elliott"
   },
   {
    "name": "Lin Shaye",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jeffrey Tambor",
-   "films": 0
+   "films": 0,
+   "id": "jeffrey-tambor"
   },
   {
    "name": "Markie Post",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Keith David",
-   "films": 1
+   "films": 1,
+   "id": "keith-david"
   },
   {
    "name": "W. Earl Brown",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

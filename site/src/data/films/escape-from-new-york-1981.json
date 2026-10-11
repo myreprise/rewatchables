@@ -5,7 +5,10 @@
  "poster": "vH9llaphjAssRGi0k7e75tD40Ce.jpg",
  "tmdb_id": 1103,
  "directors": [
-  "John Carpenter"
+  {
+   "name": "John Carpenter",
+   "id": "john-carpenter"
+  }
  ],
  "director_primary": "John Carpenter",
  "genres": [
@@ -229,43 +232,53 @@
  "cast": [
   {
    "name": "Kurt Russell",
-   "films": 4
+   "films": 4,
+   "id": "kurt-russell"
   },
   {
    "name": "Lee Van Cleef",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ernest Borgnine",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Donald Pleasence",
-   "films": 4
+   "films": 4,
+   "id": "donald-pleasence"
   },
   {
    "name": "Isaac Hayes",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Season Hubley",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Harry Dean Stanton",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Adrienne Barbeau",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Tom Atkins",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Charles Cyphers",
-   "films": 2
+   "films": 2,
+   "id": "charles-cyphers"
   }
  ],
  "by_director": [

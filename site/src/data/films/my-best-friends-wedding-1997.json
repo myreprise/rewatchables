@@ -5,7 +5,10 @@
  "poster": "b5g4bp8gS5ovMyR5439AII6zQ3n.jpg",
  "tmdb_id": 8874,
  "directors": [
-  "P. J. Hogan"
+  {
+   "name": "P. J. Hogan",
+   "id": "p-j-hogan"
+  }
  ],
  "director_primary": "P. J. Hogan",
  "genres": [
@@ -130,43 +133,53 @@
  "cast": [
   {
    "name": "Julia Roberts",
-   "films": 7
+   "films": 7,
+   "id": "julia-roberts"
   },
   {
    "name": "Dermot Mulroney",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Cameron Diaz",
-   "films": 5
+   "films": 5,
+   "id": "cameron-diaz"
   },
   {
    "name": "Rupert Everett",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Philip Bosco",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "M. Emmet Walsh",
-   "films": 1
+   "films": 1,
+   "id": "m-emmet-walsh"
   },
   {
    "name": "Rachel Griffiths",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Carrie Preston",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Susan Sullivan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Christopher Masterson",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

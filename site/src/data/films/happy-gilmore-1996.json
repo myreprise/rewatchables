@@ -5,7 +5,10 @@
  "poster": "4RnCeRzvI1xk5tuNWjpDKzSnJDk.jpg",
  "tmdb_id": 9614,
  "directors": [
-  "Dennis Dugan"
+  {
+   "name": "Dennis Dugan",
+   "id": "dennis-dugan"
+  }
  ],
  "director_primary": "Dennis Dugan",
  "genres": [
@@ -213,43 +216,53 @@
  "cast": [
   {
    "name": "Adam Sandler",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Christopher McDonald",
-   "films": 2
+   "films": 2,
+   "id": "christopher-mcdonald"
   },
   {
    "name": "Julie Bowen",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Frances Bay",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Carl Weathers",
-   "films": 6
+   "films": 6,
+   "id": "carl-weathers"
   },
   {
    "name": "Allen Covert",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Robert Smigel",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Bob Barker",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Richard Kiel",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Dennis Dugan",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

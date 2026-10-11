@@ -5,7 +5,10 @@
  "poster": "39lXk6ud6KiJgGbbWI2PUKS7y2.jpg",
  "tmdb_id": 319,
  "directors": [
-  "Tony Scott"
+  {
+   "name": "Tony Scott",
+   "id": "tony-scott"
+  }
  ],
  "director_primary": "Tony Scott",
  "genres": [
@@ -250,43 +253,53 @@
  "cast": [
   {
    "name": "Christian Slater",
-   "films": 4
+   "films": 4,
+   "id": "christian-slater"
   },
   {
    "name": "Patricia Arquette",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Dennis Hopper",
-   "films": 3
+   "films": 3,
+   "id": "dennis-hopper"
   },
   {
    "name": "Val Kilmer",
-   "films": 6
+   "films": 6,
+   "id": "val-kilmer"
   },
   {
    "name": "Gary Oldman",
-   "films": 2
+   "films": 2,
+   "id": "gary-oldman"
   },
   {
    "name": "Brad Pitt",
-   "films": 9
+   "films": 9,
+   "id": "brad-pitt"
   },
   {
    "name": "Christopher Walken",
-   "films": 4
+   "films": 4,
+   "id": "christopher-walken"
   },
   {
    "name": "Bronson Pinchot",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Samuel L. Jackson",
-   "films": 3
+   "films": 3,
+   "id": "samuel-l-jackson"
   },
   {
    "name": "Michael Rapaport",
-   "films": 1
+   "films": 1,
+   "id": "michael-rapaport"
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "sX9idXDqRUxE5ffww3n3RV5gL55.jpg",
  "tmdb_id": 4982,
  "directors": [
-  "Ridley Scott"
+  {
+   "name": "Ridley Scott",
+   "id": "ridley-scott"
+  }
  ],
  "director_primary": "Ridley Scott",
  "genres": [
@@ -270,43 +273,53 @@
  "cast": [
   {
    "name": "Denzel Washington",
-   "films": 12
+   "films": 12,
+   "id": "denzel-washington"
   },
   {
    "name": "Russell Crowe",
-   "films": 6
+   "films": 6,
+   "id": "russell-crowe"
   },
   {
    "name": "Josh Brolin",
-   "films": 3
+   "films": 3,
+   "id": "josh-brolin"
   },
   {
    "name": "Chiwetel Ejiofor",
-   "films": 1
+   "films": 1,
+   "id": "chiwetel-ejiofor"
   },
   {
    "name": "Cuba Gooding Jr.",
-   "films": 3
+   "films": 3,
+   "id": "cuba-gooding-jr"
   },
   {
    "name": "Lymari Nadal",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ted Levine",
-   "films": 1
+   "films": 1,
+   "id": "ted-levine"
   },
   {
    "name": "Armand Assante",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "John Ortiz",
-   "films": 1
+   "films": 1,
+   "id": "john-ortiz"
   },
   {
    "name": "John Hawkes",
-   "films": 1
+   "films": 1,
+   "id": "john-hawkes"
   }
  ],
  "by_director": [

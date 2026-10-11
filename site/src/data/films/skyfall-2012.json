@@ -5,7 +5,10 @@
  "poster": "d0IVecFQvsGdSbnMAHqiYsNYaJT.jpg",
  "tmdb_id": 37724,
  "directors": [
-  "Sam Mendes"
+  {
+   "name": "Sam Mendes",
+   "id": "sam-mendes"
+  }
  ],
  "director_primary": "Sam Mendes",
  "genres": [
@@ -194,43 +197,53 @@
  "cast": [
   {
    "name": "Daniel Craig",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Judi Dench",
-   "films": 2
+   "films": 2,
+   "id": "judi-dench"
   },
   {
    "name": "Javier Bardem",
-   "films": 3
+   "films": 3,
+   "id": "javier-bardem"
   },
   {
    "name": "Ralph Fiennes",
-   "films": 3
+   "films": 3,
+   "id": "ralph-fiennes"
   },
   {
    "name": "Naomie Harris",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Bérénice Marlohe",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Albert Finney",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ben Whishaw",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Rory Kinnear",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ola Rapace",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

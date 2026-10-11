@@ -5,7 +5,10 @@
  "poster": "lReaAZCsA0GXvJrxzSMsFxwgh6F.jpg",
  "tmdb_id": 16980,
  "directors": [
-  "Whit Stillman"
+  {
+   "name": "Whit Stillman",
+   "id": "whit-stillman"
+  }
  ],
  "director_primary": "Whit Stillman",
  "genres": [
@@ -180,43 +183,53 @@
  "cast": [
   {
    "name": "Chloë Sevigny",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Kate Beckinsale",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Chris Eigeman",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Mackenzie Astin",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Matt Keeslar",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Robert Sean Leonard",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jennifer Beals",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Matt Ross",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Tara Subkoff",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Burr Steers",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

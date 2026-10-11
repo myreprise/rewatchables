@@ -5,7 +5,10 @@
  "poster": "l3g4e6ocqGA8aNL1hIrIVWLkljL.jpg",
  "tmdb_id": 30069,
  "directors": [
-  "Harold Becker"
+  {
+   "name": "Harold Becker",
+   "id": "harold-becker"
+  }
  ],
  "director_primary": "Harold Becker",
  "genres": [
@@ -144,43 +147,53 @@
  "cast": [
   {
    "name": "Matthew Modine",
-   "films": 2
+   "films": 2,
+   "id": "matthew-modine"
   },
   {
    "name": "Linda Fiorentino",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Ronny Cox",
-   "films": 5
+   "films": 5,
+   "id": "ronny-cox"
   },
   {
    "name": "Daphne Zuniga",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Charles Hallahan",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Michael Schoeffling",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Harold Sylvester",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "J.C. Quinn",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Madonna",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Forest Whitaker",
-   "films": 2
+   "films": 2,
+   "id": "forest-whitaker"
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "g2jX2Xmx7drbc6J9MLJEBghR7Mg.jpg",
  "tmdb_id": 14709,
  "directors": [
-  "Brian Robbins"
+  {
+   "name": "Brian Robbins",
+   "id": "brian-robbins"
+  }
  ],
  "director_primary": "Brian Robbins",
  "genres": [
@@ -114,43 +117,53 @@
  "cast": [
   {
    "name": "James Van Der Beek",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Amy Smart",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jon Voight",
-   "films": 6
+   "films": 6,
+   "id": "jon-voight"
   },
   {
    "name": "Paul Walker",
-   "films": 4
+   "films": 4,
+   "id": "paul-walker"
   },
   {
    "name": "Ron Lester",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Scott Caan",
-   "films": 0
+   "films": 0,
+   "id": "scott-caan"
   },
   {
    "name": "Ali Larter",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Richard Lineback",
-   "films": 0
+   "films": 0,
+   "id": "richard-lineback"
   },
   {
    "name": "Tiffany C. Love",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Eliel Swinton",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

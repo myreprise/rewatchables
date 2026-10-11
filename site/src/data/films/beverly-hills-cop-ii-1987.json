@@ -5,7 +5,10 @@
  "poster": "egDakU8O5yUwpUJP9IMAUVtIDll.jpg",
  "tmdb_id": 96,
  "directors": [
-  "Tony Scott"
+  {
+   "name": "Tony Scott",
+   "id": "tony-scott"
+  }
  ],
  "director_primary": "Tony Scott",
  "genres": [
@@ -246,43 +249,53 @@
  "cast": [
   {
    "name": "Eddie Murphy",
-   "films": 7
+   "films": 7,
+   "id": "eddie-murphy"
   },
   {
    "name": "Judge Reinhold",
-   "films": 3
+   "films": 3,
+   "id": "judge-reinhold"
   },
   {
    "name": "John Ashton",
-   "films": 3
+   "films": 3,
+   "id": "john-ashton"
   },
   {
    "name": "Jürgen Prochnow",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ronny Cox",
-   "films": 5
+   "films": 5,
+   "id": "ronny-cox"
   },
   {
    "name": "Brigitte Nielsen",
-   "films": 1
+   "films": 1,
+   "id": "brigitte-nielsen"
   },
   {
    "name": "Allen Garfield",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Dean Stockwell",
-   "films": 0
+   "films": 0,
+   "id": "dean-stockwell"
   },
   {
    "name": "Paul Reiser",
-   "films": 2
+   "films": 2,
+   "id": "paul-reiser"
   },
   {
    "name": "Gilbert R. Hill",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

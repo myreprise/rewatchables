@@ -2118,7 +2118,7 @@
   },
   {
    "name": "Francis Ford Coppola",
-   "id": null,
+   "id": "francis-ford-coppola",
    "films": 3,
    "tmdb": 8.23,
    "rt": 86,
@@ -2128,7 +2128,7 @@
   },
   {
    "name": "Stanley Kubrick",
-   "id": null,
+   "id": "stanley-kubrick",
    "films": 3,
    "tmdb": 7.91,
    "rt": 83,
@@ -2138,7 +2138,7 @@
   },
   {
    "name": "Peter Weir",
-   "id": null,
+   "id": "peter-weir",
    "films": 3,
    "tmdb": 7.85,
    "rt": 91,
@@ -2148,7 +2148,7 @@
   },
   {
    "name": "Paul Thomas Anderson",
-   "id": null,
+   "id": "paul-thomas-anderson",
    "films": 3,
    "tmdb": 7.81,
    "rt": 89,
@@ -2158,7 +2158,7 @@
   },
   {
    "name": "Richard Linklater",
-   "id": null,
+   "id": "richard-linklater",
    "films": 3,
    "tmdb": 7.69,
    "rt": 96,
@@ -2168,7 +2168,7 @@
   },
   {
    "name": "John McTiernan",
-   "id": null,
+   "id": "john-mctiernan",
    "films": 3,
    "tmdb": 7.56,
    "rt": 78,
@@ -2178,7 +2178,7 @@
   },
   {
    "name": "George Roy Hill",
-   "id": null,
+   "id": "george-roy-hill",
    "films": 3,
    "tmdb": 7.46,
    "rt": 90,
@@ -2188,7 +2188,7 @@
   },
   {
    "name": "Jonathan Demme",
-   "id": null,
+   "id": "jonathan-demme",
    "films": 3,
    "tmdb": 7.45,
    "rt": 87,
@@ -2198,7 +2198,7 @@
   },
   {
    "name": "Martin Brest",
-   "id": null,
+   "id": "martin-brest",
    "films": 3,
    "tmdb": 7.4,
    "rt": 87,
@@ -2208,7 +2208,7 @@
   },
   {
    "name": "Brian De Palma",
-   "id": null,
+   "id": "brian-de-palma",
    "films": 3,
    "tmdb": 7.39,
    "rt": 79,
@@ -2218,7 +2218,7 @@
   },
   {
    "name": "Antoine Fuqua",
-   "id": null,
+   "id": "antoine-fuqua",
    "films": 3,
    "tmdb": 7.32,
    "rt": 61,
@@ -2228,7 +2228,7 @@
   },
   {
    "name": "John Carpenter",
-   "id": null,
+   "id": "john-carpenter",
    "films": 3,
    "tmdb": 7.3,
    "rt": 90,
@@ -2238,7 +2238,7 @@
   },
   {
    "name": "Richard Donner",
-   "id": null,
+   "id": "richard-donner",
    "films": 3,
    "tmdb": 7.25,
    "rt": 82,
@@ -2248,7 +2248,7 @@
   },
   {
    "name": "James Wan",
-   "id": null,
+   "id": "james-wan",
    "films": 3,
    "tmdb": 7.25,
    "rt": 78,
@@ -2258,7 +2258,7 @@
   },
   {
    "name": "Paul Verhoeven",
-   "id": null,
+   "id": "paul-verhoeven",
    "films": 3,
    "tmdb": 7.21,
    "rt": 76,
@@ -2268,7 +2268,7 @@
   },
   {
    "name": "Chris Columbus",
-   "id": null,
+   "id": "chris-columbus",
    "films": 3,
    "tmdb": 7.15,
    "rt": 57,
@@ -2278,7 +2278,7 @@
   },
   {
    "name": "John G. Avildsen",
-   "id": null,
+   "id": "john-g-avildsen",
    "films": 3,
    "tmdb": 7.13,
    "rt": 77,
@@ -2288,7 +2288,7 @@
   },
   {
    "name": "F. Gary Gray",
-   "id": null,
+   "id": "f-gary-gray",
    "films": 3,
    "tmdb": 7.11,
    "rt": 58,
@@ -2298,7 +2298,7 @@
   },
   {
    "name": "Harold Ramis",
-   "id": null,
+   "id": "harold-ramis",
    "films": 3,
    "tmdb": 7.11,
    "rt": 87,
@@ -2308,7 +2308,7 @@
   },
   {
    "name": "Sylvester Stallone",
-   "id": null,
+   "id": "sylvester-stallone",
    "films": 3,
    "tmdb": 7.1,
    "rt": 58,
@@ -2318,7 +2318,7 @@
   },
   {
    "name": "Barry Levinson",
-   "id": null,
+   "id": "barry-levinson",
    "films": 3,
    "tmdb": 6.98,
    "rt": 77,
@@ -2328,7 +2328,7 @@
   },
   {
    "name": "Michael Bay",
-   "id": null,
+   "id": "michael-bay",
    "films": 3,
    "tmdb": 6.94,
    "rt": 51,
@@ -2338,7 +2338,7 @@
   },
   {
    "name": "Taylor Hackford",
-   "id": null,
+   "id": "taylor-hackford",
    "films": 3,
    "tmdb": 6.9,
    "rt": 60,
@@ -2348,7 +2348,7 @@
   },
   {
    "name": "George P. Cosmatos",
-   "id": null,
+   "id": "george-p-cosmatos",
    "films": 3,
    "tmdb": 6.8,
    "rt": 41,
@@ -2358,7 +2358,7 @@
   },
   {
    "name": "Cameron Crowe",
-   "id": null,
+   "id": "cameron-crowe",
    "films": 3,
    "tmdb": 6.8,
    "rt": 87,
@@ -2368,7 +2368,7 @@
   },
   {
    "name": "Walter Hill",
-   "id": null,
+   "id": "walter-hill",
    "films": 3,
    "tmdb": 6.79,
    "rt": 66,
@@ -2378,7 +2378,7 @@
   },
   {
    "name": "Joel Schumacher",
-   "id": null,
+   "id": "joel-schumacher",
    "films": 3,
    "tmdb": 6.68,
    "rt": 45,
@@ -2388,7 +2388,7 @@
   },
   {
    "name": "Adrian Lyne",
-   "id": null,
+   "id": "adrian-lyne",
    "films": 3,
    "tmdb": 6.65,
    "rt": 53,
@@ -2398,7 +2398,7 @@
   },
   {
    "name": "Jay Roach",
-   "id": null,
+   "id": "jay-roach",
    "films": 3,
    "tmdb": 6.54,
    "rt": 70,
@@ -2408,7 +2408,7 @@
   },
   {
    "name": "Roger Donaldson",
-   "id": null,
+   "id": "roger-donaldson",
    "films": 3,
    "tmdb": 6.32,
    "rt": 48,
@@ -2418,7 +2418,7 @@
   },
   {
    "name": "Harold Becker",
-   "id": null,
+   "id": "harold-becker",
    "films": 3,
    "tmdb": 6.24,
    "rt": 53,
@@ -2428,7 +2428,7 @@
   },
   {
    "name": "Joseph Kosinski",
-   "id": null,
+   "id": "joseph-kosinski",
    "films": 2,
    "tmdb": 7.99,
    "rt": 90,
@@ -2438,7 +2438,7 @@
   },
   {
    "name": "Coen Brothers",
-   "id": null,
+   "id": "coen-brothers",
    "films": 2,
    "tmdb": 7.89,
    "rt": 86,
@@ -2448,7 +2448,7 @@
   },
   {
    "name": "Wes Anderson",
-   "id": null,
+   "id": "wes-anderson",
    "films": 2,
    "tmdb": 7.74,
    "rt": 86,
@@ -2458,7 +2458,7 @@
   },
   {
    "name": "Gavin O'Connor",
-   "id": null,
+   "id": "gavin-oconnor",
    "films": 2,
    "tmdb": 7.47,
    "rt": 82,
@@ -2468,7 +2468,7 @@
   },
   {
    "name": "Ryan Coogler",
-   "id": null,
+   "id": "ryan-coogler",
    "films": 2,
    "tmdb": 7.46,
    "rt": 96,
@@ -2478,7 +2478,7 @@
   },
   {
    "name": "Chad Stahelski",
-   "id": null,
+   "id": "chad-stahelski",
    "films": 2,
    "tmdb": 7.4,
    "rt": 88,
@@ -2488,7 +2488,7 @@
   },
   {
    "name": "Jon Favreau",
-   "id": null,
+   "id": "jon-favreau",
    "films": 2,
    "tmdb": 7.39,
    "rt": 90,
@@ -2498,7 +2498,7 @@
   },
   {
    "name": "Curtis Hanson",
-   "id": null,
+   "id": "curtis-hanson",
    "films": 2,
    "tmdb": 7.35,
    "rt": 83,
@@ -2508,7 +2508,7 @@
   },
   {
    "name": "Robert Redford",
-   "id": null,
+   "id": "robert-redford",
    "films": 2,
    "tmdb": 7.35,
    "rt": 93,
@@ -2518,7 +2518,7 @@
   },
   {
    "name": "Ang Lee",
-   "id": null,
+   "id": "ang-lee",
    "films": 2,
    "tmdb": 7.33,
    "rt": 87,
@@ -2528,7 +2528,7 @@
   },
   {
    "name": "Ben Affleck",
-   "id": null,
+   "id": "ben-affleck",
    "films": 2,
    "tmdb": 7.26,
    "rt": 94,
@@ -2538,7 +2538,7 @@
   },
   {
    "name": "Tobe Hooper",
-   "id": null,
+   "id": "tobe-hooper",
    "films": 2,
    "tmdb": 7.25,
    "rt": 86,
@@ -2548,7 +2548,7 @@
   },
   {
    "name": "Martin Campbell",
-   "id": null,
+   "id": "martin-campbell",
    "films": 2,
    "tmdb": 7.24,
    "rt": 87,
@@ -2558,7 +2558,7 @@
   },
   {
    "name": "Penny Marshall",
-   "id": null,
+   "id": "penny-marshall",
    "films": 2,
    "tmdb": 7.2,
    "rt": 90,
@@ -2568,7 +2568,7 @@
   },
   {
    "name": "David Anspaugh",
-   "id": null,
+   "id": "david-anspaugh",
    "films": 2,
    "tmdb": 7.17,
    "rt": 84,
@@ -2578,7 +2578,7 @@
   },
   {
    "name": "Alan J. Pakula",
-   "id": null,
+   "id": "alan-j-pakula",
    "films": 2,
    "tmdb": 7.12,
    "rt": 74,
@@ -2588,7 +2588,7 @@
   },
   {
    "name": "Glenn Ficarra; John Requa",
-   "id": null,
+   "id": "glenn-ficarra-john-requa",
    "films": 2,
    "tmdb": 7.07,
    "rt": 68,
@@ -2598,7 +2598,7 @@
   },
   {
    "name": "Sydney Pollack",
-   "id": null,
+   "id": "sydney-pollack",
    "films": 2,
    "tmdb": 7.03,
    "rt": 84,
@@ -2608,7 +2608,7 @@
   },
   {
    "name": "Amy Heckerling",
-   "id": null,
+   "id": "amy-heckerling",
    "films": 2,
    "tmdb": 7.02,
    "rt": 80,
@@ -2618,7 +2618,7 @@
   },
   {
    "name": "Phil Alden Robinson",
-   "id": null,
+   "id": "phil-alden-robinson",
    "films": 2,
    "tmdb": 7.02,
    "rt": 84,
@@ -2628,7 +2628,7 @@
   },
   {
    "name": "Alexander Payne",
-   "id": null,
+   "id": "alexander-payne",
    "films": 2,
    "tmdb": 6.98,
    "rt": 94,
@@ -2638,7 +2638,7 @@
   },
   {
    "name": "Todd Phillips",
-   "id": null,
+   "id": "todd-phillips",
    "films": 2,
    "tmdb": 6.98,
    "rt": 70,
@@ -2648,7 +2648,7 @@
   },
   {
    "name": "John Singleton",
-   "id": null,
+   "id": "john-singleton",
    "films": 2,
    "tmdb": 6.97,
    "rt": 71,
@@ -2658,7 +2658,7 @@
   },
   {
    "name": "Lawrence Kasdan",
-   "id": null,
+   "id": "lawrence-kasdan",
    "films": 2,
    "tmdb": 6.9,
    "rt": 82,
@@ -2668,7 +2668,7 @@
   },
   {
    "name": "Andrew Davis",
-   "id": null,
+   "id": "andrew-davis",
    "films": 2,
    "tmdb": 6.9,
    "rt": 90,
@@ -2678,7 +2678,7 @@
   },
   {
    "name": "Sam Raimi",
-   "id": null,
+   "id": "sam-raimi",
    "films": 2,
    "tmdb": 6.87,
    "rt": 68,
@@ -2688,7 +2688,7 @@
   },
   {
    "name": "Greg Mottola",
-   "id": null,
+   "id": "greg-mottola",
    "films": 2,
    "tmdb": 6.83,
    "rt": 88,
@@ -2698,7 +2698,7 @@
   },
   {
    "name": "Michael Ritchie",
-   "id": null,
+   "id": "michael-ritchie",
    "films": 2,
    "tmdb": 6.83,
    "rt": 88,
@@ -2708,7 +2708,7 @@
   },
   {
    "name": "Edward Zwick",
-   "id": null,
+   "id": "edward-zwick",
    "films": 2,
    "tmdb": 6.83,
    "rt": 64,
@@ -2718,7 +2718,7 @@
   },
   {
    "name": "Nancy Meyers",
-   "id": null,
+   "id": "nancy-meyers",
    "films": 2,
    "tmdb": 6.81,
    "rt": 54,
@@ -2728,7 +2728,7 @@
   },
   {
    "name": "Rick Rosenthal",
-   "id": null,
+   "id": "rick-rosenthal",
    "films": 2,
    "tmdb": 6.79,
    "rt": 62,
@@ -2738,7 +2738,7 @@
   },
   {
    "name": "Renny Harlin",
-   "id": null,
+   "id": "renny-harlin",
    "films": 2,
    "tmdb": 6.74,
    "rt": 68,
@@ -2748,7 +2748,7 @@
   },
   {
    "name": "Wolfgang Petersen",
-   "id": null,
+   "id": "wolfgang-petersen",
    "films": 2,
    "tmdb": 6.73,
    "rt": 71,
@@ -2758,7 +2758,7 @@
   },
   {
    "name": "John Schlesinger",
-   "id": null,
+   "id": "john-schlesinger",
    "films": 2,
    "tmdb": 6.73,
    "rt": 67,
@@ -2768,7 +2768,7 @@
   },
   {
    "name": "Nora Ephron",
-   "id": null,
+   "id": "nora-ephron",
    "films": 2,
    "tmdb": 6.72,
    "rt": 72,
@@ -2778,7 +2778,7 @@
   },
   {
    "name": "David S. Ward",
-   "id": null,
+   "id": "david-s-ward",
    "films": 2,
    "tmdb": 6.69,
    "rt": 63,
@@ -2788,7 +2788,7 @@
   },
   {
    "name": "Norman Jewison",
-   "id": null,
+   "id": "norman-jewison",
    "films": 2,
    "tmdb": 6.68,
    "rt": 68,
@@ -2798,7 +2798,7 @@
   },
   {
    "name": "Joseph Ruben",
-   "id": null,
+   "id": "joseph-ruben",
    "films": 2,
    "tmdb": 6.66,
    "rt": 25,
@@ -2808,7 +2808,7 @@
   },
   {
    "name": "Ben Stiller",
-   "id": null,
+   "id": "ben-stiller",
    "films": 2,
    "tmdb": 6.63,
    "rt": 72,
@@ -2818,7 +2818,7 @@
   },
   {
    "name": "Dennis Dugan",
-   "id": null,
+   "id": "dennis-dugan",
    "films": 2,
    "tmdb": 6.58,
    "rt": 50,
@@ -2828,7 +2828,7 @@
   },
   {
    "name": "Paul Schrader",
-   "id": null,
+   "id": "paul-schrader",
    "films": 2,
    "tmdb": 6.49,
    "rt": 76,
@@ -2838,7 +2838,7 @@
   },
   {
    "name": "Brian de Palma",
-   "id": null,
+   "id": "brian-de-palma-2",
    "films": 2,
    "tmdb": 6.47,
    "rt": 60,
@@ -2848,7 +2848,7 @@
   },
   {
    "name": "Adam McKay",
-   "id": null,
+   "id": "adam-mckay",
    "films": 2,
    "tmdb": 6.47,
    "rt": 62,
@@ -2858,7 +2858,7 @@
   },
   {
    "name": "Judd Apatow",
-   "id": null,
+   "id": "judd-apatow",
    "films": 2,
    "tmdb": 6.37,
    "rt": 88,
@@ -2868,7 +2868,7 @@
   },
   {
    "name": "Ron Shelton",
-   "id": null,
+   "id": "ron-shelton",
    "films": 2,
    "tmdb": 6.37,
    "rt": 74,
@@ -2878,7 +2878,7 @@
   },
   {
    "name": "Nicholas Stoller",
-   "id": null,
+   "id": "nicholas-stoller",
    "films": 2,
    "tmdb": 6.34,
    "rt": 78,
@@ -2888,7 +2888,7 @@
   },
   {
    "name": "Brian Robbins",
-   "id": null,
+   "id": "brian-robbins",
    "films": 2,
    "tmdb": 6.32,
    "rt": 43,
@@ -2898,7 +2898,7 @@
   },
   {
    "name": "Peter Hyams",
-   "id": null,
+   "id": "peter-hyams",
    "films": 2,
    "tmdb": 6.07,
    "rt": 57,
@@ -2908,7 +2908,7 @@
   },
   {
    "name": "Frank Darabont",
-   "id": null,
+   "id": "frank-darabont",
    "films": 1,
    "tmdb": 8.73,
    "rt": 89,
@@ -2918,7 +2918,7 @@
   },
   {
    "name": "Damien Chazelle",
-   "id": null,
+   "id": "damien-chazelle",
    "films": 1,
    "tmdb": 8.38,
    "rt": 94,
@@ -2928,7 +2928,7 @@
   },
   {
    "name": "Wachowskis",
-   "id": null,
+   "id": "wachowskis",
    "films": 1,
    "tmdb": 8.26,
    "rt": 83,
@@ -2938,7 +2938,7 @@
   },
   {
    "name": "Curry Barker",
-   "id": null,
+   "id": "curry-barker",
    "films": 1,
    "tmdb": 8.21,
    "rt": 94,
@@ -2948,7 +2948,7 @@
   },
   {
    "name": "George Lucas",
-   "id": null,
+   "id": "george-lucas",
    "films": 1,
    "tmdb": 8.21,
    "rt": 94,
@@ -2958,7 +2958,7 @@
   },
   {
    "name": "Bryan Singer",
-   "id": null,
+   "id": "bryan-singer",
    "films": 1,
    "tmdb": 8.16,
    "rt": 87,
@@ -2968,7 +2968,7 @@
   },
   {
    "name": "Gus Van Sant",
-   "id": null,
+   "id": "gus-van-sant",
    "films": 1,
    "tmdb": 8.16,
    "rt": 97,
@@ -2978,7 +2978,7 @@
   },
   {
    "name": "John Lasseter",
-   "id": null,
+   "id": "john-lasseter",
    "films": 1,
    "tmdb": 7.99,
    "rt": 100,
@@ -2988,7 +2988,7 @@
   },
   {
    "name": "Danny Boyle",
-   "id": null,
+   "id": "danny-boyle",
    "films": 1,
    "tmdb": 7.96,
    "rt": 90,
@@ -2998,7 +2998,7 @@
   },
   {
    "name": "M. Night Shyamalan",
-   "id": null,
+   "id": "m-night-shyamalan",
    "films": 1,
    "tmdb": 7.95,
    "rt": 86,
@@ -3008,7 +3008,7 @@
   },
   {
    "name": "Clint Eastwood",
-   "id": null,
+   "id": "clint-eastwood",
    "films": 1,
    "tmdb": 7.91,
    "rt": 96,
@@ -3018,7 +3018,7 @@
   },
   {
    "name": "Robert De Niro",
-   "id": null,
+   "id": "robert-de-niro",
    "films": 1,
    "tmdb": 7.9,
    "rt": 97,
@@ -3028,7 +3028,7 @@
   },
   {
    "name": "Nick Cassavetes",
-   "id": null,
+   "id": "nick-cassavetes",
    "films": 1,
    "tmdb": 7.89,
    "rt": 54,
@@ -3038,7 +3038,7 @@
   },
   {
    "name": "Joel Coen",
-   "id": null,
+   "id": "joel-coen",
    "films": 1,
    "tmdb": 7.85,
    "rt": 94,
@@ -3048,7 +3048,7 @@
   },
   {
    "name": "Tom McCarthy",
-   "id": null,
+   "id": "tom-mccarthy",
    "films": 1,
    "tmdb": 7.81,
    "rt": 97,
@@ -3058,7 +3058,7 @@
   },
   {
    "name": "Boaz Yakin",
-   "id": null,
+   "id": "boaz-yakin",
    "films": 1,
    "tmdb": 7.66,
    "rt": 71,
@@ -3068,7 +3068,7 @@
   },
   {
    "name": "Gregory Hoblit",
-   "id": null,
+   "id": "gregory-hoblit",
    "films": 1,
    "tmdb": 7.66,
    "rt": 77,
@@ -3078,7 +3078,7 @@
   },
   {
    "name": "George Miller",
-   "id": null,
+   "id": "george-miller",
    "films": 1,
    "tmdb": 7.64,
    "rt": 97,
@@ -3088,7 +3088,7 @@
   },
   {
    "name": "Jordan Peele",
-   "id": null,
+   "id": "jordan-peele",
    "films": 1,
    "tmdb": 7.62,
    "rt": 98,
@@ -3098,7 +3098,7 @@
   },
   {
    "name": "Gil Junger",
-   "id": null,
+   "id": "gil-junger",
    "films": 1,
    "tmdb": 7.6,
    "rt": 71,
@@ -3108,7 +3108,7 @@
   },
   {
    "name": "Robert Benton",
-   "id": null,
+   "id": "robert-benton",
    "films": 1,
    "tmdb": 7.57,
    "rt": 90,
@@ -3118,7 +3118,7 @@
   },
   {
    "name": "David Mickey Evans",
-   "id": null,
+   "id": "david-mickey-evans",
    "films": 1,
    "tmdb": 7.56,
    "rt": 65,
@@ -3128,7 +3128,7 @@
   },
   {
    "name": "Kenneth Lonergan",
-   "id": null,
+   "id": "kenneth-lonergan",
    "films": 1,
    "tmdb": 7.55,
    "rt": 96,
@@ -3138,7 +3138,7 @@
   },
   {
    "name": "Ted Kotcheff",
-   "id": null,
+   "id": "ted-kotcheff",
    "films": 1,
    "tmdb": 7.52,
    "rt": 86,
@@ -3148,7 +3148,7 @@
   },
   {
    "name": "Bradley Cooper",
-   "id": null,
+   "id": "bradley-cooper",
    "films": 1,
    "tmdb": 7.5,
    "rt": 90,
@@ -3158,7 +3158,7 @@
   },
   {
    "name": "Jonathan Lynn",
-   "id": null,
+   "id": "jonathan-lynn",
    "films": 1,
    "tmdb": 7.5,
    "rt": 85,
@@ -3168,7 +3168,7 @@
   },
   {
    "name": "Sidney Lumet",
-   "id": null,
+   "id": "sidney-lumet",
    "films": 1,
    "tmdb": 7.47,
    "rt": 88,
@@ -3178,7 +3178,7 @@
   },
   {
    "name": "Christopher McQuarrie",
-   "id": null,
+   "id": "christopher-mcquarrie",
    "films": 1,
    "tmdb": 7.45,
    "rt": 98,
@@ -3188,7 +3188,7 @@
   },
   {
    "name": "Garry Marshall",
-   "id": null,
+   "id": "garry-marshall",
    "films": 1,
    "tmdb": 7.44,
    "rt": 64,
@@ -3198,7 +3198,7 @@
   },
   {
    "name": "David Frankel",
-   "id": null,
+   "id": "david-frankel",
    "films": 1,
    "tmdb": 7.44,
    "rt": 75,
@@ -3208,7 +3208,7 @@
   },
   {
    "name": "Wes Craven",
-   "id": null,
+   "id": "wes-craven",
    "films": 1,
    "tmdb": 7.43,
    "rt": 77,
@@ -3218,7 +3218,7 @@
   },
   {
    "name": "Denis Villeneuve",
-   "id": null,
+   "id": "denis-villeneuve",
    "films": 1,
    "tmdb": 7.43,
    "rt": 91,
@@ -3228,7 +3228,7 @@
   },
   {
    "name": "Pierre Morel",
-   "id": null,
+   "id": "pierre-morel",
    "films": 1,
    "tmdb": 7.41,
    "rt": 60,
@@ -3238,7 +3238,7 @@
   },
   {
    "name": "Mike Judge",
-   "id": null,
+   "id": "mike-judge",
    "films": 1,
    "tmdb": 7.38,
    "rt": 81,
@@ -3248,7 +3248,7 @@
   },
   {
    "name": "Sophia Coppola",
-   "id": null,
+   "id": "sophia-coppola",
    "films": 1,
    "tmdb": 7.38,
    "rt": 95,
@@ -3258,7 +3258,7 @@
   },
   {
    "name": "Randal Kleiser",
-   "id": null,
+   "id": "randal-kleiser",
    "films": 1,
    "tmdb": 7.37,
    "rt": 66,
@@ -3268,7 +3268,7 @@
   },
   {
    "name": "Gina Prince-Bythewood",
-   "id": null,
+   "id": "gina-prince-bythewood",
    "films": 1,
    "tmdb": 7.35,
    "rt": 85,
@@ -3278,7 +3278,7 @@
   },
   {
    "name": "John Boorman",
-   "id": null,
+   "id": "john-boorman",
    "films": 1,
    "tmdb": 7.31,
    "rt": 89,
@@ -3288,7 +3288,7 @@
   },
   {
    "name": "Ari Aster",
-   "id": null,
+   "id": "ari-aster",
    "films": 1,
    "tmdb": 7.3,
    "rt": 90,
@@ -3298,7 +3298,7 @@
   },
   {
    "name": "James Foley",
-   "id": null,
+   "id": "james-foley",
    "films": 1,
    "tmdb": 7.3,
    "rt": 95,
@@ -3308,7 +3308,7 @@
   },
   {
    "name": "Jim Abrahams; David Zucker; Jerry Zucker",
-   "id": null,
+   "id": "jim-abrahams-david-zucker-jerry-zucker",
    "films": 1,
    "tmdb": 7.3,
    "rt": 97,
@@ -3318,7 +3318,7 @@
   },
   {
    "name": "Bennett Miller",
-   "id": null,
+   "id": "bennett-miller",
    "films": 1,
    "tmdb": 7.3,
    "rt": 94,
@@ -3328,7 +3328,7 @@
   },
   {
    "name": "David Zucker",
-   "id": null,
+   "id": "david-zucker",
    "films": 1,
    "tmdb": 7.28,
    "rt": 86,
@@ -3338,7 +3338,7 @@
   },
   {
    "name": "Jason Moore",
-   "id": null,
+   "id": "jason-moore",
    "films": 1,
    "tmdb": 7.27,
    "rt": 81,
@@ -3348,7 +3348,7 @@
   },
   {
    "name": "Roger Michell",
-   "id": null,
+   "id": "roger-michell",
    "films": 1,
    "tmdb": 7.26,
    "rt": 84,
@@ -3358,7 +3358,7 @@
   },
   {
    "name": "Sam Mendes",
-   "id": null,
+   "id": "sam-mendes",
    "films": 1,
    "tmdb": 7.26,
    "rt": 92,
@@ -3368,7 +3368,7 @@
   },
   {
    "name": "Jerry Zucker",
-   "id": null,
+   "id": "jerry-zucker",
    "films": 1,
    "tmdb": 7.25,
    "rt": 75,
@@ -3378,7 +3378,7 @@
   },
   {
    "name": "Justin Lin",
-   "id": null,
+   "id": "justin-lin",
    "films": 1,
    "tmdb": 7.24,
    "rt": 78,
@@ -3388,7 +3388,7 @@
   },
   {
    "name": "Tim Burton",
-   "id": null,
+   "id": "tim-burton",
    "films": 1,
    "tmdb": 7.23,
    "rt": 77,
@@ -3398,7 +3398,7 @@
   },
   {
    "name": "Jeremiah S. Chechik",
-   "id": null,
+   "id": "jeremiah-s-chechik",
    "films": 1,
    "tmdb": 7.23,
    "rt": 72,
@@ -3408,7 +3408,7 @@
   },
   {
    "name": "Samantha Jayne; Arturo Perez Jr.",
-   "id": null,
+   "id": "samantha-jayne-arturo-perez-jr",
    "films": 1,
    "tmdb": 7.23,
    "rt": 84,
@@ -3418,7 +3418,7 @@
   },
   {
    "name": "Francis Lawrence",
-   "id": null,
+   "id": "francis-lawrence",
    "films": 1,
    "tmdb": 7.22,
    "rt": 68,
@@ -3428,7 +3428,7 @@
   },
   {
    "name": "Paul Haggis",
-   "id": null,
+   "id": "paul-haggis",
    "films": 1,
    "tmdb": 7.21,
    "rt": 73,
@@ -3438,7 +3438,7 @@
   },
   {
    "name": "Ernest Dickerson",
-   "id": null,
+   "id": "ernest-dickerson",
    "films": 1,
    "tmdb": 7.21,
    "rt": 81,
@@ -3448,7 +3448,7 @@
   },
   {
    "name": "Neil Burger",
-   "id": null,
+   "id": "neil-burger",
    "films": 1,
    "tmdb": 7.2,
    "rt": 68,
@@ -3458,7 +3458,7 @@
   },
   {
    "name": "David O. Russell",
-   "id": null,
+   "id": "david-o-russell",
    "films": 1,
    "tmdb": 7.2,
    "rt": 92,
@@ -3468,7 +3468,7 @@
   },
   {
    "name": "Jan De Bont",
-   "id": null,
+   "id": "jan-de-bont",
    "films": 1,
    "tmdb": 7.2,
    "rt": 95,
@@ -3478,7 +3478,7 @@
   },
   {
    "name": "Anthony Minghella",
-   "id": null,
+   "id": "anthony-minghella",
    "films": 1,
    "tmdb": 7.2,
    "rt": 85,
@@ -3488,7 +3488,7 @@
   },
   {
    "name": "Robert Altman",
-   "id": null,
+   "id": "robert-altman",
    "films": 1,
    "tmdb": 7.19,
    "rt": 97,
@@ -3498,7 +3498,7 @@
   },
   {
    "name": "Kathryn Bigelow",
-   "id": null,
+   "id": "kathryn-bigelow",
    "films": 1,
    "tmdb": 7.15,
    "rt": 70,
@@ -3508,7 +3508,7 @@
   },
   {
    "name": "Peter Yates",
-   "id": null,
+   "id": "peter-yates",
    "films": 1,
    "tmdb": 7.15,
    "rt": 95,
@@ -3518,7 +3518,7 @@
   },
   {
    "name": "Shane Black",
-   "id": null,
+   "id": "shane-black",
    "films": 1,
    "tmdb": 7.13,
    "rt": 91,
@@ -3528,7 +3528,7 @@
   },
   {
    "name": "Allan Moyle",
-   "id": null,
+   "id": "allan-moyle",
    "films": 1,
    "tmdb": 7.1,
    "rt": 82,
@@ -3538,7 +3538,7 @@
   },
   {
    "name": "Stephen Frears",
-   "id": null,
+   "id": "stephen-frears",
    "films": 1,
    "tmdb": 7.1,
    "rt": 91,
@@ -3548,7 +3548,7 @@
   },
   {
    "name": "Jeff Pollack",
-   "id": null,
+   "id": "jeff-pollack",
    "films": 1,
    "tmdb": 7.07,
    "rt": 50,
@@ -3558,7 +3558,7 @@
   },
   {
    "name": "Steven Zaillian",
-   "id": null,
+   "id": "steven-zaillian",
    "films": 1,
    "tmdb": 7.07,
    "rt": 100,
@@ -3568,7 +3568,7 @@
   },
   {
    "name": "Newt Arnold",
-   "id": null,
+   "id": "newt-arnold",
    "films": 1,
    "tmdb": 7.07,
    "rt": 48,
@@ -3578,7 +3578,7 @@
   },
   {
    "name": "John Woo",
-   "id": null,
+   "id": "john-woo",
    "films": 1,
    "tmdb": 7.06,
    "rt": 93,
@@ -3588,7 +3588,7 @@
   },
   {
    "name": "Jon Turteltaub",
-   "id": null,
+   "id": "jon-turteltaub",
    "films": 1,
    "tmdb": 7.04,
    "rt": 81,
@@ -3598,7 +3598,7 @@
   },
   {
    "name": "John Dahl",
-   "id": null,
+   "id": "john-dahl",
    "films": 1,
    "tmdb": 7.02,
    "rt": 64,
@@ -3608,7 +3608,7 @@
   },
   {
    "name": "Rob Cohen",
-   "id": null,
+   "id": "rob-cohen",
    "films": 1,
    "tmdb": 7.0,
    "rt": 55,
@@ -3618,7 +3618,7 @@
   },
   {
    "name": "John N. Smith",
-   "id": null,
+   "id": "john-n-smith",
    "films": 1,
    "tmdb": 6.98,
    "rt": 34,
@@ -3628,7 +3628,7 @@
   },
   {
    "name": "Ric Roman Waugh",
-   "id": null,
+   "id": "ric-roman-waugh",
    "films": 1,
    "tmdb": 6.97,
    "rt": 69,
@@ -3638,7 +3638,7 @@
   },
   {
    "name": "John Frankenheimer",
-   "id": null,
+   "id": "john-frankenheimer",
    "films": 1,
    "tmdb": 6.97,
    "rt": 70,
@@ -3648,7 +3648,7 @@
   },
   {
    "name": "Stephen Herek",
-   "id": null,
+   "id": "stephen-herek",
    "films": 1,
    "tmdb": 6.96,
    "rt": 75,
@@ -3658,7 +3658,7 @@
   },
   {
    "name": "Michael Winner",
-   "id": null,
+   "id": "michael-winner",
    "films": 1,
    "tmdb": 6.93,
    "rt": 66,
@@ -3668,7 +3668,7 @@
   },
   {
    "name": "Nima Nourizadeh",
-   "id": null,
+   "id": "nima-nourizadeh",
    "films": 1,
    "tmdb": 6.92,
    "rt": 28,
@@ -3678,7 +3678,7 @@
   },
   {
    "name": "Roland Emmerich",
-   "id": null,
+   "id": "roland-emmerich",
    "films": 1,
    "tmdb": 6.92,
    "rt": 68,
@@ -3688,7 +3688,7 @@
   },
   {
    "name": "Danny DeVito",
-   "id": null,
+   "id": "danny-devito",
    "films": 1,
    "tmdb": 6.92,
    "rt": 83,
@@ -3698,7 +3698,7 @@
   },
   {
    "name": "Peter Berg",
-   "id": null,
+   "id": "peter-berg",
    "films": 1,
    "tmdb": 6.9,
    "rt": 82,
@@ -3708,7 +3708,7 @@
   },
   {
    "name": "Christopher Guest",
-   "id": null,
+   "id": "christopher-guest",
    "films": 1,
    "tmdb": 6.89,
    "rt": 93,
@@ -3718,7 +3718,7 @@
   },
   {
    "name": "Frank Oz",
-   "id": null,
+   "id": "frank-oz",
    "films": 1,
    "tmdb": 6.89,
    "rt": 82,
@@ -3728,7 +3728,7 @@
   },
   {
    "name": "Frank Marshall",
-   "id": null,
+   "id": "frank-marshall",
    "films": 1,
    "tmdb": 6.88,
    "rt": 63,
@@ -3738,7 +3738,7 @@
   },
   {
    "name": "Steve Rash",
-   "id": null,
+   "id": "steve-rash",
    "films": 1,
    "tmdb": 6.88,
    "rt": 50,
@@ -3748,7 +3748,7 @@
   },
   {
    "name": "John Huston",
-   "id": null,
+   "id": "john-huston",
    "films": 1,
    "tmdb": 6.88,
    "rt": 70,
@@ -3758,7 +3758,7 @@
   },
   {
    "name": "Christian Gudegast",
-   "id": null,
+   "id": "christian-gudegast",
    "films": 1,
    "tmdb": 6.87,
    "rt": 41,
@@ -3768,7 +3768,7 @@
   },
   {
    "name": "Lee Tamahori",
-   "id": null,
+   "id": "lee-tamahori",
    "films": 1,
    "tmdb": 6.86,
    "rt": 62,
@@ -3778,7 +3778,7 @@
   },
   {
    "name": "J. C. Chandor",
-   "id": null,
+   "id": "j-c-chandor",
    "films": 1,
    "tmdb": 6.86,
    "rt": 87,
@@ -3788,7 +3788,7 @@
   },
   {
    "name": "Kevin Reynolds",
-   "id": null,
+   "id": "kevin-reynolds",
    "films": 1,
    "tmdb": 6.85,
    "rt": 51,
@@ -3798,7 +3798,7 @@
   },
   {
    "name": "Roger Kumble",
-   "id": null,
+   "id": "roger-kumble",
    "films": 1,
    "tmdb": 6.82,
    "rt": 54,
@@ -3808,7 +3808,7 @@
   },
   {
    "name": "James Mangold",
-   "id": null,
+   "id": "james-mangold",
    "films": 1,
    "tmdb": 6.82,
    "rt": 75,
@@ -3818,7 +3818,7 @@
   },
   {
    "name": "Robert Luketic",
-   "id": null,
+   "id": "robert-luketic",
    "films": 1,
    "tmdb": 6.82,
    "rt": 72,
@@ -3828,7 +3828,7 @@
   },
   {
    "name": "Will Gluck",
-   "id": null,
+   "id": "will-gluck",
    "films": 1,
    "tmdb": 6.8,
    "rt": 85,
@@ -3838,7 +3838,7 @@
   },
   {
    "name": "Gary Winick",
-   "id": null,
+   "id": "gary-winick",
    "films": 1,
    "tmdb": 6.8,
    "rt": 65,
@@ -3848,7 +3848,7 @@
   },
   {
    "name": "Peter Segal",
-   "id": null,
+   "id": "peter-segal",
    "films": 1,
    "tmdb": 6.8,
    "rt": 39,
@@ -3858,7 +3858,7 @@
   },
   {
    "name": "Tony Gilroy",
-   "id": null,
+   "id": "tony-gilroy",
    "films": 1,
    "tmdb": 6.79,
    "rt": 90,
@@ -3868,7 +3868,7 @@
   },
   {
    "name": "Larry Charles",
-   "id": null,
+   "id": "larry-charles",
    "films": 1,
    "tmdb": 6.79,
    "rt": 90,
@@ -3878,7 +3878,7 @@
   },
   {
    "name": "Simon West",
-   "id": null,
+   "id": "simon-west",
    "films": 1,
    "tmdb": 6.79,
    "rt": 58,
@@ -3888,7 +3888,7 @@
   },
   {
    "name": "James L. Brooks",
-   "id": null,
+   "id": "james-l-brooks",
    "films": 1,
    "tmdb": 6.78,
    "rt": 98,
@@ -3898,7 +3898,7 @@
   },
   {
    "name": "Rowdy Herrington",
-   "id": null,
+   "id": "rowdy-herrington",
    "films": 1,
    "tmdb": 6.77,
    "rt": 44,
@@ -3908,7 +3908,7 @@
   },
   {
    "name": "Abel Ferrara",
-   "id": null,
+   "id": "abel-ferrara",
    "films": 1,
    "tmdb": 6.76,
    "rt": 73,
@@ -3918,7 +3918,7 @@
   },
   {
    "name": "Robert Aldrich",
-   "id": null,
+   "id": "robert-aldrich",
    "films": 1,
    "tmdb": 6.74,
    "rt": 76,
@@ -3928,7 +3928,7 @@
   },
   {
    "name": "John Badham",
-   "id": null,
+   "id": "john-badham",
    "films": 1,
    "tmdb": 6.73,
    "rt": 82,
@@ -3938,7 +3938,7 @@
   },
   {
    "name": "Mario Van Peebles",
-   "id": null,
+   "id": "mario-van-peebles",
    "films": 1,
    "tmdb": 6.73,
    "rt": 81,
@@ -3948,7 +3948,7 @@
   },
   {
    "name": "Howard Deutch",
-   "id": null,
+   "id": "howard-deutch",
    "films": 1,
    "tmdb": 6.71,
    "rt": 41,
@@ -3958,7 +3958,7 @@
   },
   {
    "name": "Mark L. Lester",
-   "id": null,
+   "id": "mark-l-lester",
    "films": 1,
    "tmdb": 6.71,
    "rt": 68,
@@ -3968,7 +3968,7 @@
   },
   {
    "name": "Mick Jackson",
-   "id": null,
+   "id": "mick-jackson",
    "films": 1,
    "tmdb": 6.71,
    "rt": 38,
@@ -3978,7 +3978,7 @@
   },
   {
    "name": "Albert Magnoli",
-   "id": null,
+   "id": "albert-magnoli",
    "films": 1,
    "tmdb": 6.7,
    "rt": 72,
@@ -3988,7 +3988,7 @@
   },
   {
    "name": "Penelope Spheeris",
-   "id": null,
+   "id": "penelope-spheeris",
    "films": 1,
    "tmdb": 6.68,
    "rt": 79,
@@ -3998,7 +3998,7 @@
   },
   {
    "name": "Martin Davidson",
-   "id": null,
+   "id": "martin-davidson",
    "films": 1,
    "tmdb": 6.66,
    "rt": 38,
@@ -4008,7 +4008,7 @@
   },
   {
    "name": "Peter Farrelly",
-   "id": null,
+   "id": "peter-farrelly",
    "films": 1,
    "tmdb": 6.66,
    "rt": 67,
@@ -4018,7 +4018,7 @@
   },
   {
    "name": "Warren Beatty; Buck Henry",
-   "id": null,
+   "id": "warren-beatty-buck-henry",
    "films": 1,
    "tmdb": 6.66,
    "rt": 86,
@@ -4028,7 +4028,7 @@
   },
   {
    "name": "David Gordon Green",
-   "id": null,
+   "id": "david-gordon-green",
    "films": 1,
    "tmdb": 6.64,
    "rt": 68,
@@ -4038,7 +4038,7 @@
   },
   {
    "name": "Bobby Farrelly; Peter Farrelly",
-   "id": null,
+   "id": "bobby-farrelly-peter-farrelly",
    "films": 1,
    "tmdb": 6.64,
    "rt": 84,
@@ -4048,7 +4048,7 @@
   },
   {
    "name": "Paul Weitz",
-   "id": null,
+   "id": "paul-weitz",
    "films": 1,
    "tmdb": 6.62,
    "rt": 62,
@@ -4058,7 +4058,7 @@
   },
   {
    "name": "Mike Nichols",
-   "id": null,
+   "id": "mike-nichols",
    "films": 1,
    "tmdb": 6.6,
    "rt": 83,
@@ -4068,7 +4068,7 @@
   },
   {
    "name": "Matthew Robbins",
-   "id": null,
+   "id": "matthew-robbins",
    "films": 1,
    "tmdb": 6.6,
    "rt": 39,
@@ -4078,7 +4078,7 @@
   },
   {
    "name": "Paul Brickman",
-   "id": null,
+   "id": "paul-brickman",
    "films": 1,
    "tmdb": 6.59,
    "rt": 93,
@@ -4088,7 +4088,7 @@
   },
   {
    "name": "Andy Tennant",
-   "id": null,
+   "id": "andy-tennant",
    "films": 1,
    "tmdb": 6.58,
    "rt": 68,
@@ -4098,7 +4098,7 @@
   },
   {
    "name": "Tom Shadyac",
-   "id": null,
+   "id": "tom-shadyac",
    "films": 1,
    "tmdb": 6.58,
    "rt": 47,
@@ -4108,7 +4108,7 @@
   },
   {
    "name": "Jan de Bont",
-   "id": null,
+   "id": "jan-de-bont-2",
    "films": 1,
    "tmdb": 6.57,
    "rt": 67,
@@ -4118,7 +4118,7 @@
   },
   {
    "name": "P. J. Hogan",
-   "id": null,
+   "id": "p-j-hogan",
    "films": 1,
    "tmdb": 6.56,
    "rt": 74,
@@ -4128,7 +4128,7 @@
   },
   {
    "name": "Stan Dragoti",
-   "id": null,
+   "id": "stan-dragoti",
    "films": 1,
    "tmdb": 6.56,
    "rt": 77,
@@ -4138,7 +4138,7 @@
   },
   {
    "name": "Paul Michael Glaser",
-   "id": null,
+   "id": "paul-michael-glaser",
    "films": 1,
    "tmdb": 6.54,
    "rt": 66,
@@ -4148,7 +4148,7 @@
   },
   {
    "name": "Andrei Konchalovsky; Albert Magnoli",
-   "id": null,
+   "id": "andrei-konchalovsky-albert-magnoli",
    "films": 1,
    "tmdb": 6.51,
    "rt": 31,
@@ -4158,7 +4158,7 @@
   },
   {
    "name": "Paul Feig",
-   "id": null,
+   "id": "paul-feig",
    "films": 1,
    "tmdb": 6.51,
    "rt": 89,
@@ -4168,7 +4168,7 @@
   },
   {
    "name": "Robert Mandel",
-   "id": null,
+   "id": "robert-mandel",
    "films": 1,
    "tmdb": 6.51,
    "rt": 61,
@@ -4178,7 +4178,7 @@
   },
   {
    "name": "David Dobkin",
-   "id": null,
+   "id": "david-dobkin",
    "films": 1,
    "tmdb": 6.5,
    "rt": 75,
@@ -4188,7 +4188,7 @@
   },
   {
    "name": "Daniel Petrie",
-   "id": null,
+   "id": "daniel-petrie",
    "films": 1,
    "tmdb": 6.5,
    "rt": 41,
@@ -4198,7 +4198,7 @@
   },
   {
    "name": "Charles Shyer",
-   "id": null,
+   "id": "charles-shyer",
    "films": 1,
    "tmdb": 6.48,
    "rt": 70,
@@ -4208,7 +4208,7 @@
   },
   {
    "name": "Menahem Golan",
-   "id": null,
+   "id": "menahem-golan",
    "films": 1,
    "tmdb": 6.47,
    "rt": 32,
@@ -4218,7 +4218,7 @@
   },
   {
    "name": "Ron Underwood",
-   "id": null,
+   "id": "ron-underwood",
    "films": 1,
    "tmdb": 6.46,
    "rt": 87,
@@ -4228,7 +4228,7 @@
   },
   {
    "name": "Lisa Gottlieb",
-   "id": null,
+   "id": "lisa-gottlieb",
    "films": 1,
    "tmdb": 6.42,
    "rt": 57,
@@ -4238,7 +4238,7 @@
   },
   {
    "name": "Rawson Marshall Thurber",
-   "id": null,
+   "id": "rawson-marshall-thurber",
    "films": 1,
    "tmdb": 6.4,
    "rt": 72,
@@ -4248,7 +4248,7 @@
   },
   {
    "name": "Sean S. Cunningham",
-   "id": null,
+   "id": "sean-s-cunningham",
    "films": 1,
    "tmdb": 6.4,
    "rt": 48,
@@ -4258,7 +4258,7 @@
   },
   {
    "name": "John McNaughton",
-   "id": null,
+   "id": "john-mcnaughton",
    "films": 1,
    "tmdb": 6.38,
    "rt": 65,
@@ -4268,7 +4268,7 @@
   },
   {
    "name": "Eduardo Sánchez; Daniel Myrick",
-   "id": null,
+   "id": "eduardo-sanchez-daniel-myrick",
    "films": 1,
    "tmdb": 6.37,
    "rt": 86,
@@ -4278,7 +4278,7 @@
   },
   {
    "name": "Mike Figgis",
-   "id": null,
+   "id": "mike-figgis",
    "films": 1,
    "tmdb": 6.37,
    "rt": 79,
@@ -4288,7 +4288,7 @@
   },
   {
    "name": "Barbet Schroeder",
-   "id": null,
+   "id": "barbet-schroeder",
    "films": 1,
    "tmdb": 6.31,
    "rt": 53,
@@ -4298,7 +4298,7 @@
   },
   {
    "name": "Whit Stillman",
-   "id": null,
+   "id": "whit-stillman",
    "films": 1,
    "tmdb": 6.3,
    "rt": 73,
@@ -4308,7 +4308,7 @@
   },
   {
    "name": "Deborah Kaplan; Harry Elfont",
-   "id": null,
+   "id": "deborah-kaplan-harry-elfont",
    "films": 1,
    "tmdb": 6.25,
    "rt": 42,
@@ -4318,7 +4318,7 @@
   },
   {
    "name": "James DeMonaco",
-   "id": null,
+   "id": "james-demonaco",
    "films": 1,
    "tmdb": 6.25,
    "rt": 41,
@@ -4328,7 +4328,7 @@
   },
   {
    "name": "Seth Rogen; Evan Goldberg",
-   "id": null,
+   "id": "seth-rogen-evan-goldberg",
    "films": 1,
    "tmdb": 6.23,
    "rt": 82,
@@ -4338,7 +4338,7 @@
   },
   {
    "name": "Bob Saget",
-   "id": null,
+   "id": "bob-saget",
    "films": 1,
    "tmdb": 6.22,
    "rt": 14,
@@ -4348,7 +4348,7 @@
   },
   {
    "name": "Rod Daniel",
-   "id": null,
+   "id": "rod-daniel",
    "films": 1,
    "tmdb": 6.21,
    "rt": 46,
@@ -4358,7 +4358,7 @@
   },
   {
    "name": "Jesse Dylan",
-   "id": null,
+   "id": "jesse-dylan",
    "films": 1,
    "tmdb": 6.19,
    "rt": 56,
@@ -4368,7 +4368,7 @@
   },
   {
    "name": "John Flynn",
-   "id": null,
+   "id": "john-flynn",
    "films": 1,
    "tmdb": 6.18,
    "rt": 23,
@@ -4378,7 +4378,7 @@
   },
   {
    "name": "Dwight H. Little",
-   "id": null,
+   "id": "dwight-h-little",
    "films": 1,
    "tmdb": 6.17,
    "rt": 39,
@@ -4388,7 +4388,7 @@
   },
   {
    "name": "Raja Gosnell",
-   "id": null,
+   "id": "raja-gosnell",
    "films": 1,
    "tmdb": 6.16,
    "rt": 55,
@@ -4398,7 +4398,7 @@
   },
   {
    "name": "George Sluizer",
-   "id": null,
+   "id": "george-sluizer",
    "films": 1,
    "tmdb": 6.16,
    "rt": 49,
@@ -4408,7 +4408,7 @@
   },
   {
    "name": "Shana Feste",
-   "id": null,
+   "id": "shana-feste",
    "films": 1,
    "tmdb": 6.13,
    "rt": 22,
@@ -4418,7 +4418,7 @@
   },
   {
    "name": "Phillip Noyce",
-   "id": null,
+   "id": "phillip-noyce",
    "films": 1,
    "tmdb": 6.11,
    "rt": 30,
@@ -4428,7 +4428,7 @@
   },
   {
    "name": "Thomas Schlamme",
-   "id": null,
+   "id": "thomas-schlamme",
    "films": 1,
    "tmdb": 6.1,
    "rt": 55,
@@ -4438,7 +4438,7 @@
   },
   {
    "name": "D.J. Caruso",
-   "id": null,
+   "id": "d-j-caruso",
    "films": 1,
    "tmdb": 6.06,
    "rt": 22,
@@ -4448,7 +4448,7 @@
   },
   {
    "name": "Hal Ashby",
-   "id": null,
+   "id": "hal-ashby",
    "films": 1,
    "tmdb": 6.05,
    "rt": 75,
@@ -4458,7 +4458,7 @@
   },
   {
    "name": "Rupert Wyatt",
-   "id": null,
+   "id": "rupert-wyatt",
    "films": 1,
    "tmdb": 6.05,
    "rt": 43,
@@ -4468,7 +4468,7 @@
   },
   {
    "name": "Jeannot Szwarc",
-   "id": null,
+   "id": "jeannot-szwarc",
    "films": 1,
    "tmdb": 6.04,
    "rt": 56,
@@ -4478,7 +4478,7 @@
   },
   {
    "name": "John Hamburg",
-   "id": null,
+   "id": "john-hamburg",
    "films": 1,
    "tmdb": 6.03,
    "rt": 27,
@@ -4488,7 +4488,7 @@
   },
   {
    "name": "Bruce Malmuth",
-   "id": null,
+   "id": "bruce-malmuth",
    "films": 1,
    "tmdb": 6.0,
    "rt": 33,
@@ -4498,7 +4498,7 @@
   },
   {
    "name": "Reginald Hudlin",
-   "id": null,
+   "id": "reginald-hudlin",
    "films": 1,
    "tmdb": 5.68,
    "rt": 49,
@@ -4508,7 +4508,7 @@
   },
   {
    "name": "Edward Burns",
-   "id": null,
+   "id": "edward-burns",
    "films": 1,
    "tmdb": 5.5,
    "rt": 63,

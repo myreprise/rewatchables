@@ -5,7 +5,10 @@
  "poster": "tO71i4Ob64tchCRBB5MoqonPKAF.jpg",
  "tmdb_id": 19819,
  "directors": [
-  "William Friedkin"
+  {
+   "name": "William Friedkin",
+   "id": "william-friedkin"
+  }
  ],
  "director_primary": "William Friedkin",
  "genres": [
@@ -98,43 +101,53 @@
  "cast": [
   {
    "name": "Nick Nolte",
-   "films": 5
+   "films": 5,
+   "id": "nick-nolte"
   },
   {
    "name": "Shaquille O'Neal",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Mary McDonnell",
-   "films": 2
+   "films": 2,
+   "id": "mary-mcdonnell"
   },
   {
    "name": "Ed O'Neill",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "J.T. Walsh",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Alfre Woodard",
-   "films": 2
+   "films": 2,
+   "id": "alfre-woodard"
   },
   {
    "name": "Penny Hardaway",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Matt Nover",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Robert Wuhl",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Bob Cousy",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

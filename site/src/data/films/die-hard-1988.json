@@ -5,7 +5,10 @@
  "poster": "7Bjd8kfmDSOzpmhySpEhkUyK2oH.jpg",
  "tmdb_id": 562,
  "directors": [
-  "John McTiernan"
+  {
+   "name": "John McTiernan",
+   "id": "john-mctiernan"
+  }
  ],
  "director_primary": "John McTiernan",
  "genres": [
@@ -232,43 +235,53 @@
  "cast": [
   {
    "name": "Bruce Willis",
-   "films": 7
+   "films": 7,
+   "id": "bruce-willis"
   },
   {
    "name": "Alan Rickman",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Alexander Godunov",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Bonnie Bedelia",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Reginald VelJohnson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Paul Gleason",
-   "films": 0
+   "films": 0,
+   "id": "paul-gleason"
   },
   {
    "name": "De'voreaux White",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "William Atherton",
-   "films": 0
+   "films": 0,
+   "id": "william-atherton"
   },
   {
    "name": "Hart Bochner",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "James Shigeta",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "fASz8A0yFE3QB6LgGoOfwvFSseV.jpg",
  "tmdb_id": 286217,
  "directors": [
-  "Ridley Scott"
+  {
+   "name": "Ridley Scott",
+   "id": "ridley-scott"
+  }
  ],
  "director_primary": "Ridley Scott",
  "genres": [
@@ -205,43 +208,53 @@
  "cast": [
   {
    "name": "Matt Damon",
-   "films": 10
+   "films": 10,
+   "id": "matt-damon"
   },
   {
    "name": "Jessica Chastain",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Kristen Wiig",
-   "films": 3
+   "films": 3,
+   "id": "kristen-wiig"
   },
   {
    "name": "Jeff Daniels",
-   "films": 3
+   "films": 3,
+   "id": "jeff-daniels"
   },
   {
    "name": "Michael Peña",
-   "films": 2
+   "films": 2,
+   "id": "michael-pena"
   },
   {
    "name": "Sean Bean",
-   "films": 1
+   "films": 1,
+   "id": "sean-bean"
   },
   {
    "name": "Kate Mara",
-   "films": 1
+   "films": 1,
+   "id": "kate-mara"
   },
   {
    "name": "Sebastian Stan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Aksel Hennie",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Chiwetel Ejiofor",
-   "films": 1
+   "films": 1,
+   "id": "chiwetel-ejiofor"
   }
  ],
  "by_director": [

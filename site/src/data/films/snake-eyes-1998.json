@@ -5,7 +5,10 @@
  "poster": "gsh9mQKRrr4M90XC9Rr0wxefc9u.jpg",
  "tmdb_id": 8688,
  "directors": [
-  "Brian de Palma"
+  {
+   "name": "Brian de Palma",
+   "id": "brian-de-palma-2"
+  }
  ],
  "director_primary": "Brian de Palma",
  "genres": [
@@ -194,43 +197,53 @@
  "cast": [
   {
    "name": "Nicolas Cage",
-   "films": 5
+   "films": 5,
+   "id": "nicolas-cage"
   },
   {
    "name": "Gary Sinise",
-   "films": 4
+   "films": 4,
+   "id": "gary-sinise"
   },
   {
    "name": "Carla Gugino",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "John Heard",
-   "films": 5
+   "films": 5,
+   "id": "john-heard"
   },
   {
    "name": "Stan Shaw",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Kevin Dunn",
-   "films": 2
+   "films": 2,
+   "id": "kevin-dunn"
   },
   {
    "name": "Michael Rispoli",
-   "films": 0
+   "films": 0,
+   "id": "michael-rispoli"
   },
   {
    "name": "Joel Fabiani",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Luis Guzmán",
-   "films": 0
+   "films": 0,
+   "id": "luis-guzman"
   },
   {
    "name": "David Anthony Higgins",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

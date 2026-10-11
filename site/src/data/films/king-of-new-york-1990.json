@@ -5,7 +5,10 @@
  "poster": "1MyH4MJAJZJbb6wDVeOc2bTECtK.jpg",
  "tmdb_id": 9558,
  "directors": [
-  "Abel Ferrara"
+  {
+   "name": "Abel Ferrara",
+   "id": "abel-ferrara"
+  }
  ],
  "director_primary": "Abel Ferrara",
  "genres": [
@@ -137,43 +140,53 @@
  "cast": [
   {
    "name": "Christopher Walken",
-   "films": 4
+   "films": 4,
+   "id": "christopher-walken"
   },
   {
    "name": "David Caruso",
-   "films": 2
+   "films": 2,
+   "id": "david-caruso"
   },
   {
    "name": "Laurence Fishburne",
-   "films": 6
+   "films": 6,
+   "id": "laurence-fishburne"
   },
   {
    "name": "Victor Argo",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Wesley Snipes",
-   "films": 3
+   "films": 3,
+   "id": "wesley-snipes"
   },
   {
    "name": "Janet Julian",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Joey Chin",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Giancarlo Esposito",
-   "films": 1
+   "films": 1,
+   "id": "giancarlo-esposito"
   },
   {
    "name": "Paul Calderon",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Steve Buscemi",
-   "films": 3
+   "films": 3,
+   "id": "steve-buscemi"
   }
  ],
  "by_director": [],

@@ -5,7 +5,10 @@
  "poster": "fGFkpJUsouxxBGWfYqeuJfH210T.jpg",
  "tmdb_id": 17443,
  "directors": [
-  "Norman Jewison"
+  {
+   "name": "Norman Jewison",
+   "id": "norman-jewison"
+  }
  ],
  "director_primary": "Norman Jewison",
  "genres": [
@@ -101,43 +104,53 @@
  "cast": [
   {
    "name": "Al Pacino",
-   "films": 13
+   "films": 13,
+   "id": "al-pacino"
   },
   {
    "name": "Jack Warden",
-   "films": 7
+   "films": 7,
+   "id": "jack-warden"
   },
   {
    "name": "John Forsythe",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Lee Strasberg",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Christine Lahti",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Craig T. Nelson",
-   "films": 1
+   "films": 1,
+   "id": "craig-t-nelson"
   },
   {
    "name": "Jeffrey Tambor",
-   "films": 0
+   "films": 0,
+   "id": "jeffrey-tambor"
   },
   {
    "name": "Sam Levene",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Robert Christian",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Thomas G. Waites",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

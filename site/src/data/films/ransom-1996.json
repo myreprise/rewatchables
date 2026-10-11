@@ -5,7 +5,10 @@
  "poster": "4nmOA5ZOY2VlHzwSlKY03sF2JUz.jpg",
  "tmdb_id": 3595,
  "directors": [
-  "Ron Howard"
+  {
+   "name": "Ron Howard",
+   "id": "ron-howard"
+  }
  ],
  "director_primary": "Ron Howard",
  "genres": [
@@ -133,43 +136,53 @@
  "cast": [
   {
    "name": "Mel Gibson",
-   "films": 3
+   "films": 3,
+   "id": "mel-gibson"
   },
   {
    "name": "Rene Russo",
-   "films": 4
+   "films": 4,
+   "id": "rene-russo"
   },
   {
    "name": "Gary Sinise",
-   "films": 4
+   "films": 4,
+   "id": "gary-sinise"
   },
   {
    "name": "Delroy Lindo",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Lili Taylor",
-   "films": 4
+   "films": 4,
+   "id": "lili-taylor"
   },
   {
    "name": "Brawley Nolte",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Liev Schreiber",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Donnie Wahlberg",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Evan Handler",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Nancy Ticotin",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

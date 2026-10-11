@@ -5,7 +5,10 @@
  "poster": "vz0w9BSehcqjDcJOjRaCk7fgJe7.jpg",
  "tmdb_id": 235,
  "directors": [
-  "Rob Reiner"
+  {
+   "name": "Rob Reiner",
+   "id": "rob-reiner"
+  }
  ],
  "director_primary": "Rob Reiner",
  "genres": [
@@ -196,43 +199,53 @@
  "cast": [
   {
    "name": "Wil Wheaton",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "River Phoenix",
-   "films": 2
+   "films": 2,
+   "id": "river-phoenix"
   },
   {
    "name": "Corey Feldman",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jerry O'Connell",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Kiefer Sutherland",
-   "films": 3
+   "films": 3,
+   "id": "kiefer-sutherland"
   },
   {
    "name": "Casey Siemaszko",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Gary Riley",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Bradley Gregg",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jason Oliver",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Marshall Bell",
-   "films": 1
+   "films": 1,
+   "id": null
   }
  ],
  "by_director": [

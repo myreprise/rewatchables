@@ -5,7 +5,10 @@
  "poster": "kJNXMni0ObOXLth6v9xpUhWbtrp.jpg",
  "tmdb_id": 23479,
  "directors": [
-  "Michael Ritchie"
+  {
+   "name": "Michael Ritchie",
+   "id": "michael-ritchie"
+  }
  ],
  "director_primary": "Michael Ritchie",
  "genres": [
@@ -211,43 +214,53 @@
  "cast": [
   {
    "name": "Walter Matthau",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Tatum O'Neal",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Vic Morrow",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Joyce Van Patten",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ben Piazza",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jackie Earle Haley",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Alfred Lutter",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Chris Barnes",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Erin Blunt",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Gary Lee Cavagnaro",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "kQNR1Lc0qAF5xuBySpDn481KVjb.jpg",
  "tmdb_id": 12626,
  "directors": [
-  "James L. Brooks"
+  {
+   "name": "James L. Brooks",
+   "id": "james-l-brooks"
+  }
  ],
  "director_primary": "James L. Brooks",
  "genres": [
@@ -120,43 +123,53 @@
  "cast": [
   {
    "name": "Holly Hunter",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "William Hurt",
-   "films": 3
+   "films": 3,
+   "id": "william-hurt"
   },
   {
    "name": "Albert Brooks",
-   "films": 1
+   "films": 1,
+   "id": "albert-brooks"
   },
   {
    "name": "Robert Prosky",
-   "films": 2
+   "films": 2,
+   "id": "robert-prosky"
   },
   {
    "name": "Lois Chiles",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Joan Cusack",
-   "films": 1
+   "films": 1,
+   "id": "joan-cusack"
   },
   {
    "name": "Peter Hackes",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Christian Clemenson",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jack Nicholson",
-   "films": 4
+   "films": 4,
+   "id": "jack-nicholson"
   },
   {
    "name": "Robert Katims",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

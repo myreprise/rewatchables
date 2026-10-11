@@ -5,7 +5,10 @@
  "poster": "5LipPcaW1J9IjAP7TOTesw8OcMS.jpg",
  "tmdb_id": 14412,
  "directors": [
-  "Lawrence Kasdan"
+  {
+   "name": "Lawrence Kasdan",
+   "id": "lawrence-kasdan"
+  }
  ],
  "director_primary": "Lawrence Kasdan",
  "genres": [
@@ -130,43 +133,53 @@
  "cast": [
   {
    "name": "William Hurt",
-   "films": 3
+   "films": 3,
+   "id": "william-hurt"
   },
   {
    "name": "Kathleen Turner",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Richard Crenna",
-   "films": 3
+   "films": 3,
+   "id": "richard-crenna"
   },
   {
    "name": "Ted Danson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "J.A. Preston",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Mickey Rourke",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kim Zimmer",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jane Hallaren",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Lanna Saunders",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Carola McGuinness",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

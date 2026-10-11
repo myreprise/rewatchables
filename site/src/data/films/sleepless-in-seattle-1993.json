@@ -5,7 +5,10 @@
  "poster": "jAXfku1u1uaLGh4cUmK0ESf1pPu.jpg",
  "tmdb_id": 858,
  "directors": [
-  "Nora Ephron"
+  {
+   "name": "Nora Ephron",
+   "id": "nora-ephron"
+  }
  ],
  "director_primary": "Nora Ephron",
  "genres": [
@@ -229,43 +232,53 @@
  "cast": [
   {
    "name": "Meg Ryan",
-   "films": 5
+   "films": 5,
+   "id": "meg-ryan"
   },
   {
    "name": "Tom Hanks",
-   "films": 11
+   "films": 11,
+   "id": "tom-hanks"
   },
   {
    "name": "Ross Malinger",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Bill Pullman",
-   "films": 3
+   "films": 3,
+   "id": "bill-pullman"
   },
   {
    "name": "Rosie O'Donnell",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Barbara Garrick",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Rob Reiner",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Gaby Hoffmann",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Rita Wilson",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Victor Garber",
-   "films": 3
+   "films": 3,
+   "id": "victor-garber"
   }
  ],
  "by_director": [

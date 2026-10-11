@@ -5,7 +5,10 @@
  "poster": "eFSOkXF9n9hsfGv45MDsPixiOyx.jpg",
  "tmdb_id": 11357,
  "directors": [
-  "Dwight H. Little"
+  {
+   "name": "Dwight H. Little",
+   "id": "dwight-h-little"
+  }
  ],
  "director_primary": "Dwight H. Little",
  "genres": [
@@ -186,43 +189,53 @@
  "cast": [
   {
    "name": "Danielle Harris",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Donald Pleasence",
-   "films": 4
+   "films": 4,
+   "id": "donald-pleasence"
   },
   {
    "name": "Ellie Cornell",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "George P. Wilbur",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Michael Pataki",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Beau Starr",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kathleen Kinmont",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Sasha Jenson",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Gene Ross",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Carmen Filpi",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

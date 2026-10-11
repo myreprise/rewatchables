@@ -5,7 +5,10 @@
  "poster": "gFmmykF1Ym3OGzENo50nZQaD1dx.jpg",
  "tmdb_id": 642,
  "directors": [
-  "George Roy Hill"
+  {
+   "name": "George Roy Hill",
+   "id": "george-roy-hill"
+  }
  ],
  "director_primary": "George Roy Hill",
  "genres": [
@@ -159,43 +162,53 @@
  "cast": [
   {
    "name": "Paul Newman",
-   "films": 5
+   "films": 5,
+   "id": "paul-newman"
   },
   {
    "name": "Robert Redford",
-   "films": 7
+   "films": 7,
+   "id": "robert-redford"
   },
   {
    "name": "Katharine Ross",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Strother Martin",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Henry Jones",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jeff Corey",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "George Furth",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Cloris Leachman",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ted Cassidy",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kenneth Mars",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

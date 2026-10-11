@@ -5,7 +5,10 @@
  "poster": "b28DOM54OHb1c7Lsk6Nu7Kwuonj.jpg",
  "tmdb_id": 9350,
  "directors": [
-  "Renny Harlin"
+  {
+   "name": "Renny Harlin",
+   "id": "renny-harlin"
+  }
  ],
  "director_primary": "Renny Harlin",
  "genres": [
@@ -127,43 +130,53 @@
  "cast": [
   {
    "name": "Sylvester Stallone",
-   "films": 13
+   "films": 13,
+   "id": "sylvester-stallone"
   },
   {
    "name": "John Lithgow",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Michael Rooker",
-   "films": 3
+   "films": 3,
+   "id": "michael-rooker"
   },
   {
    "name": "Janine Turner",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Rex Linn",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Caroline Goodall",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Leon",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Craig Fairbrass",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Gregory Scott Cummins",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Denis Forest",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

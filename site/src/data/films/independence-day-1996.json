@@ -5,7 +5,10 @@
  "poster": "p0BPQGSPoSa8Ml0DAf2mB2kCU0R.jpg",
  "tmdb_id": 602,
  "directors": [
-  "Roland Emmerich"
+  {
+   "name": "Roland Emmerich",
+   "id": "roland-emmerich"
+  }
  ],
  "director_primary": "Roland Emmerich",
  "genres": [
@@ -215,43 +218,53 @@
  "cast": [
   {
    "name": "Will Smith",
-   "films": 7
+   "films": 7,
+   "id": "will-smith"
   },
   {
    "name": "Bill Pullman",
-   "films": 3
+   "films": 3,
+   "id": "bill-pullman"
   },
   {
    "name": "Jeff Goldblum",
-   "films": 3
+   "films": 3,
+   "id": "jeff-goldblum"
   },
   {
    "name": "Mary McDonnell",
-   "films": 2
+   "films": 2,
+   "id": "mary-mcdonnell"
   },
   {
    "name": "Judd Hirsch",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Robert Loggia",
-   "films": 3
+   "films": 3,
+   "id": "robert-loggia"
   },
   {
    "name": "Randy Quaid",
-   "films": 3
+   "films": 3,
+   "id": "randy-quaid"
   },
   {
    "name": "Margaret Colin",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "James Rebhorn",
-   "films": 2
+   "films": 2,
+   "id": "james-rebhorn"
   },
   {
    "name": "Harvey Fierstein",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

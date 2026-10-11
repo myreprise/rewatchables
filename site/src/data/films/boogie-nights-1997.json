@@ -5,7 +5,10 @@
  "poster": "2hVSN9yOfoI8EUTqcVW6zCIyQ1G.jpg",
  "tmdb_id": 4995,
  "directors": [
-  "Paul Thomas Anderson"
+  {
+   "name": "Paul Thomas Anderson",
+   "id": "paul-thomas-anderson"
+  }
  ],
  "director_primary": "Paul Thomas Anderson",
  "genres": [
@@ -263,43 +266,53 @@
  "cast": [
   {
    "name": "Mark Wahlberg",
-   "films": 6
+   "films": 6,
+   "id": "mark-wahlberg"
   },
   {
    "name": "Burt Reynolds",
-   "films": 3
+   "films": 3,
+   "id": "burt-reynolds"
   },
   {
    "name": "Julianne Moore",
-   "films": 4
+   "films": 4,
+   "id": "julianne-moore"
   },
   {
    "name": "John C. Reilly",
-   "films": 5
+   "films": 5,
+   "id": "john-c-reilly"
   },
   {
    "name": "Heather Graham",
-   "films": 3
+   "films": 3,
+   "id": "heather-graham"
   },
   {
    "name": "Don Cheadle",
-   "films": 3
+   "films": 3,
+   "id": "don-cheadle"
   },
   {
    "name": "Philip Seymour Hoffman",
-   "films": 6
+   "films": 6,
+   "id": "philip-seymour-hoffman"
   },
   {
    "name": "William H. Macy",
-   "films": 3
+   "films": 3,
+   "id": "william-h-macy"
   },
   {
    "name": "Thomas Jane",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Luis Guzmán",
-   "films": 0
+   "films": 0,
+   "id": "luis-guzman"
   }
  ],
  "by_director": [

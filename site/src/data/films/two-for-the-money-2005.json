@@ -5,7 +5,10 @@
  "poster": "5SedPYdGLrp6LX9C2cWXLx38w1D.jpg",
  "tmdb_id": 9910,
  "directors": [
-  "D.J. Caruso"
+  {
+   "name": "D.J. Caruso",
+   "id": "d-j-caruso"
+  }
  ],
  "director_primary": "D.J. Caruso",
  "genres": [
@@ -104,43 +107,53 @@
  "cast": [
   {
    "name": "Al Pacino",
-   "films": 13
+   "films": 13,
+   "id": "al-pacino"
   },
   {
    "name": "Matthew McConaughey",
-   "films": 4
+   "films": 4,
+   "id": "matthew-mcconaughey"
   },
   {
    "name": "Rene Russo",
-   "films": 4
+   "films": 4,
+   "id": "rene-russo"
   },
   {
    "name": "Armand Assante",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jeremy Piven",
-   "films": 2
+   "films": 2,
+   "id": "jeremy-piven"
   },
   {
    "name": "Jaime King",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kevin Chapman",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Denise Galik",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Gedde Watanabe",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Carly Pope",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

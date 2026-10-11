@@ -5,7 +5,10 @@
  "poster": "8HIqpOgqShRc3TAleabnYispDl1.jpg",
  "tmdb_id": 13416,
  "directors": [
-  "Peter Berg"
+  {
+   "name": "Peter Berg",
+   "id": "peter-berg"
+  }
  ],
  "director_primary": "Peter Berg",
  "genres": [
@@ -132,43 +135,53 @@
  "cast": [
   {
    "name": "Billy Bob Thornton",
-   "films": 2
+   "films": 2,
+   "id": "billy-bob-thornton"
   },
   {
    "name": "Lucas Black",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Garrett Hedlund",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Derek Luke",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jay Hernandez",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Lee Jackson",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Lee Thompson Young",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Tim McGraw",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Grover Coulson",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Connie Britton",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

@@ -5,7 +5,10 @@
  "poster": "yx0touyDQ9enWDsFgS4MbBwCSNd.jpg",
  "tmdb_id": 9013,
  "directors": [
-  "Martin Brest"
+  {
+   "name": "Martin Brest",
+   "id": "martin-brest"
+  }
  ],
  "director_primary": "Martin Brest",
  "genres": [
@@ -134,43 +137,53 @@
  "cast": [
   {
    "name": "Robert De Niro",
-   "films": 14
+   "films": 14,
+   "id": "robert-de-niro"
   },
   {
    "name": "Charles Grodin",
-   "films": 2
+   "films": 2,
+   "id": "charles-grodin"
   },
   {
    "name": "Yaphet Kotto",
-   "films": 2
+   "films": 2,
+   "id": "yaphet-kotto"
   },
   {
    "name": "John Ashton",
-   "films": 3
+   "films": 3,
+   "id": "john-ashton"
   },
   {
    "name": "Dennis Farina",
-   "films": 2
+   "films": 2,
+   "id": "dennis-farina"
   },
   {
    "name": "Joe Pantoliano",
-   "films": 6
+   "films": 6,
+   "id": "joe-pantoliano"
   },
   {
    "name": "Richard Foronjy",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Robert Miranda",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jack Kehoe",
-   "films": 0
+   "films": 0,
+   "id": "jack-kehoe"
   },
   {
    "name": "Wendy Phillips",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

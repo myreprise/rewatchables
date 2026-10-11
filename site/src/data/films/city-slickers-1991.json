@@ -5,7 +5,10 @@
  "poster": "9DVZpm9pQNB3M17cRo752zqUYhL.jpg",
  "tmdb_id": 1406,
  "directors": [
-  "Ron Underwood"
+  {
+   "name": "Ron Underwood",
+   "id": "ron-underwood"
+  }
  ],
  "director_primary": "Ron Underwood",
  "genres": [
@@ -109,43 +112,53 @@
  "cast": [
   {
    "name": "Billy Crystal",
-   "films": 3
+   "films": 3,
+   "id": "billy-crystal"
   },
   {
    "name": "Daniel Stern",
-   "films": 4
+   "films": 4,
+   "id": "daniel-stern"
   },
   {
    "name": "Bruno Kirby",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Patricia Wettig",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Helen Slater",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Lindsay Crystal",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Noble Willingham",
-   "films": 1
+   "films": 1,
+   "id": "noble-willingham"
   },
   {
    "name": "Jack Palance",
-   "films": 1
+   "films": 1,
+   "id": "jack-palance"
   },
   {
    "name": "Tracey Walter",
-   "films": 0
+   "films": 0,
+   "id": "tracey-walter"
   },
   {
    "name": "Josh Mostel",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

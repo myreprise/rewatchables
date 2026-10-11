@@ -5,7 +5,10 @@
  "poster": "7PYqz0viEuW8qTvuGinUMjDWMnj.jpg",
  "tmdb_id": 11528,
  "directors": [
-  "David Mickey Evans"
+  {
+   "name": "David Mickey Evans",
+   "id": "david-mickey-evans"
+  }
  ],
  "director_primary": "David Mickey Evans",
  "genres": [
@@ -131,43 +134,53 @@
  "cast": [
   {
    "name": "Tom Guiry",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Mike Vitar",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Patrick Renna",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Chauncey Leopardi",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Marty York",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Brandon Quintin Adams",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Grant Gelt",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "James Earl Jones",
-   "films": 1
+   "films": 1,
+   "id": "james-earl-jones"
   },
   {
    "name": "Denis Leary",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Karen Allen",
-   "films": 3
+   "films": 3,
+   "id": "karen-allen"
   }
  ],
  "by_director": [],

@@ -5,7 +5,10 @@
  "poster": "vN5B5WgYscRGcQpVhHl6p9DDTP0.jpg",
  "tmdb_id": 105,
  "directors": [
-  "Robert Zemeckis"
+  {
+   "name": "Robert Zemeckis",
+   "id": "robert-zemeckis"
+  }
  ],
  "director_primary": "Robert Zemeckis",
  "genres": [
@@ -243,43 +246,53 @@
  "cast": [
   {
    "name": "Michael J. Fox",
-   "films": 4
+   "films": 4,
+   "id": "michael-j-fox"
   },
   {
    "name": "Christopher Lloyd",
-   "films": 2
+   "films": 2,
+   "id": "christopher-lloyd"
   },
   {
    "name": "Crispin Glover",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Lea Thompson",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Claudia Wells",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Thomas F. Wilson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Marc McClure",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Wendie Jo Sperber",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "George DiCenzo",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Frances Lee McCain",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

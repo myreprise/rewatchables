@@ -5,7 +5,10 @@
  "poster": "s1SyKrARJG2R7FyS4zkNdaekLAW.jpg",
  "tmdb_id": 8428,
  "directors": [
-  "Allan Moyle"
+  {
+   "name": "Allan Moyle",
+   "id": "allan-moyle"
+  }
  ],
  "director_primary": "Allan Moyle",
  "genres": [
@@ -165,43 +168,53 @@
  "cast": [
   {
    "name": "Christian Slater",
-   "films": 4
+   "films": 4,
+   "id": "christian-slater"
   },
   {
    "name": "Samantha Mathis",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Annie Ross",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Scott Paulin",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Mimi Kennedy",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Andy Romano",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Keith Stuart Thayer",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Cheryl Pollak",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jeff Chamberlain",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Lala Sloatman",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

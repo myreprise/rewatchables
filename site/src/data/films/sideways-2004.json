@@ -5,7 +5,10 @@
  "poster": "zOsaxYLgvZVU7cJBpPn8CuE0MrP.jpg",
  "tmdb_id": 9675,
  "directors": [
-  "Alexander Payne"
+  {
+   "name": "Alexander Payne",
+   "id": "alexander-payne"
+  }
  ],
  "director_primary": "Alexander Payne",
  "genres": [
@@ -187,43 +190,53 @@
  "cast": [
   {
    "name": "Paul Giamatti",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Thomas Haden Church",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Virginia Madsen",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Sandra Oh",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Marylouise Burke",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jessica Hecht",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Missy Doty",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "M.C. Gainey",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Alysia Reiner",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Shake Tukhmanyan",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "zT0mhZqZQJE1gSY5Eg9qcGP4NYo.jpg",
  "tmdb_id": 37136,
  "directors": [
-  "David Zucker"
+  {
+   "name": "David Zucker",
+   "id": "david-zucker"
+  }
  ],
  "director_primary": "David Zucker",
  "genres": [
@@ -182,43 +185,53 @@
  "cast": [
   {
    "name": "Leslie Nielsen",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Priscilla Presley",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ricardo Montalban",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "George Kennedy",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "O. J. Simpson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Susan Beaubian",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Nancy Marchand",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Raye Birk",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jeannette Charles",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ed Williams",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

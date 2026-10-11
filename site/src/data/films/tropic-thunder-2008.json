@@ -5,7 +5,10 @@
  "poster": "zAurB9mNxfYRoVrVjAJJwGV3sPg.jpg",
  "tmdb_id": 7446,
  "directors": [
-  "Ben Stiller"
+  {
+   "name": "Ben Stiller",
+   "id": "ben-stiller"
+  }
  ],
  "director_primary": "Ben Stiller",
  "genres": [
@@ -226,43 +229,53 @@
  "cast": [
   {
    "name": "Ben Stiller",
-   "films": 7
+   "films": 7,
+   "id": "ben-stiller"
   },
   {
    "name": "Robert Downey Jr.",
-   "films": 3
+   "films": 3,
+   "id": "robert-downey-jr"
   },
   {
    "name": "Jack Black",
-   "films": 3
+   "films": 3,
+   "id": "jack-black"
   },
   {
    "name": "Jay Baruchel",
-   "films": 2
+   "films": 2,
+   "id": "jay-baruchel"
   },
   {
    "name": "Brandon T. Jackson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Brandon Soo Hoo",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Matthew McConaughey",
-   "films": 4
+   "films": 4,
+   "id": "matthew-mcconaughey"
   },
   {
    "name": "Tom Cruise",
-   "films": 17
+   "films": 17,
+   "id": "tom-cruise"
   },
   {
    "name": "Nick Nolte",
-   "films": 5
+   "films": 5,
+   "id": "nick-nolte"
   },
   {
    "name": "Danny McBride",
-   "films": 2
+   "films": 2,
+   "id": "danny-mcbride"
   }
  ],
  "by_director": [

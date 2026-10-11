@@ -5,7 +5,10 @@
  "poster": "eBJEvKkhQ0tUt1dBAcTEYW6kCle.jpg",
  "tmdb_id": 90,
  "directors": [
-  "Martin Brest"
+  {
+   "name": "Martin Brest",
+   "id": "martin-brest"
+  }
  ],
  "director_primary": "Martin Brest",
  "genres": [
@@ -268,43 +271,53 @@
  "cast": [
   {
    "name": "Eddie Murphy",
-   "films": 7
+   "films": 7,
+   "id": "eddie-murphy"
   },
   {
    "name": "Judge Reinhold",
-   "films": 3
+   "films": 3,
+   "id": "judge-reinhold"
   },
   {
    "name": "John Ashton",
-   "films": 3
+   "films": 3,
+   "id": "john-ashton"
   },
   {
    "name": "Lisa Eilbacher",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ronny Cox",
-   "films": 5
+   "films": 5,
+   "id": "ronny-cox"
   },
   {
    "name": "Steven Berkoff",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "James Russo",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jonathan Banks",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Stephen Elliott",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Gilbert R. Hill",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

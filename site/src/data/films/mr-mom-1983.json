@@ -5,7 +5,10 @@
  "poster": "QuTlgKKykL7j0PnZZd3LNFVhCX.jpg",
  "tmdb_id": 13105,
  "directors": [
-  "Stan Dragoti"
+  {
+   "name": "Stan Dragoti",
+   "id": "stan-dragoti"
+  }
  ],
  "director_primary": "Stan Dragoti",
  "genres": [
@@ -98,43 +101,53 @@
  "cast": [
   {
    "name": "Michael Keaton",
-   "films": 5
+   "films": 5,
+   "id": "michael-keaton"
   },
   {
    "name": "Teri Garr",
-   "films": 3
+   "films": 3,
+   "id": "teri-garr"
   },
   {
    "name": "Frederick Koehler",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Taliesin Jaffe",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Courtney-Jane White",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Brittany White",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Martin Mull",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ann Jillian",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jeffrey Tambor",
-   "films": 0
+   "films": 0,
+   "id": "jeffrey-tambor"
   },
   {
    "name": "Christopher Lloyd",
-   "films": 2
+   "films": 2,
+   "id": "christopher-lloyd"
   }
  ],
  "by_director": [],

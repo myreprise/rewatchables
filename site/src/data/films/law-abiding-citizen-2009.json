@@ -5,7 +5,10 @@
  "poster": "fcEXcip7v0O1ndV4VUdFqJSqbOg.jpg",
  "tmdb_id": 22803,
  "directors": [
-  "F. Gary Gray"
+  {
+   "name": "F. Gary Gray",
+   "id": "f-gary-gray"
+  }
  ],
  "director_primary": "F. Gary Gray",
  "genres": [
@@ -180,43 +183,53 @@
  "cast": [
   {
    "name": "Jamie Foxx",
-   "films": 5
+   "films": 5,
+   "id": "jamie-foxx"
   },
   {
    "name": "Gerard Butler",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Colm Meaney",
-   "films": 2
+   "films": 2,
+   "id": "colm-meaney"
   },
   {
    "name": "Bruce McGill",
-   "films": 1
+   "films": 1,
+   "id": "bruce-mcgill"
   },
   {
    "name": "Leslie Bibb",
-   "films": 3
+   "films": 3,
+   "id": "leslie-bibb"
   },
   {
    "name": "Michael Irby",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Gregory Itzin",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Regina Hall",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Emerald-Angel Young",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Brooke Stacy Mills",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

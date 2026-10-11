@@ -5,7 +5,10 @@
  "poster": "yw8x2i3vaHZZzpvqvF75E8q2N6M.jpg",
  "tmdb_id": 11983,
  "directors": [
-  "Taylor Hackford"
+  {
+   "name": "Taylor Hackford",
+   "id": "taylor-hackford"
+  }
  ],
  "director_primary": "Taylor Hackford",
  "genres": [
@@ -176,43 +179,53 @@
  "cast": [
   {
    "name": "Meg Ryan",
-   "films": 5
+   "films": 5,
+   "id": "meg-ryan"
   },
   {
    "name": "Russell Crowe",
-   "films": 6
+   "films": 6,
+   "id": "russell-crowe"
   },
   {
    "name": "David Morse",
-   "films": 3
+   "films": 3,
+   "id": "david-morse"
   },
   {
    "name": "Pamela Reed",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "David Caruso",
-   "films": 2
+   "films": 2,
+   "id": "david-caruso"
   },
   {
    "name": "Anthony Heald",
-   "films": 2
+   "films": 2,
+   "id": "anthony-heald"
   },
   {
    "name": "Stanley Anderson",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Gottfried John",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Alun Armstrong",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Michael Kitchen",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

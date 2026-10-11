@@ -5,7 +5,10 @@
  "poster": "ve72VxNqjGM69Uky4WTo2bK6rfq.jpg",
  "tmdb_id": 62,
  "directors": [
-  "Stanley Kubrick"
+  {
+   "name": "Stanley Kubrick",
+   "id": "stanley-kubrick"
+  }
  ],
  "director_primary": "Stanley Kubrick",
  "genres": [
@@ -208,43 +211,53 @@
  "cast": [
   {
    "name": "Keir Dullea",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Gary Lockwood",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "William Sylvester",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Douglas Rain",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Daniel Richter",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Leonard Rossiter",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Margaret Tyzack",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Robert Beatty",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Sean Sullivan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Frank W. Miller",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

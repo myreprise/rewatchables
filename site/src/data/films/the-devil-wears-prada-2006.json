@@ -5,7 +5,10 @@
  "poster": "8912AsVuS7Sj915apArUFbv6F9L.jpg",
  "tmdb_id": 350,
  "directors": [
-  "David Frankel"
+  {
+   "name": "David Frankel",
+   "id": "david-frankel"
+  }
  ],
  "director_primary": "David Frankel",
  "genres": [
@@ -179,43 +182,53 @@
  "cast": [
   {
    "name": "Meryl Streep",
-   "films": 3
+   "films": 3,
+   "id": "meryl-streep"
   },
   {
    "name": "Anne Hathaway",
-   "films": 3
+   "films": 3,
+   "id": "anne-hathaway"
   },
   {
    "name": "Emily Blunt",
-   "films": 3
+   "films": 3,
+   "id": "emily-blunt"
   },
   {
    "name": "Stanley Tucci",
-   "films": 1
+   "films": 1,
+   "id": "stanley-tucci"
   },
   {
    "name": "Simon Baker",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Adrian Grenier",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Tracie Thoms",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Rich Sommer",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Daniel Sunjata",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "David Marshall Grant",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

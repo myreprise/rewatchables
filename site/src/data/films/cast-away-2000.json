@@ -5,7 +5,10 @@
  "poster": "7lLJgKnAicAcR5UEuo8xhSMj18w.jpg",
  "tmdb_id": 8358,
  "directors": [
-  "Robert Zemeckis"
+  {
+   "name": "Robert Zemeckis",
+   "id": "robert-zemeckis"
+  }
  ],
  "director_primary": "Robert Zemeckis",
  "genres": [
@@ -156,43 +159,53 @@
  "cast": [
   {
    "name": "Tom Hanks",
-   "films": 11
+   "films": 11,
+   "id": "tom-hanks"
   },
   {
    "name": "Helen Hunt",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Nick Searcy",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jenifer Lewis",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Geoffrey Blake",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Peter Von Berg",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Chris Noth",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Lari White",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Elden Henson",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Timothy Stack",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

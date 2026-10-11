@@ -5,7 +5,10 @@
  "poster": "iS78MFtMDwWDP748juZQBK57C9o.jpg",
  "tmdb_id": 14742,
  "directors": [
-  "Ron Howard"
+  {
+   "name": "Ron Howard",
+   "id": "ron-howard"
+  }
  ],
  "director_primary": "Ron Howard",
  "genres": [
@@ -83,43 +86,53 @@
  "cast": [
   {
    "name": "Henry Winkler",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Michael Keaton",
-   "films": 5
+   "films": 5,
+   "id": "michael-keaton"
   },
   {
    "name": "Shelley Long",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Gina Hecht",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Pat Corley",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Bobby Di Cicco",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Nita Talbot",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Basil Hoffman",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Tim Rossovich",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Clint Howard",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

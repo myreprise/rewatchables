@@ -5,7 +5,10 @@
  "poster": "bv9rY9eoue2Hat6tcvrKVQ0ow8v.jpg",
  "tmdb_id": 11824,
  "directors": [
-  "Rod Daniel"
+  {
+   "name": "Rod Daniel",
+   "id": "rod-daniel"
+  }
  ],
  "director_primary": "Rod Daniel",
  "genres": [
@@ -113,43 +116,53 @@
  "cast": [
   {
    "name": "Michael J. Fox",
-   "films": 4
+   "films": 4,
+   "id": "michael-j-fox"
   },
   {
    "name": "James Hampton",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Susan Ursitti",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jerry Levine",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Matt Adler",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Lorie Griffin",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jim McKrell",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Mark Arnold",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jay Tarses",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Mark Holton",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

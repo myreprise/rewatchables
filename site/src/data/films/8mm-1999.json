@@ -5,7 +5,10 @@
  "poster": "mhr9xRpjOBqlBjgDwtiOx6FsLvV.jpg",
  "tmdb_id": 8224,
  "directors": [
-  "Joel Schumacher"
+  {
+   "name": "Joel Schumacher",
+   "id": "joel-schumacher"
+  }
  ],
  "director_primary": "Joel Schumacher",
  "genres": [
@@ -180,43 +183,53 @@
  "cast": [
   {
    "name": "Nicolas Cage",
-   "films": 5
+   "films": 5,
+   "id": "nicolas-cage"
   },
   {
    "name": "Joaquin Phoenix",
-   "films": 2
+   "films": 2,
+   "id": "joaquin-phoenix"
   },
   {
    "name": "James Gandolfini",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Peter Stormare",
-   "films": 2
+   "films": 2,
+   "id": "peter-stormare"
   },
   {
    "name": "Anthony Heald",
-   "films": 2
+   "films": 2,
+   "id": "anthony-heald"
   },
   {
    "name": "Chris Bauer",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Catherine Keener",
-   "films": 2
+   "films": 2,
+   "id": "catherine-keener"
   },
   {
    "name": "Myra Carter",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Amy Morton",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Norman Reedus",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

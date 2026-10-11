@@ -5,7 +5,10 @@
  "poster": "x2u2YtbJ9XySs3MdaIly8Gfp66.jpg",
  "tmdb_id": 15982,
  "directors": [
-  "Matthew Robbins"
+  {
+   "name": "Matthew Robbins",
+   "id": "matthew-robbins"
+  }
  ],
  "director_primary": "Matthew Robbins",
  "genres": [
@@ -141,43 +144,53 @@
  "cast": [
   {
    "name": "Helen Slater",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Keith Gordon",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Christian Slater",
-   "films": 4
+   "films": 4,
+   "id": "christian-slater"
   },
   {
    "name": "Richard Bradford",
-   "films": 2
+   "films": 2,
+   "id": "richard-bradford"
   },
   {
    "name": "Martha Gehman",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Yeardley Smith",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Barry Tubb",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Dean Stockwell",
-   "films": 0
+   "films": 0,
+   "id": "dean-stockwell"
   },
   {
    "name": "Peter Coyote",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Mona Lee Fultz",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

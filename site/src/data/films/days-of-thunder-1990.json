@@ -5,7 +5,10 @@
  "poster": "8UvcoeMJag8UWGF8sg7eYspzq0Q.jpg",
  "tmdb_id": 2119,
  "directors": [
-  "Tony Scott"
+  {
+   "name": "Tony Scott",
+   "id": "tony-scott"
+  }
  ],
  "director_primary": "Tony Scott",
  "genres": [
@@ -180,43 +183,53 @@
  "cast": [
   {
    "name": "Tom Cruise",
-   "films": 17
+   "films": 17,
+   "id": "tom-cruise"
   },
   {
    "name": "Robert Duvall",
-   "films": 4
+   "films": 4,
+   "id": "robert-duvall"
   },
   {
    "name": "Nicole Kidman",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Randy Quaid",
-   "films": 3
+   "films": 3,
+   "id": "randy-quaid"
   },
   {
    "name": "Cary Elwes",
-   "films": 3
+   "films": 3,
+   "id": "cary-elwes"
   },
   {
    "name": "Michael Rooker",
-   "films": 3
+   "films": 3,
+   "id": "michael-rooker"
   },
   {
    "name": "Fred Thompson",
-   "films": 0
+   "films": 0,
+   "id": "fred-thompson"
   },
   {
    "name": "John C. Reilly",
-   "films": 5
+   "films": 5,
+   "id": "john-c-reilly"
   },
   {
    "name": "J.C. Quinn",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Don Simpson",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

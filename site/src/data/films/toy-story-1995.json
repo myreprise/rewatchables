@@ -5,7 +5,10 @@
  "poster": "uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg",
  "tmdb_id": 862,
  "directors": [
-  "John Lasseter"
+  {
+   "name": "John Lasseter",
+   "id": "john-lasseter"
+  }
  ],
  "director_primary": "John Lasseter",
  "genres": [
@@ -244,43 +247,53 @@
  "cast": [
   {
    "name": "Tom Hanks",
-   "films": 11
+   "films": 11,
+   "id": "tom-hanks"
   },
   {
    "name": "Tim Allen",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Don Rickles",
-   "films": 2
+   "films": 2,
+   "id": "don-rickles"
   },
   {
    "name": "Jim Varney",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Wallace Shawn",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "John Ratzenberger",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Annie Potts",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "John Morris",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Erik von Detten",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Laurie Metcalf",
-   "films": 1
+   "films": 1,
+   "id": "laurie-metcalf"
   }
  ],
  "by_director": [],

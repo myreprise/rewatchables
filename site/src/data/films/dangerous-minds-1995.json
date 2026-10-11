@@ -5,7 +5,10 @@
  "poster": "yWHWC8fJRp2kLgiFrEa8o3krOH9.jpg",
  "tmdb_id": 9909,
  "directors": [
-  "John N. Smith"
+  {
+   "name": "John N. Smith",
+   "id": "john-n-smith"
+  }
  ],
  "director_primary": "John N. Smith",
  "genres": [
@@ -122,43 +125,53 @@
  "cast": [
   {
    "name": "Michelle Pfeiffer",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "George Dzundza",
-   "films": 3
+   "films": 3,
+   "id": "george-dzundza"
   },
   {
    "name": "Courtney B. Vance",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Robin Bartlett",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Beatrice Winde",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "John Neville",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Lorraine Toussaint",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Renoly Santiago",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Wade Dominguez",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Bruklin Harris",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

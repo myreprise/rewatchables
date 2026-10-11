@@ -1241,12 +1241,12 @@
  "collaborators": [
   {
    "name": "Jamie Foxx",
-   "id": null,
+   "id": "jamie-foxx",
    "films": 3
   },
   {
    "name": "Dennis Farina",
-   "id": null,
+   "id": "dennis-farina",
    "films": 2
   },
   {
@@ -1261,7 +1261,7 @@
   },
   {
    "name": "Jon Voight",
-   "id": null,
+   "id": "jon-voight",
    "films": 2
   },
   {

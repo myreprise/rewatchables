@@ -5,7 +5,10 @@
  "poster": "6jZ1eef6SCVSMb4o1pSHHq84Nyf.jpg",
  "tmdb_id": 9272,
  "directors": [
-  "Joseph Ruben"
+  {
+   "name": "Joseph Ruben",
+   "id": "joseph-ruben"
+  }
  ],
  "director_primary": "Joseph Ruben",
  "genres": [
@@ -156,43 +159,53 @@
  "cast": [
   {
    "name": "Macaulay Culkin",
-   "films": 3
+   "films": 3,
+   "id": "macaulay-culkin"
   },
   {
    "name": "Elijah Wood",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Wendy Crewson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "David Morse",
-   "films": 3
+   "films": 3,
+   "id": "david-morse"
   },
   {
    "name": "Daniel Hugh Kelly",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jacqueline Brookes",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Quinn Culkin",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ashley Crow",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Guy Strauss",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Keith Brava",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

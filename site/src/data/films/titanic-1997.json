@@ -5,7 +5,10 @@
  "poster": "9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
  "tmdb_id": 597,
  "directors": [
-  "James Cameron"
+  {
+   "name": "James Cameron",
+   "id": "james-cameron"
+  }
  ],
  "director_primary": "James Cameron",
  "genres": [
@@ -235,43 +238,53 @@
  "cast": [
   {
    "name": "Leonardo DiCaprio",
-   "films": 7
+   "films": 7,
+   "id": "leonardo-dicaprio"
   },
   {
    "name": "Kate Winslet",
-   "films": 3
+   "films": 3,
+   "id": "kate-winslet"
   },
   {
    "name": "Billy Zane",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Kathy Bates",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Frances Fisher",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Gloria Stuart",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Bill Paxton",
-   "films": 5
+   "films": 5,
+   "id": "bill-paxton"
   },
   {
    "name": "Bernard Hill",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "David Warner",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Victor Garber",
-   "films": 3
+   "films": 3,
+   "id": "victor-garber"
   }
  ],
  "by_director": [

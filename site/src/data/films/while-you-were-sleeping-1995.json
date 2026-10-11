@@ -5,7 +5,10 @@
  "poster": "qNGO3ETcNwlWqK2kNRpbJSJRlos.jpg",
  "tmdb_id": 2064,
  "directors": [
-  "Jon Turteltaub"
+  {
+   "name": "Jon Turteltaub",
+   "id": "jon-turteltaub"
+  }
  ],
  "director_primary": "Jon Turteltaub",
  "genres": [
@@ -154,43 +157,53 @@
  "cast": [
   {
    "name": "Sandra Bullock",
-   "films": 5
+   "films": 5,
+   "id": "sandra-bullock"
   },
   {
    "name": "Bill Pullman",
-   "films": 3
+   "films": 3,
+   "id": "bill-pullman"
   },
   {
    "name": "Peter Gallagher",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Peter Boyle",
-   "films": 3
+   "films": 3,
+   "id": "peter-boyle"
   },
   {
    "name": "Jack Warden",
-   "films": 7
+   "films": 7,
+   "id": "jack-warden"
   },
   {
    "name": "Glynis Johns",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Micole Mercurio",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jason Bernard",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Michael Rispoli",
-   "films": 0
+   "films": 0,
+   "id": "michael-rispoli"
   },
   {
    "name": "Ally Walker",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

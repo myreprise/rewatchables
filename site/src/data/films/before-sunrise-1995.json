@@ -5,7 +5,10 @@
  "poster": "kf1Jb1c2JAOqjuzA3H4oDM263uB.jpg",
  "tmdb_id": 76,
  "directors": [
-  "Richard Linklater"
+  {
+   "name": "Richard Linklater",
+   "id": "richard-linklater"
+  }
  ],
  "director_primary": "Richard Linklater",
  "genres": [
@@ -116,43 +119,53 @@
  "cast": [
   {
    "name": "Ethan Hawke",
-   "films": 7
+   "films": 7,
+   "id": "ethan-hawke"
   },
   {
    "name": "Julie Delpy",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Andrea Eckert",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Hanno Pöschl",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Karl Bruckschwaiger",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Tex Rubinowitz",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Erni Mangold",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Dominik Castell",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Haymon Maria Buttinger",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Harold Waiglein",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

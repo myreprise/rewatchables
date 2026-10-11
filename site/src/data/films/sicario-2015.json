@@ -5,7 +5,10 @@
  "poster": "lz8vNyXeidqqOdJW9ZjnDAMb5Vr.jpg",
  "tmdb_id": 273481,
  "directors": [
-  "Denis Villeneuve"
+  {
+   "name": "Denis Villeneuve",
+   "id": "denis-villeneuve"
+  }
  ],
  "director_primary": "Denis Villeneuve",
  "genres": [
@@ -327,43 +330,53 @@
  "cast": [
   {
    "name": "Emily Blunt",
-   "films": 3
+   "films": 3,
+   "id": "emily-blunt"
   },
   {
    "name": "Benicio del Toro",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Josh Brolin",
-   "films": 3
+   "films": 3,
+   "id": "josh-brolin"
   },
   {
    "name": "Victor Garber",
-   "films": 3
+   "films": 3,
+   "id": "victor-garber"
   },
   {
    "name": "Jon Bernthal",
-   "films": 2
+   "films": 2,
+   "id": "jon-bernthal"
   },
   {
    "name": "Daniel Kaluuya",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jeffrey Donovan",
-   "films": 0
+   "films": 0,
+   "id": "jeffrey-donovan"
   },
   {
    "name": "Raoul Max Trujillo",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Julio Cesar Cedillo",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Hank Rogerson",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

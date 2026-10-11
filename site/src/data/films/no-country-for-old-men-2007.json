@@ -5,7 +5,10 @@
  "poster": "6d5XOczc226jECq0LIX0siKtgHR.jpg",
  "tmdb_id": 6977,
  "directors": [
-  "Coen Brothers"
+  {
+   "name": "Coen Brothers",
+   "id": "coen-brothers"
+  }
  ],
  "director_primary": "Coen Brothers",
  "genres": [
@@ -264,43 +267,53 @@
  "cast": [
   {
    "name": "Javier Bardem",
-   "films": 3
+   "films": 3,
+   "id": "javier-bardem"
   },
   {
    "name": "Tommy Lee Jones",
-   "films": 4
+   "films": 4,
+   "id": "tommy-lee-jones"
   },
   {
    "name": "Josh Brolin",
-   "films": 3
+   "films": 3,
+   "id": "josh-brolin"
   },
   {
    "name": "Woody Harrelson",
-   "films": 3
+   "films": 3,
+   "id": "woody-harrelson"
   },
   {
    "name": "Kelly Macdonald",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Garret Dillahunt",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Tess Harper",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Barry Corbin",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Stephen Root",
-   "films": 0
+   "films": 0,
+   "id": "stephen-root"
   },
   {
    "name": "Rodger Boyce",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

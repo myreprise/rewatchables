@@ -5,7 +5,10 @@
  "poster": "d4ie3f6QTvNw40V770Uzo87SDZn.jpg",
  "tmdb_id": 664,
  "directors": [
-  "Jan de Bont"
+  {
+   "name": "Jan de Bont",
+   "id": "jan-de-bont-2"
+  }
  ],
  "director_primary": "Jan de Bont",
  "genres": [
@@ -180,43 +183,53 @@
  "cast": [
   {
    "name": "Helen Hunt",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Bill Paxton",
-   "films": 5
+   "films": 5,
+   "id": "bill-paxton"
   },
   {
    "name": "Jami Gertz",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Cary Elwes",
-   "films": 3
+   "films": 3,
+   "id": "cary-elwes"
   },
   {
    "name": "Lois Smith",
-   "films": 2
+   "films": 2,
+   "id": "lois-smith"
   },
   {
    "name": "Philip Seymour Hoffman",
-   "films": 6
+   "films": 6,
+   "id": "philip-seymour-hoffman"
   },
   {
    "name": "Alan Ruck",
-   "films": 1
+   "films": 1,
+   "id": "alan-ruck"
   },
   {
    "name": "Sean Whalen",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Scott Thomson",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Todd Field",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

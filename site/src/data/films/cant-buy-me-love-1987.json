@@ -5,7 +5,10 @@
  "poster": "qK3yiqo84U3twOOKOx81c407Hpr.jpg",
  "tmdb_id": 12919,
  "directors": [
-  "Steve Rash"
+  {
+   "name": "Steve Rash",
+   "id": "steve-rash"
+  }
  ],
  "director_primary": "Steve Rash",
  "genres": [
@@ -126,43 +129,53 @@
  "cast": [
   {
    "name": "Patrick Dempsey",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Amanda Peterson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Courtney Gains",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Tina Caspary",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Seth Green",
-   "films": 2
+   "films": 2,
+   "id": "seth-green"
   },
   {
    "name": "Sharon Farrell",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Dennis Dugan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Darcy DeMoss",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Devin DeVasquez",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Eric Bruskotter",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

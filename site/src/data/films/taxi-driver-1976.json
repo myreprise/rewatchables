@@ -5,7 +5,10 @@
  "poster": "ekstpH614fwDX8DUln1a2Opz0N8.jpg",
  "tmdb_id": 103,
  "directors": [
-  "Martin Scorsese"
+  {
+   "name": "Martin Scorsese",
+   "id": "martin-scorsese"
+  }
  ],
  "director_primary": "Martin Scorsese",
  "genres": [
@@ -305,43 +308,53 @@
  "cast": [
   {
    "name": "Robert De Niro",
-   "films": 14
+   "films": 14,
+   "id": "robert-de-niro"
   },
   {
    "name": "Jodie Foster",
-   "films": 4
+   "films": 4,
+   "id": "jodie-foster"
   },
   {
    "name": "Cybill Shepherd",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Harvey Keitel",
-   "films": 3
+   "films": 3,
+   "id": "harvey-keitel"
   },
   {
    "name": "Peter Boyle",
-   "films": 3
+   "films": 3,
+   "id": "peter-boyle"
   },
   {
    "name": "Leonard Harris",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Albert Brooks",
-   "films": 1
+   "films": 1,
+   "id": "albert-brooks"
   },
   {
    "name": "Diahnne Abbott",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Frank Adu",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Victor Argo",
-   "films": 1
+   "films": 1,
+   "id": null
   }
  ],
  "by_director": [

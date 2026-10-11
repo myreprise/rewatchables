@@ -5,7 +5,10 @@
  "poster": "jCxfbTh8JvJil5edhNywxaTHoWv.jpg",
  "tmdb_id": 9874,
  "directors": [
-  "George P. Cosmatos"
+  {
+   "name": "George P. Cosmatos",
+   "id": "george-p-cosmatos"
+  }
  ],
  "director_primary": "George P. Cosmatos",
  "genres": [
@@ -148,43 +151,53 @@
  "cast": [
   {
    "name": "Sylvester Stallone",
-   "films": 13
+   "films": 13,
+   "id": "sylvester-stallone"
   },
   {
    "name": "Brigitte Nielsen",
-   "films": 1
+   "films": 1,
+   "id": "brigitte-nielsen"
   },
   {
    "name": "Reni Santoni",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Brian Thompson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Lee Garlington",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Art LaFleur",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Andrew Robinson",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Marco Rodríguez",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Val Avery",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Nina Axelrod",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

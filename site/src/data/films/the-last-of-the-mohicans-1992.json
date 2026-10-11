@@ -5,7 +5,10 @@
  "poster": "qzJMPWRtZveBkxXOv3ucWhoJuyj.jpg",
  "tmdb_id": 9361,
  "directors": [
-  "Michael Mann"
+  {
+   "name": "Michael Mann",
+   "id": "michael-mann"
+  }
  ],
  "director_primary": "Michael Mann",
  "genres": [
@@ -148,43 +151,53 @@
  "cast": [
   {
    "name": "Daniel Day-Lewis",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Madeleine Stowe",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jodhi May",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Russell Means",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Wes Studi",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Eric Schweig",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Steven Waddington",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Maurice Roëves",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Pete Postlethwaite",
-   "films": 0
+   "films": 0,
+   "id": "pete-postlethwaite"
   },
   {
    "name": "Colm Meaney",
-   "films": 2
+   "films": 2,
+   "id": "colm-meaney"
   }
  ],
  "by_director": [

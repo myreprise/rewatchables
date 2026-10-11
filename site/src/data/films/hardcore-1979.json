@@ -5,7 +5,10 @@
  "poster": "g6m9xBTAzxXVhdJ624s9BLK9o6.jpg",
  "tmdb_id": 42172,
  "directors": [
-  "Paul Schrader"
+  {
+   "name": "Paul Schrader",
+   "id": "paul-schrader"
+  }
  ],
  "director_primary": "Paul Schrader",
  "genres": [
@@ -201,43 +204,53 @@
  "cast": [
   {
    "name": "George C. Scott",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Peter Boyle",
-   "films": 3
+   "films": 3,
+   "id": "peter-boyle"
   },
   {
    "name": "Season Hubley",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Dick Sargent",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Leonard Gaines",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Dave Nichols",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Gary Graham",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Larry Block",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Marc Alaimo",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Leslie Ackerman",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

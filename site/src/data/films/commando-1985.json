@@ -5,7 +5,10 @@
  "poster": "ollPAAAgZ7euU8VisfqU3cuXhZ6.jpg",
  "tmdb_id": 10999,
  "directors": [
-  "Mark L. Lester"
+  {
+   "name": "Mark L. Lester",
+   "id": "mark-l-lester"
+  }
  ],
  "director_primary": "Mark L. Lester",
  "genres": [
@@ -152,43 +155,53 @@
  "cast": [
   {
    "name": "Arnold Schwarzenegger",
-   "films": 8
+   "films": 8,
+   "id": "arnold-schwarzenegger"
   },
   {
    "name": "Rae Dawn Chong",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Dan Hedaya",
-   "films": 1
+   "films": 1,
+   "id": "dan-hedaya"
   },
   {
    "name": "Vernon Wells",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "James Olson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "David Patrick Kelly",
-   "films": 1
+   "films": 1,
+   "id": "david-patrick-kelly"
   },
   {
    "name": "Alyssa Milano",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Bill Duke",
-   "films": 2
+   "films": 2,
+   "id": "bill-duke"
   },
   {
    "name": "Drew Snyder",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Sharon Wyatt",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

@@ -5,7 +5,10 @@
  "poster": "b4Oe15CGLL61Ped0RAS9JpqdmCt.jpg",
  "tmdb_id": 374720,
  "directors": [
-  "Christopher Nolan"
+  {
+   "name": "Christopher Nolan",
+   "id": "christopher-nolan"
+  }
  ],
  "director_primary": "Christopher Nolan",
  "genres": [
@@ -236,43 +239,53 @@
  "cast": [
   {
    "name": "Fionn Whitehead",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Tom Hardy",
-   "films": 4
+   "films": 4,
+   "id": "tom-hardy"
   },
   {
    "name": "Mark Rylance",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Kenneth Branagh",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Cillian Murphy",
-   "films": 1
+   "films": 1,
+   "id": "cillian-murphy"
   },
   {
    "name": "Barry Keoghan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Harry Styles",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Aneurin Barnard",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Damien Bonnard",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Lee Armstrong",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "vOyfUXNFSnaTk7Vk5AjpsKTUWsu.jpg",
  "tmdb_id": 745,
  "directors": [
-  "M. Night Shyamalan"
+  {
+   "name": "M. Night Shyamalan",
+   "id": "m-night-shyamalan"
+  }
  ],
  "director_primary": "M. Night Shyamalan",
  "genres": [
@@ -268,43 +271,53 @@
  "cast": [
   {
    "name": "Bruce Willis",
-   "films": 7
+   "films": 7,
+   "id": "bruce-willis"
   },
   {
    "name": "Haley Joel Osment",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Toni Collette",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Olivia Williams",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Trevor Morgan",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Donnie Wahlberg",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Peter Anthony Tambakis",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jeffrey Zubernis",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Bruce Norris",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Glenn Fitzgerald",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

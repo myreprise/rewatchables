@@ -5,7 +5,10 @@
  "poster": "uQACcCZqd7WCTRin9xRIW5gr1bd.jpg",
  "tmdb_id": 7305,
  "directors": [
-  "Frank Marshall"
+  {
+   "name": "Frank Marshall",
+   "id": "frank-marshall"
+  }
  ],
  "director_primary": "Frank Marshall",
  "genres": [
@@ -173,43 +176,53 @@
  "cast": [
   {
    "name": "Josh Hamilton",
-   "films": 2
+   "films": 2,
+   "id": "josh-hamilton"
   },
   {
    "name": "Bruce Ramsay",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ethan Hawke",
-   "films": 7
+   "films": 7,
+   "id": "ethan-hawke"
   },
   {
    "name": "Vincent Spano",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "John Newton",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "David Kriegel",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kevin Breznahan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Sam Behrens",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Illeana Douglas",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jack Noseworthy",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

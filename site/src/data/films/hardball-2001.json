@@ -5,7 +5,10 @@
  "poster": "9RMcwwnK8a9WCt8dVlwmtNsFCg3.jpg",
  "tmdb_id": 20857,
  "directors": [
-  "Brian Robbins"
+  {
+   "name": "Brian Robbins",
+   "id": "brian-robbins"
+  }
  ],
  "director_primary": "Brian Robbins",
  "genres": [
@@ -54,43 +57,53 @@
  "cast": [
   {
    "name": "Keanu Reeves",
-   "films": 8
+   "films": 8,
+   "id": "keanu-reeves"
   },
   {
    "name": "Diane Lane",
-   "films": 3
+   "films": 3,
+   "id": "diane-lane"
   },
   {
    "name": "John Hawkes",
-   "films": 1
+   "films": 1,
+   "id": "john-hawkes"
   },
   {
    "name": "Bryan Hearne",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Julian Griffith",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Michael B. Jordan",
-   "films": 2
+   "films": 2,
+   "id": "michael-b-jordan"
   },
   {
    "name": "A. Delon Ellis Jr.",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kris D. Lofton",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Michael Perkins",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Brian M. Reed",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

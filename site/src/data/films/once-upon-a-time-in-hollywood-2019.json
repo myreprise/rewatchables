@@ -5,7 +5,10 @@
  "poster": "8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg",
  "tmdb_id": 466272,
  "directors": [
-  "Quentin Tarantino"
+  {
+   "name": "Quentin Tarantino",
+   "id": "quentin-tarantino"
+  }
  ],
  "director_primary": "Quentin Tarantino",
  "genres": [
@@ -243,43 +246,53 @@
  "cast": [
   {
    "name": "Leonardo DiCaprio",
-   "films": 7
+   "films": 7,
+   "id": "leonardo-dicaprio"
   },
   {
    "name": "Brad Pitt",
-   "films": 9
+   "films": 9,
+   "id": "brad-pitt"
   },
   {
    "name": "Margot Robbie",
-   "films": 3
+   "films": 3,
+   "id": "margot-robbie"
   },
   {
    "name": "Emile Hirsch",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Margaret Qualley",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Timothy Olyphant",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Julia Butters",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Austin Butler",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Dakota Fanning",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Bruce Dern",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

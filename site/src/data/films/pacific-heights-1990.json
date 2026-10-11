@@ -5,7 +5,10 @@
  "poster": "9iHD6xIrGSuuMEFWhwSVGXSddY2.jpg",
  "tmdb_id": 2990,
  "directors": [
-  "John Schlesinger"
+  {
+   "name": "John Schlesinger",
+   "id": "john-schlesinger"
+  }
  ],
  "director_primary": "John Schlesinger",
  "genres": [
@@ -173,43 +176,53 @@
  "cast": [
   {
    "name": "Melanie Griffith",
-   "films": 3
+   "films": 3,
+   "id": "melanie-griffith"
   },
   {
    "name": "Matthew Modine",
-   "films": 2
+   "films": 2,
+   "id": "matthew-modine"
   },
   {
    "name": "Michael Keaton",
-   "films": 5
+   "films": 5,
+   "id": "michael-keaton"
   },
   {
    "name": "Mako",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Nobu McCarthy",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Laurie Metcalf",
-   "films": 1
+   "films": 1,
+   "id": "laurie-metcalf"
   },
   {
    "name": "Carl Lumbly",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Dorian Harewood",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Luca Bercovici",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Tippi Hedren",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "n7wQlcexeER5bW7DvV8sji2vRRH.jpg",
  "tmdb_id": 11566,
  "directors": [
-  "Ivan Reitman"
+  {
+   "name": "Ivan Reitman",
+   "id": "ivan-reitman"
+  }
  ],
  "director_primary": "Ivan Reitman",
  "genres": [
@@ -143,43 +146,53 @@
  "cast": [
   {
    "name": "Kevin Kline",
-   "films": 3
+   "films": 3,
+   "id": "kevin-kline"
   },
   {
    "name": "Sigourney Weaver",
-   "films": 6
+   "films": 6,
+   "id": "sigourney-weaver"
   },
   {
    "name": "Frank Langella",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Kevin Dunn",
-   "films": 2
+   "films": 2,
+   "id": "kevin-dunn"
   },
   {
    "name": "Ving Rhames",
-   "films": 5
+   "films": 5,
+   "id": "ving-rhames"
   },
   {
    "name": "Ben Kingsley",
-   "films": 2
+   "films": 2,
+   "id": "ben-kingsley"
   },
   {
    "name": "Charles Grodin",
-   "films": 2
+   "films": 2,
+   "id": "charles-grodin"
   },
   {
    "name": "Faith Prince",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Laura Linney",
-   "films": 2
+   "films": 2,
+   "id": "laura-linney"
   },
   {
    "name": "Bonnie Hunt",
-   "films": 0
+   "films": 0,
+   "id": "bonnie-hunt"
   }
  ],
  "by_director": [

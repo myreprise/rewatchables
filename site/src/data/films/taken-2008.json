@@ -5,7 +5,10 @@
  "poster": "ognkaUSNgJe1a2pjB4UNdzEo5jT.jpg",
  "tmdb_id": 8681,
  "directors": [
-  "Pierre Morel"
+  {
+   "name": "Pierre Morel",
+   "id": "pierre-morel"
+  }
  ],
  "director_primary": "Pierre Morel",
  "genres": [
@@ -154,43 +157,53 @@
  "cast": [
   {
    "name": "Liam Neeson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Maggie Grace",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Famke Janssen",
-   "films": 2
+   "films": 2,
+   "id": "famke-janssen"
   },
   {
    "name": "Olivier Rabourdin",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Katie Cassidy",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Nicolas Giraud",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Leland Orser",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jon Gries",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Holly Valance",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "David Warshofsky",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

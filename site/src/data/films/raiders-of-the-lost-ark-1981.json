@@ -5,7 +5,10 @@
  "poster": "ceG9VzoRAVGwivFU403Wc3AHRys.jpg",
  "tmdb_id": 85,
  "directors": [
-  "Steven Spielberg"
+  {
+   "name": "Steven Spielberg",
+   "id": "steven-spielberg"
+  }
  ],
  "director_primary": "Steven Spielberg",
  "genres": [
@@ -235,43 +238,53 @@
  "cast": [
   {
    "name": "Harrison Ford",
-   "films": 7
+   "films": 7,
+   "id": "harrison-ford"
   },
   {
    "name": "Karen Allen",
-   "films": 3
+   "films": 3,
+   "id": "karen-allen"
   },
   {
    "name": "Paul Freeman",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "John Rhys-Davies",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Ronald Lacey",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Wolf Kahler",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Anthony Higgins",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Denholm Elliott",
-   "films": 2
+   "films": 2,
+   "id": "denholm-elliott"
   },
   {
    "name": "Alfred Molina",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Vic Tablian",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

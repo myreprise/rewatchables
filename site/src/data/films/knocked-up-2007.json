@@ -5,7 +5,10 @@
  "poster": "b4OaXw2MW97VvIiZE0Sbn1NfxSh.jpg",
  "tmdb_id": 4964,
  "directors": [
-  "Judd Apatow"
+  {
+   "name": "Judd Apatow",
+   "id": "judd-apatow"
+  }
  ],
  "director_primary": "Judd Apatow",
  "genres": [
@@ -145,43 +148,53 @@
  "cast": [
   {
    "name": "Seth Rogen",
-   "films": 6
+   "films": 6,
+   "id": "seth-rogen"
   },
   {
    "name": "Katherine Heigl",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Paul Rudd",
-   "films": 3
+   "films": 3,
+   "id": "paul-rudd"
   },
   {
    "name": "Leslie Mann",
-   "films": 1
+   "films": 1,
+   "id": "leslie-mann"
   },
   {
    "name": "Jason Segel",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Jay Baruchel",
-   "films": 2
+   "films": 2,
+   "id": "jay-baruchel"
   },
   {
    "name": "Jonah Hill",
-   "films": 4
+   "films": 4,
+   "id": "jonah-hill"
   },
   {
    "name": "Martin Starr",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Lo Mutuc",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Iris Apatow",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

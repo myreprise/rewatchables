@@ -5,7 +5,10 @@
  "poster": "djRAvxyvvN2yqlJKDbT3uy4vOBw.jpg",
  "tmdb_id": 9602,
  "directors": [
-  "John Landis"
+  {
+   "name": "John Landis",
+   "id": "john-landis"
+  }
  ],
  "director_primary": "John Landis",
  "genres": [
@@ -207,43 +210,53 @@
  "cast": [
   {
    "name": "Eddie Murphy",
-   "films": 7
+   "films": 7,
+   "id": "eddie-murphy"
   },
   {
    "name": "Arsenio Hall",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Shari Headley",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "John Amos",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "James Earl Jones",
-   "films": 1
+   "films": 1,
+   "id": "james-earl-jones"
   },
   {
    "name": "Madge Sinclair",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Eriq La Salle",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Allison Dean",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Frankie Faison",
-   "films": 0
+   "films": 0,
+   "id": "frankie-faison"
   },
   {
    "name": "Louie Anderson",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

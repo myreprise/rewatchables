@@ -5,7 +5,10 @@
  "poster": "jeEM8v1OA9u6F5NC2lzXD04Ls1U.jpg",
  "tmdb_id": 11381,
  "directors": [
-  "Peter Segal"
+  {
+   "name": "Peter Segal",
+   "id": "peter-segal"
+  }
  ],
  "director_primary": "Peter Segal",
  "genres": [
@@ -73,43 +76,53 @@
  "cast": [
   {
    "name": "Chris Farley",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "David Spade",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Brian Dennehy",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Julie Warner",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Bo Derek",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Rob Lowe",
-   "films": 3
+   "films": 3,
+   "id": "rob-lowe"
   },
   {
    "name": "Dan Aykroyd",
-   "films": 4
+   "films": 4,
+   "id": "dan-aykroyd"
   },
   {
    "name": "Sean McCann",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Zach Grenier",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "James Blendick",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

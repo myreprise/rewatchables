@@ -5,7 +5,10 @@
  "poster": "wN2xWp1eIwCKOD0BHTcErTBv1Uq.jpg",
  "tmdb_id": 98,
  "directors": [
-  "Ridley Scott"
+  {
+   "name": "Ridley Scott",
+   "id": "ridley-scott"
+  }
  ],
  "director_primary": "Ridley Scott",
  "genres": [
@@ -247,43 +250,53 @@
  "cast": [
   {
    "name": "Russell Crowe",
-   "films": 6
+   "films": 6,
+   "id": "russell-crowe"
   },
   {
    "name": "Joaquin Phoenix",
-   "films": 2
+   "films": 2,
+   "id": "joaquin-phoenix"
   },
   {
    "name": "Connie Nielsen",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Oliver Reed",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Richard Harris",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Derek Jacobi",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Djimon Hounsou",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "David Schofield",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "John Shrapnel",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Tomas Arana",
-   "films": 0
+   "films": 0,
+   "id": "tomas-arana"
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "cN3ijEwsn4kBaRuHfcJpAQJbeWe.jpg",
  "tmdb_id": 579,
  "directors": [
-  "Jeannot Szwarc"
+  {
+   "name": "Jeannot Szwarc",
+   "id": "jeannot-szwarc"
+  }
  ],
  "director_primary": "Jeannot Szwarc",
  "genres": [
@@ -207,43 +210,53 @@
  "cast": [
   {
    "name": "Roy Scheider",
-   "films": 3
+   "films": 3,
+   "id": "roy-scheider"
   },
   {
    "name": "Lorraine Gary",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Murray Hamilton",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Joseph Mascolo",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jeffrey Kramer",
-   "films": 2
+   "films": 2,
+   "id": "jeffrey-kramer"
   },
   {
    "name": "Collin Wilcox Paxton",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ann Dusenberry",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Mark Gruner",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Barry Coe",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Susan French",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

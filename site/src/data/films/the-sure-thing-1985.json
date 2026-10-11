@@ -5,7 +5,10 @@
  "poster": "a9cuohQn5kczi4htWZAZjEZvXkZ.jpg",
  "tmdb_id": 8992,
  "directors": [
-  "Rob Reiner"
+  {
+   "name": "Rob Reiner",
+   "id": "rob-reiner"
+  }
  ],
  "director_primary": "Rob Reiner",
  "genres": [
@@ -113,43 +116,53 @@
  "cast": [
   {
    "name": "John Cusack",
-   "films": 4
+   "films": 4,
+   "id": "john-cusack"
   },
   {
    "name": "Daphne Zuniga",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Anthony Edwards",
-   "films": 3
+   "films": 3,
+   "id": "anthony-edwards"
   },
   {
    "name": "Boyd Gaines",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Tim Robbins",
-   "films": 3
+   "films": 3,
+   "id": "tim-robbins"
   },
   {
    "name": "Lisa Jane Persky",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Viveca Lindfors",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Nicollette Sheridan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Marcia Christie",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Robert Anthony Marcucci",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "4UOa079915QjiTA2u5hT2yKVgUu.jpg",
  "tmdb_id": 2649,
  "directors": [
-  "David Fincher"
+  {
+   "name": "David Fincher",
+   "id": "david-fincher"
+  }
  ],
  "director_primary": "David Fincher",
  "genres": [
@@ -110,43 +113,53 @@
  "cast": [
   {
    "name": "Michael Douglas",
-   "films": 7
+   "films": 7,
+   "id": "michael-douglas"
   },
   {
    "name": "Sean Penn",
-   "films": 3
+   "films": 3,
+   "id": "sean-penn"
   },
   {
    "name": "Deborah Kara Unger",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "James Rebhorn",
-   "films": 2
+   "films": 2,
+   "id": "james-rebhorn"
   },
   {
    "name": "Peter Donat",
-   "films": 1
+   "films": 1,
+   "id": "peter-donat"
   },
   {
    "name": "Carroll Baker",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Anna Katarina",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Armin Mueller-Stahl",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Charles Martinet",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Scott Hunter McGuire",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

@@ -1185,7 +1185,7 @@
  "collaborators": [
   {
    "name": "Bill Nunn",
-   "id": null,
+   "id": "bill-nunn",
    "films": 2
   },
   {
@@ -1195,7 +1195,7 @@
   },
   {
    "name": "Rosario Dawson",
-   "id": null,
+   "id": "rosario-dawson",
    "films": 2
   }
  ],

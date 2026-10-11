@@ -5,7 +5,10 @@
  "poster": "3a6uLta7K8Dzojps4RoJAPHD0km.jpg",
  "tmdb_id": 68924,
  "directors": [
-  "Ang Lee"
+  {
+   "name": "Ang Lee",
+   "id": "ang-lee"
+  }
  ],
  "director_primary": "Ang Lee",
  "genres": [
@@ -178,43 +181,53 @@
  "cast": [
   {
    "name": "Kevin Kline",
-   "films": 3
+   "films": 3,
+   "id": "kevin-kline"
   },
   {
    "name": "Joan Allen",
-   "films": 4
+   "films": 4,
+   "id": "joan-allen"
   },
   {
    "name": "Sigourney Weaver",
-   "films": 6
+   "films": 6,
+   "id": "sigourney-weaver"
   },
   {
    "name": "Jamey Sheridan",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Christina Ricci",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Tobey Maguire",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Elijah Wood",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Adam Hann-Byrd",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Michael Cumpsty",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Katie Holmes",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

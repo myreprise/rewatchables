@@ -5,7 +5,10 @@
  "poster": "pqdvCBDThAOjlA0XBzbNm7GvwpU.jpg",
  "tmdb_id": 36955,
  "directors": [
-  "James Cameron"
+  {
+   "name": "James Cameron",
+   "id": "james-cameron"
+  }
  ],
  "director_primary": "James Cameron",
  "genres": [
@@ -172,43 +175,53 @@
  "cast": [
   {
    "name": "Arnold Schwarzenegger",
-   "films": 8
+   "films": 8,
+   "id": "arnold-schwarzenegger"
   },
   {
    "name": "Jamie Lee Curtis",
-   "films": 3
+   "films": 3,
+   "id": "jamie-lee-curtis"
   },
   {
    "name": "Tom Arnold",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Bill Paxton",
-   "films": 5
+   "films": 5,
+   "id": "bill-paxton"
   },
   {
    "name": "Tia Carrere",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Art Malik",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Eliza Dushku",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Grant Heslov",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Charlton Heston",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Marshall Manesh",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

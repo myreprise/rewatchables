@@ -5,7 +5,10 @@
  "poster": "wNd6qM8Qa8tLFOiUOiEivh0qBkH.jpg",
  "tmdb_id": 11363,
  "directors": [
-  "Edward Burns"
+  {
+   "name": "Edward Burns",
+   "id": "edward-burns"
+  }
  ],
  "director_primary": "Edward Burns",
  "genres": [
@@ -109,43 +112,53 @@
  "cast": [
   {
    "name": "Jennifer Aniston",
-   "films": 3
+   "films": 3,
+   "id": "jennifer-aniston"
   },
   {
    "name": "Maxine Bahns",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Edward Burns",
-   "films": 2
+   "films": 2,
+   "id": "edward-burns"
   },
   {
    "name": "Cameron Diaz",
-   "films": 5
+   "films": 5,
+   "id": "cameron-diaz"
   },
   {
    "name": "John Mahoney",
-   "films": 3
+   "films": 3,
+   "id": "john-mahoney"
   },
   {
    "name": "Michael McGlone",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Anita Gillette",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Leslie Mann",
-   "films": 1
+   "films": 1,
+   "id": "leslie-mann"
   },
   {
    "name": "Amanda Peet",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Frank Vincent",
-   "films": 0
+   "films": 0,
+   "id": "frank-vincent"
   }
  ],
  "by_director": [],

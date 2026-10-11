@@ -5,7 +5,10 @@
  "poster": "w8UCke112E9jrhjKcwG32kyhTx5.jpg",
  "tmdb_id": 1645,
  "directors": [
-  "Joel Schumacher"
+  {
+   "name": "Joel Schumacher",
+   "id": "joel-schumacher"
+  }
  ],
  "director_primary": "Joel Schumacher",
  "genres": [
@@ -246,43 +249,53 @@
  "cast": [
   {
    "name": "Matthew McConaughey",
-   "films": 4
+   "films": 4,
+   "id": "matthew-mcconaughey"
   },
   {
    "name": "Sandra Bullock",
-   "films": 5
+   "films": 5,
+   "id": "sandra-bullock"
   },
   {
    "name": "Samuel L. Jackson",
-   "films": 3
+   "films": 3,
+   "id": "samuel-l-jackson"
   },
   {
    "name": "Kevin Spacey",
-   "films": 4
+   "films": 4,
+   "id": "kevin-spacey"
   },
   {
    "name": "Ashley Judd",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Donald Sutherland",
-   "films": 2
+   "films": 2,
+   "id": "donald-sutherland"
   },
   {
    "name": "Oliver Platt",
-   "films": 1
+   "films": 1,
+   "id": "oliver-platt"
   },
   {
    "name": "Charles S. Dutton",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Brenda Fricker",
-   "films": 1
+   "films": 1,
+   "id": "brenda-fricker"
   },
   {
    "name": "Kiefer Sutherland",
-   "films": 3
+   "films": 3,
+   "id": "kiefer-sutherland"
   }
  ],
  "by_director": [

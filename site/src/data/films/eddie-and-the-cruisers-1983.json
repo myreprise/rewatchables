@@ -5,7 +5,10 @@
  "poster": "qohqTtk33FlEoeb3zYLEAUGSO0E.jpg",
  "tmdb_id": 21721,
  "directors": [
-  "Martin Davidson"
+  {
+   "name": "Martin Davidson",
+   "id": "martin-davidson"
+  }
  ],
  "director_primary": "Martin Davidson",
  "genres": [
@@ -95,43 +98,53 @@
  "cast": [
   {
    "name": "Tom Berenger",
-   "films": 5
+   "films": 5,
+   "id": "tom-berenger"
   },
   {
    "name": "Michael Paré",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Joe Pantoliano",
-   "films": 6
+   "films": 6,
+   "id": "joe-pantoliano"
   },
   {
    "name": "Ellen Barkin",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Matthew Laurance",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Helen Schneider",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "David Wilson",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Michael 'Tunes' Antunes",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kenny Vance",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "John Stockwell",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

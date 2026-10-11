@@ -5,7 +5,10 @@
  "poster": "bb9CND0WyfwdHOZY5XmP4Qn8taz.jpg",
  "tmdb_id": 27958,
  "directors": [
-  "William Friedkin"
+  {
+   "name": "William Friedkin",
+   "id": "william-friedkin"
+  }
  ],
  "director_primary": "William Friedkin",
  "genres": [
@@ -243,43 +246,53 @@
  "cast": [
   {
    "name": "Al Pacino",
-   "films": 13
+   "films": 13,
+   "id": "al-pacino"
   },
   {
    "name": "Paul Sorvino",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Karen Allen",
-   "films": 3
+   "films": 3,
+   "id": "karen-allen"
   },
   {
    "name": "Richard Cox",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Don Scardino",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Joe Spinell",
-   "films": 0
+   "films": 0,
+   "id": "joe-spinell"
   },
   {
    "name": "Jay Acovone",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Gene Davis",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Randy Jurgensen",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Barton Heyman",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

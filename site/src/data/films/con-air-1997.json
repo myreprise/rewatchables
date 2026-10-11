@@ -5,7 +5,10 @@
  "poster": "kOKjgrEzGOP92rVQ6srA9jtp60l.jpg",
  "tmdb_id": 1701,
  "directors": [
-  "Simon West"
+  {
+   "name": "Simon West",
+   "id": "simon-west"
+  }
  ],
  "director_primary": "Simon West",
  "genres": [
@@ -243,43 +246,53 @@
  "cast": [
   {
    "name": "Nicolas Cage",
-   "films": 5
+   "films": 5,
+   "id": "nicolas-cage"
   },
   {
    "name": "John Cusack",
-   "films": 4
+   "films": 4,
+   "id": "john-cusack"
   },
   {
    "name": "John Malkovich",
-   "films": 3
+   "films": 3,
+   "id": "john-malkovich"
   },
   {
    "name": "Ving Rhames",
-   "films": 5
+   "films": 5,
+   "id": "ving-rhames"
   },
   {
    "name": "Mykelti Williamson",
-   "films": 2
+   "films": 2,
+   "id": "mykelti-williamson"
   },
   {
    "name": "Dave Chappelle",
-   "films": 0
+   "films": 0,
+   "id": "dave-chappelle"
   },
   {
    "name": "Colm Meaney",
-   "films": 2
+   "films": 2,
+   "id": "colm-meaney"
   },
   {
    "name": "Monica Potter",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Landry Allbright",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Rachel Ticotin",
-   "films": 1
+   "films": 1,
+   "id": "rachel-ticotin"
   }
  ],
  "by_director": [],

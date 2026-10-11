@@ -5,7 +5,10 @@
  "poster": "rNzQyW4f8B8cQeg7Dgj3n6eT5k9.jpg",
  "tmdb_id": 11036,
  "directors": [
-  "Nick Cassavetes"
+  {
+   "name": "Nick Cassavetes",
+   "id": "nick-cassavetes"
+  }
  ],
  "director_primary": "Nick Cassavetes",
  "genres": [
@@ -165,43 +168,53 @@
  "cast": [
   {
    "name": "Ryan Gosling",
-   "films": 3
+   "films": 3,
+   "id": "ryan-gosling"
   },
   {
    "name": "Rachel McAdams",
-   "films": 4
+   "films": 4,
+   "id": "rachel-mcadams"
   },
   {
    "name": "Gena Rowlands",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "James Garner",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Joan Allen",
-   "films": 4
+   "films": 4,
+   "id": "joan-allen"
   },
   {
    "name": "David Thornton",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "James Marsden",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kevin Connolly",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Sam Shepard",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Starletta DuPois",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

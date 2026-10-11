@@ -5,7 +5,10 @@
  "poster": "4GFPuL14eXi66V96xBWY73Y9PfR.jpg",
  "tmdb_id": 493922,
  "directors": [
-  "Ari Aster"
+  {
+   "name": "Ari Aster",
+   "id": "ari-aster"
+  }
  ],
  "director_primary": "Ari Aster",
  "genres": [
@@ -257,43 +260,53 @@
  "cast": [
   {
    "name": "Toni Collette",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Alex Wolff",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Gabriel Byrne",
-   "films": 2
+   "films": 2,
+   "id": "gabriel-byrne"
   },
   {
    "name": "Milly Shapiro",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ann Dowd",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Mallory Bechtel",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Brock McKinney",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jake Brown",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Morgan Lund",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Christy Summerhays",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

@@ -5,7 +5,10 @@
  "poster": "kaS8BkTZESnkoB5i1zRQ02FIRGk.jpg",
  "tmdb_id": 650,
  "directors": [
-  "John Singleton"
+  {
+   "name": "John Singleton",
+   "id": "john-singleton"
+  }
  ],
  "director_primary": "John Singleton",
  "genres": [
@@ -169,43 +172,53 @@
  "cast": [
   {
    "name": "Cuba Gooding Jr.",
-   "films": 3
+   "films": 3,
+   "id": "cuba-gooding-jr"
   },
   {
    "name": "Laurence Fishburne",
-   "films": 6
+   "films": 6,
+   "id": "laurence-fishburne"
   },
   {
    "name": "Ice Cube",
-   "films": 3
+   "films": 3,
+   "id": "ice-cube"
   },
   {
    "name": "Morris Chestnut",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Angela Bassett",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Nia Long",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Tyra Ferrell",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Regina King",
-   "films": 1
+   "films": 1,
+   "id": "regina-king"
   },
   {
    "name": "Meta King",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Whitman Mayo",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

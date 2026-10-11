@@ -5,7 +5,10 @@
  "poster": "1EEIUw0tkX7AJZ1ikZrtKZZKlC6.jpg",
  "tmdb_id": 942,
  "directors": [
-  "Richard Donner"
+  {
+   "name": "Richard Donner",
+   "id": "richard-donner"
+  }
  ],
  "director_primary": "Richard Donner",
  "genres": [
@@ -159,43 +162,53 @@
  "cast": [
   {
    "name": "Mel Gibson",
-   "films": 3
+   "films": 3,
+   "id": "mel-gibson"
   },
   {
    "name": "Danny Glover",
-   "films": 3
+   "films": 3,
+   "id": "danny-glover"
   },
   {
    "name": "Joe Pesci",
-   "films": 6
+   "films": 6,
+   "id": "joe-pesci"
   },
   {
    "name": "Joss Ackland",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Derrick O'Connor",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Patsy Kensit",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Darlene Love",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Traci Wolfe",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Mark Rolston",
-   "films": 0
+   "films": 0,
+   "id": "mark-rolston"
   },
   {
    "name": "Steve Kahan",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
  "tmdb_id": 238,
  "directors": [
-  "Francis Ford Coppola"
+  {
+   "name": "Francis Ford Coppola",
+   "id": "francis-ford-coppola"
+  }
  ],
  "director_primary": "Francis Ford Coppola",
  "genres": [
@@ -207,43 +210,53 @@
  "cast": [
   {
    "name": "Marlon Brando",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Al Pacino",
-   "films": 13
+   "films": 13,
+   "id": "al-pacino"
   },
   {
    "name": "James Caan",
-   "films": 5
+   "films": 5,
+   "id": "james-caan"
   },
   {
    "name": "Robert Duvall",
-   "films": 4
+   "films": 4,
+   "id": "robert-duvall"
   },
   {
    "name": "Richard S. Castellano",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Diane Keaton",
-   "films": 3
+   "films": 3,
+   "id": "diane-keaton"
   },
   {
    "name": "Talia Shire",
-   "films": 5
+   "films": 5,
+   "id": "talia-shire"
   },
   {
    "name": "Gianni Russo",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Sterling Hayden",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "John Marley",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

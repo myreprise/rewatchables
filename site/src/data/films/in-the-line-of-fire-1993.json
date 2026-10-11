@@ -5,7 +5,10 @@
  "poster": "3NvOFpmyECI3DNExYMtFIRcGMsu.jpg",
  "tmdb_id": 9386,
  "directors": [
-  "Wolfgang Petersen"
+  {
+   "name": "Wolfgang Petersen",
+   "id": "wolfgang-petersen"
+  }
  ],
  "director_primary": "Wolfgang Petersen",
  "genres": [
@@ -164,43 +167,53 @@
  "cast": [
   {
    "name": "Clint Eastwood",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "John Malkovich",
-   "films": 3
+   "films": 3,
+   "id": "john-malkovich"
   },
   {
    "name": "Rene Russo",
-   "films": 4
+   "films": 4,
+   "id": "rene-russo"
   },
   {
    "name": "Dylan McDermott",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Gary Cole",
-   "films": 3
+   "films": 3,
+   "id": "gary-cole"
   },
   {
    "name": "Fred Thompson",
-   "films": 0
+   "films": 0,
+   "id": "fred-thompson"
   },
   {
    "name": "John Mahoney",
-   "films": 3
+   "films": 3,
+   "id": "john-mahoney"
   },
   {
    "name": "Gregory Alan Williams",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jim Curley",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Sally Hughes",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

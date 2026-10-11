@@ -5,7 +5,10 @@
  "poster": "wGFCvylul8iEQhJOKfwZGGvXMzA.jpg",
  "tmdb_id": 11969,
  "directors": [
-  "George P. Cosmatos"
+  {
+   "name": "George P. Cosmatos",
+   "id": "george-p-cosmatos"
+  }
  ],
  "director_primary": "George P. Cosmatos",
  "genres": [
@@ -151,43 +154,53 @@
  "cast": [
   {
    "name": "Kurt Russell",
-   "films": 4
+   "films": 4,
+   "id": "kurt-russell"
   },
   {
    "name": "Val Kilmer",
-   "films": 6
+   "films": 6,
+   "id": "val-kilmer"
   },
   {
    "name": "Michael Biehn",
-   "films": 3
+   "films": 3,
+   "id": "michael-biehn"
   },
   {
    "name": "Powers Boothe",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Robert John Burke",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Dana Delany",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Sam Elliott",
-   "films": 2
+   "films": 2,
+   "id": "sam-elliott"
   },
   {
    "name": "Stephen Lang",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Terry O'Quinn",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Joanna Pacula",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

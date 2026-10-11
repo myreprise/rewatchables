@@ -5,7 +5,10 @@
  "poster": "ngnybFTuopfbfmmEeX9jjBQQmF6.jpg",
  "tmdb_id": 8337,
  "directors": [
-  "John Carpenter"
+  {
+   "name": "John Carpenter",
+   "id": "john-carpenter"
+  }
  ],
  "director_primary": "John Carpenter",
  "genres": [
@@ -229,43 +232,53 @@
  "cast": [
   {
    "name": "Roddy Piper",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Keith David",
-   "films": 1
+   "films": 1,
+   "id": "keith-david"
   },
   {
    "name": "Meg Foster",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "George Buck Flower",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Peter Jason",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Raymond St. Jacques",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jason Robards III",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "John Lawrence",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Susan Barnes",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Sy Richardson",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

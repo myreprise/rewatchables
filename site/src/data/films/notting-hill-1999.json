@@ -5,7 +5,10 @@
  "poster": "hHRIf2XHeQMbyRb3HUx19SF5Ujw.jpg",
  "tmdb_id": 509,
  "directors": [
-  "Roger Michell"
+  {
+   "name": "Roger Michell",
+   "id": "roger-michell"
+  }
  ],
  "director_primary": "Roger Michell",
  "genres": [
@@ -294,43 +297,53 @@
  "cast": [
   {
    "name": "Julia Roberts",
-   "films": 7
+   "films": 7,
+   "id": "julia-roberts"
   },
   {
    "name": "Hugh Grant",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Gina McKee",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Tim McInnerny",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Rhys Ifans",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Emma Chambers",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Hugh Bonneville",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Richard McCabe",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "James Dreyfus",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Dylan Moran",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

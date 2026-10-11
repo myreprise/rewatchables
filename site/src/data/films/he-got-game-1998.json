@@ -5,7 +5,10 @@
  "poster": "kd8hRaysUQOz7AvSorZDJHuihcJ.jpg",
  "tmdb_id": 9469,
  "directors": [
-  "Spike Lee"
+  {
+   "name": "Spike Lee",
+   "id": "spike-lee"
+  }
  ],
  "director_primary": "Spike Lee",
  "genres": [
@@ -178,43 +181,53 @@
  "cast": [
   {
    "name": "Denzel Washington",
-   "films": 12
+   "films": 12,
+   "id": "denzel-washington"
   },
   {
    "name": "Ray Allen",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Rosario Dawson",
-   "films": 3
+   "films": 3,
+   "id": "rosario-dawson"
   },
   {
    "name": "Milla Jovovich",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Hill Harper",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ned Beatty",
-   "films": 2
+   "films": 2,
+   "id": "ned-beatty"
   },
   {
    "name": "Jim Brown",
-   "films": 1
+   "films": 1,
+   "id": "jim-brown"
   },
   {
    "name": "Joseph Lyle Taylor",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Bill Nunn",
-   "films": 0
+   "films": 0,
+   "id": "bill-nunn"
   },
   {
    "name": "Michele Shay",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

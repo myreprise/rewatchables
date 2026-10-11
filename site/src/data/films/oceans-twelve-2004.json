@@ -5,7 +5,10 @@
  "poster": "pE5anFf7nf6ah7V3VRezQ1KSovi.jpg",
  "tmdb_id": 163,
  "directors": [
-  "Steven Soderbergh"
+  {
+   "name": "Steven Soderbergh",
+   "id": "steven-soderbergh"
+  }
  ],
  "director_primary": "Steven Soderbergh",
  "genres": [
@@ -172,43 +175,53 @@
  "cast": [
   {
    "name": "George Clooney",
-   "films": 5
+   "films": 5,
+   "id": "george-clooney"
   },
   {
    "name": "Julia Roberts",
-   "films": 7
+   "films": 7,
+   "id": "julia-roberts"
   },
   {
    "name": "Brad Pitt",
-   "films": 9
+   "films": 9,
+   "id": "brad-pitt"
   },
   {
    "name": "Matt Damon",
-   "films": 10
+   "films": 10,
+   "id": "matt-damon"
   },
   {
    "name": "Catherine Zeta-Jones",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Andy Garcia",
-   "films": 4
+   "films": 4,
+   "id": "andy-garcia"
   },
   {
    "name": "Casey Affleck",
-   "films": 1
+   "films": 1,
+   "id": "casey-affleck"
   },
   {
    "name": "Don Cheadle",
-   "films": 3
+   "films": 3,
+   "id": "don-cheadle"
   },
   {
    "name": "Bernie Mac",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Scott Caan",
-   "films": 0
+   "films": 0,
+   "id": "scott-caan"
   }
  ],
  "by_director": [

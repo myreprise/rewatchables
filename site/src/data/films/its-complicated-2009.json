@@ -5,7 +5,10 @@
  "poster": "bmjPrJgrGENFRrERP7lCJ9FGIVB.jpg",
  "tmdb_id": 22897,
  "directors": [
-  "Nancy Meyers"
+  {
+   "name": "Nancy Meyers",
+   "id": "nancy-meyers"
+  }
  ],
  "director_primary": "Nancy Meyers",
  "genres": [
@@ -235,43 +238,53 @@
  "cast": [
   {
    "name": "Meryl Streep",
-   "films": 3
+   "films": 3,
+   "id": "meryl-streep"
   },
   {
    "name": "Alec Baldwin",
-   "films": 5
+   "films": 5,
+   "id": "alec-baldwin"
   },
   {
    "name": "Steve Martin",
-   "films": 4
+   "films": 4,
+   "id": "steve-martin"
   },
   {
    "name": "John Krasinski",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Caitlin FitzGerald",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Hunter Parrish",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Zoe Kazan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Lake Bell",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Mary Kay Place",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Rita Wilson",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

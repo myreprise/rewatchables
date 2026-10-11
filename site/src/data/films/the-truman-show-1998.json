@@ -5,7 +5,10 @@
  "poster": "vuza0WqY239yBXOadKlGwJsZJFE.jpg",
  "tmdb_id": 37165,
  "directors": [
-  "Peter Weir"
+  {
+   "name": "Peter Weir",
+   "id": "peter-weir"
+  }
  ],
  "director_primary": "Peter Weir",
  "genres": [
@@ -151,43 +154,53 @@
  "cast": [
   {
    "name": "Jim Carrey",
-   "films": 3
+   "films": 3,
+   "id": "jim-carrey"
   },
   {
    "name": "Laura Linney",
-   "films": 2
+   "films": 2,
+   "id": "laura-linney"
   },
   {
    "name": "Noah Emmerich",
-   "films": 2
+   "films": 2,
+   "id": "noah-emmerich"
   },
   {
    "name": "Natascha McElhone",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Holland Taylor",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ed Harris",
-   "films": 3
+   "films": 3,
+   "id": "ed-harris"
   },
   {
    "name": "Paul Giamatti",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Brian Delate",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Peter Krause",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Blair Slater",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

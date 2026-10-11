@@ -5,7 +5,10 @@
  "poster": "klPO5oh1LOxiPpdDXZo1ADgpKcw.jpg",
  "tmdb_id": 1700,
  "directors": [
-  "Rob Reiner"
+  {
+   "name": "Rob Reiner",
+   "id": "rob-reiner"
+  }
  ],
  "director_primary": "Rob Reiner",
  "genres": [
@@ -273,43 +276,53 @@
  "cast": [
   {
    "name": "Kathy Bates",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "James Caan",
-   "films": 5
+   "films": 5,
+   "id": "james-caan"
   },
   {
    "name": "Richard Farnsworth",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Lauren Bacall",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Frances Sternhagen",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Graham Jarvis",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jerry Potter",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Thomas Brunelle",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "June Christopher",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Julie Payne",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

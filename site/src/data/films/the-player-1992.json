@@ -5,7 +5,10 @@
  "poster": "tZ3kDut2dhFVGkWNEn9xoCHCNAx.jpg",
  "tmdb_id": 10403,
  "directors": [
-  "Robert Altman"
+  {
+   "name": "Robert Altman",
+   "id": "robert-altman"
+  }
  ],
  "director_primary": "Robert Altman",
  "genres": [
@@ -154,43 +157,53 @@
  "cast": [
   {
    "name": "Tim Robbins",
-   "films": 3
+   "films": 3,
+   "id": "tim-robbins"
   },
   {
    "name": "Greta Scacchi",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Fred Ward",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Whoopi Goldberg",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Peter Gallagher",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Brion James",
-   "films": 2
+   "films": 2,
+   "id": "brion-james"
   },
   {
    "name": "Cynthia Stevenson",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Vincent D'Onofrio",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Dean Stockwell",
-   "films": 0
+   "films": 0,
+   "id": "dean-stockwell"
   },
   {
    "name": "Richard E. Grant",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

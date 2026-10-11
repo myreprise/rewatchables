@@ -5,7 +5,10 @@
  "poster": "n0YuM4f5lvGAP6MAW2kBIzugXnc.jpg",
  "tmdb_id": 361743,
  "directors": [
-  "Joseph Kosinski"
+  {
+   "name": "Joseph Kosinski",
+   "id": "joseph-kosinski"
+  }
  ],
  "director_primary": "Joseph Kosinski",
  "genres": [
@@ -112,43 +115,53 @@
  "cast": [
   {
    "name": "Tom Cruise",
-   "films": 17
+   "films": 17,
+   "id": "tom-cruise"
   },
   {
    "name": "Miles Teller",
-   "films": 2
+   "films": 2,
+   "id": "miles-teller"
   },
   {
    "name": "Jennifer Connelly",
-   "films": 3
+   "films": 3,
+   "id": "jennifer-connelly"
   },
   {
    "name": "Bashir Salahuddin",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jon Hamm",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Charles Parnell",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Monica Barbaro",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Lewis Pullman",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jay Ellis",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Danny Ramirez",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

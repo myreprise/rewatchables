@@ -5,7 +5,10 @@
  "poster": "gCgt1WARPZaXnq523ySQEUKinCs.jpg",
  "tmdb_id": 137,
  "directors": [
-  "Harold Ramis"
+  {
+   "name": "Harold Ramis",
+   "id": "harold-ramis"
+  }
  ],
  "director_primary": "Harold Ramis",
  "genres": [
@@ -159,43 +162,53 @@
  "cast": [
   {
    "name": "Bill Murray",
-   "films": 6
+   "films": 6,
+   "id": "bill-murray"
   },
   {
    "name": "Andie MacDowell",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Chris Elliott",
-   "films": 2
+   "films": 2,
+   "id": "chris-elliott"
   },
   {
    "name": "Stephen Tobolowsky",
-   "films": 2
+   "films": 2,
+   "id": "stephen-tobolowsky"
   },
   {
    "name": "Brian Doyle-Murray",
-   "films": 1
+   "films": 1,
+   "id": "brian-doyle-murray"
   },
   {
    "name": "Marita Geraghty",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Angela Paton",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Rick Ducommun",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Rick Overton",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Robin Duke",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

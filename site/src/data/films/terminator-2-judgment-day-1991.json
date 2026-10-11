@@ -5,7 +5,10 @@
  "poster": "jFTVD4XoWQTcg7wdyJKa8PEds5q.jpg",
  "tmdb_id": 280,
  "directors": [
-  "James Cameron"
+  {
+   "name": "James Cameron",
+   "id": "james-cameron"
+  }
  ],
  "director_primary": "James Cameron",
  "genres": [
@@ -222,43 +225,53 @@
  "cast": [
   {
    "name": "Arnold Schwarzenegger",
-   "films": 8
+   "films": 8,
+   "id": "arnold-schwarzenegger"
   },
   {
    "name": "Linda Hamilton",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Edward Furlong",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Robert Patrick",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Earl Boen",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Joe Morton",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "S. Epatha Merkerson",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Castulo Guerra",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Danny Cooksey",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jenette Goldstein",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

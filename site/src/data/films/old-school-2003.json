@@ -5,7 +5,10 @@
  "poster": "nYtuwNHpEoIbTgS3aFPSEwZNN6l.jpg",
  "tmdb_id": 11635,
  "directors": [
-  "Todd Phillips"
+  {
+   "name": "Todd Phillips",
+   "id": "todd-phillips"
+  }
  ],
  "director_primary": "Todd Phillips",
  "genres": [
@@ -136,43 +139,53 @@
  "cast": [
   {
    "name": "Luke Wilson",
-   "films": 3
+   "films": 3,
+   "id": "luke-wilson"
   },
   {
    "name": "Will Ferrell",
-   "films": 3
+   "films": 3,
+   "id": "will-ferrell"
   },
   {
    "name": "Vince Vaughn",
-   "films": 6
+   "films": 6,
+   "id": "vince-vaughn"
   },
   {
    "name": "Jeremy Piven",
-   "films": 2
+   "films": 2,
+   "id": "jeremy-piven"
   },
   {
    "name": "Ellen Pompeo",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Craig Kilborn",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Perrey Reeves",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Sara Tanaka",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Juliette Lewis",
-   "films": 2
+   "films": 2,
+   "id": "juliette-lewis"
   },
   {
    "name": "Elisha Cuthbert",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "9ohlMrJHQqKhfUKh7Zr3JQqHNLZ.jpg",
  "tmdb_id": 8835,
  "directors": [
-  "Robert Luketic"
+  {
+   "name": "Robert Luketic",
+   "id": "robert-luketic"
+  }
  ],
  "director_primary": "Robert Luketic",
  "genres": [
@@ -150,43 +153,53 @@
  "cast": [
   {
    "name": "Reese Witherspoon",
-   "films": 3
+   "films": 3,
+   "id": "reese-witherspoon"
   },
   {
    "name": "Luke Wilson",
-   "films": 3
+   "films": 3,
+   "id": "luke-wilson"
   },
   {
    "name": "Selma Blair",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Matthew Davis",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Victor Garber",
-   "films": 3
+   "films": 3,
+   "id": "victor-garber"
   },
   {
    "name": "Jennifer Coolidge",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Holland Taylor",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ali Larter",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jessica Cauffiel",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Alanna Ubach",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

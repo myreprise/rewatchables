@@ -5,7 +5,10 @@
  "poster": "vkeKxoSXE1qMArcFNTNBBH8TjKZ.jpg",
  "tmdb_id": 10390,
  "directors": [
-  "Sam Raimi"
+  {
+   "name": "Sam Raimi",
+   "id": "sam-raimi"
+  }
  ],
  "director_primary": "Sam Raimi",
  "genres": [
@@ -175,43 +178,53 @@
  "cast": [
   {
    "name": "Kevin Costner",
-   "films": 9
+   "films": 9,
+   "id": "kevin-costner"
   },
   {
    "name": "Kelly Preston",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "John C. Reilly",
-   "films": 5
+   "films": 5,
+   "id": "john-c-reilly"
   },
   {
    "name": "Jena Malone",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Brian Cox",
-   "films": 3
+   "films": 3,
+   "id": "brian-cox"
   },
   {
    "name": "J.K. Simmons",
-   "films": 1
+   "films": 1,
+   "id": "j-k-simmons"
   },
   {
    "name": "Vin Scully",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Steve Lyons",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Carmine Giovinazzo",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Bill E. Rogers",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

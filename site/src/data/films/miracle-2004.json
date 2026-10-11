@@ -5,7 +5,10 @@
  "poster": "mxtej2th8t8x0ufVBTyhsO6Htxj.jpg",
  "tmdb_id": 14292,
  "directors": [
-  "Gavin O'Connor"
+  {
+   "name": "Gavin O'Connor",
+   "id": "gavin-oconnor"
+  }
  ],
  "director_primary": "Gavin O'Connor",
  "genres": [
@@ -126,43 +129,53 @@
  "cast": [
   {
    "name": "Kurt Russell",
-   "films": 4
+   "films": 4,
+   "id": "kurt-russell"
   },
   {
    "name": "Patricia Clarkson",
-   "films": 1
+   "films": 1,
+   "id": "patricia-clarkson"
   },
   {
    "name": "Noah Emmerich",
-   "films": 2
+   "films": 2,
+   "id": "noah-emmerich"
   },
   {
    "name": "Sean McCann",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Kenneth Welsh",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Eddie Cahill",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Patrick O'Brien Demsey",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Michael Mantenuto",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Nathan West",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kenneth Mitchell",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

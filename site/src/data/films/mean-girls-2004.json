@@ -5,7 +5,10 @@
  "poster": "2ZkuQXvVhh45uSvkBej4S7Ix1NJ.jpg",
  "tmdb_id": 10625,
  "directors": [
-  "Samantha Jayne; Arturo Perez Jr."
+  {
+   "name": "Samantha Jayne; Arturo Perez Jr.",
+   "id": "samantha-jayne-arturo-perez-jr"
+  }
  ],
  "director_primary": "Samantha Jayne; Arturo Perez Jr.",
  "genres": [
@@ -235,43 +238,53 @@
  "cast": [
   {
    "name": "Lindsay Lohan",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Rachel McAdams",
-   "films": 4
+   "films": 4,
+   "id": "rachel-mcadams"
   },
   {
    "name": "Lizzy Caplan",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Lacey Chabert",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Amanda Seyfried",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Daniel Franzese",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jonathan Bennett",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Rajiv Surendra",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Tina Fey",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Tim Meadows",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

@@ -5,7 +5,10 @@
  "poster": "hbRnWUNJkKKVN5mkcuC5ooqjE4e.jpg",
  "tmdb_id": 8367,
  "directors": [
-  "Kevin Reynolds"
+  {
+   "name": "Kevin Reynolds",
+   "id": "kevin-reynolds"
+  }
  ],
  "director_primary": "Kevin Reynolds",
  "genres": [
@@ -159,43 +162,53 @@
  "cast": [
   {
    "name": "Kevin Costner",
-   "films": 9
+   "films": 9,
+   "id": "kevin-costner"
   },
   {
    "name": "Morgan Freeman",
-   "films": 4
+   "films": 4,
+   "id": "morgan-freeman"
   },
   {
    "name": "Mary Elizabeth Mastrantonio",
-   "films": 2
+   "films": 2,
+   "id": "mary-elizabeth-mastrantonio"
   },
   {
    "name": "Christian Slater",
-   "films": 4
+   "films": 4,
+   "id": "christian-slater"
   },
   {
    "name": "Alan Rickman",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Geraldine McEwan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Michael McShane",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Brian Blessed",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Michael Wincott",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Nick Brimble",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

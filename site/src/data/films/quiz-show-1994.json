@@ -5,7 +5,10 @@
  "poster": "yoGJo1h3Hl2exXPVcG9UXWDENtX.jpg",
  "tmdb_id": 11450,
  "directors": [
-  "Robert Redford"
+  {
+   "name": "Robert Redford",
+   "id": "robert-redford"
+  }
  ],
  "director_primary": "Robert Redford",
  "genres": [
@@ -175,43 +178,53 @@
  "cast": [
   {
    "name": "John Turturro",
-   "films": 4
+   "films": 4,
+   "id": "john-turturro"
   },
   {
    "name": "Rob Morrow",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ralph Fiennes",
-   "films": 3
+   "films": 3,
+   "id": "ralph-fiennes"
   },
   {
    "name": "Paul Scofield",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "David Paymer",
-   "films": 1
+   "films": 1,
+   "id": "david-paymer"
   },
   {
    "name": "Hank Azaria",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Christopher McDonald",
-   "films": 2
+   "films": 2,
+   "id": "christopher-mcdonald"
   },
   {
    "name": "Johann Carlo",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Elizabeth Wilson",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Allan Rich",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "fHwZnFNWR7PaS9t5EBwTvGPeoYQ.jpg",
  "tmdb_id": 8872,
  "directors": [
-  "Penelope Spheeris"
+  {
+   "name": "Penelope Spheeris",
+   "id": "penelope-spheeris"
+  }
  ],
  "director_primary": "Penelope Spheeris",
  "genres": [
@@ -147,43 +150,53 @@
  "cast": [
   {
    "name": "Mike Myers",
-   "films": 4
+   "films": 4,
+   "id": "mike-myers"
   },
   {
    "name": "Dana Carvey",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Rob Lowe",
-   "films": 3
+   "films": 3,
+   "id": "rob-lowe"
   },
   {
    "name": "Tia Carrere",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Lara Flynn Boyle",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Donna Dixon",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Chris Farley",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Brian Doyle-Murray",
-   "films": 1
+   "films": 1,
+   "id": "brian-doyle-murray"
   },
   {
    "name": "Michael DeLuise",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Meat Loaf",
-   "films": 1
+   "films": 1,
+   "id": null
   }
  ],
  "by_director": [],

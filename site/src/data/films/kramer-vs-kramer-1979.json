@@ -5,7 +5,10 @@
  "poster": "3CUP5V5SWfHSK4qvkZF7lMNyugY.jpg",
  "tmdb_id": 12102,
  "directors": [
-  "Robert Benton"
+  {
+   "name": "Robert Benton",
+   "id": "robert-benton"
+  }
  ],
  "director_primary": "Robert Benton",
  "genres": [
@@ -150,43 +153,53 @@
  "cast": [
   {
    "name": "Dustin Hoffman",
-   "films": 4
+   "films": 4,
+   "id": "dustin-hoffman"
   },
   {
    "name": "Meryl Streep",
-   "films": 3
+   "films": 3,
+   "id": "meryl-streep"
   },
   {
    "name": "Jane Alexander",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Justin Henry",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Howard Duff",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "George Coe",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "JoBeth Williams",
-   "films": 1
+   "films": 1,
+   "id": "jobeth-williams"
   },
   {
    "name": "Bill Moor",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Howland Chamberlain",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jack Ramage",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

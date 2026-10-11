@@ -5,7 +5,10 @@
  "poster": "6C95tD92E9xm5poyyzs37bYemM0.jpg",
  "tmdb_id": 45272,
  "directors": [
-  "Shana Feste"
+  {
+   "name": "Shana Feste",
+   "id": "shana-feste"
+  }
  ],
  "director_primary": "Shana Feste",
  "genres": [
@@ -159,43 +162,53 @@
  "cast": [
   {
    "name": "Gwyneth Paltrow",
-   "films": 5
+   "films": 5,
+   "id": "gwyneth-paltrow"
   },
   {
    "name": "Garrett Hedlund",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Tim McGraw",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Leighton Meester",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Marshall Chapman",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Lari White",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jeremy Childs",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "James DeForest Parker",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Lisa Stewart",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jackie Welch",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

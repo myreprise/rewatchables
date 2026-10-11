@@ -5,7 +5,10 @@
  "poster": "82PkCE4R95KhHICUDF7G4Ly2z3l.jpg",
  "tmdb_id": 1637,
  "directors": [
-  "Jan De Bont"
+  {
+   "name": "Jan De Bont",
+   "id": "jan-de-bont"
+  }
  ],
  "director_primary": "Jan De Bont",
  "genres": [
@@ -236,43 +239,53 @@
  "cast": [
   {
    "name": "Keanu Reeves",
-   "films": 8
+   "films": 8,
+   "id": "keanu-reeves"
   },
   {
    "name": "Dennis Hopper",
-   "films": 3
+   "films": 3,
+   "id": "dennis-hopper"
   },
   {
    "name": "Sandra Bullock",
-   "films": 5
+   "films": 5,
+   "id": "sandra-bullock"
   },
   {
    "name": "Joe Morton",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jeff Daniels",
-   "films": 3
+   "films": 3,
+   "id": "jeff-daniels"
   },
   {
    "name": "Alan Ruck",
-   "films": 1
+   "films": 1,
+   "id": "alan-ruck"
   },
   {
    "name": "Glenn Plummer",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Richard Lineback",
-   "films": 0
+   "films": 0,
+   "id": "richard-lineback"
   },
   {
    "name": "Beth Grant",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Hawthorne James",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

@@ -5,7 +5,10 @@
  "poster": "7Tp16THdpHkMrqgoiDresDz9CWL.jpg",
  "tmdb_id": 5966,
  "directors": [
-  "John Hamburg"
+  {
+   "name": "John Hamburg",
+   "id": "john-hamburg"
+  }
  ],
  "director_primary": "John Hamburg",
  "genres": [
@@ -217,43 +220,53 @@
  "cast": [
   {
    "name": "Ben Stiller",
-   "films": 7
+   "films": 7,
+   "id": "ben-stiller"
   },
   {
    "name": "Jennifer Aniston",
-   "films": 3
+   "films": 3,
+   "id": "jennifer-aniston"
   },
   {
    "name": "Philip Seymour Hoffman",
-   "films": 6
+   "films": 6,
+   "id": "philip-seymour-hoffman"
   },
   {
    "name": "Debra Messing",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Alec Baldwin",
-   "films": 5
+   "films": 5,
+   "id": "alec-baldwin"
   },
   {
    "name": "Hank Azaria",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Bryan Brown",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jsu Garcia",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Michele Lee",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Bob Dishy",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

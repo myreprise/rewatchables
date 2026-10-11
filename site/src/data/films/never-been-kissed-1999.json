@@ -5,7 +5,10 @@
  "poster": "6BngDhDNfbBjhVFWDT2yMve32vi.jpg",
  "tmdb_id": 11355,
  "directors": [
-  "Raja Gosnell"
+  {
+   "name": "Raja Gosnell",
+   "id": "raja-gosnell"
+  }
  ],
  "director_primary": "Raja Gosnell",
  "genres": [
@@ -173,43 +176,53 @@
  "cast": [
   {
    "name": "Drew Barrymore",
-   "films": 2
+   "films": 2,
+   "id": "drew-barrymore"
   },
   {
    "name": "David Arquette",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Molly Shannon",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Michael Vartan",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jessica Alba",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "John C. Reilly",
-   "films": 5
+   "films": 5,
+   "id": "john-c-reilly"
   },
   {
    "name": "James Franco",
-   "films": 3
+   "films": 3,
+   "id": "james-franco"
   },
   {
    "name": "Octavia Spencer",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jenny Bicks",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Garry Marshall",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

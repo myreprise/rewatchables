@@ -5,7 +5,10 @@
  "poster": "sizg1AU8f8JDZX4QIgE4pjUMBvx.jpg",
  "tmdb_id": 89,
  "directors": [
-  "Steven Spielberg"
+  {
+   "name": "Steven Spielberg",
+   "id": "steven-spielberg"
+  }
  ],
  "director_primary": "Steven Spielberg",
  "genres": [
@@ -305,43 +308,53 @@
  "cast": [
   {
    "name": "Harrison Ford",
-   "films": 7
+   "films": 7,
+   "id": "harrison-ford"
   },
   {
    "name": "Sean Connery",
-   "films": 3
+   "films": 3,
+   "id": "sean-connery"
   },
   {
    "name": "Denholm Elliott",
-   "films": 2
+   "films": 2,
+   "id": "denholm-elliott"
   },
   {
    "name": "Alison Doody",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "John Rhys-Davies",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Julian Glover",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "River Phoenix",
-   "films": 2
+   "films": 2,
+   "id": "river-phoenix"
   },
   {
    "name": "Michael Byrne",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kevork Malikyan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Robert Eddison",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

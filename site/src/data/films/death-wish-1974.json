@@ -5,7 +5,10 @@
  "poster": "rNksI6UiuTgLtBy69WvKT1PrG0R.jpg",
  "tmdb_id": 13939,
  "directors": [
-  "Michael Winner"
+  {
+   "name": "Michael Winner",
+   "id": "michael-winner"
+  }
  ],
  "director_primary": "Michael Winner",
  "genres": [
@@ -183,43 +186,53 @@
  "cast": [
   {
    "name": "Charles Bronson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Hope Lange",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Vincent Gardenia",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Steven Keats",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "William Redfield",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Stuart Margolin",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Stephen Elliott",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kathleen Tolan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jack Wallace",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Fred J. Scollay",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

@@ -5,7 +5,10 @@
  "poster": "onTSipZ8R3bliBdKfPtsDuHTdlL.jpg",
  "tmdb_id": 771,
  "directors": [
-  "Chris Columbus"
+  {
+   "name": "Chris Columbus",
+   "id": "chris-columbus"
+  }
  ],
  "director_primary": "Chris Columbus",
  "genres": [
@@ -228,43 +231,53 @@
  "cast": [
   {
    "name": "Macaulay Culkin",
-   "films": 3
+   "films": 3,
+   "id": "macaulay-culkin"
   },
   {
    "name": "Joe Pesci",
-   "films": 6
+   "films": 6,
+   "id": "joe-pesci"
   },
   {
    "name": "Daniel Stern",
-   "films": 4
+   "films": 4,
+   "id": "daniel-stern"
   },
   {
    "name": "John Heard",
-   "films": 5
+   "films": 5,
+   "id": "john-heard"
   },
   {
    "name": "Roberts Blossom",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Catherine O'Hara",
-   "films": 1
+   "films": 1,
+   "id": "catherine-ohara"
   },
   {
    "name": "Angela Goethals",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Devin Ratray",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Gerry Bamman",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Hillary Wolf",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "ffMUgkDZICNiyaws1Jkv8qG8uFW.jpg",
  "tmdb_id": 388,
  "directors": [
-  "Spike Lee"
+  {
+   "name": "Spike Lee",
+   "id": "spike-lee"
+  }
  ],
  "director_primary": "Spike Lee",
  "genres": [
@@ -131,43 +134,53 @@
  "cast": [
   {
    "name": "Denzel Washington",
-   "films": 12
+   "films": 12,
+   "id": "denzel-washington"
   },
   {
    "name": "Clive Owen",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Jodie Foster",
-   "films": 4
+   "films": 4,
+   "id": "jodie-foster"
   },
   {
    "name": "Christopher Plummer",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Willem Dafoe",
-   "films": 5
+   "films": 5,
+   "id": "willem-dafoe"
   },
   {
    "name": "Chiwetel Ejiofor",
-   "films": 1
+   "films": 1,
+   "id": "chiwetel-ejiofor"
   },
   {
    "name": "Carlos Andrés Gómez",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kim Director",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "James Ransone",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Bernie Rachelle",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "d6YZpBq4BhQr1K985J3CuL1cA8J.jpg",
  "tmdb_id": 11474,
  "directors": [
-  "Walter Hill"
+  {
+   "name": "Walter Hill",
+   "id": "walter-hill"
+  }
  ],
  "director_primary": "Walter Hill",
  "genres": [
@@ -165,43 +168,53 @@
  "cast": [
   {
    "name": "Michael Beck",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "James Remar",
-   "films": 3
+   "films": 3,
+   "id": "james-remar"
   },
   {
    "name": "David Patrick Kelly",
-   "films": 1
+   "films": 1,
+   "id": "david-patrick-kelly"
   },
   {
    "name": "Dorsey Wright",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "David Harris",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Deborah Van Valkenburgh",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Brian Tyler",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Tom McKitterick",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Marcelino Sánchez",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Roger Hill",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

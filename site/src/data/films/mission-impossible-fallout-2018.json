@@ -5,7 +5,10 @@
  "poster": "AkJQpZp9WoNdj7pLYSj1L0RcMMN.jpg",
  "tmdb_id": 353081,
  "directors": [
-  "Christopher McQuarrie"
+  {
+   "name": "Christopher McQuarrie",
+   "id": "christopher-mcquarrie"
+  }
  ],
  "director_primary": "Christopher McQuarrie",
  "genres": [
@@ -284,43 +287,53 @@
  "cast": [
   {
    "name": "Tom Cruise",
-   "films": 17
+   "films": 17,
+   "id": "tom-cruise"
   },
   {
    "name": "Henry Cavill",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ving Rhames",
-   "films": 5
+   "films": 5,
+   "id": "ving-rhames"
   },
   {
    "name": "Simon Pegg",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Rebecca Ferguson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Sean Harris",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Angela Bassett",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Vanessa Kirby",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Michelle Monaghan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Wes Bentley",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

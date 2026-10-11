@@ -5,7 +5,10 @@
  "poster": "5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg",
  "tmdb_id": 9552,
  "directors": [
-  "William Friedkin"
+  {
+   "name": "William Friedkin",
+   "id": "william-friedkin"
+  }
  ],
  "director_primary": "William Friedkin",
  "genres": [
@@ -185,43 +188,53 @@
  "cast": [
   {
    "name": "Ellen Burstyn",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Linda Blair",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jason Miller",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Max von Sydow",
-   "films": 3
+   "films": 3,
+   "id": "max-von-sydow"
   },
   {
    "name": "Lee J. Cobb",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "William O'Malley",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kitty Winn",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Barton Heyman",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Peter Masterson",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jack MacGowran",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

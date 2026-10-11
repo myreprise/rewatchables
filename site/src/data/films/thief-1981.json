@@ -5,7 +5,10 @@
  "poster": "bpjRGwfYJ71bU0hNhLIz7g3t6Oy.jpg",
  "tmdb_id": 11524,
  "directors": [
-  "Michael Mann"
+  {
+   "name": "Michael Mann",
+   "id": "michael-mann"
+  }
  ],
  "director_primary": "Michael Mann",
  "genres": [
@@ -257,43 +260,53 @@
  "cast": [
   {
    "name": "James Caan",
-   "films": 5
+   "films": 5,
+   "id": "james-caan"
   },
   {
    "name": "Tuesday Weld",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Robert Prosky",
-   "films": 2
+   "films": 2,
+   "id": "robert-prosky"
   },
   {
    "name": "Willie Nelson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jim Belushi",
-   "films": 2
+   "films": 2,
+   "id": "jim-belushi"
   },
   {
    "name": "Tom Signorelli",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Dennis Farina",
-   "films": 2
+   "films": 2,
+   "id": "dennis-farina"
   },
   {
    "name": "Nick Nickeas",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "W.R. Brown",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Norm Tobin",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

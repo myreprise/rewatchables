@@ -5,7 +5,10 @@
  "poster": "82KOHShH9raGhkcAN3TztVjqjj3.jpg",
  "tmdb_id": 9346,
  "directors": [
-  "Paul Brickman"
+  {
+   "name": "Paul Brickman",
+   "id": "paul-brickman"
+  }
  ],
  "director_primary": "Paul Brickman",
  "genres": [
@@ -99,43 +102,53 @@
  "cast": [
   {
    "name": "Tom Cruise",
-   "films": 17
+   "films": 17,
+   "id": "tom-cruise"
   },
   {
    "name": "Rebecca De Mornay",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Joe Pantoliano",
-   "films": 6
+   "films": 6,
+   "id": "joe-pantoliano"
   },
   {
    "name": "Richard Masur",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Bronson Pinchot",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Curtis Armstrong",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Nicholas Pryor",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Janet Carroll",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Shera Danese",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Raphael Sbarge",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

@@ -5,7 +5,10 @@
  "poster": "tFsHDNclXoCKy2xMxskzXXMaFJS.jpg",
  "tmdb_id": 87502,
  "directors": [
-  "Robert Zemeckis"
+  {
+   "name": "Robert Zemeckis",
+   "id": "robert-zemeckis"
+  }
  ],
  "director_primary": "Robert Zemeckis",
  "genres": [
@@ -227,43 +230,53 @@
  "cast": [
   {
    "name": "Denzel Washington",
-   "films": 12
+   "films": 12,
+   "id": "denzel-washington"
   },
   {
    "name": "Don Cheadle",
-   "films": 3
+   "films": 3,
+   "id": "don-cheadle"
   },
   {
    "name": "Kelly Reilly",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "John Goodman",
-   "films": 5
+   "films": 5,
+   "id": "john-goodman"
   },
   {
    "name": "Bruce Greenwood",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Brian Geraghty",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Tamara Tunie",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Nadine Velazquez",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Peter Gerety",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Garcelle Beauvais",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

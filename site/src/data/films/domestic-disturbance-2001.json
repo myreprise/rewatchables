@@ -5,7 +5,10 @@
  "poster": "quRhjnXAuIn04VmgM84nmKzt79J.jpg",
  "tmdb_id": 11456,
  "directors": [
-  "Harold Becker"
+  {
+   "name": "Harold Becker",
+   "id": "harold-becker"
+  }
  ],
  "director_primary": "Harold Becker",
  "genres": [
@@ -173,43 +176,53 @@
  "cast": [
   {
    "name": "John Travolta",
-   "films": 6
+   "films": 6,
+   "id": "john-travolta"
   },
   {
    "name": "Matt O'Leary",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Vince Vaughn",
-   "films": 6
+   "films": 6,
+   "id": "vince-vaughn"
   },
   {
    "name": "Teri Polo",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Ruben Santiago-Hudson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Steve Buscemi",
-   "films": 3
+   "films": 3,
+   "id": "steve-buscemi"
   },
   {
    "name": "Susan Floyd",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Angelica Page",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "James Lashly",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Rebecca Tilney",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "nKnHWwkXyvhzCYWm3FyRAv3qBrl.jpg",
  "tmdb_id": 951,
  "directors": [
-  "Ivan Reitman"
+  {
+   "name": "Ivan Reitman",
+   "id": "ivan-reitman"
+  }
  ],
  "director_primary": "Ivan Reitman",
  "genres": [
@@ -111,43 +114,53 @@
  "cast": [
   {
    "name": "Arnold Schwarzenegger",
-   "films": 8
+   "films": 8,
+   "id": "arnold-schwarzenegger"
   },
   {
    "name": "Penelope Ann Miller",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Pamela Reed",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Linda Hunt",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Richard Tyson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Carroll Baker",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Joseph Cousins",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Christian Cousins",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Cathy Moriarty",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Park Overall",
-   "films": 1
+   "films": 1,
+   "id": null
   }
  ],
  "by_director": [

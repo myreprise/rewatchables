@@ -5,7 +5,10 @@
  "poster": "aByfQOQBNa4CMFwIgq3QrqY2ZHh.jpg",
  "tmdb_id": 142,
  "directors": [
-  "Ang Lee"
+  {
+   "name": "Ang Lee",
+   "id": "ang-lee"
+  }
  ],
  "director_primary": "Ang Lee",
  "genres": [
@@ -182,43 +185,53 @@
  "cast": [
   {
    "name": "Heath Ledger",
-   "films": 3
+   "films": 3,
+   "id": "heath-ledger"
   },
   {
    "name": "Jake Gyllenhaal",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Michelle Williams",
-   "films": 2
+   "films": 2,
+   "id": "michelle-williams"
   },
   {
    "name": "Anne Hathaway",
-   "films": 3
+   "films": 3,
+   "id": "anne-hathaway"
   },
   {
    "name": "Randy Quaid",
-   "films": 3
+   "films": 3,
+   "id": "randy-quaid"
   },
   {
    "name": "Linda Cardellini",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Anna Faris",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "David Harbour",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Roberta Maxwell",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kate Mara",
-   "films": 1
+   "films": 1,
+   "id": "kate-mara"
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "oeM7nAw6FVFICwUaXKCRkDsKjqO.jpg",
  "tmdb_id": 2323,
  "directors": [
-  "Phil Alden Robinson"
+  {
+   "name": "Phil Alden Robinson",
+   "id": "phil-alden-robinson"
+  }
  ],
  "director_primary": "Phil Alden Robinson",
  "genres": [
@@ -179,43 +182,53 @@
  "cast": [
   {
    "name": "Kevin Costner",
-   "films": 9
+   "films": 9,
+   "id": "kevin-costner"
   },
   {
    "name": "Amy Madigan",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Gaby Hoffmann",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ray Liotta",
-   "films": 3
+   "films": 3,
+   "id": "ray-liotta"
   },
   {
    "name": "Timothy Busfield",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "James Earl Jones",
-   "films": 1
+   "films": 1,
+   "id": "james-earl-jones"
   },
   {
    "name": "Burt Lancaster",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Frank Whaley",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Dwier Brown",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "James Andelin",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

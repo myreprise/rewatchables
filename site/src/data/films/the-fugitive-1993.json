@@ -5,7 +5,10 @@
  "poster": "b3rEtLKyOnF89mcK75GXDXdmOEf.jpg",
  "tmdb_id": 5503,
  "directors": [
-  "Andrew Davis"
+  {
+   "name": "Andrew Davis",
+   "id": "andrew-davis"
+  }
  ],
  "director_primary": "Andrew Davis",
  "genres": [
@@ -265,43 +268,53 @@
  "cast": [
   {
    "name": "Harrison Ford",
-   "films": 7
+   "films": 7,
+   "id": "harrison-ford"
   },
   {
    "name": "Tommy Lee Jones",
-   "films": 4
+   "films": 4,
+   "id": "tommy-lee-jones"
   },
   {
    "name": "Joe Pantoliano",
-   "films": 6
+   "films": 6,
+   "id": "joe-pantoliano"
   },
   {
    "name": "Jeroen Krabbé",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Daniel Roebuck",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "L. Scott Caldwell",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Tom Wood",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ron Dean",
-   "films": 0
+   "films": 0,
+   "id": "ron-dean"
   },
   {
    "name": "Joseph F. Kosala",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Andreas Katsulas",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

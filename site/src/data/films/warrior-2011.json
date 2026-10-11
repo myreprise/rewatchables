@@ -5,7 +5,10 @@
  "poster": "iM8n4nZJPR2abpnyZ36FUgHiRjr.jpg",
  "tmdb_id": 59440,
  "directors": [
-  "Gavin O'Connor"
+  {
+   "name": "Gavin O'Connor",
+   "id": "gavin-oconnor"
+  }
  ],
  "director_primary": "Gavin O'Connor",
  "genres": [
@@ -154,43 +157,53 @@
  "cast": [
   {
    "name": "Joel Edgerton",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Tom Hardy",
-   "films": 4
+   "films": 4,
+   "id": "tom-hardy"
   },
   {
    "name": "Nick Nolte",
-   "films": 5
+   "films": 5,
+   "id": "nick-nolte"
   },
   {
    "name": "Jennifer Morrison",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Frank Grillo",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Kevin Dunn",
-   "films": 2
+   "films": 2,
+   "id": "kevin-dunn"
   },
   {
    "name": "Maximiliano Hernández",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Bryan Callen",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Sam Sheridan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Fernando Chien",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

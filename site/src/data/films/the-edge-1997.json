@@ -5,7 +5,10 @@
  "poster": "zplJqfuUyqzW0D4jX3W1afl0d7b.jpg",
  "tmdb_id": 9433,
  "directors": [
-  "Lee Tamahori"
+  {
+   "name": "Lee Tamahori",
+   "id": "lee-tamahori"
+  }
  ],
  "director_primary": "Lee Tamahori",
  "genres": [
@@ -148,43 +151,53 @@
  "cast": [
   {
    "name": "Anthony Hopkins",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Alec Baldwin",
-   "films": 5
+   "films": 5,
+   "id": "alec-baldwin"
   },
   {
    "name": "Elle Macpherson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Harold Perrineau",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "L.Q. Jones",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Kathleen Wilhoite",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Mark Kiely",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Eli Gabay",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Larry Musser",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Bart the Bear",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

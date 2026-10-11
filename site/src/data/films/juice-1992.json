@@ -5,7 +5,10 @@
  "poster": "hfXFPMhNjLnCugBHMN0nrtKW7Ra.jpg",
  "tmdb_id": 16136,
  "directors": [
-  "Ernest Dickerson"
+  {
+   "name": "Ernest Dickerson",
+   "id": "ernest-dickerson"
+  }
  ],
  "director_primary": "Ernest Dickerson",
  "genres": [
@@ -82,43 +85,53 @@
  "cast": [
   {
    "name": "Omar Epps",
-   "films": 4
+   "films": 4,
+   "id": "omar-epps"
   },
   {
    "name": "Tupac Shakur",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Khalil Kain",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jermaine Hopkins",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Cindy Herron",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Samuel L. Jackson",
-   "films": 3
+   "films": 3,
+   "id": "samuel-l-jackson"
   },
   {
    "name": "Queen Latifah",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Vincent Laresca",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Michael Badalucco",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Donald Faison",
-   "films": 2
+   "films": 2,
+   "id": "donald-faison"
   }
  ],
  "by_director": [],

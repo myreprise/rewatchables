@@ -5,7 +5,10 @@
  "poster": "hhkW4yVIGo8Bee3UITKvqOvhNMG.jpg",
  "tmdb_id": 4566,
  "directors": [
-  "Tony Gilroy"
+  {
+   "name": "Tony Gilroy",
+   "id": "tony-gilroy"
+  }
  ],
  "director_primary": "Tony Gilroy",
  "genres": [
@@ -180,43 +183,53 @@
  "cast": [
   {
    "name": "George Clooney",
-   "films": 5
+   "films": 5,
+   "id": "george-clooney"
   },
   {
    "name": "Tom Wilkinson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Tilda Swinton",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Sydney Pollack",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Michael O'Keefe",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Ken Howard",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Sean Cullen",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Merritt Wever",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Austin Williams",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Robert Prescott",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

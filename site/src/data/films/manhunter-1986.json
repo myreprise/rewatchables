@@ -5,7 +5,10 @@
  "poster": "6rb24x39vV8n5301IelC8rCPJTH.jpg",
  "tmdb_id": 11454,
  "directors": [
-  "Michael Mann"
+  {
+   "name": "Michael Mann",
+   "id": "michael-mann"
+  }
  ],
  "director_primary": "Michael Mann",
  "genres": [
@@ -278,43 +281,53 @@
  "cast": [
   {
    "name": "William L. Petersen",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Tom Noonan",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Dennis Farina",
-   "films": 2
+   "films": 2,
+   "id": "dennis-farina"
   },
   {
    "name": "Brian Cox",
-   "films": 3
+   "films": 3,
+   "id": "brian-cox"
   },
   {
    "name": "Kim Greist",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Joan Allen",
-   "films": 4
+   "films": 4,
+   "id": "joan-allen"
   },
   {
    "name": "Stephen Lang",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "David Seaman",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Benjamin Hendrickson",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Chris Elliott",
-   "films": 2
+   "films": 2,
+   "id": "chris-elliott"
   }
  ],
  "by_director": [

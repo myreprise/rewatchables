@@ -5,7 +5,10 @@
  "poster": "l5uxY5m5OInWpcExIpKG6AR3rgL.jpg",
  "tmdb_id": 954,
  "directors": [
-  "Brian De Palma"
+  {
+   "name": "Brian De Palma",
+   "id": "brian-de-palma"
+  }
  ],
  "director_primary": "Brian De Palma",
  "genres": [
@@ -236,43 +239,53 @@
  "cast": [
   {
    "name": "Tom Cruise",
-   "films": 17
+   "films": 17,
+   "id": "tom-cruise"
   },
   {
    "name": "Jon Voight",
-   "films": 6
+   "films": 6,
+   "id": "jon-voight"
   },
   {
    "name": "Emmanuelle Béart",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Henry Czerny",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jean Reno",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Ving Rhames",
-   "films": 5
+   "films": 5,
+   "id": "ving-rhames"
   },
   {
    "name": "Kristin Scott Thomas",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Vanessa Redgrave",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ingeborga Dapkūnaitė",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Valentina Yakunina",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

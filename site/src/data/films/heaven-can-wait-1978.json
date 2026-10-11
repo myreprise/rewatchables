@@ -5,7 +5,10 @@
  "poster": "h1yOiO9cow6gwmGxSAWvPdY4lhJ.jpg",
  "tmdb_id": 12185,
  "directors": [
-  "Warren Beatty; Buck Henry"
+  {
+   "name": "Warren Beatty; Buck Henry",
+   "id": "warren-beatty-buck-henry"
+  }
  ],
  "director_primary": "Warren Beatty; Buck Henry",
  "genres": [
@@ -132,43 +135,53 @@
  "cast": [
   {
    "name": "Warren Beatty",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Julie Christie",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "James Mason",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Jack Warden",
-   "films": 7
+   "films": 7,
+   "id": "jack-warden"
   },
   {
    "name": "Charles Grodin",
-   "films": 2
+   "films": 2,
+   "id": "charles-grodin"
   },
   {
    "name": "Dyan Cannon",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Buck Henry",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Vincent Gardenia",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Joseph Maher",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Hamilton Camp",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

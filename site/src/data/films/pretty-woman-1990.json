@@ -5,7 +5,10 @@
  "poster": "hVHUfT801LQATGd26VPzhorIYza.jpg",
  "tmdb_id": 114,
  "directors": [
-  "Garry Marshall"
+  {
+   "name": "Garry Marshall",
+   "id": "garry-marshall"
+  }
  ],
  "director_primary": "Garry Marshall",
  "genres": [
@@ -242,43 +245,53 @@
  "cast": [
   {
    "name": "Julia Roberts",
-   "films": 7
+   "films": 7,
+   "id": "julia-roberts"
   },
   {
    "name": "Richard Gere",
-   "films": 6
+   "films": 6,
+   "id": "richard-gere"
   },
   {
    "name": "Ralph Bellamy",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Jason Alexander",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Laura San Giacomo",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Héctor Elizondo",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Alex Hyde-White",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Amy Yasbeck",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Elinor Donahue",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Judith Baldwin",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

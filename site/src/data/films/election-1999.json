@@ -5,7 +5,10 @@
  "poster": "fbo0IYzBc32dD5SjFzKIgfp4O4F.jpg",
  "tmdb_id": 9451,
  "directors": [
-  "Alexander Payne"
+  {
+   "name": "Alexander Payne",
+   "id": "alexander-payne"
+  }
  ],
  "director_primary": "Alexander Payne",
  "genres": [
@@ -210,43 +213,53 @@
  "cast": [
   {
    "name": "Matthew Broderick",
-   "films": 2
+   "films": 2,
+   "id": "matthew-broderick"
   },
   {
    "name": "Reese Witherspoon",
-   "films": 3
+   "films": 3,
+   "id": "reese-witherspoon"
   },
   {
    "name": "Chris Klein",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Jessica Campbell",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Mark Harelik",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Phil Reeves",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Molly Hagan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Delaney Driscoll",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Colleen Camp",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Frankie Ingrassia",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

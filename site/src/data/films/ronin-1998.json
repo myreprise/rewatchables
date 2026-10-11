@@ -5,7 +5,10 @@
  "poster": "AirrhRJjHwytOV0pdLu7YZ4DEyr.jpg",
  "tmdb_id": 8195,
  "directors": [
-  "John Frankenheimer"
+  {
+   "name": "John Frankenheimer",
+   "id": "john-frankenheimer"
+  }
  ],
  "director_primary": "John Frankenheimer",
  "genres": [
@@ -155,43 +158,53 @@
  "cast": [
   {
    "name": "Robert De Niro",
-   "films": 14
+   "films": 14,
+   "id": "robert-de-niro"
   },
   {
    "name": "Jean Reno",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Natascha McElhone",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Stellan Skarsgård",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Skipp Sudduth",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jonathan Pryce",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Sean Bean",
-   "films": 1
+   "films": 1,
+   "id": "sean-bean"
   },
   {
    "name": "Michael Lonsdale",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Féodor Atkine",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Katarina Witt",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

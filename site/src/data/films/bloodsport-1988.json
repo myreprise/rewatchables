@@ -5,7 +5,10 @@
  "poster": "kndxR9TRK0kJ5hxzDprRSS80F2W.jpg",
  "tmdb_id": 11690,
  "directors": [
-  "Newt Arnold"
+  {
+   "name": "Newt Arnold",
+   "id": "newt-arnold"
+  }
  ],
  "director_primary": "Newt Arnold",
  "genres": [
@@ -201,43 +204,53 @@
  "cast": [
   {
    "name": "Jean-Claude Van Damme",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Donald Gibb",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Leah Ayres",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Norman Burton",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Forest Whitaker",
-   "films": 2
+   "films": 2,
+   "id": "forest-whitaker"
   },
   {
    "name": "Bolo Yeung",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Roy Chiao",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Philip Chan Yan-Kin",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Pierre Rafini",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kenneth Siao Wai-Keung",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

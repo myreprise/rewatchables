@@ -5,7 +5,10 @@
  "poster": "1fBnyO3SbNBplck45js6O4pQaLw.jpg",
  "tmdb_id": 11087,
  "directors": [
-  "Curtis Hanson"
+  {
+   "name": "Curtis Hanson",
+   "id": "curtis-hanson"
+  }
  ],
  "director_primary": "Curtis Hanson",
  "genres": [
@@ -144,43 +147,53 @@
  "cast": [
   {
    "name": "Annabella Sciorra",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Rebecca De Mornay",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Matt McCoy",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ernie Hudson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Madeline Zima",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Julianne Moore",
-   "films": 4
+   "films": 4,
+   "id": "julianne-moore"
   },
   {
    "name": "John de Lancie",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kevin Skousen",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Mitchell Laurance",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jane Jones",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

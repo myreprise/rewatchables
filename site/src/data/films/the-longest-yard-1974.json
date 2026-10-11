@@ -5,7 +5,10 @@
  "poster": "2qtpPGRpMEnwhRRoq3iqyQm238V.jpg",
  "tmdb_id": 4985,
  "directors": [
-  "Robert Aldrich"
+  {
+   "name": "Robert Aldrich",
+   "id": "robert-aldrich"
+  }
  ],
  "director_primary": "Robert Aldrich",
  "genres": [
@@ -103,43 +106,53 @@
  "cast": [
   {
    "name": "Burt Reynolds",
-   "films": 3
+   "films": 3,
+   "id": "burt-reynolds"
   },
   {
    "name": "Eddie Albert",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ed Lauter",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Michael Conrad",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "James Hampton",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Harry Caesar",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "John Steadman",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Charles Tyner",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Mike Henry",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Richard Kiel",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

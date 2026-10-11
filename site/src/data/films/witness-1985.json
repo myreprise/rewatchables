@@ -5,7 +5,10 @@
  "poster": "kOymD1rChAMykmDVEzJpIh4OYS7.jpg",
  "tmdb_id": 9281,
  "directors": [
-  "Peter Weir"
+  {
+   "name": "Peter Weir",
+   "id": "peter-weir"
+  }
  ],
  "director_primary": "Peter Weir",
  "genres": [
@@ -176,43 +179,53 @@
  "cast": [
   {
    "name": "Harrison Ford",
-   "films": 7
+   "films": 7,
+   "id": "harrison-ford"
   },
   {
    "name": "Kelly McGillis",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Josef Sommer",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Lukas Haas",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jan Rubeš",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Alexander Godunov",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Danny Glover",
-   "films": 3
+   "films": 3,
+   "id": "danny-glover"
   },
   {
    "name": "Brent Jennings",
-   "films": 0
+   "films": 0,
+   "id": "brent-jennings"
   },
   {
    "name": "Patti LuPone",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Angus MacInnes",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

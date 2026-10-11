@@ -5,7 +5,10 @@
  "poster": "eWhCDJiwxvx3YXkAFRiHjimnF0j.jpg",
  "tmdb_id": 2280,
  "directors": [
-  "Penny Marshall"
+  {
+   "name": "Penny Marshall",
+   "id": "penny-marshall"
+  }
  ],
  "director_primary": "Penny Marshall",
  "genres": [
@@ -236,43 +239,53 @@
  "cast": [
   {
    "name": "Tom Hanks",
-   "films": 11
+   "films": 11,
+   "id": "tom-hanks"
   },
   {
    "name": "Elizabeth Perkins",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Robert Loggia",
-   "films": 3
+   "films": 3,
+   "id": "robert-loggia"
   },
   {
    "name": "John Heard",
-   "films": 5
+   "films": 5,
+   "id": "john-heard"
   },
   {
    "name": "Jared Rushton",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jon Lovitz",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "David Moscow",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Mercedes Ruehl",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Harvey Miller",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Debra Jo Rupp",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

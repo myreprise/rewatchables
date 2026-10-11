@@ -5,7 +5,10 @@
  "poster": "4sW5XH9ZfYXpvFzev00S1IGAEbg.jpg",
  "tmdb_id": 80,
  "directors": [
-  "Richard Linklater"
+  {
+   "name": "Richard Linklater",
+   "id": "richard-linklater"
+  }
  ],
  "director_primary": "Richard Linklater",
  "genres": [
@@ -141,43 +144,53 @@
  "cast": [
   {
    "name": "Ethan Hawke",
-   "films": 7
+   "films": 7,
+   "id": "ethan-hawke"
   },
   {
    "name": "Julie Delpy",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Vernon Dobtcheff",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Louise Lemoine Torrès",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Rodolphe Pauly",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Mariane Plasteig",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Diabolo",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Denis Evrard",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Albert Delpy",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Marie Pillet",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

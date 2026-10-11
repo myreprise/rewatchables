@@ -5,7 +5,10 @@
  "poster": "99X2SgyFunJFXGAYnDv3sb9pnUD.jpg",
  "tmdb_id": 629,
  "directors": [
-  "Bryan Singer"
+  {
+   "name": "Bryan Singer",
+   "id": "bryan-singer"
+  }
  ],
  "director_primary": "Bryan Singer",
  "genres": [
@@ -183,43 +186,53 @@
  "cast": [
   {
    "name": "Stephen Baldwin",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Gabriel Byrne",
-   "films": 2
+   "films": 2,
+   "id": "gabriel-byrne"
   },
   {
    "name": "Benicio del Toro",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Kevin Pollak",
-   "films": 1
+   "films": 1,
+   "id": "kevin-pollak"
   },
   {
    "name": "Kevin Spacey",
-   "films": 4
+   "films": 4,
+   "id": "kevin-spacey"
   },
   {
    "name": "Chazz Palminteri",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Pete Postlethwaite",
-   "films": 0
+   "films": 0,
+   "id": "pete-postlethwaite"
   },
   {
    "name": "Suzy Amis",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Giancarlo Esposito",
-   "films": 1
+   "films": 1,
+   "id": "giancarlo-esposito"
   },
   {
    "name": "Dan Hedaya",
-   "films": 1
+   "films": 1,
+   "id": "dan-hedaya"
   }
  ],
  "by_director": [],

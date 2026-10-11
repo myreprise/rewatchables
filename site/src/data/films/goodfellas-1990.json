@@ -5,7 +5,10 @@
  "poster": "9OkCLM73MIU2CrKZbqiT8Ln1wY2.jpg",
  "tmdb_id": 769,
  "directors": [
-  "Martin Scorsese"
+  {
+   "name": "Martin Scorsese",
+   "id": "martin-scorsese"
+  }
  ],
  "director_primary": "Martin Scorsese",
  "genres": [
@@ -186,43 +189,53 @@
  "cast": [
   {
    "name": "Robert De Niro",
-   "films": 14
+   "films": 14,
+   "id": "robert-de-niro"
   },
   {
    "name": "Ray Liotta",
-   "films": 3
+   "films": 3,
+   "id": "ray-liotta"
   },
   {
    "name": "Joe Pesci",
-   "films": 6
+   "films": 6,
+   "id": "joe-pesci"
   },
   {
    "name": "Lorraine Bracco",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Paul Sorvino",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Frank Sivero",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Tony Darrow",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Mike Starr",
-   "films": 0
+   "films": 0,
+   "id": "mike-starr"
   },
   {
    "name": "Frank Vincent",
-   "films": 0
+   "films": 0,
+   "id": "frank-vincent"
   },
   {
    "name": "Chuck Low",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

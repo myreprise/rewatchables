@@ -5,7 +5,10 @@
  "poster": "jiF7UShERJFn5RtgfBK2lIJrOTc.jpg",
  "tmdb_id": 817,
  "directors": [
-  "Jay Roach"
+  {
+   "name": "Jay Roach",
+   "id": "jay-roach"
+  }
  ],
  "director_primary": "Jay Roach",
  "genres": [
@@ -232,43 +235,53 @@
  "cast": [
   {
    "name": "Mike Myers",
-   "films": 4
+   "films": 4,
+   "id": "mike-myers"
   },
   {
    "name": "Heather Graham",
-   "films": 3
+   "films": 3,
+   "id": "heather-graham"
   },
   {
    "name": "Verne Troyer",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Michael York",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Robert Wagner",
-   "films": 2
+   "films": 2,
+   "id": "robert-wagner"
   },
   {
    "name": "Seth Green",
-   "films": 2
+   "films": 2,
+   "id": "seth-green"
   },
   {
    "name": "Mindy Sterling",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Will Ferrell",
-   "films": 3
+   "films": 3,
+   "id": "will-ferrell"
   },
   {
    "name": "Elizabeth Hurley",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Rob Lowe",
-   "films": 3
+   "films": 3,
+   "id": "rob-lowe"
   }
  ],
  "by_director": [

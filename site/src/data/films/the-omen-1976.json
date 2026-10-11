@@ -5,7 +5,10 @@
  "poster": "mDcjjEu1fMNmsXi4l4D8IftlTix.jpg",
  "tmdb_id": 794,
  "directors": [
-  "Richard Donner"
+  {
+   "name": "Richard Donner",
+   "id": "richard-donner"
+  }
  ],
  "director_primary": "Richard Donner",
  "genres": [
@@ -210,43 +213,53 @@
  "cast": [
   {
    "name": "Gregory Peck",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Lee Remick",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "David Warner",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Billie Whitelaw",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Harvey Stephens",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Patrick Troughton",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Martin Benson",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Robert Rietti",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Tommy Duggan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "John Stride",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

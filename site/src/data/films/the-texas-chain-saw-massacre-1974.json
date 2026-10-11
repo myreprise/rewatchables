@@ -5,7 +5,10 @@
  "poster": "mpgkRPH1GNkMCgdPk2OMyHzAks7.jpg",
  "tmdb_id": 30497,
  "directors": [
-  "Tobe Hooper"
+  {
+   "name": "Tobe Hooper",
+   "id": "tobe-hooper"
+  }
  ],
  "director_primary": "Tobe Hooper",
  "genres": [
@@ -216,43 +219,53 @@
  "cast": [
   {
    "name": "Marilyn Burns",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Allen Danziger",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Paul A. Partain",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "William Vail",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Teri McMinn",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Edwin Neal",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jim Siedow",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Gunnar Hansen",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "John Dugan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Robert Courtin",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

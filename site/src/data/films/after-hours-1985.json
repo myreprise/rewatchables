@@ -5,7 +5,10 @@
  "poster": "8upjM945SVY99tu2Z8OG27Jd4m6.jpg",
  "tmdb_id": 10843,
  "directors": [
-  "Martin Scorsese"
+  {
+   "name": "Martin Scorsese",
+   "id": "martin-scorsese"
+  }
  ],
  "director_primary": "Martin Scorsese",
  "genres": [
@@ -225,43 +228,53 @@
  "cast": [
   {
    "name": "Griffin Dunne",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Rosanna Arquette",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Verna Bloom",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Tommy Chong",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Linda Fiorentino",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Teri Garr",
-   "films": 3
+   "films": 3,
+   "id": "teri-garr"
   },
   {
    "name": "John Heard",
-   "films": 5
+   "films": 5,
+   "id": "john-heard"
   },
   {
    "name": "Cheech Marin",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Catherine O'Hara",
-   "films": 1
+   "films": 1,
+   "id": "catherine-ohara"
   },
   {
    "name": "Dick Miller",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

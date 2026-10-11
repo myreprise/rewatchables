@@ -5,7 +5,10 @@
  "poster": "hQQCdZrsHtZyR6NbKH2YyCqd2fR.jpg",
  "tmdb_id": 161,
  "directors": [
-  "Steven Soderbergh"
+  {
+   "name": "Steven Soderbergh",
+   "id": "steven-soderbergh"
+  }
  ],
  "director_primary": "Steven Soderbergh",
  "genres": [
@@ -225,43 +228,53 @@
  "cast": [
   {
    "name": "George Clooney",
-   "films": 5
+   "films": 5,
+   "id": "george-clooney"
   },
   {
    "name": "Brad Pitt",
-   "films": 9
+   "films": 9,
+   "id": "brad-pitt"
   },
   {
    "name": "Andy Garcia",
-   "films": 4
+   "films": 4,
+   "id": "andy-garcia"
   },
   {
    "name": "Matt Damon",
-   "films": 10
+   "films": 10,
+   "id": "matt-damon"
   },
   {
    "name": "Julia Roberts",
-   "films": 7
+   "films": 7,
+   "id": "julia-roberts"
   },
   {
    "name": "Casey Affleck",
-   "films": 1
+   "films": 1,
+   "id": "casey-affleck"
   },
   {
    "name": "Scott Caan",
-   "films": 0
+   "films": 0,
+   "id": "scott-caan"
   },
   {
    "name": "Don Cheadle",
-   "films": 3
+   "films": 3,
+   "id": "don-cheadle"
   },
   {
    "name": "Elliott Gould",
-   "films": 0
+   "films": 0,
+   "id": "elliott-gould"
   },
   {
    "name": "Eddie Jemison",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

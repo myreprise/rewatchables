@@ -5,7 +5,10 @@
  "poster": "29Y6yg0gSurkFYTh54yxDzLBmrT.jpg",
  "tmdb_id": 1552,
  "directors": [
-  "Ron Howard"
+  {
+   "name": "Ron Howard",
+   "id": "ron-howard"
+  }
  ],
  "director_primary": "Ron Howard",
  "genres": [
@@ -102,43 +105,53 @@
  "cast": [
   {
    "name": "Steve Martin",
-   "films": 4
+   "films": 4,
+   "id": "steve-martin"
   },
   {
    "name": "Mary Steenburgen",
-   "films": 3
+   "films": 3,
+   "id": "mary-steenburgen"
   },
   {
    "name": "Dianne Wiest",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jason Robards",
-   "films": 2
+   "films": 2,
+   "id": "jason-robards"
   },
   {
    "name": "Rick Moranis",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Tom Hulce",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Martha Plimpton",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Keanu Reeves",
-   "films": 8
+   "films": 8,
+   "id": "keanu-reeves"
   },
   {
    "name": "Harley Jane Kozak",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Joaquin Phoenix",
-   "films": 2
+   "films": 2,
+   "id": "joaquin-phoenix"
   }
  ],
  "by_director": [

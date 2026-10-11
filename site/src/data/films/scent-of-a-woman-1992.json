@@ -5,7 +5,10 @@
  "poster": "4adI7IaveWb7EidYXfLb3MK3CgO.jpg",
  "tmdb_id": 9475,
  "directors": [
-  "Martin Brest"
+  {
+   "name": "Martin Brest",
+   "id": "martin-brest"
+  }
  ],
  "director_primary": "Martin Brest",
  "genres": [
@@ -195,43 +198,53 @@
  "cast": [
   {
    "name": "Al Pacino",
-   "films": 13
+   "films": 13,
+   "id": "al-pacino"
   },
   {
    "name": "Chris O'Donnell",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "James Rebhorn",
-   "films": 2
+   "films": 2,
+   "id": "james-rebhorn"
   },
   {
    "name": "Gabrielle Anwar",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Philip Seymour Hoffman",
-   "films": 6
+   "films": 6,
+   "id": "philip-seymour-hoffman"
   },
   {
    "name": "Richard Venture",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Bradley Whitford",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ron Eldard",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Rochelle Oliver",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Margaret Eginton",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "3bv6WAp6BSxxYvB5ozKFUYuRA8C.jpg",
  "tmdb_id": 115,
  "directors": [
-  "Coen Brothers"
+  {
+   "name": "Coen Brothers",
+   "id": "coen-brothers"
+  }
  ],
  "director_primary": "Coen Brothers",
  "genres": [
@@ -225,43 +228,53 @@
  "cast": [
   {
    "name": "Jeff Bridges",
-   "films": 3
+   "films": 3,
+   "id": "jeff-bridges"
   },
   {
    "name": "John Goodman",
-   "films": 5
+   "films": 5,
+   "id": "john-goodman"
   },
   {
    "name": "Julianne Moore",
-   "films": 4
+   "films": 4,
+   "id": "julianne-moore"
   },
   {
    "name": "Steve Buscemi",
-   "films": 3
+   "films": 3,
+   "id": "steve-buscemi"
   },
   {
    "name": "David Huddleston",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Philip Seymour Hoffman",
-   "films": 6
+   "films": 6,
+   "id": "philip-seymour-hoffman"
   },
   {
    "name": "Tara Reid",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Philip Moon",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Mark Pellegrino",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Peter Stormare",
-   "films": 2
+   "films": 2,
+   "id": "peter-stormare"
   }
  ],
  "by_director": [

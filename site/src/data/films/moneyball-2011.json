@@ -5,7 +5,10 @@
  "poster": "4yIQq1e6iOcaZ5rLDG3lZBP3j7a.jpg",
  "tmdb_id": 60308,
  "directors": [
-  "Bennett Miller"
+  {
+   "name": "Bennett Miller",
+   "id": "bennett-miller"
+  }
  ],
  "director_primary": "Bennett Miller",
  "genres": [
@@ -153,43 +156,53 @@
  "cast": [
   {
    "name": "Brad Pitt",
-   "films": 9
+   "films": 9,
+   "id": "brad-pitt"
   },
   {
    "name": "Jonah Hill",
-   "films": 4
+   "films": 4,
+   "id": "jonah-hill"
   },
   {
    "name": "Philip Seymour Hoffman",
-   "films": 6
+   "films": 6,
+   "id": "philip-seymour-hoffman"
   },
   {
    "name": "Robin Wright",
-   "films": 3
+   "films": 3,
+   "id": "robin-wright"
   },
   {
    "name": "Chris Pratt",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Stephen Bishop",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Reed Diamond",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Brent Jennings",
-   "films": 0
+   "films": 0,
+   "id": "brent-jennings"
   },
   {
    "name": "Ken Medlock",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Tammy Blanchard",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

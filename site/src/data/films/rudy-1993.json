@@ -5,7 +5,10 @@
  "poster": "fAbfTCRpjHe2rprXBly55KL1dL9.jpg",
  "tmdb_id": 14534,
  "directors": [
-  "David Anspaugh"
+  {
+   "name": "David Anspaugh",
+   "id": "david-anspaugh"
+  }
  ],
  "director_primary": "David Anspaugh",
  "genres": [
@@ -105,43 +108,53 @@
  "cast": [
   {
    "name": "Sean Astin",
-   "films": 3
+   "films": 3,
+   "id": "sean-astin"
   },
   {
    "name": "Jon Favreau",
-   "films": 3
+   "films": 3,
+   "id": "jon-favreau"
   },
   {
    "name": "Ned Beatty",
-   "films": 2
+   "films": 2,
+   "id": "ned-beatty"
   },
   {
    "name": "Lili Taylor",
-   "films": 4
+   "films": 4,
+   "id": "lili-taylor"
   },
   {
    "name": "Charles S. Dutton",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Vince Vaughn",
-   "films": 6
+   "films": 6,
+   "id": "vince-vaughn"
   },
   {
    "name": "Greta Lind",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Christopher Reed",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Deborah Wittenberg",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kevin Duda",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

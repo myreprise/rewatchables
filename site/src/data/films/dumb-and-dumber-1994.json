@@ -5,7 +5,10 @@
  "poster": "4LdpBXiCyGKkR8FGHgjKlphrfUc.jpg",
  "tmdb_id": 8467,
  "directors": [
-  "Peter Farrelly"
+  {
+   "name": "Peter Farrelly",
+   "id": "peter-farrelly"
+  }
  ],
  "director_primary": "Peter Farrelly",
  "genres": [
@@ -195,43 +198,53 @@
  "cast": [
   {
    "name": "Jim Carrey",
-   "films": 3
+   "films": 3,
+   "id": "jim-carrey"
   },
   {
    "name": "Jeff Daniels",
-   "films": 3
+   "films": 3,
+   "id": "jeff-daniels"
   },
   {
    "name": "Lauren Holly",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Teri Garr",
-   "films": 3
+   "films": 3,
+   "id": "teri-garr"
   },
   {
    "name": "Charles Rocket",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Karen Duffy",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Mike Starr",
-   "films": 0
+   "films": 0,
+   "id": "mike-starr"
   },
   {
    "name": "Felton Perry",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Hank Brandt",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Brad Lockerman",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

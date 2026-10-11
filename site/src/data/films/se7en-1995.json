@@ -5,7 +5,10 @@
  "poster": "191nKfP0ehp3uIvWqgPbFmI4lv9.jpg",
  "tmdb_id": 807,
  "directors": [
-  "David Fincher"
+  {
+   "name": "David Fincher",
+   "id": "david-fincher"
+  }
  ],
  "director_primary": "David Fincher",
  "genres": [
@@ -201,43 +204,53 @@
  "cast": [
   {
    "name": "Morgan Freeman",
-   "films": 4
+   "films": 4,
+   "id": "morgan-freeman"
   },
   {
    "name": "Brad Pitt",
-   "films": 9
+   "films": 9,
+   "id": "brad-pitt"
   },
   {
    "name": "Gwyneth Paltrow",
-   "films": 5
+   "films": 5,
+   "id": "gwyneth-paltrow"
   },
   {
    "name": "John Cassini",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Peter Crombie",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Reg E. Cathey",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "R. Lee Ermey",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Daniel Zacapa",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Andrew Kevin Walker",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "George Christy",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

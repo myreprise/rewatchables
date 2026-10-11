@@ -5,7 +5,10 @@
  "poster": "tVeKscCm2fY1xDXZk8PgnZ87h9S.jpg",
  "tmdb_id": 568,
  "directors": [
-  "Ron Howard"
+  {
+   "name": "Ron Howard",
+   "id": "ron-howard"
+  }
  ],
  "director_primary": "Ron Howard",
  "genres": [
@@ -186,43 +189,53 @@
  "cast": [
   {
    "name": "Tom Hanks",
-   "films": 11
+   "films": 11,
+   "id": "tom-hanks"
   },
   {
    "name": "Bill Paxton",
-   "films": 5
+   "films": 5,
+   "id": "bill-paxton"
   },
   {
    "name": "Kevin Bacon",
-   "films": 5
+   "films": 5,
+   "id": "kevin-bacon"
   },
   {
    "name": "Gary Sinise",
-   "films": 4
+   "films": 4,
+   "id": "gary-sinise"
   },
   {
    "name": "Ed Harris",
-   "films": 3
+   "films": 3,
+   "id": "ed-harris"
   },
   {
    "name": "Kathleen Quinlan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Mary Kate Schellhardt",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Emily Ann Lloyd",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Miko Hughes",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Max Elliott Slade",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "sYAUuiWpoXGKHxUfHyjTj7Apj2h.jpg",
  "tmdb_id": 1372,
  "directors": [
-  "Edward Zwick"
+  {
+   "name": "Edward Zwick",
+   "id": "edward-zwick"
+  }
  ],
  "director_primary": "Edward Zwick",
  "genres": [
@@ -218,43 +221,53 @@
  "cast": [
   {
    "name": "Leonardo DiCaprio",
-   "films": 7
+   "films": 7,
+   "id": "leonardo-dicaprio"
   },
   {
    "name": "Djimon Hounsou",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jennifer Connelly",
-   "films": 3
+   "films": 3,
+   "id": "jennifer-connelly"
   },
   {
    "name": "Kagiso Kuypers",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Arnold Vosloo",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Antony Coleman",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Benu Mabhena",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Anointing Lukola",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "David Harewood",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Basil Wallace",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "pqiRuETmuSybfnVZ7qyeoXhQyN1.jpg",
  "tmdb_id": 3049,
  "directors": [
-  "Tom Shadyac"
+  {
+   "name": "Tom Shadyac",
+   "id": "tom-shadyac"
+  }
  ],
  "director_primary": "Tom Shadyac",
  "genres": [
@@ -131,43 +134,53 @@
  "cast": [
   {
    "name": "Jim Carrey",
-   "films": 3
+   "films": 3,
+   "id": "jim-carrey"
   },
   {
    "name": "Courteney Cox",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Sean Young",
-   "films": 3
+   "films": 3,
+   "id": "sean-young"
   },
   {
    "name": "Tone Loc",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Dan Marino",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Noble Willingham",
-   "films": 1
+   "films": 1,
+   "id": "noble-willingham"
   },
   {
    "name": "Troy Evans",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Raynor Scheine",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Udo Kier",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Frank Adonis",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

@@ -5,7 +5,10 @@
  "poster": "2iW3pSihBIhXjnBQmUJ0mAiZbB5.jpg",
  "tmdb_id": 9846,
  "directors": [
-  "William Friedkin"
+  {
+   "name": "William Friedkin",
+   "id": "william-friedkin"
+  }
  ],
  "director_primary": "William Friedkin",
  "genres": [
@@ -173,43 +176,53 @@
  "cast": [
   {
    "name": "William L. Petersen",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Willem Dafoe",
-   "films": 5
+   "films": 5,
+   "id": "willem-dafoe"
   },
   {
    "name": "John Pankow",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Debra Feuer",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "John Turturro",
-   "films": 4
+   "films": 4,
+   "id": "john-turturro"
   },
   {
    "name": "Dean Stockwell",
-   "films": 0
+   "films": 0,
+   "id": "dean-stockwell"
   },
   {
    "name": "Darlanne Fluegel",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Michael Greene",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Steve James",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Robert Downey Sr.",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

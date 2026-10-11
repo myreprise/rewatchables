@@ -5,7 +5,10 @@
  "poster": "fwi2cET87xArJCb8MdbWq2BZO3n.jpg",
  "tmdb_id": 2609,
  "directors": [
-  "John Hughes"
+  {
+   "name": "John Hughes",
+   "id": "john-hughes"
+  }
  ],
  "director_primary": "John Hughes",
  "genres": [
@@ -230,43 +233,53 @@
  "cast": [
   {
    "name": "Steve Martin",
-   "films": 4
+   "films": 4,
+   "id": "steve-martin"
   },
   {
    "name": "John Candy",
-   "films": 1
+   "films": 1,
+   "id": "john-candy"
   },
   {
    "name": "Laila Robins",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Michael McKean",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Dylan Baker",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Kevin Bacon",
-   "films": 5
+   "films": 5,
+   "id": "kevin-bacon"
   },
   {
    "name": "Olivia Burnette",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Carol Bruce",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Diana Douglas",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Martin Ferrero",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

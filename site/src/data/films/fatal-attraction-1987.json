@@ -5,7 +5,10 @@
  "poster": "vjB9XwJKnYqFKKjhWcE6WpAf5Ki.jpg",
  "tmdb_id": 10998,
  "directors": [
-  "Adrian Lyne"
+  {
+   "name": "Adrian Lyne",
+   "id": "adrian-lyne"
+  }
  ],
  "director_primary": "Adrian Lyne",
  "genres": [
@@ -229,43 +232,53 @@
  "cast": [
   {
    "name": "Michael Douglas",
-   "films": 7
+   "films": 7,
+   "id": "michael-douglas"
   },
   {
    "name": "Glenn Close",
-   "films": 3
+   "films": 3,
+   "id": "glenn-close"
   },
   {
    "name": "Anne Archer",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ellen Hamilton Latzen",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Stuart Pankin",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ellen Foley",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Fred Gwynne",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Tom Brennan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Lois Smith",
-   "films": 2
+   "films": 2,
+   "id": "lois-smith"
   },
   {
    "name": "Mike Nussbaum",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "lWCgf5sD5FpMljjpkRhcC8pXcch.jpg",
  "tmdb_id": 2118,
  "directors": [
-  "Curtis Hanson"
+  {
+   "name": "Curtis Hanson",
+   "id": "curtis-hanson"
+  }
  ],
  "director_primary": "Curtis Hanson",
  "genres": [
@@ -163,43 +166,53 @@
  "cast": [
   {
    "name": "Kevin Spacey",
-   "films": 4
+   "films": 4,
+   "id": "kevin-spacey"
   },
   {
    "name": "Russell Crowe",
-   "films": 6
+   "films": 6,
+   "id": "russell-crowe"
   },
   {
    "name": "Guy Pearce",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "James Cromwell",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Kim Basinger",
-   "films": 3
+   "films": 3,
+   "id": "kim-basinger"
   },
   {
    "name": "Danny DeVito",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "David Strathairn",
-   "films": 1
+   "films": 1,
+   "id": "david-strathairn"
   },
   {
    "name": "Ron Rifkin",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Graham Beckel",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Amber Smith",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

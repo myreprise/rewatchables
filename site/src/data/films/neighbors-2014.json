@@ -5,7 +5,10 @@
  "poster": "sN1RU08CMi8xkRIibremh3AOdgw.jpg",
  "tmdb_id": 195589,
  "directors": [
-  "Nicholas Stoller"
+  {
+   "name": "Nicholas Stoller",
+   "id": "nicholas-stoller"
+  }
  ],
  "director_primary": "Nicholas Stoller",
  "genres": [
@@ -150,43 +153,53 @@
  "cast": [
   {
    "name": "Seth Rogen",
-   "films": 6
+   "films": 6,
+   "id": "seth-rogen"
   },
   {
    "name": "Zac Efron",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Rose Byrne",
-   "films": 3
+   "films": 3,
+   "id": "rose-byrne"
   },
   {
    "name": "Dave Franco",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Christopher Mintz-Plasse",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Jerrod Carmichael",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ike Barinholtz",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Carla Gallo",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Halston Sage",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Craig Roberts",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

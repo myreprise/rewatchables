@@ -5,7 +5,10 @@
  "poster": "uPNgubSiri2yvBQRPtP77ViYjN.jpg",
  "tmdb_id": 10518,
  "directors": [
-  "John Schlesinger"
+  {
+   "name": "John Schlesinger",
+   "id": "john-schlesinger"
+  }
  ],
  "director_primary": "John Schlesinger",
  "genres": [
@@ -176,43 +179,53 @@
  "cast": [
   {
    "name": "Dustin Hoffman",
-   "films": 4
+   "films": 4,
+   "id": "dustin-hoffman"
   },
   {
    "name": "Laurence Olivier",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Roy Scheider",
-   "films": 3
+   "films": 3,
+   "id": "roy-scheider"
   },
   {
    "name": "William Devane",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Marthe Keller",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Fritz Weaver",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Richard Bright",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Marc Lawrence",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "James Wing Woo",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Lou Gilbert",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

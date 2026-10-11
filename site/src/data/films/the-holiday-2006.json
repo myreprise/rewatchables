@@ -5,7 +5,10 @@
  "poster": "h1ITOpvJN3Tw4Sy60w2QTfYMvdd.jpg",
  "tmdb_id": 1581,
  "directors": [
-  "Nancy Meyers"
+  {
+   "name": "Nancy Meyers",
+   "id": "nancy-meyers"
+  }
  ],
  "director_primary": "Nancy Meyers",
  "genres": [
@@ -179,43 +182,53 @@
  "cast": [
   {
    "name": "Cameron Diaz",
-   "films": 5
+   "films": 5,
+   "id": "cameron-diaz"
   },
   {
    "name": "Kate Winslet",
-   "films": 3
+   "films": 3,
+   "id": "kate-winslet"
   },
   {
    "name": "Jude Law",
-   "films": 3
+   "films": 3,
+   "id": "jude-law"
   },
   {
    "name": "Jack Black",
-   "films": 3
+   "films": 3,
+   "id": "jack-black"
   },
   {
    "name": "Eli Wallach",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Edward Burns",
-   "films": 2
+   "films": 2,
+   "id": "edward-burns"
   },
   {
    "name": "Rufus Sewell",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Miffy Englefield",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Emma Pritchard",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Sarah Parish",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

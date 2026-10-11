@@ -5,7 +5,10 @@
  "poster": "z2FnLKpFi1HPO7BEJxdkv6hpJSU.jpg",
  "tmdb_id": 489,
  "directors": [
-  "Gus Van Sant"
+  {
+   "name": "Gus Van Sant",
+   "id": "gus-van-sant"
+  }
  ],
  "director_primary": "Gus Van Sant",
  "genres": [
@@ -239,43 +242,53 @@
  "cast": [
   {
    "name": "Matt Damon",
-   "films": 10
+   "films": 10,
+   "id": "matt-damon"
   },
   {
    "name": "Robin Williams",
-   "films": 3
+   "films": 3,
+   "id": "robin-williams"
   },
   {
    "name": "Ben Affleck",
-   "films": 5
+   "films": 5,
+   "id": "ben-affleck"
   },
   {
    "name": "Stellan Skarsgård",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Minnie Driver",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Casey Affleck",
-   "films": 1
+   "films": 1,
+   "id": "casey-affleck"
   },
   {
    "name": "Cole Hauser",
-   "films": 0
+   "films": 0,
+   "id": "cole-hauser"
   },
   {
    "name": "Vik Sahay",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "John Mighton",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Rachel Majorowski",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

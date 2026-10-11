@@ -5,7 +5,10 @@
  "poster": "6ojHgqtIR41O2qLKa7LFUVj0cZa.jpg",
  "tmdb_id": 1213,
  "directors": [
-  "Anthony Minghella"
+  {
+   "name": "Anthony Minghella",
+   "id": "anthony-minghella"
+  }
  ],
  "director_primary": "Anthony Minghella",
  "genres": [
@@ -313,43 +316,53 @@
  "cast": [
   {
    "name": "Matt Damon",
-   "films": 10
+   "films": 10,
+   "id": "matt-damon"
   },
   {
    "name": "Gwyneth Paltrow",
-   "films": 5
+   "films": 5,
+   "id": "gwyneth-paltrow"
   },
   {
    "name": "Jude Law",
-   "films": 3
+   "films": 3,
+   "id": "jude-law"
   },
   {
    "name": "Cate Blanchett",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Philip Seymour Hoffman",
-   "films": 6
+   "films": 6,
+   "id": "philip-seymour-hoffman"
   },
   {
    "name": "Jack Davenport",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "James Rebhorn",
-   "films": 2
+   "films": 2,
+   "id": "james-rebhorn"
   },
   {
    "name": "Sergio Rubini",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Philip Baker Hall",
-   "films": 2
+   "films": 2,
+   "id": "philip-baker-hall"
   },
   {
    "name": "Celia Weston",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

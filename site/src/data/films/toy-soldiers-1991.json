@@ -5,7 +5,10 @@
  "poster": "nL3ccvqU1Wq1j31feHWAydzpbr2.jpg",
  "tmdb_id": 10750,
  "directors": [
-  "Daniel Petrie"
+  {
+   "name": "Daniel Petrie",
+   "id": "daniel-petrie"
+  }
  ],
  "director_primary": "Daniel Petrie",
  "genres": [
@@ -85,43 +88,53 @@
  "cast": [
   {
    "name": "Sean Astin",
-   "films": 3
+   "films": 3,
+   "id": "sean-astin"
   },
   {
    "name": "Wil Wheaton",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Keith Coogan",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Andrew Divoff",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "R. Lee Ermey",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Mason Adams",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Denholm Elliott",
-   "films": 2
+   "films": 2,
+   "id": "denholm-elliott"
   },
   {
    "name": "Louis Gossett Jr.",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "George Perez",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "T.E. Russell",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

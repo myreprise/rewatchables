@@ -5,7 +5,10 @@
  "poster": "mqbMwYGwIChnaCO55h7v8DG8Wwy.jpg",
  "tmdb_id": 10220,
  "directors": [
-  "John Dahl"
+  {
+   "name": "John Dahl",
+   "id": "john-dahl"
+  }
  ],
  "director_primary": "John Dahl",
  "genres": [
@@ -190,43 +193,53 @@
  "cast": [
   {
    "name": "Matt Damon",
-   "films": 10
+   "films": 10,
+   "id": "matt-damon"
   },
   {
    "name": "Edward Norton",
-   "films": 5
+   "films": 5,
+   "id": "edward-norton"
   },
   {
    "name": "John Turturro",
-   "films": 4
+   "films": 4,
+   "id": "john-turturro"
   },
   {
    "name": "Gretchen Mol",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "John Malkovich",
-   "films": 3
+   "films": 3,
+   "id": "john-malkovich"
   },
   {
    "name": "Famke Janssen",
-   "films": 2
+   "films": 2,
+   "id": "famke-janssen"
   },
   {
    "name": "Martin Landau",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Michael Rispoli",
-   "films": 0
+   "films": 0,
+   "id": "michael-rispoli"
   },
   {
    "name": "Goran Višnjić",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Mal Z. Lawrence",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

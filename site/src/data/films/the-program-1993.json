@@ -5,7 +5,10 @@
  "poster": "4pdbutHc9SLEPmdLKtlVffiLByP.jpg",
  "tmdb_id": 18133,
  "directors": [
-  "David S. Ward"
+  {
+   "name": "David S. Ward",
+   "id": "david-s-ward"
+  }
  ],
  "director_primary": "David S. Ward",
  "genres": [
@@ -75,43 +78,53 @@
  "cast": [
   {
    "name": "James Caan",
-   "films": 5
+   "films": 5,
+   "id": "james-caan"
   },
   {
    "name": "Halle Berry",
-   "films": 2
+   "films": 2,
+   "id": "halle-berry"
   },
   {
    "name": "Omar Epps",
-   "films": 4
+   "films": 4,
+   "id": "omar-epps"
   },
   {
    "name": "Craig Sheffer",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Kristy Swanson",
-   "films": 2
+   "films": 2,
+   "id": "kristy-swanson"
   },
   {
    "name": "Abraham Benrubi",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Duane Davis",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jon Pennell",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Andrew Bryniarski",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Michael Flippo",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

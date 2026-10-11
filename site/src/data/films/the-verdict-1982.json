@@ -5,7 +5,10 @@
  "poster": "iYEuFP1bpj5yOenKliiRFcNO3VE.jpg",
  "tmdb_id": 24226,
  "directors": [
-  "Sidney Lumet"
+  {
+   "name": "Sidney Lumet",
+   "id": "sidney-lumet"
+  }
  ],
  "director_primary": "Sidney Lumet",
  "genres": [
@@ -150,43 +153,53 @@
  "cast": [
   {
    "name": "Paul Newman",
-   "films": 5
+   "films": 5,
+   "id": "paul-newman"
   },
   {
    "name": "Charlotte Rampling",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jack Warden",
-   "films": 7
+   "films": 7,
+   "id": "jack-warden"
   },
   {
    "name": "James Mason",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Milo O'Shea",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Lindsay Crouse",
-   "films": 1
+   "films": 1,
+   "id": "lindsay-crouse"
   },
   {
    "name": "Edward Binns",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Julie Bovasso",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Roxanne Hart",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "James Handy",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

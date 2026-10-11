@@ -5,7 +5,10 @@
  "poster": "kjD700RtyhveN3ZbOnSvUSne0Qj.jpg",
  "tmdb_id": 787,
  "directors": [
-  "Doug Liman"
+  {
+   "name": "Doug Liman",
+   "id": "doug-liman"
+  }
  ],
  "director_primary": "Doug Liman",
  "genres": [
@@ -167,43 +170,53 @@
  "cast": [
   {
    "name": "Angelina Jolie",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Brad Pitt",
-   "films": 9
+   "films": 9,
+   "id": "brad-pitt"
   },
   {
    "name": "Vince Vaughn",
-   "films": 6
+   "films": 6,
+   "id": "vince-vaughn"
   },
   {
    "name": "Adam Brody",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Kerry Washington",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Keith David",
-   "films": 1
+   "films": 1,
+   "id": "keith-david"
   },
   {
    "name": "Chris Weitz",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Rachael Huntley",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Michelle Monaghan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Stephanie March",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

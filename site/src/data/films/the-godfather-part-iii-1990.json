@@ -5,7 +5,10 @@
  "poster": "lm3pQ2QoQ16pextRsmnUbG2onES.jpg",
  "tmdb_id": 242,
  "directors": [
-  "Francis Ford Coppola"
+  {
+   "name": "Francis Ford Coppola",
+   "id": "francis-ford-coppola"
+  }
  ],
  "director_primary": "Francis Ford Coppola",
  "genres": [
@@ -166,43 +169,53 @@
  "cast": [
   {
    "name": "Al Pacino",
-   "films": 13
+   "films": 13,
+   "id": "al-pacino"
   },
   {
    "name": "Diane Keaton",
-   "films": 3
+   "films": 3,
+   "id": "diane-keaton"
   },
   {
    "name": "Talia Shire",
-   "films": 5
+   "films": 5,
+   "id": "talia-shire"
   },
   {
    "name": "Andy Garcia",
-   "films": 4
+   "films": 4,
+   "id": "andy-garcia"
   },
   {
    "name": "Eli Wallach",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Joe Mantegna",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "George Hamilton",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Bridget Fonda",
-   "films": 2
+   "films": 2,
+   "id": "bridget-fonda"
   },
   {
    "name": "Sofia Coppola",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Raf Vallone",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

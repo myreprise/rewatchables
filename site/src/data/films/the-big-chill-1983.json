@@ -5,7 +5,10 @@
  "poster": "rU8kjMEL5Mn0EWm3gOShPHBEZ4l.jpg",
  "tmdb_id": 12560,
  "directors": [
-  "Lawrence Kasdan"
+  {
+   "name": "Lawrence Kasdan",
+   "id": "lawrence-kasdan"
+  }
  ],
  "director_primary": "Lawrence Kasdan",
  "genres": [
@@ -179,43 +182,53 @@
  "cast": [
   {
    "name": "Tom Berenger",
-   "films": 5
+   "films": 5,
+   "id": "tom-berenger"
   },
   {
    "name": "Glenn Close",
-   "films": 3
+   "films": 3,
+   "id": "glenn-close"
   },
   {
    "name": "Jeff Goldblum",
-   "films": 3
+   "films": 3,
+   "id": "jeff-goldblum"
   },
   {
    "name": "William Hurt",
-   "films": 3
+   "films": 3,
+   "id": "william-hurt"
   },
   {
    "name": "Kevin Kline",
-   "films": 3
+   "films": 3,
+   "id": "kevin-kline"
   },
   {
    "name": "Mary Kay Place",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Meg Tilly",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "JoBeth Williams",
-   "films": 1
+   "films": 1,
+   "id": "jobeth-williams"
   },
   {
    "name": "Don Galloway",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "James Gillis",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "iTNHwO896WKkaoPtpMMS74d8VNi.jpg",
  "tmdb_id": 380,
  "directors": [
-  "Barry Levinson"
+  {
+   "name": "Barry Levinson",
+   "id": "barry-levinson"
+  }
  ],
  "director_primary": "Barry Levinson",
  "genres": [
@@ -220,43 +223,53 @@
  "cast": [
   {
    "name": "Dustin Hoffman",
-   "films": 4
+   "films": 4,
+   "id": "dustin-hoffman"
   },
   {
    "name": "Tom Cruise",
-   "films": 17
+   "films": 17,
+   "id": "tom-cruise"
   },
   {
    "name": "Valeria Golino",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Gerald R. Molen",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jack Murdock",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Michael D. Roberts",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ralph Seymour",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Lucinda Jenney",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Bonnie Hunt",
-   "films": 0
+   "films": 0,
+   "id": "bonnie-hunt"
   },
   {
    "name": "Kim Robillard",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

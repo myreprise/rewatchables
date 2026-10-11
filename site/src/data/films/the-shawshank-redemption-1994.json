@@ -5,7 +5,10 @@
  "poster": "9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
  "tmdb_id": 278,
  "directors": [
-  "Frank Darabont"
+  {
+   "name": "Frank Darabont",
+   "id": "frank-darabont"
+  }
  ],
  "director_primary": "Frank Darabont",
  "genres": [
@@ -186,43 +189,53 @@
  "cast": [
   {
    "name": "Tim Robbins",
-   "films": 3
+   "films": 3,
+   "id": "tim-robbins"
   },
   {
    "name": "Morgan Freeman",
-   "films": 4
+   "films": 4,
+   "id": "morgan-freeman"
   },
   {
    "name": "Bob Gunton",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "William Sadler",
-   "films": 3
+   "films": 3,
+   "id": "william-sadler"
   },
   {
    "name": "Clancy Brown",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Gil Bellows",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "James Whitmore",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Mark Rolston",
-   "films": 0
+   "films": 0,
+   "id": "mark-rolston"
   },
   {
    "name": "Jeffrey DeMunn",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Larry Brandenburg",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

@@ -5,7 +5,10 @@
  "poster": "eTM3qtGhDU8cvjpoa6KEt5E2auU.jpg",
  "tmdb_id": 95,
  "directors": [
-  "Michael Bay"
+  {
+   "name": "Michael Bay",
+   "id": "michael-bay"
+  }
  ],
  "director_primary": "Michael Bay",
  "genres": [
@@ -261,43 +264,53 @@
  "cast": [
   {
    "name": "Bruce Willis",
-   "films": 7
+   "films": 7,
+   "id": "bruce-willis"
   },
   {
    "name": "Billy Bob Thornton",
-   "films": 2
+   "films": 2,
+   "id": "billy-bob-thornton"
   },
   {
    "name": "Ben Affleck",
-   "films": 5
+   "films": 5,
+   "id": "ben-affleck"
   },
   {
    "name": "Liv Tyler",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Will Patton",
-   "films": 3
+   "films": 3,
+   "id": "will-patton"
   },
   {
    "name": "Steve Buscemi",
-   "films": 3
+   "films": 3,
+   "id": "steve-buscemi"
   },
   {
    "name": "William Fichtner",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Owen Wilson",
-   "films": 1
+   "films": 1,
+   "id": "owen-wilson"
   },
   {
    "name": "Michael Clarke Duncan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Peter Stormare",
-   "films": 2
+   "films": 2,
+   "id": "peter-stormare"
   }
  ],
  "by_director": [

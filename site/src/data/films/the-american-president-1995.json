@@ -5,7 +5,10 @@
  "poster": "yObOAYFIHXHkFPQ3jhgkN2ezaD.jpg",
  "tmdb_id": 9087,
  "directors": [
-  "Rob Reiner"
+  {
+   "name": "Rob Reiner",
+   "id": "rob-reiner"
+  }
  ],
  "director_primary": "Rob Reiner",
  "genres": [
@@ -165,43 +168,53 @@
  "cast": [
   {
    "name": "Michael Douglas",
-   "films": 7
+   "films": 7,
+   "id": "michael-douglas"
   },
   {
    "name": "Annette Bening",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Martin Sheen",
-   "films": 4
+   "films": 4,
+   "id": "martin-sheen"
   },
   {
    "name": "Michael J. Fox",
-   "films": 4
+   "films": 4,
+   "id": "michael-j-fox"
   },
   {
    "name": "Anna Deavere Smith",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Samantha Mathis",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Shawna Waldron",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "David Paymer",
-   "films": 1
+   "films": 1,
+   "id": "david-paymer"
   },
   {
    "name": "Anne Haney",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Richard Dreyfuss",
-   "films": 4
+   "films": 4,
+   "id": "richard-dreyfuss"
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "7g9kBHMN2KTr5KUf8aen187Mdn.jpg",
  "tmdb_id": 496,
  "directors": [
-  "Larry Charles"
+  {
+   "name": "Larry Charles",
+   "id": "larry-charles"
+  }
  ],
  "director_primary": "Larry Charles",
  "genres": [
@@ -176,43 +179,53 @@
  "cast": [
   {
    "name": "Sacha Baron Cohen",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Ken Davitian",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Luenell",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Alex Daniels",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jim Vickers",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Peewee Piemonte",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Michael Li",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Harry Wowchuk",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Nicole Randall",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Pamela Anderson",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

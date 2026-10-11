@@ -5,7 +5,10 @@
  "poster": "7Vqw29y8pkoHaVtwkQcQhBK9oTY.jpg",
  "tmdb_id": 31650,
  "directors": [
-  "Ridley Scott"
+  {
+   "name": "Ridley Scott",
+   "id": "ridley-scott"
+  }
  ],
  "director_primary": "Ridley Scott",
  "genres": [
@@ -92,43 +95,53 @@
  "cast": [
   {
    "name": "Tom Berenger",
-   "films": 5
+   "films": 5,
+   "id": "tom-berenger"
   },
   {
    "name": "Mimi Rogers",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Lorraine Bracco",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Jerry Orbach",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "John Rubinstein",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Andreas Katsulas",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Tony DiBenedetto",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "James E. Moriarty",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Mark Moses",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Daniel Hugh Kelly",
-   "films": 1
+   "films": 1,
+   "id": null
   }
  ],
  "by_director": [

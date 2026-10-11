@@ -5,7 +5,10 @@
  "poster": "r6OcS6TQCHal2wHooJhHWSlFzfd.jpg",
  "tmdb_id": 14577,
  "directors": [
-  "Bob Saget"
+  {
+   "name": "Bob Saget",
+   "id": "bob-saget"
+  }
  ],
  "director_primary": "Bob Saget",
  "genres": [
@@ -132,43 +135,53 @@
  "cast": [
   {
    "name": "Norm Macdonald",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Artie Lange",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jack Warden",
-   "films": 7
+   "films": 7,
+   "id": "jack-warden"
   },
   {
    "name": "Traylor Howard",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Christopher McDonald",
-   "films": 2
+   "films": 2,
+   "id": "christopher-mcdonald"
   },
   {
    "name": "Chevy Chase",
-   "films": 4
+   "films": 4,
+   "id": "chevy-chase"
   },
   {
    "name": "Don Rickles",
-   "films": 2
+   "films": 2,
+   "id": "don-rickles"
   },
   {
    "name": "Polly Shannon",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "David Koechner",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Rebecca Romijn",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

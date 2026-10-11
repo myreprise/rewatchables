@@ -5,7 +5,10 @@
  "poster": "ckmYng37zey8INYf6d10cVgIG93.jpg",
  "tmdb_id": 9277,
  "directors": [
-  "George Roy Hill"
+  {
+   "name": "George Roy Hill",
+   "id": "george-roy-hill"
+  }
  ],
  "director_primary": "George Roy Hill",
  "genres": [
@@ -166,43 +169,53 @@
  "cast": [
   {
    "name": "Paul Newman",
-   "films": 5
+   "films": 5,
+   "id": "paul-newman"
   },
   {
    "name": "Robert Redford",
-   "films": 7
+   "films": 7,
+   "id": "robert-redford"
   },
   {
    "name": "Robert Shaw",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Charles Durning",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ray Walston",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Eileen Brennan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Harold Gould",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "John Heffernan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Dana Elcar",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jack Kehoe",
-   "films": 0
+   "films": 0,
+   "id": "jack-kehoe"
   }
  ],
  "by_director": [

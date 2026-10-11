@@ -5,7 +5,10 @@
  "poster": "ixeygHHDsuzsg67H1IPTc3Qp8cR.jpg",
  "tmdb_id": 11595,
  "directors": [
-  "Walter Hill"
+  {
+   "name": "Walter Hill",
+   "id": "walter-hill"
+  }
  ],
  "director_primary": "Walter Hill",
  "genres": [
@@ -152,43 +155,53 @@
  "cast": [
   {
    "name": "Eddie Murphy",
-   "films": 7
+   "films": 7,
+   "id": "eddie-murphy"
   },
   {
    "name": "Nick Nolte",
-   "films": 5
+   "films": 5,
+   "id": "nick-nolte"
   },
   {
    "name": "Brion James",
-   "films": 2
+   "films": 2,
+   "id": "brion-james"
   },
   {
    "name": "Kevin Tighe",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ed O'Ross",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "David Anthony Marshall",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Andrew Divoff",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Bernie Casey",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Brent Jennings",
-   "films": 0
+   "films": 0,
+   "id": "brent-jennings"
   },
   {
    "name": "Ted Markland",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

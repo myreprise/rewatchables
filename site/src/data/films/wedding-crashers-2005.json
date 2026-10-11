@@ -5,7 +5,10 @@
  "poster": "lFM3lk2zVzC1YFnKm0r6LbFPyRu.jpg",
  "tmdb_id": 9522,
  "directors": [
-  "David Dobkin"
+  {
+   "name": "David Dobkin",
+   "id": "david-dobkin"
+  }
  ],
  "director_primary": "David Dobkin",
  "genres": [
@@ -95,43 +98,53 @@
  "cast": [
   {
    "name": "Owen Wilson",
-   "films": 1
+   "films": 1,
+   "id": "owen-wilson"
   },
   {
    "name": "Vince Vaughn",
-   "films": 6
+   "films": 6,
+   "id": "vince-vaughn"
   },
   {
    "name": "Christopher Walken",
-   "films": 4
+   "films": 4,
+   "id": "christopher-walken"
   },
   {
    "name": "Rachel McAdams",
-   "films": 4
+   "films": 4,
+   "id": "rachel-mcadams"
   },
   {
    "name": "Isla Fisher",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jane Seymour",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Ellen Albertini Dow",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Keir O'Donnell",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Bradley Cooper",
-   "films": 4
+   "films": 4,
+   "id": "bradley-cooper"
   },
   {
    "name": "Ron Canada",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

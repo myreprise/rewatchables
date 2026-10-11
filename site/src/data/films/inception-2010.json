@@ -5,7 +5,10 @@
  "poster": "xlaY2zyzMfkhk0HSC5VUwzoZPU1.jpg",
  "tmdb_id": 27205,
  "directors": [
-  "Christopher Nolan"
+  {
+   "name": "Christopher Nolan",
+   "id": "christopher-nolan"
+  }
  ],
  "director_primary": "Christopher Nolan",
  "genres": [
@@ -163,43 +166,53 @@
  "cast": [
   {
    "name": "Leonardo DiCaprio",
-   "films": 7
+   "films": 7,
+   "id": "leonardo-dicaprio"
   },
   {
    "name": "Joseph Gordon-Levitt",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Ken Watanabe",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Tom Hardy",
-   "films": 4
+   "films": 4,
+   "id": "tom-hardy"
   },
   {
    "name": "Elliot Page",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Dileep Rao",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Cillian Murphy",
-   "films": 1
+   "films": 1,
+   "id": "cillian-murphy"
   },
   {
    "name": "Tom Berenger",
-   "films": 5
+   "films": 5,
+   "id": "tom-berenger"
   },
   {
    "name": "Marion Cotillard",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Pete Postlethwaite",
-   "films": 0
+   "films": 0,
+   "id": "pete-postlethwaite"
   }
  ],
  "by_director": [

@@ -5,7 +5,10 @@
  "poster": "21nqRJ6ofEgVvEl68J4O9V26Xzy.jpg",
  "tmdb_id": 8963,
  "directors": [
-  "Tony Scott"
+  {
+   "name": "Tony Scott",
+   "id": "tony-scott"
+  }
  ],
  "director_primary": "Tony Scott",
  "genres": [
@@ -195,43 +198,53 @@
  "cast": [
   {
    "name": "Denzel Washington",
-   "films": 12
+   "films": 12,
+   "id": "denzel-washington"
   },
   {
    "name": "Gene Hackman",
-   "films": 8
+   "films": 8,
+   "id": "gene-hackman"
   },
   {
    "name": "Matt Craven",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "George Dzundza",
-   "films": 3
+   "films": 3,
+   "id": "george-dzundza"
   },
   {
    "name": "Viggo Mortensen",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "James Gandolfini",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Rocky Carroll",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Jaime Gomez",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Michael Milhoan",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Scott Burkholder",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

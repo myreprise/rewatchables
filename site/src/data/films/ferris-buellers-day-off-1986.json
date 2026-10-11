@@ -5,7 +5,10 @@
  "poster": "9LTQNCvoLsKXP0LtaKAaYVtRaQL.jpg",
  "tmdb_id": 9377,
  "directors": [
-  "John Hughes"
+  {
+   "name": "John Hughes",
+   "id": "john-hughes"
+  }
  ],
  "director_primary": "John Hughes",
  "genres": [
@@ -192,43 +195,53 @@
  "cast": [
   {
    "name": "Matthew Broderick",
-   "films": 2
+   "films": 2,
+   "id": "matthew-broderick"
   },
   {
    "name": "Alan Ruck",
-   "films": 1
+   "films": 1,
+   "id": "alan-ruck"
   },
   {
    "name": "Mia Sara",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Jeffrey Jones",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Jennifer Grey",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Cindy Pickett",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Lyman Ward",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Edie McClurg",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Charlie Sheen",
-   "films": 2
+   "films": 2,
+   "id": "charlie-sheen"
   },
   {
    "name": "Ben Stein",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

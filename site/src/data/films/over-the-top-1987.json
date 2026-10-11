@@ -5,7 +5,10 @@
  "poster": "a926UPf4EYbHfjdzf012M5YHiQ5.jpg",
  "tmdb_id": 1825,
  "directors": [
-  "Menahem Golan"
+  {
+   "name": "Menahem Golan",
+   "id": "menahem-golan"
+  }
  ],
  "director_primary": "Menahem Golan",
  "genres": [
@@ -147,43 +150,53 @@
  "cast": [
   {
    "name": "Sylvester Stallone",
-   "films": 13
+   "films": 13,
+   "id": "sylvester-stallone"
   },
   {
    "name": "Robert Loggia",
-   "films": 3
+   "films": 3,
+   "id": "robert-loggia"
   },
   {
    "name": "Susan Blakely",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Rick Zumwalt",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "David Mendenhall",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Chris McCarty",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Terry Funk",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Bob Beattie",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Allan Graf",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Magic Schwarz",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

@@ -5,7 +5,10 @@
  "poster": "n0ybibhJtQ5icDqTp8eRytcIHJx.jpg",
  "tmdb_id": 37799,
  "directors": [
-  "David Fincher"
+  {
+   "name": "David Fincher",
+   "id": "david-fincher"
+  }
  ],
  "director_primary": "David Fincher",
  "genres": [
@@ -157,43 +160,53 @@
  "cast": [
   {
    "name": "Jesse Eisenberg",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Andrew Garfield",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Armie Hammer",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Justin Timberlake",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Rooney Mara",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Max Minghella",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Brenda Song",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Josh Pence",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Rashida Jones",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "John Getz",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

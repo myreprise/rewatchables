@@ -5,7 +5,10 @@
  "poster": "o9VXYOuaJxCEKOxbA86xqtwmqYn.jpg",
  "tmdb_id": 334541,
  "directors": [
-  "Kenneth Lonergan"
+  {
+   "name": "Kenneth Lonergan",
+   "id": "kenneth-lonergan"
+  }
  ],
  "director_primary": "Kenneth Lonergan",
  "genres": [
@@ -206,43 +209,53 @@
  "cast": [
   {
    "name": "Casey Affleck",
-   "films": 1
+   "films": 1,
+   "id": "casey-affleck"
   },
   {
    "name": "Lucas Hedges",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Michelle Williams",
-   "films": 2
+   "films": 2,
+   "id": "michelle-williams"
   },
   {
    "name": "Kyle Chandler",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "C.J. Wilson",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Gretchen Mol",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Matthew Broderick",
-   "films": 2
+   "films": 2,
+   "id": "matthew-broderick"
   },
   {
    "name": "Anna Baryshnikov",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Heather Burns",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Ivy O'Brien",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

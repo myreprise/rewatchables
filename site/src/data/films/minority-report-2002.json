@@ -5,7 +5,10 @@
  "poster": "qtgFcnwh9dAFLocsDk2ySDVS8UF.jpg",
  "tmdb_id": 180,
  "directors": [
-  "Steven Spielberg"
+  {
+   "name": "Steven Spielberg",
+   "id": "steven-spielberg"
+  }
  ],
  "director_primary": "Steven Spielberg",
  "genres": [
@@ -278,43 +281,53 @@
  "cast": [
   {
    "name": "Tom Cruise",
-   "films": 17
+   "films": 17,
+   "id": "tom-cruise"
   },
   {
    "name": "Colin Farrell",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Samantha Morton",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Max von Sydow",
-   "films": 3
+   "films": 3,
+   "id": "max-von-sydow"
   },
   {
    "name": "Lois Smith",
-   "films": 2
+   "films": 2,
+   "id": "lois-smith"
   },
   {
    "name": "Peter Stormare",
-   "films": 2
+   "films": 2,
+   "id": "peter-stormare"
   },
   {
    "name": "Tim Blake Nelson",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Steve Harris",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Kathryn Morris",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Mike Binder",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

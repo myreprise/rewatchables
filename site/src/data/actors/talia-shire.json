@@ -1206,12 +1206,12 @@
  "collaborators": [
   {
    "name": "Francis Ford Coppola",
-   "id": null,
+   "id": "francis-ford-coppola",
    "films": 3
   },
   {
    "name": "Sylvester Stallone",
-   "id": null,
+   "id": "sylvester-stallone",
    "films": 3
   }
  ],

@@ -5,7 +5,10 @@
  "poster": "apwkBVaJqLuK6mxe6sOABCeNjRw.jpg",
  "tmdb_id": 11066,
  "directors": [
-  "Reginald Hudlin"
+  {
+   "name": "Reginald Hudlin",
+   "id": "reginald-hudlin"
+  }
  ],
  "director_primary": "Reginald Hudlin",
  "genres": [
@@ -109,43 +112,53 @@
  "cast": [
   {
    "name": "Eddie Murphy",
-   "films": 7
+   "films": 7,
+   "id": "eddie-murphy"
   },
   {
    "name": "Robin Givens",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Halle Berry",
-   "films": 2
+   "films": 2,
+   "id": "halle-berry"
   },
   {
    "name": "David Alan Grier",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Martin Lawrence",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Grace Jones",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Geoffrey Holder",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Eartha Kitt",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Chris Rock",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Tisha Campbell",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

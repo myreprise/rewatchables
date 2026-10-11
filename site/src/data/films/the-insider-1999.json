@@ -5,7 +5,10 @@
  "poster": "w695X0FvTlBCS7GSLHNILnrfqPm.jpg",
  "tmdb_id": 9008,
  "directors": [
-  "Michael Mann"
+  {
+   "name": "Michael Mann",
+   "id": "michael-mann"
+  }
  ],
  "director_primary": "Michael Mann",
  "genres": [
@@ -197,43 +200,53 @@
  "cast": [
   {
    "name": "Al Pacino",
-   "films": 13
+   "films": 13,
+   "id": "al-pacino"
   },
   {
    "name": "Russell Crowe",
-   "films": 6
+   "films": 6,
+   "id": "russell-crowe"
   },
   {
    "name": "Christopher Plummer",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Diane Venora",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Philip Baker Hall",
-   "films": 2
+   "films": 2,
+   "id": "philip-baker-hall"
   },
   {
    "name": "Lindsay Crouse",
-   "films": 1
+   "films": 1,
+   "id": "lindsay-crouse"
   },
   {
    "name": "Debi Mazar",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Stephen Tobolowsky",
-   "films": 2
+   "films": 2,
+   "id": "stephen-tobolowsky"
   },
   {
    "name": "Colm Feore",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Bruce McGill",
-   "films": 1
+   "films": 1,
+   "id": "bruce-mcgill"
   }
  ],
  "by_director": [

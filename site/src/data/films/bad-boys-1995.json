@@ -5,7 +5,10 @@
  "poster": "x1ygBecKHfXX4M2kRhmFKWfWbJc.jpg",
  "tmdb_id": 9737,
  "directors": [
-  "Michael Bay"
+  {
+   "name": "Michael Bay",
+   "id": "michael-bay"
+  }
  ],
  "director_primary": "Michael Bay",
  "genres": [
@@ -230,43 +233,53 @@
  "cast": [
   {
    "name": "Will Smith",
-   "films": 7
+   "films": 7,
+   "id": "will-smith"
   },
   {
    "name": "Martin Lawrence",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Téa Leoni",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Tchéky Karyo",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Joe Pantoliano",
-   "films": 6
+   "films": 6,
+   "id": "joe-pantoliano"
   },
   {
    "name": "Theresa Randle",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Marg Helgenberger",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Nestor Serrano",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Julio Oscar Mechoso",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Saverio Guerra",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

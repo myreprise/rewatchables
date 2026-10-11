@@ -5,7 +5,10 @@
  "poster": "whCG6TGm3h9AHBkfh5M0MnJ8zT0.jpg",
  "tmdb_id": 1644,
  "directors": [
-  "George Sluizer"
+  {
+   "name": "George Sluizer",
+   "id": "george-sluizer"
+  }
  ],
  "director_primary": "George Sluizer",
  "genres": [
@@ -72,43 +75,53 @@
  "cast": [
   {
    "name": "Kiefer Sutherland",
-   "films": 3
+   "films": 3,
+   "id": "kiefer-sutherland"
   },
   {
    "name": "Jeff Bridges",
-   "films": 3
+   "films": 3,
+   "id": "jeff-bridges"
   },
   {
    "name": "Nancy Travis",
-   "films": 3
+   "films": 3,
+   "id": "nancy-travis"
   },
   {
    "name": "Sandra Bullock",
-   "films": 5
+   "films": 5,
+   "id": "sandra-bullock"
   },
   {
    "name": "Park Overall",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Lisa Eichhorn",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "George Hearn",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Lynn Hamilton",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Maggie Linderman",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Garrett Bennett",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

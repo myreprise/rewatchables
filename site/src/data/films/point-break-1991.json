@@ -5,7 +5,10 @@
  "poster": "tlbERIghrQ4oofqlbF7H0K0EYnx.jpg",
  "tmdb_id": 1089,
  "directors": [
-  "Kathryn Bigelow"
+  {
+   "name": "Kathryn Bigelow",
+   "id": "kathryn-bigelow"
+  }
  ],
  "director_primary": "Kathryn Bigelow",
  "genres": [
@@ -191,43 +194,53 @@
  "cast": [
   {
    "name": "Keanu Reeves",
-   "films": 8
+   "films": 8,
+   "id": "keanu-reeves"
   },
   {
    "name": "Patrick Swayze",
-   "films": 3
+   "films": 3,
+   "id": "patrick-swayze"
   },
   {
    "name": "Lori Petty",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Gary Busey",
-   "films": 3
+   "films": 3,
+   "id": "gary-busey"
   },
   {
    "name": "John C. McGinley",
-   "films": 2
+   "films": 2,
+   "id": "john-c-mcginley"
   },
   {
    "name": "James Le Gros",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "John Philbin",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "BoJesse Christopher",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Lee Tergesen",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Chris Pedersen",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],

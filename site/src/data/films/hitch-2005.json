@@ -5,7 +5,10 @@
  "poster": "x3W9H3nhGQbWSlyI8Amp2F6Z6cz.jpg",
  "tmdb_id": 8488,
  "directors": [
-  "Andy Tennant"
+  {
+   "name": "Andy Tennant",
+   "id": "andy-tennant"
+  }
  ],
  "director_primary": "Andy Tennant",
  "genres": [
@@ -89,43 +92,53 @@
  "cast": [
   {
    "name": "Will Smith",
-   "films": 7
+   "films": 7,
+   "id": "will-smith"
   },
   {
    "name": "Eva Mendes",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Kevin James",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Amber Valletta",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Julie Ann Emery",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Adam Arkin",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Robinne Lee",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Nathan Lee Graham",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Michael Rapaport",
-   "films": 1
+   "films": 1,
+   "id": "michael-rapaport"
   },
   {
    "name": "Jeffrey Donovan",
-   "films": 0
+   "films": 0,
+   "id": "jeffrey-donovan"
   }
  ],
  "by_director": [],

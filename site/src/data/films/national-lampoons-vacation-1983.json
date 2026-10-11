@@ -5,7 +5,10 @@
  "poster": "q3DvoqY06yZnRp9faH6uge7n7VP.jpg",
  "tmdb_id": 11153,
  "directors": [
-  "Harold Ramis"
+  {
+   "name": "Harold Ramis",
+   "id": "harold-ramis"
+  }
  ],
  "director_primary": "Harold Ramis",
  "genres": [
@@ -137,43 +140,53 @@
  "cast": [
   {
    "name": "Chevy Chase",
-   "films": 4
+   "films": 4,
+   "id": "chevy-chase"
   },
   {
    "name": "Beverly D'Angelo",
-   "films": 2
+   "films": 2,
+   "id": null
   },
   {
    "name": "Anthony Michael Hall",
-   "films": 3
+   "films": 3,
+   "id": "anthony-michael-hall"
   },
   {
    "name": "Imogene Coca",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Randy Quaid",
-   "films": 3
+   "films": 3,
+   "id": "randy-quaid"
   },
   {
    "name": "Dana Barron",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Eddie Bracken",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Brian Doyle-Murray",
-   "films": 1
+   "films": 1,
+   "id": "brian-doyle-murray"
   },
   {
    "name": "Miriam Flynn",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "James Keach",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [

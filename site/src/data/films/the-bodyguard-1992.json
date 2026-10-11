@@ -5,7 +5,10 @@
  "poster": "ihWF0uY1xnKqw9YK7ZHNLUZOhcO.jpg",
  "tmdb_id": 619,
  "directors": [
-  "Mick Jackson"
+  {
+   "name": "Mick Jackson",
+   "id": "mick-jackson"
+  }
  ],
  "director_primary": "Mick Jackson",
  "genres": [
@@ -113,43 +116,53 @@
  "cast": [
   {
    "name": "Kevin Costner",
-   "films": 9
+   "films": 9,
+   "id": "kevin-costner"
   },
   {
    "name": "Whitney Houston",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Gary Kemp",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Bill Cobbs",
-   "films": 1
+   "films": 1,
+   "id": "bill-cobbs"
   },
   {
    "name": "Ralph Waite",
-   "films": 1
+   "films": 1,
+   "id": null
   },
   {
    "name": "Tomas Arana",
-   "films": 0
+   "films": 0,
+   "id": "tomas-arana"
   },
   {
    "name": "Michele Lamar Richards",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "Mike Starr",
-   "films": 0
+   "films": 0,
+   "id": "mike-starr"
   },
   {
    "name": "Christopher Birt",
-   "films": 0
+   "films": 0,
+   "id": null
   },
   {
    "name": "DeVaughn Nixon",
-   "films": 0
+   "films": 0,
+   "id": null
   }
  ],
  "by_director": [],
