@@ -42,6 +42,21 @@ def people_leaderboard(counts, name_col, title, colour=MINT_DEEP, cache_key=None
     st.plotly_chart(fig, use_container_width=True)
 
 
+def gender_leaderboard_figs(df, gender_map, top_n=15, genders=("M", "F")):
+    """{gender: (actors counted, figure)}, for the genders with anyone, every
+    figure on one shared x-axis."""
+    ranked = {g: explode_cast(df, top_n=top_n, gender=g, gender_map=gender_map).rename(
+        columns={"count": "films"}) for g in genders}
+    present = [g for g in genders if not ranked[g].empty]
+    if not present:
+        return {}
+    xmax = max(ranked[g]["films"].max() for g in present)
+    return {g: (len(explode_cast(df, top_n=100_000, gender=g,
+                                 gender_map=gender_map)),
+                _leaderboard_fig(ranked[g], "actor", GENDER_COLOUR[g], xmax=xmax))
+            for g in present}
+
+
 def gender_split_leaderboards(df, title, gender_map, top_n=15,
                               genders=("M", "F"), cache_key=None, db_stamp=None):
     """The same leaderboard once per gender, side by side on a shared axis.
@@ -62,17 +77,7 @@ def gender_split_leaderboards(df, title, gender_map, top_n=15,
     tape(title)
 
     def build():
-        """{gender: (actors counted, figure)}, for the genders with anyone."""
-        ranked = {g: explode_cast(df, top_n=top_n, gender=g, gender_map=gender_map).rename(
-            columns={"count": "films"}) for g in genders}
-        present = [g for g in genders if not ranked[g].empty]
-        if not present:
-            return {}
-        xmax = max(ranked[g]["films"].max() for g in present)
-        return {g: (len(explode_cast(df, top_n=100_000, gender=g,
-                                     gender_map=gender_map)),
-                    _leaderboard_fig(ranked[g], "actor", GENDER_COLOUR[g], xmax=xmax))
-                for g in present}
+        return gender_leaderboard_figs(df, gender_map, top_n, genders)
 
     columns = per_database(cache_key, db_stamp, build) if cache_key else build()
     if not columns:
@@ -105,6 +110,33 @@ def lean_chips(rows):
     )
 
 
+def spotlight_figures(films):
+    """The spotlight's two charts for one person's films: genre mix and decades."""
+    ordered = films.sort_values("year")
+    g = explode_genres(ordered)["genre"].value_counts().reset_index()
+    g.columns = ["genre", "count"]
+    g, cmap, order = fold_counts(g, "genre", "count")
+    genres = px.pie(
+        g, values="count", names="genre", color="genre",
+        color_discrete_map=cmap, category_orders={"genre": order}, hole=0.45,
+    )
+    genres.update_layout(paper_bgcolor=INK, font_color=TAPE, legend_bgcolor=INK_2,
+                         height=270, margin=dict(t=10, b=10, l=10, r=10),
+                         showlegend=False)
+    genres.update_traces(textinfo="label+percent", textfont_size=10)
+
+    dec = (ordered["year"].dropna() // 10 * 10).astype(int).value_counts().sort_index()
+    decades = px.bar(
+        x=[f"{d}s" for d in dec.index], y=dec.to_numpy(),
+        color_discrete_sequence=[MINT_DEEP], text=dec.to_numpy(),
+    )
+    decades.update_traces(textposition="outside", cliponaxis=False)
+    decades.update_layout(height=270, margin=dict(t=10, b=10, l=10, r=10),
+                          xaxis_title="", yaxis_title="", yaxis_visible=False)
+    plotly_defaults(decades)
+    return {"genres": genres, "decades": decades}
+
+
 def person_spotlight(films, key, collab_title, collab_pairs, collab_empty,
                      collab_note=""):
     """Everything about one person: headline numbers, the posters, the shape of
@@ -124,33 +156,14 @@ def person_spotlight(films, key, collab_title, collab_pairs, collab_empty,
 
     # Genre and decade are always populated; the collaborator column often is
     # not, because recurring pairings are genuinely rare in this catalogue.
+    figs = spotlight_figures(films)
     c_genre, c_decade, c_collab = st.columns(3)
     with c_genre:
         st.markdown("###### Genre mix")
-        g = explode_genres(ordered)["genre"].value_counts().reset_index()
-        g.columns = ["genre", "count"]
-        g, cmap, order = fold_counts(g, "genre", "count")
-        fig = px.pie(
-            g, values="count", names="genre", color="genre",
-            color_discrete_map=cmap, category_orders={"genre": order}, hole=0.45,
-        )
-        fig.update_layout(paper_bgcolor=INK, font_color=TAPE, legend_bgcolor=INK_2,
-                          height=270, margin=dict(t=10, b=10, l=10, r=10),
-                          showlegend=False)
-        fig.update_traces(textinfo="label+percent", textfont_size=10)
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(figs["genres"], use_container_width=True)
     with c_decade:
         st.markdown("###### Films by decade")
-        dec = (ordered["year"].dropna() // 10 * 10).astype(int).value_counts().sort_index()
-        fig = px.bar(
-            x=[f"{d}s" for d in dec.index], y=dec.to_numpy(),
-            color_discrete_sequence=[MINT_DEEP], text=dec.to_numpy(),
-        )
-        fig.update_traces(textposition="outside", cliponaxis=False)
-        fig.update_layout(height=270, margin=dict(t=10, b=10, l=10, r=10),
-                          xaxis_title="", yaxis_title="", yaxis_visible=False)
-        plotly_defaults(fig)
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(figs["decades"], use_container_width=True)
     with c_collab:
         st.markdown(f"###### {collab_title}")
         ranked_list(collab_pairs, collab_empty, collab_note)

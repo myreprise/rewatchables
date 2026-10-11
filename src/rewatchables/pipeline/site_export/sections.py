@@ -1,7 +1,7 @@
-"""One file per chart section: data/sections/<name>.json.
+"""One file per section: data/sections/<name>.json.
 
-Ratings, Box Office, Timeline & Revisits, Genres and Cruise vs. Hanks are
-mostly charts that depend on nothing but the database. Each section's
+Ratings, Box Office, Timeline & Revisits, Genres, Cruise vs. Hanks, Hosts &
+Guests, Directors and Actors are mostly charts that depend on nothing but the database. Each section's
 figures() builds them, in the app and here alike, and they are shipped as
 Plotly JSON. Alongside them go the numbers the section prints in its tiles
 and captions, and the rows of its tables, so the page lays them out without
@@ -176,6 +176,159 @@ def verdicts(ctx, addresses):
     }
 
 
+# ── Hosts & Guests ────────────────────────────────────────────────────────────
+
+def hosts(ctx, addresses):
+    """The section around the lookup; the lookup itself is the person pages."""
+    from rewatchables.app.analysis import GENRE_FLOOR, LEAN_FLOOR, LEAN_Q, N_PERM
+    from rewatchables.app.sections.hosts import (
+        BENCH_FLOOR, RING_TOP, WHEN_TOP, anchor_share, figures, quiet_regulars,
+        regular_leans, the_room, top_lineups, without_anchor,
+    )
+    from views import ANCHOR, MEASURE_LABEL, lean_phrase, lean_value
+
+    eps = ctx.merged
+    n_eps = len(eps)
+    room, others, board = the_room(eps)
+    with_anchor, anchor_hosted = anchor_share(room)
+    regulars, tested, leans = regular_leans(eps, others, board)
+    held = leans[leans["q"] < LEAN_Q]
+    listed = board[board["episodes"] >= BENCH_FLOOR]
+
+    def chips(person):
+        mine = held[held["person"] == person].sort_values(["q", "metric"], kind="mergesort")
+        return [{"text": lean_phrase(r.metric, r.mean_in, r.mean_out, r.diff),
+                 "up": bool(r.diff > 0)} for r in mine.itertuples()]
+
+    ordered = leans.sort_values(["p", "person", "metric"], kind="mergesort")
+    movies = ctx.movies.set_index("movie_id")
+    return {
+        "anchor": ANCHOR,
+        "episodes": n_eps,
+        "with_anchor": len(with_anchor),
+        "anchor_hosted": anchor_hosted,
+        "without_anchor": n_eps - len(with_anchor),
+        "everyone_else": len(board),
+        "five_or_more": int((board["episodes"] >= 5).sum()),
+        "bench_floor": BENCH_FLOOR,
+        "bench": [{"name": name, "id": addresses.person(name),
+                   "episodes": int(r["episodes"]),
+                   "share": round(100 * r["episodes"] / n_eps, 1),
+                   "hosted": int(r["hosted"]),
+                   "first": plain_value(r["first"]), "last": plain_value(r["last"])}
+                  for name, r in listed.iterrows()],
+        "off_bench": int((board["episodes"] < BENCH_FLOOR).sum()),
+        "once": int((board["episodes"] == 1).sum()),
+        "most_episodes": int(board["episodes"].max()),
+        "when_top": min(WHEN_TOP, len(board)),
+        "ring_top": min(RING_TOP, len(board)),
+        "figures": figures_json(figures(eps)),
+        "lineups": [{"lineup": lineup, "episodes": n} for lineup, n in top_lineups(others)],
+        "regulars": [{"name": p, "id": addresses.person(p),
+                      "episodes": int(board.loc[p, "episodes"]), "leans": chips(p)}
+                     for p in regulars],
+        "quiet": quiet_regulars(regulars, held),
+        "lean_floor": LEAN_FLOOR,
+        "genre_floor": GENRE_FLOOR,
+        "genres_tested": len(tested),
+        "comparisons": len(leans),
+        "held": len(held),
+        "n_perm": N_PERM,
+        "lean_q": LEAN_Q,
+        "all_comparisons": [
+            {"name": r.person, "id": addresses.person(r.person),
+             "measure": MEASURE_LABEL.get(r.metric, f"{r.metric} share"),
+             "episodes": int(r.n),
+             "theirs": lean_value(r.metric, r.mean_in),
+             "others": lean_value(r.metric, r.mean_out),
+             "gap": lean_value(r.metric, r.diff, signed=True),
+             "p": round(float(r.p), 4), "q": round(float(r.q), 4),
+             "shown": bool(r.q < LEAN_Q)}
+            for r in ordered.itertuples()],
+        "without": [
+            {"host": host, "id": addresses.person(host),
+             "episodes": [{**card(movies.loc[m["movie_id"]]),
+                           "episode": int(m["episode_number"]),
+                           "aired": plain_value(m["episode_date"])}
+                          for _, m in group.iterrows()]}
+            for host, group in without_anchor(eps)],
+    }
+
+
+# ── Directors and Actors ──────────────────────────────────────────────────────
+
+def person_rows(stats, name_col, link):
+    """The "every director / actor" table, with a link where a spotlight exists."""
+    return [{"name": r[name_col], "id": link(r[name_col]), "films": int(r["films"]),
+             "tmdb": None if pd.isna(r["avg_tmdb"]) else round(float(r["avg_tmdb"]), 2),
+             "rt": None if pd.isna(r["avg_rt"]) else round(float(r["avg_rt"]) * 100),
+             "runtime": None if pd.isna(r["avg_runtime"]) else round(float(r["avg_runtime"])),
+             "first": plain_value(r["first_year"]), "last": plain_value(r["last_year"]),
+             **({"gender": r["gender"]} if "gender" in r else {})}
+            for _, r in stats.iterrows()]
+
+
+def directors(ctx, addresses):
+    from rewatchables.app.sections.directors import (
+        figures, director_counts, ranked_directors, top_directors,
+    )
+
+    counts = director_counts(ctx.rated)
+    return {
+        "tiles": {
+            "directors": int(counts.size),
+            "one": int((counts == 1).sum()),
+            "two_plus": int((counts >= 2).sum()),
+            "four_plus": int((counts >= 4).sum()),
+            "films": len(ctx.rated),
+        },
+        "figures": figures_json(figures(ctx.rated)),
+        "spotlight": [{"name": n, "id": addresses.director(n), "films": int(f)}
+                      for n, f in top_directors(ctx.rated).itertuples(index=False)],
+        "table": person_rows(ranked_directors(ctx.rated), "director", addresses.director),
+    }
+
+
+def actors(ctx, addresses):
+    from rewatchables.app.data import GENDER_LABEL
+    from rewatchables.app.panels import gender_leaderboard_figs
+    from rewatchables.app.sections.actors import (
+        GENDER_TOP, NAMED_FROM, cast_counts, figures, gender_credits, gender_peaks,
+        has_genders, ranked_actors, top_actors,
+    )
+
+    rated, genders = ctx.rated, ctx.gender_map
+    cast_all = cast_counts(rated)
+    credits = gender_credits(rated, genders)
+    gendered = has_genders(credits)
+    men_top, women_top, first_woman = gender_peaks(rated, genders)
+    return {
+        "tiles": {
+            "actors": len(cast_all),
+            "one": int((cast_all["count"] == 1).sum()),
+            "three_plus": int((cast_all["count"] >= 3).sum()),
+            "five_plus": int((cast_all["count"] >= 5).sum()),
+            "films": len(rated),
+            "named": int((cast_all["count"] >= NAMED_FROM).sum()),
+        },
+        "gendered": gendered,
+        "credits": [{"gender": g, "label": GENDER_LABEL[g], "credits": n}
+                    for g, n in credits.items()],
+        "credits_total": sum(credits.values()),
+        "by_gender": ([{"label": GENDER_LABEL[g], "actors": counted, "figure": figure(fig)}
+                       for g, (counted, fig) in gender_leaderboard_figs(
+                           rated, genders, top_n=GENDER_TOP).items()]
+                      if gendered else []),
+        "men_top": men_top,
+        "women_top": women_top,
+        "first_woman": first_woman,
+        "figures": figures_json(figures(rated)),
+        "spotlight": [{"name": n, "id": addresses.actor(n), "films": int(f)}
+                      for n, f in top_actors(rated).itertuples(index=False)],
+        "table": person_rows(ranked_actors(rated, genders), "actor", addresses.actor),
+    }
+
+
 # name -> exporter, one per page.
 SECTIONS = {
     "ratings": ratings,
@@ -183,6 +336,9 @@ SECTIONS = {
     "timeline": timeline,
     "genres": genres,
     "verdicts": verdicts,
+    "hosts": hosts,
+    "directors": directors,
+    "actors": actors,
 }
 
 

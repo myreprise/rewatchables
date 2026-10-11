@@ -368,6 +368,20 @@ def test_every_link_lands_on_a_page(exported):
         assert linked(rows) <= films
     assert linked(sections["verdicts"]["guests"]) <= people
 
+    directors = {p.stem for p in (exported / "directors").glob("*.json")}
+    actors = {p.stem for p in (exported / "actors").glob("*.json")}
+    hosts = sections["hosts"]
+    for rows in (hosts["bench"], hosts["regulars"], hosts["all_comparisons"], hosts["without"]):
+        assert linked(rows) <= people
+    for group in hosts["without"]:
+        assert linked(group["episodes"]) <= films
+    assert linked(sections["directors"]["table"]) == directors
+    assert linked(sections["actors"]["table"]) <= actors
+    for kind, others in (("directors", actors), ("actors", directors)):
+        for page in _pages(exported, kind).values():
+            assert linked(page["films"]) <= films
+            assert linked(page["collaborators"]) <= others
+
 
 @live
 def test_film_rows_carry_the_explorers_ratings(ctx, exported):
@@ -391,6 +405,9 @@ SECTION_FIGURES = {
                  "revisits", "revisit_gaps", "revisit_genres"},
     "genres": {"frequency", "share", "by_decade", "co_occurrence"},
     "verdicts": {"running_margin", "genre_lean"},
+    "hosts": {"who_is_on_when", "who_sits_together"},
+    "directors": {"leaderboard", "scatter"},
+    "actors": {"leaderboard", "scatter"},
 }
 
 
@@ -428,3 +445,44 @@ def test_section_numbers_are_the_apps(ctx, exported):
     assert v["lead_changes"] == lead_changes
     numbers = [x["episode"] for x in v["ledger"]]
     assert numbers == sorted(numbers, reverse=True)
+
+
+@live
+def test_a_spotlight_page_for_everyone_in_the_apps_pickers(ctx, exported):
+    from rewatchables.app.analysis import films_by_actor, films_by_director
+    from rewatchables.app.sections.actors import top_actors
+    from rewatchables.app.sections.directors import top_directors
+
+    for kind, top, films_of in (("directors", top_directors(ctx.rated)["director"], films_by_director),
+                                ("actors", top_actors(ctx.rated)["actor"], films_by_actor)):
+        pages = _pages(exported, kind)
+        assert {p["name"] for p in pages.values()} == set(top), kind
+        for page in pages.values():
+            assert len(page["films"]) == len(films_of(ctx.rated, page["name"]))
+            assert page["figures"]["genres"]["data"] and page["figures"]["decades"]["data"]
+
+
+@live
+def test_people_section_numbers_are_the_apps(ctx, exported):
+    from rewatchables.app.sections import actors, directors, hosts
+
+    pages = _pages(exported, "sections")
+    h = pages["hosts"]
+    room, others, board = hosts.the_room(ctx.merged)
+    with_anchor, hosted = hosts.anchor_share(room)
+    assert (h["with_anchor"], h["anchor_hosted"], h["everyone_else"]) == (
+        len(with_anchor), hosted, len(board))
+    assert sum(len(g["episodes"]) for g in h["without"]) == len(ctx.merged) - len(with_anchor)
+    regulars, _, leans = hosts.regular_leans(ctx.merged, others, board)
+    assert [r["name"] for r in h["regulars"]] == regulars
+    assert h["comparisons"] == len(leans) == len(h["all_comparisons"])
+
+    d = pages["directors"]
+    counts = directors.director_counts(ctx.rated)
+    assert d["tiles"]["directors"] == counts.size
+    assert len(d["table"]) == len(directors.director_stats(ctx.rated))
+
+    a = pages["actors"]
+    assert a["tiles"]["actors"] == len(actors.cast_counts(ctx.rated))
+    assert len(a["table"]) == len(actors.actor_stats(ctx.rated))
+    assert a["credits_total"] == sum(actors.gender_credits(ctx.rated, ctx.gender_map).values())

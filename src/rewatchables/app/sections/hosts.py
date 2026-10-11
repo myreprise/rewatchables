@@ -80,6 +80,101 @@ def verdict_tally(merged_df, ids):
     return verdicts.dropna().value_counts()
 
 
+def anchor_share(room):
+    """(airings with the anchor, of them in the host chair)."""
+    is_anchor = room["person"] == ANCHOR
+    with_anchor = set(room.loc[is_anchor, "raw_episode_id"])
+    hosted = int((is_anchor & (room["chair"] == "host")).sum())
+    return with_anchor, hosted
+
+
+def without_anchor(merged_df):
+    """[(host, airings)] for the airings without the anchor, busiest host
+    first, oldest airing first within each."""
+    room, _, _ = the_room(merged_df)
+    with_anchor, _ = anchor_share(room)
+    solo = merged_df[~merged_df["raw_episode_id"].isin(with_anchor)].sort_values("episode_date")
+    solo_host = solo["host"].fillna("No host listed")
+    return [(host, solo[solo_host == host]) for host in solo_host.value_counts().index]
+
+
+def quiet_regulars(regulars, held):
+    """The regulars with no lean that survives the correction."""
+    return [p for p in regulars if p not in set(held["person"])]
+
+
+def who_is_on_when_figure(merged_df, others, board):
+    """The WHEN_TOP busiest people by year, as a share of that year's episodes."""
+    on, aired = appearances_by_year(others, merged_df, "raw_episode_id", "episode_date")
+    cast = board.head(WHEN_TOP).sort_values("first").index.tolist()
+    counts = on.reindex(cast).fillna(0)
+    years = [str(int(y)) for y in aired.index]
+    fig = go.Figure(go.Heatmap(
+        z=counts.to_numpy() / aired.to_numpy() * 100,
+        x=years, y=cast,
+        customdata=np.dstack([counts.to_numpy(),
+                              np.tile(aired.to_numpy(), (len(cast), 1))]),
+        hovertemplate="%{y}, %{x}<br>%{customdata[0]:.0f} of %{customdata[1]:.0f} "
+                      "episodes (%{z:.0f}%)<extra></extra>",
+        # Zero gets the surface colour and anything above it the first step,
+        # so "never on that year" and "on once" do not blur together.
+        colorscale=[[0, INK_3], [0.001, SEQ[0]], [0.2, SEQ[1]], [0.4, SEQ[2]],
+                    [0.6, SEQ[3]], [0.8, SEQ[4]], [1, SEQ[5]]],
+        zmin=0, zmax=80, xgap=2, ygap=2,
+        colorbar=dict(ticksuffix="%", outlinewidth=0, thickness=10,
+                      tickfont=dict(color=TXT_2)),
+    ))
+    plotly_defaults(fig)
+    fig.update_layout(
+        height=30 * len(cast) + 120,
+        yaxis=dict(autorange="reversed", gridcolor=INK, title=""),
+        xaxis=dict(tickvals=years, gridcolor=INK, title="",
+                   ticktext=[f"{y}<br>{int(n)} eps" for y, n in zip(years, aired)]),
+    )
+    return fig
+
+
+def who_sits_together_figure(others, board):
+    """Episodes shared by each pair of the RING_TOP busiest people."""
+    ring = board.head(RING_TOP).index.tolist()
+    pairs = co_appearances(others, "raw_episode_id")
+    shared = np.array([[np.nan if a == b else pairs.get(tuple(sorted((a, b))), 0)
+                        for b in ring] for a in ring], dtype=float)
+    fig = go.Figure(go.Heatmap(
+        # Square-root colour: the top pair shares three times the episodes
+        # of the next, so a linear ramp lights one cell and leaves the rest
+        # near black.
+        z=np.sqrt(shared), x=ring, y=ring, customdata=shared,
+        text=[["" if not v or np.isnan(v) else f"{v:.0f}" for v in row]
+              for row in shared],
+        texttemplate="%{text}", textfont=dict(color=TAPE, size=11),
+        hovertemplate="%{y} + %{x}<br>%{customdata:.0f} episodes together"
+                      "<extra></extra>",
+        hoverongaps=False,
+        colorscale=[[0, INK_3], [0.001, MINT_DIM], [1, SEQ[1]]],
+        showscale=False, xgap=2, ygap=2,
+    ))
+    plotly_defaults(fig)
+    fig.update_layout(
+        height=34 * len(ring) + 130,
+        yaxis=dict(autorange="reversed", gridcolor=INK, title=""),
+        xaxis=dict(tickangle=-40, gridcolor=INK, title=""),
+    )
+    return fig
+
+
+def top_lineups(others, n=10):
+    """(lineup, episodes) for the n commonest panels, Bill aside."""
+    return [(lineup, int(k)) for lineup, k in lineups(others, "raw_episode_id").head(n).items()]
+
+
+def figures(merged_df):
+    """name -> figure, for the section's two heatmaps."""
+    _, others, board = the_room(merged_df)
+    return {"who_is_on_when": who_is_on_when_figure(merged_df, others, board),
+            "who_sits_together": who_sits_together_figure(others, board)}
+
+
 def render(ctx):
     merged_df = ctx.merged
     movies_df = ctx.movies
@@ -95,9 +190,7 @@ def render(ctx):
     eps = merged_df
     n_eps = len(eps)
     room, others, board = the_room(eps)
-    is_anchor = room["person"] == ANCHOR
-    with_anchor = set(room.loc[is_anchor, "raw_episode_id"])
-    anchor_hosted = int((is_anchor & (room["chair"] == "host")).sum())
+    with_anchor, anchor_hosted = anchor_share(room)
     n_without = n_eps - len(with_anchor)
 
     # The leans feed the lookup as well as their own panel, so they are worked
@@ -235,39 +328,11 @@ def render(ctx):
 
     # ── Who's on when ──
     tape("Who&rsquo;s on when")
-    on, aired = appearances_by_year(others, eps, "raw_episode_id", "episode_date")
-    cast = board.head(WHEN_TOP).sort_values("first").index.tolist()
-    counts = on.reindex(cast).fillna(0)
-    years = [str(int(y)) for y in aired.index]
-    def who_is_on_when():
-        fig = go.Figure(go.Heatmap(
-            z=counts.to_numpy() / aired.to_numpy() * 100,
-            x=years, y=cast,
-            customdata=np.dstack([counts.to_numpy(),
-                                  np.tile(aired.to_numpy(), (len(cast), 1))]),
-            hovertemplate="%{y}, %{x}<br>%{customdata[0]:.0f} of %{customdata[1]:.0f} "
-                          "episodes (%{z:.0f}%)<extra></extra>",
-            # Zero gets the surface colour and anything above it the first step,
-            # so "never on that year" and "on once" do not blur together.
-            colorscale=[[0, INK_3], [0.001, SEQ[0]], [0.2, SEQ[1]], [0.4, SEQ[2]],
-                        [0.6, SEQ[3]], [0.8, SEQ[4]], [1, SEQ[5]]],
-            zmin=0, zmax=80, xgap=2, ygap=2,
-            colorbar=dict(ticksuffix="%", outlinewidth=0, thickness=10,
-                          tickfont=dict(color=TXT_2)),
-        ))
-        plotly_defaults(fig)
-        fig.update_layout(
-            height=30 * len(cast) + 120,
-            yaxis=dict(autorange="reversed", gridcolor=INK, title=""),
-            xaxis=dict(tickvals=years, gridcolor=INK, title="",
-                       ticktext=[f"{y}<br>{int(n)} eps" for y, n in zip(years, aired)]),
-        )
-        return fig
-
-    st.plotly_chart(per_database("hosts:who_is_on_when", ctx.stamp, who_is_on_when),
+    st.plotly_chart(per_database("hosts:who_is_on_when", ctx.stamp,
+                                 lambda: who_is_on_when_figure(eps, others, board)),
                     use_container_width=True)
     st.markdown(
-        f'<p class="ch-note">The {len(cast)} people on the most episodes, in the order '
+        f'<p class="ch-note">The {WHEN_TOP} people on the most episodes, in the order '
         "they first appeared. A cell is the share of that year&rsquo;s film episodes "
         "they were on, so a light year and a busy one read on the same scale; the "
         "count under each year is how many aired. The colour tops out at 80%.</p>",
@@ -278,45 +343,16 @@ def render(ctx):
 
     # ── Who sits together ──
     tape("Who sits together")
-    ring = board.head(RING_TOP).index.tolist()
-    pairs = co_appearances(others, "raw_episode_id")
-    shared = np.array([[np.nan if a == b else pairs.get(tuple(sorted((a, b))), 0)
-                        for b in ring] for a in ring], dtype=float)
     c_grid, c_lineup = st.columns([3, 2])
     with c_grid:
-        def who_sits_together():
-            fig = go.Figure(go.Heatmap(
-                # Square-root colour: the top pair shares three times the episodes
-                # of the next, so a linear ramp lights one cell and leaves the rest
-                # near black.
-                z=np.sqrt(shared), x=ring, y=ring, customdata=shared,
-                text=[["" if not v or np.isnan(v) else f"{v:.0f}" for v in row]
-                      for row in shared],
-                texttemplate="%{text}", textfont=dict(color=TAPE, size=11),
-                hovertemplate="%{y} + %{x}<br>%{customdata:.0f} episodes together"
-                              "<extra></extra>",
-                hoverongaps=False,
-                colorscale=[[0, INK_3], [0.001, MINT_DIM], [1, SEQ[1]]],
-                showscale=False, xgap=2, ygap=2,
-            ))
-            plotly_defaults(fig)
-            fig.update_layout(
-                height=34 * len(ring) + 130,
-                yaxis=dict(autorange="reversed", gridcolor=INK, title=""),
-                xaxis=dict(tickangle=-40, gridcolor=INK, title=""),
-            )
-            return fig
-
-        st.plotly_chart(per_database("hosts:who_sits_together", ctx.stamp, who_sits_together),
+        st.plotly_chart(per_database("hosts:who_sits_together", ctx.stamp,
+                                     lambda: who_sits_together_figure(others, board)),
                         use_container_width=True)
     with c_lineup:
         st.markdown("###### Most common lineups")
-        ranked_list(
-            [(n, int(k)) for n, k in lineups(others, "raw_episode_id").head(10).items()],
-            "No lineup has repeated.", wide=True,
-        )
+        ranked_list(top_lineups(others), "No lineup has repeated.", wide=True)
     st.markdown(
-        f'<p class="ch-note">The {len(ring)} people on the most episodes. A cell is the '
+        f'<p class="ch-note">The {RING_TOP} people on the most episodes. A cell is the '
         "number of episodes a pair shared; an empty one is a pair who have never been "
         "in the room together. A lineup is everyone in the room except Bill, so a "
         "single name is that person with Bill.</p>",
@@ -335,7 +371,7 @@ def render(ctx):
             for p in regulars),
         unsafe_allow_html=True,
     )
-    quiet = [p for p in regulars if p not in set(held["person"])]
+    quiet = quiet_regulars(regulars, held)
     if len(quiet) > 1:
         quiet_txt = f"{', '.join(quiet[:-1])} and {quiet[-1]} show none. "
     elif quiet:
@@ -385,16 +421,15 @@ def render(ctx):
     st.markdown("---")
 
     # ── Without Bill ──
-    solo = eps[~eps["raw_episode_id"].isin(with_anchor)].sort_values("episode_date")
-    tape(f"Without Bill &mdash; {len(solo)} episodes")
+    groups = without_anchor(eps)
+    tape(f"Without Bill &mdash; {sum(len(g) for _, g in groups)} episodes")
     st.markdown(
         '<p class="ch-note">The only episodes where the host chair says something. '
         "Grouped by who hosted, busiest first; oldest episode first within each.</p>",
         unsafe_allow_html=True,
     )
-    solo_host = solo["host"].fillna("No host listed")
-    for host, count in solo_host.value_counts().items():
-        group = solo[solo_host == host]
+    for host, group in groups:
+        count = len(group)
         st.markdown(
             f'<div class="rw-kw-gridnote"><span>{host} hosting &middot; {count} '
             f'episode{"s" if count != 1 else ""}</span></div>',

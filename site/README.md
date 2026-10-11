@@ -10,14 +10,18 @@ plan. It has these pages:
 | Overview | `src/index.md` | The app's front page: tiles, latest episodes, regulars, revisits, the episodes-per-year chart, a random film |
 | Movie Explorer | `src/films.md` | Every film, with the app's filters and its nine sort orders. The filters live in the address (`/films?genre=Crime&sort=rt`) |
 | Genres | `src/genres.md` | The four genre charts and the "Browse by genre" shelf |
+| Directors | `src/directors.md` | Tiles, leaderboard, volume against reception, every director ranked |
+| Actors | `src/actors.md` | The same, plus the gender split |
 | Keywords | `src/keywords.md` | The vocabulary: reach bands, search over all of it, each decade's signature |
 | Ratings | `src/ratings.md` | RT, Ebert and TMDB distributions, RT against TMDB, the divergence tables |
 | Box Office | `src/boxoffice.md` | Gross, budget and return in today's dollars, with the data table |
+| Hosts & Guests | `src/hosts.md` | The bench, who's on when, who sits together, each regular's leans, the episodes without Bill |
 | Timeline & Revisits | `src/timeline.md` | The show over time and the films it came back to |
 | Cruise vs. Hanks | `src/verdicts.md` | The standing, running margin, genre lean, tale of the tape, streaks, guests and the full ledger |
 | Film | `src/movie/[id].md` | One page per film at `/movie/<title>-<year>`, e.g. `/movie/heat-1995`: the app's dossier |
 | Keyword | `src/keyword/[id].md` | One page per keyword on two or more films, e.g. `/keyword/heist`: the app's keyword overlay |
 | Person | `src/person/[id].md` | One page per person in the room but Bill Simmons, e.g. `/person/chris-ryan`: the Hosts & Guests lookup |
+| Director, Actor | `src/director/[id].md`, `src/actor/[id].md` | One spotlight per name in the app's pickers (the top twenty of each), e.g. `/director/michael-mann` |
 
 A film page opened from a list (the Explorer, a keyword, a person's
 episodes) steps through that list with arrows, as the app's dossier does. The
@@ -60,5 +64,5 @@ Links between pages are relative, so the site works at a project path
 
 ## Not here yet
 
-The Streamlit app's Directors, Actors, Hosts & Guests (beyond the lookup) and
-Upcoming sections.
+The Streamlit app's Upcoming section and its requested-film pages, and the
+Overview's "Go deeper" doors.

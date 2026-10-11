@@ -19,6 +19,9 @@ const films = read("./src/data/films.json");
 const keywords = read("./src/data/keywords.json").vocabulary.filter((k) => k.id);
 const people = read("./src/data/people.json");
 
+// And one spotlight per director and actor in the app's pickers.
+const spotlights = (section) => read(`./src/data/sections/${section}.json`).spotlight;
+
 export default {
   title: "Rewatchables Explorer",
   root: "src",
@@ -30,11 +33,14 @@ export default {
     {name: "Movie Explorer", path: "/films"},
     {name: "The films", open: true, pages: [
       {name: "Genres", path: "/genres"},
+      {name: "Directors", path: "/directors"},
+      {name: "Actors", path: "/actors"},
       {name: "Keywords", path: "/keywords"},
       {name: "Ratings", path: "/ratings"},
       {name: "Box Office", path: "/boxoffice"}
     ]},
     {name: "The show", open: true, pages: [
+      {name: "Hosts & Guests", path: "/hosts"},
       {name: "Timeline & Revisits", path: "/timeline"}
     ]},
     {name: "The bits", open: true, pages: [
@@ -44,7 +50,9 @@ export default {
   dynamicPaths: [
     ...films.map((f) => `/movie/${f.id}`),
     ...keywords.map((k) => `/keyword/${k.id}`),
-    ...people.map((p) => `/person/${p.id}`)
+    ...people.map((p) => `/person/${p.id}`),
+    ...spotlights("directors").map((d) => `/director/${d.id}`),
+    ...spotlights("actors").map((a) => `/actor/${a.id}`)
   ],
   toc: false,
   pager: false,

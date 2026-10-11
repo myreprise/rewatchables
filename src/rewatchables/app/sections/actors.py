@@ -7,14 +7,109 @@ import streamlit as st
 from rewatchables.app.analysis import (
     PERSON_AGG, billed_long, explode_cast, films_by_actor,
 )
-from rewatchables.app.charts import people_scatter
+from rewatchables.app.charts import (
+    _leaderboard_fig, people_scatter_fig, per_database,
+)
 from rewatchables.app.components import masthead, stat_tiles, tape
 from rewatchables.app.data import GENDERS, GENDER_LABEL
-from rewatchables.app.panels import (
-    gender_split_leaderboards, people_leaderboard, person_spotlight,
-)
+from rewatchables.app.panels import gender_split_leaderboards, person_spotlight
 from rewatchables.app.state import keep
 from rewatchables.app.theme import AMBER
+
+# Actors on the leaderboard and in the spotlight picker.
+TOP = 20
+# Actors on the scatter and in the table need this many films.
+SCATTER_FROM = 3
+# Actors named on the scatter.
+NAMED_FROM = 8
+# Names per column of the gender-split leaderboards.
+GENDER_TOP = 15
+# Recurring directors listed in a spotlight.
+COLLABORATORS = 6
+
+
+def cast_counts(rated):
+    """(actor, count) for every credited name, most films first.
+
+    Counts every name in the stored cast list, so supporting and minor roles
+    land in an actor's filmography alongside the leads.
+    """
+    return explode_cast(rated, top_n=100_000)
+
+
+def top_actors(rated, n=TOP):
+    return cast_counts(rated).head(n).rename(columns={"count": "films"})
+
+
+def gender_credits(rated, gender_map):
+    """{gender: billed credits}. Counted in credits, not people: a film's billed
+    cast is ten slots, and "who gets cast" is a question about slots."""
+    return {g: int(explode_cast(rated, top_n=100_000, gender=g,
+                                gender_map=gender_map)["count"].sum())
+            for g in GENDERS}
+
+
+def gender_peaks(rated, gender_map):
+    """(films of the most-featured man, of the most-featured woman, the first
+    woman's place in the combined ranking or None)."""
+    by = {g: explode_cast(rated, top_n=100_000, gender=g, gender_map=gender_map)
+          for g in ("M", "F")}
+    first_woman = next(
+        (i + 1 for i, n in enumerate(cast_counts(rated)["actor"])
+         if gender_map.get(n) == "F"), None)
+    men_top = by["M"]["count"].max() if len(by["M"]) else 0
+    women_top = by["F"]["count"].max() if len(by["F"]) else 0
+    return int(men_top), int(women_top), first_woman
+
+
+def has_genders(credits):
+    """Whether the gender dimension is populated at all. A database that has
+    not been through the cast_ids pass keeps the ungendered section."""
+    total = sum(credits.values())
+    return bool(total) and credits["unknown"] < total
+
+
+def actor_stats(rated):
+    """Per actor on SCATTER_FROM+ films: films, averages, first and last year."""
+    stats = billed_long(rated).groupby("actor").agg(**PERSON_AGG).reset_index()
+    return stats[stats["films"] >= SCATTER_FROM]
+
+
+def ranked_actors(rated, gender_map):
+    """actor_stats in the table's order, with each actor's gender label."""
+    return (actor_stats(rated)
+            .sort_values(["films", "avg_tmdb"], ascending=[False, False])
+            .assign(gender=lambda d: d["actor"].map(
+                lambda n: GENDER_LABEL.get(gender_map.get(n, "unknown")))))
+
+
+def directors_returned_to(actor_films):
+    """(director, films) for directors of two or more of these films.
+
+    Same "two or more" rule as the Directors spotlight. Listing the one-film
+    pairings too would fill the panel with rows that say nothing -- recurring
+    director/actor pairs are rare here, and that is the finding.
+    """
+    worked_with = Counter(actor_films["director_primary"])
+    worked_with.pop("Unknown", None)
+    return [(n, k) for n, k in worked_with.most_common(COLLABORATORS) if k >= 2]
+
+
+def leaderboard_figure(rated):
+    return _leaderboard_fig(top_actors(rated), "actor", AMBER)
+
+
+def scatter_figure(rated):
+    return people_scatter_fig(actor_stats(rated), "actor", name_from=NAMED_FROM)
+
+
+FIGURES = {"leaderboard": leaderboard_figure, "scatter": scatter_figure}
+
+
+def figures(rated):
+    """name -> figure, for every chart in the section but the gender pair's
+    and the spotlight's."""
+    return {name: build(rated) for name, build in FIGURES.items()}
 
 
 def render(ctx):
@@ -26,9 +121,7 @@ def render(ctx):
         "Who keeps turning up on screen, and the films they turn up in.",
     )
 
-    # Counts every name in the stored cast list, so supporting and minor roles
-    # land in an actor's filmography alongside the leads.
-    cast_all = explode_cast(movies_rated, top_n=100_000)
+    cast_all = cast_counts(movies_rated)
 
     stat_tiles([
         ("Actors", f"{len(cast_all):,}"),
@@ -38,16 +131,11 @@ def render(ctx):
         ("Films covered", f"{len(movies_rated):,}"),
     ])
 
-    # The gender row. Counted in credits, not people: a film's billed cast is
-    # ten slots, and "who gets cast" is a question about slots. Rendered only
-    # when the dimension is populated, so a database that has not been through
-    # the cast_ids pass keeps the ungendered section it had before.
-    by_gender = {g: explode_cast(movies_rated, top_n=100_000, gender=g,
-                             gender_map=GENDER_MAP)
-                 for g in GENDERS}
-    credits_by_gender = {g: int(by_gender[g]["count"].sum()) for g in GENDERS}
+    # The gender row, rendered only when the dimension is populated.
+    credits_by_gender = gender_credits(movies_rated, GENDER_MAP)
     credits_total = sum(credits_by_gender.values())
-    if credits_total and credits_by_gender["unknown"] < credits_total:
+    gendered = has_genders(credits_by_gender)
+    if gendered:
         st.markdown("<div style='height:10px'></div>", unsafe_allow_html=True)
         # Every gender with a credit gets a tile, including the two the split
         # below has no column for. Four non-binary credits is a small number to
@@ -70,9 +158,10 @@ def render(ctx):
 
     st.markdown("---")
 
-    top_actors = cast_all.head(20).rename(columns={"count": "films"})
-    people_leaderboard(top_actors, "actor", "Most-featured actors", colour=AMBER,
-                       cache_key="actors:leaderboard", db_stamp=ctx.stamp)
+    tape("Most-featured actors")
+    st.plotly_chart(per_database("actors:leaderboard", ctx.stamp,
+                                 lambda: leaderboard_figure(movies_rated)),
+                    use_container_width=True)
     st.markdown(
         '<p class="ch-note">Every credited name TMDB lists, so a supporting turn '
         "counts the same as a lead. That widens the field considerably: "
@@ -81,21 +170,16 @@ def render(ctx):
         unsafe_allow_html=True,
     )
 
-    if credits_total and credits_by_gender["unknown"] < credits_total:
+    if gendered:
         st.markdown("---")
 
         gender_split_leaderboards(
             movies_rated, "Most-featured actors, by gender", GENDER_MAP,
-            top_n=15, cache_key="actors:by_gender", db_stamp=ctx.stamp)
+            top_n=GENDER_TOP, cache_key="actors:by_gender", db_stamp=ctx.stamp)
 
         # The two figures the pair is for: where the first woman lands in the
         # combined ranking, and how far apart the two peaks are.
-        ranked_names = list(cast_all["actor"])
-        first_woman = next(
-            (i + 1 for i, n in enumerate(ranked_names)
-             if GENDER_MAP.get(n) == "F"), None)
-        men_top = by_gender["M"]["count"].max() if len(by_gender["M"]) else 0
-        women_top = by_gender["F"]["count"].max() if len(by_gender["F"]) else 0
+        men_top, women_top, first_woman = gender_peaks(movies_rated, GENDER_MAP)
         st.markdown(
             '<p class="ch-note">Both columns share one x-axis, so the gap is '
             "the finding rather than a rendering accident: the most-featured "
@@ -113,19 +197,14 @@ def render(ctx):
 
     tape("Actor spotlight")
     sel_actor = keep(
-        st.selectbox, "Actor", top_actors["actor"].tolist(), key="flt_actor_pick")
+        st.selectbox, "Actor", top_actors(movies_rated)["actor"].tolist(),
+        key="flt_actor_pick")
     actor_films = films_by_actor(movies_rated, sel_actor)
-
-    worked_with = Counter(actor_films["director_primary"])
-    worked_with.pop("Unknown", None)
-    # Same "two or more" rule as the Directors spotlight. Listing the one-film
-    # pairings too would fill the panel with rows that say nothing -- recurring
-    # director/actor pairs are rare here, and that is the finding.
     person_spotlight(
         actor_films,
         key="actor",
         collab_title="Directors they return to",
-        collab_pairs=[(n, k) for n, k in worked_with.most_common(6) if k >= 2],
+        collab_pairs=directors_returned_to(actor_films),
         collab_empty=f"{sel_actor} has one film with each of these directors — "
                      "no repeat pairing in the catalogue.",
         collab_note="Directors of two or more of their covered films.",
@@ -134,18 +213,15 @@ def render(ctx):
     st.markdown("---")
 
     tape("Volume against reception")
-    actor_stats = (
-        billed_long(movies_rated).groupby("actor").agg(**PERSON_AGG).reset_index()
-    )
-    actor_stats = actor_stats[actor_stats["films"] >= 3]
-    people_scatter(actor_stats, "actor", "actor", name_from=8,
-                   cache_key="actors:scatter", db_stamp=ctx.stamp)
+    st.plotly_chart(per_database("actors:scatter", ctx.stamp,
+                                 lambda: scatter_figure(movies_rated)),
+                    use_container_width=True)
     st.markdown(
         '<p class="ch-note">Actors with three or more covered films; bubble size '
         "is average runtime. Only those with eight or more are named &mdash; the "
         "rest are on hover. For actors the link between being cast often and being "
         "in well-rated films is <b>absent &mdash; r = 0.08</b>. Of "
-        f"{len(cast_all):,} actors, {int((cast_all['count'] >= 8).sum())} clear "
+        f"{len(cast_all):,} actors, {int((cast_all['count'] >= NAMED_FROM).sum())} clear "
         "eight films.</p>",
         unsafe_allow_html=True,
     )
@@ -157,10 +233,8 @@ def render(ctx):
     # already sortable and searchable, so a column lets the reader slice it
     # without another widget to keep in session state.
     st.dataframe(
-        actor_stats.sort_values(["films", "avg_tmdb"], ascending=[False, False])
-        .assign(avg_rt=lambda d: d["avg_rt"] * 100,   # see note in Directors
-                gender=lambda d: d["actor"].map(
-                    lambda n: GENDER_LABEL.get(GENDER_MAP.get(n, "unknown"))))
+        ranked_actors(movies_rated, GENDER_MAP)
+        .assign(avg_rt=lambda d: d["avg_rt"] * 100)   # see note in Directors
         .rename(columns={
             "actor": "Actor", "gender": "Gender", "films": "Films",
             "avg_tmdb": "Avg TMDB",
