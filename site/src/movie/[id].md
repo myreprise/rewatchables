@@ -48,7 +48,9 @@ display(html`<div class="rw-dt-hero">
   <div class="rw-dt-poster">${heroPlate(film)}</div>
   <div class="rw-dt-id">
     <h1>${film.title} <span>${film.year}</span></h1>
-    <p class="rw-dt-cred">${film.directors.join(" · ") || "Director unknown"}<i>·</i>${film.runtime ? `${film.runtime} min` : "runtime unknown"}<i>·</i>${film.genres.join(" · ") || "Ungenred"}</p>
+    <p class="rw-dt-cred">${film.directors.length
+      ? film.directors.map((d, i) => html.fragment`${i ? " · " : ""}${d.id ? html`<a href=${`../director/${d.id}`}>${d.name}</a>` : d.name}`)
+      : "Director unknown"}<i>·</i>${film.runtime ? `${film.runtime} min` : "runtime unknown"}<i>·</i>${film.genres.join(" · ") || "Ungenred"}</p>
     <div class="chip-row">${chips}</div>
     ${statRail([
       statTile("TMDB", s.tmdb != null ? s.tmdb.toFixed(1) : null, "/10"),
@@ -124,8 +126,11 @@ const left = html`<div>
 
 const right = html`<div>
   ${film.cast.length ? html`<div class="rw-dt-panel"><h4>Cast — top billed</h4>
-    <div class="rw-dt-cast">${film.cast.map((c) =>
-      html`<span>${c.name}${c.films > 1 ? html`<b>${c.films}</b>` : ""}</span>`)}</div>
+    <div class="rw-dt-cast">${film.cast.map((c) => {
+      // An actor on three or more covered films has a spotlight.
+      const inner = html.fragment`${c.name}${c.films > 1 ? html`<b>${c.films}</b>` : ""}`;
+      return c.id ? html`<a href=${`../actor/${c.id}`}>${inner}</a>` : html`<span>${inner}</span>`;
+    })}</div>
   </div>` : ""}
   ${film.by_director.length ? html.fragment`<p class="rw-shelf-h">Also on the show — ${film.director_primary}</p>
     ${grid(film.by_director.map((f) => filmCard(f, String(f.year), "../")), "rw-grid shelf")}` : ""}

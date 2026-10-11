@@ -97,7 +97,9 @@ def film_page(movie, ctx, billing, addresses):
     return {
         **card(movie),
         "tmdb_id": plain_value(movie["tmdb_id"]),
-        "directors": list(movie["directors"]),
+        # Each name with its spotlight's address, or None for a co-director
+        # who is nobody's primary director and so has no page.
+        "directors": [{"name": n, "id": addresses.director(n)} for n in movie["directors"]],
         "director_primary": movie["director_primary"],
         "genres": list(movie["genres"]),
         "runtime": plain_value(movie["runtime_minutes"]),
@@ -124,7 +126,8 @@ def film_page(movie, ctx, billing, addresses):
              "id": addresses.keyword(w)}
             for w in rank_by_reach(movie["keywords"] or [], ctx.reach)
         ],
-        "cast": [{"name": n, "films": billing.get(n, 0)} for n in cast],
+        "cast": [{"name": n, "films": billing.get(n, 0), "id": addresses.actor(n)}
+                 for n in cast],
         "by_director": [card(m) for _, m in
                         same_director(ctx.movies, movie).head(SHELF).iterrows()],
         "shared_cast": [card(m) for _, m in

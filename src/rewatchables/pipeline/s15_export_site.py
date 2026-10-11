@@ -22,8 +22,8 @@ site_export package, one module per kind; this step runs them and writes:
   site/src/data/people.json            everyone in the room, for the lookup
   site/src/data/people/<slug>.json     one file per person
   site/src/data/sections/<name>.json   each section's figures, numbers and tables
-  site/src/data/directors/<slug>.json  one spotlight per director in the app's picker
-  site/src/data/actors/<slug>.json     one spotlight per actor in the app's picker
+  site/src/data/directors/<slug>.json  one spotlight per director
+  site/src/data/actors/<slug>.json     one spotlight per actor on three or more films
   site/src/data/upcoming.json          the Upcoming section: every request, for the filters
   site/src/data/upcoming/<slug>.json   one file per requested film
   site/src/theme.css                   a copy of the app's stylesheet

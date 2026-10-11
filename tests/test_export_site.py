@@ -377,7 +377,10 @@ def test_every_link_lands_on_a_page(exported):
     for group in hosts["without"]:
         assert linked(group["episodes"]) <= films
     assert linked(sections["directors"]["table"]) == directors
-    assert linked(sections["actors"]["table"]) <= actors
+    assert linked(sections["actors"]["table"]) == actors
+    for page in _pages(exported, "films").values():
+        assert linked(page["directors"]) <= directors
+        assert linked(page["cast"]) <= actors
     for kind, others in (("directors", actors), ("actors", directors)):
         for page in _pages(exported, kind).values():
             assert linked(page["films"]) <= films
@@ -449,15 +452,21 @@ def test_section_numbers_are_the_apps(ctx, exported):
 
 
 @live
-def test_a_spotlight_page_for_everyone_in_the_apps_pickers(ctx, exported):
+def test_a_spotlight_page_for_everyone_in_the_tables(ctx, exported):
+    """Every director, and every actor on three or more films: each row of the
+    Directors and Actors tables, the app's top twenty included."""
     from rewatchables.app.analysis import films_by_actor, films_by_director
-    from rewatchables.app.sections.actors import top_actors
-    from rewatchables.app.sections.directors import top_directors
+    from rewatchables.app.sections.actors import actor_stats, top_actors
+    from rewatchables.app.sections.directors import director_stats, top_directors
 
-    for kind, top, films_of in (("directors", top_directors(ctx.rated)["director"], films_by_director),
-                                ("actors", top_actors(ctx.rated)["actor"], films_by_actor)):
+    for kind, everyone, top, films_of in (
+            ("directors", director_stats(ctx.rated)["director"],
+             top_directors(ctx.rated)["director"], films_by_director),
+            ("actors", actor_stats(ctx.rated)["actor"],
+             top_actors(ctx.rated)["actor"], films_by_actor)):
         pages = _pages(exported, kind)
-        assert {p["name"] for p in pages.values()} == set(top), kind
+        assert {p["name"] for p in pages.values()} == set(everyone), kind
+        assert set(top) <= set(everyone), kind
         for page in pages.values():
             assert len(page["films"]) == len(films_of(ctx.rated, page["name"]))
             assert page["figures"]["genres"]["data"] and page["figures"]["decades"]["data"]

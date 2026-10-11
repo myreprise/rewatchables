@@ -99,8 +99,8 @@ class Addresses:
     keywords on LINK_FLOOR films or more (the rest print as inert chips, as in
     the app). people: name -> chris-ryan, for everyone in the room but the
     anchor, who has no lookup in the app either. directors and actors: name ->
-    address for the people in the app's spotlight pickers, the top twenty of
-    each.
+    address for everyone in the Directors and Actors tables (every director,
+    and every actor on three or more films), each with a spotlight page.
     """
     films: dict
     keywords: dict
@@ -160,8 +160,8 @@ def prepare(ctx):
                .drop(columns="_film").reset_index(drop=True)),
     )
 
-    from rewatchables.app.sections.actors import top_actors
-    from rewatchables.app.sections.directors import top_directors
+    from rewatchables.app.sections.actors import actor_stats
+    from rewatchables.app.sections.directors import director_stats
 
     room = room_long(ctx.merged, "raw_episode_id")
     people = set(room["person"]) - {ANCHOR}
@@ -169,8 +169,8 @@ def prepare(ctx):
         films=slugs,
         keywords=name_slugs(w for w, n in reach.items() if n >= LINK_FLOOR),
         people=name_slugs(people),
-        directors=name_slugs(top_directors(ctx.rated)["director"]),
-        actors=name_slugs(top_actors(ctx.rated)["actor"]),
+        directors=name_slugs(director_stats(ctx.rated)["director"]),
+        actors=name_slugs(actor_stats(ctx.rated)["actor"]),
     )
 
 

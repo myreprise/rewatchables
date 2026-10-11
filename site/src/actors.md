@@ -58,7 +58,7 @@ if (a.gendered) {
 
 ```js
 display(tape("Actor spotlight"));
-display(note("Pick an actor for their covered films, the shape of the work, and the directors they return to."));
+display(note("The twenty most-featured. Every actor in the table below has a spotlight too: their covered films, the shape of the work, and the directors they return to."));
 display(spotlightPicker(a.spotlight, "actor", "./"));
 ```
 

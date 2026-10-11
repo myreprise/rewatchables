@@ -19,8 +19,9 @@ const films = read("./src/data/films.json");
 const keywords = read("./src/data/keywords.json").vocabulary.filter((k) => k.id);
 const people = read("./src/data/people.json");
 
-// And one spotlight per director and actor in the app's pickers.
-const spotlights = (section) => read(`./src/data/sections/${section}.json`).spotlight;
+// And a spotlight for everyone in the Directors and Actors tables: every
+// director, and every actor on three or more films.
+const spotlights = (section) => read(`./src/data/sections/${section}.json`).table.filter((r) => r.id);
 
 // And one page per requested film on the Upcoming list.
 const requests = read("./src/data/upcoming.json").requests ?? [];

@@ -1,4 +1,8 @@
-"""One page per director and actor in the app's spotlight pickers.
+"""One spotlight page per director, and per actor on three or more films.
+
+Everyone in the Directors and Actors sections' tables. The app's pickers
+offer only the top twenty of each; the site gives every row of those tables
+a page, so every name links.
 
 data/directors/<slug>.json and data/actors/<slug>.json: the Directors and
 Actors sections' spotlight, the same panel for both. Its numbers come from
@@ -28,7 +32,7 @@ def spotlight(name, films, collaborators, link):
 
 
 def director_pages(ctx, addresses):
-    """address -> page, for every director in the spotlight picker."""
+    """address -> page, for every director."""
     from rewatchables.app.analysis import films_by_director
     from rewatchables.app.sections.directors import actors_brought_back
 
@@ -42,7 +46,7 @@ def director_pages(ctx, addresses):
 
 
 def actor_pages(ctx, addresses):
-    """address -> page, for every actor in the spotlight picker."""
+    """address -> page, for every actor on three or more films."""
     from rewatchables.app.analysis import films_by_actor
     from rewatchables.app.sections.actors import directors_returned_to
 

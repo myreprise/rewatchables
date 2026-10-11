@@ -36,7 +36,7 @@ display(html`<p class="ch-note">${t.two_plus} directors have more than one film 
 
 ```js
 display(tape("Director spotlight"));
-display(note("Pick a director for their covered films, the shape of the work, and the actors they bring back."));
+display(note("The twenty most-featured. Every director in the table below has a spotlight too: their covered films, the shape of the work, and the actors they bring back."));
 display(spotlightPicker(d.spotlight, "director", "./"));
 ```
 
