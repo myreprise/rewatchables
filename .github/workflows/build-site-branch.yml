@@ -1,0 +1,38 @@
+# Build the public site on a branch, without deploying it.
+#
+# deploy-site.yml builds and deploys from master. This builds any other branch
+# that touches site/, so a change -- the SQLite rework, say -- is proven to
+# build on GitHub's Linux runners (where the data loader runs with python3)
+# before it reaches master. Nothing here is published.
+
+name: Build site (branch check)
+
+on:
+  push:
+    branches-ignore: [master, main]
+    paths:
+      - "site/**"
+      - ".github/workflows/build-site-branch.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: site
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - run: python3 --version
+      - run: npm ci
+      - run: npm run build
+      - name: Report the database the build made
+        run: ls -l dist/_file/data/site.*.db

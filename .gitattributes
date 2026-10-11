@@ -17,3 +17,8 @@ data/upcoming.csv text eol=lf
 # Spreadsheets are binary; never try to merge or diff them as text.
 *.xlsx binary
 *.xls  binary
+
+# The public site's database dump and synopses, written by step 15 with LF and
+# sorted one row per line, so that a publish is a diff of the rows that changed.
+site/src/data/site.sql text eol=lf
+site/src/data/synopses.json text eol=lf
