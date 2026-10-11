@@ -80,6 +80,12 @@ def export(ctx, out=DATA_OUT, theme_dest=SITE_SRC / "theme.css"):
     sql, synopses = site_files(ctx)
     (out / "site.sql").write_text(sql, encoding="utf-8", newline="\n")
     (out / "synopses.json").write_text(synopses, encoding="utf-8", newline="\n")
+    # Framework reruns a data loader only when the loader file is newer than
+    # its cached output, not when the dump the loader reads changes. Touch it,
+    # so a preview or a local build picks up the new data.
+    loader = out / "site.db.py"
+    if loader.exists():
+        loader.touch()
 
     ctx, addresses = prepare(ctx)
 

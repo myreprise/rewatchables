@@ -9,7 +9,9 @@ title: Ratings
 import {filmLink, masthead, table, tape} from "./components/ui.js";
 import {plot} from "./components/plot.js";
 
-const r = FileAttachment("data/sections/ratings.json").json();
+import {section} from "./components/db.js";
+
+const r = await section("ratings");
 ```
 
 ```js

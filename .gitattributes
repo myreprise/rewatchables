@@ -22,3 +22,4 @@ data/upcoming.csv text eol=lf
 # sorted one row per line, so that a publish is a diff of the rows that changed.
 site/src/data/site.sql text eol=lf
 site/src/data/synopses.json text eol=lf
+site/src/queries/*.sql text eol=lf

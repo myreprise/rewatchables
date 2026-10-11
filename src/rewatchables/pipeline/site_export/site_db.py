@@ -84,6 +84,7 @@ SCHEMA = {
         ("id", "TEXT"), ("slug", "TEXT"), ("number", "INTEGER"), ("date", "TEXT"),
         ("is_revisit", "INTEGER"), ("revisit_sequence", "INTEGER"), ("revisit_type", "TEXT"),
         ("verdict", "TEXT"), ("rt", "REAL"), ("ebert", "REAL"), ("note", "TEXT"),
+        ("gap_before", "TEXT"), ("revisit_kind", "TEXT"),
     ], ("id",)),
     "episode_room": ([("episode", "TEXT"), ("seat", "INTEGER"), ("person", "TEXT"),
                       ("chair", "TEXT")], ("episode", "seat")),
@@ -145,9 +146,10 @@ def sql_value(value):
 
 
 def as_json(value):
-    """A value stored as JSON text: stable key order, no spaces, no NaN."""
-    return json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(",", ":"),
-                      allow_nan=False)
+    """A value stored as JSON text: no spaces, no NaN. Keys keep the order the
+    section builder gave them, which is fixed, and which a page can rely on:
+    the tale-of-the-tape table takes its column order from its keys."""
+    return json.dumps(value, ensure_ascii=False, separators=(",", ":"), allow_nan=False)
 
 
 def dump(tables):
@@ -231,18 +233,42 @@ def keyword_table(ctx, addresses, out):
     out["keywords"] = [[w, addresses.keyword(w), n, chip_band(n)] for w, n in ctx.reach.items()]
 
 
+def episode_labels(links):
+    """raw_episode_id -> (gap since the film's previous airing, revisit kind),
+    in the words the dossier's spine prints them: "4 yr 1 mo later",
+    "regular". The first airing of a film has no gap; a first watch no kind."""
+    from views import clean, human_gap
+
+    out = {}
+    for _, eps in links.groupby("movie_id", sort=False):
+        previous = None
+        for _, ep in eps.sort_values("episode_number", kind="mergesort").iterrows():
+            gap = None
+            if previous is not None and pd.notna(ep["episode_date"]):
+                days = (ep["episode_date"] - previous).days
+                gap = human_gap(days) if days > 0 else None
+            previous = ep["episode_date"]
+            kind = None
+            if ep["is_revisit"]:
+                kind = (clean(ep["revisit_type"]) or "revisit").replace("_", " ")
+                kind = kind.replace(" revisit", "")
+            out[ep["raw_episode_id"]] = (gap, kind)
+    return out
+
+
 def episode_tables(ctx, addresses, out):
     from views import ROOM, clean, person_name
 
     films = addresses.films
     ids = episode_ids(ctx.links, films)
+    labels = episode_labels(ctx.links)
     for _, e in ctx.links.iterrows():
         eid = ids[e["raw_episode_id"]]
         out["episodes"].append([
             eid, films[e["movie_id"]], e["episode_number"], e["episode_date"],
             int(bool(e["is_revisit"])), e["revisit_sequence"], clean(e["revisit_type"]),
             clean(e["cruise_hanks"]), num(e["tomatoes_num"]), num(e["ebert_num"]),
-            clean(e["notes"]),
+            clean(e["notes"]), *labels[e["raw_episode_id"]],
         ])
         # Every chair in order, as the sheet has it. A name in two chairs of
         # one episode is one appearance, in the earlier chair, as room_long()

@@ -10,7 +10,13 @@ title: Cruise vs. Hanks
 import {filmCard, gridNote, grid, personLink, posterUrl, table, tape, trail} from "./components/ui.js";
 import {plot} from "./components/plot.js";
 
-const v = FileAttachment("data/sections/verdicts.json").json();
+import {query, section} from "./components/db.js";
+
+// The ledger is the ledger query over the episodes; the rest is the section's.
+const v = {...await section("verdicts"),
+           ledger: (await query("ledger")).map((e) => ({
+             id: e.slug, title: e.title, year: e.year, poster: e.poster,
+             episode: e.number, verdict: e.verdict}))};
 ```
 
 ```js

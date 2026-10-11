@@ -5,13 +5,15 @@ title: Overview
 ```js
 // The front page. Its numbers are the Streamlit overview's, computed by the
 // same Python functions in pipeline step 15; this page only lays them out.
-import {fmt, filmCard, grid, gridNote, masthead, note, posterUrl, rings,
+import {filmHref, personHref, fmt, filmCard, grid, gridNote, masthead, note, posterUrl, rings,
         statRail, statTile, tape} from "./components/ui.js";
 import {plot} from "./components/plot.js";
 
-const ov = FileAttachment("data/overview.json").json();
-const films = FileAttachment("data/films.json").json();
-const episodesPerYear = FileAttachment("data/charts/episodes-per-year.json").json();
+import {films as allFilms, section} from "./components/db.js";
+
+const ov = await section("overview");
+const films = await allFilms();
+const episodesPerYear = ov.figures["episodes-per-year"];
 ```
 
 ```js
@@ -44,7 +46,7 @@ display(html`<div class="rw-reg-row">${ov.regulars.map((r) => html`
   <div class="rw-reg">
     <span class="d">${r.name.split(" ").slice(0, 2).map((w) => w[0]).join("").toUpperCase()}</span>
     <div class="b">
-      <span class="n">${r.id ? html`<a href=${`./person/${r.id}`}>${r.name}</a>` : r.name}</span>
+      <span class="n">${r.id ? html`<a href=${personHref(r.id)}>${r.name}</a>` : r.name}</span>
       <span class="m"><b>${r.episodes}</b> of ${nEps}${r.hosted ? ` · hosted ${r.hosted}` : ""}</span>
       <div class="bar"><i style=${`width:${(100 * r.episodes / nEps).toFixed(0)}%`}></i></div>
     </div>
@@ -112,7 +114,7 @@ display(html`<div class="rw-dt-panel"><div class="rw-spot">
     <span class="m">${meta.join(" · ")}</span>
     <span class="m">${spot.tmdb != null ? html`TMDB <b>${spot.tmdb.toFixed(1)}</b>/10 · ` : ""}featured <b>${spot.episodes}×</b></span>
     <p>${spot.blurb || "No plot summary on file."}</p>
-    <p><a class="rw-back" href=${`./movie/${spot.id}`}>Open the film →</a></p>
+    <p><a class="rw-back" href=${filmHref(spot.id)}>Open the film →</a></p>
   </div>
 </div></div>`);
 ```

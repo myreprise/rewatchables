@@ -204,7 +204,8 @@ def test_every_query_runs(db):
     for path in QUERIES.glob("*.sql"):
         sql = path.read_text(encoding="utf-8")
         n = len(set(re.findall(r"\?\d", sql))) or sql.count("?")
-        db.execute(sql, ["x"] * n).fetchall()
+        # A dummy that is valid both as text and as a JSON array (region_films).
+        db.execute(sql, ['["x"]'] * n).fetchall()
 
 
 # ── Each query against the app function it must agree with ───────────────────
@@ -238,6 +239,19 @@ def test_film_queries_match_the_dossier(ctx, db, slugs):
 
 
 @live
+def test_film_episodes_carry_the_dossiers_labels(ctx, db, slugs):
+    """The gap and revisit kind the spine prints, as the JSON export wrote them."""
+    from rewatchables.pipeline.site_export.common import prepare
+    from rewatchables.pipeline.site_export.films import episode_rows
+
+    prepared, addresses = prepare(ctx)
+    for _, m in sample(prepared.movies).iterrows():
+        want = episode_rows(prepared.links[prepared.links["movie_id"] == m["movie_id"]], addresses)
+        got = run(db, "film_episodes", m["slug"])
+        assert [(e["gap_before"], e["revisit_kind"]) for e in got] ==             [(e["gap_before"], e["revisit_kind"]) for e in want], m["slug"]
+
+
+@live
 def test_explorer_rows_carry_the_explorers_ratings(ctx, db, slugs):
     rows = {r["slug"]: r for r in run(db, "explorer")}
     assert len(rows) == len(ctx.movies)
@@ -263,6 +277,29 @@ def test_keyword_queries_match_the_keyword_overlay(ctx, db, slugs):
         if not prof["thin"]:
             decades = Counter(f["decade"] for f in films if f["decade"] is not None)
             assert max(decades, key=lambda d: (decades[d], -d)) == prof["peak"], word
+
+
+@live
+def test_keyword_region_and_catalogue_match_the_overlay(ctx, db):
+    """The page finds a keyword's region siblings by the same rule as
+    views.region_of, then counts their films with region_films."""
+    from rewatchables.app.overlays.keyword import keyword_profile
+    from views import region_of
+
+    vocabulary = [r["word"] for r in run(db, "keywords")]
+    regional = [w for w, n in sorted(ctx.reach.items()) if n >= LINK_FLOOR and region_of(w)][::15]
+    assert regional
+    for word in regional:
+        prof = keyword_profile(ctx.movies, ctx.keywords, word)
+        siblings = [w for w in vocabulary if region_of(w) == region_of(word)]
+        if prof["region"] is None:
+            assert len(siblings) <= 1, word
+            continue
+        assert len(siblings) == prof["region_places"], word
+        assert run(db, "region_films", json.dumps(siblings))[0]["films"] == prof["region_films"], word
+    cat = run(db, "catalogue")[0]
+    assert cat["films"] == len(ctx.movies) and cat["airings"] == len(ctx.links)
+    assert cat["avg_tmdb"] == pytest.approx(ctx.movies["rating_tmdb"].dropna().mean())
 
 
 @live

@@ -1,30 +1,15 @@
 // Observable Framework configuration for the public Rewatchables site.
 //
-// Everything under src/data/ is written by pipeline step 15
-// (src/rewatchables/pipeline/s15_export_site.py) and committed, so a build needs
-// neither Python nor the database. See site/README.md.
-
-import {readFileSync} from "node:fs";
-
-// One page per film, at /movie/<slug> -- heat-1995 -- made by step 15 from the
-// title and year so an address never changes between publishes. The slugs come
-// from the exported index,
-// so a film added to the catalogue gets a page on the next build.
-const read = (path) => JSON.parse(readFileSync(new URL(path, import.meta.url), "utf-8"));
-const films = read("./src/data/films.json");
-
-// Likewise one page per keyword on two or more films, at /keyword/<slug>, and
-// one per person in the room, at /person/<slug>. A keyword on a single film
-// has no page; its chip is drawn as plain text, as in the app.
-const keywords = read("./src/data/keywords.json").vocabulary.filter((k) => k.id);
-const people = read("./src/data/people.json");
-
-// And a spotlight for everyone in the Directors and Actors tables: every
-// director, and every actor on three or more films.
-const spotlights = (section) => read(`./src/data/sections/${section}.json`).table.filter((r) => r.id);
-
-// And one page per requested film on the Upcoming list.
-const requests = read("./src/data/upcoming.json").requests ?? [];
+// The site's data is one SQLite database, src/data/site.db, built at build time
+// by the data loader src/data/site.db.py from site.sql, the dump pipeline step
+// 15 writes and the repository tracks. Every page queries it in the browser
+// (src/components/db.js, src/queries/). See site/README.md.
+//
+// There is one page per section and one per kind of detail view: a film, a
+// keyword, a person, a director, an actor and a requested film are each one
+// page, which reads the thing it shows from its address (movie?id=heat-1995).
+// Nothing is generated per film, so the build makes the same couple of dozen
+// pages however large the catalogue grows.
 
 export default {
   title: "Rewatchables Explorer",
@@ -55,14 +40,6 @@ export default {
     {name: "On deck", open: true, pages: [
       {name: "Upcoming Films", path: "/upcoming"}
     ]}
-  ],
-  dynamicPaths: [
-    ...films.map((f) => `/movie/${f.id}`),
-    ...keywords.map((k) => `/keyword/${k.id}`),
-    ...people.map((p) => `/person/${p.id}`),
-    ...spotlights("directors").map((d) => `/director/${d.id}`),
-    ...spotlights("actors").map((a) => `/actor/${a.id}`),
-    ...requests.map((r) => `/upcoming/${r.id}`)
   ],
   toc: false,
   pager: false,

@@ -8,7 +8,9 @@ title: Timeline & Revisits
 import {filmCard, filmLink, grid, masthead, table, tape, trail} from "./components/ui.js";
 import {plot} from "./components/plot.js";
 
-const t = FileAttachment("data/sections/timeline.json").json();
+import {section} from "./components/db.js";
+
+const t = await section("timeline");
 ```
 
 ```js

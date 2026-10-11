@@ -4,12 +4,14 @@ title: Movie Explorer
 
 ```js
 // The Movie Explorer: every film, filtered and sorted in the browser. The rows
-// are step 15's films.json, read from the same frame the app's Explorer reads.
+// are the explorer query on site.db, from the same frame the app's Explorer reads.
 // The filters live in the address (?genre=Drama&sort=rt), so a filtered view
 // can be shared, and a film opened from here steps through this list.
 import {filmCard, fmt, grid, gridNote, masthead, stars, trail} from "./components/ui.js";
 
-const films = FileAttachment("data/films.json").json();
+import {films as allFilms} from "./components/db.js";
+
+const films = await allFilms();
 ```
 
 ```js

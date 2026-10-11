@@ -4,13 +4,15 @@ title: Genres
 
 ```js
 // The app's Genres section. The charts are sections/genres.figures(), run by
-// pipeline step 15; the "Browse by genre" shelf filters films.json here, as
+// pipeline step 15; the "Browse by genre" shelf filters the films here, as
 // the app's selectbox filters its frame.
 import {filmCard, gridNote, grid, masthead, tape, trail} from "./components/ui.js";
 import {plot} from "./components/plot.js";
 
-const g = FileAttachment("data/sections/genres.json").json();
-const films = FileAttachment("data/films.json").json();
+import {films as allFilms, section} from "./components/db.js";
+
+const g = await section("genres");
+const films = await allFilms();
 ```
 
 ```js
