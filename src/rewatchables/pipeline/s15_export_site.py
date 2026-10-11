@@ -53,6 +53,7 @@ from rewatchables.pipeline.site_export.keywords import keyword_pages, keywords_i
 from rewatchables.pipeline.site_export.overview import charts, overview
 from rewatchables.pipeline.site_export.people import people_pages
 from rewatchables.pipeline.site_export.sections import section_pages
+from rewatchables.pipeline.site_export.site_db import site_sql
 from rewatchables.pipeline.site_export.spotlights import actor_pages, director_pages
 from rewatchables.pipeline.site_export.upcoming import upcoming
 
@@ -73,6 +74,11 @@ def copy_theme(dest):
 
 def export(ctx, out=DATA_OUT, theme_dest=SITE_SRC / "theme.css"):
     """Write the site's data. Returns {kind: pages written}."""
+    # The SQLite plan, phase 0: the database dump, written beside the JSON
+    # until the pages move over to it.
+    out.mkdir(parents=True, exist_ok=True)
+    (out / "site.sql").write_text(site_sql(ctx), encoding="utf-8", newline="\n")
+
     ctx, addresses = prepare(ctx)
 
     write_rows(out / "films.json", film_rows(ctx))

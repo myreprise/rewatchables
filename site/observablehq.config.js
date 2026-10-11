@@ -28,6 +28,9 @@ const requests = read("./src/data/upcoming.json").requests ?? [];
 
 export default {
   title: "Rewatchables Explorer",
+  // Data loaders (src/data/site.db.py) run with Python. Windows installs it
+  // as `python`; the CI runner, like most Unix systems, as `python3`.
+  interpreters: {".py": [process.platform === "win32" ? "python" : "python3"]},
   root: "src",
   style: "site.css",
   // Grouped as the app's sidebar is (state.NAV).
