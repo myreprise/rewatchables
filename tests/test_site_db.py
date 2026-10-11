@@ -27,7 +27,7 @@ import pandas as pd
 import pytest
 
 from rewatchables.pipeline.site_export import site_db
-from views import ANCHOR, LINK_FLOOR, film_slugs
+from views import ANCHOR, LINK_FLOOR, film_slugs, name_slugs, slugify
 
 ROOT = Path(__file__).parent.parent
 DB_PATH = ROOT / "rewatchables.db"
@@ -59,6 +59,51 @@ def test_a_dump_round_trips_and_keeps_one_row_per_line():
     db = sqlite3.connect(":memory:")
     db.executescript(text)
     assert db.execute("SELECT genre FROM film_genres WHERE slug = 'a-1999'").fetchone() == ("it's\nhere",)
+
+
+# ── Addresses ─────────────────────────────────────────────────────────────────
+
+@pytest.mark.parametrize("title,year,slug", [
+    ("Heat", 1995, "heat-1995"),
+    ("Mission: Impossible", 1996, "mission-impossible-1996"),
+    ("Face/Off", 1997, "face-off-1997"),
+    ("Ocean's Eleven", 2001, "oceans-eleven-2001"),
+    ("Ocean’s Eleven", 2001, "oceans-eleven-2001"),
+    ("When Harry Met Sally...", 1989, "when-harry-met-sally-1989"),
+    ("Fast & Furious", 2009, "fast-and-furious-2009"),
+    ("Amélie", 2001, "amelie-2001"),
+    ("48 Hrs.", 1982, "48-hrs-1982"),
+    ("Heat", None, "heat"),
+    ("...", 2000, "film-2000"),
+])
+def test_slugify(title, year, slug):
+    assert slugify(title, year) == slug
+
+
+def _films(*rows):
+    return pd.DataFrame(rows, columns=["movie_id", "title", "year", "tmdb_id"])
+
+
+def test_film_slugs_suffix_only_the_films_that_collide():
+    films = _films(("a", "Crash", 2004, 1640), ("b", "Crash", 2004, 9999),
+                   ("c", "Heat", 1995, 949))
+    assert film_slugs(films) == {
+        "a": "crash-2004-1640", "b": "crash-2004-9999", "c": "heat-1995"}
+
+
+def test_film_slugs_do_not_depend_on_movie_id():
+    """The whole point: step 06 reissues movie_id on every rebuild."""
+    one = film_slugs(_films(("a", "Heat", 1995, 949)))
+    two = film_slugs(_films(("z", "Heat", 1995, 949)))
+    assert list(one.values()) == list(two.values()) == ["heat-1995"]
+
+
+def test_name_slugs_suffix_a_collision_in_sorted_order():
+    """Keywords and people have no TMDB id to break a tie with."""
+    assert name_slugs(["writer's block", "Chris Ryan"]) == {
+        "writer's block": "writers-block", "Chris Ryan": "chris-ryan"}
+    for names in (["café", "cafe"], ["cafe", "café"]):
+        assert name_slugs(names) == {"cafe": "cafe", "café": "cafe-2"}
 
 
 # ── The database, built from the live one ─────────────────────────────────────
@@ -240,15 +285,24 @@ def test_film_queries_match_the_dossier(ctx, db, slugs):
 
 @live
 def test_film_episodes_carry_the_dossiers_labels(ctx, db, slugs):
-    """The gap and revisit kind the spine prints, as the JSON export wrote them."""
-    from rewatchables.pipeline.site_export.common import prepare
-    from rewatchables.pipeline.site_export.films import episode_rows
+    """The gap and revisit kind the spine prints: views.human_gap between a
+    film's airings in episode order, and the revisit type in words."""
+    from views import clean, human_gap
 
-    prepared, addresses = prepare(ctx)
-    for _, m in sample(prepared.movies).iterrows():
-        want = episode_rows(prepared.links[prepared.links["movie_id"] == m["movie_id"]], addresses)
-        got = run(db, "film_episodes", m["slug"])
-        assert [(e["gap_before"], e["revisit_kind"]) for e in got] ==             [(e["gap_before"], e["revisit_kind"]) for e in want], m["slug"]
+    for _, m in sample(ctx.movies).iterrows():
+        eps = ctx.links[ctx.links["movie_id"] == m["movie_id"]].sort_values(
+            "episode_number", kind="mergesort")
+        want, previous = [], None
+        for _, e in eps.iterrows():
+            days = (e["episode_date"] - previous).days if previous is not None else 0
+            gap = human_gap(days) if days > 0 else None
+            previous = e["episode_date"]
+            kind = None
+            if e["is_revisit"]:
+                kind = (clean(e["revisit_type"]) or "revisit").replace("_", " ").replace(" revisit", "")
+            want.append((gap, kind))
+        got = run(db, "film_episodes", slugs[m["movie_id"]])
+        assert [(e["gap_before"], e["revisit_kind"]) for e in got] == want, m["title"]
 
 
 @live
@@ -390,3 +444,72 @@ def test_section_queries_match_their_frames(ctx, db, slugs):
         assert got["title"] == want["title"]
         assert (got["tags"].split("|") if got["tags"] else []) == list(want["tags"]), want["title"]
     assert len(run(db, "graduated")) == len(ctx.graduated)
+
+
+# ── Each section's stored numbers against the app ─────────────────────────────
+
+def section(db, name):
+    return {r["key"]: json.loads(r["value"]) for r in run(db, "section_data", name)}
+
+
+@live
+def test_overview_numbers_are_the_apps(ctx, db, slugs):
+    from rewatchables.app.sections.overview import came_back_to, show_now
+    from rewatchables.app.state import SLUGS
+
+    ov = section(db, "overview")
+    now = show_now(ctx.episodes, ctx.merged, ctx.movies)
+    assert ov["tiles"]["episodes"] == len(ctx.episodes)
+    assert ov["tiles"]["films"] == len(ctx.movies)
+    assert ov["tiles"]["last_12_months"] == now["n_last_year"]
+    assert ov["as_of"] == now["latest_air"].strftime("%Y-%m-%d")
+    assert {f["id"] for f in ov["came_back_to"]} == {
+        slugs[m] for m in came_back_to(ctx.movies)["movie_id"]}
+    assert ov["anchor"] not in {r["name"] for r in ov["regulars"]}
+    # One door per section but the overview, each to a page the site has.
+    assert len(ov["doors"]) == len(SLUGS) - 1
+    pages = ROOT / "site" / "src"
+    for door in ov["doors"]:
+        assert (pages / f"{door['path']}.md").exists(), door["path"]
+
+
+@live
+def test_section_numbers_are_the_apps(ctx, db):
+    from rewatchables.app.sections import (
+        actors, boxoffice, directors, hosts, ratings, timeline, upcoming, verdicts,
+    )
+
+    b = section(db, "boxoffice")["summary"]
+    s = boxoffice.summary(ctx.movies)
+    assert (b["with_gross"], b["under_break_even"], b["merit_films"]) == (
+        s["with_gross"], s["under_break_even"], s["merit_films"])
+    assert b["rho"] == round(s["rho"], 2)
+
+    critic, _ = ratings.divergence(ctx.merged)
+    assert [r["title"] for r in section(db, "ratings")["critics_love"]] == list(critic["title"])
+
+    assert len(section(db, "timeline")["revisited"]) == len(timeline.revisited_films(ctx.movies))
+
+    v = section(db, "verdicts")
+    assert v["standing"] == verdicts.standing(ctx.cruise_hanks)
+    assert v["lead_changes"] == verdicts.running_margin(ctx.cruise_hanks)[1]
+
+    h = section(db, "hosts")
+    room, others, board = hosts.the_room(ctx.merged)
+    with_anchor, hosted = hosts.anchor_share(room)
+    assert (h["with_anchor"], h["anchor_hosted"], h["everyone_else"]) == (
+        len(with_anchor), hosted, len(board))
+    assert h["comparisons"] == len(hosts.regular_leans(ctx.merged, others, board)[2])
+
+    d = section(db, "directors")
+    assert d["tiles"]["directors"] == directors.director_counts(ctx.rated).size
+    r, n = directors.volume_reception(ctx.rated)
+    assert (d["r"], d["scatter_people"]) == (round(r, 2), n)
+
+    a = section(db, "actors")
+    assert a["tiles"]["actors"] == len(actors.cast_counts(ctx.rated))
+    assert a["credits_total"] == sum(actors.gender_credits(ctx.rated, ctx.gender_map).values())
+    r, n = actors.volume_reception(ctx.rated)
+    assert (a["r"], a["scatter_people"]) == (round(r, 2), n)
+
+    assert section(db, "upcoming")["summary"] == upcoming.queue_summary(ctx.upcoming, ctx.graduated)

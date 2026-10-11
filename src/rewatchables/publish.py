@@ -15,7 +15,8 @@ In order, publish:
      data/manual_review.csv and run publish again. --allow-pending publishes
      without it: the film stays off the site until it is decided;
   3. runs the quick tests that guard the published data (the workbook renders
-     to the tracked CSV; the site export is complete and valid);
+     to the tracked CSV; the site's database is complete, deterministic and
+     agrees with the app);
   4. prints what changed -- "Added: Ep 484, The Texas Chain Saw Massacre" --
      and asks before going further;
   5. commits only the published data files (PUBLISHED below), never anything
@@ -68,7 +69,7 @@ PUBLISHED = (
 EPISODES_CSV = "data/episodes.csv"
 
 # The tests that guard the published data, not the whole suite (~4 minutes).
-QUICK_TESTS = ("tests/test_source_csv.py", "tests/test_export_site.py")
+QUICK_TESTS = ("tests/test_source_csv.py", "tests/test_site_db.py")
 
 
 # ── git ───────────────────────────────────────────────────────────────────────

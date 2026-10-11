@@ -94,15 +94,18 @@ python scripts/orchestrate.py --stages images
 
 ### Publishing
 
-A static version of the explorer lives in `site/`, built with
+The public site lives in `site/`, built with
 [Observable Framework](https://observablehq.com/framework/) and deployed to
-GitHub Pages by `.github/workflows/deploy-site.yml`. It is a prototype: the
-Overview, a filterable list of every film, and one page per film.
+GitHub Pages by `.github/workflows/deploy-site.yml`. It has every section of
+the app, and every page reads one SQLite database, `site.db`, queried in the
+visitor's browser. See `site/README.md`.
 
-Step 15 writes everything the site shows as JSON to `site/src/data/`, using the
-app's own loaders, so the two front ends print the same numbers. It runs at the
-end of every default pipeline run. Those files are committed, so GitHub needs
-neither the database nor a TMDB key.
+Step 15 writes that database as `site/src/data/site.sql`, a sorted SQL dump
+(one row per line, so a new episode is a small diff), plus the synopses, using
+the app's own functions, so the two front ends print the same numbers. It runs
+at the end of every default pipeline run. Those files are committed, so GitHub
+needs neither this machine's database nor a TMDB key; the build turns the dump
+into `site.db`.
 
 `python scripts/publish.py` (or `publish.bat`) does the whole publish:
 
@@ -112,7 +115,8 @@ neither the database nor a TMDB key.
    `data/manual_review.csv` (see below) and run publish again.
    `--allow-pending` publishes without that film for now.
 3. Runs the quick checks on the published data: the workbook renders to the
-   tracked CSV, and the site export is complete and valid.
+   tracked CSV, and the site's database is complete and agrees with the app
+   (`tests/test_site_db.py`, about half a minute).
 4. Prints what changed and asks `Publish this? [y/N]`.
 5. Commits only the published data: both workbooks, both CSVs,
    `manual_review.csv`, `site/src/data/` and `site/src/theme.css`. Other work in

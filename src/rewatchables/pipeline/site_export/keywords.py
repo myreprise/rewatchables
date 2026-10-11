@@ -1,12 +1,9 @@
-"""keywords.json, the Keywords section, and one file per keyword page.
+"""The Keywords section's numbers, stored in site.db's section_data.
 
-A keyword gets a page when it reaches LINK_FLOOR films, the same rule that
-makes its chip a link in the app. The whole vocabulary goes into
-keywords.json all the same, so search still finds the one-film keywords and
-shows them as inert chips, as the app does.
+The vocabulary itself is site.db's keywords table; a keyword on LINK_FLOOR
+films or more has an address there, the same rule that makes its chip a link
+in the app.
 """
-
-from rewatchables.pipeline.site_export.common import card, plain_value
 
 
 def chip(word, reach, addresses):
@@ -47,41 +44,3 @@ def keywords_index(ctx, addresses):
         # Commonest first, which is the order search shows its hits in.
         "vocabulary": [chip(w, reach, addresses) for w in everything],
     }
-
-
-def keyword_page(word, ctx, addresses):
-    """Everything one keyword's page shows, precomputed."""
-    from rewatchables.app.overlays.keyword import keyword_profile
-
-    prof = keyword_profile(ctx.movies, ctx.keywords, word)
-    films = prof["films"].sort_values(["year", "slug"], kind="mergesort")
-
-    def rounded(value, places=1):
-        return None if value is None else round(float(value), places)
-
-    return {
-        "word": word,
-        "id": addresses.keyword(word),
-        "catalogue": len(ctx.movies),
-        "share": rounded(prof["share"]),
-        "thin": prof["thin"],
-        "peak": prof["peak"],
-        "avg_tmdb": rounded(prof["avg_tmdb"]),
-        "vs_catalogue": rounded(prof["vs_catalogue"]),
-        "decades": ([{"decade": d, "n": n} for d, n in prof["decades"].items()]
-                    if prof["decades"] else None),
-        "peak_share": rounded(prof["peak_share"], 0),
-        "catalogue_peak_share": rounded(prof["catalogue_peak_share"], 0),
-        "region": prof["region"],
-        "region_films": prof["region_films"],
-        "region_places": prof["region_places"],
-        "partners": [chip(w, ctx.reach, addresses) for w in prof["partners"]],
-        "films": [{**card(m), "tmdb": plain_value(m["rating_tmdb"])}
-                  for _, m in films.iterrows()],
-    }
-
-
-def keyword_pages(ctx, addresses):
-    """address -> page, for every keyword that has one."""
-    return {slug: keyword_page(word, ctx, addresses)
-            for word, slug in addresses.keywords.items()}

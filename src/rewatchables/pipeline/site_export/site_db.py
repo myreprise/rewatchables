@@ -389,7 +389,7 @@ def section_tables(ctx, addresses, out):
     keywords = keywords_index(ctx, addresses)
     keywords.pop("vocabulary")          # the keywords table holds it
     payloads["keywords"] = keywords
-    queue, _ = upcoming(ctx, addresses)
+    queue = upcoming(ctx, addresses)
     for key in ("requests", "graduated", "unmatched"):
         queue.pop(key, None)           # the requests tables hold these
     payloads["upcoming"] = queue

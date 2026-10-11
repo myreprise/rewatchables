@@ -3,65 +3,48 @@
 Phase J: Export the data the public site reads.
 
 The site in site/ is an Observable Framework project, built and deployed to
-GitHub Pages by .github/workflows/deploy-site.yml. It cannot run Python or read
-the database, so this step writes everything it shows as JSON into
-site/src/data/, and those files are committed. CI then needs neither the
-database nor a TMDB key: it builds the site from what is in the repository.
+GitHub Pages by .github/workflows/deploy-site.yml. Every page reads one SQLite
+database, site.db, and queries it in the visitor's browser. This step writes
+what that database is built from; the files are committed, so CI needs
+neither this machine's database nor a TMDB key:
 
-The numbers come from the Streamlit app's own loaders and helpers, so the two
-front ends print the same figures. The rule is to compute here and only filter
-in the browser. What each kind of page needs is worked out in the
-site_export package, one module per kind; this step runs them and writes:
+  site/src/data/site.sql        the database as a sorted SQL dump, one row per
+                                line, so a publish diffs only the rows that
+                                changed. The data loader site/src/data/site.db.py
+                                turns it into site.db at build time.
+  site/src/data/synopses.json   the full Wikipedia synopses, one film per line,
+                                fetched only when a reader opens one
+  site/src/theme.css            a copy of the app's stylesheet
 
-  site/src/data/films.json             one row per film, for grids and filters
-  site/src/data/films/<slug>.json      one file per film page
-  site/src/data/overview.json          the front page's numbers and lists
-  site/src/data/charts/*.json          Plotly figures, built by the app's code
-  site/src/data/keywords.json          the Keywords section and its vocabulary
-  site/src/data/keywords/<slug>.json   one file per keyword on 2+ films
-  site/src/data/people.json            everyone in the room, for the lookup
-  site/src/data/people/<slug>.json     one file per person
-  site/src/data/sections/<name>.json   each section's figures, numbers and tables
-  site/src/data/directors/<slug>.json  one spotlight per director
-  site/src/data/actors/<slug>.json     one spotlight per actor on three or more films
-  site/src/data/upcoming.json          the Upcoming section: every request, for the filters
-  site/src/data/upcoming/<slug>.json   one file per requested film
-  site/src/theme.css                   a copy of the app's stylesheet
+What goes into the database, and who computes it, is in
+pipeline/site_export/site_db.py. The numbers come from the Streamlit app's own
+functions, so the two front ends print the same figures.
 
-Every page lives at an address made from its name: /movie/heat-1995,
-/keyword/heist, /person/chris-ryan, /director/michael-mann. The site never sees movie_id, which step
-06 mints afresh for every film on each rebuild.
-
-Output is deterministic -- no timestamps, no movie_id, stable ordering, one
-film per line in films.json -- so a commit shows only what changed. A page
-whose film, keyword or person is gone is removed.
-
-Posters are not exported. The site loads them from TMDB's image CDN, the same
-fallback the app uses; static/tmdb/ stays unpublished.
+Everything is keyed by address (heat-1995), never by movie_id, which step 06
+mints afresh on every rebuild. The output is deterministic: the same database
+writes the same bytes.
 """
 
 import logging
+import shutil
 import sys
 from pathlib import Path
 
 from rewatchables import config
-from rewatchables.pipeline.site_export.common import (
-    prepare, write_json, write_pages, write_rows,
-)
-from rewatchables.pipeline.site_export.films import film_pages, film_rows
-from rewatchables.pipeline.site_export.keywords import keyword_pages, keywords_index
-from rewatchables.pipeline.site_export.overview import charts, overview
-from rewatchables.pipeline.site_export.people import people_pages
-from rewatchables.pipeline.site_export.sections import section_pages
 from rewatchables.pipeline.site_export.site_db import site_files
-from rewatchables.pipeline.site_export.spotlights import actor_pages, director_pages
-from rewatchables.pipeline.site_export.upcoming import upcoming
 
 logger = logging.getLogger(__name__)
 
 SITE_SRC = config.ROOT / "site" / "src"
 DATA_OUT = SITE_SRC / "data"
 THEME_SRC = config.ROOT / "src" / "rewatchables" / "app" / "theme.css"
+
+# What this step wrote before the site moved to SQLite (October 2026): a JSON
+# file per film, keyword, person, spotlight and request, and an index or
+# section file for each page. Removed if found, so an old checkout cleans up.
+LEGACY = ("films.json", "overview.json", "keywords.json", "people.json",
+          "upcoming.json", "charts", "films", "keywords", "people", "directors",
+          "actors", "upcoming", "sections")
 
 
 def copy_theme(dest):
@@ -72,10 +55,27 @@ def copy_theme(dest):
     dest.write_text(note + text, encoding="utf-8")
 
 
+def remove_legacy(out):
+    """Delete the JSON export's files from `out`. Returns how many paths went."""
+    gone = 0
+    for name in LEGACY:
+        path = out / name
+        # Tidying up must never stop a publish: OneDrive or an open editor can
+        # hold a folder, and the site does not read these files anyway.
+        try:
+            if path.is_dir():
+                shutil.rmtree(path)
+                gone += 1
+            elif path.exists():
+                path.unlink()
+                gone += 1
+        except OSError as e:
+            logger.warning(f"  could not remove {path.name} ({e}); the site does not read it")
+    return gone
+
+
 def export(ctx, out=DATA_OUT, theme_dest=SITE_SRC / "theme.css"):
-    """Write the site's data. Returns {kind: pages written}."""
-    # The SQLite plan: the database dump and the synopses, written beside
-    # the JSON until the pages move over to them (phase 3 retires the JSON).
+    """Write site.sql and synopses.json. Returns their sizes in bytes."""
     out.mkdir(parents=True, exist_ok=True)
     sql, synopses = site_files(ctx)
     (out / "site.sql").write_text(sql, encoding="utf-8", newline="\n")
@@ -86,31 +86,11 @@ def export(ctx, out=DATA_OUT, theme_dest=SITE_SRC / "theme.css"):
     loader = out / "site.db.py"
     if loader.exists():
         loader.touch()
-
-    ctx, addresses = prepare(ctx)
-
-    write_rows(out / "films.json", film_rows(ctx))
-    write_json(out / "overview.json", overview(ctx, addresses))
-    for name, fig in charts(ctx).items():
-        write_json(out / "charts" / f"{name}.json", fig)
-    write_json(out / "keywords.json", keywords_index(ctx, addresses))
-    people, person_pages = people_pages(ctx, addresses)
-    write_rows(out / "people.json", people)
-    queue, requested = upcoming(ctx, addresses)
-    write_json(out / "upcoming.json", queue)
-
-    written = {
-        "films": write_pages(out / "films", film_pages(ctx, addresses)),
-        "keywords": write_pages(out / "keywords", keyword_pages(ctx, addresses)),
-        "people": write_pages(out / "people", person_pages),
-        "sections": write_pages(out / "sections", section_pages(ctx, addresses)),
-        "directors": write_pages(out / "directors", director_pages(ctx, addresses)),
-        "actors": write_pages(out / "actors", actor_pages(ctx, addresses)),
-        "requested films": write_pages(out / "upcoming", requested),
-    }
+    if remove_legacy(out):
+        logger.info("  removed the JSON export's files, which the site no longer reads")
     if theme_dest is not None:
         copy_theme(theme_dest)
-    return written
+    return {"site.sql": len(sql.encode()), "synopses.json": len(synopses.encode())}
 
 
 def main():
@@ -133,11 +113,9 @@ def main():
     logger.info("Phase J: Export the public site's data")
     logger.info("=" * 60)
     ctx = build_context(stamp())
-    written = export(ctx)
-    size = sum(p.stat().st_size for p in DATA_OUT.rglob("*.json"))
-    pages = ", ".join(f"{n} {kind}" for kind, n in written.items())
-    logger.info(f"Wrote pages for {pages} to "
-                f"{DATA_OUT.relative_to(config.ROOT)} ({size / 1e6:.1f} MB)")
+    sizes = export(ctx)
+    logger.info("Wrote " + ", ".join(f"{name} ({n / 1e6:.1f} MB)" for name, n in sizes.items())
+                + f" to {DATA_OUT.relative_to(config.ROOT)}")
     logger.info("Commit site/ and push to publish.")
     logger.info("=" * 60)
 
