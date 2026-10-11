@@ -4,13 +4,23 @@ title: Directors
 
 ```js
 // The app's Directors section: director_counts(), figures() and
-// ranked_directors(), run by pipeline step 15. Each name in the spotlight
-// picker has a page of its own at /director/<slug>.
-import {masthead, note, statRail, statTile, tape} from "./components/ui.js";
+// ranked_directors(), run by pipeline step 15 into site.db. Every director
+// in the table has a spotlight at director?id=<slug>.
+import {masthead, note, pageHref, statRail, statTile, tape} from "./components/ui.js";
 import {plot} from "./components/plot.js";
 import {spotlightPicker} from "./components/spotlight.js";
 
-const d = FileAttachment("data/sections/directors.json").json();
+import {query, roundEven, section} from "./components/db.js";
+
+// The section's numbers and charts; the table and the picker from the
+// directors table.
+const d = {...await section("directors"),
+           table: (await query("directors_table")).map((r) => ({
+             name: r.name, id: r.slug, films: r.films, tmdb: r.avg_tmdb,
+             rt: roundEven(r.avg_rt != null ? r.avg_rt * 100 : null),
+             runtime: roundEven(r.avg_runtime),
+             first: r.first_year, last: r.last_year})),
+           spotlight: await query("spotlight_picker", "director")};
 ```
 
 ```js
@@ -37,7 +47,7 @@ display(html`<p class="ch-note">${t.two_plus} directors have more than one film 
 ```js
 display(tape("Director spotlight"));
 display(note("The twenty most-featured. Every director in the table below has a spotlight too: their covered films, the shape of the work, and the actors they bring back."));
-display(spotlightPicker(d.spotlight, "director", "./"));
+display(spotlightPicker(d.spotlight, "director"));
 ```
 
 ```js
@@ -52,7 +62,7 @@ display(Inputs.table(d.table, {
   columns: ["name", "films", "tmdb", "rt", "runtime", "first", "last"],
   header: {name: "Director", films: "Films", tmdb: "Avg TMDB", rt: "Avg RT", runtime: "Avg runtime", first: "First", last: "Last"},
   format: {
-    name: (n, i) => d.table[i].id ? html`<a href=${`./director/${d.table[i].id}`}>${n}</a>` : n,
+    name: (n, i) => d.table[i].id ? html`<a href=${pageHref("director", d.table[i].id)}>${n}</a>` : n,
     tmdb: (v) => v?.toFixed(2) ?? "", rt: (v) => (v == null ? "" : `${v}%`),
     first: String, last: String
   },

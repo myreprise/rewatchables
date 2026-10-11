@@ -5,12 +5,23 @@ title: Actors
 ```js
 // The app's Actors section: cast_counts(), gender_credits(), gender_peaks(),
 // figures(), the gender-split leaderboards and ranked_actors(), run by
-// pipeline step 15. Each name in the spotlight picker has a page at /actor/<slug>.
-import {masthead, note, statRail, statTile, tape} from "./components/ui.js";
+// pipeline step 15 into site.db. Every actor in the table has a spotlight at
+// actor?id=<slug>.
+import {masthead, note, pageHref, statRail, statTile, tape} from "./components/ui.js";
 import {plot} from "./components/plot.js";
 import {spotlightPicker} from "./components/spotlight.js";
 
-const a = FileAttachment("data/sections/actors.json").json();
+import {query, roundEven, section} from "./components/db.js";
+
+// The section's numbers and charts; the table and the picker from the
+// actors table.
+const a = {...await section("actors"),
+           table: (await query("actors_table")).map((r) => ({
+             name: r.name, id: r.slug, gender: r.gender, films: r.films, tmdb: r.avg_tmdb,
+             rt: roundEven(r.avg_rt != null ? r.avg_rt * 100 : null),
+             runtime: roundEven(r.avg_runtime),
+             first: r.first_year, last: r.last_year})),
+           spotlight: await query("spotlight_picker", "actor")};
 ```
 
 ```js
@@ -59,7 +70,7 @@ if (a.gendered) {
 ```js
 display(tape("Actor spotlight"));
 display(note("The twenty most-featured. Every actor in the table below has a spotlight too: their covered films, the shape of the work, and the directors they return to."));
-display(spotlightPicker(a.spotlight, "actor", "./"));
+display(spotlightPicker(a.spotlight, "actor"));
 ```
 
 ```js
@@ -75,7 +86,7 @@ display(Inputs.table(a.table, {
   columns: ["name", "gender", "films", "tmdb", "rt", "runtime", "first", "last"],
   header: {name: "Actor", gender: "Gender", films: "Films", tmdb: "Avg TMDB", rt: "Avg RT", runtime: "Avg runtime", first: "First", last: "Last"},
   format: {
-    name: (n, i) => a.table[i].id ? html`<a href=${`./actor/${a.table[i].id}`}>${n}</a>` : n,
+    name: (n, i) => a.table[i].id ? html`<a href=${pageHref("actor", a.table[i].id)}>${n}</a>` : n,
     tmdb: (v) => v?.toFixed(2) ?? "", rt: (v) => (v == null ? "" : `${v}%`),
     first: String, last: String
   },

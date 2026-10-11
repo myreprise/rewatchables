@@ -5,13 +5,38 @@ title: Hosts & Guests
 ```js
 // The app's Hosts & Guests section. Its numbers, heatmaps, leans and the
 // "Without Bill" episodes come from sections/hosts.py, run by pipeline step
-// 15. "Look someone up" is the person pages, one per name, at /person/<slug>.
+// 15. "Look someone up" is the person page, person?id=<slug>.
 import {badge, filmCard, fmt, grid, gridNote, masthead, personHref, personLink,
         rankedList, statRail, statTile, table, tape, trail} from "./components/ui.js";
 import {plot} from "./components/plot.js";
 
-const h = FileAttachment("data/sections/hosts.json").json();
-const people = FileAttachment("data/people.json").json();
+import {asFilm, query, roundEven, section} from "./components/db.js";
+
+// The section's own numbers and heatmaps, and its tables from queries: the
+// bench and the lookup from people, the leans from leans, the episodes
+// without Bill from episodes and the room.
+const h = await section("hosts");
+const [bench, people, leans, solo] = await Promise.all([
+  query("bench", h.bench_floor), query("people"), query("leans"), query("without_anchor", h.anchor)]);
+h.bench = bench.map((p) => ({...p, id: p.slug, share: roundEven(1000 * p.episodes / h.episodes) / 10}));
+h.all_comparisons = leans.map((l) => ({name: l.person, id: l.slug, measure: l.measure, episodes: l.n,
+  theirs: l.theirs, others: l.others, gap: l.gap, p: l.p, q: l.q, shown: !!l.shown}));
+h.regulars = people.filter((p) => p.regular).map((p) => ({
+  name: p.name, id: p.slug, episodes: p.episodes,
+  leans: leans.filter((l) => l.person === p.name && l.shown)
+    .sort((a, b) => a.q - b.q || a.metric.localeCompare(b.metric))
+    .map((l) => ({text: l.phrase, up: l.diff > 0}))}));
+// Grouped by who hosted, busiest first, oldest episode first within each.
+const byHost = new Map();
+for (const e of solo) {
+  const host = e.host ?? "No host listed";
+  if (!byHost.has(host)) byHost.set(host, []);
+  byHost.get(host).push({...asFilm(e), episode: e.number, aired: e.date});
+}
+const slugOf = new Map(people.map((p) => [p.name, p.slug]));
+h.without = [...byHost].sort((a, b) => b[1].length - a[1].length)
+  .map(([host, episodes]) => ({host, id: slugOf.get(host) ?? null, episodes}));
+const lookup = people.map((p) => ({...p, id: p.slug}));
 ```
 
 ```js
@@ -32,7 +57,7 @@ display(html`<p class="ch-note">Bill Simmons is on <b>${h.with_anchor} of ${h.ep
 ```js
 // The app's lookup: each name opens that person's page.
 display(tape("Look someone up"));
-const picker = Inputs.select([null, ...people], {
+const picker = Inputs.select([null, ...lookup], {
   label: "Person", format: (p) => (p ? `${p.name} (${p.episodes})` : "Pick someone…")
 });
 picker.addEventListener("input", () => { if (picker.value) location.href = personHref(picker.value.id, "./"); });

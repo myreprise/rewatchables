@@ -9,7 +9,16 @@ title: Box Office
 import {filmLink, masthead, note, statRail, statTile, table, tape} from "./components/ui.js";
 import {plot} from "./components/plot.js";
 
-const b = FileAttachment("data/sections/boxoffice.json").json();
+import {query, section} from "./components/db.js";
+
+// The data table is the money_table query over the films table; the rest is
+// the section's own numbers and charts.
+const b = {...await section("boxoffice"),
+           table: (await query("money_table")).map((f) => ({
+             id: f.slug, title: f.title, year: f.year,
+             budget: f.budget_real, budget_txt: f.budget, gross: f.revenue_real, gross_txt: f.box_office,
+             return: f.multiple != null ? Math.round(f.multiple * 10) / 10 : null,
+             tmdb: f.tmdb != null ? Math.round(f.tmdb * 10) / 10 : null, episodes: f.episodes}))};
 ```
 
 ```js

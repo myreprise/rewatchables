@@ -1,12 +1,9 @@
-"""upcoming.json, the Upcoming section, and one page per requested film.
+"""The Upcoming section: its numbers, and each request as site.db rows.
 
-A requested film's page is the app's prospect overlay: the film, and why it is
-on the list. It lives at /upcoming/<slug>, made from its title and year as a
-film's address is. upcoming_film_id is not used, for the same reason movie_id
-is not: the list is rebuilt on every pipeline run.
-
-The filters (search, decade, pitch tag, sort) run in the browser over the
-rows written here, as the section's widgets filter its frame in the app.
+A requested film's page (request?id=<slug>) is the app's prospect overlay.
+Its address is made from its title and year as a film's is; upcoming_film_id
+is not used, for the same reason movie_id is not: the list is rebuilt on every
+pipeline run. The filters run in the browser, over the requests table.
 """
 
 import pandas as pd
@@ -85,7 +82,7 @@ def requested_page(row, slug):
 
 
 def upcoming(ctx, addresses):
-    """(the section, address -> requested film page)."""
+    """The section's numbers, with every request, graduate and unmatched one."""
     from rewatchables import images
     from rewatchables.app.sections.upcoming import (
         TOP_TAGS, WHY_SHOWN, queue_summary, shared_tags, tag_counts, unmatched,
@@ -94,7 +91,7 @@ def upcoming(ctx, addresses):
 
     pending, graduated = ctx.upcoming, ctx.graduated
     if not len(pending) and not len(graduated):
-        return {"empty": True}, {}
+        return {"empty": True}
 
     slugs = requested_slugs(pending)
     rows = pending.sort_values("source_row_number", kind="mergesort")
@@ -119,6 +116,4 @@ def upcoming(ctx, addresses):
              "note": RESOLUTION_NOTE.get(r["resolution_method"], "not matched")}
             for _, r in unmatched(rows).iterrows()],
     }
-    pages = {slugs[r["upcoming_film_id"]]: requested_page(r, slugs[r["upcoming_film_id"]])
-             for _, r in rows.iterrows()}
-    return section, pages
+    return section

@@ -49,6 +49,10 @@ jobs:
           path: site/src/.observablehq/cache
           key: framework-${{ hashFiles('site/package-lock.json', 'site/src/**/*.md', 'site/src/**/*.js') }}
           restore-keys: framework-
+      # But never a data loader's output. Framework reruns a loader only when
+      # the loader file changes, not when the data it reads does (site.sql), so
+      # a cached site.db could outlive a publish. Rebuilding it takes seconds.
+      - run: rm -rf src/.observablehq/cache/data
       - run: npm run build
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

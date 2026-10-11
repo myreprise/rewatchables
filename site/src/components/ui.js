@@ -76,11 +76,18 @@ function plate(film, size, cls, lazy = true) {
     : html`<div class=${`poster-plate ${cls}`}>${rings("")}<b>${film.title}</b></div>`;
 }
 
-// `base` is the relative path back to the site root from the page drawing the
-// card: "./" from a top-level page, "../" from a film page. Relative links keep
-// the site working under a GitHub Pages project path (/rewatchables/).
-export function filmHref(id, base) {
-  return `${base}movie/${id}`;
+// Every page sits at the top of the site, and a detail view is one page with
+// the thing it shows in the address: movie?id=heat-1995, keyword?id=heist,
+// person?id=chris-ryan, director?id=..., actor?id=..., request?id=....
+// Relative, so the site works under a GitHub Pages project path
+// (/rewatchables/) as well as at a domain root. `base` is kept for callers
+// that pass one; every page is now at the top, so it is always "./".
+export function pageHref(kind, id, base = "./") {
+  return `${base}${kind}?id=${encodeURIComponent(id)}`;
+}
+
+export function filmHref(id, base = "./") {
+  return pageHref("movie", id, base);
 }
 
 // `tone` ("cruise", "hanks", "tie") adds the app's verdict band under the art.
@@ -127,9 +134,9 @@ export function gridNote(...spans) {
 }
 
 // ── Links between pages ──────────────────────────────────────────────────────
-// Every page has an address made by step 15 from its name: movie/heat-1995,
-// keyword/heist, person/chris-ryan. A null id means the thing has no page (a
-// keyword on one film, the anchor), and it is drawn as plain text.
+// Every film, keyword and person has an address made by step 15 from its name
+// (see pageHref). A null id means the thing has no page (a keyword on one
+// film, the anchor), and it is drawn as plain text.
 
 // A keyword chip carrying its reach. With a page it is a link; `current`
 // marks the keyword whose page this is.
@@ -138,15 +145,15 @@ export function keywordChip(k, base, current = false) {
   if (!k.id || current) {
     return html`<span class=${k.id || current ? cls : "rw-kw-chip is-inert"}>${k.word} <b>${k.reach}</b></span>`;
   }
-  return html`<a class=${cls} href=${`${base}keyword/${k.id}`}>${k.word} <b>${k.reach}</b></a>`;
+  return html`<a class=${cls} href=${pageHref("keyword", k.id, base)}>${k.word} <b>${k.reach}</b></a>`;
 }
 
 export function chipField(chips, base, current = null) {
   return html`<div class="rw-kw-field">${chips.map((k) => keywordChip(k, base, k.word === current))}</div>`;
 }
 
-export function personHref(id, base) {
-  return `${base}person/${id}`;
+export function personHref(id, base = "./") {
+  return pageHref("person", id, base);
 }
 
 // A name, linked to its page when it has one.

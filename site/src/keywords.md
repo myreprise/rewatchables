@@ -3,12 +3,16 @@ title: Keywords
 ---
 
 ```js
-// The app's Keywords section. Step 15 writes data/keywords.json from the
-// section's own functions: the headline counts, the reach bands, each decade's
-// signature, and the whole vocabulary, which search runs over here.
-import {chipField, masthead, statRail, statTile, tape} from "./components/ui.js";
+// The app's Keywords section. Its headline counts, reach bands and each
+// decade's signature come from the section's own functions, via site.db; the
+// whole vocabulary is the keywords table, and search runs over it here.
+import {chipField, pageHref, masthead, statRail, statTile, tape} from "./components/ui.js";
 
-const kw = FileAttachment("data/keywords.json").json();
+import {query as dbQuery, section} from "./components/db.js";
+
+// The section's numbers, and the whole vocabulary from the keywords table.
+const kw = {...await section("keywords"),
+            vocabulary: (await dbQuery("keywords")).map((k) => ({...k, id: k.slug}))};
 ```
 
 ```js
@@ -61,7 +65,7 @@ display(html`<div class="rw-kw-decades">${kw.signature.map((d) => html`
   <div class="rw-kw-dec"><h5>${d.decade}s</h5><span class="n">${d.films} films</span>
     <ol>${d.top.map((k) => {
       const chip = byWord.get(k.word);
-      return html`<li><span>${chip?.id ? html`<a href=${`./keyword/${chip.id}`}>${k.word}</a>` : k.word}</span><b>${k.n}</b></li>`;
+      return html`<li><span>${chip?.id ? html`<a href=${pageHref("keyword", chip.id)}>${k.word}</a>` : k.word}</span><b>${k.n}</b></li>`;
     })}</ol>
   </div>`)}</div>`);
 ```
