@@ -81,4 +81,13 @@ partway through. The one-time removal went through git instead.
 - **Production build:** 19 pages, 19 s, 6.5 MB. Served under
   `/rewatchables/`, every page type renders with its charts and no errors,
   and an old link forwards to its new address.
-- **Live site after the merge:** see below.
+- **Live site after the merge** (`7ee5827`, deploy run 38155247287, success):
+  - every page type renders, charts drawn and no errors (headless Chrome);
+  - all six kinds of old link (`/movie/heat-1995`, `/keyword/heist`,
+    `/person/chris-ryan`, `/director/michael-mann`, `/actor/tom-hanks`,
+    `/upcoming/alien-3-1992`) forward through GitHub's own 404 page;
+  - `site.db` is served gzipped: 626 KB transferred;
+  - a cold visit to Heat's page on throttled fast 4G (60 ms, 9 Mbps, cache
+    off) downloads the database (626 KB), the SQLite engine (318 KB) and the
+    queries (4 KB), and showed the page within 4.5 s. That figure was read
+    after the page had settled, so it is an upper bound.
