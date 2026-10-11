@@ -250,6 +250,7 @@ def test_export_survives_a_rebuild_that_reissues_every_movie_id(ctx, exported, t
         movies=shuffle(ctx.movies),
         links=shuffle(ctx.links), merged=shuffle(ctx.merged),
         cruise_hanks=shuffle(ctx.cruise_hanks), rated=reissue(ctx.rated),
+        graduated=reissue(ctx.graduated),
     )
     again = tmp_path / "data"
     export_site.export(rebuilt, out=again, theme_dest=None)
@@ -486,3 +487,45 @@ def test_people_section_numbers_are_the_apps(ctx, exported):
     assert a["tiles"]["actors"] == len(actors.cast_counts(ctx.rated))
     assert len(a["table"]) == len(actors.actor_stats(ctx.rated))
     assert a["credits_total"] == sum(actors.gender_credits(ctx.rated, ctx.gender_map).values())
+
+
+# ── Upcoming, the doors, the computed captions ────────────────────────────────
+
+@live
+def test_every_request_has_a_page_and_the_numbers_are_the_apps(ctx, exported):
+    from rewatchables.app.sections.upcoming import queue_summary, unmatched
+
+    u = _strict_load(exported / "upcoming.json")
+    pages = _pages(exported, "upcoming")
+    assert len(u["requests"]) == len(ctx.upcoming) == len(pages)
+    assert {r["id"] for r in u["requests"]} == set(pages)
+    assert all(re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", i) for i in pages)
+    assert u["summary"] == queue_summary(ctx.upcoming, ctx.graduated)
+    assert {r["id"] for r in u["unmatched"]} <= set(pages)
+    assert len(u["unmatched"]) == len(unmatched(ctx.upcoming))
+    films = {p.stem for p in (exported / "films").glob("*.json")}
+    assert {g["id"] for g in u["graduated"] if g["id"]} <= films
+    orders = [r["order"] for r in u["requests"]]
+    assert orders == sorted(orders)
+
+
+@live
+def test_overview_has_a_door_for_every_section_the_site_has(exported):
+    from rewatchables.app.state import SLUGS
+
+    doors = _strict_load(exported / "overview.json")["doors"]
+    assert len(doors) == len(SLUGS) - 1
+    site = Path(__file__).parent.parent / "site" / "src"
+    for door in doors:
+        assert (site / f"{door['path']}.md").exists(), door["path"]
+
+
+@live
+def test_scatter_captions_are_computed(ctx, exported):
+    from rewatchables.app.sections import actors, directors
+
+    pages = _pages(exported, "sections")
+    r, n = directors.volume_reception(ctx.rated)
+    assert (pages["directors"]["r"], pages["directors"]["scatter_people"]) == (round(r, 2), n)
+    r, n = actors.volume_reception(ctx.rated)
+    assert (pages["actors"]["r"], pages["actors"]["scatter_people"]) == (round(r, 2), n)

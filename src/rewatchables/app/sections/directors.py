@@ -48,6 +48,14 @@ def ranked_directors(rated):
     return director_stats(rated).sort_values(["films", "avg_tmdb"], ascending=[False, False])
 
 
+def volume_reception(rated):
+    """(Pearson r of films covered against average TMDB, directors counted),
+    over the directors on the scatter."""
+    stats = director_stats(rated)
+    stats = stats[stats["films"] >= SCATTER_FROM]
+    return float(stats["films"].corr(stats["avg_tmdb"])), len(stats)
+
+
 def actors_brought_back(dir_films):
     """(actor, films) for actors credited on two or more of these films."""
     regulars = Counter(
@@ -130,11 +138,12 @@ def render(ctx):
     st.plotly_chart(per_database("directors:scatter", ctx.stamp,
                                  lambda: scatter_figure(movies_rated)),
                     use_container_width=True)
+    r, n = volume_reception(movies_rated)
     st.markdown(
         '<p class="ch-note">Directors with two or more covered films; bubble size '
         "is average runtime. Only those with four or more are named &mdash; the rest "
         "are on hover. Being covered often and being rated well are weakly related "
-        "for directors &mdash; <b>r = 0.30</b> across these 97 &mdash; so the show "
+        f"for directors &mdash; <b>r = {r:.2f}</b> across these {n} &mdash; so the show "
         "does lean slightly toward the better-reviewed, but it explains little of "
         "the spread.</p>",
         unsafe_allow_html=True,

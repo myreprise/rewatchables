@@ -65,7 +65,7 @@ display(spotlightPicker(a.spotlight, "actor", "./"));
 ```js
 display(tape("Volume against reception"));
 display(chart(a.figures.scatter));
-display(html`<p class="ch-note">Actors with three or more covered films; bubble size is average runtime. Only those with eight or more are named — the rest are on hover. For actors the link between being cast often and being in well-rated films is <b>absent — r = 0.08</b>. Of ${t.actors.toLocaleString()} actors, ${t.named} clear eight films.</p>`);
+display(html`<p class="ch-note">Actors with three or more covered films; bubble size is average runtime. Only those with eight or more are named — the rest are on hover. For actors the link between being cast often and being in well-rated films is <b>absent — r = ${a.r.toFixed(2)}</b>. Of ${t.actors.toLocaleString()} actors, ${t.named} clear eight films.</p>`);
 ```
 
 ```js

@@ -12,6 +12,44 @@ from rewatchables.app.state import keep, open_dossier
 from views import RESOLUTION_NOTE, html, keyword_chip, stat_tile
 
 
+# Requests whose full "why" is shown under the grid.
+WHY_SHOWN = 12
+# Tags in "The angles people pitch".
+TOP_TAGS = 24
+
+
+def queue_summary(upcoming_df, graduated_df):
+    """The section's headline numbers."""
+    years = upcoming_df["year"].dropna()
+    return {
+        "in_contention": len(upcoming_df),
+        "already_made": len(graduated_df),
+        "first_year": int(years.min()) if len(years) else None,
+        "last_year": int(years.max()) if len(years) else None,
+        "contributors": int(upcoming_df["contributor"].dropna().nunique()),
+        "matched": int(upcoming_df["resolved"].sum()),
+        "with_note": int(upcoming_df["mention_note"].notna().sum()),
+        "with_tags": int(upcoming_df["pitch_tags"].notna().sum()),
+    }
+
+
+def tag_counts(upcoming_df):
+    """Pitch tag -> requests carrying it."""
+    return Counter(t for tags in upcoming_df["tags"] for t in tags)
+
+
+def shared_tags(upcoming_df):
+    """The tags on more than one request, alphabetically. A tag with a single
+    film is a caption, not an axis -- it filters the grid down to the card you
+    would have had to already be looking at to pick it."""
+    return sorted(t for t, n in tag_counts(upcoming_df).items() if n > 1)
+
+
+def unmatched(upcoming_df):
+    """The requests with no TMDB match."""
+    return upcoming_df[~upcoming_df["resolved"]]
+
+
 def render(ctx):
     graduated_df = ctx.graduated
     upcoming_df = ctx.upcoming
@@ -31,19 +69,17 @@ def render(ctx):
         )
         st.stop()
 
-    n_resolved = int(upcoming_df["resolved"].sum())
-    years = upcoming_df["year"].dropna()
-    contributors = upcoming_df["contributor"].dropna().nunique()
+    s = queue_summary(upcoming_df, graduated_df)
 
     st.markdown(
         '<div class="rw-dt-rail">'
-        + stat_tile("In contention", f"{len(upcoming_df):,}")
-        + stat_tile("Already made", len(graduated_df), coral=True)
+        + stat_tile("In contention", f"{s['in_contention']:,}")
+        + stat_tile("Already made", s["already_made"], coral=True)
         + stat_tile(
             "Span",
-            f"{int(years.min())}&ndash;{int(years.max())}" if len(years) else None)
-        + stat_tile("Contributors", contributors)
-        + stat_tile("Matched to TMDB", f"{100 * n_resolved / len(upcoming_df):.0f}", "%")
+            f"{s['first_year']}&ndash;{s['last_year']}" if s["first_year"] else None)
+        + stat_tile("Contributors", s["contributors"])
+        + stat_tile("Matched to TMDB", f"{100 * s['matched'] / s['in_contention']:.0f}", "%")
         + "</div>",
         unsafe_allow_html=True,
     )
@@ -69,13 +105,10 @@ def render(ctx):
             ["All"] + [f"{d}s" for d in decades_present],
             key="flt_up_decade")
 
-    # Only tags reaching more than one film are offered. A tag with a single
-    # film is a caption, not an axis -- it filters the grid down to the card you
-    # would have had to already be looking at to pick it.
-    tag_counts = Counter(t for tags in upcoming_df["tags"] for t in tags)
-    shared_tags = sorted(t for t, n in tag_counts.items() if n > 1)
+    # Only tags reaching more than one film are offered; see shared_tags.
+    offered = shared_tags(upcoming_df)
     with f3:
-        tag_pick = keep(st.selectbox, "Pitched as", ["All"] + shared_tags,
+        tag_pick = keep(st.selectbox, "Pitched as", ["All"] + offered,
                         key="flt_up_tag")
 
     with f4:
@@ -136,13 +169,13 @@ def render(ctx):
         '<p class="rw-up-note">Every request carries either a note citing where '
         'the film came up on air, or a comma-separated pitch. They are '
         'alternatives, not both &mdash; the source records one or the other. '
-        f'<b>{int(upcoming_df["mention_note"].notna().sum())}</b> films have a '
-        f'note, <b>{int(upcoming_df["pitch_tags"].notna().sum())}</b> have '
+        f'<b>{s["with_note"]}</b> films have a '
+        f'note, <b>{s["with_tags"]}</b> have '
         'tags.</p>',
         unsafe_allow_html=True,
     )
 
-    show = view.head(12)
+    show = view.head(WHY_SHOWN)
     note_cols = st.columns(2)
     for i, (_, row) in enumerate(show.iterrows()):
         with note_cols[i % 2]:
@@ -157,10 +190,10 @@ def render(ctx):
                    "Narrow the filters above to reach the rest.")
 
     # ── The most-pitched angles ──
-    if shared_tags:
+    if offered:
         st.markdown("---")
         tape("The angles people pitch")
-        top_tags = tag_counts.most_common(24)
+        top_tags = tag_counts(upcoming_df).most_common(TOP_TAGS)
         st.markdown(
             '<div class="rw-kw-field">'
             + "".join(keyword_chip(t, n) for t, n in top_tags)
@@ -216,12 +249,12 @@ def render(ctx):
                     open_dossier(row["movie_id"])
 
     # ── What did not resolve ──
-    unmatched = upcoming_df[~upcoming_df["resolved"]]
-    if len(unmatched):
+    unresolved = unmatched(upcoming_df)
+    if len(unresolved):
         st.markdown("---")
         tape("Not matched to a film")
         st.markdown(
-            f'<p class="rw-up-note"><b>{len(unmatched)}</b> requests carry no '
+            f'<p class="rw-up-note"><b>{len(unresolved)}</b> requests carry no '
             'TMDB match, so they show without a poster. Two are TV series on a '
             'list of films, one gives no year, and the rest are titles TMDB '
             'spells differently. They are kept rather than hidden &mdash; each '
@@ -229,7 +262,7 @@ def render(ctx):
             'mistaken for one that has already aired.</p>',
             unsafe_allow_html=True,
         )
-        for _, row in unmatched.iterrows():
+        for _, row in unresolved.iterrows():
             year_suffix = f" ({row['year_raw']})" if row["year_raw"] else ""
             note = RESOLUTION_NOTE.get(row["resolution_method"], "not matched")
             st.markdown(

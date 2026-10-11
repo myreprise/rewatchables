@@ -90,6 +90,42 @@ def episodes_per_year(episodes_df):
     return fig, ep_year
 
 
+def doors(ctx):
+    """[(section slug, number, unit, blurb)]: one door per section of the rail
+    but this one, in rail order, each carrying the one number that says what
+    is behind it."""
+    movies_df, episodes_df = ctx.movies, ctx.episodes
+    in_room, _, _ = regulars(episodes_df)
+    n_genres = explode_genres(movies_df)["genre"].nunique()
+    yr_min = int(episodes_df["date"].dt.year.min())
+    yr_max = int(episodes_df["date"].dt.year.max())
+    rt_median = episodes_df["tomatoes_num"].median()
+    return [
+        ("explorer", f"{len(movies_df):,}", "films",
+         "Filter the whole catalogue by decade, genre, director, rating and runtime."),
+        ("genres", f"{n_genres}", "genres",
+         "How the mix shifts across the decades they cover, and which genres travel together."),
+        ("directors", f"{movies_df['director_primary'].nunique()}", "directors",
+         "Who gets called back to the chair, their genre range and each one's run on the show."),
+        ("actors", f"{len(explode_cast(movies_df, top_n=100_000)):,}", "actors",
+         "Who keeps turning up on screen, the films they carry and the directors they work with."),
+        ("keywords", f"{len(ctx.keywords):,}", "terms",
+         "TMDB's keyword tags across every film: the themes, settings and tropes that recur."),
+        ("ratings", f"{rt_median * 100:.0f}", "% median RT",
+         "Tomatometer, Ebert stars and TMDB scores, and where the critics and the audience split."),
+        ("boxoffice", f"{int(movies_df['revenue_real'].notna().sum())}", "with a gross",
+         "Budgets and grosses in today's dollars, and which films made their money back."),
+        ("hosts", f"{len(in_room)}", "besides Bill",
+         "Look anyone up, see who sits together, and what each regular gets booked on."),
+        ("timeline", f"{yr_min}–{yr_max}", "",
+         "The show year by year, how old the films were when featured, and the revisits."),
+        ("verdicts", f"{len(ctx.cruise_hanks)}", "verdicts",
+         "The recurring bit: which of the two is the bigger star, episode by episode."),
+        ("upcoming", f"{len(ctx.upcoming):,}", "in the queue",
+         "Listener requests that have not aired yet, with the reason each is on the list."),
+    ]
+
+
 def render(ctx):
     KEYWORDS = ctx.keywords
     ch_df = ctx.cruise_hanks
@@ -263,39 +299,12 @@ def render(ctx):
     # numbering, each carrying the one number that says what is behind it.
     tape("Go deeper")
     group_of = {slug: group for group, items in NAV for slug, _ in items}
-    n_genres = explode_genres(movies_df)["genre"].nunique()
-    yr_min = int(episodes_df["date"].dt.year.min())
-    yr_max = int(episodes_df["date"].dt.year.max())
-    rt_median = episodes_df["tomatoes_num"].median()
-    doors = [
-        ("explorer", f"{len(movies_df):,}", "films",
-         "Filter the whole catalogue by decade, genre, director, rating and runtime."),
-        ("genres", f"{n_genres}", "genres",
-         "How the mix shifts across the decades they cover, and which genres travel together."),
-        ("directors", f"{movies_df['director_primary'].nunique()}", "directors",
-         "Who gets called back to the chair, their genre range and each one's run on the show."),
-        ("actors", f"{len(explode_cast(movies_df, top_n=100_000)):,}", "actors",
-         "Who keeps turning up on screen, the films they carry and the directors they work with."),
-        ("keywords", f"{len(KEYWORDS):,}", "terms",
-         "TMDB's keyword tags across every film: the themes, settings and tropes that recur."),
-        ("ratings", f"{rt_median * 100:.0f}", "% median RT",
-         "Tomatometer, Ebert stars and TMDB scores, and where the critics and the audience split."),
-        ("boxoffice", f"{int(movies_df['revenue_real'].notna().sum())}", "with a gross",
-         "Budgets and grosses in today's dollars, and which films made their money back."),
-        ("hosts", f"{len(in_room)}", "besides Bill",
-         "Look anyone up, see who sits together, and what each regular gets booked on."),
-        ("timeline", f"{yr_min}&ndash;{yr_max}", "",
-         "The show year by year, how old the films were when featured, and the revisits."),
-        ("verdicts", f"{len(ch_df)}", "verdicts",
-         "The recurring bit: which of the two is the bigger star, episode by episode."),
-        ("upcoming", f"{len(upcoming_df):,}", "in the queue",
-         "Listener requests that have not aired yet, with the reason each is on the list."),
-    ]
+    all_doors = doors(ctx)
     # Four across: eleven doors over rows of five left a single door stranded.
     per_row = 4
-    for start in range(0, len(doors), per_row):
+    for start in range(0, len(all_doors), per_row):
         cols = st.columns(per_row)
-        for col, (slug, number, unit, blurb) in zip(cols, doors[start:start + per_row]):
+        for col, (slug, number, unit, blurb) in zip(cols, all_doors[start:start + per_row]):
             with col:
                 unit_html = f"<small>{unit}</small>" if unit else ""
                 st.markdown(

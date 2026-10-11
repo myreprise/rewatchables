@@ -80,15 +80,16 @@ display(html`<div class="rw-split">
 ```
 
 ```js
+// One door per section, in the rail's order and numbering, each with the one
+// number that says what is behind it: overview.doors() in the app.
 display(tape("Go deeper"));
-display(html`<div class="rw-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))">
-  <a class="rw-door-link" href="./films"><div class="rw-door">
-    <span class="k">Catalogue</span>
-    <span class="v">${films.length.toLocaleString()}<small>films</small></span>
-    <span class="t">All films</span>
-    <p>Search the whole catalogue and filter it by decade and genre.</p>
-  </div></a>
-</div>`);
+display(html`<div class="rw-grid rw-doors">${ov.doors.map((d) => html`
+  <a class="rw-door-link" href=${`./${d.path}`}><div class="rw-door"><span class="rw-doormark"></span>
+    <span class="k">${d.group} · ${String(d.number_in_rail).padStart(2, "0")}</span>
+    <span class="v">${d.value}${d.unit ? html`<small>${d.unit}</small>` : ""}</span>
+    <span class="t">${d.label}</span>
+    <p>${d.blurb}</p>
+  </div></a>`)}</div>`);
 ```
 
 ```js

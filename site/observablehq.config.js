@@ -22,12 +22,14 @@ const people = read("./src/data/people.json");
 // And one spotlight per director and actor in the app's pickers.
 const spotlights = (section) => read(`./src/data/sections/${section}.json`).spotlight;
 
+// And one page per requested film on the Upcoming list.
+const requests = read("./src/data/upcoming.json").requests ?? [];
+
 export default {
   title: "Rewatchables Explorer",
   root: "src",
   style: "site.css",
-  // Grouped as the app's sidebar is (state.NAV). Sections the site does not
-  // have yet are left out rather than shown empty.
+  // Grouped as the app's sidebar is (state.NAV).
   pages: [
     {name: "Overview", path: "/"},
     {name: "Movie Explorer", path: "/films"},
@@ -45,6 +47,9 @@ export default {
     ]},
     {name: "The bits", open: true, pages: [
       {name: "Cruise vs. Hanks", path: "/verdicts"}
+    ]},
+    {name: "On deck", open: true, pages: [
+      {name: "Upcoming Films", path: "/upcoming"}
     ]}
   ],
   dynamicPaths: [
@@ -52,7 +57,8 @@ export default {
     ...keywords.map((k) => `/keyword/${k.id}`),
     ...people.map((p) => `/person/${p.id}`),
     ...spotlights("directors").map((d) => `/director/${d.id}`),
-    ...spotlights("actors").map((a) => `/actor/${a.id}`)
+    ...spotlights("actors").map((a) => `/actor/${a.id}`),
+    ...requests.map((r) => `/upcoming/${r.id}`)
   ],
   toc: false,
   pager: false,

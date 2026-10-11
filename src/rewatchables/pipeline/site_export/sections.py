@@ -270,11 +270,14 @@ def person_rows(stats, name_col, link):
 
 def directors(ctx, addresses):
     from rewatchables.app.sections.directors import (
-        figures, director_counts, ranked_directors, top_directors,
+        figures, director_counts, ranked_directors, top_directors, volume_reception,
     )
 
     counts = director_counts(ctx.rated)
+    r, n = volume_reception(ctx.rated)
     return {
+        "r": round(r, 2),
+        "scatter_people": n,
         "tiles": {
             "directors": int(counts.size),
             "one": int((counts == 1).sum()),
@@ -294,7 +297,7 @@ def actors(ctx, addresses):
     from rewatchables.app.panels import gender_leaderboard_figs
     from rewatchables.app.sections.actors import (
         GENDER_TOP, NAMED_FROM, cast_counts, figures, gender_credits, gender_peaks,
-        has_genders, ranked_actors, top_actors,
+        has_genders, ranked_actors, top_actors, volume_reception,
     )
 
     rated, genders = ctx.rated, ctx.gender_map
@@ -302,7 +305,10 @@ def actors(ctx, addresses):
     credits = gender_credits(rated, genders)
     gendered = has_genders(credits)
     men_top, women_top, first_woman = gender_peaks(rated, genders)
+    r, n = volume_reception(rated)
     return {
+        "r": round(r, 2),
+        "scatter_people": n,
         "tiles": {
             "actors": len(cast_all),
             "one": int((cast_all["count"] == 1).sum()),

@@ -43,7 +43,7 @@ display(spotlightPicker(d.spotlight, "director", "./"));
 ```js
 display(tape("Volume against reception"));
 display(chart("scatter"));
-display(html`<p class="ch-note">Directors with two or more covered films; bubble size is average runtime. Only those with four or more are named — the rest are on hover. Being covered often and being rated well are weakly related for directors — <b>r = 0.30</b> across these 97 — so the show does lean slightly toward the better-reviewed, but it explains little of the spread.</p>`);
+display(html`<p class="ch-note">Directors with two or more covered films; bubble size is average runtime. Only those with four or more are named — the rest are on hover. Being covered often and being rated well are weakly related for directors — <b>r = ${d.r.toFixed(2)}</b> across these ${d.scatter_people} — so the show does lean slightly toward the better-reviewed, but it explains little of the spread.</p>`);
 ```
 
 ```js

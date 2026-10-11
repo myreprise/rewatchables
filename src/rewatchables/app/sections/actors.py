@@ -75,6 +75,13 @@ def actor_stats(rated):
     return stats[stats["films"] >= SCATTER_FROM]
 
 
+def volume_reception(rated):
+    """(Pearson r of films covered against average TMDB, actors counted),
+    over the actors on the scatter."""
+    stats = actor_stats(rated)
+    return float(stats["films"].corr(stats["avg_tmdb"])), len(stats)
+
+
 def ranked_actors(rated, gender_map):
     """actor_stats in the table's order, with each actor's gender label."""
     return (actor_stats(rated)
@@ -216,11 +223,12 @@ def render(ctx):
     st.plotly_chart(per_database("actors:scatter", ctx.stamp,
                                  lambda: scatter_figure(movies_rated)),
                     use_container_width=True)
+    r, _ = volume_reception(movies_rated)
     st.markdown(
         '<p class="ch-note">Actors with three or more covered films; bubble size '
         "is average runtime. Only those with eight or more are named &mdash; the "
         "rest are on hover. For actors the link between being cast often and being "
-        "in well-rated films is <b>absent &mdash; r = 0.08</b>. Of "
+        f"in well-rated films is <b>absent &mdash; r = {r:.2f}</b>. Of "
         f"{len(cast_all):,} actors, {int((cast_all['count'] >= NAMED_FROM).sum())} clear "
         "eight films.</p>",
         unsafe_allow_html=True,

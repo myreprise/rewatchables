@@ -86,7 +86,13 @@ export function filmHref(id, base) {
 // `tone` ("cruise", "hanks", "tie") adds the app's verdict band under the art.
 // The caption is expected to say the same in words.
 export function filmCard(film, subtitle, base, tone = "") {
-  return html`<a class="rw-cardlink" href=${filmHref(film.id, base)}>
+  return posterCard(film, subtitle, filmHref(film.id, base), tone);
+}
+
+// The same card, linking anywhere: a requested film opens its own page, not a
+// film's.
+export function posterCard(film, subtitle, href, tone = "") {
+  return html`<a class="rw-cardlink" href=${href}>
     <div class="poster-card">
       ${plate(film, "w185", "poster-img")}
       ${tone ? html`<div class=${`poster-rule ${tone}`}></div>` : ""}
@@ -220,4 +226,17 @@ export function table(rows, columns) {
     <thead><tr>${columns.map(([h, , num]) => html`<th class=${num ? "num" : ""}>${h}</th>`)}</tr></thead>
     <tbody>${rows.map((r) => html`<tr>${columns.map(([, cell, num]) => html`<td class=${num ? "num" : ""}>${cell(r)}</td>`)}</tr>`)}</tbody>
   </table></div>`;
+}
+
+// The reason a requested film is on the list, and who put it there: the
+// app's why_html. A note, or the pitch tags, or a line saying neither.
+export function whyPanel(r) {
+  const body = r.note
+    ? r.note
+    : r.tags.length
+      ? html`<div class="rw-up-tags">${r.tags.map((t) => html`<span class="rw-up-tag">${t}</span>`)}</div>`
+      : html`<i style="color:var(--txt-3)">No reason recorded.</i>`;
+  return html`<div class="rw-up-why">${body}${r.by
+    ? html`<span class="who">Put forward by <a href=${r.by.href} target="_blank" rel="noopener">${r.by.label}</a></span>`
+    : ""}</div>`;
 }

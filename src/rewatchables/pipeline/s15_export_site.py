@@ -24,6 +24,8 @@ site_export package, one module per kind; this step runs them and writes:
   site/src/data/sections/<name>.json   each section's figures, numbers and tables
   site/src/data/directors/<slug>.json  one spotlight per director in the app's picker
   site/src/data/actors/<slug>.json     one spotlight per actor in the app's picker
+  site/src/data/upcoming.json          the Upcoming section: every request, for the filters
+  site/src/data/upcoming/<slug>.json   one file per requested film
   site/src/theme.css                   a copy of the app's stylesheet
 
 Every page lives at an address made from its name: /movie/heat-1995,
@@ -52,6 +54,7 @@ from rewatchables.pipeline.site_export.overview import charts, overview
 from rewatchables.pipeline.site_export.people import people_pages
 from rewatchables.pipeline.site_export.sections import section_pages
 from rewatchables.pipeline.site_export.spotlights import actor_pages, director_pages
+from rewatchables.pipeline.site_export.upcoming import upcoming
 
 logger = logging.getLogger(__name__)
 
@@ -79,6 +82,8 @@ def export(ctx, out=DATA_OUT, theme_dest=SITE_SRC / "theme.css"):
     write_json(out / "keywords.json", keywords_index(ctx, addresses))
     people, person_pages = people_pages(ctx, addresses)
     write_rows(out / "people.json", people)
+    queue, requested = upcoming(ctx, addresses)
+    write_json(out / "upcoming.json", queue)
 
     written = {
         "films": write_pages(out / "films", film_pages(ctx, addresses)),
@@ -87,6 +92,7 @@ def export(ctx, out=DATA_OUT, theme_dest=SITE_SRC / "theme.css"):
         "sections": write_pages(out / "sections", section_pages(ctx, addresses)),
         "directors": write_pages(out / "directors", director_pages(ctx, addresses)),
         "actors": write_pages(out / "actors", actor_pages(ctx, addresses)),
+        "requested films": write_pages(out / "upcoming", requested),
     }
     if theme_dest is not None:
         copy_theme(theme_dest)
