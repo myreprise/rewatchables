@@ -1,0 +1,40 @@
+{
+ "id": "american-anthem-1986",
+ "title": "American Anthem",
+ "year_raw": "1986",
+ "year": 1986.0,
+ "decade": 1980,
+ "sort": "American Anthem",
+ "order": 10,
+ "poster": "cLFdihWnglEZVB98ruxMHC8Vrr6.jpg",
+ "tmdb": 5.2,
+ "contributor": "u/butthead20000",
+ "note": "During the Running Scared ep, Bill says it will be done if they ever do \"Worst Sports Movies Ever\" month",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Romance"
+ ],
+ "runtime": 102.0,
+ "plot": "Steve is a talented gymnast who has given up competition and is working at his father's bike shop. Julie is the new girl at his old gym, who has moved to town to train with their powerful coach. Inspired by Julie, Steve resumes training. While dealing with the conflicts in their personal lives and the stress of training, they prepare for the US Olympic Trials.",
+ "cast": [
+  "Mitch Gaylord",
+  "Janet Jones",
+  "Michael Pataki",
+  "Maria Anz",
+  "Stacy Maloney",
+  "John Aprea",
+  "Michelle Phillips",
+  "Tiny Wells",
+  "Patrice Donnelly",
+  "R.J. Williams"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 45930.0
+}

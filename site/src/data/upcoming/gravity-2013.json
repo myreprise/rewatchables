@@ -1,0 +1,39 @@
+{
+ "id": "gravity-2013",
+ "title": "Gravity",
+ "year_raw": "2013",
+ "year": 2013.0,
+ "decade": 2010,
+ "sort": "Gravity",
+ "order": 91,
+ "poster": "kZ2nZw8D681aphje8NJi8EfbL1U.jpg",
+ "tmdb": 7.173,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during re-Speed ep",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Science Fiction",
+  "Thriller",
+  "Drama"
+ ],
+ "runtime": 91.0,
+ "plot": "Dr Ryan Stone, an engineer on her first space mission, and Matt Kowalski, an astronaut on his final expedition, have to survive in space after they are hit by debris while spacewalking.",
+ "cast": [
+  "Sandra Bullock",
+  "George Clooney",
+  "Ed Harris",
+  "Orto Ignatiussen",
+  "Phaldut Sharma",
+  "Amy Warren",
+  "Basher Savage"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 49047.0
+}

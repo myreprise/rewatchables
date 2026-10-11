@@ -1,0 +1,44 @@
+{
+ "id": "coach-carter-2005",
+ "title": "Coach Carter",
+ "year_raw": "2005",
+ "year": 2005.0,
+ "decade": 2000,
+ "sort": "Coach Carter",
+ "order": 47,
+ "poster": "y3HOTTyM5nLsdUzXFtFCohG28qj.jpg",
+ "tmdb": 7.586,
+ "contributor": "https://www.reddit.com/r/billsimmons/comments/1ap0bp0/outside_of_the_obvious_pulp_fictonanchorman/",
+ "note": null,
+ "tags": [
+  "Sports",
+  "Samuel L. Jackson"
+ ],
+ "by": {
+  "label": "reddit thread",
+  "href": "https://www.reddit.com/r/billsimmons/comments/1ap0bp0/outside_of_the_obvious_pulp_fictonanchorman/"
+ },
+ "directors": [],
+ "genres": [
+  "Drama",
+  "History"
+ ],
+ "runtime": 136.0,
+ "plot": "Based on a true story, in which Richmond High School head basketball coach Ken Carter made headlines in 1999 for benching his undefeated team due to poor academic results.",
+ "cast": [
+  "Samuel L. Jackson",
+  "Rob Brown",
+  "Robert Ri'chard",
+  "Rick Gonzalez",
+  "Nana Gbewonyo",
+  "Antwon Tanner",
+  "Channing Tatum",
+  "Ashanti",
+  "Texas Battle",
+  "Denise Dowse"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 7214.0
+}

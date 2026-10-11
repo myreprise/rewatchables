@@ -1,0 +1,43 @@
+{
+ "id": "fracture-2007",
+ "title": "Fracture",
+ "year_raw": "2007",
+ "year": 2007.0,
+ "decade": 2000,
+ "sort": "Fracture",
+ "order": 77,
+ "poster": "qNen8x5gaikjIg9CFihgxYcJwQe.jpg",
+ "tmdb": 7.258,
+ "contributor": "u/lovegun59",
+ "note": null,
+ "tags": [
+  "Psychologica/legal thriller",
+  "Anthony Hopkins"
+ ],
+ "by": {
+  "label": "u/lovegun59",
+  "href": "https://www.reddit.com/user/lovegun59"
+ },
+ "directors": [],
+ "genres": [
+  "Thriller"
+ ],
+ "runtime": 113.0,
+ "plot": "A husband is on trial for the attempted murder of his wife, in what is seemingly an open/shut case for the ambitious district attorney trying to put him away. However, there are surprises for both around every corner, and, as a suspenseful game of cat-and-mouse is played out, each must manipulate and outwit the other.",
+ "cast": [
+  "Anthony Hopkins",
+  "Ryan Gosling",
+  "David Strathairn",
+  "Rosamund Pike",
+  "Embeth Davidtz",
+  "Billy Burke",
+  "Cliff Curtis",
+  "Fiona Shaw",
+  "Bob Gunton",
+  "Josh Stamberg"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 6145.0
+}

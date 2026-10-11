@@ -1,0 +1,47 @@
+{
+ "id": "the-client-1994",
+ "title": "The Client",
+ "year_raw": "1994",
+ "year": 1994.0,
+ "decade": 1990,
+ "sort": "Client, The",
+ "order": 46,
+ "poster": "oLdkJ4ZjxPtFSUChdjDQvHM9l75.jpg",
+ "tmdb": 6.692,
+ "contributor": "u/RusevReigns",
+ "note": null,
+ "tags": [
+  "Courtroom drama",
+  "1990s",
+  "Tommy Lee Jones"
+ ],
+ "by": {
+  "label": "u/RusevReigns",
+  "href": "https://www.reddit.com/user/RusevReigns"
+ },
+ "directors": [],
+ "genres": [
+  "Drama",
+  "Thriller",
+  "Crime",
+  "Mystery"
+ ],
+ "runtime": 119.0,
+ "plot": "A street-wise kid, Mark Sway, sees the suicide of Jerome Clifford, a prominent Louisiana lawyer, whose current client is Barry 'The Blade' Muldano, a Mafia hit-man. Before Jerome shoots himself, he tells Mark where the body of a Senator is buried. Clifford shoots himself and Mark is found at the scene, and both the FBI and the Mafia quickly realize that Mark probably knows more than he says.",
+ "cast": [
+  "Brad Renfro",
+  "Susan Sarandon",
+  "Tommy Lee Jones",
+  "Mary-Louise Parker",
+  "Anthony LaPaglia",
+  "Bradley Whitford",
+  "Will Patton",
+  "Anthony Edwards",
+  "J.T. Walsh",
+  "Anthony Heald"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 10731.0
+}

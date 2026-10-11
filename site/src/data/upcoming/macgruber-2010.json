@@ -1,0 +1,41 @@
+{
+ "id": "macgruber-2010",
+ "title": "MacGruber",
+ "year_raw": "2010",
+ "year": 2010.0,
+ "decade": 2010,
+ "sort": "MacGruber",
+ "order": 124,
+ "poster": "9cO8JD7aaQzI4q8lBS8MYXH8LrJ.jpg",
+ "tmdb": 5.413,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during The Blues Brothers ep; CR asks Bill if he'd be open to it, and Bill replies \"Yeah, it's on the list\"",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Action",
+  "Comedy"
+ ],
+ "runtime": 90.0,
+ "plot": "Ex-special operative MacGruber is called back into action to take down his archenemy, Dieter Von Cunth, who's in possession of a nuclear warhead and bent on destroying Washington, DC.",
+ "cast": [
+  "Will Forte",
+  "Kristen Wiig",
+  "Ryan Phillippe",
+  "Powers Boothe",
+  "Maya Rudolph",
+  "Christopher Irvine",
+  "Mark Henry",
+  "Glenn Jacobs",
+  "Dalip Singh",
+  "Hassan Hamin Assad"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 37931.0
+}

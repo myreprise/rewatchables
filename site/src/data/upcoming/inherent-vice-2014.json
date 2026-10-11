@@ -1,0 +1,44 @@
+{
+ "id": "inherent-vice-2014",
+ "title": "Inherent Vice",
+ "year_raw": "2014",
+ "year": 2014.0,
+ "decade": 2010,
+ "sort": "Inherent Vice",
+ "order": 105,
+ "poster": "pfVua7TzzttOh3RTOuBqT7xN0oY.jpg",
+ "tmdb": 6.545,
+ "contributor": "https://www.reddit.com/r/billsimmons/comments/1efv6wk/whats_are_your_top_rewatchables_requests_now_that/",
+ "note": null,
+ "tags": [
+  "PTA"
+ ],
+ "by": {
+  "label": "reddit thread",
+  "href": "https://www.reddit.com/r/billsimmons/comments/1efv6wk/whats_are_your_top_rewatchables_requests_now_that/"
+ },
+ "directors": [],
+ "genres": [
+  "Drama",
+  "Mystery",
+  "Comedy"
+ ],
+ "runtime": 149.0,
+ "plot": "In Los Angeles at the turn of the 1970s, drug-fueled detective Larry \"Doc\" Sportello investigates the disappearance of an ex-girlfriend.",
+ "cast": [
+  "Joaquin Phoenix",
+  "Josh Brolin",
+  "Owen Wilson",
+  "Katherine Waterston",
+  "Reese Witherspoon",
+  "Benicio del Toro",
+  "Jena Malone",
+  "Joanna Newsom",
+  "Jordan Christian Hearn",
+  "Hong Chau"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 171274.0
+}

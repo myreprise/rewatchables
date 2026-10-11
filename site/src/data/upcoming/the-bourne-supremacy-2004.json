@@ -1,0 +1,45 @@
+{
+ "id": "the-bourne-supremacy-2004",
+ "title": "The Bourne Supremacy",
+ "year_raw": "2004",
+ "year": 2004.0,
+ "decade": 2000,
+ "sort": "Bourne Supremacy, The",
+ "order": 33,
+ "poster": "jupG9sFT64YwM8PSkwkUD2wHcYD.jpg",
+ "tmdb": 7.335,
+ "contributor": "u/RusevReigns",
+ "note": null,
+ "tags": [
+  "Blockbuster franchise",
+  "Bourne Identity has been done"
+ ],
+ "by": {
+  "label": "u/RusevReigns",
+  "href": "https://www.reddit.com/user/RusevReigns"
+ },
+ "directors": [],
+ "genres": [
+  "Action",
+  "Drama",
+  "Thriller"
+ ],
+ "runtime": 108.0,
+ "plot": "A CIA operation to purchase classified Russian documents is blown by a rival agent, who then shows up in the sleepy seaside village where Bourne and Marie have been living. The pair run for their lives and Bourne, who promised retaliation should anyone from his former life attempt contact, is forced to once again take up his life as a trained assassin to survive.",
+ "cast": [
+  "Matt Damon",
+  "Franka Potente",
+  "Brian Cox",
+  "Julia Stiles",
+  "Karl Urban",
+  "Gabriel Mann",
+  "Joan Allen",
+  "Marton Csokas",
+  "Tom Gallop",
+  "John Bedford Lloyd"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 2502.0
+}

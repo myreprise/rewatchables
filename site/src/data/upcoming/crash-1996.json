@@ -1,0 +1,41 @@
+{
+ "id": "crash-1996",
+ "title": "Crash",
+ "year_raw": "1996",
+ "year": 1996.0,
+ "decade": 1990,
+ "sort": "Crash",
+ "order": 52,
+ "poster": "gpai5oUFyFGLHOCsYTvVMqlbY7A.jpg",
+ "tmdb": 6.484,
+ "contributor": "u/butthead20000",
+ "note": "Discussed during the Crash (2004) ep as a future Rewatchable",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Thriller",
+  "Drama"
+ ],
+ "runtime": 100.0,
+ "plot": "A car crash victim inexplicably finds himself aroused by car accidents and becomes involved with an underground subculture of like-minded souls.",
+ "cast": [
+  "James Spader",
+  "Holly Hunter",
+  "Elias Koteas",
+  "Deborah Kara Unger",
+  "Rosanna Arquette",
+  "Peter MacNeill",
+  "Cheryl Swarts",
+  "Yolande Julian",
+  "Nicky Guadagni",
+  "Ronn Sarosiak"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 884.0
+}

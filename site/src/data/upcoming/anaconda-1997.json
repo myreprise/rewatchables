@@ -1,0 +1,42 @@
+{
+ "id": "anaconda-1997",
+ "title": "Anaconda",
+ "year_raw": "1997",
+ "year": 1997.0,
+ "decade": 1990,
+ "sort": "Anaconda",
+ "order": 12,
+ "poster": "33NysOnLpLZY0ewHTcfpalzAsRG.jpg",
+ "tmdb": 5.281,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during 2026 mailbag ep as part of Creature Feature Month",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Adventure",
+  "Horror",
+  "Thriller"
+ ],
+ "runtime": 90.0,
+ "plot": "A 'National Geographic' film crew is taken hostage by an insane hunter, who takes them along on his quest to capture the world's largest — and deadliest — snake.",
+ "cast": [
+  "Jennifer Lopez",
+  "Ice Cube",
+  "Jon Voight",
+  "Eric Stoltz",
+  "Jonathan Hyde",
+  "Owen Wilson",
+  "Kari Wührer",
+  "Vincent Castellanos",
+  "Danny Trejo",
+  "Frank Welker"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 9360.0
+}

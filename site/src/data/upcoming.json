@@ -1,0 +1,4171 @@
+{
+ "empty": false,
+ "summary": {
+  "in_contention": 210,
+  "already_made": 4,
+  "first_year": 1958,
+  "last_year": 2027,
+  "contributors": 12,
+  "matched": 201,
+  "with_note": 161,
+  "with_tags": 46
+ },
+ "why_shown": 12,
+ "offered_tags": [
+  "1980s",
+  "1990s",
+  "Action comedy",
+  "Adam Sandler",
+  "Arnold",
+  "Bill owns a 4K blu-ray copy",
+  "Blockbuster franchise",
+  "Bourne Identity has been done",
+  "Harrison Ford",
+  "John Hughes",
+  "John Wick and John Wick 2 have been covered",
+  "Keanu",
+  "Mel Gibson",
+  "SNL",
+  "Sports",
+  "Thriller",
+  "Tommy Lee Jones",
+  "blockbuster",
+  "sequel"
+ ],
+ "top_tags": [
+  {
+   "tag": "1990s",
+   "n": 16
+  },
+  {
+   "tag": "1980s",
+   "n": 14
+  },
+  {
+   "tag": "blockbuster",
+   "n": 5
+  },
+  {
+   "tag": "Blockbuster franchise",
+   "n": 3
+  },
+  {
+   "tag": "Bourne Identity has been done",
+   "n": 3
+  },
+  {
+   "tag": "Thriller",
+   "n": 3
+  },
+  {
+   "tag": "SNL",
+   "n": 2
+  },
+  {
+   "tag": "Adam Sandler",
+   "n": 2
+  },
+  {
+   "tag": "Mel Gibson",
+   "n": 2
+  },
+  {
+   "tag": "Harrison Ford",
+   "n": 2
+  },
+  {
+   "tag": "Tommy Lee Jones",
+   "n": 2
+  },
+  {
+   "tag": "Sports",
+   "n": 2
+  },
+  {
+   "tag": "Arnold",
+   "n": 2
+  },
+  {
+   "tag": "Bill owns a 4K blu-ray copy",
+   "n": 2
+  },
+  {
+   "tag": "sequel",
+   "n": 2
+  },
+  {
+   "tag": "Keanu",
+   "n": 2
+  },
+  {
+   "tag": "John Wick and John Wick 2 have been covered",
+   "n": 2
+  },
+  {
+   "tag": "Action comedy",
+   "n": 2
+  },
+  {
+   "tag": "John Hughes",
+   "n": 2
+  },
+  {
+   "tag": "Michael Keaton",
+   "n": 1
+  },
+  {
+   "tag": "John Carpenter",
+   "n": 1
+  },
+  {
+   "tag": "Kurt Russell",
+   "n": 1
+  },
+  {
+   "tag": "Chris Farley",
+   "n": 1
+  },
+  {
+   "tag": "Best Picture",
+   "n": 1
+  }
+ ],
+ "requests": [
+  {
+   "id": "21-bridges-2019",
+   "title": "21 Bridges",
+   "year_raw": "2019",
+   "year": 2019.0,
+   "decade": 2010,
+   "sort": "21 Bridges",
+   "order": 0,
+   "poster": "kDlmrGZROewneCoSwPjKx6Qfown.jpg",
+   "tmdb": 6.786,
+   "contributor": "u/butthead20000",
+   "note": "was one of the options in the vote for the final movie of CR month",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "a-lot-like-love-2005",
+   "title": "A Lot like Love",
+   "year_raw": "2005",
+   "year": 2005.0,
+   "decade": 2000,
+   "sort": "Lot like Love, A",
+   "order": 1,
+   "poster": "6xrF9zwEbYiYBOalMO14RAWBLLj.jpg",
+   "tmdb": 6.835,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Bill's 50 Most Rewatchable Movies of the 21st Century ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "a-perfect-getaway-2009",
+   "title": "A Perfect Getaway",
+   "year_raw": "2009",
+   "year": 2009.0,
+   "decade": 2000,
+   "sort": "Perfect Getaway, A",
+   "order": 2,
+   "poster": "ncuGG0hIlA03dQBJmdoT2LWgodG.jpg",
+   "tmdb": 6.336,
+   "contributor": "u/butthead20000",
+   "note": "During the L.A. Confidential ep, CR proposes it for 'From Hell' month, but Bill says no, but recants after CR reminds him of what movie that actually is",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "against-all-odds-1984",
+   "title": "Against All Odds",
+   "year_raw": "1984",
+   "year": 1984.0,
+   "decade": 1980,
+   "sort": "Against All Odds",
+   "order": 3,
+   "poster": "Ac0m41QYoxYBfRoU4cL491vOfEv.jpg",
+   "tmdb": 5.678,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Along Came Polly and Weird Science eps; mentioned again during summer mailbag ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "air-force-one-1997",
+   "title": "Air Force One",
+   "year_raw": "1997",
+   "year": 1997.0,
+   "decade": 1990,
+   "sort": "Air Force One",
+   "order": 4,
+   "poster": "evO1iENjLpUnbwjnt5XK85jRYob.jpg",
+   "tmdb": 6.465,
+   "contributor": "u/lovegun59",
+   "note": "during Under Seige, Bill mentions this will be done in 2024",
+   "tags": [],
+   "by": {
+    "label": "u/lovegun59",
+    "href": "https://www.reddit.com/user/lovegun59"
+   }
+  },
+  {
+   "id": "alien-3-1992",
+   "title": "Alien 3",
+   "year_raw": "1992",
+   "year": 1992.0,
+   "decade": 1990,
+   "sort": "Alien 3",
+   "order": 5,
+   "poster": "xh5wI0UoW7DfS1IyLy3d2CgrCEP.jpg",
+   "tmdb": 6.388,
+   "contributor": "u/butthead20000",
+   "note": "during The Game ep, Bill says they'll probably need to do all of the movies David Fincher directed",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "all-that-jazz-1979",
+   "title": "All That Jazz",
+   "year_raw": "1979",
+   "year": 1979.0,
+   "decade": 1970,
+   "sort": "All That Jazz",
+   "order": 6,
+   "poster": "culCEdj4srLljefgn4XKd6k3C5t.jpg",
+   "tmdb": 7.516,
+   "contributor": "u/butthead20000",
+   "note": "A Feb 2025 tweet from the pod's account asks for the movie to be added to Tubi or Prime Video https://x.com/TheRewatchables/status/1894426639322304854",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "all-the-right-moves-1983",
+   "title": "All The Right Moves",
+   "year_raw": "1983",
+   "year": 1983.0,
+   "decade": 1980,
+   "sort": "All The Right Moves",
+   "order": 7,
+   "poster": "y8OSutSNEi84ROcqyV7Tu7p8xYg.jpg",
+   "tmdb": 5.756,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during The Truman Show ep; mentioned again during the Tropic Thunder ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "almost-famous-2000",
+   "title": "Almost Famous",
+   "year_raw": "2000",
+   "year": 2000.0,
+   "decade": 2000,
+   "sort": "Almost Famous",
+   "order": 8,
+   "poster": "3rrkyLYbgLj84AYvjhdcJot4JPx.jpg",
+   "tmdb": 7.504,
+   "contributor": "u/lovegun59",
+   "note": "mentioned numerous times as the final Rewatchables ep, Bill owns a 4K blu-ray copy",
+   "tags": [],
+   "by": {
+    "label": "u/lovegun59",
+    "href": "https://www.reddit.com/user/lovegun59"
+   }
+  },
+  {
+   "id": "amadeus-1984",
+   "title": "Amadeus",
+   "year_raw": "1984",
+   "year": 1984.0,
+   "decade": 1980,
+   "sort": "Amadeus",
+   "order": 9,
+   "poster": "gQRfiyfGvr1az0quaYyMram3Aqt.jpg",
+   "tmdb": 8.025,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during After Hours ep as an option for Oscar Winners month",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "american-anthem-1986",
+   "title": "American Anthem",
+   "year_raw": "1986",
+   "year": 1986.0,
+   "decade": 1980,
+   "sort": "American Anthem",
+   "order": 10,
+   "poster": "cLFdihWnglEZVB98ruxMHC8Vrr6.jpg",
+   "tmdb": 5.2,
+   "contributor": "u/butthead20000",
+   "note": "During the Running Scared ep, Bill says it will be done if they ever do \"Worst Sports Movies Ever\" month",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "american-flyers-1985",
+   "title": "American Flyers",
+   "year_raw": "1985",
+   "year": 1985.0,
+   "decade": 1980,
+   "sort": "American Flyers",
+   "order": 11,
+   "poster": "sa8otETzs4ZJ77s7LypCmD0zzQe.jpg",
+   "tmdb": 6.175,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during The Big Chill ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "anaconda-1997",
+   "title": "Anaconda",
+   "year_raw": "1997",
+   "year": 1997.0,
+   "decade": 1990,
+   "sort": "Anaconda",
+   "order": 12,
+   "poster": "33NysOnLpLZY0ewHTcfpalzAsRG.jpg",
+   "tmdb": 5.281,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during 2026 mailbag ep as part of Creature Feature Month",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "anchorman-the-legend-of-ron-burgundy-2004",
+   "title": "Anchorman: The Legend of Ron Burgundy",
+   "year_raw": "2004",
+   "year": 2004.0,
+   "decade": 2000,
+   "sort": "Anchorman: The Legend of Ron Burgundy",
+   "order": 13,
+   "poster": "mhZIcRePT7U8viFQVjt1ZjYIsR4.jpg",
+   "tmdb": 6.702,
+   "contributor": "u/lovegun59",
+   "note": "mentioned during Bill's 50 Most Rewatchable Movies of the 21st Century ep",
+   "tags": [],
+   "by": {
+    "label": "u/lovegun59",
+    "href": "https://www.reddit.com/user/lovegun59"
+   }
+  },
+  {
+   "id": "anchorman-2-the-legend-continues-2013",
+   "title": "Anchorman 2: The Legend Continues",
+   "year_raw": "2013",
+   "year": 2013.0,
+   "decade": 2010,
+   "sort": "Anchorman 2: The Legend Continues",
+   "order": 14,
+   "poster": "BAdmxMdCqzjs6hx3KuEtnoWP8d.jpg",
+   "tmdb": 6.144,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Bill's 50 Most Rewatchable Movies of the 21st Century ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "angel-heart-1987",
+   "title": "Angel Heart",
+   "year_raw": "1987",
+   "year": 1987.0,
+   "decade": 1980,
+   "sort": "Angel Heart",
+   "order": 15,
+   "poster": "h5v3wjJQNB7q2RntEnKDLhKtTFE.jpg",
+   "tmdb": 7.12,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Star Wars and Die Hard with a Vengeance eps; was one of the options in the vote for the final movie of CR month",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "annie-hall-1977",
+   "title": "Annie Hall",
+   "year_raw": "1977",
+   "year": 1977.0,
+   "decade": 1970,
+   "sort": "Annie Hall",
+   "order": 16,
+   "poster": "dEtjPywhDbAXYjoFfhBC4U9unU7.jpg",
+   "tmdb": 7.717,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during After Hours ep as an option for Oscar Winners month; mentioned again during Ghostbusters as an option for Bill's Mom month",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "back-to-school-1986",
+   "title": "Back to School",
+   "year_raw": "1986",
+   "year": 1986.0,
+   "decade": 1980,
+   "sort": "Back to School",
+   "order": 18,
+   "poster": "nspYnZ6QwqAQXaCLjbGKfEA83tf.jpg",
+   "tmdb": 6.339,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Running Scared ep, Bill doesn't know why they haven't done it yet",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "backdraft-1991",
+   "title": "Backdraft",
+   "year_raw": "1991",
+   "year": 1991.0,
+   "decade": 1990,
+   "sort": "Backdraft",
+   "order": 19,
+   "poster": "bymJtYNIdiAiBR1LRetaJXbfryc.jpg",
+   "tmdb": 6.662,
+   "contributor": "u/butthead20000",
+   "note": "was one of the options in the vote for the final movie of CR month",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "bad-boys-ii-2003",
+   "title": "Bad Boys II",
+   "year_raw": "2003",
+   "year": 2003.0,
+   "decade": 2000,
+   "sort": "Bad Boys II",
+   "order": 20,
+   "poster": "yCvB5fG5aEPqa1St7ihY6KEAsHD.jpg",
+   "tmdb": 6.657,
+   "contributor": "u/butthead20000",
+   "note": "mentioned by Bill during F1 ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "bad-influence",
+   "title": "Bad Influence",
+   "year_raw": null,
+   "year": null,
+   "decade": null,
+   "sort": "Bad Influence",
+   "order": 21,
+   "poster": null,
+   "tmdb": null,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during The Hand That Rocks The Cradle ep, Bill says it was on the cutting room floor of 'From Hell' month; mentioned again during Pacific Heights ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "the-bad-news-bears-in-breaking-training-1977",
+   "title": "The Bad News Bears in Breaking Training",
+   "year_raw": "1977",
+   "year": 1977.0,
+   "decade": 1970,
+   "sort": "Bad News Bears in Breaking Training, The",
+   "order": 22,
+   "poster": "aGShIKIKWDCPVGDfeEXwTfmE4mi.jpg",
+   "tmdb": 5.75,
+   "contributor": "u/butthead20000",
+   "note": "mentioned by Bill in several eps",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "beetlejuice-1988",
+   "title": "Beetlejuice",
+   "year_raw": "1988",
+   "year": 1988.0,
+   "decade": 1980,
+   "sort": "Beetlejuice",
+   "order": 23,
+   "poster": "nnl6OWkyPpuMm595hmAxNW3rZFn.jpg",
+   "tmdb": 7.4,
+   "contributor": "https://www.reddit.com/r/billsimmons/comments/1ap0bp0/outside_of_the_obvious_pulp_fictonanchorman/",
+   "note": null,
+   "tags": [
+    "1980s",
+    "Michael Keaton",
+    "blockbuster"
+   ],
+   "by": {
+    "label": "reddit thread",
+    "href": "https://www.reddit.com/r/billsimmons/comments/1ap0bp0/outside_of_the_obvious_pulp_fictonanchorman/"
+   }
+  },
+  {
+   "id": "big-trouble-in-little-china-1986",
+   "title": "Big Trouble in Little China",
+   "year_raw": "1986",
+   "year": 1986.0,
+   "decade": 1980,
+   "sort": "Big Trouble in Little China",
+   "order": 24,
+   "poster": "gI2Qs1yTTj3NcESJyttCkbmJ4k9.jpg",
+   "tmdb": 7.211,
+   "contributor": "u/lovegun59",
+   "note": null,
+   "tags": [
+    "1980s",
+    "John Carpenter",
+    "Kurt Russell"
+   ],
+   "by": {
+    "label": "u/lovegun59",
+    "href": "https://www.reddit.com/user/lovegun59"
+   }
+  },
+  {
+   "id": "billy-madison-1995",
+   "title": "Billy Madison",
+   "year_raw": "1995",
+   "year": 1995.0,
+   "decade": 1990,
+   "sort": "Billy Madison",
+   "order": 25,
+   "poster": "sOdgtJdFalL9kRKaeJItARLTAEq.jpg",
+   "tmdb": 6.181,
+   "contributor": "u/lovegun59",
+   "note": null,
+   "tags": [
+    "SNL",
+    "1990s",
+    "Adam Sandler",
+    "Chris Farley"
+   ],
+   "by": {
+    "label": "u/lovegun59",
+    "href": "https://www.reddit.com/user/lovegun59"
+   }
+  },
+  {
+   "id": "black-rain-1989",
+   "title": "Black Rain",
+   "year_raw": "1989",
+   "year": 1989.0,
+   "decade": 1980,
+   "sort": "Black Rain",
+   "order": 26,
+   "poster": "funhGWt9ee3Uwb6Ar8SGCCvbJdV.jpg",
+   "tmdb": 6.577,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during the 2026 mailbag ep but no commitment made; was one of the options in the vote for the final movie of CR month; during the live Basic Instinct ep Bill says Black Rain will be done in 2026",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "black-sunday-1977",
+   "title": "Black Sunday",
+   "year_raw": "1977",
+   "year": 1977.0,
+   "decade": 1970,
+   "sort": "Black Sunday",
+   "order": 27,
+   "poster": "kLPRiWRXTfN6gSTgzlvXYCB8mvh.jpg",
+   "tmdb": 6.669,
+   "contributor": "u/butthead20000",
+   "note": "Discussed at the conclusion of The Sting ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "blackhawk-down-2001",
+   "title": "Blackhawk Down",
+   "year_raw": "2001",
+   "year": 2001.0,
+   "decade": 2000,
+   "sort": "Blackhawk Down",
+   "order": 28,
+   "poster": null,
+   "tmdb": null,
+   "contributor": "u/butthead20000",
+   "note": "mentioned by Bill during F1 ep, says it's Tarantino's fave movie of the 21st century",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "blade-runner-1982",
+   "title": "Blade Runner",
+   "year_raw": "1982",
+   "year": 1982.0,
+   "decade": 1980,
+   "sort": "Blade Runner",
+   "order": 29,
+   "poster": "63N9uy8nd9j7Eog2axPQ8lbr3Wj.jpg",
+   "tmdb": 7.935,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Fast Times at Ridgemont High and What Lies Beneath eps",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "blazing-saddles-1974",
+   "title": "Blazing Saddles",
+   "year_raw": "1974",
+   "year": 1974.0,
+   "decade": 1970,
+   "sort": "Blazing Saddles",
+   "order": 30,
+   "poster": "vNw1gOEDdYTDeNMuuq8OmiEHrfH.jpg",
+   "tmdb": 7.237,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during the summer mailbag ep responding to a question about movies that would get too much backlash",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "the-blind-side-2009",
+   "title": "The Blind Side",
+   "year_raw": "2009",
+   "year": 2009.0,
+   "decade": 2000,
+   "sort": "Blind Side, The",
+   "order": 31,
+   "poster": "PhpAdRopu0sOWf0BY7vVtxrRD3.jpg",
+   "tmdb": 7.664,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Working Girl ep; Van has demanded that he appear on the pod when they do Blind Side",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "the-bourne-legacy-2012",
+   "title": "The Bourne Legacy",
+   "year_raw": "2012",
+   "year": 2012.0,
+   "decade": 2010,
+   "sort": "Bourne Legacy, The",
+   "order": 32,
+   "poster": "1aExL5DTGHj25ZfIC3dDwS84RWi.jpg",
+   "tmdb": 6.253,
+   "contributor": "u/lovegun59",
+   "note": null,
+   "tags": [
+    "Blockbuster franchise",
+    "Bourne Identity has been done"
+   ],
+   "by": {
+    "label": "u/lovegun59",
+    "href": "https://www.reddit.com/user/lovegun59"
+   }
+  },
+  {
+   "id": "the-bourne-supremacy-2004",
+   "title": "The Bourne Supremacy",
+   "year_raw": "2004",
+   "year": 2004.0,
+   "decade": 2000,
+   "sort": "Bourne Supremacy, The",
+   "order": 33,
+   "poster": "jupG9sFT64YwM8PSkwkUD2wHcYD.jpg",
+   "tmdb": 7.335,
+   "contributor": "u/RusevReigns",
+   "note": null,
+   "tags": [
+    "Blockbuster franchise",
+    "Bourne Identity has been done"
+   ],
+   "by": {
+    "label": "u/RusevReigns",
+    "href": "https://www.reddit.com/user/RusevReigns"
+   }
+  },
+  {
+   "id": "the-bourne-ultimatum-2007",
+   "title": "The Bourne Ultimatum",
+   "year_raw": "2007",
+   "year": 2007.0,
+   "decade": 2000,
+   "sort": "Bourne Ultimatum, The",
+   "order": 34,
+   "poster": "15rMz5MRXFp7CP4VxhjYw4y0FUn.jpg",
+   "tmdb": 7.443,
+   "contributor": "u/lovegun59",
+   "note": null,
+   "tags": [
+    "Blockbuster franchise",
+    "Bourne Identity has been done"
+   ],
+   "by": {
+    "label": "u/lovegun59",
+    "href": "https://www.reddit.com/user/lovegun59"
+   }
+  },
+  {
+   "id": "braveheart-1995",
+   "title": "Braveheart",
+   "year_raw": "1995",
+   "year": 1995.0,
+   "decade": 1990,
+   "sort": "Braveheart",
+   "order": 35,
+   "poster": "or1gBugydmjToAEq7OZY0owwFk.jpg",
+   "tmdb": 7.945,
+   "contributor": "u/TheAsian1nvasion",
+   "note": null,
+   "tags": [
+    "1990s",
+    "Mel Gibson",
+    "Best Picture"
+   ],
+   "by": {
+    "label": "u/TheAsian1nvasion",
+    "href": "https://www.reddit.com/user/TheAsian1nvasion"
+   }
+  },
+  {
+   "id": "breakdown-1997",
+   "title": "Breakdown",
+   "year_raw": "1997",
+   "year": 1997.0,
+   "decade": 1990,
+   "sort": "Breakdown",
+   "order": 36,
+   "poster": "m3VB59ppr1RlpxNUYRUfZTgjgU.jpg",
+   "tmdb": 6.936,
+   "contributor": "u/ManufacturerLow3161",
+   "note": "mentioned near the end of L.A. Confidential ep, Bill says he's scouting it for 'From Hell' month; mentioned again in Pacific Heights ep",
+   "tags": [],
+   "by": {
+    "label": "u/ManufacturerLow3161",
+    "href": "https://www.reddit.com/user/ManufacturerLow3161"
+   }
+  },
+  {
+   "id": "broken-arrow-1996",
+   "title": "Broken Arrow",
+   "year_raw": "1996",
+   "year": 1996.0,
+   "decade": 1990,
+   "sort": "Broken Arrow",
+   "order": 37,
+   "poster": "iBPMwYYJFvdCBkXrwV75peo5Lz2.jpg",
+   "tmdb": 6.068,
+   "contributor": "u/lovegun59",
+   "note": "mentioned during The Longest Yard, mentioned at the end of Under Siege",
+   "tags": [],
+   "by": {
+    "label": "u/lovegun59",
+    "href": "https://www.reddit.com/user/lovegun59"
+   }
+  },
+  {
+   "id": "bull-durham-1988",
+   "title": "Bull Durham",
+   "year_raw": "1988",
+   "year": 1988.0,
+   "decade": 1980,
+   "sort": "Bull Durham",
+   "order": 38,
+   "poster": "q3T9bO6p74NcTxWOhdUA6fASQ5T.jpg",
+   "tmdb": 6.637,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during No Way Out",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "the-burbs-1989",
+   "title": "The Burbs",
+   "year_raw": "1989",
+   "year": 1989.0,
+   "decade": 1980,
+   "sort": "Burbs, The",
+   "order": 39,
+   "poster": "jwYKzJS0C3A711hmg1G4ptI0InF.jpg",
+   "tmdb": 6.754,
+   "contributor": "https://www.reddit.com/r/billsimmons/comments/1efv6wk/whats_are_your_top_rewatchables_requests_now_that/",
+   "note": null,
+   "tags": [
+    "1980s",
+    "Tom Hanks"
+   ],
+   "by": {
+    "label": "reddit thread",
+    "href": "https://www.reddit.com/r/billsimmons/comments/1efv6wk/whats_are_your_top_rewatchables_requests_now_that/"
+   }
+  },
+  {
+   "id": "the-cannonball-run-1981",
+   "title": "The Cannonball Run",
+   "year_raw": "1981",
+   "year": 1981.0,
+   "decade": 1980,
+   "sort": "Cannonball Run, The",
+   "order": 40,
+   "poster": "yDO1xRq4LOAv720xqJHHEVz5Sr9.jpg",
+   "tmdb": 6.147,
+   "contributor": "u/butthead20000",
+   "note": "A Feb 2025 tweet from the pod's account asks for the movie to be added to Tubi or Prime Video https://x.com/TheRewatchables/status/1894426639322304854",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "carlitos-way-1993",
+   "title": "Carlito's Way",
+   "year_raw": "1993",
+   "year": 1993.0,
+   "decade": 1990,
+   "sort": "Carlito's Way",
+   "order": 41,
+   "poster": "g6D7mjQtndu768cusGmoEQY9fTB.jpg",
+   "tmdb": 7.826,
+   "contributor": "https://www.reddit.com/r/billsimmons/comments/1ap0bp0/outside_of_the_obvious_pulp_fictonanchorman/",
+   "note": "mentioned during Body Double ep, 2025 mailbag ep and Snake Eyes ep",
+   "tags": [],
+   "by": {
+    "label": "reddit thread",
+    "href": "https://www.reddit.com/r/billsimmons/comments/1ap0bp0/outside_of_the_obvious_pulp_fictonanchorman/"
+   }
+  },
+  {
+   "id": "carrie-1976",
+   "title": "Carrie",
+   "year_raw": "1976",
+   "year": 1976.0,
+   "decade": 1970,
+   "sort": "Carrie",
+   "order": 42,
+   "poster": "bJJ3xK4pMnfao0wfzySfC47dp8G.jpg",
+   "tmdb": 7.341,
+   "contributor": "u/MattLauer",
+   "note": null,
+   "tags": [
+    "Classic horror",
+    "De Palma"
+   ],
+   "by": {
+    "label": "u/MattLauer",
+    "href": "https://www.reddit.com/user/MattLauer"
+   }
+  },
+  {
+   "id": "chasing-amy-1997",
+   "title": "Chasing Amy",
+   "year_raw": "1997",
+   "year": 1997.0,
+   "decade": 1990,
+   "sort": "Chasing Amy",
+   "order": 43,
+   "poster": "tqydORBcNlQxy3ijgSpPurgDHM2.jpg",
+   "tmdb": 6.747,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Star Wars ep, Bill says it's on the list",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "clear-and-present-danger-1994",
+   "title": "Clear and Present Danger",
+   "year_raw": "1994",
+   "year": 1994.0,
+   "decade": 1990,
+   "sort": "Clear and Present Danger",
+   "order": 44,
+   "poster": "6xTM8FPxrLRYwz6I3fqtwh7xybs.jpg",
+   "tmdb": 6.646,
+   "contributor": "u/RusevReigns",
+   "note": null,
+   "tags": [
+    "Action thriller",
+    "1990s",
+    "Harrison Ford"
+   ],
+   "by": {
+    "label": "u/RusevReigns",
+    "href": "https://www.reddit.com/user/RusevReigns"
+   }
+  },
+  {
+   "id": "clerks-1994",
+   "title": "Clerks",
+   "year_raw": "1994",
+   "year": 1994.0,
+   "decade": 1990,
+   "sort": "Clerks",
+   "order": 45,
+   "poster": "9IiSgiq4h4siTIS9H3o4nZ3h5L9.jpg",
+   "tmdb": 7.371,
+   "contributor": "u/Frank_Zinetti",
+   "note": "Mentioned during Obsession ep, Bill is not enthused",
+   "tags": [],
+   "by": {
+    "label": "u/Frank_Zinetti",
+    "href": "https://www.reddit.com/user/Frank_Zinetti"
+   }
+  },
+  {
+   "id": "the-client-1994",
+   "title": "The Client",
+   "year_raw": "1994",
+   "year": 1994.0,
+   "decade": 1990,
+   "sort": "Client, The",
+   "order": 46,
+   "poster": "oLdkJ4ZjxPtFSUChdjDQvHM9l75.jpg",
+   "tmdb": 6.692,
+   "contributor": "u/RusevReigns",
+   "note": null,
+   "tags": [
+    "Courtroom drama",
+    "1990s",
+    "Tommy Lee Jones"
+   ],
+   "by": {
+    "label": "u/RusevReigns",
+    "href": "https://www.reddit.com/user/RusevReigns"
+   }
+  },
+  {
+   "id": "coach-carter-2005",
+   "title": "Coach Carter",
+   "year_raw": "2005",
+   "year": 2005.0,
+   "decade": 2000,
+   "sort": "Coach Carter",
+   "order": 47,
+   "poster": "y3HOTTyM5nLsdUzXFtFCohG28qj.jpg",
+   "tmdb": 7.586,
+   "contributor": "https://www.reddit.com/r/billsimmons/comments/1ap0bp0/outside_of_the_obvious_pulp_fictonanchorman/",
+   "note": null,
+   "tags": [
+    "Sports",
+    "Samuel L. Jackson"
+   ],
+   "by": {
+    "label": "reddit thread",
+    "href": "https://www.reddit.com/r/billsimmons/comments/1ap0bp0/outside_of_the_obvious_pulp_fictonanchorman/"
+   }
+  },
+  {
+   "id": "cocoon-1985",
+   "title": "Cocoon",
+   "year_raw": "1985",
+   "year": 1985.0,
+   "decade": 1980,
+   "sort": "Cocoon",
+   "order": 48,
+   "poster": "1rMrT8GW90as9kd4oVGhYQgGCLM.jpg",
+   "tmdb": 6.64,
+   "contributor": "u/butthead20000",
+   "note": "A Feb 2025 tweet from the pod's account asks for the movie to be added to Tubi or Prime Video https://x.com/TheRewatchables/status/1894426639322304854",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "code-of-silence-1985",
+   "title": "Code of Silence",
+   "year_raw": "1985",
+   "year": 1985.0,
+   "decade": 1980,
+   "sort": "Code of Silence",
+   "order": 49,
+   "poster": "yE1Xh7Q7M6uDrm28ib0MMcuhO4L.jpg",
+   "tmdb": 5.934,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Running Scared ep, Bill supports and will do the ep as soon as CR calls him up",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "conan-the-barbarian-1982",
+   "title": "Conan the Barbarian",
+   "year_raw": "1982",
+   "year": 1982.0,
+   "decade": 1980,
+   "sort": "Conan the Barbarian",
+   "order": 50,
+   "poster": "qw2A587Ee61IwcSOLNFRhuOACZZ.jpg",
+   "tmdb": 6.802,
+   "contributor": "https://www.reddit.com/r/billsimmons/comments/1ap0bp0/outside_of_the_obvious_pulp_fictonanchorman/",
+   "note": null,
+   "tags": [
+    "1980s",
+    "Arnold"
+   ],
+   "by": {
+    "label": "reddit thread",
+    "href": "https://www.reddit.com/r/billsimmons/comments/1ap0bp0/outside_of_the_obvious_pulp_fictonanchorman/"
+   }
+  },
+  {
+   "id": "contact-1997",
+   "title": "Contact",
+   "year_raw": "1997",
+   "year": 1997.0,
+   "decade": 1990,
+   "sort": "Contact",
+   "order": 51,
+   "poster": "bCpMIywuNZeWt3i5UMLEIc0VSwM.jpg",
+   "tmdb": 7.448,
+   "contributor": "u/lovegun59",
+   "note": "Bill has said he hates this movie; during the Big Picture 'Robert Zemeckis' Hall-of-Fame, Sean says Contact is high on Bill's \"no go\" list",
+   "tags": [],
+   "by": {
+    "label": "u/lovegun59",
+    "href": "https://www.reddit.com/user/lovegun59"
+   }
+  },
+  {
+   "id": "crash-1996",
+   "title": "Crash",
+   "year_raw": "1996",
+   "year": 1996.0,
+   "decade": 1990,
+   "sort": "Crash",
+   "order": 52,
+   "poster": "gpai5oUFyFGLHOCsYTvVMqlbY7A.jpg",
+   "tmdb": 6.484,
+   "contributor": "u/butthead20000",
+   "note": "Discussed during the Crash (2004) ep as a future Rewatchable",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "the-curious-case-of-benjamin-button-2008",
+   "title": "The Curious Case of Benjamin Button",
+   "year_raw": "2008",
+   "year": 2008.0,
+   "decade": 2000,
+   "sort": "Curious Case of Benjamin Button, The",
+   "order": 53,
+   "poster": "26wEWZYt6yJkwRVkjcbwJEFh9IS.jpg",
+   "tmdb": 7.6,
+   "contributor": "u/butthead20000",
+   "note": "during The Game ep, Bill says they'll probably need to do all of the movies David Fincher directed",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "the-cutting-edge-1992",
+   "title": "The Cutting Edge",
+   "year_raw": "1992",
+   "year": 1992.0,
+   "decade": 1990,
+   "sort": "Cutting Edge, The",
+   "order": 54,
+   "poster": "sx4qf2XoW0xaLITQLpajsYc4mcj.jpg",
+   "tmdb": 7.281,
+   "contributor": "u/lovegun59",
+   "note": null,
+   "tags": [
+    "Sports",
+    "1990s"
+   ],
+   "by": {
+    "label": "u/lovegun59",
+    "href": "https://www.reddit.com/user/lovegun59"
+   }
+  },
+  {
+   "id": "dangerous-liaisons-1988",
+   "title": "Dangerous Liaisons",
+   "year_raw": "1988",
+   "year": 1988.0,
+   "decade": 1980,
+   "sort": "Dangerous Liaisons",
+   "order": 55,
+   "poster": "7etDozwd9Pf5oCcyo4h1Hki6U13.jpg",
+   "tmdb": 7.2,
+   "contributor": "u/butthead20000",
+   "note": "mentioned by Bill during High Fidelity ep, says it's on the 2026 rewatchables slate; mentioned again during The Big Picture 1988 draft, says it's on the rewatchables list 'at some point'",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "daylight-1996",
+   "title": "Daylight",
+   "year_raw": "1996",
+   "year": 1996.0,
+   "decade": 1990,
+   "sort": "Daylight",
+   "order": 56,
+   "poster": "bRWNxtm3q0QvIIM52uQqRIEvpl2.jpg",
+   "tmdb": 6.14,
+   "contributor": "u/butthead20000",
+   "note": "mentioned by Bill during Rocky and Rocky II eps",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "deja-vu-2006",
+   "title": "Deja Vu",
+   "year_raw": "2006",
+   "year": 2006.0,
+   "decade": 2000,
+   "sort": "Deja Vu",
+   "order": 57,
+   "poster": "eTX6hklzFOiEVqVukNCEedZKhix.jpg",
+   "tmdb": 6.893,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during American Gangster ep as one of the Denzel movies left to do",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "demolition-man-1993",
+   "title": "Demolition Man",
+   "year_raw": "1993",
+   "year": 1993.0,
+   "decade": 1990,
+   "sort": "Demolition Man",
+   "order": 58,
+   "poster": "dq6AmlVFo92PRuoLCcIyFdoRuxf.jpg",
+   "tmdb": 6.767,
+   "contributor": "u/lovegun59",
+   "note": "mentioned during the 2026 mailbag ep",
+   "tags": [],
+   "by": {
+    "label": "u/lovegun59",
+    "href": "https://www.reddit.com/user/lovegun59"
+   }
+  },
+  {
+   "id": "dirty-dancing-1987",
+   "title": "Dirty Dancing",
+   "year_raw": "1987",
+   "year": 1987.0,
+   "decade": 1980,
+   "sort": "Dirty Dancing",
+   "order": 59,
+   "poster": "9Jw6jys7q9gjzVX5zm1z0gC8gY9.jpg",
+   "tmdb": 7.32,
+   "contributor": "u/butthead20000",
+   "note": null,
+   "tags": [
+    "1980s",
+    "Swayze",
+    "Bill owns a 4K blu-ray copy"
+   ],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "django-unchained-2012",
+   "title": "Django Unchained",
+   "year_raw": "2012",
+   "year": 2012.0,
+   "decade": 2010,
+   "sort": "Django Unchained",
+   "order": 60,
+   "poster": "7oWY8VDWW7thTzWh3OKYRkWUlD5.jpg",
+   "tmdb": 8.193,
+   "contributor": "u/lovegun59",
+   "note": null,
+   "tags": [
+    "Tarantino",
+    "DiCaprio"
+   ],
+   "by": {
+    "label": "u/lovegun59",
+    "href": "https://www.reddit.com/user/lovegun59"
+   }
+  },
+  {
+   "id": "dog-day-afternoon-1975",
+   "title": "Dog Day Afternoon",
+   "year_raw": "1975",
+   "year": 1975.0,
+   "decade": 1970,
+   "sort": "Dog Day Afternoon",
+   "order": 61,
+   "poster": "mavrhr0ig2aCRR8d48yaxtD5aMQ.jpg",
+   "tmdb": 7.853,
+   "contributor": "u/plokinty",
+   "note": null,
+   "tags": [
+    "1970s",
+    "Al Pacino",
+    "mentioned during The Sting ep as potential movie for Pacino month"
+   ],
+   "by": {
+    "label": "u/plokinty",
+    "href": "https://www.reddit.com/user/plokinty"
+   }
+  },
+  {
+   "id": "dogma-1999",
+   "title": "Dogma",
+   "year_raw": "1999",
+   "year": 1999.0,
+   "decade": 1990,
+   "sort": "Dogma",
+   "order": 62,
+   "poster": "oxhHl2YokTqcP44QK5tiTgjgLgk.jpg",
+   "tmdb": 6.942,
+   "contributor": "u/butthead20000",
+   "note": "A Feb 2025 tweet from the pod's account asks for the movie to be added to Tubi or Prime Video https://x.com/TheRewatchables/status/1894426639322304854",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "dressed-to-kill-1980",
+   "title": "Dressed to Kill",
+   "year_raw": "1980",
+   "year": 1980.0,
+   "decade": 1980,
+   "sort": "Dressed to Kill",
+   "order": 63,
+   "poster": "oy1m5dd44foNrxV8U9l6Walx82V.jpg",
+   "tmdb": 6.949,
+   "contributor": "u/butthead20000",
+   "note": "mentioned by Bill and Sean during Snake Eyes ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "drive-2011",
+   "title": "Drive",
+   "year_raw": "2011",
+   "year": 2011.0,
+   "decade": 2010,
+   "sort": "Drive",
+   "order": 64,
+   "poster": "602vevIURmpDfzbnv5Ubi6wIkQm.jpg",
+   "tmdb": 7.583,
+   "contributor": "u/butthead20000",
+   "note": "mentioned by Sean during Bill's 50 Most Rewatchable Movies of the 21st Century ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "eight-men-out-1988",
+   "title": "Eight Men Out",
+   "year_raw": "1988",
+   "year": 1988.0,
+   "decade": 1980,
+   "sort": "Eight Men Out",
+   "order": 65,
+   "poster": "9nh0w2C9h9KfJb0OsVg65O65b5s.jpg",
+   "tmdb": 6.832,
+   "contributor": "u/butthead20000",
+   "note": "selected in The Big Picture 1988 draft, Bill says it's been on the rewatchables list for 2 years",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "elf-2003",
+   "title": "Elf",
+   "year_raw": "2003",
+   "year": 2003.0,
+   "decade": 2000,
+   "sort": "Elf",
+   "order": 66,
+   "poster": "oOleziEempUPu96jkGs0Pj6tKxj.jpg",
+   "tmdb": 6.666,
+   "contributor": "u/lovegun59",
+   "note": "mentioned during National Lampoon's Christmas Vacation ep, Bill owns a 4K blu-ray copy",
+   "tags": [],
+   "by": {
+    "label": "u/lovegun59",
+    "href": "https://www.reddit.com/user/lovegun59"
+   }
+  },
+  {
+   "id": "empire-records-1995",
+   "title": "Empire Records",
+   "year_raw": "1995",
+   "year": 1995.0,
+   "decade": 1990,
+   "sort": "Empire Records",
+   "order": 67,
+   "poster": "qKP7hVdjAAvRvbF3GBCbzi5LzMf.jpg",
+   "tmdb": 6.635,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during 2025 mailbag ep; Bill says it might be on the schedule",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "the-empire-strikes-back-1980",
+   "title": "The Empire Strikes Back",
+   "year_raw": "1980",
+   "year": 1980.0,
+   "decade": 1980,
+   "sort": "Empire Strikes Back, The",
+   "order": 68,
+   "poster": "nNAeTmF4CtdSgMDplXTDPOpYzsX.jpg",
+   "tmdb": 8.393,
+   "contributor": "u/butthead20000",
+   "note": null,
+   "tags": [
+    "1980s",
+    "blockbuster",
+    "sequel"
+   ],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "the-faculty-1998",
+   "title": "The Faculty",
+   "year_raw": "1998",
+   "year": 1998.0,
+   "decade": 1990,
+   "sort": "Faculty, The",
+   "order": 69,
+   "poster": "5XetJwmAiDC0EtH23NIXaqFn3Wl.jpg",
+   "tmdb": 6.573,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during GoldenEye ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "the-fan-1996",
+   "title": "The Fan",
+   "year_raw": "1996",
+   "year": 1996.0,
+   "decade": 1990,
+   "sort": "Fan, The",
+   "order": 70,
+   "poster": "lu7CjP8YES5dJMCFg5O9o9jCkjl.jpg",
+   "tmdb": 5.99,
+   "contributor": "u/butthead20000",
+   "note": "mentioned by Bill during Meet The Parents ep; mentioned again in Pacific Heights ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "fast-break-1979",
+   "title": "Fast Break",
+   "year_raw": "1979",
+   "year": 1979.0,
+   "decade": 1970,
+   "sort": "Fast Break",
+   "order": 71,
+   "poster": "upuczwWXZLY09BkavM2qgb2jcQY.jpg",
+   "tmdb": 5.625,
+   "contributor": "u/butthead20000",
+   "note": "During the King of New York ep, Quentin Tarantino says he'll come back on the pod to do Fast Break",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "fear-1996",
+   "title": "Fear",
+   "year_raw": "1996",
+   "year": 1996.0,
+   "decade": 1990,
+   "sort": "Fear",
+   "order": 72,
+   "poster": "ut8snuINzOibbKnvpTnsGWQr4Nl.jpg",
+   "tmdb": 6.657,
+   "contributor": "u/butthead20000",
+   "note": "Russillo said during the Vision Quest ep that he'd like them to do Fear, but he may have been joking",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "the-five-year-engagement-2012",
+   "title": "The Five-Year Engagement",
+   "year_raw": "2012",
+   "year": 2012.0,
+   "decade": 2010,
+   "sort": "Five-Year Engagement, The",
+   "order": 73,
+   "poster": "4Bj6pw3ZCo1f2DXP4k7AUDwMTFX.jpg",
+   "tmdb": 5.847,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Bill's 50 Most Rewatchable Movies of the 21st Century ep, Bill says it's on the Rewatchables list",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "the-flamingo-kid-1984",
+   "title": "The Flamingo Kid",
+   "year_raw": "1984",
+   "year": 1984.0,
+   "decade": 1980,
+   "sort": "Flamingo Kid, The",
+   "order": 74,
+   "poster": "hNCYkAXB9WIQBABXTV6Vs9kFrLY.jpg",
+   "tmdb": 5.989,
+   "contributor": "u/butthead20000",
+   "note": "A Feb 2025 tweet from the pod's account asks for the movie to be added to Tubi or Prime Video https://x.com/TheRewatchables/status/1894426639322304854",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "flashdance-1983",
+   "title": "Flashdance",
+   "year_raw": "1983",
+   "year": 1983.0,
+   "decade": 1980,
+   "sort": "Flashdance",
+   "order": 75,
+   "poster": "ziiy6ORt8BlxWFXskBChBMInvDA.jpg",
+   "tmdb": 6.492,
+   "contributor": "u/butthead20000",
+   "note": "mentioned by Bill during F1 ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "footloose-1984",
+   "title": "Footloose",
+   "year_raw": "1984",
+   "year": 1984.0,
+   "decade": 1980,
+   "sort": "Footloose",
+   "order": 76,
+   "poster": "9JEDjBCXCx3eKTSkXwispf0UN3O.jpg",
+   "tmdb": 6.686,
+   "contributor": "u/RusevReigns",
+   "note": "Popular 1980s film, but it is also a musical",
+   "tags": [],
+   "by": {
+    "label": "u/RusevReigns",
+    "href": "https://www.reddit.com/user/RusevReigns"
+   }
+  },
+  {
+   "id": "fracture-2007",
+   "title": "Fracture",
+   "year_raw": "2007",
+   "year": 2007.0,
+   "decade": 2000,
+   "sort": "Fracture",
+   "order": 77,
+   "poster": "qNen8x5gaikjIg9CFihgxYcJwQe.jpg",
+   "tmdb": 7.258,
+   "contributor": "u/lovegun59",
+   "note": null,
+   "tags": [
+    "Psychologica/legal thriller",
+    "Anthony Hopkins"
+   ],
+   "by": {
+    "label": "u/lovegun59",
+    "href": "https://www.reddit.com/user/lovegun59"
+   }
+  },
+  {
+   "id": "frances-ha-2012",
+   "title": "Frances Ha",
+   "year_raw": "2012",
+   "year": 2012.0,
+   "decade": 2010,
+   "sort": "Frances Ha",
+   "order": 78,
+   "poster": "jrq1NoKvsxWCcffVOjegiYwloFN.jpg",
+   "tmdb": 7.332,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during After Hours ep, Bill says it's on the list",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "the-french-connection-1971",
+   "title": "The French Connection",
+   "year_raw": "1971",
+   "year": 1971.0,
+   "decade": 1970,
+   "sort": "French Connection, The",
+   "order": 79,
+   "poster": "pH4saPwMjhnVGwmSH6RkMaHrt3s.jpg",
+   "tmdb": 7.493,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during the re-Blue Chips ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "fright-night-1985",
+   "title": "Fright Night",
+   "year_raw": "1985",
+   "year": 1985.0,
+   "decade": 1980,
+   "sort": "Fright Night",
+   "order": 80,
+   "poster": "euIh75MwNDrYkTEVSkw7VXWGXoE.jpg",
+   "tmdb": 7.046,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Body Double ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "full-metal-jacket-1987",
+   "title": "Full Metal Jacket",
+   "year_raw": "1987",
+   "year": 1987.0,
+   "decade": 1980,
+   "sort": "Full Metal Jacket",
+   "order": 81,
+   "poster": "kMKyx1k8hWWscYFnPbnxxN4Eqo4.jpg",
+   "tmdb": 8.119,
+   "contributor": "u/butthead20000",
+   "note": "mentioned by Bill during the National Lampoon's Christmas Vacation ep, says they will do it",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "funny-people-2009",
+   "title": "Funny People",
+   "year_raw": "2009",
+   "year": 2009.0,
+   "decade": 2000,
+   "sort": "Funny People",
+   "order": 82,
+   "poster": "gEYKD5cWCBGg8Za3hhwDBk3gEsP.jpg",
+   "tmdb": 5.88,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Bill's 50 Most Rewatchable Movies of the 21st Century ep; mentioned again during the 2026 mailbag ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "garden-state-2004",
+   "title": "Garden State",
+   "year_raw": "2004",
+   "year": 2004.0,
+   "decade": 2000,
+   "sort": "Garden State",
+   "order": 83,
+   "poster": "h3iqYiGS6F3y7GxaS4AT8nFxZ2i.jpg",
+   "tmdb": 7.076,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Bill's 50 Most Rewatchable Movies of the 21st Century ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "get-shorty-1995",
+   "title": "Get Shorty",
+   "year_raw": "1995",
+   "year": 1995.0,
+   "decade": 1990,
+   "sort": "Get Shorty",
+   "order": 84,
+   "poster": "r82SdPhg4fnIcLt0ogIjQxqjdcO.jpg",
+   "tmdb": 6.498,
+   "contributor": "u/jpwest13",
+   "note": null,
+   "tags": [
+    "90s",
+    "Travolta",
+    "Hackman"
+   ],
+   "by": {
+    "label": "u/jpwest13",
+    "href": "https://www.reddit.com/user/jpwest13"
+   }
+  },
+  {
+   "id": "the-girl-with-the-dragon-tattoo-2011",
+   "title": "The Girl with the Dragon Tattoo",
+   "year_raw": "2011",
+   "year": 2011.0,
+   "decade": 2010,
+   "sort": "Girl with the Dragon Tattoo, The",
+   "order": 85,
+   "poster": "8bokS83zGdhaXgN9tjidUKmAftW.jpg",
+   "tmdb": 7.387,
+   "contributor": "u/butthead20000",
+   "note": "during The Game ep, Bill says they'll probably need to do all of the movies David Fincher directed",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "gleaming-the-cube-1989",
+   "title": "Gleaming The Cube",
+   "year_raw": "1989",
+   "year": 1989.0,
+   "decade": 1980,
+   "sort": "Gleaming The Cube",
+   "order": 86,
+   "poster": "dpwbqnG2vmkwBBIpfQmFUf5l120.jpg",
+   "tmdb": 6.0,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during The Longest Yard; also during Vision Quest",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "go-1999",
+   "title": "Go",
+   "year_raw": "1999",
+   "year": 1999.0,
+   "decade": 1990,
+   "sort": "Go",
+   "order": 87,
+   "poster": "7UzD5Dmu3jqb2ls4Lnb4SYQqbYm.jpg",
+   "tmdb": 6.967,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Along Came Polly ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "gone-in-60-seconds-2000",
+   "title": "Gone In 60 Seconds",
+   "year_raw": "2000",
+   "year": 2000.0,
+   "decade": 2000,
+   "sort": "Gone In 60 Seconds",
+   "order": 88,
+   "poster": "fToQDmkBtiXYGh9xfgAh3gpo6GZ.jpg",
+   "tmdb": 6.474,
+   "contributor": "u/lovegun59",
+   "note": "mentioned by Bill during Con Air, GoldenEye and F1 eps",
+   "tags": [],
+   "by": {
+    "label": "u/lovegun59",
+    "href": "https://www.reddit.com/user/lovegun59"
+   }
+  },
+  {
+   "id": "good-morning-vietnam-1987",
+   "title": "Good Morning Vietnam",
+   "year_raw": "1987",
+   "year": 1987.0,
+   "decade": 1980,
+   "sort": "Good Morning Vietnam",
+   "order": 89,
+   "poster": "sreISlFUn5TyR41QNjlfAdX5SEW.jpg",
+   "tmdb": 7.303,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Slap Shot ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "the-goonies-1985",
+   "title": "The Goonies",
+   "year_raw": "1985",
+   "year": 1985.0,
+   "decade": 1980,
+   "sort": "Goonies, The",
+   "order": 90,
+   "poster": "eBU7gCjTCj9n2LTxvCSIXXOvHkD.jpg",
+   "tmdb": 7.514,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Sicario ep as a possible candidate for CR month; was one of the finalists for the final movie of CR month",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "gravity-2013",
+   "title": "Gravity",
+   "year_raw": "2013",
+   "year": 2013.0,
+   "decade": 2010,
+   "sort": "Gravity",
+   "order": 91,
+   "poster": "kZ2nZw8D681aphje8NJi8EfbL1U.jpg",
+   "tmdb": 7.173,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during re-Speed ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "gremlins-1984",
+   "title": "Gremlins",
+   "year_raw": "1984",
+   "year": 1984.0,
+   "decade": 1980,
+   "sort": "Gremlins",
+   "order": 92,
+   "poster": "6m0F7fsXjQvUbCZrPWcJNrjvIui.jpg",
+   "tmdb": 7.144,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during 2026 mailbag ep as part of Creature Feature Month",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "gymkata-1985",
+   "title": "Gymkata",
+   "year_raw": "1985",
+   "year": 1985.0,
+   "decade": 1980,
+   "sort": "Gymkata",
+   "order": 93,
+   "poster": "y8RhLH1TTJppX0sr4pHGLdKFbc9.jpg",
+   "tmdb": 5.346,
+   "contributor": "u/butthead20000",
+   "note": "Mentioned during the Running Scared ep (Bill says it will be done if they ever do \"Worst Sports Movies Ever\" month); also mentioned during the 2025 mailbag ep, the Wayne's World ep and The Saint ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "halloween-h20-20-years-later-1998",
+   "title": "Halloween H20: 20 Years Later",
+   "year_raw": "1998",
+   "year": 1998.0,
+   "decade": 1990,
+   "sort": "Halloween H20: 20 Years Later",
+   "order": 94,
+   "poster": "lqLXUm3oK59sGJKRH2Zjj2m3iMg.jpg",
+   "tmdb": 6.041,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Halloween II ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "happiness-1998",
+   "title": "Happiness",
+   "year_raw": "1998",
+   "year": 1998.0,
+   "decade": 1990,
+   "sort": "Happiness",
+   "order": 95,
+   "poster": "rYfUcEV88Z3gENrfYTE6i8yBkDr.jpg",
+   "tmdb": 7.434,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Along Came Polly ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "hard-target-1993",
+   "title": "Hard Target",
+   "year_raw": "1993",
+   "year": 1993.0,
+   "decade": 1990,
+   "sort": "Hard Target",
+   "order": 96,
+   "poster": "mXCM7pmUFUGp7QzSmare3RITe6n.jpg",
+   "tmdb": 6.512,
+   "contributor": "u/lovegun59",
+   "note": null,
+   "tags": [
+    "1990s",
+    "John Woo",
+    "Van Damme"
+   ],
+   "by": {
+    "label": "u/lovegun59",
+    "href": "https://www.reddit.com/user/lovegun59"
+   }
+  },
+  {
+   "id": "heat-1987",
+   "title": "Heat",
+   "year_raw": "1987",
+   "year": 1987.0,
+   "decade": 1980,
+   "sort": "Heat",
+   "order": 97,
+   "poster": "wsfL3kmdCbf34r2lykibFjavqVT.jpg",
+   "tmdb": 5.8,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Along Came Polly ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "heathers-1988",
+   "title": "Heathers",
+   "year_raw": "1988",
+   "year": 1988.0,
+   "decade": 1980,
+   "sort": "Heathers",
+   "order": 98,
+   "poster": "dGbVfM4WlM7uvIbyRehfPZUIgp2.jpg",
+   "tmdb": 7.3,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during The Longest Yard",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "history-of-the-world-part-i-1981",
+   "title": "History of the World, Part I",
+   "year_raw": "1981",
+   "year": 1981.0,
+   "decade": 1980,
+   "sort": "History of the World, Part I",
+   "order": 99,
+   "poster": "1bMaEfI76yrGjCSDquCippAFIDI.jpg",
+   "tmdb": 6.748,
+   "contributor": "u/butthead20000",
+   "note": "During the Running Scared ep, Bill says maybe it will have to be part of \"What's aged the worst?\" month",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "hoop-dreams-1994",
+   "title": "Hoop Dreams",
+   "year_raw": "1994",
+   "year": 1994.0,
+   "decade": 1990,
+   "sort": "Hoop Dreams",
+   "order": 100,
+   "poster": "gLzHl2XBtVwycl8DxdOXRHPm8G3.jpg",
+   "tmdb": 7.588,
+   "contributor": "u/RusevReigns",
+   "note": null,
+   "tags": [
+    "Sports/Basketball",
+    "1990s"
+   ],
+   "by": {
+    "label": "u/RusevReigns",
+    "href": "https://www.reddit.com/user/RusevReigns"
+   }
+  },
+  {
+   "id": "the-hunger-games-catching-fire-2013",
+   "title": "The Hunger Games: Catching Fire",
+   "year_raw": "2013",
+   "year": 2013.0,
+   "decade": 2010,
+   "sort": "Hunger Games: Catching Fire, The",
+   "order": 101,
+   "poster": "vrQHDXjVmbYzadOXQ0UaObunoy2.jpg",
+   "tmdb": 7.4,
+   "contributor": "u/butthead20000",
+   "note": null,
+   "tags": [
+    "Action",
+    "Blockbuster",
+    "Bill owns a 4K blu-ray copy"
+   ],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "the-hunt-for-red-october-1990",
+   "title": "The Hunt for Red October",
+   "year_raw": "1990",
+   "year": 1990.0,
+   "decade": 1990,
+   "sort": "Hunt for Red October, The",
+   "order": 102,
+   "poster": "yVl7zidse4KiWtGMqHFtZCx4X3N.jpg",
+   "tmdb": 7.384,
+   "contributor": "https://www.reddit.com/r/billsimmons/comments/1ap0bp0/outside_of_the_obvious_pulp_fictonanchorman/",
+   "note": "mentioned during Breaking Away, Bill says they will do The Hunt for Red October if they do Inside Moves; mentioned again during Minority Report, Bill says \"it's on the list\"; mentioned again on other eps, most recently Species; mentioned again during Secario, CR says it needs to happen in October",
+   "tags": [],
+   "by": {
+    "label": "reddit thread",
+    "href": "https://www.reddit.com/r/billsimmons/comments/1ap0bp0/outside_of_the_obvious_pulp_fictonanchorman/"
+   }
+  },
+  {
+   "id": "i-love-you-man-2009",
+   "title": "I Love You, Man",
+   "year_raw": "2009",
+   "year": 2009.0,
+   "decade": 2000,
+   "sort": "I Love You, Man",
+   "order": 103,
+   "poster": "xr4zAYsvgTzvMMiWu6qCAP9WBer.jpg",
+   "tmdb": 6.569,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Bill's 50 Most Rewatchable Movies of the 21st Century ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "indiana-jones-and-the-temple-of-doom-1984",
+   "title": "Indiana Jones and the Temple of Doom",
+   "year_raw": "1984",
+   "year": 1984.0,
+   "decade": 1980,
+   "sort": "Indiana Jones and the Temple of Doom",
+   "order": 104,
+   "poster": "gpdVNUaa4LhRMLfJOPj1AZdhAZ3.jpg",
+   "tmdb": 7.309,
+   "contributor": "u/lovegun59",
+   "note": null,
+   "tags": [
+    "1980s",
+    "Harrison Ford",
+    "Indiana Jones 1 and 3 have been covered"
+   ],
+   "by": {
+    "label": "u/lovegun59",
+    "href": "https://www.reddit.com/user/lovegun59"
+   }
+  },
+  {
+   "id": "inherent-vice-2014",
+   "title": "Inherent Vice",
+   "year_raw": "2014",
+   "year": 2014.0,
+   "decade": 2010,
+   "sort": "Inherent Vice",
+   "order": 105,
+   "poster": "pfVua7TzzttOh3RTOuBqT7xN0oY.jpg",
+   "tmdb": 6.545,
+   "contributor": "https://www.reddit.com/r/billsimmons/comments/1efv6wk/whats_are_your_top_rewatchables_requests_now_that/",
+   "note": null,
+   "tags": [
+    "PTA"
+   ],
+   "by": {
+    "label": "reddit thread",
+    "href": "https://www.reddit.com/r/billsimmons/comments/1efv6wk/whats_are_your_top_rewatchables_requests_now_that/"
+   }
+  },
+  {
+   "id": "inside-moves-1980",
+   "title": "Inside Moves",
+   "year_raw": "1980",
+   "year": 1980.0,
+   "decade": 1980,
+   "sort": "Inside Moves",
+   "order": 106,
+   "poster": "A65YXgdnVgRjkaeA0hSMzfoAlZz.jpg",
+   "tmdb": 6.329,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Breaking Away; Bill says they will do The Hunt for Red October if they do Inside Moves",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "interstellar-2014",
+   "title": "Interstellar",
+   "year_raw": "2014",
+   "year": 2014.0,
+   "decade": 2010,
+   "sort": "Interstellar",
+   "order": 107,
+   "poster": "yQvGrMoipbRoddT0ZR8tPoR7NfX.jpg",
+   "tmdb": 8.486,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Crash, Bill says others can do the Interstellar ep; mentioned during July 19 BS pod",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "irreconcilable-differences-1984",
+   "title": "Irreconcilable Differences",
+   "year_raw": "1984",
+   "year": 1984.0,
+   "decade": 1980,
+   "sort": "Irreconcilable Differences",
+   "order": 108,
+   "poster": "jBr9FR2pUpjOERgxljxaNtpIj9c.jpg",
+   "tmdb": 5.607,
+   "contributor": "u/butthead20000",
+   "note": "mentioned by Bill during Night Shift, It's Complicated, The Sting and Ace Ventura eps",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "the-island-of-dr-moreau-1996",
+   "title": "The Island of Dr. Moreau",
+   "year_raw": "1996",
+   "year": 1996.0,
+   "decade": 1990,
+   "sort": "Island of Dr. Moreau, The",
+   "order": 109,
+   "poster": "hOJeQXve8W9rNRhdgC1WV3GQJyA.jpg",
+   "tmdb": 4.9,
+   "contributor": "u/butthead20000",
+   "note": "During the The Saint ep, Bill says he may do it as a solo Rewatchables because no one else wants to do it",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "jack-reacher-2012",
+   "title": "Jack Reacher",
+   "year_raw": "2012",
+   "year": 2012.0,
+   "decade": 2010,
+   "sort": "Jack Reacher",
+   "order": 110,
+   "poster": "uQBbjrLVsUibWxNDGA4Czzo8lwz.jpg",
+   "tmdb": 6.677,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Tropic Thunder ep, Bill says it's his fave Cruise movie from Cruise's down period",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "jackie-brown-1997",
+   "title": "Jackie Brown",
+   "year_raw": "1997",
+   "year": 1997.0,
+   "decade": 1990,
+   "sort": "Jackie Brown",
+   "order": 111,
+   "poster": "rOUx7qg4KmEh1juEDwqzbDSL1Nr.jpg",
+   "tmdb": 7.357,
+   "contributor": "u/lovegun59",
+   "note": "mentioned by Bill during Before Sunrise ep, says it's on the list",
+   "tags": [],
+   "by": {
+    "label": "u/lovegun59",
+    "href": "https://www.reddit.com/user/lovegun59"
+   }
+  },
+  {
+   "id": "the-jericho-mile-1979",
+   "title": "The Jericho Mile",
+   "year_raw": "1979",
+   "year": 1979.0,
+   "decade": 1970,
+   "sort": "Jericho Mile, The",
+   "order": 112,
+   "poster": "cinQBqd5K5jDqEJ0ECbXA58dXt4.jpg",
+   "tmdb": 6.028,
+   "contributor": "u/butthead20000",
+   "note": "Bill mentions during the Miami Vice: Calderone's Return ep that they'll do every MIchael Mann movie on The Rewatchables, Bill owns a 4K blu-ray copy",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "john-wick-3-2019",
+   "title": "John Wick 3",
+   "year_raw": "2019",
+   "year": 2019.0,
+   "decade": 2010,
+   "sort": "John Wick 3",
+   "order": 113,
+   "poster": null,
+   "tmdb": null,
+   "contributor": "u/lovegun59",
+   "note": null,
+   "tags": [
+    "Keanu",
+    "John Wick and John Wick 2 have been covered"
+   ],
+   "by": {
+    "label": "u/lovegun59",
+    "href": "https://www.reddit.com/user/lovegun59"
+   }
+  },
+  {
+   "id": "john-wick-4-2023",
+   "title": "John Wick 4",
+   "year_raw": "2023",
+   "year": 2023.0,
+   "decade": 2020,
+   "sort": "John Wick 4",
+   "order": 114,
+   "poster": null,
+   "tmdb": null,
+   "contributor": "u/lovegun59",
+   "note": null,
+   "tags": [
+    "Keanu",
+    "John Wick and John Wick 2 have been covered"
+   ],
+   "by": {
+    "label": "u/lovegun59",
+    "href": "https://www.reddit.com/user/lovegun59"
+   }
+  },
+  {
+   "id": "just-go-with-it-2011",
+   "title": "Just Go with It",
+   "year_raw": "2011",
+   "year": 2011.0,
+   "decade": 2010,
+   "sort": "Just Go with It",
+   "order": 115,
+   "poster": "3rz7bfGsPGcI6cfY002n9VrUgao.jpg",
+   "tmdb": 6.706,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Bill's 50 Most Rewatchable Movies of the 21st Century ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "the-keep-1983",
+   "title": "The Keep",
+   "year_raw": "1983",
+   "year": 1983.0,
+   "decade": 1980,
+   "sort": "Keep, The",
+   "order": 116,
+   "poster": "yd9wU3oajNxwaFHQ02rtTBuSFJD.jpg",
+   "tmdb": 5.625,
+   "contributor": "u/butthead20000",
+   "note": "Bill mentions during the Miami Vice: Calderone's Return ep that they'll do every MIchael Mann movie on The Rewatchables",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "the-king-of-comedy-1982",
+   "title": "The King of Comedy",
+   "year_raw": "1982",
+   "year": 1982.0,
+   "decade": 1980,
+   "sort": "King of Comedy, The",
+   "order": 117,
+   "poster": "m24EbHxT9NGYEkOlu29YcLOgjgK.jpg",
+   "tmdb": 7.777,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during After Hours ep, Bill says they're gonna have to do it at some point",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "kingpin-1996",
+   "title": "Kingpin",
+   "year_raw": "1996",
+   "year": 1996.0,
+   "decade": 1990,
+   "sort": "Kingpin",
+   "order": 118,
+   "poster": "lVpejjxzBujSjLpxQ7hGe1s0wP2.jpg",
+   "tmdb": 6.543,
+   "contributor": "u/lovegun59",
+   "note": null,
+   "tags": [
+    "1990s",
+    "Bill Murray",
+    "Woody Harrelson"
+   ],
+   "by": {
+    "label": "u/lovegun59",
+    "href": "https://www.reddit.com/user/lovegun59"
+   }
+  },
+  {
+   "id": "kiss-of-death-1995",
+   "title": "Kiss of Death",
+   "year_raw": "1995",
+   "year": 1995.0,
+   "decade": 1990,
+   "sort": "Kiss of Death",
+   "order": 119,
+   "poster": "2cCxEqeIy6Q8HgVjfT7obOnF5Zi.jpg",
+   "tmdb": 5.694,
+   "contributor": "u/butthead20000",
+   "note": "Bill says during the Con Air ep that they'll do it in season 11 of the Rewatchables; Bill says he's a huge Kiss of Death guy during the King of New York ep; a Feb 2025 tweet from the pod's account asks for Kiss of Death to be added to Tubi or Prime Video https://x.com/TheRewatchables/status/1894426639322304854/; mentioned again in Bill rants during the Someone to Watch Over Me, The Sting and Ace Ventura eps",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "lake-placid-1999",
+   "title": "Lake Placid",
+   "year_raw": "1999",
+   "year": 1999.0,
+   "decade": 1990,
+   "sort": "Lake Placid",
+   "order": 120,
+   "poster": "pEszakCP8j9E9S0UPLfEa3Cad3O.jpg",
+   "tmdb": 5.939,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during 2026 mailbag ep as part of Creature Feature Month",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "liar-liar-1997",
+   "title": "Liar Liar",
+   "year_raw": "1997",
+   "year": 1997.0,
+   "decade": 1990,
+   "sort": "Liar Liar",
+   "order": 121,
+   "poster": "p1habYSdC7oD3WygQ5lynU5G5rV.jpg",
+   "tmdb": 6.716,
+   "contributor": "u/lovegun59",
+   "note": null,
+   "tags": [
+    "1990s",
+    "Jim Carrey"
+   ],
+   "by": {
+    "label": "u/lovegun59",
+    "href": "https://www.reddit.com/user/lovegun59"
+   }
+  },
+  {
+   "id": "lock-up-1989",
+   "title": "Lock Up",
+   "year_raw": "1989",
+   "year": 1989.0,
+   "decade": 1980,
+   "sort": "Lock Up",
+   "order": 122,
+   "poster": "WihoHaU9yvhhdoSqDAhiIlNN8g.jpg",
+   "tmdb": 6.802,
+   "contributor": "u/butthead20000",
+   "note": "mentioned by Bill during The Big Chill, Rocky and Rocky II eps",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "looking-for-richard-1996",
+   "title": "Looking for Richard",
+   "year_raw": "1996",
+   "year": 1996.0,
+   "decade": 1990,
+   "sort": "Looking for Richard",
+   "order": 123,
+   "poster": "2iEgEoMP1S2YWKkYkwm8cgg2bBN.jpg",
+   "tmdb": 6.791,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during The Sting ep, Sean says it should be part of Pacino month",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "macgruber-2010",
+   "title": "MacGruber",
+   "year_raw": "2010",
+   "year": 2010.0,
+   "decade": 2010,
+   "sort": "MacGruber",
+   "order": 124,
+   "poster": "9cO8JD7aaQzI4q8lBS8MYXH8LrJ.jpg",
+   "tmdb": 5.413,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during The Blues Brothers ep; CR asks Bill if he'd be open to it, and Bill replies \"Yeah, it's on the list\"",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "malice-1993",
+   "title": "Malice",
+   "year_raw": "1993",
+   "year": 1993.0,
+   "decade": 1990,
+   "sort": "Malice",
+   "order": 125,
+   "poster": "oQoe4eIzDjQSSqGvLgJFjXtEkNv.jpg",
+   "tmdb": 6.273,
+   "contributor": "u/lovegun59",
+   "note": "mentioned by Bill during Ransom, The Edge, The Town, and Along Came Polly eps; mentioned again during Domestic Disturbance ep, Bill says it will be a future ep",
+   "tags": [],
+   "by": {
+    "label": "u/lovegun59",
+    "href": "https://www.reddit.com/user/lovegun59"
+   }
+  },
+  {
+   "id": "the-master-2012",
+   "title": "The Master",
+   "year_raw": "2012",
+   "year": 2012.0,
+   "decade": 2010,
+   "sort": "Master, The",
+   "order": 126,
+   "poster": "rUSjbyvYWN9H4az8xt0tDtU7I6v.jpg",
+   "tmdb": 7.094,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Along Came Polly ep; mentioned again in the CR month mailbag ep, Bill calls it one of the more polarizing good movies and that he doesn't like it but he respects it",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "master-and-commander-the-far-side-of-the-world-2003",
+   "title": "Master and Commander: The Far Side of the World",
+   "year_raw": "2003",
+   "year": 2003.0,
+   "decade": 2000,
+   "sort": "Master and Commander: The Far Side of the World",
+   "order": 127,
+   "poster": "7ZUHF6P0vcA5v1Gm8NbRYyd9w4N.jpg",
+   "tmdb": 7.201,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during The Truman Show ep, Bill and CR say they'll do it \"at some point\"",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "maverick-1994",
+   "title": "Maverick",
+   "year_raw": "1994",
+   "year": 1994.0,
+   "decade": 1990,
+   "sort": "Maverick",
+   "order": 128,
+   "poster": "mTVbGGi5PIexmxVzeyFd2RYKwfM.jpg",
+   "tmdb": 6.901,
+   "contributor": "u/butthead20000",
+   "note": "During the \"Focus\" ep Bill and Wesley talk about how much they like it and how Bill directed Wesley to write about it for Grantland; they don't commit to making it a proper Rewatchable, though",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "men-in-black-1997",
+   "title": "Men In Black",
+   "year_raw": "1997",
+   "year": 1997.0,
+   "decade": 1990,
+   "sort": "Men In Black",
+   "order": 129,
+   "poster": "uLOmOF5IzWoyrgIF5MfUnh5pa1X.jpg",
+   "tmdb": 7.227,
+   "contributor": "u/lovegun59",
+   "note": null,
+   "tags": [
+    "Action comedy",
+    "1990s",
+    "Tommy Lee Jones",
+    "blockbuster"
+   ],
+   "by": {
+    "label": "u/lovegun59",
+    "href": "https://www.reddit.com/user/lovegun59"
+   }
+  },
+  {
+   "id": "miami-vice-tv-series",
+   "title": "Miami Vice (TV series)",
+   "year_raw": "1984-1990",
+   "year": null,
+   "decade": null,
+   "sort": "Miami Vice (TV series)",
+   "order": 130,
+   "poster": null,
+   "tmdb": null,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during the summer mailbag ep, Bill says they may have to do a starter kit episode",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "miami-vice-2027",
+   "title": "Miami Vice",
+   "year_raw": "2027",
+   "year": 2027.0,
+   "decade": 2020,
+   "sort": "Miami Vice",
+   "order": 131,
+   "poster": null,
+   "tmdb": null,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during F1 ep, Bill says they'll do the episode from the theater",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "mission-impossible-iii-2006",
+   "title": "Mission: Impossible III",
+   "year_raw": "2006",
+   "year": 2006.0,
+   "decade": 2000,
+   "sort": "Mission: Impossible III",
+   "order": 132,
+   "poster": "vKGYCpmQyV9uHybWDzXuII8Los5.jpg",
+   "tmdb": 6.766,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Along Came Polly ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "mission-impossible-ghost-protocol-2011",
+   "title": "Mission: Impossible - Ghost Protocol",
+   "year_raw": "2011",
+   "year": 2011.0,
+   "decade": 2010,
+   "sort": "Mission: Impossible - Ghost Protocol",
+   "order": 133,
+   "poster": "eRZTGx7GsiKqPch96k27LK005ZL.jpg",
+   "tmdb": 7.115,
+   "contributor": "u/butthead20000",
+   "note": "during The Truman Show ep Bill says they have some Mission: Impossibles left to do",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "mission-impossible-rogue-nation-2015",
+   "title": "Mission: Impossible - Rogue Nation",
+   "year_raw": "2015",
+   "year": 2015.0,
+   "decade": 2010,
+   "sort": "Mission: Impossible - Rogue Nation",
+   "order": 134,
+   "poster": "fRJLXQBHK2wyznK5yZbO7vmsuVK.jpg",
+   "tmdb": 7.224,
+   "contributor": "u/butthead20000",
+   "note": null,
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "mission-impossible-dead-reckoning-2023",
+   "title": "Mission: Impossible - Dead Reckoning",
+   "year_raw": "2023",
+   "year": 2023.0,
+   "decade": 2020,
+   "sort": "Mission: Impossible - Dead Reckoning",
+   "order": 135,
+   "poster": "NNxYkU70HPurnNCSiCjYAmacwm.jpg",
+   "tmdb": 7.502,
+   "contributor": "u/butthead20000",
+   "note": null,
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "the-money-pit-1986",
+   "title": "The Money Pit",
+   "year_raw": "1986",
+   "year": 1986.0,
+   "decade": 1980,
+   "sort": "Money Pit, The",
+   "order": 136,
+   "poster": "bohhidIi1WWU5NNYF9l5wLQu3Ii.jpg",
+   "tmdb": 6.516,
+   "contributor": "u/butthead20000",
+   "note": "mentioned by Bill during \"Night Shift\"",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "the-mummy-1999",
+   "title": "The Mummy",
+   "year_raw": "1999",
+   "year": 1999.0,
+   "decade": 1990,
+   "sort": "Mummy, The",
+   "order": 137,
+   "poster": "yhIsVvcUm7QxzLfT6HW2wLf5ajY.jpg",
+   "tmdb": 6.992,
+   "contributor": "https://www.reddit.com/r/billsimmons/comments/1ap0bp0/outside_of_the_obvious_pulp_fictonanchorman/",
+   "note": null,
+   "tags": [
+    "Action comedy",
+    "1990s",
+    "blockbuster"
+   ],
+   "by": {
+    "label": "reddit thread",
+    "href": "https://www.reddit.com/r/billsimmons/comments/1ap0bp0/outside_of_the_obvious_pulp_fictonanchorman/"
+   }
+  },
+  {
+   "id": "the-negotiator-1998",
+   "title": "The Negotiator",
+   "year_raw": "1998",
+   "year": 1998.0,
+   "decade": 1990,
+   "sort": "Negotiator, The",
+   "order": 138,
+   "poster": "dUMHEymATOGbs2K3E4dmNSVBgFQ.jpg",
+   "tmdb": 7.113,
+   "contributor": "u/lovegun59",
+   "note": null,
+   "tags": [
+    "Thriller",
+    "1990s"
+   ],
+   "by": {
+    "label": "u/lovegun59",
+    "href": "https://www.reddit.com/user/lovegun59"
+   }
+  },
+  {
+   "id": "network-1976",
+   "title": "Network",
+   "year_raw": "1976",
+   "year": 1976.0,
+   "decade": 1970,
+   "sort": "Network",
+   "order": 139,
+   "poster": "qZomlHsaALUtkFeMDwdYmwS2Pbo.jpg",
+   "tmdb": 7.795,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during 2025 mailbag ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "night-moves-1975",
+   "title": "Night Moves",
+   "year_raw": "1975",
+   "year": 1975.0,
+   "decade": 1970,
+   "sort": "Night Moves",
+   "order": 140,
+   "poster": "j3zMCyvhGlpw31BAWLVMEZNPfOX.jpg",
+   "tmdb": 6.716,
+   "contributor": "u/butthead20000",
+   "note": "Mentioned by CR during American Gangster ep as candidate for Sleazy Florida (Keys) Month",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "nighthawks-1981",
+   "title": "Nighthawks",
+   "year_raw": "1981",
+   "year": 1981.0,
+   "decade": 1980,
+   "sort": "Nighthawks",
+   "order": 141,
+   "poster": "2QgpCgOmlgvOPMMC0OrgCv5EKIf.jpg",
+   "tmdb": 6.375,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Rocky II ep, during the Robocop ep Bill proposes he and Kyle do a Nighthawks ep, and at the end of the pod mentions that it's been a while since a Stallone ep and there's more meat on the Stallone bone",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "no-holds-barred-1989",
+   "title": "No Holds Barred",
+   "year_raw": "1989",
+   "year": 1989.0,
+   "decade": 1980,
+   "sort": "No Holds Barred",
+   "order": 142,
+   "poster": "6BmhGmMF53mIsJuUYSwyLfCaTfu.jpg",
+   "tmdb": 4.742,
+   "contributor": "u/butthead20000",
+   "note": "During the Wayne's World ep Kyle talks about how ready he will be if they ever do it",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "oceans-13-2007",
+   "title": "Oceans 13",
+   "year_raw": "2007",
+   "year": 2007.0,
+   "decade": 2000,
+   "sort": "Oceans 13",
+   "order": 143,
+   "poster": null,
+   "tmdb": null,
+   "contributor": "u/lovegun59",
+   "note": null,
+   "tags": [
+    "Oceans 11 and 12 have been done"
+   ],
+   "by": {
+    "label": "u/lovegun59",
+    "href": "https://www.reddit.com/user/lovegun59"
+   }
+  },
+  {
+   "id": "one-on-one-1977",
+   "title": "One on One",
+   "year_raw": "1977",
+   "year": 1977.0,
+   "decade": 1970,
+   "sort": "One on One",
+   "order": 144,
+   "poster": "xCK4RkUpjt1aKivID3G8eWHnyFc.jpg",
+   "tmdb": 5.9,
+   "contributor": "u/butthead20000",
+   "note": "During the King of New York ep, Quentin Tarantino says he'll come back on the pod to do Fast Break",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "the-other-guys-2010",
+   "title": "The Other Guys",
+   "year_raw": "2010",
+   "year": 2010.0,
+   "decade": 2010,
+   "sort": "Other Guys, The",
+   "order": 145,
+   "poster": "wNEHNqo3MgHmj3BUiPSqqq5czcm.jpg",
+   "tmdb": 6.336,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Bill's 50 Most Rewatchable Movies of the 21st Century ep; mentioned again in the 2026 mailbag ep; one of the options in the vote for the final movie of CR month",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "out-of-time-2003",
+   "title": "Out of Time",
+   "year_raw": "2003",
+   "year": 2003.0,
+   "decade": 2000,
+   "sort": "Out of Time",
+   "order": 146,
+   "poster": "zMExJ6RdJQmRMydvozhEBlOLX1m.jpg",
+   "tmdb": 6.376,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during American Gangster ep as one of the Denzel movies left to do; Bill says it would be part of Sleazy Florida Keys Month; mentioned again in the 2026 mailbag ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "the-outlaw-josey-wales-1976",
+   "title": "The Outlaw Josey Wales",
+   "year_raw": "1976",
+   "year": 1976.0,
+   "decade": 1970,
+   "sort": "Outlaw Josey Wales, The",
+   "order": 147,
+   "poster": "92BZIFPbyCPNhExyFScxA3xF1dy.jpg",
+   "tmdb": 7.454,
+   "contributor": "u/butthead20000",
+   "note": "During the Jeremiah Johnson ep, Josey Wales is the one movie of Bill's Dad's top 5 that hasn't been done yet on the pod",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "overboard-1987",
+   "title": "Overboard",
+   "year_raw": "1987",
+   "year": 1987.0,
+   "decade": 1980,
+   "sort": "Overboard",
+   "order": 148,
+   "poster": "v9MVFgUTvNRXmm2WWOzST6UXb5x.jpg",
+   "tmdb": 6.801,
+   "contributor": "u/butthead20000",
+   "note": "Mentioned during the National Lampoon's Christmas Vacation ep, Bill says he loved Goldie",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "oz",
+   "title": "Oz",
+   "year_raw": "1997-2003",
+   "year": null,
+   "decade": null,
+   "sort": "Oz",
+   "order": 149,
+   "poster": null,
+   "tmdb": null,
+   "contributor": "u/butthead20000",
+   "note": "During the re-Blue Chips ep Bill says an Oz ep will be a sign that he's ready to retire; mentioned again by Bill during F1 ep, asked Van if he'll be on the Oz Season 1 rewatch",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "the-parent-trap-1998",
+   "title": "The Parent Trap",
+   "year_raw": "1998",
+   "year": 1998.0,
+   "decade": 1990,
+   "sort": "Parent Trap, The",
+   "order": 150,
+   "poster": "p4dGmi8u9W0HHyVXcgWPoiFfKTF.jpg",
+   "tmdb": 7.2,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during It's Complicated ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "payback-1999",
+   "title": "Payback",
+   "year_raw": "1999",
+   "year": 1999.0,
+   "decade": 1990,
+   "sort": "Payback",
+   "order": 151,
+   "poster": "8Bqlv2kbOyZFqfiPNgzdBscqYPn.jpg",
+   "tmdb": 6.836,
+   "contributor": "u/Vegetable_Air7313",
+   "note": null,
+   "tags": [
+    "Thriller",
+    "1990s",
+    "Mel Gibson"
+   ],
+   "by": {
+    "label": "u/Vegetable_Air7313",
+    "href": "https://www.reddit.com/user/Vegetable_Air7313"
+   }
+  },
+  {
+   "id": "pee-wees-big-adventure-1985",
+   "title": "Pee-wee's Big Adventure",
+   "year_raw": "1985",
+   "year": 1985.0,
+   "decade": 1980,
+   "sort": "Pee-wee's Big Adventure",
+   "order": 152,
+   "poster": "414IUXc54mrhX88ZUQiRDLXn01i.jpg",
+   "tmdb": 6.5,
+   "contributor": "u/butthead20000",
+   "note": "During the After Hours ep, Bill says if it happens he won't appear",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "police-academy-1984",
+   "title": "Police Academy",
+   "year_raw": "1984",
+   "year": 1984.0,
+   "decade": 1980,
+   "sort": "Police Academy",
+   "order": 153,
+   "poster": "3PriqoVUQcPwcyvk0SJRiMTdBJK.jpg",
+   "tmdb": 6.719,
+   "contributor": "u/RusevReigns",
+   "note": "mentioned by Bill and Kyle Brandt on the Wayne's World ep",
+   "tags": [],
+   "by": {
+    "label": "u/RusevReigns",
+    "href": "https://www.reddit.com/user/RusevReigns"
+   }
+  },
+  {
+   "id": "predator-2-1990",
+   "title": "Predator 2",
+   "year_raw": "1990",
+   "year": 1990.0,
+   "decade": 1990,
+   "sort": "Predator 2",
+   "order": 154,
+   "poster": "83X4VwY9sdSJykskmsplIVG0a4h.jpg",
+   "tmdb": 6.308,
+   "contributor": "u/butthead20000",
+   "note": "Discussed during the Another 48 Hrs. ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "the-prestige-2006",
+   "title": "The Prestige",
+   "year_raw": "2006",
+   "year": 2006.0,
+   "decade": 2000,
+   "sort": "Prestige, The",
+   "order": 155,
+   "poster": "Ag2B2KHKQPukjH7WutmgnnSNurZ.jpg",
+   "tmdb": 8.211,
+   "contributor": "u/butthead20000",
+   "note": "Discussed briefly during The Sting ep, Sean calls it one of his fave Nolan movies",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "presumed-innocent-1990",
+   "title": "Presumed Innocent",
+   "year_raw": "1990",
+   "year": 1990.0,
+   "decade": 1990,
+   "sort": "Presumed Innocent",
+   "order": 156,
+   "poster": "jSPWptOsqU1nxXQe6muSPB0kD3c.jpg",
+   "tmdb": 6.809,
+   "contributor": "u/lovegun59",
+   "note": null,
+   "tags": [
+    "oh come on now"
+   ],
+   "by": {
+    "label": "u/lovegun59",
+    "href": "https://www.reddit.com/user/lovegun59"
+   }
+  },
+  {
+   "id": "prometheus-2012",
+   "title": "Prometheus",
+   "year_raw": "2012",
+   "year": 2012.0,
+   "decade": 2010,
+   "sort": "Prometheus",
+   "order": 157,
+   "poster": "qsYQflQhOuhDpQ0W2aOcwqgDAeI.jpg",
+   "tmdb": 6.608,
+   "contributor": "u/butthead20000",
+   "note": null,
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "psycho-1960",
+   "title": "Psycho",
+   "year_raw": "1960",
+   "year": 1960.0,
+   "decade": 1960,
+   "sort": "Psycho",
+   "order": 158,
+   "poster": "yz4QVqPx3h1hD1DfqqQkCq3rmxW.jpg",
+   "tmdb": 8.408,
+   "contributor": "u/butthead20000",
+   "note": "Discussed during the L.A. Confidential ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "public-enemies-2009",
+   "title": "Public Enemies",
+   "year_raw": "2009",
+   "year": 2009.0,
+   "decade": 2000,
+   "sort": "Public Enemies",
+   "order": 159,
+   "poster": "3KgtekisQBrHRsm2cD5UOB6Ce3k.jpg",
+   "tmdb": 6.687,
+   "contributor": "u/butthead20000",
+   "note": "Bill mentions during the Miami Vice: Calderone's Return ep that they'll do every MIchael Mann movie on The Rewatchables; also mentioned during Close Encounters ep in order to help Mann climb back to the top of the Directors with the Most Movies on The Rewatchables list; mentioned again during American Gangster ep, Bill says it'll be movie 401-499; mentioned again in the 2026 mailbag ep; was one of the options in the vote for the final movie of CR month",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "the-recruit-2003",
+   "title": "The Recruit",
+   "year_raw": "2003",
+   "year": 2003.0,
+   "decade": 2000,
+   "sort": "Recruit, The",
+   "order": 160,
+   "poster": "xInKytrHV3EJeCAulOpn5Q0bMxh.jpg",
+   "tmdb": 6.406,
+   "contributor": "u/butthead20000",
+   "note": "mentioned by Bill and CR during the Bourne Identity ep, saying it would be a great candidate for an ep about 8 sort-of rewatchable spy movies",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "red-dawn-1984",
+   "title": "Red Dawn",
+   "year_raw": "1984",
+   "year": 1984.0,
+   "decade": 1980,
+   "sort": "Red Dawn",
+   "order": 161,
+   "poster": "a2GkHcioc2QEFJbQk1NTB85u3vD.jpg",
+   "tmdb": 6.29,
+   "contributor": "u/RusevReigns",
+   "note": null,
+   "tags": [
+    "1980s",
+    "Patrick Swayze",
+    "Charlie Sheen"
+   ],
+   "by": {
+    "label": "u/RusevReigns",
+    "href": "https://www.reddit.com/user/RusevReigns"
+   }
+  },
+  {
+   "id": "regarding-henry-1991",
+   "title": "Regarding Henry",
+   "year_raw": "1991",
+   "year": 1991.0,
+   "decade": 1990,
+   "sort": "Regarding Henry",
+   "order": 162,
+   "poster": "1gyViKAIpy1jAcM3B17iXNbiHrh.jpg",
+   "tmdb": 6.515,
+   "contributor": "u/butthead20000",
+   "note": "mentioned multiple times on the pod; Bill says during the What Lies Beneath ep that they'll cover it during 'dramas that are now comedies' month",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "reindeer-games-2000",
+   "title": "Reindeer Games",
+   "year_raw": "2000",
+   "year": 2000.0,
+   "decade": 2000,
+   "sort": "Reindeer Games",
+   "order": 163,
+   "poster": "8y1PedfYWllJVoBbkt9KWLY155v.jpg",
+   "tmdb": 5.705,
+   "contributor": "u/butthead20000",
+   "note": "mentioned by Bill during Snake Eyes ep as a movie that could've been part of Evil Sinise Month",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "return-of-the-jedi-1983",
+   "title": "Return of the Jedi",
+   "year_raw": "1983",
+   "year": 1983.0,
+   "decade": 1980,
+   "sort": "Return of the Jedi",
+   "order": 164,
+   "poster": "jQYlydvHm3kUix1f8prMucrplhm.jpg",
+   "tmdb": 7.911,
+   "contributor": "u/butthead20000",
+   "note": null,
+   "tags": [
+    "1980s",
+    "blockbuster",
+    "sequel"
+   ],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "revenge-of-the-nerds-1984",
+   "title": "Revenge of the Nerds",
+   "year_raw": "1984",
+   "year": 1984.0,
+   "decade": 1980,
+   "sort": "Revenge of the Nerds",
+   "order": 165,
+   "poster": "v8aETLufi4WIinhQ994oWkehtaC.jpg",
+   "tmdb": 6.452,
+   "contributor": "u/butthead20000",
+   "note": "mentioned by Craig during the Ace Ventura ep; mentioned again during the summer mailbag ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "ricochet-1991",
+   "title": "Ricochet",
+   "year_raw": "1991",
+   "year": 1991.0,
+   "decade": 1990,
+   "sort": "Ricochet",
+   "order": 166,
+   "poster": "5isHYEcUY0nE90uMhkGrs1nnal.jpg",
+   "tmdb": 6.087,
+   "contributor": "https://www.reddit.com/r/billsimmons/comments/1ap0bp0/outside_of_the_obvious_pulp_fictonanchorman/",
+   "note": "mentioned during the 2026 mailbag ep",
+   "tags": [],
+   "by": {
+    "label": "reddit thread",
+    "href": "https://www.reddit.com/r/billsimmons/comments/1ap0bp0/outside_of_the_obvious_pulp_fictonanchorman/"
+   }
+  },
+  {
+   "id": "the-river-wild-1994",
+   "title": "The River Wild",
+   "year_raw": "1994",
+   "year": 1994.0,
+   "decade": 1990,
+   "sort": "River Wild, The",
+   "order": 167,
+   "poster": "wVgQ2T63ThjIsY4R0qoHXjyllql.jpg",
+   "tmdb": 6.456,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during The Hand That Rocks The Cradle ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "romancing-the-stone-1984",
+   "title": "Romancing the Stone",
+   "year_raw": "1984",
+   "year": 1984.0,
+   "decade": 1980,
+   "sort": "Romancing the Stone",
+   "order": 168,
+   "poster": "qfIlVOYZH5RiZ0ndFKUpr5Zn2Bx.jpg",
+   "tmdb": 6.774,
+   "contributor": "u/RusevReigns",
+   "note": null,
+   "tags": [
+    "1980s",
+    "Michael Douglas",
+    "Kathleen Turner"
+   ],
+   "by": {
+    "label": "u/RusevReigns",
+    "href": "https://www.reddit.com/user/RusevReigns"
+   }
+  },
+  {
+   "id": "rush-2013",
+   "title": "Rush",
+   "year_raw": "2013",
+   "year": 2013.0,
+   "decade": 2010,
+   "sort": "Rush",
+   "order": 169,
+   "poster": "95BDrWmcfJDEa2WCfjmLgi67jhi.jpg",
+   "tmdb": 7.744,
+   "contributor": "u/butthead20000",
+   "note": "mentioned by Bill during Days of Thunder ep, says he's buying the 4K blu-ray; mentioned by Bill during F1 ep, says it's on the list; mentioned by Bill again during The Nice Guys ep, says it's on the list",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "rush-hour-1998",
+   "title": "Rush Hour",
+   "year_raw": "1998",
+   "year": 1998.0,
+   "decade": 1990,
+   "sort": "Rush Hour",
+   "order": 170,
+   "poster": "nwPhAsfnb7f46bZkWLG7IRP5HXr.jpg",
+   "tmdb": 7.084,
+   "contributor": "https://www.reddit.com/r/billsimmons/comments/1ap0bp0/outside_of_the_obvious_pulp_fictonanchorman/",
+   "note": null,
+   "tags": [
+    "1990s",
+    "buddy cop action comedy"
+   ],
+   "by": {
+    "label": "reddit thread",
+    "href": "https://www.reddit.com/r/billsimmons/comments/1ap0bp0/outside_of_the_obvious_pulp_fictonanchorman/"
+   }
+  },
+  {
+   "id": "scarface-1983",
+   "title": "Scarface",
+   "year_raw": "1983",
+   "year": 1983.0,
+   "decade": 1980,
+   "sort": "Scarface",
+   "order": 171,
+   "poster": "iQ5ztdjvteGeboxtmRdXEChJOHh.jpg",
+   "tmdb": 8.152,
+   "contributor": "u/butthead20000",
+   "note": "mentioned by Bill during Body Double and 2025 mailbag eps, Bill owns a 4K blu-ray copy, mentioned again in The Sting ep as potential movie for Pacino month, mentioned again during Snake Eyes ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "scott-pilgrim-vs-the-world-2010",
+   "title": "Scott Pilgrim vs. the World",
+   "year_raw": "2010",
+   "year": 2010.0,
+   "decade": 2010,
+   "sort": "Scott Pilgrim vs. the World",
+   "order": 172,
+   "poster": "g5IoYeudx9XBEfwNL0fHvSckLBz.jpg",
+   "tmdb": 7.484,
+   "contributor": "u/butthead20000",
+   "note": "mentioned by Van during Higher Learning ep; Bill says Van can do it with Wesley",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "scream-4-2011",
+   "title": "Scream 4",
+   "year_raw": "2011",
+   "year": 2011.0,
+   "decade": 2010,
+   "sort": "Scream 4",
+   "order": 173,
+   "poster": "3cf8p2qw9qnsaaFWc64AG6U05eT.jpg",
+   "tmdb": 6.481,
+   "contributor": "u/butthead20000",
+   "note": "mentioned by CR during Bill's 50 Most Rewatchable Movies of the 21st Century ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "secret-admirer-1985",
+   "title": "Secret Admirer",
+   "year_raw": "1985",
+   "year": 1985.0,
+   "decade": 1980,
+   "sort": "Secret Admirer",
+   "order": 174,
+   "poster": "4kJQ1R7zD1ckFPFfmyxI7kwPSiM.jpg",
+   "tmdb": 6.696,
+   "contributor": "u/butthead20000",
+   "note": "mentioned by Bill during Can't Hardly Wait ep, it's one of the first he rattles off among his fave 80s teen movies; mentioned again in the Just One of the Guys ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "seems-like-old-times-1980",
+   "title": "Seems Like Old Times",
+   "year_raw": "1980",
+   "year": 1980.0,
+   "decade": 1980,
+   "sort": "Seems Like Old Times",
+   "order": 175,
+   "poster": "5gslMsppM01WafyogPpHevrMeGg.jpg",
+   "tmdb": 6.3,
+   "contributor": "u/butthead20000",
+   "note": "mentioned by Van during Heaven Can Wait ep, Bill says he has to watch it again, Van says it holds up; mentioned again in National Lampoon's Christmas Vacation ep, Bill says he can't believe they haven't done it yet",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "serpico-1973",
+   "title": "Serpico",
+   "year_raw": "1973",
+   "year": 1973.0,
+   "decade": 1970,
+   "sort": "Serpico",
+   "order": 176,
+   "poster": "pRagfd10PPWryFRSzLPIivfAXHJ.jpg",
+   "tmdb": 7.528,
+   "contributor": "u/butthead20000",
+   "note": "mentioned in several episodes; in the Sting ep, Bill says they need to do a Pacino month before Pacino dies",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "sex-lies-and-videotape-1989",
+   "title": "Sex, Lies, and Videotape",
+   "year_raw": "1989",
+   "year": 1989.0,
+   "decade": 1980,
+   "sort": "Sex, Lies, and Videotape",
+   "order": 177,
+   "poster": "dE0u4uB5UPfVIdz258Ye2XEPuuh.jpg",
+   "tmdb": 6.966,
+   "contributor": "u/butthead20000",
+   "note": "mentioned by CR and Bill during Ghostbusters ep, Bill says it's on the list and is his mom's fave movie",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "short-cuts-1993",
+   "title": "Short Cuts",
+   "year_raw": "1993",
+   "year": 1993.0,
+   "decade": 1990,
+   "sort": "Short Cuts",
+   "order": 178,
+   "poster": "mbNTvbtWfV4soyErimDTdX67OAr.jpg",
+   "tmdb": 7.227,
+   "contributor": "u/butthead20000",
+   "note": "A Feb 2025 tweet from the pod's account asks for the movie to be added to Tubi or Prime Video https://x.com/TheRewatchables/status/1894426639322304854",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "shutter-island-2010",
+   "title": "Shutter Island",
+   "year_raw": "2010",
+   "year": 2010.0,
+   "decade": 2010,
+   "sort": "Shutter Island",
+   "order": 179,
+   "poster": "nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg",
+   "tmdb": 8.197,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during the 2026 mailbag ep but no commitment made",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "silent-rage-1982",
+   "title": "Silent Rage",
+   "year_raw": "1982",
+   "year": 1982.0,
+   "decade": 1980,
+   "sort": "Silent Rage",
+   "order": 180,
+   "poster": "fEC99jHKmt6FczEe1Kv2fKzVMHh.jpg",
+   "tmdb": 6.11,
+   "contributor": "u/butthead20000",
+   "note": "mentioned by Bill during Halloween II ep, but when CR says he'll do it, Bill says \"no one cares\"",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "silverado-1985",
+   "title": "Silverado",
+   "year_raw": "1985",
+   "year": 1985.0,
+   "decade": 1980,
+   "sort": "Silverado",
+   "order": 181,
+   "poster": "k6zurzegRKsNGMICXZ57VJDUzXO.jpg",
+   "tmdb": 6.948,
+   "contributor": "u/butthead20000",
+   "note": "discussed during the Batman (1989) ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "six-degrees-of-separation-1993",
+   "title": "Six Degrees of Separation",
+   "year_raw": "1993",
+   "year": 1993.0,
+   "decade": 1990,
+   "sort": "Six Degrees of Separation",
+   "order": 182,
+   "poster": "bROsFCnsHr0e09M7VA0aCcNF432.jpg",
+   "tmdb": 6.38,
+   "contributor": "u/butthead20000",
+   "note": "mentioned by Bill during Disclosure ep, saying it's \"a movie we're gonna do...at some point\"",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "sixteen-candles-1984",
+   "title": "Sixteen Candles",
+   "year_raw": "1984",
+   "year": 1984.0,
+   "decade": 1980,
+   "sort": "Sixteen Candles",
+   "order": 183,
+   "poster": "A3WGCAgJF33kZdlxUdyXHYdbYax.jpg",
+   "tmdb": 6.748,
+   "contributor": "u/RusevReigns",
+   "note": null,
+   "tags": [
+    "1980s",
+    "John Hughes",
+    "Brat Pack"
+   ],
+   "by": {
+    "label": "u/RusevReigns",
+    "href": "https://www.reddit.com/user/RusevReigns"
+   }
+  },
+  {
+   "id": "sorcerer-1977",
+   "title": "Sorcerer",
+   "year_raw": "1977",
+   "year": 1977.0,
+   "decade": 1970,
+   "sort": "Sorcerer",
+   "order": 184,
+   "poster": "2b7oexm173SF1FSEq0DdgxZZNRH.jpg",
+   "tmdb": 7.471,
+   "contributor": "u/butthead20000",
+   "note": "was one of the options in the vote for the final movie of CR month",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "soul-man-1986",
+   "title": "Soul Man",
+   "year_raw": "1986",
+   "year": 1986.0,
+   "decade": 1980,
+   "sort": "Soul Man",
+   "order": 185,
+   "poster": "d6jh6qiowC4QHePBgpy7Zrytbba.jpg",
+   "tmdb": 5.253,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Just One of the Guys ep, Bill says Van has been wanting to do Soul Man; mentioned again in Tropic Thunder and Animal House eps as a candidate for Cancelled Month; mentioned again in the summer mailbag ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "splash-1984",
+   "title": "Splash",
+   "year_raw": "1984",
+   "year": 1984.0,
+   "decade": 1980,
+   "sort": "Splash",
+   "order": 186,
+   "poster": "7FutTsMWBwVhjk1Ujf1wtndUVZh.jpg",
+   "tmdb": 6.265,
+   "contributor": "u/RusevReigns",
+   "note": null,
+   "tags": [
+    "1980s",
+    "Hanks",
+    "Candy"
+   ],
+   "by": {
+    "label": "u/RusevReigns",
+    "href": "https://www.reddit.com/user/RusevReigns"
+   }
+  },
+  {
+   "id": "spy-game-2001",
+   "title": "Spy Game",
+   "year_raw": "2001",
+   "year": 2001.0,
+   "decade": 2000,
+   "sort": "Spy Game",
+   "order": 187,
+   "poster": "6y8M1rxjKofQCRKKe6xeV91K2Fc.jpg",
+   "tmdb": 6.92,
+   "contributor": "u/butthead20000",
+   "note": "mentioned by Bill and CR during the Bourne Identity ep, saying it would be a great candidate for an ep about 8 sort-of rewatchable spy movies",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "starship-troopers-1997",
+   "title": "Starship Troopers",
+   "year_raw": "1997",
+   "year": 1997.0,
+   "decade": 1990,
+   "sort": "Starship Troopers",
+   "order": 188,
+   "poster": "cxCmv23O7p3hyHwqoktHYkZcGsY.jpg",
+   "tmdb": 7.118,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Robocop ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "summer-school-1987",
+   "title": "Summer School",
+   "year_raw": "1987",
+   "year": 1987.0,
+   "decade": 1980,
+   "sort": "Summer School",
+   "order": 189,
+   "poster": "s1Ad6q0XnVS6u1yoaYghHw5dskv.jpg",
+   "tmdb": 6.396,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Just One of the Guys ep, Kyle and Joanna want to do it",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "superman-ii-1980",
+   "title": "Superman II",
+   "year_raw": "1980",
+   "year": 1980.0,
+   "decade": 1980,
+   "sort": "Superman II",
+   "order": 190,
+   "poster": "3xk5cno9BHcnwc97XO9k21aI1Zi.jpg",
+   "tmdb": 6.762,
+   "contributor": "u/butthead20000",
+   "note": "mentioned by bill during July 13, 2025 BS pod, says it will be done on the Rewatchables at some point",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "tales-from-the-crypt-demon-knight-1995",
+   "title": "Tales from the Crypt: Demon Knight",
+   "year_raw": "1995",
+   "year": 1995.0,
+   "decade": 1990,
+   "sort": "Tales from the Crypt: Demon Knight",
+   "order": 192,
+   "poster": "5sTFaW66D2l3fhP6qYLJ6gURACz.jpg",
+   "tmdb": 6.847,
+   "contributor": "u/butthead20000",
+   "note": "mentioned by Van during Juice ep, says he and Shea can handle it",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "terms-of-endearment-1983",
+   "title": "Terms of Endearment",
+   "year_raw": "1983",
+   "year": 1983.0,
+   "decade": 1980,
+   "sort": "Terms of Endearment",
+   "order": 193,
+   "poster": "l77DRjJuykqKMtD9GTK4YT7qKHW.jpg",
+   "tmdb": 7.1,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during 2025 mailbag ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "that-thing-you-do-1996",
+   "title": "That Thing You Do!",
+   "year_raw": "1996",
+   "year": 1996.0,
+   "decade": 1990,
+   "sort": "That Thing You Do!",
+   "order": 195,
+   "poster": "9RmZu33qHdyZFGLfhEOmkTjdNEu.jpg",
+   "tmdb": 6.9,
+   "contributor": "u/butthead20000",
+   "note": "mentioned by Van during Eddie and the Cruisers up, CR says it's a good rewatchable and Bill ponders if it should be added to the list",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "thelma-and-louise-1991",
+   "title": "Thelma & Louise",
+   "year_raw": "1991",
+   "year": 1991.0,
+   "decade": 1990,
+   "sort": "Thelma & Louise",
+   "order": 196,
+   "poster": "7D2DqmIKpPlkCU0RLVdlKLKR7XZ.jpg",
+   "tmdb": 7.593,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Someone to Watch Over Me ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "the-thing-1982",
+   "title": "The Thing",
+   "year_raw": "1982",
+   "year": 1982.0,
+   "decade": 1980,
+   "sort": "Thing, The",
+   "order": 197,
+   "poster": "tzGY49kseSE9QAKk47uuDGwnSCu.jpg",
+   "tmdb": 8.073,
+   "contributor": "u/lovegun59",
+   "note": "mentioned at the end of Minority Report ep",
+   "tags": [],
+   "by": {
+    "label": "u/lovegun59",
+    "href": "https://www.reddit.com/user/lovegun59"
+   }
+  },
+  {
+   "id": "thirteen-days-2000",
+   "title": "Thirteen Days",
+   "year_raw": "2000",
+   "year": 2000.0,
+   "decade": 2000,
+   "sort": "Thirteen Days",
+   "order": 198,
+   "poster": "aLx9UXH9fK2v6NDMvMyW4X88K3u.jpg",
+   "tmdb": 6.992,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Species ep, CR asked if they can do it at some point and Bill says it's possible",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "three-days-of-the-condor-1975",
+   "title": "Three Days of the Condor",
+   "year_raw": "1975",
+   "year": 1975.0,
+   "decade": 1970,
+   "sort": "Three Days of the Condor",
+   "order": 199,
+   "poster": "zinwtZqdb7gnc4zMu8dfkK1fMN3.jpg",
+   "tmdb": 7.273,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during The Sting ep, might be the transition from Robert Redford month to 70s conspiracy movies month",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "tremors-1990",
+   "title": "Tremors",
+   "year_raw": "1990",
+   "year": 1990.0,
+   "decade": 1990,
+   "sort": "Tremors",
+   "order": 201,
+   "poster": "cA4ggkZ3r1d5r9hOAUWC8x5ul2i.jpg",
+   "tmdb": 6.942,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during 2026 mailbag ep as part of Creature Feature Month",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "triple-frontier-2019",
+   "title": "Triple Frontier",
+   "year_raw": "2019",
+   "year": 2019.0,
+   "decade": 2010,
+   "sort": "Triple Frontier",
+   "order": 202,
+   "poster": "aBw8zYuAljVM1FeK5bZKITPH8ZD.jpg",
+   "tmdb": 6.334,
+   "contributor": "u/butthead20000",
+   "note": "was one of the options in the vote for the final movie of CR month",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "turner-and-hooch-1989",
+   "title": "Turner & Hooch",
+   "year_raw": "1989",
+   "year": 1989.0,
+   "decade": 1980,
+   "sort": "Turner & Hooch",
+   "order": 203,
+   "poster": "nllMNbjgvUpw378czm5vBYzZqg1.jpg",
+   "tmdb": 6.322,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Robocop ep, Bill calls it a classic and says if they ever have a dog month it'll be done",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "twins-1998",
+   "title": "Twins",
+   "year_raw": "1998",
+   "year": 1998.0,
+   "decade": 1990,
+   "sort": "Twins",
+   "order": 204,
+   "poster": null,
+   "tmdb": null,
+   "contributor": "https://www.reddit.com/r/billsimmons/comments/1ap0bp0/outside_of_the_obvious_pulp_fictonanchorman/",
+   "note": null,
+   "tags": [
+    "1980s",
+    "Arnold"
+   ],
+   "by": {
+    "label": "reddit thread",
+    "href": "https://www.reddit.com/r/billsimmons/comments/1ap0bp0/outside_of_the_obvious_pulp_fictonanchorman/"
+   }
+  },
+  {
+   "id": "u-s-marshals-1998",
+   "title": "U.S. Marshals",
+   "year_raw": "1998",
+   "year": 1998.0,
+   "decade": 1990,
+   "sort": "U.S. Marshals",
+   "order": 205,
+   "poster": "5ST0BydDSXtW5AtfDDhTVS13pTt.jpg",
+   "tmdb": 6.549,
+   "contributor": "https://www.reddit.com/r/billsimmons/comments/1ap0bp0/outside_of_the_obvious_pulp_fictonanchorman/",
+   "note": null,
+   "tags": [
+    "1990s",
+    "sequel to The Fugitive which has already been done"
+   ],
+   "by": {
+    "label": "reddit thread",
+    "href": "https://www.reddit.com/r/billsimmons/comments/1ap0bp0/outside_of_the_obvious_pulp_fictonanchorman/"
+   }
+  },
+  {
+   "id": "uncle-buck-1989",
+   "title": "Uncle Buck",
+   "year_raw": "1989",
+   "year": 1989.0,
+   "decade": 1980,
+   "sort": "Uncle Buck",
+   "order": 206,
+   "poster": "euWPWqpujKQg2KnfBUVkBSZ6kf4.jpg",
+   "tmdb": 6.816,
+   "contributor": "https://www.reddit.com/r/billsimmons/comments/1efv6wk/whats_are_your_top_rewatchables_requests_now_that/",
+   "note": null,
+   "tags": [
+    "1980s",
+    "John Hughes",
+    "John Candy"
+   ],
+   "by": {
+    "label": "reddit thread",
+    "href": "https://www.reddit.com/r/billsimmons/comments/1efv6wk/whats_are_your_top_rewatchables_requests_now_that/"
+   }
+  },
+  {
+   "id": "unlawful-entry-1992",
+   "title": "Unlawful Entry",
+   "year_raw": "1992",
+   "year": 1992.0,
+   "decade": 1990,
+   "sort": "Unlawful Entry",
+   "order": 207,
+   "poster": "qt1pESASA3w4xOOPwZS3YRlcYhL.jpg",
+   "tmdb": 6.253,
+   "contributor": "u/butthead20000",
+   "note": "mentioned by Kyle during Pacific Heights ep",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "used-cars-1980",
+   "title": "Used Cars",
+   "year_raw": "1980",
+   "year": 1980.0,
+   "decade": 1980,
+   "sort": "Used Cars",
+   "order": 208,
+   "poster": "h9hqesyEBaag8ZkgrBSaUGgGNFF.jpg",
+   "tmdb": 6.435,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during What Lies Beneath ep as another Robert Zemeckis movie they \"could do\"",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "valkyrie-2008",
+   "title": "Valkyrie",
+   "year_raw": "2008",
+   "year": 2008.0,
+   "decade": 2000,
+   "sort": "Valkyrie",
+   "order": 209,
+   "poster": "8eoRtXswC8IQDsqW7iJWO56NhAv.jpg",
+   "tmdb": 6.96,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Tropic Thunder ep, CR and Van talk about it as a future Rewatchable with Cruise that hasn't been done yet",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "vanilla-sky-2001",
+   "title": "Vanilla Sky",
+   "year_raw": "2001",
+   "year": 2001.0,
+   "decade": 2000,
+   "sort": "Vanilla Sky",
+   "order": 210,
+   "poster": "cAh2pCiNPftsY3aSqJuIOde7uWr.jpg",
+   "tmdb": 6.83,
+   "contributor": "u/plokinty",
+   "note": null,
+   "tags": [
+    "Thriller",
+    "Tom Cruise",
+    "Cameron Crowe"
+   ],
+   "by": {
+    "label": "u/plokinty",
+    "href": "https://www.reddit.com/user/plokinty"
+   }
+  },
+  {
+   "id": "vertigo-1958",
+   "title": "Vertigo",
+   "year_raw": "1958",
+   "year": 1958.0,
+   "decade": 1950,
+   "sort": "Vertigo",
+   "order": 211,
+   "poster": "15uOEfqBNTVtDUT7hGBVCka0rZz.jpg",
+   "tmdb": 8.133,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during Snake Eyes and L.A. Confidential eps",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  },
+  {
+   "id": "the-wedding-singer-1998",
+   "title": "The Wedding Singer",
+   "year_raw": "1998",
+   "year": 1998.0,
+   "decade": 1990,
+   "sort": "Wedding Singer, The",
+   "order": 212,
+   "poster": "zVvyTrcZQb7kC2DPDzyo25WcxXp.jpg",
+   "tmdb": 6.777,
+   "contributor": "u/lovegun59",
+   "note": null,
+   "tags": [
+    "SNL",
+    "1990s",
+    "Adam Sandler"
+   ],
+   "by": {
+    "label": "u/lovegun59",
+    "href": "https://www.reddit.com/user/lovegun59"
+   }
+  },
+  {
+   "id": "the-world-according-to-garp-1982",
+   "title": "The World According to Garp",
+   "year_raw": "1982",
+   "year": 1982.0,
+   "decade": 1980,
+   "sort": "World According to Garp, The",
+   "order": 213,
+   "poster": "9ItRFdSCb7Sz3AC9LRxAzbH73kG.jpg",
+   "tmdb": 6.666,
+   "contributor": "u/butthead20000",
+   "note": "mentioned during The Big Chill ep; mentioned again during Slap Shot ep, Bill says this movie will be done in 2024;",
+   "tags": [],
+   "by": {
+    "label": "u/butthead20000",
+    "href": "https://www.reddit.com/user/butthead20000"
+   }
+  }
+ ],
+ "graduated": [
+  {
+   "id": "toy-story-1995",
+   "title": "Toy Story",
+   "year": 1995,
+   "requested_as": "Toy Story",
+   "aired": "2020-11-10",
+   "episodes": 1,
+   "poster": "uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg"
+  },
+  {
+   "id": "the-sure-thing-1985",
+   "title": "The Sure Thing",
+   "year": 1985,
+   "requested_as": "The Sure Thing",
+   "aired": "2025-12-17",
+   "episodes": 1,
+   "poster": "a9cuohQn5kczi4htWZAZjEZvXkZ.jpg"
+  },
+  {
+   "id": "apollo-13-1995",
+   "title": "Apollo 13",
+   "year": 1995,
+   "requested_as": "Apollo 13",
+   "aired": "2026-08-24",
+   "episodes": 1,
+   "poster": "tVeKscCm2fY1xDXZk8PgnZ87h9S.jpg"
+  },
+  {
+   "id": "the-texas-chain-saw-massacre-1974",
+   "title": "The Texas Chain Saw Massacre",
+   "year": 1974,
+   "requested_as": "The Texas Chainsaw Massacre",
+   "aired": "2026-10-05",
+   "episodes": 1,
+   "poster": "mpgkRPH1GNkMCgdPk2OMyHzAks7.jpg"
+  }
+ ],
+ "unmatched": [
+  {
+   "id": "bad-influence",
+   "title": "Bad Influence",
+   "year_raw": null,
+   "note": "no single release year — not matched, to avoid a wrong film"
+  },
+  {
+   "id": "blackhawk-down-2001",
+   "title": "Blackhawk Down",
+   "year_raw": "2001",
+   "note": "TMDB has no film under this title"
+  },
+  {
+   "id": "john-wick-3-2019",
+   "title": "John Wick 3",
+   "year_raw": "2019",
+   "note": "no confident TMDB match"
+  },
+  {
+   "id": "john-wick-4-2023",
+   "title": "John Wick 4",
+   "year_raw": "2023",
+   "note": "no confident TMDB match"
+  },
+  {
+   "id": "miami-vice-tv-series",
+   "title": "Miami Vice (TV series)",
+   "year_raw": "1984-1990",
+   "note": "no single release year — not matched, to avoid a wrong film"
+  },
+  {
+   "id": "miami-vice-2027",
+   "title": "Miami Vice",
+   "year_raw": "2027",
+   "note": "TMDB has no film under this title"
+  },
+  {
+   "id": "oceans-13-2007",
+   "title": "Oceans 13",
+   "year_raw": "2007",
+   "note": "no confident TMDB match"
+  },
+  {
+   "id": "oz",
+   "title": "Oz",
+   "year_raw": "1997-2003",
+   "note": "no single release year — not matched, to avoid a wrong film"
+  },
+  {
+   "id": "twins-1998",
+   "title": "Twins",
+   "year_raw": "1998",
+   "note": "no confident TMDB match"
+  }
+ ]
+}

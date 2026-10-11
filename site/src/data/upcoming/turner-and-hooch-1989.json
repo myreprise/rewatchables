@@ -1,0 +1,44 @@
+{
+ "id": "turner-and-hooch-1989",
+ "title": "Turner & Hooch",
+ "year_raw": "1989",
+ "year": 1989.0,
+ "decade": 1980,
+ "sort": "Turner & Hooch",
+ "order": 203,
+ "poster": "nllMNbjgvUpw378czm5vBYzZqg1.jpg",
+ "tmdb": 6.322,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during Robocop ep, Bill calls it a classic and says if they ever have a dog month it'll be done",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Action",
+  "Comedy",
+  "Thriller",
+  "Crime",
+  "Family"
+ ],
+ "runtime": 99.0,
+ "plot": "Detective Scott Turner has three days left in the local police department before he moves to a bigger city to get some 'real' cases—not just misdemeanors. When Amos Reed is murdered, Scott sets himself on the case, but the closest thing to a witness to the murder is Reed's dog, Hooch, which Scott has to take care of—to avoid Hooch being 'put to sleep'.",
+ "cast": [
+  "Tom Hanks",
+  "Mare Winningham",
+  "Craig T. Nelson",
+  "Scott Paulin",
+  "John McIntire",
+  "David Knell",
+  "Reginald VelJohnson",
+  "Mary McCusker",
+  "Linda Eve Miller",
+  "Andrew Walker"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 6951.0
+}

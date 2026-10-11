@@ -1,0 +1,27 @@
+{
+ "id": "miami-vice-tv-series",
+ "title": "Miami Vice (TV series)",
+ "year_raw": "1984-1990",
+ "year": null,
+ "decade": null,
+ "sort": "Miami Vice (TV series)",
+ "order": 130,
+ "poster": null,
+ "tmdb": null,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during the summer mailbag ep, Bill says they may have to do a starter kit episode",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [],
+ "runtime": null,
+ "plot": null,
+ "cast": [],
+ "resolved": false,
+ "unresolved_note": "no single release year — not matched, to avoid a wrong film",
+ "method": "unresolved_no_year",
+ "tmdb_id": null
+}

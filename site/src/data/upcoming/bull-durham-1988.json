@@ -1,0 +1,41 @@
+{
+ "id": "bull-durham-1988",
+ "title": "Bull Durham",
+ "year_raw": "1988",
+ "year": 1988.0,
+ "decade": 1980,
+ "sort": "Bull Durham",
+ "order": 38,
+ "poster": "q3T9bO6p74NcTxWOhdUA6fASQ5T.jpg",
+ "tmdb": 6.637,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during No Way Out",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Comedy",
+  "Romance"
+ ],
+ "runtime": 108.0,
+ "plot": "Veteran catcher Crash Davis is brought to the minor league Durham Bulls to help their up and coming pitching prospect, \"Nuke\" Laloosh. Their relationship gets off to a rocky start and is further complicated when baseball groupie Annie Savoy sets her sights on the two men.",
+ "cast": [
+  "Kevin Costner",
+  "Susan Sarandon",
+  "Tim Robbins",
+  "Trey Wilson",
+  "Robert Wuhl",
+  "William O'Leary",
+  "David Neidorf",
+  "Danny Gans",
+  "Tom Silardi",
+  "Jenny Robertson"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 287.0
+}

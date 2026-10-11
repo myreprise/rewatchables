@@ -1,0 +1,42 @@
+{
+ "id": "irreconcilable-differences-1984",
+ "title": "Irreconcilable Differences",
+ "year_raw": "1984",
+ "year": 1984.0,
+ "decade": 1980,
+ "sort": "Irreconcilable Differences",
+ "order": 108,
+ "poster": "jBr9FR2pUpjOERgxljxaNtpIj9c.jpg",
+ "tmdb": 5.607,
+ "contributor": "u/butthead20000",
+ "note": "mentioned by Bill during Night Shift, It's Complicated, The Sting and Ace Ventura eps",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Comedy",
+  "Drama",
+  "Romance"
+ ],
+ "runtime": 113.0,
+ "plot": "Alternating between the past and the present, a precocious little girl sues her selfish, career-driven parents for emancipation, surprising them both.",
+ "cast": [
+  "Ryan O'Neal",
+  "Shelley Long",
+  "Drew Barrymore",
+  "Sam Wanamaker",
+  "Allen Garfield",
+  "Sharon Stone",
+  "David Paymer",
+  "Jenny Gago",
+  "David Graf",
+  "Hortensia Colorado"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 47874.0
+}

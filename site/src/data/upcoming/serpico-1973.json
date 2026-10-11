@@ -1,0 +1,42 @@
+{
+ "id": "serpico-1973",
+ "title": "Serpico",
+ "year_raw": "1973",
+ "year": 1973.0,
+ "decade": 1970,
+ "sort": "Serpico",
+ "order": 176,
+ "poster": "pRagfd10PPWryFRSzLPIivfAXHJ.jpg",
+ "tmdb": 7.528,
+ "contributor": "u/butthead20000",
+ "note": "mentioned in several episodes; in the Sting ep, Bill says they need to do a Pacino month before Pacino dies",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Crime",
+  "Drama",
+  "History"
+ ],
+ "runtime": 129.0,
+ "plot": "New York cop Frank Serpico blows the whistle on the rampant corruption in the force only to have his comrades turn against him.",
+ "cast": [
+  "Al Pacino",
+  "John Randolph",
+  "Jack Kehoe",
+  "Biff McGuire",
+  "Barbara Eda-Young",
+  "Cornelia Sharpe",
+  "Tony Roberts",
+  "John Medici",
+  "Allan Rich",
+  "Norman Ornellas"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 9040.0
+}

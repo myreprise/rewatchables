@@ -1,0 +1,43 @@
+{
+ "id": "code-of-silence-1985",
+ "title": "Code of Silence",
+ "year_raw": "1985",
+ "year": 1985.0,
+ "decade": 1980,
+ "sort": "Code of Silence",
+ "order": 49,
+ "poster": "yE1Xh7Q7M6uDrm28ib0MMcuhO4L.jpg",
+ "tmdb": 5.934,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during Running Scared ep, Bill supports and will do the ep as soon as CR calls him up",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Action",
+  "Crime",
+  "Drama",
+  "Thriller"
+ ],
+ "runtime": 101.0,
+ "plot": "A Chicago cop is caught in the middle of a gang war while his own comrades shun him because he wants to take an irresponsible cop down.",
+ "cast": [
+  "Chuck Norris",
+  "Mike Genovese",
+  "Henry Silva",
+  "Bert Remsen",
+  "Ralph Foody",
+  "Nathan Davis",
+  "Allen Hamilton",
+  "Joe Guzaldo",
+  "Molly Hagan",
+  "Ron Dean"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 20721.0
+}

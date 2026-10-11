@@ -1,0 +1,42 @@
+{
+ "id": "superman-ii-1980",
+ "title": "Superman II",
+ "year_raw": "1980",
+ "year": 1980.0,
+ "decade": 1980,
+ "sort": "Superman II",
+ "order": 190,
+ "poster": "3xk5cno9BHcnwc97XO9k21aI1Zi.jpg",
+ "tmdb": 6.762,
+ "contributor": "u/butthead20000",
+ "note": "mentioned by bill during July 13, 2025 BS pod, says it will be done on the Rewatchables at some point",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Science Fiction",
+  "Action",
+  "Adventure"
+ ],
+ "runtime": 127.0,
+ "plot": "Three Kryptonian criminals led by General Zod team up with Lex Luthor to conquer Earth, forcing a depowered Superman to regain his strength and stop them.",
+ "cast": [
+  "Christopher Reeve",
+  "Margot Kidder",
+  "Terence Stamp",
+  "Sarah Douglas",
+  "Jack O'Halloran",
+  "Gene Hackman",
+  "Ned Beatty",
+  "Jackie Cooper",
+  "Valerie Perrine",
+  "Susannah York"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 8536.0
+}

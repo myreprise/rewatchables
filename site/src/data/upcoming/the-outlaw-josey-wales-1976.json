@@ -1,0 +1,40 @@
+{
+ "id": "the-outlaw-josey-wales-1976",
+ "title": "The Outlaw Josey Wales",
+ "year_raw": "1976",
+ "year": 1976.0,
+ "decade": 1970,
+ "sort": "Outlaw Josey Wales, The",
+ "order": 147,
+ "poster": "92BZIFPbyCPNhExyFScxA3xF1dy.jpg",
+ "tmdb": 7.454,
+ "contributor": "u/butthead20000",
+ "note": "During the Jeremiah Johnson ep, Josey Wales is the one movie of Bill's Dad's top 5 that hasn't been done yet on the pod",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Western"
+ ],
+ "runtime": 135.0,
+ "plot": "After avenging his family's brutal murder, Wales is pursued by a pack of soldiers. He prefers to travel alone, but ragtag outcasts are drawn to him - and Wales can't bring himself to leave them unprotected.",
+ "cast": [
+  "Clint Eastwood",
+  "Chief Dan George",
+  "Sondra Locke",
+  "Bill McKinney",
+  "John Vernon",
+  "Paula Trueman",
+  "Sam Bottoms",
+  "Geraldine Keams",
+  "Woodrow Parfrey",
+  "Joyce Jameson"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 10747.0
+}

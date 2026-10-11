@@ -1,0 +1,30 @@
+{
+ "id": "twins-1998",
+ "title": "Twins",
+ "year_raw": "1998",
+ "year": 1998.0,
+ "decade": 1990,
+ "sort": "Twins",
+ "order": 204,
+ "poster": null,
+ "tmdb": null,
+ "contributor": "https://www.reddit.com/r/billsimmons/comments/1ap0bp0/outside_of_the_obvious_pulp_fictonanchorman/",
+ "note": null,
+ "tags": [
+  "1980s",
+  "Arnold"
+ ],
+ "by": {
+  "label": "reddit thread",
+  "href": "https://www.reddit.com/r/billsimmons/comments/1ap0bp0/outside_of_the_obvious_pulp_fictonanchorman/"
+ },
+ "directors": [],
+ "genres": [],
+ "runtime": null,
+ "plot": null,
+ "cast": [],
+ "resolved": false,
+ "unresolved_note": "no confident TMDB match",
+ "method": "unresolved_low_confidence",
+ "tmdb_id": null
+}

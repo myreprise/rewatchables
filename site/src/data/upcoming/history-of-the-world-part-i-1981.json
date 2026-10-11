@@ -1,0 +1,40 @@
+{
+ "id": "history-of-the-world-part-i-1981",
+ "title": "History of the World, Part I",
+ "year_raw": "1981",
+ "year": 1981.0,
+ "decade": 1980,
+ "sort": "History of the World, Part I",
+ "order": 99,
+ "poster": "1bMaEfI76yrGjCSDquCippAFIDI.jpg",
+ "tmdb": 6.748,
+ "contributor": "u/butthead20000",
+ "note": "During the Running Scared ep, Bill says maybe it will have to be part of \"What's aged the worst?\" month",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Comedy"
+ ],
+ "runtime": 92.0,
+ "plot": "An uproarious version of history that proves nothing is sacred – not even the Roman Empire, the French Revolution and the Spanish Inquisition.",
+ "cast": [
+  "Mel Brooks",
+  "Dom DeLuise",
+  "Madeline Kahn",
+  "Harvey Korman",
+  "Cloris Leachman",
+  "Ron Carey",
+  "Gregory Hines",
+  "Pamela Stephenson",
+  "Shecky Greene",
+  "Sid Caesar"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 10156.0
+}

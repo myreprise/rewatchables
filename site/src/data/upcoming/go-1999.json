@@ -1,0 +1,42 @@
+{
+ "id": "go-1999",
+ "title": "Go",
+ "year_raw": "1999",
+ "year": 1999.0,
+ "decade": 1990,
+ "sort": "Go",
+ "order": 87,
+ "poster": "7UzD5Dmu3jqb2ls4Lnb4SYQqbYm.jpg",
+ "tmdb": 6.967,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during Along Came Polly ep",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Crime",
+  "Comedy",
+  "Thriller"
+ ],
+ "runtime": 102.0,
+ "plot": "A supermarket clerk decides to step in for an absent drug dealer, setting off an explosive, comedic chain of events.",
+ "cast": [
+  "Sarah Polley",
+  "Timothy Olyphant",
+  "Katie Holmes",
+  "Desmond Askew",
+  "Jay Mohr",
+  "Scott Wolf",
+  "Taye Diggs",
+  "William Fichtner",
+  "Nathan Bexton",
+  "Breckin Meyer"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 9430.0
+}

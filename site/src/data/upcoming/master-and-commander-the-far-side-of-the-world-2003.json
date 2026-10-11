@@ -1,0 +1,42 @@
+{
+ "id": "master-and-commander-the-far-side-of-the-world-2003",
+ "title": "Master and Commander: The Far Side of the World",
+ "year_raw": "2003",
+ "year": 2003.0,
+ "decade": 2000,
+ "sort": "Master and Commander: The Far Side of the World",
+ "order": 127,
+ "poster": "7ZUHF6P0vcA5v1Gm8NbRYyd9w4N.jpg",
+ "tmdb": 7.201,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during The Truman Show ep, Bill and CR say they'll do it \"at some point\"",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Adventure",
+  "Drama",
+  "War"
+ ],
+ "runtime": 138.0,
+ "plot": "After an abrupt and violent encounter with a French warship inflicts severe damage upon his ship, a captain of the British Royal Navy begins a chase over two oceans to capture or destroy the enemy, though he must weigh his commitment to duty and ferocious pursuit of glory against the safety of his devoted crew, including the ship's thoughtful surgeon, his best friend.",
+ "cast": [
+  "Russell Crowe",
+  "Paul Bettany",
+  "James D'Arcy",
+  "Robert Pugh",
+  "David Threlfall",
+  "Lee Ingleby",
+  "Max Pirkis",
+  "Max Benitz",
+  "Billy Boyd",
+  "Edward Woodall"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 8619.0
+}

@@ -1,0 +1,42 @@
+{
+ "id": "predator-2-1990",
+ "title": "Predator 2",
+ "year_raw": "1990",
+ "year": 1990.0,
+ "decade": 1990,
+ "sort": "Predator 2",
+ "order": 154,
+ "poster": "83X4VwY9sdSJykskmsplIVG0a4h.jpg",
+ "tmdb": 6.308,
+ "contributor": "u/butthead20000",
+ "note": "Discussed during the Another 48 Hrs. ep",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Science Fiction",
+  "Action",
+  "Thriller"
+ ],
+ "runtime": 108.0,
+ "plot": "A police chief in the war-torn streets of Los Angeles discovers that an extraterrestrial creature is hunting down residents - and that he is the next target.",
+ "cast": [
+  "Danny Glover",
+  "Gary Busey",
+  "Rubén Blades",
+  "María Conchita Alonso",
+  "Bill Paxton",
+  "Robert Davi",
+  "Adam Baldwin",
+  "Kevin Peter Hall",
+  "Kent McCord",
+  "Morton Downey, Jr."
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 169.0
+}

@@ -1,0 +1,44 @@
+{
+ "id": "breakdown-1997",
+ "title": "Breakdown",
+ "year_raw": "1997",
+ "year": 1997.0,
+ "decade": 1990,
+ "sort": "Breakdown",
+ "order": 36,
+ "poster": "m3VB59ppr1RlpxNUYRUfZTgjgU.jpg",
+ "tmdb": 6.936,
+ "contributor": "u/ManufacturerLow3161",
+ "note": "mentioned near the end of L.A. Confidential ep, Bill says he's scouting it for 'From Hell' month; mentioned again in Pacific Heights ep",
+ "tags": [],
+ "by": {
+  "label": "u/ManufacturerLow3161",
+  "href": "https://www.reddit.com/user/ManufacturerLow3161"
+ },
+ "directors": [],
+ "genres": [
+  "Crime",
+  "Mystery",
+  "Thriller",
+  "Drama",
+  "Action"
+ ],
+ "runtime": 93.0,
+ "plot": "On their cross-country drive, a married couple, Jeff and Amy Taylor, experience car trouble after their SUV breaks down. Stranded in the New Mexico desert, the two catch a break when a passing truck driver offers Amy a ride to a nearby café to call for help. Meanwhile, Jeff is able to fix the car and make his way to the café, but Amy isn't there. He tracks down the trucker ― who tells the police he's never seen Jeff or his wife before. Jeff then begins a desperate, frenzied search for Amy.",
+ "cast": [
+  "Kurt Russell",
+  "J.T. Walsh",
+  "Kathleen Quinlan",
+  "M.C. Gainey",
+  "Jack Noseworthy",
+  "Rex Linn",
+  "Ritch Brinkley",
+  "Moira Sinise",
+  "Kim Robillard",
+  "Thomas Kopache"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 2163.0
+}

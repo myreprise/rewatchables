@@ -1,0 +1,41 @@
+{
+ "id": "full-metal-jacket-1987",
+ "title": "Full Metal Jacket",
+ "year_raw": "1987",
+ "year": 1987.0,
+ "decade": 1980,
+ "sort": "Full Metal Jacket",
+ "order": 81,
+ "poster": "kMKyx1k8hWWscYFnPbnxxN4Eqo4.jpg",
+ "tmdb": 8.119,
+ "contributor": "u/butthead20000",
+ "note": "mentioned by Bill during the National Lampoon's Christmas Vacation ep, says they will do it",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Drama",
+  "War"
+ ],
+ "runtime": 117.0,
+ "plot": "A pragmatic U.S. Marine observes the dehumanizing effects the U.S.-Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.",
+ "cast": [
+  "Matthew Modine",
+  "Adam Baldwin",
+  "Vincent D'Onofrio",
+  "R. Lee Ermey",
+  "Dorian Harewood",
+  "Kevyn Major Howard",
+  "Arliss Howard",
+  "Ed O'Ross",
+  "John Terry",
+  "Kieron Jecchinis"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 600.0
+}

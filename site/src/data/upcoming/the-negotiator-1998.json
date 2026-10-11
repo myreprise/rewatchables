@@ -1,0 +1,46 @@
+{
+ "id": "the-negotiator-1998",
+ "title": "The Negotiator",
+ "year_raw": "1998",
+ "year": 1998.0,
+ "decade": 1990,
+ "sort": "Negotiator, The",
+ "order": 138,
+ "poster": "dUMHEymATOGbs2K3E4dmNSVBgFQ.jpg",
+ "tmdb": 7.113,
+ "contributor": "u/lovegun59",
+ "note": null,
+ "tags": [
+  "Thriller",
+  "1990s"
+ ],
+ "by": {
+  "label": "u/lovegun59",
+  "href": "https://www.reddit.com/user/lovegun59"
+ },
+ "directors": [],
+ "genres": [
+  "Action",
+  "Crime",
+  "Drama",
+  "Thriller"
+ ],
+ "runtime": 140.0,
+ "plot": "The police try to arrest expert hostage negotiator Danny Roman, who insists he's being framed for his partner's murder in what he believes is an elaborate conspiracy. Thinking there's evidence in the Internal Affairs offices that might clear him, he takes everyone in the office hostage and demands that another well-known negotiator be brought in to handle the situation and secretly investigate the conspiracy.",
+ "cast": [
+  "Samuel L. Jackson",
+  "Kevin Spacey",
+  "David Morse",
+  "Ron Rifkin",
+  "John Spencer",
+  "J.T. Walsh",
+  "Siobhan Fallon Hogan",
+  "Paul Giamatti",
+  "Regina Taylor",
+  "Bruce Beatty"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 9631.0
+}

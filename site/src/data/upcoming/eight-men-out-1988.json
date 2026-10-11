@@ -1,0 +1,41 @@
+{
+ "id": "eight-men-out-1988",
+ "title": "Eight Men Out",
+ "year_raw": "1988",
+ "year": 1988.0,
+ "decade": 1980,
+ "sort": "Eight Men Out",
+ "order": 65,
+ "poster": "9nh0w2C9h9KfJb0OsVg65O65b5s.jpg",
+ "tmdb": 6.832,
+ "contributor": "u/butthead20000",
+ "note": "selected in The Big Picture 1988 draft, Bill says it's been on the rewatchables list for 2 years",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Drama",
+  "History"
+ ],
+ "runtime": 120.0,
+ "plot": "Buck Weaver and Hap Felsch are young idealistic players on the Chicago White Sox, a pennant-winning team owned by Charles Comiskey -  a penny-pinching, hands-on manager who underpays his players and treats them with disdain. And when gamblers and hustlers discover that Comiskey's demoralized players are ripe for a money-making scheme, one by one the team members agree to throw the World Series. But when the White Sox are defeated, a couple of sports writers smell a fix and a national scandal explodes, ripping the cover off America's favorite pastime.",
+ "cast": [
+  "John Cusack",
+  "Clifton James",
+  "Michael Lerner",
+  "Christopher Lloyd",
+  "John Mahoney",
+  "Charlie Sheen",
+  "David Strathairn",
+  "D. B. Sweeney",
+  "Don Harvey",
+  "Michael Rooker"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 13554.0
+}

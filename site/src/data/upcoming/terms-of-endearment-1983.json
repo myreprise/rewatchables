@@ -1,0 +1,41 @@
+{
+ "id": "terms-of-endearment-1983",
+ "title": "Terms of Endearment",
+ "year_raw": "1983",
+ "year": 1983.0,
+ "decade": 1980,
+ "sort": "Terms of Endearment",
+ "order": 193,
+ "poster": "l77DRjJuykqKMtD9GTK4YT7qKHW.jpg",
+ "tmdb": 7.1,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during 2025 mailbag ep",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Drama",
+  "Comedy"
+ ],
+ "runtime": 132.0,
+ "plot": "Aurora, a finicky woman, is in search of true love while her daughter faces marital issues. Together, they help each other deal with problems and find reasons to live a joyful life.",
+ "cast": [
+  "Shirley MacLaine",
+  "Debra Winger",
+  "Jack Nicholson",
+  "Danny DeVito",
+  "Jeff Daniels",
+  "John Lithgow",
+  "Lisa Hart Carroll",
+  "Betty King",
+  "Huckleberry Fox",
+  "Troy Bishop"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 11050.0
+}

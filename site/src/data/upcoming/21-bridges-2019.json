@@ -1,0 +1,42 @@
+{
+ "id": "21-bridges-2019",
+ "title": "21 Bridges",
+ "year_raw": "2019",
+ "year": 2019.0,
+ "decade": 2010,
+ "sort": "21 Bridges",
+ "order": 0,
+ "poster": "kDlmrGZROewneCoSwPjKx6Qfown.jpg",
+ "tmdb": 6.786,
+ "contributor": "u/butthead20000",
+ "note": "was one of the options in the vote for the final movie of CR month",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Crime",
+  "Action",
+  "Drama"
+ ],
+ "runtime": 100.0,
+ "plot": "An embattled NYPD detective, is thrust into a citywide manhunt for a pair of cop killers after uncovering a massive and unexpected conspiracy. As the night unfolds, lines become blurred on who he is pursuing, and who is in pursuit of him.",
+ "cast": [
+  "Chadwick Boseman",
+  "Sienna Miller",
+  "J.K. Simmons",
+  "Stephan James",
+  "Taylor Kitsch",
+  "Keith David",
+  "Alexander Siddig",
+  "Louis Cancelmi",
+  "Victoria Cartagena",
+  "Gary Carr"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 535292.0
+}

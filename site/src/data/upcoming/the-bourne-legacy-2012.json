@@ -1,0 +1,44 @@
+{
+ "id": "the-bourne-legacy-2012",
+ "title": "The Bourne Legacy",
+ "year_raw": "2012",
+ "year": 2012.0,
+ "decade": 2010,
+ "sort": "Bourne Legacy, The",
+ "order": 32,
+ "poster": "1aExL5DTGHj25ZfIC3dDwS84RWi.jpg",
+ "tmdb": 6.253,
+ "contributor": "u/lovegun59",
+ "note": null,
+ "tags": [
+  "Blockbuster franchise",
+  "Bourne Identity has been done"
+ ],
+ "by": {
+  "label": "u/lovegun59",
+  "href": "https://www.reddit.com/user/lovegun59"
+ },
+ "directors": [],
+ "genres": [
+  "Action",
+  "Thriller"
+ ],
+ "runtime": 135.0,
+ "plot": "New CIA operative Aaron Cross experiences life-or-death stakes that have been triggered by the previous actions of Jason Bourne.",
+ "cast": [
+  "Jeremy Renner",
+  "Rachel Weisz",
+  "Edward Norton",
+  "Stacy Keach",
+  "Dennis Boutsikaris",
+  "Oscar Isaac",
+  "Joan Allen",
+  "Albert Finney",
+  "David Strathairn",
+  "Scott Glenn"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 49040.0
+}

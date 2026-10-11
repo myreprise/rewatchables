@@ -1,0 +1,27 @@
+{
+ "id": "blackhawk-down-2001",
+ "title": "Blackhawk Down",
+ "year_raw": "2001",
+ "year": 2001.0,
+ "decade": 2000,
+ "sort": "Blackhawk Down",
+ "order": 28,
+ "poster": null,
+ "tmdb": null,
+ "contributor": "u/butthead20000",
+ "note": "mentioned by Bill during F1 ep, says it's Tarantino's fave movie of the 21st century",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [],
+ "runtime": null,
+ "plot": null,
+ "cast": [],
+ "resolved": false,
+ "unresolved_note": "TMDB has no film under this title",
+ "method": "unresolved_no_match",
+ "tmdb_id": null
+}

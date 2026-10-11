@@ -1,0 +1,42 @@
+{
+ "id": "the-fan-1996",
+ "title": "The Fan",
+ "year_raw": "1996",
+ "year": 1996.0,
+ "decade": 1990,
+ "sort": "Fan, The",
+ "order": 70,
+ "poster": "lu7CjP8YES5dJMCFg5O9o9jCkjl.jpg",
+ "tmdb": 5.99,
+ "contributor": "u/butthead20000",
+ "note": "mentioned by Bill during Meet The Parents ep; mentioned again in Pacific Heights ep",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Thriller",
+  "Action",
+  "Drama"
+ ],
+ "runtime": 116.0,
+ "plot": "When the San Francisco Giants pay center-fielder, Bobby Rayburn $40 million to lead their team to the World Series, no one is happier or more supportive than #1 fan, Gil Renard.  When Rayburn becomes mired in the worst slump of his career, the obsessed Renard decides to stop at nothing to help his idol regain his former glory—not even murder.",
+ "cast": [
+  "Robert De Niro",
+  "Wesley Snipes",
+  "Ellen Barkin",
+  "John Leguizamo",
+  "Benicio del Toro",
+  "Patti D'Arbanville",
+  "Chris Mulkey",
+  "Andrew J. Ferchland",
+  "Brandon Hammond",
+  "Charles Hallahan"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 9566.0
+}

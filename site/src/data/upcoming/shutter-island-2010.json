@@ -1,0 +1,42 @@
+{
+ "id": "shutter-island-2010",
+ "title": "Shutter Island",
+ "year_raw": "2010",
+ "year": 2010.0,
+ "decade": 2010,
+ "sort": "Shutter Island",
+ "order": 179,
+ "poster": "nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg",
+ "tmdb": 8.197,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during the 2026 mailbag ep but no commitment made",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Drama",
+  "Thriller",
+  "Mystery"
+ ],
+ "runtime": 138.0,
+ "plot": "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by troubling visions and a mysterious doctor.",
+ "cast": [
+  "Leonardo DiCaprio",
+  "Mark Ruffalo",
+  "Ben Kingsley",
+  "Max von Sydow",
+  "Michelle Williams",
+  "Emily Mortimer",
+  "Patricia Clarkson",
+  "Jackie Earle Haley",
+  "Ted Levine",
+  "John Carroll Lynch"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 11324.0
+}

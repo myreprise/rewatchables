@@ -1,0 +1,43 @@
+{
+ "id": "lock-up-1989",
+ "title": "Lock Up",
+ "year_raw": "1989",
+ "year": 1989.0,
+ "decade": 1980,
+ "sort": "Lock Up",
+ "order": 122,
+ "poster": "WihoHaU9yvhhdoSqDAhiIlNN8g.jpg",
+ "tmdb": 6.802,
+ "contributor": "u/butthead20000",
+ "note": "mentioned by Bill during The Big Chill, Rocky and Rocky II eps",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Action",
+  "Crime",
+  "Drama",
+  "Thriller"
+ ],
+ "runtime": 109.0,
+ "plot": "Frank Leone is nearing the end of his prison term for a relatively minor crime. Just before he is paroled, however, Warden Drumgoole takes charge. Drumgoole was assigned to a hell-hole prison after his administration was publicly humiliated by Leone, and has now arrived on the scene to ensure that Leone never sees the light of day.",
+ "cast": [
+  "Sylvester Stallone",
+  "Donald Sutherland",
+  "John Amos",
+  "Sonny Landham",
+  "Tom Sizemore",
+  "Frank McRae",
+  "Darlanne Fluegel",
+  "William Allen Young",
+  "Larry Romano",
+  "Jordan Lund"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 9972.0
+}

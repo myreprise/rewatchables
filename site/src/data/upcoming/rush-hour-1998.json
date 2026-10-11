@@ -1,0 +1,45 @@
+{
+ "id": "rush-hour-1998",
+ "title": "Rush Hour",
+ "year_raw": "1998",
+ "year": 1998.0,
+ "decade": 1990,
+ "sort": "Rush Hour",
+ "order": 170,
+ "poster": "nwPhAsfnb7f46bZkWLG7IRP5HXr.jpg",
+ "tmdb": 7.084,
+ "contributor": "https://www.reddit.com/r/billsimmons/comments/1ap0bp0/outside_of_the_obvious_pulp_fictonanchorman/",
+ "note": null,
+ "tags": [
+  "1990s",
+  "buddy cop action comedy"
+ ],
+ "by": {
+  "label": "reddit thread",
+  "href": "https://www.reddit.com/r/billsimmons/comments/1ap0bp0/outside_of_the_obvious_pulp_fictonanchorman/"
+ },
+ "directors": [],
+ "genres": [
+  "Action",
+  "Comedy",
+  "Crime"
+ ],
+ "runtime": 97.0,
+ "plot": "When Hong Kong Inspector Lee is summoned to Los Angeles to investigate a kidnapping, the FBI doesn't want any outside help and assigns cocky LAPD Detective James Carter to distract Lee from the case. Not content to watch the action from the sidelines, Lee and Carter form an unlikely partnership and investigate the case themselves.",
+ "cast": [
+  "Jackie Chan",
+  "Chris Tucker",
+  "Tom Wilkinson",
+  "Philip Baker Hall",
+  "Elizabeth Peña",
+  "Chris Penn",
+  "Mark Rolston",
+  "Tzi Ma",
+  "Rex Linn",
+  "Ken Leung"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 2109.0
+}

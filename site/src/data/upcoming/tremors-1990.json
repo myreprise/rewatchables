@@ -1,0 +1,42 @@
+{
+ "id": "tremors-1990",
+ "title": "Tremors",
+ "year_raw": "1990",
+ "year": 1990.0,
+ "decade": 1990,
+ "sort": "Tremors",
+ "order": 201,
+ "poster": "cA4ggkZ3r1d5r9hOAUWC8x5ul2i.jpg",
+ "tmdb": 6.942,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during 2026 mailbag ep as part of Creature Feature Month",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Comedy",
+  "Horror",
+  "Science Fiction"
+ ],
+ "runtime": 96.0,
+ "plot": "Val McKee and Earl Bassett are in a fight for their lives when they discover that their desolate town has been infested with gigantic, man-eating creatures that live below the ground.",
+ "cast": [
+  "Kevin Bacon",
+  "Fred Ward",
+  "Finn Carter",
+  "Michael Gross",
+  "Reba McEntire",
+  "Victor Wong",
+  "Robert Jayne",
+  "Ariana Richards",
+  "Charlotte Stewart",
+  "Tony Genaro"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 9362.0
+}

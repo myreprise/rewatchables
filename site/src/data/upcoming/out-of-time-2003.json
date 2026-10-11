@@ -1,0 +1,42 @@
+{
+ "id": "out-of-time-2003",
+ "title": "Out of Time",
+ "year_raw": "2003",
+ "year": 2003.0,
+ "decade": 2000,
+ "sort": "Out of Time",
+ "order": 146,
+ "poster": "zMExJ6RdJQmRMydvozhEBlOLX1m.jpg",
+ "tmdb": 6.376,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during American Gangster ep as one of the Denzel movies left to do; Bill says it would be part of Sleazy Florida Keys Month; mentioned again in the 2026 mailbag ep",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Thriller",
+  "Crime",
+  "Drama"
+ ],
+ "runtime": 105.0,
+ "plot": "Matt Lee Whitlock, respected chief of police in small Banyan Key, Florida, must solve a vicious double homicide before he himself falls under suspicion. Matt Lee has to stay a few steps ahead of his own police force and everyone he's trusted in order to find out the truth.",
+ "cast": [
+  "Denzel Washington",
+  "Eva Mendes",
+  "Sanaa Lathan",
+  "John Billingsley",
+  "Dean Cain",
+  "Alex Carter",
+  "Antoni Corone",
+  "Robert Baker",
+  "Ron Madoff",
+  "Terry Loughlin"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 2116.0
+}

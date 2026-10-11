@@ -1,0 +1,41 @@
+{
+ "id": "blazing-saddles-1974",
+ "title": "Blazing Saddles",
+ "year_raw": "1974",
+ "year": 1974.0,
+ "decade": 1970,
+ "sort": "Blazing Saddles",
+ "order": 30,
+ "poster": "vNw1gOEDdYTDeNMuuq8OmiEHrfH.jpg",
+ "tmdb": 7.237,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during the summer mailbag ep responding to a question about movies that would get too much backlash",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Western",
+  "Comedy"
+ ],
+ "runtime": 93.0,
+ "plot": "Crafty railroad worker Bart becomes the first Black sheriff of Rock Ridge, a frontier town about to be destroyed in order to make way for a new railroad. Initially, the citizens of Rock Ridge harbor a racial bias toward their new protector. However, they warm to him after realizing that Bart and his perpetually drunk gunfighter friend Jim are their only defense against a wave of thugs sent to rid the town of its population.",
+ "cast": [
+  "Cleavon Little",
+  "Gene Wilder",
+  "Slim Pickens",
+  "Harvey Korman",
+  "Madeline Kahn",
+  "Mel Brooks",
+  "Burton Gilliam",
+  "Alex Karras",
+  "David Huddleston",
+  "Liam Dunn"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 11072.0
+}

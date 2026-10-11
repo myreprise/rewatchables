@@ -1,0 +1,42 @@
+{
+ "id": "demolition-man-1993",
+ "title": "Demolition Man",
+ "year_raw": "1993",
+ "year": 1993.0,
+ "decade": 1990,
+ "sort": "Demolition Man",
+ "order": 58,
+ "poster": "dq6AmlVFo92PRuoLCcIyFdoRuxf.jpg",
+ "tmdb": 6.767,
+ "contributor": "u/lovegun59",
+ "note": "mentioned during the 2026 mailbag ep",
+ "tags": [],
+ "by": {
+  "label": "u/lovegun59",
+  "href": "https://www.reddit.com/user/lovegun59"
+ },
+ "directors": [],
+ "genres": [
+  "Crime",
+  "Action",
+  "Science Fiction"
+ ],
+ "runtime": 115.0,
+ "plot": "In 1996, brash L.A. detective John Spartan and maniac killer Simon Phoenix are both sentenced to decades in a cryogenic prison as punishment for a rescue mission gone wrong. When Phoenix escapes 36 years later to wreak havoc on the future, Spartan is awakened to capture his nemesis the old-fashioned way.",
+ "cast": [
+  "Sylvester Stallone",
+  "Wesley Snipes",
+  "Sandra Bullock",
+  "Nigel Hawthorne",
+  "Benjamin Bratt",
+  "Rob Schneider",
+  "Bob Gunton",
+  "Glenn Shadix",
+  "Denis Leary",
+  "Bill Cobbs"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 9739.0
+}

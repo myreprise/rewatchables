@@ -1,0 +1,40 @@
+{
+ "id": "inside-moves-1980",
+ "title": "Inside Moves",
+ "year_raw": "1980",
+ "year": 1980.0,
+ "decade": 1980,
+ "sort": "Inside Moves",
+ "order": 106,
+ "poster": "A65YXgdnVgRjkaeA0hSMzfoAlZz.jpg",
+ "tmdb": 6.329,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during Breaking Away; Bill says they will do The Hunt for Red October if they do Inside Moves",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Drama"
+ ],
+ "runtime": 113.0,
+ "plot": "After a failed suicide attempt leaves him partially crippled, Rory begins spending a lot of time at a neighborhood bar full of interesting misfits. When Jerry the bartender suddenly finds himself playing basketball for the Golden State Warriors, Rory and the rest of the bar regulars hope his success will provide a lift to their sagging spirits. Will Jerry forget his friends? What about his junkie hooker girlfriend and her pimp?",
+ "cast": [
+  "John Savage",
+  "David Morse",
+  "Diana Scarwid",
+  "Amy Wright",
+  "Tony Burton",
+  "Bill Henderson",
+  "Steve Kahan",
+  "Jack O'Leary",
+  "Bert Remsen",
+  "Harold Russell"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 39503.0
+}

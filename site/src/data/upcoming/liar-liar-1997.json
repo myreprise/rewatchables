@@ -1,0 +1,44 @@
+{
+ "id": "liar-liar-1997",
+ "title": "Liar Liar",
+ "year_raw": "1997",
+ "year": 1997.0,
+ "decade": 1990,
+ "sort": "Liar Liar",
+ "order": 121,
+ "poster": "p1habYSdC7oD3WygQ5lynU5G5rV.jpg",
+ "tmdb": 6.716,
+ "contributor": "u/lovegun59",
+ "note": null,
+ "tags": [
+  "1990s",
+  "Jim Carrey"
+ ],
+ "by": {
+  "label": "u/lovegun59",
+  "href": "https://www.reddit.com/user/lovegun59"
+ },
+ "directors": [],
+ "genres": [
+  "Comedy",
+  "Fantasy"
+ ],
+ "runtime": 86.0,
+ "plot": "Forced by his son's birthday wish, fast-talking attorney and habitual liar Fletcher Reede must tell the truth for the next 24 hours.",
+ "cast": [
+  "Jim Carrey",
+  "Maura Tierney",
+  "Justin Cooper",
+  "Cary Elwes",
+  "Anne Haney",
+  "Amanda Donohoe",
+  "Swoosie Kurtz",
+  "Jason Bernard",
+  "Krista Allen",
+  "Jennifer Tilly"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 1624.0
+}

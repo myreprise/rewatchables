@@ -1,0 +1,42 @@
+{
+ "id": "nighthawks-1981",
+ "title": "Nighthawks",
+ "year_raw": "1981",
+ "year": 1981.0,
+ "decade": 1980,
+ "sort": "Nighthawks",
+ "order": 141,
+ "poster": "2QgpCgOmlgvOPMMC0OrgCv5EKIf.jpg",
+ "tmdb": 6.375,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during Rocky II ep, during the Robocop ep Bill proposes he and Kyle do a Nighthawks ep, and at the end of the pod mentions that it's been a while since a Stallone ep and there's more meat on the Stallone bone",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Action",
+  "Crime",
+  "Thriller"
+ ],
+ "runtime": 99.0,
+ "plot": "When one of Europe's most lethal terrorists shows up in New York, an elite undercover cop is assigned to take him down by any means necessary.",
+ "cast": [
+  "Sylvester Stallone",
+  "Billy Dee Williams",
+  "Rutger Hauer",
+  "Lindsay Wagner",
+  "Persis Khambatta",
+  "Nigel Davenport",
+  "Hilarie Thompson",
+  "Joe Spinell",
+  "Walter Mathews",
+  "E. Brian Dean"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 21610.0
+}

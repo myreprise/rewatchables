@@ -1,0 +1,43 @@
+{
+ "id": "starship-troopers-1997",
+ "title": "Starship Troopers",
+ "year_raw": "1997",
+ "year": 1997.0,
+ "decade": 1990,
+ "sort": "Starship Troopers",
+ "order": 188,
+ "poster": "cxCmv23O7p3hyHwqoktHYkZcGsY.jpg",
+ "tmdb": 7.118,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during Robocop ep",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Adventure",
+  "Action",
+  "Thriller",
+  "Science Fiction"
+ ],
+ "runtime": 129.0,
+ "plot": "Set in the future, the story follows a young soldier named Johnny Rico and his exploits in the Mobile Infantry. Rico's military career progresses from recruit to non-commissioned officer and finally to officer against the backdrop of an interstellar war between mankind and an arachnoid species known as \"the Bugs.\"",
+ "cast": [
+  "Casper Van Dien",
+  "Dina Meyer",
+  "Denise Richards",
+  "Jake Busey",
+  "Neil Patrick Harris",
+  "Clancy Brown",
+  "Michael Ironside",
+  "Patrick Muldoon",
+  "Seth Gilliam",
+  "Rue McClanahan"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 563.0
+}

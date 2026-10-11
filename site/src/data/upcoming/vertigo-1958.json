@@ -1,0 +1,42 @@
+{
+ "id": "vertigo-1958",
+ "title": "Vertigo",
+ "year_raw": "1958",
+ "year": 1958.0,
+ "decade": 1950,
+ "sort": "Vertigo",
+ "order": 211,
+ "poster": "15uOEfqBNTVtDUT7hGBVCka0rZz.jpg",
+ "tmdb": 8.133,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during Snake Eyes and L.A. Confidential eps",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Mystery",
+  "Romance",
+  "Thriller"
+ ],
+ "runtime": 128.0,
+ "plot": "A retired San Francisco detective suffering from acrophobia investigates the strange activities of an old friend's wife, all the while becoming dangerously obsessed with her.",
+ "cast": [
+  "James Stewart",
+  "Kim Novak",
+  "Barbara Bel Geddes",
+  "Tom Helmore",
+  "Henry Jones",
+  "Raymond Bailey",
+  "Ellen Corby",
+  "Konstantin Shayne",
+  "Lee Patrick",
+  "Bess Flowers"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 426.0
+}

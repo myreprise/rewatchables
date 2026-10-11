@@ -1,0 +1,44 @@
+{
+ "id": "carrie-1976",
+ "title": "Carrie",
+ "year_raw": "1976",
+ "year": 1976.0,
+ "decade": 1970,
+ "sort": "Carrie",
+ "order": 42,
+ "poster": "bJJ3xK4pMnfao0wfzySfC47dp8G.jpg",
+ "tmdb": 7.341,
+ "contributor": "u/MattLauer",
+ "note": null,
+ "tags": [
+  "Classic horror",
+  "De Palma"
+ ],
+ "by": {
+  "label": "u/MattLauer",
+  "href": "https://www.reddit.com/user/MattLauer"
+ },
+ "directors": [],
+ "genres": [
+  "Horror",
+  "Thriller"
+ ],
+ "runtime": 98.0,
+ "plot": "Withdrawn and sensitive teenager Carrie White faces bullying from her classmates and abuse from her fanatically pious mother. When she begins to suspect that she has supernatural powers, things take a dark and violent turn.",
+ "cast": [
+  "Sissy Spacek",
+  "Piper Laurie",
+  "Amy Irving",
+  "William Katt",
+  "John Travolta",
+  "Nancy Allen",
+  "Betty Buckley",
+  "P. J. Soles",
+  "Priscilla Pointer",
+  "Sydney Lassick"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 7340.0
+}

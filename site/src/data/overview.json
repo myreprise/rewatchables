@@ -246,6 +246,107 @@
   }
  ],
  "flagged_revisits": 9,
+ "doors": [
+  {
+   "path": "films",
+   "group": "Find",
+   "number_in_rail": 2,
+   "label": "Movie Explorer",
+   "value": "460",
+   "unit": "films",
+   "blurb": "Filter the whole catalogue by decade, genre, director, rating and runtime."
+  },
+  {
+   "path": "genres",
+   "group": "The films",
+   "number_in_rail": 3,
+   "label": "Genres",
+   "value": "17",
+   "unit": "genres",
+   "blurb": "How the mix shifts across the decades they cover, and which genres travel together."
+  },
+  {
+   "path": "directors",
+   "group": "The films",
+   "number_in_rail": 4,
+   "label": "Directors",
+   "value": "260",
+   "unit": "directors",
+   "blurb": "Who gets called back to the chair, their genre range and each one's run on the show."
+  },
+  {
+   "path": "actors",
+   "group": "The films",
+   "number_in_rail": 5,
+   "label": "Actors",
+   "value": "2,978",
+   "unit": "actors",
+   "blurb": "Who keeps turning up on screen, the films they carry and the directors they work with."
+  },
+  {
+   "path": "keywords",
+   "group": "The films",
+   "number_in_rail": 6,
+   "label": "Keywords",
+   "value": "3,676",
+   "unit": "terms",
+   "blurb": "TMDB's keyword tags across every film: the themes, settings and tropes that recur."
+  },
+  {
+   "path": "ratings",
+   "group": "The films",
+   "number_in_rail": 7,
+   "label": "Ratings",
+   "value": "81",
+   "unit": "% median RT",
+   "blurb": "Tomatometer, Ebert stars and TMDB scores, and where the critics and the audience split."
+  },
+  {
+   "path": "boxoffice",
+   "group": "The films",
+   "number_in_rail": 8,
+   "label": "Box Office",
+   "value": "453",
+   "unit": "with a gross",
+   "blurb": "Budgets and grosses in today's dollars, and which films made their money back."
+  },
+  {
+   "path": "hosts",
+   "group": "The show",
+   "number_in_rail": 9,
+   "label": "Hosts & Guests",
+   "value": "62",
+   "unit": "besides Bill",
+   "blurb": "Look anyone up, see who sits together, and what each regular gets booked on."
+  },
+  {
+   "path": "timeline",
+   "group": "The show",
+   "number_in_rail": 10,
+   "label": "Timeline & Revisits",
+   "value": "2015–2026",
+   "unit": "",
+   "blurb": "The show year by year, how old the films were when featured, and the revisits."
+  },
+  {
+   "path": "verdicts",
+   "group": "The bits",
+   "number_in_rail": 11,
+   "label": "Cruise vs. Hanks",
+   "value": "125",
+   "unit": "verdicts",
+   "blurb": "The recurring bit: which of the two is the bigger star, episode by episode."
+  },
+  {
+   "path": "upcoming",
+   "group": "On deck",
+   "number_in_rail": 12,
+   "label": "Upcoming Films",
+   "value": "210",
+   "unit": "in the queue",
+   "blurb": "Listener requests that have not aired yet, with the reason each is on the list."
+  }
+ ],
  "reading": {
   "first_air": "2015-12-22",
   "first_full_year": 2019,

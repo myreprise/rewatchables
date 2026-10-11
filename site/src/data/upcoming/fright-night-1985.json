@@ -1,0 +1,41 @@
+{
+ "id": "fright-night-1985",
+ "title": "Fright Night",
+ "year_raw": "1985",
+ "year": 1985.0,
+ "decade": 1980,
+ "sort": "Fright Night",
+ "order": 80,
+ "poster": "euIh75MwNDrYkTEVSkw7VXWGXoE.jpg",
+ "tmdb": 7.046,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during Body Double ep",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Comedy",
+  "Horror"
+ ],
+ "runtime": 107.0,
+ "plot": "Charley Brewster, a high school student, accidentally discovers the true and creepy nature of Jerry Dandrige, his dashing and enigmatic new neighbor; but no one seems willing to believe him.",
+ "cast": [
+  "Chris Sarandon",
+  "William Ragsdale",
+  "Amanda Bearse",
+  "Roddy McDowall",
+  "Stephen Geoffreys",
+  "Jonathan Stark",
+  "Dorothy Fielding",
+  "Art Evans",
+  "Stewart Stern",
+  "Nick Savage"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 11797.0
+}

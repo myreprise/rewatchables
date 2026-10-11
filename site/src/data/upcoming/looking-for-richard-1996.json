@@ -1,0 +1,40 @@
+{
+ "id": "looking-for-richard-1996",
+ "title": "Looking for Richard",
+ "year_raw": "1996",
+ "year": 1996.0,
+ "decade": 1990,
+ "sort": "Looking for Richard",
+ "order": 123,
+ "poster": "2iEgEoMP1S2YWKkYkwm8cgg2bBN.jpg",
+ "tmdb": 6.791,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during The Sting ep, Sean says it should be part of Pacino month",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Documentary"
+ ],
+ "runtime": 112.0,
+ "plot": "Al Pacino's deeply-felt rumination on Shakespeare's significance and relevance to the modern world through interviews and an in-depth analysis of \"Richard III.\"",
+ "cast": [
+  "Al Pacino",
+  "Winona Ryder",
+  "Kevin Spacey",
+  "Alec Baldwin",
+  "Aidan Quinn",
+  "Harris Yulin",
+  "Penelope Allen",
+  "Kenneth Branagh",
+  "Kevin Kline",
+  "James Earl Jones"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 42314.0
+}

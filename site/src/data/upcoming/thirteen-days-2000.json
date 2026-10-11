@@ -1,0 +1,41 @@
+{
+ "id": "thirteen-days-2000",
+ "title": "Thirteen Days",
+ "year_raw": "2000",
+ "year": 2000.0,
+ "decade": 2000,
+ "sort": "Thirteen Days",
+ "order": 198,
+ "poster": "aLx9UXH9fK2v6NDMvMyW4X88K3u.jpg",
+ "tmdb": 6.992,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during Species ep, CR asked if they can do it at some point and Bill says it's possible",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "History",
+  "Thriller"
+ ],
+ "runtime": 145.0,
+ "plot": "The story of the Cuban Missile Crisis in 1962—the nuclear standoff with the USSR sparked by the discovery by the Americans of missile bases established on the Soviet-allied island of Cuba.",
+ "cast": [
+  "Kevin Costner",
+  "Bruce Greenwood",
+  "Steven Culp",
+  "Dylan Baker",
+  "Michael Fairman",
+  "Henry Strozier",
+  "Frank Wood",
+  "Kevin Conway",
+  "Tim Kelleher",
+  "Len Cariou"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 11973.0
+}

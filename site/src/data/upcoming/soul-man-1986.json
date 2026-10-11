@@ -1,0 +1,40 @@
+{
+ "id": "soul-man-1986",
+ "title": "Soul Man",
+ "year_raw": "1986",
+ "year": 1986.0,
+ "decade": 1980,
+ "sort": "Soul Man",
+ "order": 185,
+ "poster": "d6jh6qiowC4QHePBgpy7Zrytbba.jpg",
+ "tmdb": 5.253,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during Just One of the Guys ep, Bill says Van has been wanting to do Soul Man; mentioned again in Tropic Thunder and Animal House eps as a candidate for Cancelled Month; mentioned again in the summer mailbag ep",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Comedy"
+ ],
+ "runtime": 104.0,
+ "plot": "A white prospective grad student's affluent family won't pay his way through law school, so he takes tanning pills to darken his skin in order to qualify for an African-American scholarship at Harvard. He soon gets more than he bargained for, as he begins to learn what life is really like for blacks in America.",
+ "cast": [
+  "C. Thomas Howell",
+  "Rae Dawn Chong",
+  "Arye Gross",
+  "James Earl Jones",
+  "Melora Hardin",
+  "Leslie Nielsen",
+  "Ann Walker",
+  "James B. Sikking",
+  "Max Wright",
+  "Jeff Altman"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 12278.0
+}

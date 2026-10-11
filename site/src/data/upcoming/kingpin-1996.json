@@ -1,0 +1,44 @@
+{
+ "id": "kingpin-1996",
+ "title": "Kingpin",
+ "year_raw": "1996",
+ "year": 1996.0,
+ "decade": 1990,
+ "sort": "Kingpin",
+ "order": 118,
+ "poster": "lVpejjxzBujSjLpxQ7hGe1s0wP2.jpg",
+ "tmdb": 6.543,
+ "contributor": "u/lovegun59",
+ "note": null,
+ "tags": [
+  "1990s",
+  "Bill Murray",
+  "Woody Harrelson"
+ ],
+ "by": {
+  "label": "u/lovegun59",
+  "href": "https://www.reddit.com/user/lovegun59"
+ },
+ "directors": [],
+ "genres": [
+  "Comedy"
+ ],
+ "runtime": 114.0,
+ "plot": "After bowler Roy Munson swindles the wrong crowd and is left with a hook for a hand, he settles into impoverished obscurity. That is, until he uncovers the next big thing: an Amish kid named Ishmael. So, the corrupt and the hopelessly naive hit the circuit intent on settling an old score with Big Ern.",
+ "cast": [
+  "Woody Harrelson",
+  "Randy Quaid",
+  "Vanessa Angel",
+  "Bill Murray",
+  "Chris Elliott",
+  "William Jordan",
+  "Nancy Frey-Jarecki",
+  "Richard Tyson",
+  "Lin Shaye",
+  "Zen Gesner"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 11543.0
+}

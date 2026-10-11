@@ -1,0 +1,41 @@
+{
+ "id": "frances-ha-2012",
+ "title": "Frances Ha",
+ "year_raw": "2012",
+ "year": 2012.0,
+ "decade": 2010,
+ "sort": "Frances Ha",
+ "order": 78,
+ "poster": "jrq1NoKvsxWCcffVOjegiYwloFN.jpg",
+ "tmdb": 7.332,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during After Hours ep, Bill says it's on the list",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Comedy",
+  "Drama"
+ ],
+ "runtime": 86.0,
+ "plot": "An aspiring dancer moves to New York City and becomes caught up in a whirlwind of flighty fair-weather friends, diminishing fortunes and career setbacks.",
+ "cast": [
+  "Greta Gerwig",
+  "Mickey Sumner",
+  "Michael Zegen",
+  "Adam Driver",
+  "Charlotte d'Amboise",
+  "Patrick Heusinger",
+  "Michael Esper",
+  "Grace Gummer",
+  "Josh Hamilton",
+  "Maya Kazan"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 121986.0
+}

@@ -1,0 +1,40 @@
+{
+ "id": "anchorman-the-legend-of-ron-burgundy-2004",
+ "title": "Anchorman: The Legend of Ron Burgundy",
+ "year_raw": "2004",
+ "year": 2004.0,
+ "decade": 2000,
+ "sort": "Anchorman: The Legend of Ron Burgundy",
+ "order": 13,
+ "poster": "mhZIcRePT7U8viFQVjt1ZjYIsR4.jpg",
+ "tmdb": 6.702,
+ "contributor": "u/lovegun59",
+ "note": "mentioned during Bill's 50 Most Rewatchable Movies of the 21st Century ep",
+ "tags": [],
+ "by": {
+  "label": "u/lovegun59",
+  "href": "https://www.reddit.com/user/lovegun59"
+ },
+ "directors": [],
+ "genres": [
+  "Comedy"
+ ],
+ "runtime": 95.0,
+ "plot": "It's the 1970s and San Diego anchorman Ron Burgundy is the top dog in local TV, but that's all about to change when ambitious reporter Veronica Corningstone arrives as a new employee at his station.",
+ "cast": [
+  "Will Ferrell",
+  "Christina Applegate",
+  "Paul Rudd",
+  "Steve Carell",
+  "David Koechner",
+  "Fred Willard",
+  "Chris Parnell",
+  "Kathryn Hahn",
+  "Fred Armisen",
+  "Seth Rogen"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 8699.0
+}

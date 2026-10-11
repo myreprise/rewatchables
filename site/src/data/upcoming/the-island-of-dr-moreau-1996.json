@@ -1,0 +1,41 @@
+{
+ "id": "the-island-of-dr-moreau-1996",
+ "title": "The Island of Dr. Moreau",
+ "year_raw": "1996",
+ "year": 1996.0,
+ "decade": 1990,
+ "sort": "Island of Dr. Moreau, The",
+ "order": 109,
+ "poster": "hOJeQXve8W9rNRhdgC1WV3GQJyA.jpg",
+ "tmdb": 4.9,
+ "contributor": "u/butthead20000",
+ "note": "During the The Saint ep, Bill says he may do it as a solo Rewatchables because no one else wants to do it",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Science Fiction",
+  "Horror"
+ ],
+ "runtime": 96.0,
+ "plot": "A plane crash surviving attorney stumbles upon a mysterious island and is shocked to discover that a brilliant scientist and his lab assistant have found a way to combine human and animal DNA—with horrific results.",
+ "cast": [
+  "Marlon Brando",
+  "Val Kilmer",
+  "David Thewlis",
+  "Fairuza Balk",
+  "Ron Perlman",
+  "Marco Hofschneider",
+  "Temuera Morrison",
+  "William Hootkins",
+  "Daniel Rigney",
+  "Nelson de la Rosa"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 9306.0
+}

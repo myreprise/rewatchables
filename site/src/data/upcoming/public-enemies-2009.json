@@ -1,0 +1,42 @@
+{
+ "id": "public-enemies-2009",
+ "title": "Public Enemies",
+ "year_raw": "2009",
+ "year": 2009.0,
+ "decade": 2000,
+ "sort": "Public Enemies",
+ "order": 159,
+ "poster": "3KgtekisQBrHRsm2cD5UOB6Ce3k.jpg",
+ "tmdb": 6.687,
+ "contributor": "u/butthead20000",
+ "note": "Bill mentions during the Miami Vice: Calderone's Return ep that they'll do every MIchael Mann movie on The Rewatchables; also mentioned during Close Encounters ep in order to help Mann climb back to the top of the Directors with the Most Movies on The Rewatchables list; mentioned again during American Gangster ep, Bill says it'll be movie 401-499; mentioned again in the 2026 mailbag ep; was one of the options in the vote for the final movie of CR month",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Crime",
+  "History",
+  "Drama"
+ ],
+ "runtime": 140.0,
+ "plot": "Depression-era bank robber John Dillinger's charm and audacity endear him to much of America's downtrodden public, but he's also a thorn in the side of J. Edgar Hoover and the fledgling FBI. Desperate to capture the elusive outlaw, Hoover makes Dillinger his first Public Enemy Number One and assigns his top agent, Melvin Purvis, the task of bringing him in dead or alive.",
+ "cast": [
+  "Johnny Depp",
+  "Christian Bale",
+  "Marion Cotillard",
+  "Jason Clarke",
+  "Rory Cochrane",
+  "Billy Crudup",
+  "Stephen Dorff",
+  "Stephen Lang",
+  "John Ortiz",
+  "Giovanni Ribisi"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 11322.0
+}

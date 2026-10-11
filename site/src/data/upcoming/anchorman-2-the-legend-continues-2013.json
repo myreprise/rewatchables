@@ -1,0 +1,40 @@
+{
+ "id": "anchorman-2-the-legend-continues-2013",
+ "title": "Anchorman 2: The Legend Continues",
+ "year_raw": "2013",
+ "year": 2013.0,
+ "decade": 2010,
+ "sort": "Anchorman 2: The Legend Continues",
+ "order": 14,
+ "poster": "BAdmxMdCqzjs6hx3KuEtnoWP8d.jpg",
+ "tmdb": 6.144,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during Bill's 50 Most Rewatchable Movies of the 21st Century ep",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Comedy"
+ ],
+ "runtime": 119.0,
+ "plot": "With the 70s behind him, San Diego's top rated newsman, Ron Burgundy, returns to take New York's first 24-hour news channel by storm.",
+ "cast": [
+  "Will Ferrell",
+  "Steve Carell",
+  "Paul Rudd",
+  "David Koechner",
+  "Christina Applegate",
+  "Dylan Baker",
+  "Meagan Good",
+  "Judah Nelson",
+  "James Marsden",
+  "Greg Kinnear"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 109443.0
+}

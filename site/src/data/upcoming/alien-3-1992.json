@@ -1,0 +1,42 @@
+{
+ "id": "alien-3-1992",
+ "title": "Alien 3",
+ "year_raw": "1992",
+ "year": 1992.0,
+ "decade": 1990,
+ "sort": "Alien 3",
+ "order": 5,
+ "poster": "xh5wI0UoW7DfS1IyLy3d2CgrCEP.jpg",
+ "tmdb": 6.388,
+ "contributor": "u/butthead20000",
+ "note": "during The Game ep, Bill says they'll probably need to do all of the movies David Fincher directed",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Science Fiction",
+  "Action",
+  "Horror"
+ ],
+ "runtime": 114.0,
+ "plot": "After escaping with Newt and Hicks from the alien planet, Ripley crash lands on Fiorina 161, a prison planet and host to a correctional facility. Unfortunately, although Newt and Hicks do not survive the crash, a more unwelcome visitor does. The prison does not allow weapons of any kind, and with aid being a long time away, the prisoners must simply survive in any way they can.",
+ "cast": [
+  "Sigourney Weaver",
+  "Charles S. Dutton",
+  "Charles Dance",
+  "Paul McGann",
+  "Brian Glover",
+  "Ralph Brown",
+  "Danny Webb",
+  "Christopher John Fields",
+  "Holt McCallany",
+  "Lance Henriksen"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 8077.0
+}

@@ -1,0 +1,40 @@
+{
+ "id": "the-master-2012",
+ "title": "The Master",
+ "year_raw": "2012",
+ "year": 2012.0,
+ "decade": 2010,
+ "sort": "Master, The",
+ "order": 126,
+ "poster": "rUSjbyvYWN9H4az8xt0tDtU7I6v.jpg",
+ "tmdb": 7.094,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during Along Came Polly ep; mentioned again in the CR month mailbag ep, Bill calls it one of the more polarizing good movies and that he doesn't like it but he respects it",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Drama"
+ ],
+ "runtime": 137.0,
+ "plot": "Freddie, a volatile, heavy-drinking veteran who suffers from post-traumatic stress disorder, finds some semblance of a family when he stumbles onto the ship of Lancaster Dodd, the charismatic leader of a new \"religion\" he forms after World War II.",
+ "cast": [
+  "Joaquin Phoenix",
+  "Philip Seymour Hoffman",
+  "Amy Adams",
+  "Rami Malek",
+  "Laura Dern",
+  "Jesse Plemons",
+  "Ambyr Childers",
+  "Madisen Beaty",
+  "Kevin J. O'Connor",
+  "Patty McCormack"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 68722.0
+}

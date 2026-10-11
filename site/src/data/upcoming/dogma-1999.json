@@ -1,0 +1,42 @@
+{
+ "id": "dogma-1999",
+ "title": "Dogma",
+ "year_raw": "1999",
+ "year": 1999.0,
+ "decade": 1990,
+ "sort": "Dogma",
+ "order": 62,
+ "poster": "oxhHl2YokTqcP44QK5tiTgjgLgk.jpg",
+ "tmdb": 6.942,
+ "contributor": "u/butthead20000",
+ "note": "A Feb 2025 tweet from the pod's account asks for the movie to be added to Tubi or Prime Video https://x.com/TheRewatchables/status/1894426639322304854",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Fantasy",
+  "Comedy",
+  "Adventure"
+ ],
+ "runtime": 130.0,
+ "plot": "An abortion clinic worker with a special heritage is called upon to save the existence of humanity from being negated by two renegade angels trying to exploit a loophole and re-enter Heaven.",
+ "cast": [
+  "Ben Affleck",
+  "Matt Damon",
+  "Linda Fiorentino",
+  "Salma Hayek Pinault",
+  "Jason Lee",
+  "Jason Mewes",
+  "Alan Rickman",
+  "Chris Rock",
+  "George Carlin",
+  "Bud Cort"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 1832.0
+}

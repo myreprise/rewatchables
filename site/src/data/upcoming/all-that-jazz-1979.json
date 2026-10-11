@@ -1,0 +1,40 @@
+{
+ "id": "all-that-jazz-1979",
+ "title": "All That Jazz",
+ "year_raw": "1979",
+ "year": 1979.0,
+ "decade": 1970,
+ "sort": "All That Jazz",
+ "order": 6,
+ "poster": "culCEdj4srLljefgn4XKd6k3C5t.jpg",
+ "tmdb": 7.516,
+ "contributor": "u/butthead20000",
+ "note": "A Feb 2025 tweet from the pod's account asks for the movie to be added to Tubi or Prime Video https://x.com/TheRewatchables/status/1894426639322304854",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Drama"
+ ],
+ "runtime": 123.0,
+ "plot": "Joe Gideon is at the top of the heap, one of the most successful directors and choreographers in musical theater. But he can feel his world slowly collapsing around him - his obsession with work has almost destroyed his personal life, and only his bottles of pills keep him going.",
+ "cast": [
+  "Roy Scheider",
+  "Jessica Lange",
+  "Ann Reinking",
+  "Leland Palmer",
+  "Cliff Gorman",
+  "Ben Vereen",
+  "Erzsebet Foldi",
+  "Michael Tolan",
+  "Max Wright",
+  "William LeMassena"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 16858.0
+}

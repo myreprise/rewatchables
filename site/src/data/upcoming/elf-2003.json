@@ -1,0 +1,42 @@
+{
+ "id": "elf-2003",
+ "title": "Elf",
+ "year_raw": "2003",
+ "year": 2003.0,
+ "decade": 2000,
+ "sort": "Elf",
+ "order": 66,
+ "poster": "oOleziEempUPu96jkGs0Pj6tKxj.jpg",
+ "tmdb": 6.666,
+ "contributor": "u/lovegun59",
+ "note": "mentioned during National Lampoon's Christmas Vacation ep, Bill owns a 4K blu-ray copy",
+ "tags": [],
+ "by": {
+  "label": "u/lovegun59",
+  "href": "https://www.reddit.com/user/lovegun59"
+ },
+ "directors": [],
+ "genres": [
+  "Comedy",
+  "Family",
+  "Fantasy"
+ ],
+ "runtime": 97.0,
+ "plot": "When young Buddy falls into Santa's gift sack on Christmas Eve, he's transported back to the North Pole and raised as a toy-making elf by Santa's helpers. But as he grows into adulthood, he can't shake the nagging feeling that he doesn't belong. Buddy vows to visit Manhattan and find his real dad, a workaholic.",
+ "cast": [
+  "Will Ferrell",
+  "James Caan",
+  "Bob Newhart",
+  "Ed Asner",
+  "Mary Steenburgen",
+  "Zooey Deschanel",
+  "Daniel Tay",
+  "Faizon Love",
+  "Peter Dinklage",
+  "Amy Sedaris"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 10719.0
+}

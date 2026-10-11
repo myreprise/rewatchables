@@ -1,0 +1,42 @@
+{
+ "id": "garden-state-2004",
+ "title": "Garden State",
+ "year_raw": "2004",
+ "year": 2004.0,
+ "decade": 2000,
+ "sort": "Garden State",
+ "order": 83,
+ "poster": "h3iqYiGS6F3y7GxaS4AT8nFxZ2i.jpg",
+ "tmdb": 7.076,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during Bill's 50 Most Rewatchable Movies of the 21st Century ep",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Comedy",
+  "Drama",
+  "Romance"
+ ],
+ "runtime": 102.0,
+ "plot": "Andrew returns to his hometown for his mother’s funeral, a journey that reconnects him with old friends. The trip coincides with his decision to stop taking his powerful antidepressants. A chance meeting with Sam—a girl also struggling with various maladies—opens up the possibility of rekindling emotional connections, confronting his psychologist father, and perhaps beginning a new life.",
+ "cast": [
+  "Zach Braff",
+  "Natalie Portman",
+  "Ian Holm",
+  "Peter Sarsgaard",
+  "Jean Smart",
+  "Armando Riesco",
+  "Jackie Hoffman",
+  "Method Man",
+  "Alex Burns",
+  "Ron Leibman"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 401.0
+}

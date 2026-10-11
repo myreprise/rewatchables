@@ -1,0 +1,41 @@
+{
+ "id": "unlawful-entry-1992",
+ "title": "Unlawful Entry",
+ "year_raw": "1992",
+ "year": 1992.0,
+ "decade": 1990,
+ "sort": "Unlawful Entry",
+ "order": 207,
+ "poster": "qt1pESASA3w4xOOPwZS3YRlcYhL.jpg",
+ "tmdb": 6.253,
+ "contributor": "u/butthead20000",
+ "note": "mentioned by Kyle during Pacific Heights ep",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Thriller",
+  "Mystery"
+ ],
+ "runtime": 112.0,
+ "plot": "When Michael and Karen Carr’s home is robbed, the couple strike up a friendship with duty officer Pete Davis. But the disturbed cop develops an intense fixation on Karen, and his idea of friendship soon turns into a dangerous obsession, making him the Carrs’ worst nightmare.",
+ "cast": [
+  "Kurt Russell",
+  "Ray Liotta",
+  "Madeleine Stowe",
+  "Roger E. Mosley",
+  "Ken Lerner",
+  "Deborah Offner",
+  "Johnny Ray McGhee",
+  "Carmen Argenziano",
+  "Andy Romano",
+  "Sonny Carl Davis"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 17494.0
+}

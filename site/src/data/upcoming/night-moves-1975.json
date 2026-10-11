@@ -1,0 +1,42 @@
+{
+ "id": "night-moves-1975",
+ "title": "Night Moves",
+ "year_raw": "1975",
+ "year": 1975.0,
+ "decade": 1970,
+ "sort": "Night Moves",
+ "order": 140,
+ "poster": "j3zMCyvhGlpw31BAWLVMEZNPfOX.jpg",
+ "tmdb": 6.716,
+ "contributor": "u/butthead20000",
+ "note": "Mentioned by CR during American Gangster ep as candidate for Sleazy Florida (Keys) Month",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Thriller",
+  "Crime",
+  "Drama"
+ ],
+ "runtime": 100.0,
+ "plot": "Private detective and former football player Harry Moseby gets hired on to what seems a standard missing person case - a former Hollywood actress wants Moseby to find and return her daughter. Harry travels to Florida to find her, but he begins to see a connection between the runaway girl, the world of Hollywood stuntmen, and a suspicious mechanic when an unsolved murder comes to light.",
+ "cast": [
+  "Gene Hackman",
+  "Jennifer Warren",
+  "John Crawford",
+  "Susan Clark",
+  "Melanie Griffith",
+  "Edward Binns",
+  "Harris Yulin",
+  "Janet Ward",
+  "James Woods",
+  "Kenneth Mars"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 32042.0
+}

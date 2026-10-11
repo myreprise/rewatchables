@@ -1,0 +1,41 @@
+{
+ "id": "regarding-henry-1991",
+ "title": "Regarding Henry",
+ "year_raw": "1991",
+ "year": 1991.0,
+ "decade": 1990,
+ "sort": "Regarding Henry",
+ "order": 162,
+ "poster": "1gyViKAIpy1jAcM3B17iXNbiHrh.jpg",
+ "tmdb": 6.515,
+ "contributor": "u/butthead20000",
+ "note": "mentioned multiple times on the pod; Bill says during the What Lies Beneath ep that they'll cover it during 'dramas that are now comedies' month",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Romance",
+  "Drama"
+ ],
+ "runtime": 108.0,
+ "plot": "After being shot, a lawyer loses his memory and must relearn speech and mobility, but he has a loving family to support him.",
+ "cast": [
+  "Harrison Ford",
+  "Annette Bening",
+  "Bill Nunn",
+  "Rebecca Miller",
+  "Bruce Altman",
+  "Elizabeth Wilson",
+  "Donald Moffat",
+  "James Rebhorn",
+  "Robin Bartlett",
+  "Michael Haley"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 11364.0
+}

@@ -1,0 +1,41 @@
+{
+ "id": "the-money-pit-1986",
+ "title": "The Money Pit",
+ "year_raw": "1986",
+ "year": 1986.0,
+ "decade": 1980,
+ "sort": "Money Pit, The",
+ "order": 136,
+ "poster": "bohhidIi1WWU5NNYF9l5wLQu3Ii.jpg",
+ "tmdb": 6.516,
+ "contributor": "u/butthead20000",
+ "note": "mentioned by Bill during \"Night Shift\"",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Comedy",
+  "Romance"
+ ],
+ "runtime": 91.0,
+ "plot": "After being evicted from their Manhattan apartment, a couple buy what looks like the home of their dreams—only to find themselves saddled with a bank-account-draining nightmare. Struggling to keep their relationship together as their rambling mansion falls to pieces around them, the two watch in hilarious horror as everything—including the kitchen sink—disappears into the Money Pit.",
+ "cast": [
+  "Tom Hanks",
+  "Shelley Long",
+  "Alexander Godunov",
+  "Maureen Stapleton",
+  "Joe Mantegna",
+  "Philip Bosco",
+  "Josh Mostel",
+  "Yakov Smirnoff",
+  "Carmine Caridi",
+  "Brian Backer"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 10466.0
+}

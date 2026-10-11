@@ -1,0 +1,46 @@
+{
+ "id": "clear-and-present-danger-1994",
+ "title": "Clear and Present Danger",
+ "year_raw": "1994",
+ "year": 1994.0,
+ "decade": 1990,
+ "sort": "Clear and Present Danger",
+ "order": 44,
+ "poster": "6xTM8FPxrLRYwz6I3fqtwh7xybs.jpg",
+ "tmdb": 6.646,
+ "contributor": "u/RusevReigns",
+ "note": null,
+ "tags": [
+  "Action thriller",
+  "1990s",
+  "Harrison Ford"
+ ],
+ "by": {
+  "label": "u/RusevReigns",
+  "href": "https://www.reddit.com/user/RusevReigns"
+ },
+ "directors": [],
+ "genres": [
+  "Action",
+  "Drama",
+  "Thriller"
+ ],
+ "runtime": 141.0,
+ "plot": "Agent Jack Ryan becomes acting Deputy Director of Intelligence for the CIA when Admiral Greer is diagnosed with cancer. When an American businessman, and friend of the president, is murdered on his yacht, Ryan starts discovering links between the man and drug dealers. As former CIA agent John Clark is sent to Colombia to kill drug cartel kingpins in retaliation, Ryan must fight through multiple cover-ups to figure out what happened and who's responsible.",
+ "cast": [
+  "Harrison Ford",
+  "Willem Dafoe",
+  "Joaquim de Almeida",
+  "Henry Czerny",
+  "Harris Yulin",
+  "Donald Moffat",
+  "Miguel Sandoval",
+  "Raymond Cruz",
+  "Anne Archer",
+  "Thora Birch"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 9331.0
+}

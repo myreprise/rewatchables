@@ -1,0 +1,41 @@
+{
+ "id": "heat-1987",
+ "title": "Heat",
+ "year_raw": "1987",
+ "year": 1987.0,
+ "decade": 1980,
+ "sort": "Heat",
+ "order": 97,
+ "poster": "wsfL3kmdCbf34r2lykibFjavqVT.jpg",
+ "tmdb": 5.8,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during Along Came Polly ep",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Action",
+  "Thriller"
+ ],
+ "runtime": 101.0,
+ "plot": "Reynolds plays an ex-soldier-of-fortunish character in Vegas, taking \"Chaperone\" jobs, fighting with the mob, and trying to get enough money together to move to Venice, Italy.",
+ "cast": [
+  "Burt Reynolds",
+  "Karen Young",
+  "Peter MacNicol",
+  "Howard Hesseman",
+  "Neill Barry",
+  "Diana Scarwid",
+  "Joseph Mascolo",
+  "Alfie Wise",
+  "Deborah Rush",
+  "Wendell Burton"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 42023.0
+}

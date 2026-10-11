@@ -1,0 +1,42 @@
+{
+ "id": "jackie-brown-1997",
+ "title": "Jackie Brown",
+ "year_raw": "1997",
+ "year": 1997.0,
+ "decade": 1990,
+ "sort": "Jackie Brown",
+ "order": 111,
+ "poster": "rOUx7qg4KmEh1juEDwqzbDSL1Nr.jpg",
+ "tmdb": 7.357,
+ "contributor": "u/lovegun59",
+ "note": "mentioned by Bill during Before Sunrise ep, says it's on the list",
+ "tags": [],
+ "by": {
+  "label": "u/lovegun59",
+  "href": "https://www.reddit.com/user/lovegun59"
+ },
+ "directors": [],
+ "genres": [
+  "Crime",
+  "Drama",
+  "Thriller"
+ ],
+ "runtime": 154.0,
+ "plot": "Jackie Brown is a flight attendant who gets caught in the middle of smuggling cash into the country for her gunrunner boss. When the cops try to use Jackie to get to her boss, she hatches a plan — with help from a bail bondsman — to keep the money for herself.",
+ "cast": [
+  "Pam Grier",
+  "Samuel L. Jackson",
+  "Robert De Niro",
+  "Bridget Fonda",
+  "Michael Keaton",
+  "Robert Forster",
+  "Michael Bowen",
+  "Chris Tucker",
+  "LisaGay Hamilton",
+  "Tommy Lister Jr."
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 184.0
+}

@@ -1,0 +1,43 @@
+{
+ "id": "silent-rage-1982",
+ "title": "Silent Rage",
+ "year_raw": "1982",
+ "year": 1982.0,
+ "decade": 1980,
+ "sort": "Silent Rage",
+ "order": 180,
+ "poster": "fEC99jHKmt6FczEe1Kv2fKzVMHh.jpg",
+ "tmdb": 6.11,
+ "contributor": "u/butthead20000",
+ "note": "mentioned by Bill during Halloween II ep, but when CR says he'll do it, Bill says \"no one cares\"",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Action",
+  "Horror",
+  "Science Fiction",
+  "Romance"
+ ],
+ "runtime": 103.0,
+ "plot": "A mentally ill man in a small Texas town goes on a killing rampage and is fatally wounded by police. When doctors use an experimental serum to bring him back to life, the killer develops superhuman strength and the town sheriff must pursue him.",
+ "cast": [
+  "Chuck Norris",
+  "Ron Silver",
+  "Toni Kalem",
+  "Brian Libby",
+  "Steven Keats",
+  "William Finley",
+  "Stephen Furst",
+  "Stephanie Dunnam",
+  "Joyce Ingle",
+  "Jay De Plano"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 27150.0
+}

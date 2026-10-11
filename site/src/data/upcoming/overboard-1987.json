@@ -1,0 +1,41 @@
+{
+ "id": "overboard-1987",
+ "title": "Overboard",
+ "year_raw": "1987",
+ "year": 1987.0,
+ "decade": 1980,
+ "sort": "Overboard",
+ "order": 148,
+ "poster": "v9MVFgUTvNRXmm2WWOzST6UXb5x.jpg",
+ "tmdb": 6.801,
+ "contributor": "u/butthead20000",
+ "note": "Mentioned during the National Lampoon's Christmas Vacation ep, Bill says he loved Goldie",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Comedy",
+  "Romance"
+ ],
+ "runtime": 112.0,
+ "plot": "Heiress Joanna Stayton hires carpenter Dean Proffitt to build a closet on her yacht—and refuses to pay him for the project when it's done. But after Joanna accidentally falls overboard and loses her memory, Dean sees an opportunity to get even.",
+ "cast": [
+  "Goldie Hawn",
+  "Kurt Russell",
+  "Edward Herrmann",
+  "Mike Hagerty",
+  "Katherine Helmond",
+  "Roddy McDowall",
+  "Jared Rushton",
+  "Jeffrey Wiseman",
+  "Brian Price",
+  "Jamie Wild"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 10780.0
+}

@@ -1,0 +1,41 @@
+{
+ "id": "all-the-right-moves-1983",
+ "title": "All The Right Moves",
+ "year_raw": "1983",
+ "year": 1983.0,
+ "decade": 1980,
+ "sort": "All The Right Moves",
+ "order": 7,
+ "poster": "y8OSutSNEi84ROcqyV7Tu7p8xYg.jpg",
+ "tmdb": 5.756,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during The Truman Show ep; mentioned again during the Tropic Thunder ep",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Romance",
+  "Drama"
+ ],
+ "runtime": 91.0,
+ "plot": "Sensitive study of a headstrong high school football star who dreams of getting out of his small Western Pennsylvania steel town with a football scholarship. His equally ambitious coach aims at a college position, resulting in a clash which could crush the player's dreams.",
+ "cast": [
+  "Tom Cruise",
+  "Craig T. Nelson",
+  "Lea Thompson",
+  "Charles Cioffi",
+  "Gary Graham",
+  "Paul Carafotes",
+  "Chris Penn",
+  "Sandy Faison",
+  "James A. Baffico",
+  "Mel Winkler"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 18172.0
+}

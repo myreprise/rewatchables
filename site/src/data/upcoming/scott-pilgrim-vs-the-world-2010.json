@@ -1,0 +1,42 @@
+{
+ "id": "scott-pilgrim-vs-the-world-2010",
+ "title": "Scott Pilgrim vs. the World",
+ "year_raw": "2010",
+ "year": 2010.0,
+ "decade": 2010,
+ "sort": "Scott Pilgrim vs. the World",
+ "order": 172,
+ "poster": "g5IoYeudx9XBEfwNL0fHvSckLBz.jpg",
+ "tmdb": 7.484,
+ "contributor": "u/butthead20000",
+ "note": "mentioned by Van during Higher Learning ep; Bill says Van can do it with Wesley",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Action",
+  "Comedy",
+  "Romance"
+ ],
+ "runtime": 113.0,
+ "plot": "As bass guitarist for a garage-rock band, Scott Pilgrim has never had trouble getting a girlfriend; usually, the problem is getting rid of them. But when Ramona Flowers skates into his heart, he finds she has the most troublesome baggage of all: an army of ex-boyfriends who will stop at nothing to eliminate him from her list of suitors.",
+ "cast": [
+  "Michael Cera",
+  "Mary Elizabeth Winstead",
+  "Ellen Wong",
+  "Kieran Culkin",
+  "Alison Pill",
+  "Mark Webber",
+  "Johnny Simmons",
+  "Jason Schwartzman",
+  "Anna Kendrick",
+  "Aubrey Plaza"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 22538.0
+}

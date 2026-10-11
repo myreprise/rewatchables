@@ -1,0 +1,42 @@
+{
+ "id": "bad-boys-ii-2003",
+ "title": "Bad Boys II",
+ "year_raw": "2003",
+ "year": 2003.0,
+ "decade": 2000,
+ "sort": "Bad Boys II",
+ "order": 20,
+ "poster": "yCvB5fG5aEPqa1St7ihY6KEAsHD.jpg",
+ "tmdb": 6.657,
+ "contributor": "u/butthead20000",
+ "note": "mentioned by Bill during F1 ep",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Action",
+  "Crime",
+  "Comedy"
+ ],
+ "runtime": 146.0,
+ "plot": "Detectives Marcus Burnett and Mike Lowrey of the Miami Narcotics Task Force are tasked with stopping the flow of the drug Ecstasy into Miami. They track the drugs to the whacked-out Cuban drug lord Johnny Tapia, who is also involved in a bloody war with Russian and Haitian mobsters. If that isn't bad enough, there's tension between the two detectives when Marcus discovers that playboy Mike is secretly romancing Marcus’ sister, Syd.",
+ "cast": [
+  "Martin Lawrence",
+  "Will Smith",
+  "Jordi Mollà",
+  "Gabrielle Union",
+  "Peter Stormare",
+  "Theresa Randle",
+  "Joe Pantoliano",
+  "Michael Shannon",
+  "Jon Seda",
+  "Yul Vazquez"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 8961.0
+}

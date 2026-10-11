@@ -1,0 +1,42 @@
+{
+ "id": "gremlins-1984",
+ "title": "Gremlins",
+ "year_raw": "1984",
+ "year": 1984.0,
+ "decade": 1980,
+ "sort": "Gremlins",
+ "order": 92,
+ "poster": "6m0F7fsXjQvUbCZrPWcJNrjvIui.jpg",
+ "tmdb": 7.144,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during 2026 mailbag ep as part of Creature Feature Month",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Fantasy",
+  "Horror",
+  "Comedy"
+ ],
+ "runtime": 106.0,
+ "plot": "After receiving an exotic small animal as a Christmas gift, a young man inadvertently breaks three important rules concerning his new pet, which unleashes a horde of malevolently mischievous creatures on a small town.",
+ "cast": [
+  "Zach Galligan",
+  "Phoebe Cates",
+  "Hoyt Axton",
+  "Frances Lee McCain",
+  "Corey Feldman",
+  "Keye Luke",
+  "John Louie",
+  "Dick Miller",
+  "Jackie Joseph",
+  "Polly Holliday"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 927.0
+}

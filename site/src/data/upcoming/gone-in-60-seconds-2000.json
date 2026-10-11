@@ -1,0 +1,42 @@
+{
+ "id": "gone-in-60-seconds-2000",
+ "title": "Gone In 60 Seconds",
+ "year_raw": "2000",
+ "year": 2000.0,
+ "decade": 2000,
+ "sort": "Gone In 60 Seconds",
+ "order": 88,
+ "poster": "fToQDmkBtiXYGh9xfgAh3gpo6GZ.jpg",
+ "tmdb": 6.474,
+ "contributor": "u/lovegun59",
+ "note": "mentioned by Bill during Con Air, GoldenEye and F1 eps",
+ "tags": [],
+ "by": {
+  "label": "u/lovegun59",
+  "href": "https://www.reddit.com/user/lovegun59"
+ },
+ "directors": [],
+ "genres": [
+  "Action",
+  "Crime",
+  "Thriller"
+ ],
+ "runtime": 118.0,
+ "plot": "Ex-car thief Randall Raines is forced out of retirement to save his brother Kip after a boost gone wrong. With the help of allies old and new, they race to meet the demands of notorious crime boss Raymond Calitri as the police are in hot pursuit.",
+ "cast": [
+  "Nicolas Cage",
+  "Angelina Jolie",
+  "Giovanni Ribisi",
+  "Robert Duvall",
+  "Delroy Lindo",
+  "Timothy Olyphant",
+  "Chi McBride",
+  "Christopher Eccleston",
+  "Will Patton",
+  "William Lee Scott"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 9679.0
+}

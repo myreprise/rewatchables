@@ -1,0 +1,45 @@
+{
+ "id": "u-s-marshals-1998",
+ "title": "U.S. Marshals",
+ "year_raw": "1998",
+ "year": 1998.0,
+ "decade": 1990,
+ "sort": "U.S. Marshals",
+ "order": 205,
+ "poster": "5ST0BydDSXtW5AtfDDhTVS13pTt.jpg",
+ "tmdb": 6.549,
+ "contributor": "https://www.reddit.com/r/billsimmons/comments/1ap0bp0/outside_of_the_obvious_pulp_fictonanchorman/",
+ "note": null,
+ "tags": [
+  "1990s",
+  "sequel to The Fugitive which has already been done"
+ ],
+ "by": {
+  "label": "reddit thread",
+  "href": "https://www.reddit.com/r/billsimmons/comments/1ap0bp0/outside_of_the_obvious_pulp_fictonanchorman/"
+ },
+ "directors": [],
+ "genres": [
+  "Thriller",
+  "Crime",
+  "Action"
+ ],
+ "runtime": 131.0,
+ "plot": "U.S. Marshal Sam Gerard is accompanying a plane load of convicts from Chicago to New York. The plane crashes spectacularly, and Mark Sheridan escapes. But when Diplomatic Security Agent John Royce is assigned to help Gerard recapture Sheridan, it becomes clear that Sheridan is more than just another murderer.",
+ "cast": [
+  "Tommy Lee Jones",
+  "Wesley Snipes",
+  "Robert Downey Jr.",
+  "Joe Pantoliano",
+  "Kate Nelligan",
+  "Daniel Roebuck",
+  "Tom Wood",
+  "LaTanya Richardson Jackson",
+  "Patrick Malahide",
+  "Irène Jacob"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 11808.0
+}

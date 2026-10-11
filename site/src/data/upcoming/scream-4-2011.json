@@ -1,0 +1,41 @@
+{
+ "id": "scream-4-2011",
+ "title": "Scream 4",
+ "year_raw": "2011",
+ "year": 2011.0,
+ "decade": 2010,
+ "sort": "Scream 4",
+ "order": 173,
+ "poster": "3cf8p2qw9qnsaaFWc64AG6U05eT.jpg",
+ "tmdb": 6.481,
+ "contributor": "u/butthead20000",
+ "note": "mentioned by CR during Bill's 50 Most Rewatchable Movies of the 21st Century ep",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Horror",
+  "Mystery"
+ ],
+ "runtime": 111.0,
+ "plot": "Fifteen years after the original Woodsboro murders, Sidney Prescott returns home to promote her new book about surviving trauma, only for a new Ghostface killer to emerge, targeting a new group of teens.",
+ "cast": [
+  "Neve Campbell",
+  "David Arquette",
+  "Courteney Cox",
+  "Emma Roberts",
+  "Hayden Panettiere",
+  "Erik Knudsen",
+  "Rory Culkin",
+  "Marley Shelton",
+  "Anthony Anderson",
+  "Adam Brody"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 41446.0
+}

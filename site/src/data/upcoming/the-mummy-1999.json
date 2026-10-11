@@ -1,0 +1,46 @@
+{
+ "id": "the-mummy-1999",
+ "title": "The Mummy",
+ "year_raw": "1999",
+ "year": 1999.0,
+ "decade": 1990,
+ "sort": "Mummy, The",
+ "order": 137,
+ "poster": "yhIsVvcUm7QxzLfT6HW2wLf5ajY.jpg",
+ "tmdb": 6.992,
+ "contributor": "https://www.reddit.com/r/billsimmons/comments/1ap0bp0/outside_of_the_obvious_pulp_fictonanchorman/",
+ "note": null,
+ "tags": [
+  "Action comedy",
+  "1990s",
+  "blockbuster"
+ ],
+ "by": {
+  "label": "reddit thread",
+  "href": "https://www.reddit.com/r/billsimmons/comments/1ap0bp0/outside_of_the_obvious_pulp_fictonanchorman/"
+ },
+ "directors": [],
+ "genres": [
+  "Adventure",
+  "Action",
+  "Fantasy"
+ ],
+ "runtime": 124.0,
+ "plot": "Dashing legionnaire Rick O'Connell stumbles upon the hidden ruins of Hamunaptra while in the midst of a battle to claim the area in 1920s Egypt. It has been over three thousand years since former High Priest Imhotep suffered a fate worse than death as a punishment for a forbidden love—along with a curse that guarantees eternal doom upon the world if he is ever awoken.",
+ "cast": [
+  "Brendan Fraser",
+  "Rachel Weisz",
+  "John Hannah",
+  "Arnold Vosloo",
+  "Patricia Velásquez",
+  "Oded Fehr",
+  "Kevin J. O'Connor",
+  "Jonathan Hyde",
+  "Erick Avari",
+  "Stephen Dunham"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 564.0
+}

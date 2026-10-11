@@ -1,0 +1,46 @@
+{
+ "id": "dirty-dancing-1987",
+ "title": "Dirty Dancing",
+ "year_raw": "1987",
+ "year": 1987.0,
+ "decade": 1980,
+ "sort": "Dirty Dancing",
+ "order": 59,
+ "poster": "9Jw6jys7q9gjzVX5zm1z0gC8gY9.jpg",
+ "tmdb": 7.32,
+ "contributor": "u/butthead20000",
+ "note": null,
+ "tags": [
+  "1980s",
+  "Swayze",
+  "Bill owns a 4K blu-ray copy"
+ ],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Drama",
+  "Music",
+  "Romance"
+ ],
+ "runtime": 100.0,
+ "plot": "Expecting the usual tedium that accompanies a summer in the Catskills with her family, 17-year-old Frances 'Baby' Houseman is surprised to find herself stepping into the shoes of a professional hoofer—and unexpectedly falling in love.",
+ "cast": [
+  "Jennifer Grey",
+  "Patrick Swayze",
+  "Jerry Orbach",
+  "Cynthia Rhodes",
+  "Jack Weston",
+  "Jane Brucker",
+  "Kelly Bishop",
+  "Lonny Price",
+  "Max Cantor",
+  "Charles \"Honi\" Coles"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 88.0
+}

@@ -1,0 +1,42 @@
+{
+ "id": "the-thing-1982",
+ "title": "The Thing",
+ "year_raw": "1982",
+ "year": 1982.0,
+ "decade": 1980,
+ "sort": "Thing, The",
+ "order": 197,
+ "poster": "tzGY49kseSE9QAKk47uuDGwnSCu.jpg",
+ "tmdb": 8.073,
+ "contributor": "u/lovegun59",
+ "note": "mentioned at the end of Minority Report ep",
+ "tags": [],
+ "by": {
+  "label": "u/lovegun59",
+  "href": "https://www.reddit.com/user/lovegun59"
+ },
+ "directors": [],
+ "genres": [
+  "Horror",
+  "Mystery",
+  "Science Fiction"
+ ],
+ "runtime": 109.0,
+ "plot": "A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims.",
+ "cast": [
+  "Kurt Russell",
+  "Wilford Brimley",
+  "T.K. Carter",
+  "David Clennon",
+  "Keith David",
+  "Richard Dysart",
+  "Charles Hallahan",
+  "Peter Maloney",
+  "Richard Masur",
+  "Donald Moffat"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 1091.0
+}

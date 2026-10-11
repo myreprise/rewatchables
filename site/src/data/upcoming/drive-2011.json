@@ -1,0 +1,42 @@
+{
+ "id": "drive-2011",
+ "title": "Drive",
+ "year_raw": "2011",
+ "year": 2011.0,
+ "decade": 2010,
+ "sort": "Drive",
+ "order": 64,
+ "poster": "602vevIURmpDfzbnv5Ubi6wIkQm.jpg",
+ "tmdb": 7.583,
+ "contributor": "u/butthead20000",
+ "note": "mentioned by Sean during Bill's 50 Most Rewatchable Movies of the 21st Century ep",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Drama",
+  "Thriller",
+  "Crime"
+ ],
+ "runtime": 100.0,
+ "plot": "Driver is a skilled Hollywood stuntman who moonlights as a getaway driver for criminals. Though he projects an icy exterior, lately he's been warming up to a pretty neighbor named Irene and her young son, Benicio. When Irene's husband gets out of jail, he enlists Driver's help in a million-dollar heist. The job goes horribly wrong, and Driver must risk his life to protect Irene and Benicio from the vengeful masterminds behind the robbery.",
+ "cast": [
+  "Ryan Gosling",
+  "Carey Mulligan",
+  "Bryan Cranston",
+  "Albert Brooks",
+  "Oscar Isaac",
+  "Christina Hendricks",
+  "Ron Perlman",
+  "Kaden Leos",
+  "Jeff Wolfe",
+  "James Biberi"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 64690.0
+}

@@ -1,0 +1,41 @@
+{
+ "id": "rush-2013",
+ "title": "Rush",
+ "year_raw": "2013",
+ "year": 2013.0,
+ "decade": 2010,
+ "sort": "Rush",
+ "order": 169,
+ "poster": "95BDrWmcfJDEa2WCfjmLgi67jhi.jpg",
+ "tmdb": 7.744,
+ "contributor": "u/butthead20000",
+ "note": "mentioned by Bill during Days of Thunder ep, says he's buying the 4K blu-ray; mentioned by Bill during F1 ep, says it's on the list; mentioned by Bill again during The Nice Guys ep, says it's on the list",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Drama",
+  "Action"
+ ],
+ "runtime": 123.0,
+ "plot": "In the 1970s, a rivalry propels race car drivers Niki Lauda and James Hunt to fame and glory — until a horrible accident threatens to end it all.",
+ "cast": [
+  "Chris Hemsworth",
+  "Daniel Brühl",
+  "Olivia Wilde",
+  "Alexandra Maria Lara",
+  "Pierfrancesco Favino",
+  "David Calder",
+  "Natalie Dormer",
+  "Stephen Mangan",
+  "Christian McKay",
+  "Alistair Petrie"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 96721.0
+}

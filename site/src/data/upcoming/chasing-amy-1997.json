@@ -1,0 +1,42 @@
+{
+ "id": "chasing-amy-1997",
+ "title": "Chasing Amy",
+ "year_raw": "1997",
+ "year": 1997.0,
+ "decade": 1990,
+ "sort": "Chasing Amy",
+ "order": 43,
+ "poster": "tqydORBcNlQxy3ijgSpPurgDHM2.jpg",
+ "tmdb": 6.747,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during Star Wars ep, Bill says it's on the list",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Comedy",
+  "Drama",
+  "Romance"
+ ],
+ "runtime": 114.0,
+ "plot": "Holden and Banky are comic book artists. Everything is going good for them until they meet Alyssa, also a comic book artist. Holden falls for her, but his hopes are crushed when he finds out she's a lesbian.",
+ "cast": [
+  "Ben Affleck",
+  "Joey Lauren Adams",
+  "Jason Lee",
+  "King Mustafa Obafemi",
+  "Jason Mewes",
+  "Kevin Smith",
+  "Ethan Suplee",
+  "Scott Mosier",
+  "Casey Affleck",
+  "Matt Damon"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 2255.0
+}

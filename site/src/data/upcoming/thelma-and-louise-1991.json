@@ -1,0 +1,42 @@
+{
+ "id": "thelma-and-louise-1991",
+ "title": "Thelma & Louise",
+ "year_raw": "1991",
+ "year": 1991.0,
+ "decade": 1990,
+ "sort": "Thelma & Louise",
+ "order": 196,
+ "poster": "7D2DqmIKpPlkCU0RLVdlKLKR7XZ.jpg",
+ "tmdb": 7.593,
+ "contributor": "u/butthead20000",
+ "note": "mentioned during Someone to Watch Over Me ep",
+ "tags": [],
+ "by": {
+  "label": "u/butthead20000",
+  "href": "https://www.reddit.com/user/butthead20000"
+ },
+ "directors": [],
+ "genres": [
+  "Drama",
+  "Crime",
+  "Adventure"
+ ],
+ "runtime": 130.0,
+ "plot": "Taking a break from their dreary lives, close friends Thelma and Louise embark on a short weekend trip that ends in unforeseen incriminating circumstances. As fugitives, both women rediscover the strength of their bond and their newfound resilience.",
+ "cast": [
+  "Susan Sarandon",
+  "Geena Davis",
+  "Harvey Keitel",
+  "Michael Madsen",
+  "Christopher McDonald",
+  "Stephen Tobolowsky",
+  "Brad Pitt",
+  "Timothy Carhart",
+  "Lucinda Jenney",
+  "Jason Beghe"
+ ],
+ "resolved": true,
+ "unresolved_note": null,
+ "method": "auto_tmdb",
+ "tmdb_id": 1541.0
+}
