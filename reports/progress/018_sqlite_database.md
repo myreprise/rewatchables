@@ -135,6 +135,12 @@ no longer matches the tracked CSV. It should pass once they are.
   spotlight and request pages) and keeps these two, rather than the whole
   `site_export` package as the plan first said.
 
+## Checked on GitHub
+
+The branch build ([run 38150242890](https://github.com/myreprise/rewatchables/actions/runs/38150242890))
+passed in 2 min 18 s on GitHub's Ubuntu runner. The data loader ran with
+`python3` and built `site.db`, closing the one open question from phase 0.
+
 ## Next: phase 2, the pages
 
 Rewrite the six detail views as `?id=` pages, and point the section pages at
