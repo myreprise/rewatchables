@@ -65,6 +65,11 @@ data/*.xlsx.bak
 # show which episode changed. It has to be tracked for that to mean anything.
 !data/episodes.csv
 
+# Step 17's two steering files: hand-made decisions (which airing an episode
+# is, which category ids are one category) that a rebuild must reproduce.
+!data/category_episode_overrides.csv
+!data/category_aliases.csv
+
 # The same goes for the upcoming-films list, converted from
 # "remaining films.xlsx" by convert_xlsx_to_csv.py --source upcoming. It is a
 # source of truth in exactly the same sense: a hand-curated list whose changes

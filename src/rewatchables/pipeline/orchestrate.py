@@ -2,7 +2,7 @@
 """
 Orchestrate the rewatchables pipeline.
 
-Fifteen steps in seven stages:
+Sixteen steps in eight stages, and one step run by hand:
 
   source   01 render episodes.xlsx, 02 load raw
   resolve  03 normalize + stage mentions, 04 resolve against TMDB
@@ -13,6 +13,10 @@ Fifteen steps in seven stages:
   upcoming 13 build the upcoming-films list
   images   14 download posters to static/tmdb/ for the app to serve
   site     15 export the public site's data to site/src/data/
+  categories 17 build the category tables from stored rewatchvault pages
+
+  (16, by hand) fetch rewatchvault.com pages in reviewed batches; see
+  MANUAL_STEPS below. Step 17 reads only what 16 has stored, never the network.
 
 Step 13 is a stage of its own because it is a second, independent source. It
 reads "data/remaining films.xlsx" rather than the episode list, writes only its
@@ -132,9 +136,19 @@ STEPS = [
     (13, "s13_build_upcoming",        "Build upcoming-films list",             "upcoming", False),
     (14, "s14_cache_images",          "Download TMDB images to static/tmdb",   "images",  True),
     (15, "s15_export_site",           "Export the public site's data",         "site",    False),
+    (17, "s17_build_categories",      "Build category tables from stored pages", "categories", False),
 ]
 
-STAGES = ["source", "resolve", "curated", "enrich", "upcoming", "images", "site"]
+# Numbered steps that are run by hand and never by the orchestrator. Each needs
+# a reason; tests/test_orchestrate.py fails any step in neither list. A manual
+# step keeps its number, so the numbers across both lists still run 1..N.
+#   s16_load_categories  crawls rewatchvault.com in batches, each one reviewed
+#                        before the next is started (reports 021, 022). An --all
+#                        run must never start a crawl.
+MANUAL_STEPS = {"s16_load_categories"}
+
+STAGES = ["source", "resolve", "curated", "enrich", "upcoming", "images", "site",
+          "categories"]
 DESTRUCTIVE_STEP = 3   # clears staging
 REPLAY_STEP = 8        # replays manual_review.csv onto the rebuilt rows
 SAFE_DEFAULT_FROM = 5   # everything from validation down is re-runnable
@@ -215,7 +229,9 @@ def select_steps(args):
 
     lo = args.from_step if args.from_step is not None else (
         1 if args.all else SAFE_DEFAULT_FROM)
-    hi = args.to_step if args.to_step is not None else len(STEPS)
+    # The last step's number, not the count: a manual step (16) keeps its
+    # number, so the two differ and len() would silently drop the last step.
+    hi = args.to_step if args.to_step is not None else STEPS[-1][0]
     return [s for s in steps if lo <= s[0] <= hi]
 
 

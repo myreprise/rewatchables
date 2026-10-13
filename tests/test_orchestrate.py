@@ -38,6 +38,13 @@ def _nums(steps):
 # added" into three unrelated-looking failures about ranges. Read the last step
 # out of the table the code itself uses.
 LAST = STEPS[-1][0]
+# Numbered steps run by hand (step 16): they keep their number but are never
+# selected, so an expected range skips them.
+MANUAL_NUMBERS = {int(m[1:3]) for m in mod.MANUAL_STEPS}
+
+
+def _orchestrated(lo, hi):
+    return [n for n in range(lo, hi + 1) if n not in MANUAL_NUMBERS]
 
 
 # ---------------------------------------------------------------------------
@@ -51,7 +58,10 @@ class TestStepTable:
         assert missing == [], f"orchestrator references missing modules: {missing}"
 
     def test_numbers_are_contiguous_and_ordered(self):
-        assert _nums(STEPS) == list(range(1, len(STEPS) + 1))
+        # A manual step keeps its number: together the two lists run 1..N.
+        manual = [int(m[1:3]) for m in mod.MANUAL_STEPS]
+        numbers = sorted(_nums(STEPS) + manual)
+        assert numbers == list(range(1, len(numbers) + 1))
 
     def test_all_pipeline_steps_are_wired_in(self):
         """A numbered step that exists but is not orchestrated is exactly the
@@ -59,7 +69,16 @@ class TestStepTable:
         pipeline_dir = Path(mod.__file__).parent
         on_disk = {p.stem for p in pipeline_dir.glob("s[0-9][0-9]_*.py")}
         wired = {s[1] for s in STEPS}
-        assert on_disk - wired == set(), f"not wired into orchestrate: {on_disk - wired}"
+        unwired = on_disk - wired - mod.MANUAL_STEPS
+        assert unwired == set(), f"not wired into orchestrate: {unwired}"
+
+    def test_manual_steps_exist_and_are_not_wired(self):
+        """An entry in MANUAL_STEPS is an exception, so it must name a real
+        step and must not also be in STEPS."""
+        pipeline_dir = Path(mod.__file__).parent
+        on_disk = {p.stem for p in pipeline_dir.glob("s[0-9][0-9]_*.py")}
+        assert mod.MANUAL_STEPS <= on_disk
+        assert not mod.MANUAL_STEPS & {s[1] for s in STEPS}
 
     def test_stages_are_valid(self):
         assert {s[3] for s in STEPS} <= set(STAGES)
@@ -77,10 +96,12 @@ class TestStepTable:
 
 class TestSelectSteps:
     def test_default_skips_the_destructive_steps(self):
-        assert _nums(select_steps(_args())) == list(range(5, LAST + 1))
+        assert _nums(select_steps(_args())) == _orchestrated(5, LAST)
 
     def test_all_selects_everything(self):
-        assert _nums(select_steps(_args(all=True))) == list(range(1, LAST + 1))
+        """Everything orchestrated: a manual step is never selected, even by --all."""
+        assert _nums(select_steps(_args(all=True))) == _orchestrated(1, LAST)
+        assert not set(_nums(select_steps(_args(all=True)))) & MANUAL_NUMBERS
 
     def test_stage_selection(self):
         assert _nums(select_steps(_args(stages="enrich"))) == [9, 10, 11, 12]
@@ -107,7 +128,7 @@ class TestSelectSteps:
             select_steps(_args(stages="bogus"))
 
     def test_from_alone_runs_to_the_end(self):
-        assert _nums(select_steps(_args(from_step=10))) == list(range(10, LAST + 1))
+        assert _nums(select_steps(_args(from_step=10))) == _orchestrated(10, LAST)
 
 
 # ---------------------------------------------------------------------------
