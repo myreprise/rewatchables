@@ -15,7 +15,7 @@ def overview(ctx, addresses):
     from rewatchables.app.sections.overview import (
         came_back_to, doors, episodes_per_year, regulars, show_now,
     )
-    from rewatchables.app.state import NAV, SECTION_LABEL, SLUGS
+    from rewatchables.app.state import APP_ONLY, NAV, SECTION_LABEL, SITE_SLUGS
     from views import ANCHOR
 
     group_of = {slug: group for group, items in NAV for slug, _ in items}
@@ -64,13 +64,14 @@ def overview(ctx, addresses):
             for _, m in again.iterrows()
         ],
         "flagged_revisits": int((movies["revisited_flag"] == 1).sum()),
-        # One door per section, as in the app. The site's address for a
+        # One door per section, as in the app, but for the app-only ones; the
+        # site numbers its sections without them. The site's address for a
         # section is its slug, but for the Explorer's, which is /films.
         "doors": [
             {"path": SITE_PATH.get(slug, slug), "group": group_of[slug],
-             "number_in_rail": SLUGS.index(slug) + 1, "label": SECTION_LABEL[slug],
+             "number_in_rail": SITE_SLUGS.index(slug) + 1, "label": SECTION_LABEL[slug],
              "value": number, "unit": unit, "blurb": blurb}
-            for slug, number, unit, blurb in doors(ctx)
+            for slug, number, unit, blurb in doors(ctx) if slug not in APP_ONLY
         ],
         "reading": {
             "first_air": plain_value(now["first_air"]),

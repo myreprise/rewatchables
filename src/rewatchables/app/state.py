@@ -46,6 +46,7 @@ NAV = [
     ]),
     ("The bits", [
         ("verdicts", "Cruise vs. Hanks"),
+        ("categories", "Categories"),
     ]),
     # A second source, not a second view of the first. These films have never
     # been on the show, so they belong to neither "The films" (which is the
@@ -57,6 +58,13 @@ NAV = [
 ]
 
 SLUGS = [slug for _, items in NAV for slug, _ in items]
+
+# Sections the app has and the public site deliberately does not. Categories
+# shows rewatchvault.com's discussion text, which stays local until its
+# authors have said it may be republished (reports 021-024). The site export
+# leaves these out and numbers its sections without them.
+APP_ONLY = {"categories"}
+SITE_SLUGS = [slug for slug in SLUGS if slug not in APP_ONLY]
 SECTION_LABEL = {slug: label for _, items in NAV for slug, label in items}
 SLUG_OF_LABEL = {label: slug for slug, label in SECTION_LABEL.items()}
 DEFAULT_SECTION = SLUGS[0]

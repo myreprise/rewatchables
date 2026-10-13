@@ -507,3 +507,101 @@ SELECT
     m.total_episodes_featured
 FROM curated_upcoming_films u
 JOIN curated_movies m ON m.movie_id = u.superseded_by_movie_id;
+
+-- ---------------------------------------------------------------------------
+-- Category entries (step 17, reports 021-023)
+--
+-- Built entirely from raw_category_pages: every run of step 17 empties these
+-- tables and rebuilds them from whatever pages step 16 has stored, so a new
+-- batch, a parser fix or a changed rule costs one re-run and no migration.
+--
+-- Two tracked files steer the build, and nothing else does:
+--   data/category_episode_overrides.csv  rewatchvault episodes the date+title
+--                                        rule can't place (placeholder dates,
+--                                        title aliases)
+--   data/category_aliases.csv            duplicate category ids folded together
+--
+-- movie_id and episode_movie_id are copied from curated_episode_movies at build
+-- time. They are not stable across a curated rebuild, which is why step 17 runs
+-- after step 06 in every orchestrated run; episode_number + episode_date are
+-- carried too, as the stable way back to the airing.
+-- ---------------------------------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS category_episode_map (
+    rv_episode_slug TEXT PRIMARY KEY,
+    rv_air_date TEXT,
+    rv_film_title TEXT,
+    episode_movie_id TEXT,       -- NULL when unmapped
+    movie_id TEXT,
+    episode_number INTEGER,
+    episode_date TEXT,
+    match_rule TEXT NOT NULL CHECK(match_rule IN ('date_title', 'override', 'unmapped')),
+    day_offset INTEGER,          -- episode_date minus rv_air_date, in days
+    note TEXT
+);
+
+CREATE TABLE IF NOT EXISTS curated_categories (
+    category_slug TEXT PRIMARY KEY,
+    family TEXT NOT NULL CHECK(family IN ('standing', 'one_off', 'segment', 'most_year')),
+    display_name TEXT,           -- the banner it aired under most often
+    banners INTEGER,             -- distinct banners it aired under
+    entries INTEGER,
+    episodes INTEGER,
+    first_aired TEXT,
+    last_aired TEXT
+);
+
+CREATE TABLE IF NOT EXISTS curated_category_entries (
+    discussion_slug TEXT PRIMARY KEY,
+    rv_episode_slug TEXT NOT NULL,
+    episode_movie_id TEXT,
+    movie_id TEXT,
+    episode_number INTEGER,
+    air_date TEXT,               -- the episode list's date when mapped, else rewatchvault's
+    film_title TEXT,             -- as rewatchvault names it
+    category_slug TEXT,          -- after aliases; NULL only if unresolvable
+    category_source TEXT CHECK(category_source IN ('slug', 'banner', 'none')),
+    banner TEXT,                 -- as aired
+    answer TEXT,
+    transcript_seconds INTEGER,
+    transcript_url TEXT,
+    bullet_count INTEGER,
+    pick_count INTEGER,
+    source_url TEXT NOT NULL,    -- the rewatchvault page; every display links it
+    raw_id INTEGER NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS idx_category_entries_movie ON curated_category_entries(movie_id);
+CREATE INDEX IF NOT EXISTS idx_category_entries_category ON curated_category_entries(category_slug);
+
+CREATE TABLE IF NOT EXISTS curated_category_bullets (
+    discussion_slug TEXT NOT NULL,
+    position INTEGER NOT NULL,   -- 1-based, page order
+    text TEXT NOT NULL,          -- names restored
+    speaker_slugs TEXT,          -- '; '-joined, usually one
+    speaker_names TEXT,
+    PRIMARY KEY (discussion_slug, position)
+);
+
+-- Every inline link, wherever it sits: location 'answer' (position 0),
+-- 'bullet' (its position) or 'pick' (its position). text[start:end] = name.
+CREATE TABLE IF NOT EXISTS curated_category_mentions (
+    discussion_slug TEXT NOT NULL,
+    location TEXT NOT NULL CHECK(location IN ('answer', 'bullet', 'pick')),
+    position INTEGER NOT NULL,
+    start INTEGER NOT NULL,
+    "end" INTEGER NOT NULL,
+    kind TEXT NOT NULL CHECK(kind IN ('person', 'movie')),
+    slug TEXT,
+    name TEXT NOT NULL,
+    PRIMARY KEY (discussion_slug, location, position, start)
+);
+
+CREATE TABLE IF NOT EXISTS curated_category_picks (
+    discussion_slug TEXT NOT NULL,
+    position INTEGER NOT NULL,
+    speaker_slug TEXT,           -- NULL when the site couldn't identify the speaker
+    speaker_name TEXT,
+    text TEXT NOT NULL,
+    PRIMARY KEY (discussion_slug, position)
+);

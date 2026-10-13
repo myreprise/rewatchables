@@ -121,6 +121,8 @@ def doors(ctx):
          "The show year by year, how old the films were when featured, and the revisits."),
         ("verdicts", f"{len(ctx.cruise_hanks)}", "verdicts",
          "The recurring bit: which of the two is the bigger star, episode by episode."),
+        ("categories", f"{ctx.categories.coverage['entries']:,}", "entries",
+         "Every award and segment the show hands out, and how the room argued about it."),
         ("upcoming", f"{len(ctx.upcoming):,}", "in the queue",
          "Listener requests that have not aired yet, with the reason each is on the list."),
     ]

@@ -28,6 +28,8 @@ class Ctx:
     gender_map: dict
     keywords: dict
     reach: dict
+    # Steps 16-17: the show's categories, and how many episodes they cover yet.
+    categories: data.Categories
     # The database's modification time: the key for anything built once per
     # database, such as the charts a widget does not affect.
     stamp: float
@@ -65,5 +67,6 @@ def build_context(db_stamp):
         gender_map=data.gender_from_people(data.load_people(db_stamp)),
         keywords=keywords,
         reach={word: len(ids) for word, ids in keywords.items()},
+        categories=data.load_categories(db_stamp),
         stamp=db_stamp,
     )

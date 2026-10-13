@@ -343,3 +343,82 @@ WHERE last_seen_load_id = (
     WHERE load_status = 'success'
     ORDER BY loaded_at DESC LIMIT 1
 );
+
+-- ---------------------------------------------------------------------------
+-- Category entries -- rewatchvault.com (step 16, report 021)
+--
+-- rewatchvault.com archives the show's categories: one page per entry,
+-- /archive/discussions/<slug>. Two raw sources, one ledger:
+--
+--   raw_category_workbook_rows  the five scraper exports in data/raw/categories/,
+--                               stored row by row as they are. The scraper cut
+--                               names out of the discussion prose, so these rows
+--                               are an index and a cross-check, not the source.
+--   raw_category_pages          each discussion page's <article>, zlib-compressed,
+--                               fetched in reviewed batches (pilot, then 1-7 by
+--                               air year). Everything downstream parses these.
+--
+-- Loads are tracked in raw_category_loads, NOT in raw_ingest_runs, for the
+-- reason the upcoming-films block above gives. Both row tables upsert like
+-- raw_episodes: one stored row per (discussion_slug, source_hash), with
+-- last_seen_* written by every later load that finds the same content.
+--
+-- discussion_slug, episode_slug and air_date on the workbook rows are derived
+-- from the row (its URLs and its date cell) so a batch can be planned without
+-- unpacking payloads; the payload itself is untouched.
+-- ---------------------------------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS raw_category_loads (
+    load_id TEXT PRIMARY KEY,
+    source TEXT NOT NULL CHECK(source IN ('workbook', 'web')),
+    batch TEXT,                  -- 'pilot', '1'..'7'; NULL for a workbook load
+    source_ref TEXT,             -- the files read, or the sitemap URL
+    source_sha256 TEXT,          -- of those files' bytes, or of the sitemap
+    started_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    finished_at TIMESTAMP,
+    rows_planned INTEGER,
+    plan_json TEXT,              -- a web batch's planned slugs, for --check
+    rows_new INTEGER,
+    rows_unchanged INTEGER,
+    rows_failed INTEGER,
+    failures_json TEXT,          -- [[slug, reason], ...]
+    load_status TEXT CHECK(load_status IN ('running', 'success', 'partial', 'failed'))
+);
+
+CREATE TABLE IF NOT EXISTS raw_category_workbook_rows (
+    raw_id INTEGER PRIMARY KEY,
+    load_id TEXT NOT NULL,
+    source_file TEXT NOT NULL,
+    source_row_number INTEGER,   -- 1-based sheet row, header = 1
+    discussion_slug TEXT NOT NULL,
+    episode_slug TEXT,
+    air_date TEXT,               -- ISO, from the row's date cell
+    payload BLOB NOT NULL,       -- zlib(JSON [[header, value], ...]), non-empty cells
+    source_hash TEXT NOT NULL,   -- sha256 of that JSON
+    ingested_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    last_seen_load_id TEXT,
+    last_seen_at TIMESTAMP,
+    FOREIGN KEY (load_id) REFERENCES raw_category_loads(load_id),
+    UNIQUE(discussion_slug, source_hash)
+);
+
+CREATE INDEX IF NOT EXISTS idx_raw_category_workbook_episode
+    ON raw_category_workbook_rows(episode_slug);
+
+CREATE TABLE IF NOT EXISTS raw_category_pages (
+    raw_id INTEGER PRIMARY KEY,
+    load_id TEXT NOT NULL,
+    discussion_slug TEXT NOT NULL,
+    url TEXT NOT NULL,
+    http_status INTEGER NOT NULL,
+    article_html BLOB NOT NULL,  -- zlib(the page's <article> element, UTF-8)
+    source_hash TEXT NOT NULL,   -- sha256 of the uncompressed article
+    fetched_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    last_seen_load_id TEXT,
+    last_seen_at TIMESTAMP,
+    FOREIGN KEY (load_id) REFERENCES raw_category_loads(load_id),
+    UNIQUE(discussion_slug, source_hash)
+);
+
+CREATE INDEX IF NOT EXISTS idx_raw_category_pages_load
+    ON raw_category_pages(load_id);

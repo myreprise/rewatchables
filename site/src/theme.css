@@ -1052,3 +1052,49 @@ div[data-testid="stVerticalBlock"]:has(> div > div > div > div > .rw-doormark):h
 .rw-spot .m b { color:var(--mint); font-weight:500; }
 .rw-spot p { margin:11px 0 0; font-size:13.5px; line-height:1.62; color:var(--txt-2); max-width:66ch; }
 @media (max-width:860px) { .rw-spot { grid-template-columns:1fr; } .rw-spot img { width:120px; } }
+
+/* ── Categories ───────────────────────────────────────────────────────── */
+/* An entry is a card (category, answer, minute) with its discussion in an
+   expander below. The coverage note sits above every count until the last
+   batch is in. */
+.rw-cat-coverage {
+  background:rgba(226,98,79,.10); border:1px solid rgba(226,98,79,.38);
+  border-radius:6px; padding:10px 14px; margin:4px 0 14px;
+  font-size:13px; color:var(--tape-2);
+}
+.rw-cat-coverage b { color:var(--coral); }
+.rw-cat-card {
+  background:var(--ink-2); border:1px solid var(--line); border-radius:6px;
+  padding:12px 16px 11px; margin:10px 0 4px;
+}
+.rw-cat-head { display:flex; align-items:baseline; gap:10px; flex-wrap:wrap; }
+.rw-cat-min {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:11px;
+  letter-spacing:.06em; color:var(--mint); min-width:52px;
+  font-variant-numeric:tabular-nums;
+}
+.rw-cat-banner { font-weight:700; color:var(--tape); font-size:14px; }
+.rw-cat-film { font-size:12px; color:var(--txt-2); }
+.rw-cat-answer { margin:6px 0 4px; font-size:15px; color:var(--tape); line-height:1.45; }
+.rw-cat-noanswer { color:var(--txt-3); font-style:italic; }
+.rw-cat-links {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:10px;
+  letter-spacing:.08em; text-transform:uppercase; color:var(--txt-3);
+}
+.rw-cat-links a { color:var(--txt-2); }
+.rw-cat-name.is-person { color:var(--tape); font-weight:700; }
+.rw-cat-name.is-movie { color:var(--mint); font-weight:600; font-style:italic; }
+.rw-cat-disc { margin:2px 0 6px 18px; padding:0; }
+.rw-cat-disc li { margin:0 0 7px; line-height:1.5; color:var(--tape-2); font-size:14px; }
+.rw-cat-who { color:var(--txt-3); font-size:12px; white-space:nowrap; }
+.rw-cat-picks { margin-top:8px; }
+.rw-cat-picks .lbl {
+  font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:9.5px;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--txt-3);
+}
+.rw-cat-picks dl { margin:4px 0 0; }
+.rw-cat-picks dl div { display:flex; gap:12px; padding:3px 0; border-top:1px solid var(--line); }
+.rw-cat-picks dt { min-width:170px; color:var(--txt-2); font-weight:500; }
+.rw-cat-picks dd { margin:0; color:var(--tape); }
+.rw-cat-source { margin-top:22px; font-size:12px; color:var(--txt-3); }
+.rw-cat-source a { color:var(--txt-2); }

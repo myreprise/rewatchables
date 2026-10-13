@@ -3,11 +3,13 @@
 Each loader is cached and keyed on the database's modification time as well as
 its ttl, so a pipeline run shows up on the next rerun rather than up to five
 minutes later. They are separate functions, not one, so that a database built
-before a table existed still loads: see load_people and load_upcoming.
+before a table existed still loads: see load_people, load_upcoming and
+load_categories.
 """
 
 import json
 import sqlite3
+from typing import NamedTuple
 
 import pandas as pd
 import streamlit as st
@@ -350,6 +352,79 @@ def load_upcoming(db_stamp=None):
     pending["decade"] = (pending["year"] // 10 * 10).astype("Int64")
     pending["resolved"] = pending["resolution_method"] == "auto_tmdb"
     return pending, graduated
+
+
+class Categories(NamedTuple):
+    """The category tables step 17 builds, and how much of the show they cover."""
+
+    entries: pd.DataFrame
+    bullets: pd.DataFrame
+    mentions: pd.DataFrame
+    picks: pd.DataFrame
+    categories: pd.DataFrame
+    coverage: dict
+
+
+CATEGORY_TABLES = {"curated_category_entries", "curated_category_bullets",
+                   "curated_category_mentions", "curated_category_picks",
+                   "curated_categories"}
+
+
+@st.cache_data(ttl=300)
+def load_categories(db_stamp=None):
+    """The category entries, from rewatchvault.com by way of steps 16 and 17.
+
+    Cached and guarded like load_upcoming(): a database built before step 17
+    has none of these tables, and every other section must still render.
+
+    `coverage` says how much of the show the entries span. Pages arrive in
+    batches, so for a while they cover a few episodes, and anything that adds
+    them up has to say so. `episodes_known` is every episode rewatchvault has,
+    as far as the workbook index and the stored pages between them know.
+    """
+    empty = Categories(*(pd.DataFrame() for _ in range(5)),
+                       {"episodes_covered": 0, "episodes_known": 0, "entries": 0,
+                        "unmapped_episodes": 0, "uncategorised": 0, "complete": False})
+    if not DB_PATH.exists():
+        return empty
+    conn = sqlite3.connect(DB_PATH)
+    have = {r[0] for r in conn.execute("SELECT name FROM sqlite_master WHERE type = 'table'")}
+    if not CATEGORY_TABLES <= have:
+        conn.close()
+        return empty
+
+    entries = pd.read_sql("""
+        SELECT e.*, c.family, c.display_name
+        FROM curated_category_entries e
+        LEFT JOIN curated_categories c USING (category_slug)
+        ORDER BY e.air_date, e.rv_episode_slug, e.transcript_seconds
+    """, conn)
+    bullets = pd.read_sql(
+        "SELECT * FROM curated_category_bullets ORDER BY discussion_slug, position", conn)
+    mentions = pd.read_sql(
+        "SELECT * FROM curated_category_mentions "
+        "ORDER BY discussion_slug, location, position, start", conn)
+    picks = pd.read_sql(
+        "SELECT * FROM curated_category_picks ORDER BY discussion_slug, position", conn)
+    categories = pd.read_sql("SELECT * FROM curated_categories", conn)
+    known = set(entries["rv_episode_slug"])
+    if "raw_category_workbook_rows" in have:
+        known |= {r[0] for r in conn.execute(
+            "SELECT DISTINCT episode_slug FROM raw_category_workbook_rows "
+            "WHERE episode_slug IS NOT NULL")}
+    conn.close()
+
+    covered = entries["rv_episode_slug"].nunique()
+    coverage = {
+        "episodes_covered": covered,
+        "episodes_known": len(known),
+        "entries": len(entries),
+        "unmapped_episodes": int(entries.loc[entries["movie_id"].isna(),
+                                             "rv_episode_slug"].nunique()),
+        "uncategorised": int(entries["category_slug"].isna().sum()),
+        "complete": bool(known) and covered >= len(known),
+    }
+    return Categories(entries, bullets, mentions, picks, categories, coverage)
 
 
 @st.cache_data(ttl=300)
