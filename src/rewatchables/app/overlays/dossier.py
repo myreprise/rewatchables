@@ -9,6 +9,7 @@ from rewatchables import images
 from rewatchables.app.components import (
     keyword_row, rings_svg, shelf, tape,
 )
+from rewatchables.app.category_cards import render_film_block
 from rewatchables.app.state import (
     DEFAULT_SECTION, SECTION_LABEL, close_dossier, open_dossier, open_person,
     resolve_section,
@@ -218,6 +219,11 @@ def render_dossier(ctx, movie_id, siblings=None):
             for offset, (col, name) in enumerate(zip(cols, seated[start:start + per_row])):
                 col.button(name, key=f"btn_dt_person_{start + offset}",
                            use_container_width=True, on_click=open_person, args=(name,))
+
+    # ── In the categories ──
+    # What the show awarded this film, airing by airing. Nothing at all for a
+    # film with no entries yet -- most of them, until every batch is in.
+    render_film_block(ctx, movie_id)
 
     # ── The film ──
     tape("The film")

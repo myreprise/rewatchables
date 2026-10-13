@@ -455,7 +455,7 @@ def section(db, name):
 @live
 def test_overview_numbers_are_the_apps(ctx, db, slugs):
     from rewatchables.app.sections.overview import came_back_to, show_now
-    from rewatchables.app.state import SLUGS
+    from rewatchables.app.state import APP_ONLY, SITE_SLUGS, SLUGS
 
     ov = section(db, "overview")
     now = show_now(ctx.episodes, ctx.merged, ctx.movies)
@@ -466,8 +466,11 @@ def test_overview_numbers_are_the_apps(ctx, db, slugs):
     assert {f["id"] for f in ov["came_back_to"]} == {
         slugs[m] for m in came_back_to(ctx.movies)["movie_id"]}
     assert ov["anchor"] not in {r["name"] for r in ov["regulars"]}
-    # One door per section but the overview, each to a page the site has.
-    assert len(ov["doors"]) == len(SLUGS) - 1
+    # One door per section but the overview and the app-only ones, each to a
+    # page the site has, numbered as the site's rail numbers them.
+    assert len(ov["doors"]) == len(SLUGS) - 1 - len(APP_ONLY)
+    assert not {d["path"] for d in ov["doors"]} & APP_ONLY
+    assert [d["number_in_rail"] for d in ov["doors"]] == list(range(2, len(SITE_SLUGS) + 1))
     pages = ROOT / "site" / "src"
     for door in ov["doors"]:
         assert (pages / f"{door['path']}.md").exists(), door["path"]

@@ -17,6 +17,7 @@ from rewatchables.app.sections import timeline
 from rewatchables.app.sections import hosts
 from rewatchables.app.sections import keywords
 from rewatchables.app.sections import upcoming
+from rewatchables.app.sections import categories
 
 RENDERERS = {
     "overview": overview.render,
@@ -31,4 +32,5 @@ RENDERERS = {
     "hosts": hosts.render,
     "keywords": keywords.render,
     "upcoming": upcoming.render,
+    "categories": categories.render,
 }
