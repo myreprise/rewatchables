@@ -75,6 +75,26 @@ python scripts/orchestrate.py --stages upcoming
 
 Step 13 regenerates `data/upcoming.csv` from the workbook itself.
 
+### Category data
+
+The show's categories (Apex Mountain, Who Won the Movie?, the one-off awards)
+come from [rewatchvault.com](https://rewatchvault.com), an independent archive,
+one page per entry. Step 16 fetches those pages into the raw zone **by hand, in
+batches**, one request a second, and each batch is reviewed before the next is
+run. It is never part of an orchestrated run. Step 17 builds the curated tables
+from whatever has been fetched, and the app's Categories section reads them.
+
+```bash
+python scripts/16_load_categories.py --plan          # batches and their sizes
+python scripts/16_load_categories.py --batch 1       # fetch one batch, then check it
+python scripts/16_load_categories.py --export 1      # the batch as a workbook in logs/categories/
+python scripts/orchestrate.py --stages categories    # rebuild the tables the app reads
+```
+
+Two tracked files steer step 17: `data/category_episode_overrides.csv` places
+episodes the date-and-title rule can't, and `data/category_aliases.csv` folds
+category ids the site uses twice. Reports 021-024 have the details.
+
 ### Posters
 
 The app serves movie posters from the local drive, not from TMDB. Step 14
@@ -153,7 +173,8 @@ stays pending, and `publish` stops on it until it is decided or you pass
 
 ## The pipeline
 
-`scripts/orchestrate.py` runs fifteen steps in seven stages. Each step is a
+`scripts/orchestrate.py` runs sixteen steps in eight stages; step 16 is run
+by hand (see [Category data](#category-data)). Each step is a
 module in `src/rewatchables/pipeline/`, such as `s04_enrich.py` for step 04. A
 step can also be run on its own, with its own options, as
 `python scripts/04_enrich.py` or `python -m rewatchables.pipeline.s04_enrich`.
@@ -175,12 +196,14 @@ step can also be run on its own, with its own options, as
 | 13 | upcoming | Build the upcoming-films list |
 | 14 | images | Download posters to `static/tmdb/` (optional) |
 | 15 | site | Export the public site's data to `site/src/data/` |
+| 16 | *(by hand)* | Fetch rewatchvault.com category pages, one reviewed batch at a time |
+| 17 | categories | Build the category tables from the stored pages |
 
 The optional steps fail by design when there is nothing to review, and the run
 continues past them.
 
 ```bash
-python scripts/orchestrate.py                    # safe refresh (05-15)
+python scripts/orchestrate.py                    # safe refresh (05-17, skipping 16)
 python scripts/orchestrate.py --from 1           # after editing the episode list
 python scripts/orchestrate.py --all              # everything
 python scripts/orchestrate.py --stages enrich    # just 09-12
@@ -208,14 +231,15 @@ Three zones, defined in `sql/schemas/`:
 
 - **Raw**: a versioned history of each source. `raw_episodes` keeps one row
   per version of each airing, `raw_ingest_runs` records each load, and
-  `raw_upcoming_films`, `raw_cmu_*` and `raw_wiki_articles` hold the other
-  sources.
+  `raw_upcoming_films`, `raw_cmu_*`, `raw_wiki_articles` and `raw_category_*`
+  hold the other sources.
 - **Staging**: parsed and normalized. `staging_episodes` and
   `staging_movie_mentions` hold normalized titles, parsed years, confidence
   scores and TMDB candidates.
 - **Curated**: canonical, and what the app reads. `curated_movies` (one row
   per film), `curated_episode_movies` (one row per airing of a film),
-  `curated_people`, `curated_upcoming_films`, `curated_audits`,
+  `curated_people`, `curated_upcoming_films`, `curated_category_*` and
+  `category_episode_map`, `curated_audits`,
   `manual_review_queue` and `data_quality_results`.
 
 The API caches (`tmdb_search_cache`, `tmdb_metadata_cache`,
@@ -329,7 +353,7 @@ rewatchables/
 │       ├── overlays/                dossier.py, keyword.py, prospect.py
 │       └── sections/                One module per rail section, each with render(ctx)
 ├── scripts/
-│   ├── orchestrate.py, 01_…15_*.py, convert_xlsx_to_csv.py   wrappers for the modules above
+│   ├── orchestrate.py, 01_…17_*.py, convert_xlsx_to_csv.py   wrappers for the modules above
 │   └── migrate_*.py, vendor_cmu_subset.py   one-off tools
 ├── sql/
 │   ├── schemas/            raw_zone.sql, staging_zone.sql, curated_zone.sql
@@ -338,6 +362,8 @@ rewatchables/
 │   ├── episodes.xlsx       The episode list: the file you edit
 │   ├── episodes.csv        Rendered from it by step 01; tracked for diffs
 │   ├── remaining films.xlsx, upcoming.csv   The upcoming-films list
+│   ├── category_*.csv      Step 17's episode overrides and category aliases
+│   ├── raw/categories/     The rewatchvault scraper exports (gitignored)
 │   └── external/cmu/       Vendored CMU corpus subset, with PROVENANCE.md
 ├── static/tmdb/            Posters downloaded by step 14; served by Streamlit
 ├── site/                   The public site (Observable Framework); data from step 15
