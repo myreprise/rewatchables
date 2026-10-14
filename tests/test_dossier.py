@@ -301,10 +301,10 @@ def test_the_dossier_is_addressable(filtered):
     # The film's address, not its movie_id: step 06 reissues every movie_id on
     # a rebuild, and a link built on it broke the next time the pipeline ran.
     slugs = filtered.session_state["_film_slugs"]
-    assert params["movie"] == [slugs[filtered.session_state["dt_movie"]]]
-    assert re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*-\d{4}", params["movie"][0])
+    assert params["movie"] == slugs[filtered.session_state["dt_movie"]]
+    assert re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*-\d{4}", params["movie"])
     # The slug, not the label — the label is free to change now.
-    assert params["from"] == ["explorer"]
+    assert params["from"] == "explorer"
 
 
 def test_the_step_arrows_walk_the_filtered_set(filtered):

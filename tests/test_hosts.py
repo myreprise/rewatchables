@@ -261,7 +261,7 @@ def test_the_lookup_shows_every_episode_a_person_was_on(hosts, film_rooms):
     hosts.selectbox(key="flt_person").set_value(name).run()
     assert not hosts.exception, hosts.exception
     assert len(_person_films(hosts)) == expected["raw_episode_id"].nunique()
-    assert dict(hosts.query_params).get("person") == [name]
+    assert dict(hosts.query_params).get("person") == name
 
 
 @needs_db

@@ -311,7 +311,7 @@ def test_clicking_a_keyword_opens_it(app):
 
     assert not app.exception, app.exception
     assert app.session_state["kw_word"] == "neo-noir"
-    assert dict(app.query_params)["keyword"] == ["neo-noir"]
+    assert dict(app.query_params)["keyword"] == "neo-noir"
 
 
 def test_a_keyword_page_shows_every_film_carrying_it(app, vocabulary):
