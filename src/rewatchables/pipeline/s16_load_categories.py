@@ -12,6 +12,10 @@ Two sources, both raw (sql/schemas/raw_zone.sql, "Category entries"):
                      One request a second; pages already stored are skipped, so
                      a batch that stopped can simply be run again.
 
+  --update           what rewatchvault has added since the last run: new pages,
+                     plus the newest episode's pages re-read for corrections;
+                     checked, then step 17 rebuilds. Exit 0 ok, 1 a check failed,
+                     2 something needs you (report 034)
   --plan             the batch table from today's sitemap (one request)
   --export NAME      write a batch's parsed entries to a workbook in
                      logs/categories/ for reading in Excel (no network)
@@ -33,6 +37,7 @@ Usage:
     python scripts/16_load_categories.py --plan
     python scripts/16_load_categories.py --batch pilot
     python scripts/16_load_categories.py --check pilot
+    python scripts/16_load_categories.py --update
 """
 
 import argparse
@@ -323,8 +328,24 @@ def run_batch(conn, batch, delay=DELAY, refetch=False, limit=None):
     load_id = start_load(conn, "web", batch, rv.SITEMAP_URL, sitemap_sha, len(pages), pages)
     logger.info(f"Batch {batch}: {len(pages)} pages, {len(pages) - len(todo)} already "
                 f"stored, {len(todo)} to fetch (about {len(todo) * delay / 60:.0f} min)")
+    counts, failures, status, _ = fetch_pages(conn, session, load_id, todo, delay)
+    if status == "success" and (failures or len(todo) < len(wanted)):
+        status = "partial"
+    finish_load(conn, load_id, counts, failures, status)
+    logger.info(f"Batch {batch}: {counts['new']} new, {counts['unchanged']} unchanged, "
+                f"{len(failures)} failed; load {load_id[:8]} {status}")
+    return check_batch(conn, batch, pages, index), status
 
+
+def fetch_pages(conn, session, load_id, todo, delay=DELAY):
+    """Fetch `todo` one request every `delay` seconds and store each page's
+    article. Returns (counts, failures, status, changed): `changed` is the slugs
+    stored as a new version -- for a page fetched before, its content moved.
+
+    status is "success", "partial" (interrupted) or "failed" (too many
+    transport failures in a row); the caller decides what a failure means."""
     counts, failures, streak, status = Counter(new=0, unchanged=0), [], 0, "success"
+    changed = []
     next_start = 0.0
     try:
         for n, slug in enumerate(todo, 1):
@@ -350,22 +371,166 @@ def run_batch(conn, batch, delay=DELAY, refetch=False, limit=None):
             except rv.ParseError as e:
                 failures.append([slug, str(e)])
                 continue
-            counts[store(conn, "raw_category_pages", load_id, slug, _sha(article), {
+            outcome = store(conn, "raw_category_pages", load_id, slug, _sha(article), {
                 "url": url, "http_status": r.status_code,
                 "article_html": zlib.compress(article.encode("utf-8")),
-            })] += 1
+            })
+            counts[outcome] += 1
+            if outcome == "new":
+                changed.append(slug)
             if n % 25 == 0 or n == len(todo):
                 conn.commit()
                 logger.info(f"  {n}/{len(todo)} fetched, {len(failures)} failed")
     except KeyboardInterrupt:
         status = "partial"
-        logger.warning("Interrupted. Pages stored so far are kept; run the batch again to resume.")
-    if status == "success" and (failures or len(todo) < len(wanted)):
+        logger.warning("Interrupted. Pages stored so far are kept; run again to resume.")
+    conn.commit()
+    return counts, failures, status, changed
+
+
+# ---------------------------------------------------------------------------
+# New episodes (report 034)
+# ---------------------------------------------------------------------------
+
+UPDATE_OK, UPDATE_FAILED, UPDATE_NEEDS_YOU = 0, 1, 2
+
+
+def _table_set(conn, sql):
+    try:
+        return {r[0] for r in conn.execute(sql)}
+    except sqlite3.OperationalError:     # step 17 has never run
+        return set()
+
+
+def latest_episode_pages(conn):
+    """(rv_episode_slug, [discussion slugs]) of the newest episode in the
+    curated tables, or (None, []) before step 17 has ever run."""
+    try:
+        row = conn.execute("""SELECT rv_episode_slug FROM curated_category_entries
+                              ORDER BY air_date DESC, rv_episode_slug LIMIT 1""").fetchone()
+    except sqlite3.OperationalError:
+        return None, []
+    if row is None:
+        return None, []
+    slugs = [r[0] for r in conn.execute(
+        "SELECT discussion_slug FROM curated_category_entries WHERE rv_episode_slug = ? "
+        "ORDER BY discussion_slug", (row[0],))]
+    return row[0], slugs
+
+
+def plan_update(sitemap_slugs, stored, latest_slugs, refetch_latest=True):
+    """(new, refetch): sitemap pages never stored, and -- when asked -- the
+    newest episode's pages again, to catch corrections made after publishing."""
+    new = [s for s in sitemap_slugs if s not in stored]
+    listed = set(sitemap_slugs)
+    refetch = [s for s in latest_slugs if s in listed] if refetch_latest else []
+    return new, refetch
+
+
+def run_update(conn, delay=DELAY, refetch_latest=True, out_dir=CHECK_DIR):
+    """Fetch what rewatchvault has added, check it, rebuild, and report.
+
+    Returns an exit code: UPDATE_OK, UPDATE_FAILED (a check or the fetch
+    failed) or UPDATE_NEEDS_YOU (an episode didn't link to the episode list,
+    or the archive gained a category id it has never seen).
+    """
+    from rewatchables.pipeline import s17_build_categories as s17
+
+    session = _session()
+    sitemap, sitemap_sha = fetch_sitemap(session)
+    stored = {r[0] for r in conn.execute("SELECT DISTINCT discussion_slug FROM raw_category_pages")}
+    latest, latest_slugs = latest_episode_pages(conn)
+    new, refetch = plan_update(sitemap, stored, latest_slugs, refetch_latest)
+    todo = new + refetch
+    logger.info(f"Update: {len(new)} new pages; re-reading {len(refetch)} of "
+                f"{latest or 'no episode'} (about {len(todo) * delay / 60:.1f} min)")
+
+    load_id = start_load(conn, "web", "update", rv.SITEMAP_URL, sitemap_sha, len(todo), todo)
+    counts, failures, status, changed = fetch_pages(conn, session, load_id, todo, delay)
+    if status == "success" and failures:
         status = "partial"
     finish_load(conn, load_id, counts, failures, status)
-    logger.info(f"Batch {batch}: {counts['new']} new, {counts['unchanged']} unchanged, "
-                f"{len(failures)} failed; load {load_id[:8]} {status}")
-    return check_batch(conn, batch, pages, index), status
+
+    check = check_batch(conn, "update", todo, out_dir=out_dir) if todo else None
+    corrected = [s for s in changed if s in set(refetch)]
+
+    before_eps = _table_set(conn, "SELECT rv_episode_slug FROM category_episode_map")
+    before_cats = _table_set(conn, "SELECT category_slug FROM curated_categories")
+    built = s17.build(conn) if changed else None
+    new_eps = sorted(_table_set(conn, "SELECT rv_episode_slug FROM category_episode_map")
+                     - before_eps) if built else []
+    new_cats = sorted(_table_set(conn, "SELECT category_slug FROM curated_categories")
+                      - before_cats) if built else []
+    unmapped = built["unmapped"] if built else []
+    unresolved = built["unresolved"] if built else []
+
+    if status == "failed" or (check is not None and not check["passed"]):
+        code = UPDATE_FAILED
+    elif unmapped or unresolved or new_cats:
+        code = UPDATE_NEEDS_YOU
+    else:
+        code = UPDATE_OK
+
+    path = write_update_summary(conn, out_dir, code, new, refetch, latest, corrected, failures,
+                                check, new_eps, new_cats, unmapped, unresolved, built)
+    verdict = {UPDATE_OK: "OK", UPDATE_FAILED: "CHECK FAILED", UPDATE_NEEDS_YOU: "NEEDS YOU"}[code]
+    logger.info(f"Update {verdict}: {len(new)} new pages, {len(new_eps)} new episodes, "
+                f"{len(corrected)} corrected, {len(new_cats)} new categories, "
+                f"{len(unmapped)} unmapped; summary {path}")
+    return code
+
+
+def write_update_summary(conn, out_dir, code, new, refetch, latest, corrected, failures,
+                         check, new_eps, new_cats, unmapped, unresolved, built):
+    verdict = {UPDATE_OK: "OK", UPDATE_FAILED: "**CHECK FAILED**",
+               UPDATE_NEEDS_YOU: "**NEEDS YOU**"}[code]
+    lines = [
+        f"# Category update, {datetime.now():%Y-%m-%d %H:%M}",
+        "",
+        f"Result: {verdict} (exit code {code}).",
+        "",
+        "| | |",
+        "| --- | --- |",
+        f"| New pages on rewatchvault | {len(new)} |",
+        f"| Re-read from the newest episode ({latest or 'none'}) | {len(refetch)} |",
+        f"| ...of which rewatchvault had changed | {len(corrected)} |",
+        f"| Fetch failures | {len(failures)} |",
+        f"| Checks | {'not run: nothing fetched' if check is None else ('PASS' if check['passed'] else 'FAIL')} |",
+        f"| Tables rebuilt | {'yes' if built else 'no: nothing new or changed'} |",
+    ]
+    if new_eps:
+        lines += ["", "## New episodes", "", "| Episode | Entries | Linked to |", "| --- | ---: | --- |"]
+        for ep in new_eps:
+            n, number, date = conn.execute(
+                """SELECT COUNT(*), MAX(episode_number), MAX(air_date)
+                   FROM curated_category_entries WHERE rv_episode_slug = ?""", (ep,)).fetchone()
+            where = f"ep {number}, {date}" if number is not None else "**not linked**"
+            lines.append(f"| {ep} | {n} | {where} |")
+    if unmapped:
+        lines += ["", "## Not linked to the episode list", "",
+                  "Add these to `data/episodes.xlsx` (or check their date), then run "
+                  "`python scripts/orchestrate.py --from 1`.", ""]
+        lines += [f"- {r['rv_episode_slug']}: rewatchvault date {r['rv_air_date']}, "
+                  f"'{r['rv_film_title']}' ({r['note']})" for r in unmapped]
+    if new_cats:
+        lines += ["", "## Category ids never seen before", "",
+                  "If one is another category under a new id, add it to "
+                  "`data/category_aliases.csv`; otherwise nothing to do.", ""]
+        for slug in new_cats:
+            name, fam, n = conn.execute("SELECT display_name, family, entries FROM curated_categories "
+                                        "WHERE category_slug = ?", (slug,)).fetchone()
+            lines.append(f"- `{slug}`: {name} ({fam}, {n} entr{'ies' if n != 1 else 'y'})")
+    if unresolved:
+        lines += ["", "## Entries with no category", ""] + [f"- {s}" for s in unresolved]
+    if failures:
+        lines += ["", "## Fetch failures", ""] + [f"- {s}: {why}" for s, why in failures]
+    if check is not None:
+        lines += ["", f"Checks in detail: `{Path(check['summary']).name}`."]
+    out_dir = Path(out_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    path = out_dir / f"update-{datetime.now():%Y%m%d-%H%M%S}.md"
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return path
 
 
 # ---------------------------------------------------------------------------
@@ -695,6 +860,8 @@ def main():
     what.add_argument("--batch", choices=BATCHES)
     what.add_argument("--check", choices=BATCHES, metavar="BATCH")
     what.add_argument("--export", choices=BATCHES, metavar="BATCH")
+    what.add_argument("--update", action="store_true",
+                      help="fetch what rewatchvault has added, check it, rebuild")
     ap.add_argument("--source", default=str(DEFAULT_SOURCE))
     ap.add_argument("--db", default=str(config.db_path()))
     ap.add_argument("--delay", type=float, default=DELAY,
@@ -702,6 +869,8 @@ def main():
     ap.add_argument("--refetch", action="store_true",
                     help="fetch pages already stored too")
     ap.add_argument("--limit", type=int, help="fetch at most this many pages")
+    ap.add_argument("--no-refetch-latest", action="store_true",
+                    help="with --update: don't re-read the newest episode's pages")
     args = ap.parse_args()
 
     if not Path(args.db).exists():
@@ -718,6 +887,9 @@ def main():
             sys.exit(0 if result["passed"] and status == "success" else 1)
         elif args.export:
             export_batch(conn, args.export)
+        elif args.update:
+            sys.exit(run_update(conn, max(args.delay, DELAY),
+                                refetch_latest=not args.no_refetch_latest))
         else:
             result = check_batch(conn, args.check, batch_slugs(conn, args.check))
             sys.exit(0 if result["passed"] else 1)

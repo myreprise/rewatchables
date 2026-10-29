@@ -445,3 +445,76 @@ def test_the_totals_view_renders(at_categories):
     assert "Tom Cruise" in text
     at = at.selectbox(key="flt_cat_people").set_value("winner").run()
     assert not at.exception
+
+
+# ── Updates for new episodes (report 034) ─────────────────────────────────────
+
+class _Resp:
+    def __init__(self, text, status=200):
+        self.text, self.status_code = text, status
+
+
+def _page(slug, episode="made-up-film", title="Made Up Film", count="(3)", answer=None):
+    html = (PAGE.replace('id="answer-made-up-film-apex-7"', f'id="answer-{slug}"')
+            .replace("?episode=made-up-film#", f"?episode={episode}#")
+            .replace("<strong>Made Up Film</strong>", f"<strong>{title}</strong>")
+            .replace("<span>(3)</span>", f"<span>{count}</span>"))
+    return html.replace("The  invented   answer", answer) if answer else html
+
+
+@pytest.fixture
+def update_db(built, monkeypatch):
+    """`built` plus a workbook load (the checks read its index), and the
+    network replaced: `site` maps each sitemap slug to the page it serves."""
+    conn, _ = built
+    wb = s16.start_load(conn, "workbook", None, "f", "h", 0)
+    s16.finish_load(conn, wb, {"new": 0, "unchanged": 0}, [], "success")
+    site = {"made-up-film-apex-7": _page("made-up-film-apex-7")}
+    monkeypatch.setattr(s16, "fetch_sitemap", lambda session: (list(site), "sha"))
+    monkeypatch.setattr(s16.http, "get", lambda url, **kw: _Resp(site[url.rsplit("/", 1)[1]]))
+    return conn, site
+
+
+class TestUpdate:
+    def test_the_plan_is_new_pages_plus_the_newest_episode(self):
+        new, refetch = s16.plan_update(["a", "b", "c"], {"a", "b"}, ["b", "gone"])
+        assert (new, refetch) == (["c"], ["b"])
+        assert s16.plan_update(["a", "b", "c"], {"a", "b"}, ["b"], refetch_latest=False) == (["c"], [])
+
+    def test_nothing_new_is_ok_and_rebuilds_nothing(self, update_db, tmp_path):
+        conn, _ = update_db
+        code = s16.run_update(conn, delay=0, refetch_latest=False, out_dir=tmp_path)
+        assert code == s16.UPDATE_OK
+        summary = next(tmp_path.glob("update-*.md")).read_text(encoding="utf-8")
+        assert "not run: nothing fetched" in summary and "no: nothing new" in summary
+
+    def test_a_new_entry_for_a_known_episode_is_ok(self, update_db, tmp_path):
+        conn, site = update_db
+        site["made-up-film-apex-9"] = _page("made-up-film-apex-9")
+        code = s16.run_update(conn, delay=0, refetch_latest=False, out_dir=tmp_path)
+        assert code == s16.UPDATE_OK
+        assert conn.execute("SELECT COUNT(*) FROM curated_category_entries").fetchone() == (2,)
+
+    def test_an_episode_missing_from_the_list_needs_you(self, update_db, tmp_path):
+        conn, site = update_db
+        site["new-film-apex-1"] = _page("new-film-apex-1", "new-film", "New Film")
+        code = s16.run_update(conn, delay=0, refetch_latest=False, out_dir=tmp_path)
+        assert code == s16.UPDATE_NEEDS_YOU
+        summary = next(tmp_path.glob("update-*.md")).read_text(encoding="utf-8")
+        assert "Not linked to the episode list" in summary and "new-film" in summary
+
+    def test_a_correction_to_the_newest_episode_is_caught(self, update_db, tmp_path):
+        conn, site = update_db
+        site["made-up-film-apex-7"] = _page("made-up-film-apex-7", answer="A corrected answer")
+        code = s16.run_update(conn, delay=0, refetch_latest=True, out_dir=tmp_path)
+        assert code == s16.UPDATE_OK
+        summary = next(tmp_path.glob("update-*.md")).read_text(encoding="utf-8")
+        assert "| ...of which rewatchvault had changed | 1 |" in summary
+        assert conn.execute("SELECT answer FROM curated_category_entries").fetchone()[0].startswith(
+            "A corrected answer")
+
+    def test_a_page_that_fails_its_checks_fails_the_update(self, update_db, tmp_path):
+        conn, site = update_db
+        site["made-up-film-apex-9"] = _page("made-up-film-apex-9", count="(9)")
+        code = s16.run_update(conn, delay=0, refetch_latest=False, out_dir=tmp_path)
+        assert code == s16.UPDATE_FAILED

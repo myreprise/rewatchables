@@ -85,11 +85,20 @@ run. It is never part of an orchestrated run. Step 17 builds the curated tables
 from whatever has been fetched, and the app's Categories section reads them.
 
 ```bash
+python scripts/16_load_categories.py --update        # new episodes: fetch, check, rebuild
 python scripts/16_load_categories.py --plan          # batches and their sizes
 python scripts/16_load_categories.py --batch 1       # fetch one batch, then check it
 python scripts/16_load_categories.py --export 1      # the batch as a workbook in logs/categories/
 python scripts/orchestrate.py --stages categories    # rebuild the tables the app reads
 ```
+
+**After a new episode,** `--update` is the one command. It fetches only the pages
+rewatchvault has added since the last run, re-reads the newest episode's pages
+in case they were corrected (`--no-refetch-latest` skips that), checks them,
+and rebuilds the tables when anything changed. It exits 0 when everything is
+fine, 1 if a check failed, and 2 if something needs you: an episode missing from
+`episodes.xlsx`, or a category id never seen before. Each run writes
+`logs/categories/update-<date>.md`.
 
 Two tracked files steer step 17: `data/category_episode_overrides.csv` places
 episodes the date-and-title rule can't, and `data/category_aliases.csv` folds
