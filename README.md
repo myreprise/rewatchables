@@ -41,6 +41,25 @@ streamlit run app.py
 inside it, so the first full build makes one TMDB search per film; after that a
 rebuild reaches the network only for new titles.
 
+### Start Menu shortcut
+
+```bash
+powershell -ExecutionPolicy Bypass -File scripts/install_shortcut.ps1
+```
+
+This adds **Rewatchables Explorer** and **Stop Rewatchables Explorer** to the
+Start Menu. Both run `scripts/launch_app.pyw`. Opening starts the site's
+Observable Framework dev server (`site/`) hidden on `127.0.0.1:8577` and shows
+the site in its own Edge window. It needs Node 20+ and `npm --prefix site
+install`. The server keeps running after the window closes, so the next open is
+quick, and pages pick up changes under `site/src` as they happen. Stop ends it.
+Port 8577 avoids Framework's default 3000 and the 3200/3201 dev previews. The
+launcher only stops a server whose command line runs Framework from this repo's
+`site/`; anything else on the port is reported and left alone. Server output
+goes to `%LOCALAPPDATA%\rewatchables\server.log`. Re-run the installer after
+moving the repo or changing Python, or pass `-Uninstall` to remove the
+shortcuts.
+
 ## Everyday workflow
 
 ### Adding or editing an episode
