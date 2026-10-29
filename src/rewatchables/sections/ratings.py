@@ -7,7 +7,7 @@ in rewatchables.app.sections.ratings; step 15 ships them to the public site.
 import plotly.express as px
 
 from rewatchables.analysis import explode_genres
-from rewatchables.figures import plotly_defaults
+from rewatchables.figures import fold_to_series, plotly_defaults
 from rewatchables.palette import AMBER, INK, INK_2, LINE, MINT_DEEP, TAPE
 
 
@@ -58,13 +58,19 @@ def figures(merged_df, movies_df):
                   annotation_text=f"avg {tmdb_vals.mean():.2f}")
     figs["tmdb"] = plotly_defaults(fig)
 
+    # The commonest genres take the series colours and the rest share "Other",
+    # rather than cycling the series and giving two genres one colour.
+    scored = scored_films(merged_df)
+    scored["genre"], cmap, order = fold_to_series(scored["genre_primary"])
     fig = px.scatter(
-        scored_films(merged_df),
+        scored,
         x="tomatoes_num", y="rating_tmdb",
-        color="genre_primary",
+        color="genre", color_discrete_map=cmap, category_orders={"genre": order},
         hover_name="title",
-        hover_data={"year": True, "tomatoes_num": ":.0%", "rating_tmdb": ":.1f"},
-        labels={"tomatoes_num": "RT Score", "rating_tmdb": "TMDB Rating"},
+        hover_data={"year": True, "genre": False, "genre_primary": True,
+                    "tomatoes_num": ":.0%", "rating_tmdb": ":.1f"},
+        labels={"tomatoes_num": "RT Score", "rating_tmdb": "TMDB Rating",
+                "genre": "Genre", "genre_primary": "Genre"},
         opacity=0.8,
         size_max=10,
     )

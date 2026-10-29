@@ -10,10 +10,8 @@ Nothing here draws: the app hands these figures to st.plotly_chart, and step
 15 ships them to the public site as Plotly JSON.
 """
 
-import json
-from pathlib import Path
-
 import plotly.express as px
+import plotly.graph_objects as go
 import plotly.io as pio
 
 from rewatchables.analysis import explode_cast, explode_genres
@@ -23,17 +21,19 @@ from rewatchables.palette import (
 )
 
 
-# The template every figure is built on, set here so it is explicit. It used to
-# arrive by side effect: importing streamlit makes its own template Plotly's
-# default, and step 15 imported streamlit through the app's modules, so the
-# site's figures carried it. plotly_template.json is that template as it was,
-# kept so moving the code out of the app changed no figure. Its colours are
-# placeholders (#000001...) that only Streamlit's front end swaps for real
-# ones: in the app st.plotly_chart replaces them, but on the site they are
-# drawn as they are, so a trace that takes its colour from the template is
-# near-black there. See reports/progress/036.
-pio.templates["rewatchables"] = json.loads(
-    (Path(__file__).parent / "plotly_template.json").read_text(encoding="utf-8"))
+# The template every figure is built on: the palette's colours for anything a
+# chart does not colour itself. Set here so it is explicit. It used to arrive
+# by side effect -- importing streamlit makes Streamlit's template Plotly's
+# default -- and that template's colours are placeholders (#000001...) only
+# Streamlit's front end fills in, so on the site a trace coloured by the
+# template was drawn near-black. Reports 036 and 037.
+SEQ_SCALE = [[i / (len(SEQ) - 1), colour] for i, colour in enumerate(SEQ)]
+pio.templates["rewatchables"] = go.layout.Template(
+    layout=dict(colorway=SERIES, colorscale=dict(sequential=SEQ_SCALE),
+                coloraxis=dict(colorscale=SEQ_SCALE)),
+    data=dict(heatmap=[go.Heatmap(colorscale=SEQ_SCALE)],
+              scatter=[go.Scatter(marker=dict(line=dict(width=0)))]),
+)
 pio.templates.default = "rewatchables"
 
 
