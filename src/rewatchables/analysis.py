@@ -1,8 +1,9 @@
 """Turning the frames into the numbers the sections report.
 
-Everything here takes frames and returns frames or counts: no Streamlit
-elements, no module-level data. The one call that touches Streamlit is
-room_leans, and only to cache a permutation test that costs about a second.
+Everything here takes frames and returns frames or counts: no front end, no
+module-level data. The one thing it remembers is room_leans's result, because
+that permutation test costs about a second and both front ends ask for it more
+than once.
 
 The population a statistic is computed over is always passed in, never reached
 for, so a section cannot quietly report one population under another's label.
@@ -11,9 +12,8 @@ for, so a section cannot quietly report one population under another's label.
 from collections import Counter
 
 import pandas as pd
-import streamlit as st
 
-from views import bh_adjust, permutation_diffs, room_long
+from rewatchables.presentation import bh_adjust, permutation_diffs, room_long
 
 
 def explode_genres(df):
@@ -132,13 +132,33 @@ LEAN_Q = 0.05
 N_PERM = 4000
 
 
-@st.cache_data(ttl=300)
+# room_leans results, keyed on the contents of its two frames. Small: the inputs
+# change only when the database does.
+_LEANS = {}
+_LEANS_KEPT = 8
+
+
+def _frame_key(frame):
+    return (tuple(frame.columns), frame.shape,
+            int(pd.util.hash_pandas_object(frame, index=True).sum()))
+
+
 def room_leans(measures, members):
     """Every regular against everyone else, on every measure, with q-values.
 
     `measures` is one column per metric and `members` one boolean column per
-    regular, both one row per airing.
+    regular, both one row per airing. Remembered per input, so the result is
+    shared: callers must not change it.
     """
+    key = (_frame_key(measures), _frame_key(members))
+    if key not in _LEANS:
+        if len(_LEANS) >= _LEANS_KEPT:
+            _LEANS.pop(next(iter(_LEANS)))
+        _LEANS[key] = _room_leans(measures, members)
+    return _LEANS[key]
+
+
+def _room_leans(measures, members):
     out = permutation_diffs(
         {c: measures[c].to_numpy() for c in measures.columns},
         {p: members[p].to_numpy() for p in members.columns},

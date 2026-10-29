@@ -17,8 +17,9 @@ neither this machine's database nor a TMDB key:
   site/src/theme.css            a copy of the app's stylesheet
 
 What goes into the database, and who computes it, is in
-pipeline/site_export/site_db.py. The numbers come from the Streamlit app's own
-functions, so the two front ends print the same figures.
+pipeline/site_export/site_db.py. The numbers come from rewatchables.sections
+and rewatchables.analysis, the functions the Streamlit app calls too, so the
+two front ends print the same figures.
 
 Everything is keyed by address (heat-1995), never by movie_id, which step 06
 mints afresh on every rebuild. The output is deterministic: the same database
@@ -99,20 +100,12 @@ def main():
         logger.error(f"{db_path} not found.")
         sys.exit(1)
 
-    # The loaders are the app's, decorated with st.cache_data. Outside a
-    # Streamlit server they run uncached and Streamlit warns that it has no
-    # runtime, once per call; that is expected here and says nothing useful.
-    # Streamlit sets a level on each of its loggers, so the parent's is not
-    # enough: its own setter reaches them all.
-    from streamlit import logger as streamlit_logger
-    streamlit_logger.set_log_level("error")
-    from rewatchables.app.context import build_context
-    from rewatchables.app.data import stamp
+    from rewatchables.context import build_context
 
     logger.info("=" * 60)
     logger.info("Phase J: Export the public site's data")
     logger.info("=" * 60)
-    ctx = build_context(stamp())
+    ctx = build_context()
     sizes = export(ctx)
     logger.info("Wrote " + ", ".join(f"{name} ({n / 1e6:.1f} MB)" for name, n in sizes.items())
                 + f" to {DATA_OUT.relative_to(config.ROOT)}")

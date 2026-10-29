@@ -3,13 +3,10 @@
 import pandas as pd
 import streamlit as st
 
-from rewatchables.app.components import (
-    poster_art, poster_html, rings_svg,
-)
+from rewatchables.app.components import poster_art, poster_html, rings_svg
 from rewatchables.app.state import close_dossier, open_prospect
-from views import (
-    RESOLUTION_NOTE, clean, contributor_link, html, pitch_chips, plain,
-    stat_tile,
+from rewatchables.presentation import (
+    RESOLUTION_NOTE, clean, contributor_link, html, pitch_chips, plain, stat_tile,
 )
 
 def why_html(row):

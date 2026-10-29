@@ -28,7 +28,6 @@ mints afresh on every rebuild.
 
 import json
 import math
-from collections import Counter
 
 import numpy as np
 import pandas as pd
@@ -192,8 +191,8 @@ def episode_ids(links, films):
 
 
 def film_tables(ctx, out):
-    from rewatchables.app.overlays.dossier import same_director, shared_cast
-    from views import clean, money
+    from rewatchables.overlays.dossier import same_director, shared_cast
+    from rewatchables.presentation import clean, money
 
     rated = ctx.rated.set_index("movie_id")
     for _, m in ctx.movies.iterrows():
@@ -228,7 +227,7 @@ def film_tables(ctx, out):
 
 
 def keyword_table(ctx, addresses, out):
-    from views import chip_band
+    from rewatchables.presentation import chip_band
 
     out["keywords"] = [[w, addresses.keyword(w), n, chip_band(n)] for w, n in ctx.reach.items()]
 
@@ -237,7 +236,7 @@ def episode_labels(links):
     """raw_episode_id -> (gap since the film's previous airing, revisit kind),
     in the words the dossier's spine prints them: "4 yr 1 mo later",
     "regular". The first airing of a film has no gap; a first watch no kind."""
-    from views import clean, human_gap
+    from rewatchables.presentation import clean, human_gap
 
     out = {}
     for _, eps in links.groupby("movie_id", sort=False):
@@ -257,7 +256,7 @@ def episode_labels(links):
 
 
 def episode_tables(ctx, addresses, out):
-    from views import ROOM, clean, person_name
+    from rewatchables.presentation import ROOM, clean, person_name
 
     films = addresses.films
     ids = episode_ids(ctx.links, films)
@@ -285,9 +284,9 @@ def episode_tables(ctx, addresses, out):
 # ── People, and the statistics about them ─────────────────────────────────────
 
 def people_tables(ctx, addresses, out):
-    from rewatchables.app.analysis import LEAN_Q, person_shelf
-    from rewatchables.app.sections.hosts import regular_leans, sits_with, the_room
-    from views import MEASURE_LABEL, lean_phrase, lean_value
+    from rewatchables.analysis import LEAN_Q, person_shelf
+    from rewatchables.sections.hosts import regular_leans, sits_with, the_room
+    from rewatchables.presentation import MEASURE_LABEL, lean_phrase, lean_value
 
     _, others, board = the_room(ctx.merged)
     regulars, _, leans = regular_leans(ctx.merged, others, board)
@@ -309,12 +308,12 @@ def people_tables(ctx, addresses, out):
 
 
 def spotlight_tables(ctx, addresses, out):
-    from rewatchables.app.analysis import films_by_actor, films_by_director
-    from rewatchables.app.data import GENDER_LABEL
-    from rewatchables.app.sections.actors import (
+    from rewatchables.analysis import films_by_actor, films_by_director
+    from rewatchables.data import GENDER_LABEL
+    from rewatchables.sections.actors import (
         actor_stats, directors_returned_to, top_actors,
     )
-    from rewatchables.app.sections.directors import (
+    from rewatchables.sections.directors import (
         actors_brought_back, director_stats, top_directors,
     )
 
@@ -346,7 +345,9 @@ def spotlight_tables(ctx, addresses, out):
 # ── Upcoming ──────────────────────────────────────────────────────────────────
 
 def request_tables(ctx, addresses, out):
-    from rewatchables.pipeline.site_export.upcoming import requested_page, requested_slugs
+    from rewatchables.pipeline.site_export.upcoming import (
+        requested_page, requested_slugs,
+    )
 
     pending, graduated = ctx.upcoming, ctx.graduated
     if len(pending):
@@ -421,7 +422,7 @@ def tables(ctx, addresses):
 
 def synopses(ctx):
     """{address: full Wikipedia synopsis}, one film per line, sorted."""
-    from views import clean
+    from rewatchables.presentation import clean
 
     rows = {m["slug"]: clean(m["plot_summary_wiki"]) for _, m in ctx.movies.iterrows()}
     rows = {k: v for k, v in sorted(rows.items()) if v}

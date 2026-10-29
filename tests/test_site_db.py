@@ -27,7 +27,9 @@ import pandas as pd
 import pytest
 
 from rewatchables.pipeline.site_export import site_db
-from views import ANCHOR, LINK_FLOOR, film_slugs, name_slugs, slugify
+from rewatchables.presentation import (
+    ANCHOR, LINK_FLOOR, film_slugs, name_slugs, slugify,
+)
 
 ROOT = Path(__file__).parent.parent
 DB_PATH = ROOT / "rewatchables.db"
@@ -110,9 +112,8 @@ def test_name_slugs_suffix_a_collision_in_sorted_order():
 
 @pytest.fixture(scope="module")
 def ctx():
-    from rewatchables.app.context import build_context
-    from rewatchables.app.data import stamp
-    return build_context(stamp())
+    from rewatchables.context import build_context
+    return build_context()
 
 
 @pytest.fixture(scope="module")
@@ -177,9 +178,9 @@ def test_the_loader_builds_the_database(files):
 
 @live
 def test_row_counts_match_the_app(ctx, db):
-    from rewatchables.app.sections.actors import actor_stats
-    from rewatchables.app.sections.directors import director_stats
-    from rewatchables.app.sections.hosts import the_room
+    from rewatchables.sections.actors import actor_stats
+    from rewatchables.sections.directors import director_stats
+    from rewatchables.sections.hosts import the_room
 
     _, _, board = the_room(ctx.merged)
     count = lambda t: db.execute(f"SELECT count(*) FROM {t}").fetchone()[0]
@@ -264,8 +265,8 @@ def sample(movies, n=40):
 
 @live
 def test_film_queries_match_the_dossier(ctx, db, slugs):
-    from rewatchables.app.overlays.dossier import cast_billing, same_director, shared_cast
-    from views import rank_by_reach
+    from rewatchables.overlays.dossier import cast_billing, same_director, shared_cast
+    from rewatchables.presentation import rank_by_reach
 
     billing = cast_billing(ctx.movies)
     for _, m in sample(ctx.movies).iterrows():
@@ -285,9 +286,9 @@ def test_film_queries_match_the_dossier(ctx, db, slugs):
 
 @live
 def test_film_episodes_carry_the_dossiers_labels(ctx, db, slugs):
-    """The gap and revisit kind the spine prints: views.human_gap between a
+    """The gap and revisit kind the spine prints: presentation.human_gap between a
     film's airings in episode order, and the revisit type in words."""
-    from views import clean, human_gap
+    from rewatchables.presentation import clean, human_gap
 
     for _, m in sample(ctx.movies).iterrows():
         eps = ctx.links[ctx.links["movie_id"] == m["movie_id"]].sort_values(
@@ -320,7 +321,7 @@ def test_explorer_rows_carry_the_explorers_ratings(ctx, db, slugs):
 
 @live
 def test_keyword_queries_match_the_keyword_overlay(ctx, db, slugs):
-    from rewatchables.app.overlays.keyword import keyword_profile
+    from rewatchables.overlays.keyword import keyword_profile
 
     words = [w for w, n in sorted(ctx.reach.items()) if n >= LINK_FLOOR][::60]
     for word in words:
@@ -336,9 +337,9 @@ def test_keyword_queries_match_the_keyword_overlay(ctx, db, slugs):
 @live
 def test_keyword_region_and_catalogue_match_the_overlay(ctx, db):
     """The page finds a keyword's region siblings by the same rule as
-    views.region_of, then counts their films with region_films."""
-    from rewatchables.app.overlays.keyword import keyword_profile
-    from views import region_of
+    presentation.region_of, then counts their films with region_films."""
+    from rewatchables.overlays.keyword import keyword_profile
+    from rewatchables.presentation import region_of
 
     vocabulary = [r["word"] for r in run(db, "keywords")]
     regional = [w for w, n in sorted(ctx.reach.items()) if n >= LINK_FLOOR and region_of(w)][::15]
@@ -358,8 +359,8 @@ def test_keyword_region_and_catalogue_match_the_overlay(ctx, db):
 
 @live
 def test_person_queries_match_the_hosts_lookup(ctx, db):
-    from rewatchables.app.analysis import LEAN_Q, person_shelf
-    from rewatchables.app.sections.hosts import (
+    from rewatchables.analysis import LEAN_Q, person_shelf
+    from rewatchables.sections.hosts import (
         regular_leans, sits_with, the_room, verdict_tally,
     )
 
@@ -385,7 +386,7 @@ def test_person_queries_match_the_hosts_lookup(ctx, db):
 
 @live
 def test_hosts_queries_match_the_section(ctx, db):
-    from rewatchables.app.sections.hosts import BENCH_FLOOR, the_room, without_anchor
+    from rewatchables.sections.hosts import BENCH_FLOOR, the_room, without_anchor
 
     _, _, board = the_room(ctx.merged)
     assert [p["name"] for p in run(db, "bench", BENCH_FLOOR)] == \
@@ -399,11 +400,11 @@ def test_hosts_queries_match_the_section(ctx, db):
 
 @live
 def test_spotlight_queries_match_directors_and_actors(ctx, db, slugs):
-    from rewatchables.app.analysis import films_by_actor, films_by_director
-    from rewatchables.app.sections.actors import (
+    from rewatchables.analysis import films_by_actor, films_by_director
+    from rewatchables.sections.actors import (
         directors_returned_to, ranked_actors, top_actors,
     )
-    from rewatchables.app.sections.directors import (
+    from rewatchables.sections.directors import (
         actors_brought_back, ranked_directors, top_directors,
     )
 
@@ -431,7 +432,7 @@ def test_spotlight_queries_match_directors_and_actors(ctx, db, slugs):
 
 @live
 def test_section_queries_match_their_frames(ctx, db, slugs):
-    from rewatchables.app.sections.boxoffice import money_table
+    from rewatchables.sections.boxoffice import money_table
 
     assert [r["slug"] for r in run(db, "money_table")] == \
         [slugs[m] for m in money_table(ctx.movies)["movie_id"]]
@@ -454,8 +455,8 @@ def section(db, name):
 
 @live
 def test_overview_numbers_are_the_apps(ctx, db, slugs):
-    from rewatchables.app.sections.overview import came_back_to, show_now
-    from rewatchables.app.state import APP_ONLY, SITE_SLUGS, SLUGS
+    from rewatchables.sections.overview import came_back_to, show_now
+    from rewatchables.sections import APP_ONLY, SITE_SLUGS, SLUGS
 
     ov = section(db, "overview")
     now = show_now(ctx.episodes, ctx.merged, ctx.movies)

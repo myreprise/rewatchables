@@ -1,6 +1,6 @@
 """
 Tests for the upcoming-films path: 13_build_upcoming.py, the presentation
-helpers in views.py, and the section in app.py.
+helpers in rewatchables/presentation.py, and the section in app.py.
 
 The regression that matters most here is the overlap rule. A requested film that
 becomes a real episode has to stop appearing on the list — and, just as
@@ -20,13 +20,11 @@ from pathlib import Path
 
 import pytest
 
-import views
-from rewatchables import keys
+from rewatchables import keys, presentation
 from rewatchables.pipeline import convert_xlsx_to_csv as convert
 from rewatchables.pipeline import s13_build_upcoming as up
 
 ROOT = Path(__file__).parent.parent
-
 
 # ---------------------------------------------------------------------------
 # Business key and ids
@@ -61,7 +59,6 @@ class TestBusinessKey:
         assert (keys.make_upcoming_id("Heat", "1987")
                 != keys.make_episode_id("Heat", "1987", "Heat"))
 
-
 # ---------------------------------------------------------------------------
 # Year parsing — the guard that stops a TV series matching a film
 # ---------------------------------------------------------------------------
@@ -88,7 +85,6 @@ class TestParseYear:
         assert tmdb_id is None
         assert method == "unresolved_no_year"
         assert networked is False
-
 
 # ---------------------------------------------------------------------------
 # The source reshape
@@ -131,10 +127,9 @@ class TestUpcomingReshape:
         assert out["contributor"].iloc[0] == "u/x"
 
     def test_entry_name_is_dropped(self):
-        """A sort key, not a name — derived by views.sort_title instead."""
+        """A sort key, not a name — derived by presentation.sort_title instead."""
         out = convert.upcoming_reshape(self._frame(justification_1="x"))
         assert "entry_name" not in out.columns
-
 
 # ---------------------------------------------------------------------------
 # The conversion phase — the xlsx is the source of truth
@@ -145,7 +140,6 @@ def write_xlsx(path, rows):
     import pandas as pd
     pd.DataFrame(rows).to_excel(path, index=False)
     return path
-
 
 class TestRefreshFromXlsx:
     def test_the_csv_is_regenerated_from_the_xlsx(self, tmp_path):
@@ -236,13 +230,11 @@ class TestRefreshFromXlsx:
         assert conn.execute(
             "SELECT title FROM curated_upcoming_films").fetchone()[0] == "Amadeus"
 
-
 # ---------------------------------------------------------------------------
 # The load
 # ---------------------------------------------------------------------------
 
 SOURCE_HEADER = "title,year,contributor,mention_note,pitch_tags\n"
-
 
 @pytest.fixture
 def db(tmp_path):
@@ -264,7 +256,6 @@ def db(tmp_path):
     conn.close()
     return path
 
-
 def seed_movie(db, tmdb_id, title, year, movie_id=None):
     """One aired film in the catalogue."""
     movie_id = movie_id or str(uuid.uuid4())
@@ -276,7 +267,6 @@ def seed_movie(db, tmdb_id, title, year, movie_id=None):
     conn.commit()
     conn.close()
     return movie_id
-
 
 def seed_search(db, title, year, tmdb_id, cand_title=None, cand_year=None):
     """A tmdb_search_cache hit, so resolution never reaches the network."""
@@ -300,12 +290,10 @@ def seed_search(db, title, year, tmdb_id, cand_title=None, cand_year=None):
     conn.commit()
     conn.close()
 
-
 def write_source(tmp_path, rows):
     path = tmp_path / "upcoming.csv"
     path.write_text(SOURCE_HEADER + "".join(rows), encoding="utf-8")
     return path
-
 
 def run_build(db, csv_path, monkeypatch, xlsx_path=None):
     """Build against a fixture CSV.
@@ -322,7 +310,6 @@ def run_build(db, csv_path, monkeypatch, xlsx_path=None):
     monkeypatch.setattr(up, "SOURCE_CSV", csv_path)
     monkeypatch.setattr(up.time, "sleep", lambda *_: None)
     return up.build(str(db))
-
 
 class TestLoad:
     def test_rows_land_in_the_raw_zone(self, db, tmp_path, monkeypatch):
@@ -387,7 +374,6 @@ class TestLoad:
         conn = sqlite3.connect(db)
         assert conn.execute(
             "SELECT COUNT(*) FROM raw_ingest_runs").fetchone()[0] == 0
-
 
 # ---------------------------------------------------------------------------
 # THE OVERLAP RULE — the regression this whole section exists to protect
@@ -482,7 +468,6 @@ class TestOverlapRule:
         assert conn.execute(
             "SELECT COUNT(*) FROM v_upcoming_pending").fetchone()[0] == 1
 
-
 # ---------------------------------------------------------------------------
 # Build details
 # ---------------------------------------------------------------------------
@@ -541,22 +526,21 @@ class TestBuild:
             "SELECT year_raw, year FROM curated_upcoming_films").fetchone() \
             == ("1997-2003", None)
 
-
 # ---------------------------------------------------------------------------
 # Presentation helpers
 # ---------------------------------------------------------------------------
 
 class TestViews:
     def test_tags_split_on_commas(self):
-        assert views.parse_tags("1980s, John Carpenter, Kurt Russell") == [
+        assert presentation.parse_tags("1980s, John Carpenter, Kurt Russell") == [
             "1980s", "John Carpenter", "Kurt Russell"]
 
     def test_tags_are_deduplicated_case_insensitively(self):
-        assert views.parse_tags("1980s, 1980S") == ["1980s"]
+        assert presentation.parse_tags("1980s, 1980S") == ["1980s"]
 
     def test_no_tags_is_an_empty_list(self):
-        assert views.parse_tags(None) == []
-        assert views.parse_tags("") == []
+        assert presentation.parse_tags(None) == []
+        assert presentation.parse_tags("") == []
 
     @pytest.mark.parametrize("title,expected", [
         ("The Blind Side", "Blind Side, The"),
@@ -566,27 +550,26 @@ class TestViews:
         ("Theodore Rex", "Theodore Rex"),      # not the article "The"
     ])
     def test_sort_title(self, title, expected):
-        assert views.sort_title(title) == expected
+        assert presentation.sort_title(title) == expected
 
     def test_a_handle_links_to_the_user(self):
-        assert views.contributor_link("u/lovegun59") == (
+        assert presentation.contributor_link("u/lovegun59") == (
             "u/lovegun59", "https://www.reddit.com/user/lovegun59")
 
     def test_a_url_links_to_the_thread(self):
-        label, href = views.contributor_link("https://reddit.com/r/x/comments/y")
+        label, href = presentation.contributor_link("https://reddit.com/r/x/comments/y")
         assert label == "reddit thread"
         assert href == "https://reddit.com/r/x/comments/y"
 
     def test_no_contributor_is_none(self):
-        assert views.contributor_link("") == (None, None)
-        assert views.contributor_link("nan") == (None, None)
+        assert presentation.contributor_link("") == (None, None)
+        assert presentation.contributor_link("nan") == (None, None)
 
     def test_every_resolution_method_has_a_note(self):
         """The section prints one for each; a missing key is a blank line."""
         methods = {"unresolved_no_year", "unresolved_no_match",
                    "unresolved_low_confidence", "unresolved_error"}
-        assert methods <= set(views.RESOLUTION_NOTE)
-
+        assert methods <= set(presentation.RESOLUTION_NOTE)
 
 # ---------------------------------------------------------------------------
 # The app section

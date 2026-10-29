@@ -3,8 +3,10 @@ Rewatchables Explorer — Streamlit EDA app.
 
 The entry point Streamlit runs. It loads the data once, draws the nav rail,
 and hands off to an overlay or a section. Everything it calls lives in
-rewatchables.app: the theme, the loaders, the session state, the components,
-the analysis helpers, the three overlays and one module per section.
+rewatchables.app: the theme, the cached loaders, the session state, the
+components, the three overlays and one module per section. The numbers and
+figures those draw come from the Streamlit-free modules around it
+(rewatchables.sections, .analysis, .figures), which step 15 also calls.
 """
 
 import sqlite3
@@ -14,18 +16,17 @@ import streamlit as st
 
 from rewatchables import config
 from rewatchables.app import theme
-from rewatchables.app.analysis import person_shelf
+from rewatchables.analysis import person_shelf
 from rewatchables.app.components import rings_svg
 from rewatchables.app.context import build_context
-from rewatchables.app.data import DB_PATH, stamp
+from rewatchables.data import DB_PATH, stamp
 from rewatchables.app.overlays.dossier import render_dossier
 from rewatchables.app.overlays.keyword import render_keyword
 from rewatchables.app.overlays.prospect import render_prospect
 from rewatchables.app.sections import RENDERERS
-from rewatchables.app.state import (
-    DEFAULT_SECTION, NAV, kept, pick_section, seed_from_url,
-)
-from views import ANCHOR, room_long, stale_notice
+from rewatchables.app.state import kept, pick_section, seed_from_url
+from rewatchables.sections import DEFAULT_SECTION, NAV
+from rewatchables.presentation import ANCHOR, room_long, stale_notice
 
 # ── Config ────────────────────────────────────────────────────────────────────
 

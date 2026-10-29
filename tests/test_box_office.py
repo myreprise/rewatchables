@@ -21,9 +21,9 @@ from pathlib import Path
 import pytest
 
 from conftest import goto
-from views import (
-    BREAK_EVEN_MULTIPLE, CPI_BASE_YEAR, CPI_PROVISIONAL_FROM, CPI_U,
-    money, multiple, real_usd,
+from rewatchables.presentation import (
+    BREAK_EVEN_MULTIPLE, CPI_BASE_YEAR, CPI_PROVISIONAL_FROM, CPI_U, money, multiple,
+    real_usd,
 )
 
 APP = Path(__file__).parent.parent / "app.py"

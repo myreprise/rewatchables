@@ -10,8 +10,8 @@ import streamlit as st
 
 from rewatchables import images
 from rewatchables.app.state import open_dossier, open_keyword
-from rewatchables.app.theme import MINT
-from views import LINK_FLOOR, keyword_chip, rank_by_reach
+from rewatchables.palette import MINT
+from rewatchables.presentation import LINK_FLOOR, keyword_chip, rank_by_reach
 
 
 def rings_svg(css_class="rw-watermark", color=MINT):

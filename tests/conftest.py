@@ -1,9 +1,9 @@
 """
 Shared pytest configuration.
 
-The repo root and src/ are put on the import path by `pythonpath` in
-pyproject.toml, so test files import views and the rewatchables package
-directly, under plain `pytest` as well as `python -m pytest`.
+src/ is put on the import path by `pythonpath` in pyproject.toml, so test
+files import the rewatchables package directly, under plain `pytest` as well as
+`python -m pytest`, with or without the editable install.
 """
 
 import functools
@@ -12,7 +12,7 @@ import re
 
 import pytest
 
-from rewatchables.app.state import NAV
+from rewatchables.sections import NAV
 
 # ── The `app` marker ──────────────────────────────────────────────────────────
 # A test that drives app.py through Streamlit's AppTest costs seconds rather

@@ -1,7 +1,5 @@
 """Films listeners have put forward, before they have an episode."""
 
-from collections import Counter
-
 import pandas as pd
 import streamlit as st
 
@@ -9,45 +7,10 @@ from rewatchables import images
 from rewatchables.app.components import masthead, tape
 from rewatchables.app.overlays.prospect import prospect_card, why_html
 from rewatchables.app.state import keep, open_dossier
-from views import RESOLUTION_NOTE, html, keyword_chip, stat_tile
-
-
-# Requests whose full "why" is shown under the grid.
-WHY_SHOWN = 12
-# Tags in "The angles people pitch".
-TOP_TAGS = 24
-
-
-def queue_summary(upcoming_df, graduated_df):
-    """The section's headline numbers."""
-    years = upcoming_df["year"].dropna()
-    return {
-        "in_contention": len(upcoming_df),
-        "already_made": len(graduated_df),
-        "first_year": int(years.min()) if len(years) else None,
-        "last_year": int(years.max()) if len(years) else None,
-        "contributors": int(upcoming_df["contributor"].dropna().nunique()),
-        "matched": int(upcoming_df["resolved"].sum()),
-        "with_note": int(upcoming_df["mention_note"].notna().sum()),
-        "with_tags": int(upcoming_df["pitch_tags"].notna().sum()),
-    }
-
-
-def tag_counts(upcoming_df):
-    """Pitch tag -> requests carrying it."""
-    return Counter(t for tags in upcoming_df["tags"] for t in tags)
-
-
-def shared_tags(upcoming_df):
-    """The tags on more than one request, alphabetically. A tag with a single
-    film is a caption, not an axis -- it filters the grid down to the card you
-    would have had to already be looking at to pick it."""
-    return sorted(t for t, n in tag_counts(upcoming_df).items() if n > 1)
-
-
-def unmatched(upcoming_df):
-    """The requests with no TMDB match."""
-    return upcoming_df[~upcoming_df["resolved"]]
+from rewatchables.presentation import RESOLUTION_NOTE, html, keyword_chip, stat_tile
+from rewatchables.sections.upcoming import (
+    TOP_TAGS, WHY_SHOWN, queue_summary, shared_tags, tag_counts, unmatched,
+)
 
 
 def render(ctx):

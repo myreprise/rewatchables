@@ -20,7 +20,7 @@ def requested_slugs(upcoming_df):
     """
     from collections import Counter
 
-    from views import slugify
+    from rewatchables.presentation import slugify
 
     out, taken = {}, Counter()
     for r in upcoming_df.sort_values("source_row_number", kind="mergesort").itertuples():
@@ -32,8 +32,8 @@ def requested_slugs(upcoming_df):
 
 def why(row):
     """The reason a film is on the list, and who put it there, as fields:
-    views.contributor_link decides the label and the link, as in the app."""
-    from views import clean, contributor_link
+    presentation.contributor_link decides the label and the link, as in the app."""
+    from rewatchables.presentation import clean, contributor_link
 
     label, href = contributor_link(row.get("contributor"))
     return {
@@ -64,7 +64,7 @@ def request_row(row, slug):
 
 def requested_page(row, slug):
     """Everything one requested film's page shows."""
-    from views import RESOLUTION_NOTE, clean
+    from rewatchables.presentation import RESOLUTION_NOTE, clean
 
     return {
         **request_row(row, slug),
@@ -84,10 +84,10 @@ def requested_page(row, slug):
 def upcoming(ctx, addresses):
     """The section's numbers, with every request, graduate and unmatched one."""
     from rewatchables import images
-    from rewatchables.app.sections.upcoming import (
+    from rewatchables.sections.upcoming import (
         TOP_TAGS, WHY_SHOWN, queue_summary, shared_tags, tag_counts, unmatched,
     )
-    from views import RESOLUTION_NOTE
+    from rewatchables.presentation import RESOLUTION_NOTE
 
     pending, graduated = ctx.upcoming, ctx.graduated
     if not len(pending) and not len(graduated):

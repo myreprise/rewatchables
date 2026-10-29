@@ -1,9 +1,10 @@
 """
-Presentation helpers for the views in app.py.
+Presentation helpers shared by the app and the site export.
 
 These are the parts of the dossier and the keyword index that turn database
-values into markup, kept free of Streamlit so they can be tested directly.
-Everything here is pure: given the same input it returns the same string.
+values into labels, links and markup, kept free of Streamlit so step 15 can
+call them and they can be tested directly. Everything here is pure: given the
+same input it returns the same string.
 
 The Hosts & Guests section's room statistics live here too, for the same
 reason: they are the part of that section that can be wrong quietly, and a

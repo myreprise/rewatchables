@@ -8,7 +8,7 @@ in the app.
 
 def chip(word, reach, addresses):
     """A keyword chip: its reach, its weight band, and its page if it has one."""
-    from views import chip_band
+    from rewatchables.presentation import chip_band
 
     n = reach.get(word, 0)
     return {"word": word, "reach": n, "band": chip_band(n), "id": addresses.keyword(word)}
@@ -17,10 +17,10 @@ def chip(word, reach, addresses):
 def keywords_index(ctx, addresses):
     """The Keywords section: headline counts, bands, the vocabulary for search,
     and each decade's signature."""
-    from rewatchables.app.sections.keywords import (
+    from rewatchables.sections.keywords import (
         reach_bands, signature_by_decade, vocabulary,
     )
-    from views import BROWSE_FLOOR
+    from rewatchables.presentation import BROWSE_FLOOR
 
     reach = ctx.reach
     vocab = vocabulary(reach, ctx.movies)

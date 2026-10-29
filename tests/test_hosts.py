@@ -1,8 +1,8 @@
 """
 Tests for the Hosts & Guests section.
 
-Three kinds of check. The room helpers in views.py, on small hand-built frames
-where the right answer is obvious. The premises the section's design rests on,
+Three kinds of check. The room helpers in rewatchables/presentation.py, on
+small hand-built frames where the right answer is obvious. The premises the section's design rests on,
 read from the live database: that one person is on nearly every episode (the
 reason he is left out of every grouping), that the episode number is not a
 per-airing key (the reason the room is keyed on raw_episode_id), and that no
@@ -18,10 +18,9 @@ import pandas as pd
 import pytest
 
 from conftest import goto
-from views import (
-    ANCHOR, appearances_by_year, bench, bh_adjust, co_appearances,
-    lean_phrase, lean_value, lineups, permutation_diffs, person_name,
-    room_long,
+from rewatchables.presentation import (
+    ANCHOR, appearances_by_year, bench, bh_adjust, co_appearances, lean_phrase,
+    lean_value, lineups, permutation_diffs, person_name, room_long,
 )
 
 DB_PATH = Path(__file__).parent.parent / "rewatchables.db"

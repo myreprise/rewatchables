@@ -18,8 +18,8 @@ from unittest.mock import MagicMock, patch
 import pandas as pd
 import pytest
 
-from rewatchables.app.analysis import explode_cast
-from rewatchables.app.data import gender_from_people
+from rewatchables.analysis import explode_cast
+from rewatchables.data import gender_from_people
 from rewatchables.pipeline import s09_enrich_metadata as mod
 
 ROOT = Path(__file__).parent.parent

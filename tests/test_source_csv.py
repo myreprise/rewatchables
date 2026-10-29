@@ -27,7 +27,7 @@ from rewatchables import keys
 from rewatchables.pipeline import convert_xlsx_to_csv as convert_mod
 from rewatchables.pipeline import s01_render_source as step01
 from rewatchables.pipeline import s02_load_raw as load_raw
-from views import stale_notice
+from rewatchables.presentation import stale_notice
 
 
 read_source = load_raw.read_source
@@ -48,7 +48,7 @@ class TestVerbatimRead:
         p.write_text("ep,title,guest2\n1,Heat,\n", encoding="utf-8")
         df = read_source(p)
         # The xlsx path produced the literal three-letter string 'nan' here,
-        # which then had to be filtered out again in views.clean().
+        # which then had to be filtered out again in presentation.clean().
         assert df["guest2"][0] == ""
 
     def test_integer_year_keeps_no_decimal_point(self, tmp_path):

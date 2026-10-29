@@ -7,17 +7,18 @@ frames the caller hands in.
 """
 
 import pandas as pd
-import plotly.express as px
 import streamlit as st
 
-from rewatchables.app.analysis import explode_cast, explode_genres, person_stats
-from rewatchables.app.charts import (
-    GENDER_COLOUR, _leaderboard_fig, fold_counts, per_database, plotly_defaults,
+from rewatchables.analysis import person_stats
+from rewatchables.app.charts import per_database
+from rewatchables.figures import (
+    _leaderboard_fig,
 )
 from rewatchables.app.components import film_card, ranked_list, stat_tiles, tape
-from rewatchables.app.data import GENDER_LABEL
-from rewatchables.app.theme import INK, INK_2, MINT_DEEP, TAPE
-from views import lean_phrase
+from rewatchables.data import GENDER_LABEL
+from rewatchables.palette import MINT_DEEP
+from rewatchables.presentation import lean_phrase
+from rewatchables.figures import gender_leaderboard_figs, spotlight_figures
 
 
 # ── Shared people-section components ──────────────────────────────────────────
@@ -40,21 +41,6 @@ def people_leaderboard(counts, name_col, title, colour=MINT_DEEP, cache_key=None
 
     fig = per_database(cache_key, db_stamp, build) if cache_key else build()
     st.plotly_chart(fig, use_container_width=True)
-
-
-def gender_leaderboard_figs(df, gender_map, top_n=15, genders=("M", "F")):
-    """{gender: (actors counted, figure)}, for the genders with anyone, every
-    figure on one shared x-axis."""
-    ranked = {g: explode_cast(df, top_n=top_n, gender=g, gender_map=gender_map).rename(
-        columns={"count": "films"}) for g in genders}
-    present = [g for g in genders if not ranked[g].empty]
-    if not present:
-        return {}
-    xmax = max(ranked[g]["films"].max() for g in present)
-    return {g: (len(explode_cast(df, top_n=100_000, gender=g,
-                                 gender_map=gender_map)),
-                _leaderboard_fig(ranked[g], "actor", GENDER_COLOUR[g], xmax=xmax))
-            for g in present}
 
 
 def gender_split_leaderboards(df, title, gender_map, top_n=15,
@@ -108,33 +94,6 @@ def lean_chips(rows):
         f"{lean_phrase(r.metric, r.mean_in, r.mean_out, r.diff)}</span>"
         for r in rows.sort_values(["q", "metric"], kind="mergesort").itertuples()
     )
-
-
-def spotlight_figures(films):
-    """The spotlight's two charts for one person's films: genre mix and decades."""
-    ordered = films.sort_values("year")
-    g = explode_genres(ordered)["genre"].value_counts().reset_index()
-    g.columns = ["genre", "count"]
-    g, cmap, order = fold_counts(g, "genre", "count")
-    genres = px.pie(
-        g, values="count", names="genre", color="genre",
-        color_discrete_map=cmap, category_orders={"genre": order}, hole=0.45,
-    )
-    genres.update_layout(paper_bgcolor=INK, font_color=TAPE, legend_bgcolor=INK_2,
-                         height=270, margin=dict(t=10, b=10, l=10, r=10),
-                         showlegend=False)
-    genres.update_traces(textinfo="label+percent", textfont_size=10)
-
-    dec = (ordered["year"].dropna() // 10 * 10).astype(int).value_counts().sort_index()
-    decades = px.bar(
-        x=[f"{d}s" for d in dec.index], y=dec.to_numpy(),
-        color_discrete_sequence=[MINT_DEEP], text=dec.to_numpy(),
-    )
-    decades.update_traces(textposition="outside", cliponaxis=False)
-    decades.update_layout(height=270, margin=dict(t=10, b=10, l=10, r=10),
-                          xaxis_title="", yaxis_title="", yaxis_visible=False)
-    plotly_defaults(decades)
-    return {"genres": genres, "decades": decades}
 
 
 def person_spotlight(films, key, collab_title, collab_pairs, collab_empty,

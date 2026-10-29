@@ -9,8 +9,10 @@ import numpy as np
 import pandas as pd
 
 from rewatchables import images
-from rewatchables.app.data import build_keyword_index
-from views import ANCHOR, LINK_FLOOR, film_slugs, name_slugs, room_long
+from rewatchables.data import keyword_index
+from rewatchables.presentation import (
+    ANCHOR, LINK_FLOOR, film_slugs, name_slugs, room_long,
+)
 
 # The overview's spotlight blurb is cut to this many characters, as in the app.
 BLURB_CHARS = 320
@@ -99,7 +101,7 @@ def prepare(ctx):
     if "slug" not in movies.columns:
         movies["slug"] = movies["movie_id"].map(film_slugs(movies))
     movies = movies.sort_values(["year", "slug"], kind="mergesort").reset_index(drop=True)
-    keywords = build_keyword_index(movies)
+    keywords = keyword_index(movies)
     reach = {word: len(ids) for word, ids in keywords.items()}
     slugs = dict(zip(movies["movie_id"], movies["slug"]))
 
@@ -125,8 +127,8 @@ def prepare(ctx):
                .drop(columns="_film").reset_index(drop=True)),
     )
 
-    from rewatchables.app.sections.actors import actor_stats
-    from rewatchables.app.sections.directors import director_stats
+    from rewatchables.sections.actors import actor_stats
+    from rewatchables.sections.directors import director_stats
 
     room = room_long(ctx.merged, "raw_episode_id")
     people = set(room["person"]) - {ANCHOR}

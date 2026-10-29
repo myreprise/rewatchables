@@ -1,56 +1,19 @@
 """The per-film dossier: identity, episodes, the film, provenance."""
 
-from collections import Counter
-
 import pandas as pd
 import streamlit as st
 
 from rewatchables import images
-from rewatchables.app.components import (
-    keyword_row, rings_svg, shelf, tape,
-)
+from rewatchables.app.components import keyword_row, rings_svg, shelf, tape
 from rewatchables.app.category_cards import render_film_block
 from rewatchables.app.state import (
-    DEFAULT_SECTION, SECTION_LABEL, close_dossier, open_dossier, open_person,
-    resolve_section,
+    close_dossier, open_dossier, open_person, resolve_section,
 )
-from views import (
-    ANCHOR, CPI_BASE_YEAR, ROOM, clean, html, human_gap, money, plain, stars,
-    stat_tile,
+from rewatchables.sections import DEFAULT_SECTION, SECTION_LABEL
+from rewatchables.presentation import (
+    ANCHOR, CPI_BASE_YEAR, ROOM, clean, html, human_gap, money, plain, stars, stat_tile,
 )
-
-
-# The three lookups below are functions rather than lines in render_dossier()
-# because the public site's film pages (pipeline step 15) show the same shelves.
-
-def cast_billing(movies_df):
-    """How many films each name is top-five billed in, across the catalogue."""
-    billing = Counter()
-    for names in movies_df["cast_names"]:
-        for name in (names[:5] if isinstance(names, list) else []):
-            billing[name] += 1
-    return billing
-
-
-def same_director(movies_df, movie):
-    """The other films by this film's primary director, oldest first."""
-    return movies_df[
-        (movies_df["director_primary"] == movie["director_primary"])
-        & (movies_df["movie_id"] != movie["movie_id"])
-    ].sort_values("year")
-
-
-def shared_cast(movies_df, movie):
-    """Films sharing a top-billed name with this one, most-shared first."""
-    cast = set(movie["cast_names"][:5]) if movie["cast_names"] else set()
-    if not cast:
-        return movies_df.iloc[0:0]
-    overlap = movies_df[movies_df["movie_id"] != movie["movie_id"]].copy()
-    overlap["shared"] = overlap["cast_names"].apply(
-        lambda names: len(cast & set(names[:5])) if isinstance(names, list) else 0
-    )
-    return overlap[overlap["shared"] > 0].sort_values(
-        ["shared", "year"], ascending=[False, True])
+from rewatchables.overlays.dossier import cast_billing, same_director, shared_cast
 
 
 def render_dossier(ctx, movie_id, siblings=None):

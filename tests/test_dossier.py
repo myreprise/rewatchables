@@ -21,7 +21,7 @@ from pathlib import Path
 import pytest
 
 from conftest import NAV_GROUPS, film_count, goto
-from views import clean, html, human_gap, stars, stat_tile
+from rewatchables.presentation import clean, html, human_gap, stars, stat_tile
 
 DB_PATH = Path(__file__).parent.parent / "rewatchables.db"
 

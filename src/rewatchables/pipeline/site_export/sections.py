@@ -26,7 +26,7 @@ def figures_json(figs):
 # ── Ratings ───────────────────────────────────────────────────────────────────
 
 def ratings(ctx, addresses):
-    from rewatchables.app.sections.ratings import divergence, figures
+    from rewatchables.sections.ratings import divergence, figures
 
     def rows(frame):
         return [{**film_link(r.movie_id, addresses, r.title, r.year),
@@ -45,10 +45,10 @@ def ratings(ctx, addresses):
 # ── Box Office ────────────────────────────────────────────────────────────────
 
 def boxoffice(ctx, addresses):
-    from rewatchables.app.sections.boxoffice import (
-        figures, money_table, returns, summary,
+    from rewatchables.sections.boxoffice import figures, money_table, returns, summary
+    from rewatchables.presentation import (
+        BREAK_EVEN_MULTIPLE, CPI_BASE_YEAR, CPI_PROVISIONAL_FROM, money,
     )
-    from views import BREAK_EVEN_MULTIPLE, CPI_BASE_YEAR, CPI_PROVISIONAL_FROM, money
 
     s = summary(ctx.movies)
 
@@ -99,7 +99,7 @@ def boxoffice(ctx, addresses):
 # ── Timeline & Revisits ───────────────────────────────────────────────────────
 
 def timeline(ctx, addresses):
-    from rewatchables.app.sections.timeline import (
+    from rewatchables.sections.timeline import (
         figures, oldest_discussed, revisited_films,
     )
 
@@ -117,7 +117,7 @@ def timeline(ctx, addresses):
 # ── Genres ────────────────────────────────────────────────────────────────────
 
 def genres(ctx, addresses):
-    from rewatchables.app.sections.genres import SHELF, figures
+    from rewatchables.sections.genres import SHELF, figures
 
     # The "Browse by genre" shelf filters films.json in the browser; only its
     # length is set here.
@@ -128,8 +128,8 @@ def genres(ctx, addresses):
 
 def verdicts(ctx, addresses):
     from rewatchables import images
-    from rewatchables.app.analysis import VERDICT_FLOOR
-    from rewatchables.app.sections.verdicts import (
+    from rewatchables.analysis import VERDICT_FLOOR
+    from rewatchables.sections.verdicts import (
         GENRE_VERDICTS, RUN_START, STREAKS_SHOWN, figures, films_with, guest_split,
         rail_films, running_margin, standing, streaks, tale_of_the_tape,
     )
@@ -180,12 +180,12 @@ def verdicts(ctx, addresses):
 
 def hosts(ctx, addresses):
     """The section around the lookup; the lookup itself is the person pages."""
-    from rewatchables.app.analysis import GENRE_FLOOR, LEAN_FLOOR, LEAN_Q, N_PERM
-    from rewatchables.app.sections.hosts import (
+    from rewatchables.analysis import GENRE_FLOOR, LEAN_FLOOR, LEAN_Q, N_PERM
+    from rewatchables.sections.hosts import (
         BENCH_FLOOR, RING_TOP, WHEN_TOP, anchor_share, figures, quiet_regulars,
         regular_leans, the_room, top_lineups, without_anchor,
     )
-    from views import ANCHOR, MEASURE_LABEL, lean_phrase, lean_value
+    from rewatchables.presentation import ANCHOR, MEASURE_LABEL, lean_phrase, lean_value
 
     eps = ctx.merged
     n_eps = len(eps)
@@ -269,8 +269,8 @@ def person_rows(stats, name_col, link):
 
 
 def directors(ctx, addresses):
-    from rewatchables.app.sections.directors import (
-        figures, director_counts, ranked_directors, top_directors, volume_reception,
+    from rewatchables.sections.directors import (
+        director_counts, figures, ranked_directors, top_directors, volume_reception,
     )
 
     counts = director_counts(ctx.rated)
@@ -293,9 +293,9 @@ def directors(ctx, addresses):
 
 
 def actors(ctx, addresses):
-    from rewatchables.app.data import GENDER_LABEL
-    from rewatchables.app.panels import gender_leaderboard_figs
-    from rewatchables.app.sections.actors import (
+    from rewatchables.data import GENDER_LABEL
+    from rewatchables.figures import gender_leaderboard_figs
+    from rewatchables.sections.actors import (
         GENDER_TOP, NAMED_FROM, cast_counts, figures, gender_credits, gender_peaks,
         has_genders, ranked_actors, top_actors, volume_reception,
     )

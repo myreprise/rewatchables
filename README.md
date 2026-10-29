@@ -131,7 +131,8 @@ visitor's browser. See `site/README.md`.
 
 Step 15 writes that database as `site/src/data/site.sql`, a sorted SQL dump
 (one row per line, so a new episode is a small diff), plus the synopses, using
-the app's own functions, so the two front ends print the same numbers. It runs
+the same functions the app calls (`rewatchables.sections` and friends, none of
+which import Streamlit), so the two front ends print the same numbers. It runs
 at the end of every default pipeline run. Those files are committed, so GitHub
 needs neither this machine's database nor a TMDB key; the build turns the dump
 into `site.db`.
@@ -345,20 +346,24 @@ automatically (see `tests/conftest.py`). Most tests need a built
 rewatchables/
 ├── app.py                  Streamlit entry point: rail, overlays, dispatch
 ├── publish.bat             Double-click to run scripts/publish.py
-├── views.py                Streamlit-free presentation and statistics helpers
 ├── src/rewatchables/
 │   ├── config.py           Paths and settings, anchored to the repo root
 │   ├── http.py             The API steps' shared retry policy
 │   ├── keys.py             Business keys and deterministic ids
 │   ├── images.py           Local poster copies, and the <img> URL for one
 │   ├── publish.py          Pipeline, checks, commit and push in one command
-│   ├── pipeline/           orchestrate.py, s01_…s15_*.py, convert_xlsx_to_csv.py
-│   └── app/                The explorer, in parts
-│       ├── theme.py, theme.css      Palette and stylesheet
-│       ├── data.py, context.py      Loaders, and the Ctx every renderer is handed
-│       ├── state.py                 Nav rail, overlay callbacks, URL seeding, keep/kept
-│       ├── components.py, charts.py, panels.py   Cards, figures, shared panels
-│       ├── analysis.py              Frames in, numbers out
+│   ├── pipeline/           orchestrate.py, s01_…s17_*.py, convert_xlsx_to_csv.py
+│   ├── data.py, context.py Loaders, and the Ctx every section is handed
+│   ├── analysis.py         Frames in, numbers out
+│   ├── presentation.py     Labels, links, money and the room statistics
+│   ├── palette.py, figures.py, plotly_template.json   Colours and Plotly figures
+│   ├── sections/           NAV, and one module per section: its numbers and figures
+│   ├── overlays/           The numbers behind the film dossier and keyword pages
+│   └── app/                The Streamlit explorer, rendering only
+│       ├── theme.py, theme.css      Stylesheet
+│       ├── data.py, context.py      The loaders, cached per database
+│       ├── state.py                 Overlay callbacks, URL seeding, keep/kept
+│       ├── components.py, charts.py, panels.py   Cards, chart caching, shared panels
 │       ├── overlays/                dossier.py, keyword.py, prospect.py
 │       └── sections/                One module per rail section, each with render(ctx)
 ├── scripts/
@@ -383,14 +388,19 @@ rewatchables/
 └── pyproject.toml
 ```
 
+Nothing under `src/rewatchables/` outside `app/` imports Streamlit. The app and
+step 15 share it, which is how the site and the app print the same numbers.
+
 ### Adding a section
 
-1. Add its slug and label to `NAV` in `src/rewatchables/app/state.py`.
-2. Write `src/rewatchables/app/sections/<slug>.py` with a `render(ctx)`.
-3. Register it in `RENDERERS` in `sections/__init__.py`.
+1. Add its slug and label to `NAV` in `src/rewatchables/sections/__init__.py`.
+2. Put its numbers and figures in `src/rewatchables/sections/<slug>.py`, free of
+   Streamlit, so step 15 can ship them too.
+3. Write `src/rewatchables/app/sections/<slug>.py` with a `render(ctx)` that
+   draws them, and register it in `RENDERERS` in that package's `__init__.py`.
 
-`ctx` carries every frame the app reads; see `context.py`. The tests pick the
-new rail entry up from `NAV` on their own.
+`ctx` carries every frame the app reads; see `src/rewatchables/context.py`. The
+tests pick the new rail entry up from `NAV` on their own.
 
 ## API sources
 

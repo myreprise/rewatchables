@@ -23,7 +23,7 @@ from pathlib import Path
 import pytest
 
 from conftest import goto
-from views import (
+from rewatchables.presentation import (
     BROWSE_FLOOR, LINK_FLOOR, chip_band, decade_bars, keyword_chip, plain,
     rank_by_reach, region_of,
 )

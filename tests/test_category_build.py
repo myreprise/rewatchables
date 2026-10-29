@@ -243,17 +243,15 @@ class TestBuild:
 
 class TestLoader:
     def test_a_database_without_the_tables_loads_empty(self, tmp_path, monkeypatch):
-        from rewatchables.app import data
+        from rewatchables import data
         path = tmp_path / "old.db"
         sqlite3.connect(path).close()
         monkeypatch.setattr(data, "DB_PATH", path)
-        data.load_categories.clear()
         cats = data.load_categories("old")
         assert cats.entries.empty and cats.coverage["complete"] is False
-        data.load_categories.clear()
 
     def test_coverage_counts_the_episodes_still_to_come(self, built, tmp_path, monkeypatch):
-        from rewatchables.app import data
+        from rewatchables import data
         conn, _ = built
         wb = s16.start_load(conn, "workbook", None, "f", "h", 2)
         for slug, ep in [("made-up-film-apex-7", "made-up-film"), ("next-film-apex-1", "next-film")]:
@@ -262,9 +260,7 @@ class TestLoader:
                        "air_date": "2024-03-05", "payload": zlib.compress(b"[]")})
         conn.commit()
         monkeypatch.setattr(data, "DB_PATH", tmp_path / "t.db")
-        data.load_categories.clear()
         cov = data.load_categories("built").coverage
-        data.load_categories.clear()
         assert (cov["episodes_covered"], cov["episodes_known"], cov["complete"]) == (1, 2, False)
 
 
@@ -306,7 +302,7 @@ class TestSection:
         assert not at_categories.exception
 
     def test_it_says_how_much_it_covers_until_it_covers_everything(self, at_categories):
-        from rewatchables.app import data
+        from rewatchables import data
         complete = data.load_categories(DB_PATH.stat().st_mtime).coverage["complete"]
         assert ("Partial data." in _markdown(at_categories)) is (not complete)
 
@@ -380,7 +376,7 @@ def _mention(slug, name, d, location="answer", kind="person"):
 
 class TestTotals:
     def test_lifespans_keep_recurring_categories_only(self):
-        from rewatchables.app.sections import categories as sec
+        from rewatchables.sections import categories as sec
         spans = sec.lifespans(_cats([
             ("apex", "standing", "Apex Mountain", 480, "2016-12-23", "2026-10-05"),
             ("romo", "segment", "Tony Romo", 46, "2024-02-06", "2025-01-06"),
@@ -392,7 +388,7 @@ class TestTotals:
         assert spans.set_index("category_slug")["running"].to_dict() == {"apex": True, "romo": False}
 
     def test_axis_labels_are_short_and_distinct(self):
-        from rewatchables.app.sections import categories as sec
+        from rewatchables.sections import categories as sec
         assert sec.short_label("The Dion Waiters Award for Best Heat Check Performance") ==             "Dion Waiters Award for Best…"
         assert sec.short_label("Apex Mountain") == "Apex Mountain"
         spans = sec.lifespans(_cats([
@@ -404,14 +400,14 @@ class TestTotals:
 
     def test_the_fullest_name_is_shown(self):
         import pandas as pd
-        from rewatchables.app.sections import categories as sec
+        from rewatchables.sections import categories as sec
         m = pd.DataFrame([_mention("film-person:p", "Pacino", "a"), _mention("film-person:p", "Pacino", "b"),
                           _mention("film-person:p", "Al Pacino", "c")])
         assert sec.display_names(m) == {"film-person:p": "Al Pacino"}
 
     def test_ranking_skips_hosts_namesakes_and_mislinked_words(self):
         import pandas as pd
-        from rewatchables.app.sections import categories as sec
+        from rewatchables.sections import categories as sec
         entries = pd.DataFrame([
             {"discussion_slug": "d1", "rv_episode_slug": "e1", "category_slug": "winner", "banner": "Who Won the Movie?"},
             {"discussion_slug": "d2", "rv_episode_slug": "e2", "category_slug": "winner", "banner": "Who Won the Movie?"},
@@ -429,7 +425,7 @@ class TestTotals:
 
     def test_excluded_categories_are_left_out(self):
         import pandas as pd
-        from rewatchables.app.sections import categories as sec
+        from rewatchables.sections import categories as sec
         entries = pd.DataFrame([{"discussion_slug": "d1", "rv_episode_slug": "e1",
                                  "category_slug": "cruise-hanks", "banner": "Cruise or Hanks?"}])
         mentions = pd.DataFrame([_mention("film-person:tc", "Tom Cruise", "d1")])

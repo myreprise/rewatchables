@@ -32,14 +32,15 @@ dev = [
 where = ["src"]
 
 [tool.setuptools.package-data]
-# The stylesheet is read at runtime from beside theme.py.
-rewatchables = ["app/*.css"]
+# The stylesheet is read at runtime from beside theme.py, and the Plotly
+# template from beside figures.py.
+rewatchables = ["app/*.css", "plotly_template.json"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-# The repo root holds app.py and views.py; src/ holds the package, which the
-# tests then import with or without the editable install.
-pythonpath = [".", "src"]
+# src/ holds the package, which the tests then import with or without the
+# editable install. app.py, at the root, is driven through AppTest by path.
+pythonpath = ["src"]
 addopts = "--strict-markers"
 markers = [
     "app: drives app.py through Streamlit's AppTest; slow. Applied automatically in tests/conftest.py. Skip with -m \"not app\".",

@@ -1,5 +1,5 @@
 """
-Pure helpers in rewatchables.app.analysis that had no tests of their own.
+Pure helpers in rewatchables.analysis that had no tests of their own.
 
 explode_genres feeds five views (Overview, Genres, Ratings, Timeline and the
 person spotlight). Its shape was never pinned, so these were written against
@@ -9,7 +9,7 @@ record where the vectorised one deliberately differs.
 
 import pandas as pd
 
-from rewatchables.app.analysis import explode_genres
+from rewatchables.analysis import explode_genres
 
 
 def _films():

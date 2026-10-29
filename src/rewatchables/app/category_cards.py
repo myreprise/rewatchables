@@ -12,11 +12,9 @@ import pandas as pd
 import streamlit as st
 
 from rewatchables.app.components import tape
-from views import html, plain
+from rewatchables.presentation import html, plain
+from rewatchables.sections.categories import FAMILY_LABEL, day_label
 
-FAMILY_LABEL = {"standing": "Standing", "segment": "Segment",
-                "most_year": "The most…", "one_off": "One-off award"}
-FAMILY_ORDER = ["standing", "segment", "most_year", "one_off"]
 SOURCE_NOTE = ('From <a href="https://rewatchvault.com" target="_blank">rewatchvault.com</a>, '
                "an independent archive of The Rewatchables. Every entry links to its page there.")
 
@@ -52,13 +50,6 @@ def prose_html(text, spans):
         pos = end
     out.append(_esc(text[pos:]))
     return "".join(out)
-
-
-def day_label(iso):
-    if not iso or pd.isna(iso):
-        return "date unknown"
-    d = pd.Timestamp(iso)
-    return f"{d.day} {d:%b %Y}"   # %-d is glibc-only
 
 
 def episode_label(row):

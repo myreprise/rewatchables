@@ -12,11 +12,11 @@ SITE_PATH = {"explorer": "films"}
 
 def overview(ctx, addresses):
     """The front page: the headline tiles, the lists and the chart's reading."""
-    from rewatchables.app.sections.overview import (
+    from rewatchables.sections.overview import (
         came_back_to, doors, episodes_per_year, regulars, show_now,
     )
-    from rewatchables.app.state import APP_ONLY, NAV, SECTION_LABEL, SITE_SLUGS
-    from views import ANCHOR
+    from rewatchables.sections import APP_ONLY, NAV, SECTION_LABEL, SITE_SLUGS
+    from rewatchables.presentation import ANCHOR
 
     group_of = {slug: group for group, items in NAV for slug, _ in items}
 
@@ -85,7 +85,7 @@ def overview(ctx, addresses):
 
 def charts(ctx):
     """name -> Plotly figure as JSON, built by the app's own chart code."""
-    from rewatchables.app.sections.overview import episodes_per_year
+    from rewatchables.sections.overview import episodes_per_year
 
     fig, _ = episodes_per_year(ctx.episodes)
     return {"episodes-per-year": json.loads(fig.to_json())}
