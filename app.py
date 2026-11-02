@@ -1,5 +1,6 @@
 """
-Rewatchables Explorer — Streamlit EDA app.
+Rewatchables Explorer — Streamlit EDA app. Deprecated and feature-frozen: see
+reports/progress/035 and 038. New work goes to the public site's replacement.
 
 The entry point Streamlit runs. It loads the data once, draws the nav rail,
 and hands off to an overlay or a section. Everything it calls lives in
@@ -42,6 +43,8 @@ st.set_page_config(
 # workbook the pipeline actually renders. The database path comes from
 # config/.env the same way; see rewatchables.app.data.
 SOURCE_XLSX = config.path_setting("SOURCE_XLSX", "data/episodes.xlsx")
+
+PUBLIC_SITE = "https://myreprise.github.io/rewatchables/"
 
 # ── Theme ───────────────────────────────────────────────────────────────
 # The palette and the stylesheet live in rewatchables.app.theme; the CSS
@@ -134,6 +137,9 @@ _saved = (datetime.fromtimestamp(SOURCE_XLSX.stat().st_mtime, tz=timezone.utc)
 _notice = stale_notice(_saved, last_load_utc())
 if _notice:
     st.markdown(_notice, unsafe_allow_html=True)
+
+st.info(f"This app is frozen and will be removed. Everything but Categories "
+        f"is on the [public site]({PUBLIC_SITE}).")
 
 
 # ── Dossier overlay ───────────────────────────────────────────────────────────

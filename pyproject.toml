@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "rewatchables"
 version = "0.1.0"
-description = "Episode and film data pipeline for The Rewatchables podcast, with a Streamlit explorer"
+description = "Episode and film data pipeline for The Rewatchables podcast, with a deprecated Streamlit explorer"
 readme = "README.md"
 requires-python = ">=3.11"
 # Exact pins: this is an application, and these are the versions the test

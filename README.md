@@ -9,6 +9,12 @@ Summary Corpus, and builds a SQLite database, `rewatchables.db`. The explorer
 Revisited films are handled as one film with several airings, and every
 resolution decision is logged.
 
+**The Streamlit explorer is deprecated and feature-frozen.** It stays until
+Categories has a new home, then it is removed. The public site has everything
+else: <https://myreprise.github.io/rewatchables/>. See reports
+[035](reports/progress/035_streamlit_deprecation_proposal.md) and
+[038](reports/progress/038_fastapi_htmx_proposal.md).
+
 ## Quick start
 
 Requires Python 3.11 or later.
