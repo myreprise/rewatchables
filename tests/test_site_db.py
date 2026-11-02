@@ -385,6 +385,20 @@ def test_person_queries_match_the_hosts_lookup(ctx, db):
 
 
 @live
+def test_the_leans_do_not_depend_on_row_order(ctx):
+    # The site exports episodes sorted by airing and the app reads them in
+    # database order. On the same episodes the two must reach the same q-values:
+    # a lean near LEAN_Q otherwise shows in one and not in the other.
+    from rewatchables.sections.hosts import regular_leans, the_room
+
+    _, others, board = the_room(ctx.merged)
+    shuffled = ctx.merged.sample(frac=1, random_state=11)
+    _, _, leans = regular_leans(ctx.merged, others, board)
+    _, _, again = regular_leans(shuffled, others, board)
+    assert list(again["q"]) == list(leans["q"])
+
+
+@live
 def test_hosts_queries_match_the_section(ctx, db):
     from rewatchables.sections.hosts import BENCH_FLOOR, the_room, without_anchor
 

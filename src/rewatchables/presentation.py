@@ -542,8 +542,8 @@ def permutation_diffs(values, masks, n_perm=4000, seed=0):
     and the p-value.
 
     Every test draws its null from the same permutation matrix, so the result
-    is fixed by the seed and a rerun of the page never moves a p-value. The
-    +1 on both sides of the p-value keeps it off zero: 4,000 shuffles can
+    is fixed by the seed and the row order, so a rerun of the page never moves
+    a p-value but the same rows in another order can. The +1 on both sides of the p-value keeps it off zero: 4,000 shuffles can
     bound a p-value, not prove it is nil.
     """
     columns = ["person", "metric", "n", "mean_in", "mean_out", "diff", "p"]

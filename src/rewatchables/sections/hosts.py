@@ -43,8 +43,12 @@ def the_room(merged_df):
 def regular_leans(merged_df, others, board):
     """(regulars, tested, leans): the people on LEAN_FLOOR+ episodes, the
     genres common enough to test, and every regular against the rest of the
-    show on RT, film age and each of those genres."""
-    eps = merged_df
+    show on RT, film age and each of those genres.
+
+    Sorted by airing first, because the permutation test assigns its shuffles
+    by row position: the same episodes in another order are another draw, which
+    moves a p-value enough to carry a lean across LEAN_Q."""
+    eps = merged_df.sort_values(["episode_date", "episode_number"], kind="mergesort")
     regulars = board.index[board["episodes"] >= LEAN_FLOOR].tolist()
     reach = Counter(g for gs in eps["genres"] if isinstance(gs, list) for g in gs)
     tested = [g for g, n in reach.most_common() if n >= GENRE_FLOOR]
